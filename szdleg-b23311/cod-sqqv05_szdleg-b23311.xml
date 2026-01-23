@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 16</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 16</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="487"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-b23311"><!-- deleg-l5c16 -->
+        <head xml:id="szdleg-b23311-Hd1e101">Caput 16</head>
+        <head xml:id="szdleg-b23311-Hd1e103" type="question-title">De forma et materia in legibus tributorum servandis</head>
+        <p xml:id="szdleg-b23311-d1e106">
+          <lb ed="#P" n="85"/>CAPUT XVI.
+          <lb ed="#P" n="86"/>DE FORMA ET MATERIA IN LEGIBUS TRIBUTORUM
+          <lb ed="#P" n="87"/>SERVANDIS.
+        </p>
+        <p xml:id="szdleg-b23311-d1e115">
+          <lb ed="#P" n="88"/>1. Ad justitiam tributi necessariam esse
+          <lb ed="#P" n="89"/>formam, seu proportionem. — Tertia conditio
+          <lb ed="#P" n="90"/>ad justitiam tributi necessaria est forma , ut
+          <lb ed="#P" n="91"/>Cajet. loquitur, seu proportio, ut loquitur 
+          Cas<lb break="no" ed="#P" n="92"/>tro : haec enim duo in idem coincidunt, ut 
+          si<lb break="no" ed="#P" n="93"/>gnificavit Medin., quia illa forma nihil aliud
+          <lb ed="#P" n="94"/>est quam proportio servanda inter tributum,
+          <lb ed="#P" n="95"/>et subditos quibus imponitur. Nam, praeter
+          <lb ed="#P" n="96"/>proportionem inter quantitatem totius tributi
+          <lb ed="#P" n="97"/>et causam ejus, quae pertinet ad aequalitatem
+          <lb ed="#P" n="98"/>rei ad rem, seu jiustitiae commutativae, de
+          <lb ed="#P" n="99"/>qua jam dictum est, servanda est proportio
+          <lb ed="#P" n="100"/>tributi ad personas quibus imponitur, et haec
+          <lb ed="#P" n="101"/>proportio vocatur forma tributi, pertinetque
+          <lb ed="#P" n="102"/>ad justitiam distributivam respectu 
+          communi<lb break="no" ed="#P" n="103"/>tatis, sed redundat in commutativam respectu
+          <lb ed="#P" n="104"/>singulorum. Non est enim justum ut omnes
+          <lb ed="#P" n="105"/>aequaliter solvant, sed juxta facultatem et 
+          con<lb break="no" ed="#P" n="106"/>ditionem uniuscujusque ; plus enim a divite
+          <lb ed="#P" n="107"/>quam a paupere exigendum est, caeteris pari-
+          <pb ed="#P" n="488"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bus. Unde fit ut, juxta proportionem quam
+          <lb ed="#P" n="2"/>personae inter se servant quoad facultatem seu
+          <lb ed="#P" n="3"/>conditiones alias requisitas ad tributum, 
+          ser<lb break="no" ed="#P" n="4"/>vanda sit proportio inter eas in impositione
+          <lb ed="#P" n="5"/>tributi, et haec est proportio distributiva 
+          justi<lb break="no" ed="#P" n="6"/>tiae. Et ita declaratur haec conditio a D. Th. 2.
+          <lb ed="#P" n="7"/>2. q. 63, art. 4. Est autem talis proportio 
+          ne<lb break="no" ed="#P" n="8"/>cessaria, ut a nullo subdito plus exigatur quam
+          <lb ed="#P" n="9"/>juste possit et debeat contribuere, et quoad
+          <lb ed="#P" n="10"/>hoc resultat aequalitas commutativae justitiae.
+          <lb ed="#P" n="11"/>Atque hinc etiam est necessaria proportio ad
+          <lb ed="#P" n="12"/>res super quas imponitur tributum , quas 
+          vo<lb break="no" ed="#P" n="13"/>camus materiam tributi. Nam si imponatur
+          <lb ed="#P" n="14"/>super rem immobilem, non debet excedere
+          <lb ed="#P" n="15"/>quantitatem moderatam, consideratis 
+          fructi<lb break="no" ed="#P" n="16"/>bus ejus, et laboribus ac expensis quae circa
+          <lb ed="#P" n="17"/>illam fiunt : nam si in hoc tributum sit nimis
+          <lb ed="#P" n="18"/>onerosum, plane erit injustum. Si autem 
+          im<lb break="no" ed="#P" n="19"/>ponatur super res mobiles quae venduntur et
+          <lb ed="#P" n="20"/>emuntur, vel arte fiunt, observari debet ne
+          <lb ed="#P" n="21"/>tales sint hujusmodi res, vel tantum et tam
+          <lb ed="#P" n="22"/>magnum tributum, ut redundet in majus onus
+          <lb ed="#P" n="23"/>pauperum et artificum, aut mercatorum, quam
+          <lb ed="#P" n="24"/>possint sustinere commode ad vitam et 
+          fami<lb break="no" ed="#P" n="25"/>liam sustentandam.
+        </p>
+        <p xml:id="szdleg-b23311-d1e219">
+          <lb ed="#P" n="26"/>2. Multi censent injusta vectigalia que, pro
+          <lb ed="#P" n="27"/>rebus qua ad proprium usum portantur , 
+          impo<lb break="no" ed="#P" n="28"/>nuntwur. — Atque ex hac conditione inferunt
+          <lb ed="#P" n="29"/>multi injusta esse vectigalia quae, pro rebus
+          <lb ed="#P" n="30"/>quae ad proprium usum portantur, 
+          imponun<lb break="no" ed="#P" n="31"/>tur, solumque imponi posse in rebus quae
+          <lb ed="#P" n="32"/>causa negotiationis deferuntur, sicut statutum
+          <lb ed="#P" n="33"/>est in l. Universi el. Omnium, c. de Vectigal.,
+          <lb ed="#P" n="34"/>et idem habetur in 1. 5, tit. 7, part. 5. Ita
+          <lb ed="#P" n="35"/>tenet Cajet., verb. Fectigalia, et hac ratione
+          <lb ed="#P" n="36"/>addit duas conditiones necessarias ad justitiam
+          <lb ed="#P" n="37"/>tributi, scilicet, ut materia sit apta ad illud;
+          <lb ed="#P" n="38"/>haec autem non est apta materia. hatio est,
+          <lb ed="#P" n="39"/>quia in ea non servatur forma debita, et justa
+          <lb ed="#P" n="40"/>distributio oneris impositi per tributum ; nam
+          <lb ed="#P" n="41"/>si imponatur in rebus necessariis ad proprium
+          <lb ed="#P" n="42"/>usum, pauperes plus gravantur quam divites:
+          <lb ed="#P" n="43"/>Quia radia usus (ait Cajetanus) est indigentia,
+          <lb ed="#P" n="44"/>et ita qui magis indiget magis utitur. Ft
+          <lb ed="#P" n="45"/>pauper , qui est oneratus filiis, pluribus rebus
+          <lb ed="#P" n="46"/>indiget, et ita plus solvit em vectigalibus. Et
+          <lb ed="#P" n="47"/>haec videtur fuisse antiquorum opinio, ut Glos.
+          <lb ed="#P" n="48"/>et Hostiens. in c. Super quibusdam, et 
+          sequi<lb break="no" ed="#P" n="49"/>tur Sum. Pisan. et Sum. Confessor., et Dried.,
+          <lb ed="#P" n="50"/>lib. 9 de Libert. Christ., c. 5, qui addit haec
+          <lb ed="#P" n="51"/>tributa esse prohibita jure civili et canonico.
+          <lb ed="#P" n="52"/>Priorem partem probat ex lege allegata, 
+          poste<lb break="no" ed="#P" n="53"/>riorem vero ex Bulla Coenae, in qua 
+          excommu<lb break="no" ed="#P" n="54"/>nicantur imponentes vectigalia prohibita, et
+          <lb ed="#P" n="55"/>ita sentit incurrere in censuram Bullae Coenae
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>exigentes haec vectigalia, quod aperte tradit
+          <lb ed="#P" n="57"/>etiam Tolet., l. 5 Summae, c. 79, n. 1, licet
+          <lb ed="#P" n="58"/>postea n. 2 sententuam limitet. In eamdem
+          <lb ed="#P" n="59"/>sententiam inclinat Soto, 1. 3 de Just., q. 6,
+          <lb ed="#P" n="60"/>art. 7, ubi prius explicans quid sit vectigal,
+          <lb ed="#P" n="61"/>portorium et pedagium, solum ponit pro 
+          ma<lb break="no" ed="#P" n="62"/>teria ejus res quae vehuntur negotiationis 
+          gra<lb break="no" ed="#P" n="63"/>tia, et postea dicit esse injusta tributa 
+          prohi<lb break="no" ed="#P" n="64"/>bita in dicta l. Universi, scilicet, quae pro his
+          <lb ed="#P" n="65"/>rebus quae ad proprium usum pertinent 
+          exi<lb break="no" ed="#P" n="66"/>guntur. Et inde videtur damnare injastitiae
+          <lb ed="#P" n="67"/>gabellam quam alcavallam vocant, quatenus
+          <lb ed="#P" n="68"/>exigitur de rebus quae ad propriam 
+          necessita<lb break="no" ed="#P" n="69"/>tem sublevandam venduntur, quia tunc etiam
+          <lb ed="#P" n="70"/>plus solvit qui plus eget, non qui plus habet
+          <lb ed="#P" n="71"/>vel lucratur. Idem fere sentit Ledesm., part. 4,
+          <lb ed="#P" n="72"/>q. 18, art. 3, quatenus damnat quoddam 
+          tri<lb break="no" ed="#P" n="73"/>butum in Lusitania usitatum, quod solvitur ab
+          <lb ed="#P" n="74"/>ementibus res ad suum usum necessarias, et a
+          <lb ed="#P" n="75"/>vendentibus res ut suis necessitatibus 
+          subve<lb break="no" ed="#P" n="76"/>niant , quod tributum vulgo sisa vocatur,
+          <lb ed="#P" n="77"/>quod idem fere est quod alcavalla, licet in 
+          Lu<lb break="no" ed="#P" n="78"/>sitania non solvatur a solo venditore, ut in
+          <lb ed="#P" n="79"/>Castella, sed partim ab emptore. Itaque 
+          sen<lb break="no" ed="#P" n="80"/>tiunt auctores tantum peti posse ex lucris vel
+          <lb ed="#P" n="81"/>fructibus, seu in rebus quatenus vel 
+          fructife<lb break="no" ed="#P" n="82"/>rae sunt, vel ordinantur ad lucra, et ideo injuste
+          <lb ed="#P" n="83"/>exigi ex rebus emptis, vel venditis, vel 
+          trans<lb break="no" ed="#P" n="84"/>portatis ad proprium usum.
+        </p>
+        <p xml:id="szdleg-b23311-d1e353">
+          <lb ed="#P" n="85"/>3. Contraria opinio auctoris.—Nihilominus
+          <lb ed="#P" n="86"/>dico illam conditionem materiae quam ponit
+          <lb ed="#P" n="87"/>Cajetanus, prout ab ipso explicatur, non esse
+          <lb ed="#P" n="88"/>necessariam, quia non est injustum tributum
+          <lb ed="#P" n="89"/>imponere de rebus quae ad proprium usum 
+          fe<lb break="no" ed="#P" n="90"/>runtur, aut venduntur, vel emuntur. Haec est
+          <lb ed="#P" n="91"/>communior sententia, et sumitur ex D. Anton.,
+          <lb ed="#P" n="92"/>2 p., t. 1, c. 10, Sult.; nam, licet loquatur de
+          <lb ed="#P" n="93"/>particularibus impositionibus civitatum , 
+          ea<lb break="no" ed="#P" n="94"/>dem est proportionalis ratio de generalibus
+          <lb ed="#P" n="95"/>tributis. Et idem omnino sequitur Gabr. 4,
+          <lb ed="#P" n="96"/>d. 15, q. 5, a. 2, concl. 2, in fin; Sylvest.
+          <lb ed="#P" n="97"/>verb. Gabella. 3, q. 5, ubi nonnullam 
+          diffe<lb break="no" ed="#P" n="98"/>rentiam in hoc constituit inter externos et 
+          inco<lb break="no" ed="#P" n="99"/>las, dequa statim dicam. Eodemque fere modo
+          <lb ed="#P" n="100"/>loquitur Angel., verb. Pedagium, n. 3; Armil.,
+          <lb ed="#P" n="101"/>verb. Gabella, n. 11; Tabien., verb. Pedagiwmn,
+          <lb ed="#P" n="102"/>n. 4. Idem Medina, dict. cod. de Restit., q. 15,
+          <lb ed="#P" n="103"/>in fine; Navarr., cap. 17, num. 202; Nolin.,
+          <lb ed="#P" n="104"/>tom. 3, disp. 669. Supponendum autem est,
+          <lb ed="#P" n="105"/>ad probandam hanc sententiam , sermonem
+          <lb ed="#P" n="106"/>esse de impositione tributi habente alias 
+          con<lb break="no" ed="#P" n="107"/>ditiones ad justitiam tributi requisitas ; 
+          nimi<lb break="no" ed="#P" n="108"/>rum quod ab habente potestatem, et propter
+          <lb ed="#P" n="109"/>causas justas et proportionatas imponatur, et
+          <lb ed="#P" n="110"/>solum tractari an, eo ipso quod imponitur
+          <pb ed="#P" n="489"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>super talem materiam, sit injustum vel 
+          ini<lb break="no" ed="#P" n="2"/>quum.
+        </p>
+        <p xml:id="szdleg-b23311-d1e421">
+          <lb ed="#P" n="3"/>4. Probatur ergo non fieri injustum neque
+          <lb ed="#P" n="4"/>iniquum ex illo capite. Quia vel est injustum
+          <lb ed="#P" n="5"/>quia prohibitum, vel quia per se et natura sua
+          <lb ed="#P" n="6"/>est intrinsece malum : auctores enim primae
+          <lb ed="#P" n="7"/>opinionis interdum uno fundamento, interdum
+          <lb ed="#P" n="8"/>alio utuntur, et in hoc satis confuse loquuntur;
+          <lb ed="#P" n="9"/>neutrum autem fundamentum solidum est.
+          <lb ed="#P" n="10"/>Probatur ergo propter solam humanam 
+          prohi<lb break="no" ed="#P" n="11"/>bitionem non posse dici simpliciter malum,
+          <lb ed="#P" n="12"/>id est ubique et in omnibus regnis vel 
+          pro<lb break="no" ed="#P" n="13"/>vinciis christiani orbis, quia non invenitur
+          <lb ed="#P" n="14"/>prohibitum jure canonico, et civile ad hoc non
+          <lb ed="#P" n="15"/>sufficit. Prior pars declaratur, quia in Bulla
+          <lb ed="#P" n="16"/>Coenae non fit specialis prohibitio, sed 
+          suppo<lb break="no" ed="#P" n="17"/>nitur, et fertur specialis modus censurae 
+          con<lb break="no" ed="#P" n="18"/>tra imponentes tributa prohibita. Nec etiam
+          <lb ed="#P" n="19"/>in corpore juris canonici invenitur speciale jus
+          <lb ed="#P" n="20"/>quod designet materiam vectigalium seu 
+          pe<lb break="no" ed="#P" n="21"/>dagiorum, ut justa sint. Neque hoc recte ab
+          <lb ed="#P" n="22"/>aliquibus ex c. Quanguam, de Censibus, in 6,
+          <lb ed="#P" n="23"/>colligitur, quia in eo dicitur pedagiorum 
+          exac<lb break="no" ed="#P" n="24"/>Liones tam jure canonico quam civili, 
+          regulari<lb break="no" ed="#P" n="25"/>ter merito esse dumnatas. Nam, ut ex Gloss. ibi,
+          <lb ed="#P" n="26"/>Joan. And. et aliis constat, jus canonicum quod
+          <lb ed="#P" n="27"/>ibi citatur non est aliud nisi quod habetur in
+          <lb ed="#P" n="28"/>Conc. Lateran., c. Innovamus, de Censibus,
+          <lb ed="#P" n="29"/>et in Innoc. IlII in c. Super quibusdam , de
+          <lb ed="#P" n="30"/>Verb. signific.; ibi autem non prohibentur
+          <lb ed="#P" n="31"/>talia tributa ratione materiae, sed quatenus
+          <lb ed="#P" n="32"/>non feruntur ab habentibus potestatem, vel ex
+          <lb ed="#P" n="33"/>consensu illorum. Et eodem modo intelligit
+          <lb ed="#P" n="34"/>Glos. ibi prohibitionem juris civilis, citando
+          <lb ed="#P" n="35"/>legem JVon solent, c. Vectigalia nova, etc.; 
+          si<lb break="no" ed="#P" n="36"/>gnificat etiam posse id referri ad prohibitiones
+          <lb ed="#P" n="37"/>pedagiorum respectu ecclesiasticarum 
+          persona<lb break="no" ed="#P" n="38"/>rum, dum allegat . Placet, c. deSacros. Eccles.,
+          <lb ed="#P" n="39"/>et c. Generaliter, 16, q. 1. Denique in illocapite
+          <lb ed="#P" n="40"/>non fertur prohibitio, sed supponitur, et non
+          <lb ed="#P" n="41"/>simpliciter, sed cum illo addito regulariter, et
+          <lb ed="#P" n="42"/>fortasse id dictum est propter violentias et 
+          ex<lb break="no" ed="#P" n="43"/>cessus qui regulariter fiunt in exactionibus 
+          pe<lb break="no" ed="#P" n="44"/>dagiorum.
+        </p>
+        <p xml:id="szdleg-b23311-d1e515">
+          <lb ed="#P" n="45"/>5. Altera vero pars de prohibitione juris
+          <lb ed="#P" n="46"/>civilis probatur in hunc modum, quia, licet
+          <lb ed="#P" n="47"/>non negemus vectigalia in rebus ad proprium
+          <lb ed="#P" n="48"/>usum esse prohibita jure Codicis, tamen illa
+          <lb ed="#P" n="49"/>lex non obligat in Hispania, Lusitania, 
+          Fran<lb break="no" ed="#P" n="50"/>cia, et aliis similibus regnis, vel rebuspublicis,
+          <lb ed="#P" n="51"/>quae superiorem in temporalibus non 
+          recognos<lb break="no" ed="#P" n="52"/>cunt, quia, ut supra ostensum est, leges 
+          impe<lb break="no" ed="#P" n="53"/>ratoriae ibi non obligant. Unde miror cur 
+          dixe<lb break="no" ed="#P" n="54"/>rit Tolet. reges et temporales dominos non 
+          pos<lb break="no" ed="#P" n="55"/>se de his rebus usualibus pedagia exigere pro-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>pter probibitionem illius legis: Pontificem 
+          au<lb break="no" ed="#P" n="57"/>tem in suo dominio temporali id posse, quia non
+          <lb ed="#P" n="58"/>subditur legibus imperatoris, cum non minus
+          <lb ed="#P" n="59"/>sint supremi in temporalibus alii reges 
+          nume<lb break="no" ed="#P" n="60"/>rati in suis regnis, quam sit Pontifex in sua
+          <lb ed="#P" n="61"/>ditione temporali, quod attinet ad potestatem
+          <lb ed="#P" n="62"/>et dominium directum, de quo tractamus. 
+          Ne<lb break="no" ed="#P" n="63"/>que etiam video cur Hostiens. in Sum., t. de
+          <lb ed="#P" n="64"/>Censib.. S Eaz quibus causis, versic. Quod si
+          <lb ed="#P" n="65"/>quis (quem multi alii sequuntur), dixerit non
+          <lb ed="#P" n="66"/>posse justificari haec pedagia, etiam ratione
+          <lb ed="#P" n="67"/>immemorialis consuetudinis, nisi supponant
+          <lb ed="#P" n="68"/>legem illam non prohibere rem de se 
+          indiffe<lb break="no" ed="#P" n="69"/>rentem, sed rem per se malam, quod probare
+          <lb ed="#P" n="70"/>non possunt, ut statim ostendam. Ideoque
+          <lb ed="#P" n="71"/>concludo legem illam nunc non obligare, nisi
+          <lb ed="#P" n="72"/>in terris imperii, et nisi ibi sit per 
+          contra<lb break="no" ed="#P" n="73"/>riam consuetudinem abrogata, ut facile fieri
+          <lb ed="#P" n="74"/>potuit.
+        </p>
+        <p xml:id="szdleg-b23311-d1e585">
+          <lb ed="#P" n="75"/>6. Probatur igitur ultima pars, videlicet,
+          <lb ed="#P" n="76"/>hoc non esse prohibitum quia malum; quia
+          <lb ed="#P" n="77"/>nulla sufficiens ratio intrinsecae injustitiae in
+          <lb ed="#P" n="78"/>hac materia tributi invenitur. Nam si quae
+          <lb ed="#P" n="79"/>esset, maxime quia in tali materia non potest
+          <lb ed="#P" n="80"/>servari debita forma et proportio tributi, quia
+          <lb ed="#P" n="81"/>pauperes plus gravantur quam divites; at hoc
+          <lb ed="#P" n="82"/>non ita est per se loquendo, ac moraliter;
+          <lb ed="#P" n="83"/>ergo. Probatur minor, primo tollendo 
+          quam<lb break="no" ed="#P" n="84"/>dam aequivocationem, quae latet in verbis 
+          Ca<lb break="no" ed="#P" n="85"/>jetani, et eadem fere est in aliis auctoribus.
+          <lb ed="#P" n="86"/>Ait enim Cajetanus quod indigentia est radix
+          <lb ed="#P" n="87"/>usus, et ita qui magis indiget magis utitur, et
+          <lb ed="#P" n="88"/>ita magis gravantur pauperes indigentes. At
+          <lb ed="#P" n="89"/>profecto vox illa indigentia aequivoca est, et
+          <lb ed="#P" n="90"/>aliter in antecedenti, et aliter in consequenti
+          <lb ed="#P" n="91"/>sumitur. Indigentia enim interdum significat
+          <lb ed="#P" n="92"/>necessitatem, et de hac indigentia verum est
+          <lb ed="#P" n="93"/>quod est radix usus, et quod qui plus indiget
+          <lb ed="#P" n="94"/>magis utitur, utique quando subvenit 
+          indi<lb break="no" ed="#P" n="95"/>gentiae suae, seu necessitati. Haec vero 
+          indi<lb break="no" ed="#P" n="96"/>gentia communis est divitibus cum pauperibus,
+          <lb ed="#P" n="97"/>imo in divitibus est major, vel propter suum
+          <lb ed="#P" n="98"/>statum, vel propter suas delicias, et quia 
+          vo<lb break="no" ed="#P" n="99"/>luptates reputant indigentiam. Quapropter,
+          <lb ed="#P" n="100"/>stando in eadem significatione, non recte 
+          in<lb break="no" ed="#P" n="101"/>fertur pauperes, qui sunt indigentes, plus uti
+          <lb ed="#P" n="102"/>et plus gravari, quia non sunt hoc modo plus
+          <lb ed="#P" n="103"/>indigentes. Alio ergo modo indigentia 
+          signi<lb break="no" ed="#P" n="104"/>ficat paupertatem, et sic falsum est hanc 
+          indi<lb break="no" ed="#P" n="105"/>gentiam esse radicem usus; nam potius 
+          pau<lb break="no" ed="#P" n="106"/>per saepe indiget veste, et non utitur illa, quia
+          <lb ed="#P" n="107"/>eget pecunia; et consequenter etiam est falsum
+          <lb ed="#P" n="108"/>quod qui plus indiget plus utitur, quia multo
+          <lb ed="#P" n="109"/>magis utuntur rebus usu consumptibilibus 
+          di<lb break="no" ed="#P" n="110"/>vites quam pauperes, et plures ac pretiosiores
+          <pb ed="#P" n="490"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ex illis emunt. Et similiter pauperes non solent
+          <lb ed="#P" n="2"/>res portare ex distantibus locis, ubi solent
+          <lb ed="#P" n="3"/>vectigalia exigi, sed divites frequentius haec
+          <lb ed="#P" n="4"/>portari sibi faciunt ad proprium usum; unde
+          <lb ed="#P" n="5"/>ex vi paupertatis non video quomodo hinc
+          <lb ed="#P" n="6"/>sequatur illa improportio. Quod si contingat
+          <lb ed="#P" n="7"/>pauperem habere plures filios, et ideo plura
+          <lb ed="#P" n="8"/>emere, illud est accidentarium, quod in re
+          <lb ed="#P" n="9"/>morali considerari non potest. Praesertim quia
+          <lb ed="#P" n="10"/>etiam divites possunt filiis abundare, et ita
+          <lb ed="#P" n="11"/>quoad hoc est aequalitas, et aliunde pluribus
+          <lb ed="#P" n="12"/>et pretiosioribus rebus uti solent ad eorum
+          <lb ed="#P" n="13"/>sustentationem, et praeterea regulariter divites
+          <lb ed="#P" n="14"/>habent majorem familiam servorum et 
+          famu<lb break="no" ed="#P" n="15"/>larum, quam alunt, praeter expensas 
+          equo<lb break="no" ed="#P" n="16"/>rum, etc., et ita plura emunt ad suum usum
+          <lb ed="#P" n="17"/>et consequenter plus solvunt ex tali tributo.
+        </p>
+        <p xml:id="szdleg-b23311-d1e707">
+          <lb ed="#P" n="18"/>7. Et hic discursus, licet in vectigalibus seu
+          <lb ed="#P" n="19"/>portoriis sit evidentior, propter illam 
+          conside<lb break="no" ed="#P" n="20"/>rationem quod pauperes raro deferunt ex 
+          lo<lb break="no" ed="#P" n="21"/>cis remotis res propter suum usum, absque
+          <lb ed="#P" n="22"/>adminiculo negotiationis, nihilominus etiam
+          <lb ed="#P" n="23"/>procedit de tributo imposito propter solam
+          <lb ed="#P" n="24"/>emptionem aut venditionem in rebus 
+          neces<lb break="no" ed="#P" n="25"/>sariis ad victum et vestitum, quia etiam ex
+          <lb ed="#P" n="26"/>his rebus plures emunt divites, per se ac 
+          mo<lb break="no" ed="#P" n="27"/>raliter materiam expendendo. Nam contingit
+          <lb ed="#P" n="28"/>quidem diviti, licet plura consumat, 
+          pau<lb break="no" ed="#P" n="29"/>ciora emere, quia vel ex fructibus suarum
+          <lb ed="#P" n="30"/>possessionum multa colligit, et alia domi alit,
+          <lb ed="#P" n="31"/>vel sua industria comparat; licet hoc autem
+          <lb ed="#P" n="32"/>ita sit, hoc totum est accidentarium, et in re
+          <lb ed="#P" n="33"/>morali impossibile est infallibilem regulam
+          <lb ed="#P" n="34"/>constituere quae non saepe deficiat. Quod si
+          <lb ed="#P" n="35"/>fortasse Cajetanus et alii velint eo ipso esse
+          <lb ed="#P" n="36"/>formam tributi injustam, quod pro 
+          asporta<lb break="no" ed="#P" n="37"/>tione aut emptione ejusdem rei ad usum 
+          ne<lb break="no" ed="#P" n="38"/>cessariae, aequale tributum pauperi et diviti
+          <lb ed="#P" n="39"/>imponitur, immerito id asserunt; alioqui etiam
+          <lb ed="#P" n="40"/>esset injusta forma tributi impositi pro rebus
+          <lb ed="#P" n="41"/>causa negotiationis allatis, quia aequale 
+          tribu<lb break="no" ed="#P" n="42"/>tum ponitur pauperi negotianti pro vita 
+          sus<lb break="no" ed="#P" n="43"/>tentanda, et mercatori diviti, in eadem 
+          mate<lb break="no" ed="#P" n="44"/>ria et caeteris paribus. Imo et decimarum 
+          dis<lb break="no" ed="#P" n="45"/>tributio esset injusta, quia eadem quota pro
+          <lb ed="#P" n="46"/>pauperibus et divitibus ponitur. In his ergo
+          <lb ed="#P" n="47"/>rebus non potest semper tam exacta distributio
+          <lb ed="#P" n="48"/>fieri, praesertim quia haec improportio potest
+          <lb ed="#P" n="49"/>compensari aliunde, scilicet, quia divites plura
+          <lb ed="#P" n="50"/>et pretiosiora consumunt et transvehunt.
+        </p>
+        <p xml:id="szdleg-b23311-d1e781">
+          <lb ed="#P" n="51"/>8. Conditio tributi, ut cum proportione 
+          dis<lb break="no" ed="#P" n="52"/>tribuatur quantitas oneris juata vires cujusque,
+          <lb ed="#P" n="53"/>intelligenda moraliter.—Quapropter dicendum
+          <lb ed="#P" n="54"/>est imprimis conditionem illam ex parte 
+          for<lb break="no" ed="#P" n="55"/>mae tributi, scilicet, ut cum proportione dis-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tribuatur quantitas oneris, juxta vires 
+          faculta<lb break="no" ed="#P" n="57"/>tis uniuscujusque, moraliter accipiendam esse,
+          <lb ed="#P" n="58"/>quantum videlicet suaviter possit servari, et
+          <lb ed="#P" n="59"/>haberi ratio illius proportionis sine vexatione
+          <lb ed="#P" n="60"/>populorum, et sine magna difficultate 
+          princi<lb break="no" ed="#P" n="61"/>pum. Unde, si haec diligentia adhibeatur, nihil
+          <lb ed="#P" n="62"/>obstabit quod aliqua improportio sequatur ,
+          <lb ed="#P" n="63"/>quia illa est moraliter inevitabilis, et non est
+          <lb ed="#P" n="64"/>intenta, nec censetur volita, sed permissa, 
+          si<lb break="no" ed="#P" n="65"/>cut videmus in decimis ecciesiasticis , quod
+          <lb ed="#P" n="66"/>uniformiter imperantur, etiamsi per accidens
+          <lb ed="#P" n="67"/>contingat aliquos pauperes nimium onerari.
+          <lb ed="#P" n="68"/>Deinde dicimus conditionem aliam ex parte
+          <lb ed="#P" n="69"/>materise sumptam, scilicet, ut tributa haec non
+          <lb ed="#P" n="70"/>imponantur in rebus quae ad usum proprium
+          <lb ed="#P" n="71"/>portantur, emuntur, aut venduntur, non esse
+          <lb ed="#P" n="72"/>simpliciter ac per se necessariam ad justitiam
+          <lb ed="#P" n="73"/>tributi, quia nec involvit intrinsece 
+          inaequali<lb break="no" ed="#P" n="74"/>tatem in forma tributi, ut ostensum est, nec
+          <lb ed="#P" n="75"/>per accidentales eventus fit injusta, ut etiam est
+          <lb ed="#P" n="76"/>declaratum, nec etiam propter leges est iniqua,
+          <lb ed="#P" n="77"/>nisi ubi lex illa obligaverit in terris nunc 
+          sub<lb break="no" ed="#P" n="78"/>ditis imperatori. Solum ergo necesse est 
+          obser<lb break="no" ed="#P" n="79"/>vare ut sit justa causa imponendi talia tributa,
+          <lb ed="#P" n="80"/>quia nimirum alia non sufficiunt, et publica
+          <lb ed="#P" n="81"/>necessitas urget , et alia ratio commodior illi
+          <lb ed="#P" n="82"/>succurrendi non suppetit. In quo etiam 
+          tene<lb break="no" ed="#P" n="83"/>bitur princeps moralem diligentiam adhibere,
+          <lb ed="#P" n="84"/>ut modum magis aequum et subditis magis
+          <lb ed="#P" n="85"/>proportionatum ac suaviorem eligat, qua 
+          dili<lb break="no" ed="#P" n="86"/>gentia praemissa secure potest eligere modum
+          <lb ed="#P" n="87"/>hunc , si probabiliter credit esse aptiorem.
+          <lb ed="#P" n="88"/>Accedit quod nemo dubitet esse justa 
+          vectiga<lb break="no" ed="#P" n="89"/>lia quae imponuntur pro oneribus seu rebus
+          <lb ed="#P" n="90"/>quae gratia negotiationis asportantur ; at haec
+          <lb ed="#P" n="91"/>tandem redundant in onus ementium: nam
+          <lb ed="#P" n="92"/>mercatores ob eam causamcarius illas vendunt,
+          <lb ed="#P" n="93"/>et ita in re non videtur esse magna differentia
+          <lb ed="#P" n="94"/>inter haec tributa, quantum est ex parte oneris
+          <lb ed="#P" n="95"/>quod in pauperes redundat, quia non 
+          redun<lb break="no" ed="#P" n="96"/>dat in illos ut pauperes sunt , sed ut ementes
+          <lb ed="#P" n="97"/>sunt, etiamsi illas ad suos usus a mercatoribus
+          <lb ed="#P" n="98"/>emant.
+        </p>
+        <p xml:id="szdleg-b23311-d1e891">
+          <lb ed="#P" n="99"/>9. Optimum consilium. — Quapropter non
+          <lb ed="#P" n="100"/>existimo civilem legem prohibuisse illam 
+          vec<lb break="no" ed="#P" n="101"/>tigalium materiam , quia sit onerosa 
+          pauperi<lb break="no" ed="#P" n="102"/>bus, sed quia videtur asperum et durum 
+          gra<lb break="no" ed="#P" n="103"/>vare homines in his rebus quibus quotidie 
+          nu<lb break="no" ed="#P" n="104"/>triuntur et indigent, et similiter visum est 
+          gra<lb break="no" ed="#P" n="105"/>ve, difficilem ac onerosam reddere 
+          asportatio<lb break="no" ed="#P" n="106"/>nem rerum ad proprium usum pertinentium.
+          <lb ed="#P" n="107"/>Sed haec difficultas non facit rem esse per se
+          <lb ed="#P" n="108"/>malam, et superari potest ex aliis 
+          commoditati<lb break="no" ed="#P" n="109"/>bus, vel necessitatibus, occurrentibus, propter
+          <lb ed="#P" n="110"/>quas potest aliud statui ab habente potestatem
+          <pb ed="#P" n="491"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>supremam, quae non subditur illi legi. 
+          Nihilo<lb break="no" ed="#P" n="2"/>minus tamen, propter rationem et 
+          fundamen<lb break="no" ed="#P" n="3"/>tum ilhus legis , et quia haec tributa male 
+          au<lb break="no" ed="#P" n="4"/>diunt et odiosa sunt communitati pauperum ,
+          <lb ed="#P" n="5"/>recte facient principes illa excusando quoad
+          <lb ed="#P" n="6"/>fieri possit. Multoque congruentius esset, in
+          <lb ed="#P" n="7"/>rebus quae ad usus non necessarios, sed ad 
+          de<lb break="no" ed="#P" n="8"/>licias, vel nimium ornatum, vel curiositatem
+          <lb ed="#P" n="9"/>deferuntur , similia onera et graviora 
+          impo<lb break="no" ed="#P" n="10"/>nere, dum tamen illa sufficiant ad 
+          indigen<lb break="no" ed="#P" n="11"/>tiam, justamve necessitatem regni aut 
+          prin<lb break="no" ed="#P" n="12"/>cipis sublevandam.
+        </p>
+        <p xml:id="szdleg-b23311-d1e950">
+          <lb ed="#P" n="13"/>10. Unde infero haec vectigalia et pedagia,
+          <lb ed="#P" n="14"/>si generalia sint et propria tributa, juste exigi
+          <lb ed="#P" n="15"/>non solum ab incolis, sed etiam ab extraneis
+          <lb ed="#P" n="16"/>peregrinantibus in tali regno. Sicut vectigalia
+          <lb ed="#P" n="17"/>mercium solvuntur a mercatoribus etiam 
+          ex<lb break="no" ed="#P" n="18"/>traneis ; tum quia hoc consuetudine servatur
+          <lb ed="#P" n="19"/>in omnibus regnis, quia fortasse non poterat
+          <lb ed="#P" n="20"/>commode fieri personarum distinctio, et quia
+          <lb ed="#P" n="21"/>alias occasio fraudibus daretur, et ita fit 
+          virtua<lb break="no" ed="#P" n="22"/>lis compensatio , veluti quodam jure gentium
+          <lb ed="#P" n="23"/>introducta ; tum etiam quia extranei multa
+          <lb ed="#P" n="24"/>commoda recipiunt a principe illius regni in
+          <lb ed="#P" n="25"/>quo versantur, scilicet viarum securitatem, et
+          <lb ed="#P" n="26"/>expeditionem, et pacis conservationem, et 
+          ad<lb break="no" ed="#P" n="27"/>ministrationem justitiae ; tum denique quia,
+          <lb ed="#P" n="28"/>dum ibi degunt, sunt aliquo modo subditi,
+          <lb ed="#P" n="29"/>quatenus tenentur illius regni legibus parere.
+          <lb ed="#P" n="30"/>Illa ergo exceptio quam aliqui ex allegatis
+          <lb ed="#P" n="31"/>doctoribus addunt, necessaria non est. Dixi
+          <lb ed="#P" n="32"/>autem , si tributa sint propria et generalia ;
+          <lb ed="#P" n="33"/>nam si sint particulares impositiones 
+          civita<lb break="no" ed="#P" n="34"/>tum ad propria commoda particularia 
+          intro<lb break="no" ed="#P" n="35"/>ductae , magis ex quadam civium conventione
+          <lb ed="#P" n="36"/>et voluntate, ac pacto tacito vel expresso, tunc
+          <lb ed="#P" n="37"/>non obligabuntur externi, et in hoc casu 
+          vi<lb break="no" ed="#P" n="38"/>dentur loqui citati auctores. Non video tamen
+          <lb ed="#P" n="39"/>cur specialiter hoc doceant de vectigalibus 
+          po<lb break="no" ed="#P" n="40"/>sitis in rebus ordinatis ad proprium usum,
+          <lb ed="#P" n="41"/>cum eadem sit ratio de omnibus, si servetur
+          <lb ed="#P" n="42"/>proportio : ratio autem est, quia illi non 
+          con<lb break="no" ed="#P" n="43"/>senserunt in illo pacto et conventione, nec
+          <lb ed="#P" n="44"/>commoditas intenta in eos redundat ; nam si
+          <lb ed="#P" n="45"/>redundaret, et ex consensu principis impositio
+          <lb ed="#P" n="46"/>generaliter fieret, tum jam induceret rationem
+          <lb ed="#P" n="47"/>tributi suo modo generalis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

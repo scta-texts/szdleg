@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 30</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 30</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="545"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-b38003"><!-- deleg-l5c30 -->
+        <head xml:id="szdleg-b38003-Hd1e101">Caput 30</head>
+        <head xml:id="szdleg-b38003-Hd1e103" type="question-title">Utrum in regnis non subditis imperio contractus humani contra legem civilem pure prohibentem facti, sint irriti ipso iure</head>
+        <p xml:id="szdleg-b38003-d1e106">
+          <lb ed="#P" n="61"/>CAPUT XXX.
+          <lb ed="#P" n="62"/>UTRUM IN REGNIS NON SUBDITIS IMPERIO 
+          CONTRAC<lb break="no" ed="#P" n="63"/>TUS HUMANI CONTRA LEGEM CIVILEM PURE 
+          PRO<lb break="no" ed="#P" n="64"/>HIBENTEM FACTI, SINT IRRITI IPSO JURE.
+        </p>
+        <p xml:id="szdleg-b38003-d1e117">
+          <lb ed="#P" n="65"/>1. Conclusio negativa. — Respondeo 
+          brevi<lb break="no" ed="#P" n="66"/>ter : ubi non obligat jus civile commune seu
+          <lb ed="#P" n="67"/>imperatorium, leges civiles prohibentes actus
+          <lb ed="#P" n="68"/>directe et in se ipsis, ac simpliciter, per se non
+          <lb ed="#P" n="69"/>irritant ipso facto actus contra ipsas factos.
+          <lb ed="#P" n="70"/>Haec assertio sequitur ex praecedentibus, quia
+          <lb ed="#P" n="71"/>talis irritatio vel esset ex natura rei ex vi 
+          ver<lb break="no" ed="#P" n="72"/>borum talium legum, et hoc non, ut in prima
+          <lb ed="#P" n="73"/>assertione ostensum est; vel ex vi legis JVon
+          <lb ed="#P" n="74"/>dubiwn, et hoc etiam non, quia non obligat
+          <lb ed="#P" n="75"/>in dictis regnis, ut supponimus; vel ex vi juris
+          <lb ed="#P" n="76"/>canonici, et hoc non, tum quia non datur tale
+          <lb ed="#P" n="77"/>jus faciens illam generalem interpretationem;
+          <lb ed="#P" n="78"/>tum etiam quia, licet esset, non obligaret in
+          <lb ed="#P" n="79"/>materia civili, nisi in terris propriis Ecclesiae;
+          <lb ed="#P" n="80"/>vel denique ex vi alicujus legis talis regni 
+          fa<lb break="no" ed="#P" n="81"/>cientis illam generalem interpretationem, et
+          <lb ed="#P" n="82"/>haec ostendenda est, alias non est credenda;
+          <lb ed="#P" n="83"/>ubi autem fuerit, habebit in suo territorio 
+          il<lb break="no" ed="#P" n="84"/>lam vim quam lex Non dubium habet in 
+          ter<lb break="no" ed="#P" n="85"/>ris imperii.
+        </p>
+        <p xml:id="szdleg-b38003-d1e165">
+          <lb ed="#P" n="86"/>2. Hinc vero colligere possumus in nostro
+          <lb ed="#P" n="87"/>Hispaniae regno leges pure prohibentes non 
+          ir<lb break="no" ed="#P" n="88"/>ritare actus, nisi per specialem clausulam id
+          <lb ed="#P" n="89"/>sufficienter declarent: et cum proportione 
+          ju<lb break="no" ed="#P" n="90"/>dicandum erit de aliis regnis juxta illorum 
+          le<lb break="no" ed="#P" n="91"/>ges et consuetudines. Atque ita de nostro regno
+          <lb ed="#P" n="92"/>sensit Molina, tr. 2 de Inst., q. 88; Vasquez,
+          <lb ed="#P" n="93"/>disp. 164, c. 3. Ratio generalis esse debet, quia
+          <lb ed="#P" n="94"/>nulla lex est in Hispania quae ita generaliter
+          <lb ed="#P" n="95"/>interpretetur simplicem legum prohibitionem;
+          <lb ed="#P" n="96"/>ergo, cum ex natura re3 illa non sufficiat ad
+          <lb ed="#P" n="97"/>irritationem, non est ullum fundamentum ad
+          <lb ed="#P" n="98"/>talem interpretationem faciendam. Potestque
+          <lb ed="#P" n="99"/>hoc duplici usu confirmari. Unus est ipsorum
+          <lb ed="#P" n="100"/>regum, quia, cum volunt annullare actum, non
+          <lb ed="#P" n="101"/>sunt contenti prohibitione, sed specialiter 
+          de<lb break="no" ed="#P" n="102"/>clarant irritationem. Est accommodatum 
+          exem<lb break="no" ed="#P" n="103"/>plum in lib. 5 Recopilat., tit. 2, 1. 1, ubi, 
+          post<lb break="no" ed="#P" n="104"/>quam nonnulla prohibitiones in dotibus et
+          <lb ed="#P" n="105"/>donationibus inter sponsos latae fuerant, 
+          sub<lb break="no" ed="#P" n="106"/>ditur in haec verba : Et ut fraudes evitentur,
+          <lb ed="#P" n="107"/>praecipimus ut omnes contractus, pacta et pro-
+          <pb ed="#P" n="546"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>missiones factee, vi hujus legis nulla in se sint,
+          <lb ed="#P" n="2"/>et nullius effectus. immerito autem Mattienzo
+          <lb ed="#P" n="3"/>ibi in Glos. ult. addidit idem fore etiamsi haec
+          <lb ed="#P" n="4"/>posteriora verba non adderentur; nullam enim
+          <lb ed="#P" n="5"/>legem regni ad hoc confirmandum adducit -
+          <lb ed="#P" n="6"/>sed tantum l. JVon dubium, de qua jam dictum
+          <lb ed="#P" n="7"/>est; et l. Fraus, ft. de Legibus, ubi solum 
+          di<lb break="no" ed="#P" n="8"/>citur peccari in legem per fraudem ; de 
+          irrita<lb break="no" ed="#P" n="9"/>tione autem nihil dicitur. Addita ergo fuere
+          <lb ed="#P" n="10"/>illa verba in illa lege, quia necessaria erant
+          <lb ed="#P" n="11"/>ad dictum effectum. Alia consuetudo est ipsius
+          <lb ed="#P" n="12"/>regni ; ita enim communi usu accipiuntur 
+          le<lb break="no" ed="#P" n="13"/>ges prohibentes accipere munera, vel ludere
+          <lb ed="#P" n="14"/>aleis, vel solvere amissa in ludo, pecunia 
+          cre<lb break="no" ed="#P" n="15"/>dita, et similes, quando non addunt clausulam
+          <lb ed="#P" n="16"/>irritantem ; quando illam addunt, verba ita
+          <lb ed="#P" n="17"/>observantur ut non major intelligatur esse 
+          ir<lb break="no" ed="#P" n="18"/>ritatio quam per illa significetur ; et solum
+          <lb ed="#P" n="19"/>censeatur incurri per modum poenae, ac 
+          sub<lb break="no" ed="#P" n="20"/>inde cum modo et restrictione legis poenalis
+          <lb ed="#P" n="21"/>juxta exigentiam verborum ejus, ut supra 
+          dic<lb break="no" ed="#P" n="22"/>tum est.
+        </p>
+        <p xml:id="szdleg-b38003-d1e268">
+          <lb ed="#P" n="23"/>3. Quomodo intelligatur les de conventwne
+          <lb ed="#P" n="24"/>contra bonos mores, aut contra legem regiam.—
+          <lb ed="#P" n="25"/>Objici tamen potest ex legibus Hispaniae, l. 28,
+          <lb ed="#P" n="26"/>t. 11, p. 5, ubi in fine dicitur omnem 
+          promis<lb break="no" ed="#P" n="27"/>sionem seu conventionem factam contra legem
+          <lb ed="#P" n="28"/>regiam vel contra bonos mores observandam
+          <lb ed="#P" n="29"/>non esse, etiamsi in illa fuerit addita poena
+          <lb ed="#P" n="30"/>vel juramentum. Ubi Gregor. Lopez, n. 7, 
+          vi<lb break="no" ed="#P" n="31"/>detur legem illam intelligere juxta l. Non 
+          du<lb break="no" ed="#P" n="32"/>bium ; ergo illa lex operatur in regno Hispanise,
+          <lb ed="#P" n="33"/>et in illo inducet generalem interpretationem
+          <lb ed="#P" n="34"/>ad omnes leges prohibentes, quam lex Non
+          <lb ed="#P" n="35"/>dubium introduxit pro terris imperii. 
+          Respon<lb break="no" ed="#P" n="36"/>deo tamen illam interpretationem non esse 
+          ne<lb break="no" ed="#P" n="37"/>cessariam. Nam idem Greg. Lopez, ad 
+          decla<lb break="no" ed="#P" n="38"/>randam legem illam, citat l. Si stipuler, 35,
+          <lb ed="#P" n="39"/>ff. de Verborum obligationibus, in qua 
+          mani<lb break="no" ed="#P" n="40"/>feste sermo est de promissione contra legem,
+          <lb ed="#P" n="41"/>vel contra bonos mores objective, id est, de
+          <lb ed="#P" n="42"/>promissione faciendi aliquid turpe, vel 
+          prohi<lb break="no" ed="#P" n="43"/>bitum per legem ; haec autem promissio dicitur
+          <lb ed="#P" n="44"/>non obligare, non quia prohibitio legis irritet
+          <lb ed="#P" n="45"/>actum, sed quia facit ut actus sit pravus, et
+          <lb ed="#P" n="46"/>consequenter quia natura sua promissio actus
+          <lb ed="#P" n="47"/>pravi est nulla, inde fit ut talis promissio ex 
+          na<lb break="no" ed="#P" n="48"/>tura sua non obliget. Et hic sensus optime 
+          con<lb break="no" ed="#P" n="49"/>firmatur ex eo quod etiam addito juramento
+          <lb ed="#P" n="50"/>dicitur lex illa non obligare, quia nimirum
+          <lb ed="#P" n="51"/>juramentum non est vinculum iniquitatis, 
+          ne<lb break="no" ed="#P" n="52"/>que obligat ad rem turpem. Si autem sermo
+          <lb ed="#P" n="53"/>esset de lege tantum prohibente actum 
+          pro<lb break="no" ed="#P" n="54"/>mittendi, vel paciscendi , non esset 
+          unrversa<lb break="no" ed="#P" n="55"/>liter verum non obligare, etiam addito jura-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>mento, ut alibi ostensum est. Accedit quod in
+          <lb ed="#P" n="57"/>illa lege non solum dicitur tale pactum non
+          <lb ed="#P" n="58"/>obligare , sed etiam dicitur : Non deve ser
+          <lb ed="#P" n="59"/>guardado , id est, observari non debet, quae
+          <lb ed="#P" n="60"/>verba significare videntur etiam obligationem
+          <lb ed="#P" n="61"/>non observandi : signum ergo est loqui legem
+          <lb ed="#P" n="62"/>illam de promissione operandi contra legem ,
+          <lb ed="#P" n="63"/>et ita nihil ad causam facit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 23</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 23</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="265"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a67341"><!-- deleg-l3c23 -->
+        <head xml:id="szdleg-a67341-Hd1e101">Caput 23</head>
+        <head xml:id="szdleg-a67341-Hd1e103" type="question-title">Utrum lex civilis in praesumptione fundata obliget in conscientia</head>
+        <p xml:id="szdleg-a67341-d1e106">
+          <lb ed="#P" n="89"/>CAPUT XXIII.
+          <lb ed="#P" n="90"/>UTRUM LEX CIVILIS IN PRAESUMPTIONE FUNDATA
+          <lb ed="#P" n="91"/>OBLIGET IN CONSCIENTIA.
+        </p>
+        <p xml:id="szdleg-a67341-d1e115">
+          <lb ed="#P" n="92"/>1. Quando lex fundatur in presuwnptione,
+          <lb ed="#P" n="93"/>non obligare in conscientia, veritate mon 
+          con<lb break="no" ed="#P" n="94"/>cordante praesumptioni, sentiunt plures—Manc
+          <lb ed="#P" n="95"/>dubitationem postulabat primum ex 
+          argumen<lb break="no" ed="#P" n="96"/>tis secundo loco propositis in praecedenti 
+          ca<lb break="no" ed="#P" n="97"/>pite; et in ea frequenter doctores docent, 
+          quan<lb break="no" ed="#P" n="98"/>do lex fundatnr in praesumptione non obligare
+          <lb ed="#P" n="99"/>in conscientia, si veritas non concordet 
+          prae<lb break="no" ed="#P" n="100"/>sumptioni, quia conscientia nititur veritati, et
+          <lb ed="#P" n="101"/>quia non est intentio legislatoris tunc obligare.
+          <lb ed="#P" n="102"/>Ita Sylvest. verb. Lex. q. 9, casu 2; Adrian.
+          <lb ed="#P" n="103"/>quodlib. 6; Soto, dicto lib. 4, q. 6, art. 4, in
+          <lb ed="#P" n="104"/>fine, et in 4, dist. 22, q. 1, art. 3; Richard.
+          <lb ed="#P" n="105"/>in 4, d. 98, art. 1, q. 3 et 4; Castro dicto c. 5.
+          <lb ed="#P" n="106"/>Indicant Navar. in sum. cap. 17, n. 184, et
+          <lb ed="#P" n="107"/>Covar. in c. Cum esses, de Testam., n. 9, et in
+          <pb ed="#P" n="266"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Epitom. 4. p. 1, cap. 4. S 1, n. 9. Idem sentii
+          <lb ed="#P" n="2"/>Bald. in Authen. 7agressi,, de Sacros. Eccles.,
+          <lb ed="#P" n="3"/>n. 49. ubi ait dispositionem juris civilis quae
+          <lb ed="#P" n="4"/>non fundatur in prassumptione procedere etiam
+          <lb ed="#P" n="5"/>in conscientia, et refert D. Thomam: 
+          expres<lb break="no" ed="#P" n="6"/>sius id docet idem Bald. in l. Cum quis, c. de
+          <lb ed="#P" n="7"/>Jur. et fact. ign., n. 19; Jas. inrubr., ff. de
+          <lb ed="#P" n="8"/>Acqui. haered. n. 25, ubi alios refert. Idem
+          <lb ed="#P" n="9"/>Panorm. in cap. 1 de Constit., n. 10; et 
+          ibi<lb break="no" ed="#P" n="10"/>dem Felin. n. 3et 40; Deci., leci. 1, n. 18,
+          <lb ed="#P" n="11"/>et sumitur ex Innoc. in cap. Quia propter, de
+          <lb ed="#P" n="12"/>de Elect., de Joan. Andr. in cap. 7s qui fidem,
+          <lb ed="#P" n="13"/>Sponsal., quos cum aliis Felin. supra refert.
+          <lb ed="#P" n="14"/>Alleganturque pro hac sententia cap. 7s qui
+          <lb ed="#P" n="15"/>fidem et cap. Tua nos, de Sponsal., quatenus
+          <lb ed="#P" n="16"/>in priori dicitur, per copulam subsecutam
+          <lb ed="#P" n="17"/>post sponsalia praesumi matrimonium 
+          contrac<lb break="no" ed="#P" n="18"/>tum, et nihilominus dicitur in posteriori, si re
+          <lb ed="#P" n="19"/>vera non adsit consensus, tale matrimonium
+          <lb ed="#P" n="20"/>in re ipsa non esse validum. Haec tamen jura
+          <lb ed="#P" n="21"/>nihil ad rem praesentem facere videntur, quia
+          <lb ed="#P" n="22"/>ibi non praecipitur ut in eo casu matrimonium
+          <lb ed="#P" n="23"/>valeat, sed solum dicitur quod praesumitur 
+          va<lb break="no" ed="#P" n="24"/>lere; certum est autem actum non statim fieri
+          <lb ed="#P" n="25"/>validum, quia in jure praesumitur validus, nisi
+          <lb ed="#P" n="26"/>forte talis sit actus ut sola juris auctoritate
+          <lb ed="#P" n="27"/>possit validus fieri, ut statim magis 
+          declarabi<lb break="no" ed="#P" n="28"/>tur. Matrimonium autem non est talis actus,
+          <lb ed="#P" n="29"/>qui possit fieri sola efficacitate canonis sine
+          <lb ed="#P" n="30"/>consensu contrahentium, et ideo merito in illis
+          <lb ed="#P" n="31"/>juribus dicitur sponsalia consummata per 
+          co<lb break="no" ed="#P" n="32"/>pulam transire in matrimonium praesumptione
+          <lb ed="#P" n="33"/>juris, et de jure ; illam tamen praesumptionem
+          <lb ed="#P" n="34"/>non sufficere ad valorem matrimonii coram
+          <lb ed="#P" n="35"/>Deo, si re vera defuit consensus. Non potest
+          <lb ed="#P" n="36"/>tamen inde inferri legem in praesumptione
+          <lb ed="#P" n="37"/>fundatam non obligare in conscientia, quoties
+          <lb ed="#P" n="38"/>veritas non concordat praesumptioni.
+        </p>
+        <p xml:id="szdleg-a67341-d1e239">
+          <lb ed="#P" n="39"/>2. Legem in praesumptione fundatam esse
+          <lb ed="#P" n="40"/>duplicem : una quae servari potest sine peccato,
+          <lb ed="#P" n="41"/>alia que non: prima potest obligare 
+          conscien<lb break="no" ed="#P" n="42"/>tium,secunda vero minime.—Ut ergo vera 
+          reso<lb break="no" ed="#P" n="43"/>lutio intelligatur, advertendum est praeceptum
+          <lb ed="#P" n="44"/>superioris vel legem in praesumptione 
+          funda<lb break="no" ed="#P" n="45"/>tam duphlicem esse posse. Una est quae servari
+          <lb ed="#P" n="46"/>non potest sine peccato, quando praesumptio
+          <lb ed="#P" n="47"/>legislatoris in veritate rei non subsistit: alia
+          <lb ed="#P" n="48"/>est quando, licet res ipsa non sit ut 
+          praesumi<lb break="no" ed="#P" n="49"/>tur, nihilominus lex potest sine peccato 
+          ser<lb break="no" ed="#P" n="50"/>vari. In priori casu, vera et necessaria est
+          <lb ed="#P" n="51"/>dicta sententia, quod talis lex vel praeceptum
+          <lb ed="#P" n="52"/>non possit in conscientia obligare ; imo vero
+          <lb ed="#P" n="53"/>nec possit in conscientia servari, ut recte 
+          con<lb break="no" ed="#P" n="54"/>vincit dictum cap. Tua nos, de Sponsal., et
+          <lb ed="#P" n="55"/>cap. Inquisitioni, de Sentent. excommunic.,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et ratio est clara, quia nemo potest obligari ad
+          <lb ed="#P" n="57"/>peccatum committendum, sed illud potius 
+          vi<lb break="no" ed="#P" n="58"/>tare tenetur, non obstante quocumque 
+          praece<lb break="no" ed="#P" n="59"/>pto et praesumptione humana, quia potentior
+          <lb ed="#P" n="60"/>est lex veritatis naturalis, aut divina, quae tunc
+          <lb ed="#P" n="61"/>obligat ad vitandum talem actum, ut in simili
+          <lb ed="#P" n="62"/>August. tradit, et habetur in cap. Feritate,
+          <lb ed="#P" n="63"/>dist. 8. Exemplum commune est : nam 
+          Eccle<lb break="no" ed="#P" n="64"/>sia juste praesumit esse veros conjuges illos qui
+          <lb ed="#P" n="65"/>in facie ipsius legitime contraxerunt, et 
+          nul<lb break="no" ed="#P" n="66"/>lum verum impedimentum irritans aut 
+          defec<lb break="no" ed="#P" n="67"/>tum consensus ostendere possunt , ideoque
+          <lb ed="#P" n="68"/>illos suis legibus et censuris cogit ad 
+          cohabi<lb break="no" ed="#P" n="69"/>tandum, et utendum matrimonio; et 
+          nihilomi<lb break="no" ed="#P" n="70"/>nus in eo casu, si revera defuit consensus, vel
+          <lb ed="#P" n="71"/>adfuit impedimentum irritans, non possunt
+          <lb ed="#P" n="72"/>copulari conjuges scientes postea tale 
+          impedi<lb break="no" ed="#P" n="73"/>mentum, quia agerent contra veram 
+          conscien<lb break="no" ed="#P" n="74"/>tiam. Idem ergo est, quoties praesumptio est
+          <lb ed="#P" n="75"/>contraria veritati necessariae ad honestatem
+          <lb ed="#P" n="76"/>actus.
+        </p>
+        <p xml:id="szdleg-a67341-d1e327">
+          <lb ed="#P" n="77"/>3. Auctores vero allegati non solum 
+          lo<lb break="no" ed="#P" n="78"/>quuntur in illo casu, sed etiam in alio, 
+          quan<lb break="no" ed="#P" n="79"/>do, non obstante falsitate rei praesumptae, lex
+          <lb ed="#P" n="80"/>potest sine peccato servari, et indistincte 
+          do<lb break="no" ed="#P" n="81"/>cent (praesertim Abb. et Felin.) etiam in eo
+          <lb ed="#P" n="82"/>casu legem non obligare. Unde inferunt ,
+          <lb ed="#P" n="83"/>etiamsi lex humana irritet talem actum, 
+          scili<lb break="no" ed="#P" n="84"/>cet, venditionem, electionem, vel similem, ex
+          <lb ed="#P" n="85"/>simili praesumptione, nihilominus actum esse
+          <lb ed="#P" n="86"/>validum, si re vera habeat illas conditiones
+          <lb ed="#P" n="87"/>quae ex jure naturae sufficiunt ad valorem ejus;
+          <lb ed="#P" n="88"/>sed de legibus irritantibus in lib. 5 ex professo
+          <lb ed="#P" n="89"/>dicemus; nunc vero de sola obligatione legum
+          <lb ed="#P" n="90"/>tractamus. Esse autem potest vulgare 
+          exem<lb break="no" ed="#P" n="91"/>plum hujus sententiae de lege civili, quae jubet
+          <lb ed="#P" n="92"/>haeredem adeuntem haereditatem , non 
+          con<lb break="no" ed="#P" n="93"/>fecto inventario, solvere debita etiam ultra 
+          vi<lb break="no" ed="#P" n="94"/>res haereditatis ; et nihilominus communis 
+          in<lb break="no" ed="#P" n="95"/>terpretatio est illum non teneri in conscientia
+          <lb ed="#P" n="96"/>solvere debita in ea quantitate quae re vera
+          <lb ed="#P" n="97"/>superat vires haereditatis. Quia lex fundatur in
+          <lb ed="#P" n="98"/>praesumptione, quod ille qui neglexit facere
+          <lb ed="#P" n="99"/>inventarium usurpare voluit pinguem 
+          haere<lb break="no" ed="#P" n="100"/>ditatem et non integre solvere debita, quae
+          <lb ed="#P" n="101"/>praesumptio in eo casu cessat, et consequenter
+          <lb ed="#P" n="102"/>cessat etiam obligatio in conscientia, ut est
+          <lb ed="#P" n="103"/>communior sententia Bartoli, et Daldi, et 
+          alio<lb break="no" ed="#P" n="104"/>rum quos refert et sequitur Jason in rubrica
+          <lb ed="#P" n="105"/>ff. de Acquirend. haeredit., a n. 23. Idem ergo
+          <lb ed="#P" n="106"/>erit in omnibus similibus. Fundamentum enim
+          <lb ed="#P" n="107"/>generale est, quod veritas praefertur 
+          praesum<lb break="no" ed="#P" n="108"/>ptioni, et ideo intentio legislatoris, qui in 
+          prae<lb break="no" ed="#P" n="109"/>sumptione fundatur, non creditur extendi ad
+          <lb ed="#P" n="110"/>casum in quo veritas non subsistit.
+        </p>
+        <p xml:id="szdleg-a67341-d1e403">
+          <pb ed="#P" n="267"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>4. Sed nihilominus doctrina haec non potest
+          <lb ed="#P" n="2"/>indistincte et generaliter approbari, quia sine
+          <lb ed="#P" n="3"/>dubio aliqua ex adductis exemplis falsa sunt,
+          <lb ed="#P" n="4"/>ut infra lib. 5 dicemus de aliquibus. De 
+          re<lb break="no" ed="#P" n="5"/>nuntiatione autem filiae dote contentae, et de
+          <lb ed="#P" n="6"/>alienatione fundi dotalis ab uxore facta, et de
+          <lb ed="#P" n="7"/>similibus actibus per leges humanas irritos
+          <lb ed="#P" n="8"/>esse, quamvis fiant cum vero consensu, et aliis
+          <lb ed="#P" n="9"/>conditionibus ex vi solius juris naturalis 
+          suffi<lb break="no" ed="#P" n="10"/>cientibus, in t. 2 de Relig. tract. de Juram. 
+          la<lb break="no" ed="#P" n="11"/>tius diximus. Denique (quidquid sit de 
+          parti<lb break="no" ed="#P" n="12"/>cularibus exemplis), certum videtur posse
+          <lb ed="#P" n="13"/>legem civilem, etiamsi (juxta modum 
+          loquen<lb break="no" ed="#P" n="14"/>di illorum auctorum) in praesumptione 
+          funde<lb break="no" ed="#P" n="15"/>tur, simpliciter ferri ita ut obliget et habeat
+          <lb ed="#P" n="16"/>totum suum effectum, etiam in casibus in 
+          qui<lb break="no" ed="#P" n="17"/>bus praesumptio non subsistit, quando in 
+          ob<lb break="no" ed="#P" n="18"/>servatione legis nullum intervenit peccatum,
+          <lb ed="#P" n="19"/>quia potest ad commune bonum pertinere ut
+          <lb ed="#P" n="20"/>talis lex absolute feratur et obliget, etiamsi in
+          <lb ed="#P" n="21"/>particulari casu ratio ejus deficiat : ergo non
+          <lb ed="#P" n="22"/>potest generaliter et indistincte defendi, quod
+          <lb ed="#P" n="23"/>lex in praesumptione fundata nunquam obliget
+          <lb ed="#P" n="24"/>vel habeat effectum in conscientia, quoties 
+          veri<lb break="no" ed="#P" n="25"/>tas non consonat praesumptioni, licet fortasse
+          <lb ed="#P" n="26"/>sint aliquae leges quae in hoc sensu ferantur.
+        </p>
+        <p xml:id="szdleg-a67341-d1e466">
+          <lb ed="#P" n="27"/>5. Duplex presumptio legis, una facti, 
+          al<lb break="no" ed="#P" n="28"/>tera periculi moralis. —Quapropter 
+          distinctio<lb break="no" ed="#P" n="29"/>ne utendum videtur, quam sumere possumus
+          <lb ed="#P" n="30"/>ex D. Thoma 2. 2, q. 60, art. 4, ad 3, ubi ipse
+          <lb ed="#P" n="31"/>loquitur de interpretatione alicujus rei in 
+          dete<lb break="no" ed="#P" n="32"/>riorem partem, quam dicit posse dupliciter
+          <lb ed="#P" n="33"/>fieri, scilicet, praesupponendo posse ita esse,
+          <lb ed="#P" n="34"/>vel definiendo ita esse. Ita ergo in praesenti
+          <lb ed="#P" n="35"/>duplicem praesumptionem legis distinguo :
+          <lb ed="#P" n="36"/>unam vocare possumus praesumptionis, aliam
+          <lb ed="#P" n="37"/>definitionis, vel unam facti, aliam periculi 
+          mo<lb break="no" ed="#P" n="38"/>ralis, secundum id quod frequentius accidit,
+          <lb ed="#P" n="39"/>si tamen haec posterior praesumptio et non 
+          po<lb break="no" ed="#P" n="40"/>tius certa scientia dicenda est :loquimur tamen
+          <lb ed="#P" n="41"/>vulgari modo. Prior ergo modus est, quando
+          <lb ed="#P" n="42"/>praesumitur opus tali vel tali modo esse 
+          fac<lb break="no" ed="#P" n="43"/>tum, ut in casu illo de matrimonio per 
+          spon<lb break="no" ed="#P" n="44"/>salia consummata, praesumitur copula facta
+          <lb ed="#P" n="45"/>affectu maritali et cum vero consensu 
+          contra<lb break="no" ed="#P" n="46"/>hendi matrimonium. Posterior autem erit,
+          <lb ed="#P" n="47"/>quando solum praesumitur in tali modo 
+          con<lb break="no" ed="#P" n="48"/>trahendi, verbi gratia, inesse dubium, aut 
+          ti<lb break="no" ed="#P" n="49"/>morem, vel imperfectionem consensus ex 
+          de<lb break="no" ed="#P" n="50"/>fectu judicii , quia plerumque ita accidit
+          <lb ed="#P" n="51"/>in simili eventu. Unde semper inest periculum
+          <lb ed="#P" n="52"/>morale, quod ita sit sicut praesumitur. Et hoc
+          <lb ed="#P" n="53"/>modo fundantur in praesumptione lex irritans
+          <lb ed="#P" n="54"/>professionem ante legitimum tempus aetatis,
+          <lb ed="#P" n="55"/>aut probationis, et similes.
+        </p>
+        <p xml:id="szdleg-a67341-d1e531">
+          <lb ed="#P" n="56"/>6. Prima conclusio.—bico ergo primo leges
+          <lb ed="#P" n="57"/>fundatas in praesumptione ratione solius 
+          mora<lb break="no" ed="#P" n="58"/>lis periculi obligare in conscientia, et habere
+          <lb ed="#P" n="59"/>suos effectus, etiamsi in particulari casu factum
+          <lb ed="#P" n="60"/>non sit consentaneum periculo, nec revera 
+          in<lb break="no" ed="#P" n="61"/>terveniat quod timeri poterat. Hoc probant quae
+          <lb ed="#P" n="62"/>ultimo loco adduximus. Nam lex prohibens fieri
+          <lb ed="#P" n="63"/>professionem ante decimum sextum annum 
+          ex<lb break="no" ed="#P" n="64"/>pletum obligat, etiamsi puer sit doli capax, et
+          <lb ed="#P" n="65"/>habet effectum irritandi professionem antea
+          <lb ed="#P" n="66"/>factam, ita ut in conscientia nullam 
+          obligatio<lb break="no" ed="#P" n="67"/>nem inducat. Similiter, lex statuens ut votum
+          <lb ed="#P" n="68"/>factum a filio impubere ante decimum-
+          quar<lb break="no" ed="#P" n="69"/>tum annum possit irritari a parente, suam
+          <lb ed="#P" n="70"/>vim habet, etiam in conscientia, quamvis 
+          cer<lb break="no" ed="#P" n="71"/>to constet talem puerum in talh aetate habuisse
+          <lb ed="#P" n="72"/>perfectum judicium. Et sic de aliis. Ratio vero
+          <lb ed="#P" n="73"/>est, quam notavit D. Thom. 2. 2, q. 88, art. 9,
+          <lb ed="#P" n="74"/>quia leges humanae attendunt ea quae 
+          frequen<lb break="no" ed="#P" n="75"/>tius accidunt, et id satis est ut generaliter
+          <lb ed="#P" n="76"/>obligent. Confirmatur primo, quia ob hanc
+          <lb ed="#P" n="77"/>rationem, deficiente fine legis in particulari,
+          <lb ed="#P" n="78"/>non cessat obligatio legis : sic autem se habet
+          <lb ed="#P" n="79"/>in praesenti defectus praesumptionis in 
+          particu<lb break="no" ed="#P" n="80"/>lari casu, quia ibi tantum cessat ratio legis in
+          <lb ed="#P" n="81"/>particulari, et mere negative, quando quidem
+          <lb ed="#P" n="82"/>potest lex sine injustitia vel alia malitia 
+          ser<lb break="no" ed="#P" n="83"/>vari, ut supponitur.
+        </p>
+        <p xml:id="szdleg-a67341-d1e594">
+          <lb ed="#P" n="84"/>7. Objectio. — Sed contra hoc objici potest,
+          <lb ed="#P" n="85"/>quia quando lex aliquid prohibet propter 
+          vi<lb break="no" ed="#P" n="86"/>tanda aliqua incommoda , si in particulari
+          <lb ed="#P" n="87"/>casu cessant, seu non inveniantur illa 
+          incom<lb break="no" ed="#P" n="88"/>moda, non obligat talis lex , etiamsi posset
+          <lb ed="#P" n="89"/>sine incommodo executioni mandari, ut sentit
+          <lb ed="#P" n="90"/>Panorm. in c. Quoniam contra , de Probat.,
+          <lb ed="#P" n="91"/>n. 6 : Dummodo (ait) lez non contemnatur. Et
+          <lb ed="#P" n="92"/>idem sentit Navar. in sum. cap. 16, n. 37,
+          <lb ed="#P" n="93"/>cum Cajetan., tom. 1 Opusc., tract. 12, q.2
+          <lb ed="#P" n="94"/>de Matrimon., qui specialiter tractant de lege
+          <lb ed="#P" n="95"/>prohibente clandestina matrimonia, quam 
+          di<lb break="no" ed="#P" n="96"/>cunt non obligare quando cessant omnia illa
+          <lb ed="#P" n="97"/>incommoda quae lex illa vitare intendit. Et
+          <lb ed="#P" n="98"/>ratio reddi potest, quia tunc inutilis est 
+          obser<lb break="no" ed="#P" n="99"/>vantia talis legis, nullamque honestatem 
+          ha<lb break="no" ed="#P" n="100"/>bet; ergo similiter in praesenti, quando lex
+          <lb ed="#P" n="101"/>fundatur in praesumptione generali ratione 
+          pe<lb break="no" ed="#P" n="102"/>riculi potius quam facti, non obligabit in 
+          par<lb break="no" ed="#P" n="103"/>ticulari casu, ubi constiterit nullum esse tale
+          <lb ed="#P" n="104"/>periculum : est enim eadem ratio.
+        </p>
+        <p xml:id="szdleg-a67341-d1e642">
+          <lb ed="#P" n="105"/>8. Respondetur negando antecedens 
+          gene<lb break="no" ed="#P" n="106"/>raliter sumptum. Nam lex prohibens deferre
+          <lb ed="#P" n="107"/>arma noctu propter incommoda jurgiorum
+          <lb ed="#P" n="108"/>vel injuriarum quae inde sequi solent, obligat
+          <lb ed="#P" n="109"/>omnes, etiamsi nulla rixa timeatur. Item, lex
+          <lb ed="#P" n="110"/>prohibens habere plura officia reipublicae ,
+          <pb ed="#P" n="268"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>propter vitandum incommodum indebitae 
+          ad<lb break="no" ed="#P" n="2"/>ministrationis, obligat etiam illum in quo tale
+          <lb ed="#P" n="3"/>incommodum cessat, quia suflficiens est ad
+          <lb ed="#P" n="4"/>illa perfectissime administranda. Unde potius
+          <lb ed="#P" n="5"/>potest retorqueri argumentum ad 
+          confirman<lb break="no" ed="#P" n="6"/>dam assertionem. Nam si lex prohibeat aliquid
+          <lb ed="#P" n="7"/>propter incommoda vitanda, obligat in 
+          par<lb break="no" ed="#P" n="8"/>ticulari casu, etiamsi in illo non inveniantur ;
+          <lb ed="#P" n="9"/>ergo similiter, etc. Praeterea retorquetur ratio
+          <lb ed="#P" n="10"/>illius sententiae, quia, licet cessent pericula vel
+          <lb ed="#P" n="11"/>incommoda, semper est honestum servare 
+          le<lb break="no" ed="#P" n="12"/>gem, et est utile ad majorem legis vigorem et
+          <lb ed="#P" n="13"/>observantiam. Item quia ut lex universaliter
+          <lb ed="#P" n="14"/>obliget, satis est quod plurimum sequantur
+          <lb ed="#P" n="15"/>incommoda ex contrario actu. Quocirca, ut
+          <lb ed="#P" n="16"/>in aliquo casu cesset obligatio legis latae ad
+          <lb ed="#P" n="17"/>vitanda incommoda, non satis est ut 
+          incom<lb break="no" ed="#P" n="18"/>moda cessent, sed oportet ut occurrant aliqua
+          <lb ed="#P" n="19"/>gravia incommoda, quae in tali casu 
+          sequan<lb break="no" ed="#P" n="20"/>tur, si lex servetur, et ideo per modum epiikiae
+          <lb ed="#P" n="21"/>cessare censeatur. Et ita videtur interpretari
+          <lb ed="#P" n="22"/>Navarr. suam sententiam, de quo puncto 
+          plu<lb break="no" ed="#P" n="23"/>ra dicemus infra, tractando de interpretatione
+          <lb ed="#P" n="24"/>vel cessatione obligationis legis.
+        </p>
+        <p xml:id="szdleg-a67341-d1e715">
+          <lb ed="#P" n="25"/>9. Secunda conclusio. —Dico secundo: 
+          quan<lb break="no" ed="#P" n="26"/>do lex fundatur in praesumptione definitiva,
+          <lb ed="#P" n="27"/>seu facti, non obligat non subsistente 
+          prae<lb break="no" ed="#P" n="28"/>sumptione seu veritate facti. Juxta hanc 
+          asser<lb break="no" ed="#P" n="29"/>tionem procedere potest communis sententia
+          <lb ed="#P" n="30"/>supra citata, eamque significare videtur 
+          Feli<lb break="no" ed="#P" n="31"/>nus dicto n. 40, verb. Hanc fallentiam, ubi
+          <lb ed="#P" n="32"/>numerat tres casus in quibus lex non obligat
+          <lb ed="#P" n="33"/>in conscientia; et omissis secundo de lege 
+          in<lb break="no" ed="#P" n="34"/>justa, et tertio de lege poenali quoad 
+          solutio<lb break="no" ed="#P" n="35"/>nem poenae, qui ad rem praesentem non 
+          perti<lb break="no" ed="#P" n="36"/>net, primus et unicus apud illum est, quando
+          <lb ed="#P" n="37"/>lex fundatur super presumptis, et non super
+          <lb ed="#P" n="38"/>certis, ut ille loquitur; ut quando lex praecipit
+          <lb ed="#P" n="39"/>obedire sententia quam praesumit justam :
+          <lb ed="#P" n="40"/>nam si constet non esse justam, non obligat
+          <lb ed="#P" n="41"/>talis lex ad observandam illam sententiam,
+          <lb ed="#P" n="42"/>quia fundatur in praesumptione talis facti in
+          <lb ed="#P" n="43"/>individuo, scilicet, quod talis sententia justa
+          <lb ed="#P" n="44"/>sit. Et idem significat Baldus in dicta leg. Cuum
+          <lb ed="#P" n="45"/>quis, in exemplis omnibus quae adducit ;
+          <lb ed="#P" n="46"/>quamvis alii utantur aliis exemplis, quae plus
+          <lb ed="#P" n="47"/>indicant et admittenda non sunt, ut in libro
+          <lb ed="#P" n="48"/>quinto latius dicam. Exemplum autem de 
+          hae<lb break="no" ed="#P" n="49"/>rede non faciente inventarium, admissa illa
+          <lb ed="#P" n="50"/>opinione, ad hunc sensum debet accommodari.
+          <lb ed="#P" n="51"/>Et habet fundamentum in Authentica de 
+          Hae<lb break="no" ed="#P" n="52"/>redibus et Falcid., c. 2, ibi: Ft non per ea que
+          <lb ed="#P" n="53"/>forte surripiunt, vel malignanter introducere
+          <lb ed="#P" n="54"/>pertentant. Vt infra: Cum utique si nihil 
+          mali<lb break="no" ed="#P" n="55"/>guuati essent, non forte competeret, vel forte illa
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>lex quasi poenalis est propter negligentiam 
+          fa<lb break="no" ed="#P" n="57"/>ciendi inventarium, et ideo non obligat in
+          <lb ed="#P" n="58"/>conscientia ante judicis sententiam ; poterit
+          <lb ed="#P" n="59"/>autem tunc juste cogi haeres per judicem, et
+          <lb ed="#P" n="60"/>tunc tenebitur in conscientia parere. Neque
+          <lb ed="#P" n="61"/>aliud disponi videtur per illam legem. 
+          Omis<lb break="no" ed="#P" n="62"/>sis vero exemplis, ratio assertionis est, quia
+          <lb ed="#P" n="63"/>quando lex fundatur hoc modo in 
+          praesumptio<lb break="no" ed="#P" n="64"/>ne, deficiente veritate, tollitur omnino 
+          funda<lb break="no" ed="#P" n="65"/>mentum legis, et ideo necesse est ut cesset
+          <lb ed="#P" n="66"/>obligatio ejus. In quo est magna differentia
+          <lb ed="#P" n="67"/>inter hanc legem et illam, quae fundatur in
+          <lb ed="#P" n="68"/>prassumptione periculi: quia in priori, 
+          ces<lb break="no" ed="#P" n="69"/>sante veritate, deficit fundamentum legis: in
+          <lb ed="#P" n="70"/>posteriori autem minime, quia semper est 
+          ve<lb break="no" ed="#P" n="71"/>rum dicere actum esse periculosum, etiamsi
+          <lb ed="#P" n="72"/>non eveniat effectus. Unde proprie loquendo,
+          <lb ed="#P" n="73"/>illa ratio periculi non tam ex praesumptione,
+          <lb ed="#P" n="74"/>quam ex vero et certo judicio de tali periculo
+          <lb ed="#P" n="75"/>timetur : secus vero est, quando praesumptio
+          <lb ed="#P" n="76"/>est de ipso facto, quod simpliciter incertum
+          <lb ed="#P" n="77"/>est, licet praesumatur : unde cum non tantum
+          <lb ed="#P" n="78"/>periculum, sed etiam ipsummet factum sit
+          <lb ed="#P" n="79"/>fundamentum talis legis, merito, cessante 
+          ve<lb break="no" ed="#P" n="80"/>ritate facti, cessat obligatio legis. Accedit quod
+          <lb ed="#P" n="81"/>etiam tunc cessat materia legis, ut, in casu de
+          <lb ed="#P" n="82"/>matrimonio, si lex praecipiat permanere cum
+          <lb ed="#P" n="83"/>muliere cognita post sponsalia, et contingat
+          <lb ed="#P" n="84"/>non fuisse cognitam affectu maritali, cessat in
+          <lb ed="#P" n="85"/>conscientia obligatio talis legis, quia re vera
+          <lb ed="#P" n="86"/>cessat materia ejus: nam intentio illius legis
+          <lb ed="#P" n="87"/>est praecipere accessum ad suam conjugem, et
+          <lb ed="#P" n="88"/>illa non est conjux: ita ergo est in omnibus
+          <lb ed="#P" n="89"/>similibus.
+        </p>
+        <p xml:id="szdleg-a67341-d1e861">
+          <lb ed="#P" n="90"/>10. Ex verbis legis, usu, et interpretatione
+          <lb ed="#P" n="91"/>doctorum colligendum, quando lem fundetur in
+          <lb ed="#P" n="92"/>praudicio periculi vel in presumptione facti.
+          <lb ed="#P" n="93"/>—Solum potest ulterius interrogari quomodo
+          <lb ed="#P" n="94"/>discernendum sit, quando lex fundetur in
+          <lb ed="#P" n="95"/>praejudicio periculi tantum, seu in eo, quod
+          <lb ed="#P" n="96"/>frequentius accidit, vel etiam in praesumptione
+          <lb ed="#P" n="97"/>facti, quod ita in re ipsa esse supponatur. De
+          <lb ed="#P" n="98"/>hoc vero non possumus certam regulam in
+          <lb ed="#P" n="99"/>particulari assignare. Dicimus ergo ex 
+          mate<lb break="no" ed="#P" n="100"/>ria et verbis legis, adjuncto usu, et 
+          interpre<lb break="no" ed="#P" n="101"/>tatione doctorum id esse colligendum. Altera
+          <lb ed="#P" n="102"/>dubitatio de intentione legislatoris, quae in alio
+          <lb ed="#P" n="103"/>argumento superioris capitis petebatur, post
+          <lb ed="#P" n="104"/>sequens caput commodius tractabitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

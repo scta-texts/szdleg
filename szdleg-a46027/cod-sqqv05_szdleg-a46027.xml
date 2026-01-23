@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="182"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a46027"><!-- deleg-l3c3 -->
+        <head xml:id="szdleg-a46027-Hd1e101">Caput 3</head>
+        <head xml:id="szdleg-a46027-Hd1e103" type="question-title">An potestas ferendi leges humanas sit data hominibus immediate a deo ut auctore naturae</head>
+        <p xml:id="szdleg-a46027-d1e106">
+          <lb ed="#P" n="9"/>CAPUT III.
+          <lb ed="#P" n="10"/>AN POTESTAS FERENDI LEGES HUMANAS SIT DATA
+          <lb ed="#P" n="11"/>HOMINIBUS IMMEDIATE A DEO UT AUCTORE 
+          NA<lb break="no" ed="#P" n="12"/>TURAE.
+        </p>
+        <p xml:id="szdleg-a46027-d1e117">
+          <lb ed="#P" n="13"/>1. Ratio dubitandi. — Ratio dubitandi esse
+          <lb ed="#P" n="14"/>potest, quia ex dictis sequi videtur a singulis
+          <lb ed="#P" n="15"/>hominibus per proprium eorum consensum
+          <lb ed="#P" n="16"/>derivari hanc potestatem in totam 
+          communi<lb break="no" ed="#P" n="17"/>tatem ex eis coactam : nam idem est 
+          princi<lb break="no" ed="#P" n="18"/>pium talis potestatis et ipsius communitatis in
+          <lb ed="#P" n="19"/>qua residet : sed ipsa communitas coalescit ,
+          <lb ed="#P" n="20"/>medio consensu et voluntate singulorum : ergo
+          <lb ed="#P" n="21"/>ab eisdem etiam voluntatibus manat potestas.
+          <lb ed="#P" n="22"/>Major patet, quia posita communitate, sequitur
+          <lb ed="#P" n="23"/>haec potestas ; sed qui dat formam dat 
+          conse<lb break="no" ed="#P" n="24"/>quentia ad formam : ergo qui est proximus
+          <lb ed="#P" n="25"/>auctor talis communitatis videtur etiam esse
+          <lb ed="#P" n="26"/>auctor et collator potestatis ejus. In contrarium
+          <lb ed="#P" n="27"/>vero est, quia priusquam homines in unum
+          <lb ed="#P" n="28"/>corpus politicum congregentur, haec potestas
+          <lb ed="#P" n="29"/>non est in singulis, nec totaliter, nec 
+          partia<lb break="no" ed="#P" n="30"/>liter : imo nec in ipsa rudi (ut sic dicam) 
+          col<lb break="no" ed="#P" n="31"/>lectione vel aggregato hominum existit, ut 
+          ca<lb break="no" ed="#P" n="32"/>pite praecedenti declaratum est : ergo nunquam
+          <lb ed="#P" n="33"/>potest haec potestas provenire immediate ab
+          <lb ed="#P" n="34"/>ipsis hominibus.
+        </p>
+        <p xml:id="szdleg-a46027-d1e167">
+          <lb ed="#P" n="35"/>2. Communis et vera sententia. — In hac re
+          <lb ed="#P" n="36"/>communis sententia videtur esse hanc 
+          potesta<lb break="no" ed="#P" n="37"/>tem dari immediate a Deo ut auctore naturae,
+          <lb ed="#P" n="38"/>ita ut homines quasi disponant materiam et
+          <lb ed="#P" n="39"/>efficiant subjectum capax hujus potestatis,
+          <lb ed="#P" n="40"/>Deus autem quasi tribuat formam dando hanc
+          <lb ed="#P" n="41"/>potestatem. Ita indicat Cajetanus, t. 1 Opusc.,
+          <lb ed="#P" n="42"/>tract. 2, de Potestate Papae, parte 2, cap. 10,
+          <lb ed="#P" n="43"/>ad 2 confirmationem, et Covar. c. 1 Practic.
+          <lb ed="#P" n="44"/>quaest. ; latius Victor. in Relect. propria de
+          <lb ed="#P" n="45"/>hac potestate; Soto, libro 4 de Justitia, q. 2,
+          <lb ed="#P" n="46"/>a. 1; et potest suaderi, quia, ut antea dicebam,
+          <lb ed="#P" n="47"/>supposita voluntate hominum conveniendi in
+          <lb ed="#P" n="48"/>una politica communitate, non est in potestate
+          <lb ed="#P" n="49"/>eorum impedire hanc jurisdictionem : ergo
+          <lb ed="#P" n="50"/>signum est proxime non provenire ex eorum
+          <lb ed="#P" n="51"/>voluntatibus quasi ex propria causa efficienti.
+          <lb ed="#P" n="52"/>Sicut in matrimonio recte colligimus virum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>esse caput mulieris ex dono ipsius auctoris
+          <lb ed="#P" n="54"/>naturae, et non ex voluntate uxoris, quia licet
+          <lb ed="#P" n="55"/>ipsi voluntate sua matrimonium contrahant,
+          <lb ed="#P" n="56"/>tamen si matrimonium contrahant hanc 
+          supe<lb break="no" ed="#P" n="57"/>rioritatem impedire non possunt. Confirmatur
+          <lb ed="#P" n="58"/>ex Paulo ad Romanos 3 dicente: on est 
+          po<lb break="no" ed="#P" n="59"/>testas nisi a Deo, et qui potestati resistit, Dei
+          <lb ed="#P" n="60"/>ordinationi resistit : ergo etiam haec potestas
+          <lb ed="#P" n="61"/>est a Deo; ergo est immediate ab ipso Deo,
+          <lb ed="#P" n="62"/>quia a nullo alio prius seu immediatius est.
+        </p>
+        <p xml:id="szdleg-a46027-d1e233">
+          <lb ed="#P" n="63"/>3. Actus potestatis legislatoris. — 
+          Declara<lb break="no" ed="#P" n="64"/>tur secundo, quia haec potestas habet plures
+          <lb ed="#P" n="65"/>actus qui videntur excedere humanam 
+          facul<lb break="no" ed="#P" n="66"/>tatem, prout est in singulis hominibus : ergo
+          <lb ed="#P" n="67"/>signum est non esse ab illis, sed a Deo. Primus
+          <lb ed="#P" n="68"/>actus est punitio malefactorum , etiam usque
+          <lb ed="#P" n="69"/>ad mortem : nam cum solus Deus sit dominus
+          <lb ed="#P" n="70"/>vitae, solus ipse videtur potuisse dare hanc 
+          po<lb break="no" ed="#P" n="71"/>testatem : et ideo dixit Augustinus lib. de
+          <lb ed="#P" n="72"/>Natura boni, cap. 32: Nocentin potestas non
+          <lb ed="#P" n="73"/>est, nisi a Dec. Secundus actus est constituere
+          <lb ed="#P" n="74"/>in materia aliqua medium virtutis 
+          necessa<lb break="no" ed="#P" n="75"/>rium ad honestatem ejus. Tertio, cum hoc
+          <lb ed="#P" n="76"/>statu conjunctus est effectus obligandi in 
+          con<lb break="no" ed="#P" n="77"/>scientia, ut infra videbimus, quod maxime 
+          vi<lb break="no" ed="#P" n="78"/>detur pertinere ad divinam potestatem. 
+          Quar<lb break="no" ed="#P" n="79"/>tus est vindicare injurias singulorum, cum
+          <lb ed="#P" n="80"/>alioqui scriptum sit: Mihi vindicta, et ego
+          <lb ed="#P" n="81"/>retribuam, dicit Dominus, Roman. 12. Ergo
+          <lb ed="#P" n="82"/>signum est hanc potestatem esse divinam,
+          <lb ed="#P" n="83"/>alioqui potuissent homines alium modum 
+          vin<lb break="no" ed="#P" n="84"/>dicandi injurias usurpare , quod est contra
+          <lb ed="#P" n="85"/>naturalem justitiam.
+        </p>
+        <p xml:id="szdleg-a46027-d1e285">
+          <lb ed="#P" n="86"/>4. In hac sententia unum est certum et 
+          cla<lb break="no" ed="#P" n="87"/>rum ; aliud vero aliqua explicatione indiget.
+          <lb ed="#P" n="88"/>Primum est hanc potestatem esse a Deo uta
+          <lb ed="#P" n="89"/>primo et principali auctore. Haec enim videtur
+          <lb ed="#P" n="90"/>clara sententia Pauli, et sufficienter probari
+          <lb ed="#P" n="91"/>rationibus factis : et praeterea, quia potestas
+          <lb ed="#P" n="92"/>haec est aliquid in rerum natura, et sive sit res
+          <lb ed="#P" n="93"/>physica, sive moralis, est simpliciter res bona,
+          <lb ed="#P" n="94"/>et magnae aestimationis ac necessitatis ad 
+          bo<lb break="no" ed="#P" n="95"/>nam consuetudinem humanae naturae ; ergo
+          <lb ed="#P" n="96"/>necessario manare debet ab ejus auctore. 
+          De<lb break="no" ed="#P" n="97"/>nique , quia illi qui hac potestate utuntur in
+          <lb ed="#P" n="98"/>humana communitate Dei ministri sunt ; ergo
+          <lb ed="#P" n="99"/>potestatem a Deo acceptam administrant : est
+          <lb ed="#P" n="100"/>ergo Deus auctor non solum praecipuus , sed
+          <lb ed="#P" n="101"/>etiam proprius hujus potestatis. Alterum vero
+          <lb ed="#P" n="102"/>explicatione indigens, est, quomodo Deus 
+          di<lb break="no" ed="#P" n="103"/>catur immediate conferre hanc potestatem.
+        </p>
+        <p xml:id="szdleg-a46027-d1e327">
+          <lb ed="#P" n="104"/>5. Potestas praedicta quomodo datur a Deo.
+          <lb ed="#P" n="105"/>— Circa quod breviter dico primo, hanc 
+          po<lb break="no" ed="#P" n="106"/>testatem dari a Deo per modum proprietatis
+          <lb ed="#P" n="107"/>consequentis naturam , eo modo quo dando
+          <pb ed="#P" n="183"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>formam dat consequentiam ad formam. 
+          Pro<lb break="no" ed="#P" n="2"/>batur primo, quia Deus non dat hanc 
+          potesta<lb break="no" ed="#P" n="3"/>tem per specialem actionem vel concessionem
+          <lb ed="#P" n="4"/>a creatione distinctam; alias de tali 
+          conces<lb break="no" ed="#P" n="5"/>sione deberet per revelationem constare, quod
+          <lb ed="#P" n="6"/>falsum esse constat : alioqui non esset talis 
+          po<lb break="no" ed="#P" n="7"/>testas naturalis ; ergo datur ut proprietas 
+          con<lb break="no" ed="#P" n="8"/>sequens naturam, nimirum, medio dictamine
+          <lb ed="#P" n="9"/>rationis naturalis ostendentis Deum 
+          sufflicien<lb break="no" ed="#P" n="10"/>ter providisse humano generi, et consequenter
+          <lb ed="#P" n="11"/>illi dedisse potestatem ad suam 
+          conservatio<lb break="no" ed="#P" n="12"/>nem et convenientem gubernationem 
+          necessa<lb break="no" ed="#P" n="13"/>riam.
+        </p>
+        <p xml:id="szdleg-a46027-d1e371">
+          <lb ed="#P" n="14"/>6. Potestas praedicla quando resultat. —
+          <lb ed="#P" n="15"/>Secundo, assero hanc potestatem non resultare
+          <lb ed="#P" n="16"/>in humana natura , donec homines in unam
+          <lb ed="#P" n="17"/>communitatem perfectam congregentur et 
+          po<lb break="no" ed="#P" n="18"/>litice uniantur. Probatur , quia haec potestas
+          <lb ed="#P" n="19"/>non est in singulis hominibus divisim sumptis,
+          <lb ed="#P" n="20"/>nec in collectione vel multitudine eorum quasi
+          <lb ed="#P" n="21"/>confuse et sine ordine et unione membrorum
+          <lb ed="#P" n="22"/>in unum corpus; ergo prius est tale corpus
+          <lb ed="#P" n="23"/>politicum constitui quam sit in hominibus talis
+          <lb ed="#P" n="24"/>potestas , quia prius esse debet subjectum 
+          po<lb break="no" ed="#P" n="25"/>testatis quam potestas ipsa, saltem ordine 
+          na<lb break="no" ed="#P" n="26"/>turae. Semel autem constituto illo corpore,
+          <lb ed="#P" n="27"/>statim ex vi rationis naturalis est in illo haec
+          <lb ed="#P" n="28"/>potestas : ergo recte intelligitur esse per 
+          mo<lb break="no" ed="#P" n="29"/>dum proprietatis resultantis ex tali corpore
+          <lb ed="#P" n="30"/>mystico jam constituto in tali esse, et non
+          <lb ed="#P" n="31"/>aliter. Quocirca sicut homo, eo ipso quod 
+          crea<lb break="no" ed="#P" n="32"/>tur et habet usum rationis, habet potestatem
+          <lb ed="#P" n="33"/>in seipsum et in suas facultates et membra ad
+          <lb ed="#P" n="34"/>eorum usum, et ea ratione est naturaliter 
+          li<lb break="no" ed="#P" n="35"/>ber, id est, non servus sed dominus suarum
+          <lb ed="#P" n="36"/>actionum, ita corpus politicum hominum, eo
+          <lb ed="#P" n="37"/>ipso quod suo modo producitur , habet 
+          potes<lb break="no" ed="#P" n="38"/>tatem et regimen sui ipsius, et consequenter
+          <lb ed="#P" n="39"/>habet etiam potestatem super membra sua, et
+          <lb ed="#P" n="40"/>peculiare dominium in illa. Atque eadem 
+          pro<lb break="no" ed="#P" n="41"/>portione, sicut libertas data est unicuique 
+          ho<lb break="no" ed="#P" n="42"/>mini ab auctore naturae, non tamen sine 
+          in<lb break="no" ed="#P" n="43"/>terventu causae proximae , seu parentis a quo
+          <lb ed="#P" n="44"/>producitur : ita haec potestas datur 
+          communi<lb break="no" ed="#P" n="45"/>tati hominum ab auctore naturae, non tamen
+          <lb ed="#P" n="46"/>sine interventu voluntatum et consensuum
+          <lb ed="#P" n="47"/>hominum, ex quibus talis communitas perfecta
+          <lb ed="#P" n="48"/>congregata est. Tamen, sicut in priori 
+          exem<lb break="no" ed="#P" n="49"/>plo voluntas parentis solum est necessaria ad
+          <lb ed="#P" n="50"/>generandum, non tamen requiritur specialis
+          <lb ed="#P" n="51"/>voluntas dandi filio libertatem, aut alias 
+          facul<lb break="no" ed="#P" n="52"/>tates naturales, quae per se non pendent ab
+          <lb ed="#P" n="53"/>speciali voluntate generantis, sed naturaliter
+          <lb ed="#P" n="54"/>consequuntur : ita in praesenti voluntas 
+          homi<lb break="no" ed="#P" n="55"/>num solum est necessaria ut unam communi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tatem perfectam componant ; ut autem illa
+          <lb ed="#P" n="57"/>communitas habeat praedictam potestatem ,
+          <lb ed="#P" n="58"/>non est necessaria specialis voluntas hominum,
+          <lb ed="#P" n="59"/>sed ex natura rei consequitur et ex 
+          providen<lb break="no" ed="#P" n="60"/>tia auctoris naturae, et in hoc sensu recte 
+          dici<lb break="no" ed="#P" n="61"/>tur ab ipso immediate collata.
+        </p>
+        <p xml:id="szdleg-a46027-d1e480">
+          <lb ed="#P" n="62"/>7. Praedicta potestas non est immutabilis.—
+          <lb ed="#P" n="63"/>Tertio, addo, licet haec potestas sit veluti 
+          pro<lb break="no" ed="#P" n="64"/>prietas naturalis perfectae communitatis 
+          homi<lb break="no" ed="#P" n="65"/>num, ut talis est, nihilominus non esse in ea
+          <lb ed="#P" n="66"/>immutabiliter, sed per consensum ipsiusmet
+          <lb ed="#P" n="67"/>communitatis, vel per aliam justam viam posse
+          <lb ed="#P" n="68"/>illa privari et in alium transferri: hoc satis
+          <lb ed="#P" n="69"/>constat ex usu, et ex sequentibus illationibus
+          <lb ed="#P" n="70"/>amplius explicabitur. Nunc ostenditur ex 
+          ad<lb break="no" ed="#P" n="71"/>ducto exemplo seu proportione ad aliud : nam
+          <lb ed="#P" n="72"/>libertas a servitute proprietas est naturalis
+          <lb ed="#P" n="73"/>hominis, et ideodici solet esse de jure naturae,
+          <lb ed="#P" n="74"/>et nihilominus per propriam voluntatem potest
+          <lb ed="#P" n="75"/>se homo illa privare, vel etiam ex justa causa
+          <lb ed="#P" n="76"/>illa privari, et in servitutem redigi: ergo 
+          si<lb break="no" ed="#P" n="77"/>mili modo communitas humana perfecta, licet
+          <lb ed="#P" n="78"/>ex natura rei libera sit, et potestatem in se
+          <lb ed="#P" n="79"/>habeat, potest aliquo modo ex praedictis illa
+          <lb ed="#P" n="80"/>privari : unde considerari licet quod, licet 
+          pro<lb break="no" ed="#P" n="81"/>prietates physicae manantes a natura soleant
+          <lb ed="#P" n="82"/>esse immutabiles naturaliter , nihillominus hae
+          <lb ed="#P" n="83"/>proprietates quasi morales, quae sunt veluti
+          <lb ed="#P" n="84"/>dominia seu jura, mutari possunt per 
+          contra<lb break="no" ed="#P" n="85"/>riam voluntatem, quamvis a natura sint 
+          ac<lb break="no" ed="#P" n="86"/>cepta: sicut interdum etiam proprietates 
+          phy<lb break="no" ed="#P" n="87"/>sicae, quae contrarium habent, vel pendent a
+          <lb ed="#P" n="88"/>dispositionibus habentibus contrarium, 
+          muta<lb break="no" ed="#P" n="89"/>tioni obnoxiae sunt, ut constat.
+        </p>
+        <p xml:id="szdleg-a46027-d1e543">
+          <lb ed="#P" n="90"/>8. Secundo, declaratur idem ex 
+          convenien<lb break="no" ed="#P" n="91"/>tia aliqua, et alia differentia inter hanc 
+          potes<lb break="no" ed="#P" n="92"/>tatem et illam quae est ex speciali institutione
+          <lb ed="#P" n="93"/>divina, ut est, verbi gratia, potestas Pontificis:
+          <lb ed="#P" n="94"/>nam haec potestas licet a Christo sit data tali
+          <lb ed="#P" n="95"/>personae rite electae, ipsemet Pontifex potest,
+          <lb ed="#P" n="96"/>si voluerit, illam renuntiare, se illa spoliando,
+          <lb ed="#P" n="97"/>saltem acceptante Ecclesia, ut nunc suppono;
+          <lb ed="#P" n="98"/>in hoc ergo est aliqua convenientia, quia etiam
+          <lb ed="#P" n="99"/>communitas hominum, licet a Deo habuerit
+          <lb ed="#P" n="100"/>potestatem, potest se illa spoliare, si velit. Est
+          <lb ed="#P" n="101"/>tamen differentia in modo; tum quia Pontifex
+          <lb ed="#P" n="102"/>semel electus non potest ab universis 
+          homini<lb break="no" ed="#P" n="103"/>bus ob quamcumque causam privari sua 
+          po<lb break="no" ed="#P" n="104"/>testate vel dignitate invitus, sed tantum a
+          <lb ed="#P" n="105"/>Christo, qui illam dedit : respublica autem 
+          po<lb break="no" ed="#P" n="106"/>test interdum ex justa causa privari sua 
+          liber<lb break="no" ed="#P" n="107"/>tate per coactionem, ut per justum bellum:
+          <lb ed="#P" n="108"/>tum etiam quia Pontificis potestas non potest
+          <lb ed="#P" n="109"/>ita mutari, ut ab una persona in aliquam 
+          com<lb break="no" ed="#P" n="110"/>munitatem transferatur : quia non est in po-
+          <pb ed="#P" n="184"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>testate hominum monarchicum regimen in
+          <lb ed="#P" n="2"/>Ecclesia mutare : communitas autem humana
+          <lb ed="#P" n="3"/>potest suam jurisdictionem transferre in unam
+          <lb ed="#P" n="4"/>personam, vel in aliam communitatem, ut
+          <lb ed="#P" n="5"/>patebit. Est ergo haec potestas non solum 
+          mu<lb break="no" ed="#P" n="6"/>tabilis, sed etiam mutabilior, magisque a 
+          vo<lb break="no" ed="#P" n="7"/>Iuntatibus hominum pendens. Tertio potest
+          <lb ed="#P" n="8"/>reddi ratio hujus differentiae, quia ea quae sunt
+          <lb ed="#P" n="9"/>ex institutione speciali pendent a voluntate
+          <lb ed="#P" n="10"/>instituentis, quae ab inferioribus mutari non
+          <lb ed="#P" n="11"/>potest: haec autem potestas non est ab 
+          institu<lb break="no" ed="#P" n="12"/>tione, sed a natura, et ideo eo modo datur quo
+          <lb ed="#P" n="13"/>est conveniens naturae rationali secundum 
+          rec<lb break="no" ed="#P" n="14"/>tam rationem et prudentiam : ratio autem 
+          na<lb break="no" ed="#P" n="15"/>turalis dictat non esse necessarium, imo nec
+          <lb ed="#P" n="16"/>conveniens tali naturae habere hanc 
+          potesta<lb break="no" ed="#P" n="17"/>tem immutabilem in tota communitate: vix
+          <lb ed="#P" n="18"/>enim potest illa sic sumpta, et nulla 
+          determi<lb break="no" ed="#P" n="19"/>natione adjuncta vel mutatione facta, illa uti:
+          <lb ed="#P" n="20"/>ergo ita datur a natura et ejus auctore ut 
+          pos<lb break="no" ed="#P" n="21"/>sit in ea mutatio fieri, prout communi bono
+          <lb ed="#P" n="22"/>magis fuerit expediens.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

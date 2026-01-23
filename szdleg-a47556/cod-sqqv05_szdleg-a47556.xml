@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="188"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a47556"><!-- deleg-l3c5 -->
+        <head xml:id="szdleg-a47556-Hd1e101">Caput 5</head>
+        <head xml:id="szdleg-a47556-Hd1e103" type="question-title">An potestas ferendi leges civiles perseveret in christi ecclesia, et per eas obligare possit christianos seu fideles baptizatos</head>
+        <p xml:id="szdleg-a47556-d1e106">
+          <lb ed="#P" n="7"/>CAPUT V.
+          <lb ed="#P" n="8"/>AN POTESTAS FERENDI LEGES CIVILES 
+          PERSEVE<lb break="no" ed="#P" n="9"/>RET IN CHRISTI ECCLESIA, ET PER EAS 
+          OBLI<lb break="no" ed="#P" n="10"/>GARE POSSIT CHRISTIANOS SEU FIDELES 
+          BAPTI<lb break="no" ed="#P" n="11"/>ZATOS.
+        </p>
+        <p xml:id="szdleg-a47556-d1e119">
+          <lb ed="#P" n="12"/>1. Judae Galilei error. — Quae hactenus
+          <lb ed="#P" n="13"/>diximus de naturali potestate humana ad leges
+          <lb ed="#P" n="14"/>civiles ferendas generalia sunt ad omnes 
+          Eth<lb break="no" ed="#P" n="15"/>nicos et infideles; ut ergo nobis usui esse 
+          pos<lb break="no" ed="#P" n="16"/>sint (quia de his legibus, prout sunt in usu
+          <lb ed="#P" n="17"/>Ecclesiae et ad mores fidelhum pertinere 
+          pos<lb break="no" ed="#P" n="18"/>sunt, in praesenti tractamus), necessarium est
+          <lb ed="#P" n="19"/>doctrinam datam ad Ecclesiam Christi 
+          appli<lb break="no" ed="#P" n="20"/>care, et quomodo in ea locum habeat et 
+          ser<lb break="no" ed="#P" n="21"/>vanda sit exponere. Circa propositam ergo
+          <lb ed="#P" n="22"/>quaestionem fuit error circa tempora Christi et
+          <lb ed="#P" n="23"/>Apostolorum exortus quorumdam dicentium,
+          <lb ed="#P" n="24"/>non esse licitum fidelibus alium dominium 
+          re<lb break="no" ed="#P" n="25"/>cognoscere praeter Deum, ideoque saecularibus
+          <lb ed="#P" n="26"/>principibus aut eorum legibus obediendum
+          <lb ed="#P" n="27"/>non esse. [ta refert Hieronymus ad Tit. 3 in
+          <lb ed="#P" n="28"/>principio, censetque auctorem hujus erroris
+          <lb ed="#P" n="29"/>fuisse Judam illum Galilaeum de quo refertur
+          <lb ed="#P" n="30"/>Actor. 5, Estitisse in diebus professionis, id
+          <lb ed="#P" n="31"/>est. ortus et Nativitatis Christi, quando eait
+          <lb ed="#P" n="32"/>edictwun a Cmsare Augusto, ut describeretur
+          <lb ed="#P" n="33"/>unircersus orlis, et ibant omnes ut profiterentur,
+          <lb ed="#P" n="34"/>ut dicitur Lucae 2; et additur de illo Juda quod
+          <lb ed="#P" n="35"/>acertit populum post se.: quid autem ille 
+          praedi<lb break="no" ed="#P" n="36"/>carit incas non explicat. Hieronymus autem
+          <lb ed="#P" n="37"/>refert, dicens : Inter cetera hoc quasi probabile
+          <lb ed="#P" n="38"/>proferebat ea lege, mullum debere dominum ,
+          <lb ed="#P" n="39"/>nisi solum Deum vocari, et eos qui ad templum
+          <lb ed="#P" n="40"/>decimas deferrent, Ceesari tributa non redderc.
+          <lb ed="#P" n="41"/>Et hanc haeresim (ait) multum percrebuisse
+          <lb ed="#P" n="42"/>usque ad tempora praedicationis Christi, et
+          <lb ed="#P" n="43"/>illius occasione Pharisseos misisse discipulos
+          <lb ed="#P" n="44"/>suos ad Christum interrogandum, an liceret
+          <lb ed="#P" n="45"/>censum dare Caesari, etc., Matth. 22. Addit
+          <lb ed="#P" n="46"/>Anastas. Nicen. q. 67 in Scripturam, 
+          sectato<lb break="no" ed="#P" n="47"/>res hujus Judae Gahlaei vocatos fuisse Galifaeos ,
+          <lb ed="#P" n="48"/>et prohibuisse offerre sacrificia pro imperatore
+          <lb ed="#P" n="49"/>et populo romano, et ideo interfectos fuisse a
+          <lb ed="#P" n="50"/>Pilato. Hos enim credit esse illos Galileeos
+          <lb ed="#P" n="51"/>quorum sanguinem miscuit Pilatus cum saá
+          cri<lb break="no" ed="#P" n="52"/>ficiis eorum, ut attigit Lucas cap. 13; nec
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>vero ideo haeresis ipsa extincta est, sed usque
+          <lb ed="#P" n="54"/>ad tempora Apostolorum durasse creditur;
+          <lb ed="#P" n="55"/>quia Apostohl Galilaei erant et novam 
+          doctri<lb break="no" ed="#P" n="56"/>nam praedicabant , venisse dicuntur in 
+          suspi<lb break="no" ed="#P" n="57"/>cionem, quod credentes etiam averterent ab
+          <lb ed="#P" n="58"/>obedientia principum saecularium ac legum 
+          ci<lb break="no" ed="#P" n="59"/>vilium. ita sentit Hieronymus supra, dicens
+          <lb ed="#P" n="60"/>ideo Paulum tum ibi, tum ad Rom. 13 monere
+          <lb ed="#P" n="61"/>Christianos ut obediant principibus, quia Jude
+          <lb ed="#P" n="62"/>Galilei dogma adhne per illud tempus vigebat.
+          <lb ed="#P" n="63"/>Chrysostomus etiam homil. 23 ad Rom. : 
+          PIa<lb break="no" ed="#P" n="64"/>rima ünquit) tunc temporis circumferebatur
+          <lb ed="#P" n="65"/>fama traducens Apostolos veluti seditiosos, 
+          re<lb break="no" ed="#P" n="66"/>rumque novatores, qui omnia ad evertendum
+          <lb ed="#P" n="67"/>leges communes et facerent, et dicerent.
+        </p>
+        <p xml:id="szdleg-a47556-d1e245">
+          <lb ed="#P" n="68"/>2. Non invenio autem vel ab ahis Patribus,
+          <lb ed="#P" n="69"/>vel ab aliquo ex antiquis scriptoribus 
+          declara<lb break="no" ed="#P" n="70"/>tum an re vera illis temporibus fuerit aliquis
+          <lb ed="#P" n="71"/>haereticus et apostata a fide Christi, qui 
+          specia<lb break="no" ed="#P" n="72"/>liter conatus fuerit errorem hunc in Ecclesiam
+          <lb ed="#P" n="73"/>introducere, et Christianis suadere legibus 
+          im<lb break="no" ed="#P" n="74"/>peratorum non esse subjectos : nam Judas ille
+          <lb ed="#P" n="75"/>Galilaeus et ante Christi praedicationem fuit,
+          <lb ed="#P" n="76"/>et de solis Judaeis videtur fuisse locutus. An
+          <lb ed="#P" n="77"/>vero post illum fuerit aliquis idem asserens de
+          <lb ed="#P" n="78"/>Christianis , vel solum per falsos rumores ea
+          <lb ed="#P" n="79"/>suspicio sparsa fuerit contra Christianos 
+          tem<lb break="no" ed="#P" n="80"/>pore Apostolorum, mihi non constat : 
+          Chrysos<lb break="no" ed="#P" n="81"/>tomus autem et alii magis hoc posterius 
+          indi<lb break="no" ed="#P" n="82"/>cant, nec inter haereses antiquas quae post
+          <lb ed="#P" n="83"/>Christum fuerunt invenio hanc referri ab
+          <lb ed="#P" n="84"/>Epiphanio, August., Damasc. aut aliis. Nostris
+          <lb ed="#P" n="85"/>vero temporibus Lutherus hanc haeresim 
+          ma<lb break="no" ed="#P" n="86"/>gna exaggerationc docuit: dixit enim 
+          Christia<lb break="no" ed="#P" n="87"/>nis nullam legem sive ab hominibus sive ab 
+          An<lb break="no" ed="#P" n="88"/>gelis ullo jure imponi posse, nisi quantum ipsi
+          <lb ed="#P" n="89"/>velint ; neque principes habere jus super 
+          chris<lb break="no" ed="#P" n="90"/>tianum hominem, et quidquid aliter fit 
+          tyran<lb break="no" ed="#P" n="91"/>nico spiritu fieri. Ita refert Prateol. in 
+          Lu<lb break="no" ed="#P" n="92"/>thero, anno 1520. Posteaque eumdem errorem
+          <lb ed="#P" n="93"/>secuti sunt Anabaptistae et Trinitarii, de 
+          qui<lb break="no" ed="#P" n="94"/>bus refert Bellarmin. lib. 2 de Laicis, cap. 2,
+          <lb ed="#P" n="95"/>quod dixerint non licere Christianis gerere
+          <lb ed="#P" n="96"/>magistratus, nec inter Christianos debere esse
+          <lb ed="#P" n="97"/>tribunalia, judicia, etc.
+        </p>
+        <p xml:id="szdleg-a47556-d1e314">
+          <lb ed="#P" n="98"/>3. Fundamentum istorum sumitur ex 
+          re<lb break="no" ed="#P" n="99"/>demptione Christi et libertate quam per ca
+          <lb ed="#P" n="100"/>obtinuit credentibus in ipsum. Sic 
+          intelligen<lb break="no" ed="#P" n="101"/>tes illud Matth. 17 : Ergo liberi sunt fila -
+          <lb ed="#P" n="102"/>ubi per filios omnes Christianos intelligunt,
+          <lb ed="#P" n="103"/>quos dicunt esse liberos a tributis regibus 
+          sol<lb break="no" ed="#P" n="104"/>vendis (de his enim Christus loquebatur); unde
+          <lb ed="#P" n="105"/>fit etiam ut sint liberi ab eorum regimine et
+          <lb ed="#P" n="106"/>potestate : nam haec mutuo se consequuntur.
+          <lb ed="#P" n="107"/>Idque confirmant ex illo Lucae 22 : leges gen-
+          <pb ed="#P" n="189"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tium dominantur eorum ; vos autem non sic. Et
+          <lb ed="#P" n="2"/>illud Matth. cap. ult. : Baptizantes eos, etc.,
+          <lb ed="#P" n="3"/>docentes servare omnia quecumque mandavi
+          <lb ed="#P" n="4"/>volis ; non ergo mandata hominum. Item 
+          il<lb break="no" ed="#P" n="5"/>lud 1 Corinth. 7 : Pretio empti estis, nolite
+          <lb ed="#P" n="6"/>fieri servi hominum.
+        </p>
+        <p xml:id="szdleg-a47556-d1e356">
+          <lb ed="#P" n="7"/>4. Hic etiam adduci possunt illa testimonia
+          <lb ed="#P" n="8"/>quibus haeretici utuntur ad probandum omnes
+          <lb ed="#P" n="9"/>fideles esse liberos a lege : nam cum id dicant
+          <lb ed="#P" n="10"/>etiam de lege naturali, multo magis dicent
+          <lb ed="#P" n="11"/>idem de lege civili : unde etiam consequens
+          <lb ed="#P" n="12"/>est ut de omnibus fidelibus idem dicere 
+          de<lb break="no" ed="#P" n="13"/>beant; tum quia ipsi dicunt omnes fideles esse
+          <lb ed="#P" n="14"/>justos, si tamen ea fide quam ipsi fingunt, id
+          <lb ed="#P" n="15"/>est, certa fiducia de sua justitia, quia tunc nihil
+          <lb ed="#P" n="16"/>eis imputatur , etiamsi contra quamcumque
+          <lb ed="#P" n="17"/>legem sit ; tum etiam quia ipsi dicunt 
+          Chris<lb break="no" ed="#P" n="18"/>tum liberasse omnes a jugo cujuscumque legis;
+          <lb ed="#P" n="19"/>ergo nemo potest eos subjicere, sive justi sint,
+          <lb ed="#P" n="20"/>sive non sint.
+        </p>
+        <p xml:id="szdleg-a47556-d1e389">
+          <lb ed="#P" n="21"/>5. Magistratum civilem in lege gratie 
+          per<lb break="no" ed="#P" n="22"/>manstsse.— Nihilominus dicendum est primo:
+          <lb ed="#P" n="23"/>Magistratus civilis etiam in lege gratiae et inter
+          <lb ed="#P" n="24"/>Christianos permansit, suamque vim et 
+          potes<lb break="no" ed="#P" n="25"/>tatem retinet cum moderatione tali statui 
+          ac<lb break="no" ed="#P" n="26"/>commodata. Hanc ultimam partem remittimus
+          <lb ed="#P" n="27"/>in librum sequentem, ubi de spirituali 
+          potes<lb break="no" ed="#P" n="28"/>tate legislativa dicendum est : nam haec 
+          mo<lb break="no" ed="#P" n="29"/>deratio tota consistit in subordinatione 
+          magis<lb break="no" ed="#P" n="30"/>tratus civilis ad Ecclesiasticum, et ideo sine
+          <lb ed="#P" n="31"/>hujus cognitione explicari non potest; omissa
+          <lb ed="#P" n="32"/>ergo hac parte conclusio posita est de fide.
+          <lb ed="#P" n="33"/>Probatur primo ex his quae insinuavimus, 
+          re<lb break="no" ed="#P" n="34"/>ferendo antiquum errorem Judae Galilaei : nam
+          <lb ed="#P" n="35"/>ille virtute damnatus fuit a Christo Domino,
+          <lb ed="#P" n="36"/>quando illa occasione (ut supra dicebamus)
+          <lb ed="#P" n="37"/>interrogatus an liceret dare Caesari censum,
+          <lb ed="#P" n="38"/>respondet Lucae 20 et Matth. 2: Heddite ergo
+          <lb ed="#P" n="39"/>que sunt Cesaris Cesari, et que sunt Dei
+          <lb ed="#P" n="40"/>Deo. Ex quo loco colligitur praeceptum 
+          sol<lb break="no" ed="#P" n="41"/>vendi tributa principibus, Justin. Apolog. 2
+          <lb ed="#P" n="42"/>pro Christianis, aliquantulum a principio;
+          <lb ed="#P" n="43"/>quod etiam confirmavit Christus Matthaei 17,
+          <lb ed="#P" n="44"/>cum jussit tributorum exactoribus pro se et
+          <lb ed="#P" n="45"/>Fetro reddi tributum : expenduntque Iren.
+          <lb ed="#P" n="46"/>lib. 5, cap. 24, et Ambr. libro 4 in Luc., cap.
+          <lb ed="#P" n="47"/>penultimo, dicentes ibi esse datum spirituale
+          <lb ed="#P" n="48"/>documentum, quo christiani viri sublimioribus
+          <lb ed="#P" n="49"/>potestatibus docentur debere esse subjecti: et
+          <lb ed="#P" n="50"/>habetur in cap. Magnum, 11 q. 1; imo multi
+          <lb ed="#P" n="51"/>censent, cum Christus dixit Joan. 10: Quot
+          <lb ed="#P" n="52"/>ante me venerunt, fures sunt et latrones, non
+          <lb ed="#P" n="53"/>solum propter antiquos pseudoprophetas, sed
+          <lb ed="#P" n="54"/>propter eos qui proxime praecesserant, inter
+          <lb ed="#P" n="55"/>quos ille Judas fuerat, id dixisse: ut videri
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>potest in Chrysost., Theophyl. et Euthym. quos
+          <lb ed="#P" n="57"/>sequuntur Toletan. et Maldon. Joannis 10, et
+          <lb ed="#P" n="58"/>Lorin. Actor. 5, qui alios referunt. Posset vero
+          <lb ed="#P" n="59"/>quis dicere illos eo tempore errasse, quia 
+          non<lb break="no" ed="#P" n="60"/>dum verus Christus venerat, nec suam 
+          Eccle<lb break="no" ed="#P" n="61"/>siam instituerat, et ita Christi verba solum ad
+          <lb ed="#P" n="62"/>illud tempus referri.
+        </p>
+        <p xml:id="szdleg-a47556-d1e485">
+          <lb ed="#P" n="63"/>6. Igitur ad hoc praeveniendum et 
+          caven<lb break="no" ed="#P" n="64"/>dum, Apostoli ex professo errorem illum 
+          refu<lb break="no" ed="#P" n="65"/>tarunt tanquam valde perniciosum Ecclesiae,
+          <lb ed="#P" n="66"/>fideique propagationi. Expressa satis est 
+          sen<lb break="no" ed="#P" n="67"/>tentia Pauli al Rom. :3: Omnis anima 
+          potes<lb break="no" ed="#P" n="68"/>tatibus sublimioribus subdita sit. Quae verba de
+          <lb ed="#P" n="69"/>potestate et magistratu civih Chrysost. et 
+          com<lb break="no" ed="#P" n="70"/>muniter expositores intelligunt, et Nazianzen.
+          <lb ed="#P" n="71"/>orat. 17 ad Populum timore percul., et Iren.
+          <lb ed="#P" n="72"/>supra, et optime August. Epist. 54 ad Maced.,
+          <lb ed="#P" n="73"/>et Basil. in Constit. moral., cap. 23. Qui non
+          <lb ed="#P" n="74"/>excludunt ecclesiasticam potestatem, sed 
+          po<lb break="no" ed="#P" n="75"/>tius Basil. inde sumit a fortiori argumentum
+          <lb ed="#P" n="76"/>in favorem illius, de quo postea videbimus.
+          <lb ed="#P" n="77"/>Qualis sit autem illa objectio declarat 
+          Aposto<lb break="no" ed="#P" n="78"/>lus dicens : /deo necessitate subditi estote, 
+          qua<lb break="no" ed="#P" n="79"/>si diceret non esse urbanitatis subjectionem,
+          <lb ed="#P" n="80"/>vel arbitrariam, sed necessariam et ex 
+          obliga<lb break="no" ed="#P" n="81"/>tione: et originem ac primariam radicem 
+          assi<lb break="no" ed="#P" n="82"/>gnat, cum totam hanc potestatem ad Deum
+          <lb ed="#P" n="83"/>refert, ut in eocapite sequenti latius 
+          expone<lb break="no" ed="#P" n="84"/>mus. Similem sententiam habet Paul. ad 
+          Ti<lb break="no" ed="#P" n="85"/>tum 3 dicens: Admone illos principibus et 
+          po<lb break="no" ed="#P" n="86"/>testatibus subditos esse. Et 1 Pet. 2: Subjecti
+          <lb ed="#P" n="87"/>estote omni lhumanae creature propter Deum,
+          <lb ed="#P" n="88"/>id est, omni homini qui vicem Dei gerit in
+          <lb ed="#P" n="89"/>terris, et ad quem refertur subjectio illi 
+          exhi<lb break="no" ed="#P" n="90"/>bita, et subdit : Sive regi tanquam praecellenti,
+          <lb ed="#P" n="91"/>etc.
+        </p>
+        <p xml:id="szdleg-a47556-d1e550">
+          <lb ed="#P" n="92"/>7. Ratio conclusionis. — Nota inusta 
+          primi<lb break="no" ed="#P" n="93"/>tivae Ecclesiae, quae et modo nobis. —Et potest a
+          <lb ed="#P" n="94"/>posteriori confirmari : nam supra ostensum est
+          <lb ed="#P" n="95"/>magistratum politicum ex natura rei 
+          conve<lb break="no" ed="#P" n="96"/>nire humano generi et communitati , ex quo
+          <lb ed="#P" n="97"/>vero principio sequitur reges gentium 
+          prius<lb break="no" ed="#P" n="98"/>quam ad Ecclesiam veniant esse veros reges,
+          <lb ed="#P" n="99"/>si justo titulo regna possident: dici asutem non
+          <lb ed="#P" n="100"/>potest quod propter conversionem ad fidem,
+          <lb ed="#P" n="101"/>vel ipsorum vel suorum subditorum, sua 
+          re<lb break="no" ed="#P" n="102"/>gna et dominia amittant ; ergo etiam in 
+          Eccle<lb break="no" ed="#P" n="103"/>sia retinent suam potestatem , quam veluti
+          <lb ed="#P" n="104"/>naturali jure seu ordine possidebant. Minor
+          <lb ed="#P" n="105"/>patet, tum quia illud fuisset magnum fidei 
+          im<lb break="no" ed="#P" n="106"/>pedimentum ; quis enim rex fidem susciperet
+          <lb ed="#P" n="107"/>vel a suis subditis recipi permitteret, si 
+          crede<lb break="no" ed="#P" n="108"/>ret eo ipso marere privatum suo dominio, vel
+          <lb ed="#P" n="109"/>subditos fieri a sua obedientia liberos? Tum
+          <lb ed="#P" n="110"/>etiam quia hoc statim apparet injustum, et re
+          <pb ed="#P" n="190"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vera est, nisi ex Dei revelatione ostendatur
+          <lb ed="#P" n="2"/>ejus voluntate esse factum; at hoc ostendi non
+          <lb ed="#P" n="3"/>potest ; imo contrarium constat, et sine dubio
+          <lb ed="#P" n="4"/>ita expediebat ad fidei puritatem et ad omnem
+          <lb ed="#P" n="5"/>calumniam vitandam: unde antiqui Patres
+          <lb ed="#P" n="6"/>advertunt, in initio praedicationis Evangelicae,
+          <lb ed="#P" n="7"/>daemones et hostes fidei hanc notam et 
+          infa<lb break="no" ed="#P" n="8"/>miam religioni Christiana inurere voluisse,
+          <lb ed="#P" n="9"/>quod principatus humanos everteret, et 
+          liber<lb break="no" ed="#P" n="10"/>tatem ac confusionem quamdam introduceret,
+          <lb ed="#P" n="11"/>et ideo Apostolos Petrum et Paulum ex 
+          pro<lb break="no" ed="#P" n="12"/>fesso tanto malo occurrisse. Ita Chrysostomus
+          <lb ed="#P" n="13"/>et Hieronymus quos in principio citavi.
+        </p>
+        <p xml:id="szdleg-a47556-d1e626">
+          <lb ed="#P" n="14"/>S. Et idem sentit Justin. Martyr. dicta 
+          Apo<lb break="no" ed="#P" n="15"/>logia 2 pro Christianis, ubi ex professo 
+          per<lb break="no" ed="#P" n="16"/>suadere conatur imperatori potestatem quam
+          <lb ed="#P" n="17"/>habebat tunc in Christianos ad justitiam 
+          exer<lb break="no" ed="#P" n="18"/>cendam ab eis recognosci. Imo addit: A eobis
+          <lb ed="#P" n="19"/>autem hoc etiam contendimus , ut eos qui non
+          <lb ed="#P" n="20"/>congruentes ejus (id est, Christi) decretis et
+          <lb ed="#P" n="21"/>preeceptis vivunt, tantumque Christiani 
+          dicun<lb break="no" ed="#P" n="22"/>tur , suppliciis coerceatis. Et MAugustinus,
+          <lb ed="#P" n="23"/>Conc. 31, in id Psalm. 118: Principes 
+          perse<lb break="no" ed="#P" n="24"/>cuti sunt me gratis, eleganter expendens 
+          par<lb break="no" ed="#P" n="25"/>ticulam illam gratis, ait: si Evangelium eos
+          <lb ed="#P" n="26"/>suis regnis privaret, videri possent non gratis
+          <lb ed="#P" n="27"/>nec sine occasione persecutiones contra illud
+          <lb ed="#P" n="28"/>excitasse ; nunc autem vere gratis, quia non
+          <lb ed="#P" n="29"/>eripit mortalia, quia regna dat coelestia: unde
+          <lb ed="#P" n="30"/>cum Prophetae praedixerunt reges terrae ad
+          <lb ed="#P" n="31"/>Christum convertendos fuisse, ut Isai. 49 et 60,
+          <lb ed="#P" n="32"/>non significarunt amissuros fuisse regna eo
+          <lb ed="#P" n="33"/>quod Christo subjicerentur, sed illuminandos
+          <lb ed="#P" n="34"/>ut melius possent judicare terram, juxta illud
+          <lb ed="#P" n="35"/>Psalm. 2: Ft nunc reges intelligite, erudimini
+          <lb ed="#P" n="36"/>qui judicatis terrum, servite Domino in timore,
+          <lb ed="#P" n="37"/>etc. Et constat a principio Ecclesiae id 
+          obser<lb break="no" ed="#P" n="38"/>vatum esse in imperatoribus Philippo et 
+          Con<lb break="no" ed="#P" n="39"/>stant., et postea in aliis, et usque hodie servari
+          <lb ed="#P" n="40"/>in his provinciis, et regnis quae de novo ad
+          <lb ed="#P" n="41"/>fidem convertuntur. Imo recte expendit Dasil.,
+          <lb ed="#P" n="42"/>dicto cap. 23 Constitutionum, non solum 
+          de<lb break="no" ed="#P" n="43"/>bere Christianos parcere suis regibus conversis
+          <lb ed="#P" n="44"/>ad fidem, sed etiam quod mapus est (inquit),
+          <lb ed="#P" n="45"/>etium illis quorum vita impia erat : nam tales
+          <lb ed="#P" n="46"/>erant principes saeculi, quando Apostoli illis
+          <lb ed="#P" n="47"/>obedire praecipiebant, utique in his, quae mala
+          <lb ed="#P" n="48"/>non sunt, nec Deo contraria, quia naturalis
+          <lb ed="#P" n="49"/>justitia hoc postulat cui Evangelium non 
+          con<lb break="no" ed="#P" n="50"/>tradicit. Ideoque tales reges per bellum 
+          pri<lb break="no" ed="#P" n="51"/>vari non possunt sua potestate, nisi in 
+          Chris<lb break="no" ed="#P" n="52"/>tianae religionis injuriam vel fidelium 
+          subdi<lb break="no" ed="#P" n="53"/>torum perniciem illa abutantur, ut est constans
+          <lb ed="#P" n="54"/>sententia apud theologos.
+        </p>
+        <p xml:id="szdleg-a47556-d1e718">
+          <lb ed="#P" n="55"/>9. Secunda ratio a priori ec Augustino. —
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Denique rationem a priori hujus veritatis 
+          su<lb break="no" ed="#P" n="57"/>mo ex Augustino, lib. 19 de Civit., cap. 17,
+          <lb ed="#P" n="58"/>ubi veritatem catholicam his verbis proponit:
+          <lb ed="#P" n="59"/>Civitas caelestis, vel potius pars ejus, dum apud
+          <lb ed="#P" n="60"/>terrenam civitatem velut captivam vitam sue
+          <lb ed="#P" n="61"/>peregrinationis agit, legibus terrene civitatis,
+          <lb ed="#P" n="62"/>quibus hec administrantur, que sustentandee
+          <lb ed="#P" n="63"/>vite mortali accommodata sunt, obtemperare
+          <lb ed="#P" n="64"/>non dubitat. Hoc autem in virtute sic probat:
+          <lb ed="#P" n="65"/>Terrena civitas, etiam quae non vivit em fide,
+          <lb ed="#P" n="66"/>Iumanwn panem appetit, in eoque deftgit 
+          im<lb break="no" ed="#P" n="67"/>perandi. obediendique concordium civium, ut
+          <lb ed="#P" n="68"/>sit eis de rebus ad mortalem vitam 
+          pertinenti<lb break="no" ed="#P" n="69"/>bus quaedam compositio voluntatum. At 
+          coeles<lb break="no" ed="#P" n="70"/>tis etiam civitas dum hic peregrinatur, ista
+          <lb ed="#P" n="71"/>pace necesse est utatur, donec ipsa cui talis pae
+          <lb ed="#P" n="72"/>necessaria est mortalitas transeat ; ergo 
+          ne<lb break="no" ed="#P" n="73"/>cesse est illam servare leges civitatis terrenae
+          <lb ed="#P" n="74"/>quae ad illam pacem juvant, ut quando 
+          commut<lb break="no" ed="#P" n="75"/>nis est mortalitas, communis etiam sit paa et
+          <lb ed="#P" n="76"/>concordia : unde concludit inferius : Haec ergo
+          <lb ed="#P" n="77"/>ceelestis civitas, dum peregrinatur in terra, ec
+          <lb ed="#P" n="78"/>omnibus gentibus cives evocat, atque in 
+          omni<lb break="no" ed="#P" n="79"/>bus linguis peregrinam colligit societatem, non
+          <lb ed="#P" n="80"/>curans quidquid in moribus, legibus 
+          institutis<lb break="no" ed="#P" n="81"/>que diversum est, quibus paa terrena vel 
+          con<lb break="no" ed="#P" n="82"/>quiritur, vel tenetur ; nihil eorum rescindens,
+          <lb ed="#P" n="83"/>vel destruens: imo etiam servans, ac sequens,
+          <lb ed="#P" n="84"/>quod licet diversum sit in diversis rationibus,
+          <lb ed="#P" n="85"/>ad unwmn tamen eumdemque finem terrene pacis
+          <lb ed="#P" n="86"/>intenditur, si religionem, qua unus summus et
+          <lb ed="#P" n="87"/>verus Deus colendus docetur, non impedit. Est
+          <lb ed="#P" n="88"/>ergo summa rationis quod finis civilium 
+          le<lb break="no" ed="#P" n="89"/>gum per se bonus est, et Christianis etiam 
+          ne<lb break="no" ed="#P" n="90"/>cessarius ; ergo etiam leges quae ad illum 
+          or<lb break="no" ed="#P" n="91"/>dinantur, et magistratus a quibus condi 
+          pos<lb break="no" ed="#P" n="92"/>sunt, sunt in Ecclesia necessarii. Item hic ordo
+          <lb ed="#P" n="93"/>naturalis est, et gratia non destruit naturam,
+          <lb ed="#P" n="94"/>sed perficit, et Christus non prohibuit hunc
+          <lb ed="#P" n="95"/>modum regiminis; ubi enim est prohibitio?
+          <lb ed="#P" n="96"/>Tandem sine potestate temporali et civih non
+          <lb ed="#P" n="97"/>posset spiritualis ordo et regimen protegi, vel
+          <lb ed="#P" n="98"/>conservari, ut ipsa experientia docet: unde
+          <lb ed="#P" n="99"/>egregie dixit Nazianzenus dicta Orat. 17: S'
+          ub<lb break="no" ed="#P" n="100"/>mittamus nos tun Deo, tum aliis, tuwn iis qui
+          <lb ed="#P" n="101"/>imperium in terra gerunt : Deo quidem 
+          omni<lb break="no" ed="#P" n="102"/>bus de causis, alii autem aliis propter 
+          charita<lb break="no" ed="#P" n="103"/>tis fadus, principibus denique propter ordinem
+          <lb ed="#P" n="104"/>publiceque discipline rationem.
+        </p>
+        <p xml:id="szdleg-a47556-d1e831">
+          <lb ed="#P" n="105"/>10. Respondetur haereticis.—Ad fundamenta
+          <lb ed="#P" n="106"/>haereticorum facilis est responsio: nam 
+          Chris<lb break="no" ed="#P" n="107"/>tus, dicens Matth. 17, ergo liberi sunt filii, de
+          <lb ed="#P" n="108"/>se ipso potissimum loquebatur : vanum ergo
+          <lb ed="#P" n="109"/>est et sine fundamento dictum, ibi nomine 
+          fi<lb break="no" ed="#P" n="110"/>liorum intelligi omnes Christianos, et ideo
+          <pb ed="#P" n="191"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>omnes illos esse exemptos jure divino a 
+          tri<lb break="no" ed="#P" n="2"/>butorum solutione: neque ullus Sanctorum
+          <lb ed="#P" n="3"/>ita illud exposuit, sed contrarium ipsi 
+          docue<lb break="no" ed="#P" n="4"/>runt cum Paulo Rom. 13, consentanae ad
+          <lb ed="#P" n="5"/>Christi doctrinam in aliis locis, ut ostensum
+          <lb ed="#P" n="6"/>est. An vero ibi comprehensi fuerint clerici
+          <lb ed="#P" n="7"/>omnes vel immediate, vel saltem in Petro, in
+          <lb ed="#P" n="8"/>tractatu de immunitate ecclesiastica 
+          disputa<lb break="no" ed="#P" n="9"/>tum est. Ad secundum, dicitur Christum ibi
+          <lb ed="#P" n="10"/>non prohibere temporale regnum, sed monere
+          <lb ed="#P" n="11"/>discipulos suos, tum ut principatum non 
+          am<lb break="no" ed="#P" n="12"/>biant ; tum, ut si praesidere cogantur, non sint
+          <lb ed="#P" n="13"/>tanquam dominantes, sed potius ut 
+          ministran<lb break="no" ed="#P" n="14"/>tes. Duo enim de regibus gentium proposuit,
+          <lb ed="#P" n="15"/>unum, quod non regere, sed dominari et in
+          <lb ed="#P" n="16"/>servitutem redigere subditos volunt; aliud,
+          <lb ed="#P" n="17"/>quod titulos honoris et excellentiae affectant :
+          <lb ed="#P" n="18"/>Vos autem (inquit) non sic, sed qui major est
+          <lb ed="#P" n="19"/>in volis fiat sicut ainor, et qui praeecessor est,
+          <lb ed="#P" n="20"/>sicut ministrator. Similia habet Matth. 20 et
+          <lb ed="#P" n="21"/>Marc. 10, et ubique reprehendit nimiam 
+          cupi<lb break="no" ed="#P" n="22"/>ditatem dominandi, pravum usum, non 
+          legi<lb break="no" ed="#P" n="23"/>timum imperium, et ita exponunt in illis locis
+          <lb ed="#P" n="24"/>Ambrosius, Hierony mus et Chrysostomus.
+        </p>
+        <p xml:id="szdleg-a47556-d1e903">
+          <lb ed="#P" n="25"/>11. Ad tertium, ex Matth. ultim. 
+          responde<lb break="no" ed="#P" n="26"/>tur primo, Christum dicendo, docentes eos 
+          ser<lb break="no" ed="#P" n="27"/>vare omnia quecunque mandavi vobDis, non 
+          ex<lb break="no" ed="#P" n="28"/>clusisse alia, sed ea commemorase quae 
+          maxi<lb break="no" ed="#P" n="29"/>me necessaria erant, quaeque jam tunc erant
+          <lb ed="#P" n="30"/>stabilita. Deinde dico ibi in virtute 
+          comprehen<lb break="no" ed="#P" n="31"/>disse reliqua, quia ipse praecipit servare 
+          inte<lb break="no" ed="#P" n="32"/>gre legem naturalem, et dare unicuique quod
+          <lb ed="#P" n="33"/>suum est, et facere aliis quod unusquisque
+          <lb ed="#P" n="34"/>vult sibi ab aliis fieri : in his autem principiis
+          <lb ed="#P" n="35"/>fundatur quod sit obediendum superioribus
+          <lb ed="#P" n="36"/>potestatibus in quocumque ordine : unde in
+          <lb ed="#P" n="37"/>illis verbis continetur quod fideles debeant
+          <lb ed="#P" n="38"/>obedire parentibus, et servi dominis, et 
+          sub<lb break="no" ed="#P" n="39"/>diti Praelatis; alias juxta haereticorum sensum,
+          <lb ed="#P" n="40"/>omnis obedientia, hominibus praestanda, esset
+          <lb ed="#P" n="41"/>sublata per illa verba Christi, quod est contra
+          <lb ed="#P" n="42"/>omnem rationem et contra verba ejusdem
+          <lb ed="#P" n="43"/>Christi Lucae 10: Qui vos audit me audit, et
+          <lb ed="#P" n="44"/>qui vos spernit me spernit ; quae, licet de 
+          Prae<lb break="no" ed="#P" n="45"/>latis Ecclesiae praecipue dicta sint, in omnibus
+          <lb ed="#P" n="46"/>superioribus legitimis cum proportione locum
+          <lb ed="#P" n="47"/>habent, juxta illud ad Colos. 3: Sicut 
+          Domi<lb break="no" ed="#P" n="48"/>7.0, et non hominibus, etc. Et infra: Domino
+          <lb ed="#P" n="49"/>Christo servite : et clarius ad Ephes. 6: Serei,
+          <lb ed="#P" n="50"/>obedite dominis carnalibus cum timore et 
+          tre<lb break="no" ed="#P" n="51"/>more in simplicitate cordis vestri sicut Christo;
+          <lb ed="#P" n="52"/>et 1 Petr. 2: Servi, subditi estote dominis, etc.
+        </p>
+        <p xml:id="szdleg-a47556-d1e966">
+          <lb ed="#P" n="53"/>12. Ad quartum testimonium, ex 1 Cor. 7:
+          <lb ed="#P" n="54"/>Nolite servi fieri hominum, facile respondetur
+          <lb ed="#P" n="55"/>ibi non de servitute corporali, sed de spirituali
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>esse sermonem, ut patet ex praecedentibus
+          <lb ed="#P" n="57"/>verbis, pretio empti estis et ita facti Christi
+          <lb ed="#P" n="58"/>servi, ut ibi saepius dixerat; huic autem 
+          servi<lb break="no" ed="#P" n="59"/>tuti opponit servitutem hominum ; loquitur
+          <lb ed="#P" n="60"/>ergo de spirituali servitute : nam de corporali
+          <lb ed="#P" n="61"/>jam dixerat nihil obstare Christi servituti: imo
+          <lb ed="#P" n="62"/>consilium dederat, sereus vocatus es, non sit
+          <lb ed="#P" n="63"/>Ltibi cure : tunc autem dicitur quis fieri servus
+          <lb ed="#P" n="64"/>hominum servitute peccati, quando ut placeat
+          <lb ed="#P" n="65"/>hominibus displicet Deo, et quando 
+          tempora<lb break="no" ed="#P" n="66"/>libus dominis contra Dei honorem obsequitur,
+          <lb ed="#P" n="67"/>et ita dixerat ibi paulo superius : Quod si 
+          in<lb break="no" ed="#P" n="68"/>fidelis discedit, discedat. Non enim servituti
+          <lb ed="#P" n="69"/>sub)ectus est frater aut soror in huyusmodi. In
+          <lb ed="#P" n="70"/>pace autem vocavit nos Deus. Obedientia ergo
+          <lb ed="#P" n="71"/>ad homines si sit justa et honesta, non est
+          <lb ed="#P" n="72"/>contra Christi redemptionem, sed est paci et
+          <lb ed="#P" n="73"/>justitiae consentanea. Atque ita exposuit illa
+          <lb ed="#P" n="74"/>verba Chrysost. homil. 19, in 1 ad Corint.,
+          <lb ed="#P" n="75"/>qui etiam addit posse servum manentem 
+          ser<lb break="no" ed="#P" n="76"/>vum secundum humanam conditionem exuere
+          <lb ed="#P" n="77"/>conditionem servilem, non serviendo domino
+          <lb ed="#P" n="78"/>ut homini, sed ut Christo, ut alis locis citatis
+          <lb ed="#P" n="79"/>Apostolus consulit; et posset etiam exponi,
+          <lb ed="#P" n="80"/>nolite fieri servi lominum, cum sitis a Christo
+          <lb ed="#P" n="81"/>redempti, ipsi servite in hominibus; et ita non
+          <lb ed="#P" n="82"/>efficiemini servi hominum, tametsi conditione
+          <lb ed="#P" n="83"/>sitis servi; quae posterior expositio veram 
+          con<lb break="no" ed="#P" n="84"/>tinet doctrinam, sed prior est litteralis : nam
+          <lb ed="#P" n="85"/>illa verba (ut idem Chrysostomus notat) non
+          <lb ed="#P" n="86"/>ad servos tantum, sed ad homines etiam 
+          libe<lb break="no" ed="#P" n="87"/>ros dicta sunt, ut nolint fieri spiritualiter 
+          ser<lb break="no" ed="#P" n="88"/>vi, cum tanto pretio sint redempti :.et ita
+          <lb ed="#P" n="89"/>etiam exposuit Ambrosius in id Psalm. 43:
+          <lb ed="#P" n="90"/>Vendidisti populum tuum sine pretio. Ad 
+          reh<lb break="no" ed="#P" n="91"/>qua haereticorum fundamenta in primo libro
+          <lb ed="#P" n="92"/>responsum est, et contra falsam libertatem
+          <lb ed="#P" n="93"/>Christianam, quam ipsi fingunt, in libro 
+          se<lb break="no" ed="#P" n="94"/>quenti, et latius in ultimo hujus tractatus 
+          dis<lb break="no" ed="#P" n="95"/>seremus. Contra fictionem autem illam de
+          <lb ed="#P" n="96"/>justificatione per imputationem mediante sola
+          <lb ed="#P" n="97"/>fiducia in Christum, in tractatu de Gratia 
+          di<lb break="no" ed="#P" n="98"/>cendum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

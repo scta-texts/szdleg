@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 19</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 19</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="405"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-b02690"><!-- deleg-l4c19 -->
+        <head xml:id="szdleg-b02690-Hd1e101">Caput 19</head>
+        <head xml:id="szdleg-b02690-Hd1e103" type="question-title">Quas personas obligent ecclesiasticae leges</head>
+        <p xml:id="szdleg-b02690-d1e106">
+          <lb ed="#P" n="105"/>CAPUT XIX.
+          <lb ed="#P" n="106"/>QUAS PERSONAS OBLIGENT ECCLESIASTICAE LEGES.
+        </p>
+        <p xml:id="szdleg-b02690-d1e113">
+          <lb ed="#P" n="107"/>1. Dictum generale pro lege civili et 
+          canoni<lb break="no" ed="#P" n="108"/>ca. — Hanc materiam late tractavimus de lege
+          <pb ed="#P" n="406"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>civili in praecedenti lib., a cap. 25, et omnia
+          <lb ed="#P" n="2"/>ibi dicta generalia fere sunt legi humanae, et
+          <lb ed="#P" n="3"/>ita in ecclesiasticam etiam conveniunt. Qualia
+          <lb ed="#P" n="4"/>sunt obligare omnes, et solos subditos ad quos
+          <lb ed="#P" n="5"/>loquuntur, et hanc obligationem extendi ad
+          <lb ed="#P" n="6"/>eos qui in territorio versantur, etiamsi 
+          perma<lb break="no" ed="#P" n="7"/>nenter et quasi in habitu, subditi non sint;
+          <lb ed="#P" n="8"/>e converso autem non extendi ad existentes
+          <lb ed="#P" n="9"/>extra territorium, etiamsi alias in habitu 
+          sub<lb break="no" ed="#P" n="10"/>diti sint, quas quaestiones in speciali de legibus
+          <lb ed="#P" n="11"/>ecclesiasticis tractavi etiam in t. 1 de Relig.,
+          <lb ed="#P" n="12"/>tractando de diebus festis, et in 5 t. de Gensur.,
+          <lb ed="#P" n="13"/>dis. 5, s. 4 et 5. Quaestio etiam illa, an princeps
+          <lb ed="#P" n="14"/>obligetur legibus, communis est Praelatis, 
+          acle<lb break="no" ed="#P" n="15"/>eislatoribus ecclesiasticis, etiam summo 
+          Ponti<lb break="no" ed="#P" n="16"/>fici Solum ergo supersunt adnotanda pauca, 
+          cir<lb break="no" ed="#P" n="17"/>ca personas inferiores quae legibus obligari 
+          so<lb break="no" ed="#P" n="18"/>lent, quae propria sunt ecclesiasticarum legum.
+        </p>
+        <p xml:id="szdleg-b02690-d1e163">
+          <lb ed="#P" n="19"/>2. Leges ecclesiasticae omnes et solos 
+          baptiza<lb break="no" ed="#P" n="20"/>tos obligare, etiam haereticos, utpote qui habent
+          <lb ed="#P" n="21"/>fundamentum subjectionis characterem 
+          baptis<lb break="no" ed="#P" n="22"/>nalem. — Primo ergo dicimus, proprium esse
+          <lb ed="#P" n="23"/>legum ecclesiasticarum, ut tantum homines
+          <lb ed="#P" n="24"/>baptizatos obligent; non vero infideles non
+          <lb ed="#P" n="25"/>baptizatos, etiamsi inter Christianos habitent,
+          <lb ed="#P" n="26"/>et principibus christianis subditi sint: ratio est,
+          <lb ed="#P" n="27"/>quia infideles non sunt Ecclesiae membra, 
+          ne<lb break="no" ed="#P" n="28"/>que sunt de communitate ecclesiastica, et ideo
+          <lb ed="#P" n="29"/>licet possint obligari legibus civilibus, vel 
+          suo<lb break="no" ed="#P" n="30"/>rum principum infidelium in suis regnis, vel
+          <lb ed="#P" n="31"/>principum christianorum, quatenus possunt
+          <lb ed="#P" n="32"/>esse membra civitatis politicae, et temporaliter
+          <lb ed="#P" n="33"/>subjecti principibus christianis; legibus tamen
+          <lb ed="#P" n="34"/>Ecclesiae non obligantur, quia nec sunt 
+          mem<lb break="no" ed="#P" n="35"/>bra Ecclesiae, ut Ecclesia est, nec habent 
+          fun<lb break="no" ed="#P" n="36"/>damentum subjectionis ad ecclesiasticam 
+          ju<lb break="no" ed="#P" n="37"/>risdictionem. Dices : ergo neque haeretici
+          <lb ed="#P" n="38"/>obligantur his legibus, quia illi etiam non sunt
+          <lb ed="#P" n="39"/>membra Ecclesiae, neque habent fundamentum
+          <lb ed="#P" n="40"/>fidei, sine quo praecepia ecclesiastica, quae ad
+          <lb ed="#P" n="41"/>salutem animae et cultum Dei ordinantur, nec
+          <lb ed="#P" n="42"/>fructuose, nec vere observari possunt. 
+          Respon<lb break="no" ed="#P" n="43"/>deo negando consequentiam : supponimus
+          <lb ed="#P" n="44"/>enim sermonem esse de haereticis baptizatis,
+          <lb ed="#P" n="45"/>qui generalius apostatae dici possunt; sive ad
+          <lb ed="#P" n="46"/>judaismum, sive ad paganismum, sive ad 
+          pro<lb break="no" ed="#P" n="47"/>priam haeresim translati sint. De his ergo 
+          om<lb break="no" ed="#P" n="48"/>nibus negatur consequentia, quia sunt vere
+          <lb ed="#P" n="49"/>subjecti ecclesiasticae jurisdictioni : nam 
+          reti<lb break="no" ed="#P" n="50"/>nent characterem baptismalem, quod est 
+          fun<lb break="no" ed="#P" n="51"/>damentum hujus subjectionis. Et, licet 
+          secun<lb break="no" ed="#P" n="52"/>dum praesentem statum non sint absolute
+          <lb ed="#P" n="53"/>membra, tamen aliquando fuerunt membra,
+          <lb ed="#P" n="54"/>et contra jus Ecclesiae acquisitum deliquerunt,
+          <lb ed="#P" n="55"/>se ab illa separando, semperque ad illam re-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dire cogi possunt, quia signum ecclesiasticae
+          <lb ed="#P" n="57"/>jurisdictionis semper in se retinent, et ratione
+          <lb ed="#P" n="58"/>illius veluti inchoationem quamdam habent
+          <lb ed="#P" n="59"/>membrorum Ecclesiae. Unde fit ut ejus 
+          prae<lb break="no" ed="#P" n="60"/>ceptis obligentur, et contra illa peccent illa
+          <lb ed="#P" n="61"/>non servando. Neque refert quod non habeant
+          <lb ed="#P" n="62"/>fidem, sine qua illa praecepta servari non 
+          pos<lb break="no" ed="#P" n="63"/>sunt, quia fidem habere possunt, et per illos
+          <lb ed="#P" n="64"/>stat quominus non habeant, et ideo ex eo capite
+          <lb ed="#P" n="65"/>non excusantur. Sicut peccator carens gratia
+          <lb ed="#P" n="66"/>non excusatur obligatione praecepti 
+          communi<lb break="no" ed="#P" n="67"/>candi, quia potest se ad gratiam praeparare.
+          <lb ed="#P" n="68"/>Praeterquam quod multa praecepta 
+          ecclesiasti<lb break="no" ed="#P" n="69"/>ca possunt quoad substantiam servari ab 
+          hae<lb break="no" ed="#P" n="70"/>retico in eo statu permanente; potest enim
+          <lb ed="#P" n="71"/>jejunare, solvere decimas, et similia.
+        </p>
+        <p xml:id="szdleg-b02690-d1e284">
+          <lb ed="#P" n="72"/>3. Leges pontificias omnes ubique 
+          Christia<lb break="no" ed="#P" n="73"/>nos obligare, sicut et canones Conciliorum si ab
+          <lb ed="#P" n="74"/>eo sunt approbati. — Secundo, dicendum est
+          <lb ed="#P" n="75"/>leges pontificias de se obligare Christianos 
+          om<lb break="no" ed="#P" n="76"/>nes adultos, ubique terrarum degentes, et 
+          cu<lb break="no" ed="#P" n="77"/>juscumque status seu conditionis existant. In
+          <lb ed="#P" n="78"/>hoc etiam est magna differentia inter leges
+          <lb ed="#P" n="79"/>ecclesiasticas et civiles; nam civiles nullae
+          <lb ed="#P" n="80"/>sunt quae universum obligent, ut superiori
+          <lb ed="#P" n="81"/>libro probatum est ; nec etiam obligant omnes
+          <lb ed="#P" n="82"/>status hominum, quia clericos obligare non
+          <lb ed="#P" n="83"/>possunt, nisi quatenus per canones 
+          permittun<lb break="no" ed="#P" n="84"/>tur, et saltem summum Pontificem nullo 
+          mo<lb break="no" ed="#P" n="85"/>do obligare possunt; leges autem canonicae ex
+          <lb ed="#P" n="86"/>suo genere utriusque effectus sunt capaces.
+          <lb ed="#P" n="87"/>Probatur ergo prior pars, quia potestas 
+          Ponti<lb break="no" ed="#P" n="88"/>ficis universalissima est supra totam 
+          Eeccle<lb break="no" ed="#P" n="89"/>siam ; sed Ecclesia per universum orbem de se
+          <lb ed="#P" n="90"/>diffunditur ; ergo et potestas Pontificis; ergo
+          <lb ed="#P" n="91"/>et leges ab ea procedentes. Unde constat hoc
+          <lb ed="#P" n="92"/>esse proprium legum Pontificum, quia 
+          univer<lb break="no" ed="#P" n="93"/>salis potestas propria est illius. Sub his tamen
+          <lb ed="#P" n="94"/>comprehendimus canones conciliorum 
+          gene<lb break="no" ed="#P" n="95"/>ralium, quia illi etiam a Pontificibus 
+          appro<lb break="no" ed="#P" n="96"/>bantur, et ea potissimum ratione vim habent
+          <lb ed="#P" n="97"/>obligandi, et eadem ratione comprehendi 
+          pos<lb break="no" ed="#P" n="98"/>sunt canones conciliorum provincialium, sia
+          <lb ed="#P" n="99"/>Pontificibus ita sunt approbati, ut in corpore
+          <lb ed="#P" n="100"/>Decretalium sint inserti, vel aliquo modo pro
+          <lb ed="#P" n="101"/>universa Ecclesia acceptati, eique sufficienter
+          <lb ed="#P" n="102"/>propositi. Et ideo dixi has leges pontificias de
+          <lb ed="#P" n="103"/>se obligare ubique, quia possunt etiam 
+          Pontifi<lb break="no" ed="#P" n="104"/>ces leges ferre pro certis provinciis, vel regnis,
+          <lb ed="#P" n="105"/>et tunc ex intentione illorum limitabitur 
+          obli<lb break="no" ed="#P" n="106"/>gatio juxta tenorem legis.
+        </p>
+        <p xml:id="szdleg-b02690-d1e362">
+          <lb ed="#P" n="107"/>4. Et eodem modo probatur facile pars 
+          se<lb break="no" ed="#P" n="108"/>cunda, quia leges ecclesiasticae obligare 
+          pos<lb break="no" ed="#P" n="109"/>sunt clericos et laicos, et non solum inferiores
+          <lb ed="#P" n="110"/>homines, sed etiam Principes, nec solum sae-
+          <pb ed="#P" n="407"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>culares, sed etiam religiosos; ergo maxime
+          <lb ed="#P" n="2"/>habenut hanc unrversalitatem leges pontificiae
+          <lb ed="#P" n="3"/>cum eadem limitatione, scilicet de se, et nisi
+          <lb ed="#P" n="4"/>ab ipso Pontifice limitentur. Quia potestas 
+          uni<lb break="no" ed="#P" n="5"/>versalis est, nullusque hominum baptizatorum
+          <lb ed="#P" n="6"/>invenitur ab illa exemptus. Hoc autem semper
+          <lb ed="#P" n="7"/>intelligitur juxta materiae exigentiam. Quia
+          <lb ed="#P" n="8"/>non singula leges ecclesiasticae seu pontificiae
+          <lb ed="#P" n="9"/>obligant omnes fideles : imo paucae tales sunt,
+          <lb ed="#P" n="10"/>illae videlicet quae respiciunt generalem statum
+          <lb ed="#P" n="11"/>Christianorum, et viatorum, quos dirigunt ad
+          <lb ed="#P" n="12"/>vitam aeternam. Aliae vero sunt accommodatae
+          <lb ed="#P" n="13"/>diversis statibus Christianorum, et ita leges
+          <lb ed="#P" n="14"/>pontificiae, ut sic, ad omnes spectant; non í
+          a<lb break="no" ed="#P" n="15"/>men singulae ad omnes, sed partitione 
+          accom<lb break="no" ed="#P" n="16"/>moda. Intelligendum etiam illud est de 
+          stati<lb break="no" ed="#P" n="17"/>bus ecclesiasticis, seu aliquo modo spiritualibus
+          <lb ed="#P" n="18"/>ex materia et fine. Nam, sichristiani homines
+          <lb ed="#P" n="19"/>sumantur politice, et ut cives sunt, sic non
+          <lb ed="#P" n="20"/>subduntur ecclesiasticis legibus per se 
+          loquen<lb break="no" ed="#P" n="21"/>do, ut supra tractatum est. Unde, licet vere
+          <lb ed="#P" n="22"/>dicamus homines cujuscumque status obligari
+          <lb ed="#P" n="23"/>ecclesiasticis legibus, nihilominus vere etiam
+          <lb ed="#P" n="24"/>dicimus, leges ecclesiasticas non posse de 
+          om<lb break="no" ed="#P" n="25"/>nibus omnino statibus hominum disponere,
+          <lb ed="#P" n="26"/>ut patet in his quae ad statum mere 
+          tempora<lb break="no" ed="#P" n="27"/>lem et civilem pertinent.
+        </p>
+        <p xml:id="szdleg-b02690-d1e436">
+          <lb ed="#P" n="28"/>5. Leges Episcoporum sive synodales omnes
+          <lb ed="#P" n="29"/>obligare intra territorium, extra vero minime,
+          <lb ed="#P" n="30"/>sicut et leges conciliorum provincialium. —
+          <lb ed="#P" n="31"/>Tertio dicendum est: leges Episcoporum, seu
+          <lb ed="#P" n="32"/>synodales, licet ubique non obligent, tamen
+          <lb ed="#P" n="33"/>intra territorium obligare possunt de se 
+          ho<lb break="no" ed="#P" n="34"/>mines cujuscumque status. Prima pars clara
+          <lb ed="#P" n="35"/>est, quia extra territorium jus dicenti non 
+          pa<lb break="no" ed="#P" n="36"/>retur impune, l. ult. de Jurisd. omnium judic.,
+          <lb ed="#P" n="37"/>et cap. Ut animarum, de Constitut. in 6. 
+          Se<lb break="no" ed="#P" n="38"/>cunda item pars est certa, quia Episcopus est
+          <lb ed="#P" n="39"/>generalis pastor in sua dioecesi, et omnes 
+          ho<lb break="no" ed="#P" n="40"/>mines cujuscumque status illi subditi sunt;
+          <lb ed="#P" n="41"/>omnes ergo potest suis legibus obligare in 
+          ma<lb break="no" ed="#P" n="42"/>teria unicuique proportionata, et suae potestati
+          <lb ed="#P" n="43"/>subjecta, ut dictum est. Item in his omnibus
+          <lb ed="#P" n="44"/>quae non sunt propria Pontificis summi, 
+          pos<lb break="no" ed="#P" n="45"/>sunt Episcopi in suis diocecesibus quidquid 
+          po<lb break="no" ed="#P" n="46"/>test Pontifex in universa Ecclesia; ergo sicut
+          <lb ed="#P" n="47"/>leges pontificiae de se obligant in tota Ecclesia
+          <lb ed="#P" n="48"/>homines cujuscumque status, ita leges 
+          syno<lb break="no" ed="#P" n="49"/>dales obligant omnes intra proprium 
+          territo<lb break="no" ed="#P" n="50"/>rium. Ubi statim occurrebat quaestio, an hoc
+          <lb ed="#P" n="51"/>intelligendum sit de omnibus alias subditis,
+          <lb ed="#P" n="52"/>seu habentibus ibi domicilium, vel etiam de
+          <lb ed="#P" n="53"/>exteris brevi tempore commorantibus. Sed haec
+          <lb ed="#P" n="54"/>quaestio satis tractata est in locis in principio
+          <lb ed="#P" n="55"/>capitis citatis.
+        </p>
+        <p xml:id="szdleg-b02690-d1e499">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>6. Sub legibus autem Episcoporum 
+          com<lb break="no" ed="#P" n="57"/>prehendimus leges etiam conciliorum 
+          provin<lb break="no" ed="#P" n="58"/>cialium servata proportione ad territorium,
+          <lb ed="#P" n="59"/>seu ad totam provinciam ad quam Concilium
+          <lb ed="#P" n="60"/>pertinet ; est enim eadem ratio, ut constat;
+          <lb ed="#P" n="61"/>imo cum proportione applicari potest 
+          conclu<lb break="no" ed="#P" n="62"/>sio ad omnes Praelatos, et communitates 
+          eccle<lb break="no" ed="#P" n="63"/>siasticas habentes potestatem legistativam 
+          re<lb break="no" ed="#P" n="64"/>spective, et cum proportione. Nam 
+          uniuscu<lb break="no" ed="#P" n="65"/>jusque superioris leges obligant de se intra
+          <lb ed="#P" n="66"/>suam sphaeram omnes intra illam contentos,
+          <lb ed="#P" n="67"/>quia illi subditi sunt. Sed in hoc est 
+          observan<lb break="no" ed="#P" n="68"/>da differentia inter Pontificem et inferiores,
+          <lb ed="#P" n="69"/>quod a jurisdictione Pontificis nemo potest
+          <lb ed="#P" n="70"/>esse exemptus, a potestate autem 
+          cujuscum<lb break="no" ed="#P" n="71"/>que inferioris possunt plures eximi per ipsum
+          <lb ed="#P" n="72"/>Pontificem, et ratione exemptionis poterunt
+          <lb ed="#P" n="73"/>non ohligari legibus Episcoporum. Et ita 
+          sub<lb break="no" ed="#P" n="74"/>intelligi debet in assertione, leges synodales
+          <lb ed="#P" n="75"/>obligare omnes, nisi per superiorem 
+          impedian<lb break="no" ed="#P" n="76"/>tur. Sicut enim regula illa, quod Episcopus
+          <lb ed="#P" n="77"/>potest in suo Episcopatu quidquid potest 
+          Pon<lb break="no" ed="#P" n="78"/>tifex in universa Ecclesia, habet 
+          subintellec<lb break="no" ed="#P" n="79"/>tam conditionem, nisi prohibeatur, ita in 
+          prae<lb break="no" ed="#P" n="80"/>senti similis conditio subintelligenda est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

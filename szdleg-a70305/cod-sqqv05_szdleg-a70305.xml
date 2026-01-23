@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 27</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 27</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="277"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a70305"><!-- deleg-l3c27 -->
+        <head xml:id="szdleg-a70305-Hd1e101">Caput 27</head>
+        <head xml:id="szdleg-a70305-Hd1e103" type="question-title">Utrum obligatio legis humanis, quoad gravitatem eius, ex intentione legislatoris pendeat</head>
+        <p xml:id="szdleg-a70305-d1e106">
+          <lb ed="#P" n="47"/>CAPUT XXVII.
+          <lb ed="#P" n="48"/>UTRUM OBLIGATIO LEGIS HUMANIS, QUOAD 
+          GRAVI<lb break="no" ed="#P" n="49"/>TATEM EJUS, EX INTENTIONE LEGISLATORIS 
+          PEN<lb break="no" ed="#P" n="50"/>DEAT.
+        </p>
+        <p xml:id="szdleg-a70305-d1e117">
+          <lb ed="#P" n="51"/>1. Supponimus intentionem obligandi esse
+          <lb ed="#P" n="52"/>de ratione legis, ut supra ostensum est; inqui-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>rimus autem an gravitas obligationis quoad
+          <lb ed="#P" n="54"/>mortale aut veniale pendeat ex legislatoris
+          <lb ed="#P" n="55"/>intentione. Deinde ut intelligatur punctum
+          <lb ed="#P" n="56"/>quaestionis, supponimus variis modis posse 
+          le<lb break="no" ed="#P" n="57"/>gislatorem se habere in ferenda lege; primo,
+          <lb ed="#P" n="58"/>ut simpliciter intendat legem ferre circa talem
+          <lb ed="#P" n="59"/>materiam, et non amplius : secundo, ut 
+          defi<lb break="no" ed="#P" n="60"/>nite velit ferre legem, et per illam in 
+          conscien<lb break="no" ed="#P" n="61"/>tia obligare, non determinando quantitatem
+          <lb ed="#P" n="62"/>obpligationis ; tertio, ut velit ferre legem mere
+          <lb ed="#P" n="63"/>poenalem, et non obligantem in conscientia :
+          <lb ed="#P" n="64"/>quarto, ut velit definite obligare sub peccato
+          <lb ed="#P" n="65"/>mortali, et non tantum sub veniali, et e 
+          con<lb break="no" ed="#P" n="66"/>trario ut velit tantum sub veniali, et nullo
+          <lb ed="#P" n="67"/>modo sub mortali, et de hoc ultimo membro
+          <lb ed="#P" n="68"/>tantum est aliqua controversia, caetera enim
+          <lb ed="#P" n="69"/>clara sunt ex dictis. Nam in primo modo sine
+          <lb ed="#P" n="70"/>dubio lex obligat in conscientia, quia vera lex
+          <lb ed="#P" n="71"/>natura sua habet hunc effectum, si non 
+          exclu<lb break="no" ed="#P" n="72"/>datur ; unde, eo ipso quod intentio fertur ad
+          <lb ed="#P" n="73"/>veram legem, et hic effectus non excluditur,
+          <lb ed="#P" n="74"/>est sufficienter intentus, et efficitur perlegem.
+          <lb ed="#P" n="75"/>Neque est semper necessaria formalis intentio
+          <lb ed="#P" n="76"/>obligandi in conscientia, vel sub mortali ; imo
+          <lb ed="#P" n="77"/>vero hoc vix venit in mentem legislatoris 
+          ci<lb break="no" ed="#P" n="78"/>vilis, et maxime in infidelibus, de quibus est
+          <lb ed="#P" n="79"/>eadem ratio. Idem est in voto et promissione,
+          <lb ed="#P" n="80"/>quia, si fiant, statim obligant in conscientia,
+          <lb ed="#P" n="81"/>licet promittens nihil de conscientia 
+          cogitave<lb break="no" ed="#P" n="82"/>rit : idem ergo est in lege, neque est ulla ratio
+          <lb ed="#P" n="83"/>cur expressior intentio necessaria sit.
+        </p>
+        <p xml:id="szdleg-a70305-d1e193">
+          <lb ed="#P" n="84"/>2. Et idem cum proportione est dicendum
+          <lb ed="#P" n="85"/>in secundo modo intentionis : nam ibi etiam
+          <lb ed="#P" n="86"/>est implicite intenta gravitas obligationis, et -
+          <lb ed="#P" n="87"/>non impeditur, vel aliter excluditur efficacia
+          <lb ed="#P" n="88"/>illius intentionis : ergo satis est. Et ideo supra
+          <lb ed="#P" n="89"/>notavimus quod si materia sit capax, et lex
+          <lb ed="#P" n="90"/>feratur absoluto verbo praecipiendi, et cum 
+          si<lb break="no" ed="#P" n="91"/>mili confusa intentione, obligatio est ad 
+          mor<lb break="no" ed="#P" n="92"/>tale, argumento Clement. Eaivit, quod etiam
+          <lb ed="#P" n="93"/>tradit Soto l. 1 de Just. q. 62, a. 4, versus 
+          fi<lb break="no" ed="#P" n="94"/>nem; quia si legislator vult obligare, et non
+          <lb ed="#P" n="95"/>determinat modum, ex materia determinatur,
+          <lb ed="#P" n="96"/>quia in re non potest fieri sine aliqua 
+          determi<lb break="no" ed="#P" n="97"/>natione, et haec non potest aliunde sumi ; tunc
+          <lb ed="#P" n="98"/>ergo talis intentio sufficit, quia materiae 
+          ac<lb break="no" ed="#P" n="99"/>commodatur ac per illam determinatur.
+        </p>
+        <p xml:id="szdleg-a70305-d1e231">
+          <lb ed="#P" n="100"/>3. Praeterea idem dicendum est cum 
+          pro<lb break="no" ed="#P" n="101"/>portione in tertio modo, quando intentio 
+          le<lb break="no" ed="#P" n="102"/>gislatoris expresse est de ferenda lege pure
+          <lb ed="#P" n="103"/>poenali : nam (ut supra dixi) illa intentio 
+          mu<lb break="no" ed="#P" n="104"/>tationem facit in materia legis, quae mutatio
+          <lb ed="#P" n="105"/>est in potestate legislatoris : nam potest hanc
+          <lb ed="#P" n="106"/>vel illam materiam, aut determinate, aut 
+          dis<lb break="no" ed="#P" n="107"/>junctim, aut absolute, aut sub conditione prae-
+          <pb ed="#P" n="278"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cipere, licet non possit a tota materia omnem
+          <lb ed="#P" n="2"/>obligationem in conscientia excludere, si 
+          ve<lb break="no" ed="#P" n="3"/>ram legem ferre vult. Quando ergo dicitur 
+          in<lb break="no" ed="#P" n="4"/>tendere non obligare in conscientia , sed ad
+          <lb ed="#P" n="5"/>puram poenam, hoc intelligitur respectu actus
+          <lb ed="#P" n="6"/>immediate praecepti, vel prohibiti ; tamen eo
+          <lb ed="#P" n="7"/>ipso talis actus non est adaequata materia illius
+          <lb ed="#P" n="8"/>legis. sed vel hoc disjunctum, aut facere tale
+          <lb ed="#P" n="9"/>opus, aut sustinere, vel exequi talem poenam,
+          <lb ed="#P" n="10"/>vel (et in idem redit) est lex conditionata 
+          sol<lb break="no" ed="#P" n="11"/>vendi talem poenam, si hoc fiat, et tunc a toto
+          <lb ed="#P" n="12"/>disjuncto non excluditur obligatio in 
+          conscien<lb break="no" ed="#P" n="13"/>tia. Imo eo ipso quod legislator vult veram 
+          le<lb break="no" ed="#P" n="14"/>cem ferre, et non vult determinare 
+          obligatio<lb break="no" ed="#P" n="15"/>nem in conscientia ad talem actum, vult 
+          obli<lb break="no" ed="#P" n="16"/>gare in conscientia ad disjunctum de quo
+          <lb ed="#P" n="17"/>adaequate fert legem, et tunc gravitas 
+          obliga<lb break="no" ed="#P" n="18"/>tionis sic impositae, et modus ejus ex materia
+          <lb ed="#P" n="19"/>determinanda est, juxta proxime dicta de 
+          qua<lb break="no" ed="#P" n="20"/>cummue alia lege indefinite lata cum sola 
+          in<lb break="no" ed="#P" n="21"/>tentione ferendi legem. In quarto etiam modo
+          <lb ed="#P" n="22"/>res erit clara, si intentio legislatoris sit 
+          con<lb break="no" ed="#P" n="23"/>formis conditioni materiae, id est, si materia
+          <lb ed="#P" n="24"/>sit gravis, et ipse velit graviter et sub mortali
+          <lb ed="#P" n="25"/>obligare ; vel si materia sit parvi momenti, et
+          <lb ed="#P" n="26"/>ipse velit tantum sub veniali obligare : tunc
+          <lb ed="#P" n="27"/>enim nihil est quod impedit effectum, ut 
+          con<lb break="no" ed="#P" n="28"/>stat. Ttem si indefinite velit legislator obligare,
+          <lb ed="#P" n="29"/>determinatur obligatio ex materia, et ipse 
+          cen<lb break="no" ed="#P" n="30"/>setur velle obligare juxta materiae 
+          conditio<lb break="no" ed="#P" n="31"/>nem : ergo a fortiori quando intentio est 
+          de<lb break="no" ed="#P" n="32"/>terminata et conformis capacitati materiae,
+          <lb ed="#P" n="33"/>habebit effectum. Difficultas ergo superest,
+          <lb ed="#P" n="34"/>quando est difformitas inter intentionem et
+          <lb ed="#P" n="35"/>materiam, quae difformitas potest esse duplex :
+          <lb ed="#P" n="36"/>una per excessum, quia intendit obligare sub
+          <lb ed="#P" n="37"/>mortali in materia levi, et de hac jam dictum
+          <lb ed="#P" n="38"/>est non posse habere effectum adaequatum 
+          in<lb break="no" ed="#P" n="39"/>tentioni, quia excedit potestatem agentis, et
+          <lb ed="#P" n="40"/>tunc intentio operatur quod potest, non quod
+          <lb ed="#P" n="41"/>vult. Alia ergo disproportio est per defectum,
+          <lb ed="#P" n="42"/>quia legislator intendit obligare sub veniali
+          <lb ed="#P" n="43"/>tantum, in materia gravi. Et de hoc tantum
+          <lb ed="#P" n="44"/>puncto dicendum superest an possit legislator
+          <lb ed="#P" n="45"/>in materia capaci obligationis sub mortali,
+          <lb ed="#P" n="46"/>temperare obligationem per intentionem suam,
+          <lb ed="#P" n="47"/>qua vult tantum obligare sub veniali.
+        </p>
+        <p xml:id="szdleg-a70305-d1e357">
+          <lb ed="#P" n="48"/>4. Sententia asserens non esse in potestate 
+          le<lb break="no" ed="#P" n="49"/>gislatoris in materia gravi non obligare 
+          gra<lb break="no" ed="#P" n="50"/>viter. — In quo puncto sunt opiniones 
+          contra<lb break="no" ed="#P" n="51"/>riae. Prima negat esse hoc in potestate 
+          legisla<lb break="no" ed="#P" n="52"/>toris, sed necessario obligare sub mortali
+          <lb ed="#P" n="53"/>ferendo legem in tali materia. Ita tenet 
+          Vas<lb break="no" ed="#P" n="54"/>quez 1. 2, disput. 158, cap. 4, n. 32 et 
+          sequen<lb break="no" ed="#P" n="55"/>tibus, et tribuit Driedoni dicto lib. 3, de Libert.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Christian., cap. 3, ad 5, ex quo refert haec ver
+          <lb ed="#P" n="57"/>ba: Praecipientis intentio non facit praeceptum
+          <lb ed="#P" n="58"/>habere majorem vel minorem obligandi 
+          effica<lb break="no" ed="#P" n="59"/>ciam, sed necessitas, dignitas vel utilitas eorum.
+          <lb ed="#P" n="60"/>que praecipiuntur. Sed in originali quo utor,
+          <lb ed="#P" n="61"/>est dictio exclusiva quae potest sensum 
+          muta<lb break="no" ed="#P" n="62"/>re : sic enim ait : Sola praecipientis intentio
+          <lb ed="#P" n="63"/>non facit, etc., sed et necessitas. Unde sensus
+          <lb ed="#P" n="64"/>esse potest non pendere quantitatem 
+          obliga<lb break="no" ed="#P" n="65"/>tionis legis ex sola intentione legislatoris, sed
+          <lb ed="#P" n="66"/>etiam ex aliis principiis; et ita non favet dictae
+          <lb ed="#P" n="67"/>sententiae, sed solum confirmat ea quae supra
+          <lb ed="#P" n="68"/>dicta sunt. Nihilominus, si sensus sit quod sola
+          <lb ed="#P" n="69"/>intentio praecipientis non sufficit ut praeceptum
+          <lb ed="#P" n="70"/>habeat minorem obligandi efficaciam, quam
+          <lb ed="#P" n="71"/>materia postulet, sic favebit dictae sententiae.
+          <lb ed="#P" n="72"/>Eamdem sententiam expresse tenet Salmeron,
+          <lb ed="#P" n="73"/>tom. 4 Evangel. p. 3, wact. 12, S Differt
+          <lb ed="#P" n="74"/>autem.
+        </p>
+        <p xml:id="szdleg-a70305-d1e420">
+          <lb ed="#P" n="75"/>5. Prima ratio hujus ententis est, quia,
+          <lb ed="#P" n="76"/>licet ferre vel non ferre legem pendeat ex 
+          vo<lb break="no" ed="#P" n="77"/>luntate praecipientis, tamen supposito praecepto
+          <lb ed="#P" n="78"/>vis ipsa obligandi ex jure naturae nascitur,
+          <lb ed="#P" n="79"/>quia jus naturae dictat parendum esse 
+          superio<lb break="no" ed="#P" n="80"/>ribus praecipientibus; sed jus naturae in 
+          mate<lb break="no" ed="#P" n="81"/>ria gravi graviter obligat : ergo non potest illa
+          <lb ed="#P" n="82"/>obligatio minui per intenticnem praecipientis.
+          <lb ed="#P" n="83"/>Secundo, quia superior non potest rem levem
+          <lb ed="#P" n="84"/>ita praecipere, ut sub mortali obliget, etiam
+          <lb ed="#P" n="85"/>velit : ergo nec rem gravem sub veniali. 
+          Pro<lb break="no" ed="#P" n="86"/>batur consequentia, quia, sicut est stulta 
+          vo<lb break="no" ed="#P" n="87"/>luntas legislatoris in priori casu, ita in 
+          poste<lb break="no" ed="#P" n="88"/>riori : tam stultum enim est velle ut 
+          trans<lb break="no" ed="#P" n="89"/>gressio praecepti de re magni momenti levis
+          <lb ed="#P" n="90"/>sit, sicut quod de re levi transgressio sit 
+          gra<lb break="no" ed="#P" n="91"/>vis; sed in uno casu non habet effectum illa
+          <lb ed="#P" n="92"/>voluntas, quia stulta est: ergo nec in altero.
+        </p>
+        <p xml:id="szdleg-a70305-d1e462">
+          <lb ed="#P" n="93"/>Tertio, differentia venialis et mortalis peccati
+          <lb ed="#P" n="94"/>ex natura rerum oritur, non ex voluntate 
+          ali<lb break="no" ed="#P" n="95"/>cujus legislatoris : ergo non pendet ex 
+          volun<lb break="no" ed="#P" n="96"/>tate legislatoris, quod transgressio legis sit
+          <lb ed="#P" n="97"/>venialis, si materia ipsa ad mortalem sufficit.
+          <lb ed="#P" n="98"/>Quarto, obligatio praecepü non est essentia
+          <lb ed="#P" n="99"/>praecepti, sed effectus ejus : ergo, posita lege,
+          <lb ed="#P" n="100"/>necessario habet effectum obligationis 
+          propor<lb break="no" ed="#P" n="101"/>tionatum materiae, neque in eo pendet a 
+          vo<lb break="no" ed="#P" n="102"/>luntate superioris. Antecedens patet, quia
+          <lb ed="#P" n="103"/>praeceptum consistit in intimatione voluntatis
+          <lb ed="#P" n="104"/>superioris , quae est distincta ab obligatione,
+          <lb ed="#P" n="105"/>et prior illa. Consequentia vero probatur, quia
+          <lb ed="#P" n="106"/>stante eadem materia praecepti cum eisdem
+          <lb ed="#P" n="107"/>circumstantiis, et eodem fine rei praeceptae, non
+          <lb ed="#P" n="108"/>potest praeceptum non esse idem: ergonon 
+          po<lb break="no" ed="#P" n="109"/>test non inducere eamdem obligationem, quia
+          <lb ed="#P" n="110"/>non libere sed naturaliter illam inducit.
+        </p>
+        <p xml:id="szdleg-a70305-d1e504">
+          <pb ed="#P" n="279"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>6. Secunda sententia est posse legislatorem,
+          <lb ed="#P" n="2"/>si velit, in materia gravi et capaci obligationis
+          <lb ed="#P" n="3"/>sub mortal, ferre legem quae tantum sub 
+          ve<lb break="no" ed="#P" n="4"/>niali obliget, solum quia non intendit nec vult
+          <lb ed="#P" n="5"/>amplius obligare, atque ita obligationem legis
+          <lb ed="#P" n="6"/>positivae esse sub mortali, pendere ab intentione
+          <lb ed="#P" n="7"/>legislatoris, ut a causa necessaria, licet sola non
+          <lb ed="#P" n="8"/>sufficiat. Hanc sententiam docet expresse et late
+          <lb ed="#P" n="9"/>Castro dicto lib. 1, cap. 5, docum. 4. Eamdem
+          <lb ed="#P" n="10"/>tenet, vel potius supponit Navar. in Manuali
+          <lb ed="#P" n="11"/>cap. 23, n. 48, 49 et sequentibus. Idem sentit
+          <lb ed="#P" n="12"/>Medina tract. de Jejun. quaest. 1, S Superest,
+          <lb ed="#P" n="13"/>et in eodem sensu videtur loqui Cajet. in sum.
+          <lb ed="#P" n="14"/>verb. Praecepti transgressio. Ac denique hic
+          <lb ed="#P" n="15"/>videtur esse communis sensus doctorum in
+          <lb ed="#P" n="16"/>hac materia : omnes enim cum de hac 
+          obliga<lb break="no" ed="#P" n="17"/>tione tractant, primum omnium requirunt
+          <lb ed="#P" n="18"/>intentionem legislatoris: nam sine illa esse
+          <lb ed="#P" n="19"/>non potest, licet sola illa non sufficiat, quod
+          <lb ed="#P" n="20"/>etiam intendit Driedo loco citato. Et haec 
+          sen<lb break="no" ed="#P" n="21"/>tentia mihi videtur vera, quam sequentibus
+          <lb ed="#P" n="22"/>assertionibus declarabo.
+        </p>
+        <p xml:id="szdleg-a70305-d1e559">
+          <lb ed="#P" n="23"/>7. Mens auctoris. — Dico primo : 
+          Quantum<lb break="no" ed="#P" n="24"/>vis materia legis gravis sit, si legislator 
+          suffi<lb break="no" ed="#P" n="25"/>cienter declaret se nolle obligare sub mortali,
+          <lb ed="#P" n="26"/>talis lex non obligat sub mortah. Probatur
+          <lb ed="#P" n="27"/>primo, quia haec obligatio est effectus moralis
+          <lb ed="#P" n="28"/>ab homine faciendus, qui non potest fieri sine
+          <lb ed="#P" n="29"/>consensu voluntatis humanae; sed ibi non adest
+          <lb ed="#P" n="30"/>consensus voluntatis superioris, quia ipse 
+          po<lb break="no" ed="#P" n="31"/>tius vult non obligare ad mortale, ut 
+          supponi<lb break="no" ed="#P" n="32"/>tur; ergo non inducitur talis obligatio. 
+          Proba<lb break="no" ed="#P" n="33"/>tur consequentia, quia ibi non intervenit alia
+          <lb ed="#P" n="34"/>voluntas humana, quae possit illam 
+          obligatio<lb break="no" ed="#P" n="35"/>nem inducere; et voluntas superioris, licet
+          <lb ed="#P" n="36"/>possit, non vult, et non operatur quod non
+          <lb ed="#P" n="37"/>vult, quia actus agentium non transcendunt
+          <lb ed="#P" n="38"/>intentionem eorum, ut sumitur ex l. Si quis
+          <lb ed="#P" n="39"/>nec causam, et1. Non omnis, ff. Si cert. petat.
+          <lb ed="#P" n="40"/>Dicitur forte voluntatem ferendi legem 
+          suffi<lb break="no" ed="#P" n="41"/>cere: nam illa posita jus naturale cogit ut
+          <lb ed="#P" n="42"/>obligatio legis gravis sit. Sed contra: nam illa
+          <lb ed="#P" n="43"/>voluntas forondi legem non est absoluta, sed
+          <lb ed="#P" n="44"/>limitata, et quasi sub hac conditione 
+          impo<lb break="no" ed="#P" n="45"/>nendi obligationem sub mortali; ergo ut ex
+          <lb ed="#P" n="46"/>illa voluntate lex imponatur, oportet ut 
+          con<lb break="no" ed="#P" n="47"/>ditio impleatur; tum quia impossibile est 
+          vo<lb break="no" ed="#P" n="48"/>luntatem conditionatam habere effectum non
+          <lb ed="#P" n="49"/>impleta conditione, cum nihil ponat in esse,
+          <lb ed="#P" n="50"/>tum etiam quia alias illa voluntas involveret
+          <lb ed="#P" n="51"/>repugnantiam in objecto, et consequenter 
+          es<lb break="no" ed="#P" n="52"/>set de re impossibili , et eo ipso non posset
+          <lb ed="#P" n="53"/>habere effectum. Unde argumentor secundo,
+          <lb ed="#P" n="54"/>quia, vel est possibile, in tali materia dari 
+          le<lb break="no" ed="#P" n="55"/>gem humanam, et non obligantem sub mor-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tali, vel est impossibilis talis lex : si est 
+          possi<lb break="no" ed="#P" n="57"/>bilis, in eo casu fiet, quia haec est voluntas
+          <lb ed="#P" n="58"/>ferentis illam ; si vero est impossibilis, eo ipso
+          <lb ed="#P" n="59"/>ex vi talis modi ferendi legem, talisque 
+          volun<lb break="no" ed="#P" n="60"/>tatis, nulla lex valida constituetur: ergo talis
+          <lb ed="#P" n="61"/>lex non obligabit ad mortale, quod nunc 
+          in<lb break="no" ed="#P" n="62"/>tendimus. Probatur haec ultima consequentia,
+          <lb ed="#P" n="63"/>quia legislator talem legem vult facere, et non
+          <lb ed="#P" n="64"/>aliam : si ergo illa est impossibilis, vult legem
+          <lb ed="#P" n="65"/>impossibilem, et consequenter nihil facit. 
+          Con<lb break="no" ed="#P" n="66"/>firmatur a simili: nam si vellet ferre legem
+          <lb ed="#P" n="67"/>circa materiam gravem aut levem, et quod
+          <lb ed="#P" n="68"/>nullo modo obligaret, nec ad ulm 
+          morta<lb break="no" ed="#P" n="69"/>lem, neque ad venialem, neque ad poenam,
+          <lb ed="#P" n="70"/>profecto non ferret Iegen, sed consilium, aut
+          <lb ed="#P" n="71"/>simplicem ordinationem, et censeretur errare
+          <lb ed="#P" n="72"/>in nomine legis: quia si ille non ignorat 
+          na<lb break="no" ed="#P" n="73"/>turam legis, non potest simul velle contraria;
+          <lb ed="#P" n="74"/>et si ignorat naturam legis, eo ipso non facit
+          <lb ed="#P" n="75"/>legem, quia habet repugnantem voluntatem,
+          <lb ed="#P" n="76"/>contra quam non potest praevalere voluntas ex
+          <lb ed="#P" n="77"/>ignorantia procedens : ergo idem cum 
+          propor<lb break="no" ed="#P" n="78"/>tione erit in praesenti.
+        </p>
+        <p xml:id="szdleg-a70305-d1e686">
+          <lb ed="#P" n="79"/>8. Ponderantur rationes oppositae sententiae,
+          <lb ed="#P" n="80"/>et respondetur illis. —Harum autem rationum
+          <lb ed="#P" n="81"/>efficacia ostendetur melius discurrendo per
+          <lb ed="#P" n="82"/>rationes in contrarium factas. Circa primam
+          <lb ed="#P" n="83"/>enim considerandum est quod, licet obligatio .
+          <lb ed="#P" n="84"/>legis humanae radicaliter oriatur ex lege 
+          natu<lb break="no" ed="#P" n="85"/>rali, nihilominus immediate est a voluntate
+          <lb ed="#P" n="86"/>humana legislatoris : unde tunc obligat lex
+          <lb ed="#P" n="87"/>naturae ad parendum superiori praecipienti,
+          <lb ed="#P" n="88"/>quando supponitur homo sufficienter et valide
+          <lb ed="#P" n="89"/>praecipere. At in praesenti superior aut non
+          <lb ed="#P" n="90"/>valide praecipit, quia vult repugnantia et 
+          in<lb break="no" ed="#P" n="91"/>compossibilia, vel non praecipit sufficienter ad
+          <lb ed="#P" n="92"/>obligandum ad mortale, quia non praecipit
+          <lb ed="#P" n="93"/>nisi media sua voluntate, et ipse non vult tali
+          <lb ed="#P" n="94"/>modo praecipere, quia non vult tali modo 
+          obli<lb break="no" ed="#P" n="95"/>gare. Unde convertitur argumentum , quia
+          <lb ed="#P" n="96"/>obligatio legis humanae radicatur in illo 
+          prin<lb break="no" ed="#P" n="97"/>cipio naturali obediendum esse superioribus ;
+          <lb ed="#P" n="98"/>sed hic superior non vult obligare ad mortale:
+          <lb ed="#P" n="99"/>ergo nec jus naturale obligat ad mortale, quia
+          <lb ed="#P" n="100"/>in praesenti non operatur, nisi mediante 
+          vo<lb break="no" ed="#P" n="101"/>luntate superioris, et quasi dando illi 
+          effica<lb break="no" ed="#P" n="102"/>ciam : non dat autem efficaciam contra ipsam,
+          <lb ed="#P" n="103"/>sed ut ipsa impleatur in his quae vult.
+        </p>
+        <p xml:id="szdleg-a70305-d1e743">
+          <lb ed="#P" n="104"/>9. Ad secundum negatur consequentia: est
+          <lb ed="#P" n="105"/>enim longe diversa ratio inter voluntatem
+          <lb ed="#P" n="106"/>praecipiendi rem levem sub mortali, vel 
+          gra<lb break="no" ed="#P" n="107"/>vem sub veniali. Quia prior voluntas est ad
+          <lb ed="#P" n="108"/>imponendam obligationem, et ideo cum 
+          obli<lb break="no" ed="#P" n="109"/>gatio sit injusta et excedens potestatem 
+          huma<lb break="no" ed="#P" n="110"/>nam, non habet efficaciam : posterior autem
+          <pb ed="#P" n="280"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>voluntas ad minuendam, vel potius non 
+          im<lb break="no" ed="#P" n="2"/>ponendam talem obligationem, scilicet, sub
+          <lb ed="#P" n="3"/>mortali (quoad hanc enim partem nunc illam
+          <lb ed="#P" n="4"/>consideramus), ad hoc autem non est necesse
+          <lb ed="#P" n="5"/>ut aliquid efficiat, sed satis est ut non efficiat:
+          <lb ed="#P" n="6"/>non efficit autem eo ipso quod non vult, unde
+          <lb ed="#P" n="7"/>si non vult obligare ad mortale, plane non
+          <lb ed="#P" n="8"/>obligat. Neque refert quod talis voluntas 
+          stul<lb break="no" ed="#P" n="9"/>ta sit (hoc enim permisso, et non concesso, ut
+          <lb ed="#P" n="10"/>infra dicam), non est eodem modo stulta quo
+          <lb ed="#P" n="11"/>prior; nam prior est stulta et injusta : 
+          poste<lb break="no" ed="#P" n="12"/>rior autem non est injusta, esto sit imprudens:
+          <lb ed="#P" n="13"/>prior enim est ad imponendum gravámen
+          <lb ed="#P" n="14"/>ultra potestatem, posterior solum ad non 
+          im<lb break="no" ed="#P" n="15"/>ponendum totum gravamen quod posset, in
+          <lb ed="#P" n="16"/>quo non facit superior injuriam subdito, esto
+          <lb ed="#P" n="17"/>alias male gubernet. Unde hic etiam 
+          retor<lb break="no" ed="#P" n="18"/>quetur argumentum : nam, ut voluntas non
+          <lb ed="#P" n="19"/>imponendi onus de facto illud non imponat,
+          <lb ed="#P" n="20"/>satis est quod de facto habeatur, estque 
+          imper<lb break="no" ed="#P" n="21"/>tinens quod prudenter aut stulte habeatur.
+          <lb ed="#P" n="22"/>Ut si rex ferat legem sine causa justa, nihil
+          <lb ed="#P" n="23"/>facit : si vero auferat legem justam sine causa
+          <lb ed="#P" n="24"/>justa, factum tenet, licet male faciat, quia
+          <lb ed="#P" n="25"/>plus ad ponendum quam ad non imponendum
+          <lb ed="#P" n="26"/>vel non conservandum onus requiritur. Sic
+          <lb ed="#P" n="27"/>ergo in praesenti.
+        </p>
+        <p xml:id="szdleg-a70305-d1e824">
+          <lb ed="#P" n="28"/>10. Ad tertium, de differentia venialis et
+          <lb ed="#P" n="29"/>mortalis peccati, dato antecedente in bono
+          <lb ed="#P" n="30"/>sensu, negatur consequentia. Nam in his quae
+          <lb ed="#P" n="31"/>non sunt per se mala, sed tantum quia 
+          pro<lb break="no" ed="#P" n="32"/>hibita, licet ratio peccati mortalis aut venialis
+          <lb ed="#P" n="33"/>non pendeat immediate ex voluntate hominis,
+          <lb ed="#P" n="34"/>necessario pendet remote, in quantum a 
+          vo<lb break="no" ed="#P" n="35"/>luntate hominis pendet ponere, vel non 
+          po<lb break="no" ed="#P" n="36"/>nere praeceptum prohibens, et ponere tale vel
+          <lb ed="#P" n="37"/>tale praeceptum. Non est ergo satis quod 
+          ma<lb break="no" ed="#P" n="38"/>teria sit gravis, quando tota illa de se et non
+          <lb ed="#P" n="39"/>prohibita esset indifferens : oportet ergo ut
+          <lb ed="#P" n="40"/>prohibeatur simpliciter et adaequate (ut sic 
+          di<lb break="no" ed="#P" n="41"/>cam) secundum totam capacitatem suam, et
+          <lb ed="#P" n="42"/>posita tali prohibitione, jam non pendebit ex
+          <lb ed="#P" n="43"/>voluntate hominis, quod peccatum sit mortale
+          <lb ed="#P" n="44"/>vel veniale, sed ex natura objecti sic propositi
+          <lb ed="#P" n="45"/>id sequitur, et ita in superioribus diximus 
+          ac<lb break="no" ed="#P" n="46"/>cidere, quando materia est capax obligationis
+          <lb ed="#P" n="47"/>sub mortali et legislator non limitat modum
+          <lb ed="#P" n="48"/>praecipiendi, sed simpliciter vult praecipere.
+          <lb ed="#P" n="49"/>At vero in nostro casu non supponitur 
+          prohi<lb break="no" ed="#P" n="50"/>bitio sufficiens, ut materia illa sit mala quia
+          <lb ed="#P" n="51"/>prohibita in gradu peccati mortalis ; quia non
+          <lb ed="#P" n="52"/>sic prohibetur : ergo, ex hypothesi talis 
+          prae<lb break="no" ed="#P" n="53"/>cepti, impossibile est actum illi contrarium
+          <lb ed="#P" n="54"/>esse peccatum mortale. Nam vel est tale per
+          <lb ed="#P" n="55"/>se, et hoc non, ut supponitur, vel est tale,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quia prohibitum, et hoc etiam non, quia non
+          <lb ed="#P" n="57"/>est ita simpliciter prohibitum.
+        </p>
+        <p xml:id="szdleg-a70305-d1e894">
+          <lb ed="#P" n="58"/>Ad quartum respondeo obligationem
+          <lb ed="#P" n="59"/>quasi passivam, quae in subdito moraliter 
+          con<lb break="no" ed="#P" n="60"/>sideratur, non esse essentiam legis, sed 
+          effec<lb break="no" ed="#P" n="61"/>tum, quamvis si consideretur ut effectus causae
+          <lb ed="#P" n="62"/>efficientis, seu formalis, possit non immerito
+          <lb ed="#P" n="63"/>intrinsecus et essentialis reputari. Omissa 
+          ta<lb break="no" ed="#P" n="64"/>men obligatione passiva, de activa obligatione,
+          <lb ed="#P" n="65"/>quae potius est quasi activitas obligationis 
+          pas<lb break="no" ed="#P" n="66"/>sivae, dico hanc esse de essentia legis et 
+          inse<lb break="no" ed="#P" n="67"/>parabilem ab illa, quia lex essentialiter est 
+          <lb ed="#P" n="68"/>vinculum obligationis inductivum. Neque 
+          con<lb break="no" ed="#P" n="69"/>tra hoc obstat quod lex sit prior obligatione
+          <lb ed="#P" n="70"/>passiva, et quod consistat in intimatione 
+          vo<lb break="no" ed="#P" n="71"/>luntatis legislatoris : nam potius hinc sequitur
+          <lb ed="#P" n="72"/>talem esse legem, qualis est voluntas quae per
+          <lb ed="#P" n="73"/>illam intimatur, quia illa voluntas est quasi
+          <lb ed="#P" n="74"/>anima ejus, et ab illa quasi formaliter habet
+          <lb ed="#P" n="75"/>vim obligandi; sed in nostro casu illa lex non
+          <lb ed="#P" n="76"/>intimat voluntatem obligandi sub mortali;
+          <lb ed="#P" n="77"/>ergo nec ipsa potest sub mortali obligare, nam
+          <lb ed="#P" n="78"/>intimatio ut sic, tantum est in genere signi,
+          <lb ed="#P" n="79"/>quod solum habet efficaciam ratione signati :
+          <lb ed="#P" n="80"/>unde ad primam consequentiam quod posita
+          <lb ed="#P" n="81"/>lege ex ea naturaliter nascitur obligatio 
+          pro<lb break="no" ed="#P" n="82"/>portionata materiae, respondeo distinguendo
+          <lb ed="#P" n="83"/>consequens : nam posita lege adaequata 
+          mate<lb break="no" ed="#P" n="84"/>riae, verum est; in nostro autem casu non 
+          po<lb break="no" ed="#P" n="85"/>nitur lex adaequata materiae, ut supponimus;
+          <lb ed="#P" n="86"/>unde posita hujusmodi lege inadaequata 
+          ma<lb break="no" ed="#P" n="87"/>terie, falsum est illud consequens. Quapropter,
+          <lb ed="#P" n="88"/>si consequens illud universe intelligatur de
+          <lb ed="#P" n="89"/>quacumque lege, negatur consequentia, quia
+          <lb ed="#P" n="90"/>vel involvit repugnantiam, vel supponit 
+          pro<lb break="no" ed="#P" n="91"/>bandum , nimirum quod lex necessario sit
+          <lb ed="#P" n="92"/>adaequata, etiam contra voluntatem ferentis
+          <lb ed="#P" n="93"/>illam. Hoc enim hactenus probatum non est,
+          <lb ed="#P" n="94"/>neque etiam est ostensum quod circa eamdem
+          <lb ed="#P" n="95"/>materiam , cum eisdem circumstantiis, non
+          <lb ed="#P" n="96"/>possint esse diversae leges magis vel minus
+          <lb ed="#P" n="97"/>prohibentes juxta intentionem praecipientis.
+          <lb ed="#P" n="98"/>Et quamvis id gratis daretur, adhuc non 
+          pro<lb break="no" ed="#P" n="99"/>baretur inde in eo casu ferri legem obligantem
+          <lb ed="#P" n="100"/>sub mortali, sed potius nullam legem ferri,
+          <lb ed="#P" n="101"/>quia legislator nec vult ferre quam potest, nec
+          <lb ed="#P" n="102"/>potest quam vult.
+        </p>
+        <p xml:id="szdleg-a70305-d1e994">
+          <lb ed="#P" n="103"/>12. Secunda conclusio. —Unde ad majorem
+          <lb ed="#P" n="104"/>rei explicationem dico secundo : quamvis in
+          <lb ed="#P" n="105"/>eo casu lex non possit obligare ad mortale, ut
+          <lb ed="#P" n="106"/>ostensum est ; nihilominus non est omnino
+          <lb ed="#P" n="107"/>nulla, potestque obligare ad veniale juxta 
+          vo<lb break="no" ed="#P" n="108"/>luntatem legislatoris, quae non semper 
+          irratio<lb break="no" ed="#P" n="109"/>nabilis est. Hanc assertionem intendunt 
+          auc<lb break="no" ed="#P" n="110"/>tores citati, probaturque prior pars ex usu re-
+          <pb ed="#P" n="281"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ligionum, in quibus plures sunt constitutiones
+          <lb ed="#P" n="2"/>cadentes in materias de se sufficientes ad 
+          obli<lb break="no" ed="#P" n="3"/>gandum sub mortali, si rigorosa praecepta de
+          <lb ed="#P" n="4"/>illis imponerentur, ut sunt, verbi gratia, 
+          con<lb break="no" ed="#P" n="5"/>stitutio audiendi Missam quotidie, vel 
+          jeju<lb break="no" ed="#P" n="6"/>nandi tali die, etc. Et nihilominus quia in
+          <lb ed="#P" n="7"/>ipsismet declaratur non esse intentionem 
+          reli<lb break="no" ed="#P" n="8"/>gionis obligare ad mortale, non ita obligant,
+          <lb ed="#P" n="9"/>sub quacumque forma verborum ferantur; et
+          <lb ed="#P" n="10"/>nihil repugnat obligare ad veniale, si hoc etiam
+          <lb ed="#P" n="11"/>in ipsis constitutionibus declaretur, sicut 
+          po<lb break="no" ed="#P" n="12"/>test; nulla enim afferri potest repugnantia,
+          <lb ed="#P" n="13"/>supposita priori negatione. Et fortasse in 
+          ali<lb break="no" ed="#P" n="14"/>quibus religionibus ita obligat, ut sentit divus
+          <lb ed="#P" n="15"/>Thomas 2. 2, quaest. 186, art. 9, ad 1. Addo
+          <lb ed="#P" n="16"/>quod, ubi neutro modo obligant, utrumque
+          <lb ed="#P" n="17"/>exprimitur in ipsis constitutionibus, ut de sua
+          <lb ed="#P" n="18"/>religione retulit D. Thomas citato loco, et in
+          <lb ed="#P" n="19"/>nostrae societatis constitutionibus idem 
+          habe<lb break="no" ed="#P" n="20"/>tur.In hoc autem ipso modo declarationis satis
+          <lb ed="#P" n="21"/>significatur potuisse tales constitutiones in illis
+          <lb ed="#P" n="22"/>eisdem legibus obligare sub veniali, et non
+          <lb ed="#P" n="23"/>sub mortali : ideo enim utrumque exprimitur
+          <lb ed="#P" n="24"/>ne, solo mortali excluso, censeantur obligare
+          <lb ed="#P" n="25"/>i sub veniali. Atque hinc sumitur argumentum
+          <lb ed="#P" n="26"/>l aliud ex lege pure poenali, quo utuntur Navarr.
+          <lb ed="#P" n="27"/>|et alii: nam lex ex intentione legislatoris 
+          po<lb break="no" ed="#P" n="28"/>test non obligare ad culpam, sed tantum ad
+          <lb ed="#P" n="29"/>poenam, etiam in materia de se gravi et 
+          suffi<lb break="no" ed="#P" n="30"/>ciente ad obligationem sub mortali, ut ex 
+          eis<lb break="no" ed="#P" n="31"/>dem constitutionibus praedicatorum constat, et
+          <lb ed="#P" n="32"/>in sequentibus generaliter disputabitur ; ergo
+          <lb ed="#P" n="33"/>per eamdem intentionem legislatoris fieri 
+          po<lb break="no" ed="#P" n="34"/>terit ut lex obliget sub veniali, etiamsi materia
+          <lb ed="#P" n="35"/>capax esset majoris obligationis. Responderi
+          <lb ed="#P" n="36"/>potest legem poenalem tandem resolvi in 
+          ali<lb break="no" ed="#P" n="37"/>quam obligationem conscientiae. Sed contra:
+          <lb ed="#P" n="38"/>nam esto hoc verum sit, potest resolvi in 
+          so<lb break="no" ed="#P" n="39"/>lam obligationem sub veniali, ut si poena esset
+          <lb ed="#P" n="40"/>levis, quam omittere non esset mortale : tunc
+          <lb ed="#P" n="41"/>enim quasi mediate res gravis praecipitur sub
+          <lb ed="#P" n="42"/>culpa veniali incurrenda, nisi talis poena 
+          im<lb break="no" ed="#P" n="43"/>pleatur; ergo etiam immediate et simpliciter
+          <lb ed="#P" n="44"/>posset sic praecipi.
+        </p>
+        <p xml:id="szdleg-a70305-d1e1114">
+          <lb ed="#P" n="45"/>13. Materia capax obligationis majoris est
+          <lb ed="#P" n="46"/>etiam minoris. — A priori vero probari hoc
+          <lb ed="#P" n="47"/>potest primo, quia talis lex non est injusta,
+          <lb ed="#P" n="48"/>neque illicita ex parte materiae : nam praecipit
+          <lb ed="#P" n="49"/>rem honestam, neque excedit potestatem 
+          fe<lb break="no" ed="#P" n="50"/>rentis legem, sed potius est quasi inadaequatus
+          <lb ed="#P" n="51"/>actus ejus ; cur ergo erit nulla ? Unde parum
+          <lb ed="#P" n="52"/>refert quod sit indiscreta, quia imprudentia
+          <lb ed="#P" n="53"/>in lege ferenda non facit illam nullam, nisi
+          <lb ed="#P" n="54"/>reddat illam turpem, inhonestam, aut injustam
+          <lb ed="#P" n="55"/>ultra potestatem ferentis illam. Nec etiam est
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cur talis lex reputetur impossibilis, quia si 
+          ma<lb break="no" ed="#P" n="57"/>teria est capax obligationis majoris, cur non
+          <lb ed="#P" n="58"/>erit minoris? Quandoquidem utraque est quasi
+          <lb ed="#P" n="59"/>extrinsecus adveniens illi per liberam 
+          volun<lb break="no" ed="#P" n="60"/>tatem imperantis, sicut in censuris, verbi 
+          gra<lb break="no" ed="#P" n="61"/>tia. Licet pro contumacia in furto gravi possit
+          <lb ed="#P" n="62"/>rationabiliter imponi excommunicatio major,
+          <lb ed="#P" n="63"/>nihilominus, si feratur excommunicatio cum
+          <lb ed="#P" n="64"/>intentione non inferendi majorem, non 
+          infe<lb break="no" ed="#P" n="65"/>retur major; inferetur autem minor si 
+          prae<lb break="no" ed="#P" n="66"/>latus eam intendat, etiamsi forte negligenter
+          <lb ed="#P" n="67"/>et imprudenter faciat non ferendo majorem ;
+          <lb ed="#P" n="68"/>ita ergo in proposito praeceptum quasi recipit
+          <lb ed="#P" n="69"/>majus et minus ex parte voluntatis 
+          legislato<lb break="no" ed="#P" n="70"/>ris volentis graviter aut leviter obligare. Quae
+          <lb ed="#P" n="71"/>dici etiam possunt praeceptum simpliciter et
+          <lb ed="#P" n="72"/>secundum quid, sicut D. Thomas dixit 
+          pecca<lb break="no" ed="#P" n="73"/>tum veniale non esse contra praeceptum 
+          sim<lb break="no" ed="#P" n="74"/>pliciter, sed secundum quid, et innuit saepe
+          <lb ed="#P" n="75"/>Cajetan. 2. 2, quaest. 104, art. 2, quaest. 186,
+          <lb ed="#P" n="76"/>art. 9, t. 1 Opusc., tract. 25, quaest. 1. Sic 
+          er<lb break="no" ed="#P" n="77"/>go, licet materia sit capax praecepti 
+          simplici<lb break="no" ed="#P" n="78"/>ter, potest legislator pro sua libertate velle
+          <lb ed="#P" n="79"/>imponere praeceptum secundum quid, et non
+          <lb ed="#P" n="80"/>simpliciter ; et sicut illa voluntas efficax est
+          <lb ed="#P" n="81"/>quoad objectum negativum, sicut est ostensum,
+          <lb ed="#P" n="82"/>ita etiam quoad affirmativum, quia nulla est
+          <lb ed="#P" n="83"/>repugnantia, nec rationes prioris sententiae 
+          il<lb break="no" ed="#P" n="84"/>lam ostendunt, ut ex dictis patet. Et 
+          confirma<lb break="no" ed="#P" n="85"/>tur: nam per sese videtur satis credibile quod,
+          <lb ed="#P" n="86"/>sicut Ecclesia praecipit jejunium, vel Missam
+          <lb ed="#P" n="87"/>sub mortali, potuit etiam praecipere sub solo
+          <lb ed="#P" n="88"/>veniali, si expedire judicaret. Quia jejunare et
+          <lb ed="#P" n="89"/>audire Missam de se est opus honestum et 
+          gra<lb break="no" ed="#P" n="90"/>ve, et nihilominus non est sub necessitate 
+          sa<lb break="no" ed="#P" n="91"/>lutis ante praeceptum, sed voluntas praelati
+          <lb ed="#P" n="92"/>imponit necessitatem ; ergo potest non omnem
+          <lb ed="#P" n="93"/>necessitatem imponere, cujus opus est capax,
+          <lb ed="#P" n="94"/>sed minorem, ita ut non simpliciter ad 
+          salu<lb break="no" ed="#P" n="95"/>tem, sed ad cavendam omnem culpam, etiam
+          <lb ed="#P" n="96"/>levem, sit necessarium, sive ponendo solum
+          <lb ed="#P" n="97"/>praeceptum obedientiae in eo gradu, sive intra
+          <lb ed="#P" n="98"/>latitudinem religionis vel temperantia 
+          fa<lb break="no" ed="#P" n="99"/>ciendo talem determinationem, sive 
+          circum<lb break="no" ed="#P" n="100"/>stantiam temporis sub levi obligatione 
+          impo<lb break="no" ed="#P" n="101"/>nendo, utendo illo medio ad finem talis 
+          vir<lb break="no" ed="#P" n="102"/>tutis, non ut gravi ac necessario, sed ut levi
+          <lb ed="#P" n="103"/>dispositione ad graviora praecepta, juxta 
+          doc<lb break="no" ed="#P" n="104"/>trinam divi Thomae, dicta quaest. 108, art. 7
+          <lb ed="#P" n="105"/>et 9.
+        </p>
+        <p xml:id="szdleg-a70305-d1e1252">
+          <lb ed="#P" n="106"/>14. Addidi tandem talem voluntatem 
+          talem<lb break="no" ed="#P" n="107"/>que praecipiendi modum, non semper esse
+          <lb ed="#P" n="108"/>irrationabilem, aut habere malitiam aliquam.
+          <lb ed="#P" n="109"/>Id enim etiam persuadet consuetudo 
+          religio<lb break="no" ed="#P" n="110"/>num, et ratio, quia in tali modo praecipiendi
+          <pb ed="#P" n="282"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nulla intrinseca indecentia ostendi potest, nec
+          <lb ed="#P" n="2"/>transgressio alicujus obligationis, quia superior
+          <lb ed="#P" n="3"/>non tenetur praecipere semper quantum potest,
+          <lb ed="#P" n="4"/>nneque etiam tenetur abstinere a praecipiendo
+          <lb ed="#P" n="5"/>leviori modo, quando non vult toto rigore 
+          prae<lb break="no" ed="#P" n="6"/>cipere. Ubi enim est talis prohibitio, aut in
+          <lb ed="#P" n="7"/>quo fundari potest? Alioqui vero potest 
+          ha<lb break="no" ed="#P" n="8"/>bere finem et causam rationabilem ad non
+          <lb ed="#P" n="9"/>praecipiendum cum rigore, neque omittendum
+          <lb ed="#P" n="10"/>omnino praeceptum, quia imponere aliquam
+          <lb ed="#P" n="11"/>moderatam obligationem sine periculo gravis
+          <lb ed="#P" n="12"/>lapsus potest esse utile ad spiritualem 
+          direc<lb break="no" ed="#P" n="13"/>tionem subditi. Nihil ergo obstat quin modus
+          <lb ed="#P" n="14"/>hic praecipiendi, etiam in materia gravi, 
+          pos<lb break="no" ed="#P" n="15"/>sit esse validus et prudens. Confirmatur, quia
+          <lb ed="#P" n="16"/>eadem materia gravis prudenter potest esse
+          <lb ed="#P" n="17"/>aliquando sub consilio, vel simplici ordinatione
+          <lb ed="#P" n="18"/>ad nihil obligantis, aliquando sub lege 
+          tan<lb break="no" ed="#P" n="19"/>tum poenali, aliquando sub gravi praecepto
+          <lb ed="#P" n="20"/>obligante quantum potest sub mortali: cur
+          <lb ed="#P" n="21"/>ergo es:e etiam non poterit sub levi 
+          obliga<lb break="no" ed="#P" n="22"/>tione, quae timoratam conscientiam pungat,
+          <lb ed="#P" n="23"/>et in discrimen gravis lapsus non adducat?
+          <lb ed="#P" n="24"/>Neque contra hoc video rationem urgentem.
+          <lb ed="#P" n="25"/>Solet autem fieri argumentum, et comparatio
+          <lb ed="#P" n="26"/>sumpta ex obligatione voti et juramenti. Sed
+          <lb ed="#P" n="27"/>de his in libris de Religione tractat. 6 
+          dic<lb break="no" ed="#P" n="28"/>tum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

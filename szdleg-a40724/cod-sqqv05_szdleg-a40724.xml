@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 17</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 17</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="159"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a40724"><!-- deleg-l2c17 -->
+        <head xml:id="szdleg-a40724-Hd1e101">Caput 17</head>
+        <head xml:id="szdleg-a40724-Hd1e103" type="question-title">Utrum ius naturale distinguatur a iure gentium, quia hoc solis hominibus convenit, illud etiam brutis commune est</head>
+        <p xml:id="szdleg-a40724-d1e106">
+          <lb ed="#P" n="91"/>CAPUT XVII.
+          <lb ed="#P" n="92"/>UTRUM JUS NATURALE DISTINGUATUR A JURE 
+          GEN<lb break="no" ed="#P" n="93"/>TIUM, QUIA HOC SOLIS HOMINIBUS CONVENIT, 
+          IL<lb break="no" ed="#P" n="94"/>LUD ETIAM BRUTIS COMMUNE EST.
+        </p>
+        <p xml:id="szdleg-a40724-d1e117">
+          <lb ed="#P" n="95"/>1. Explicato naturali jure, priusquam ad
+          <lb ed="#P" n="96"/>positivum transeamus, operae pretium erit in
+          <lb ed="#P" n="97"/>fine hujus libri jus gentium quatenus ad 
+          ratio<lb break="no" ed="#P" n="98"/>nem legis spectat, declarare ; tum quia 
+          ma<lb break="no" ed="#P" n="99"/>gnam habet cum jure naturali affinitatem, ita
+          <lb ed="#P" n="100"/>ut a multis cum illo confundatur, vel pars
+          <lb ed="#P" n="101"/>quaedam ejus esse censeatur ; tum etiam quia
+          <lb ed="#P" n="102"/>eo modo quo ab illo distinguitur, est illi 
+          pro<lb break="no" ed="#P" n="103"/>pinquissimum, et quasi medium inter naturale
+          <lb ed="#P" n="104"/>jus, et humanum, et priori extremo vicinius,
+          <lb ed="#P" n="105"/>et ideo per illud convenienter transitum 
+          facie<lb break="no" ed="#P" n="106"/>mus ad proprium jus positivum exponendum.
+          <lb ed="#P" n="107"/>Quod ergo aliquid sit jus gentium, vel ex ipsius
+          <pb ed="#P" n="160"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vocis usu frequentissimo, omnes tanquam 
+          cer<lb break="no" ed="#P" n="2"/>tum supponunt: nam hujus juris frequens
+          <lb ed="#P" n="3"/>mentio est in jure civili, ff. de Justit. et jur.,
+          <lb ed="#P" n="4"/>et Instit. de Jure naturali, gent. et civili, et in
+          <lb ed="#P" n="5"/>Decret. dist. 1 et sequent., ex Isidoro, 5 Etym.,
+          <lb ed="#P" n="6"/>cap. 2. et in utriusque juris doctoribus illis 
+          lo<lb break="no" ed="#P" n="7"/>cis, et passim, et in D. Thoma, ac theologis 2.
+          <lb ed="#P" n="8"/>9 q. 51, art. 3.
+        </p>
+        <p xml:id="szdleg-a40724-d1e169">
+          <lb ed="#P" n="9"/>9. Explicantur varie juris acceptiones. —
+          <lb ed="#P" n="10"/>Quia vero haec vox aequivoca est, oportet illam
+          <lb ed="#P" n="11"/>distinguere, ut significationem tantum ad nos
+          <lb ed="#P" n="12"/>pertinentem usurpemus. Jus enim interdum
+          <lb ed="#P" n="13"/>significat moralem facultatem ad rem aliquam,
+          <lb ed="#P" n="14"/>vel inre, sive sit verum dominium, sivealiqua
+          <lb ed="#P" n="15"/>participatio ejus, quod est proprium objectum
+          <lb ed="#P" n="16"/>justitiae, ut constat ex D. Thoma, dist. q. 17,
+          <lb ed="#P" n="17"/>art. 1. Aliquando vero jus significat legem,
+          <lb ed="#P" n="18"/>quae est regula honeste operandi, et in rebus
+          <lb ed="#P" n="19"/>quamdam aequitatem constituit, et est ratio
+          <lb ed="#P" n="20"/>ipsius juris priori modo sumpti, ut dixit ibidem
+          <lb ed="#P" n="21"/>D. Thomas, dicto art. 1, ad 2, quae ratio est
+          <lb ed="#P" n="22"/>ipsa lex, ut ibi dicit, et ita jus coincidit cum
+          <lb ed="#P" n="23"/>lege, ut praecedenti libro cap. 2 notavimus:
+          <lb ed="#P" n="24"/>unde, ut habeamus brevia nomina quibus uti
+          <lb ed="#P" n="25"/>possimus, primum vocare possumus jus utile,
+          <lb ed="#P" n="26"/>secundum honestum: vel primum jus reale,
+          <lb ed="#P" n="27"/>secundum legale: utrumque cergo jus potest
+          <lb ed="#P" n="28"/>dividi in naturale, gentium et civile. Nam jus
+          <lb ed="#P" n="29"/>utile naturale dicitur quando ab ipsa natura
+          <lb ed="#P" n="30"/>datur, seu cum illa provenit, quomodo libertas
+          <lb ed="#P" n="31"/>dici potest ex jure naturali. Civile dicitur quod
+          <lb ed="#P" n="32"/>jus civile introdurit, ut jus praescriptionis.
+          <lb ed="#P" n="33"/>Gentium quod ex communi usu gentium 
+          habe<lb break="no" ed="#P" n="34"/>tur, ut est jus transeundi per vias publicas,
+          <lb ed="#P" n="35"/>vel jus servitutis bello introductum. Atque in
+          <lb ed="#P" n="36"/>hoc sensu pertinet haec divisio ad objectum
+          <lb ed="#P" n="37"/>justitiae, et forte ita traditur a D. Thoma, dicto
+          <lb ed="#P" n="38"/>art. 3. In praesenti vero non ita loquimur de
+          <lb ed="#P" n="39"/>jure gentium, sed ut est quaedam species legis.
+          <lb ed="#P" n="40"/>Nam etiam jus legale per tria illa membra
+          <lb ed="#P" n="41"/>dividi solet: nam inl. 1, S Zujus studii, ff. de
+          <lb ed="#P" n="42"/>Justit. et jur., expresse dicitur jus collectum
+          <lb ed="#P" n="43"/>esse ex praeceptis naturalibus, aut gentium,
+          <lb ed="#P" n="44"/>aut civili. Et eodem modo sumitur divisio illa
+          <lb ed="#P" n="45"/>in titulo de jure naturali, gentium et civili.
+          <lb ed="#P" n="46"/>Quam divisionem ex communi usu et sententia
+          <lb ed="#P" n="47"/>bonam esse supponimus, et quia duo extrema
+          <lb ed="#P" n="48"/>membra satis nota sunt ex dictis in l. 1, cap.
+          <lb ed="#P" n="49"/>ult., oportet nunc explicare secundum 
+          mem<lb break="no" ed="#P" n="50"/>brum quod in hunc locum remisimus, quia
+          <lb ed="#P" n="51"/>pendet ex comparatione ejus cum jure 
+          natu<lb break="no" ed="#P" n="52"/>rali ; unde etiam constabit ratio, et verus 
+          sen<lb break="no" ed="#P" n="53"/>sus totius divisionis.
+        </p>
+        <p xml:id="szdleg-a40724-d1e270">
+          <lb ed="#P" n="54"/>3. Prima opinio juristarum distingwens jus
+          <lb ed="#P" n="55"/>naturale a jure gentium, in eo quod primum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>competat etiam brutis, istud vero solum homini.
+          <lb ed="#P" n="57"/>— In hoc itaque jure gentium explicando 
+          va<lb break="no" ed="#P" n="58"/>riae sunt sententiae, quarum primam in hoc
+          <lb ed="#P" n="59"/>capite pertractabimus, deinde caeteras 
+          perse<lb break="no" ed="#P" n="60"/>quemur. Jurisperiti ergo communiter 
+          distin<lb break="no" ed="#P" n="61"/>guunt jus naturale a jure gentium in hoc
+          <lb ed="#P" n="62"/>quod jus naturale est commune brutis etiam
+          <lb ed="#P" n="63"/>animantibus: jus autem gentium est proprium
+          <lb ed="#P" n="64"/>hominum. Unde in . 1, S Hujus studii, etin S
+          <lb ed="#P" n="65"/>1 et2 Inst. de jur. nat. gent. et civili, sic dicitur:
+          <lb ed="#P" n="66"/>Jus naturale est, quod natura omnia animalia
+          <lb ed="#P" n="67"/>docuit : nam jus istud non solum hwmnani 
+          ge<lb break="no" ed="#P" n="68"/>neris proprium est, sed omnium animalium
+          <lb ed="#P" n="69"/>quae in terra marique nascuntur , avium quoque
+          <lb ed="#P" n="70"/>commnne est. Et adhibentur exempla, ut 
+          ma<lb break="no" ed="#P" n="71"/>ris et foeminae conjunctio, filiorum procreatio
+          <lb ed="#P" n="72"/>et educatio. De jure autem gentium additur :
+          <lb ed="#P" n="73"/>Gentium est, quo gentes lumane utuntur, et
+          <lb ed="#P" n="74"/>dicitur a naturali recedere, quia solis 
+          homini<lb break="no" ed="#P" n="75"/>bus inter se commune est. Additur vero 
+          infe<lb break="no" ed="#P" n="76"/>rius in lege 9, jus gentium vocari, Quod 
+          natu<lb break="no" ed="#P" n="77"/>ralis ratio inter omnes homines constituit, et
+          <lb ed="#P" n="78"/>apud omnes perceque custoditur. Unde constat
+          <lb ed="#P" n="79"/>jus gentium censeri etiam naturale, sed 
+          spe<lb break="no" ed="#P" n="80"/>ciali modo et proprio hominum, et hoc etiam
+          <lb ed="#P" n="81"/>declarant exempla quae adhibentur in lege 2,
+          <lb ed="#P" n="82"/>3 et 4, scilicet, religio in Deum, obedientia ad
+          <lb ed="#P" n="83"/>patres et patriam, vim atque injurium 
+          propul<lb break="no" ed="#P" n="84"/>sare. Unde ibidem significatur hominem 
+          homi<lb break="no" ed="#P" n="85"/>ni insidiari contra jus gentium esse. Adduntur
+          <lb ed="#P" n="86"/>praeterea enanumissiones et servitutes, item
+          <lb ed="#P" n="87"/>bella regnorum, dominiorum, rerumque divisio,
+          <lb ed="#P" n="88"/>commercia, aliique contractus venditionum, et
+          <lb ed="#P" n="89"/>alia hujusmodi. Et similiter in 8 4 Institution.
+          <lb ed="#P" n="90"/>de Jure natural. eadem exempla adhibentur,
+          <lb ed="#P" n="91"/>praeter religionem et pietatem ad parentes et
+          <lb ed="#P" n="92"/>patriam.
+        </p>
+        <p xml:id="szdleg-a40724-d1e359">
+          <lb ed="#P" n="93"/>4. Quocirca juxta hanc sententiam divisio
+          <lb ed="#P" n="94"/>illa juris seu legis in naturalem, gentium et
+          <lb ed="#P" n="95"/>civilem, ita debet ad duas bimembres reduci,
+          <lb ed="#P" n="96"/>ut prius lex dividatur in naturalem et civilem;
+          <lb ed="#P" n="97"/>deinde vero lex naturalis generatim 
+          subdistin<lb break="no" ed="#P" n="98"/>guatur in naturalem communem omnibus 
+          ani<lb break="no" ed="#P" n="99"/>mantibus, quae absolutam appellationem juris
+          <lb ed="#P" n="100"/>naturalis retinuit secundum quamdam 
+          accep<lb break="no" ed="#P" n="101"/>tionem, et legem naturalem propriam 
+          homi<lb break="no" ed="#P" n="102"/>num, quae juris gentium appellata est: et ratio
+          <lb ed="#P" n="103"/>talis subdivisionis esse potest, quia illae duae
+          <lb ed="#P" n="104"/>rationes vere sunt distinctae in re, et possunt
+          <lb ed="#P" n="105"/>habere diversas considerationes et effectus
+          <lb ed="#P" n="106"/>morales, et ideo congruum fuit illas 
+          distingue<lb break="no" ed="#P" n="107"/>re, et illis nomina propria imponere et 
+          accom<lb break="no" ed="#P" n="108"/>modare. Nec videtur posse melius illa nomina
+          <lb ed="#P" n="109"/>explicari. Et solvitur facile difficultas tacta,
+          <lb ed="#P" n="110"/>quia jam constat quomodo divisio illa adae-
+          <pb ed="#P" n="161"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quata sit ; sumpto tamen nomine juris 
+          natura<lb break="no" ed="#P" n="2"/>lis in generaliori significato. Nec videtur ab
+          <lb ed="#P" n="3"/>hac sententia recedere D. Thomas 1. 2, q. 95,
+          <lb ed="#P" n="4"/>art. 4, ad 1, et latius 2. 2, q. 7, art. 4, ubi
+          <lb ed="#P" n="5"/>hos duos modos juris naturalis agnoscit, eisque
+          <lb ed="#P" n="6"/>illas voces accommodat. Atque ita illum 
+          inter<lb break="no" ed="#P" n="7"/>pretatur Conrad. dicta q. 95, art. 2 et 4, ubi
+          <lb ed="#P" n="8"/>ita exponit juristarum opinionem et dicit 
+          di<lb break="no" ed="#P" n="9"/>vum Thomam locutum fuisse more illorum,
+          <lb ed="#P" n="10"/>licet philosophi aliter loquantur.
+        </p>
+        <p xml:id="szdleg-a40724-d1e427">
+          <lb ed="#P" n="11"/>5. Auctores improbantes juristarum 
+          opinio<lb break="no" ed="#P" n="12"/>nem.— lesponsio pro juristis ad instantiam.—
+          <lb ed="#P" n="13"/>Hanc vero interpretationem jurisconsultorum
+          <lb ed="#P" n="14"/>reprehendit Laurentius Valla libro quarto 
+          Ele<lb break="no" ed="#P" n="15"/>gantiar., cap. 48; Conan. etiam, in 
+          Commen<lb break="no" ed="#P" n="16"/>tar. jur. civil., lib. 1, cap. 6, illam 
+          subdivi<lb break="no" ed="#P" n="17"/>sionem juris naturalis rejicit, et consequenter
+          <lb ed="#P" n="18"/>putat non distingui jus gentium a jure 
+          natura<lb break="no" ed="#P" n="19"/>li, ideoque nec Aristotelem nec alios antiquos
+          <lb ed="#P" n="20"/>philosophos illud distinxisse aut cognovisse.
+          <lb ed="#P" n="21"/>Soto etiam lib. 3 de Justitia, q. 1, art. 3, 
+          expo<lb break="no" ed="#P" n="22"/>sitionem jurisconsultorum rejicit. Et primo
+          <lb ed="#P" n="23"/>fundantur quia nullum est jus naturale 
+          com<lb break="no" ed="#P" n="24"/>mune hominibus etaliis animalibus, quia bruta
+          <lb ed="#P" n="25"/>animalia non sunt capacia propriae 
+          obedien<lb break="no" ed="#P" n="26"/>tiae, aut justitiae, vel injuriae. Ad hoc vero
+          <lb ed="#P" n="27"/>respondent Albertus lib. 5 Ethicorum, c. 7,
+          <lb ed="#P" n="28"/>Turrecremata et Covarrus locis infra citandis,
+          <lb ed="#P" n="29"/>jus naturale dici commune brutis non 
+          forma<lb break="no" ed="#P" n="30"/>liter quoad rationem juris et legis, sed 
+          mate<lb break="no" ed="#P" n="31"/>rialiter quoad opera quae sub tale jus cadunt:
+          <lb ed="#P" n="32"/>nam illa communia sunt hominibus cum 
+          bru<lb break="no" ed="#P" n="33"/>tis, ut patet in exemplis positis in jure de
+          <lb ed="#P" n="34"/>conjunctione maris et feminae, procreatione
+          <lb ed="#P" n="35"/>filiorum, etc. Sed contra hoc est, quia illa
+          <lb ed="#P" n="36"/>communitas cum brutis in materiali opere
+          <lb ed="#P" n="37"/>nihil refert ad distinctionem juris vellegis;
+          <lb ed="#P" n="38"/>ergo est impertinens et sine arte illa divisio
+          <lb ed="#P" n="39"/>in illo sensu et propter illam solam causam.
+          <lb ed="#P" n="40"/>Sed respondere possunt illam materialem 
+          con<lb break="no" ed="#P" n="41"/>venientiam deservire ad explicandam in 
+          ho<lb break="no" ed="#P" n="42"/>mine diversam rationem naturalitatis juris (ut
+          <lb ed="#P" n="43"/>sic dicam). Nam lex naturalis generatim 
+          sump<lb break="no" ed="#P" n="44"/>ta in dictamine rationis naturalis consistit :
+          <lb ed="#P" n="45"/>hoc autem dictamen interdum est ex 
+          inclina<lb break="no" ed="#P" n="46"/>tione generis, seu naturae sensitivae ut sic:
+          <lb ed="#P" n="47"/>interdum vero ex propria inclinatione naturae
+          <lb ed="#P" n="48"/>rationalis, ut talis est, et secundum has duas
+          <lb ed="#P" n="49"/>rationes distinguitur jus naturale tanquam
+          <lb ed="#P" n="50"/>commune brutis, ex parte scilicet 
+          inclinatio<lb break="no" ed="#P" n="51"/>nis in qua fundatur.
+        </p>
+        <p xml:id="szdleg-a40724-d1e518">
+          <lb ed="#P" n="52"/>6 Verumtamen etiam hoc modo non satisfit
+          <lb ed="#P" n="53"/>difficultati. Primo, quiajuxta hanc 
+          dceclaratio<lb break="no" ed="#P" n="54"/>nem vim vi repellere non sub jure gentium
+          <lb ed="#P" n="55"/>sed sub jure naturali constituendum esset,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quod in illis legibus non fit. Probatur sequela,
+          <lb ed="#P" n="57"/>quia illa actio communis est brutis animalibus,
+          <lb ed="#P" n="58"/>et ex generali inclinatione ad propriam 
+          con<lb break="no" ed="#P" n="59"/>servationem provenit. Nam sicut generatio
+          <lb ed="#P" n="60"/>provenit ex inclinatione naturali ad 
+          conser<lb break="no" ed="#P" n="61"/>vandam speciem, ita propria defensio est ex
+          <lb ed="#P" n="62"/>innata inclinatione ad conservandam propriam
+          <lb ed="#P" n="63"/>vitam, et proprium esse: utraque autem 
+          incli<lb break="no" ed="#P" n="64"/>natio communis est homini cum aliis 
+          anima<lb break="no" ed="#P" n="65"/>libus; ergo immerito ponitur haec actio sub
+          <lb ed="#P" n="66"/>jure gentium. Secundo falsum esse videtur
+          <lb ed="#P" n="67"/>jus naturale, ut habet propriam rationem 
+          le<lb break="no" ed="#P" n="68"/>gis, fundari in ratione naturae sensitivae, ut
+          <lb ed="#P" n="69"/>communis est brutis animalibus : nam semper
+          <lb ed="#P" n="70"/>considerari debet ut elevata ad superiorem
+          <lb ed="#P" n="71"/>gradum per differentiam rationalem ; quia lex
+          <lb ed="#P" n="72"/>naturalis non regulatur per convenientiam ad
+          <lb ed="#P" n="73"/>naturam sensitivam, sed ad rationalem : 
+          sen<lb break="no" ed="#P" n="74"/>sitivam autem respicit solum ut contractam,
+          <lb ed="#P" n="75"/>et speciali modo perfectam per differentiam
+          <lb ed="#P" n="76"/>rationalem : ergo illa convenientia generica
+          <lb ed="#P" n="77"/>impertinens est ad distinguendam legem 
+          na<lb break="no" ed="#P" n="78"/>turae. Consequentia videtur clara, et 
+          antece<lb break="no" ed="#P" n="79"/>dens probatur: tum, quia, quando lex naturae
+          <lb ed="#P" n="80"/>aliquid praecipit in ordine ad conservandam
+          <lb ed="#P" n="81"/>naturam sensitivam, semper involvit modum
+          <lb ed="#P" n="82"/>rationalem, et ita dictat de conjunctione maris
+          <lb ed="#P" n="83"/>et feminae multo aliter quam instinctus 
+          na<lb break="no" ed="#P" n="84"/>turalis brutorum, ut constat de matrimonio,
+          <lb ed="#P" n="85"/>et idem cum proportione est de educatione 
+          fi<lb break="no" ed="#P" n="86"/>liorum, et deconservatione propriae vitae, et 
+          si<lb break="no" ed="#P" n="87"/>milibus: tum etiam, quia in eodem opere 
+          ma<lb break="no" ed="#P" n="88"/>terialiter communi brutis, multa prohibet lex
+          <lb ed="#P" n="89"/>naturalis in homine a quibus bruta non 
+          ar<lb break="no" ed="#P" n="90"/>centur per naturalem instinctum, ut prohibet
+          <lb ed="#P" n="91"/>lex naturalis vagum concubitum, seu 
+          fornica<lb break="no" ed="#P" n="92"/>tionem simplicem, et conjunctionem cum 
+          ma<lb break="no" ed="#P" n="93"/>tre vel sorore, quae privationes non sunt 
+          com<lb break="no" ed="#P" n="94"/>munes brutis. Unde etiam novum seu tertium
+          <lb ed="#P" n="95"/>argumentum insurgit : nam sequitur ex illa
+          <lb ed="#P" n="96"/>sententia haec praecepta negativa esse juris
+          <lb ed="#P" n="97"/>gentium, et non naturalia, quod valde 
+          absur<lb break="no" ed="#P" n="98"/>dum est. Et patet sequela, quia sunt ita propria
+          <lb ed="#P" n="99"/>hominum ut non possint dici brutis 
+          commu<lb break="no" ed="#P" n="100"/>nia: nam, licet illud opus sit suo modo 
+          com<lb break="no" ed="#P" n="101"/>mune brutis, tamen omissio operis non est
+          <lb ed="#P" n="102"/>communis, et haec est propria materia talis
+          <lb ed="#P" n="103"/>legis. Hoc vero argumentum evidentius 
+          os<lb break="no" ed="#P" n="104"/>tenditur in praeceptis colendi Deum, 
+          honoren<lb break="no" ed="#P" n="105"/>di parentes et proximum. Nam absurdum est
+          <lb ed="#P" n="106"/>negare haec esse simpliciter de jure naturali,
+          <lb ed="#P" n="107"/>sed tantum de jure gentium : idemque est de
+          <lb ed="#P" n="108"/>praecepto restituendi alienum, vel reddendi
+          <lb ed="#P" n="109"/>depositum, vel servandi fidelitatem, dicendi
+          <lb ed="#P" n="110"/>veritatem, et similibus, quae sunt propria ho-
+          <pb ed="#P" n="162"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>minum, et non communia cum brutis etiam
+          <lb ed="#P" n="2"/>materialiter, et tamen ad naturale jus maxime
+          <lb ed="#P" n="3"/>pertinent.
+        </p>
+        <p xml:id="szdleg-a40724-d1e661">
+          <lb ed="#P" n="4"/>1. Ad haec vero responderi potest juxta
+          <lb ed="#P" n="5"/>civilia jura jus gentium re vera esse jus 
+          natu<lb break="no" ed="#P" n="6"/>rale. et ita saepe in jure civili vocari, ut patet
+          <lb ed="#P" n="7"/>in leg. Bona fides, tt. Depositi, et S Et quidem,
+          <lb ed="#P" n="8"/>et S Singulorum, Instit. de Rerum divisione,
+          <lb ed="#P" n="9"/>et S penult. Instit. de Jure natur. Quapropter
+          <lb ed="#P" n="10"/>non erit absurdum in hoc sensu vocare 
+          prae<lb break="no" ed="#P" n="11"/>cepta commemorata, imo et omnia Decalogi
+          <lb ed="#P" n="12"/>de jure gentium, quia per hoc non negatur
+          <lb ed="#P" n="13"/>esse de proprio et stricto jure naturali, sed 
+          in<lb break="no" ed="#P" n="14"/>dicatur peculiaris modus, et quasi proprietas
+          <lb ed="#P" n="15"/>talis juris respectu humanae naturae, et ita
+          <lb ed="#P" n="16"/>contentio tota versabitur circa solum usum
+          <lb ed="#P" n="17"/>vocis, vel necessitatem, aut utilitatem illius
+          <lb ed="#P" n="18"/>distinctionis in illo sensu. Sed lieet hoc aliqua
+          <lb ed="#P" n="19"/>ex parte ita sit, nihilominus secunda ratio
+          <lb ed="#P" n="20"/>facta retinet suam vim et ostendit improprie
+          <lb ed="#P" n="21"/>valde dici dari jus naturale commune brutis.
+          <lb ed="#P" n="22"/>Et praeterea (ne contentio sit de vocabulo)
+          <lb ed="#P" n="23"/>simpliciter dicendum erit juxta illam 
+          senten<lb break="no" ed="#P" n="24"/>tiam jus gentium esse intrinsece et 
+          essentiali<lb break="no" ed="#P" n="25"/>ter jus naturale, seu partem ejus. Hoc autem
+          <lb ed="#P" n="26"/>ad omnia quae de jure gentium adducuntur
+          <lb ed="#P" n="27"/>accommodari non potest ; quia quaedam 
+          con<lb break="no" ed="#P" n="28"/>tinent materiam non solum necessariam, sed
+          <lb ed="#P" n="29"/>etiam communem brutis, ut monstrant 
+          argu<lb break="no" ed="#P" n="30"/>menta facta ; alia non solum versantur in 
+          ma<lb break="no" ed="#P" n="31"/>teria propria hominum, sed etiam non 
+          conti<lb break="no" ed="#P" n="32"/>nent intrinsecam necessitatem, ut ex 
+          sequen<lb break="no" ed="#P" n="33"/>tibus constabit.
+        </p>
+        <p xml:id="szdleg-a40724-d1e729">
+          <lb ed="#P" n="34"/>2. Excluditur etiam secunda opinio 
+          distin<lb break="no" ed="#P" n="35"/>guens jus gentium a naturali, quod naturale
+          <lb ed="#P" n="36"/>sine discursu vel facillimo innotescit, alterum e
+          <lb ed="#P" n="37"/>coutra. — Quapropter etiam non placet modus
+          <lb ed="#P" n="38"/>loquendi aliquorum theologorum qui sentiunt
+          <lb ed="#P" n="39"/>jus gentium habere intrinsecam necessitatem
+          <lb ed="#P" n="40"/>in suis praeceptis ; solumque differre a 
+          natu<lb break="no" ed="#P" n="41"/>rali, quia jus naturale sine discursu vel 
+          facil<lb break="no" ed="#P" n="42"/>limo discursu innotescit: jus autem gentium
+          <lb ed="#P" n="43"/>per plures illationes et difficiliores colligitur.
+          <lb ed="#P" n="44"/>Quod potest sumi ex Soto, libro 1, q. 5, art. 4,
+          <lb ed="#P" n="45"/>et indicant aliqui moderni Thomistae, ita 
+          in<lb break="no" ed="#P" n="46"/>telligentes D. Thomam, quem infra 
+          interpre<lb break="no" ed="#P" n="47"/>tabimur. Nobis igitur haec etiam sententia non
+          <lb ed="#P" n="48"/>placet, primo, quia multa dicuntur esse de
+          <lb ed="#P" n="49"/>jure gentium quae non habent illam 
+          intrinse<lb break="no" ed="#P" n="50"/>cam necessitatem, ut divisio rerum, servitus,
+          <lb ed="#P" n="51"/>et alia quae infra videbimus. Secundo ac 
+          prae<lb break="no" ed="#P" n="52"/>cipue, quia jus gentium nec circa prima 
+          prin<lb break="no" ed="#P" n="53"/>cipla moralia, nec circa conclusiones quae ex
+          <lb ed="#P" n="54"/>illis necessario inferuntur versari potest, quia
+          <lb ed="#P" n="55"/>omnia illa sub proprio jure naturali compre-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>henduntur, ut cap. 7 probatum est. Et 
+          confir<lb break="no" ed="#P" n="57"/>matur, nam omnia praecepta quae a Deo sunt
+          <lb ed="#P" n="58"/>in cordibus hominum scripta pertinent ad jus
+          <lb ed="#P" n="59"/>naturale, ut sumitur ex Paulo ad Roman. 2;
+          <lb ed="#P" n="60"/>sed omnia illa quae evidenti ratione 
+          deducun<lb break="no" ed="#P" n="61"/>tur ex principiis naturae sunt scripta in 
+          cordi<lb break="no" ed="#P" n="62"/>bus; ergo omnia pertinent ad jus naturae. Et
+          <lb ed="#P" n="63"/>e converso, praecepta juris gentium ab 
+          homi<lb break="no" ed="#P" n="64"/>nibus introducta sunt per arbitrium et 
+          con<lb break="no" ed="#P" n="65"/>sensum illorum, sive in tota hominum 
+          com<lb break="no" ed="#P" n="66"/>munitate, sive in majori parte; ergo non
+          <lb ed="#P" n="67"/>possunt dici scripta in cordibus hominum ab
+          <lb ed="#P" n="68"/>auctore naturae; ergo sunt juris humani et
+          <lb ed="#P" n="69"/>non naturalis. Quod si de aliquibus praeceptis
+          <lb ed="#P" n="70"/>juris gentium hoc necessario fatendum est, ut
+          <lb ed="#P" n="71"/>ostendemus, non oportet jus gentium cum 
+          na<lb break="no" ed="#P" n="72"/>turali confundere, nec propter solas illationes
+          <lb ed="#P" n="73"/>etiam plures ita vocare jus illud quod 
+          simpli<lb break="no" ed="#P" n="74"/>citer naturale est : nam discursus non excludit
+          <lb ed="#P" n="75"/>veram et naturalem necessitatem praecepti sic
+          <lb ed="#P" n="76"/>cogniti, et quod discursus sit per plures vel
+          <lb ed="#P" n="77"/>pauciores illationes magis vel minus notas,
+          <lb ed="#P" n="78"/>valde accidentarium est.
+        </p>
+        <p xml:id="szdleg-a40724-d1e832">
+          <lb ed="#P" n="79"/>9. Tertia opinio distinguens jus naturale in
+          <lb ed="#P" n="80"/>eo quod obliget sine dependentia a potestate
+          <lb ed="#P" n="81"/>Inunana, e contra vero jus gentium. — 
+          Eaclu<lb break="no" ed="#P" n="82"/>ditur dicta opinatio. — Dicunt vero aliqui jus
+          <lb ed="#P" n="83"/>naturale comprehendere conclusiones ita 
+          ne<lb break="no" ed="#P" n="84"/>cessarias, ut nulla facta suppositione societatis
+          <lb ed="#P" n="85"/>humanae vel dependentis a voluntate humana,
+          <lb ed="#P" n="86"/>sequatur ex principiis naturae evidenter, et
+          <lb ed="#P" n="87"/>has non spectare ad jus gentium: esse vero
+          <lb ed="#P" n="88"/>alias conclusiones quae sequuntur etiam ex
+          <lb ed="#P" n="89"/>principiis naturae necessario, tamen non 
+          abso<lb break="no" ed="#P" n="90"/>lute, sed supposita humana societate, et 
+          con<lb break="no" ed="#P" n="91"/>sideratis aliquibus circumstantiis necessariis
+          <lb ed="#P" n="92"/>ad ipsius conservationem, et praecepta quae
+          <lb ed="#P" n="93"/>circa hujusmodi conclusiones versantur 
+          con<lb break="no" ed="#P" n="94"/>stituere jus gentium. Quod videtur posse sumi
+          <lb ed="#P" n="95"/>ex divo Thoma in 2. 2, loco allegato. Sed per
+          <lb ed="#P" n="96"/>hoc etiam non explicatur vera et propria 
+          ra<lb break="no" ed="#P" n="97"/>tio, et distinctio juris gentium a naturali. Nam
+          <lb ed="#P" n="98"/>multa sunt de jure naturali, quae non obligant
+          <lb ed="#P" n="99"/>nec locum habent nisi aliqua suppositione
+          <lb ed="#P" n="100"/>facta, ut praeceptum non furandi non habet
+          <lb ed="#P" n="101"/>locum nisi facta divisione bonorum et 
+          domi<lb break="no" ed="#P" n="102"/>niorum. Praeceptum item parendi dominis non
+          <lb ed="#P" n="103"/>habet locum nisi supposita servitute : justitia
+          <lb ed="#P" n="104"/>etiam contractuum non habet locum nisi ex
+          <lb ed="#P" n="105"/>suppositione commercii humani. Et ita sunt
+          <lb ed="#P" n="106"/>plura alia quae manifeste pertinent ad jus 
+          na<lb break="no" ed="#P" n="107"/>turale : nam ita sunt per se honesta, ut 
+          contra<lb break="no" ed="#P" n="108"/>ria prohibeantur quia mala, et non e 
+          contra<lb break="no" ed="#P" n="109"/>rio : ratio etiam reddi potest, quia quod
+          <lb ed="#P" n="110"/>conclusio sequatur ex principiis naturae ex
+          <pb ed="#P" n="163"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>suppositione talis vel talis materiae, aut status
+          <lb ed="#P" n="2"/>hominum, non variat modum legis, quae 
+          sub<lb break="no" ed="#P" n="3"/>sistit ex intrinseca rei natura, et non ex 
+          vo<lb break="no" ed="#P" n="4"/>luntate humana, sed denotat solum distinctam
+          <lb ed="#P" n="5"/>materiam legis ; verbi gratia, lex reddendi
+          <lb ed="#P" n="6"/>promissum et servandi fidelitatem Deo vel 
+          ho<lb break="no" ed="#P" n="7"/>mini naturalis est , et tamen non habet locum
+          <lb ed="#P" n="8"/>nisi ex suppositione promissionis: sic etiam
+          <lb ed="#P" n="9"/>in materia de simonia dicitur, vendere rem
+          <lb ed="#P" n="10"/>consecratam ab hominibus contra jus naturale
+          <lb ed="#P" n="11"/>esse, licet supponat consecrationem humano
+          <lb ed="#P" n="12"/>jure introductam. Ergo, licet conclusio 
+          sequa<lb break="no" ed="#P" n="13"/>tur ex suppositione, se tenente tantum ex
+          <lb ed="#P" n="14"/>parte materiae praecepti, si illatio est evidens
+          <lb ed="#P" n="15"/>ex principiis per se notis, talis conclusio ad
+          <lb ed="#P" n="16"/>jus naturae pertinet, non ad jus gentium. Ergo
+          <lb ed="#P" n="17"/>ut jus gentium a naturali distinguatur, necesse
+          <lb ed="#P" n="18"/>est ut, etiam supposita tali materia, non 
+          se<lb break="no" ed="#P" n="19"/>quatur per evidentem consequentiam, sed per
+          <lb ed="#P" n="20"/>aliquam minus certam, ita ut arbitrium 
+          hu<lb break="no" ed="#P" n="21"/>manum et moralis commoditas potius quam
+          <lb ed="#P" n="22"/>necessitas intercedat. Concludendum igitur
+          <lb ed="#P" n="23"/>censeo jus gentium non praecipere aliquid 
+          tan<lb break="no" ed="#P" n="24"/>quam ex se necessarium ad honestatem, nec
+          <lb ed="#P" n="25"/>prohibere aliquid quod per se et intrinsece
+          <lb ed="#P" n="26"/>malum est, vel absolute, vel supposito tali
+          <lb ed="#P" n="27"/>statu et conditione rerum, sed haec omnia 
+          per<lb break="no" ed="#P" n="28"/>tinere ad jus naturale, ac subinde in hoc sensu
+          <lb ed="#P" n="29"/>jus gentium non comprehendi sub jure 
+          natu<lb break="no" ed="#P" n="30"/>rali: nec etiam ab illo differre quia sit 
+          pro<lb break="no" ed="#P" n="31"/>prium hominum: nam hoc etiam juri 
+          natu<lb break="no" ed="#P" n="32"/>rali convenit, vel majori ex parte, vel etiam
+          <lb ed="#P" n="33"/>omnino, si de jure et lege proprie 
+          loquen<lb break="no" ed="#P" n="34"/>dum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

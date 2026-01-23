@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 14</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 14</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="478"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-b21054"><!-- deleg-l5c14 -->
+        <head xml:id="szdleg-b21054-Hd1e101">Caput 14</head>
+        <head xml:id="szdleg-b21054-Hd1e103" type="question-title">De potestate necessaria ut lex tributum imponens iusta sit</head>
+        <p xml:id="szdleg-b21054-d1e106">
+          <lb ed="#P" n="101"/>CAPUT XIV.
+          <lb ed="#P" n="102"/>DE POTESTATE NECESSARIA UT LEX TRIBUTUM
+          <lb ed="#P" n="103"/>IMPONENS JUSTA SIT.
+        </p>
+        <p xml:id="szdleg-b21054-d1e115">
+          <lb ed="#P" n="104"/>1. Quoniam obligatio legis ex illius justitia
+          <lb ed="#P" n="105"/>maxime pendet, et justitia iributorum multas
+          <lb ed="#P" n="106"/>conditiones requirit, ideo illas explicare 
+          neces<lb break="no" ed="#P" n="107"/>sarium est, quod discurrendo per causas 
+          tri<lb break="no" ed="#P" n="108"/>butorum optime fiet. Quod ergo ad efficientem
+          <pb ed="#P" n="479"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>spectat, certum est necessariam esse potestatem
+          <lb ed="#P" n="2"/>ad imponendum tributum in eo qui hujusmodi
+          <lb ed="#P" n="3"/>legem statuit, alioqui non erit justa, sed 
+          ty<lb break="no" ed="#P" n="4"/>rannica. Conclusio est clara, quia ubi deest
+          <lb ed="#P" n="5"/>potestas, actus non potest esse validus, nedum
+          <lb ed="#P" n="6"/>justus. Item quia superior non potest 
+          praeci<lb break="no" ed="#P" n="7"/>pere, nec inferior tenetur obedire: haec enim
+          <lb ed="#P" n="8"/>correlativa sunt; denique, quia prima conditio
+          <lb ed="#P" n="9"/>necessaria ad justitiam legis est potestas 
+          fe<lb break="no" ed="#P" n="10"/>rendi illam, ut supra visum est: ergo eadem
+          <lb ed="#P" n="11"/>requiritur cum proportione in lege imponente
+          <lb ed="#P" n="12"/>tributum. Imo hic considerandum est non 
+          orn<lb break="no" ed="#P" n="13"/>nem potestatem quae sufficit ad condendam
+          <lb ed="#P" n="14"/>legem in aliis materiis, sufficere ad imponenda
+          <lb ed="#P" n="15"/>tributa ; nam leges potest interdum condere
+          <lb ed="#P" n="16"/>| princeps non supremus, aut civitas, aut 
+          magi<lb break="no" ed="#P" n="17"/>stratus juxta sui muneris institutionem; 
+          tri<lb break="no" ed="#P" n="18"/>butum autem imponere non potest, nisi 
+          supre<lb break="no" ed="#P" n="19"/>| mus princeps non recognoscens superiorem in
+          <lb ed="#P" n="20"/>suo ordine, ut ex dicendis constabit; et ideo
+          <lb ed="#P" n="21"/>specialiter requiritur haec conditio in legibus
+          <lb ed="#P" n="22"/>tributorum, praeter conditionem omnibus 
+          le<lb break="no" ed="#P" n="23"/>gibus generalem.
+        </p>
+        <p xml:id="szdleg-b21054-d1e183">
+          <lb ed="#P" n="24"/>2. Tributum non potest unponere nist 
+          prin<lb break="no" ed="#P" n="25"/>ceps supremus non recognoscens superiorem in
+          <lb ed="#P" n="26"/>stuo ordine.—eStatim vero occurrit inquirendum
+          <lb ed="#P" n="27"/>quinam habeant in republica hanc potestatem.
+          <lb ed="#P" n="28"/>hespondeo, quod attinet ad leges civiles, 
+          pri<lb break="no" ed="#P" n="29"/>mum omnium esse hanc potestatem in 
+          impe<lb break="no" ed="#P" n="30"/>ratore, 1. 1 et 2, C. Nova vectigalia institui
+          <lb ed="#P" n="31"/>non posse, ubi in lege secunda additur, 
+          civi<lb break="no" ed="#P" n="32"/>tates non habere hanc potestatem, et idem
+          <lb ed="#P" n="33"/>habetur in l. vectigalia, ft. de publican. et 
+          vec<lb break="no" ed="#P" n="34"/>tigal. Intelligendum autem est nunc durare
+          <lb ed="#P" n="35"/>hanc potestatem in imperatore in terris imperii
+          <lb ed="#P" n="36"/>in quibus supremam potestatem retinet, non
+          <lb ed="#P" n="37"/>tamen in aliis regnis, seu provinciis in quibus
+          <lb ed="#P" n="38"/>jam illam amisit, juxta dicta in libro 
+          praece<lb break="no" ed="#P" n="39"/>denti. Unde consequenter addendum est 
+          se<lb break="no" ed="#P" n="40"/>cundo hanc potestatem esse in regibus, qui in
+          <lb ed="#P" n="41"/>suprema potestate aequiparantur 
+          imperatori<lb break="no" ed="#P" n="42"/>bus, ut supra dictum est, et ita habetur etiam
+          <lb ed="#P" n="43"/>in legibus horum regnorum, et utrumque 
+          di<lb break="no" ed="#P" n="44"/>citur in cap. Super quibusdam, de Verb. 
+          signi<lb break="no" ed="#P" n="45"/>ficat., licet Hostiens. ibi id neget, et per reges
+          <lb ed="#P" n="46"/>exponat regem HRomanorum, contra vim 
+          ver<lb break="no" ed="#P" n="47"/>borum, et contra Glossam, et sine ullo 
+          funda<lb break="no" ed="#P" n="48"/>mento; imo ulterius extendi hoc debet ad 
+          prin<lb break="no" ed="#P" n="49"/>cipes, ut habetur in cap. Innovamus, de 
+          Cen<lb break="no" ed="#P" n="50"/>sib.; et sentit Glos. ibi, in d. l. Vectigalia, et
+          <lb ed="#P" n="51"/>in cap. S quis Romipetas, 2, q. 3. Intelligi
+          <lb ed="#P" n="52"/>autem debet de his principibus qui, licet reges
+          <lb ed="#P" n="53"/>non appellantur, tamen habent supremam 
+          ju<lb break="no" ed="#P" n="54"/>risdictionem in temporalibus. Et sic est facilis
+          <lb ed="#P" n="55"/>ratio, quia ad ponendum tributum magis at-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tenditur jurisdictio quam nomen, vel alia 
+          di<lb break="no" ed="#P" n="57"/>gnitatis conditio; item, quia hi principes 
+          pos<lb break="no" ed="#P" n="58"/>sunt indicere bellum, et administrare 
+          rempubli<lb break="no" ed="#P" n="59"/>cam independenter ab alio superiori temporali;
+          <lb ed="#P" n="60"/>sed ad hoc sunt necessaria tributa. Quarto,
+          <lb ed="#P" n="61"/>vero addimus reliquos omnes qui recognoscunt
+          <lb ed="#P" n="62"/>superiorem in temporalibus non posse tributa
+          <lb ed="#P" n="63"/>imponere, ut ex eisdem legibus colligitur, et
+          <lb ed="#P" n="64"/>docent Deci., cons. 534, et Rebuffus in 
+          expo<lb break="no" ed="#P" n="65"/>sitione Bullae Coenae, art. 3; et ratio esse 
+          vi<lb break="no" ed="#P" n="66"/>detur, quia potestas agentis debet esse 
+          pro<lb break="no" ed="#P" n="67"/>portionata fini; finis autem tributorum est
+          <lb ed="#P" n="68"/>commune bonum reipublicae, et ideo potestas
+          <lb ed="#P" n="69"/>imperandi illa ei tantum data est, qui 
+          supre<lb break="no" ed="#P" n="70"/>mam curam habet totius reipublicae. Item haec
+          <lb ed="#P" n="71"/>potestas per se primo et ex natura rei erat in
+          <lb ed="#P" n="72"/>republica, unde illae respublicae , quae nunc
+          <lb ed="#P" n="73"/>sunt supremae, illam potestatem in se retinent,
+          <lb ed="#P" n="74"/>quia inter reges et principes connumerantur :
+          <lb ed="#P" n="75"/>ergo ubi respublica transtulit suam potestatem
+          <lb ed="#P" n="76"/>in principem, solum invenitur haec potestas in
+          <lb ed="#P" n="77"/>illo principe, qui supremam reipublicae 
+          potes<lb break="no" ed="#P" n="78"/>tatem habet.
+        </p>
+        <p xml:id="szdleg-b21054-d1e308">
+          <lb ed="#P" n="79"/>3. Nisi sit opus ad spiritualem finem, non
+          <lb ed="#P" n="80"/>posse Papam imponere tributa terris non suis
+          <lb ed="#P" n="81"/>temporaliter , sicut nec concilium ullum.— Sed
+          <lb ed="#P" n="82"/>quaeret aliquis an Pontifex, vel concilium, vel
+          <lb ed="#P" n="83"/>alia potestas ecclesiastica habeat hoc jus. 
+          Ali<lb break="no" ed="#P" n="84"/>qui enim dicunt concilium generale habere
+          <lb ed="#P" n="85"/>hanc potestatem quia potest eam alii 
+          concede<lb break="no" ed="#P" n="86"/>re, ut significatur in c. Super quibusdam, S
+          <lb ed="#P" n="87"/>Preeterea, deVerborum significat. Respondetur
+          <lb ed="#P" n="88"/>tamen Pontificem, quatenus temporalis 
+          prin<lb break="no" ed="#P" n="89"/>ceps est, posse in suis terris imponere tributa,
+          <lb ed="#P" n="90"/>quia revera ibi est supremus in temporalibus
+          <lb ed="#P" n="91"/>per directum dominium et potestatem. In aliis
+          <lb ed="#P" n="92"/>vero regnis, sicut non habet dominium vel
+          <lb ed="#P" n="93"/>temporalem jurisdictionem directe, ita nec 
+          po<lb break="no" ed="#P" n="94"/>test per se et directe imponere temporalia 
+          tri<lb break="no" ed="#P" n="95"/>buta, quia hic est actus illius potestatis. Quod
+          <lb ed="#P" n="96"/>a fortiori verum est de quocumque inferiori
+          <lb ed="#P" n="97"/>Praelato ecclesiastico, vel concilio etiam 
+          gene<lb break="no" ed="#P" n="98"/>rali, cujus potestas ex Pontifice maxime 
+          pen<lb break="no" ed="#P" n="99"/>det. Nihilominus tamen, si ad spiritualem 
+          fi<lb break="no" ed="#P" n="100"/>nem sit necessarium, ut ad defendendam 
+          Ec<lb break="no" ed="#P" n="101"/>clesiam ab infidelibus vel haereticis , potest
+          <lb ed="#P" n="102"/>summus Pontifex imponere temporalia tributa,
+          <lb ed="#P" n="103"/>quia sub ea ratione habet supremam 
+          potesta<lb break="no" ed="#P" n="104"/>tem etiam in temporalibus. Potest autem 
+          direc<lb break="no" ed="#P" n="105"/>te summus Pontifex propter eumdem finem,
+          <lb ed="#P" n="106"/>vel in subsidium sibi necessarium tributa 
+          im<lb break="no" ed="#P" n="107"/>ponere super Ecclesiae bona, sicut tractando de
+          <lb ed="#P" n="108"/>Decimis diximus posse partem decimarum sibi
+          <lb ed="#P" n="109"/>reservare, quia in illo ordine per se et directe
+          <lb ed="#P" n="110"/>est supremus princeps totius Ecclesiae, et supre-
+          <pb ed="#P" n="480"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mus dispensator bonorum ejus, et ideo 
+          supre<lb break="no" ed="#P" n="2"/>mam etiam in hoc habet potestatem Aliqui
+          <lb ed="#P" n="3"/>vero Episcopi hoc non possunt, cap. 
+          Prohibe<lb break="no" ed="#P" n="4"/>mis, de Censib. Concilium autem etiam 
+          gene<lb break="no" ed="#P" n="5"/>rale in tantum id poterit, in quantum fuerit a
+          <lb ed="#P" n="6"/>Pontifice concessum, vel approbatum. Potest
+          <lb ed="#P" n="7"/>praeterea Ecclesia declarare qui principes 
+          tem<lb break="no" ed="#P" n="8"/>porales possunt imponere tributa, et prohibere
+          <lb ed="#P" n="9"/>ne alii imponant, ut fecit Concilium Lateran.
+          <lb ed="#P" n="10"/>in dicto cap. unovamus, et ita etiam 
+          intelligi<lb break="no" ed="#P" n="11"/>tur dictum cap. Super quibusdam. Et singulis
+          <lb ed="#P" n="12"/>annis sub gravissima censura fit similis 
+          prohi<lb break="no" ed="#P" n="13"/>bitio in Bulla Coenae.
+        </p>
+        <p xml:id="szdleg-b21054-d1e412">
+          <lb ed="#P" n="14"/>4. Illa tributa etiam esse justa de quibus non
+          <lb ed="#P" n="15"/>constat a quibus sint imposita.—bAdditur vero,
+          <lb ed="#P" n="16"/>in dicto cap. Super quibusdam, non solum
+          <lb ed="#P" n="17"/>illa esse justa tributa de quibus constat esse
+          <lb ed="#P" n="18"/>imposita a regibus vel principibus supremis,
+          <lb ed="#P" n="19"/>sed etiam illa de quibus non constat a quo 
+          im<lb break="no" ed="#P" n="20"/>posita sint, dummodo ez consuetudine, de cujus
+          <lb ed="#P" n="21"/>initio non extat memoria, sint introducta. 
+          Cu<lb break="no" ed="#P" n="22"/>jus ratio est, quia, ubi nec constat nec constare
+          <lb ed="#P" n="23"/>potest de injustitia, secundum jus praesumitur
+          <lb ed="#P" n="24"/>justitia ; in hujusmodi autem casu constare
+          <lb ed="#P" n="25"/>non potest tale tributum sine legitima 
+          potes<lb break="no" ed="#P" n="26"/>tate esse impositum ; imo, cum adeo 
+          praeva<lb break="no" ed="#P" n="27"/>luerit ut per longissimum tempus a tota 
+          com<lb break="no" ed="#P" n="28"/>munitate solutum sit, praesumitur juste 
+          in<lb break="no" ed="#P" n="29"/>cepisse. Item , quia praescriptio praesertim
+          <lb ed="#P" n="30"/>immemorialis dat jus sufficiens: illa autem
+          <lb ed="#P" n="31"/>consuetudo inducit praescriptionem, et ideo
+          <lb ed="#P" n="32"/>diximus requiri bonam fidem, quia in omni
+          <lb ed="#P" n="33"/>praescriptione necessaria est.
+        </p>
+        <p xml:id="szdleg-b21054-d1e458">
+          <lb ed="#P" n="34"/>5. Occurrit autem hic grave dubium, an
+          <lb ed="#P" n="35"/>idem dicendum sit de potestate imponendi
+          <lb ed="#P" n="36"/>novum tributum, ex immemoriali 
+          consuetu<lb break="no" ed="#P" n="37"/>tudine, etiamsi is qui illud imponit non sit
+          <lb ed="#P" n="38"/>supremus in temporalibus. Est enim attente
+          <lb ed="#P" n="39"/>considerandum haec duo esse valde distincta,
+          <lb ed="#P" n="40"/>imponere tributum vel exigere jam impositum;
+          <lb ed="#P" n="41"/>et similiter aliud esse habere consuetudinem
+          <lb ed="#P" n="42"/>immemorialem exigendi aliquod tributum,
+          <lb ed="#P" n="43"/>quod ex eadem consuetudine supponitur jam
+          <lb ed="#P" n="44"/>impositum ; aliud vero habere consuetudinem
+          <lb ed="#P" n="45"/>immemorialem imponendi nova tributa, et
+          <lb ed="#P" n="46"/>consequenter illa postea exigendi. Haec enim
+          <lb ed="#P" n="47"/>potestas sine dubio est multo major, ut bene
+          <lb ed="#P" n="48"/>notarunt Castro, l. 1, cap. 10, et Medin., dict.
+          <lb ed="#P" n="49"/>cap. 13, S Sed forte, tum quia est potestas 
+          le<lb break="no" ed="#P" n="50"/>gislativa et dominativa, et extenditur ad plures
+          <lb ed="#P" n="51"/>actus, et ad novas impositiones faciendas;
+          <lb ed="#P" n="52"/>alia vero est quoddam particulare jus obtinendi
+          <lb ed="#P" n="53"/>seu lucrandi pensionem quae supponitur jam
+          <lb ed="#P" n="54"/>imposita; unde etiam certum mihi est ex hac
+          <lb ed="#P" n="55"/>posteriori consuetudine non bene inferri prio-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>rem. Multi enim principes inferiores, imo ct
+          <lb ed="#P" n="57"/>privatae personae habent ex consuetudine jus
+          <lb ed="#P" n="58"/>exigendi aliqua tributa antiqua, vel a rege
+          <lb ed="#P" n="59"/>imposita, vel de quorum initio aut auctore non
+          <lb ed="#P" n="60"/>constat, qui non habent potestatem vel 
+          con<lb break="no" ed="#P" n="61"/>suetudinem imponendi nova tributa. Ideoque
+          <lb ed="#P" n="62"/>licet ratio facta probet antiquum tributum
+          <lb ed="#P" n="63"/>de cujus initio non est memoria , reputari
+          <lb ed="#P" n="64"/>justum et legitima potestate introductum, et
+          <lb ed="#P" n="65"/>ideo exigi juste posse a quocumque habente
+          <lb ed="#P" n="66"/>titulum vel consuetudinem legitimam 
+          obti<lb break="no" ed="#P" n="67"/>nendi talem pensionem, adhuc superest 
+          quaes<lb break="no" ed="#P" n="68"/>tio an nova impositio tributi fieri juste possit
+          <lb ed="#P" n="69"/>a non supremo principe allegante 
+          consuetu<lb break="no" ed="#P" n="70"/>dinem immemorialem imponendi tributa.
+        </p>
+        <p xml:id="szdleg-b21054-d1e543">
+          <lb ed="#P" n="71"/>6. Sententia affirmans idem esse de 
+          potes<lb break="no" ed="#P" n="72"/>tate imponendi nocum tributum ex umemoriali
+          <lb ed="#P" n="73"/>consuetudine, licet imponens mon sit supremus
+          <lb ed="#P" n="74"/>dominus. — In qua dubitatione Medina, dicto
+          <lb ed="#P" n="75"/>c. de Rest., c. 13, S Ut igitur, affirmat tale 
+          tri<lb break="no" ed="#P" n="76"/>butum justum esse. Fundatur praecipue in d. c.
+          <lb ed="#P" n="77"/>Super quibusdam, quod longe aliter intelligit
+          <lb ed="#P" n="78"/>quam a nobis declaratum sit. Ex illo enim 
+          ca<lb break="no" ed="#P" n="79"/>pite colligit auctoritatem imponendi tributa
+          <lb ed="#P" n="80"/>esse in imperatore, rege, Papa, Concilio, et in
+          <lb ed="#P" n="81"/>antiqua consuetudine. Et ita sentit Pontificem
+          <lb ed="#P" n="82"/>in eotextu principaliter loqui de novis tributis,
+          <lb ed="#P" n="83"/>quae imponuntur ex vi potestatis praescriptae
+          <lb ed="#P" n="84"/>per consuetudinem sine alio titulo, licet paulo
+          <lb ed="#P" n="85"/>inferius, S de Feteribus, fateatur etiam esse
+          <lb ed="#P" n="86"/>licitum exigere tributa antiqua in sola 
+          imme<lb break="no" ed="#P" n="87"/>moriali consuetudine fundata, quia tunc pro
+          <lb ed="#P" n="88"/>recipientibus juste praesumitur, et in 8 Sed
+          <lb ed="#P" n="89"/>forte, objiciendo contra hoc dictum c. S'uper
+          <lb ed="#P" n="90"/>quibusdam, respondet non esse contrarium,
+          <lb ed="#P" n="91"/>sed potius approbando illa nova tributa, 
+          in<lb break="no" ed="#P" n="92"/>uere, (ait) etiam heec antiqua juste recipi posse.
+          <lb ed="#P" n="93"/>Potest pro hac sententia eitari Panorm. in d.
+          <lb ed="#P" n="94"/>c. Innovamus, n. 6, quatenus dicit potestatem
+          <lb ed="#P" n="95"/>hanc imponendi tributa posse praescriptione
+          <lb ed="#P" n="96"/>acquiri, et jura principis posse consuetudine
+          <lb ed="#P" n="97"/>obtineri, de cujus initio non extet memoria,
+          <lb ed="#P" n="98"/>juxta doctrinam Bart. in l. Infamem, ft. de
+          <lb ed="#P" n="99"/>Publ. jud., et Inn. in c. Zgo, P.de Fide instr.
+          <lb ed="#P" n="100"/>Expressius id docet Pan. in d. c. Super 
+          qui<lb break="no" ed="#P" n="101"/>busdam, num. 1 et 2. Ex quo videtur Medina
+          <lb ed="#P" n="102"/>sumpsisse illius textus interpretationem. 
+          Fam<lb break="no" ed="#P" n="103"/>dem sententiam tenet D. Anton. in 2 p., t. 1,
+          <lb ed="#P" n="104"/>c.13, 88, in fin., ubi inspeciali loquitur de 
+          qui<lb break="no" ed="#P" n="105"/>busdam impositionibus particularibus , quas
+          <lb ed="#P" n="106"/>aliquae civitates facere solent pro suis tantum
+          <lb ed="#P" n="107"/>membris, ut ad communes necessitates 
+          contri<lb break="no" ed="#P" n="108"/>buant, quia, licet hoc, inquit, ordinarie non 
+          pos<lb break="no" ed="#P" n="109"/>sint facere sine licentia principis, secus erit si
+          <lb ed="#P" n="110"/>ita facere consueverint ante hominum memoriam.
+        </p>
+        <p xml:id="szdleg-b21054-d1e632">
+          <pb ed="#P" n="481"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>7. Ratione potest haec sententia suaderi,
+          <lb ed="#P" n="2"/>primo, quia eadem ratio esse videtur quoad
+          <lb ed="#P" n="3"/>praescriptionem de jure petendi tributum 
+          anti<lb break="no" ed="#P" n="4"/>quum , et de potestate imponendi novum,
+          <lb ed="#P" n="5"/>quantum spectat ad possibilitatem acquirendi
+          <lb ed="#P" n="6"/>illud per consuetudinem: nam utrumque est
+          <lb ed="#P" n="7"/>proprium principis : ergo si uuum comparatur
+          <lb ed="#P" n="8"/>praescriptione, cur non aliud ? Nam quod 
+          dif<lb break="no" ed="#P" n="9"/>ferant secundum magis et minus, parum 
+          re<lb break="no" ed="#P" n="10"/>fert, cum haec differentia accidentalis sit, et in
+          <lb ed="#P" n="11"/>multis aliis reperiatur, quae contra principem
+          <lb ed="#P" n="12"/>praescribi possunt: ut sunt jurisdictio, quae
+          <lb ed="#P" n="13"/>per consuetudinem acquiritur, etiamsi propria
+          <lb ed="#P" n="14"/>regis sit, et potestas legitimandi spurios, 
+          res<lb break="no" ed="#P" n="15"/>tituendi famam infamibus, creandi 
+          tabellio<lb break="no" ed="#P" n="16"/>nes, et similia, quae Inn. supra notat, 
+          praescri<lb break="no" ed="#P" n="17"/>buntur contra principem, cum non videantur
+          <lb ed="#P" n="18"/>minora quam potestas imponendi tributum.
+          <lb ed="#P" n="19"/>Unde confirmatur, quia praescriptio temporis
+          <lb ed="#P" n="20"/>immemorialis aequiparatur privilegio concesso
+          <lb ed="#P" n="21"/>a principe ex certa scientia, teste Bald. sub 
+          ti<lb break="no" ed="#P" n="22"/>tulo: Quae sint regalia in usibus feud.; sed per
+          <lb ed="#P" n="23"/>privilegium principis potest inferior imponere
+          <lb ed="#P" n="24"/>tributum, ut ex allegatis juribus colligitur,
+          <lb ed="#P" n="25"/>quae dicunt neminem posse imponere tributum
+          <lb ed="#P" n="26"/>nisi principem, vel qui ab eo habuerit 
+          faculta<lb break="no" ed="#P" n="27"/>tem ; ergo eadem potestas poterit per 
+          imme<lb break="no" ed="#P" n="28"/>morialem praescriptionem acquiri. Probatur
+          <lb ed="#P" n="29"/>consequentia simul cum majori, quia per talem
+          <lb ed="#P" n="30"/>consuetudinem praesumitur illam fuisse ortam
+          <lb ed="#P" n="31"/>ex aliquo simili privilegio: et ita vel ipsa 
+          con<lb break="no" ed="#P" n="32"/>suetudo confert potestatem, vel saltem probat
+          <lb ed="#P" n="33"/>sufficienter illam, quatenus est ratio sufficiens
+          <lb ed="#P" n="34"/>ad praesumendam justam originem ejus. Unde
+          <lb ed="#P" n="35"/>Glossa etiam in dicto c. Super qubusdam,
+          <lb ed="#P" n="36"/>verb. Non extat, dixit consuetudinem, cujus
+          <lb ed="#P" n="37"/>non extat memoria, jus sive privilegium 
+          in<lb break="no" ed="#P" n="38"/>ducere.
+        </p>
+        <p xml:id="szdleg-b21054-d1e721">
+          <lb ed="#P" n="39"/>8. Sententia negativa. — Contrariam 
+          nihi<lb break="no" ed="#P" n="40"/>lominus sententiam tenet Castr., 1. 1 de Lege
+          <lb ed="#P" n="41"/>poenali, cap. 10, dicitque antiquam 
+          consuetu<lb break="no" ed="#P" n="42"/>dinem de cujus initio non extet memoria 
+          va<lb break="no" ed="#P" n="43"/>lere ad exigendum tributa quae ab illo tempore
+          <lb ed="#P" n="44"/>antiquo sunt introducta, non vero ad nova 
+          im<lb break="no" ed="#P" n="45"/>ponenda. Probat primo, quia dictum c. Super
+          <lb ed="#P" n="46"/>quibusdam loquitur de antiquis tributis, non
+          <lb ed="#P" n="47"/>de novis per antiquam consuetudinem 
+          impo<lb break="no" ed="#P" n="48"/>sitis. In quo fundamento duo consideranda et
+          <lb ed="#P" n="49"/>distinguenda mihi videntur ; unum est 
+          intel<lb break="no" ed="#P" n="50"/>ligentia illius textus; aliud est illatio quae ex
+          <lb ed="#P" n="51"/>illo fit. In primo haec posterior interpretatio
+          <lb ed="#P" n="52"/>verior videtur ; nam in textu non dicitur 
+          con<lb break="no" ed="#P" n="53"/>suetudinem sufficere ad imponendum 
+          tribu<lb break="no" ed="#P" n="54"/>tum, nec ad potestatem imponendi tributum,
+          <lb ed="#P" n="55"/>sed dicitur illa tributa esse interdicta, que non
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>apparet imperatorum, vel regum, vel 
+          Lateranen<lb break="no" ed="#P" n="57"/>sis Concilii largitione concessa, vel antigua
+          <lb ed="#P" n="58"/>consuetudine, cujus non extet menoria, 
+          intro<lb break="no" ed="#P" n="59"/>ducta. Loquitur ergo aperte Pontifex in his
+          <lb ed="#P" n="60"/>ultimis verbis de tributis introductis per 
+          anti<lb break="no" ed="#P" n="61"/>quam consuetudinem, et de illis solis. Unde
+          <lb ed="#P" n="62"/>non video cur dixerit Medina hoc innui in illo
+          <lb ed="#P" n="63"/>textu, et non potius hoc solum expresse 
+          affir<lb break="no" ed="#P" n="64"/>mari, et quidquid aliud inde affirmetur, esse
+          <lb ed="#P" n="65"/>per illationem, non quia in textu contineatur.
+          <lb ed="#P" n="66"/>Nec etiam video cur dixerit idem auctor cum
+          <lb ed="#P" n="67"/>Panorm. numerari in eo textu quatuor 
+          haben<lb break="no" ed="#P" n="68"/>tes auctoritatem ad imponenda tributa, 
+          scili<lb break="no" ed="#P" n="69"/>cet, imperatorem, regem, Concilium (utique
+          <lb ed="#P" n="70"/>cum Pontifice) et consuetudinem ; nam ibi 
+          di<lb break="no" ed="#P" n="71"/>citur consuetudinem non dare auctoritatem ad
+          <lb ed="#P" n="72"/>imponendum tributum, sed dare auctoritatem
+          <lb ed="#P" n="73"/>tributo, quod hodie impositum invenitur, quod
+          <lb ed="#P" n="74"/>sine dubio longe diversum est, ut recte dixit
+          <lb ed="#P" n="75"/>Castro. Medina etiam non negat haec duo esse
+          <lb ed="#P" n="76"/>diversa; male autem conatur litteram illius
+          <lb ed="#P" n="77"/>textus ad utrumque accommodare, ct magis in
+          <lb ed="#P" n="78"/>eo fallitur, quod textum principaliter 
+          accom<lb break="no" ed="#P" n="79"/>modat ad eam partem quae in littera ejus non
+          <lb ed="#P" n="80"/>continetur..
+        </p>
+        <p xml:id="szdleg-b21054-d1e818">
+          <lb ed="#P" n="81"/>9. Alterum vero, quod ex hac vera 
+          inter<lb break="no" ed="#P" n="82"/>pretatione colligit Castro, non videtur mihi ex
+          <lb ed="#P" n="83"/>illo textu probari positive, sed ad summum
+          <lb ed="#P" n="84"/>negative ; quia, licet ibi non affirmetur 
+          con<lb break="no" ed="#P" n="85"/>suetudinem immemorialem posse dare 
+          potes<lb break="no" ed="#P" n="86"/>tatem imponendi tributa, non tamen negatur:
+          <lb ed="#P" n="87"/>ergo inde non potes: colligi testimonium 
+          posi<lb break="no" ed="#P" n="88"/>tivum contra priorem sententiam, sed solum
+          <lb ed="#P" n="89"/>negativum, hoc modo: nemo habet potestatem
+          <lb ed="#P" n="90"/>imponendi tributa, nisi qui in illo textu 
+          nu<lb break="no" ed="#P" n="91"/>merantur; sed ibi non datur haec potestas 
+          con<lb break="no" ed="#P" n="92"/>suetudini: ergo. Et simile videtur esse aliud
+          <lb ed="#P" n="93"/>argumentum quod Castro sumit ex dicto c,
+          <lb ed="#P" n="94"/>Innovamus, quamvis ipse dicat quod in eo 
+          auc<lb break="no" ed="#P" n="95"/>toritas imponendi nova tributa aperte negatur
+          <lb ed="#P" n="96"/>antiqua consuetudini, quaa eapresse ibi dicitug
+          <lb ed="#P" n="97"/>solun regibus et principibus esse concessqm s
+          <lb ed="#P" n="98"/>unde ex illa exclusiva solun, videtur 
+          colli<lb break="no" ed="#P" n="99"/>gere, negari hoc consuetudini. Sed in rigore
+          <lb ed="#P" n="100"/>non est solida illatio, tum quia dictio exclusiva
+          <lb ed="#P" n="101"/>non excludit ea quae sunt paria, sicut ibi non
+          <lb ed="#P" n="102"/>excluditur Concilium ; tum quia etiam quia
+          <lb ed="#P" n="103"/>dictio exclusiva non excludit concomitantia ;
+          <lb ed="#P" n="104"/>hujusmodi autem dici potest consuetudo, quia
+          <lb ed="#P" n="105"/>illa in tantum habet vim in quantum 
+          praesu<lb break="no" ed="#P" n="106"/>mitur in auctoritate principis fundata. Unde
+          <lb ed="#P" n="107"/>addo in illo textu non haberi verba nec 
+          mo<lb break="no" ed="#P" n="108"/>dum loquendi quem Castro intendit, sed verba
+          <lb ed="#P" n="109"/>ejus sunt: JVec quisquam alicui novasg 
+          peda<lb break="no" ed="#P" n="110"/>giorum exactiones sine auctoritate, et consensu
+          <pb ed="#P" n="482"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>regum aut principum statuere presumat. Qui
+          <lb ed="#P" n="2"/>autem imponit nova pedagia ex vi 
+          consuetu<lb break="no" ed="#P" n="3"/>dinis non praesumit illa imponere sine 
+          aucto<lb break="no" ed="#P" n="4"/>ritate regum vel principum ; sed allegat et
+          <lb ed="#P" n="5"/>praesumit talem consuetudinem in auctoritate
+          <lb ed="#P" n="6"/>regum esse fundatam; ergo non potest dici
+          <lb ed="#P" n="7"/>aperte excludi in illo textu; ergo ad summum
+          <lb ed="#P" n="8"/>dici poterit ibi non probari talem 
+          consuetudi<lb break="no" ed="#P" n="9"/>nem sufficere. Quod argumentum negativum
+          <lb ed="#P" n="10"/>ex utroque textu leve est, et utrumque 
+          retor<lb break="no" ed="#P" n="11"/>queri potest. Primum quidem, argumentando
+          <lb ed="#P" n="12"/>a paritate rationis, et negando talem 
+          consue<lb break="no" ed="#P" n="13"/>tudinem omnino omitti, quia in altera 
+          includi<lb break="no" ed="#P" n="14"/>tur, vel in potestate regum, vel in concessione
+          <lb ed="#P" n="15"/>Concilii ; aliud vero, quia actus proprius 
+          prin<lb break="no" ed="#P" n="16"/>cipis, si fit ab inferiori ex immemoriali 
+          con<lb break="no" ed="#P" n="17"/>suetudine, censetur fieri auctoritate principis;
+          <lb ed="#P" n="18"/>sed illo textu approbatur tributum novum 
+          po<lb break="no" ed="#P" n="19"/>situm auctoritate principis; ergo et positum
+          <lb ed="#P" n="20"/>ex immemoriali consuetudine, quia haec 
+          inclu<lb break="no" ed="#P" n="21"/>dit auctoritatem principis.
+        </p>
+        <p xml:id="szdleg-b21054-d1e935">
+          <lb ed="#P" n="22"/>10. Alio ergo modo possumus illa jura in
+          <lb ed="#P" n="23"/>favorem hujus sententiae inducere, etiam 
+          qua<lb break="no" ed="#P" n="24"/>tenus auctoritatem tantum negativam 
+          conti<lb break="no" ed="#P" n="25"/>nent. Quia nulla potestas potest per 
+          consuetu<lb break="no" ed="#P" n="26"/>dinem seu praescriptionem acquiri, nisi virtute
+          <lb ed="#P" n="27"/>alicujus legis civilis, aut canonicae ; sed nulla
+          <lb ed="#P" n="28"/>talis lex est quae det auctoritatem praescribendi
+          <lb ed="#P" n="29"/>hanc potestatem imponendi tributa: ergo non
+          <lb ed="#P" n="30"/>potest praescriptione acquiri, et consequenter
+          <lb ed="#P" n="31"/>nullus princeps recognoscens superiorem 
+          po<lb break="no" ed="#P" n="32"/>test juste tali potestate uti, praetextu 
+          consue<lb break="no" ed="#P" n="33"/>tudinis, etiam immemorialis. Major constat,
+          <lb ed="#P" n="34"/>quia praescriptio non est jure naturali 
+          intro<lb break="no" ed="#P" n="35"/>ducta, imo quodammodo videtur ab illa 
+          discor<lb break="no" ed="#P" n="36"/>dare, vel saltem omnino illi addi : nec etiam
+          <lb ed="#P" n="37"/>constat esse de jure gentium, quia omnes 
+          gen<lb break="no" ed="#P" n="38"/>tes illa utuntur, neque eodem modo : oportet
+          <lb ed="#P" n="39"/>ergo ut fundetur in jure humano civili, vel
+          <lb ed="#P" n="40"/>canonico, quia sine auctoritate juris non esset
+          <lb ed="#P" n="41"/>praescriptio, sed iniqua usurpatio rei alienae.
+          <lb ed="#P" n="42"/>Probatur ergo minor, quia nulla invenitur 
+          ci<lb break="no" ed="#P" n="43"/>vilis lex quae talem praescriptionem approbet;
+          <lb ed="#P" n="44"/>neque etiam canonica ; quia maxime illa duo
+          <lb ed="#P" n="45"/>capita supra tractata; ostensum autem est in
+          <lb ed="#P" n="46"/>illis nihil de hac consuetudine caveri, et 
+          alio<lb break="no" ed="#P" n="47"/>qui generaliter damnari omnia tributa non
+          <lb ed="#P" n="48"/>concessa a regibus, principibus, vel Pontifice,
+          <lb ed="#P" n="49"/>seu Concilio, et in textu originali Conc. Later.
+          <lb ed="#P" n="50"/>sub Alex. IIL, p. 1, c. 22, additur, ut nemo 
+          au<lb break="no" ed="#P" n="51"/>deat tales exacliones statuere, aut statutas de
+          <lb ed="#P" n="52"/>novo tenere. Item ibi videtur postulari ad 
+          justi<lb break="no" ed="#P" n="53"/>tiam tributorum, ut constet auctoritate 
+          supre<lb break="no" ed="#P" n="54"/>mi principis esse imposita, si sint nova; vel
+          <lb ed="#P" n="55"/>quod ex consuetudine immemoriali praesuma-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tur, si sint antiqua : de praesumptione autem
+          <lb ed="#P" n="57"/>vel praescriptione pro potestate imponendi illa
+          <lb ed="#P" n="58"/>nullum ibi est verbum. Nec etiam valet aliquid
+          <lb ed="#P" n="59"/>argumentum, quod a simili sumebatur, tum
+          <lb ed="#P" n="60"/>quia haec translatio vel usurpatio alieni juris
+          <lb ed="#P" n="61"/>per consuetudinem odiosa est, et ideo non 
+          de<lb break="no" ed="#P" n="62"/>bet extendi, sed restringi; tum etiam quia
+          <lb ed="#P" n="63"/>non est aequalis ratio, cum ostensum sit hanc
+          <lb ed="#P" n="64"/>potestatem esse majorem ; tum denique quia
+          <lb ed="#P" n="65"/>praescriptio talis potestatis multo magis potest
+          <lb ed="#P" n="66"/>cedere in perniciem reipublicae, et ideo multo
+          <lb ed="#P" n="67"/>minus potest praesumi a principibus 
+          approba<lb break="no" ed="#P" n="68"/>ri: ergo ubi non est expressa lex, non licet.per
+          <lb ed="#P" n="69"/>solam conjecturam vel aequiparationem illam
+          <lb ed="#P" n="70"/>colligere.
+        </p>
+        <p xml:id="szdleg-b21054-d1e1046">
+          <lb ed="#P" n="71"/>11. Et confirmatur haec ratio ex alio 
+          princi<lb break="no" ed="#P" n="72"/>pio jurisperitorum ; nam ea quae ita 
+          conve<lb break="no" ed="#P" n="73"/>niunt supremae potestati, ut ad propriam illius
+          <lb ed="#P" n="74"/>rationem pertineant, non possunt a subditis
+          <lb ed="#P" n="75"/>consuetudine praescribi ; sed talis est potestas
+          <lb ed="#P" n="76"/>imponendi tributa: ergo. Major habetur ex
+          <lb ed="#P" n="77"/>communi sententia juristarum, Bald., in l.
+          <lb ed="#P" n="78"/>Comperit, c. de Praescr., 30, etc.; Pan, cap.
+          <lb ed="#P" n="79"/>Cum nobis, et c. Ad audientiam, de Praescr., et
+          <lb ed="#P" n="80"/>aliorum quos refert et sequitur Cov. in Reg.
+          <lb ed="#P" n="81"/>possess., n. 8 et 9, et in Pract., c. 4, n. 1;et
+          <lb ed="#P" n="82"/>Velasc., de Jur. Emphyt., q. 8, n. 29, et segq.
+          <lb ed="#P" n="83"/>Cujus ratio a priori est, quia nullum jus 
+          huma<lb break="no" ed="#P" n="84"/>num favet tali praescriptioni ; imo illi resistit,
+          <lb ed="#P" n="85"/>ut in jure civili constat ex dicta l. Comperit, et
+          <lb ed="#P" n="86"/>in jure Hispaniae, l. 1, tit. 15,1. 4 Novae 
+          reco<lb break="no" ed="#P" n="87"/>pilat., et idem sumitur ex l. 5, tit. 29, p. 3.
+          <lb ed="#P" n="88"/>hesistit etiam jus Lusitaniae, l. 2 Ordin., tit.
+          <lb ed="#P" n="89"/>26, in princ., et S 15. Congruentia vero est,
+          <lb ed="#P" n="90"/>quia praesumi non potest principem consentire
+          <lb ed="#P" n="91"/>in hujusmodi praescriptione, imo nec jure 
+          pos<lb break="no" ed="#P" n="92"/>se, quia esset valde perniciosa reipublicae et
+          <lb ed="#P" n="93"/>ipsimet principi, quia ex parte privaretur regia
+          <lb ed="#P" n="94"/>potestate. Minor item propositio in argumento
+          <lb ed="#P" n="95"/>sumpta colligi potest ex d. c. Innovamus, et
+          <lb ed="#P" n="96"/>Super quibusdam, quatenus docent jus 
+          impo<lb break="no" ed="#P" n="97"/>nendi tributa esse reservatum regi et 
+          impera<lb break="no" ed="#P" n="98"/>tori, ac similibus principibus supremis, et 
+          eo<lb break="no" ed="#P" n="99"/>dem modo sumitur ex l. Vectigalia, ff. de Publ.
+          <lb ed="#P" n="100"/>et vecti., l. 1, c. Nov. vecti., et ex l. 9. tit. 7, p.
+          <lb ed="#P" n="101"/>5, ubi Glossa 2 notat esse hoc ex reservatis
+          <lb ed="#P" n="102"/>principi.
+        </p>
+        <p xml:id="szdleg-b21054-d1e1118">
+          <lb ed="#P" n="103"/>12. Sed forte dicet aliquis aliud esse quod
+          <lb ed="#P" n="104"/>actus sit reservatus principi, aiiud vero quod
+          <lb ed="#P" n="105"/>sit quasi de intrinseca ratione supremae 
+          potes<lb break="no" ed="#P" n="106"/>tatis ejus, vel signum quasi proprium, ei quasi
+          <lb ed="#P" n="107"/>potestativum supremae excellentiae illius. De
+          <lb ed="#P" n="108"/>actibus ergo hujus secundi ordinis est vera
+          <lb ed="#P" n="109"/>prima propositio, non vero de actibus prioris
+          <lb ed="#P" n="110"/>ordinis , ut probant adducta pro conuaria
+          <pb ed="#P" n="483"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>opinione : imponere autem tributum, tantum
+          <lb ed="#P" n="2"/>probatur esse principi reservatum priori modo;
+          <lb ed="#P" n="3"/>neque aliud colligitur ex juribus citatis, et
+          <lb ed="#P" n="4"/>ideo non procedit ratio, quia multa similia 
+          re<lb break="no" ed="#P" n="5"/>servata principi possunt contra illum 
+          praescri<lb break="no" ed="#P" n="6"/>bi, ut supra inductione ostensum est.
+        </p>
+        <p xml:id="szdleg-b21054-d1e1155">
+          <lb ed="#P" n="7"/>Sed contra hoc ostendo esse proprium 
+          prin<lb break="no" ed="#P" n="8"/>cipis posteriori et stricto modo. Et primum
+          <lb ed="#P" n="9"/>expendo verba Pontificis in c. Tributum, 23,
+          <lb ed="#P" n="10"/>q. 8, ibi: Quod constitutum est pro pace, et
+          <lb ed="#P" n="11"/>equitate, qua nos tueri debent et defensare,
+          <lb ed="#P" n="12"/>imper atoribus persolvendum est. Quibus verbis
+          <lb ed="#P" n="13"/>significatur titulum ob quem tributa 
+          deben<lb break="no" ed="#P" n="14"/>tur , fundari in ea obligatione qua rex tenetur
+          <lb ed="#P" n="15"/>regnum suum in pace defendere ; sed haec
+          <lb ed="#P" n="16"/>obligatio requirit supremam potestatem, et in
+          <lb ed="#P" n="17"/>illa fundatur : ergo tributum intrinsece 
+          respi<lb break="no" ed="#P" n="18"/>cit illam potestatem , et inter alia habet ut sit
+          <lb ed="#P" n="19"/>veluti signum exhibendum in signum supremi
+          <lb ed="#P" n="20"/>dominii. Hoc etiam confirmat quod D. Aug.
+          <lb ed="#P" n="21"/>ait l. 22 contra Faust. , c. 74: Ad hoc tributa
+          <lb ed="#P" n="22"/>praestantur ut propter bella necessario maliti
+          <lb ed="#P" n="23"/>stipendia praebeantur. Nam, licet non sit haec
+          <lb ed="#P" n="24"/>adaequata causa imponendi tributa, est una ex
+          <lb ed="#P" n="25"/>praecipuis , et ostendit quod, sicut potestas 
+          in<lb break="no" ed="#P" n="26"/>dicendi bellum est propria supremi principis,
+          <lb ed="#P" n="27"/>nec potest acquiri per praescriptionem ab 
+          infe<lb break="no" ed="#P" n="28"/>riore principe habente superiorem, ita etiam
+          <lb ed="#P" n="29"/>potestas imponendi tributum. Praeterea, ex
+          <lb ed="#P" n="30"/>citatis legibus sumitur magnum argumentum,
+          <lb ed="#P" n="31"/>quia expresse definiunt neminem posse 
+          praes<lb break="no" ed="#P" n="32"/>criptione eximi a tributis solvendis , ut patet
+          <lb ed="#P" n="33"/>ex citata l. Comperit, et aliis horum regnorum;
+          <lb ed="#P" n="34"/>et ex Panormit. in d. c. Cum nobis, num. 11,
+          <lb ed="#P" n="35"/>ubi reddit rationem, quia tributum debetur in
+          <lb ed="#P" n="36"/>signum subjectionis ; sed multo plus est 
+          prae<lb break="no" ed="#P" n="37"/>scribere potestatem imponendi tributa quam
+          <lb ed="#P" n="38"/>praescribere exemptionem a tributis, quia 
+          ma<lb break="no" ed="#P" n="39"/>jus etiam signum supremae potestatis est 
+          tri<lb break="no" ed="#P" n="40"/>buta imperare quam exigere : ergo.
+        </p>
+        <p xml:id="szdleg-b21054-d1e1231">
+          <lb ed="#P" n="41"/>13. Et declaratur hoc amplius, quia rex 
+          ha<lb break="no" ed="#P" n="42"/>bet potestatem imponendi tributa in toto suo
+          <lb ed="#P" n="43"/>regno, etiam in terris subjectis alicui inferiori
+          <lb ed="#P" n="44"/>principi ipsi subjecto ; quando ergo ille 
+          infe<lb break="no" ed="#P" n="45"/>rior princeps acquirit per consuetudinem 
+          po<lb break="no" ed="#P" n="46"/>testatem imponendi tributa in suis terris, vel
+          <lb ed="#P" n="47"/>rex illum amittit , vel uterque retinet illam.
+          <lb ed="#P" n="48"/>Primum est intrinsece contra dignitatem 
+          re<lb break="no" ed="#P" n="49"/>giam, eam enim magna ex parte convellit,
+          <lb ed="#P" n="50"/>quod per praescriptionem fieri non potest, ut
+          <lb ed="#P" n="51"/>ostensum est; et etiam contra naturalem 
+          obli<lb break="no" ed="#P" n="52"/>gationem, qua vassalli tenentur recognoscere
+          <lb ed="#P" n="53"/>regem ut supremum dominum. Secundum 
+          au<lb break="no" ed="#P" n="54"/>tem est etiam contra justitiam respectu 
+          popu<lb break="no" ed="#P" n="55"/>lorum, ita enim supra modum gravarentur.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Utrumque sic explico, quia populi, ex naturali
+          <lb ed="#P" n="57"/>justitia, per se primo tenentur tributa pendere
+          <lb ed="#P" n="58"/>regi, tum quia ille est supremus dominus,
+          <lb ed="#P" n="59"/>tum quia illius potestas censetur esse 
+          imme<lb break="no" ed="#P" n="60"/>diate a populo ; et ideo etiam populi subditi
+          <lb ed="#P" n="61"/>inferiori principi subdito regi, quatenus sunt
+          <lb ed="#P" n="62"/>pars quaedam regni, tenentur per se 
+          contri<lb break="no" ed="#P" n="63"/>buere ad sustentationem regis, et status ac 
+          di<lb break="no" ed="#P" n="64"/>gnitatis, omniumque munerum et onerum
+          <lb ed="#P" n="65"/>ejus , quod faciunt popul tributa solvendo.
+          <lb ed="#P" n="66"/>Ergo contra justitiam esset quod etiam 
+          infe<lb break="no" ed="#P" n="67"/>rior, et quasi proximus princeps, posset sua
+          <lb ed="#P" n="68"/>auctoritate imponere eidem populo nova 
+          tri<lb break="no" ed="#P" n="69"/>buta, et quod populus obligari posset a duobus
+          <lb ed="#P" n="70"/>principibus , et praesertim ab illo cum quo a
+          <lb ed="#P" n="71"/>principio non contraxit, neque ei potestatem
+          <lb ed="#P" n="72"/>contulit. Isti enim inferiores principes non a 
+          po<lb break="no" ed="#P" n="73"/>pulo, sed a regibus,vel imperatore suum statum
+          <lb ed="#P" n="74"/>ac dignitatem acceperunt, et ideo non a 
+          po<lb break="no" ed="#P" n="75"/>pulo, sed a rege, vel juxta regis praescriptum
+          <lb ed="#P" n="76"/>possunt certos redditus a vassallis accipere.
+          <lb ed="#P" n="77"/>Atque haec videtur esse ratio propria cur hic
+          <lb ed="#P" n="78"/>actus imperandi tributa est proprius supremi
+          <lb ed="#P" n="79"/>principis, quae consequenter optime videtur
+          <lb ed="#P" n="80"/>ostendere, esse hoc tam intrinsecum illi 
+          supre<lb break="no" ed="#P" n="81"/>mae potestati , ut contraria consuetudo illam
+          <lb ed="#P" n="82"/>destruat, et justitiae multum repugnet, 
+          ideo<lb break="no" ed="#P" n="83"/>que non sit admittenda contra principem, 
+          ne<lb break="no" ed="#P" n="84"/>que sufticiat ad justificanda nova tributa, sine
+          <lb ed="#P" n="85"/>certa facultate a regibus concessa.
+        </p>
+        <p xml:id="szdleg-b21054-d1e1334">
+          <lb ed="#P" n="86"/>14. Auctoris sententia. —Haec ergo sententia
+          <lb ed="#P" n="87"/>mihi videtur verior et securior, quia est magis
+          <lb ed="#P" n="88"/>consentanea juri et rationi, et quia impositio
+          <lb ed="#P" n="89"/>tributorum est gravissima et multa 
+          considera<lb break="no" ed="#P" n="90"/>tione indiget ut juste fiat, et ideo non est facile
+          <lb ed="#P" n="91"/>committenda voluntati eorum qui in 
+          tempo<lb break="no" ed="#P" n="92"/>ralibus habent superiorem, nec consuetudo
+          <lb ed="#P" n="93"/>aliud inducens honesta censenda est. Neque
+          <lb ed="#P" n="94"/>praesumendum est quod bona fide sit 
+          intro<lb break="no" ed="#P" n="95"/>ducta, vel per scientiam et patientiam regum.
+          <lb ed="#P" n="96"/>Oportet tamen advertere aliud esse quod 
+          prin<lb break="no" ed="#P" n="97"/>ceps aliquis inferior praescribat potestatem
+          <lb ed="#P" n="98"/>imponendi tributa, retenta subjectione ad 
+          su<lb break="no" ed="#P" n="99"/>periorem, et sine licentia ejus; aliud vero esse
+          <lb ed="#P" n="100"/>quod princeps qui prius recognoverat 
+          superio<lb break="no" ed="#P" n="101"/>rem, per consuetudinem et praescriptionem
+          <lb ed="#P" n="102"/>eximatur a tali subjectione et fiat supremus,
+          <lb ed="#P" n="103"/>et sic acquirat potestatem imponendi tributa.
+          <lb ed="#P" n="104"/>Hactenus ergo de priori modo locuti sumus,
+          <lb ed="#P" n="105"/>et ita dicimus fieri non posse, tum propter
+          <lb ed="#P" n="106"/>jura citata, tum propter repugnantiam quam
+          <lb ed="#P" n="107"/>involvit contra justitiae aequitatem, et 
+          debi<lb break="no" ed="#P" n="108"/>tum ordinem qui servandus est, stante 
+          objec<lb break="no" ed="#P" n="109"/>tione.
+        </p>
+        <p xml:id="szdleg-b21054-d1e1389">
+          <lb ed="#P" n="110"/>15. Juriste cum Bart., Panorm., Cov. —
+          <pb ed="#P" n="484"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>At vero, si in posteriori modo supponamus
+          <lb ed="#P" n="2"/>illam potestatem supremam et exemptionem
+          <lb ed="#P" n="3"/>posse praescriptione acquiri, ut juristae 
+          com<lb break="no" ed="#P" n="4"/>muniter docent cum Bart. in l. n famem, ft.
+          <lb ed="#P" n="5"/>de Publ. jud., in fin., et in l. Hostes, ff. de
+          <lb ed="#P" n="6"/>Capti., et aliis quos refert et sequitur Covar. in
+          <lb ed="#P" n="7"/>d. reg. Possessor, 9p., S2,n.8, S Ea his vero,
+          <lb ed="#P" n="8"/>et in reg. Peccatum, S 9, n. 9; hac (inquam)
+          <lb ed="#P" n="9"/>sententia supposita, consequens erit ut talis
+          <lb ed="#P" n="10"/>princeps acquirat etiam potestatem imponendi
+          <lb ed="#P" n="11"/>nova tributa, quia jam non est subditus, sed
+          <lb ed="#P" n="12"/>supremus, et ita ad illum pertinet regula textus
+          <lb ed="#P" n="13"/>in d. c. Innovamus, et d. c. Super quibusdum.
+          <lb ed="#P" n="14"/>Panor. vero, in c. Cum non liceat, de Praescr.,
+          <lb ed="#P" n="15"/>n. 16, sentit non posse supremam regni 
+          po<lb break="no" ed="#P" n="16"/>testatem illo modo acquiri, quia non potest
+          <lb ed="#P" n="17"/>inferior eximi a potestate superioris 
+          consue<lb break="no" ed="#P" n="18"/>tudine sola, etiam longissima. Sed haec 
+          quaes<lb break="no" ed="#P" n="19"/>tio nunc ad nos non pertinet; tantum enim ex
+          <lb ed="#P" n="20"/>hypothesi loquimur, quae sine dubio vera est,
+          <lb ed="#P" n="21"/>quidquid sit de veritate suppositionis, quamvis
+          <lb ed="#P" n="22"/>etiam illa satis probabilis sit, et fortasse etiam
+          <lb ed="#P" n="23"/>praxi comprobata. Nam multa regna 
+          censen<lb break="no" ed="#P" n="24"/>tur hanc potestatem usu ipso et praescriptione
+          <lb ed="#P" n="25"/>acquisivisse, praecedente aliqua probabili 
+          occa<lb break="no" ed="#P" n="26"/>sione et titulo.
+        </p>
+        <p xml:id="szdleg-b21054-d1e1454">
+          <lb ed="#P" n="27"/>16. Non esse parem rationem de consuetudine
+          <lb ed="#P" n="28"/>imponendi tributum et emigendi.— Ad rationes
+          <lb ed="#P" n="29"/>ergo contrariae sententiae nego esse parem 
+          ra<lb break="no" ed="#P" n="30"/>tionem de consuetudine imponendi tributum,
+          <lb ed="#P" n="31"/>vel exigendi, tum quia prior consuetudo 
+          nul<lb break="no" ed="#P" n="32"/>libi in jure censetur sufficiens ad acquirendam
+          <lb ed="#P" n="33"/>potestatem imponendi tributum ; posterior vero
+          <lb ed="#P" n="34"/>invenitur approbata, ut sufficiens ad justitiam
+          <lb ed="#P" n="35"/>tributi ; quia prior potestas multo major est,
+          <lb ed="#P" n="36"/>magisque perniciosa reipublicae , si indebite
+          <lb ed="#P" n="37"/>usurpetur ; tum etiam quia per illam 
+          consue<lb break="no" ed="#P" n="38"/>tudinem derogatur supremae potestati regiae,
+          <lb ed="#P" n="39"/>per posteriorem autem minime, imo fundatur
+          <lb ed="#P" n="40"/>in praesumptione contra subditos solventes
+          <lb ed="#P" n="41"/>tributum antiquum, etiamsi non constet qua
+          <lb ed="#P" n="42"/>potestate vel causa impositum sit: unde ex
+          <lb ed="#P" n="43"/>hac parte consuetudo illa et praescriptio favet
+          <lb ed="#P" n="44"/>principibus. Quod si sit sermo de consuetudine
+          <lb ed="#P" n="45"/>accipiendi tributum, per quam solet praescribi
+          <lb ed="#P" n="46"/>contra regem (quod maxime intendunt juristae
+          <lb ed="#P" n="47"/>ibi allegati), sic etiam neganda est 
+          consequen<lb break="no" ed="#P" n="48"/>tia, quia utilitas tributi potest facile a rege
+          <lb ed="#P" n="49"/>donari aliis, et ita nihil est quod vetet 
+          praescri<lb break="no" ed="#P" n="50"/>ptionem in illam. Quia per illam non 
+          deroga<lb break="no" ed="#P" n="51"/>tur dignitati et potestati regiae, sed tantum
+          <lb ed="#P" n="52"/>cuidam temporali utilitati, quod secus est in
+          <lb ed="#P" n="53"/>consuetudine imponendi tributa, ut ostensum
+          <lb ed="#P" n="54"/>est. Et ita etiam responsum est ad alia 
+          exem<lb break="no" ed="#P" n="55"/>pla quae ibi afferuntur ; nam, licet sint de ac-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tibus reservatis principi, non tamen sunt 
+          pro<lb break="no" ed="#P" n="57"/>pria signa excellentiae ejus, vel actus qui veluti
+          <lb ed="#P" n="58"/>intrinsece includant dependentiam a suprema
+          <lb ed="#P" n="59"/>potestate, ut est tributorum impositio.
+        </p>
+        <p xml:id="szdleg-b21054-d1e1530">
+          <lb ed="#P" n="60"/>17. Ad confirmationem, respondeo posse
+          <lb ed="#P" n="61"/>quidem principem committere inferiori ut 
+          no<lb break="no" ed="#P" n="62"/>mine et auctoritate sua tributum imponat in
+          <lb ed="#P" n="63"/>particulari casu, et examinata causa, ratione
+          <lb ed="#P" n="64"/>et modo, ut in eisdem juribus significatur, non
+          <lb ed="#P" n="65"/>tamen posse juste concedere inferiori generale
+          <lb ed="#P" n="66"/>privilegium imponendi tributum 
+          independen<lb break="no" ed="#P" n="67"/>ter a sua approbatione, et redundans in solam
+          <lb ed="#P" n="68"/>utilitatem ipsius inferioris; esset enim tale
+          <lb ed="#P" n="69"/>privilegium valde perniciosum reipublicae, ac
+          <lb ed="#P" n="70"/>communi bono, et valde repugnans supremae
+          <lb ed="#P" n="71"/>potestati ejusdem principis, et justitiae 
+          aequi<lb break="no" ed="#P" n="72"/>tati, ut ostensum est. Ideoque ex vi 
+          consuetu<lb break="no" ed="#P" n="73"/>dinis , quantumcumque longaevae, nunquam
+          <lb ed="#P" n="74"/>praesumitur esse fundatam in aliquo privilegio,
+          <lb ed="#P" n="75"/>vel justo titulo. Et haec est ratio sufficiens ut
+          <lb ed="#P" n="76"/>per eam non possit talis potestas comparari.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="7"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a01967"><!-- deleg-l1c3 -->
+        <head xml:id="szdleg-a01967-Hd1e101">Caput 3</head>
+        <head xml:id="szdleg-a01967-Hd1e103" type="question-title">Quanta sit necessitas et varietas legum</head>
+        <p xml:id="szdleg-a01967-d1e106">
+          <lb ed="#P" n="40"/>CAPUT III.
+          <lb ed="#P" n="41"/>QUANTA SIT NECESSITAS ET VARIETAS LEGUM.
+        </p>
+        <p xml:id="szdleg-a01967-d1e113">
+          <lb ed="#P" n="42"/>1. Explicatis nominibus juris et legis, 
+          ante<lb break="no" ed="#P" n="43"/>quam inquiramus quid lex sit, oportet prius
+          <lb ed="#P" n="44"/>ostendere illam esse; quod optime fiet ejus
+          <lb ed="#P" n="45"/>necessitatem declarando, quia in his rebus ad
+          <lb ed="#P" n="46"/>institutionem morum pertinentibus, nec 
+          ali<lb break="no" ed="#P" n="47"/>quid superfluum admittendum est, neque id
+          <lb ed="#P" n="48"/>quod necessarium est deesse potest. Solet 
+          au<lb break="no" ed="#P" n="49"/>tem distingui duplex necessitas: una absoluta,
+          <lb ed="#P" n="50"/>secundum quam dicitur res aliqua per se, et
+          <lb ed="#P" n="51"/>propter se simpliciter necessaria: quomodo
+          <lb ed="#P" n="52"/>Deus habet necessitatem essendi secundum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>existentiam actualem, de qua loquimur: alia
+          <lb ed="#P" n="54"/>est necessitas respectiva in ordine ad aliquem
+          <lb ed="#P" n="55"/>tinem, vel effectum, quae duplex 
+          subdistingui<lb break="no" ed="#P" n="56"/>tur : nam quaedam est necessitas simpliciter;
+          <lb ed="#P" n="57"/>alia ad melius esse, quae proprius est utilitas.
+        </p>
+        <p xml:id="szdleg-a01967-d1e152">
+          <lb ed="#P" n="58"/>2. Lex absolute non fuit necessaria. — Duo
+          <lb ed="#P" n="59"/>ergo in generali videntur certa. Primum est,
+          <lb ed="#P" n="60"/>necessitatem absolutam legi non convenire,
+          <lb ed="#P" n="61"/>quatenus lex est. Probatur, quia talis 
+          necessi<lb break="no" ed="#P" n="62"/>tas est propria Dei, qui solus est ens per se, et
+          <lb ed="#P" n="63"/>absolute necessarium: lex autem omnis vel
+          <lb ed="#P" n="64"/>est aliquid creatum, vel certe supponit aliquam
+          <lb ed="#P" n="65"/>creaturam, propter quam feratur, Deus enim
+          <lb ed="#P" n="66"/>non est capax legis: ergo sicut creatura non
+          <lb ed="#P" n="67"/>est simpliciter necessaria, ita neque lex. 
+          Ad<lb break="no" ed="#P" n="68"/>do praeterea, loquendo de propria lege, de qua
+          <lb ed="#P" n="69"/>nunc agimus, tantum esse posse propter 
+          crea<lb break="no" ed="#P" n="70"/>turam rationalem: nam lex non imponitur,
+          <lb ed="#P" n="71"/>nisi naturae liberae, nec habet pro materia
+          <lb ed="#P" n="72"/>nisi actus liberos, ut infra videbimus; ergo
+          <lb ed="#P" n="73"/>non potest esse magis necessaria lex, quam sit
+          <lb ed="#P" n="74"/>rationalis, vel intellectualis creatura : at 
+          crea<lb break="no" ed="#P" n="75"/>tura rationalis non habet absolutam 
+          necessita<lb break="no" ed="#P" n="76"/>tem essendi: ergo nec lex habet hujusmodi
+          <lb ed="#P" n="77"/>necessitatem. Solum poterat hic oriri dubium
+          <lb ed="#P" n="78"/>de lege aeterna, quam nunc esse suppono: illa
+          <lb ed="#P" n="79"/>enim est Deus ipse, et ideo est tam 
+          immuta<lb break="no" ed="#P" n="80"/>bilis et aeterna, sicut ipse, ac subinde tam
+          <lb ed="#P" n="81"/>necessaria. Sed dico breviter rem illam, quae
+          <lb ed="#P" n="82"/>est lex aeterna, esse absolute necessariam, ut
+          <lb ed="#P" n="83"/>probat argumentum : tamen sub ratione legis
+          <lb ed="#P" n="84"/>non hahere absolutam necessitatem, quia 
+          in<lb break="no" ed="#P" n="85"/>cludit respectum liberum, ut infra ostendam.
+        </p>
+        <p xml:id="szdleg-a01967-d1e216">
+          <lb ed="#P" n="86"/>3. Hec supposita creatione creaturae 
+          rationa<lb break="no" ed="#P" n="87"/>lis fuit utilis, et absolute necessaria necessitate
+          <lb ed="#P" n="88"/>finis. — Dico secundo: Supposita creatione
+          <lb ed="#P" n="89"/>rationalium creaturarum, lex fuit necessaria
+          <lb ed="#P" n="90"/>necessitate finis, tam simpliciter quam ad 
+          me<lb break="no" ed="#P" n="91"/>lius esse. Haec veritas est tanquam principium
+          <lb ed="#P" n="92"/>per se notum in hac materia, et quoad 
+          prio<lb break="no" ed="#P" n="93"/>rem partem de necessitate simpliciter declarari
+          <lb ed="#P" n="94"/>potest, quia intellectualis creatura eo ipso quod
+          <lb ed="#P" n="95"/>creatura est, superiorem habet, cujus 
+          provi<lb break="no" ed="#P" n="96"/>dentiae et ordini subjaceat, et quia 
+          intellectua<lb break="no" ed="#P" n="97"/>lis est, capax est gubernationis moralis, quae
+          <lb ed="#P" n="98"/>fit per imperium: ergo connaturale est et 
+          ne<lb break="no" ed="#P" n="99"/>cessarium tali creaturae , ut subdatur alicui
+          <lb ed="#P" n="100"/>superiori, a quo per imperium seu legem 
+          re<lb break="no" ed="#P" n="101"/>gatur. Item talis creatura eo ipso quod ex
+          <lb ed="#P" n="102"/>nihilo facta est, flecti potest ad bonum et 
+          ma<lb break="no" ed="#P" n="103"/>lum, ut ex communi Patrum sententia nunc
+          <lb ed="#P" n="104"/>suppono : ergo non solum es capax legis, qua
+          <lb ed="#P" n="105"/>dirigatur ad bonum, et arceatur a malo, sed
+          <lb ed="#P" n="106"/>etiam aliqua talis lex est illi simpliciter 
+          ne<lb break="no" ed="#P" n="107"/>cessaria, ut convenienter sua naturae vivere
+          <pb ed="#P" n="8"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>possit. Vel etiam a contrario possumus 
+          argu<lb break="no" ed="#P" n="2"/>mentari : nam qui caret lege peccare non 
+          po<lb break="no" ed="#P" n="3"/>test : rationalis autem creatura potestatem 
+          ha<lb break="no" ed="#P" n="4"/>bet peccandi: ergo et legi necessario subdita
+          <lb ed="#P" n="5"/>est. Nec refert quod per gratiam vel gloriam
+          <lb ed="#P" n="6"/>possit haec creatura fieri impeccabilis: tum
+          <lb ed="#P" n="7"/>quia hic ce naturali necessitate loquimur: et
+          <lb ed="#P" n="8"/>hoc modo dicimus necessariam esse legem,
+          <lb ed="#P" n="9"/>supposita conditione naturae rationalis: tum
+          <lb ed="#P" n="10"/>etiam quia per donum quo talis natura fit 
+          im<lb break="no" ed="#P" n="11"/>peccabilis, non tollitur, quin sit subdita legi
+          <lb ed="#P" n="12"/>quoad illos actus quos libere exercere potest;
+          <lb ed="#P" n="13"/>sed fit ut indefectibiliter pateat legi. Altera
+          <lb ed="#P" n="14"/>vero pars de utilitate ex priori clara est, quia
+          <lb ed="#P" n="15"/>necessitas in ordine ad finem, utilitatem 
+          ne<lb break="no" ed="#P" n="16"/>cessario includit. lItem, quia de legibus 
+          scri<lb break="no" ed="#P" n="17"/>ptum est illud, psal. 18: Ler Domini 
+          imma<lb break="no" ed="#P" n="18"/>culata, convertens animas, etc.; et illud, Prov.
+          <lb ed="#P" n="19"/>6: Mandatum lucerna est, et lex lua, et similia,
+          <lb ed="#P" n="20"/>quae postea insinuabimus, et magnas ostendunt
+          <lb ed="#P" n="21"/>legis utilitates.
+        </p>
+        <p xml:id="szdleg-a01967-d1e316">
+          <lb ed="#P" n="22"/>4. Verumtamen quia utilitas haec, vel 
+          ne<lb break="no" ed="#P" n="23"/>cessitas non est eadem in omnibus legibus, ad
+          <lb ed="#P" n="24"/>illam exacte declarandam operae pretium erit,
+          <lb ed="#P" n="25"/>varia genera legum distinguere, et in singulis
+          <lb ed="#P" n="26"/>propriam necessitatem, vel utilitatem 
+          expli<lb break="no" ed="#P" n="27"/>care: ita enim constabit non solum esse 
+          le<lb break="no" ed="#P" n="28"/>gem in genere, sed etiam in particulari 
+          quo<lb break="no" ed="#P" n="29"/>tuplex sit, quod etiam necessarium est, ut de
+          <lb ed="#P" n="30"/>toto objecto hujus tractatus quaestionem, an
+          <lb ed="#P" n="31"/>sit, plene definiamus: ostendimus enim supra
+          <lb ed="#P" n="32"/>objectum hoc omnes legum species complecti.
+          <lb ed="#P" n="33"/>Erit etiam hoc opportunum, ut intelligantur
+          <lb ed="#P" n="34"/>voces quibus in discursu totius tractatus nobis
+          <lb ed="#P" n="35"/>utendum est.
+        </p>
+        <p xml:id="szdleg-a01967-d1e349">
+          <lb ed="#P" n="36"/>5. Legum divisio in varia membra. —
+          Pri<lb break="no" ed="#P" n="37"/>mo ergo supponere possumus divisionem 
+          le<lb break="no" ed="#P" n="38"/>gis in quatuor membra , quam posuit Plato
+          <lb ed="#P" n="39"/>in Timaeo et Phaedro, scilicet, in divinam,
+          <lb ed="#P" n="40"/>coelestem, naturalem et humanam, ex quibus
+          <lb ed="#P" n="41"/>vocibus secunda non admittitur a theologis,
+          <lb ed="#P" n="42"/>quia vel superflua est, vel erroneam 
+          doctri<lb break="no" ed="#P" n="43"/>nam continet. Per coelestem enim legem 
+          fa<lb break="no" ed="#P" n="44"/>tum, et necessitatem quamdam operandi, quae
+          <lb ed="#P" n="45"/>ex ordinato motu et influxu coelorum provenit,
+          <lb ed="#P" n="46"/>Plato intellexit : unde si intelligat legem illam
+          <lb ed="#P" n="47"/>talem esse, ut vel divinae providentiae non sit
+          <lb ed="#P" n="48"/>subjecta, vel rebus omnibus, etiam hominibus,
+          <lb ed="#P" n="49"/>quoad proprias animae operationes 
+          necessita<lb break="no" ed="#P" n="50"/>tem imponat, falsam et haereticam sententiam
+          <lb ed="#P" n="51"/>continet, divinae gubernationi et libertati 
+          ar<lb break="no" ed="#P" n="52"/>bitrii contrariam: si vero per coelestem legem
+          <lb ed="#P" n="53"/>solum intelligat quod Aristoteles dixit, 
+          mun<lb break="no" ed="#P" n="54"/>dum hunc inferiorem conjunctum esse sphaeris
+          <lb ed="#P" n="55"/>coelestibus, ut inde gubernetur, per naturales,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>scilicet. influentias et vicissitudines, quae a Deo
+          <lb ed="#P" n="57"/>semper pendeant, corpora immutent, et non
+          <lb ed="#P" n="58"/>animas, sic non oportuit membrum illud 
+          dis<lb break="no" ed="#P" n="59"/>tinguere, quia eo modo quo potest appellari
+          <lb ed="#P" n="60"/>lex, sub naturali comprehenditur, ut 
+          monstra<lb break="no" ed="#P" n="61"/>bimus. Omissa ergo illa secunda voce, alia tria
+          <lb ed="#P" n="62"/>sunt etiam in usu theologorum, sed in sensu
+          <lb ed="#P" n="63"/>aliquantulum diverso.
+        </p>
+        <p xml:id="szdleg-a01967-d1e414">
+          <lb ed="#P" n="64"/>6. Quid sit lex divina apud Platonem et 
+          qui<lb break="no" ed="#P" n="65"/>bus modis usurpelur. — Prima divisio legis,
+          <lb ed="#P" n="66"/>in temporalem et eternam. — Lex ergo divina
+          <lb ed="#P" n="67"/>apud Platonem est ratio gubernatrix universi
+          <lb ed="#P" n="68"/>in Dei mente existens , quam legem etiam
+          <lb ed="#P" n="69"/>theologi agnoscunt, sed legem aeternam 
+          appel<lb break="no" ed="#P" n="70"/>lant. Duobus enim modis dici potest lex divina:
+          <lb ed="#P" n="71"/>uno modo, quia in ipso Deo est: alio modo,
+          <lb ed="#P" n="72"/>quia ab ipso Deo immediate fertur, licet extra
+          <lb ed="#P" n="73"/>Deum ipsum sit. Priori modo legem divinam
+          <lb ed="#P" n="74"/>appellavit Plato, theologi vero cum Augustino
+          <lb ed="#P" n="75"/>ut distinguant illam legem ab alia, quam Deus
+          <lb ed="#P" n="76"/>extra se fert, vocant illam aeternam: et ita
+          <lb ed="#P" n="77"/>etiam nos appellabimus. De ipsa igitur re,
+          <lb ed="#P" n="78"/>quae lex aeterna vocatur, tam certum est esse
+          <lb ed="#P" n="79"/>in Deo, quam est certum habere Deum 
+          uni<lb break="no" ed="#P" n="80"/>versi providentiam, quia per hanc vocem nihil
+          <lb ed="#P" n="81"/>aliud significatur, quam ratio hujus 
+          providen<lb break="no" ed="#P" n="82"/>tiae in Deo existens, vel aliquid ejus : quo modo
+          <lb ed="#P" n="83"/>autem recipiat nomen et proprietatem aeternae
+          <lb ed="#P" n="84"/>legis, in principio libri sequentisexplicabimus.
+          <lb ed="#P" n="85"/>Et hinc facile intelligitur quae sit necessitas et
+          <lb ed="#P" n="86"/>ntlitas hujus legis, est enim eadem quae 
+          divi<lb break="no" ed="#P" n="87"/>nae providentiae : nam, sicut absque divina 
+          pro<lb break="no" ed="#P" n="88"/>videntia mundus non posset consistere, ita
+          <lb ed="#P" n="89"/>neque sine hac divina et aeterna lege, et omnis
+          <lb ed="#P" n="90"/>utilitas et commoditas, quae huic mundo 
+          pro<lb break="no" ed="#P" n="91"/>venit ex divina providentia in hanc etiam 
+          divi<lb break="no" ed="#P" n="92"/>nam legem referenda est. Advertit autem D.
+          <lb ed="#P" n="93"/>Thomas, 1. 2, q. 91, art. 1, ad 3, utilitatem
+          <lb ed="#P" n="94"/>hujus legis non esse, quia ipsa ordinatur ad
+          <lb ed="#P" n="95"/>finem, sed quia ipsa ordinat omnia alia ad
+          <lb ed="#P" n="96"/>suos fines per convenientia media : ipsa enim
+          <lb ed="#P" n="97"/>non potest ad finem ordinari, cum sit ipse
+          <lb ed="#P" n="98"/>Deus, qui est ultimus finis omnium. Tandem
+          <lb ed="#P" n="99"/>ex hac prima lege divina, seu aeterna colligi
+          <lb ed="#P" n="100"/>potest prima divisio legis, in aeternam et 
+          tem<lb break="no" ed="#P" n="101"/>poralem, supponimus enim nihil esse aeternum
+          <lb ed="#P" n="102"/>extra Deum: constat autem plures esse leges
+          <lb ed="#P" n="103"/>extra Deum existentes: ergo praeter legem
+          <lb ed="#P" n="104"/>ecternam necesse est dari alias tem porales, quae
+          <lb ed="#P" n="105"/>consequenter differunt tanquam creatum et
+          <lb ed="#P" n="106"/>increatum, quia quidquid est aeternum, 
+          in<lb break="no" ed="#P" n="107"/>creatum est, et quod est temporale, est 
+          crea<lb break="no" ed="#P" n="108"/>tum. Hinc ergo constat dari legem divinam,
+          <lb ed="#P" n="109"/>id est, in Deo ipso existentem : quomodo 
+          au<lb break="no" ed="#P" n="110"/>tem detur lex divina a Deo proxime lata, pate-
+          <pb ed="#P" n="9"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bit ex dicendis. Denique datur lex in Deo ipso
+          <lb ed="#P" n="2"/>existens : haec enim omnia in idem recidunt.
+        </p>
+        <p xml:id="szdleg-a01967-d1e527">
+          <lb ed="#P" n="3"/>7. Secunda divisio legis in naturalem, et 
+          po<lb break="no" ed="#P" n="4"/>sitivam. — D. Isidorus. — Ex alis igitur 
+          duo<lb break="no" ed="#P" n="5"/>bus membris legis a Platone positis secunda
+          <lb ed="#P" n="6"/>divisio legis colligitur, quae est subdivisio legis
+          <lb ed="#P" n="7"/>creatae, in naturalem et positivam. Quam 
+          di<lb break="no" ed="#P" n="8"/>visionem omnes etiam theologi agnoscunt, et
+          <lb ed="#P" n="9"/>est frequens apud Sanctos , sive sub nomine
+          <lb ed="#P" n="10"/>legis, sive sub nomine juris positivi et 
+          natura<lb break="no" ed="#P" n="11"/>lis. Ut patet ex Isidoro, lib. 2 et 3 Etymol.,
+          <lb ed="#P" n="12"/>et habetur in Decret. , distinct. 1 et 
+          sequenti<lb break="no" ed="#P" n="13"/>bus, et sumitur ex Augustino , tract. 6, in
+          <lb ed="#P" n="14"/>Joannem, et indicata est a Paulo, Roman. 2,
+          <lb ed="#P" n="15"/>dicente : Gentes quae legem non habent, 
+          natura<lb break="no" ed="#P" n="16"/>liter ea quae legis sunt , faciunt , ut ibi Glossa
+          <lb ed="#P" n="17"/>ordinar. notavit. Eadem divisic repetitur in
+          <lb ed="#P" n="18"/>jure civili , Instit. de Jure natur. gentium et
+          <lb ed="#P" n="19"/>civili, et lib. 1, ff. de Justitia et jure. Et
+          <lb ed="#P" n="20"/>Cicero, lib. 1 de Legibus, ex professo probat
+          <lb ed="#P" n="21"/>dari jus naturale prius omni humano. De quo
+          <lb ed="#P" n="22"/>multa etiam habet, lib. 2 de Legibus, et 
+          Aris<lb break="no" ed="#P" n="23"/>toteles, 5 Ethicor., cap. 7, ubi in eodem sensu
+          <lb ed="#P" n="24"/>distinguit jus in naturale et legaie.
+        </p>
+        <p xml:id="szdleg-a01967-d1e577">
+          <lb ed="#P" n="25"/>8. Quibus modis lex naturalis apud auctores
+          <lb ed="#P" n="26"/>uswrpetur. — Sed circa legem naturalem 
+          ad<lb break="no" ed="#P" n="27"/>vertendum est, variis modis a philosophis, 
+          ju<lb break="no" ed="#P" n="28"/>risperitis , vel theologis accipi. Plato enim
+          <lb ed="#P" n="29"/>supra legem naturalem videtur accipere pro
+          <lb ed="#P" n="30"/>omni inclinatione naturali indita rebus a suo
+          <lb ed="#P" n="31"/>creatore, qua singula ad proprios actus et fines
+          <lb ed="#P" n="32"/>tendunt. Sicut enim legem divinam esse dixit
+          <lb ed="#P" n="33"/>rationem aeternam in Deo existentem, qua 
+          re<lb break="no" ed="#P" n="34"/>guntur omnia, ita participationem illius 
+          ratio<lb break="no" ed="#P" n="35"/>nis creaturis impressam, ut in destinatos fines
+          <lb ed="#P" n="36"/>suos tendant , naturalem legem appellavit:
+          <lb ed="#P" n="37"/>imo etiam D. Thomas, 1. 2, quaest. 91, art. 2,
+          <lb ed="#P" n="38"/>dixit omnia quae divina providentia reguntur,
+          <lb ed="#P" n="39"/>participare aliqualiter legem aeternam, in
+          <lb ed="#P" n="40"/>quantum ex efficacia ejus habent inclinationes
+          <lb ed="#P" n="41"/>in proprios actus et fines. At vero jurisperiti
+          <lb ed="#P" n="42"/>legem naturalem communem esse dicunt, non
+          <lb ed="#P" n="43"/>solum hominibus, sed etiam aliis animalibus;
+          <lb ed="#P" n="44"/>inanimata vero a participatione hujus legis
+          <lb ed="#P" n="45"/>excludere videntur, ut patet ex S 1 Instit. de
+          <lb ed="#P" n="46"/>Jure naturali, etc., et lib. 1, ff. de Justit. et
+          <lb ed="#P" n="47"/>jure.
+        </p>
+        <p xml:id="szdleg-a01967-d1e630">
+          <lb ed="#P" n="48"/>9. Lex secundum proprietatem insensibilibus
+          <lb ed="#P" n="49"/>non attribwitur. — Verumtamen, ut in primo
+          <lb ed="#P" n="50"/>capite notavi, lex non attribuitur rebus 
+          insen<lb break="no" ed="#P" n="51"/>sibilibus secundum proprietatem , sed 
+          secun<lb break="no" ed="#P" n="52"/>dum metaphoram, et ideo de illa priori ac
+          <lb ed="#P" n="53"/>generalissima acceptione legis naturalis, nihil
+          <lb ed="#P" n="54"/>amplius hic dicere necesse est , praeter ea quae
+          <lb ed="#P" n="55"/>in cap. 1 diximus , et quae infra dicemus de
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>lege aeterna. Animalia etiam bruta non sunt
+          <lb ed="#P" n="57"/>capacia proprie legis, cum nec ratione nec 
+          li<lb break="no" ed="#P" n="58"/>bertate utantur, et ideo non potest nisi per 
+          si<lb break="no" ed="#P" n="59"/>milem metaphoram illis attribui naturalis lex.
+          <lb ed="#P" n="60"/>Quamvis enim in hoc differant ab 
+          insensibili<lb break="no" ed="#P" n="61"/>bus, quod non solo pondere naturae, sed etiam
+          <lb ed="#P" n="62"/>cognitione et instinctu naturali ducuntur, qui
+          <lb ed="#P" n="63"/>instinctus est illis quasi lex, et hac ratione
+          <lb ed="#P" n="64"/>possit aliqualiter sustineri illa secunda acceptio
+          <lb ed="#P" n="65"/>jurisconsultorum ; nihilominus simpliciter est
+          <lb ed="#P" n="66"/>metaphorica et valde analoga, et ideo etiam
+          <lb ed="#P" n="67"/>nunc illam omittimus : infra enim , lib. 2,
+          <lb ed="#P" n="68"/>cap. S, explicando jus gentium, sensum 
+          pro<lb break="no" ed="#P" n="69"/>prium illarum legum investigare conabimur.
+          <lb ed="#P" n="70"/>10. Quenam sit propria lex naturalis. —
+          <lb ed="#P" n="71"/>Lex ergo naturalis propria, quae ad moralem
+          <lb ed="#P" n="72"/>doctrinam et theologiam pertinet, est illa quae
+          <lb ed="#P" n="73"/>humanae menti insidet ad discernendum 
+          ho<lb break="no" ed="#P" n="74"/>nestum a turpi, juxta illud Psalm. 4: Quis
+          <lb ed="#P" n="75"/>ostendit nobis bona? signatum est super nos 
+          lu<lb break="no" ed="#P" n="76"/>men vultus tui Domine, ut explicuit D. Thomas,
+          <lb ed="#P" n="77"/>d. quaest. 91, art. 2, ubi concludit legem 
+          natu<lb break="no" ed="#P" n="78"/>ralem esse participationem legis eeternae in 
+          ra<lb break="no" ed="#P" n="79"/>tionali creatura. Et in 4, distinct. 33, art. 1:
+          <lb ed="#P" n="80"/>Quia homo (inquit) inter cetera animata 
+          ratio<lb break="no" ed="#P" n="81"/>nem. finis cognoscit, et proportionem operis ad
+          <lb ed="#P" n="82"/>finem : ideo naturalis conceptio ei indita, que
+          <lb ed="#P" n="83"/>dirigitur ad operandum convenienter, lem 
+          natu<lb break="no" ed="#P" n="84"/>ralis, seu jus naturale dicitur :in ceteris 
+          au<lb break="no" ed="#P" n="85"/>tem naturalis estimatio vocatur. Et hoc etiam
+          <lb ed="#P" n="86"/>aperte sensit Cicero, lib. 2 de Legibus: nam
+          <lb ed="#P" n="87"/>post verba supra citata de lege aeterna subdit:
+          <lb ed="#P" n="88"/>Er qua illa lex, quam Dii humano generi 
+          dede<lb break="no" ed="#P" n="89"/>runt, recte est laudata : est enim ratio, mensque
+          <lb ed="#P" n="90"/>sapientis ad jubendum, et ad deterrendum 
+          ido<lb break="no" ed="#P" n="91"/>nea. Ita ergo haec lex naturalis dicitur, non 
+          so<lb break="no" ed="#P" n="92"/>lum prout naturale a supernaturali 
+          distingui<lb break="no" ed="#P" n="93"/>tur , sed etiam prout distinguitur a 
+          libe<lb break="no" ed="#P" n="94"/>ro: non quia ejus executio naturalis sit, seu
+          <lb ed="#P" n="95"/>ex necessitate fiat, sicut executio naturalis
+          <lb ed="#P" n="96"/>inclinationis est in brutis vel rebus 
+          ina<lb break="no" ed="#P" n="97"/>nimis ; sed quia lex illa est veluti proprietas
+          <lb ed="#P" n="98"/>quaedam naturae, et quia Deus ipse illam 
+          na<lb break="no" ed="#P" n="99"/>turae inseruit. Et ex hac parte etiam est divina
+          <lb ed="#P" n="100"/>haec lex, tanquam a DEO immediate lata, ut
+          <lb ed="#P" n="101"/>sensit D. Thomas, dicta quaest. 91, et quaest. 94,
+          <lb ed="#P" n="102"/>art. 6, ubi adducit D. Augustinum, 2 
+          Confes<lb break="no" ed="#P" n="103"/>sionum, cap. 4, dicentem ad Deum: Lec tua
+          <lb ed="#P" n="104"/>scripta in cordibus hominum - quod dictum est
+          <lb ed="#P" n="105"/>propter legem naturalem ; unde dixit in lib. 2
+          <lb ed="#P" n="106"/>de Sermone Domini in mont., cap. 9, nullam
+          <lb ed="#P" n="107"/>esse animam, in cujus conscientia non loguatur
+          <lb ed="#P" n="108"/>Deus. Quis enim scrilit in cordibus hominum
+          <lb ed="#P" n="109"/>naturalem legem nisi Deus ? Expressiusque
+          <lb ed="#P" n="110"/>hanc legem divinam appel!a tsaidorus, lib. 5
+          <pb ed="#P" n="10"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Etymol. cap. 2. Atque ex his tandem constat,
+          <lb ed="#P" n="2"/>quam sit necessaria et utilis haec lex, cum in
+          <lb ed="#P" n="3"/>ea posita sit discretio inter honestum et turpe
+          <lb ed="#P" n="4"/>in rationali natura. Verumtamen haec omnia
+          <lb ed="#P" n="5"/>longam requirunt declarationem, sed ne 
+          ordi<lb break="no" ed="#P" n="6"/>nem invertamus , et confundamus omnia, in
+          <lb ed="#P" n="7"/>librum sequentem illam reservamus.
+        </p>
+        <p xml:id="szdleg-a01967-d1e791">
+          <lb ed="#P" n="8"/>11. Superest dicendum de quadam 
+          subdivi<lb break="no" ed="#P" n="9"/>sione legis naturalis : prius autem oportet 
+          ali<lb break="no" ed="#P" n="10"/>quid dicere de quarta lege a Platone posita,
+          <lb ed="#P" n="11"/>quam humanam appellavit, et pertinet ad jus
+          <lb ed="#P" n="12"/>illud quod Aristoteles vocavit jus legale, quod
+          <lb ed="#P" n="13"/>ipse ita descripsit : Est jus, quod a principio
+          <lb ed="#P" n="14"/>nihil refert : postquam autem positivum est,
+          <lb ed="#P" n="15"/>multum refert. Quod ex parte materiae talis
+          <lb ed="#P" n="16"/>juris intelligendum est, quia versatur circa
+          <lb ed="#P" n="17"/>actiones quae secluso tali jure non essent sub
+          <lb ed="#P" n="18"/>obligatione : per illud autem efficiuntur 
+          neces<lb break="no" ed="#P" n="19"/>sariae. Denique ad hoc membrum spectant
+          <lb ed="#P" n="20"/>illa leges quas Cicero, lib. 2 de Legibus, a lege
+          <lb ed="#P" n="21"/>eeterna et naturali distinguit, et populares 
+          vo<lb break="no" ed="#P" n="22"/>cat : nos autem, more theologorum, legem
+          <lb ed="#P" n="23"/>creatam seu temporalem in naturalem et 
+          posi<lb break="no" ed="#P" n="24"/>tivam divisimus, quia positiva latius patet
+          <lb ed="#P" n="25"/>quam humana. Est enim advertendum 
+          philo<lb break="no" ed="#P" n="26"/>sophos non agnovisse supernaturalem 
+          homi<lb break="no" ed="#P" n="27"/>num finem, sed solum de hujus vitae aliquali
+          <lb ed="#P" n="28"/>felicitate, vel potius convenienti statu, ad 
+          il<lb break="no" ed="#P" n="29"/>lam in pace et justitia transigendam, tractasse,
+          <lb ed="#P" n="30"/>et in ordine ad hunc finem de legibus 
+          conside<lb break="no" ed="#P" n="31"/>rasse, et ita naturalem legem solum ab 
+          huma<lb break="no" ed="#P" n="32"/>na, quam nos civilem appellare possumus,
+          <lb ed="#P" n="33"/>distinxisse, de qua statim aliquid dicemus. At
+          <lb ed="#P" n="34"/>vero cum fides doceat homines ad finem 
+          su<lb break="no" ed="#P" n="35"/>pernaturalem vitae futurae per convenientia
+          <lb ed="#P" n="36"/>media in hac vita exequenda ordinari, recte
+          <lb ed="#P" n="37"/>sacra theologia infert, longe aliter esse 
+          neces<lb break="no" ed="#P" n="38"/>sariam hanc legem naturalem, et pluribus 
+          le<lb break="no" ed="#P" n="39"/>gibus positivis homines indigere, quam iidem
+          <lb ed="#P" n="40"/>philosophi fuerint assecuti.
+        </p>
+        <p xml:id="szdleg-a01967-d1e865">
+          <lb ed="#P" n="41"/>12. Quibus modis consideratur natura 
+          hu<lb break="no" ed="#P" n="42"/>mana in ordine ad leges quibus indiget.— 
+          Quo<lb break="no" ed="#P" n="43"/>tuplez sit les naturalis. — Circa legem ergo
+          <lb ed="#P" n="44"/>naturalem docet theologia, hominem 
+          secun<lb break="no" ed="#P" n="45"/>dum duplicem naturam , et duplex rationis
+          <lb ed="#P" n="46"/>lumen considerari posse. Primo secundum 
+          pu<lb break="no" ed="#P" n="47"/>ram naturam, seu substantiam animae 
+          rationa<lb break="no" ed="#P" n="48"/>lis, et consequenter secundum rationis Iumen
+          <lb ed="#P" n="49"/>illi connaturale : secundo juxta naturam 
+          gra<lb break="no" ed="#P" n="50"/>tiae desuper homini infusae, et secundum 
+          divi<lb break="no" ed="#P" n="51"/>num, ac supernaturale Iumen fidei, per quod
+          <lb ed="#P" n="52"/>pro statu viae regitur et gubernatur. Et juxta
+          <lb ed="#P" n="53"/>haec duo principia distinguit duplicem legem
+          <lb ed="#P" n="54"/>naturalem : aliam simpliciter naturalem 
+          res<lb break="no" ed="#P" n="55"/>pectu hominis: aliam, quae licet supernaturalis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sit respectu hominis (quia totus ordo gratiae
+          <lb ed="#P" n="57"/>illi supernaturalis est) nihilominus naturalis
+          <lb ed="#P" n="58"/>dici potest respectu gratiae ; quia etiam gratia
+          <lb ed="#P" n="59"/>habet suam propriam essentiam et naturam,
+          <lb ed="#P" n="60"/>cui connaturale est lumen infusum, cui etiam
+          <lb ed="#P" n="61"/>connaturale est non solum dirigere homines ad
+          <lb ed="#P" n="62"/>rectam et honestam, ac debitam operationem
+          <lb ed="#P" n="63"/>supernaturalem, sed etiam depellere tenebras
+          <lb ed="#P" n="64"/>et errores circa ipsammet legem pure 
+          natura<lb break="no" ed="#P" n="65"/>lem, et sub altiori ratione praecipere ipsiusmet
+          <lb ed="#P" n="66"/>legis naturalis observationem. Sic ergo lex
+          <lb ed="#P" n="67"/>naturalis duplex distingui potest, una pure
+          <lb ed="#P" n="68"/>naturalis, alia simpliciter supernaturalis, 
+          natu<lb break="no" ed="#P" n="69"/>ralis autem respective, per comparationem ad
+          <lb ed="#P" n="70"/>gratiam: unde cum lex naturalis etiam pura
+          <lb ed="#P" n="71"/>divina sit, quia a Deo manat, multo magis lex
+          <lb ed="#P" n="72"/>naturalis divini ordinis divina est : nam prior
+          <lb ed="#P" n="73"/>est a Deo mediante natura, a qua manat, 
+          tan<lb break="no" ed="#P" n="74"/>quam proprietas ejus: posterior autem est a
+          <lb ed="#P" n="75"/>Deo per se infundente gratiam, et ipsum 
+          super<lb break="no" ed="#P" n="76"/>naturale lumen, ac actualiter etiam dirigente
+          <lb ed="#P" n="77"/>homines ad dictamina illius legis perficienda
+          <lb ed="#P" n="78"/>per auxilia gratiae excitantis et adjuvantis.
+        </p>
+        <p xml:id="szdleg-a01967-d1e952">
+          <lb ed="#P" n="79"/>13. Denique utraque lex dici potest 
+          conna<lb break="no" ed="#P" n="80"/>turalis generi humano, eo modo quo naturale
+          <lb ed="#P" n="81"/>quodammodo dicitur quod cum natura 
+          con<lb break="no" ed="#P" n="82"/>creatum est, semperque in illa perseveravit.
+          <lb ed="#P" n="83"/>Ita enim lex etiam connaturalis gratiae semper
+          <lb ed="#P" n="84"/>in humano genere fuit, quia nunquam in 
+          ho<lb break="no" ed="#P" n="85"/>minibus universis, seu in tota Ecclesia Iumen
+          <lb ed="#P" n="86"/>fidei defuit, neque homines caruerunt unquam
+          <lb ed="#P" n="87"/>lege divina supernatarali, sine qua non 
+          po<lb break="no" ed="#P" n="88"/>tuissent in supernaturalem beatitudinem 
+          ten<lb break="no" ed="#P" n="89"/>dere. Unde quando distingui solent status 
+          ho<lb break="no" ed="#P" n="90"/>minum per leges, scilicet in statum legis
+          <lb ed="#P" n="91"/>naturalis, scriptae vel gratiae: in primo statu
+          <lb ed="#P" n="92"/>per legem naturalem intelligenda est tam lex
+          <lb ed="#P" n="93"/>solius naturae, quam lex connaturalis gratiae,
+          <lb ed="#P" n="94"/>seu lex fidei: non potuit enim mundus 
+          un<lb break="no" ed="#P" n="95"/>quam carere omnino hac lege secundum 
+          ordi<lb break="no" ed="#P" n="96"/>nariam providentiam, cum factores legis 
+          sem<lb break="no" ed="#P" n="97"/>per potuerint cum divino auxilio justificari,
+          <lb ed="#P" n="98"/>ut sumitur ex Paulo, ad Rom., cap. 2 et 3.
+          <lb ed="#P" n="99"/>Atque ita etiam patet quae fuerit necessitas et
+          <lb ed="#P" n="100"/>utilitas legis naturalis in hoc posteriori sensu
+          <lb ed="#P" n="101"/>declaratae, nimirum, quia gratia, et fides 
+          sem<lb break="no" ed="#P" n="102"/>per fuit necessaria: et haec lex est illis 
+          conna<lb break="no" ed="#P" n="103"/>turalis. Item ut haberet homo legem, per 
+          cu<lb break="no" ed="#P" n="104"/>jus observantiam posset consequi remissionem
+          <lb ed="#P" n="105"/>peccatorum, ac vitam aeternam , cum divino
+          <lb ed="#P" n="106"/>auxilio.
+        </p>
+        <p xml:id="szdleg-a01967-d1e1015">
+          <lb ed="#P" n="107"/>14. Quaena sit lex positiva. — Circa 
+          alte<lb break="no" ed="#P" n="108"/>rum membrum de lege positiva sciendum est,
+          <lb ed="#P" n="109"/>illam legem vocari positivam, quae non est 
+          in<lb break="no" ed="#P" n="110"/>nata cum natura, vel gratia, sed ultra illas ab
+          <pb ed="#P" n="11"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>aliquo principio extrinseco habente 
+          potesta<lb break="no" ed="#P" n="2"/>tem posita est; inde enim positiva diecta est,
+          <lb ed="#P" n="3"/>quasi addita naturali legi, non ex illa 
+          necessa<lb break="no" ed="#P" n="4"/>rio manans. Unde ab aliquibus jus positum
+          <lb ed="#P" n="5"/>vocatur, ut videri potest in Conimbrioco, l. 1
+          <lb ed="#P" n="6"/>Comment. jur. civil., cap. 8. Et in legem 
+          po<lb break="no" ed="#P" n="7"/>sitivam sic sumptam convenit, quod 
+          Aristote<lb break="no" ed="#P" n="8"/>les, 1 Ethic., cap. 9, dixit legem esse 
+          sermo<lb break="no" ed="#P" n="9"/>nem ab aliqua prudentia, et mente profectum,
+          <lb ed="#P" n="10"/>qua vim habeat ad cogendum. Nam hcet ille de
+          <lb ed="#P" n="11"/>lege humana tantum loquatur, tamen verba
+          <lb ed="#P" n="12"/>ejus de se generaliora sunt, et ita etiam 
+          posi<lb break="no" ed="#P" n="13"/>tiva latius patet, quam humana.
+        </p>
+        <p xml:id="szdleg-a01967-d1e1059">
+          <lb ed="#P" n="14"/>15. Atque hinc traditur a theologis tertia
+          <lb ed="#P" n="15"/>divisio legis positivae in divinam et humanam.
+          <lb ed="#P" n="16"/>Lex positiva divina dicitur, quae ab ipso Deo
+          <lb ed="#P" n="17"/>immediate lata est, et toti legi naturahl addita ;
+          <lb ed="#P" n="18"/>de humana statim dicemus. Praeter has vero
+          <lb ed="#P" n="19"/>non potest esse alia positiva lex respectu 
+          ho<lb break="no" ed="#P" n="20"/>minum , quia non sunt plures legislatores:
+          <lb ed="#P" n="21"/>Angeli enim non habent hanc potestatem in
+          <lb ed="#P" n="22"/>homines, quia nec naturalis illis est, nec a
+          <lb ed="#P" n="23"/>Deo est illis concessa : nulli enim id revelatum
+          <lb ed="#P" n="24"/>scimus : unde nec divinare illud possumus.
+          <lb ed="#P" n="25"/>Lex itaque divina in praesenti non dicitur lex
+          <lb ed="#P" n="26"/>in Deo existens, sed a Deo manans special
+          <lb ed="#P" n="27"/>quodam modo: non enim significat legem
+          <lb ed="#P" n="28"/>conceptam , sed exhibitam, et in hoc inter
+          <lb ed="#P" n="29"/>alia differt a lege divina, prout illam posuit
+          <lb ed="#P" n="30"/>Plato. Deinde differt haec lex a naturali sumpta
+          <lb ed="#P" n="31"/>cum omni perfectione supra declarata, quia
+          <lb ed="#P" n="32"/>lex naturalis non additur a Deo specialiter ipsi
+          <lb ed="#P" n="33"/>naturae, vel gratiae : haec autem lex specialiter
+          <lb ed="#P" n="34"/>ponitur, et additur ultra illam. Unde lex 
+          na<lb break="no" ed="#P" n="35"/>turalis non confertur per se primo, ut speciale
+          <lb ed="#P" n="36"/>donum legis, sed censetur idem donum, vel
+          <lb ed="#P" n="37"/>cum ipsa natura, vel cum ipsa fide et gratia:
+          <lb ed="#P" n="38"/>nam qui dat formam, dat consequentia ad 
+          for<lb break="no" ed="#P" n="39"/>mam ; haec autem lex per se primo datur 
+          tan<lb break="no" ed="#P" n="40"/>quam donum additum et naturae, et gratiae. Et
+          <lb ed="#P" n="41"/>hinc factum est, ut haec soleat appellari 
+          sim<lb break="no" ed="#P" n="42"/>pliciter lex, ut patet ex tota Epistola ad Rom.,
+          <lb ed="#P" n="43"/>et ex aliis Scripturae locis, quae statim 
+          insinua<lb break="no" ed="#P" n="44"/>bimus. Atque ideo lex divina simpliciter dicta
+          <lb ed="#P" n="45"/>solet de hac positiva intelligi, et ita etiam nos
+          <lb ed="#P" n="46"/>frequentius loquemur.
+        </p>
+        <p xml:id="szdleg-a01967-d1e1134">
+          <lb ed="#P" n="47"/>16. Ex quo etiam facile constat, quae fuerit
+          <lb ed="#P" n="48"/>hujus divinae legis necessitas. In quo 
+          animad<lb break="no" ed="#P" n="49"/>vertendum est (ne propter ambiguitatem vocis
+          <lb ed="#P" n="50"/>decipi contingat), D. Thomam in quaest. 1,
+          <lb ed="#P" n="51"/>art. 4, quatuor afferre rationes ob quas fuit 
+          ne<lb break="no" ed="#P" n="52"/>cessaria lex divina; quas sialiquis attente 
+          con<lb break="no" ed="#P" n="53"/>sideret, inveniet solum probare de lege divina
+          <lb ed="#P" n="54"/>vel naturali, vel supernaturali, prout 
+          conna<lb break="no" ed="#P" n="55"/>turalis est gratiae : non vero de lege superna-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>turali positiva, prout nunc loquimur. Prima
+          <lb ed="#P" n="57"/>ratio est, ut dirigat hominem ad 
+          supernatu<lb break="no" ed="#P" n="58"/>ralem finem; secunda, ut juvet hominem
+          <lb ed="#P" n="59"/>etiam in naturalibus, ne erret; tertia, ut etiam
+          <lb ed="#P" n="60"/>de interioribus actibus possit praecipere, et
+          <lb ed="#P" n="61"/>ordinare : quarta, ut omne malum prohiberet
+          <lb ed="#P" n="62"/>quod lex humana non potest. Et ad has 
+          qua<lb break="no" ed="#P" n="63"/>tuor proprietates accommodat illud Psalm. 18:
+          <lb ed="#P" n="64"/>Levr Domini immaculata, convertens animas,
+          <lb ed="#P" n="65"/>teslimonium Domini fidele, sapientiam 
+          praes<lb break="no" ed="#P" n="66"/>tans parvulis : nam in hoc ultimo verbo 
+          con<lb break="no" ed="#P" n="67"/>tinetur prima ratio, quia per sapientiam 
+          or<lb break="no" ed="#P" n="68"/>dinatur homo ad supernaturalem fidem : in
+          <lb ed="#P" n="69"/>tertia autem, seu penultima proprietate 
+          conti<lb break="no" ed="#P" n="70"/>netur ultima ratio : nam quia haec lex nititur
+          <lb ed="#P" n="71"/>in veritate Dei, non potest subesse erroribus:
+          <lb ed="#P" n="72"/>imo errores naturae potest emendare et 
+          cohi<lb break="no" ed="#P" n="73"/>bere : praeterea in secunda proprietate 
+          insi<lb break="no" ed="#P" n="74"/>nuatur ratio tertia : nam quia lex divina 
+          inte<lb break="no" ed="#P" n="75"/>riores actus dirigit, merito convertere animas
+          <lb ed="#P" n="76"/>dicitur : ac denique immaculata dicitur, quia
+          <lb ed="#P" n="77"/>nullum malum permittit. At vero hae omnes
+          <lb ed="#P" n="78"/>rationes maxime probant de lege divina 
+          con<lb break="no" ed="#P" n="79"/>naturali gratiae, praesertim ratio prima et 
+          se<lb break="no" ed="#P" n="80"/>cunda, ut supra etiam tetigi. Nam ratio tertia
+          <lb ed="#P" n="81"/>et quarta etiam in pura lege naturah locum
+          <lb ed="#P" n="82"/>habent, quia illa praecipit etiam internos actus
+          <lb ed="#P" n="83"/>bonos et malos prohibet, nullumque actum
+          <lb ed="#P" n="84"/>pravum re vera permittit. Imo lex divina 
+          po<lb break="no" ed="#P" n="85"/>sitiva, prout nunc de illa loquimur, ordinarie
+          <lb ed="#P" n="86"/>versatur circa actus exteriores, ut videre licet
+          <lb ed="#P" n="87"/>in lege veteri et in nova, quatenus est de 
+          sa<lb break="no" ed="#P" n="88"/>cramentis et de hierarchia ecclesiastica. Item
+          <lb ed="#P" n="89"/>per legem positivam non prohibet Deus omnia
+          <lb ed="#P" n="90"/>mala ; sed hoc spectat ad divinam legem 
+          na<lb break="no" ed="#P" n="91"/>turalem utriusque ordinis, ut supra explicata
+          <lb ed="#P" n="92"/>est.
+        </p>
+        <p xml:id="szdleg-a01967-d1e1238">
+          <lb ed="#P" n="93"/>11. Necessitas legis divine non est absoluta,
+          <lb ed="#P" n="94"/>sed em suppositione. — Unde colligimus, 
+          neces<lb break="no" ed="#P" n="95"/>sitatem legis divinae positivae non fuisse 
+          ne<lb break="no" ed="#P" n="96"/>cessitatem absolutam in ordine ad finem 
+          su<lb break="no" ed="#P" n="97"/>pernaturalem, sed fuisse necessitatem ex 
+          sup<lb break="no" ed="#P" n="98"/>positione institutionis Synagogsae, vel Ecclesiae,
+          <lb ed="#P" n="99"/>respectu cujus censeri potest necessitas 
+          sim<lb break="no" ed="#P" n="100"/>pliciter, licet respectu ipsius finis sit potius ad
+          <lb ed="#P" n="101"/>melius esse, et ad majorem hominum 
+          instruc<lb break="no" ed="#P" n="102"/>tionem, vel propter eorum nimiam caecitatem
+          <lb ed="#P" n="103"/>et depravatos mores, ad cohibendos illos, vel
+          <lb ed="#P" n="104"/>propter majorem perfectionem et lumen, ad
+          <lb ed="#P" n="105"/>perfectionem virtutis et sanctitatis 
+          assequen<lb break="no" ed="#P" n="106"/>dam : ratio est, quia, licet aliqua lex 
+          superna<lb break="no" ed="#P" n="107"/>turalis, sicut et supernaturalis cognitio, fuerit
+          <lb ed="#P" n="108"/>necessaria, sufficere poterat illa quae est 
+          con<lb break="no" ed="#P" n="109"/>naturalis ipsi uratiae : necessitas ergo adderli
+          <lb ed="#P" n="110"/>alteram legegn positivam orta est ex peculiari
+          <pb ed="#P" n="12"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>institutione corporis mystici spiritualis, ut sic
+          <lb ed="#P" n="2"/>dicam. Qua institutione supposita, possunt 
+          op<lb break="no" ed="#P" n="3"/>time applicari cum peoportione rationes divi
+          <lb ed="#P" n="4"/>Thomae ad hanc legem divinam positivam.
+          <lb ed="#P" n="5"/>Quae ulterius subdividi solet in veterem et 
+          no<lb break="no" ed="#P" n="6"/>vam. quam partitionem, in lib. 9 et 10, late
+          <lb ed="#P" n="7"/>sumus explicaturi.
+        </p>
+        <p xml:id="szdleg-a01967-d1e1299">
+          <lb ed="#P" n="8"/>18. Quae sit lex humana, et cur ita 
+          appelle<lb break="no" ed="#P" n="9"/>tur. — Superest dicendum de lege positiva 
+          hu<lb break="no" ed="#P" n="10"/>mana, quae ita denominatur a proximo 
+          prin<lb break="no" ed="#P" n="11"/>cipio, unde manat. Non enim dicitur lex 
+          hu<lb break="no" ed="#P" n="12"/>mana, quia hominibus imposita sit, nec quia
+          <lb ed="#P" n="13"/>in illis sit, ut in his qui per illam gubernandi
+          <lb ed="#P" n="14"/>sunt : quia licet hoc revera conveniat huic legi,
+          <lb ed="#P" n="15"/>non est proprium ejus, sed commune est omni
+          <lb ed="#P" n="16"/>legi, de qua tractamus, sive divina, sive 
+          natu<lb break="no" ed="#P" n="17"/>ralis sit : unde secundum illam 
+          denominatio<lb break="no" ed="#P" n="18"/>nem distingueretur potius les humana ab
+          <lb ed="#P" n="19"/>angelica, id est, a lege Angelis imposita, de
+          <lb ed="#P" n="20"/>qua non tractamus. Item non dicitur lex 
+          hu<lb break="no" ed="#P" n="21"/>mana ex materia, quia videlicet, de rebus 
+          hu<lb break="no" ed="#P" n="22"/>manis et non divinis feratur: nam licet fortasse
+          <lb ed="#P" n="23"/>haec denominatio cadere possit in legem, quam
+          <lb ed="#P" n="24"/>philosophi humanam nominarunt, revera non
+          <lb ed="#P" n="25"/>est ab eis intenta, nec est adaequata, quia lex
+          <lb ed="#P" n="26"/>humana latius patet, ut videbimus. Dicitur
+          <lb ed="#P" n="27"/>ergo humana lex, quia proxime ab hominibus
+          <lb ed="#P" n="28"/>inventa et posita est. Dico autem prorime, quia
+          <lb ed="#P" n="29"/>primordialiter omnis lex humana derivatur
+          <lb ed="#P" n="30"/>aliquo modo a lege aeterna; juxta illud : Per
+          <lb ed="#P" n="31"/>me reges regnant, et legem conditores justa 
+          de<lb break="no" ed="#P" n="32"/>cernunt, Proverb. 8; et quoad vim obligandi
+          <lb ed="#P" n="33"/>manat a potestate Deo data, quia non est 
+          po<lb break="no" ed="#P" n="34"/>testas, nisi a Deo, Roman. 13. Nihilominus
+          <lb ed="#P" n="35"/>tamen lex ipsa quae humana dicitur actus est
+          <lb ed="#P" n="36"/>hominis, et ita ab illo proxime fertur, et inde
+          <lb ed="#P" n="37"/>humana vocatur. Sic dixit Plutarchus, in 
+          Com<lb break="no" ed="#P" n="38"/>mentar. in principe requiri doctrinam: 
+          Jus<lb break="no" ed="#P" n="39"/>Litia legis est finis; ler autem principis opus;
+          <lb ed="#P" n="40"/>Princeps vero Dei simulacrum administrantis
+          <lb ed="#P" n="41"/>universa. Et Augustinus, lib. de vera Relig.,
+          <lb ed="#P" n="42"/>cap. 31: Conditor (inquit) legum temporalium,
+          <lb ed="#P" n="43"/>si vir bomus est et sapiens, legem eeternam 
+          con<lb break="no" ed="#P" n="44"/>sulit, ut secundum ejus immutabiles regulas
+          <lb ed="#P" n="45"/>quid sit pro tempore jubendum vetandumque
+          <lb ed="#P" n="46"/>discernat - et tract. 6, in Joan., dicit Deum per
+          <lb ed="#P" n="47"/>imperatores distribuisse humano generi jura
+          <lb ed="#P" n="48"/>humana. Est ergo lex humana opus hominis
+          <lb ed="#P" n="49"/>ab ejus potestate et prudentia proxime manens,
+          <lb ed="#P" n="50"/>et tanquam regula et mensura operationum
+          <lb ed="#P" n="51"/>subditis posita.
+        </p>
+        <p xml:id="szdleg-a01967-d1e1397">
+          <lb ed="#P" n="52"/>19. Quae sit necessitas legis humang.—
+          Di<lb break="no" ed="#P" n="53"/>vus Thomas. — Unde etiam facile constat quae
+          <lb ed="#P" n="54"/>sit necessitas vel utilitas hujus legis. Ut enim
+          <lb ed="#P" n="55"/>uotavit D. Thomas, quaest. 91, artic. 3, neces-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sitas manat ex eo, quod lex naturalis vel 
+          di<lb break="no" ed="#P" n="57"/>vina generalis est, et solum complectitur 
+          quae<lb break="no" ed="#P" n="58"/>dam principia morum per se nota, et ad
+          <lb ed="#P" n="59"/>summum extenditur ad ea quae necessaria, et
+          <lb ed="#P" n="60"/>evidenti illatione ex illis principiis 
+          consequun<lb break="no" ed="#P" n="61"/>tur; praeter illa vero multa alia sunt necessaria
+          <lb ed="#P" n="62"/>in republica humana ad ejus rectam 
+          guberna<lb break="no" ed="#P" n="63"/>tionem et conservationem; ideo necessarium
+          <lb ed="#P" n="64"/>fuit ut per humanam rationem aliqua magis
+          <lb ed="#P" n="65"/>in particulari determinarentur circa ea, quae
+          <lb ed="#P" n="66"/>per solam rationem naturalem definiri non
+          <lb ed="#P" n="67"/>possunt, et hoc fit per legem humanam, et
+          <lb ed="#P" n="68"/>ideo fuit valde necessaria. Unde Plato, lib.9
+          <lb ed="#P" n="69"/>de Legibus, non longe a fine : Necesse est
+          <lb ed="#P" n="70"/>(inquit! leges hominibus ponere, ut secundum
+          <lb ed="#P" n="71"/>leges vivant : nam si absque his vimerint, nihil
+          <lb ed="#P" n="72"/>a feris atrocissimis discreparint. Et simili 
+          mo<lb break="no" ed="#P" n="73"/>do dixit Aristoteles, libr. 1 Polit., cap. 2:
+          <lb ed="#P" n="74"/>Ut perfectione suscepta, oplimum omnium 
+          ani<lb break="no" ed="#P" n="75"/>malium est homo, ita si alienus fiat a lege et a
+          <lb ed="#P" n="76"/>judiciis, pessimum est omnium animalium.
+        </p>
+        <p xml:id="szdleg-a01967-d1e1456">
+          <lb ed="#P" n="77"/>20. Et ex utroque licet amplius rationem
+          <lb ed="#P" n="78"/>explicare. Nam in hoc fundatur, quod homo
+          <lb ed="#P" n="79"/>est animal sociabile, natura sua postulans 
+          vi<lb break="no" ed="#P" n="80"/>tam civilem et communicationem cum aliis
+          <lb ed="#P" n="81"/>hominibus, et ideo necesse est ut recte vivat,
+          <lb ed="#P" n="82"/>non solum vt privata persona est, sed etiam
+          <lb ed="#P" n="83"/>ut est pars communitatis : quod ex legibus
+          <lb ed="#P" n="84"/>uniuscujusque communitatis maxime pendet.
+          <lb ed="#P" n="85"/>Deinde oportet ut unusquisque non tantum
+          <lb ed="#P" n="86"/>sibi, sed etiam aliis consulat, pacem et 
+          justi<lb break="no" ed="#P" n="87"/>tiam servando, quod sine convenientibus 
+          le<lb break="no" ed="#P" n="88"/>gibus fieri non potest. Ttem necesse est ut ea
+          <lb ed="#P" n="89"/>quae ad commune bonum hominum, seu 
+          rei<lb break="no" ed="#P" n="90"/>publicae spectant , praecipue custodiantur et
+          <lb ed="#P" n="91"/>observentur : singuli autem homines et 
+          difti<lb break="no" ed="#P" n="92"/>cile cognoscunt id quod expedit ad commune
+          <lb ed="#P" n="93"/>bonum, et raro illud per se intendunt, et ideo
+          <lb ed="#P" n="94"/>necessariae fuerunt leges humanae, quae 
+          com<lb break="no" ed="#P" n="95"/>muni bono consulerent, ostendendo quid 
+          agen<lb break="no" ed="#P" n="96"/>dum sit propter tale bonum, et cogendo ut fiat.
+          <lb ed="#P" n="97"/>Unde Aristoteles, lib. 10, cap. 9: Publicas
+          <lb ed="#P" n="98"/>(inquit) diligentias, atque curas per leges fieri
+          <lb ed="#P" n="99"/>constat, bonas autem per studiosos. Propter
+          <lb ed="#P" n="100"/>quod ait Cyrillus, libr. 3 contra Julian., non
+          <lb ed="#P" n="101"/>longe ab initio: IVegue dubium est quin leges
+          <lb ed="#P" n="102"/>dirigant ad bonum, et a deterioribus vecedere
+          <lb ed="#P" n="103"/>cogant, unde nemo qui mente praeditus est 
+          ved<lb break="no" ed="#P" n="104"/>arguerit , vel leges, vel legislatores. Fuerunt
+          <lb ed="#P" n="105"/>ergo leges positivae, et utiles, et necessariae.
+          <lb ed="#P" n="106"/>Unde olim, quando leges inanimatae conditae
+          <lb ed="#P" n="107"/>non fuerant, principes erant quasi animatae
+          <lb ed="#P" n="108"/>leges, quorum arbitrio populi regebantur, ut
+          <lb ed="#P" n="109"/>ex Justino refert divus Augustinus, l. 4 de 
+          Ci<lb break="no" ed="#P" n="110"/>vitate, cap. 6.
+        </p>
+        <p xml:id="szdleg-a01967-d1e1532">
+          <pb ed="#P" n="13"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>21. Ultima divisio legis in civilem et 
+          eccle<lb break="no" ed="#P" n="2"/>siasticum. — Quae sit lem civilis. — Que item
+          <lb ed="#P" n="3"/>ecclesiastica.— Quae sit necessitas condendi 
+          le<lb break="no" ed="#P" n="4"/>gem civilem et canonicam. — Tandem vero haec
+          <lb ed="#P" n="5"/>positiva lex in civilem et ecclesiasticam 
+          distin<lb break="no" ed="#P" n="6"/>guitur, quam divisionem philosophi non 
+          agno<lb break="no" ed="#P" n="7"/>verunt, quia supernaturalem finem, et 
+          specia<lb break="no" ed="#P" n="8"/>lem potestatem ignorarunt : et ideo apud illos
+          <lb ed="#P" n="9"/>idem est lex humana quae civilis, quam 
+          tem<lb break="no" ed="#P" n="10"/>poralem solet Augustinus appellare. Est enim
+          <lb ed="#P" n="11"/>illa quae ad civitatis politicam gubernationem,
+          <lb ed="#P" n="12"/>et ad temporalia jura tuenda, et in pace, ac
+          <lb ed="#P" n="13"/>justitia rempublicam conservandam 
+          ordina<lb break="no" ed="#P" n="14"/>tur : unde leges civiles circa haec temporalia
+          <lb ed="#P" n="15"/>bona, seu corporalia versantur. Praeter has
+          <lb ed="#P" n="16"/>autem christiana religio recognoscit leges 
+          ec<lb break="no" ed="#P" n="17"/>clesiasticas, seu canonicas, quae in sacris 
+          ca<lb break="no" ed="#P" n="18"/>nonibus et decretis pontificum continentur,
+          <lb ed="#P" n="19"/>quas aliqui non humanas, sed divinas vocant,
+          <lb ed="#P" n="20"/>eo quod ab speciali potestate a Deo speciahter
+          <lb ed="#P" n="21"/>lata deriventur, et ad supernaturalem finem,
+          <lb ed="#P" n="22"/>et divinum cultum, ac salutem animarum 
+          po<lb break="no" ed="#P" n="23"/>tissime referantur. Re tamen vera humanae
+          <lb ed="#P" n="24"/>sunt, ut bene docuit Joannes Andraeas, quem
+          <lb ed="#P" n="25"/>refert et sequitur Panor. in cap. 1 de Jura
+          <lb ed="#P" n="26"/>calumn., num. 7, et sumitur aperte ex cap.
+          <lb ed="#P" n="27"/>Non debet, de Consanguin. et aftin.; et ratio
+          <lb ed="#P" n="28"/>est, quia per voluntatem humanam proxime
+          <lb ed="#P" n="29"/>constituuntur, licet a civilibus differant in 
+          po<lb break="no" ed="#P" n="30"/>testate a qua proxime manant, et in fine, et
+          <lb ed="#P" n="31"/>materia, ut postea videbimus : ratio autem,
+          <lb ed="#P" n="32"/>seu necessitas talium legum eadem cum 
+          pro<lb break="no" ed="#P" n="33"/>portione fuit. Quia Deus (ut supponimus) 
+          spe<lb break="no" ed="#P" n="34"/>cialem congregationem fidelium, qua esset
+          <lb ed="#P" n="35"/>unum corpus, quod Ecclesiam nunc vocamus,
+          <lb ed="#P" n="36"/>instituit : et per legem a se latam non 
+          dispo<lb break="no" ed="#P" n="37"/>suit in particulari de omnibus, quae ad 
+          spiri<lb break="no" ed="#P" n="38"/>tuale regimen Ecclesiae convenientia esse 
+          po<lb break="no" ed="#P" n="39"/>terant, sed solum quaedam substantialia 
+          fun<lb break="no" ed="#P" n="40"/>damenta hujus spiritualis reipublicae instituit :
+          <lb ed="#P" n="41"/>reliqua vero per suos ministros et Ecclesiae 
+          pas<lb break="no" ed="#P" n="42"/>tores disponenda reliquit : tum ut suaviter et
+          <lb ed="#P" n="43"/>modo hominibus accommodato omnia 
+          ordina<lb break="no" ed="#P" n="44"/>rentur, tum quia non poterant omnia in 
+          par<lb break="no" ed="#P" n="45"/>ticulari, ita determinari, ut essent immutabilia.
+          <lb ed="#P" n="46"/>Haec ergo determinatio fit per leges canonicas,
+          <lb ed="#P" n="47"/>et ideo tam fuerunt necessariae in spirituali
+          <lb ed="#P" n="48"/>republica Ecclesiae, sicut civiles in temporal.
+        </p>
+        <p xml:id="szdleg-a01967-d1e1644">
+          <lb ed="#P" n="49"/>22. Ex his igitur satis constat varietas 
+          le<lb break="no" ed="#P" n="50"/>gum et necessitas, multiplexque divisio. 
+          Qui<lb break="no" ed="#P" n="51"/>bus addi solent aliae quae incertae sunt, vel
+          <lb ed="#P" n="52"/>quasi materiales, et ideo circa illas iramorari
+          <lb ed="#P" n="53"/>nunc non est necesse : nam suis locis melius
+          <lb ed="#P" n="54"/>attingentur. Hujusmod1 est divisio legis in
+          <lb ed="#P" n="55"/>osiendentem et praecipientem, de qua dicemus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in libro sequenti, et fortasse necessaria non
+          <lb ed="#P" n="57"/>est. Item est alia generalis divisio legis in
+          <lb ed="#P" n="58"/>affirmativam et negativam, quia illa praecipit
+          <lb ed="#P" n="59"/>quod agendum est, haec vetat et prohibet quod
+          <lb ed="#P" n="60"/>cavendum est : quae duo praestant omnes leges
+          <lb ed="#P" n="61"/>numeratae, quia solum differunt in materia
+          <lb ed="#P" n="62"/>praecepta, quae est agere, vel non agere: et
+          <lb ed="#P" n="63"/>inde habent aliquam differentiam in modo 
+          obli<lb break="no" ed="#P" n="64"/>gandi, quam, cap. decimo tertio, commodius
+          <lb ed="#P" n="65"/>trademus. Addi denique possunt divisiones 
+          le<lb break="no" ed="#P" n="66"/>gis humanae in poenalem et non poenalem,
+          <lb ed="#P" n="67"/>prohibentem tantum vel etiam irritantem, quae
+          <lb ed="#P" n="68"/>voces satis notae sunt : de rebus autem ipsis in
+          <lb ed="#P" n="69"/>sequentibus erunt speciales disputationes 
+          in<lb break="no" ed="#P" n="70"/>stituendae. Denique in dictis divisionibus 
+          omis<lb break="no" ed="#P" n="71"/>sum videri potest jus gentium : sed quomodo
+          <lb ed="#P" n="72"/>illud ad praedicta revocetur, in libro sequente,
+          <lb ed="#P" n="73"/>cap. 8, explicabimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

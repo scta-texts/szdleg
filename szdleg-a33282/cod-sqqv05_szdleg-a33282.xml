@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 12</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 12</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="130"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a33282"><!-- deleg-l2c12 -->
+        <head xml:id="szdleg-a33282-Hd1e101">Caput 12</head>
+        <head xml:id="szdleg-a33282-Hd1e103" type="question-title">Utrum lex naturalis non solum prohibeat aliquos actus, sed etiam irritet contrarios</head>
+        <p xml:id="szdleg-a33282-d1e106">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="50"/>CAPUT XII.
+          <lb ed="#P" n="51"/>UTRUM LEX NATURALIS NON SOLUM PROHIBEAT
+          <lb ed="#P" n="52"/>ALIQUOS ACTUS, SED ETIAM IRRITET 
+          CONTRA<lb break="no" ed="#P" n="53"/>RIOS.
+        </p>
+        <p xml:id="szdleg-a33282-d1e119">
+          <lb ed="#P" n="54"/>1. Permissionem non habere locum in lege
+          <lb ed="#P" n="55"/>naturali. — Tractando de obligatione legis
+          <lb ed="#P" n="56"/>naturalis, consequenter explicuimus fere 
+          om<lb break="no" ed="#P" n="57"/>nes effectus qui solent legi in communi 
+          attri<lb break="no" ed="#P" n="58"/>bui; nam constat ex dictis hoc jus quaedam
+          <lb ed="#P" n="59"/>bona praecipere, mala prohibere; 
+          permissio<lb break="no" ed="#P" n="60"/>nem autem aut punitionem proprie non 
+          ha<lb break="no" ed="#P" n="61"/>bere locum in illo. Quia licet ex transgressione
+          <lb ed="#P" n="62"/>naturalis juris sequatur reatus poenae in ordine
+          <lb ed="#P" n="63"/>ad divinam providentiam et justitiam, ad quam
+          <lb ed="#P" n="64"/>spectat poenam illam taxare ; nihilominus 
+          ra<lb break="no" ed="#P" n="65"/>tio naturalis non potest illam poenam definire,
+          <lb ed="#P" n="66"/>et ideo talis ac tanta proprie non sequitur ex
+          <lb ed="#P" n="67"/>imperio alicujus legis mere naturalis, sed 
+          se<lb break="no" ed="#P" n="68"/>quitur ille reatus ex naturali et intrinseca
+          <lb ed="#P" n="69"/>conditione culpae, ita ut licet poena non esset
+          <lb ed="#P" n="70"/>per legem determinata, arbitrio competentis
+          <lb ed="#P" n="71"/>judicis puniri posset. Unde fit ut neque propria
+          <lb ed="#P" n="72"/>permissio locum habeat in hoc jure, quia nihil
+          <lb ed="#P" n="73"/>quod de se malum sit permittit licite fieri, ut
+          <lb ed="#P" n="74"/>per se constat, quia hoc repugnat actioni 
+          in<lb break="no" ed="#P" n="75"/>trinsece ac per se malae: nec etiam permittit
+          <lb ed="#P" n="76"/>fieri impune, eo modo quo poena potest ex hoc
+          <lb ed="#P" n="77"/>jure sequi, scilicet, quoad reatum, quia 
+          nun<lb break="no" ed="#P" n="78"/>quam impedit, aut de se impedire potest 
+          rea<lb break="no" ed="#P" n="79"/>tum poenae. Quod si dicatur hoc jus permittere
+          <lb ed="#P" n="80"/>vel indifferentia quae non prohibet, vel bona
+          <lb ed="#P" n="81"/>quae approbat, licet non praecipiat, neutra est
+          <lb ed="#P" n="82"/>propria permissio legalis (ut sic dicam), quia
+          <lb ed="#P" n="83"/>prior est pura negatio: dicitur enim opus 
+          in<lb break="no" ed="#P" n="84"/>differens quod nec praecipitur, nec prohibetur,
+          <lb ed="#P" n="85"/>nec etiam approbatur : posterior vero est plus
+          <lb ed="#P" n="86"/>quam permissio, quia est positiva concessio,
+          <lb ed="#P" n="87"/>ut supra tactum est, et infra tractando de Jure
+          <lb ed="#P" n="88"/>gentium latius dicetur. Quod si in his materiis
+          <lb ed="#P" n="89"/>consideretur jus naturale, quatenus disponit
+          <lb ed="#P" n="90"/>quomodo praestandae sint ut honeste et sine
+          <lb ed="#P" n="91"/>macula fiant ; jam illud pertinet ad legem 
+          prae<lb break="no" ed="#P" n="92"/>cipientem unum modum, et vetantem alium,
+          <lb ed="#P" n="93"/>ut in superioribus etiam tactum est, et ideo de
+          <lb ed="#P" n="94"/>his effectibus nihil addendum occurrit.
+        </p>
+        <p xml:id="szdleg-a33282-d1e210">
+          <lb ed="#P" n="95"/>2. Difficultatis ratio.—Solum ergo superest
+          <lb ed="#P" n="96"/>inquirendum quando et quomodo possit jus
+          <lb ed="#P" n="97"/>naturale habere vim non solum obligandi,
+          <lb ed="#P" n="98"/>seu prohibendi, sed etiam irritandi actum qui
+          <lb ed="#P" n="99"/>contra talem obligationem fit. Quod dubium
+          <lb ed="#P" n="100"/>praecipue habet locum in praeceptis negativis:
+          <lb ed="#P" n="101"/>extendi vero potest ad affirmativa, quatenus
+          <pb ed="#P" n="131"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ex consequenti prohibent contraria eorum quae
+          <lb ed="#P" n="2"/>praecipiunt: ratio autem dubitandi est, quia
+          <lb ed="#P" n="3"/>irritare non est praecipere, sed facere ; jus 
+          au<lb break="no" ed="#P" n="4"/>tem naturale, ut sic, solum videtur habere
+          <lb ed="#P" n="5"/>vim praecipiendi, non vero tollendi dominium,
+          <lb ed="#P" n="6"/>verbi gratia, vel faciendi aliquid simile. 
+          Con<lb break="no" ed="#P" n="7"/>firmari potest inductione : nam jus naturae
+          <lb ed="#P" n="8"/>prohibet contrahere matrimonium post factum
+          <lb ed="#P" n="9"/>votum castitatis, vel post promissionem 
+          spon<lb break="no" ed="#P" n="10"/>salium factam alteri, et tamen matrimonium
+          <lb ed="#P" n="11"/>validum est : prohibet etiam lex naturae 
+          ven<lb break="no" ed="#P" n="12"/>dere rem ultra justum pretium, et nihilominus
+          <lb ed="#P" n="13"/>talis venditio non est irrita ipso jure naturae:
+          <lb ed="#P" n="14"/>ergo idem erit in omnibus similibus. Nam 
+          ef<lb break="no" ed="#P" n="15"/>ficacitas juris naturae eadem est in omnibus,
+          <lb ed="#P" n="16"/>neque peculiaria verba habet per quae 
+          prohi<lb break="no" ed="#P" n="17"/>beat, ut propter illorum diversitatem dicamus
+          <lb ed="#P" n="18"/>aliquando irritare, et non semper, ut dici 
+          po<lb break="no" ed="#P" n="19"/>test in jure positivo.
+        </p>
+        <p xml:id="szdleg-a33282-d1e274">
+          <lb ed="#P" n="20"/>3. Actus factos contra jus naturae non 
+          so<lb break="no" ed="#P" n="21"/>lum esse pravos, sed aliquando irritos.—
+          Nihil<lb break="no" ed="#P" n="22"/>ominus certum est actus factos contra jus 
+          na<lb break="no" ed="#P" n="23"/>turale, aliquando non solum malos, sed etiam
+          <lb ed="#P" n="24"/>irritos esse. Hoc tanquam certum supponunt
+          <lb ed="#P" n="25"/>auctores in pluribus quaestionibus quas in 
+          par<lb break="no" ed="#P" n="26"/>ticulari tractant, ut an talis actus, verbi 
+          gra<lb break="no" ed="#P" n="27"/>tia, contractus factus ex metu, violentia, dolo,
+          <lb ed="#P" n="28"/>vel cum alia conditione simili, sit nullus jure
+          <lb ed="#P" n="29"/>naturae, vel tantum positivo ; supponunt ergo
+          <lb ed="#P" n="30"/>ex utroque capite posse habere nulltatem.
+          <lb ed="#P" n="31"/>Probatur deinde exemplis: nam secundum
+          <lb ed="#P" n="32"/>matrimonium factum vivente priori conjuge
+          <lb ed="#P" n="33"/>ex jure naturae nullum est. Idem est verum
+          <lb ed="#P" n="34"/>de matrimonio, verbi gratia, inter fratres, et
+          <lb ed="#P" n="35"/>adhuc certius inter patrem et filiam : 
+          contrac<lb break="no" ed="#P" n="36"/>tus etiam usurarius jure naturae irritus seu
+          <lb ed="#P" n="37"/>nullus est quoad usura obligationem: idem
+          <lb ed="#P" n="38"/>est de contractu facto per dolum gravem, et
+          <lb ed="#P" n="39"/>similia sunt multa. Ut autem rationem 
+          redda<lb break="no" ed="#P" n="40"/>mus, et priores objectiones solvamus, oportet
+          <lb ed="#P" n="41"/>regulam aliquam assignare ad cognoscendum
+          <lb ed="#P" n="42"/>quando actus prohibitus jure naturae validus
+          <lb ed="#P" n="43"/>vel irritus sit : nam utrumque posse accidere
+          <lb ed="#P" n="44"/>ostendunt adducta exempla: differentia autem
+          <lb ed="#P" n="45"/>non potest sumi ex verbis legis, ut recte 
+          ob<lb break="no" ed="#P" n="46"/>jectum est: unde ergo illam sumemus.
+        </p>
+        <p xml:id="szdleg-a33282-d1e335">
+          <lb ed="#P" n="47"/>4. Regulae ad dignoscendum quando actus
+          <lb ed="#P" n="48"/>jure nature sunt irriti. — Prima regula. —
+          <lb ed="#P" n="49"/>Duae regulae praecipue occurrunt. Prima est,
+          <lb ed="#P" n="50"/>quando actus prohibetur jure naturae ob 
+          de<lb break="no" ed="#P" n="51"/>fectum potestatis, vel ob materiae 
+          incapacita<lb break="no" ed="#P" n="52"/>tem, tunc actus est nullus et irritus ex natura
+          <lb ed="#P" n="53"/>sua. Hoc ostendit exemplum illud de secundo
+          <lb ed="#P" n="54"/>matrimonio, et in universum de donatione
+          <lb ed="#P" n="55"/>ejusdem rei facta post priorem validam et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>permanentem : est enim nulla, quia ille qui
+          <lb ed="#P" n="57"/>secundo donat vel tradit, jam non habet 
+          po<lb break="no" ed="#P" n="58"/>testatem in talem rem. Unde intelligetur 
+          diffe<lb break="no" ed="#P" n="59"/>rentia inter traditionem factam post priorem
+          <lb ed="#P" n="60"/>traditionem, vel tantum post priorem 
+          promis<lb break="no" ed="#P" n="61"/>sionem : cum enim utraque sit contra jus 
+          na<lb break="no" ed="#P" n="62"/>turae, una est valida, et non alia, quia prior
+          <lb ed="#P" n="63"/>traditio abstulit dominium, et ita etiam 
+          abstu<lb break="no" ed="#P" n="64"/>lit potestatem : promissio vero non tollit 
+          do<lb break="no" ed="#P" n="65"/>minium, et ideo non tollit potestatem, 
+          quam<lb break="no" ed="#P" n="66"/>vis obliget ad utendum illa tali modo. Eadem
+          <lb ed="#P" n="67"/>ratione, contractus seu consensus per dolum
+          <lb ed="#P" n="68"/>substantialem (ut sic dicam) extortus, nullus
+          <lb ed="#P" n="69"/>est jure naturae, quia dolus impedit verum
+          <lb ed="#P" n="70"/>consensum, et causat involuntarium : sine 
+          vo<lb break="no" ed="#P" n="71"/>luntate autem non potest contractus humanus
+          <lb ed="#P" n="72"/>perfici, et sic de aliis. Ex quibus facilis est
+          <lb ed="#P" n="73"/>ratio regulae, quia in his et similibus casibus
+          <lb ed="#P" n="74"/>tollitur principium substantiale (ut sic dicam)
+          <lb ed="#P" n="75"/>valoris actus, quod est potestas moralis, id est,
+          <lb ed="#P" n="76"/>quae habeat adjunctam sufficientem 
+          volunta<lb break="no" ed="#P" n="77"/>tem: sine potestate autem et voluntate non est
+          <lb ed="#P" n="78"/>actus validus.
+        </p>
+        <p xml:id="szdleg-a33282-d1e409">
+          <lb ed="#P" n="79"/>5. Secunda regula. — Secunda regula est
+          <lb ed="#P" n="80"/>quando actus prohibetur propter indecentiam,
+          <lb ed="#P" n="81"/>vel turpitudinem in materia ejus inventam ;
+          <lb ed="#P" n="82"/>tunc etiam est irritus quando eadem turpitudo
+          <lb ed="#P" n="83"/>durat in ipso effectu, vel, ut juristae 
+          loquun<lb break="no" ed="#P" n="84"/>tur, quando habet causam perpetuam. Hanc
+          <lb ed="#P" n="85"/>regulam sumo a simili ex Glossa in Clement.,
+          <lb ed="#P" n="86"/>1 de Jure patronat., verb. Inhibentes, in fine;
+          <lb ed="#P" n="87"/>et ex Glossa in cap. Vides, dist. 10; Decio, in
+          <lb ed="#P" n="88"/>cap. 2 de Testib., et aliis quos refert Covarr.
+          <lb ed="#P" n="89"/>in 4 Decret., 2 part., cap. 6, in princ., n. 6,
+          <lb ed="#P" n="90"/>et colligitur ex lege Si stipulor, de verbo
+          <lb ed="#P" n="91"/>Obligat: Quod leges (inquit) fieri prohibent, si
+          <lb ed="#P" n="92"/>perpetuam causam. servaturum est, cessat 
+          obli<lb break="no" ed="#P" n="93"/>gatio, ut si sororem sibi mupturam aliquis 
+          sti<lb break="no" ed="#P" n="94"/>puletur. Ubi Glossa advertit talem 
+          promissio<lb break="no" ed="#P" n="95"/>nem esse irritam ipso jure naturae. Et ita
+          <lb ed="#P" n="96"/>confirmatur regula exemplo positivo de 
+          ma<lb break="no" ed="#P" n="97"/>trimonio contracto inter consanguineos in 
+          pri<lb break="no" ed="#P" n="98"/>mo gradu : nam ib; non deest potestas, id est,
+          <lb ed="#P" n="99"/>dominium sui ad se tradendum in 
+          matrimo<lb break="no" ed="#P" n="100"/>nium, nec deest voluntas, quantum est ex
+          <lb ed="#P" n="101"/>parte contrahentium: tamen illa naturalis 
+          in<lb break="no" ed="#P" n="102"/>decentia, quae facit tale matrimonium esse
+          <lb ed="#P" n="103"/>prohibitum, perpetuo durat si matrimonium
+          <lb ed="#P" n="104"/>tale duret: ideo etiam duratio ipsa prohibita
+          <lb ed="#P" n="105"/>est, et hoc est esse irritam. Idem cernitur in
+          <lb ed="#P" n="106"/>exemplo de usura, quae prohibita est quia 
+          in<lb break="no" ed="#P" n="107"/>justa : quae injustitia tam invenitur in 
+          reten<lb break="no" ed="#P" n="108"/>tione lucri accepti quam 1n acceptione, et ideo
+          <lb ed="#P" n="109"/>prohibitio illa irritians est: unde etiam constat
+          <lb ed="#P" n="110"/>ratio clara, quia si valor actus sit contra jus
+          <pb ed="#P" n="132"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>natura a nemine fieri potest, cum jus 
+          superio<lb break="no" ed="#P" n="2"/>ris resistat: in illo autem casu valor ipse est
+          <lb ed="#P" n="3"/>contra jus naturae, quia habet eamdem causam
+          <lb ed="#P" n="4"/>turpitudinis; ergo non potest talis valor 
+          subsis<lb break="no" ed="#P" n="5"/>tere; ergo est irritus talis actus. Unde potest
+          <lb ed="#P" n="6"/>considerari diflerentia inter hanc regulam et
+          <lb ed="#P" n="7"/>praecedentem, quod in priori actus prohibetur
+          <lb ed="#P" n="8"/>quia pravus, et nullus est ex defectu potestatis:
+          <lb ed="#P" n="9"/>in hac vero posteriori actus fit nullus ratione
+          <lb ed="#P" n="10"/>intrinsecae malitiae perpetuae, ac subinde per
+          <lb ed="#P" n="11"/>ipsam prohibitionem, quia alias potestas 
+          ab<lb break="no" ed="#P" n="12"/>soluta circa talem materiam non deerat.
+        </p>
+        <p xml:id="szdleg-a33282-d1e511">
+          <lb ed="#P" n="13"/>6. Quando actus, licet prohibitus jure 
+          natu<lb break="no" ed="#P" n="14"/>ree, non est irritus.— Extra hos autem casus,
+          <lb ed="#P" n="15"/>quamvis jus naturae prohibeat actum, non 
+          irri<lb break="no" ed="#P" n="16"/>tabit effectum ejus, quia si supponatur 
+          potes<lb break="no" ed="#P" n="17"/>tas sufliciens ad talem effectum, et alioqui 
+          pos<lb break="no" ed="#P" n="18"/>sit effectus durare absque turpitudine, et cum
+          <lb ed="#P" n="19"/>honesto usu, non est cur invalidus sit. Id 
+          opti<lb break="no" ed="#P" n="20"/>me declaratur in matrimonio facto contra 
+          vo<lb break="no" ed="#P" n="21"/>tum simplex castitatis : nam illud votum non
+          <lb ed="#P" n="22"/>abstulit, sed ligavit potestatem quam homo
+          <lb ed="#P" n="23"/>habet in corpus suum: et alioqui 
+          matrimo<lb break="no" ed="#P" n="24"/>nium contra illud contractum, quatenus est
+          <lb ed="#P" n="25"/>actualis traditio, habet majorem quamdam
+          <lb ed="#P" n="26"/>efficaciam quam promissio, et potest etiam
+          <lb ed="#P" n="27"/>habere honestum usum, saltem reddendo et
+          <lb ed="#P" n="28"/>non petendo debitum ; ergo recte potest esse
+          <lb ed="#P" n="29"/>validum. Venditio item injusta relinquit 
+          qui<lb break="no" ed="#P" n="30"/>dem perpetuam obligationem restituendi 
+          ex<lb break="no" ed="#P" n="31"/>cessum pretii ; quod si fiat, cessat omnis 
+          tur<lb break="no" ed="#P" n="32"/>pitudo in valore et perpetuitate talis 
+          contrac<lb break="no" ed="#P" n="33"/>tus, et ideo non est cur simpliciter irritus sit.
+          <lb ed="#P" n="34"/>Et ita patet responsio ad objectiones factas. In
+          <lb ed="#P" n="35"/>quibus etiam exemplis considerari potest 
+          pro<lb break="no" ed="#P" n="36"/>hibitionem non esse quasi directam, vel 
+          abso<lb break="no" ed="#P" n="37"/>Iutam de substantia talis actus, sed vel 
+          prove<lb break="no" ed="#P" n="38"/>nire ex aliqua general lege, ut est servare
+          <lb ed="#P" n="39"/>votum, vel solum esse de tali modo seu 
+          exces<lb break="no" ed="#P" n="40"/>su, et ideo mirum non esse quod actum non
+          <lb ed="#P" n="41"/>irritet.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

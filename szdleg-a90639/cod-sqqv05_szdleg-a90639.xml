@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="358"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a90639"><!-- deleg-l4c7 -->
+        <head xml:id="szdleg-a90639-Hd1e101">Caput 7</head>
+        <head xml:id="szdleg-a90639-Hd1e103" type="question-title">Utrum potestas condendi leges ecclesiasticas ex moribus aut fide pendeat</head>
+        <p xml:id="szdleg-a90639-d1e106">
+          <lb ed="#P" n="78"/>CAPUT VII.
+          <lb ed="#P" n="79"/>UTRUM POTESTAS CONDENDI LEGES ECCLESIASTICAS
+          <lb ed="#P" n="80"/>EX MORIBUS AUT FIDE PENDEAT.
+        </p>
+        <p xml:id="szdleg-a90639-d1e115">
+          <lb ed="#P" n="81"/>1. Fundamenta haereticorum. — Ut ea quae
+          <lb ed="#P" n="82"/>spectant ad subjectum hujus potestatis 
+          com<lb break="no" ed="#P" n="83"/>pleamus, haec quaestio necessaria est; nam
+          <lb ed="#P" n="84"/>haeretici, qui civilem potestatem negant 
+          ma<lb break="no" ed="#P" n="85"/>nere in peccatoribus, multo magis id negant
+          <lb ed="#P" n="86"/>de ecclesiastica potestate. Et quosdam alios
+          <lb ed="#P" n="87"/>haereticos Bernardi tempore in eodem fuisse
+          <lb ed="#P" n="88"/>errore, eorum nomine tacito refert idem 
+          Ber<lb break="no" ed="#P" n="89"/>nard., serm. 66 in Cantica. Referri etiam 
+          so<lb break="no" ed="#P" n="90"/>let pro hac sententia Armacha., lib. 10 de
+          <lb ed="#P" n="91"/>Quaest. ; Armen., c. 4. Fundatur primo, quia
+          <lb ed="#P" n="92"/>haec potestas est donum supernaturale Dei;
+          <lb ed="#P" n="93"/>ergo non debet in peccatoribus manere. 
+          Se<lb break="no" ed="#P" n="94"/>cundo, quia est ad regendam Ecclesiam Dei
+          <lb ed="#P" n="95"/>sponsam ; ergo non debet inimicis Dei 
+          com<lb break="no" ed="#P" n="96"/>mitti. Tertio, quia datur haec potestas in 
+          aedi<lb break="no" ed="#P" n="97"/>ficationem, non in destructionem ; at in 
+          pecca<lb break="no" ed="#P" n="98"/>toribus esset potius in destructionem quam in
+          <lb ed="#P" n="99"/>eedificationem ; ergo non est verisimile illis
+          <lb ed="#P" n="100"/>concedi.
+        </p>
+        <p xml:id="szdleg-a90639-d1e161">
+          <lb ed="#P" n="101"/>2. Potestatem praedictam esse ita fundatam
+          <lb ed="#P" n="102"/>in fide ut ab ea pendeat sentiunt aliqui. — Fides
+          <lb ed="#P" n="103"/>fundamentum totius spiritualis edificii. —
+          Ha<lb break="no" ed="#P" n="104"/>bere autem videntur rationes hujusmodi 
+          ali<lb break="no" ed="#P" n="105"/>quam verisimilitudinem in carentia fidei: et
+          <lb ed="#P" n="106"/>ideo aliqui ex catholicis dixerunt hanc 
+          potes<lb break="no" ed="#P" n="107"/>tatem ita esse fundatam in fide, et ab illa pen-
+          <pb ed="#P" n="359"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dere, ut si Praelatus Ecclesiae (quicumque ille
+          <lb ed="#P" n="2"/>sit, etiam summus Pontifex) incidat in 
+          hae<lb break="no" ed="#P" n="3"/>resim, eo ipso potestatem et dignitatem 
+          a<lb break="no" ed="#P" n="4"/>mittat. Hanc opinionem tenuit Turrecr., lib.
+          <lb ed="#P" n="5"/>4 Sum., cap1 et cap. 20, eamque late defendit
+          <lb ed="#P" n="6"/>Castro, lib. 2 de Justa haereticorum punitione,
+          <lb ed="#P" n="7"/>cap. 23 et 2^; et praeter rationes factas 
+          con<lb break="no" ed="#P" n="8"/>tirmari potest, quia jure divino tenemur 
+          vi<lb break="no" ed="#P" n="9"/>tare haereticos, et non communicare cum illis;
+          <lb ed="#P" n="10"/>ergo etiam prohibemur illis obedire ; ergo
+          <lb ed="#P" n="11"/>multo magis illi privantur potestate 
+          praeci<lb break="no" ed="#P" n="12"/>piendi, alioqui esset perplexitas in subditis, et
+          <lb ed="#P" n="13"/>bellum justum ex utraque parte. Confirmatur
+          <lb ed="#P" n="14"/>secundo, quia fides est fundamentum totius
+          <lb ed="#P" n="15"/>spiritualis aedificii; ergo etiam hujus 
+          potesta<lb break="no" ed="#P" n="16"/>tis: nam qui caret fide, nec Christi, nec 
+          Ec<lb break="no" ed="#P" n="17"/>clesiae membrum est, et ideo nec caput , nec
+          <lb ed="#P" n="18"/>pastor Ecclesiae esse potest; nec per illum 
+          Chri<lb break="no" ed="#P" n="19"/>stus influit ; ergo nec potestatem spiritualem
+          <lb ed="#P" n="20"/>habere potest. Tandem confirmatur, quia alias
+          <lb ed="#P" n="21"/>Ecclesia nullum remedium habere posset 
+          ad<lb break="no" ed="#P" n="22"/>versus summum Pontificem haereticum, quia,
+          <lb ed="#P" n="23"/>non obstante haeresi, summam jurisdictionem
+          <lb ed="#P" n="24"/>retineret ; ergo nullus illum cohibere posset,
+          <lb ed="#P" n="25"/>cogereturque Ecclesia semper habere tale 
+          ca<lb break="no" ed="#P" n="26"/>put, quod esset incommodissimum.
+        </p>
+        <p xml:id="szdleg-a90639-d1e240">
+          <lb ed="#P" n="27"/>3. Contraria sententia certa. — Contraria
+          <lb ed="#P" n="28"/>vero sententia vera est; non vero est aeque
+          <lb ed="#P" n="29"/>certa quoad fidem, et quoad honestatem 
+          mo<lb break="no" ed="#P" n="30"/>rum, et ideo de his sigillatim dicemus. Dico
+          <lb ed="#P" n="31"/>ergo primo potestatem hanc esse posse, et 
+          per<lb break="no" ed="#P" n="32"/>manere in homine fideli et baptizato, licet 
+          ini<lb break="no" ed="#P" n="33"/>quissimus sit, et in hoc sensu non pendere ex
+          <lb ed="#P" n="34"/>bonis moribus. Hoc est certum de fide, et 
+          op<lb break="no" ed="#P" n="35"/>positum damnatum est in Concilio 
+          Constan<lb break="no" ed="#P" n="36"/>tiensi. Probari autem potest ex verbis 
+          Chris<lb break="no" ed="#P" n="37"/>ti Matth. vigesimo tertio : Super Cathedram
+          <lb ed="#P" n="38"/>Mogysi sederunt Scribae et Pharisei, etc. Nam
+          <lb ed="#P" n="39"/>ibi docet Christus Praelatis bene 
+          praecipienti<lb break="no" ed="#P" n="40"/>bus obediendum esse, licet opera ipsorum non
+          <lb ed="#P" n="41"/>sint imitanda ; ubi, licet loquatur de 
+          Pontifi<lb break="no" ed="#P" n="42"/>cibus legis veteris, tamen non refert, tum
+          <lb ed="#P" n="43"/>quia non tam loquebatur propter ipsos, quam
+          <lb ed="#P" n="44"/>propter nos, ut omnes Sancti intelligunt : tum
+          <lb ed="#P" n="45"/>etiam, quia ex similitudine rationis sumitur
+          <lb ed="#P" n="46"/>efficas argumentum. Unde Cyprianus in 
+          ser<lb break="no" ed="#P" n="47"/>mone de Baptismo Christi, ex hoc loco colligit,
+          <lb ed="#P" n="48"/>in homine iniquo manere plenam potestatem ,
+          <lb ed="#P" n="49"/>et in eo honorari officium, non vitam.
+        </p>
+        <p xml:id="szdleg-a90639-d1e292">
+          <lb ed="#P" n="50"/>4. Praeedicta potestas non habet connexionem
+          <lb ed="#P" n="51"/>cum sanctitate.— Ratione declaratur, quia vel
+          <lb ed="#P" n="52"/>haec potestas amittitur, amissa gratia 
+          sanctifi<lb break="no" ed="#P" n="53"/>cante, atque adeo per quodlibet peccatum 
+          mor<lb break="no" ed="#P" n="54"/>tale, vel per aliqua specialia peccata , vel per
+          <lb ed="#P" n="55"/>multitudinem , consuetudinem, aut circum-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>stantias eorum. Primum est quod intendunt
+          <lb ed="#P" n="57"/>haeretici, et eo tendunt eorum rationes; est
+          <lb ed="#P" n="58"/>tamen prorsus absurdum et incredibile, 
+          alio<lb break="no" ed="#P" n="59"/>qui per peccata mentalia amitteretur haec 
+          po<lb break="no" ed="#P" n="60"/>testas, quia per illa amittitur gratia, atque ita
+          <lb ed="#P" n="61"/>omnia essent incerta et confusa. Deinde haec
+          <lb ed="#P" n="62"/>potestas non habet connexionem cuin 
+          sancti<lb break="no" ed="#P" n="63"/>tate, quia non datur in sanctificationem vel
+          <lb ed="#P" n="64"/>utilitatem habentis, sed aliorum, et ita potius
+          <lb ed="#P" n="65"/>imitatur gratias gratis datas, quae non pendent
+          <lb ed="#P" n="66"/>semper ex propria sanctitate, ut constat ex
+          <lb ed="#P" n="67"/>propria materia. Secundum vero non minus
+          <lb ed="#P" n="68"/>absurdum est: quae enim sunt illa peccata,
+          <lb ed="#P" n="69"/>quae multitudo, consuetudo, aut 
+          circumstan<lb break="no" ed="#P" n="70"/>tiae, quae ex se vim habeant ad expellendam
+          <lb ed="#P" n="71"/>hanc potestatem ? Nihil sane cum fundamento
+          <lb ed="#P" n="72"/>responderi potest. Et praeterea inde sequitur,
+          <lb ed="#P" n="73"/>ut subditi possint judicare Praelatos, et eis
+          <lb ed="#P" n="74"/>obedientiam negare, eosde prava vita 
+          arguen<lb break="no" ed="#P" n="75"/>do juxta sui arbitrii mensuram.
+        </p>
+        <p xml:id="szdleg-a90639-d1e353">
+          <lb ed="#P" n="76"/>5. Denique talis poena non est jure humano
+          <lb ed="#P" n="77"/>ordinarie imposita. Quod si aliquando fertur
+          <lb ed="#P" n="78"/>aliqua similis pro aliquo delicto, praecedere
+          <lb ed="#P" n="79"/>ordinarie debet sententia judicis saltem 
+          decla<lb break="no" ed="#P" n="80"/>ratoria, ut infra attingemus, agentes de lege
+          <lb ed="#P" n="81"/>poenali, et latius tractatur in materia de 
+          Cen<lb break="no" ed="#P" n="82"/>suris. Neque etiam talis poena est jure divino
+          <lb ed="#P" n="83"/>imposita, nullibi enim est tale. Nec peccator
+          <lb ed="#P" n="84"/>privatur statim omnibus donis Dei 
+          supernatu<lb break="no" ed="#P" n="85"/>ralibus ; retinet enim fidem et spem, et multo
+          <lb ed="#P" n="86"/>magis potest retinere illa quae ad aliorum
+          <lb ed="#P" n="87"/>commodum ordinantur. Neque est Deo difficile
+          <lb ed="#P" n="88"/>uti homine sibi inimico tanquam instrumento
+          <lb ed="#P" n="89"/>ab bene faciendum amicis suis. Et ideo etiam
+          <lb ed="#P" n="90"/>non sequitur potestatem hanc esse in 
+          destruc<lb break="no" ed="#P" n="91"/>tionem, si in peccatore maneat, quia potest
+          <lb ed="#P" n="92"/>justa praecipere, etiamsi ipse injustus sit, 
+          ma<lb break="no" ed="#P" n="93"/>jorque destructio et confusio sequeretur, si
+          <lb ed="#P" n="94"/>liceret non obedire Praelatis discolis, etiamsi
+          <lb ed="#P" n="95"/>justa praeciperent. Et ideo Petr. 1, can. 2, 
+          ser<lb break="no" ed="#P" n="96"/>vis praecipit obedire dominis, uon tantwmn bonis,
+          <lb ed="#P" n="97"/>sed etuam discolis, quia nimirum per pravos
+          <lb ed="#P" n="98"/>mores non amittunt dominium suum, neque
+          <lb ed="#P" n="99"/>ad malum inducunt, si justa praecipiant. 
+          Ea<lb break="no" ed="#P" n="100"/>dem autem ratio est de ecclesiasticis Praelatis,
+          <lb ed="#P" n="101"/>ideoque obedientia Praelatorum absolute, et
+          <lb ed="#P" n="102"/>sine distinctione inter bonos et malos 
+          praecipi<lb break="no" ed="#P" n="103"/>tur Hebr. 13. Atque ita sufficienter constat haec
+          <lb ed="#P" n="104"/>veritas, simulque responsum est ad priores
+          <lb ed="#P" n="105"/>rationes dubitandi.
+        </p>
+        <p xml:id="szdleg-a90639-d1e421">
+          <lb ed="#P" n="106"/>6. Secundo, dicendum est potestatem hanc
+          <lb ed="#P" n="107"/>non pendere essentialiter ex fide habentis 
+          il<lb break="no" ed="#P" n="108"/>lam, sed illam retinere, etiamsi fidem amittat,
+          <lb ed="#P" n="109"/>donec, mediante Ecclesia, illa privetur. Haec
+          <lb ed="#P" n="110"/>non est tam certa doctrina sicut praecedens,
+          <pb ed="#P" n="360"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est tamen opinio theologica multo probabilior.
+          <lb ed="#P" n="2"/>Intelligenda vero est de fide ipsa secundum
+          <lb ed="#P" n="3"/>se, non de sacramento fidei, seu de Baptismo,
+          <lb ed="#P" n="4"/>aut charactere ejus; nam de hoc supponimus
+          <lb ed="#P" n="5"/>esse nevessarium ad hanc potestatem 
+          jurisdic<lb break="no" ed="#P" n="6"/>uonis ecclesiasticae, quia est fundamentum 
+          to<lb break="no" ed="#P" n="7"/>tius Ecclesiaee, et janua ad illam. Loquimur
+          <lb ed="#P" n="8"/>ergo de fide propria, quae in credulitate 
+          actua<lb break="no" ed="#P" n="9"/>li, vel habituali et supernaturali consistit. Et
+          <lb ed="#P" n="10"/>sic tenet assertionem Cajet., tom. 1, opusc.,
+          <lb ed="#P" n="11"/>tract. 1 de Potest. Papae, cap. 19; Canus, 1. 4
+          <lb ed="#P" n="12"/>de Locis, cap. ult., ad 12, et lib. 6, cap. ult.;
+          <lb ed="#P" n="13"/>Bellarm., l. 2 de Romano Pontifice, cap. 30.
+          <lb ed="#P" n="14"/>Ut vero eam clarius probemus, distinguamus
+          <lb ed="#P" n="15"/>tres gradus haeresis ; quaedam est pure interna
+          <lb ed="#P" n="16"/>et mentalis, quae vocatur occulta per se ; alia
+          <lb ed="#P" n="17"/>est externa, sed ita secreta, ut non possit in
+          <lb ed="#P" n="18"/>judicio probari, quae dicitur occulta per 
+          acci<lb break="no" ed="#P" n="19"/>dens; alia est externa et publica, vel 
+          proba<lb break="no" ed="#P" n="20"/>bilis, quibus omnibus commune est fidem 
+          ex<lb break="no" ed="#P" n="21"/>pellere.
+        </p>
+        <p xml:id="szdleg-a90639-d1e484">
+          <lb ed="#P" n="22"/>7. Jam ergo, si fides amittatur per solam
+          <lb ed="#P" n="23"/>interiorem haeresim, manifestum videtur tunc
+          <lb ed="#P" n="24"/>non amitti potestatem hanc; ergo non pendet
+          <lb ed="#P" n="25"/>a fide secundum substantiam, seu existentiam
+          <lb ed="#P" n="26"/>ejus. Consequentia clara est. Probatur ergo
+          <lb ed="#P" n="27"/>antecedens, primo ab incommodis supra 
+          insi<lb break="no" ed="#P" n="28"/>nuatis; nam esset gubernatio valde incerta, si
+          <lb ed="#P" n="29"/>potestas penderet ex internis cogitationibus et
+          <lb ed="#P" n="30"/>culpis. Item, cum Ecclesia sit visibilis, oportet
+          <lb ed="#P" n="31"/>ut potestas gubernativa ejus sit suo modo 
+          vi<lb break="no" ed="#P" n="32"/>sibilis, et ideo pendens ex actionibus externis,
+          <lb ed="#P" n="33"/>et non ex solis mentis cogitationibus. Ratio a
+          <lb ed="#P" n="34"/>priori est, quia in eo casu Ecclesia non aufert
+          <lb ed="#P" n="35"/>potestatem suo humano jure, quia non judicat
+          <lb ed="#P" n="36"/>de internis, ut dicemus infra. Neque etiam 
+          au<lb break="no" ed="#P" n="37"/>fertur ex vi solius juris divini, quia vel hoc
+          <lb ed="#P" n="38"/>est naturale, seu connaturale ipsis donis 
+          su<lb break="no" ed="#P" n="39"/>pernaturalibus, vel est superadditum positive.
+          <lb ed="#P" n="40"/>Primum dici non potest, quia ex natura rei
+          <lb ed="#P" n="41"/>non potest ostendi necessaria connexio inter
+          <lb ed="#P" n="42"/>fidem et hanc potestatem ; item quia potestas
+          <lb ed="#P" n="43"/>ordinis magis supernaturalis est, et tamen est
+          <lb ed="#P" n="44"/>de fide non amitti, ut in materia de 
+          Sacra<lb break="no" ed="#P" n="45"/>mentis in genere latius tractatur, et docet
+          <lb ed="#P" n="46"/>D. Thomas 2. 2, quaest. 39, art. 3. Unde, licet
+          <lb ed="#P" n="47"/>fides sit fundamentum sanctificationis, et 
+          do<lb break="no" ed="#P" n="48"/>norum quae ad illam pertinent, non tamen est
+          <lb ed="#P" n="49"/>fundamentum aliarum potestatum et 
+          gratia<lb break="no" ed="#P" n="50"/>rum, quae propter alios dantur. Secundum 
+          au<lb break="no" ed="#P" n="51"/>tem sufficienter probatur, quia nec traditione
+          <lb ed="#P" n="52"/>nec Scriptura ostendi potest tale jus positivum
+          <lb ed="#P" n="53"/>divinum. Denique rationi consentaneum est
+          <lb ed="#P" n="54"/>ut, sicut ecclesiastica jurisdictio non confertur,
+          <lb ed="#P" n="55"/>nisi media aliqua actione hominis, sive illa sit
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tantum designativa, seu electiva personae, ut
+          <lb ed="#P" n="57"/>in summo Pontifice, sive collativa potestatis,
+          <lb ed="#P" n="58"/>ut in reliquis, ita etiam non auferatur, nisi
+          <lb ed="#P" n="59"/>media aliqua actione exteriori, quia in utraque
+          <lb ed="#P" n="60"/>debet servari proportio ad hominis conditionem
+          <lb ed="#P" n="61"/>et naturam, ut a fortiori ex sequenti puncto
+          <lb ed="#P" n="62"/>constabit.
+        </p>
+        <p xml:id="szdleg-a90639-d1e578">
+          <lb ed="#P" n="63"/>8. De haeretico etiam exteriori occulto, 
+          se<lb break="no" ed="#P" n="64"/>clusis censuris ecclesiasticis, de quibus statim
+          <lb ed="#P" n="65"/>dicemus, certum est ex vi talis delicti non
+          <lb ed="#P" n="66"/>amittere hanc potestatem. Quod fere eodem
+          <lb ed="#P" n="67"/>discursu ostendi potest, quia nec est jus 
+          divi<lb break="no" ed="#P" n="68"/>num imponens talem poenam, nec etiam 
+          ec<lb break="no" ed="#P" n="69"/>clesiasticum, ita ut incurratur ipso facto, et
+          <lb ed="#P" n="70"/>ante sententiam; unde sunt multa decreta,
+          <lb ed="#P" n="71"/>quae praecipiunt hujusmodi homines deponi,
+          <lb ed="#P" n="72"/>et privari potestate, quod non habet locum
+          <lb ed="#P" n="73"/>quando delictum est mentale, sed quando est
+          <lb ed="#P" n="74"/>externum. Imo oportet ut sit probabile, si per
+          <lb ed="#P" n="75"/>hominem inferenda est poena, seu privatio.
+          <lb ed="#P" n="76"/>Assumptum constat ex usu; nam ita 
+          observa<lb break="no" ed="#P" n="77"/>tum videmus in antiquis Conciliis, 
+          Constan<lb break="no" ed="#P" n="78"/>tin. 1, Ephesino 1, Chalced. et aliis, et sumitur
+          <lb ed="#P" n="79"/>ex cap. Ad abolendam, de Haereticis, et ex
+          <lb ed="#P" n="80"/>cap. Omnibus, 9. quaest. 1, ibi: Hanc domum
+          <lb ed="#P" n="81"/>si quis corripientem , corrigentemque 
+          contem<lb break="no" ed="#P" n="82"/>pserit, sit libi, inquit, sicut elhnicus et 
+          publi<lb break="no" ed="#P" n="83"/>canus. Ubi Augustinus loquitur de haereticis
+          <lb ed="#P" n="84"/>recedentibus ab Ecclesia, et eos etiam 
+          signifi<lb break="no" ed="#P" n="85"/>cat esse privandos potestate et jurisdictione,
+          <lb ed="#P" n="86"/>per sententiam Praelatorum Ecclesiae; ita enim
+          <lb ed="#P" n="87"/>illa verba Domini intelligit Glossa ult., quia
+          <lb ed="#P" n="88"/>inde colligit haereticum contumacem esse 
+          ju<lb break="no" ed="#P" n="89"/>dicandum. Et potest sumi ex August. in fine
+          <lb ed="#P" n="90"/>cap. 51, lib. 7 de Baptismo. Colligi etiam hoc
+          <lb ed="#P" n="91"/>potest ex illo Pauli ad Titum 3: Hoereticum
+          <lb ed="#P" n="92"/>hominem post primam et secundam correptionem
+          <lb ed="#P" n="93"/>devita ; ergo saltem antequam moneri et 
+          cor<lb break="no" ed="#P" n="94"/>ripi possit, non est privatus ipso facto 
+          juris<lb break="no" ed="#P" n="95"/>dictione et potestate sua; ut autem corripi
+          <lb ed="#P" n="96"/>possit, ita ut sit obligatio vitandi illum ut ab
+          <lb ed="#P" n="97"/>Ecclesia praecisum, necesse est ut crimen non
+          <lb ed="#P" n="98"/>sit occultum. Denique hanc etiam partem
+          <lb ed="#P" n="99"/>probant multa ex his quae adduximus.
+        </p>
+        <p xml:id="szdleg-a90639-d1e662">
+          <lb ed="#P" n="100"/>9. Papam haereticum em vi juris divini eo
+          <lb ed="#P" n="101"/>ipso desinere esse Papam sentiunt multi. Per
+          <lb ed="#P" n="102"/>haesim occultam per accidens omnem 
+          Episco<lb break="no" ed="#P" n="103"/>pum, inferiorem Papa amittere, quantum est
+          <lb ed="#P" n="104"/>ex se, omnem usum jurisdictionis ecclesiasticae.
+          <lb ed="#P" n="105"/>— Major difficultas est in tertio membro,
+          <lb ed="#P" n="106"/>quando Ecclesiae Praelatus publice fidem 
+          dese<lb break="no" ed="#P" n="107"/>ruit. Nam multi viri docti loquentes de Papa
+          <lb ed="#P" n="108"/>docent, si fiat publice haereticus, eo ipso 
+          desi<lb break="no" ed="#P" n="109"/>nere esse Papam. Quod si verum est, non 
+          po<lb break="no" ed="#P" n="110"/>test id esse ex vi juris humani, quod non ha-
+          <pb ed="#P" n="361"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bet vim coactivam supra Papam; et ita censent
+          <lb ed="#P" n="2"/>esse ex vi juris divini, quod Paulus declaravit
+          <lb ed="#P" n="3"/>in loco allegato ad Tit. 3. Quod jus 
+          conse<lb break="no" ed="#P" n="4"/>quenter habebit effectum in quibuscumque
+          <lb ed="#P" n="5"/>Praelatis Ecclesiasticis. Et ita sentit Bellarmin.
+          <lb ed="#P" n="6"/>supra, et indicat Driedo, lib. 4 Dogmat., c.2,
+          <lb ed="#P" n="7"/>p- 2, sentent. 7. Contrarium vero tenet 
+          Caje<lb break="no" ed="#P" n="8"/>tan. supra. Quam rem gravissimam nolumus
+          <lb ed="#P" n="9"/>nunc perfunctorie definire; nam fere pro solo
+          <lb ed="#P" n="10"/>Papa est necessaria, et tractabitur in materia
+          <lb ed="#P" n="11"/>de fide. De inferioribus autem Praelatis nunc
+          <lb ed="#P" n="12"/>certum est, non solum per haeresim publicam,
+          <lb ed="#P" n="13"/>sed etiam per omnem externam, etiam 
+          occul<lb break="no" ed="#P" n="14"/>tam per accidens (ut vocant), amittere, 
+          quan<lb break="no" ed="#P" n="15"/>tum est ex se, usum omnis ecclesiasticae 
+          juris<lb break="no" ed="#P" n="16"/>dictionis, sallem ratione excommunicationis,
+          <lb ed="#P" n="17"/>quam ipso facto incurrunt. An vero haec 
+          ex<lb break="no" ed="#P" n="18"/>communicatio sit de jure divino vel humano,
+          <lb ed="#P" n="19"/>et quam sit antiquum, et quomodo nunc 
+          ser<lb break="no" ed="#P" n="20"/>vandum sit in publicis haereticis nondum 
+          no<lb break="no" ed="#P" n="21"/>minatim excommunicatis, ac denuntiatis, seu
+          <lb ed="#P" n="22"/>declaratis, in materiam de haeresi remittimus;
+          <lb ed="#P" n="23"/>quia in praesenti materia neutra opinio 
+          neces<lb break="no" ed="#P" n="24"/>saria est. Dicimus ergo de facto haereticum
+          <lb ed="#P" n="25"/>publicum, etiamsi denuntiatus non sit, non
+          <lb ed="#P" n="26"/>posse validas leges ferre saltem ratione 
+          cen<lb break="no" ed="#P" n="27"/>surae. Neque obstabit Extrav. Ad evitanda,
+          <lb ed="#P" n="28"/>quia illa constitutio non est in favorem 
+          excom<lb break="no" ed="#P" n="29"/>municati, sed fidelium; et ideo, quamvis alii
+          <lb ed="#P" n="30"/>non teneantur vitare illum, nihilominus, si
+          <lb ed="#P" n="31"/>publice constet illum esse haereticum, optime
+          <lb ed="#P" n="32"/>possunt illi non obedire, nec ejus leges servare,
+          <lb ed="#P" n="33"/>quia revera ille non habet usum potestatis ad
+          <lb ed="#P" n="34"/>coercendum vel obligandum, et alioqui ipsi
+          <lb ed="#P" n="35"/>non coguntur communicare cum illo, licet
+          <lb ed="#P" n="36"/>possint id facere in his quae honesta et 
+          com<lb break="no" ed="#P" n="37"/>moda fuerint. Si autem subditi parere non
+          <lb ed="#P" n="38"/>tenentur, ipse non habet usum jurisdictionis
+          <lb ed="#P" n="39"/>coactivae, et ideo leges ab illo latae nullae seu
+          <lb ed="#P" n="40"/>invalidae sunt.
+        </p>
+        <p xml:id="szdleg-a90639-d1e779">
+          <lb ed="#P" n="41"/>10. Ad rationes Castri respondetur. — 
+          Con<lb break="no" ed="#P" n="42"/>sentaneum est suavi gubernationi Dei non 
+          per<lb break="no" ed="#P" n="43"/>mittere Papam fieri heereticum ; quod si fiat,
+          <lb ed="#P" n="44"/>juridice est declarandus , sicque deponitur a
+          <lb ed="#P" n="45"/>Christo Domino. — Ad rationes ergo ultimo
+          <lb ed="#P" n="46"/>loco adductas pro opinione Castri responderi
+          <lb ed="#P" n="47"/>facile potest. Ad primam dicitur antecedens
+          <lb ed="#P" n="48"/>ad summum procedere de haereticis publicis,
+          <lb ed="#P" n="49"/>et in illis esse dubium ; tamen, sive ex jure
+          <lb ed="#P" n="50"/>divino, sive ex ecclesiastico, fatemur illos esse
+          <lb ed="#P" n="51"/>privatos potestate ferendi leges. Ad secundam
+          <lb ed="#P" n="52"/>negatur assumptum, quia character 
+          baptisma<lb break="no" ed="#P" n="53"/>lis potest sufficere ad retinendam hanc 
+          potes<lb break="no" ed="#P" n="54"/>tatem, praesertim si in publico ritu fidei et
+          <lb ed="#P" n="55"/>externo nondum quis discessit ab Ecclesia. Ad
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tertiam de summo Pontifice possemus 
+          respon<lb break="no" ed="#P" n="57"/>dere, negando posse dari talem eventum juxta
+          <lb ed="#P" n="58"/>opinionem asserentem Pontificem Romanum
+          <lb ed="#P" n="59"/>ex divino privilegio non posse errare in fide ,
+          <lb ed="#P" n="60"/>etiam ut particularem personam , quam 
+          opi<lb break="no" ed="#P" n="61"/>nionem probabiliter defendunt aliqui , 
+          vindi<lb break="no" ed="#P" n="62"/>cando ab hac nota omnes Pontifices qui 
+          hac<lb break="no" ed="#P" n="63"/>tenus praecesserunt. Nam videtur 
+          consenta<lb break="no" ed="#P" n="64"/>neum suavi providentiae Dei, ut non permittat
+          <lb ed="#P" n="65"/>eum falsa contra fidem sentire, quem 
+          permis<lb break="no" ed="#P" n="66"/>surus non est, falsa docere. Et ita dicunt
+          <lb ed="#P" n="67"/>utrumque complecti verba illa : Ego rogavi
+          <lb ed="#P" n="68"/>pro te , Petre, ut non deficiat fides tua. Quia
+          <lb ed="#P" n="69"/>vero haec sententia non est admodum recepta,
+          <lb ed="#P" n="70"/>et concilia generalia aliquando admiserunt
+          <lb ed="#P" n="71"/>casum illum , et consequenter supposuerunt
+          <lb ed="#P" n="72"/>saltem esse possibilem ; ideo dicendum est, si
+          <lb ed="#P" n="73"/>Papa fiat haereticus , non statim cadere a 
+          di<lb break="no" ed="#P" n="74"/>gnitate ipso facto ratione fidei amissae, ut 
+          ge<lb break="no" ed="#P" n="75"/>neraliter probatum est , quia nullum de illo
+          <lb ed="#P" n="76"/>habemus speciale jus divinum , neque 
+          fuis<lb break="no" ed="#P" n="77"/>set Ecclesiae conveniens propter pericula 
+          schis<lb break="no" ed="#P" n="78"/>matum. Neque etiam ex vi censurarum 
+          ec<lb break="no" ed="#P" n="79"/>clesiasticarum manet depositus ipso facto, quia
+          <lb ed="#P" n="80"/>Pontifex non est capax censura , quamdiu
+          <lb ed="#P" n="81"/>Pontifex est, quia nulli subjicitur in terris
+          <lb ed="#P" n="82"/>quoad potestatem coercivam, ad quam 
+          perti<lb break="no" ed="#P" n="83"/>nent censurae. Unum ergo superest Ecclesiae
+          <lb ed="#P" n="84"/>remedium, scilicet, ut in concilio generali 
+          ju<lb break="no" ed="#P" n="85"/>ridice declaretur haereticus ; nam eo ipso cadit
+          <lb ed="#P" n="86"/>a dignitate, non tam potestate humana quam
+          <lb ed="#P" n="87"/>divina. Sicut enim quando eligitur, non 
+          acci<lb break="no" ed="#P" n="88"/>pit potestatem ab electoribus , sed a Christo:
+          <lb ed="#P" n="89"/>ita in eo speciali casu a Christo ipso deponitur
+          <lb ed="#P" n="90"/>post juridicam declarationem. Et quamvis
+          <lb ed="#P" n="91"/>forte de hoc non habeamus expressum jus 
+          di<lb break="no" ed="#P" n="92"/>vinum scriptum, tamen traditio Ecclesiae 
+          suf<lb break="no" ed="#P" n="93"/>ficienter ostendit esse in Ecclesia hanc 
+          potes<lb break="no" ed="#P" n="94"/>tatem, quae fere debita illi erat jure 
+          defensio<lb break="no" ed="#P" n="95"/>nis, et ad providentiam Christi Domini maxime
+          <lb ed="#P" n="96"/>pertinebat. An vero hoc remedium sit semper
+          <lb ed="#P" n="97"/>necessarium, etiamsi contingat Papam esse
+          <lb ed="#P" n="98"/>publice haereticum, disputabitur in locis 
+          prae<lb break="no" ed="#P" n="99"/>allegatis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

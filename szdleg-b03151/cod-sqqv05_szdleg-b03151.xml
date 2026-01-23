@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 20</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 20</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="407"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-b03151"><!-- deleg-l4c20 -->
+        <head xml:id="szdleg-b03151-Hd1e101">Caput 20</head>
+        <head xml:id="szdleg-b03151-Hd1e103" type="question-title">An leges synodales personas religiosas exemptas obligent</head>
+        <p xml:id="szdleg-b03151-d1e106">
+          <lb ed="#P" n="81"/>CAPUT XX.
+          <lb ed="#P" n="82"/>AN LEGES SYNODALES PERSONAS RELIGIOSAS
+          <lb ed="#P" n="83"/>EXEMPTAS OBLIGENT.
+        </p>
+        <p xml:id="szdleg-b03151-d1e115">
+          <lb ed="#P" n="84"/>1. Sententia negativa. —Aliqui absolute 
+          ne<lb break="no" ed="#P" n="85"/>gant; citatur <ref xml:id="szdleg-b03151-Rd1e121">Paludanus in 4, dist. 15, quaest. 4,
+            <lb ed="#P" n="86"/>art. 3.</ref> Sed ille loquitur de consuetudine ; 
+          vi<lb break="no" ed="#P" n="87"/>detur tamen eadem ratio, quia tanta est vis
+          <lb ed="#P" n="88"/>consuetudinis, quanta legis, ut infra dicetur,
+          <lb ed="#P" n="89"/>et ita idem sequitur Antonin., 2 part., tit. 6,
+          <lb ed="#P" n="90"/>cap. 2, S1. Citatur etiam Ledesm. 2, part. 4,
+          <lb ed="#P" n="91"/>q. 17, art. 3, S Tertio dico. Hi autem auctores
+          <lb ed="#P" n="92"/>non videntur fundari in exemptione 
+          religioso<lb break="no" ed="#P" n="93"/>rum, sed in diversitate status, et quia religiosi
+          <lb ed="#P" n="94"/>habent sua propria onera, ut jejunia, etc., et
+          <lb ed="#P" n="95"/>non debent gravari communibus legibus 
+          syno<lb break="no" ed="#P" n="96"/>dalibus : sicut e converso leges seu statuta 
+          reli<lb break="no" ed="#P" n="97"/>giosorum non obligant saeculares. Alii sentiunt
+          <lb ed="#P" n="98"/>religiosos teneri ad leges Episcoporum 
+          ser<lb break="no" ed="#P" n="99"/>vandas, quia non sunt exempti a lege 
+          jurisdic<lb break="no" ed="#P" n="100"/>tionis Episcoporum. Ita sentiunt Glossae et
+          <lb ed="#P" n="101"/>doctores statim citandi, qui supponunt 
+          dis<lb break="no" ed="#P" n="102"/>tinctionem quamdam de duplici lege 
+          Episco<lb break="no" ed="#P" n="103"/>porum; una dicitur lex jurisdictionis, alia
+          <lb ed="#P" n="104"/>dicecesana stricte sumpta. Solet enim 
+          inter<lb break="no" ed="#P" n="105"/>dum lex diocecesana large sumi pro toto jure
+          <lb ed="#P" n="106"/>episcopali, ut in c. Audistis , de 
+          Praescriptio<lb break="no" ed="#P" n="107"/>nibus, et tunc comprehendit legem 
+          jurisdictio<lb break="no" ed="#P" n="108"/>nis. Alio vero modo sumitur stricte, et sic dis
+          <pb ed="#P" n="408"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tinguitur a lege jurisdictionis, ut in cap. 
+          Di<lb break="no" ed="#P" n="2"/>lectus, de Offic. ordin., et 10, quaest. 4, in
+          <lb ed="#P" n="3"/>Summa, et cap. 1, ubi dicitur religiosos esse
+          <lb ed="#P" n="4"/>exemptos a lege dioecesana, et supponitur non
+          <lb ed="#P" n="5"/>esse exemptos a lege jurisdictionis. Cum ergo
+          <lb ed="#P" n="6"/>praecipere pertineat ad legem jurisdictionis ,
+          <lb ed="#P" n="7"/>concluditur religiosos non esse exemptos a 
+          prae<lb break="no" ed="#P" n="8"/>ceptis Episcoporum.
+        </p>
+        <p xml:id="szdleg-b03151-d1e196">
+          <lb ed="#P" n="9"/>2. Legem jurisdictionis consistere in agendo
+          <lb ed="#P" n="10"/>seu regendo, legem diecesanam in recipiendo.—
+          <lb ed="#P" n="11"/>Ut autem haec sententia intelligatur, oportet
+          <lb ed="#P" n="12"/>de illa distinctione pauca praemittere ; quid
+          <lb ed="#P" n="13"/>enim per illas voces significetur, non 
+          inveni<lb break="no" ed="#P" n="14"/>tur in jure satis declaratum. Glossae igitur 
+          su<lb break="no" ed="#P" n="15"/>pra citata jura, ita illas explicant, ut lex 
+          juris<lb break="no" ed="#P" n="16"/>dictionis sit illa quae consistit in agendo,
+          <lb ed="#P" n="17"/>gubernando , seu ministrando; lex autem
+          <lb ed="#P" n="18"/>dioecesana ea quae consistit in recipiendo, id
+          <lb ed="#P" n="19"/>est, quae statuit de his quae sunt conferenda
+          <lb ed="#P" n="20"/>Episcopo, et ab ipso recipienda. Quod his
+          <lb ed="#P" n="21"/>exemplis declarant ; nam ad legem 
+          jurisdictio<lb break="no" ed="#P" n="22"/>nis pertinent omnia , quae circa judicia 
+          agun<lb break="no" ed="#P" n="23"/>tur, ut sunt citatio, causae examinatio, decisio,
+          <lb ed="#P" n="24"/>punitio, vel absolutio, ut ex illo textu 
+          colligi<lb break="no" ed="#P" n="25"/>tur: unde omnia etiam quae pertinent ad
+          <lb ed="#P" n="26"/>gubernationem dioecesis, ad hanc legem 
+          spec<lb break="no" ed="#P" n="27"/>tabunt, et consequenter etiam statuta condere
+          <lb ed="#P" n="28"/>et leges, ad eamdem legem pertinet. Addit
+          <lb ed="#P" n="29"/>etiam illa Glossa, sacramentorum collationem,
+          <lb ed="#P" n="30"/>consecrationem ecclesiarum, et confectionem
+          <lb ed="#P" n="31"/>chrismatis, ac similia etiam pertinere ad 
+          le<lb break="no" ed="#P" n="32"/>gem jurisdictionis. Quod Panormit. ibi 
+          vide<lb break="no" ed="#P" n="33"/>tur difficile, quia si haec essent jurisdictionis,
+          <lb ed="#P" n="34"/>possent delegari non habenti ordinem 
+          episco<lb break="no" ed="#P" n="35"/>palem. Sed haec non dicuntur esse 
+          jurisdictio<lb break="no" ed="#P" n="36"/>nis, quia non requirunt potestatem ordinis
+          <lb ed="#P" n="37"/>episcopalis, sed quia requirunt jurisdictionem
+          <lb ed="#P" n="38"/>ut debite ministrentur. Et sic Episcopus 
+          ratio<lb break="no" ed="#P" n="39"/>ne suae jurisdictionis potest illa omnia 
+          aucto<lb break="no" ed="#P" n="40"/>ritate sua in sua dicecesi, et suis subditis 
+          mi<lb break="no" ed="#P" n="41"/>nistrare, et non aliis, et e converso subditi
+          <lb ed="#P" n="42"/>tenentur haec recipere a suo Episcopo, et non
+          <lb ed="#P" n="43"/>ab alio sine licentia illius, quae subjectio 
+          de<lb break="no" ed="#P" n="44"/>betur Episcopo pfopter legem jurisdictionis, et
+          <lb ed="#P" n="45"/>ideo etiam in hoc religiosi subjiciuntur 
+          Epis<lb break="no" ed="#P" n="46"/>copis, cap. Znterdicimus, 16, quaest. 1.
+        </p>
+        <p xml:id="szdleg-b03151-d1e282">
+          <lb ed="#P" n="47"/>3. Ad Episcopum duo spectant - pascere et
+          <lb ed="#P" n="48"/>pasci. — Ad legem autem dioecesanam, ait illa
+          <lb ed="#P" n="49"/>Glossa, pertinere Cathedraticum, quartam 
+          de<lb break="no" ed="#P" n="50"/>cimationem, et mortuariorum, Synodum, 
+          vi<lb break="no" ed="#P" n="51"/>sitationem annuam, de quibus in cap. 
+          Conque<lb break="no" ed="#P" n="52"/>rente, de Offic. ordin. Et videtur fundari in
+          <lb ed="#P" n="53"/>hoc, quod ab hujusmodi juribus, et oneribus
+          <lb ed="#P" n="54"/>eximuntur monasteria in jure, in cap. 7nter
+          <lb ed="#P" n="55"/>alia, 10, quaest. 3, cum aliis, quae ibi a Glossa
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>citantur. Objici vero potest, quia, licet 
+          quae<lb break="no" ed="#P" n="57"/>dam ex his consistant in recipiendo, non 
+          ta<lb break="no" ed="#P" n="58"/>men omnia, et praeterea nullo jure probatur
+          <lb ed="#P" n="59"/>legem dioecesanam consistere semper in 
+          reci<lb break="no" ed="#P" n="60"/>piendo. Primum patet, quia synodi 
+          congrega<lb break="no" ed="#P" n="61"/>tio non consistit in recipiendo; nam vocare
+          <lb ed="#P" n="62"/>ad Synodum, agere est, et propriissimus actus
+          <lb ed="#P" n="63"/>jurisdictionis, et similiter illi praesidere ; 
+          visita<lb break="no" ed="#P" n="64"/>tio etiam annua jurisdictionis est, et in agendo
+          <lb ed="#P" n="65"/>consistit. Altera pars non aliter probatur, nisi
+          <lb ed="#P" n="66"/>quia Gloss. nullum textum ad id probandum
+          <lb ed="#P" n="67"/>adducit. Nihilominus explicatio Glossae potest
+          <lb ed="#P" n="68"/>probabili suaderi conjectura : quoad Episcopi
+          <lb ed="#P" n="69"/>jus, duo spectant ; unum est regere et pascere,
+          <lb ed="#P" n="70"/>et omnia quae ad hoc munus spectant, 
+          dicun<lb break="no" ed="#P" n="71"/>tur esse de lege jurisdictionis; aliud est pasci,
+          <lb ed="#P" n="72"/>seu debitum stipendium accipere, et ita omnia
+          <lb ed="#P" n="73"/>servitia, et subsidia temporalia, quae debentur
+          <lb ed="#P" n="74"/>Episcopis ratione sui muneris, dicuntur 
+          perti<lb break="no" ed="#P" n="75"/>nere ad legem diocecesanam, sic stricte 
+          sum<lb break="no" ed="#P" n="76"/>ptam.
+        </p>
+        <p xml:id="szdleg-b03151-d1e352">
+          <lb ed="#P" n="77"/>4. Admissa vero hac declaratione in illo
+          <lb ed="#P" n="78"/>sensu, exempla debent cum debita proportione
+          <lb ed="#P" n="79"/>assignari, ideoque congregatio synodi, et 
+          visi<lb break="no" ed="#P" n="80"/>tatio annua ad legem jurisdictionis 
+          pertine<lb break="no" ed="#P" n="81"/>bunt. ut probat ratio facta, licet jus recipiendi
+          <lb ed="#P" n="82"/>synodaticum (ut appellant) et procurationem,
+          <lb ed="#P" n="83"/>pertineat ad legem dioecesanam. Neque in jure
+          <lb ed="#P" n="84"/>est aliquid quod repugnet, quia in jure non
+          <lb ed="#P" n="85"/>invenitur declaratum, qui actus ad hanc, vel
+          <lb ed="#P" n="86"/>illam legem pertineant. Tunc autem difficile
+          <lb ed="#P" n="87"/>erit defendere duas illas generales regulas,
+          <lb ed="#P" n="88"/>quod religiosi sunt exempti a lege dicecesana,
+          <lb ed="#P" n="89"/>non vero a lege jurisdictionis, ut ex his quae
+          <lb ed="#P" n="90"/>Panormitan. late prosequitur, facile intelligi
+          <lb ed="#P" n="91"/>potest. Posset autem responderi, utramque 
+          ve<lb break="no" ed="#P" n="92"/>rificari cum exceptione, nisi in casibus a jure
+          <lb ed="#P" n="93"/>expressis, ita ut sensus sit, religiosos esse
+          <lb ed="#P" n="94"/>exemptos a lege dicecesana, id est, a solvendo
+          <lb ed="#P" n="95"/>subsidio vel quasi tributo Episcopis, nisi in
+          <lb ed="#P" n="96"/>casibus a jure expressis , non tamen esse
+          <lb ed="#P" n="97"/>exemptos ab obedientia et lege jurisdictionis,
+          <lb ed="#P" n="98"/>nisi in aliquo casu speciali in jure expresso.
+        </p>
+        <p xml:id="szdleg-b03151-d1e402">
+          <lb ed="#P" n="99"/>5. Iegula Panorm. de predictis regulis.—
+          <lb ed="#P" n="100"/>Aliter vero Panormitan. declarat illas voces,
+          <lb ed="#P" n="101"/>supponitque religiosos jure communi esse
+          <lb ed="#P" n="102"/>exemptos ab Episcopis in quibusdam rebus, et
+          <lb ed="#P" n="103"/>non in aliis. Dicit igitur illa omnia, quae in
+          <lb ed="#P" n="104"/>jure inveniuntur expressa, in quibus religiosi
+          <lb ed="#P" n="105"/>sunt exempti ab episcopali jure, appellari de
+          <lb ed="#P" n="106"/>lege dioecesana ; reliqua vero omnia esse de
+          <lb ed="#P" n="107"/>lege jurisdictionis. Neque aliam adducit 
+          proba<lb break="no" ed="#P" n="108"/>tionem, vel rationem nominum, sed dicit
+          <lb ed="#P" n="109"/>fuisse potius magistralem applicationem, quam
+          <lb ed="#P" n="110"/>juris impositionem, vel usum. Unde (quoad
+          <pb ed="#P" n="409"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rem spectat) sentit religiosos non esse 
+          exemp<lb break="no" ed="#P" n="2"/>tos, nisi in his quae sunt in jure expressa,
+          <lb ed="#P" n="3"/>quae sunt decem vel undecim, quae ibi 
+          sigilla<lb break="no" ed="#P" n="4"/>tim enumerat, et plura in tribuendo, aliqua
+          <lb ed="#P" n="5"/>vero in agendo consistunt. In eis tamen non
+          <lb ed="#P" n="6"/>continentur leges episcopales, nec subjectio
+          <lb ed="#P" n="7"/>illis debita, et ita etiam hoc modo 
+          concludi<lb break="no" ed="#P" n="8"/>tur, leges Episcoporum obligare religiosos,
+          <lb ed="#P" n="9"/>quia in hoc non inveniuntur jure exempti, et
+          <lb ed="#P" n="10"/>ita pertinet ad legem jurisdictionis.
+        </p>
+        <p xml:id="szdleg-b03151-d1e457">
+          <lb ed="#P" n="11"/>6. Regula D. Thom. de obedientia monachi.
+          <lb ed="#P" n="12"/>—Hi tamen doctores canonistae loquuntur de
+          <lb ed="#P" n="13"/>religiosis stando in jure communi, ut ex 
+          doc<lb break="no" ed="#P" n="14"/>trina eorum constat, et quia saepe excipiunt
+          <lb ed="#P" n="15"/>specialem exemptionem. Et hoc sensu eorum
+          <lb ed="#P" n="16"/>sententia videtur manifesta, saltem stando in
+          <lb ed="#P" n="17"/>jure: antiquo, quia nullo jure inveniuntur
+          <lb ed="#P" n="18"/>exempti quoad synodales leges ; ergo nisi alias
+          <lb ed="#P" n="19"/>specialiter sint exempti, tenentur illis parere.
+          <lb ed="#P" n="20"/>Patet consequentia, quia sunt subjecti ex vi
+          <lb ed="#P" n="21"/>ordinariae jurisdictionis episcopalis. Item hac
+          <lb ed="#P" n="22"/>ratione jura antiqua praecipiunt, ut monachi
+          <lb ed="#P" n="23"/>Episcopis pareant, et ab eis corripiantur, 
+          capi<lb break="no" ed="#P" n="24"/>tulo Monasteria, et capitulo Cognovimus, 18,
+          <lb ed="#P" n="25"/>quaest. 2; et D. Thom. in 2, distinctione 44,
+          <lb ed="#P" n="26"/>in ultim. dub. litter. ad 2, ait monachum 
+          te<lb break="no" ed="#P" n="27"/>neri ad obediendum Abbati plus quam 
+          Episco<lb break="no" ed="#P" n="28"/>po, in illis quae ad statum regulae pertinent; in
+          <lb ed="#P" n="29"/>his autem quae ad disciplinam ecclesiasticam
+          <lb ed="#P" n="30"/>pertinent, magis teneri Episcopo, quia in his
+          <lb ed="#P" n="31"/>Episcopus est superior Abbatis. Ergo si leges
+          <lb ed="#P" n="32"/>episcopales et synodales non sint contra 
+          sta<lb break="no" ed="#P" n="33"/>tum regulae religiosae, licet sint diversae, et 
+          ali<lb break="no" ed="#P" n="34"/>quid ei addant, tenentur religiosi eis obedire
+          <lb ed="#P" n="35"/>ex vi religiosi status, si alias exempti non sunt.
+        </p>
+        <p xml:id="szdleg-b03151-d1e514">
+          <lb ed="#P" n="36"/>7. Nec contra hoc obstat motivum prioris
+          <lb ed="#P" n="37"/>sententiae. Dico enim religiosos, non obstante
+          <lb ed="#P" n="38"/>statu, prius obligari ad servanda mandata Dei
+          <lb ed="#P" n="39"/>et Ecclesiae, quam sua statuta ; unde, licet per
+          <lb ed="#P" n="40"/>talia statuta specialia onera suscipiant, 
+          pro<lb break="no" ed="#P" n="41"/>pter illa non excusantur a generalibus legibus,
+          <lb ed="#P" n="42"/>sed illa voluntarie suscipiunt ultra communia
+          <lb ed="#P" n="43"/>onera Christianorum. Inter haec autem 
+          gene<lb break="no" ed="#P" n="44"/>ralia onera Christianorum computantur ea quae
+          <lb ed="#P" n="45"/>per leges episcopales, aut synodales omnibus
+          <lb ed="#P" n="46"/>imponuntur, et in quocumque statu servari
+          <lb ed="#P" n="47"/>possunt, ut sunt jejunia, festivitates, etc. Et
+          <lb ed="#P" n="48"/>ideo ab his excusari non possunt propter 
+          spe<lb break="no" ed="#P" n="49"/>cialia onera sui status. Neque comparatio ibi
+          <lb ed="#P" n="50"/>facta valet, quia statuta religiosorum non sunt
+          <lb ed="#P" n="51"/>generalia pro tota dioecesi, sed sunt specialia
+          <lb ed="#P" n="52"/>talis communitatis et professionis; ideo non
+          <lb ed="#P" n="53"/>possunt obligare saeculares, sive clericos, sive
+          <lb ed="#P" n="54"/>laicos; leges autem Episcopi generales sunt
+          <lb ed="#P" n="55"/>pro toto territorio in quo morantur religiosi,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et ideo illis obligantur, si exempti non sint.
+        </p>
+        <p xml:id="szdleg-b03151-d1e564">
+          <lb ed="#P" n="57"/>8. De exemptis vero est speciale dubium,
+          <lb ed="#P" n="58"/>an obligentur ad obediendum legibus 
+          Episco<lb break="no" ed="#P" n="59"/>porum. Videtur autem dicendum, in rigore et
+          <lb ed="#P" n="60"/>ex vi legis non obligari. Primo, quia sunt 
+          sim<lb break="no" ed="#P" n="61"/>pliciter exempti a jurisdictione, tam 
+          Episcopo<lb break="no" ed="#P" n="62"/>rum, quam synodorum episcopalium ; ergo
+          <lb ed="#P" n="63"/>maxime sunt exempti a primo actu 
+          jurisdic<lb break="no" ed="#P" n="64"/>tionis, qui est legem ferre. Secundo, quia sunt
+          <lb ed="#P" n="65"/>extra territorium, argumento cap. 1 de 
+          Pri<lb break="no" ed="#P" n="66"/>vileg., in 6, et juxta id quod supra diximus,
+          <lb ed="#P" n="67"/>existentem in loco exempto esse extra 
+          territo<lb break="no" ed="#P" n="68"/>rium quoad effectum jurisdictionis. Tertio,
+          <lb ed="#P" n="69"/>quia hi religiosi exempti non tenentur parere
+          <lb ed="#P" n="70"/>Episcopis, nisi in casibus a jure expressis, ut
+          <lb ed="#P" n="71"/>colligitur ex dicto cap. 1 de Privilegiis, in 6,
+          <lb ed="#P" n="72"/>ibi: Salvis casibus aliis, in quibus 
+          Episcopo<lb break="no" ed="#P" n="73"/>rmn urisdictioni subesse canonica praecipiunt
+          <lb ed="#P" n="74"/>instituta : nullum autem est decretum 
+          cano<lb break="no" ed="#P" n="75"/>nicum, quod praecipiat exemptos parere 
+          legi<lb break="no" ed="#P" n="76"/>bus Episcoporum : quinimo, in cap. NVimis, de
+          <lb ed="#P" n="77"/>Excessibus Praelator., inter alia quae 
+          prohiben<lb break="no" ed="#P" n="78"/>tur Episcopis, ponitur quod suis 
+          constitutioni<lb break="no" ed="#P" n="79"/>bus subjicere cogunt religiosos. Et, licet ibi
+          <lb ed="#P" n="80"/>nominentur specialiter Praedicatores et 
+          Mino<lb break="no" ed="#P" n="81"/>res, tamen id est gratia exempli, sermo 
+          ta<lb break="no" ed="#P" n="82"/>men generalis est de omnibus similibus, ut
+          <lb ed="#P" n="83"/>patet ex illis verbis: Cum quidam viri religiosi,
+          <lb ed="#P" n="84"/>ut puta fratres Praedicatores et Minores, etc.;
+          <lb ed="#P" n="85"/>accedit, quod Trident. Concilium sess. 25,
+          <lb ed="#P" n="86"/>cap. 12 de Regul. specialiter praecipit, ut 
+          re<lb break="no" ed="#P" n="87"/>ligiosi exempti obediant Episcopis in 
+          censura<lb break="no" ed="#P" n="88"/>rum et festorum observatione ab eis praecepta.
+          <lb ed="#P" n="89"/>In quo videtur supponere, antea non fuisse ad
+          <lb ed="#P" n="90"/>hoc obligatos, sed per illam legem eorum
+          <lb ed="#P" n="91"/>exemptioni derogatum iri. Et praeterea inde
+          <lb ed="#P" n="92"/>sumitur argumentum ab speciali, quod in aliis
+          <lb ed="#P" n="93"/>legibus episcopalibus, ut jejuniorum, verbi
+          <lb ed="#P" n="94"/>gratia, religiosi exempti obedire non 
+          tenen<lb break="no" ed="#P" n="95"/>tur. Denique haec exemptio pleno jure 
+          con<lb break="no" ed="#P" n="96"/>cessa est, ut ex privilegiis talium religiosorum
+          <lb ed="#P" n="97"/>constat, et notat Felin. in cap. Dilectus, de
+          <lb ed="#P" n="98"/>Offic. ordin. in fine, ex Panormit. et Cardinal.
+          <lb ed="#P" n="99"/>quod allegat: ergo tales religiosi prorsus sunt
+          <lb ed="#P" n="100"/>exempti a jurisdictione Episcoporum, ut in
+          <lb ed="#P" n="101"/>simili dicitur in cap. E ore, de Privilegiis:
+          <lb ed="#P" n="102"/>ergo et a legibus eorum in his omnibus quae
+          <lb ed="#P" n="103"/>per sacros canones non sunt excepta.
+        </p>
+        <p xml:id="szdleg-b03151-d1e669">
+          <lb ed="#P" n="104"/>9. Sed, licet hoc verum sit ex vi praecepti et
+          <lb ed="#P" n="105"/>jurisdictionis, nihilominus aliqui sentiunt 
+          re<lb break="no" ed="#P" n="106"/>ligiosos teneri ex vi juris naturalis ad 
+          servan<lb break="no" ed="#P" n="107"/>das has leges synodales, seu episcopales, 
+          quan<lb break="no" ed="#P" n="108"/>do non derogant statui religioso, et spectant
+          <lb ed="#P" n="109"/>ad communem observantiam et devotionem
+          <lb ed="#P" n="110"/>totius populi, aut cleri: ratio est, quia licet re-
+          <pb ed="#P" n="410"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ligiosi sint exempti, nihilominus sunt pars
+          <lb ed="#P" n="2"/>istius communitatis, et ideo propter 
+          unifor<lb break="no" ed="#P" n="3"/>mitatem tenentur conformari in his legibus
+          <lb ed="#P" n="4"/>et moribus, quia turpis est pars quae a toto 
+          dis<lb break="no" ed="#P" n="5"/>cordat; ergo ex hoc principio lex naturalis
+          <lb ed="#P" n="6"/>obligat religiosos ad hanc uniformitatem, et
+          <lb ed="#P" n="7"/>consequenter ad observationem talium legum,
+          <lb ed="#P" n="8"/>saltem quoad vim directivam, seu in foro 
+          con<lb break="no" ed="#P" n="9"/>scientiae, quamvis non quoad vim coactivam,
+          <lb ed="#P" n="10"/>quia propter exemptionem cogi non poterunt
+          <lb ed="#P" n="11"/>per Episcopos ad eas servandas, nec incurrunt
+          <lb ed="#P" n="12"/>censuras, etiamsi per eas latae sint.
+        </p>
+        <p xml:id="szdleg-b03151-d1e717">
+          <lb ed="#P" n="13"/>10. Solum teneri religiosos evemptos ad 
+          vi<lb break="no" ed="#P" n="14"/>tandum scandalum circa usum, vel 
+          observan<lb break="no" ed="#P" n="15"/>tiam talium legum, nec enim partes heterogenece
+          <lb ed="#P" n="16"/>ducende sunt regula universali. — Existimo
+          <lb ed="#P" n="17"/>tamen solum teneri religiosos exemptos ad
+          <lb ed="#P" n="18"/>vitandum scandalum circa usum, vel 
+          obser<lb break="no" ed="#P" n="19"/>vantiam talium legum : illo autem secluso non
+          <lb ed="#P" n="20"/>peccare, illas non servando, nisi ubi usu et
+          <lb ed="#P" n="21"/>consuetudine illas acceptaverint, et suo juri
+          <lb ed="#P" n="22"/>cesserint. Et hoc aperte sentiunt Palud. et
+          <lb ed="#P" n="23"/>Antonin. ubi supra: ratio vero est, quia 
+          con<lb break="no" ed="#P" n="24"/>sideratio illa uniformitatis non suflicit ad 
+          hu<lb break="no" ed="#P" n="25"/>jusmodi obligationem. Et imprimis quod non
+          <lb ed="#P" n="26"/>sufliciat ad obligationem sub mortali, 
+          osten<lb break="no" ed="#P" n="27"/>dimus supra, et dicemus infra in terminis 
+          for<lb break="no" ed="#P" n="28"/>tioribus, tractando de dispensatione harum
+          <lb ed="#P" n="29"/>legum. Quod vero hic nulla sit talis obligatio,
+          <lb ed="#P" n="30"/>patet ex diversitate status religiosi a reliquis
+          <lb ed="#P" n="31"/>saecularibus : nam ex sua natura (ut sic dicam)
+          <lb ed="#P" n="32"/>includit quamdam difformitatem : ergo non est
+          <lb ed="#P" n="33"/>cur requirat talem uniformitatem. Declaratur
+          <lb ed="#P" n="34"/>exemplo philosophico, nam in corpore 
+          hetero<lb break="no" ed="#P" n="35"/>geneo non est necessaria uniformitas 
+          membro<lb break="no" ed="#P" n="36"/>rum: hoc autem corpus civitatis constat ex
+          <lb ed="#P" n="37"/>laicis, clericis et religiosis, tanquam ex 
+          mem<lb break="no" ed="#P" n="38"/>bris heterogeneis: ergo non postulat unifor-
+        </p>
+        <p xml:id="szdleg-b03151-d1e776">
+          <lb ed="#P" n="39"/>mitatem inter eos in his quae propria sunt, sed
+          <lb ed="#P" n="40"/>tantum in his quae habent communia, ut sunt
+          <lb ed="#P" n="41"/>Christiani, vel membra Ecclesiae: hae autem
+          <lb ed="#P" n="42"/>leges synodales per se dantur pro saecularibus,
+          <lb ed="#P" n="43"/>vel pro his qui subduntur Episcopis: non ergo
+          <lb ed="#P" n="44"/>oportet religiosos eis conformari. Declarari
+          <lb ed="#P" n="45"/>etiam potest exemplo morali de novitiis 
+          reli<lb break="no" ed="#P" n="46"/>gionum, qui, licet communem vitam agant
+          <lb ed="#P" n="47"/>cum caeteris religiosis, nihilominus non 
+          tenen<lb break="no" ed="#P" n="48"/>tur in vi praecepti ad servanda statuta 
+          religio<lb break="no" ed="#P" n="49"/>num, etiamsi talia sint, quae alios religiosos
+          <lb ed="#P" n="50"/>obligent in conscientia; quia per se non 
+          tenen<lb break="no" ed="#P" n="51"/>tur, quia religiosi non sunt, et ita deest in illis
+          <lb ed="#P" n="52"/>fundamentum illius obligationis, quod est 
+          vin<lb break="no" ed="#P" n="53"/>culum professionis et voti obedientiae ; nec
+          <lb ed="#P" n="54"/>tenentur ratione uniformitatis, quia ad hanc
+          <lb ed="#P" n="55"/>non tenentur ex vi status: sunt enim ibi ut
+          <lb ed="#P" n="56"/>probentur, non ut aliis in omnibus 
+          conformen<lb break="no" ed="#P" n="57"/>tur, sed secundum modum suum:: multo ergo
+          <lb ed="#P" n="58"/>minus tenentur religiosi conformari laicis etiam
+          <lb ed="#P" n="59"/>in operibus bonis, et observantiis specialibus
+          <lb ed="#P" n="60"/>eorum. Tandem accedit, quod ideo hi religiosi
+          <lb ed="#P" n="61"/>eximuntur, quia habent propria onera, et ne
+          <lb ed="#P" n="62"/>cogantur alia sustinere, nisi quae Pontifices,
+          <lb ed="#P" n="63"/>vel eorum Praelati eis imposuerint : ergo haec
+          <lb ed="#P" n="64"/>ipsa exemptio declarat non esse necessariam
+          <lb ed="#P" n="65"/>illam uniformitatem. Nihilominus ex decentia
+          <lb ed="#P" n="66"/>quadam recte facient religiosi, has leges 
+          ser<lb break="no" ed="#P" n="67"/>vando, ubi sine magno onere potuerint. Et ubi
+          <lb ed="#P" n="68"/>fuerit consuetudo illas servandi tanquam 
+          ne<lb break="no" ed="#P" n="69"/>cessarias, obligabuntur ex vi consuetudinis,
+          <lb ed="#P" n="70"/>non vero ex aliis capitibus. Et haec dixisse
+          <lb ed="#P" n="71"/>sufficiat de lege canonica: nam caetera quae
+          <lb ed="#P" n="72"/>desiderari possunt communia sunt legi 
+          huma<lb break="no" ed="#P" n="73"/>nae quatenus talis est, ideoque ex libro 
+          praece<lb break="no" ed="#P" n="74"/>denti petenda sunt, et ob eamdem causam
+          <lb ed="#P" n="75"/>de varia illius mutatione in libro octavo 
+          dice<lb break="no" ed="#P" n="76"/>mus.
+          <lb ed="#P" n="77"/>FINIS LIBRI QUARTI.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

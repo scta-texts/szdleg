@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 30</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 30</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="293"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a74278"><!-- deleg-l3c30 -->
+        <head xml:id="szdleg-a74278-Hd1e101">Caput 30</head>
+        <head xml:id="szdleg-a74278-Hd1e103" type="question-title">Utrum lex humana et civilis possit obligare ad sui observationem cum periculo cuiuscumque nocumenti temporalis, etiam mortis</head>
+        <p xml:id="szdleg-a74278-d1e106">
+          <pb ed="#P" n="293"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT XXX
+          <lb ed="#P" n="2"/>UTRUM LEX HUMANA ET CIVILIS POSSIT OBLIGARE
+          <lb ed="#P" n="3"/>AD SUI OBSERVATIONEM CUM PERICULO 
+          CUJUS<lb break="no" ed="#P" n="4"/>CUMQUE NOCUMENTI TEMPORALIS, ETIAM MORTIS.
+        </p>
+        <p xml:id="szdleg-a74278-d1e122">
+          <lb ed="#P" n="5"/>1. Declaravimus modum obligationis legis
+          <lb ed="#P" n="6"/>humanae quoad gravitatem ejus ; nunc 
+          expli<lb break="no" ed="#P" n="7"/>candus est quoad rigorem, ut sic dicam, vel
+          <lb ed="#P" n="8"/>lenitatem ejus, et consequenter explicabitur
+          <lb ed="#P" n="9"/>quoad durationem ejus, vel cessationem ratione
+          <lb ed="#P" n="10"/>occurentis occasionis, quae maxime esse solet
+          <lb ed="#P" n="11"/>quando damnum aliquod grave et periculum
+          <lb ed="#P" n="12"/>ejus imminet ex observatione legis, et ideo 
+          in<lb break="no" ed="#P" n="13"/>quirimus an in hujusmodi occasione cesset
+          <lb ed="#P" n="14"/>obligatio legis, ita ut nullum peccatum sit
+          <lb ed="#P" n="15"/>illam non servare.
+        </p>
+        <p xml:id="szdleg-a74278-d1e148">
+          <lb ed="#P" n="16"/>2. Sententia negans absolute posse legem
+          <lb ed="#P" n="17"/>umanam obligare cum mortali periculo vite.
+          <lb ed="#P" n="18"/>—Prima sententia absolute docet legem 
+          hu<lb break="no" ed="#P" n="19"/>manam non posse obligare cum mortali 
+          peri<lb break="no" ed="#P" n="20"/>culo vitae, vel alio simili. Tenet Almain. in
+          <lb ed="#P" n="21"/>Moralibus, tract. 1, cap. 3, inclinat Sylvest.
+          <lb ed="#P" n="22"/>verb. Metus, q.1. Fundamentum est,quia dare
+          <lb ed="#P" n="23"/>vitam propter opus per se non necessarium ad
+          <lb ed="#P" n="24"/>salutem vel honestatem, est opus difficillimum,
+          <lb ed="#P" n="25"/>et supererogationis : lex autem humana non
+          <lb ed="#P" n="26"/>potest hujusmodi opera praecipere : ergo. 
+          Con<lb break="no" ed="#P" n="27"/>firmatur, quia conservare vitam est de lege
+          <lb ed="#P" n="28"/>naturae ; ergo nulla lex humana potest contra
+          <lb ed="#P" n="29"/>hoc praecipere : unde D. Thomas 2. 2, q. 104,
+          <lb ed="#P" n="30"/>artic. 5, dixit in his quae ad conservationem
+          <lb ed="#P" n="31"/>corporis spectant, hominem non teneri homini
+          <lb ed="#P" n="32"/>obedire.
+        </p>
+        <p xml:id="szdleg-a74278-d1e188">
+          <lb ed="#P" n="33"/>3. Secunda sententia, legem Inuumanam 
+          obli<lb break="no" ed="#P" n="34"/>gare in universum, non obstante quovis mortis
+          <lb ed="#P" n="35"/>periculo. — Altera sententia est, legem 
+          huma<lb break="no" ed="#P" n="36"/>nam in universum obligare, non obstante
+          <lb ed="#P" n="37"/>quocumque periculo mortis. Ita docet 
+          Caje<lb break="no" ed="#P" n="38"/>tan. 1. 2, quaest. 96, artic, 4; et 2. 2, q. 125,
+          <lb ed="#P" n="39"/>artic. 3. Idem sentit Adrian. in 4, quaest. 3de
+          <lb ed="#P" n="40"/>Clavibus ; Henric., tract. de Synod. Episcop.
+          <lb ed="#P" n="41"/>post 3 part., artic. 1, num. 271, in tom. 13
+          <lb ed="#P" n="42"/>tractatuum, part. 2. Fundamentum est, quia
+          <lb ed="#P" n="43"/>quod est contra legem humanam est malum
+          <lb ed="#P" n="44"/>et peccatum, ut ex supra dictis patet : ergo
+          <lb ed="#P" n="45"/>etiam propter mortem vitandam faciendum
+          <lb ed="#P" n="46"/>non est, cap. 74a ne, 32, q. 3, ex August. 
+          Con<lb break="no" ed="#P" n="47"/>firmatur primo, quia bonum commune 
+          praefe<lb break="no" ed="#P" n="48"/>rendum est privato, et homo tenetur pro 
+          com<lb break="no" ed="#P" n="49"/>muni bono vitam perdere : sed humana lex
+          <lb ed="#P" n="50"/>propter commune bonum ponitur : ergo 
+          ser<lb break="no" ed="#P" n="51"/>vanda est, non obstante vitae periculo. Tandem
+          <lb ed="#P" n="52"/>confirmatur inductione, quia non potest quis
+          <lb ed="#P" n="53"/>propter metum mortis contrahere cum con-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>sanguinea in gradu prohibito per legem 
+          hu<lb break="no" ed="#P" n="55"/>manam, nec potest aliquis propter vitandam
+          <lb ed="#P" n="56"/>mortem sacrum facere sine vestibus sacris,
+          <lb ed="#P" n="57"/>cum tamen id solum sit de lege humana. 
+          De<lb break="no" ed="#P" n="58"/>nique non potest quis communicare cum 
+          ex<lb break="no" ed="#P" n="59"/>communicato propter vitandam mortem, cap.
+          <lb ed="#P" n="60"/>Sacris, de lis quae vi, etc.
+        </p>
+        <p xml:id="szdleg-a74278-d1e253">
+          <lb ed="#P" n="61"/>4. Esse potestatem in magistratu civili, et
+          <lb ed="#P" n="62"/>canonico ad obligandum suis legibus cum 
+          peri<lb break="no" ed="#P" n="63"/>culo vitee.—HEHst in republica necessaria 
+          potes<lb break="no" ed="#P" n="64"/>tas ad suam conservationem et commune bomum.
+          <lb ed="#P" n="65"/>—Nihilominus, dicendum est primo non 
+          dees<lb break="no" ed="#P" n="66"/>se potestatem in magistratu civili, et idema
+          <lb ed="#P" n="67"/>fortiori de ecclesiastico, ad obligandum suis
+          <lb ed="#P" n="68"/>lcgibus et cum periculo vitae, si necesse sit.
+          <lb ed="#P" n="69"/>Sententia est communis, et mihi certa, et 
+          prae<lb break="no" ed="#P" n="70"/>ter auctores secundae opinionis, tenent eam
+          <lb ed="#P" n="71"/>Soto, lib. 1 de Justit., quaest. 6, art. 4, in fine;
+          <lb ed="#P" n="72"/>et in 4, distinct. 22, quaest. 1, artic. 4; et 
+          Le<lb break="no" ed="#P" n="73"/>desma 2 part., quaest. 10, art. 5, et quaest. 25,
+          <lb ed="#P" n="74"/>art. 3; Covar. qui alios refert, in cap. Alma
+          <lb ed="#P" n="75"/>mater, 4 part., S 3, n. 9, et alii infra citandi.
+          <lb ed="#P" n="76"/>Ratio est, quia in republica est potestas 
+          neces<lb break="no" ed="#P" n="77"/>saria ad suam conservationem et commune
+          <lb ed="#P" n="78"/>bonum ; sed ad hos fines est moraliter 
+          neces<lb break="no" ed="#P" n="79"/>sarium praeceptum obligans ad aliquid 
+          agen<lb break="no" ed="#P" n="80"/>dum, vel ad perseverandum in aliquo loco,
+          <lb ed="#P" n="81"/>non obstante periculo mortis : ergo cadit hoc
+          <lb ed="#P" n="82"/>sub humanam potestatem. Minor constat ,
+          <lb ed="#P" n="83"/>quando necessarium est agere periculosum
+          <lb ed="#P" n="84"/>bellum ad defendendam rempublicam, vel
+          <lb ed="#P" n="85"/>perseverare tempore pestis in aliquo loco ad
+          <lb ed="#P" n="86"/>procurandam communem salutem, vel si 
+          ne<lb break="no" ed="#P" n="87"/>cesse sit propter fidei honorem aliquid agere
+          <lb ed="#P" n="88"/>cum vitae discrimine. Major autem per se nota
+          <lb ed="#P" n="89"/>videtur ex terminis, quia alias insufficienter
+          <lb ed="#P" n="90"/>provisum esset gubernationi et conservationi
+          <lb ed="#P" n="91"/>reipublicae. Sed dici potest in his casibus legem
+          <lb ed="#P" n="92"/>naturalem obligare , et ideo non esse hanc
+          <lb ed="#P" n="93"/>obligationem praecepti humani, sed quasi 
+          coac<lb break="no" ed="#P" n="94"/>tionem ad servandam naturalem 
+          obligatio<lb break="no" ed="#P" n="95"/>nem. Respondetur primo, licet fortasse 
+          prae<lb break="no" ed="#P" n="96"/>ceptum naturale tunc obliget rempublicam,
+          <lb ed="#P" n="97"/>vel cives in communi, non tamen hunc vel
+          <lb ed="#P" n="98"/>illum determinate : ergo applicare 
+          obligatio<lb break="no" ed="#P" n="99"/>nem ad has vel illas personas, est potestatis
+          <lb ed="#P" n="100"/>humanzse, et ita ibi intervenit verum 
+          praecep<lb break="no" ed="#P" n="101"/>tum humanum. Dicimus etiam non semper
+          <lb ed="#P" n="102"/>esse certam obligationem naturalem, sed saepe
+          <lb ed="#P" n="103"/>esse posse rem dubiam et dependentem ex 
+          ju<lb break="no" ed="#P" n="104"/>dicio prudentiae, an, scilicet, communi bono
+          <lb ed="#P" n="105"/>expediat hoc vel illo medio uti in tanto 
+          peri<lb break="no" ed="#P" n="106"/>culo: tunc autem interveniente judicio 
+          prin<lb break="no" ed="#P" n="107"/>cipis seu Praelati, ejusque praecepto, inducitur
+          <lb ed="#P" n="108"/>certa obligatio, quae non potest dici legis na-
+          <pb ed="#P" n="294"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>turae, sed humanae. Et confirmatur tandem,
+          <lb ed="#P" n="2"/>quia hic actus est fortitudinis : ergo si 
+          neces<lb break="no" ed="#P" n="3"/>sarius sit reipublica,, vel valde conveniens,
+          <lb ed="#P" n="4"/>potest lex humana illum praecipere ; nam 
+          hu<lb break="no" ed="#P" n="5"/>mana lex circa actus omnium virtutum 
+          versa<lb break="no" ed="#P" n="6"/>tur, ut in superioribus docuimus cum Aristot.,
+          <lb ed="#P" n="7"/>3 Ethicor., qui in specie loquitur de actu 
+          for<lb break="no" ed="#P" n="8"/>titudinis.
+        </p>
+        <p xml:id="szdleg-a74278-d1e381">
+          <lb ed="#P" n="9"/>5. Legem humanam tunc maxime obligare
+          <lb ed="#P" n="10"/>cum periculo vite, quando illud periculum per
+          <lb ed="#P" n="11"/>se est annexum actui praecepto. — Dico, 
+          secun<lb break="no" ed="#P" n="12"/>do, legem humanam tunc maxime, et quasi
+          <lb ed="#P" n="13"/>per se, obligare cum periculo vitae, quando
+          <lb ed="#P" n="14"/>illud periculum per se est annexum, seu 
+          con<lb break="no" ed="#P" n="15"/>junctum actui praecepto, si alioqui lex justa
+          <lb ed="#P" n="16"/>sit, ut praesumi debet, quando oppositum non
+          <lb ed="#P" n="17"/>constiterit. Declarari poterit exemplis positis
+          <lb ed="#P" n="18"/>de bello, de periculosa navigatione, de 
+          cura<lb break="no" ed="#P" n="19"/>tione proximorum tempore pestis, et similibus:
+          <lb ed="#P" n="20"/>ratio autem est, quia tunc periculum non 
+          re<lb break="no" ed="#P" n="21"/>putatur accidentarium, sed veluti de 
+          substan<lb break="no" ed="#P" n="22"/>tia actus moraliter considerati. Item non 
+          po<lb break="no" ed="#P" n="23"/>test censeri praeter scientiam, vel intentionem
+          <lb ed="#P" n="24"/>praecipientis, cum sit per se conjunctum actui:
+          <lb ed="#P" n="25"/>ergo, eo ipso quod praecipitur talis actus, 
+          cen<lb break="no" ed="#P" n="26"/>setur praecipi non obstante tali periculo, et
+          <lb ed="#P" n="27"/>potestas non deest ut ostensum est : ergo 
+          na<lb break="no" ed="#P" n="28"/>scitur obligatio. Addidi vero conditionem 
+          jus<lb break="no" ed="#P" n="29"/>titiae legis, quia haec generaliter necessaria est,
+          <lb ed="#P" n="30"/>et in hujusmodi praecepta, multa requiruntur
+          <lb ed="#P" n="31"/>ut servetur, quia non potest res adeo difficilis
+          <lb ed="#P" n="32"/>juste praecipi, nisi ex justissima causa 
+          perti<lb break="no" ed="#P" n="33"/>nente ad commune bonum, vel ad aliquam
+          <lb ed="#P" n="34"/>personam valde necessariam communi bono;
+          <lb ed="#P" n="35"/>quia respublica vel magistratus ejus non 
+          ha<lb break="no" ed="#P" n="36"/>bet dominium vitae civium, sed convenientem
+          <lb ed="#P" n="37"/>usum, et ideo non potest ex levibus vel 
+          ordi<lb break="no" ed="#P" n="38"/>nariis causis cogere cives ad perdendam vitam;
+          <lb ed="#P" n="39"/>quod etiam patet ex his quae supra diximus de
+          <lb ed="#P" n="40"/>lege humana, scilicet, debere esse moraliter
+          <lb ed="#P" n="41"/>possibilem et facilem. Denique, hoc confirmant
+          <lb ed="#P" n="42"/>fundamenta prioris sententiae. Nihilominus
+          <lb ed="#P" n="43"/>tamen hic est etiam vera generalis reguia in
+          <lb ed="#P" n="44"/>superioribus posita, quando non manifeste 
+          ap<lb break="no" ed="#P" n="45"/>paret temeritas in lege, praesumendum esse
+          <lb ed="#P" n="46"/>pro justitia ejus, quia semper jus superioris
+          <lb ed="#P" n="47"/>praefertur ; et, licet homo jus etiam habeat in
+          <lb ed="#P" n="48"/>vitam suam, tamen in eamdem majus jus 
+          ha<lb break="no" ed="#P" n="49"/>bet respublica, quia (ut in 5 Politic. dixit 
+          phi<lb break="no" ed="#P" n="50"/>losophus) civis magis est reipublicae quam sui
+          <lb ed="#P" n="51"/>ipsius. Itaque in dubio aequali servanda est
+          <lb ed="#P" n="52"/>lex, licet propter periculum proprii detrimenti
+          <lb ed="#P" n="53"/>curandum sit ut certitudo aliqua de justitia
+          <lb ed="#P" n="54"/>legis habeatur.
+        </p>
+        <p xml:id="szdleg-a74278-d1e483">
+          <lb ed="#P" n="55"/>6. Quid dicendum quando periculum uon est
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>per se conjunctum actui precepto. — Dico
+          <lb ed="#P" n="57"/>tertio : si mortis periculum non est per se
+          <lb ed="#P" n="58"/>conjunctum actui praecepto , sed contingenter
+          <lb ed="#P" n="59"/>adjungitur, lex humana per se non obligat ad
+          <lb ed="#P" n="60"/>sui observationem cum tanto periculo vitae,
+          <lb ed="#P" n="61"/>imo nec alterius gravissimi nocumenti, quale
+          <lb ed="#P" n="62"/>est gravis infamia , aut magna jactura 
+          bono<lb break="no" ed="#P" n="63"/>rum : ex accidenti vero, seu in aliquo casu
+          <lb ed="#P" n="64"/>obligare potest. Priorem partem sequuntur a
+          <lb ed="#P" n="65"/>fortiori auctores allegati in prima opinione ,
+          <lb ed="#P" n="66"/>et non repugnant allegati in assertione prima,
+          <lb ed="#P" n="67"/>sed favent maxime et Gabr. in 4, distinct. 18,
+          <lb ed="#P" n="68"/>quaest. 3; et Ocham in suo Dialog., 1 part.,
+          <lb ed="#P" n="69"/>lib. 7, cap. 58, quatenus dicunt Ecclesiam non
+          <lb ed="#P" n="70"/>posse suis legibus regulariter imponere tam
+          <lb ed="#P" n="71"/>rigorosam obligationem : nam idem est 
+          regu<lb break="no" ed="#P" n="72"/>lariter quod per se. Et idem sentit Major in 4,
+          <lb ed="#P" n="73"/>distinct. 18, quaest. 4, insinuat etiam Navar.
+          <lb ed="#P" n="74"/>in Sum., cap. 25, n. 84. Sumitur denique ex
+          <lb ed="#P" n="75"/>multis quae congerit et allegat Felin. in cap. 1
+          <lb ed="#P" n="76"/>de Constit. n. 49. Probatur autem primo prior
+          <lb ed="#P" n="77"/>pars inductione, quia lex divina, quae gravior
+          <lb ed="#P" n="78"/>est, non solet obligare in simili eventu. 
+          Exem<lb break="no" ed="#P" n="79"/>plum commune est de Davide, qui propter 
+          ne<lb break="no" ed="#P" n="80"/>cessitatem manducavit panes propositionis , 1
+          <lb ed="#P" n="81"/>Reg. 21, quos laicis manducare non licebat ,
+          <lb ed="#P" n="82"/>juxta legem , et tamen factum defendit 
+          Chris<lb break="no" ed="#P" n="83"/>tus Matth. 12, ubi eodem modo excusat 
+          disci<lb break="no" ed="#P" n="84"/>pulos qui die sabbati spicas colligebant. Et
+          <lb ed="#P" n="85"/>ita exposuit etiam D. Thomas 3 part. , quaest.
+          <lb ed="#P" n="86"/>40, art. 4, ad 3; et eodem modo declarat 
+          fac<lb break="no" ed="#P" n="87"/>tum Machabaeorum pugnantium die sabbati
+          <lb ed="#P" n="88"/>2. 9, quaest. 100, art. 8. Idem constat in 
+          prae<lb break="no" ed="#P" n="89"/>cepto divino de integritate confessionis; nam
+          <lb ed="#P" n="90"/>grave periculum interdum excusat ab illius
+          <lb ed="#P" n="91"/>executione quasi materiali (ut sic dicam). In
+          <lb ed="#P" n="92"/>praeceptis etiam ecclesiasticis potest fieri similis
+          <lb ed="#P" n="93"/>inductio : nam praeceptum jejunii non obligat
+          <lb ed="#P" n="94"/>cum detrimento salutis, quod explicatum est in
+          <lb ed="#P" n="95"/>cap. Consilium, de Observ. jejun., et idem 
+          con<lb break="no" ed="#P" n="96"/>stat de praecepto audiendi Missam , recitandi
+          <lb ed="#P" n="97"/>horas, etc. Simili modo, propter necessitatem
+          <lb ed="#P" n="98"/>famis licet communicare cum excommunicato
+          <lb ed="#P" n="99"/>procurando subsidium, cap. Quoniam multos,
+          <lb ed="#P" n="100"/>11, quaest. 3, cap. 7nter, de Sentent. 
+          excom<lb break="no" ed="#P" n="101"/>mun.; eadem autem ratio est in reliquis. 
+          Ge<lb break="no" ed="#P" n="102"/>neralis autem ratio conclusionis est, quia talis
+          <lb ed="#P" n="103"/>necessitas ostendit non fuisse in legislatore
+          <lb ed="#P" n="104"/>voluntatem obligandi in tali eventu, vel etiam
+          <lb ed="#P" n="105"/>non fuisse potestatem : quacumque autem 
+          il<lb break="no" ed="#P" n="106"/>larum deficiente, cessat obligatio legis ; ergo.
+          <lb ed="#P" n="107"/>Utraque praemissa constat ex supra dictis, 
+          prae<lb break="no" ed="#P" n="108"/>sertim tractando de epiikia, quia potestas 
+          hu<lb break="no" ed="#P" n="109"/>mana non se extendit ad omnia sine mensura;
+          <lb ed="#P" n="110"/>voluntas etiam prudens non vult obligare
+          <pb ed="#P" n="295"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quantum potest. sed cum moderatione et 
+          be<lb break="no" ed="#P" n="2"/>nignitate. Obligare autem ad quemcumque
+          <lb ed="#P" n="3"/>actum praecepti, non obstante quacumque 
+          ac<lb break="no" ed="#P" n="4"/>cidentali necessitate insurgente, esset supra
+          <lb ed="#P" n="5"/>potestatem legislatoris humani, quia talis 
+          obli<lb break="no" ed="#P" n="6"/>gatio communiter non est necessaria ad 
+          com<lb break="no" ed="#P" n="7"/>mune bonum reipublicae, ut in communi 
+          ob<lb break="no" ed="#P" n="8"/>servatione talium legum contingit: et quamvis
+          <lb ed="#P" n="9"/>aliquando non sit aperte injusta obligatio, vel
+          <lb ed="#P" n="10"/>supra potestatem, si sit nimis gravis et dura,
+          <lb ed="#P" n="11"/>censetur esse praeter voluntatem legislatoris,
+          <lb ed="#P" n="12"/>quod maxime in divinis legibus positivis 
+          ob<lb break="no" ed="#P" n="13"/>servatur, ut communiter doctores 
+          interpretan<lb break="no" ed="#P" n="14"/>tur ; ergo. :
+        </p>
+        <p xml:id="szdleg-a74278-d1e644">
+          <lb ed="#P" n="15"/>7. Probatur secunda pars. —Altera vero pars,
+          <lb ed="#P" n="16"/>scilicet, per accidens fieri posse ut etiam in eo
+          <lb ed="#P" n="17"/>casu obligetur homo ad servandam legem,
+          <lb ed="#P" n="18"/>communis etiam est: talisque necessitas esse
+          <lb ed="#P" n="19"/>censetur, quando violatio legis propter talem
+          <lb ed="#P" n="20"/>metum cederet in contemptum, vel injuriam
+          <lb ed="#P" n="21"/>religionis, aut grave scandalum pusillorum:
+          <lb ed="#P" n="22"/>tunc enim bonum commune et religionis 
+          prae<lb break="no" ed="#P" n="23"/>ferendum est privato etiam propriae vitae. Item,
+          <lb ed="#P" n="24"/>quia tunc transgredi praeceptum humanum
+          <lb ed="#P" n="25"/>esset vel deficere in confessione fidei tempore
+          <lb ed="#P" n="26"/>debito, vel cooperari ad aliquid intrinsece 
+          ma<lb break="no" ed="#P" n="27"/>lum. Exemplum sit, si tyrannus cogat ad 
+          co<lb break="no" ed="#P" n="28"/>medendam carnem die prohibito in 
+          contemp<lb break="no" ed="#P" n="29"/>tum illius observantia ecclesiasticae : tunc
+          <lb ed="#P" n="30"/>enim consentire illi esset significare se idem
+          <lb ed="#P" n="31"/>sentire, et contemnere : imo etiam exterius
+          <lb ed="#P" n="32"/>dissimulare, et non plane resistere, ad 
+          mini<lb break="no" ed="#P" n="33"/>mum esset aliis scandalum dare, et ideo 
+          nun<lb break="no" ed="#P" n="34"/>quam licet, juxta illud Augustini lib. de Bono
+          <lb ed="#P" n="35"/>conjugat., cap. 16 : Satius est fame mori,
+          <lb ed="#P" n="36"/>quam idolothytis vesci (utique cum scandalo
+          <lb ed="#P" n="37"/>vel injuria religionis), 1 Corinth. 10; et ideo
+          <lb ed="#P" n="38"/>haec obligatio non solum in ecclesiasticis 
+          legi<lb break="no" ed="#P" n="39"/>bus locum habet, sed etiam in civilibus, quia
+          <lb ed="#P" n="40"/>etiam illae contemnendae non sunt, nec 
+          ma<lb break="no" ed="#P" n="41"/>gistratus civilis, et in earum etiam violatione
+          <lb ed="#P" n="42"/>scandalum cavendum est; nec satis erit in
+          <lb ed="#P" n="43"/>hujusmodi casu habere interius intentionem
+          <lb ed="#P" n="44"/>non scandalizandi vel non contemnendi, et
+          <lb ed="#P" n="45"/>exterius agere contra legem ad vitandam 
+          mor<lb break="no" ed="#P" n="46"/>tem ; hoc (inquam) non est satis, quia 
+          tene<lb break="no" ed="#P" n="47"/>mur exterius non contemnere, nec 
+          contem<lb break="no" ed="#P" n="48"/>nentibus consentire, vel cooperari; et similiter
+          <lb ed="#P" n="49"/>ad vitandum scandalum, maxime necessarium
+          <lb ed="#P" n="50"/>esse solet actum externum vitare : si autem
+          <lb ed="#P" n="51"/>protesvatio aliqua exterior sufficeret ad 
+          tollen<lb break="no" ed="#P" n="52"/>dum scandalum, tunc cessaret illa necessitas,
+          <lb ed="#P" n="53"/>ut notavit Bonavent. in 4, distinct. 33, dub. 8,
+          <lb ed="#P" n="54"/>circa litt., et latius in materia de scandalo
+          <lb ed="#P" n="55"/>tractatur.
+        </p>
+        <p xml:id="szdleg-a74278-d1e735">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>8. Dices: ergo in hujusmodi casibus, licet
+          <lb ed="#P" n="57"/>obligatio talis actus quasi resultet occasione
+          <lb ed="#P" n="58"/>legis positivae, nihilominus proprie non oriri
+          <lb ed="#P" n="59"/>ex illa, sed aut praecepto affirmativo confitendi
+          <lb ed="#P" n="60"/>fidem tempore opportuno, vel ex praecepto
+          <lb ed="#P" n="61"/>negativo non praebendi scandalum aliis, vel
+          <lb ed="#P" n="62"/>non contemnendi legem, aut superioris 
+          potes<lb break="no" ed="#P" n="63"/>tatem ; quae sunt obligationes legis naturalis,
+          <lb ed="#P" n="64"/>pertinentque ad legem charitatis, aut 
+          religio<lb break="no" ed="#P" n="65"/>nis, vel confessionis fidei, vel justitiae legalis,
+          <lb ed="#P" n="66"/>non ad particularem legem positivam. 
+          Res<lb break="no" ed="#P" n="67"/>pondeo, licet probabile hoc sit, probabilius
+          <lb ed="#P" n="68"/>tamen videri etiam in illo casu obligare legem
+          <lb ed="#P" n="69"/>humanam. Itaque non negamus in illis 
+          even<lb break="no" ed="#P" n="70"/>tibus obligare praecepta illa naturalia, seu 
+          ali<lb break="no" ed="#P" n="71"/>quod illorum : dicimus tamen, obligare ad 
+          ser<lb break="no" ed="#P" n="72"/>vandam ipsam legem positivam, et ita etiam
+          <lb ed="#P" n="73"/>legem ipsam positivam obligare. Sicut in 
+          occa<lb break="no" ed="#P" n="74"/>sione necessaria confitendi fidem, obligat fides
+          <lb ed="#P" n="75"/>ad sustinendum martyrium propter fidei 
+          con<lb break="no" ed="#P" n="76"/>fessionem, et nihilominus tunc etiam obligat
+          <lb ed="#P" n="77"/>fortitudo quasi imperata a fide: ita ergo est
+          <lb ed="#P" n="78"/>in praesenti; unde e contrario si quis in eo casu
+          <lb ed="#P" n="79"/>violet legem positivam in contemptum 
+          reli<lb break="no" ed="#P" n="80"/>gionis, non solum peccat in specie contemptus,
+          <lb ed="#P" n="81"/>sed etiam in specie vitii contrarii illi morali
+          <lb ed="#P" n="82"/>virtuti, ad quam pertinet praeceptum, ut in
+          <lb ed="#P" n="83"/>casu Machabaeorum, si illi comederent carnes
+          <lb ed="#P" n="84"/>porcinas, non solum contra religionem, sed
+          <lb ed="#P" n="85"/>etiam contra temperantiam peccarent, 
+          come<lb break="no" ed="#P" n="86"/>dendo cibum vetitum ; et sic de aliis.
+        </p>
+        <p xml:id="szdleg-a74278-d1e808">
+          <lb ed="#P" n="87"/>9. Notanda ad judicandum quando obligetur
+          <lb ed="#P" n="88"/>aliquis ad legem sub periculo mortis. — 
+          Peri<lb break="no" ed="#P" n="89"/>culum morvtis vel est ab intrinseco, vel ab 
+          ex<lb break="no" ed="#P" n="90"/>trinseco. —Sed quaeret tandem aliquis quomodo
+          <lb ed="#P" n="91"/>possit certum judicium ferri ad discernendum
+          <lb ed="#P" n="92"/>tempus et occasiones in quibus obligat lex 
+          hu<lb break="no" ed="#P" n="93"/>mana, non obstante periculo mortis. Respondeo
+          <lb ed="#P" n="94"/>vix posse certam aliquam regulam designari,
+          <lb ed="#P" n="95"/>sed prudenti arbitrio utendum esse. Duo tamen
+          <lb ed="#P" n="96"/>ad hoc prudens judicium ferendum observari
+          <lb ed="#P" n="97"/>possunt. Primum est dupliciter posse homines
+          <lb ed="#P" n="98"/>incidere in hoc periculum, seu in metum 
+          mor<lb break="no" ed="#P" n="99"/>tis. Uno modo ab intrinseco, seu ex naturali et
+          <lb ed="#P" n="100"/>ordinaria conditione humanae conditionis 
+          fra<lb break="no" ed="#P" n="101"/>gilis, sive oriatur ex aegritudine intrinseca,
+          <lb ed="#P" n="102"/>sive ex necessitate famis aut sitis, sive ex 
+          tem<lb break="no" ed="#P" n="103"/>pestate maris, sive ex occasione belli alia de
+          <lb ed="#P" n="104"/>causa occurrentis, sive ex quacumque alia
+          <lb ed="#P" n="105"/>causa extrinseca, quae directe non intendat
+          <lb ed="#P" n="106"/>transgressionem legis. Alio modo potest hoc
+          <lb ed="#P" n="107"/>malum imminere ab extrinseco, id est, ab 
+          ho<lb break="no" ed="#P" n="108"/>mine comminante tale malum, ut extorqueat
+          <lb ed="#P" n="109"/>legis transgressionem; unde prior dici potest
+          <lb ed="#P" n="110"/>quasi per accidens respectu talis effectus: hic
+          <pb ed="#P" n="296"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vero posterior quasi per se, moraliter 
+          loquen<lb break="no" ed="#P" n="2"/>do, et ex parte causae inferentis talem metum.
+          <lb ed="#P" n="3"/>Quando occasio est prioris modi, regulariter
+          <lb ed="#P" n="4"/>lex positiva non obligat cum tali periculo : sic
+          <lb ed="#P" n="5"/>Machabaei processerunt ad bellum die sabbati
+          <lb ed="#P" n="6"/>ratione periculi, 1 Machab. 2, quia periculum
+          <lb ed="#P" n="7"/>erat prioris generis, et intellexerunt in illo
+          <lb ed="#P" n="8"/>legem sabbati non obligare. Quando vero 
+          me<lb break="no" ed="#P" n="9"/>tus infertur posteriori modo, regulariter non
+          <lb ed="#P" n="10"/>excusat, quia cedit in contemptum fidei vel
+          <lb ed="#P" n="11"/>religionis, et sic Machabai mortem 
+          sustinue<lb break="no" ed="#P" n="12"/>runt ne legem violarent, lib. 2, cap. 7, quia
+          <lb ed="#P" n="13"/>metus ille directe ad hoc inferebatur a 
+          tyran<lb break="no" ed="#P" n="14"/>no. Dixi autem in utraque parte regulariter,
+          <lb ed="#P" n="15"/>quia non est regula adeo generalis et 
+          infalli<lb break="no" ed="#P" n="16"/>bilis. quin possit aliquando deficere, et ideo
+          <lb ed="#P" n="17"/>semper sunt particulares circumstantiae 
+          consi<lb break="no" ed="#P" n="18"/>derandae ad ultimum judicium ferendum. 
+          Prae<lb break="no" ed="#P" n="19"/>sertim vero in posteriori modo contingere
+          <lb ed="#P" n="20"/>potest ut, licet directe inferatur metus ad 
+          ex<lb break="no" ed="#P" n="21"/>torquendam actionem legi contrariam, non
+          <lb ed="#P" n="22"/>tamen id fiat propter legis transgressionem in
+          <lb ed="#P" n="23"/>ejus contemptum, vel religionis, sed propter
+          <lb ed="#P" n="24"/>alias causas humanas, voluptatis, aut 
+          commo<lb break="no" ed="#P" n="25"/>di, ut adnotavi in 5 tom., disput. 6, et tunc
+          <lb ed="#P" n="26"/>talis metus perinde reputatur ac quilibet alius
+          <lb ed="#P" n="27"/>proveniens ex causis naturalibus, vel 
+          extrin<lb break="no" ed="#P" n="28"/>secis, quia non parit contemptum legis, vel
+          <lb ed="#P" n="29"/>aliud simile malum.
+        </p>
+        <p xml:id="szdleg-a74278-d1e930">
+          <lb ed="#P" n="30"/>10. Secundo, observandum est aliud esse
+          <lb ed="#P" n="31"/>obligari ad observationem legis humanae, non
+          <lb ed="#P" n="32"/>obstante mortis periculo, aliud vero posse 
+          li<lb break="no" ed="#P" n="33"/>cite eam observare, eodem periculo non 
+          ob<lb break="no" ed="#P" n="34"/>stante. Plus enim ad prius requiritur, quam
+          <lb ed="#P" n="35"/>ad posterius : licet enim ad utrumque 
+          neces<lb break="no" ed="#P" n="36"/>saria sit aliqua ratio valde gravis et justa,
+          <lb ed="#P" n="37"/>quia non potest homo pro quacumque levi 
+          oc<lb break="no" ed="#P" n="38"/>casione vitam prodigere, nihilominus multo
+          <lb ed="#P" n="39"/>major causa requiritur ut ad hoc possit 
+          obli<lb break="no" ed="#P" n="40"/>gari per legem vel praeceptum superioris 
+          hu<lb break="no" ed="#P" n="41"/>mani, quam ut id possit homo sua spontanea
+          <lb ed="#P" n="42"/>voluntate honeste facere, quia non omnia 
+          ho<lb break="no" ed="#P" n="43"/>nesta possunt nobis praecipi, quando sunt 
+          val<lb break="no" ed="#P" n="44"/>de ardua, nisi ex speciali necessitate, sine qua
+          <lb ed="#P" n="45"/>nos possumus illa libere facere. Sic potest quis
+          <lb ed="#P" n="46"/>in casu necessitatis extremae famis vel naufragii
+          <lb ed="#P" n="47"/>licite cedere suo commodo, et dare panem,
+          <lb ed="#P" n="48"/>vel tabulam amico aequali, ad quod tamen
+          <lb ed="#P" n="49"/>non posset lege humana obligari. Item propter
+          <lb ed="#P" n="50"/>utilitatem publicam potest aliquis aggredi
+          <lb ed="#P" n="51"/>opus cum magno periculo vitae, etiamsi non
+          <lb ed="#P" n="52"/>sit tanta necessitas boni communis in qua 
+          pos<lb break="no" ed="#P" n="53"/>sit obligari. Propter hoc ergo, ad 
+          discernen<lb break="no" ed="#P" n="54"/>dam occasionem in qua lex humana obligat
+          <lb ed="#P" n="55"/>cum tali periculo, non tantum ponderandum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>est an bonum commune tunc praeponderet 
+          vi<lb break="no" ed="#P" n="57"/>tae propriae, sed etiam an tale sit ut redundet
+          <lb ed="#P" n="58"/>in extremam vel gravem necessitatem boni
+          <lb ed="#P" n="59"/>communis; vel e converso, an ex 
+          transgressio<lb break="no" ed="#P" n="60"/>ne legis grave damnum commune, quale est
+          <lb ed="#P" n="61"/>contemptus religionis, fidei aut ipsarum legum
+          <lb ed="#P" n="62"/>sequatur ; in his enim tantum casibus obligat
+          <lb ed="#P" n="63"/>lex humana, et ultra non extenditur.
+        </p>
+        <p xml:id="szdleg-a74278-d1e1008">
+          <lb ed="#P" n="64"/>11. Satisfit argumentis contrariis. — Ad
+          <lb ed="#P" n="65"/>fundamentum prioris sententiae, respondetur
+          <lb ed="#P" n="66"/>dupliciter posse aliquod opus dici 
+          supereroga<lb break="no" ed="#P" n="67"/>tionis. Primo : quia lex naturalis vel divina
+          <lb ed="#P" n="68"/>illud non praecipit, et hoc modo non est in 
+          uni<lb break="no" ed="#P" n="69"/>versum verum legem humanam non posse
+          <lb ed="#P" n="70"/>praecipere opera supererogationis, ut supra 
+          con<lb break="no" ed="#P" n="71"/>tra Gersonem late ostensum est. Alio modo 
+          di<lb break="no" ed="#P" n="72"/>citur opus supererogationis, quod ex suo genere
+          <lb ed="#P" n="73"/>ita est sub consilio, ut de se non possit habere
+          <lb ed="#P" n="74"/>necessariam connexionem cum fine ultimo, vel
+          <lb ed="#P" n="75"/>cum communi bono reipublicae, temporali vel
+          <lb ed="#P" n="76"/>spirituali, ut est, verbi gratia, custodia 
+          virgi<lb break="no" ed="#P" n="77"/>nitatis ; et in hoc sensu verum est bonum 
+          su<lb break="no" ed="#P" n="78"/>pererogationis non posse praecipi lege 
+          huma<lb break="no" ed="#P" n="79"/>na. Sic autem negamus dare vitam pro 
+          repu<lb break="no" ed="#P" n="80"/>blica esse opus supererogationis ; aliquando
+          <lb ed="#P" n="81"/>enim cadit sub praeceptum naturale; et sic
+          <lb ed="#P" n="82"/>etiam potest interdum praecipi lege humana;
+          <lb ed="#P" n="83"/>nec refert quod sit difficile : nam circa hoc 
+          ver<lb break="no" ed="#P" n="84"/>satur virtus in actibus necessariis, juxta finem
+          <lb ed="#P" n="85"/>proportionatum, et ad idem extenditur 
+          potes<lb break="no" ed="#P" n="86"/>tas legis humanae, quando non obstante illa
+          <lb ed="#P" n="87"/>difficultate, observantia legis humanae ad 
+          com<lb break="no" ed="#P" n="88"/>mune bonum necessaria est. Ad 
+          confirmatio<lb break="no" ed="#P" n="89"/>nem autem respondetur in praecepto 
+          conser<lb break="no" ed="#P" n="90"/>vationis vitae duo includi : unum est 
+          negati<lb break="no" ed="#P" n="91"/>vum, quod obligat semper et pro semper,
+          <lb ed="#P" n="92"/>scilicet, non se occidendi, et contra hoc nihil
+          <lb ed="#P" n="93"/>potest praecipere lex humana. Aliud est 
+          affir<lb break="no" ed="#P" n="94"/>mativum, faciendi aliquid ad conservandam
+          <lb ed="#P" n="95"/>vitam et ad evitandam mortem, et quoad hoc
+          <lb ed="#P" n="96"/>non obligat pro semper, sed praetermitti saepe
+          <lb ed="#P" n="97"/>potest, non solum propter observantiam legis,
+          <lb ed="#P" n="98"/>sed etiam propter bonum amicitiae, vel propter
+          <lb ed="#P" n="99"/>alias honestas actiones, seu rationes; et ita
+          <lb ed="#P" n="100"/>etiam potest lex humana obligare ad 
+          praeter<lb break="no" ed="#P" n="101"/>mittendam vitae custodiam propter 
+          observan<lb break="no" ed="#P" n="102"/>tiam legis ad commune bonum necessariae.
+        </p>
+        <p xml:id="szdleg-a74278-d1e1095">
+          <lb ed="#P" n="103"/>12. Ad fundamentum Cajetani respondetur
+          <lb ed="#P" n="104"/>illationem fieri a sensu composito ad divisum;
+          <lb ed="#P" n="105"/>stante enim obligatione legis, repugnat contra
+          <lb ed="#P" n="106"/>illam agere, ut recte probat illa ratio: non
+          <lb ed="#P" n="107"/>autem hoc dicimus, sed in casu necessitatis
+          <lb ed="#P" n="108"/>cessare obligationem, et ita etiam cessare 
+          ra<lb break="no" ed="#P" n="109"/>tionem culpae in illa materiali transgressione,
+          <lb ed="#P" n="110"/>vel potius in materiali non executione legis;
+          <pb ed="#P" n="297"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quod plane confirmat regula juris, dicens 
+          ne<lb break="no" ed="#P" n="2"/>cessitatem facere licitum quod alias non esset.
+          <lb ed="#P" n="3"/>De qua videri potest Alexand. 5S ex toto, ff.
+          <lb ed="#P" n="4"/>de Legibus. Ad primam confirmationem 
+          fate<lb break="no" ed="#P" n="5"/>mur, propter bonum commune contemnendam
+          <lb ed="#P" n="6"/>esse vitam propriam, quando necessarium est;
+          <lb ed="#P" n="7"/>negamus tamen semper necessarium ad bonum
+          <lb ed="#P" n="8"/>commune materialiter (ut sic dicam) exequi
+          <lb ed="#P" n="9"/>legem : nam, licet illa propter bonum 
+          com<lb break="no" ed="#P" n="10"/>mune posita sit, satis consequitur finem si 
+          re<lb break="no" ed="#P" n="11"/>gulariter, ac per se, et extra hos casus 
+          extre<lb break="no" ed="#P" n="12"/>mos observetur.
+        </p>
+        <p xml:id="szdleg-a74278-d1e1145">
+          <lb ed="#P" n="13"/>13. Ad secundam confirmationem et 
+          induc<lb break="no" ed="#P" n="14"/>tionem Cajetani, primum exemplum erat de
+          <lb ed="#P" n="15"/>matrimonio contrahendo cum consanguinea,
+          <lb ed="#P" n="16"/>in quo primo supponendum est, quod, licet
+          <lb ed="#P" n="17"/>obligatio legis cesset ex occurrente periculo
+          <lb ed="#P" n="18"/>gravissimi nocumenti, si tamen lex est irritans
+          <lb ed="#P" n="19"/>non cessat irritatio propter metum, ut infra
+          <lb ed="#P" n="20"/>dicemus, et omnes auctores supponunt, et 
+          con<lb break="no" ed="#P" n="21"/>stat ex praxi Ecclesiae. Et ratio reddi potest,
+          <lb ed="#P" n="22"/>quia, ad vitandum periculum, satis est 
+          exte<lb break="no" ed="#P" n="23"/>riorem actum facere, etiamsi propter 
+          resisten<lb break="no" ed="#P" n="24"/>tiam legis validus non sit; quod si fortasse illa
+          <lb ed="#P" n="25"/>occasione incurratur aliud periculum violandi
+          <lb ed="#P" n="26"/>aliquam legem naturalem, aut moriendi, id
+          <lb ed="#P" n="27"/>est valde remotum et accidentarium, et ideo
+          <lb ed="#P" n="28"/>id non attenditur in facienda absoluta 
+          irrita<lb break="no" ed="#P" n="29"/>tione actus. Accedit, quod si in tali casu 
+          ces<lb break="no" ed="#P" n="30"/>saret irritatio propter metum, liceret postea,
+          <lb ed="#P" n="31"/>vel etiam necessarium esset in tali actu 
+          per<lb break="no" ed="#P" n="32"/>sistere transacto metu: hoc autem est valde
+          <lb ed="#P" n="33"/>contrarium bono communi, et fini talium 
+          le<lb break="no" ed="#P" n="34"/>gum. De qua re plura dicemus infra tractando
+          <lb ed="#P" n="35"/>in specie de lege irritante. Hoc ergo supposito,
+          <lb ed="#P" n="36"/>respondemus in casu de matrimonio licitum
+          <lb ed="#P" n="37"/>esse illud exterius contrahere, quia vel hoc
+          <lb ed="#P" n="38"/>non est prohibitum, vel si est, pro illo casu
+          <lb ed="#P" n="39"/>cessat prohibitio. Nihilominus tamen dicimus
+          <lb ed="#P" n="40"/>in eo casu, non obstante metu, manere 
+          obli<lb break="no" ed="#P" n="41"/>gationem abstinendi a matrimonii usu, non
+          <lb ed="#P" n="42"/>propter specialem obligationem legis positivae,
+          <lb ed="#P" n="43"/>sed quia, cum non fuerit validum, esset 
+          con<lb break="no" ed="#P" n="44"/>tra naturalem legem illud consummare, quia
+          <lb ed="#P" n="45"/>esset fornicari, quod intrinsece malum est.
+        </p>
+        <p xml:id="szdleg-a74278-d1e1219">
+          <lb ed="#P" n="46"/>14. Objectio. — Responsio. — Dices: etiam
+          <lb ed="#P" n="47"/>primum videtur includere aliquid contra 
+          le<lb break="no" ed="#P" n="48"/>gem naturae et intrinsece malum : nam 
+          im<lb break="no" ed="#P" n="49"/>primis si matrimonium consideretur in ratione
+          <lb ed="#P" n="50"/>contractus, illud est fictum matrimonium, et
+          <lb ed="#P" n="51"/>ita includit malitiam mendacii saltem officiosi:
+          <lb ed="#P" n="52"/>si vero consideretur in ratione sacramenti, 
+          vi<lb break="no" ed="#P" n="53"/>detur includere malitiam gravis sacrilegii,
+          <lb ed="#P" n="54"/>quia ministrare sacramentum personae 
+          inha<lb break="no" ed="#P" n="55"/>bili, vel tentare illud conficere sine requisitis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ad valorem ejus, sacrilegium est. Respondeo
+          <lb ed="#P" n="57"/>breviter neutrum esse necessarium, quia talis
+          <lb ed="#P" n="58"/>persona potest uti amphibologia, et non habere
+          <lb ed="#P" n="59"/>intentionem conficiendi sacramentum, sed 
+          so<lb break="no" ed="#P" n="60"/>lum illum materialem actum faciendi ad 
+          vitan<lb break="no" ed="#P" n="61"/>dam mortem, et ita facile potest a peccato 
+          gra<lb break="no" ed="#P" n="62"/>vi excusari, de quo in proprio loco, et videri
+          <lb ed="#P" n="63"/>potest Sanc. lib. 7, de Matrim., disput. 7. 
+          So<lb break="no" ed="#P" n="64"/>lum, in praesenti adverto, etiamsi in illo casu
+          <lb ed="#P" n="65"/>committatur aliqua culpa, nihilominus non
+          <lb ed="#P" n="66"/>incurri excommunicationem latam in Clement.
+          <lb ed="#P" n="67"/>unic. de Consanguinit. et affinit., ut bene 
+          no<lb break="no" ed="#P" n="68"/>tavit Navar. in Sum., cap. 27, n. 41; quia,
+          <lb ed="#P" n="69"/>si aliquid ibi peccatur etiam consummando,
+          <lb ed="#P" n="70"/>est contra legem naturalem, non contra 
+          Eccle<lb break="no" ed="#P" n="71"/>siae praeceptum; censura autem lata est contra
+          <lb ed="#P" n="72"/>contumaces in ecclesiasticam legem.
+        </p>
+        <p xml:id="szdleg-a74278-d1e1283">
+          <lb ed="#P" n="73"/>15. An liceat celebrare sine vestibus sacris.
+          <lb ed="#P" n="74"/>— Secundum exemplum erat de celebratione
+          <lb ed="#P" n="75"/>sine vestibus sacris, in quo regulariter 
+          loquen<lb break="no" ed="#P" n="76"/>do concedi potest, quod Cajetanus assumit,
+          <lb ed="#P" n="77"/>quia talis actus vix fieri potest sine contemptu
+          <lb ed="#P" n="78"/>rerum sacrarum, nec talis metus solet incuti,
+          <lb ed="#P" n="79"/>nisi propter hunc finem, vel in odium 
+          reli<lb break="no" ed="#P" n="80"/>gionis. Si tamen fingamus casum, in quo nec
+          <lb ed="#P" n="81"/>metus fiat propter illum finem, sed propter
+          <lb ed="#P" n="82"/>aliam indiscretam devotionem, vel 
+          existima<lb break="no" ed="#P" n="83"/>tionem, et quod res fieri possit sine 
+          irreveren<lb break="no" ed="#P" n="84"/>tia et scandalo, non erit ille actus culpabilis ex
+          <lb ed="#P" n="85"/>vi solius legis positivae, quod sentit Ledesm.
+          <lb ed="#P" n="86"/>supra, et Medin. 1. 2, quaest. 96, art. 4, et
+          <lb ed="#P" n="87"/>insinuat Navar. dicto cap. 24, n. 84, dicens
+          <lb ed="#P" n="88"/>oppositum esse satis durum. De hoc etiam
+          <lb ed="#P" n="89"/>exemplo videri possunt dicta in 3 t., 3 partis.
+        </p>
+        <p xml:id="szdleg-a74278-d1e1322">
+          <lb ed="#P" n="90"/>16. De communicatione cum evcommunicato
+          <lb ed="#P" n="91"/>propter metum. — Tertium exemplum est de
+          <lb ed="#P" n="92"/>communicatione cum excommunicato propter
+          <lb ed="#P" n="93"/>metum, quod integram postulabat 
+          disputatio<lb break="no" ed="#P" n="94"/>nem ; sed est alterius loci. Breviter ergo 
+          res<lb break="no" ed="#P" n="95"/>pondeo negando assumptum : seclusis enim
+          <lb ed="#P" n="96"/>circumstantiis dictis de scandalo, contemptu
+          <lb ed="#P" n="97"/>clavium, secluso etiam quod communicatio
+          <lb ed="#P" n="98"/>non sit in crimine, nec in actu alias per se et
+          <lb ed="#P" n="99"/>intrinsece malo, non peccat qui ex metu gravi
+          <lb ed="#P" n="100"/>communicat cum excommunicato, quae est
+          <lb ed="#P" n="101"/>magis recepta sententia fundata in principio
+          <lb ed="#P" n="102"/>posito in hac quaestione, quamvis alii sentiant
+          <lb ed="#P" n="103"/>oppositum fundari in dicto cap. Sacris. Ad
+          <lb ed="#P" n="104"/>quod respondet Soto loqui de communicatione
+          <lb ed="#P" n="105"/>in crimine criminoso; Sylvest. vero ait loqui
+          <lb ed="#P" n="106"/>de communicatione quae cedit in injuriam
+          <lb ed="#P" n="107"/>clavium ; alii de utraque exponunt: alii 
+          limi<lb break="no" ed="#P" n="108"/>tant textum ex parte metus, ita ut loquatur de
+          <lb ed="#P" n="109"/>metu levi, et gravem comprehendat sub 
+          no<lb break="no" ed="#P" n="110"/>mine violentiae. Quae omnia in se vera sunt,
+          <pb ed="#P" n="298"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>difficile tamen ad textum accommodantur,
+          <lb ed="#P" n="2"/>quia Pontifex simpliciter et absolute loquitur,
+          <lb ed="#P" n="3"/>et non affertur ratio, cur hoc alio modo 
+          limite<lb break="no" ed="#P" n="4"/>tur, et ideo alibi dixi Pontificem non assignare
+          <lb ed="#P" n="5"/>regulam universalem, scilicet, metum in illa
+          <lb ed="#P" n="6"/>materia non excusare a culpa mortali, sed
+          <lb ed="#P" n="7"/>constituere regulam indefinitam, scilicet, non
+          <lb ed="#P" n="8"/>semper metum excusare, ita ut in hoc ponat
+          <lb ed="#P" n="9"/>differentiam inter vim et metum, quod vis
+          <lb ed="#P" n="10"/>semper excusat, metus autem non semper:
+          <lb ed="#P" n="11"/>quando autem excusat, vel quando non, id
+          <lb ed="#P" n="12"/>non declarat, sed relinquit generali doctrinae,
+          <lb ed="#P" n="13"/>quae in aliis expositionibus continetur. 
+          Tan<lb break="no" ed="#P" n="14"/>dem dici possit Pontificem solum esse locutum
+          <lb ed="#P" n="15"/>secundum praesumptionem quoad forum 
+          ex<lb break="no" ed="#P" n="16"/>ternum:: sed non ita placet, quia etiam in foro
+          <lb ed="#P" n="17"/>externo admittenda est probatio metus et 
+          ex<lb break="no" ed="#P" n="18"/>cusationis sufticientis. Videantur dicta in 5, t.
+          <lb ed="#P" n="19"/>de Censur., disput. 6, n. 10, sect. 3, et d. 15,
+          <lb ed="#P" n="20"/>sect. 9. n. 13.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

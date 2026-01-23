@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 21</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 21</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="256"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a65079"><!-- deleg-l3c21 -->
+        <head xml:id="szdleg-a65079-Hd1e101">Caput 21</head>
+        <head xml:id="szdleg-a65079-Hd1e103" type="question-title">Utrum lex civilis possit subditos obligare in conscientle foro</head>
+        <p xml:id="szdleg-a65079-d1e106">
+          <lb ed="#P" n="104"/>CAPUT XXI.
+          <lb ed="#P" n="105"/>UTRUM LEX CIVILIS POSSIT SUBDITOS OBLIGARE IN
+          <lb ed="#P" n="106"/>CONSCIENTLE FORO.
+        </p>
+        <p xml:id="szdleg-a65079-d1e115">
+          <lb ed="#P" n="107"/>1. Explicatis causis legis et omnibus 
+          condi<lb break="no" ed="#P" n="108"/>tionibus requisitis ad plenum valorem et effi-
+          <pb ed="#P" n="257"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>caciam legis, sequitur dicendum de illius
+          <lb ed="#P" n="2"/>effectibus, qui fere omnes ad obligationem 
+          re<lb break="no" ed="#P" n="3"/>vocantur juxta superius dicta de lege in 
+          com<lb break="no" ed="#P" n="4"/>muni, et ideo haec obligatio legis civilis 
+          puris<lb break="no" ed="#P" n="5"/>sime a nobis explicanda est. Quia vero ex
+          <lb ed="#P" n="6"/>ratione communi legis constat, et 
+          obligatio<lb break="no" ed="#P" n="7"/>nem esse quasi formalem effectum legis, nec
+          <lb ed="#P" n="8"/>posse esse veram legem quin aliquam 
+          obligatio<lb break="no" ed="#P" n="9"/>nem inferat, et in superioribus ostensum est 
+          po<lb break="no" ed="#P" n="10"/>testatem civilem esse vere legislativam, ac 
+          sub<lb break="no" ed="#P" n="11"/>inde legem civilem esse veram legem; ideo
+          <lb ed="#P" n="12"/>non dubitamus in genere de obligatione, sed
+          <lb ed="#P" n="13"/>illam supponimus : inquirimus autem modum
+          <lb ed="#P" n="14"/>seu speciem ejus, et in hoc sensu quaerimus an
+          <lb ed="#P" n="15"/>humana lex, praesertim civilis, possit in 
+          con<lb break="no" ed="#P" n="16"/>scientia obligare.
+        </p>
+        <p xml:id="szdleg-a65079-d1e161">
+          <lb ed="#P" n="17"/>2. Quid sit forus. — Forum duplex - 
+          eccle<lb break="no" ed="#P" n="18"/>siasticum et civile. — Ratio autem dubitandi
+          <lb ed="#P" n="19"/>cesse potest, quia forum conscientiae est forum
+          <lb ed="#P" n="20"/>-Dei; sed homo non potest obligare in foro Dei:
+          <lb ed="#P" n="21"/>ergo nec in foro conscientiae. Major declaratur
+          <lb ed="#P" n="22"/>explicando metaphoram vocis forus : nam ex
+          <lb ed="#P" n="23"/>primaeva impositione significat locum in quo
+          <lb ed="#P" n="24"/>judicium exercetur, cap. Forus, de Verb. 
+          si<lb break="no" ed="#P" n="25"/>gnificat.; inde vero translata est ad 
+          significan<lb break="no" ed="#P" n="26"/>dum ipsum judicium, et ita distinguitur 
+          du<lb break="no" ed="#P" n="27"/>plex forus, internus et externus; de externo
+          <lb ed="#P" n="28"/>fit mentio in cap. Cum BHpiscopus, de Offic.
+          <lb ed="#P" n="29"/>ordin., in 6, et innuitur esse duplex: 
+          ecclesias<lb break="no" ed="#P" n="30"/>ticum et civile. Internum autem est quod 
+          in<lb break="no" ed="#P" n="31"/>tus in mente hominis ubi conscientia residet
+          <lb ed="#P" n="32"/>exercetur, et ideo forum conscientiae 
+          appella<lb break="no" ed="#P" n="33"/>tur, et ab Augustino dicitur forum poli, seu
+          <lb ed="#P" n="34"/>Dei, cap. ult. 17, quaest. 4; ergo idem est 
+          fo<lb break="no" ed="#P" n="35"/>rum conscientiae quod forum coeli seu Dei.
+          <lb ed="#P" n="36"/>Minor autem probatur primo, quia inferior
+          <lb ed="#P" n="37"/>non potest obligare in foro superioris. 
+          Secun<lb break="no" ed="#P" n="38"/>do, hoc maxime probatur de homine ut 
+          ha<lb break="no" ed="#P" n="39"/>bente solam potestatem temporalem, quia ab
+          <lb ed="#P" n="40"/>illa non potest procedere spirituale vinculum;
+          <lb ed="#P" n="41"/>sed obligatio in conscientia est spirituale 
+          vin<lb break="no" ed="#P" n="42"/>culum : lex autem civilis est a potestate 
+          tem<lb break="no" ed="#P" n="43"/>porali, ut talis est : ergo. Tertio, leges civiles
+          <lb ed="#P" n="44"/>solum ordinantur ad externam politiam: ergo
+          <lb ed="#P" n="45"/>satis est quod in foro exteriori obligent. 
+          Quar<lb break="no" ed="#P" n="46"/>to, quia nemo potest obligare in eo foro in quo
+          <lb ed="#P" n="47"/>non potest cognoscere, quia non potest 
+          obli<lb break="no" ed="#P" n="48"/>gare ubi non potest judicare, argumento l.
+          <lb ed="#P" n="49"/>ult., ff. de Jurisdict. omn. judic. Sed homo
+          <lb ed="#P" n="50"/>non potest judicare de conscientia alterius, quia
+          <lb ed="#P" n="51"/>non potest illam cognoscere ; ergo.
+        </p>
+        <p xml:id="szdleg-a65079-d1e240">
+          <lb ed="#P" n="52"/>3. Quinto, quia nemo potest obligare ad
+          <lb ed="#P" n="53"/>poenam quam infligere non potest, argumento
+          <lb ed="#P" n="54"/>l. ult., ff. de Officio ejus cui mandata est 
+          juris<lb break="no" ed="#P" n="55"/>dictio ; sicut judex secularis non potest praeci-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>pere sub poena excommunicationis : ergo 
+          le<lb break="no" ed="#P" n="57"/>gislator humanus non potest obligare sub
+          <lb ed="#P" n="58"/>poena inferni, vel purgatorii, quia non potest
+          <lb ed="#P" n="59"/>illam infligere; sed obligare in conscientia est
+          <lb ed="#P" n="60"/>obligare sub reatu hujus poenae: ergo excedit
+          <lb ed="#P" n="61"/>hoc efficaciam legis humanae. Sexto, nemo
+          <lb ed="#P" n="62"/>potest ligare in eo foro in quo non potest 
+          sol<lb break="no" ed="#P" n="63"/>vere, quia illa duo sunt connexa et quasi 
+          cor<lb break="no" ed="#P" n="64"/>relativa, ut sumitur ex cap. Quod autem, de
+          <lb ed="#P" n="65"/>Poenit. et remiss.; sed legislator humanus non
+          <lb ed="#P" n="66"/>potest solvere in foro conscientiae, nec 
+          remit<lb break="no" ed="#P" n="67"/>tere culpam quae sit vera culpa coram Deo:
+          <lb ed="#P" n="68"/>ergo non potest legislator civilis obligare sub
+          <lb ed="#P" n="69"/>reatu verae culpae coram Deo: ergo neque in
+          <lb ed="#P" n="70"/>conscientia. Septimo, Augustinus 22 contra
+          <lb ed="#P" n="71"/>Faust., cap. 27, definit peccatum esse factum
+          <lb ed="#P" n="72"/>contra legem Dei : ergo factum contra legem
+          <lb ed="#P" n="73"/>hominis, ut sic, non est peccatum: ergo lex
+          <lb ed="#P" n="74"/>hominis, ut sic, non obligat in conscientia:
+          <lb ed="#P" n="75"/>nam si ita obligaret, transgressio ejus, 
+          quate<lb break="no" ed="#P" n="76"/>nnus talis est, sufficeret ad constituendam 
+          ve<lb break="no" ed="#P" n="77"/>ram rationem peccati. Octavo, servare divina
+          <lb ed="#P" n="78"/>mandata sufficit ad vitam aeternam 
+          obtinen<lb break="no" ed="#P" n="79"/>dam, Matth. 19:ergo quiilla servaverit, 
+          quam<lb break="no" ed="#P" n="80"/>vis non servet leges humanas, salvabitur ;
+          <lb ed="#P" n="81"/>ergo signum est illas leges non obligare in
+          <lb ed="#P" n="82"/>conscientia.
+        </p>
+        <p xml:id="szdleg-a65079-d1e312">
+          <lb ed="#P" n="83"/>4. Sententia negans magistratus civiles per
+          <lb ed="#P" n="84"/>leges suas in conscientia obligare.— In hac re
+          <lb ed="#P" n="85"/>fuit sententia negans posse magistratus civiles
+          <lb ed="#P" n="86"/>per leges suas in conscientia obligare. Ita 
+          sen<lb break="no" ed="#P" n="87"/>tiunt a fortiori haeretici, qui negant esse in
+          <lb ed="#P" n="88"/>principibus veram potestatem ad leges 
+          feren<lb break="no" ed="#P" n="89"/>das : sed contra hos satis disputatum est. Inter
+          <lb ed="#P" n="90"/>Catholicos ergo videtur ita sentire Gerson in 3
+          <lb ed="#P" n="91"/>p. tract. de Vit. spirit., lect. 4, alphab. 62,
+          <lb ed="#P" n="92"/>ubi dicit solum Deum posse dare praecepta
+          <lb ed="#P" n="93"/>affirmativa vel negativa obligantia sub poena
+          <lb ed="#P" n="94"/>mortis aeternae. Unde infert corollar. 5 et 
+          se<lb break="no" ed="#P" n="95"/>quentib., quoties peccari videtur contra legem
+          <lb ed="#P" n="96"/>humanam, non incurri culpam ex 
+          transgres<lb break="no" ed="#P" n="97"/>sione legis humanae, sed divinae, quae ibi 
+          con<lb break="no" ed="#P" n="98"/>jungitur : unde non videtur aliquid tribuere
+          <lb ed="#P" n="99"/>legi humanse, nisi explicationem ejus 
+          obliga<lb break="no" ed="#P" n="100"/>tionis quae continetur in lege divina, ut patet
+          <lb ed="#P" n="101"/>ex exemplo medici, quo utitur. Nam cum 
+          me<lb break="no" ed="#P" n="102"/>dicus imperat alicui : Ne bibas vinum purum,
+          <lb ed="#P" n="103"/>alias morieris, statim oritur obligatio non 
+          bi<lb break="no" ed="#P" n="104"/>bendi, non quia illam medicus imponat, sed
+          <lb ed="#P" n="105"/>quia in ipsa lege divina continebatur. Et
+          <lb ed="#P" n="106"/>quamvis de culpa mortali semper loquatur,
+          <lb ed="#P" n="107"/>rationes tamen ejus, et omnia per quae 
+          dis<lb break="no" ed="#P" n="108"/>currit, si quid valent, aeque probant de omni
+          <lb ed="#P" n="109"/>culpa, et de omni obligatione in foro Dei, de
+          <lb ed="#P" n="110"/>qua nunc loquimur : nam in speciali de obli-
+          <pb ed="#P" n="258"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gatione sub mortali culpa infra dicemus. 
+          Eam<lb break="no" ed="#P" n="2"/>dem sententiam quoad leges civiles tenet 
+          Al<lb break="no" ed="#P" n="3"/>main. de Potestat. Eccles., capit. 12; inter
+          <lb ed="#P" n="4"/>canonistas inclinare videtur in eam sententiam
+          <lb ed="#P" n="5"/>Decius in cap. Nam concupiscentiam, de 
+          Cons<lb break="no" ed="#P" n="6"/>tit.. circa finem lectionis primae, et Joann.
+          <lb ed="#P" n="7"/>Imol., cap. 2 de Majorit. et obedient., et in c.
+          <lb ed="#P" n="8"/>Cun contingat, de Jurejur., et Roman. in l.
+          <lb ed="#P" n="9"/>Is qui bonus, ff. de Verbor. significat. Unde
+          <lb ed="#P" n="10"/>Mencha., lib. 1 Hlustr. quaestionum, cap. 19,
+          <lb ed="#P" n="11"/>n. 1, et Soto, Castro et alii non censent tam
+          <lb ed="#P" n="12"/>certum leges civiles obligare in conscientia
+          <lb ed="#P" n="13"/>sicut ecclesiasticas. Et rationes in principio
+          <lb ed="#P" n="14"/>factae de illis maxime procedunt.
+        </p>
+        <p xml:id="szdleg-a65079-d1e410">
+          <lb ed="#P" n="15"/>5. Legem humanam civilem habere vim et
+          <lb ed="#P" n="16"/>efficaciam obligandi in conscientia. — 
+          Dicen<lb break="no" ed="#P" n="17"/>dum vero est legem humanam civilem habere
+          <lb ed="#P" n="18"/>vim et efficaciam obligandi in conscientia.
+          <lb ed="#P" n="19"/>Haec est sententia communis Catholicorum, ut
+          <lb ed="#P" n="20"/>videre licet in divo Thoma cum expositoribus
+          <lb ed="#P" n="21"/>1.9 96, artic. 4; Anton. 1p., tit. 18,
+          <lb ed="#P" n="22"/>cap. unic., S2; Soto, d de Justitia, quaest. 6,
+          <lb ed="#P" n="23"/>art. 4, ad 8 Castro, lib. 1de Lege poenalh,
+          <lb ed="#P" n="24"/>cap. 4 et 5; Salmer., tom. 4inEvang., part.3,
+          <lb ed="#P" n="25"/>tract. 12; Bellarmin., tom. 2, libr. 3 de Laicis,
+          <lb ed="#P" n="26"/>cap. 11; TFi ib 5 advers. Magdeburg..
+          <lb ed="#P" n="27"/>cap. 9; Covari in regula Peccatum, p. 2, 83;
+          <lb ed="#P" n="28"/>Navarr. in Summ., cap. 23, n. B4 et 
+          sequen<lb break="no" ed="#P" n="29"/>tib.: Felin in cap. 1 de Sponsal., n. 18; 
+          refer<lb break="no" ed="#P" n="30"/>rente Joan. Andr., Anchar. et Joan. Calderin.,
+          <lb ed="#P" n="31"/>et Gloss. in capit. Que in BHeclesiarum, de
+          <lb ed="#P" n="32"/>Constit. ibi, Jure poli. Idem Tiraquel., qui
+          <lb ed="#P" n="33"/>alios refert in praefatione ad librum de utroque
+          <lb ed="#P" n="34"/>retractu, n. 74. Et videtur assertio vel de fide,
+          <lb ed="#P" n="35"/>vel proxima fidei; nam fere aperte colligitur
+          <lb ed="#P" n="36"/>ex illo Pauli ad Roman. 12 : Qui potestati 
+          re<lb break="no" ed="#P" n="37"/>sistit, Dei ordinationi resistit : qui autem 
+          re<lb break="no" ed="#P" n="38"/>sistunt, sibi ipsis dumnationem acquirunt. Quod
+          <lb ed="#P" n="39"/>de damnatione etiam apud Deum intelligit
+          <lb ed="#P" n="40"/>ibi Chrysost. hom. 23. Item additur ibi ratio
+          <lb ed="#P" n="41"/>his verbis : Dei enim minister est, unde 
+          colli<lb break="no" ed="#P" n="42"/>gitur illi esse obediendum, non tantum propter
+          <lb ed="#P" n="43"/>irain, sed etium propter conscientiam - ac si
+          <lb ed="#P" n="44"/>aperte diceret, non solum propter timorem
+          <lb ed="#P" n="45"/>poenee, sed etiam propter vitandam culpam :
+          <lb ed="#P" n="46"/>hoc enim in rigore significat particula illa 
+          pro<lb break="no" ed="#P" n="47"/>pter conscientium, ut Ambros., Anselm., div.
+          <lb ed="#P" n="48"/>Thom., Theod. et fere alii intellexerunt ; et
+          <lb ed="#P" n="49"/>sumitur ex illo 1 Pet. 2: Hoc est enim gratia,
+          <lb ed="#P" n="50"/>52 propter Dei conscientiam sustinet quis, etc.,
+          <lb ed="#P" n="51"/>et prius ibidem dicitur : Subjecti estote omná
+          <lb ed="#P" n="52"/>hununae creatureae propter Deum, sive Regi, ctc.,
+          <lb ed="#P" n="53"/>quia sic est voluntas Dei; et facit illud Prov. 8:
+          <lb ed="#P" n="54"/>Per me reges regnant.
+        </p>
+        <p xml:id="szdleg-a65079-d1e499">
+          <lb ed="#P" n="55"/>6. Legislator civilis fert legem ut minister Dei
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et per potestatem ab eo acceplam. —Ex quibus
+          <lb ed="#P" n="57"/>testimoniis, et similibus supra citatis, 
+          sumun<lb break="no" ed="#P" n="58"/>tur variae rationes hujus veritatis. Prima est, )
+          <lb ed="#P" n="59"/>quia etiam legislator civilis fert leges ut mi mi-]/
+          <lb ed="#P" n="60"/>nister Dei per potestatem ab ipso acceptam:
+          <lb ed="#P" n="61"/>ergo obligat in conscientia ad parendum : 
+          pa<lb break="no" ed="#P" n="62"/>tet consequentia, quia qui resistit ministro 
+          re<lb break="no" ed="#P" n="63"/>gis in eo in quo minister est, et quatenus 
+          re<lb break="no" ed="#P" n="64"/>praesentat personam regis, plane censetur 
+          re<lb break="no" ed="#P" n="65"/>sistere ipsi regi, ut patet ex consensu omnium
+          <lb ed="#P" n="66"/>hominum, et ex illo 1 Reg. 8: Non te 
+          abjece<lb break="no" ed="#P" n="67"/>runt, sed me : ergo in transgressione talis legis
+          <lb ed="#P" n="68"/>intercedit Dei offensio et injuria; ergo laeditur
+          <lb ed="#P" n="69"/>conscientia ; ergo lex ipsa in conscientia 
+          obli<lb break="no" ed="#P" n="70"/>gabat. picet aliquis : Potestas civilis non est
+          <lb ed="#P" n="71"/>immediate a Deo, sed a communitate 
+          homi<lb break="no" ed="#P" n="72"/>num : ergo potuerunt homines conferre hanc
+          <lb ed="#P" n="73"/>potestatem limitatam, nemper ad ferendas 
+          le<lb break="no" ed="#P" n="74"/>ges cogentes alio modo, non tamen in 
+          con<lb break="no" ed="#P" n="75"/>scientia obligantes. Respondetur primum,
+          <lb ed="#P" n="76"/>etiam admisso illo casu, non deesse in tali
+          <lb ed="#P" n="77"/>republica potestatem ad ferendas leges 
+          obli<lb break="no" ed="#P" n="78"/>gantes in conscientia, sed illam permansisse in
+          <lb ed="#P" n="79"/>tali communitate, et non fuisse translatam in
+          <lb ed="#P" n="80"/>principem. Inde vero potius sequitur in illo
+          <lb ed="#P" n="81"/>casu eum non esse principem perfectum, nec
+          <lb ed="#P" n="82"/>habere potestatem gubernativam absolute et
+          <lb ed="#P" n="83"/>simpliciter, sed tantum secundum quid. Et
+          <lb ed="#P" n="84"/>ideo quoties respublica constituit sibi regem
+          <lb ed="#P" n="85"/>cum vera potestate suprema, necessario 
+          con<lb break="no" ed="#P" n="86"/>fert illi hanc facultatem. An vero possit talis
+          <lb ed="#P" n="87"/>modus potestatis et actus ejus intelligi sine
+          <lb ed="#P" n="88"/>aliqua nova obligatione in conscientia, patebit
+          <lb ed="#P" n="89"/>magis ex sequenti capite.
+        </p>
+        <p xml:id="szdleg-a65079-d1e580">
+          <lb ed="#P" n="90"/>7. Jus divinum et naturale dictant pon A
+          <lb ed="#P" n="91"/>das leges a legitimis principibus positas. —
+          <lb ed="#P" n="92"/>Occurritur dubiolo. — Secunda ratio 
+          principa<lb break="no" ed="#P" n="93"/>lis est, quia jus divinum et naturale dictat
+          <lb ed="#P" n="94"/>servandas esse justas leges a legitimis 
+          princi<lb break="no" ed="#P" n="95"/>pibus positas; ergo qui illas non servat, agit
+          <lb ed="#P" n="96"/>contra divinam voluntatem, juxta citatum 
+          ver<lb break="no" ed="#P" n="97"/>bum Petri; Howc est enim voluntas Dei, et juxta
+          <lb ed="#P" n="98"/>verbum Christi, Quecumque diaerint vobis, 
+          fa<lb break="no" ed="#P" n="99"/>cite ergo illa transgressio est vera culpa et
+          <lb ed="#P" n="100"/>peccatum, atque adeo contra obligationem in
+          <lb ed="#P" n="101"/>conscientia. Atque hoc sensu dixit D. Thomas
+          <lb ed="#P" n="102"/>legem humanam obligare in conscientia, 
+          qua<lb break="no" ed="#P" n="103"/>tenus participat legem aeternam et naturalem,
+          <lb ed="#P" n="104"/>id est, quatenus in voluntate Dei et in 
+          dicta<lb break="no" ed="#P" n="105"/>mine rationis naturalis nititur : hoc enim 
+          prin<lb break="no" ed="#P" n="106"/>cipium, Obediendum est justis praeceptis 
+          prin<lb break="no" ed="#P" n="107"/>cipwn, naturale est. Nec vero inde sequitur
+          <lb ed="#P" n="108"/>vel culpam illam esse proprie contra legem
+          <lb ed="#P" n="109"/>naturae, vel obligationem ad actum praeceptum
+          <lb ed="#P" n="110"/>lege humana esse naturalem, quia, ut in su-
+          <pb ed="#P" n="259"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>perioribus tetigi, lex humana se habet ut causa
+          <lb ed="#P" n="2"/>proxima et secunda, quae nititur in lege 
+          aeter<lb break="no" ed="#P" n="3"/>na tanquam in causa prima : effectus autem,
+          <lb ed="#P" n="4"/>qui proxime est a causa secunda, ita ut a
+          <lb ed="#P" n="5"/>prima non fieret, nisi per ilau secundae
+          <lb ed="#P" n="6"/>simpliciter tribuitur, et ideo obligatio haec,
+          <lb ed="#P" n="7"/>etiamsi sit in conscientia, simpliciter est a lege
+          <lb ed="#P" n="8"/>humana.
+        </p>
+        <p xml:id="szdleg-a65079-d1e650">
+          <lb ed="#P" n="9"/>8. Praedicta potestas est necessaria ad 
+          con<lb break="no" ed="#P" n="10"/>venientem gubernationem reipublice humane.
+          <lb ed="#P" n="11"/>—Tertia ratio sit, quia haec potestas est 
+          neces<lb break="no" ed="#P" n="12"/>saria ad convenientem gubernationem 
+          reipu<lb break="no" ed="#P" n="13"/>blicae humanae: ex fine autem recte colligimus
+          <lb ed="#P" n="14"/>efficaciam causae, praesertim in moralibus. 
+          An<lb break="no" ed="#P" n="15"/>tecedens patet, quia etiam in inferioribus et
+          <lb ed="#P" n="16"/>imperfectis communitatibus est necessaria vis
+          <lb ed="#P" n="17"/>praecipiendi, obligando in conscientia: hac
+          <lb ed="#P" n="18"/>enim ratione pater potest obligare filium, adeo
+          <lb ed="#P" n="19"/>ut Deut. 21 dignus morte judicaretur filius
+          <lb ed="#P" n="20"/>non obediens praecepto patris. Et similiter uxor
+          <lb ed="#P" n="21"/>in conscientia tenetur obedire marito, juxta
+          <lb ed="#P" n="22"/>illud Pauli ad Col. 3: Mulieres subditae estote
+          <lb ed="#P" n="23"/>viris, sicut oportet in Domino ; et ad Ephes. 5,
+          <lb ed="#P" n="24"/>absolute dicit: Mulieres viris suis subdite
+          <lb ed="#P" n="25"/>sint, sicut Domino ; et reddit rationem : 
+          Quo<lb break="no" ed="#P" n="26"/>niam vir caput est mulieris. Multo autem 
+          ma<lb break="no" ed="#P" n="27"/>gis rex est caput reipublicae temporalis. 
+          Si<lb break="no" ed="#P" n="28"/>militer etiam servus tenetur in conscientia
+          <lb ed="#P" n="29"/>parere domino, ut plane docet Paulus locis
+          <lb ed="#P" n="30"/>citatis, et sumitur ex 1 Petri 2, ex cap. 1 de
+          <lb ed="#P" n="31"/>Conjugio servorum ; et de omnibus famulis, in
+          <lb ed="#P" n="32"/>eo quod ex officio facere tenentur, idem est
+          <lb ed="#P" n="33"/>manifestum, et habetur in cap. Si Dominus,
+          <lb ed="#P" n="34"/>11, quaest. 3; et in religionibus sine aliqua 
+          obli<lb break="no" ed="#P" n="35"/>gatione hujusmodi non posset consistere 
+          per<lb break="no" ed="#P" n="36"/>fecta gubernatio: ergo signum est multo 
+          ma<lb break="no" ed="#P" n="37"/>gis esse necessariam in communitate perfecta,
+          <lb ed="#P" n="38"/>etiam ad ejus temporalem gubernationem; et
+          <lb ed="#P" n="39"/>ratio a priori est, quia gubernatio sine 
+          potes<lb break="no" ed="#P" n="40"/>tate cogendi inefficax est, et facile 
+          contemni<lb break="no" ed="#P" n="41"/>tur : coactio autem sine potestate obligandi in
+          <lb ed="#P" n="42"/>conscientia, vel est moraliter impossibilis, quia
+          <lb ed="#P" n="43"/>coactio justa supponit culpam, quod est valde
+          <lb ed="#P" n="44"/>probabile, ut magis declarabitur in seq. et
+          <lb ed="#P" n="45"/>tractando de lege poenali; vel certe est valde
+          <lb ed="#P" n="46"/>insufficiens, quia per eam non posset in multis
+          <lb ed="#P" n="47"/>casibus necessariis sufficienter reipublicae 
+          sub<lb break="no" ed="#P" n="48"/>venire.
+        </p>
+        <p xml:id="szdleg-a65079-d1e740">
+          <lb ed="#P" n="49"/>9. Gersonis opinio quomodo sane euplicetur,
+          <lb ed="#P" n="50"/>quaque censwura digna sit. — Ex his facile 
+          con<lb break="no" ed="#P" n="51"/>stat quid de opinione <name xml:id="szdleg-a65079-Nd1e748">Gersonis</name> censendum sit.
+          <lb ed="#P" n="52"/>Etenim si ille intellexit, ut Soto, Castro et
+          <lb ed="#P" n="53"/>multi alii ex eo satis apparenter colligunt,
+          <lb ed="#P" n="54"/>nihil posse praecipi per legem humanam seu
+          <lb ed="#P" n="55"/>civilem quod per legem naturalem praeceptum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>non sit, saltem per discursum et deductionem
+          <lb ed="#P" n="57"/>necessariam ex principiis naturalibus, sic 
+          as<lb break="no" ed="#P" n="58"/>sertio ejus erronea est, et bonis moribus valde
+          <lb ed="#P" n="59"/>contraria, ut constat ex testimoniis et 
+          rationi<lb break="no" ed="#P" n="60"/>bus adductis, et ex communi sensu fidelium
+          <lb ed="#P" n="61"/>in praxi, et usu talium legum, et magis ex
+          <lb ed="#P" n="62"/>sequenti capite constabit. Si vero solum 
+          intel<lb break="no" ed="#P" n="63"/>lexit leges humanas non obligare in 
+          conscien<lb break="no" ed="#P" n="64"/>tia, nisi in virtute horum principiorum 
+          natu<lb break="no" ed="#P" n="65"/>ralium, Obediendum est principibus hummanis
+          <lb ed="#P" n="66"/>in licitis et honestis, juxta illud, Obedite 
+          prae<lb break="no" ed="#P" n="67"/>positis vestris, quod praeceptum naturale est,
+          <lb ed="#P" n="68"/>et non tantum positivum, et ideo dicit legem
+          <lb ed="#P" n="69"/>humanam non obligare ut humana est, sed ut
+          <lb ed="#P" n="70"/>pertinet ad quemdam gradum legis divinae, ut
+          <lb ed="#P" n="71"/>aperte dicit dicta lect. 4, corol. 4, supponendo
+          <lb ed="#P" n="72"/>ea quae dixerat in lect. 29, corol. 7, sic fortasse
+          <lb ed="#P" n="73"/>de nomine disputat. Verumtamen non sine
+          <lb ed="#P" n="74"/>scandalo discedit a communi modo loquendi
+          <lb ed="#P" n="75"/>theologorum, et introducendo modum 
+          loquen<lb break="no" ed="#P" n="76"/>di ambiguum, qui potest sensum erroneum et
+          <lb ed="#P" n="77"/>bonis moribus contrarium inducere, et 
+          praete<lb break="no" ed="#P" n="78"/>rea semper indicat obligationem talium legum
+          <lb ed="#P" n="79"/>non fundari immediate in potestate 
+          legislato<lb break="no" ed="#P" n="80"/>rum, sed in deductione aliqua ex principio
+          <lb ed="#P" n="81"/>aliquo evidente, vel revelato, subsumendo 
+          pro<lb break="no" ed="#P" n="82"/>positionem dubiam, pie tamen creditam, et
+          <lb ed="#P" n="83"/>ad morum aedificationem pertinentem, et in
+          <lb ed="#P" n="84"/>hac deductione fundat practicam obligationem,
+          <lb ed="#P" n="85"/>ut patet ex dicta lect. 2, corollar. 7, juncto
+          <lb ed="#P" n="86"/>corollario sexto lectionis quartae. Hoc autem
+          <lb ed="#P" n="87"/>in rigore falsum est, quia nisi lex humana
+          <lb ed="#P" n="88"/>addat obligationem, illa probabilitas, vel 
+          pie<lb break="no" ed="#P" n="89"/>tas, quae apparet in tali materia non sufficeret
+          <lb ed="#P" n="90"/>ad obligationem, ut, in exemplo de 
+          observa<lb break="no" ed="#P" n="91"/>tione Quadragesimae, quo utitur, etiamsi tale
+          <lb ed="#P" n="92"/>jejunium per se spectatum conferat ad 
+          pieta<lb break="no" ed="#P" n="93"/>tem, non satis esset ad obligationem, nisi 
+          po<lb break="no" ed="#P" n="94"/>testas ecclesiastica illam imponeret, idemque
+          <lb ed="#P" n="95"/>cum proportione est in omni materia legis
+          <lb ed="#P" n="96"/>humanae, etiam civilis. Itaque, licet verum sit
+          <lb ed="#P" n="97"/>obligationem legis humanae fundari aliquo
+          <lb ed="#P" n="98"/>modo in principiis legis naturae, et supponere
+          <lb ed="#P" n="99"/>aliquam naturalem honestatem, vel sufficiens
+          <lb ed="#P" n="100"/>fundamentum et materiam, nihilominus ipsa
+          <lb ed="#P" n="101"/>lex humana immediate addit obligationem in
+          <lb ed="#P" n="102"/>conscientia non contentam in principiis legis
+          <lb ed="#P" n="103"/>naturae, nisi medio imperio potestatis humanae.
+        </p>
+        <p xml:id="szdleg-a65079-d1e866">
+          <lb ed="#P" n="104"/>10. Duplex deductio ev lege naturali. —
+          <lb ed="#P" n="105"/>Tandem intelligi potest ex dictis quomodo in
+          <lb ed="#P" n="106"/>omni lege humana quoad obligationem ejus
+          <lb ed="#P" n="107"/>locum habeat quod D. Thomas docet q. 95,
+          <lb ed="#P" n="108"/>art. 2 et 4, omnem legem humanam a lege
+          <lb ed="#P" n="109"/>naturali derivari. Duplex enim esse potest lex
+          <lb ed="#P" n="110"/>humana etiam civilis ; una est declarativa
+          <pb ed="#P" n="260"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tantum obligationis naturalis, ut est lex civilis
+          <lb ed="#P" n="2"/>prohibens furtum, vel homicidium, vel usuras,
+          <lb ed="#P" n="3"/>et in universum omnis illa qua praecipit vel
+          <lb ed="#P" n="4"/>prohibet aliquid , quod per necessariam 
+          illa<lb break="no" ed="#P" n="5"/>tionem deducitur ex principiis legis naturalis
+          <lb ed="#P" n="6"/>tanquam necessarium ad morum honestatem,
+          <lb ed="#P" n="7"/>ut notavit Soto ib. 2 de Justit. , quaestione
+          <lb ed="#P" n="8"/>quinta, articulo secundo: alia lex humana est
+          <lb ed="#P" n="9"/>quae addit obligationem specialem , quae ex
+          <lb ed="#P" n="10"/>solis principiis naturalibus deduci non posset,
+          <lb ed="#P" n="11"/>nec evidenter, nec probabiliter, ut est lex 
+          pro<lb break="no" ed="#P" n="12"/>hibens ne arma nocte deferantur, vel res tales
+          <lb ed="#P" n="13"/>e regno extrahantur, et similes. Item duplex
+          <lb ed="#P" n="14"/>est deductio ex lege naturali, ut idem D. 
+          Tho<lb break="no" ed="#P" n="15"/>mas notat, una est per modum conclusionis
+          <lb ed="#P" n="16"/>ex principiis, quae satis nota est, alia est per
+          <lb ed="#P" n="17"/>modum determinationis , quia lex naturalis
+          <lb ed="#P" n="18"/>solum praecipit aliquid in generali, ut, verbi
+          <lb ed="#P" n="19"/>gratia, tributa esse solvenda, maleficia esse
+          <lb ed="#P" n="20"/>punienda, etc. ; ex hoc autem principio 
+          colli<lb break="no" ed="#P" n="21"/>git prudens ratio oportere determinare certam
+          <lb ed="#P" n="22"/>quantitatem tributi, aut poenae, etc.; quam 
+          de<lb break="no" ed="#P" n="23"/>terminationem addit legislator humanus 
+          pru<lb break="no" ed="#P" n="24"/>denti arbitrio, et per potestatem sibi a Deo
+          <lb ed="#P" n="25"/>datam , media ratione naturali quoad civiles
+          <lb ed="#P" n="26"/>leges, ut supra ostensum est, et ideo recte 
+          di<lb break="no" ed="#P" n="27"/>citur talis lex humana derivari a naturali per
+          <lb ed="#P" n="28"/>modum determinationis. Priores ergo leges
+          <lb ed="#P" n="29"/>deducuntur priori modo, scilicet , per modum
+          <lb ed="#P" n="30"/>conclusionis ex lege naturali , quia, re vera,
+          <lb ed="#P" n="31"/>secundum se continentur sub tota latitudine
+          <lb ed="#P" n="32"/>legum naturalium, ut ex libro secundo 
+          con<lb break="no" ed="#P" n="33"/>stat, et ex vi rationis naturalis habent 
+          obliga<lb break="no" ed="#P" n="34"/>tionem suam primariam , quam magis 
+          incul<lb break="no" ed="#P" n="35"/>cat , seu proponit legislator humanus , et ex
+          <lb ed="#P" n="36"/>parte sua aliquo modo auget obligationem
+          <lb ed="#P" n="37"/>illam saltem extensive. Posteriores autem 
+          le<lb break="no" ed="#P" n="38"/>ges, quae propriissime humanae sunt, 
+          derivan<lb break="no" ed="#P" n="39"/>tur a lege naturali solum posteriori modo,
+          <lb ed="#P" n="40"/>scilicet, per modum determinationis, et 
+          secun<lb break="no" ed="#P" n="41"/>dum illam determinationem obligant 
+          imme<lb break="no" ed="#P" n="42"/>diate ex vi potestatis legislativae humanae, quae
+          <lb ed="#P" n="43"/>obligationem illam in conscientia potest addere
+          <lb ed="#P" n="44"/>supra obligationem legis naturalis, vel divinae,
+          <lb ed="#P" n="45"/>ut ostensum est : et quia illa potestas, quoad
+          <lb ed="#P" n="46"/>leges civiles, derivatur ad hominem media 
+          ra<lb break="no" ed="#P" n="47"/>tione naturali, ut supra ostensum est, ideo
+          <lb ed="#P" n="48"/>recte dicuntur tales leges humanae deduci ex
+          <lb ed="#P" n="49"/>naturali per modum determinationis , seu 
+          ad<lb break="no" ed="#P" n="50"/>ditionis factae per potestatem derivatam ab
+          <lb ed="#P" n="51"/>ipsa lege naturali.
+        </p>
+        <p xml:id="szdleg-a65079-d1e999">
+          <lb ed="#P" n="52"/>11. Fit satis argumentis adversantibus. —
+          <lb ed="#P" n="53"/>Superest ut argumentis in principio positis
+          <lb ed="#P" n="54"/>respondeamus. Ad primum, sumptum ex voce
+          <lb ed="#P" n="55"/>et distinctione fori, respondetur, etiamsi forum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>externum quoad executionem et judicium 
+          dis<lb break="no" ed="#P" n="57"/>tinctum sit a foro interno et conscientiae , 
+          ni<lb break="no" ed="#P" n="58"/>hilominus ex lege exterius posita de aliquo
+          <lb ed="#P" n="59"/>actu redundare diversum judicium in foro
+          <lb ed="#P" n="60"/>conscientiae de eodem actu, quia talis lex 
+          ha<lb break="no" ed="#P" n="61"/>bet vim constituendi talem actionem, vel 
+          omis<lb break="no" ed="#P" n="62"/>sionem in materia necessaria virtutis vel vitii,
+          <lb ed="#P" n="63"/>qua morali mutatione facta, conscientia dictat
+          <lb ed="#P" n="64"/>hoc facere vel omittere esse peccatum. Item
+          <lb ed="#P" n="65"/>habet vim lex humana applicandi suo modo
+          <lb ed="#P" n="66"/>voluntatem Dei, et consequenter efficiendi
+          <lb ed="#P" n="67"/>obligationem in foro conscientiae ; unde 
+          sim<lb break="no" ed="#P" n="68"/>pliciter negandum est homines non posse 
+          obli<lb break="no" ed="#P" n="69"/>gare in foro Dei , quia quando cperantur ut
+          <lb ed="#P" n="70"/>ministri Dei, in foro ejusdem Dei obligant.
+          <lb ed="#P" n="71"/>Nec est inconveniens quod inferior obliget in
+          <lb ed="#P" n="72"/>foro superioris, quando per potestatem ab
+          <lb ed="#P" n="73"/>ipsomet superiore datam operatur ; nam ipse
+          <lb ed="#P" n="74"/>superior vult ut ei obediatur, juxta illud:
+          <lb ed="#P" n="75"/>Qui vos audit me audit ; unde etiam subjungit:
+          <lb ed="#P" n="76"/>Qui vos spernit me spernit. Ad secundum 
+          res<lb break="no" ed="#P" n="77"/>pondetur potestatem civilem dici temporalem
+          <lb ed="#P" n="78"/>ex parte materiae, et hoc modo est verum non
+          <lb ed="#P" n="79"/>posse ponere vinculum spirituale, scilicet, in
+          <lb ed="#P" n="80"/>materia spirituali, vel per se, ac directe in 
+          or<lb break="no" ed="#P" n="81"/>dine ad spiritualem actum, vel effectum. 
+          Ni<lb break="no" ed="#P" n="82"/>hilominus tamen quatenus in materia 
+          tempo<lb break="no" ed="#P" n="83"/>rali potest reperiri honestas et obligatio ad
+          <lb ed="#P" n="84"/>illam servandam, eatenus potest lex civilis ex
+          <lb ed="#P" n="85"/>parte materiae hoc vinculum ponere, etiamsi
+          <lb ed="#P" n="86"/>aliquo modo spirituale videatur , quatenus
+          <lb ed="#P" n="87"/>conscientia quid spirituale est, quia facta 
+          mu<lb break="no" ed="#P" n="88"/>tatione in materia temporali, ipsa conscientia
+          <lb ed="#P" n="89"/>aliter dictat de honestate vel turpitudine talis
+          <lb ed="#P" n="90"/>materiae. Potestas autem civilis potest facere
+          <lb ed="#P" n="91"/>illam mutationem in materia. Adde 
+          potesta<lb break="no" ed="#P" n="92"/>tem illam esse participationem divinae 
+          potesta<lb break="no" ed="#P" n="93"/>tis, et sub ea ratione posse includere vim
+          <lb ed="#P" n="94"/>quamdam quae spiritum ipsum et rationem
+          <lb ed="#P" n="95"/>liget.
+        </p>
+        <p xml:id="szdleg-a65079-d1e1099">
+          <lb ed="#P" n="96"/>12. Ad tertium respondetur leges civiles
+          <lb ed="#P" n="97"/>etiam intendere honestatem morum in sua
+          <lb ed="#P" n="98"/>materia et in ordine ad suum finem, et hac 
+          ra<lb break="no" ed="#P" n="99"/>tione posse in conscientia obligare. Deinde 
+          di<lb break="no" ed="#P" n="100"/>citur ipsam obligationem in conscientia esse
+          <lb ed="#P" n="101"/>necessariam ut potestas civilis per suas leges
+          <lb ed="#P" n="102"/>possit efficaciter consequi finem suum, quia
+          <lb ed="#P" n="103"/>nisi cives in conscientia teneantur ea facere
+          <lb ed="#P" n="104"/>vel vitare quae lex civilis efficaciter praecipit
+          <lb ed="#P" n="105"/>aut prohibet, non poterit pax et justitia 
+          reipu<lb break="no" ed="#P" n="106"/>blicae conservari, quia bomines proxime per
+          <lb ed="#P" n="107"/>conscientiam diriguntur in actionibus suis, et
+          <lb ed="#P" n="108"/>ideo necesse est ut ex lege civili redundet 
+          obli<lb break="no" ed="#P" n="109"/>gatio ad conscientiam. Ad quartum, de 
+          cogni<lb break="no" ed="#P" n="110"/>tione talis obligationis, respondetur aliud esse
+          <pb ed="#P" n="261"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>actum de quo fertur lex esse debere subjectum
+          <lb ed="#P" n="2"/>cognitioni humanae ; aliud vero obligationem
+          <lb ed="#P" n="3"/>ad talem actum debere esse eodem modo 
+          co<lb break="no" ed="#P" n="4"/>gnoscibilem : primum est verum per se 
+          lo<lb break="no" ed="#P" n="5"/>quendo, ac necessarium : et hac ratione supra
+          <lb ed="#P" n="6"/>diximus has leges solum dari de actibus 
+          exter<lb break="no" ed="#P" n="7"/>nis ; secundum autem non est per se 
+          necessa<lb break="no" ed="#P" n="8"/>rium, quia, ut lex humana imponat 
+          obliga<lb break="no" ed="#P" n="9"/>tionem in conscientia , non oportet ut per se
+          <lb ed="#P" n="10"/>ac directe de ea judicet, seu de transgressione
+          <lb ed="#P" n="11"/>in illo foro, sed solum de externa actione vel
+          <lb ed="#P" n="12"/>omissione. Nihilominus tamen verum est
+          <lb ed="#P" n="13"/>etiam legislatorem humanum posse cognoscere
+          <lb ed="#P" n="14"/>et judicare suam legem obligare in conscientia
+          <lb ed="#P" n="15"/>in tali materia, etiamsi in particulari ignoret
+          <lb ed="#P" n="16"/>an subditus operetur contra conscientiam nec
+          <lb ed="#P" n="17"/>ne.
+        </p>
+        <p xml:id="szdleg-a65079-d1e1175">
+          <lb ed="#P" n="18"/>13: Dupliciter posse aliquem esse reum penee
+          <lb ed="#P" n="19"/>per transgressionem legis. — Ad quintum, de
+          <lb ed="#P" n="20"/>obligatione ad poenam, respondetur dupliciter
+          <lb ed="#P" n="21"/>posse aliquem fieri reum poenae ex 
+          transgres<lb break="no" ed="#P" n="22"/>sione legis. Primo , quia lex illa, ut est a
+          <lb ed="#P" n="23"/>proximo legislatore, directe imponit talem 
+          poe<lb break="no" ed="#P" n="24"/>nam. Secundo, inferri potest reatus poenae 
+          so<lb break="no" ed="#P" n="25"/>lum consecutione quadam. Priori modo verum
+          <lb ed="#P" n="26"/>est non posse legislatorem obligare ad poenam
+          <lb ed="#P" n="27"/>quam nullo modo potest infligere ; posteriori
+          <lb ed="#P" n="28"/>autem modo falsum est. Lex autem civilis non
+          <lb ed="#P" n="29"/>obligat sub poena inferni vel purgatorii priori
+          <lb ed="#P" n="30"/>modo, sed tantum posteriori modo , et ideo
+          <lb ed="#P" n="31"/>ratio non procedit. Ut autem hujus rei ratio a
+          <lb ed="#P" n="32"/>priori intelligatur, advertendum est interdum
+          <lb ed="#P" n="33"/>posse superiorem principem seu legislatorem
+          <lb ed="#P" n="34"/>imponere poenam sibi propriam, seu 
+          reserva<lb break="no" ed="#P" n="35"/>tam suae jurisdictioni pro transgressoribus
+          <lb ed="#P" n="36"/>legum suorum gubernatorum ; et tunc 
+          quam<lb break="no" ed="#P" n="37"/>vis gubernator seu legislator inferior per suam
+          <lb ed="#P" n="38"/>legem directe non imponat talem poenam, 
+          ni<lb break="no" ed="#P" n="39"/>hilominus ex transgressione illius legis per
+          <lb ed="#P" n="40"/>necessariam consecutionem incurritur reatus
+          <lb ed="#P" n="41"/>illius poenae in virtute legis latae a superiori
+          <lb ed="#P" n="42"/>principe: ita ergo est in praesenti. Nam Deus
+          <lb ed="#P" n="43"/>voluit observari leges a suis ministris latas,
+          <lb ed="#P" n="44"/>etiam sub poena alterius vitae, quia 
+          transgres<lb break="no" ed="#P" n="45"/>siones earum continent veram culpam , et in
+          <lb ed="#P" n="46"/>offensionem ipsius supremi legislatoris 
+          redun<lb break="no" ed="#P" n="47"/>dant.
+        </p>
+        <p xml:id="szdleg-a65079-d1e1243">
+          <lb ed="#P" n="48"/>14. Obligare et remittere non necessario
+          <lb ed="#P" n="49"/>connecti. — Ad sextum, de remissione culpae,
+          <lb ed="#P" n="50"/>respondetur in rigore falsum esse principium
+          <lb ed="#P" n="51"/>assumptum : nam illa duo obligare , scilicet,
+          <lb ed="#P" n="52"/>et remittere non sunt per se ac necessario 
+          con<lb break="no" ed="#P" n="53"/>nexa : nam homo potest se voto obligare, et
+          <lb ed="#P" n="54"/>non potest obligationem sibi auferre : 
+          maxi<lb break="no" ed="#P" n="55"/>me autem hoc verum est, quando obligatio
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>non directe ponitur, sed consequitur aliunde:
+          <lb ed="#P" n="57"/>nam tunc non inducitur principaliter ex 
+          po<lb break="no" ed="#P" n="58"/>testate solius proximi legislatoris, sed maxime
+          <lb ed="#P" n="59"/>virtute Dei. Nihilominus tamen in propriis
+          <lb ed="#P" n="60"/>legibus et legislatoribus potest aliquem verum
+          <lb ed="#P" n="61"/>sensum habere illa propositio : Qui potuit 
+          obli<lb break="no" ed="#P" n="62"/>gationem legis ponere, potest el auferre, quia
+          <lb ed="#P" n="63"/>pendet ejus voluntate , et ita sicut legislator
+          <lb ed="#P" n="64"/>humanus potest ponere obligationem in 
+          con<lb break="no" ed="#P" n="65"/>scientia, ita etiam potest illam auferre, 
+          dis<lb break="no" ed="#P" n="66"/>pensando vel abrogando leges, ut postea 
+          dice<lb break="no" ed="#P" n="67"/>tur. Hoc autem procedit ante transgressionem
+          <lb ed="#P" n="68"/>legis; nam postquam trangressio legis facta
+          <lb ed="#P" n="69"/>est, non oportet ut legislator humanus possit
+          <lb ed="#P" n="70"/>remittere culpam illa transgressione 
+          commis<lb break="no" ed="#P" n="71"/>sam, quatenus contra Deum est, quia, ut sic,
+          <lb ed="#P" n="72"/>est alterius ordinis, et maxime repugnat legi
+          <lb ed="#P" n="73"/>eeternae. Poterit autem idem legislator 
+          remit<lb break="no" ed="#P" n="74"/>tere illam transgressionem, quatenus in suam
+          <lb ed="#P" n="75"/>offensionem et injuriam cedit, et consequenter
+          <lb ed="#P" n="76"/>etiam potest remittere reatum poenae per suam
+          <lb ed="#P" n="77"/>legem directe impositae , quia haec omnia 
+          per<lb break="no" ed="#P" n="78"/>manent in eodem ordine, et pertinent ad 
+          pro<lb break="no" ed="#P" n="79"/>prium jus ipsius proximi legislatoris.
+        </p>
+        <p xml:id="szdleg-a65079-d1e1318">
+          <lb ed="#P" n="80"/>15. Vis obligandi legis lumane precipue
+          <lb ed="#P" n="81"/>fundatur in lege eterna. — Ad septimum, de
+          <lb ed="#P" n="82"/>definitione peccati, solutio patet ex dictis. Nam
+          <lb ed="#P" n="83"/>quia vis obligandi legis humanae principaliter
+          <lb ed="#P" n="84"/>nititur in lege aeterna, ideo qui illam 
+          trans<lb break="no" ed="#P" n="85"/>greditur, virtute violat legem aeternam et 
+          di<lb break="no" ed="#P" n="86"/>vinam, et hoc modo convenit etiam illi 
+          trans<lb break="no" ed="#P" n="87"/>gressioni definitio peccati. Eademque est 
+          res<lb break="no" ed="#P" n="88"/>ponsio ad ultimum: unum enim ex divinis
+          <lb ed="#P" n="89"/>praeceptis est obedire superioribus et 
+          principi<lb break="no" ed="#P" n="90"/>bus humanis, et ideo qui non servat leges 
+          hu<lb break="no" ed="#P" n="91"/>manas, neque omnia Dei mandata servat, ac
+          <lb ed="#P" n="92"/>subinde damnationem sibi acquirit, ut dixit
+          <lb ed="#P" n="93"/>Paulus, quia re vera non implet conditionem a
+          <lb ed="#P" n="94"/>Christo positam : S'i vis ad vitam ingredi, serva
+          <lb ed="#P" n="95"/>mandata. Quamvis possint optime verba 
+          uni<lb break="no" ed="#P" n="96"/>verse intelligi de omnibus legitimis mandats,
+          <lb ed="#P" n="97"/>tam divinis quam humanis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prooemium</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Prooemium</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="f14"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a00003"><!-- deleg-prooem -->
+        <head xml:id="szdleg-a00003-Hd1e101">Prooemium</head>
+        <p xml:id="szdleg-a00003-d1e103">
+          <pb ed="#P" n="f14"/>
+          <lb ed="#P" n="1"/>TRACTATUS DE LEGIBUS
+          <lb ed="#P" n="2"/>ET LEGISLATORE DEO.
+        </p>
+        <p xml:id="szdleg-a00003-d1e112">
+          <lb ed="#P" n="3"/>PROOEMIUM
+          <lb ed="#P" n="4"/>SUBJECTUM ET RATIONEM TOTIUS OPERIS CONTINENS.
+        </p>
+        <p xml:id="szdleg-a00003-d1e119">
+          <lb ed="#P" n="5"/>Nulli mirum videri debet si homini theologiam profitenti leges incidant 
+          dispu<lb break="no" ed="#P" n="6"/>tandae. Theologiae namque eminentia ab ejus subjecto eminentissimo derivata omnem
+          <lb ed="#P" n="7"/>excludit rationem admirandi. Imo, si res ipsa recte dispiciatur, palam erit ita legum
+          <lb ed="#P" n="8"/>tractationem theologiae ambitu concludi, ut theologus subjectum ejus exhaurire
+          <lb ed="#P" n="9"/>non valeat, nisi legibus considerandis immoretur. Deus enim, ut multis aliis titulis
+          <lb ed="#P" n="10"/>a theologo, ita illo expendi debet, quod ultimus sit finis ad quem tendunt creaturae
+          <lb ed="#P" n="11"/>rationis participes, et in quo unica illarum felicitas consistit. Hinc ergo fit ut 
+          doc<lb break="no" ed="#P" n="12"/>trina sacra et finem hunc ultimum respectet, et viam ad eum comparandum doceat.
+          <lb ed="#P" n="13"/>Neque vero Deus solummodo est finis et veluti scopus ad quem creaturae 
+          intellec<lb break="no" ed="#P" n="14"/>tuales tendunt, sed etiam est causa sui comparandi. Nam creaturas suas regit, et,
+          <lb ed="#P" n="15"/>ostensa via, ad se ducit; et ne a recto itinere deflectant, admonendo compescit,
+          <lb ed="#P" n="16"/>deflectentesque sua ineffabili providentia revocat ac reducit, doctrina illuminando,
+          <lb ed="#P" n="17"/>consiliis monendo, legibus cogendo, et praecipue suae gratiae auxiliis adjuvando, ut
+          <lb ed="#P" n="18"/>jure merito inclamet Isaias : Dominus legifer noster, Dominus rea noster , ipse
+          <lb ed="#P" n="19"/>salvabit nos. Quoniam igitur hujus salutis via in actionibus liberis morumque 
+          rec<lb break="no" ed="#P" n="20"/>ütudine posita est, quae morum rectitudo a lege tanquam ab humanarum actionum
+          <lb ed="#P" n="21"/>regula plurimum pendet ; idcirco legum considerauo in magnam theologiae partem
+          <lb ed="#P" n="22"/>cedit ; et dum sacra doctrina de legibus tractat, nihil profecto aliud quam Deum
+          <lb ed="#P" n="23"/>ipsum ut legislatorem intuetur.
+        </p>
+        <p xml:id="szdleg-a00003-d1e163">
+          <lb ed="#P" n="24"/>Recte sane, inferat aliquis, si theologus divinarum legum terminis contentus 
+          hu<lb break="no" ed="#P" n="25"/>manas non invadat, quas jure merito vel morales philosophi, vel juris utriusque
+          <lb ed="#P" n="26"/>professores sibi possunt vindicare. Si enim theologus de legibus agit, quatenus a
+          <lb ed="#P" n="27"/>Deo legislatore derivantur, profecto alienum faciet si ad alos divertat legislatores.
+          <lb ed="#P" n="28"/>Adde quod, cum theologia sit doctrina supernaturalis, ei debet prohiberi descensus
+          <lb ed="#P" n="29"/>ad ea quae hauriuntur a natura, et nihil supra illam evehuntur ; alioqui naturalis
+          <lb ed="#P" n="30"/>philosophus ultra naturales leges, divinas etiam consideret ; juris caesarei, vel etiam
+          <lb ed="#P" n="31"/>pontificii professores sibi usurpent divinarum legum documenta, quod in promptu
+          <lb ed="#P" n="32"/>est quam sit a scientiarum concordi divisione alienum.
+        </p>
+        <p xml:id="szdleg-a00003-d1e186">
+          <lb ed="#P" n="33"/>Haec tamen non magni momenti sunt, et unico fere verbo diluuntur, considerando,
+          <lb ed="#P" n="34"/>sicut omnem paternitatem, ita etiam omnem legislatorem a Deo derivari, omniumque
+          <lb ed="#P" n="35"/>legum auctoritatem in eum esse ultimo refundendam. Si namque lex sit divina, ab
+          <lb ed="#P" n="36"/>ipso proxime dimanat ; sin humana, ab homine certe, ut Dei ministro et vicario,
+          <lb ed="#P" n="37"/>sancitur, ut testatur Apostolus ad Romanos. Non immerito igitur sub hac saltem
+          <lb ed="#P" n="38"/>ratione omnium legum discussio est theologicae facultatis ; nam, cum ejus sit Deum
+          <lb ed="#P" n="39"/>ut legislatorem intueri, Deusque sit universalis legislator, vel suppositi immediatione,
+          <lb ed="#P" n="40"/>vel virtutis, ut philosophi sermocinantur, eamdem doctrinam sacram universas leges
+          <pb ed="#P" n="f15"/>
+          <lb ed="#P" n="1"/>attingere necesse est. Deinde theologicum est negotium conscientiis prospicere 
+          via<lb break="no" ed="#P" n="2"/>torum ; conscientiarum vero rectitudo stat legibus servandis, sicut et pravitas 
+          violan<lb break="no" ed="#P" n="3"/>dis, cum lex quaelibet sit regula, si ut oportet servetur, aeternae salutis assequendae;
+          <lb ed="#P" n="4"/>si violetur, amittendae ; ergo et legis inspectio, quatenus est conscientiae vinculum,
+          <lb ed="#P" n="5"/>ad theologum pertinebit. Tandem catholica fides non solum docet, quatenus 
+          pa<lb break="no" ed="#P" n="6"/>rendum sit Deo supernaturaliter praecipienti, sed etiam quid natura vetet, jubeat
+          <lb ed="#P" n="7"/>vel permittat ; et quatenus obediendum sit potestatibus sublimioribus, ut Paulus
+          <lb ed="#P" n="8"/>dixit, atque adeo quatenus parendum sit tum ecclesiasticis legibus, tum laicis, ante
+          <lb ed="#P" n="9"/>oculos nobis ponit. Ergo ex his fidei fundamentis, theologi est colligere quid in hoc
+          <lb ed="#P" n="10"/>aut illo legum genere sit habendum.
+        </p>
+        <p xml:id="szdleg-a00003-d1e230">
+          <lb ed="#P" n="11"/>Atque hinc licet intelligere quomodo theologia munus hoc sine ulla 
+          imperfec<lb break="no" ed="#P" n="12"/>tione vel confusione perficiat, quia nimirum sub altiori lumine de legibus tractat.
+          <lb ed="#P" n="13"/>Nam imprimis philosophi morales multa de legibus disputant ; Plato enim duodecim
+          <lb ed="#P" n="14"/>libros de legibus scripsit, quos fere Cicero ad tres reduxit. Aristoteles vero, licet 
+          pro<lb break="no" ed="#P" n="15"/>prium opus de legibus non reliquerit, in suis moralibus multa sparsim de legibus
+          <lb ed="#P" n="16"/>tradidit, sicut et Seneca, Plutarchus et alii. Verumtamen hi philosophi tantum 
+          juris<lb break="no" ed="#P" n="17"/>prudentiae principia videntur tradidisse. Nam fere de solis humanis legibus 
+          tracta<lb break="no" ed="#P" n="18"/>runt quae ad rempublicam et civitatem in justitia et pace continendam convenientes
+          <lb ed="#P" n="19"/>sunt, et ad summum de naturali jure quatenus humana ratione ostendi potest, et
+          <lb ed="#P" n="20"/>moralem honestatem virtutum acquisitarum dirigit, nonnihil attigerunt. Atque 
+          eam<lb break="no" ed="#P" n="21"/>dem fere rationem in legibus ferendis tenuerunt imperatores, ut alu civilium legum
+          <lb ed="#P" n="22"/>conditores ; nam philosophia tanquam fundamento usi, ex illa leges civiles rationi
+          <lb ed="#P" n="23"/>consentaneas deduxerunt : unde Cicero, in libro primo de Legibus, hoc maxime
+          <lb ed="#P" n="24"/>efficere conatur, ut ex intimis philosophiae jurisprudentiam hauriendam esse 
+          confir<lb break="no" ed="#P" n="25"/>met ; cui consonat illud Ulpiani in lib. 1, ff. de Justit. et jur.: Veram philosophiam,
+          <lb ed="#P" n="26"/>non simulatam affectamus. Unde fit ut juris civilis prudentia nihil aliud sit quam
+          <lb ed="#P" n="27"/>quaedam philosophiae moralis, ad regendos ac gubernandos politicos reipublicae
+          <lb ed="#P" n="28"/>mores, applicatio seu extensio. Ideoque, ut aliquam verae scientiae rationem 
+          parti<lb break="no" ed="#P" n="29"/>cipet, philosophiae conjungi seu subalternari necesse est. Tota vero haec legum 
+          con<lb break="no" ed="#P" n="30"/>sideratio non transcendit naturalem finem, imo neque omni ex parte illum attingit,
+          <lb ed="#P" n="31"/>sed quatenus ad externam justitiam et pacem reipublicae tuendam necessarium est.
+        </p>
+        <p xml:id="szdleg-a00003-d1e278">
+          <lb ed="#P" n="32"/>At leges canonicae ad supernaturalem ordinem spectant, tum quia a potestate
+          <lb ed="#P" n="33"/>Petro data ad pascendum Christi gregem derivantur, tum etiam quia ex principus
+          <lb ed="#P" n="34"/>divini juris originem ducunt ; illudque, quoad fieri potest et expedit, mitantur.
+          <lb ed="#P" n="35"/>Propter quod dixit Innocentius III, in cap. Qualiter et quando, 2, de Accusat.,
+          <lb ed="#P" n="36"/>canonicas sanctiones ex auctoritatibus veteris et novi Testamenti processisse. 
+          Pos<lb break="no" ed="#P" n="37"/>sumus tamen nihilominus in ipsis canonibus duos fines distinguere ; unus est, in
+          <lb ed="#P" n="38"/>toto ecclesiastico statu debitum ordinem politicum constituere, pacem et justtiam
+          <lb ed="#P" n="39"/>custodire, et omnia quae ad forum externum ecclesiasticum spectant recta ratione
+          <lb ed="#P" n="40"/>moderari ; alius est, omnia quae ad divinum cultum et salutem animarum ac 
+          puri<lb break="no" ed="#P" n="41"/>tatem fidei et morum spectant recte et prudenter ordinare. Juris ergo canomci
+          <lb ed="#P" n="42"/>interpretes, per se ac ex proprio instituto, superiori fine et ratione sacros canones
+          <lb ed="#P" n="43"/>considerant ac interpretantur. Theologia vero sub altiori ratione haec omnia 
+          com<lb break="no" ed="#P" n="44"/>plectitur ; nam jus ipsum naturale considerat, ut supernatural ordini supponitur,
+          <lb ed="#P" n="45"/>et ab illo firmitatem majorem accipit ; leges vero civiles solum, vel ut de earum
+          <lb ed="#P" n="46"/>honestate ac rectitudine per altiores regulas dijudicet, vel ut obligationes 
+          conscien<lb break="no" ed="#P" n="47"/>tiae quae ex illis oriuntur juxta principia fidei declaret; sacros autem canones et
+          <lb ed="#P" n="48"/>Pontificum decreta, ut conscientiam ligant, et ad aeternam salutem dirigunt, tanquam
+          <lb ed="#P" n="49"/>sibi proprias recognoscit et vindicat, ac subinde in omnibus his legibus primariam
+          <lb ed="#P" n="50"/>originem et ultimum finem sub divino lumine inquirit, quomodo, scilicet, a Deo ipso
+          <lb ed="#P" n="51"/>originem habeant quatenus potestas ad illas ferendas in Deo primarie existit, et ab
+          <lb ed="#P" n="52"/>ipso ad homines aut naturali aut supernaturali via dimanet, et cum illis semper in-
+          <pb ed="#P" n="f16"/>
+          <lb ed="#P" n="1"/>fluat et cooperetur. Ac denique declarat quomodo leges omnes mensurae sint 
+          hu<lb break="no" ed="#P" n="2"/>manarum actionum in ordine ad conscientiam, et consequenter quantum ad meritum
+          <lb ed="#P" n="3"/>et demeritum aeternae vitae conferant.
+        </p>
+        <p xml:id="szdleg-a00003-d1e335">
+          <lb ed="#P" n="4"/>Neque vero hanc de legibus tractationem primi inter theologos adorimur; duces
+          <lb ed="#P" n="5"/>enim habemus omnis aetatis gravissimos scriptores ; et imprimis D. Thomas, in sua
+          <lb ed="#P" n="6"/>1. 2, a q. 90 usque ad 109, hunc methodum servat in doctrina de Legibus 
+          tra<lb break="no" ed="#P" n="7"/>denda, quem ibi expositores sunt imitati, et praesertim Soto duobus primis libris de
+          <lb ed="#P" n="8"/>Justitia et jure, et D. Antoninus, 1 p. Theologiae a tit. 11 usque ad 18. Idem 
+          ob<lb break="no" ed="#P" n="9"/>servavit Alens., 3 p., a q. 26 usque ad 60, Vincentius Belvacensis in Spec. mor.,
+          <lb ed="#P" n="10"/>l. 1, p. 2, per novem primas disputationes, et aliqua de singulis Legibus attigit Gerson,
+          <lb ed="#P" n="11"/>p. 3 tr. de Vita spir., lect. 2 et seq., et p. 1, tr. de Potest. eccl., praesertim consid.
+          <lb ed="#P" n="12"/>13. Magister autem Sententiarum pauca de divinis legibus atugit in 3, a dist. 37
+          <lb ed="#P" n="13"/>usque ad finem, quem alii imitati sunt, quia solum expositorum munus assumpserunt.
+          <lb ed="#P" n="14"/>Alii etiam theologi peculiares tractatus de quibusdam legibus ediderunt, ut 
+          Guillel<lb break="no" ed="#P" n="15"/>mus Parisiensis, 1 p. Sum., l. 2, quem de Legibus inscripsit, licet de solis praeceptis
+          <lb ed="#P" n="16"/>legis veteris fere disputet. Et Castro scripsit de Leg. poenal., et Driedo, in opere de
+          <lb ed="#P" n="17"/>Lib. Christ., erudite de omni genere legum disseruit, ut alios omittam. Itaque 
+          com<lb break="no" ed="#P" n="18"/>munis theologorum consensus est legem, tam secundum communem rationem suam,
+          <lb ed="#P" n="19"/>quam prout ad. omnes species suas descendit, ad sacrae doctrinae considerationem
+          <lb ed="#P" n="20"/>spectare.
+        </p>
+        <p xml:id="szdleg-a00003-d1e374">
+          <lb ed="#P" n="21"/>Ex dictis igitur constat quae sit hujus tractatus subjecta materia, et sub qua 
+          ra<lb break="no" ed="#P" n="22"/>tione circa illam versetur. Quamobrem ad hunc scopum intendentes, non erit difficile
+          <lb ed="#P" n="23"/>summam omnium quae tractanda sunt, et rationem dicendi, ac methodum servandam
+          <lb ed="#P" n="24"/>prae oculis ponere. Dicemus enim primo de lege in communi, et deinde ad singulas
+          <lb ed="#P" n="25"/>species descendemus, et in singulis ea tantum quae nostro fini accommodata fuerint
+          <lb ed="#P" n="26"/>considerabimmus, ita ut, quantum in nobis fuerit, nihil quod theologici sit instituti
+          <lb ed="#P" n="27"/>praetermittamus, nec sacrae Doctrinae terminos transilire videamur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

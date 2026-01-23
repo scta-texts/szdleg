@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 26</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 26</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="531"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-b34493"><!-- deleg-l5c26 -->
+        <head xml:id="szdleg-b34493-Hd1e101">Caput 26</head>
+        <head xml:id="szdleg-b34493-Hd1e103" type="question-title">Quibus verbis aut modis lex prohibens actum irritet illum</head>
+        <p xml:id="szdleg-b34493-d1e106">
+          <lb ed="#P" n="83"/>CAPUT XXVI.
+          <lb ed="#P" n="84"/>QUIBUS VERBIS AUT MODIS LEX PROHIBENS ACTUM
+          <lb ed="#P" n="85"/>IRRITET ILLUM.
+        </p>
+        <p xml:id="szdleg-b34493-d1e115">
+          <lb ed="#P" n="86"/>1. Priusquam ad jus positivum 
+          declaran<lb break="no" ed="#P" n="87"/>dum accedamus, oportet exponere quid sit 
+          ne<lb break="no" ed="#P" n="88"/>cessarium ex natura rei ultra prohibitionem,
+          <lb ed="#P" n="89"/>ut lex prohibens actum irritet. Cum enim 
+          dic<lb break="no" ed="#P" n="90"/>tum sit solum verbum prohibendi non 
+          suffi<lb break="no" ed="#P" n="91"/>cere , oportet exponere quae verba legis 
+          sufti<lb break="no" ed="#P" n="92"/>ciant ut per ea explicetur irritatio actus 
+          pro<lb break="no" ed="#P" n="93"/>hibiti; et non agimus de prohibitione actus
+          <lb ed="#P" n="94"/>propter defectum formae, de hac enim dicemus
+          <lb ed="#P" n="95"/>in capite sequenti, sed de irritatione actus
+          <lb ed="#P" n="96"/>simpliciter prohibiti. Ad hoc ergo 
+          explican<lb break="no" ed="#P" n="97"/>dum necesse est distinguere inter irritationem
+          <lb ed="#P" n="98"/>poenalem, et non poenalem, sed per se intentam
+          <lb ed="#P" n="99"/>propter bonum commune. Itemque in poenali
+          <lb ed="#P" n="100"/>distinguendum est inter illam quae est tantum
+          <lb ed="#P" n="101"/>ferenda, quia solum fieri praecipitur, et quae ipso
+          <lb ed="#P" n="102"/>facto imponitur. Circairritationem ergotantum
+          <lb ed="#P" n="103"/>ferendam in poenam, nihil fere novi est quod
+          <lb ed="#P" n="104"/>dicamus, quia talis irritatio nullo modo statim
+          <lb ed="#P" n="105"/>fit per legem, sed per judicem fieri debet, et
+          <lb ed="#P" n="106"/>per se loquendo solum fit a tempore sententiae
+          <lb ed="#P" n="107"/>latae; et tune non retractantur praeterita ,
+          <pb ed="#P" n="532"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nisi specialem injustitiam contineant aut 
+          de<lb break="no" ed="#P" n="2"/>lictum aliquod dignum majori poena, vel nisi
+          <lb ed="#P" n="3"/>lex addat particulam ipso facto ; quia, sine illa,
+          <lb ed="#P" n="4"/>lex non obligat ad retrotrahendam sententiam
+          <lb ed="#P" n="5"/>per quam actus irritatur. Alias lex imponens
+          <lb ed="#P" n="6"/>ipso facto irritationem poenalem nihil adderet
+          <lb ed="#P" n="7"/>ultra illam quae solum praecipit irritare actum,
+          <lb ed="#P" n="8"/>quod verisimile non est. Igitur talis lex nullam
+          <lb ed="#P" n="9"/>obligationem in conscientia inducit usque ad
+          <lb ed="#P" n="10"/>sententiam latam, et tunc eadem est ratio de
+          <lb ed="#P" n="11"/>illa quae de aliis poenalibus legibus. Quando
+          <lb ed="#P" n="12"/>vero haec poena imponitur ipso facto, duplici
+          <lb ed="#P" n="13"/>modo supra insinuato imponi potest, scilicet,
+          <lb ed="#P" n="14"/>vel ita ut requiratur sententia judicis, 
+          prius<lb break="no" ed="#P" n="15"/>quam in effectu actus sit nullus, etiam quoad
+          <lb ed="#P" n="16"/>naturalem obligationem, vel ita ut statim ante
+          <lb ed="#P" n="17"/>sententiam sit in se omnino irritus. Et quidem
+          <lb ed="#P" n="18"/>hic posterior modus frequentius traditur ab
+          <lb ed="#P" n="19"/>auctoribus ; tamen quod prior sit etiam verus
+          <lb ed="#P" n="20"/>et maxime observandus, satis videtur in 
+          supe<lb break="no" ed="#P" n="21"/>rioribus probatum, idque supponit Molin. in
+          <lb ed="#P" n="22"/>disp. 88, tract. 2 de Just., et sumitur ex 
+          regu<lb break="no" ed="#P" n="23"/>la generali satis recepta, quia omnis poena ipso
+          <lb ed="#P" n="24"/>jure imposita intelligitur regulariter media
+          <lb ed="#P" n="25"/>sententia declaratoria criminis ; quae supra
+          <lb ed="#P" n="26"/>tractata est et declarata , eamque, allegando
+          <lb ed="#P" n="27"/>multa, confirmat Fel. in cap. ult. de Rescr.,
+          <lb ed="#P" n="28"/>n. 35.
+        </p>
+        <p xml:id="szdleg-b34493-d1e230">
+          <lb ed="#P" n="29"/>9. Quomodo cognoscendus modus penalis 
+          irri<lb break="no" ed="#P" n="30"/>tationis.—Quocirca, ad cognoscendum modum
+          <lb ed="#P" n="31"/>poenalis irritationis, non oportet novas regulas
+          <lb ed="#P" n="32"/>vel judicia tradere, sed applicari debent quae
+          <lb ed="#P" n="33"/>de lege poenali diximus ; nam eadem esi ratio
+          <lb ed="#P" n="34"/>de hac poena quae de aliis. Itaque, si non 
+          ex<lb break="no" ed="#P" n="35"/>plicatur sufficienter ipso facto , vel ipso jure ,
+          <lb ed="#P" n="36"/>formaliter, aut aequivalenter, actus simpliciter
+          <lb ed="#P" n="37"/>valet et irritatio est ferenda. Si vero additur
+          <lb ed="#P" n="38"/>ipso facto , aut jure, aut aliquid aequivalens,
+          <lb ed="#P" n="39"/>ut: IVon caleat , careat robore firmitatis , cap.
+          <lb ed="#P" n="40"/>Decet , S Ordinarii, de Immunit. Ecclesiar.,
+          <lb ed="#P" n="41"/>in 6, et nihil adjungitur, irritatio quidem est
+          <lb ed="#P" n="42"/>ipso facto, non tamen obligat usque ad 
+          senten<lb break="no" ed="#P" n="43"/>tiam judicis, et ita non statim annullat actum
+          <lb ed="#P" n="44"/>quoad effectum suum nec quoad obligationem
+          <lb ed="#P" n="45"/>naturalem , donec sententia feratur et 
+          retro<lb break="no" ed="#P" n="46"/>trahatur, ut explicatum est. Ut ergo omnino
+          <lb ed="#P" n="47"/>annulletur actus, aliquid ultra adaere necesse
+          <lb ed="#P" n="48"/>est. Quid autem illud sit vix certa regula 
+          com<lb break="no" ed="#P" n="49"/>prehendi potest, maxime autem hoc significari
+          <lb ed="#P" n="50"/>solet per verba quae impediunt acquisitionem
+          <lb ed="#P" n="51"/>dominii vel obligationem ad restituendum
+          <lb ed="#P" n="52"/>statim, ut: IVon faciat suwm , teneatur statim
+          <lb ed="#P" n="53"/>restituere, nam ad hujusmodi effectus necesse
+          <lb ed="#P" n="54"/>est impedire statim valorem contractus. 
+          Idem<lb break="no" ed="#P" n="55"/>que censeo si ex parte ejus qui obligatur lex
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dicat : Ad nihil teneatur, vel quid simile ; nam
+          <lb ed="#P" n="57"/>respectu illius non est poena, sed favor, et ita
+          <lb ed="#P" n="58"/>statim potest illo frui nisi velit illi renuntiare,
+          <lb ed="#P" n="59"/>et ita tunc in rigore impeditur naturalis 
+          obli<lb break="no" ed="#P" n="60"/>gatio , et consequenter actus est statim nullus.
+          <lb ed="#P" n="61"/>Secus vero est si lex dicat : Non cogatur 
+          sol<lb break="no" ed="#P" n="62"/>vere, vel : Actor non audiatur, vel quid simile,
+          <lb ed="#P" n="63"/>quia tunc lex non statim resistit valori actus.
+        </p>
+        <p xml:id="szdleg-b34493-d1e312">
+          <lb ed="#P" n="64"/>3. Praeterea est consideranda materia ; nam
+          <lb ed="#P" n="65"/>si lex dicat irritari actum ipso facto , et actus
+          <lb ed="#P" n="66"/>sit irritabilis antecedenter seu priusqam fiat, et
+          <lb ed="#P" n="67"/>non consequenter seu postquam validus est,
+          <lb ed="#P" n="68"/>tunc lex statim irritat actum , ut videre licet
+          <lb ed="#P" n="69"/>in legibus irritantibus matrimonia vel 
+          profes<lb break="no" ed="#P" n="70"/>siones. Si vero actus non sit irritabilis, nec in
+          <lb ed="#P" n="71"/>fieri nec postquam factus est, et nihilominus
+          <lb ed="#P" n="72"/>lex dicat irritari talem actum , intelligitur
+          <lb ed="#P" n="73"/>quoad usum, vel aliquos effectus ejus, 
+          quomo<lb break="no" ed="#P" n="74"/>do dicuntur aliquando in jure canonico 
+          irrita<lb break="no" ed="#P" n="75"/>ri ordinationes contra prohibitionem Ecclesiae
+          <lb ed="#P" n="76"/>factas, ut alibi latius explicatum est. Praeterea
+          <lb ed="#P" n="77"/>solet haec irritatio actus in se et ante omnem
+          <lb ed="#P" n="78"/>sententiam explicari per effectus, ut cum de
+          <lb ed="#P" n="79"/>matrimonio dicitur posse conjuges ad alia vota
+          <lb ed="#P" n="80"/>transire, vel non obstante tali contractu 
+          pro<lb break="no" ed="#P" n="81"/>lem esse illegitimam, vel debere perpetuo 
+          se<lb break="no" ed="#P" n="82"/>parari; his enim modis solent in jure, non
+          <lb ed="#P" n="83"/>solum canonico, sed etiam civili explicari 
+          im<lb break="no" ed="#P" n="84"/>pedimenta irritantia matrimonium, ut patet ex
+          <lb ed="#P" n="85"/>c. Super hoc, De eo qui duxit, etc., cum alis
+          <lb ed="#P" n="86"/>ejusdem tituli, et similibus.
+        </p>
+        <p xml:id="szdleg-b34493-d1e364">
+          <lb ed="#P" n="87"/>4. Irritatio non panalis quomodo inducitur.
+          <lb ed="#P" n="88"/>—De irritatione autem non poenali dicendum
+          <lb ed="#P" n="89"/>est, induci efficaciter et statim, nullaque 
+          ex<lb break="no" ed="#P" n="90"/>pectata sententia vel declaratione judicis, 
+          quo<lb break="no" ed="#P" n="91"/>ties lex ipsa declarat irritationem ipso facto,
+          <lb ed="#P" n="92"/>vel quod non valeat actus ex tunc, vel quid
+          <lb ed="#P" n="93"/>simile. Hoc patet, quia haec irritatio non est
+          <lb ed="#P" n="94"/>poena, ut supra ostensum est : ergo si lex 
+          de<lb break="no" ed="#P" n="95"/>clarai irritationem ipso facto, non est quid
+          <lb ed="#P" n="96"/>amplius spectetur. Item lex directiva statim
+          <lb ed="#P" n="97"/>obligat in conscientia absque interventu 
+          alte<lb break="no" ed="#P" n="98"/>rius praecepti judicis , vel simile ; sed talis lex
+          <lb ed="#P" n="99"/>etiam ut irritans est directiva, et per se 
+          neces<lb break="no" ed="#P" n="100"/>saria ad commune bonum : ergo. Tandem
+          <lb ed="#P" n="101"/>posset id confirmari inductione legum 
+          irritan<lb break="no" ed="#P" n="102"/>tuum matrimonia, professiones, etc. Sed quia
+          <lb ed="#P" n="103"/>res videtur esse certa, et extra controversiam,
+          <lb ed="#P" n="104"/>non immoror. Quae autem verba ad hoc 
+          sufti<lb break="no" ed="#P" n="105"/>ciant, satis intelligi potest ex proxime dictis et
+          <lb ed="#P" n="106"/>supra de lege poenali. Et videri potest late Fel.
+          <lb ed="#P" n="107"/>qui alia multa refert in c. ult. de Rescr., n. 23
+          <lb ed="#P" n="108"/>et sequentib. ; Tiraquel. in lib. ult. Connub.;
+          <lb ed="#P" n="109"/>Gloss. 4, a princ.; Covar., in cap. Quamvis
+          <lb ed="#P" n="110"/>pactum , 9 p., S 4. Certum autem in generali
+          <pb ed="#P" n="533"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est verba prohibentia non sufficere, ut saeepe
+          <lb ed="#P" n="2"/>dictum est, sed necessarium esse ut vel per
+          <lb ed="#P" n="3"/>expressa verba, vel per effectus, vel per ipsam
+          <lb ed="#P" n="4"/>rationem legis, sufficienter declaretur. Et ita
+          <lb ed="#P" n="5"/>cessant instantise quae in principio c. 25 
+          asse<lb break="no" ed="#P" n="6"/>rebantur de matrimonio et professione. Nam
+          <lb ed="#P" n="7"/>potius in his maxime necessaria est declaratio
+          <lb ed="#P" n="8"/>irritationis propter materiae gravitatem et 
+          pe<lb break="no" ed="#P" n="9"/>riculum,ut bene tractat Sanci.,1. 7 de Matrim.,
+          <lb ed="#P" n="10"/>disp. 2. Verum tamen est antiqua decreta saepe
+          <lb ed="#P" n="11"/>hoc explicare per effectus irritationis , ut sunt
+          <lb ed="#P" n="12"/>perpetua separatio, illicitus concubitus, et 
+          si<lb break="no" ed="#P" n="13"/>miles , de quibus in suis materiis dicendum
+          <lb ed="#P" n="14"/>est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

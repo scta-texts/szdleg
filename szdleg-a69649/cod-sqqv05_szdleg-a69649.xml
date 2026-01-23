@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 26</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 26</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="274"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a69649"><!-- deleg-l3c26 -->
+        <head xml:id="szdleg-a69649-Hd1e101">Caput 26</head>
+        <head xml:id="szdleg-a69649-Hd1e103" type="question-title">An ex verbis legis colligatur obligatio ad mortale, et quae verba ad hoc sufficiant</head>
+        <p xml:id="szdleg-a69649-d1e106">
+          <lb ed="#P" n="95"/>CAPUT XXVI.
+          <lb ed="#P" n="96"/>AN EX VERBIS LEGIS COLLIGATUR OBLIGATIO AD
+          <lb ed="#P" n="97"/>MORTALE, ET QUAE VERBA AD HOC SUFFICIANT.
+        </p>
+        <p xml:id="szdleg-a69649-d1e115">
+          <lb ed="#P" n="98"/>1. Supposita doctrina capitis praecedentis,
+          <lb ed="#P" n="99"/>clarum est nulla verba posse sufficere ad hunc
+          <lb ed="#P" n="100"/>effectum, nisi supponatur materia capax ; 
+          ni<lb break="no" ed="#P" n="101"/>hilominus tamen verba ipsa , si ex parte sua
+          <lb ed="#P" n="102"/>sufficienter proponant talem obligationem ,
+          <lb ed="#P" n="103"/>etiam declarant materiam esse gravem, et illis
+          <lb ed="#P" n="104"/>standum est, ut dixi, si aliud manifeste non
+          <lb ed="#P" n="105"/>constet ; et ideo inquirimus an ex verbis legis
+          <lb ed="#P" n="106"/>possit hoc interdum colligi. Potest autem lex
+          <lb ed="#P" n="107"/>declarare obligationem suam , aut oratione
+          <pb ed="#P" n="275"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>aliqua complexa, aut verbo simplici 
+          praeci<lb break="no" ed="#P" n="2"/>piendi. De utroque modo breviter dicemus.
+        </p>
+        <p xml:id="szdleg-a69649-d1e148">
+          <lb ed="#P" n="3"/>2. Circa primum, clarum est posse 
+          legisla<lb break="no" ed="#P" n="4"/>tores humanos explicare in sua lege se velle
+          <lb ed="#P" n="5"/>obligare sub reatu poenae aeternae, ut fit 
+          inter<lb break="no" ed="#P" n="6"/>dum in ecclesiasticis legibus, ut infra 
+          videbi<lb break="no" ed="#P" n="7"/>mus; in civilibus autem hoc non est in usu,
+          <lb ed="#P" n="8"/>quia non spectat ad temporales principes 
+          dis<lb break="no" ed="#P" n="9"/>cernere inter peccatum mortale et veniale;
+          <lb ed="#P" n="10"/>junde ad summum solent explicare se velle
+          <lb ed="#P" n="11"/>obligare quantum possunt, vel interdum etiam
+          <lb ed="#P" n="12"/>declarant christiani principes se velle obligare
+          <lb ed="#P" n="13"/>in conscientia. Haec tamen et similia verba
+          <lb ed="#P" n="14"/>generalia sunt, et ex parte sua non declarant
+          <lb ed="#P" n="15"/>obligationem esse gravem absolute, sed solum
+          <lb ed="#P" n="16"/>quasi sub conditione , si materia sit capax,
+          <lb ed="#P" n="17"/>ideoque modus et gravitas obligationis ex 
+          qua<lb break="no" ed="#P" n="18"/>litate materiae determinari debet. Solent 
+          au<lb break="no" ed="#P" n="19"/>tem in legibus humanis addi comminationes
+          <lb ed="#P" n="20"/>poenarum , quae, si spirituales sint, indicare
+          <lb ed="#P" n="21"/>solent modum obligationis legis in conscientia,
+          <lb ed="#P" n="22"/>sed illae sunt propriae ecclesiasticarum legum,
+          <lb ed="#P" n="23"/>de quibus libro sequenti dicemus. Aliae sunt
+          <lb ed="#P" n="24"/>temporales , vel corporales poenae, de quibus
+          <lb ed="#P" n="25"/>hic dicendum est, quia in quibuscunque 
+          legi<lb break="no" ed="#P" n="26"/>bus humanis addi possunt, praesertim vero in
+          <lb ed="#P" n="27"/>civilibus.
+        </p>
+        <p xml:id="szdleg-a69649-d1e206">
+          <lb ed="#P" n="28"/>3. Proponitur sententia Navarri, et 
+          rejici<lb break="no" ed="#P" n="29"/>tur.—Multi ergo censent hujus poenae 
+          adjectio<lb break="no" ed="#P" n="30"/>nem non solum non esse signum gravis 
+          obli<lb break="no" ed="#P" n="31"/>gationis legis, verum potius esse signumlegem
+          <lb ed="#P" n="32"/>non obligare in foro conscientiae, sed tantum
+          <lb ed="#P" n="33"/>in foro externo ad talem poenam. Ita sentit
+          <lb ed="#P" n="34"/>Navar. dicto c. 23, n. 55, cum aliis. Ego vero
+          <lb ed="#P" n="35"/>cum communi sententia, quam infra tractabo,
+          <lb ed="#P" n="36"/>suppono adjectionem poenae etiam temporalis
+          <lb ed="#P" n="37"/>vel corporalis non esse signum legis pure
+          <lb ed="#P" n="38"/>poenalis, nisi in ipsamet lege sufficienter 
+          ex<lb break="no" ed="#P" n="39"/>plicetur, vel aliunde satis constet, quia, non
+          <lb ed="#P" n="40"/>obstante transgressione legis in conscientia et
+          <lb ed="#P" n="41"/>poena illi respondente apud Deum, juste 
+          legis<lb break="no" ed="#P" n="42"/>lator humanus adjicit poenam per homines 
+          in<lb break="no" ed="#P" n="43"/>fligendam. Et ideo si lex absolute praecipiat,
+          <lb ed="#P" n="44"/>licet adjiciat poenam temporalem, nihilominus
+          <lb ed="#P" n="45"/>in conscientia obligat.
+        </p>
+        <p xml:id="szdleg-a69649-d1e248">
+          <lb ed="#P" n="46"/>4. Conclusio. — Hoc ergo supposito, 
+          dicen<lb break="no" ed="#P" n="47"/>dum est gravitatem poenae per se loquendo
+          <lb ed="#P" n="48"/>magnum signum esse gravitatis materiae de
+          <lb ed="#P" n="49"/>qua lex fertur, et gravis obligationis ejus. 
+          Ra<lb break="no" ed="#P" n="50"/>itio est, quia gravis poena non imponitur 
+          pru<lb break="no" ed="#P" n="51"/>denter nisi i pro re gravi : praesumitur autem
+          <lb ed="#P" n="52"/>legislator prudenter adjicere poenam; ergo.
+          <lb ed="#P" n="53"/>Unde recte docuit Scot. in 4 d. 1, q. 6, prope
+          <lb ed="#P" n="54"/>finem, quoties lex vetus comminabatur illis
+          <lb ed="#P" n="55"/>verbis: Peribit anima illa de populo suo, id
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>est, quoties poonam mortis imponebat 
+          trans<lb break="no" ed="#P" n="57"/>gressoribus alicujus legis, materiam illius 
+          le<lb break="no" ed="#P" n="58"/>gis fuisse gravem, et de se sufficientem ad
+          <lb ed="#P" n="59"/>peccatum mortale. Cui consonat sententia 
+          Au<lb break="no" ed="#P" n="60"/>gustini l. 2 de Bapt., c. 6: Afferamus (inquit)
+          <lb ed="#P" n="61"/>divinam stateram de Scripturis sanclis, et in
+          <lb ed="#P" n="62"/>illa quid. sit gravius appendumus : et infra:
+          <lb ed="#P" n="63"/>Tempore illo, quo Dominus priora delicta 
+          re<lb break="no" ed="#P" n="64"/>centibus penarwn exemplis cavenda monstravit,
+          <lb ed="#P" n="65"/>et idolum fabricatum, atque adoratum. est, et
+          <lb ed="#P" n="66"/>propheticus liber ira regis contemptoris 
+          incen<lb break="no" ed="#P" n="67"/>sus, et schisma tentatum : idololatria gladio 
+          pu<lb break="no" ed="#P" n="68"/>nita est, emustio libri, bellica cede, et peregrina
+          <lb ed="#P" n="69"/>captivitate, schisma hiatu terre, sepultis 
+          auc<lb break="no" ed="#P" n="70"/>toribus vivis et ceeteris ceelesti igne consumptis.
+          <lb ed="#P" n="71"/>Quis jam dubitaverit hoc esse sceleratius 
+          com<lb break="no" ed="#P" n="72"/>missum, quod est gravius vindicatum. In 
+          sta<lb break="no" ed="#P" n="73"/>tera ergo divina colligit Augustinus 
+          gravita<lb break="no" ed="#P" n="74"/>tem delicti ex gravitate poena, non tantum
+          <lb ed="#P" n="75"/>vitae futurae, sed etiam praesentis; ergo etiam
+          <lb ed="#P" n="76"/>in statera legis humanae , quae debet esse quoad
+          <lb ed="#P" n="77"/>fieri possit, conformis rationi divinae, ex 
+          gra<lb break="no" ed="#P" n="78"/>vitate poenae recte colligitur gravitas 
+          transgres<lb break="no" ed="#P" n="79"/>sionis legis, et consequenter etiam gravitas
+          <lb ed="#P" n="80"/>materiae de se suflicientis ad mortalem culpam.
+          <lb ed="#P" n="81"/>Et, quamvis non semper gravior culpa apud
+          <lb ed="#P" n="82"/>Deum puniatur graviori poena hujus vite,
+          <lb ed="#P" n="83"/>maxime per judices humanos, nihilominus,
+          <lb ed="#P" n="84"/>quando lex civilis imponit graviorem poenam,
+          <lb ed="#P" n="85"/>signum est materiam talis legis humanae et 
+          cus<lb break="no" ed="#P" n="86"/>todiam ejus esse magis necessariam ad finem
+          <lb ed="#P" n="87"/>legis et potestatis civilis, quam sit alia materia
+          <lb ed="#P" n="88"/>alias honestior, vel excellentior apud Deum; et
+          <lb ed="#P" n="89"/>ita in ordine ad obligationem legis uee
+          <lb ed="#P" n="90"/>semper illud est optimum signum materiae satis
+          <lb ed="#P" n="91"/>gravis, et sufficientis ad culpam mortalem,
+          <lb ed="#P" n="92"/>quando alias ex tenore legis constat non esse
+          <lb ed="#P" n="93"/>pure poenalem ; et ita docent Summistae verb.
+          <lb ed="#P" n="94"/>Pana, et Covar. in reg. Peccatum, 2 p., S5,
+          <lb ed="#P" n="95"/>n. 3, in fine; et Medin. dicta quaest. 1 de 
+          Je<lb break="no" ed="#P" n="96"/>junio; et Armil. verb. Preceptum, n. 6, et
+          <lb ed="#P" n="97"/>verb. Lex, n. 4; et Castro, l. 1 de Leg. poen.,
+          <lb ed="#P" n="98"/>cap. 5, docum. 4.
+        </p>
+        <p xml:id="szdleg-a69649-d1e368">
+          <lb ed="#P" n="99"/>5. Dubium et ratio dubitandi.—Circa 
+          secun<lb break="no" ed="#P" n="100"/>dum punctum de verbis simplicibus, dubitari
+          <lb ed="#P" n="101"/>potest an sit aliquod simplex verbum 
+          praeci<lb break="no" ed="#P" n="102"/>piendi seu ferendi legem , quo haec obligatio
+          <lb ed="#P" n="103"/>sub mortali suflicienter significetur. Et ratio
+          <lb ed="#P" n="104"/>dubitandi sumitur ex Clement. Zcivi, de
+          <lb ed="#P" n="105"/>Verb. signific., et c. Eaiit, eod. tit. in 6, ubi,
+          <lb ed="#P" n="106"/>ex hoc quod lex fertur per verbum 
+          Pracipi<lb break="no" ed="#P" n="107"/>mus vel aequivalens, colligitur obligatio legis
+          <lb ed="#P" n="108"/>sub mortali: unde multi sentiunt verbum 
+          prae<lb break="no" ed="#P" n="109"/>cipiendi vel aequivalens sufficere ad 
+          obligatio<lb break="no" ed="#P" n="110"/>nem legis sub mortali culpa. Ita Soto lib. 1de
+          <pb ed="#P" n="276"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Justit., q. 6, art. 4: et idem sentiunt Sylvest.
+          <lb ed="#P" n="2"/>verb. Preceptum, q. 2; Armil., n. 7. Ali
+          <lb ed="#P" n="3"/>vero. licet hoc admittant in legibus canonicis
+          <lb ed="#P" n="4"/>propter dicta canonica jura, non tamen in 
+          ci<lb break="no" ed="#P" n="5"/>vilibus, quia in jure civili talis declaratio non
+          <lb ed="#P" n="6"/>habetur, nec ex consuetudine constat sic esse
+          <lb ed="#P" n="7"/>verba illa intelligenda. Ita Medin. dicto c. 7
+          <lb ed="#P" n="8"/>de Jejun. ; Castro dicto libr. 1 de Lege 
+          poena<lb break="no" ed="#P" n="9"/>li, cap. 5; et idem in re sentit Navar. dicto
+          <lb ed="#P" n="10"/>cap. 23, n. 50; nam, licet prius absolute dicat
+          <lb ed="#P" n="11"/>verbum praecipiendi de se non significare satis
+          <lb ed="#P" n="12"/>praeceptum obligans sub mortali, nihilominus
+          <lb ed="#P" n="13"/>subjungit in legibus canonicis habere hanc vim
+          <lb ed="#P" n="14"/>ex usu, et ex dicta Clement. ubi oppositum
+          <lb ed="#P" n="15"/>sentit de civilibus. Alii denique existimant in
+          <lb ed="#P" n="16"/>nullis legibus, nec civilibus nec ecclesiasticis,
+          <lb ed="#P" n="17"/>ex verbo praecipiendi posse colligi talem 
+          obli<lb break="no" ed="#P" n="18"/>cationem. Ita Cajet. 2. 2, q. 186, art. 9, circa
+          <lb ed="#P" n="19"/>ad 3. Quin potius ibi generalius loqui videtur,
+          <lb ed="#P" n="20"/>et negare verbum precipimus sufficienter 
+          in<lb break="no" ed="#P" n="21"/>dicare legem obligantem quocumque modo :
+          <lb ed="#P" n="22"/>nam aliae conjecturae quas adducit ex*usu illius
+          <lb ed="#P" n="23"/>vocis in Evangelio et in regula Augustini, huc
+          <lb ed="#P" n="24"/>tendere videntur, quatenus inde elici potest
+          <lb ed="#P" n="25"/>simplices ordinationes ac regulas saepe ferri
+          <lb ed="#P" n="26"/>per verbum praecipiendi, et vocari praecepta;
+          <lb ed="#P" n="27"/>sed nihilominus ejus mens solum fuit loqui de
+          <lb ed="#P" n="28"/>praecepto obligante ad mortale: postea vero,
+          <lb ed="#P" n="29"/>quasi per antonomasiam, hoc solum vocat 
+          sim<lb break="no" ed="#P" n="30"/>pliciter praeceptum, et ita negat mendacium
+          <lb ed="#P" n="31"/>simplex prohiberi praecepto, et similia. 
+          Funda<lb break="no" ed="#P" n="32"/>mentum ergo illius est, quia verbum precipio
+          <lb ed="#P" n="33"/>eeque ponitur (adde, et cum eadem 
+          proprie<lb break="no" ed="#P" n="34"/>tate) in rebus peccati venialis ac mortalis.
+        </p>
+        <p xml:id="szdleg-a69649-d1e475">
+          <lb ed="#P" n="35"/>6. Mens auctoris. — Mihi tamen dicendum
+          <lb ed="#P" n="36"/>videtur aliud esse inquirere an lex vi alicujus
+          <lb ed="#P" n="37"/>verbi in ea positi absolute et simpliciter 
+          obli<lb break="no" ed="#P" n="38"/>get sub mortali culpa, semper ac 
+          independen<lb break="no" ed="#P" n="39"/>ter ab omni alia conditione legis; aliud vero
+          <lb ed="#P" n="40"/>esse quaerere an ex parte verborum legis sit
+          <lb ed="#P" n="41"/>aliquod verbum simplex, quod hanc 
+          obligatio<lb break="no" ed="#P" n="42"/>nem sufficienter indicet. Loquendo priori 
+          mo<lb break="no" ed="#P" n="43"/>do, vera est sententia Cajetani, nullum scilicet
+          <lb ed="#P" n="44"/>esse tale simplex verbum, et sufficienter 
+          pro<lb break="no" ed="#P" n="45"/>batur fundamento ejus. Nam si aliquod esset
+          <lb ed="#P" n="46"/>tale verbum, maxime esset verbum 
+          pracipio<lb break="no" ed="#P" n="47"/>sed hoc non, quia etiam res levis per illud
+          <lb ed="#P" n="48"/>verbum propriissime praecipitur; ergo non
+          <lb ed="#P" n="49"/>obstante illo, gravitas vel levitas obligationis
+          <lb ed="#P" n="50"/>pendet ex materia, ut ostensum est; ergo. Et
+          <lb ed="#P" n="51"/>confirmatur a fortiori : nam etiam verba 
+          com<lb break="no" ed="#P" n="52"/>plexa ad hoc non sufhiciunt, etiamsi dicatur
+          <lb ed="#P" n="53"/>sub interminatione aeternae poenae, etc., nisi
+          <lb ed="#P" n="54"/>supponatur capacitas materiae, ut ostensum
+          <lb ed="#P" n="55"/>est; ergo multo minus sufficiet simplex prae-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cipiendi verbum. Quin potius in hoc potest
+          <lb ed="#P" n="57"/>constitui differentia, quia quando verba sunt
+          <lb ed="#P" n="58"/>complexa, et in illis fit illa exaggeratio, vel
+          <lb ed="#P" n="59"/>alia similis, ex illis sumitur magna probatio,
+          <lb ed="#P" n="60"/>quod materia sit gravis, nisi aliud satis clare
+          <lb ed="#P" n="61"/>constet : ex simplici autem verbo praecipiendi
+          <lb ed="#P" n="62"/>non sumitur talis probatio, nec sufficiens 
+          prae<lb break="no" ed="#P" n="63"/>sumptio, quia de se est indifferens, et aeque
+          <lb ed="#P" n="64"/>proprie ac univoce (ut sic rem explicem) cadit
+          <lb ed="#P" n="65"/>in materiam gravem et levem, quantum est
+          <lb ed="#P" n="66"/>ex vi verbi.
+        </p>
+        <p xml:id="szdleg-a69649-d1e549">
+          <lb ed="#P" n="67"/>7. De verbo simplici precipiendi.— At vero
+          <lb ed="#P" n="68"/>si in altero sensu loquamur, dicendum censeo
+          <lb ed="#P" n="69"/>simplex verbum praecipiendi, quantum est ex
+          <lb ed="#P" n="70"/>forma legis, sufficiens esse ad obligationem |
+          <lb ed="#P" n="71"/>sub mortali indicandam, si materia legis sit
+          <lb ed="#P" n="72"/>capax illius. Et in hoc sensu existimo loqui
+          <lb ed="#P" n="73"/>auctores primae sententiae. Et probatur, quia,
+          <lb ed="#P" n="74"/>eo ipso quod lex est vera lex, et non 
+          restrin<lb break="no" ed="#P" n="75"/>gitur ad pure poenalem, vel alio simili modo,
+          <lb ed="#P" n="76"/>obligat in conscientia, et quantum potest pro
+          <lb ed="#P" n="77"/>capacitate materiae; ergo obligat sub mortali,
+          <lb ed="#P" n="78"/>si materia est capax; sed ex vi verbi 
+          praeci<lb break="no" ed="#P" n="79"/>piendi constituitur praeceptum in ratione verae
+          <lb ed="#P" n="80"/>legis, quantum est ex parte formae seu 
+          verbo<lb break="no" ed="#P" n="81"/>rum, quia ex vi illius satis exprimit princeps
+          <lb ed="#P" n="82"/>suum imperium et voluntatem obligandi, nec
+          <lb ed="#P" n="83"/>extrahi potest ab hac propria significatione,
+          <lb ed="#P" n="84"/>nisi attenta aliqua consuetudine, et aliquibus
+          <lb ed="#P" n="85"/>circumstantiis id sufficienter colligatur; ergo
+          <lb ed="#P" n="86"/>ex vi talis verbi absolute propositi obligat sub
+          <lb ed="#P" n="87"/>mortali, si materia est capax. Consequentiae
+          <lb ed="#P" n="88"/>sunt clarae, et secundum antecedens ostensum
+          <lb ed="#P" n="89"/>est supra cap. 13. Primum vero antecedens
+          <lb ed="#P" n="90"/>patet, tum quia obligatio est effectus quasi
+          <lb ed="#P" n="91"/>naturalis legis; ergo eo ipso quod lex absolute
+          <lb ed="#P" n="92"/>constituta est, obligat quantum potest; tum
+          <lb ed="#P" n="93"/>etiam quia lex naturalis dictat esse obediendum
+          <lb ed="#P" n="94"/>superioribus praecipientibus : haec autem lex
+          <lb ed="#P" n="95"/>naturalis ex suo genere obligat sub mortali,
+          <lb ed="#P" n="96"/>et ideo si materia praecepti humani gravis sit,
+          <lb ed="#P" n="97"/>et humanum praeceptum absolute feratur,
+          <lb ed="#P" n="98"/>etiam obligatio illius legis naturalis est gravis,
+          <lb ed="#P" n="99"/>et ex vi illius etiam praeceptum humanum
+          <lb ed="#P" n="100"/>graviter, et sub mortali obligabit; denique
+          <lb ed="#P" n="101"/>quia alias non haberent leges civiles verba
+          <lb ed="#P" n="102"/>quibus possent gravem obligationem 
+          declara<lb break="no" ed="#P" n="103"/>re, et regulariter illam non satis declararent,
+          <lb ed="#P" n="104"/>quia non declarant expresse se praecipere sub
+          <lb ed="#P" n="105"/>mortali, vel sub interminatione, etc., nec hoc
+          <lb ed="#P" n="106"/>ad eas pertinet, ut dixi: consequens autem est
+          <lb ed="#P" n="107"/>absurdum, ut constat.
+        </p>
+        <p xml:id="szdleg-a69649-d1e640">
+          <lb ed="#P" n="108"/>8. Primwm corollarium.— Secundwm 
+          corol<lb break="no" ed="#P" n="109"/>lar um.— Tertium corollarium.—Unde colligo
+          <lb ed="#P" n="110"/>immerito secundam sententiam distinguere in
+          <pb ed="#P" n="277"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>hoc inter leges civiles et canonicas, quia 
+          dis<lb break="no" ed="#P" n="2"/>cursus factus etiam in legibus civilibus 
+          proce<lb break="no" ed="#P" n="3"/>dit : nam de illis ostensum est verbum 
+          praeci<lb break="no" ed="#P" n="4"/>piendi absolute prolatum esse sufficiens ad
+          <lb ed="#P" n="5"/>constituendam formam legis. Item de eisdem
+          <lb ed="#P" n="6"/>ostensum est obligare in conscientia quantum
+          <lb ed="#P" n="7"/>ad id quod absolute praecipiunt. Denique de
+          <lb ed="#P" n="8"/>eisdem etiam verum est quod obligant quasi
+          <lb ed="#P" n="9"/>naturaliter, et quantum possunt juxta 
+          capaci<lb break="no" ed="#P" n="10"/>tatem materiae; ergo in eis verbum 
+          praecipien<lb break="no" ed="#P" n="11"/>di absolute positum de se indicat obligationem
+          <lb ed="#P" n="12"/>Sub mortali, si materia est capax illius. 
+          Se<lb break="no" ed="#P" n="13"/>cundo, infero idem dicendum esse de verbis
+          <lb ed="#P" n="14"/>prohibendi, servata proportione, et de 
+          omni<lb break="no" ed="#P" n="15"/>bus aequivalentibus, juxta doctrinam supra 
+          da<lb break="no" ed="#P" n="16"/>tam de forma legis humanae seu civilis, quae
+          <lb ed="#P" n="17"/>hic applicanda est. Nam primo et praecipue
+          <lb ed="#P" n="18"/>spectandum est quae verba constituant legem
+          <lb ed="#P" n="19"/>in esse legis : nam illamet constituunt illam
+          <lb ed="#P" n="20"/>in ratione praecepti habentis vim obligandi in
+          <lb ed="#P" n="21"/>conscientia, et consequenter ex parte 
+          verbo<lb break="no" ed="#P" n="22"/>rum talis legis, si absoluta sint et non 
+          limi<lb break="no" ed="#P" n="23"/>tentur, obligabit talis lex quantum potest juxta
+          <lb ed="#P" n="24"/>materie capacitatem, et consequenter etiam
+          <lb ed="#P" n="25"/>sub mortali si materia sit capax. Tertio, 
+          infer<lb break="no" ed="#P" n="26"/>tur quomodo intelligenda sint dicta jura in
+          <lb ed="#P" n="27"/>Clement. Exivit et c. Exiit, cum dicunt 
+          ver<lb break="no" ed="#P" n="28"/>ba praeceptiva in regula sancti Francisci 
+          indi<lb break="no" ed="#P" n="29"/>care obligationem sub mortali : intelligunt
+          <lb ed="#P" n="30"/>enim hoc quantum est ex se, seu supposita
+          <lb ed="#P" n="31"/>materiae capacitate, quam ibi Pontifices 
+          sup<lb break="no" ed="#P" n="32"/>ponere visi sunt. Et ita regula qua ibi utuntur
+          <lb ed="#P" n="33"/>Pontifices generalis est ad alias leges, non
+          <lb ed="#P" n="34"/>tantum canonicas, sed etiam civiles : non enim
+          <lb ed="#P" n="35"/>utuntur illa regula propter specialem 
+          ratio<lb break="no" ed="#P" n="36"/>nem quae in regula sancti Francisci 
+          invenia<lb break="no" ed="#P" n="37"/>tur, nec propter aliquam quae reperiatur in
+          <lb ed="#P" n="38"/>legibus Ecclesiasticis, sed propter proprietatem
+          <lb ed="#P" n="39"/>verborum praecipiendi. Neque enim illa 
+          de<lb break="no" ed="#P" n="40"/>creta constitutiva sunt novi juris, sed 
+          declara<lb break="no" ed="#P" n="41"/>tiva talis regulae ex jure antiquo, naturali 
+          po<lb break="no" ed="#P" n="42"/>tius, quam positivo canonico. Nunquam enim
+          <lb ed="#P" n="43"/>Pontifices addiderunt specialem vim verbis
+          <lb ed="#P" n="44"/>illis pro legibus canonicis, sed ex primaeva et
+          <lb ed="#P" n="45"/>propria significatione talium verborum, et ex
+          <lb ed="#P" n="46"/>communi usu illam supponunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

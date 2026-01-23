@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 34</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 34</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="557"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-b41096"><!-- deleg-l5c34 -->
+        <head xml:id="szdleg-b41096-Hd1e101">Caput 34</head>
+        <head xml:id="szdleg-b41096-Hd1e103" type="question-title">Utrum leges punientes aliquos actus illos comprehendant qui invalide fiunt</head>
+        <p xml:id="szdleg-b41096-d1e106">
+          <lb ed="#P" n="72"/>CAPUT XXXIV.
+          <lb ed="#P" n="73"/>UTRUM LEGES PUNIENTES ALIQUOS ACTUS ILLOS
+          <lb ed="#P" n="74"/>COMPREHENDANT QUI INVALIDE FIUNT.
+        </p>
+        <p xml:id="szdleg-b41096-d1e115">
+          <lb ed="#P" n="75"/>1. Haec quaestio legibus poenalibus et 
+          irri<lb break="no" ed="#P" n="76"/>tantibus communis esse potest, et ideo librum
+          <lb ed="#P" n="77"/>hunc, in quo de utrisque disputavimus, in illius
+          <lb ed="#P" n="78"/>investigatione et resolutione convenienter 
+          ab<lb break="no" ed="#P" n="79"/>solvemus. Contingit ergo legem poenalem fieri
+          <lb ed="#P" n="80"/>contra eum qui tale sacramentum confert, vel
+          <lb ed="#P" n="81"/>qui matrimonium sic contrahit, vel qui 
+          testa<lb break="no" ed="#P" n="82"/>mentum vel alium similem actum facit, quem
+          <lb ed="#P" n="83"/>postea quispiam exterius facit cum aliquo 
+          ta<lb break="no" ed="#P" n="84"/>men impedimento actum irritante. Dubium
+          <lb ed="#P" n="85"/>ergo est an sic faciens actum prohibitum sub
+          <lb ed="#P" n="86"/>tali poena, poenam incurrat. HRatio dubitandi
+          <lb ed="#P" n="87"/>est, quia si actus est nuilus, non nisi aequivoce
+          <lb ed="#P" n="88"/>talis actus nominatur: Baptismus enim nullus,
+          <lb ed="#P" n="89"/>non est Daptismus, sed falsa effigies Baptismi;
+          <lb ed="#P" n="90"/>et testamentum solemnitate substantiali carens
+          <lb ed="#P" n="91"/>non est testamentum ; at vero lex poenalis non
+          <lb ed="#P" n="92"/>punit actum apparentem, sed verum : ergo
+          <lb ed="#P" n="93"/>non comprehendit talem actum. Confirmatur
+          <lb ed="#P" n="94"/>primo, quia verba legis poenalis stricte et in
+          <lb ed="#P" n="95"/>rigorosa proprietate accipienda sunt : ergo non
+          <lb ed="#P" n="96"/>sunt extendenda ad actum fictum, sed ad verum
+          <lb ed="#P" n="97"/>restringenda. Confirmatur secundo inductione:
+          <lb ed="#P" n="98"/>nam qui exterius negat fidem timore poenarum,
+          <lb ed="#P" n="99"/>animo illam retinens, non incurrit poenas 
+          hae<lb break="no" ed="#P" n="100"/>reticorum, quia licet appareat haereticus, 
+          re<lb break="no" ed="#P" n="101"/>vera non est. Item qui percutit alium 
+          lethali<lb break="no" ed="#P" n="102"/>ter, si cum effectu alter non moriatur, etiam
+          <lb ed="#P" n="103"/>per miraculum, non incurrit poenas homicidii,
+          <lb ed="#P" n="104"/>ut irregularitatem, etc., solum quia ille actus
+          <lb ed="#P" n="105"/>non pervenit ad effectum; ergo idem erit in
+          <lb ed="#P" n="106"/>omni actu qui propter nullitatem non inducit
+          <lb ed="#P" n="107"/>effectum. Item tabellio inducens falsitatem in
+          <pb ed="#P" n="558"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>aliquo instrumento publico, si contingat illud
+          <lb ed="#P" n="2"/>instrumentum alias esse invalidum et nullum,
+          <lb ed="#P" n="3"/>non incurrit poenas falsarii, lib. 1 cod. de 
+          Se<lb break="no" ed="#P" n="4"/>pulchr. violat., in fine.
+        </p>
+        <p xml:id="szdleg-b41096-d1e202">
+          <lb ed="#P" n="5"/>2. In contrarium vero est, quia licet actus
+          <lb ed="#P" n="6"/>sit nullus quoad effectum moralem, 
+          nihilomi<lb break="no" ed="#P" n="7"/>nus est verus actus realis exterius factus in
+          <lb ed="#P" n="8"/>tali materia contra prohibitionem legis ; ergo
+          <lb ed="#P" n="9"/>non minus propter illum incurritur poeena legis
+          <lb ed="#P" n="10"/>quam si esset validus. Antecedens constat in
+          <lb ed="#P" n="11"/>exemplis adductis ; nam qui facit scripturam
+          <lb ed="#P" n="12"/>falsam revera facit illam exterius , et in ea 
+          po<lb break="no" ed="#P" n="13"/>nit falsitatem : quod autem illa scriptura 
+          pos<lb break="no" ed="#P" n="14"/>tea valeat vel non valeat, est per accidens
+          <lb ed="#P" n="15"/>quoad animum transgrediendi legem. Idem
+          <lb ed="#P" n="16"/>est in matrimonio clandestine contracto si 
+          con<lb break="no" ed="#P" n="17"/>tingat esse inter affines, vel quid simile; et
+          <lb ed="#P" n="18"/>ratio est, quia lex de se prohibet illum actum
+          <lb ed="#P" n="19"/>externum ut procedentem a tali animo agendi
+          <lb ed="#P" n="20"/>contra legem, et hoc totum ibi invenitur;
+          <lb ed="#P" n="21"/>ergo poena legis etiam comprehendit sic 
+          ope<lb break="no" ed="#P" n="22"/>rantem. Et confirmatur , quia actus ille sic
+          <lb ed="#P" n="23"/>factus est dignus tali poena, quia est pravus,
+          <lb ed="#P" n="24"/>et quantum in se est repugnans intentioni 
+          le<lb break="no" ed="#P" n="25"/>gis ; ergo. Confirmatur tandem, quia alias per
+          <lb ed="#P" n="26"/>actum nullum nunquam incurretur poena 
+          le<lb break="no" ed="#P" n="27"/>gis, quia non est major ratio de uno quam de
+          <lb ed="#P" n="28"/>alio , et si priores rationes efficaces sunt, in
+          <lb ed="#P" n="29"/>omnibus procedunt ; consequens autem est
+          <lb ed="#P" n="30"/>falsum, alias excommunicatus absolvens 
+          sa<lb break="no" ed="#P" n="31"/>cramentaliter non fieret irregularis, quia 
+          abso<lb break="no" ed="#P" n="32"/>lutio quam praebet est nulla, idemque esset de
+          <lb ed="#P" n="33"/>rebaptizante scienter , quia etiam secundus
+          <lb ed="#P" n="34"/>baptismus est nullus, et sic de aliis.
+        </p>
+        <p xml:id="szdleg-b41096-d1e271">
+          <lb ed="#P" n="35"/>3. Primum punctum certum. — In hac re
+          <lb ed="#P" n="36"/>nonnulla sunt certa ; unum est actum 
+          intenta<lb break="no" ed="#P" n="37"/>tum contra legem prohibentem, etiamsi 
+          con<lb break="no" ed="#P" n="38"/>tingat nullum esse, pravum esse et dignum
+          <lb ed="#P" n="39"/>poena, atque adeo juste posse per judicem 
+          con<lb break="no" ed="#P" n="40"/>digne puniri. Hoc probant rationes secundo
+          <lb ed="#P" n="41"/>loco factae, quia ille est actus humanus et 
+          mo<lb break="no" ed="#P" n="42"/>ralis, et rationi contrarius, quia quantum est
+          <lb ed="#P" n="43"/>ex animo operantis legi contrarius est ; ergo
+          <lb ed="#P" n="44"/>est poena dignus, et consequenter etiam potest
+          <lb ed="#P" n="45"/>per judicem puniri, quia est vindex 
+          transgres<lb break="no" ed="#P" n="46"/>sorum legum, et non solum actus 
+          consumma<lb break="no" ed="#P" n="47"/>ti, sed etiam intentati contra legem digni sunt
+          <lb ed="#P" n="48"/>poena. Et in hoc omnes conveniunt : dubitant
+          <lb ed="#P" n="49"/>autem an ille actus reputandus sit 
+          consumma<lb break="no" ed="#P" n="50"/>tus vel solum intentatus , et consequenter an
+          <lb ed="#P" n="51"/>debeatur illi ordinaria poena legis vel 
+          extraor<lb break="no" ed="#P" n="52"/>dinaria, et quod ad nos magis spectat, si lex
+          <lb ed="#P" n="53"/>imponat poenam vel censuram ipso facto, an
+          <lb ed="#P" n="54"/>incurratur per talem actum.
+        </p>
+        <p xml:id="szdleg-b41096-d1e317">
+          <lb ed="#P" n="55"/>4. Regula communiter recepta. — Secundo,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>certum est aliquando per actum nullum 
+          in<lb break="no" ed="#P" n="57"/>curri pomnam legis, hoc etiam probant 
+          non<lb break="no" ed="#P" n="58"/>nulla exempla adducta in posterioribus 
+          ratio<lb break="no" ed="#P" n="59"/>nibus. Tertio vero non minus certum est non
+          <lb ed="#P" n="60"/>semper incurri hujusmodi poenam per actum
+          <lb ed="#P" n="61"/>nullum ; hoc persuadent etiam nonnulla
+          <lb ed="#P" n="62"/>exempla priori loco posita, et alia statim 
+          affe<lb break="no" ed="#P" n="63"/>remus. Difficultas ergo superest in explicando
+          <lb ed="#P" n="64"/>quando actus nullus sufficiat ad poenam legis,
+          <lb ed="#P" n="65"/>quando vero non sufficiat , et quae regula in
+          <lb ed="#P" n="66"/>hoc possit observari.
+        </p>
+        <p xml:id="szdleg-b41096-d1e348">
+          <lb ed="#P" n="67"/>5. In quo puncio regula communiter 
+          re<lb break="no" ed="#P" n="68"/>cepta est inspiciendam esse primariam 
+          inten<lb break="no" ed="#P" n="69"/>tonem legis ; nam si principaliter intendat
+          <lb ed="#P" n="70"/>punire purum factum externum, et pravum
+          <lb ed="#P" n="71"/>animum facientis, non respiciendo ad juris 
+          ef<lb break="no" ed="#P" n="72"/>fectum , tunc per actum nullum incurritur
+          <lb ed="#P" n="73"/>poena legis, juxta l. Quid ergo, S Cum autem,
+          <lb ed="#P" n="74"/>De his qui notantur infamia, ubi Gloss., verb.
+          <lb ed="#P" n="75"/>Cum ea, et alii id notant. Si vero lex 
+          principa<lb break="no" ed="#P" n="76"/>liter respicit eftectum et propter illum punit
+          <lb ed="#P" n="77"/>actum , tunc non secuto effectu cessabit poena
+          <lb ed="#P" n="78"/>legis , et consequenter non incurretur per 
+          ac<lb break="no" ed="#P" n="79"/>tum nullum, quia per illum non inducitur 
+          ef<lb break="no" ed="#P" n="80"/>fectus propter quem praecipue ponitur poena
+          <lb ed="#P" n="81"/>legis. Hanc regulam sumo ex Bartolo in 1.
+          <lb ed="#P" n="82"/>Continuwus, S Cum quis, n.3, ff. de Verb. 
+          obh<lb break="no" ed="#P" n="83"/>gationibus. Et eam tradit Felinus in cap. Zz
+          <lb ed="#P" n="84"/>tenore, de Rescriptis, n. 9 et sequentibus, ubi
+          <lb ed="#P" n="85"/>alios allegat , et varia adducit exempla in 
+          qui<lb break="no" ed="#P" n="86"/>bus non conveniunt omnes doctores quos 
+          alle<lb break="no" ed="#P" n="87"/>gat, et plures adducit declarationes et 
+          limita<lb break="no" ed="#P" n="88"/>tiones quae ostendunt regulam esse satis 
+          ob<lb break="no" ed="#P" n="89"/>scuram. Nam, licet membra ejus veritatem
+          <lb ed="#P" n="90"/>continere videantur , quia lex operatur juxta
+          <lb ed="#P" n="91"/>praecipuam intentionem ferentis illam, 
+          nihilo<lb break="no" ed="#P" n="92"/>minus obscurum remanet quando lex intendat
+          <lb ed="#P" n="93"/>punire purum factum vel effectum, et quae 
+          re<lb break="no" ed="#P" n="94"/>gula in hoc servanda sit. Ad hoc ergo 
+          expli<lb break="no" ed="#P" n="95"/>candum breviter nonnullas assertiones seu 
+          re<lb break="no" ed="#P" n="96"/>gulas subjiciam.
+        </p>
+        <p xml:id="szdleg-b41096-d1e416">
+          <lb ed="#P" n="97"/>6. Prima conclusio. — Obviatur rutioni
+          <lb ed="#P" n="98"/>Baldi. — Dico ergo primo: quoties una et 
+          ea<lb break="no" ed="#P" n="99"/>dem lex et irritat actum et ponit poenam 
+          fa<lb break="no" ed="#P" n="100"/>cienti, talis poena per actum nullum 
+          inceurri<lb break="no" ed="#P" n="101"/>tur. Haec assertio sumitur ex Bartolo in l. Von
+          <lb ed="#P" n="102"/>studium, c. de Legibus, n. 20, et inl. Praetor
+          <lb ed="#P" n="103"/>ait, S 4, ft. de Operis novi renuntiatione, n. 2,
+          <lb ed="#P" n="104"/>et ex Felin. supra, et aliis quos refert Tiraq. de
+          <lb ed="#P" n="105"/>Utroque retract., lib. 1, S 16, n. 8. Estque 
+          sa<lb break="no" ed="#P" n="106"/>tis consentanea priori parti regulae 
+          praeceden<lb break="no" ed="#P" n="107"/>tis, quia tunc satis manifeste apparet intentio
+          <lb ed="#P" n="108"/>legis. Nam si irritando actum punit illum, 
+          sa<lb break="no" ed="#P" n="109"/>tis aperte ostendit velle punire actum, etiamsi
+          <lb ed="#P" n="110"/>non habeat juris effectum, cum ipsamet lex il-
+          <pb ed="#P" n="559"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>lum impediat. Neque contra hoc obstat ratio
+          <lb ed="#P" n="2"/>Bald. in leg. Fa quidem, c. Si mancipium,
+          <lb ed="#P" n="3"/>arguentis per actum nullum poenam non 
+          in<lb break="no" ed="#P" n="4"/>curri, quia ex nihilo nihil fit. Hoc (inquam)
+          <lb ed="#P" n="5"/>non obstat, quia actus nullus non est omnino
+          <lb ed="#P" n="6"/>nihil ; nam, licet in ratione venditionis, verbi
+          <lb ed="#P" n="7"/>gratia, sit nullus, est tamen venditio intentata
+          <lb ed="#P" n="8"/>ex pravo animo profecta, ideoque merito 
+          pu<lb break="no" ed="#P" n="9"/>niri potest, et de facto punitur per talem 
+          le<lb break="no" ed="#P" n="10"/>gem. Neque etiam erit inconveniens quod lex
+          <lb ed="#P" n="11"/>simul irritet actum et puniat, quia irritatio
+          <lb ed="#P" n="12"/>potest non esse poena, sed per se convenire,
+          <lb ed="#P" n="13"/>aut propter commune bonum, aut ad 
+          resar<lb break="no" ed="#P" n="14"/>ciendum aliquod damnum, ultra quam 
+          re<lb break="no" ed="#P" n="15"/>stitutionem est actus punibilis ; vel licet sit
+          <lb ed="#P" n="16"/>poena, potest actus esse dignus ea multiphei
+          <lb ed="#P" n="17"/>modo. Priori modo irritavit matrimonium
+          <lb ed="#P" n="18"/>clandestinum Concilium Tridentinum, et 
+          ni<lb break="no" ed="#P" n="19"/>hilominus jubet puniri sic nulliter 
+          contrahen<lb break="no" ed="#P" n="20"/>tes. Posteriori autem modo irritatur a jure
+          <lb ed="#P" n="21"/>venditio simoniaca beneficii, et nihilominus
+          <lb ed="#P" n="22"/>multiplici alia poena punitur. Et consonat
+          <lb ed="#P" n="23"/>optime lex 1, c. de Sepulchro violat., dicens
+          <lb ed="#P" n="24"/>eum qui vendit rem sacram, licet jure venditio
+          <lb ed="#P" n="25"/>non subsistat, laesae tamen religionis incidere
+          <lb ed="#P" n="26"/>in crimen. Idem confirmari potest ex leg. Si
+          <lb ed="#P" n="27"/>quis legatus, in principio, digest. ad leg. 
+          Cor<lb break="no" ed="#P" n="28"/>nel. de Falsis, et ex cap. Si religiosus, de
+          <lb ed="#P" n="29"/>Electione, in 6, et ex Clementina 1 de 
+          Consan<lb break="no" ed="#P" n="30"/>guinitate et aflfinitate.
+        </p>
+        <p xml:id="szdleg-b41096-d1e518">
+          <lb ed="#P" n="31"/>7. Objicitur lex Ea quidem. —Objici vero
+          <lb ed="#P" n="32"/>potest lex Fa quidem, c. Si mancipium ita 
+          fue<lb break="no" ed="#P" n="33"/>rit, etc., ubi dicitur quod, si quis vendidit 
+          ser<lb break="no" ed="#P" n="34"/>vum sub conditione ut non posset ei libertas
+          <lb ed="#P" n="35"/>concedi, poena adjecta non servanti 
+          conditio<lb break="no" ed="#P" n="36"/>nem, licet postea dominus manumittat, non
+          <lb ed="#P" n="37"/>tenebit factum, nec servus consequetur 
+          liber<lb break="no" ed="#P" n="38"/>tatem : prior autem venditor servi non poterit
+          <lb ed="#P" n="39"/>exigere poenam a manumittente, quia actus
+          <lb ed="#P" n="40"/>fuit frustratorius. Ibi autem fuerat posita poena
+          <lb ed="#P" n="41"/>in eodem contractu annullante 
+          manumissio<lb break="no" ed="#P" n="42"/>nem, et ita Bartolus ibi inde colligit non satis
+          <lb ed="#P" n="43"/>esse de facto contra fieri ad poenam 
+          contra<lb break="no" ed="#P" n="44"/>hendam. Respondeo ibi non esse sermonem de
+          <lb ed="#P" n="45"/>lege annullante et puniente, sed de privato
+          <lb ed="#P" n="46"/>pacto prohibente concessionem libertatis sub
+          <lb ed="#P" n="47"/>tali poena, quod pactum ex vi formae suae 
+          po<lb break="no" ed="#P" n="48"/>tius videbatur non annullare actum sed punire
+          <lb ed="#P" n="49"/>tantum, juxta dicta de modo irritandi legum
+          <lb ed="#P" n="50"/>prohibentium. Unde quia illa lex hoc non 
+          ob<lb break="no" ed="#P" n="51"/>stante declaravit manumissionem esse nullam,
+          <lb ed="#P" n="52"/>noluit poenam adjectam exigi, non quia factum
+          <lb ed="#P" n="53"/>inefficax seu frustratorium non possit puniri,
+          <lb ed="#P" n="54"/>sed quia illo modo pactum fuisset nimis 
+          rigo<lb break="no" ed="#P" n="55"/>rosum et inaequale.
+        </p>
+        <p xml:id="szdleg-b41096-d1e575">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>8. Secunda conclusio.—bico secundo: 
+          quan<lb break="no" ed="#P" n="57"/>do lex punit actum sub nomine includente
+          <lb ed="#P" n="58"/>nullitatem ex vi alicujus legis aut 
+          institutio<lb break="no" ed="#P" n="59"/>nis, tunc poena legis incurritur per actum 
+          irri<lb break="no" ed="#P" n="60"/>tum et effectu carentem. Conclusio est clara,
+          <lb ed="#P" n="61"/>et sequitur aperte ex vi prioris partis regulae
+          <lb ed="#P" n="62"/>communis in principio positae, quia tunc satis
+          <lb ed="#P" n="63"/>ostendit lex voluntatem puniendi purum 
+          fac<lb break="no" ed="#P" n="64"/>tum ex malo affectu procedentem, cum 
+          loqua<lb break="no" ed="#P" n="65"/>tur de actu qui juris effectum habere non 
+          po<lb break="no" ed="#P" n="66"/>test. Item quia alias lex illa frustratoria esset:
+          <lb ed="#P" n="67"/>nunquam enim puniri posset malefactor ex vi
+          <lb ed="#P" n="68"/>illius, quia actus de quo talis lex loquitur, ut
+          <lb ed="#P" n="69"/>supponitur, nunquam potest non esse nullus,
+          <lb ed="#P" n="70"/>vel ex se, vel ex eflicacia prioris legis ; ergo ut
+          <lb ed="#P" n="71"/>lex talis utilis sit et habere possit effectum, 
+          ne<lb break="no" ed="#P" n="72"/>cesse est ut actum nullum puniat; praeterea
+          <lb ed="#P" n="73"/>quia eadem est ratio hujus et praecedentis 
+          as<lb break="no" ed="#P" n="74"/>sertionis. Ideo enim lex irritans expresse 
+          ac<lb break="no" ed="#P" n="75"/>tum et adjiciens poenam punit actum nullum,
+          <lb ed="#P" n="76"/>quia supponit illum nullum, et nihilominus
+          <lb ed="#P" n="77"/>punit ; sed in praesenti etiam lex poenalis 
+          sup<lb break="no" ed="#P" n="78"/>ponit actum nullum et de illo loquitur: ergo
+          <lb ed="#P" n="79"/>illum punit non obstante nullitate ; nam quod
+          <lb ed="#P" n="80"/>haec nullitas supponatur ex alia lege, vel per
+          <lb ed="#P" n="81"/>eamdem fiat, nihil omnino refert. Denique 
+          de<lb break="no" ed="#P" n="82"/>claratur exemplis ; nam poena legis contra 
+          re<lb break="no" ed="#P" n="83"/>baptizantem latae sine dubio incurritur per 
+          ac<lb break="no" ed="#P" n="84"/>tum nullum, quia per rebaptizationem non
+          <lb ed="#P" n="85"/>potest fieri actus validus : similiter poena legis
+          <lb ed="#P" n="86"/>punientis secundas nuptias vivente primo 
+          con<lb break="no" ed="#P" n="87"/>juge incurritur per matrimonium nullum ex
+          <lb ed="#P" n="88"/>eodem capite, quod secundum matrimonium
+          <lb ed="#P" n="89"/>non potest esse validum durante primo; et 
+          si<lb break="no" ed="#P" n="90"/>militer poena legis punientis clericum in 
+          sa<lb break="no" ed="#P" n="91"/>cris vel religiosum professum uxorem 
+          ducen<lb break="no" ed="#P" n="92"/>tem, per matrimonium irritum incurritur,
+          <lb ed="#P" n="93"/>quia non potest aliter ab hujusmodi personis
+          <lb ed="#P" n="94"/>fieri. Idem ergo est in omnibus similibus in
+          <lb ed="#P" n="95"/>quibus eadem ratio militaverit.
+        </p>
+        <p xml:id="szdleg-b41096-d1e667">
+          <lb ed="#P" n="96"/>9. Corollarium. — Unde etiam colligo, 
+          am<lb break="no" ed="#P" n="97"/>pliando assertionem, non solum incurri tunc
+          <lb ed="#P" n="98"/>poenam per actum irritum, verum etiam non
+          <lb ed="#P" n="99"/>posse incurri per actum validum: nam si 
+          con<lb break="no" ed="#P" n="100"/>tingat actum qui putabatur nullus esse 
+          vali<lb break="no" ed="#P" n="101"/>dum, non incurretur poena legis, quod mirum
+          <lb ed="#P" n="102"/>videri potest, est tamen verum. Explicatur:
+          <lb ed="#P" n="103"/>nam si quis putans aliquem esse baptizatum
+          <lb ed="#P" n="104"/>illum iterum baptizaret animo rebaptizandi,
+          <lb ed="#P" n="105"/>et postea in re constaret illum non fuisse 
+          bap<lb break="no" ed="#P" n="106"/>tizatum, vel priorem baptismum habuisse 
+          es<lb break="no" ed="#P" n="107"/>sentialem defectum et fuisse invalidum, ille
+          <lb ed="#P" n="108"/>talis non incurreret poenam legis punientis
+          <lb ed="#P" n="109"/>rebaptizantes, quia ille non fuit rebaptizator
+          <lb ed="#P" n="110"/>vere, et in re, sed tantum putative, seu ex
+          <pb ed="#P" n="560"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>conscientia erronea; lex autem punit verum
+          <lb ed="#P" n="2"/>rebaptizantem, non putatum. Idem cum 
+          pro<lb break="no" ed="#P" n="3"/>portione est de illo qui contrahit alterum 
+          ma<lb break="no" ed="#P" n="4"/>trimonium putans esse secundum, et postea
+          <lb ed="#P" n="5"/>intelligit primum fuisse nullum; nam tunc
+          <lb ed="#P" n="6"/>non incurrit poenas. Idem dixi in materia de
+          <lb ed="#P" n="7"/>Censuris de illo qui celebrat vel solemniter
+          <lb ed="#P" n="8"/>ministrat sacramentum, putans se esse 
+          excom<lb break="no" ed="#P" n="9"/>municatum ; nam si postea intelligat priorem
+          <lb ed="#P" n="10"/>excommunicationem fuisse nullam, non est
+          <lb ed="#P" n="11"/>factus irregularis, quia haec poena non est 
+          im<lb break="no" ed="#P" n="12"/>posita excommunicato putato ministranti, sed
+          <lb ed="#P" n="13"/>vere ligato. Ita ergo est cum proportione in
+          <lb ed="#P" n="14"/>praesenti. Atque ita ampliatur etiam primum
+          <lb ed="#P" n="15"/>membrum regulae communis supra positae,
+          <lb ed="#P" n="16"/>quia hae leges de quibus tractamus non solum
+          <lb ed="#P" n="17"/>non puniunt propter effectum, sed etiam 
+          desi<lb break="no" ed="#P" n="18"/>nunt punire quando actus habebit effectum.
+          <lb ed="#P" n="19"/>Unde directe et quasi formaliter puniunt 
+          ac<lb break="no" ed="#P" n="20"/>tum quatenus nullus est, et quia fit cum illo
+          <lb ed="#P" n="21"/>defectu irritante, qui per ipsum nomen delicti
+          <lb ed="#P" n="22"/>exprimitur, scilicet, rebaptizationis, 
+          secunda<lb break="no" ed="#P" n="23"/>rum nuptiarum, et similium. Et ita facile 
+          tol<lb break="no" ed="#P" n="24"/>litur admiratio. quia hujusmodi lex intendit
+          <lb ed="#P" n="25"/>punire tale delictum verum, et non tantum
+          <lb ed="#P" n="26"/>putatum : non est autem tale delictum in re
+          <lb ed="#P" n="27"/>quando actus non est irritus, sed verus, et 
+          ha<lb break="no" ed="#P" n="28"/>bens suum effectum.
+        </p>
+        <p xml:id="szdleg-b41096-d1e767">
+          <lb ed="#P" n="29"/>10. Fit satis questiuncula. — Quaeri autem
+          <lb ed="#P" n="30"/>potest circa hanc et praecedentem assertionem
+          <lb ed="#P" n="31"/>an procedant, si actus intentatus, ex alio 
+          ca<lb break="no" ed="#P" n="32"/>pite praeter id quod lex punire intendit, nullus
+          <lb ed="#P" n="33"/>sit; verbi gratia, accipit quis secundam 
+          uxo<lb break="no" ed="#P" n="34"/>rem vivente prima, putans non intervenire ibi
+          <lb ed="#P" n="35"/>aliud impedimentum ; postea vero invenitur
+          <lb ed="#P" n="36"/>secundum matrimonium fuisse etiam nullum
+          <lb ed="#P" n="37"/>ex alio capite, verbi gratia, quia secunda uxor
+          <lb ed="#P" n="38"/>erat consanguinea, vel aflinis in gradu 
+          iri<lb break="no" ed="#P" n="39"/>tante ; incurreturne tunc poena legis punientis
+          <lb ed="#P" n="40"/>secundas nuptias ? Idem est de rebaptizante si
+          <lb ed="#P" n="41"/>in secundo baptismo fuit alius defectus. 
+          Vide<lb break="no" ed="#P" n="42"/>tur enim in his et simihbus casibus incurri
+          <lb ed="#P" n="43"/>poena, quia ibi fit actus exterior purus et ex
+          <lb ed="#P" n="44"/>pravo affectu, quem lex intendit punire: 
+          er<lb break="no" ed="#P" n="45"/>go invenitur quidquid necessarium est ad
+          <lb ed="#P" n="46"/>pomnam talis legis incurrendam. Declaratur,
+          <lb ed="#P" n="47"/>quia, si secunda nullitas non tollit primam,
+          <lb ed="#P" n="48"/>érgo neque additio novae nullitatis potest 
+          poe<lb break="no" ed="#P" n="49"/>nam prioris impedire. Nihilominus dico tunc
+          <lb ed="#P" n="50"/>non incurri poenam legis punientis actus 
+          pro<lb break="no" ed="#P" n="51"/>pter specialem nullitatem et pravitatem 
+          resul<lb break="no" ed="#P" n="52"/>tantem ex illa circumstantia quam importat
+          <lb ed="#P" n="53"/>nomen sub quo lex punit talem actum. Itaque
+          <lb ed="#P" n="54"/>lex puniens rebajtizantem intendit punire 
+          il<lb break="no" ed="#P" n="55"/>lum qui, quantum ex se, facit seu facere inten-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dit baptismum secundum validum, et ita 
+          fa<lb break="no" ed="#P" n="57"/>ceret si primum non obstaret. Idemque est
+          <lb ed="#P" n="58"/>cum proportione de secundis nuptiis. Et hac
+          <lb ed="#P" n="59"/>ratione dixi in materia de Baptismo eum qui
+          <lb ed="#P" n="60"/>exterius rebaptizat hominem baptizatum, sine
+          <lb ed="#P" n="61"/>intentione baptizandi, non incurrere poenas,
+          <lb ed="#P" n="62"/>quia revera non facit ex se propriam 
+          rebapti<lb break="no" ed="#P" n="63"/>zationem, sed fictam ; idemque est de 
+          contra<lb break="no" ed="#P" n="64"/>hente exterius cum secunda sine consensu et
+          <lb ed="#P" n="65"/>voluntate, etiam quantum ex se. Idem ergo
+          <lb ed="#P" n="66"/>erit etiamsi cum intentione idem facit, sia
+          <lb ed="#P" n="67"/>parte rei intervenit alius defectus etiam 
+          igno<lb break="no" ed="#P" n="68"/>ratus, quia tunc solum ex conscientia erronea
+          <lb ed="#P" n="69"/>intendit facere secundas nuptias ; in re autem
+          <lb ed="#P" n="70"/>ipsa, eas vere non intentat, quia intentat 
+          nup<lb break="no" ed="#P" n="71"/>tias alias nullas. Unde etiam fit ut si 
+          religio<lb break="no" ed="#P" n="72"/>sus contrahat matrimonium cum ea quam
+          <lb ed="#P" n="73"/>ignorat esse consanguineam , animo 
+          contra<lb break="no" ed="#P" n="74"/>hendi quantum ex se est, et in re illa non sit
+          <lb ed="#P" n="75"/>consanguinea, non incurrit poenas latas contra
+          <lb ed="#P" n="76"/>religiosum ducentem uxorem, sed potius 
+          in<lb break="no" ed="#P" n="77"/>curret poenam legis prohibentis matrimonium
+          <lb ed="#P" n="78"/>cum consanguinea, quatenus ignorantia talis
+          <lb ed="#P" n="79"/>impedimenti culpabilis fuit, quia matrimonium
+          <lb ed="#P" n="80"/>illud, prout intentatum a religioso, ex alio
+          <lb ed="#P" n="81"/>capite jam non erat verum, sed apparens. Et
+          <lb ed="#P" n="82"/>juxta hanc doctrinam intelligendam puto 
+          prio<lb break="no" ed="#P" n="83"/>rem partem regulae generalis supra positae,
+          <lb ed="#P" n="84"/>cum supponit tales leges punire actum purum
+          <lb ed="#P" n="85"/>cum pravo affectu: intelligi enim debet de
+          <lb ed="#P" n="86"/>puro actu alias sufficiente de se ad effectum, si
+          <lb ed="#P" n="87"/>non intervenit impedimentum, propter quod
+          <lb ed="#P" n="88"/>solum intendit talis lex punire talem actum;
+          <lb ed="#P" n="89"/>et similiter intelligi debet de pravo affectu cui
+          <lb ed="#P" n="90"/>in re subest talis actus, et non tantum in 
+          cogi<lb break="no" ed="#P" n="91"/>tatione vel erronea conscientia.
+        </p>
+        <p xml:id="szdleg-b41096-d1e908">
+          <lb ed="#P" n="92"/>11. Declaratur et confirmatur : nam si quis
+          <lb ed="#P" n="93"/>scienter rebaptizaret in aqua rosacea, sciens in
+          <lb ed="#P" n="94"/>illa non posse perfici baptismum, non 
+          incur<lb break="no" ed="#P" n="95"/>reret poenas rebaptizantis. Ergo licet ex 
+          igno<lb break="no" ed="#P" n="96"/>rantia putet sufficere, non incurret, nam 
+          con<lb break="no" ed="#P" n="97"/>scientia erronea non sufficit ad poenam 
+          huma<lb break="no" ed="#P" n="98"/>nae legis, si in re non subest actus quem lex
+          <lb ed="#P" n="99"/>punire intendit. Atque hanc doctrinam sumo
+          <lb ed="#P" n="100"/>ex jurisperitis qui dicunt notarium facientem
+          <lb ed="#P" n="101"/>instrumentum falsum non incurrere poenam
+          <lb ed="#P" n="102"/>falsarii, si instrumentum illud ex alio capite
+          <lb ed="#P" n="103"/>falsum inveniatur, sed alio modo 
+          extraordina<lb break="no" ed="#P" n="104"/>rio esse puniendum. Quia, licet lex illa puniat
+          <lb ed="#P" n="105"/>actum ratione falsitatis quae sufficit ad 
+          annul<lb break="no" ed="#P" n="106"/>landum instrumentum, non tamen punit illum
+          <lb ed="#P" n="107"/>nisi quatenus alias validus esset si falsitas non
+          <lb ed="#P" n="108"/>interveniret. Ita docuit Bald. in 1l. 1, c. de 
+          Se<lb break="no" ed="#P" n="109"/>pulchro violato, in fine, licet contrarium 
+          sen<lb break="no" ed="#P" n="110"/>tiat in dicto cap. Ex tenore, n. 9, in princip.,
+          <pb ed="#P" n="561"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>citans Bart. in l. Si quis legatus, ff. ad Leg.
+          <lb ed="#P" n="2"/>Corneliam de falsis; qui non simpliciter id 
+          af<lb break="no" ed="#P" n="3"/>firmat, sed cum variis distinctionibus, et 
+          nun<lb break="no" ed="#P" n="4"/>quam dicit illum notarium incurrere poenam
+          <lb ed="#P" n="5"/>ordinariam falsi, sed esse puniendum propter
+          <lb ed="#P" n="6"/>atrocitatem delicti : quod potest intelligi de
+          <lb ed="#P" n="7"/>poena extraordinaria, ut dixit etiam Daldus.
+          <lb ed="#P" n="8"/>Simile est quod dixit idem Bald., in l. 2,c.
+          <lb ed="#P" n="9"/>de Episcop. audien. Emphyteutam, qui 
+          incon<lb break="no" ed="#P" n="10"/>sulto domino rem vendit non cadere in 
+          com<lb break="no" ed="#P" n="11"/>missum, si venditio alias fuit nulla ex defectu
+          <lb ed="#P" n="12"/>solemnitatis, vel ex quacumque alia causa 
+          ex<lb break="no" ed="#P" n="13"/>tra illam quod inconsulto domino facta sit. Ut
+          <lb ed="#P" n="14"/>explicuit recte Tiraq. de utroque retract., l. 1,
+          <lb ed="#P" n="15"/>S 1, Gloss. 2, n. 6, cum Cardin. et multis aliis
+          <lb ed="#P" n="16"/>quos refert, et latius idem prosequitur in 
+          legi<lb break="no" ed="#P" n="17"/>bus connubial., Glos. 8, quaest. 24, a n. 205,
+          <lb ed="#P" n="18"/>ubi in n. 217 generalem constituit regulam,
+          <lb ed="#P" n="19"/>quando lex punit actum nullum, 
+          intelligen<lb break="no" ed="#P" n="20"/>dam esse de actu qui non aliunde est nullus
+          <lb ed="#P" n="21"/>nisi ex illo defectu quem lex punire 
+          inten<lb break="no" ed="#P" n="22"/>dit.
+        </p>
+        <p xml:id="szdleg-b41096-d1e1004">
+          <lb ed="#P" n="23"/>12. Tertia conclusio.— Dico tertio: quando
+          <lb ed="#P" n="24"/>lex punit actum qui tempore talis legis validus
+          <lb ed="#P" n="25"/>erat, licet male fieret, et postea fit nullus per
+          <lb ed="#P" n="26"/>legem posteriorem, poena prioris legis non 
+          ha<lb break="no" ed="#P" n="27"/>bebit locum in illo actu postea nulliter facto.
+          <lb ed="#P" n="28"/>hatio sumenda est ex secunda parte regulae
+          <lb ed="#P" n="29"/>supra positae, quia tunc prior lex poenam 
+          im<lb break="no" ed="#P" n="30"/>ponens dirigebat suam intentionem ad actum
+          <lb ed="#P" n="31"/>validum, et solum intendebat punire malitiam
+          <lb ed="#P" n="32"/>quae in aliquo modo faciendi talem actum 
+          ad<lb break="no" ed="#P" n="33"/>jungebatur; ergo postquam annullatus est 
+          ac<lb break="no" ed="#P" n="34"/>tus, deficit materia illius legis; nam postea
+          <lb ed="#P" n="35"/>actus qui exterius fit revera non est ille de quo
+          <lb ed="#P" n="36"/>lex prior loquebatur, nec malitia ejus est 
+          ea<lb break="no" ed="#P" n="37"/>dem, sed longe alia; valde enim diversum est
+          <lb ed="#P" n="38"/>actum validum inordinate facere, vel intentare
+          <lb ed="#P" n="39"/>facere actum nullum. Et licet interdum 
+          for<lb break="no" ed="#P" n="40"/>tasse hoc secundum sit gravius, tamen 
+          simpli<lb break="no" ed="#P" n="41"/>citer est diversum, et ideo ad illud non 
+          ex<lb break="no" ed="#P" n="42"/>tenditur poena prioris legis, praesertim quia,
+          <lb ed="#P" n="43"/>licet sit gravius, potest non esse ita nocivum
+          <lb ed="#P" n="44"/>nec habere illa incommodo quae prior lex 
+          con<lb break="no" ed="#P" n="45"/>siderabat. Et praeeterea ipsa irritatio est 
+          quae<lb break="no" ed="#P" n="46"/>dam incommoditas quae vicem poenae supplere
+          <lb ed="#P" n="47"/>potest. Exemplum esse potest in matrimonio
+          <lb ed="#P" n="48"/>clandestino, quod ante Concilium Tridentinum
+          <lb ed="#P" n="49"/>validum erat, licet esse prohibitum sub 
+          aliqui<lb break="no" ed="#P" n="50"/>bus poenis : nunc autem irritum est ex vi 
+          de<lb break="no" ed="#P" n="51"/>creti dicti Concilii, et ideo illud invalide 
+          con<lb break="no" ed="#P" n="52"/>trahentes non incurrunt antiquas poenas, ut
+          <lb ed="#P" n="53"/>aliquid moderni probabiliter opinantur, et
+          <lb ed="#P" n="54"/>late tractat Sancius, lib. 3 de Matrim., disp. 2,
+          <lb ed="#P" n="55"/>quibus favet Concilium Tridentinum, quatenus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>praecipit ut clandestine et irrite contrahentes
+          <lb ed="#P" n="57"/>arbitrio Ordinariorum puniantur: sentire enim
+          <lb ed="#P" n="58"/>in hoc videtur illos non incurrere alias poenas
+          <lb ed="#P" n="59"/>per leges vel constitutiones praescriptas. Est
+          <lb ed="#P" n="60"/>autem hoc valde probabile loquendo de poenis,
+          <lb ed="#P" n="61"/>quatenus per leges antiquiores Concilio erant
+          <lb ed="#P" n="62"/>statutae ; nam si aliquae sunt postea per 
+          novio<lb break="no" ed="#P" n="63"/>res leges statutae vel renovatae, in eis non 
+          pro<lb break="no" ed="#P" n="64"/>cederet in rigore haec conclusio, sed ex aliis
+          <lb ed="#P" n="65"/>principiis de illis erit judicandum.
+        </p>
+        <p xml:id="szdleg-b41096-d1e1102">
+          <lb ed="#P" n="66"/>13. Quarta conclusio.—bico quarto : 
+          quan<lb break="no" ed="#P" n="67"/>do lex prohibet actum quod valide fieri potest
+          <lb ed="#P" n="68"/>non obstante prohibitione, et adjicit poenam,
+          <lb ed="#P" n="69"/>illa non incurritur regulariter nisi per actum
+          <lb ed="#P" n="70"/>validum ; ratio est, quia tunc lex principaliter
+          <lb ed="#P" n="71"/>respicit actum secundum substantiam suam et
+          <lb ed="#P" n="72"/>effectum, et non tantum secundum externam
+          <lb ed="#P" n="73"/>apparentiam; ut, verbi gratia, si lex prohibet
+          <lb ed="#P" n="74"/>venditionem, principaliter respicit ad 
+          aliena<lb break="no" ed="#P" n="75"/>tionem, atque adeo ad venditionem validam;
+          <lb ed="#P" n="76"/>ergo illam etiam directe punit; ergo per 
+          ven<lb break="no" ed="#P" n="77"/>ditionem invalidam non incurritur illa poena.
+          <lb ed="#P" n="78"/>Idem ergo intelligendum est in similibus, quod
+          <lb ed="#P" n="79"/>etiam confirmat vulgaris regula quod verba
+          <lb ed="#P" n="80"/>cum effectu sunt intelligenda, ut dicitur in
+          <lb ed="#P" n="81"/>cap. Aelatun, de Clericis non residentibus,
+          <lb ed="#P" n="82"/>ubi Glossa multa refert, et habetur in l. 1, ff.
+          <lb ed="#P" n="83"/>Quod quisque juris, ubi etiam dicitur non 
+          no<lb break="no" ed="#P" n="84"/>cere conatum si nullum habuit effectum, 
+          uti<lb break="no" ed="#P" n="85"/>que quando verba legis de se actum perfectum
+          <lb ed="#P" n="86"/>significant. Et plura refert Tiraq. lib. 1 de 
+          Re<lb break="no" ed="#P" n="87"/>tract., §  1, Glos. 2, n. 5et 6, et Rebuff. in l.
+          <lb ed="#P" n="88"/>Boves, de Verborum significatione, limit. 29 et
+          <lb ed="#P" n="89"/>3. Juvat etiam generalis regula, nomen 
+          sim<lb break="no" ed="#P" n="90"/>pliciter dictum significare veram rem et non
+          <lb ed="#P" n="91"/>fictam, et consequenter si actum significet,
+          <lb ed="#P" n="92"/>significare actum validum, non nullum. Ut 
+          no<lb break="no" ed="#P" n="93"/>men sententie significat sententiam validam,
+          <lb ed="#P" n="94"/>cap. ult., et Clement. ult. de Re judic., et 
+          con<lb break="no" ed="#P" n="95"/>demnationis verbum, illam significat quae rata
+          <lb ed="#P" n="96"/>est, l. 4, condemnatun, ff. de Re judicata; 
+          no<lb break="no" ed="#P" n="97"/>men echaredatio illam indicat quae recte fit,
+          <lb ed="#P" n="98"/>l. Non putavit, S Non quevis, tt. de Bonorum
+          <lb ed="#P" n="99"/>possessione contra tabulas. Et ratio est, quia
+          <lb ed="#P" n="100"/>actus validus et nullus non nisi analogice tales
+          <lb ed="#P" n="101"/>sunt, et ideo simpliciter vox sumpta stat pro
+          <lb ed="#P" n="102"/>valido, de quo vide Rebuf. in l. Boves, 
+          limi<lb break="no" ed="#P" n="103"/>tat. 1, n. 9; et Rip. in dict. S Condemuatum,
+          <lb ed="#P" n="104"/>d. n. 4. Et augetur ratio; nam maxime hoc
+          <lb ed="#P" n="105"/>debet procedere in poenis, quia restringendae
+          <lb ed="#P" n="106"/>sunt et ad verborum proprietatem et rigorem
+          <lb ed="#P" n="107"/>coarctandae.
+        </p>
+        <p xml:id="szdleg-b41096-d1e1196">
+          <lb ed="#P" n="108"/>14. Obviatur objectioni.—Sed objici potest:
+          <lb ed="#P" n="109"/>nam sequitur sacerdotem excommunicatum ac
+          <lb ed="#P" n="110"/>denuntiatum ministrantem alicui sacramen-
+          <pb ed="#P" n="562"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tum poenitentiae non incurrere irregularitatem;
+          <lb ed="#P" n="2"/>consequens est falsum; ergo. Sequela patet,
+          <lb ed="#P" n="3"/>quia illud sacramentum est nullum ex defectu
+          <lb ed="#P" n="4"/>jurisdictionis ; ergo per illum actum non 
+          in<lb break="no" ed="#P" n="5"/>curritur irregularitas, quae est poena sacerdotis
+          <lb ed="#P" n="6"/>excommunicati ministrantis sacramenta. 
+          Pro<lb break="no" ed="#P" n="7"/>pter hanc et similes exceptiones dixi in 
+          asser<lb break="no" ed="#P" n="8"/>tione accipiendam esse regulariter, non 
+          infal<lb break="no" ed="#P" n="9"/>libiliter. Illum ergo casum de sacerdote 
+          ex<lb break="no" ed="#P" n="10"/>communicato absolute tractavi in tomo 5,
+          <lb ed="#P" n="11"/>disp. 11, sect. 3, n. 13, et probabilius judicavi,
+          <lb ed="#P" n="12"/>non obstante nullitate absolutionis, incurri 
+          ir<lb break="no" ed="#P" n="13"/>regularitatem in eo casu; et idem nunc etiam
+          <lb ed="#P" n="14"/>videtur, quia considerata intentione canonum,
+          <lb ed="#P" n="15"/>sub illa prohibent excommunicato omnem
+          <lb ed="#P" n="16"/>usum potestatis ordinis, etiamsi fiat cum illo
+          <lb ed="#P" n="17"/>defectu quem necessario habere debet, prout
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="18"/>fit ab excommunicato. Ttaque lex quae fert 
+          ta<lb break="no" ed="#P" n="19"/>lem poenam jam supponit defectum in tali actu
+          <lb ed="#P" n="20"/>facto ab excommunicato, et illum intendit 
+          pu<lb break="no" ed="#P" n="21"/>nire; et ideo etiamsi nullus sit, dummodo illam
+          <lb ed="#P" n="22"/>nullitatem habeat ex vi excommunicationis,
+          <lb ed="#P" n="23"/>punit illum. Et hoc est maxime in legibus 
+          at<lb break="no" ed="#P" n="24"/>tendendum, reduciturque ad regulam in 
+          se<lb break="no" ed="#P" n="25"/>cunda assertione positam, quia si lex explicite
+          <lb ed="#P" n="26"/>vel virtute supponit nullitatem in actu, vel
+          <lb ed="#P" n="27"/>defectum unde illa solet oriri, licet non semper
+          <lb ed="#P" n="28"/>oriatur, censetur punire etiam actum illum
+          <lb ed="#P" n="29"/>qui nulliter fit ex vi censurae, vel alterius 
+          si<lb break="no" ed="#P" n="30"/>milis defectus ; quando autem nullitas provenit
+          <lb ed="#P" n="31"/>ex alio capite, cessat praedicta ratio, et procedit
+          <lb ed="#P" n="32"/>generalis regula quod lex loquens de actu 
+          in<lb break="no" ed="#P" n="33"/>telligitur de actu valido, quia solum ille 
+          sim<lb break="no" ed="#P" n="34"/>pliciter talis existimatur.
+        </p>
+        <p xml:id="szdleg-b41096-d1e1286">
+          <lb ed="#P" n="35"/>FINIS LIBBI QUINTI,
+          <lb ed="#P" n="36"/>NEC NON ET TOMI QUINTI.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

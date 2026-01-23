@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="17"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a04429"><!-- deleg-l1c5 -->
+        <head xml:id="szdleg-a04429-Hd1e101">Caput 5</head>
+        <head xml:id="szdleg-a04429-Hd1e103" type="question-title">Utrum lex sit actus intellectus vel voluntatis, et quisnam ille sit</head>
+        <p xml:id="szdleg-a04429-d1e106">
+          <pb ed="#P" n="17"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT V.
+          <lb ed="#P" n="2"/>UTRUM LEX SIT ACTUS INTELLECTUS VEL 
+          VOLUNTA<lb break="no" ed="#P" n="3"/>TIS, ET QUISNAM ILLE SIT
+        </p>
+        <p xml:id="szdleg-a04429-d1e119">
+          <lb ed="#P" n="4"/>1. Prima sententia affirmans legem esse 
+          ac<lb break="no" ed="#P" n="5"/>tum intellectus.—Suppositis quae in superiori
+          <lb ed="#P" n="6"/>capite dixi, quaestio fere tota, erit de modo 
+          lo<lb break="no" ed="#P" n="7"/>quendi ; tamen propter varietatem opinionum
+          <lb ed="#P" n="8"/>expedienda breviter est. Prima igitur 
+          senten<lb break="no" ed="#P" n="9"/>tia affirmat legem esse actum intellectus, ita
+          <lb ed="#P" n="10"/>sentit D. Thomas, dict. quaest. 90, art. 1, et
+          <lb ed="#P" n="11"/>saepe ita loquitur in discursu materiae 
+          Vincen<lb break="no" ed="#P" n="12"/>tius, spec. mor., l. 5, part. 2, dist. 1. 
+          Sequun<lb break="no" ed="#P" n="13"/>tur Thomistae, Cajetanus, Conradus, et ali
+          <lb ed="#P" n="14"/>ibi, et 1. 2, quaest. 17, et 58, art. 4, et q. 60,
+          <lb ed="#P" n="15"/>art.1; Soto 1, de Just., quaest. 1, art. 1; 
+          Tur<lb break="no" ed="#P" n="16"/>recrem., in cap. Officium, dist. 3; Alensis, 3
+          <lb ed="#P" n="17"/>p.. q.26, in primo; Richardus 3, dist. 33, a. 2
+          <lb ed="#P" n="18"/>quaest. 6, ad 3; Antoninus, 2 p., tit. &amp;, c.10;
+          <lb ed="#P" n="19"/>Guillelmus Parisiensis, tract. de Legibus, et
+          <lb ed="#P" n="20"/>Corduba, lib. 2, quaest. 10. Probari autem solet
+          <lb ed="#P" n="21"/>haec sententia, primo, quia tam Scriptura
+          <lb ed="#P" n="22"/>quam Patres, philosophi et jurisconsulti legem
+          <lb ed="#P" n="23"/>tribuunt rationi, aut sapientiae. Proverb. 8,
+          <lb ed="#P" n="24"/>ait Sapientia: Per me legum conditores justa
+          <lb ed="#P" n="25"/>decernunt. Sic etiam Clemens Alexandrinus,
+          <lb ed="#P" n="26"/>lib. 1 Strom., non longe a fine ait legem esse
+          <lb ed="#P" n="27"/>opinionem bonam, bonam autem esse quae est
+          <lb ed="#P" n="28"/>vera. Et subdit : Cui conseguenter quidam 
+          dige<lb break="no" ed="#P" n="29"/>runt legem esse rationem rectam, qua jubet
+          <lb ed="#P" n="30"/>facienda, et prohibet que facienda non sunt ;
+          <lb ed="#P" n="31"/>et Basilius, in cap. S Isaiae: Ler, inquit, est
+          <lb ed="#P" n="32"/>doctris et magistra. Damascenus etiam, l. 4,
+          <lb ed="#P" n="33"/>cap. 23, legi tribuit docere.
+        </p>
+        <p xml:id="szdleg-a04429-d1e187">
+          <lb ed="#P" n="34"/>2. Praeterea Plato, in dialog. Minos, seu de
+          <lb ed="#P" n="35"/>Lege, in principio, legem vocat opinionem 
+          ci<lb break="no" ed="#P" n="36"/>vitatis probam, id est, veram: et infra dicit
+          <lb ed="#P" n="37"/>esse veritatis operationem. Eodemque modo
+          <lb ed="#P" n="38"/>Aristoteles, lib. 1 Elench., cap. 12, in fine,
+          <lb ed="#P" n="39"/>legem esse dicit opinionem multitudinis. Et in
+          <lb ed="#P" n="40"/>epist. ad Alexandrum , ante Rhetoricam ad
+          <lb ed="#P" n="41"/>illum, definit legem esse orationem que 
+          com<lb break="no" ed="#P" n="42"/>muni civitatis consensu jubet, etc., et statim
+          <lb ed="#P" n="43"/>cap. 1 Hhetoricae, ait legem esse communem
+          <lb ed="#P" n="44"/>civitatis consensum, qui scripto preciyit, 
+          quo<lb break="no" ed="#P" n="45"/>modo unwmquodque agendum sit: ubi legem
+          <lb ed="#P" n="46"/>etiam ponit in jussione et praecepto: cum 
+          ta<lb break="no" ed="#P" n="47"/>men saepe alias rationi et prudentiae tribuat
+          <lb ed="#P" n="48"/>imperare, 6 Ethic., cap. 9 et sequentibus, 1
+          <lb ed="#P" n="49"/>Politic., cap. 3. Unde, lib. 10 Ethic., cap. 9,
+          <lb ed="#P" n="50"/>dixit legem esse sermonem ab aliqua prudentia
+          <lb ed="#P" n="51"/>el mente profectum. Ex Cicerone etiam multa
+          <lb ed="#P" n="52"/>supra adduximus, quibus significat legem in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>ratione esse, primum quidem in mente Dei,
+          <lb ed="#P" n="54"/>per participationem autem ejus, in humana
+          <lb ed="#P" n="55"/>ratiore esse legem naturalem et prudentiam,
+          <lb ed="#P" n="56"/>a qua leges civitatum proficisci debent, ut late
+          <lb ed="#P" n="57"/>prosequitur in lib. 1 et 2 de Leg., paulo post
+          <lb ed="#P" n="58"/>principium, ubi inter alia sic concludit: Lex
+          <lb ed="#P" n="59"/>est recta ratio in jubendo et vetando. Sic 
+          deni<lb break="no" ed="#P" n="60"/>que Papinianus, in lib. 1, ff de Leg., legem
+          <lb ed="#P" n="61"/>vocat commune praeceptum, et declarat esse 
+          vi<lb break="no" ed="#P" n="62"/>rorum prudentium consultum, et Marcellus, in
+          <lb ed="#P" n="63"/>lib. 2, ex Chrysippo, refert legem esse 
+          divina<lb break="no" ed="#P" n="64"/>rum humanarumque rerum reginam, 
+          princi<lb break="no" ed="#P" n="65"/>pem ac ducem: haec autem sunt munera 
+          ra<lb break="no" ed="#P" n="66"/>tionis, ad quam spectat regere et dirigere
+          <lb ed="#P" n="67"/>operationes.
+        </p>
+        <p xml:id="szdleg-a04429-d1e266">
+          <lb ed="#P" n="68"/>3. Rationibus confirmatur prima sententia.
+          <lb ed="#P" n="69"/>— Rationes ad confirmandam hanc sententiam
+          <lb ed="#P" n="70"/>afferuntur variae. Prima est, quia ad legem
+          <lb ed="#P" n="71"/>pertinet ordinare, unde et definiri solet, quod
+          <lb ed="#P" n="72"/>sit ordinatio rationis . sed ordinare non ad
+          <lb ed="#P" n="73"/>voluntatem, sed ad intellectum spectat, quia
+          <lb ed="#P" n="74"/>includit ratiocinationem quamdam: unde quae
+          <lb ed="#P" n="75"/>ratione carent, ordinare non possunt: ergo
+          <lb ed="#P" n="76"/>lex actus intellectus est. Secunda, legis est
+          <lb ed="#P" n="77"/>illuminare et instruere, juxta illud : Zucerna
+          <lb ed="#P" n="78"/>pedibus meis verbum tuwm, et illud : Lex 
+          Do<lb break="no" ed="#P" n="79"/>mini immaculata convertens animas, sapientiam
+          <lb ed="#P" n="80"/>praestans parvulis : Muminare autem 
+          intellec<lb break="no" ed="#P" n="81"/>tus est. Tertia, lex est regula, ut in principio
+          <lb ed="#P" n="82"/>dictum est, ex Dasilio, in cap. ! Isaiae, ubl
+          <lb ed="#P" n="83"/>eam vocat regula justorum et injyustorum, quod
+          <lb ed="#P" n="84"/>etiam habetur in l. 2, ff de Leg., et ideo leges
+          <lb ed="#P" n="85"/>ecclesiasticae vocantur canones, id est, regulae,
+          <lb ed="#P" n="86"/>ut ait Isidorus 2 Etymologiarum: sed 
+          volun<lb break="no" ed="#P" n="87"/>tas non est regula, quin potius ipsa ratione
+          <lb ed="#P" n="88"/>regulanda est: est ergo lex in ratione.
+        </p>
+        <p xml:id="szdleg-a04429-d1e314">
+          <lb ed="#P" n="89"/>4. Quarta, quia nullus potest assignari 
+          ac<lb break="no" ed="#P" n="90"/>tus voluntatis, qui sit lex: aut enim est 
+          volun<lb break="no" ed="#P" n="91"/>tas principis, seu superioris, quod talis actio
+          <lb ed="#P" n="92"/>fiat a subdito: et hoc non, quia talis voluntas
+          <lb ed="#P" n="93"/>necessiria non est, nec sufficit: nam Deus 
+          ve<lb break="no" ed="#P" n="94"/>rum piaeceptum posuit Abrahae de sacrificando
+          <lb ed="#P" n="95"/>filio, quod tamen Deus fieri nolebat ; et e 
+          con<lb break="no" ed="#P" n="96"/>verso quantumvis superior velit, et desideret
+          <lb ed="#P" n="97"/>aliquid fieri a subdito, si non praecipit, non
+          <lb ed="#P" n="98"/>obligat. Et ideo dicunt theologi nos non teneri
+          <lb ed="#P" n="99"/>conformari divinae voluntati, etiam efficaci,
+          <lb ed="#P" n="100"/>nisi addatur praeceptum de exequenda tali
+          <lb ed="#P" n="101"/>voluntate : non ergo consistit lex in tali 
+          vo<lb break="no" ed="#P" n="102"/>Iuntate: vel consistit in voluntate obligandi
+          <lb ed="#P" n="103"/>subditum: et haec etiam non suflicit, nisi 
+          inti<lb break="no" ed="#P" n="104"/>metur. Imo addunt aliqui, non esse 
+          necessa<lb break="no" ed="#P" n="105"/>riam talem voluntatem in principe, ut ferat
+          <lb ed="#P" n="106"/>legem, quia licet princeps nihil cogitet de
+          <lb ed="#P" n="107"/>obligatione, si vult imperare, imperando fer*
+          <pb ed="#P" n="18"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>legem. Imo addit Medina 1. 2, quaest. 90. a. 1,
+          <lb ed="#P" n="2"/>quod licet nolit obligare, si vuit imperare,
+          <lb ed="#P" n="3"/>obligat et fert legem: sicut (inquit) qui vovet
+          <lb ed="#P" n="4"/>sine voluntate se obligandi, nihilominus vere
+          <lb ed="#P" n="5"/>vovet et obligatus manet, et qui promittit sub
+          <lb ed="#P" n="6"/>juramento dolose, et sine intentione se 
+          obh<lb break="no" ed="#P" n="7"/>gandi, tenetur implere promissum ex 
+          reli<lb break="no" ed="#P" n="8"/>gione juramenti : sic ergo qui vult imperare,
+          <lb ed="#P" n="9"/>ex efhicacitate imperii obligat, etiam si nolit :
+          <lb ed="#P" n="10"/>quare ad legem non erit necessarius alius 
+          ac<lb break="no" ed="#P" n="11"/>tus voluntatis, nisi voluntas imperandi: illa
+          <lb ed="#P" n="12"/>autem voluntas non est lex, nisi sequatur 
+          im<lb break="no" ed="#P" n="13"/>perium, quod pertinet ad intellectum : in illo
+          <lb ed="#P" n="14"/>ergo lex est.
+        </p>
+        <p xml:id="szdleg-a04429-d1e392">
+          <lb ed="#P" n="15"/>5. In quo actu intellectus sit lem. — Quidam
+          <lb ed="#P" n="16"/>dicunt esse judicium rationis.—Est autem 
+          con<lb break="no" ed="#P" n="17"/>troversia inter auctores hujus sententias, 
+          quis<lb break="no" ed="#P" n="18"/>nam actus intellectus habeat rationem legis,
+          <lb ed="#P" n="19"/>an scilicet judicium rationis, quod antecedit
+          <lb ed="#P" n="20"/>voluntatem, vel imperium quod subsequi 
+          dici<lb break="no" ed="#P" n="21"/>tur. Nam quidam eorum dicunt esse judicium
+          <lb ed="#P" n="22"/>rationis, quod tenuit Guillelmus Parisiensis,
+          <lb ed="#P" n="23"/>et secutus est Conradus, d. art. 1. Et quidem
+          <lb ed="#P" n="24"/>D. Thomas, q. 91, art. 2, clare dicit, legem
+          <lb ed="#P" n="25"/>esse dictamen in principe; et si considerentur
+          <lb ed="#P" n="26"/>testimonia adducta, praesertim philosophorum,
+          <lb ed="#P" n="27"/>de hoc judicio loqui videntur. Item 
+          proprieta<lb break="no" ed="#P" n="28"/>tes illae, quae sunt illuminare, esse regulam et
+          <lb ed="#P" n="29"/>mensuram, in judicium rationis conveniunt,
+          <lb ed="#P" n="30"/>et non in illud imperium, quod solum dicitur
+          <lb ed="#P" n="31"/>esse impulsivum, et non manifestativum 
+          alh<lb break="no" ed="#P" n="32"/>cujnus veritatis. Huic tamen sententiae obstat,
+          <lb ed="#P" n="33"/>quia judicium illud non habet efficaciam 
+          obli<lb break="no" ed="#P" n="34"/>gandi, nec moraliter movendi; haec autem in
+          <lb ed="#P" n="35"/>lege necessaria est ; item, quoad judicium 
+          ni<lb break="no" ed="#P" n="36"/>hil differre videtur praeceptum a consilio, quia
+          <lb ed="#P" n="37"/>etiam consulens habet simile judicium de 
+          ac<lb break="no" ed="#P" n="38"/>tione, quam faciendam consulit : unde si Deus
+          <lb ed="#P" n="39"/>nihil alhud nobis manifestaret, quam hoc 
+          judi<lb break="no" ed="#P" n="40"/>cium, non legem, sed consilium praeberet, in
+          <lb ed="#P" n="41"/>his videlicet quorum opposita intrinsece mala
+          <lb ed="#P" n="42"/>non sunt.
+        </p>
+        <p xml:id="szdleg-a04429-d1e455">
+          <lb ed="#P" n="43"/>6. Alii dicunt legem esse actum intellectus,
+          <lb ed="#P" n="44"/>qui dicitur imperium. — Ahi ergo auctores 
+          po<lb break="no" ed="#P" n="45"/>nunt legem in actu intellectus subsequente 
+          vo<lb break="no" ed="#P" n="46"/>Iuntatem, et vocant illum actum imperium:
+          <lb ed="#P" n="47"/>sed si hic actus non sit per modum locutionis,
+          <lb ed="#P" n="48"/>est plane confictus, ut supra diximus: si 
+          au<lb break="no" ed="#P" n="49"/>tem est locutio aliqua habebit rationem signi:
+          <lb ed="#P" n="50"/>igitur non tam erit lex quam signum legis,
+          <lb ed="#P" n="51"/>vel ad summum dicetur lex, sicut lex scripta
+          <lb ed="#P" n="52"/>aut voce prolata lex vocatur. At vero haec lex
+          <lb ed="#P" n="53"/>externa seu scripta non habet vim legis, nisi
+          <lb ed="#P" n="54"/>quia significat aliquid aliud in quo est virtus
+          <lb ed="#P" n="55"/>legis, et ideo necessario supponit aliud, quod
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>principaliter sit lex: et hoc est quod inquirimus.
+          <lb ed="#P" n="57"/>Nec etiam dici potest locutionem illam 
+          inter<lb break="no" ed="#P" n="58"/>nam, prout consideratur in mente principis,
+          <lb ed="#P" n="59"/>esse legem, quia etiam illa solum habet vim et
+          <lb ed="#P" n="60"/>efficaciam, quatenus est signum: ergo 
+          neces<lb break="no" ed="#P" n="61"/>sario supponit id quod principaliter est lex.
+        </p>
+        <p xml:id="szdleg-a04429-d1e501">
+          <lb ed="#P" n="62"/>7. Praeterea occurrit specialis ratio in Deo,
+          <lb ed="#P" n="63"/>propter quam non videatur talis actus ei 
+          at<lb break="no" ed="#P" n="64"/>tribuendus , tanquam necessarius ad legem
+          <lb ed="#P" n="65"/>ferendam. Quia vel est per modum 
+          impul<lb break="no" ed="#P" n="66"/>sus, qui fit activus ad extra, sicut aliqui 
+          il<lb break="no" ed="#P" n="67"/>lum ponunt etiam in Deo distinctum a proprio
+          <lb ed="#P" n="68"/>judicio et cognitione, vel est per modum 
+          men<lb break="no" ed="#P" n="69"/>talis locutionis: neutrum autem horum dici
+          <lb ed="#P" n="70"/>potest : ergo. Minor quoad priorem partem
+          <lb ed="#P" n="71"/>probari posset, ostendendo nullum esse talem
+          <lb ed="#P" n="72"/>actum, quia frustra ponitur et intelligi non
+          <lb ed="#P" n="73"/>potest : sed hoc egimus, in 1 part., tract. 2,
+          <lb ed="#P" n="74"/>lib. 1, cap. 10. Nunc vero breviter declaratur,
+          <lb ed="#P" n="75"/>quia ex parte Dei non potest esse necessarius
+          <lb ed="#P" n="76"/>talis impulsus ad legem ferendam, quia Deus,
+          <lb ed="#P" n="77"/>ferendo legem, non impellit physice ad actum
+          <lb ed="#P" n="78"/>lege praeceptum, sed solum ponit obligationem,
+          <lb ed="#P" n="79"/>quae est quid morale, et non potest illo modo
+          <lb ed="#P" n="80"/>physico fieri, ut videtur per se clarum. Altera
+          <lb ed="#P" n="81"/>vero pars minoris de locutione patet facile,
+          <lb ed="#P" n="82"/>quia locutio Dei ad extra non est nisi infusio
+          <lb ed="#P" n="83"/>Iuminis, vel specierum, vel exhibitio alicujus
+          <lb ed="#P" n="84"/>signi manifestantis ipsum, vel ejus 
+          volunta<lb break="no" ed="#P" n="85"/>tem : totum autem hoc facit Deus per 
+          volunta<lb break="no" ed="#P" n="86"/>tem suam, nec ad hunc effectum est magis
+          <lb ed="#P" n="87"/>necessarius alius impulsus, vel actus 
+          intellec<lb break="no" ed="#P" n="88"/>tus posterior actu voluntatis quam ad alios:
+          <lb ed="#P" n="89"/>nullo ergo modo potest in Deo lex constitui in
+          <lb ed="#P" n="90"/>actu consequente voluntatem. Unde idem est
+          <lb ed="#P" n="91"/>de quolibet alio legislatore, quia omnes 
+          parti<lb break="no" ed="#P" n="92"/>cipant rationem legis, quae in Deo est per 
+          es<lb break="no" ed="#P" n="93"/>sentia, et ideo cum proportione illam 
+          imitan<lb break="no" ed="#P" n="94"/>tur.
+        </p>
+        <p xml:id="szdleg-a04429-d1e575">
+          <lb ed="#P" n="95"/>8. Secunda sententia affirmans legem esse
+          <lb ed="#P" n="96"/>actum voluntatis. — Est ergo secunda opinio
+          <lb ed="#P" n="97"/>principalis, affirmans legem esse actum 
+          volun<lb break="no" ed="#P" n="98"/>tatis legislatoris. Pro hac sententia referri 
+          pos<lb break="no" ed="#P" n="99"/>sunt omnes qui ponunt imperium in voluntate,
+          <lb ed="#P" n="100"/>ut Henricus, quodl. 9, q. 6, Gabriel, in 2,
+          <lb ed="#P" n="101"/>dist. 37, q. 1, a. 1, not. 3, Major, in 3, d. 33,
+          <lb ed="#P" n="102"/>q. 7, Ocham, in 3, q. 22, art. 4, Almainus,
+          <lb ed="#P" n="103"/>tract. 3, Moral., cap. 2, Angest., in Moral,,
+          <lb ed="#P" n="104"/>tract. 1, part. 3, corol. 3. Sentit etiam 
+          Bona<lb break="no" ed="#P" n="105"/>ventura, in 3, d. 17, art. 4, q. 4, ad penult.,
+          <lb ed="#P" n="106"/>ubi ait coluntatem esse illud, penes quod residet
+          <lb ed="#P" n="107"/>regmum et imperium eorum, que sunt in dpso
+          <lb ed="#P" n="108"/>colente. Idem Medina, cod. de Orat., quaest. 2.
+          <lb ed="#P" n="109"/>Tribuitur etiam Durando et Gregorio, in 1,
+          <lb ed="#P" n="110"/>d. 47, quatenus asserunt voluntatem divinam
+          <pb ed="#P" n="19"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>esse regulam, cui omnes tenemur conformari.
+          <lb ed="#P" n="2"/>Citatur etiam pro hac sententia Scotus, in 2,
+          <lb ed="#P" n="3"/>d 6. q.1, et d. 38, q. 4, ad ult., et quodl. 17,
+          <lb ed="#P" n="4"/>quatenus his locis ait ad voluntatem pertinere
+          <lb ed="#P" n="5"/>ordinare alium ad aliquid agendum, et in 3,
+          <lb ed="#P" n="6"/>d. 36, q. 14, art. 2, voluntati tribuit imperare;
+          <lb ed="#P" n="7"/>eamdem opinionem late defendit Cast., libr. 2,
+          <lb ed="#P" n="8"/>de Lege poenali, cap. 1.
+        </p>
+        <p xml:id="szdleg-a04429-d1e635">
+          <lb ed="#P" n="9"/>9. Suaderi autem potest primo, quia 
+          Scri<lb break="no" ed="#P" n="10"/>ptura et civilia jura voluntatem Dei aut 
+          Prin<lb break="no" ed="#P" n="11"/>cipis legem appellant, Psal. 32: Notas fecit
+          <lb ed="#P" n="12"/>vias suas Moysi, filiis Israel voluntates suas,
+          <lb ed="#P" n="13"/>id est, praecepta sua; et Ps. 142: Doce me 
+          fa<lb break="no" ed="#P" n="14"/>cere voluntatem tuam ; 2 Machab. 2: Det vobis
+          <lb ed="#P" n="15"/>cor omnibus, ut colatis euwn, et faciatis ejus
+          <lb ed="#P" n="16"/>voluntatem, id est, servetis ejus legem. Sic
+          <lb ed="#P" n="17"/>dixit Christus Dominus in oratione Dominica:
+          <lb ed="#P" n="18"/>F'iat voluntas tua, id est, servetur lex tua; et
+          <lb ed="#P" n="19"/>in oratione in horto dixit: JVon mea voluntas,
+          <lb ed="#P" n="20"/>sed tua fiat, id est, tuum praeceptum : sic enim
+          <lb ed="#P" n="21"/>de ipso scriptum erat, Ps. 38: 7n capite libri
+          <lb ed="#P" n="22"/>scriptum est de me, ut faccrem voluntatem
+          <lb ed="#P" n="23"/>tuam. MResponderi solet ex Magistro, in 1,
+          <lb ed="#P" n="24"/>d. 41, et D. Thomas, 1 part., quaest. 19, a. 9,
+          <lb ed="#P" n="25"/>in his locis esse sermonem de voluntate signi,
+          <lb ed="#P" n="26"/>quae non proprie, sed metaphorice voluntas est.
+        </p>
+        <p xml:id="szdleg-a04429-d1e677">
+          <lb ed="#P" n="27"/>10. Verumtamen licet signum voluntatis
+          <lb ed="#P" n="28"/>metaphorice voluntas dicatur, necesse est ut
+          <lb ed="#P" n="29"/>aliquam propriam voluntatem indicet. Cur
+          <lb ed="#P" n="30"/>enim voluntas metaphorice diceretur, nisi quia
+          <lb ed="#P" n="31"/>habitudinem habet ad voluntatem propriam:
+          <lb ed="#P" n="32"/>non habet autem aliam habitudinem nisi signi,
+          <lb ed="#P" n="33"/>et ideo voluntas signi dicitur; ergo illa 
+          volun<lb break="no" ed="#P" n="34"/>tas significata est, quae proprie impletur, et
+          <lb ed="#P" n="35"/>quae illis locis significatur nomine legis. Unde
+          <lb ed="#P" n="36"/>etiam in jure civili dicitur lex habere 
+          volunta<lb break="no" ed="#P" n="37"/>tem suam, l. /n amligua, ff. de Legib., quia
+          <lb ed="#P" n="38"/>nimirum lex scripta seu exterior indicat 
+          vo<lb break="no" ed="#P" n="39"/>luntatem principis, quae dicitur voluntas ipsius
+          <lb ed="#P" n="40"/>legis : ergo talis voluntas est lex in ipso 
+          prin<lb break="no" ed="#P" n="41"/>cipe : unde libro 1, ff. de Constit. princip., et
+          <lb ed="#P" n="42"/>S Sed et quod, Inst. de Jure naturali, gent. et
+          <lb ed="#P" n="43"/>civ., Quod principi placuit, dicitur, legis habet
+          <lb ed="#P" n="44"/>vigorem ; quae verba sine dubio actum 
+          volun<lb break="no" ed="#P" n="45"/>tatis indicant. Similiter adduci possunt 
+          philo<lb break="no" ed="#P" n="46"/>sophi dicentes, legem esse decretum et 
+          institu<lb break="no" ed="#P" n="47"/>twn civitatis, ut est apud Platonem d. Dialog.
+          <lb ed="#P" n="48"/>Minos, vel esse consensum civitatis, ut est
+          <lb ed="#P" n="49"/>apud Aristotelem Hhet. ad Alex., cap. 1 et 2.
+          <lb ed="#P" n="50"/>Nam decretum propositum voluntatis indicat;
+          <lb ed="#P" n="51"/>et clarius, consensus actus est voluntatis. 
+          An<lb break="no" ed="#P" n="52"/>selmus etiam in libro de Voluntate Dei, 
+          vo<lb break="no" ed="#P" n="53"/>luntati divinae tribuit praecepta, et libro de
+          <lb ed="#P" n="54"/>Concept. Virg., cap. 4, imperare tribuit 
+          vo<lb break="no" ed="#P" n="55"/>luntati.
+        </p>
+        <p xml:id="szdleg-a04429-d1e742">
+          <lb ed="#P" n="56"/>11. Confirmatur secunda sententia em 
+          pro<lb break="no" ed="#P" n="57"/>prietatibus legis. — Secundo principaliter id
+          <lb ed="#P" n="58"/>ostendi potest ex proprietatibus legis: nam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="59"/>omnes quae tribuebantur actui intellectus, 
+          ma<lb break="no" ed="#P" n="60"/>gis conveniunt voluntati, et aliquae conveniunt
+          <lb ed="#P" n="61"/>voluntati, quae intellectui tribui non possunt:
+          <lb ed="#P" n="62"/>ergo, etc. Major patet, quia imprimis legi 
+          tri<lb break="no" ed="#P" n="63"/>buitur, quia sit regula et mensura: at hoc
+          <lb ed="#P" n="64"/>maxime convenit divinae voluntati, ut sumi
+          <lb ed="#P" n="65"/>potest ex D. Thoma, 1. 2, quaest. 4, art. 4, et
+          <lb ed="#P" n="66"/>quaest. 19, art. 9, et 2. 2, quaest. 26, art. ult.;
+          <lb ed="#P" n="67"/>expressius, quaest. 105, artic. 1, ait divinam
+          <lb ed="#P" n="68"/>voluntatem esse primam regulam qua 
+          mensu<lb break="no" ed="#P" n="69"/>rari debent humanae actiones: voluntates 
+          au<lb break="no" ed="#P" n="70"/>tem superiorum hominum esse secundam 
+          re<lb break="no" ed="#P" n="71"/>gulam participatam a prima: et ratio est,
+          <lb ed="#P" n="72"/>quia id agere aut velle debemus quod Deus
+          <lb ed="#P" n="73"/>vult nos velle aut agere, ut ait Anselmus, lib.
+          <lb ed="#P" n="74"/>de Voluntate Dei.
+        </p>
+        <p xml:id="szdleg-a04429-d1e788">
+          <lb ed="#P" n="75"/>12. Altera proprietas legis est, quod 
+          illu<lb break="no" ed="#P" n="76"/>minat et dirigit subditum : in hac autem 
+          con<lb break="no" ed="#P" n="77"/>siderandum est, posse attribui legi, quatenus
+          <lb ed="#P" n="78"/>est in ipso subdito, quomodo non est dubium,
+          <lb ed="#P" n="79"/>quin sit actus rationis, et formaliter 
+          illumi<lb break="no" ed="#P" n="80"/>nans, ut in superiori capite dixi. Et ideo in
+          <lb ed="#P" n="81"/>legendis auctoribus cavenda est aequivocatio;
+          <lb ed="#P" n="82"/>cum enim legem per rationem definiunt, saepe
+          <lb ed="#P" n="83"/>loquuntur de lege, prout est in subdito, 
+          quo<lb break="no" ed="#P" n="84"/>modo naturalis lex dicitur esse recta et a 
+          na<lb break="no" ed="#P" n="85"/>tura indita ratio: sic autem lex illuminat,
+          <lb ed="#P" n="86"/>quia ostendit voluntatem legislatoris: unde in
+          <lb ed="#P" n="87"/>ipso legislatore voluntas esse videtur, quae
+          <lb ed="#P" n="88"/>objective (ut sic dicam) vel etiam effective
+          <lb ed="#P" n="89"/>illuminat subditum, quomodo dixit Anselmus,
+          <lb ed="#P" n="90"/>dicto libro de Voluntate Dei: voluntas Dei est
+          <lb ed="#P" n="91"/>Magistra humanae voluntatis.
+        </p>
+        <p xml:id="szdleg-a04429-d1e827">
+          <lb ed="#P" n="92"/>13. Erat tertia proprietas, quod lex ordinat;
+          <lb ed="#P" n="93"/>at hoc propriissime convenit voluntati, ut
+          <lb ed="#P" n="94"/>recte Scotus supra docet, et in tract. de 
+          Prae<lb break="no" ed="#P" n="95"/>destin. ostendi, loco supra citato: et optime
+          <lb ed="#P" n="96"/>confirmari potest ex divo Thoma, 1 part.,
+          <lb ed="#P" n="97"/>quaest. 107, artic. 1, dicente unum Angelum
+          <lb ed="#P" n="98"/>per voluntatem suam ordinare suum 
+          concep<lb break="no" ed="#P" n="99"/>tum ad alium, et ita loqui ei: pertinet ergo
+          <lb ed="#P" n="100"/>ad voluntatem ordinare. Unde in praesenti
+          <lb ed="#P" n="101"/>declaratur : nam haec ordinatio legis, vel est
+          <lb ed="#P" n="102"/>per modum relationis medii in finem, vel per
+          <lb ed="#P" n="103"/>modum locutionis indicantis voluntatem 
+          prin<lb break="no" ed="#P" n="104"/>cipis: utroque autem modo optime attribuitur
+          <lb ed="#P" n="105"/>voluntati : nam voluntas est, quae ordinat 
+          me<lb break="no" ed="#P" n="106"/>dia ad finem, quia ipsa est quae intendit finem
+          <lb ed="#P" n="107"/>et eligit media propter ipsum, et ita statuit u*
+          <lb ed="#P" n="108"/>fiant : voluntas etiam est, quae imperat 
+          locu<lb break="no" ed="#P" n="109"/>Uonem, et in Deo, vel immateriali supposito
+          <lb ed="#P" n="110"/>ordinatio locutionis etiam fit per voluntatem;
+          <pb ed="#P" n="20"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ergo ordinatio legis, prout est in superiore
+          <lb ed="#P" n="2"/>ordinante, vel loquente, semper est aliquid
+          <lb ed="#P" n="3"/>spectans ad voluntatem.
+        </p>
+        <p xml:id="szdleg-a04429-d1e882">
+          <lb ed="#P" n="4"/>14. Unde aliter etiam solvitur objectio quae
+          <lb ed="#P" n="5"/>fieri solet, quia licet superior velit aliquic fieri
+          <lb ed="#P" n="6"/>a subdito, si non intimet voluntatem, non
+          <lb ed="#P" n="7"/>praecipit. Respondetur enim, hanc 
+          intimatio<lb break="no" ed="#P" n="8"/>nem posse esse exteriorem, et de hac non esse
+          <lb ed="#P" n="9"/>sermonem, quia illa non est in legislatore,
+          <lb ed="#P" n="10"/>sed actio transiens, quae vel in subdito, vel in
+          <lb ed="#P" n="11"/>alia externa materia recipitur, juxta dicta 
+          su<lb break="no" ed="#P" n="12"/>periori capite: intimatio autem, prout est in
+          <lb ed="#P" n="13"/>legislatore, maxime esse videtur voluntas 
+          ex<lb break="no" ed="#P" n="14"/>terius intimandi, quae in ipsa voluntate 
+          obli<lb break="no" ed="#P" n="15"/>gandi intime includitur, vel ex illa sequitur:
+          <lb ed="#P" n="16"/>ergo ea etiam ratione lex maxime pertinet ad
+          <lb ed="#P" n="17"/>voluntatem.
+        </p>
+        <p xml:id="szdleg-a04429-d1e916">
+          <lb ed="#P" n="18"/>15. Alique legis conditiones quae solum 
+          qua<lb break="no" ed="#P" n="19"/>drant in voluntatis actum.—Superest probanda
+          <lb ed="#P" n="20"/>altera pars primi antecedentis, nimirum 
+          ah<lb break="no" ed="#P" n="21"/>quas conditiones ad legem necessarias inveniri
+          <lb ed="#P" n="22"/>in actu voluntatis, et non proprie in actu 
+          in<lb break="no" ed="#P" n="23"/>tellectus. Prima est movere et applicare 
+          sub<lb break="no" ed="#P" n="24"/>ditum ad exercendam actionem, sub actione
+          <lb ed="#P" n="25"/>semper omissionem intelligendo. Principium
+          <lb ed="#P" n="26"/>enim movens, et applicans ad exercitium 
+          ac<lb break="no" ed="#P" n="27"/>tionis est voluntas : nam intellectus potius
+          <lb ed="#P" n="28"/>movet quoad specificationem, et ideo potius
+          <lb ed="#P" n="29"/>dicitur dirigere quam movere. Secunda est
+          <lb ed="#P" n="30"/>habere vim obligandi, quae proprie est in 
+          vo<lb break="no" ed="#P" n="31"/>luntate, et non in intellectu : nam intellectus
+          <lb ed="#P" n="32"/>solum potest ostendere necessitatem, quae est
+          <lb ed="#P" n="33"/>in ipso objecto; quod si in illo non sit, non
+          <lb ed="#P" n="34"/>potest ipse eam tribuere : voluntas autem
+          <lb ed="#P" n="35"/>confert necessitatem, quae in objecto non erat,
+          <lb ed="#P" n="36"/>et facit, verbi gratia, in materia justitiae, ut
+          <lb ed="#P" n="37"/>res tanti vel tanti valeat, et in materia 
+          alia<lb break="no" ed="#P" n="38"/>rum virtutum, ut hic et nunc sit necessarium
+          <lb ed="#P" n="39"/>operari, quod alias per se non esset. Tertia,
+          <lb ed="#P" n="40"/>ferre legem est actus jurisdictionis et 
+          potesta<lb break="no" ed="#P" n="41"/>tis superioris, ut infra dicam. unde est veluti
+          <lb ed="#P" n="42"/>usus cujusdam dominii; usus autem est actus
+          <lb ed="#P" n="43"/>voluntatis, et praesertim usus dominii, qui 
+          li<lb break="no" ed="#P" n="44"/>ber est. Quarta, lex est actus justitiae legalis:
+          <lb ed="#P" n="45"/>nam Princeps, dum fert legem, maxime debet
+          <lb ed="#P" n="46"/>ad commune bonum respicere, quod spectat
+          <lb ed="#P" n="47"/>ad justitiam legalem ; justitia autem legalis
+          <lb ed="#P" n="48"/>est virtus voluntatis, quamvis indigeat 
+          direc<lb break="no" ed="#P" n="49"/>tione prudentiae, quod commune est omnibus
+          <lb ed="#P" n="50"/>virtutibus voluntatis : unde solum fit, ad legem
+          <lb ed="#P" n="51"/>ferenlam maxime necessariam esse 
+          pruden<lb break="no" ed="#P" n="52"/>tiam. quod recte probant fundamenta prioris
+          <lb ed="#P" n="53"/>sen:entiae, non tamen fit, esse formalem actum
+          <lb ed="#P" n="54"/>prudentiae; sicut justa distributio et recta 
+          elec<lb break="no" ed="#P" n="55"/>tio a prudentia pendet, et tamen formaliter
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>est actus voluntatis, per justitiam 
+          distributi<lb break="no" ed="#P" n="57"/>vam, vel per aliam virtutem moralem 
+          ope<lb break="no" ed="#P" n="58"/>rantis.
+        </p>
+        <p xml:id="szdleg-a04429-d1e1010">
+          <lb ed="#P" n="59"/>16. Ultima ratio esse potest, quia ex his
+          <lb ed="#P" n="60"/>quae dixi proponendo priorem sententiam, 
+          in<lb break="no" ed="#P" n="61"/>telligi potest quam sit difficile designare 
+          ac<lb break="no" ed="#P" n="62"/>tum intellectus, qui sit lex: in voluntate 
+          au<lb break="no" ed="#P" n="63"/>tem facile assignatur. Nam illa voluntas quam
+          <lb ed="#P" n="64"/>superior habet obligandi subditum ad talem
+          <lb ed="#P" n="65"/>actum, vel (quod perinde est) constituendi
+          <lb ed="#P" n="66"/>talem materiam intra necessarios terminos
+          <lb ed="#P" n="67"/>virtutis, optime recip;t denominationem legis,
+          <lb ed="#P" n="68"/>tam propter omnia quae adduximus de 
+          pro<lb break="no" ed="#P" n="69"/>prietatibus legis, quem ex eo quod etiam 
+          teti<lb break="no" ed="#P" n="70"/>gimus, quia nihil antecedens hanc voluntatem
+          <lb ed="#P" n="71"/>habere potest vim legis, cum non possit 
+          ne<lb break="no" ed="#P" n="72"/>cessitatem inducere: quidquid autem 
+          subse<lb break="no" ed="#P" n="73"/>quitur potius est signum legis jam conceptae
+          <lb ed="#P" n="74"/>et stabilitae in mente principis : nam ipsa etiam
+          <lb ed="#P" n="75"/>locutio mentalis signum tantum mentale est.
+          <lb ed="#P" n="76"/>Cui fundamento non aliter potuit respondere
+          <lb ed="#P" n="77"/>Medina, nisi negando voluntatem obligandi
+          <lb ed="#P" n="78"/>esse necessariam in principe ad ferendam 
+          le<lb break="no" ed="#P" n="79"/>gem, et obligandum per illam.
+        </p>
+        <p xml:id="szdleg-a04429-d1e1058">
+          <lb ed="#P" n="80"/>17. Impugnatur doctrina Medinae circa 
+          vo<lb break="no" ed="#P" n="81"/>luntatem obligandi. — Verumtamen 
+          responsio<lb break="no" ed="#P" n="82"/>haec id negare videtur, quod reliqui auctores
+          <lb ed="#P" n="83"/>utriusque opinionis tanquam certum 
+          suppo<lb break="no" ed="#P" n="84"/>nunt, nisi fortasse in verbis sit aliqua 
+          aequi<lb break="no" ed="#P" n="85"/>vocatio. Certum est enim in his effectibus 
+          mo<lb break="no" ed="#P" n="86"/>ralibus, qui a voluntate pendent, agentia non
+          <lb ed="#P" n="87"/>operari sine intentione, vel ultra intentionem:
+          <lb ed="#P" n="88"/>obligare autem per legem est effectus 
+          mora<lb break="no" ed="#P" n="89"/>lis, et pendens ex liberiate legislatoris: ergo
+          <lb ed="#P" n="90"/>ut fiat, necessaria est in legislatore intentio et
+          <lb ed="#P" n="91"/>voluntas illius, alias fieret sine intentione,
+          <lb ed="#P" n="92"/>quod repugnat. Minor evidens per se est, et
+          <lb ed="#P" n="93"/>ideo idem auctor fatetur legem requirere 
+          con<lb break="no" ed="#P" n="94"/>cursum voluntatis. Major autem communis est
+          <lb ed="#P" n="95"/>theologorum; imo, et juristarum, qui hoc sensu
+          <lb ed="#P" n="96"/>dicunt actus agentium non operari ultra 
+          inten<lb break="no" ed="#P" n="97"/>tionem eorum, arg. c. ult. de Praebend., et
+          <lb ed="#P" n="98"/>constat inductione : nam hac ratione 
+          excom<lb break="no" ed="#P" n="99"/>municatio :ata sine intentione ligandi non 
+          li<lb break="no" ed="#P" n="100"/>gat, et absolutio data sine intentione 
+          absol<lb break="no" ed="#P" n="101"/>vendi non solvit ; et idem est de caeteris 
+          sacra<lb break="no" ed="#P" n="102"/>mentis: et similiter votum, matrimonium, et
+          <lb ed="#P" n="103"/>similia facta sine intentione, non valent : ratio
+          <lb ed="#P" n="104"/>autem est, quia tota virtus talium actuum 
+          ma<lb break="no" ed="#P" n="105"/>nat a voluntate, aut mediaute illa: item illa
+          <lb ed="#P" n="106"/>est quae dat csse quasi forma: nam actus 
+          ex<lb break="no" ed="#P" n="107"/>terior sine intentione non est verus actus 
+          mo<lb break="no" ed="#P" n="108"/>ralis sub illa ratione tali, sed fictus.
+        </p>
+        <p xml:id="szdleg-a04429-d1e1123">
+          <lb ed="#P" n="109"/>18. Velle praecipere, et velle non obligare,
+          <lb ed="#P" n="110"/>sunt intentiones repugnantes sublata ignoran-
+          <pb ed="#P" n="21"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tia. — Similiter in voto repugnant intentio 
+          vo<lb break="no" ed="#P" n="2"/>vendi et non obligandi. — Unde in exemplo voti
+          <lb ed="#P" n="3"/>certum existimo non obligare, si factum sit
+          <lb ed="#P" n="4"/>sine intentione obligandi, ut in tract. 6, de
+          <lb ed="#P" n="5"/>Relig. dixi: sicut autem ibhi solet fingi casus in
+          <lb ed="#P" n="6"/>quo aliquis voveat cum intentione vovendi, et
+          <lb ed="#P" n="7"/>simul habeat intentionem non se obligandi:
+          <lb ed="#P" n="8"/>ita Medina similem fingit in legislatore, qui
+          <lb ed="#P" n="9"/>habeat voluntatem praecipiendi et non 
+          obli<lb break="no" ed="#P" n="10"/>gandi, et tunc ait nihilominus obligare. 
+          Ve<lb break="no" ed="#P" n="11"/>rumtamen, si ignorantia non intercedat, illae
+          <lb ed="#P" n="12"/>intentiones sunt repugnantes, et involventes
+          <lb ed="#P" n="13"/>contradictionem, si prior intentio sit vere, et
+          <lb ed="#P" n="14"/>non ficte vovendi, aut praecipiendi, quia velle
+          <lb ed="#P" n="15"/>praecipere, nihil aliud est quam velleobligare,
+          <lb ed="#P" n="16"/>aut saltem velle insinuare voluntatem 
+          obh<lb break="no" ed="#P" n="17"/>gandi, et idem est cum proportione in voto.
+          <lb ed="#P" n="18"/>Si autem illa intentio talis non sit, sed solum
+          <lb ed="#P" n="19"/>exterius praecipiendi, aut vovendi, sine dubio
+          <lb ed="#P" n="20"/>nihil fit, nec fertur vera lex, aut fit verum 
+          vo<lb break="no" ed="#P" n="21"/>tum. Certum est enim posse fieri fictam 
+          pro<lb break="no" ed="#P" n="22"/>missionem, quae non obliget : illa autem nullo
+          <lb ed="#P" n="23"/>alio modo fieri potest, et idem est cum 
+          propor<lb break="no" ed="#P" n="24"/>tione de praecepto: et ideo si subdito constaret,
+          <lb ed="#P" n="25"/>superiorem, licet proferat verba praeceptiva,
+          <lb ed="#P" n="26"/>non habere animum obligandi, sine dubio non
+          <lb ed="#P" n="27"/>obligaretur, ut in dicto casu de 
+          Excommuni<lb break="no" ed="#P" n="28"/>catione omnes dicunt. Vel sicut e contrario
+          <lb ed="#P" n="29"/>ait D. Thomas, 2. 2, q. 104, art. 2, 
+          volunta<lb break="no" ed="#P" n="30"/>tem superioris, quacumque ratione innotescat
+          <lb ed="#P" n="31"/>subdito, esse quoddam praeceptum, quod non
+          <lb ed="#P" n="32"/>potest intelligi, nisi de hac voluntate 
+          obh<lb break="no" ed="#P" n="33"/>gandi.
+        </p>
+        <p xml:id="szdleg-a04429-d1e1206">
+          <lb ed="#P" n="34"/>19. In juramento potest stave intentio 
+          juran<lb break="no" ed="#P" n="35"/>di cum intentione se non obligandi. — In casu
+          <lb ed="#P" n="36"/>autem de juramento non est omnino eadem
+          <lb ed="#P" n="37"/>ratio: nam potest quis habere intentionem 
+          ju<lb break="no" ed="#P" n="38"/>randi, id est, adducendi Deum in testem, et
+          <lb ed="#P" n="39"/>nihilominus habere intentionem non se 
+          obli<lb break="no" ed="#P" n="40"/>gandi, etideo si tunc oritur obligatio (quod sub
+          <lb ed="#P" n="41"/>opinione est) non est ex propria voluntate,
+          <lb ed="#P" n="42"/>sed praecepto naturali, quo unusquisque 
+          tene<lb break="no" ed="#P" n="43"/>tur facere verum id, in cujus testimonium
+          <lb ed="#P" n="44"/>Deum adduxit, ut late dixi, tract. 5, de Relig.,
+          <lb ed="#P" n="45"/>lib. 2, c. T. At vero obligatio legis non nisi ex
+          <lb ed="#P" n="46"/>voluntate legislatoris oriri potest, et ideo actus
+          <lb ed="#P" n="47"/>ille voluntatis necessarius est. Et ita recte
+          <lb ed="#P" n="48"/>dixit Gabriel, 3, d. 37, quantumcumque 
+          noti<lb break="no" ed="#P" n="49"/>ficetur voluntas superioris, nisi per illam velt
+          <lb ed="#P" n="50"/>ligari inferiorem, non consurgere 
+          obligatio<lb break="no" ed="#P" n="51"/>nem. Dixi autem, nisi sit aequivocatioin verbis,
+          <lb ed="#P" n="52"/>quia fortasse necessarium non est ut legislator
+          <lb ed="#P" n="53"/>directe et expresse concipiat obligationem 
+          sub<lb break="no" ed="#P" n="54"/>diti, et voluntate feratur in illam: satis enim
+          <lb ed="#P" n="55"/>esse potest, ut velit, verbi gratia, praescribere
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ut res tantum valeat, vel ut talis actus sit in
+          <lb ed="#P" n="57"/>materia necessaria temperantiee, vel ut 
+          confu<lb break="no" ed="#P" n="58"/>se velit praecipere quantum potest: sed haec
+          <lb ed="#P" n="59"/>parum differunt, quia in his omnibus 
+          inclu<lb break="no" ed="#P" n="60"/>ditur intentio obligandi, et cum illis omnino
+          <lb ed="#P" n="61"/>repugnat habere intentionem non obligandi,
+          <lb ed="#P" n="62"/>nisi operans prorsus ignoret quid velit, et
+          <lb ed="#P" n="63"/>tunc ipsamet ignorantia impediret prorsus 
+          ve<lb break="no" ed="#P" n="64"/>ram voluntatem obligandi, atque adeo veram
+          <lb ed="#P" n="65"/>legem, ut in simili de voto dixi : igitur quoad
+          <lb ed="#P" n="66"/>necessitatem hujus voluntatis vera sine dubio
+          <lb ed="#P" n="67"/>est haec secunda sententia.
+        </p>
+        <p xml:id="szdleg-a04429-d1e1284">
+          <lb ed="#P" n="68"/>20. Tertia sententia affirmans legem ex
+          <lb ed="#P" n="69"/>utroque actu componi.— Unde quae pro his 
+          opi<lb break="no" ed="#P" n="70"/>nionibus adduximus suadere videntur 
+          utrum<lb break="no" ed="#P" n="71"/>que actum intellectus et voluntatis esse ad
+          <lb ed="#P" n="72"/>legem necessarium, et ideo potest esse tertia
+          <lb ed="#P" n="73"/>opinio dicens legem componi et coalescere ex
+          <lb ed="#P" n="74"/>actu utriusque potentiae ; quia in his rebus 
+          mo<lb break="no" ed="#P" n="75"/>ralibus non oportet quaerere unitatem 
+          perfec<lb break="no" ed="#P" n="76"/>tam et simplicem, sed potest res quae 
+          moral<lb break="no" ed="#P" n="77"/>ter una est, ex multis physice distinctis, et se
+          <lb ed="#P" n="78"/>mutuo juvantibus constare. Sic ergo lex duo
+          <lb ed="#P" n="79"/>requirit, motionem et directionem, bonitatem
+          <lb ed="#P" n="80"/>(ut sic dicam) et veritatem, id est, judicium
+          <lb ed="#P" n="81"/>rectum de agendis, et voluntatem efficacem
+          <lb ed="#P" n="82"/>movendi ad illa, et ideo ex actu voluntatis et
+          <lb ed="#P" n="83"/>intellectus constare potest. Et haec sententia
+          <lb ed="#P" n="84"/>tribui solet Gregorio, in 1, d. 48, quaest. unic.,
+          <lb ed="#P" n="85"/>sed ibi hoc non disputat, nec aliud dicit, nisi
+          <lb ed="#P" n="86"/>eum qui discordat a voluntate beneplaciti Dei
+          <lb ed="#P" n="87"/>agere contra legem aeternam, et allegat 
+          Au<lb break="no" ed="#P" n="88"/>gustinum 22 contra Faustum, cap. 27, 
+          dicen<lb break="no" ed="#P" n="89"/>tem legem aeternam esse rationem, vel 
+          volun<lb break="no" ed="#P" n="90"/>tatem Dei, ubi Augustinus nihil determinat.
+          <lb ed="#P" n="91"/>Magis indicat hanc sententiam Gabriel 3, 
+          dis<lb break="no" ed="#P" n="92"/>tinct. 37, quaest. unic., in principio, ubi cum
+          <lb ed="#P" n="93"/>de lege externa, seu quae est in subdito, 
+          dixis<lb break="no" ed="#P" n="94"/>set esse signum cerum, creature vationali
+          <lb ed="#P" n="95"/>notificativum rectae rationis dictantis, ligari
+          <lb ed="#P" n="96"/>eam, etc., declarat dictum esse dictantis, seu
+          <lb ed="#P" n="97"/>ligantis, etc., ad innuendum quod recta ratio
+          <lb ed="#P" n="98"/>preecipientis una cum voluntate est ratio 
+          obliga<lb break="no" ed="#P" n="99"/>Lionis inferioris, id est, quo inferior obligatur.
+          <lb ed="#P" n="100"/>Lex autem est propria ratio obligationis; sentit
+          <lb ed="#P" n="101"/>ergo in ipso principe legem esse rationem ejus
+          <lb ed="#P" n="102"/>cum voluntate, et declarat illam esse 
+          volunta<lb break="no" ed="#P" n="103"/>tem ligandi subditum, ut supra: unde sicut 
+          ii<lb break="no" ed="#P" n="104"/>berum arbitrium definiri solet, esse facultatem
+          <lb ed="#P" n="105"/>voluntatis et rationis, ita lex, quae arbitrium
+          <lb ed="#P" n="106"/>principis appellari solet, non immerito potest
+          <lb ed="#P" n="107"/>existimari actus utriusque facultatis.
+        </p>
+        <p xml:id="szdleg-a04429-d1e1374">
+          <lb ed="#P" n="108"/>21. Addi etiam potest, licet nomen legis
+          <lb ed="#P" n="109"/>adaequate et complete utrumque actum 
+          com<lb break="no" ed="#P" n="110"/>plectatur, nihilominus secundum aliam con-
+          <pb ed="#P" n="22"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>siderationem tam actum voluntatis, quam
+          <lb ed="#P" n="2"/>intellectus posse dici legem sub diversis 
+          ratio<lb break="no" ed="#P" n="3"/>nibus. cui modo loquendi non dissonat 
+          Augus<lb break="no" ed="#P" n="4"/>tinus, in d. loco, contra Faustum, et declaratur
+          <lb ed="#P" n="5"/>in hunc modum. Nam si in lege attendatur vis
+          <lb ed="#P" n="6"/>movendi, et ideo lex dicatur id quod est in
+          <lb ed="#P" n="7"/>principe. quod movet et obligat ad agendum,
+          <lb ed="#P" n="8"/>sic lex est actus voluntatis: si autem spectetur
+          <lb ed="#P" n="9"/>ac consideretur in lege vis dirigendi ad id quod
+          <lb ed="#P" n="10"/>bonum et necessarium est, sic pertinet ad 
+          in<lb break="no" ed="#P" n="11"/>tellectum : et videtur consistere in judicio
+          <lb ed="#P" n="12"/>practico. et prout est in principe non 
+          antece<lb break="no" ed="#P" n="13"/>dere voluntatem, sed subsequi, non quidem
+          <lb ed="#P" n="14"/>per modum actus impellentis, qui judicium
+          <lb ed="#P" n="15"/>non sit (hoc enim satis improbatum est), sed
+          <lb ed="#P" n="16"/>per modum judicii practici, quo stante decreto
+          <lb ed="#P" n="17"/>suo princeps judicat hoc esse omnino agendum
+          <lb ed="#P" n="18"/>a subditis, quibus propterea intimandum est
+          <lb ed="#P" n="19"/>tale decretum. Hoc enim judicium subsequi
+          <lb ed="#P" n="20"/>voluntatem in mente principis in superiori 
+          ca<lb break="no" ed="#P" n="21"/>pite declaravi; et ideo sub hac ratione dici
+          <lb ed="#P" n="22"/>potest lex scripta in mente ejus, a qua 
+          proce<lb break="no" ed="#P" n="23"/>dat omnis lex exterior; et simile judicium,
+          <lb ed="#P" n="24"/>quod est in subjecto, erit tanquam lex 
+          partici<lb break="no" ed="#P" n="25"/>pata ab illa quae est in principe.
+        </p>
+        <p xml:id="szdleg-a04429-d1e1442">
+          <lb ed="#P" n="26"/>22. Fertur judicium distincte de tota 
+          contro<lb break="no" ed="#P" n="27"/>versia. — Haec sententiae probabiles sunt, et
+          <lb ed="#P" n="28"/>ultima satis facilis et plausibus ; nihilominus
+          <lb ed="#P" n="29"/>tamen, ut aliquod judicium de re tota feramus,
+          <lb ed="#P" n="30"/>secernimus legem naturalem, et consequenter
+          <lb ed="#P" n="31"/>etiam aeternam, quia in illis est specialis 
+          diffi<lb break="no" ed="#P" n="32"/>cultas in re ipsa, an et quomodo habeant 
+          ve<lb break="no" ed="#P" n="33"/>ram et propriam rationem legis, quam lib. seq.
+          <lb ed="#P" n="34"/>tractabimus. Praesens ergo controversia solum
+          <lb ed="#P" n="35"/>est de lege posita per voluntatem alicujus 
+          su<lb break="no" ed="#P" n="36"/>perioris. De qua certum est, vel constare ex
+          <lb ed="#P" n="37"/>actu rationis et voluntatis, vel certe non esse
+          <lb ed="#P" n="38"/>sine utroque : ita ut si est alter illorum 
+          tan<lb break="no" ed="#P" n="39"/>tum, ab altero nihilominus intrinsece pendeat.
+          <lb ed="#P" n="40"/>Hoc enim convincunt omnia adducta pro 
+          dua<lb break="no" ed="#P" n="41"/>bus primis sententis.
+        </p>
+        <p xml:id="szdleg-a04429-d1e1479">
+          <lb ed="#P" n="42"/>23. Atque hinc inferimus secundo, neutrum
+          <lb ed="#P" n="43"/>modum loquendi illarum opinionum posse 
+          ef<lb break="no" ed="#P" n="44"/>ficaciter probari. Nam testimonia adducta in
+          <lb ed="#P" n="45"/>prima opinione solum probant legem non ferri
+          <lb ed="#P" n="46"/>sine directione prudentiae. Unde philosophi ibi
+          <lb ed="#P" n="47"/>allegati, cum legem tribuunt rationi, non 
+          lo<lb break="no" ed="#P" n="48"/>quuntur de actu intellectus, qui in principe
+          <lb ed="#P" n="49"/>sequitur ex voluntate, qua vult obligare 
+          sub<lb break="no" ed="#P" n="50"/>ditos, sed de judicio antecedente, dirigente et
+          <lb ed="#P" n="51"/>quasi regulante illam voluntatem ; solum enim
+          <lb ed="#P" n="52"/>dicunt ad legem non sufficere voluntatem
+          <lb ed="#P" n="53"/>principis, nisi justa sit et recta, et ileo debere
+          <lb ed="#P" n="54"/>oriri ex recto et prudenti judicio, de quo 
+          ju<lb break="no" ed="#P" n="55"/>dicio constat non esse legem, si per se, et ut
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>prior voluntate spectetur: vocant ergo legem
+          <lb ed="#P" n="57"/>rectam rationem quoad radicem, sicut Cicero,
+          <lb ed="#P" n="58"/>in eodem lib., de Legib., dixit virtutem esse
+          <lb ed="#P" n="59"/>rectam vitae rationem. Rationes autem factae
+          <lb ed="#P" n="60"/>pro illa sententia confirmando secundam 
+          so<lb break="no" ed="#P" n="61"/>lutae sunt. Testimonia vero adducta in secunda
+          <lb ed="#P" n="62"/>sententia in rigore solum probant, legis 
+          obli<lb break="no" ed="#P" n="63"/>gationem manare ex voluntate legislatoris:
+          <lb ed="#P" n="64"/>nam hoc satis est, ut observans legem Dei
+          <lb ed="#P" n="65"/>dicatur facere voluntatem ejus, vel secundum
+          <lb ed="#P" n="66"/>voluntatem ejus, et e converso. Rationes 
+          au<lb break="no" ed="#P" n="67"/>tem factae pro illa sententia urgentiores mihi
+          <lb ed="#P" n="68"/>videntur, si supponimus legem esse actum 
+          il<lb break="no" ed="#P" n="69"/>lum principis, qui per se, et vi sua inducit
+          <lb ed="#P" n="70"/>obligationem, et ligat subditum. Dici vero
+          <lb ed="#P" n="71"/>potest, vocem legis non significare actum 
+          li<lb break="no" ed="#P" n="72"/>gantem, sed signum illius actus, vel actum
+          <lb ed="#P" n="73"/>intellectus, a quo proxime tale signum 
+          pro<lb break="no" ed="#P" n="74"/>cedit.
+        </p>
+        <p xml:id="szdleg-a04429-d1e1555">
+          <lb ed="#P" n="75"/>24. Legem esse actum voluntatis melius 
+          in<lb break="no" ed="#P" n="76"/>telligi et defendi asseritur.—VUnde addo tertio,
+          <lb ed="#P" n="77"/>spectanrdo ad rem ipsam melius intelligi, et
+          <lb ed="#P" n="78"/>facilius defendi, legem mentalem (ut sic 
+          di<lb break="no" ed="#P" n="79"/>cam in ipso legislatore esse actum voluntatis
+          <lb ed="#P" n="80"/>justae et rectae, quo superior vult inferiorem
+          <lb ed="#P" n="81"/>obligare ad hoc vel illud faciendum. Hoc 
+          pro<lb break="no" ed="#P" n="82"/>bant mihi rationes factae pro secunda opinione.
+          <lb ed="#P" n="83"/>Nam licet haec voluntas non possit habere 
+          ef<lb break="no" ed="#P" n="84"/>fectum in subdito, nisi ei sufficienter 
+          propo<lb break="no" ed="#P" n="85"/>natur, haec autem propositio se habet, ut 
+          ap<lb break="no" ed="#P" n="86"/>plicatio causae obligantis, non ut propria causa
+          <lb ed="#P" n="87"/>et ratio obligationis.
+        </p>
+        <p xml:id="szdleg-a04429-d1e1586">
+          <lb ed="#P" n="88"/>25. Lec ex impositione prius significat 
+          ea<lb break="no" ed="#P" n="89"/>termm imperium et signum praocipientis. —
+          <lb ed="#P" n="90"/>Ultimo vero assero respiciendo ad nominis
+          <lb ed="#P" n="91"/>legis impositionem , videri prius positum ,
+          <lb ed="#P" n="92"/>ad significandum externum imperium , et
+          <lb ed="#P" n="93"/>signum ostensivum voluntatis praecipientis.
+          <lb ed="#P" n="94"/>Ideo enim Aristoteles, 10 Ethic., dixit legem
+          <lb ed="#P" n="95"/>esse sermonem a sapientia protectum, et in
+          <lb ed="#P" n="96"/>Rhet. ad Alex., dixit esse consensum populi
+          <lb ed="#P" n="97"/>in scriptis positum; et Isidorus hoc supponit,
+          <lb ed="#P" n="98"/>cum dicit legem a legendo esse dictam, et 
+          de<lb break="no" ed="#P" n="99"/>bere esse scriptam. Juxta hanc ergo vocis 
+          si<lb break="no" ed="#P" n="100"/>enificationem optime defendi potest, legem in
+          <lb ed="#P" n="101"/>principe esse actum illum intellectus , quo
+          <lb ed="#P" n="102"/>proxime dictat legem externam, vel de se 
+          ap<lb break="no" ed="#P" n="103"/>tum ad dictandam et exhibendam illam. Nam
+          <lb ed="#P" n="104"/>sicut exterior est quasi proxima regula 
+          volun<lb break="no" ed="#P" n="105"/>tatis sublitorum, ita cum proportione lex illa
+          <lb ed="#P" n="106"/>quasi scripta in intellectu principis est regula
+          <lb ed="#P" n="107"/>ejusdem voluntatis subditi, a qua proxime 
+          pro<lb break="no" ed="#P" n="108"/>cedit regula exterioris legis, quando subdito
+          <lb ed="#P" n="109"/>proponitur. Procedit autem ab illa (ut aiunt)
+          <lb ed="#P" n="110"/>per modum alterius intimationis, vel impul-
+          <pb ed="#P" n="23"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sus : haec autem intimatio nihil est praeter 
+          lo<lb break="no" ed="#P" n="2"/>cutionem exteriorem quam dirigit et quasi
+          <lb ed="#P" n="3"/>dictat intellectus principis per illud judicium
+          <lb ed="#P" n="4"/>jam approbatum per suam voluntatem, vel
+          <lb ed="#P" n="5"/>prout est de tali actu, ut jam definito, et decreto
+          <lb ed="#P" n="6"/>per actum voluntatis ejusdem principis, ut satis
+          <lb ed="#P" n="7"/>ex dictis constat.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

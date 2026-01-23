@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 14 UTRUM OBLIGARE SUBDITOS SIT PROXIMUS ET ADAEQUATUS EFFECTUS LEGIS.
+        </title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 14 UTRUM OBLIGARE SUBDITOS SIT PROXIMUS ET ADAEQUATUS EFFECTUS LEGIS.
+          </title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="56"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a14466"><!-- deleg-l1c14 -->
+        <head xml:id="szdleg-a14466-Hd1e101">Caput 14</head>
+        <head xml:id="szdleg-a14466-Hd1e103" type="quesiton-title">UTRUM OBLIGARE SUBDITOS SIT PROXIMUS ET AD<lb break="no" ed="#P" n="29"/>AEQUATUS EFFECTUS LEGIS.
+        </head>
+        <p xml:id="szdleg-a14466-d1e108">
+          <lb ed="#P" n="30"/>CAPUT XIV.
+          <lb ed="#P" n="31"/>UTRUM OBLIGARE SUBDITOS SIT PROXIMUS ET 
+          AD<lb break="no" ed="#P" n="32"/>AEQUATUS EFFECTUS LEGIS.
+        </p>
+        <p xml:id="szdleg-a14466-d1e117">
+          <lb ed="#P" n="33"/>1. Quid sit promimus effectus legis. — Quid
+          <lb ed="#P" n="34"/>sit adaequatus effectus legis. — Praecipua 
+          ef<lb break="no" ed="#P" n="35"/>ficacia legis ad faciendos homines bonos est
+          <lb ed="#P" n="36"/>ejus obligatio, quae videtur esse maxime 
+          in<lb break="no" ed="#P" n="37"/>trinsecus effectus ejus, et ideo de illa 
+          con<lb break="no" ed="#P" n="38"/>sequenter tractamus : ut autem intelligatur
+          <lb ed="#P" n="39"/>quaestio proposita, duo termini in titulo positi
+          <lb ed="#P" n="40"/>sunt declarandi. Prior est promimus, qui 
+          po<lb break="no" ed="#P" n="41"/>nitur, quia solum loquimur de effectu quem
+          <lb ed="#P" n="42"/>lex per se ipsa facere potest, et hunc vocamus
+          <lb ed="#P" n="43"/>proximum, ut nunc excludamus effectum quem
+          <lb ed="#P" n="44"/>lex per se non facit, statuit autem ut per 
+          ho<lb break="no" ed="#P" n="45"/>minem fiat, ut est, verbi gratia, punitio, et
+          <lb ed="#P" n="46"/>hic dici potest effectus remotus legis. Alius
+          <lb ed="#P" n="47"/>vero effectus esse potest magis remotus, quia
+          <lb ed="#P" n="48"/>licet sit intentus a legislatore, lex tamen nec
+          <lb ed="#P" n="49"/>illum per se facit, nec ad illum obligat 
+          simpli<lb break="no" ed="#P" n="50"/>citer, sed ad aliquid ejus, ut est moralis 
+          bo<lb break="no" ed="#P" n="51"/>nitas subditi, de quo agemus in casibus 
+          sc<lb break="no" ed="#P" n="52"/>quentibus; nunc de primo tantum agimus.
+          <lb ed="#P" n="53"/>Alius terminus est Adequatus: potest enim
+          <lb ed="#P" n="54"/>dici talis effectus adaequatus, vel quia nulla est
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="55"/>lex quae non habeat talem effectum; vel quia
+          <lb ed="#P" n="56"/>ille effectus non porest esse nisi a lege; vel 
+          de<lb break="no" ed="#P" n="57"/>nique quia lex nullum alium habet effectum.
+          <lb ed="#P" n="58"/>De tertio membro dicemus capite sequenti;
+          <lb ed="#P" n="59"/>nunc duo priora sub illa voce 
+          comprehendi<lb break="no" ed="#P" n="60"/>mus, et supponimus esse sermonem de propria
+          <lb ed="#P" n="61"/>lege, et de propria obligatione morali, ut 
+          ex<lb break="no" ed="#P" n="62"/>cludamus legem metaphoricam, quae circa 
+          ir<lb break="no" ed="#P" n="63"/>rationalia et insensibilia versatur, quae non
+          <lb ed="#P" n="64"/>obligationem, sed necessitatem inducit per 
+          in<lb break="no" ed="#P" n="65"/>clinationem, vel instinctum naturalem, quae
+          <lb ed="#P" n="66"/>ad praesens nihil refert. De lege autem propria
+          <lb ed="#P" n="67"/>et respectu rationalis creaturae, cum constet
+          <lb ed="#P" n="68"/>non inducere illam necessitatem simpliciter,
+          <lb ed="#P" n="69"/>dubium est an inducat moralem, quae 
+          obliga<lb break="no" ed="#P" n="70"/>tio dicitur.
+        </p>
+        <p xml:id="szdleg-a14466-d1e204">
+          <lb ed="#P" n="71"/>2. Videtur ergo imprimis non posse hoc
+          <lb ed="#P" n="72"/>tribui omni legi, ex 1. Virtus, ff. de Legib.,
+          <lb ed="#P" n="73"/>et c. Omnis, dist. 3, cum his quae tradit divus
+          <lb ed="#P" n="74"/>rantur permittentes et punientes ; at vero 
+          per<lb break="no" ed="#P" n="75"/>missio opponitur obligationi juxta illud Paul,
+          <lb ed="#P" n="76"/>1 ad Corint. 7: Hoc dico secundum 
+          indulgen<lb break="no" ed="#P" n="77"/>tiam, non secundum imperium ; imo proprie
+          <lb ed="#P" n="78"/>loquendo ea dicuntur permitti quae facienda
+          <lb ed="#P" n="79"/>non sunt; permittuntur enim mala ; ergo lex
+          <lb ed="#P" n="80"/>permittens non obligat: non est ergo 
+          obliga<lb break="no" ed="#P" n="81"/>tio effectus legis in universum. Idem dubium
+          <lb ed="#P" n="82"/>nascitur ex lege poenali, quia ad poenam nemo
+          <lb ed="#P" n="83"/>obligatur propria obligatione : imo sunt, qui
+          <lb ed="#P" n="84"/>censeant quoties lex specialem imponit 
+          poe<lb break="no" ed="#P" n="85"/>nam, non inducere obligationem. Hic etiam
+          <lb ed="#P" n="86"/>addi potest lex favorabilis, qualis est 
+          privile<lb break="no" ed="#P" n="87"/>gium, quod lex appellatur ab Isidoro in capit.
+          <lb ed="#P" n="88"/>Privilegium, dist. 1, et tamen non obligat:
+          <lb ed="#P" n="89"/>nam unusquisque favori suo renunciare 
+          po<lb break="no" ed="#P" n="90"/>test, cap. Cum ad monasterium, de regular.
+          <lb ed="#P" n="91"/>Denique consilium etiam inter leges 
+          numera<lb break="no" ed="#P" n="92"/>tur : nam lex privata vocatur, in cap. Nisi
+          <lb ed="#P" n="93"/>cum pridem, de Renuntiat., et cap. 
+          Commis<lb break="no" ed="#P" n="94"/>sum, de Sponsal., et tamen non obligat.
+        </p>
+        <p xml:id="szdleg-a14466-d1e260">
+          <lb ed="#P" n="95"/>3. Deinde neque in secundo sensu videtur
+          <lb ed="#P" n="96"/>obligatio adaequatus effectus legis. Primo, quia
+          <lb ed="#P" n="97"/>etiam praecepta privata obligant, quamvis 
+          le<lb break="no" ed="#P" n="98"/>ges non sint. Imo non tantum praecepta quae
+          <lb ed="#P" n="99"/>ex jurisdictione procedunt, sed etiam sine 
+          ju<lb break="no" ed="#P" n="100"/>risdictione obligare solent, ut praeceptum 
+          pa<lb break="no" ed="#P" n="101"/>rentis ad filium, domini ad servos, et Praelati
+          <lb ed="#P" n="102"/>religionis ad subditos, etiamsi jurisdictionem
+          <lb ed="#P" n="103"/>non habeat, ut olim erat in usu etiam in 
+          mo<lb break="no" ed="#P" n="104"/>nasteriis virorum , et nunc in monialibus 
+          re<lb break="no" ed="#P" n="105"/>peritur. Item obligatio saepe oritur ex propria
+          <lb ed="#P" n="106"/>voluntate, ut in voto, promissione, ct 
+          quocum<lb break="no" ed="#P" n="107"/>que contractu : non est ergo obligatio 
+          adae<lb break="no" ed="#P" n="108"/>quatus effectus legis in illo sensu.
+        </p>
+        <p xml:id="szdleg-a14466-d1e293">
+          <pb ed="#P" n="57"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>4. Omnem legem propriam obligationem 
+          in<lb break="no" ed="#P" n="2"/>ducere. — Nihilominus dicendum est primo
+          <lb ed="#P" n="3"/>nullam esse propriam legem quae obligationem
+          <lb ed="#P" n="4"/>non inducat, id est, necessitatem quamdam
+          <lb ed="#P" n="5"/>operandi, vel non operandi. Est communis 
+          as<lb break="no" ed="#P" n="6"/>sertio theologorum cum D. Thoma, quaest. 92,
+          <lb ed="#P" n="7"/>art. 2, ad 1, et q. 93, art. 2; Soto, q. 4, a. L
+          <lb ed="#P" n="8"/>Castro, lib. 1, cap. 1, ad finem, et Juristarum,
+          <lb ed="#P" n="9"/>in leg. Legis virtus , et in d. cap. Omnis. Et
+          <lb ed="#P" n="10"/>eodem sensu dixit Gratianus, dist. 4, ad finem:
+          <lb ed="#P" n="11"/>Decretum necessitatem facit, emhortatio 
+          libe<lb break="no" ed="#P" n="12"/>ram coluntatem excitat. Similem sententiam
+          <lb ed="#P" n="13"/>habet sub nomine consilii et praecepti 
+          Hiero<lb break="no" ed="#P" n="14"/>nymus, 1. 2 contra Jovin., circa med.: Ubi
+          <lb ed="#P" n="15"/>consilium datur, offerentis arbitrium est - ubi
+          <lb ed="#P" n="16"/>praeceptum , necessitas est servitutis. Et 
+          Am<lb break="no" ed="#P" n="17"/>brosius, lib. de Viduis, circa finem : 
+          Praecep<lb break="no" ed="#P" n="18"/>tum (inquit) in subditos fertur, consilium 
+          ami<lb break="no" ed="#P" n="19"/>cis datur ; ubi praeceptum est, ili lex est: ubi
+          <lb ed="#P" n="20"/>consilium, ibi gratia est. Et infra: Praceptum
+          <lb ed="#P" n="21"/>ibi est, ubi est pena peccati, utique propter
+          <lb ed="#P" n="22"/>necessitatem quam praeceptum inducit. Sic
+          <lb ed="#P" n="23"/>etiam dicit Augustinns in lib. de sancta 
+          Vir<lb break="no" ed="#P" n="24"/>ginitate, cap. 14: Domino praecipienti non 
+          obe<lb break="no" ed="#P" n="25"/>dire damnalile est ; et infra : Praecepto quisque
+          <lb ed="#P" n="26"/>non obtemperat, reus est, et delitor pene. 
+          Pon<lb break="no" ed="#P" n="27"/>derari etiam potest quod ait Gregorius, l. 12,
+          <lb ed="#P" n="28"/>ep. 17, et refertur in cap. 1 de Donat. : 
+          No<lb break="no" ed="#P" n="29"/>bilitas quodammodo sibi legem wmponit , ut
+          <lb ed="#P" n="30"/>debere se, quod sponte tribuit, emistimet - 
+          sup<lb break="no" ed="#P" n="31"/>ponit enim legem imponere debitum. Denique
+          <lb ed="#P" n="32"/>Aristoteles, 1 Ethic., cap. 9, hac ratione dixit
+          <lb ed="#P" n="33"/>in lege esse vim coactivam, quia licet non
+          <lb ed="#P" n="34"/>omnis lex specialiter poenam imponat, infert
+          <lb ed="#P" n="35"/>tamen necessitatem ratione cujus homo fit 
+          di<lb break="no" ed="#P" n="36"/>gnus poena, si legem transgrediatur. Ratio 
+          au<lb break="no" ed="#P" n="37"/>tem sumitur ex dictis de substantia legis : est
+          <lb ed="#P" n="38"/>enim imperium procedens a voluntate efficaci
+          <lb ed="#P" n="39"/>obligandi ejus qui potestatem habet ; sed 
+          vo<lb break="no" ed="#P" n="40"/>luntas efficax supposita potestate, inducit 
+          effec<lb break="no" ed="#P" n="41"/>tum ; ergo. Sensus autem, et major declaratio
+          <lb ed="#P" n="42"/>assertionis patebit, respondendo ad ea, quae
+          <lb ed="#P" n="43"/>in primo membro objecta sunt, et ideo illis
+          <lb ed="#P" n="44"/>satisfaciendum est.
+        </p>
+        <p xml:id="szdleg-a14466-d1e395">
+          <lb ed="#P" n="45"/>5. Quaenam leges permittentes habeant veram
+          <lb ed="#P" n="46"/>rationem legis.—Circa primum ergo de lege 
+          per<lb break="no" ed="#P" n="47"/>missiva uno verbo respondeo cum Castro 1. 1
+          <lb ed="#P" n="48"/>de lege poenal., c. 1, in fine, leges 
+          permitten<lb break="no" ed="#P" n="49"/>tes in tantum esse leges, in quantum latenter
+          <lb ed="#P" n="50"/>habent admista praecepta , sine quibus non
+          <lb ed="#P" n="51"/>posset intelligi permissio, ut specialiter 
+          decre<lb break="no" ed="#P" n="52"/>ta per legem. Quod significavit Glossa in dict.
+          <lb ed="#P" n="53"/>leg. Legis virtus, dum utitur exemplo legis
+          <lb ed="#P" n="54"/>primae, Cod. de Jur. et fact. ignor; ubi militi
+          <lb ed="#P" n="55"/>permittitur uti exceptionibus post sententiam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>contra se latam, propter suam ignorantiam :
+          <lb ed="#P" n="57"/>nam illa permissio legis obligat judicem ad
+          <lb ed="#P" n="58"/>tales exceptiones admittendas, et idem est in
+          <lb ed="#P" n="59"/>similibus, ut cap. sequenti latius explicabo.
+        </p>
+        <p xml:id="szdleg-a14466-d1e432">
+          <lb ed="#P" n="60"/>6. De duplici obligatione consideranda in
+          <lb ed="#P" n="61"/>lege. — Circa secundum de lege poenali, 
+          ad<lb break="no" ed="#P" n="62"/>verto duplicem posse intelligi respectum in
+          <lb ed="#P" n="63"/>tali lege, unus est ad judicem qui inflicturus
+          <lb ed="#P" n="64"/>est poenam : alius est ad reum qui illam 
+          passu<lb break="no" ed="#P" n="65"/>rus est. Priori modo dici potest lex illa 
+          indu<lb break="no" ed="#P" n="66"/>cere obligationem , et imponere illam judici,
+          <lb ed="#P" n="67"/>puniendi tale delictum secundum mensuram
+          <lb ed="#P" n="68"/>per legem praeseriptam. Juxta illud Augustini,
+          <lb ed="#P" n="69"/>lib. de ver. Relig., c. 31: In his temporalibus
+          <lb ed="#P" n="70"/>legibus, quamquam de his homines judicent,
+          <lb ed="#P" n="71"/>cum eas instituunt, cum tamen fuerint institutee
+          <lb ed="#P" n="72"/>et firmatee, non licebit judicibus de eis judicare,
+          <lb ed="#P" n="73"/>sed secundum ipsas. Haec autem obligatio 
+          ma<lb break="no" ed="#P" n="74"/>jor est in ordinariis judicibus quam in supremo
+          <lb ed="#P" n="75"/>Principe, ut declarat D. Thomas 9.2q. 67,
+          <lb ed="#P" n="76"/>art. 4; in omnibus tamen est aliqua, 
+          praeter<lb break="no" ed="#P" n="77"/>quam in Deo, qui est supremus Dominus, et
+          <lb ed="#P" n="78"/>potest poenam prout voluerit relaxare, sed hoc
+          <lb ed="#P" n="79"/>nihil ad praesens refert.
+        </p>
+        <p xml:id="szdleg-a14466-d1e478">
+          <lb ed="#P" n="80"/>7. Circa posteriorem autem respectum 
+          ad<lb break="no" ed="#P" n="81"/>vertendum est duas posse intelligi obligationes
+          <lb ed="#P" n="82"/>in lege : una est ad culpam , quae solet dici in
+          <lb ed="#P" n="83"/>conscientia : alia est ad poenam. Nam, licet
+          <lb ed="#P" n="84"/>haec posterior videatur illam priorem 
+          suppo<lb break="no" ed="#P" n="85"/>nere, quia nemo fit dignus poena nisi per 
+          cul<lb break="no" ed="#P" n="86"/>pam, nihilominus controverti solet an lex 
+          ali<lb break="no" ed="#P" n="87"/>qua inducat posteriorem obligationem sine
+          <lb ed="#P" n="88"/>priori, quod solum in quibusdam legibus 
+          hu<lb break="no" ed="#P" n="89"/>manis habet aliquam dubitationem : nam in
+          <lb ed="#P" n="90"/>divinis certum est illud principium : de illa
+          <lb ed="#P" n="91"/>autem quaestione postea dicemus, tractando
+          <lb ed="#P" n="92"/>de lege paenali. Nunc vel potest intelligi 
+          as<lb break="no" ed="#P" n="93"/>sertio posita de obligatione in genere, 
+          abstra<lb break="no" ed="#P" n="94"/>hendo ab illis duobus modis : vel melius dici
+          <lb ed="#P" n="95"/>potest, etiamsi aliqua lex non obliget in 
+          con<lb break="no" ed="#P" n="96"/>scientia ad actum, propter cujus 
+          transgressio<lb break="no" ed="#P" n="97"/>nem poena imponitur, obligare saltem vel ad
+          <lb ed="#P" n="98"/>illum, vel ad solvendam, seu sustinendam
+          <lb ed="#P" n="99"/>poenam, et ita neque illam legem esse sine
+          <lb ed="#P" n="100"/>aliqua obligatione omnino propria. Dixi 
+          au<lb break="no" ed="#P" n="101"/>tem ad solvendam , vel sustinendam ponam ,
+          <lb ed="#P" n="102"/>quia etiam de ipsa poena quaestio est, an lex
+          <lb ed="#P" n="103"/>per se et immediate obliget ad illam, quae non
+          <lb ed="#P" n="104"/>est hic tractanda ; satis enim est ad 
+          assertio<lb break="no" ed="#P" n="105"/>nem positam, quod obliget, sive ante, sive post
+          <lb ed="#P" n="106"/>sententiam latam ; sive ad agendum, sive ad
+          <lb ed="#P" n="107"/>non resistendum , atque ita ad sustinendam
+          <lb ed="#P" n="108"/>poenam.
+        </p>
+        <p xml:id="szdleg-a14466-d1e543">
+          <lb ed="#P" n="109"/>8. Opinio asserentium privilegium non 
+          es<lb break="no" ed="#P" n="110"/>se vera legem. — Sententia auctoris privile-
+          <pb ed="#P" n="58"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gium esse veram legem. — Circa tertium de
+          <lb ed="#P" n="2"/>privilegiis, multi propter illam rationem 
+          ne<lb break="no" ed="#P" n="3"/>gant privilegium esse veram legem, sed aut 
+          se<lb break="no" ed="#P" n="4"/>cundum quid tantum, ut sentit Glossa in d.
+          <lb ed="#P" n="5"/>cap. Privilegium , aut nullo modo, ut sentit
+          <lb ed="#P" n="6"/>Castro, lib. 1 de Lege poenali, cap. 1. Ego
+          <lb ed="#P" n="7"/>vero existimo. si privilegium cum proportione
+          <lb ed="#P" n="8"/>sumatur. non minus posse inter leges 
+          compu<lb break="no" ed="#P" n="9"/>tari quam permissionem. Quae est aperta 
+          sen<lb break="no" ed="#P" n="10"/>tentia D. Isidori, 5 Etymol., cap. 19, ut 
+          vide<lb break="no" ed="#P" n="11"/>bimus cap. sequenti. Dico autem cum 
+          propor<lb break="no" ed="#P" n="12"/>tione. quia si sermo sit de privilegio temporali,
+          <lb ed="#P" n="13"/>vel concesso uni personae, ut cum ejus vita 
+          fi<lb break="no" ed="#P" n="14"/>niatur, illud deficit a ratione legis, non praecise
+          <lb ed="#P" n="15"/>ex eo quod privilegium est, sed quia non est
+          <lb ed="#P" n="16"/>quid stabile aut firmum, quod diximus esse de
+          <lb ed="#P" n="17"/>ratione legis: at privilegium perpetuum 
+          conces<lb break="no" ed="#P" n="18"/>sum aut communitati alicui aut familiae ut in ea
+          <lb ed="#P" n="19"/>semper duret, propriam rationem legis habet.
+        </p>
+        <p xml:id="szdleg-a14466-d1e596">
+          <lb ed="#P" n="20"/>9. De duplici privilegio , et qua ratione
+          <lb ed="#P" n="21"/>utrumque veram rationem legis contineat. —
+          <lb ed="#P" n="22"/>Oportet tamen duplicia distinguere privilegia ;
+          <lb ed="#P" n="23"/>quaedam sunt concessa intuitu alicujus boni
+          <lb ed="#P" n="24"/>communis, quibus privatae personae renunciare
+          <lb ed="#P" n="25"/>non possunt juxta, cap. Si diligenti de Foro
+          <lb ed="#P" n="26"/>competenti , et l. Jus publicum, ft. de Pactis,
+          <lb ed="#P" n="27"/>ut est privilegium fori, verbi gratia, respectu
+          <lb ed="#P" n="28"/>clerici, cui ipse renunciare non potest, quia
+          <lb ed="#P" n="29"/>non intuitu personae suae, sed dignitatis 
+          cleri<lb break="no" ed="#P" n="30"/>calis concessum est. Et hoc privilegium 
+          pro<lb break="no" ed="#P" n="31"/>priissime est lex, non solum respectu aliorum
+          <lb ed="#P" n="32"/>quibus praecipitur ut tale privilegium clerico
+          <lb ed="#P" n="33"/>observent, sed etiam respectu ipsius clerici,
+          <lb ed="#P" n="34"/>cui praecipitur ut illo utatur. In illa enim 
+          dis<lb break="no" ed="#P" n="35"/>positione superioris invenitur perfecta vis 
+          obli<lb break="no" ed="#P" n="36"/>gand: : nihil ergo illi deest ad rationem legis.
+          <lb ed="#P" n="37"/>Alia sunt iprivilegia concessa intuitu privati
+          <lb ed="#P" n="38"/>commodi ipsarum personarum, de quibus est
+          <lb ed="#P" n="39"/>sermo in dicto capite Cum accessissent de
+          <lb ed="#P" n="40"/>Probat. , et in regula Quod ob gratiam de 
+          Re<lb break="no" ed="#P" n="41"/>gulis jur., in 6, ubi Glossa et alii, Sylvester
+          <lb ed="#P" n="42"/>verbo Privilegium. Hoc ergo privilegium, si
+          <lb ed="#P" n="43"/>comparetur ad ipsum cui conceditur, sine 
+          du<lb break="no" ed="#P" n="44"/>bio non habet rationem legis, ut probat ratio
+          <lb ed="#P" n="45"/>facta, quia non est praeceptum illi impositum,
+          <lb ed="#P" n="46"/>neque obligat illum, cum possit ei renunciare.
+          <lb ed="#P" n="47"/>At vero respectu aliorum qui tale privilegium
+          <lb ed="#P" n="48"/>observaturi sunt, veram habet rationem legis:
+          <lb ed="#P" n="49"/>continet enim praeceptum perpetuum obligans
+          <lb ed="#P" n="50"/>ad talem immunitatem servandam ; alioqui
+          <lb ed="#P" n="51"/>valde inefficax esset tale privilegium : ergo
+          <lb ed="#P" n="52"/>sicut de promissione diximus, vel etiam de
+          <lb ed="#P" n="53"/>lege punitiva, quatenus obligat judicem ut
+          <lb ed="#P" n="54"/>tale justum nocumentum inferat, ita in 
+          prae<lb break="no" ed="#P" n="55"/>senti dicendum est,
+        </p>
+        <p xml:id="szdleg-a14466-d1e677">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>10. Consilium rationem legis non habere
+          <lb ed="#P" n="57"/>ratio a priori ostendit. — Circa quartum de
+          <lb ed="#P" n="58"/>consilio, Glossa , in dicta lege Legis cirtus,
+          <lb ed="#P" n="59"/>propter illud censuit etiam consilium pertinere
+          <lb ed="#P" n="60"/>ad virtutem legis. Illam tamen communiter
+          <lb ed="#P" n="61"/>reprobant Bartholomaeus et caeteri. Soto lib. 1
+          <lb ed="#P" n="62"/>de Justit., quaestion. 2, art. 2, eam irridet,
+          <lb ed="#P" n="63"/>quoniam consilium potius condistinguitur a
+          <lb ed="#P" n="64"/>praecepto, et consequenter a lege, quod sentit
+          <lb ed="#P" n="65"/>etiam D. Thomas, dict. quaestion. 92, art. 2,
+          <lb ed="#P" n="66"/>ad 2, et quaest. 17 de Verit., art. 3, ad 2. et
+          <lb ed="#P" n="67"/>haec sententia in rigore et proprietate vera est,
+          <lb ed="#P" n="68"/>ut supra etiam dixi : et ratio D. Thomae est
+          <lb ed="#P" n="69"/>optima, quia consilium non requirit 
+          potesta<lb break="no" ed="#P" n="70"/>tem superioris, sed a privato etiam dari potest;
+          <lb ed="#P" n="71"/>ergo per se non requirit auctoritatem legis.
+        </p>
+        <p xml:id="szdleg-a14466-d1e716">
+          <lb ed="#P" n="72"/>11. Objectio. — Solutio. — p vero 
+          po<lb break="no" ed="#P" n="73"/>test, quia idem D. Thomas 1. 2, q. 108, art.
+          <lb ed="#P" n="74"/>4, consilia evangelica ponit inter partes legis
+          <lb ed="#P" n="75"/>gratiae. Respondetur primo, nomine legis 
+          in<lb break="no" ed="#P" n="76"/>terdum comprehendi totam dispositionem ,
+          <lb ed="#P" n="77"/>seu providentiam legislatoris circa 
+          guberna<lb break="no" ed="#P" n="78"/>tionem subditorum, et sic ad illum pertinet
+          <lb ed="#P" n="79"/>non tantum praecepta dare, sed etiam consilia
+          <lb ed="#P" n="80"/>de iis quae meliora sunt ; quod observavit
+          <lb ed="#P" n="81"/>Christus Dominus in lege Evangelica, et injure
+          <lb ed="#P" n="82"/>etiam humano, praesertim canonico, saepe 
+          ob<lb break="no" ed="#P" n="83"/>servatur, ut patet in cap. Commissum de 
+          Spon<lb break="no" ed="#P" n="84"/>salibus, ibi: Tutius est. Et multa sunt similia
+          <lb ed="#P" n="85"/>jura, ad quae intelligenda est hoc saepe 
+          neces<lb break="no" ed="#P" n="86"/>sarium. In hoc ergo sensu non male dixit ila
+          <lb ed="#P" n="87"/>Glossa legem non tantum praecipere, sed etiam
+          <lb ed="#P" n="88"/>consulere, quamvis re vera id non faciat 
+          for<lb break="no" ed="#P" n="89"/>maliter, ut lex, sed concomitanter. Addo 
+          prae<lb break="no" ed="#P" n="90"/>terea, quando lex consulit unum effectum,
+          <lb ed="#P" n="91"/>sequi alium, nimirum, ut illud opus quod 
+          con<lb break="no" ed="#P" n="92"/>sulitur jure prohiberi non possit, nec tanquam
+          <lb ed="#P" n="93"/>malum refutari, et quoad hoc dici potest illa
+          <lb ed="#P" n="94"/>lex retinere vim legis, et obligare. Et hoc
+          <lb ed="#P" n="95"/>modo cum mapjori proprietate dicuntur 
+          consi<lb break="no" ed="#P" n="96"/>lia evangelica pertinere ad legem gratiae 
+          tan<lb break="no" ed="#P" n="97"/>quam approbata et stabilita per illam. Et hac
+          <lb ed="#P" n="98"/>ratione pro consiliüs evangelicis damnamus
+          <lb ed="#P" n="99"/>haereticos, qui paupertatem aut continentiam
+          <lb ed="#P" n="100"/>reprehendunt tanquam naturae contrariam.
+          <lb ed="#P" n="101"/>Ita ergo nulla lex est, vel dispositio superioris
+          <lb ed="#P" n="102"/>quae participet rationem legis, nisi in quantum
+          <lb ed="#P" n="103"/>obligationem inducit.
+        </p>
+        <p xml:id="szdleg-a14466-d1e788">
+          <lb ed="#P" n="104"/>12. Secunda assertio. — Obligationem esse
+          <lb ed="#P" n="105"/>adaequatum effectum legis. — Dico secundo: Si
+          <lb ed="#P" n="106"/>obligatio proprie et cum proportione sumatur,
+          <lb ed="#P" n="107"/>semper or itur ex aliquo jure et lege, atque ita
+          <lb ed="#P" n="108"/>in hoc sensu dici potest hic effectus adaequatus
+          <lb ed="#P" n="109"/>legis. Declaratur breviter : nam imprimis 
+          ne<lb break="no" ed="#P" n="110"/>cesse est loqui de obligatione communitati
+          <pb ed="#P" n="59"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>imposita, quia si imponatur privatae personae,
+          <lb ed="#P" n="2"/>non erit ex lege, et idem est si imponatur ad
+          <lb ed="#P" n="3"/>breve tempus, quia tunc etiam deficit conditio
+          <lb ed="#P" n="4"/>requisita ad legem. Quamvis illae etiam 
+          obhi<lb break="no" ed="#P" n="5"/>gationes, quatenus habent aliquam 
+          convenien<lb break="no" ed="#P" n="6"/>tiam cum obligatione legis in hoc quod ab alio
+          <lb ed="#P" n="7"/>habente potestatem imponuntur : 
+          consequen<lb break="no" ed="#P" n="8"/>ter etiam conveniunt cum lege in hoc quod ex
+          <lb ed="#P" n="9"/>imperio seu praecepto aliquo proveniunt ,
+          <lb ed="#P" n="10"/>maxime quando necessitatem in conscientia
+          <lb ed="#P" n="11"/>imponunt : imo etiam tunc ab aliqua lege 
+          to<lb break="no" ed="#P" n="12"/>tam vim obligandi accipiunt. Atque ita sensus
+          <lb ed="#P" n="13"/>assertionis est, omnem hujusmodi 
+          obligatio<lb break="no" ed="#P" n="14"/>nem ex lege oriri aliquo modo. Probatur 
+          au<lb break="no" ed="#P" n="15"/>tem primo a contrario ex Augustino, 22 contra
+          <lb ed="#P" n="16"/>Faust., cap. 27, definiente peccatum esse 
+          dic<lb break="no" ed="#P" n="17"/>tum vel factum contra legem : nam aperte
+          <lb ed="#P" n="18"/>supponit omnem obligationem ad aliquid 
+          vi<lb break="no" ed="#P" n="19"/>tandum vel faciendum oriri ex lege: nam
+          <lb ed="#P" n="20"/>quoties aliquis agendo contra obligationem
+          <lb ed="#P" n="21"/>propriam in conscientia peccat, agit contra
+          <lb ed="#P" n="22"/>legem : ergo talis obligatio erat ex lege.
+        </p>
+        <p xml:id="szdleg-a14466-d1e858">
+          <lb ed="#P" n="23"/>13. Deinde probatur eisdem exemplis quae
+          <lb ed="#P" n="24"/>in contrarium afferebantur, scilicet, voto, 
+          pro<lb break="no" ed="#P" n="25"/>missione, aut quocumque pacto: nam ex his
+          <lb ed="#P" n="26"/>omnibus non oritur obligatio, nisi ex v irtute
+          <lb ed="#P" n="27"/>legis. In illis enim omnibus distinguere 
+          opor<lb break="no" ed="#P" n="28"/>tet fundamentum , seu proximam materiam
+          <lb ed="#P" n="29"/>obligationis a propria ratione et causa ejus:
+          <lb ed="#P" n="30"/>nam fundamentum consistit in aliqua actione
+          <lb ed="#P" n="31"/>humana: ila vero supposita , jus est quod
+          <lb ed="#P" n="32"/>obligat: sic in voto (et idem est cum 
+          propor<lb break="no" ed="#P" n="33"/>tione de reliquis), proximum fundamentum
+          <lb ed="#P" n="34"/>obligationis est voluntaria promissio: quod
+          <lb ed="#P" n="35"/>autem proprie obligat ad illam implendam,
+          <lb ed="#P" n="36"/>est jus illud naturale a ac divinum: : 5i quid 
+          vo<lb break="no" ed="#P" n="37"/>visti Domino, ne mor eris reddere. Et ita etiam
+          <lb ed="#P" n="38"/>juristae dicunt omnem obligationem quae ex
+          <lb ed="#P" n="39"/>contractibus oritur esse naturalem, vel 
+          civi<lb break="no" ed="#P" n="40"/>lem, quia ex jure naturali, seu gentium, aut
+          <lb ed="#P" n="41"/>civili oritur, ut sumitur ex textu cum Glossa
+          <lb ed="#P" n="42"/>in l. Cum amplius, ff. de Regul. jur., et l. Ec
+          <lb ed="#P" n="43"/>hoc, ff. de Justit. et jur., et ita satisfactum est
+          <lb ed="#P" n="44"/>secundae parti rationis dubitandi in principio
+          <lb ed="#P" n="45"/>positae.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

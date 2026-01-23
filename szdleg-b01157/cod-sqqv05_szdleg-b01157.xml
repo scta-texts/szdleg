@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 17</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 17</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="399"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-b01157"><!-- deleg-l4c17 -->
+        <head xml:id="szdleg-b01157-Hd1e101">Caput 17</head>
+        <head xml:id="szdleg-b01157-Hd1e103" type="question-title">Utrum leges canonice obligent in conscientia</head>
+        <p xml:id="szdleg-b01157-d1e106">
+          <lb ed="#P" n="103"/>CAPUT XXVII.
+          <lb ed="#P" n="104"/>UTRUM LEGES CANONICE OBLIGENT IN CONSCIENTIA.
+        </p>
+        <p xml:id="szdleg-b01157-d1e113">
+          <lb ed="#P" n="105"/>1. Negat Gerson. —Gerson (cujus opinionem
+          <lb ed="#P" n="106"/>tractavimus libro superiori, cap. 17 et 18), in
+          <lb ed="#P" n="107"/>tractatu de Vita spirit., lect. 4, alphab. 62,
+          <pb ed="#P" n="400"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>lit. G, dum negat legem humanam, quae talis
+          <lb ed="#P" n="2"/>est, obligare in conscientia, non solum de 
+          ci<lb break="no" ed="#P" n="3"/>vili, sed etiam de ecclesiastica aperte loquitur;
+          <lb ed="#P" n="4"/>nam in legibus ecclesiasticis ponit exempla, et
+          <lb ed="#P" n="5"/>earum multitudinem, et rigorosam 
+          obligatio<lb break="no" ed="#P" n="6"/>nem tanquam necessariam ad salutem 
+          aeter<lb break="no" ed="#P" n="7"/>nam praecipue reprehendit, ut ex coroll. 
+          sep<lb break="no" ed="#P" n="8"/>timo constat. Potest tamen habere illum 
+          du<lb break="no" ed="#P" n="9"/>plicem sensum supra declaratum in lege civili,
+          <lb ed="#P" n="10"/>scilicet, vel quod ecclesiastica non possit 
+          obli<lb break="no" ed="#P" n="11"/>gationem inducere, sed tantum explicare vel
+          <lb ed="#P" n="12"/>proponere illam quae ex principiis revelatis
+          <lb ed="#P" n="13"/>colligitur certo vel probabiliter. Et hic sensus
+          <lb ed="#P" n="14"/>est omnino falsus, multo magis in legibus 
+          ec<lb break="no" ed="#P" n="15"/>clesiasticis quam in civilibus, ut Almainus 
+          no<lb break="no" ed="#P" n="16"/>tavit in Moral., capitulo duodecimo, et ex dictis
+          <lb ed="#P" n="17"/>in libro superiori satis convincitur, et statim
+          <lb ed="#P" n="18"/>ostendetur. Alter sensus esse potest, quod, licet
+          <lb ed="#P" n="19"/>leges ecclesiasticae revera obligent in 
+          conscien<lb break="no" ed="#P" n="20"/>tia, non dicantur obligare quatenus 
+          ecclesias<lb break="no" ed="#P" n="21"/>ticae sunt, vel humanae, sed quatenus sunt
+          <lb ed="#P" n="22"/>aliquo modo divinae per deductionem ex 
+          ali<lb break="no" ed="#P" n="23"/>quibus principiis revelatis, et sic erit quaestio
+          <lb ed="#P" n="24"/>de vocabulo. In qua etiam modus loquendi
+          <lb ed="#P" n="25"/>Gersonis probandus non est, ut ex dictis in
+          <lb ed="#P" n="26"/>libro tertio a fortiori convincitur.
+        </p>
+        <p xml:id="szdleg-b01157-d1e183">
+          <lb ed="#P" n="27"/>2. Conclusio affirmativa.—bico ergo primo:
+          <lb ed="#P" n="28"/>lex canonica, seu ecclesiastica obligare potest, et
+          <lb ed="#P" n="29"/>ex se obligat in conscientia. Conclusio est certa,
+          <lb ed="#P" n="30"/>quam omnes doctores catholici docent, et 
+          suf<lb break="no" ed="#P" n="31"/>ficiunt supra relati lib. 3, cap. 17, et in 
+          prae<lb break="no" ed="#P" n="32"/>cedentibus capitibus. Nam ex ibi dictis de 
+          po<lb break="no" ed="#P" n="33"/>testate ecclesiastica ad ferendas leges, plane
+          <lb ed="#P" n="34"/>convincitur haec veritas. Quia si potestas 
+          eccle<lb break="no" ed="#P" n="35"/>siastica non posset obligationem novam 
+          im<lb break="no" ed="#P" n="36"/>ponere, sed tantum divinam proponere, vel
+          <lb ed="#P" n="37"/>exponere, esset potestas declarativa tantum
+          <lb ed="#P" n="38"/>superioris juris, non tamen legislativa. Hoc
+          <lb ed="#P" n="39"/>ctiam a fortiori convincunt omnia quae de
+          <lb ed="#P" n="40"/>obligatione legis civilis diximus. Denique ex
+          <lb ed="#P" n="41"/>dicendis statim hoc evidentius confirmabitur.
+          <lb ed="#P" n="42"/>Circa hanc vero assertionem tractari posset, an
+          <lb ed="#P" n="43"/>haec obligatio in conscientia semper sequatur
+          <lb ed="#P" n="44"/>ex omni lege ecclesiastica, etiamsi poenahs sit,
+          <lb ed="#P" n="45"/>vel in praesumptione fundetur. Sed hae 
+          quaes<lb break="no" ed="#P" n="46"/>tiones tractatae sunt de lege civili, et quae de
+          <lb ed="#P" n="47"/>illa diximus communia sunt legi humanae,
+          <lb ed="#P" n="48"/>qua talis est, ideoque omnia sunt cum 
+          pro<lb break="no" ed="#P" n="49"/>portione ad legem ecclesiasticam applicanda,
+          <lb ed="#P" n="50"/>neque aliquid novum, aut speciale occurrit 
+          ad<lb break="no" ed="#P" n="51"/>dendum, praeter ea quae infra de lege poenali
+          <lb ed="#P" n="52"/>dicemus.
+        </p>
+        <p xml:id="szdleg-b01157-d1e243">
+          <lb ed="#P" n="53"/>3. Praelati religionum sicut ecclesiastici 
+          pos<lb break="no" ed="#P" n="54"/>sunt condere leges obligantes in conscientia. —
+          <lb ed="#P" n="55"/>Sed objici solet, quia Praelati religionum non
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>possunt praecipere, nisi secundum regulam 
+          re<lb break="no" ed="#P" n="57"/>ligionis ; ergo nec Praelati ecclesiastici possunt
+          <lb ed="#P" n="58"/>praecipere aliquid, nisi secundum legem 
+          Chris<lb break="no" ed="#P" n="59"/>ti; ergo non possunt novas leges ferre 
+          obli<lb break="no" ed="#P" n="60"/>gantes in conscientia. Respondetur tamen 
+          fa<lb break="no" ed="#P" n="61"/>cile, etiam Praelatos religionum posse novas
+          <lb ed="#P" n="62"/>leges condere obligantes in conscientia, ut in
+          <lb ed="#P" n="63"/>proprio tract. de Stat. Relig. ostenditur. Unde
+          <lb ed="#P" n="64"/>potius potest retorqueri argumentum, quia in
+          <lb ed="#P" n="65"/>hoc servatur quaedam proportionalis ratio inter
+          <lb ed="#P" n="66"/>utrosque Praelatos : nam utrique possunt 
+          prae<lb break="no" ed="#P" n="67"/>cipere quae sunt consentanea suo fini, et 
+          regu<lb break="no" ed="#P" n="68"/>lae sibi proportionataee. Absolute tamen est
+          <lb ed="#P" n="69"/>differentia, quia Praelati Ecclesiae possunt 
+          prae<lb break="no" ed="#P" n="70"/>cipere quae sunt consentanea aeternae saluti
+          <lb ed="#P" n="71"/>consequendae secundum regulam, vel 
+          institu<lb break="no" ed="#P" n="72"/>tionem a Christo traditam, id est, quae juvent
+          <lb ed="#P" n="73"/>communiter omnes fideles ad legem Christi
+          <lb ed="#P" n="74"/>servandam, quae unica est salutis via. Praelati
+          <lb ed="#P" n="75"/>autem religionum possunt praecipere quae 
+          con<lb break="no" ed="#P" n="76"/>sentanea sunt ad perfectionem etiam 
+          assequen<lb break="no" ed="#P" n="77"/>dam. Sed quia multae sunt viae ad perfectionem,
+          <lb ed="#P" n="78"/>in unaquaque religione est potestas 
+          praeci<lb break="no" ed="#P" n="79"/>piendi secundum suam professionem et 
+          regu<lb break="no" ed="#P" n="80"/>lam, quia illa jurisdictio supponit voluntariam
+          <lb ed="#P" n="81"/>professionem cui accommodatur; jurisdictio
+          <lb ed="#P" n="82"/>autem ecclcesiastica accommodatur voluntati
+          <lb ed="#P" n="83"/>CHRISTI, a quo perfecta est tam institutio et
+          <lb ed="#P" n="84"/>professio christianae religionis, quam 
+          jurisdic<lb break="no" ed="#P" n="85"/>tio illi conveniens ac proportionata.
+        </p>
+        <p xml:id="szdleg-b01157-d1e319">
+          <lb ed="#P" n="86"/>4. Legem ecclesiasticam ex se obligare sub 
+          pec<lb break="no" ed="#P" n="87"/>cato mortali si absolute feratur. — Dico 
+          secun<lb break="no" ed="#P" n="88"/>do : lex ecclesiastica ex se, seu ex genere suo
+          <lb ed="#P" n="89"/>obligat sub reatu mortalis culpae, si absolute
+          <lb ed="#P" n="90"/>feratur. Est communis assertio doctorum, quos
+          <lb ed="#P" n="91"/>retuli superiori libro, cap. 20; et Almain., de
+          <lb ed="#P" n="92"/>Potest. Eccles., cap. 12; Panorm., cap. 1 de
+          <lb ed="#P" n="93"/>Constit., n. 9; Felin., in cap. 1 de Sponsal.,
+          <lb ed="#P" n="94"/>n. 17 et 19, ubi plures refert, et specialiter
+          <lb ed="#P" n="95"/>Glossa in capite Mattheus, de Simon., verbo
+          <lb ed="#P" n="96"/>Consulis, juncto textu, ex quo colligitur 
+          prae<lb break="no" ed="#P" n="97"/>cepta ecclesiastica circa simoniam obligare
+          <lb ed="#P" n="98"/>sub reatu salutis aeternae ; quod etiam ibi 
+          nota<lb break="no" ed="#P" n="99"/>vit Joan. de Anania. Probari autem potest
+          <lb ed="#P" n="100"/>primo a fortiori ex omnibus dictis de lege 
+          ci<lb break="no" ed="#P" n="101"/>vili. Secuncdo, potest ostendi omnibus 
+          testi<lb break="no" ed="#P" n="102"/>moniis et rationibus quibus ecclesiasticam 
+          po<lb break="no" ed="#P" n="103"/>testatem ad cogendum per leges, et per 
+          spiri<lb break="no" ed="#P" n="104"/>tuales poenas, partim in principio hujus libri,
+          <lb ed="#P" n="105"/>partim in libro de Censuris, copiose 
+          ostendi<lb break="no" ed="#P" n="106"/>mus. Tertio, nunc sufficiunt verba Christi
+          <lb ed="#P" n="107"/>Domini Luc. 10: Qui vos audit me audit, et
+          <lb ed="#P" n="108"/>qui vos spernit ae spernit. Et similia habet
+          <lb ed="#P" n="109"/>Paul. 1 ad Thessal. 4, ubi prius commendat
+          <lb ed="#P" n="110"/>praecepta a se data, et postea dicit Christum
+          <pb ed="#P" n="401"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>despicere qui ea negligit; constat autem 
+          sper<lb break="no" ed="#P" n="2"/>nere Christum non solum contra conscientiam
+          <lb ed="#P" n="3"/>esse, sed etiam grave peccatum. Facit etiam
+          <lb ed="#P" n="4"/>illud Actor. 15, ubi apostolicum praeceptum
+          <lb ed="#P" n="5"/>abstinendi a sanguine, et suffocato, et alia
+          <lb ed="#P" n="6"/>praecepta similia vocantur necessaria, utique
+          <lb ed="#P" n="7"/>ad salutem, ut Chrysost., hom. 23, et alii 
+          de<lb break="no" ed="#P" n="8"/>clarant. Praeceptum autem cujus observantia
+          <lb ed="#P" n="9"/>est ad salutem necessaria, sub mortali obligat.
+          <lb ed="#P" n="10"/>At vero praeceptum illud positivum fuisse illi
+          <lb ed="#P" n="11"/>tempori accommodatum, sententia est D. 
+          Tho<lb break="no" ed="#P" n="12"/>mzae, q. 103, art. 4, cum Aug., 32cont. Faust.,
+          <lb ed="#P" n="13"/>cap. 13, quam infra tractando de cessatione
+          <lb ed="#P" n="14"/>legalium latius expendemus. Praeterea constat
+          <lb ed="#P" n="15"/>leges ecclesiasticas seepe ferri sub 
+          excommuni<lb break="no" ed="#P" n="16"/>catione majori, et ipso facto incurrenda : non
+          <lb ed="#P" n="17"/>potest autem talis excommunicatio incurri nisi
+          <lb ed="#P" n="18"/>per culpam mortalem, ut ex propria materia
+          <lb ed="#P" n="19"/>suppono; ergo certum est tales leges obligare
+          <lb ed="#P" n="20"/>in conscientia, cum transgressio earum non
+          <lb ed="#P" n="21"/>fiat sine gravi culpa. Denique constat ex 
+          com<lb break="no" ed="#P" n="22"/>muni sensu totius Ecclesiae, et ex communi
+          <lb ed="#P" n="23"/>doctrina Patrum, leges ecclesiasticas de 
+          jeju<lb break="no" ed="#P" n="24"/>niis et servandis festis, et similes, ita obligare,
+          <lb ed="#P" n="25"/>ut transgressio earum sit peccatum, necessario
+          <lb ed="#P" n="26"/>in confessione aperiendum, et qui hoc negaret,
+          <lb ed="#P" n="27"/>plane esset haereticus; ergo tales leges obligant
+          <lb ed="#P" n="28"/>de se sub mortali, cum earum transgressiones
+          <lb ed="#P" n="29"/>voluntariae, tanquam mortalia peccata, in 
+          con<lb break="no" ed="#P" n="30"/>fessione aperiendae sint.
+        </p>
+        <p xml:id="szdleg-b01157-d1e445">
+          <lb ed="#P" n="31"/>5. Contra hanc assertionem praecipue loqui
+          <lb ed="#P" n="32"/>videtur Gerson loco allegato, ubi indicat in
+          <lb ed="#P" n="33"/>praedictis legibus et exemplis, solam legem
+          <lb ed="#P" n="34"/>divinam esse quae obligat ad talem culpam;
+          <lb ed="#P" n="35"/>ecclesiasticam autem legem solum interpretari,
+          <lb ed="#P" n="36"/>et proponere nobis tempora et circumstantias,
+          <lb ed="#P" n="37"/>cum quibus lex divina obligat, ut patet in 
+          prae<lb break="no" ed="#P" n="38"/>cepto confessionis, vel communionis, et eodem
+          <lb ed="#P" n="39"/>modo exponit praecepta orandi, audiendi 
+          Mis<lb break="no" ed="#P" n="40"/>sam, et similia. Sed hoc, intellectum ut sonat,
+          <lb ed="#P" n="41"/>nulla ratione sustineri potest : tum quia 
+          Eecle<lb break="no" ed="#P" n="42"/>sia seepe prohibet, etiam sub censura 
+          excom<lb break="no" ed="#P" n="43"/>municationis, res alioqui ita indifferentes, ut
+          <lb ed="#P" n="44"/>non essent malae, nisi essent prohibitae, ut
+          <lb ed="#P" n="45"/>comedere carnes tali tempore, audire jus civile
+          <lb ed="#P" n="46"/>clericos, vel monachos, et similia; ergo non
+          <lb ed="#P" n="47"/>solum prohibentur graviter quoad 
+          circumstan<lb break="no" ed="#P" n="48"/>tiam aliquam, sed etiam quoad substantiam
+          <lb ed="#P" n="49"/>(ut sic dicam): tum etiam quia in iis quae 
+          prae<lb break="no" ed="#P" n="50"/>cipiuntur, determinando tempus, vel modum,
+          <lb ed="#P" n="51"/>plures actus praecipiuntur vel prohibentur
+          <lb ed="#P" n="52"/>dicto modo ex vi juris ecclesiastici, quam jure
+          <lb ed="#P" n="53"/>divino praeciperentur, ut constat aperte in
+          <lb ed="#P" n="54"/>praecepto audiendi Missam singulis diebus 
+          fes<lb break="no" ed="#P" n="55"/>tis, et in praecepto clericorum de recitandis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>horis canonicis, ex quibus praeceptis resultat
+          <lb ed="#P" n="57"/>obligatio sub mortali ad singulos actus graves,
+          <lb ed="#P" n="58"/>ut ad Missam audiendam singulis diebus festis,
+          <lb ed="#P" n="59"/>jejunandum singulis diebus designatis, et ad 
+          re<lb break="no" ed="#P" n="60"/>citandum singulis diebus officium canonicum ,
+          <lb ed="#P" n="61"/>etc.; tum denique quia lex ecclesiastica potest
+          <lb ed="#P" n="62"/>ita determinare tempus, vel modos exercendi
+          <lb ed="#P" n="63"/>actus jure naturali vel divino praeceptos, ut
+          <lb ed="#P" n="64"/>actus contra solam legem Ecclesiae, propter
+          <lb ed="#P" n="65"/>omissionem in illa circumstantia sit peccatum
+          <lb ed="#P" n="66"/>mortale; ergo simpliciter potest Ecclesia 
+          prae<lb break="no" ed="#P" n="67"/>cipere sub mortali actum honestum, alias non
+          <lb ed="#P" n="68"/>necessarium, si in tali lege concurrant 
+          neces<lb break="no" ed="#P" n="69"/>sitas vel utilitas, et aliae conditiones necessariae
+          <lb ed="#P" n="70"/>ad justam legem. Antecedens patet in praecepto
+          <lb ed="#P" n="71"/>confessionis annuae : nam si quis eam omittat
+          <lb ed="#P" n="72"/>animo et proposito confitendi alio tempore 
+          ar<lb break="no" ed="#P" n="73"/>bitrario, in quo jus divinum per se obligaret,
+          <lb ed="#P" n="74"/>nihilominus peccabit mortaliter, ut constat ex
+          <lb ed="#P" n="75"/>communi sensuEcclesiae, quia inre valde gravi
+          <lb ed="#P" n="76"/>transgreditur justum praeceptum 
+          ecclesiasti<lb break="no" ed="#P" n="77"/>cum, licet in rigore non transgrediatur 
+          divi<lb break="no" ed="#P" n="78"/>num. Idemque est in praecepto solvendi 
+          deci<lb break="no" ed="#P" n="79"/>mas, si quis transgrediatur legem Ecclesiae
+          <lb ed="#P" n="80"/>quoad quotam, volens alio modo implere 
+          divi<lb break="no" ed="#P" n="81"/>nam legem de ministrorum sustentatione, et
+          <lb ed="#P" n="82"/>sic de similibus. Consequentia autem prior
+          <lb ed="#P" n="83"/>probatur ex paritate rationis, quae non est 
+          mi<lb break="no" ed="#P" n="84"/>nor in aliis actibus honestis, quam in his 
+          cir<lb break="no" ed="#P" n="85"/>cumstantiis.
+        </p>
+        <p xml:id="szdleg-b01157-d1e569">
+          <lb ed="#P" n="86"/>6. Quod si Gerson solum intenderet 
+          nun<lb break="no" ed="#P" n="87"/>quam praecipi ab Ecclesia actum honestum,
+          <lb ed="#P" n="88"/>qui aliquo modo non sit jure divino, vel 
+          natu<lb break="no" ed="#P" n="89"/>rali praeceptum saltem in generali, et 
+          abstra<lb break="no" ed="#P" n="90"/>hendo a determinato modo, et circumstantiis,
+          <lb ed="#P" n="91"/>et ideo talia praecepta Ecclesiae semper niti in
+          <lb ed="#P" n="92"/>jure divino, vel naturali; non esset multum
+          <lb ed="#P" n="93"/>cum eo contendendum, quia in bono sensu
+          <lb ed="#P" n="94"/>posset id admitti. Nam et D. Thom. fere eodem
+          <lb ed="#P" n="95"/>modo loquitur 2. 2, quaest. 1471, art. 3. Sed
+          <lb ed="#P" n="96"/>non obstat quominus simpliciter verum sit 
+          le<lb break="no" ed="#P" n="97"/>gem ecclesiasticam obligare sub mortali ; sicut
+          <lb ed="#P" n="98"/>etiam obligat lex positiva divina, quamvis 
+          prae<lb break="no" ed="#P" n="99"/>cepta ejus sint etiam quaedam determinationes
+          <lb ed="#P" n="100"/>legis naturalis. Neque in hoc est de verbis
+          <lb ed="#P" n="101"/>contendendum, cum satis in superioribus 
+          os<lb break="no" ed="#P" n="102"/>tensum sit obligationem humanarum legum
+          <lb ed="#P" n="103"/>immediate oriri ex humana voluntate, per 
+          po<lb break="no" ed="#P" n="104"/>testatem a Deo datam, quae potestas speciali et
+          <lb ed="#P" n="105"/>altiori modo data est Principibus Ecclesiae, et
+          <lb ed="#P" n="106"/>illa utuntur per humanam voluntatem leges
+          <lb ed="#P" n="107"/>ferendo, et ideo certum est talem 
+          obligatio<lb break="no" ed="#P" n="108"/>nem oriri ex istis legibus, ut humanae sunt;
+          <lb ed="#P" n="109"/>ita enim loquitur Paul. 1 ad Cor. 7, dum 
+          dis<lb break="no" ed="#P" n="110"/>tinguit quaedam quae proponebantur ut prae-
+          <pb ed="#P" n="402"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cepta a Domino, et alia quae ipse praecipiebat,
+          <lb ed="#P" n="2"/>non Dominus.
+        </p>
+        <p xml:id="szdleg-b01157-d1e634">
+          <lb ed="#P" n="3"/>7. Opinantes offensionem legis ecclesiastice
+          <lb ed="#P" n="4"/>non esse per se peccatum aortale, sed solum
+          <lb ed="#P" n="5"/>quando fit ea contemptu legis, alii vero addunt
+          <lb ed="#P" n="6"/>ex consuetudine.—bPraeter Gersonem solent alii
+          <lb ed="#P" n="7"/>referri, qui dixerunt peccatum contra legem
+          <lb ed="#P" n="8"/>ecclesiasticam non esse, per se loquendo, 
+          pec<lb break="no" ed="#P" n="9"/>catum mortale, sed solum quando fit ex 
+          con<lb break="no" ed="#P" n="10"/>temptu legis. Ita tenuit Collectarius, ut refert
+          <lb ed="#P" n="11"/>Angel. vezb. Inobedientia, et idem sentit 
+          Fe<lb break="no" ed="#P" n="12"/>lin., c. 4 de Sponsal., n. 19, et refert Gloss.
+          <lb ed="#P" n="13"/>in c. Quis autem, dist. 10, quae solum dicit,
+          <lb ed="#P" n="14"/>qui contemnit legem, peccave, non tamen peccave
+          <lb ed="#P" n="15"/>eum qui non paret legibus, ubi de consilio 
+          lo<lb break="no" ed="#P" n="16"/>quuntur, ex quibus verbis potius colligitur,
+          <lb ed="#P" n="17"/>ctiam peccare illum qui non paret legibus ubi
+          <lb ed="#P" n="18"/>de praecepto loquuntur, licet non tam graviter,
+          <lb ed="#P" n="19"/>sieut qui eas contemnit. In eamdem vero 
+          sen<lb break="no" ed="#P" n="20"/>tentiam inclinat Cajet. verb. Cleric., etc.,
+          <lb ed="#P" n="21"/>S ult., et verb. Jejunium, c. 4, qui non 
+          uni<lb break="no" ed="#P" n="22"/>versaliter loqnitur, sed de praecepto jejunii, et
+          <lb ed="#P" n="23"/>de quibusdam praeceptis clericorum ; tamen a
+          <lb ed="#P" n="24"/>paritate rationis videtur idem sentire de 
+          reli<lb break="no" ed="#P" n="25"/>quis praeceptis ecclesiasticis, ut illi tribuit Nav.
+          <lb ed="#P" n="26"/>in Sum., c. 23, n. 53. Kem favere videtur huic
+          <lb ed="#P" n="27"/>sententiae D. Bern. de Praecept. et dis., cap. 11,
+          <lb ed="#P" n="28"/>ubi, loquens de praeceptis positivia 
+          Praelato<lb break="no" ed="#P" n="29"/>rum, quae factitia vocat, ait inferre 
+          necessita<lb break="no" ed="#P" n="30"/>tem longe disparem a praeceptis naturalibus :
+          <lb ed="#P" n="31"/>Cun tamen (ait) nec sine offensa negligi, nec
+          <lb ed="#P" n="32"/>contemni sine crimine queant. Et infra : 
+          Man<lb break="no" ed="#P" n="33"/>datum peccato obnomiwmn facit, non magno 
+          ta<lb break="no" ed="#P" n="34"/>men si contemptus defuerit. Loquitur autem de
+          <lb ed="#P" n="35"/>eodem genere mandati : unde in c. 12 
+          genera<lb break="no" ed="#P" n="36"/>lem regulam constituit de his quae per se aut
+          <lb ed="#P" n="37"/>propter se nec bona nec mala sunt, nec 
+          divi<lb break="no" ed="#P" n="38"/>na institutione aut propria cujusque 
+          profes<lb break="no" ed="#P" n="39"/>sione sunt fixa : Ut nonjussa licite admittantur,
+          <lb ed="#P" n="40"/>cel omittantur ; jussa vero sine culpa non 
+          ne<lb break="no" ed="#P" n="41"/>gligantur , sine crimine wuon contemmuuntun
+          <lb ed="#P" n="42"/>ubique enim et culpalilis neglectus, et 
+          contem<lb break="no" ed="#P" n="43"/>ptus damnabilis est. Quibus in verhis dum
+          <lb ed="#P" n="44"/>culpam a erimine distinguit, per crimen 
+          mor<lb break="no" ed="#P" n="45"/>tale peccatum, per culpam vero veniale 
+          intel<lb break="no" ed="#P" n="46"/>ligit ; sentit ergo, non peccari mortaliter 
+          con<lb break="no" ed="#P" n="47"/>tra ecclesiastica praecepta nisi ex contemptu,
+          <lb ed="#P" n="48"/>ac subinde tales leges per se obligare sub 
+          mor<lb break="no" ed="#P" n="49"/>tali, sed tantum ratione contemptus.
+        </p>
+        <p xml:id="szdleg-b01157-d1e738">
+          <lb ed="#P" n="50"/>8. Alii vero doctores, hanc sententiam. ex
+          <lb ed="#P" n="51"/>parte sequentes , praeter contemptum addunt
+          <lb ed="#P" n="52"/>consuetudinem, quia si praeceptum 
+          ecclesiasti<lb break="no" ed="#P" n="53"/>cum ex consuetudine frangatur, peccatum erit
+          <lb ed="#P" n="54"/>mortale, eo quod consuetudo illa tacitum 
+          con<lb break="no" ed="#P" n="55"/>temptum includat. Si vero nec contemptus,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nec consuetudo intercedat, non pntant 
+          pecca<lb break="no" ed="#P" n="57"/>tum esse mortale agere contra ecclesiasticam
+          <lb ed="#P" n="58"/>legem. Ita Angel. supra citans Rich., quodl. 1,
+          <lb ed="#P" n="59"/>q. 19, ubi de omissione Missae praeceptae in
+          <lb ed="#P" n="60"/>particulari loquitur. Idem ex parte sentit
+          <lb ed="#P" n="61"/>Henric. , quodlib. 3, q. 22, in fin.; refertur
+          <lb ed="#P" n="62"/>etiam Archid. in c. Utinam, 76 d., ubi nihil
+          <lb ed="#P" n="63"/>clare dicit. Refert item Angelus quamdam
+          <lb ed="#P" n="64"/>Glossam, Panormitanum, et quaedam jura, in
+          <lb ed="#P" n="65"/>quibus nihil quod ad praesentem causam 
+          fa<lb break="no" ed="#P" n="66"/>ciat, reperio. Adducitur denique Gemin. in
+          <lb ed="#P" n="67"/>cap. G'enerali, de Elect. in 6. Et tandem 
+          addi<lb break="no" ed="#P" n="68"/>tur ratio, quia non est verisimile intentionem
+          <lb ed="#P" n="69"/>Praelatorum esse obligare sub mortali, quando
+          <lb ed="#P" n="70"/>ex consuetudine non peccatur contra eorum 
+          le<lb break="no" ed="#P" n="71"/>ges, cum per unam, vel aliam transgressionem
+          <lb ed="#P" n="72"/>non ex toto frustretur finis suarum legum. E
+          <lb ed="#P" n="73"/>converso vero quia consuetudo peccandi 
+          po<lb break="no" ed="#P" n="74"/>test efficere , ut finis legislatoris graviter 
+          vio<lb break="no" ed="#P" n="75"/>letur, vel in totum frustretur, ideo fieri potest,
+          <lb ed="#P" n="76"/>ut propter consuetudinem peccatum sit 
+          mor<lb break="no" ed="#P" n="77"/>tale, quod alias non esset.
+        </p>
+        <p xml:id="szdleg-b01157-d1e804">
+          <lb ed="#P" n="78"/>9. Verumtamen prior sententia intellecta de
+          <lb ed="#P" n="79"/>contemptu formali improbabilis est, quia 
+          in<lb break="no" ed="#P" n="80"/>ductione constat juxta communem Ecclesiae
+          <lb ed="#P" n="81"/>sensum , peccari mortaliter , transgrediendo
+          <lb ed="#P" n="82"/>multas leges ecclesiasticas, ut jejunu, Missae,
+          <lb ed="#P" n="83"/>communionis, confessionis, et similium, etiam
+          <lb ed="#P" n="84"/>si nullus alius contemptus, sed sola voluntaria
+          <lb ed="#P" n="85"/>omissio intercedat. Deinde propter unam
+          <lb ed="#P" n="86"/>transgressionem similem incurritur aliquando
+          <lb ed="#P" n="87"/>excommunicatio major , etiamsi non ex 
+          con<lb break="no" ed="#P" n="88"/>temptu, sed ex voluntate fiat, ut recte notavit
+          <lb ed="#P" n="89"/>Sylvest. verb. Inobedientia, et constat ex traet.
+          <lb ed="#P" n="90"/>de Censur. Ergo manifestum est , non esse
+          <lb ed="#P" n="91"/>necessarium contemptum ad peccandum 
+          mor<lb break="no" ed="#P" n="92"/>taliter contra talem legem. Praeterea hoc supra
+          <lb ed="#P" n="93"/>probatum est de legibus civilibus ; ergo multo
+          <lb ed="#P" n="94"/>magis procedet in ecclesiasticis. Denique ratio
+          <lb ed="#P" n="95"/>est clara, quia praeceptum Ecclesiae per se 
+          in<lb break="no" ed="#P" n="96"/>ducit obligationem gravem, supposita materiae
+          <lb ed="#P" n="97"/>capacitate ; ergo transgressio ejus deliberata
+          <lb ed="#P" n="98"/>sufficit ad culpam mortalem, absque alio 
+          con<lb break="no" ed="#P" n="99"/>temptu. Nec contraria sententia habet 
+          funda<lb break="no" ed="#P" n="100"/>mentum, cui satisfactum non sit ex dictis hic
+          <lb ed="#P" n="101"/>et supra de legibus civilibus.
+        </p>
+        <p xml:id="szdleg-b01157-d1e859">
+          <lb ed="#P" n="102"/>10. Solum testimonium Bernardi difhcile
+          <lb ed="#P" n="103"/>apparet, quia non videtur loqui tantum de
+          <lb ed="#P" n="104"/>praeceptis rerum leviorum, sed simphciter de
+          <lb ed="#P" n="105"/>praeceptis positivis : nam loquitur de omnibus
+          <lb ed="#P" n="106"/>que a praepositis dispensationem admittunt,
+          <lb ed="#P" n="107"/>quae omnia leviora esse censet. Item quia 
+          ge<lb break="no" ed="#P" n="108"/>neralem regulam constituit de praeceptis 
+          fac<lb break="no" ed="#P" n="109"/>titiis, ea distinguendo a naturalibus de se 
+          in<lb break="no" ed="#P" n="110"/>gerentibus necessitatem, et deinde addit gene-
+          <pb ed="#P" n="403"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ralem regulam de omnibus quae per se nec
+          <lb ed="#P" n="2"/>bona , nec mala sunt.
+        </p>
+        <p xml:id="szdleg-b01157-d1e890">
+          <lb ed="#P" n="3"/>11. Nihilominus tamen existimo non fuisse
+          <lb ed="#P" n="4"/>mentem Bernardi loqui de omnibus praeceptis
+          <lb ed="#P" n="5"/>positivis, quia, praeter ea quae per se bona vel
+          <lb ed="#P" n="6"/>mala, ponit ea quae sunt ex institutione divina,
+          <lb ed="#P" n="7"/>aut quae sunt fiva uniuscujusque professione,
+          <lb ed="#P" n="8"/>et in his omnibus sentit peccari graviter non
+          <lb ed="#P" n="9"/>solum per contemptum, sed etiam per 
+          negli<lb break="no" ed="#P" n="10"/>gentiam. At vero illa praecepta, quae sunt fixa
+          <lb ed="#P" n="11"/>uniuscujusque professione, positiva sunt, et
+          <lb ed="#P" n="12"/>humana : per illa enim intelligit graviores
+          <lb ed="#P" n="13"/>constitutiones uniuscujusque religionis , et
+          <lb ed="#P" n="14"/>praecepta ecclesiastica dici etiam possunt fixa
+          <lb ed="#P" n="15"/>professione christiana. Videtur ergo per 
+          prae<lb break="no" ed="#P" n="16"/>cepta fictitia intelligere leviora quaedam 
+          sta<lb break="no" ed="#P" n="17"/>tuta religionum, quae sunt de rebus levioribus,
+          <lb ed="#P" n="18"/>sicut ipse exemplis indicat, dicens: Zx his,
+          <lb ed="#P" n="19"/>verbi gratia, dico esse, vel risum interdictum,
+          <lb ed="#P" n="20"/>cel indictum silentium. Et haec vocat 
+          dispensa<lb break="no" ed="#P" n="21"/>bilia, vel per antonomasiam , quia facile 
+          dis<lb break="no" ed="#P" n="22"/>pensantur ; alia enim graviora tanquam 
+          im<lb break="no" ed="#P" n="23"/>mutabilia habentur in religionibus, ordinarie
+          <lb ed="#P" n="24"/>loquendo , vel certe, quia ordinarie per talia
+          <lb ed="#P" n="25"/>statuta, vel regulas solum ordinatur, ne hoc
+          <lb ed="#P" n="26"/>vel illud fiat sine licentia Praelati, per quam
+          <lb ed="#P" n="27"/>licentiam quasi dispensatur facile, unde etiam
+          <lb ed="#P" n="28"/>vocat factitia, quia facile mutantur. De his
+          <lb ed="#P" n="29"/>ergo loqui videtur, cum ait, in eorum 
+          trans<lb break="no" ed="#P" n="30"/>gressione non committi grave crimen, nisi
+          <lb ed="#P" n="31"/>contemptus interveniat. Et hoc fortasse 
+          inten<lb break="no" ed="#P" n="32"/>dit Sylvest. verb. Inobedienlia , cum ait loqui
+          <lb ed="#P" n="33"/>Bernardum de mandatis, non de praeceptis.
+        </p>
+        <p xml:id="szdleg-b01157-d1e960">
+          <lb ed="#P" n="34"/>12. Unde etiam patet , quid de altera 
+          sen<lb break="no" ed="#P" n="35"/>tentia sentiendum sit. Nam imprimis falsum
+          <lb ed="#P" n="36"/>est, ad peccandum mortaliter contra leges
+          <lb ed="#P" n="37"/>Ecclesiae esse necessarium contemptum, vel
+          <lb ed="#P" n="38"/>consuetudinem : nam in uno actu vel 
+          omis<lb break="no" ed="#P" n="39"/>sione invenitur saepe peccatum mortale, ut
+          <lb ed="#P" n="40"/>probant inductio et rationes factae, et ab 
+          ef<lb break="no" ed="#P" n="41"/>fectu constat ; quia saepe per unum actum,
+          <lb ed="#P" n="42"/>vel omissionem talem incurritur 
+          excommuni<lb break="no" ed="#P" n="43"/>catio major, ut supra dicebam. Ergo satis est
+          <lb ed="#P" n="44"/>quod violetur praeceptum in materia gravi,
+          <lb ed="#P" n="45"/>etiamsi non omnino destruatur finis ejus quoad
+          <lb ed="#P" n="46"/>alios actus qui postea fieri possunt, quod est
+          <lb ed="#P" n="47"/>per accidens. Imo addo consuetudinem 
+          inter<lb break="no" ed="#P" n="48"/>dum posse minuere peccatum, quatenus 
+          mi<lb break="no" ed="#P" n="49"/>nuit libertatem, licet aliunde possit augere,
+          <lb ed="#P" n="50"/>augendo voluntarium, si ipsa voluntaria sit,
+          <lb ed="#P" n="51"/>quod augmentum nunquam potest esse tale,
+          <lb ed="#P" n="52"/>ut augeat in infinitum, transferendo actum de
+          <lb ed="#P" n="53"/>veniali peccato ad mortale, si ex parte objecti
+          <lb ed="#P" n="54"/>et circumstantiarum caetera sint paria, ut lib.
+          <lb ed="#P" n="55"/>praeced., c. 24, ostensum est, ubi etiam trac-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tavimus an violare legem ex contemptu semper
+          <lb ed="#P" n="57"/>sit peccatum mortale; et doctrina ibi data 
+          com<lb break="no" ed="#P" n="58"/>munis est omnibus legibus ecclesiasticis, imo
+          <lb ed="#P" n="59"/>in his a fortiori locum habet, nihilque in 
+          prae<lb break="no" ed="#P" n="60"/>senti addendum occurrit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

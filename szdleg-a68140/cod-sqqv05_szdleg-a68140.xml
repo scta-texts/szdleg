@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 24</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 24</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="268"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a68140"><!-- deleg-l3c24 -->
+        <head xml:id="szdleg-a68140-Hd1e101">Caput 24</head>
+        <head xml:id="szdleg-a68140-Hd1e103" type="question-title">Utrum lex civilis obliget vel obligare possit sub reatu mortalis culpae</head>
+        <p xml:id="szdleg-a68140-d1e106">
+          <lb ed="#P" n="105"/>CAPUT XXIV.
+          <lb ed="#P" n="106"/>UTRUM LEX CIVILIS OBLIGET VEL OBLIGARE POSSIT
+          <lb ed="#P" n="107"/>SUB REATU MORTALIS CULPAE.
+        </p>
+        <p xml:id="szdleg-a68140-d1e115">
+          <lb ed="#P" n="108"/>1. Praeceptum (ut notat Cajet. 2. 2, q. 104,
+          <pb ed="#P" n="269"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>artic. 2, et in sum. verb. Praeceptum) 
+          inter<lb break="no" ed="#P" n="2"/>dum generaliter sumitur pro imperio 
+          impo<lb break="no" ed="#P" n="3"/>nente necessitatem obediendi, ita ut peccetur
+          <lb ed="#P" n="4"/>si non impleatur, juxta illud Hieronym. lib. 1
+          <lb ed="#P" n="5"/>contra Jovin. : Quod praecipitur, imperatur ,
+          <lb ed="#P" n="6"/>quod imperatur necesse est fieri, cap. ult. 14,
+          <lb ed="#P" n="7"/>q. 1; aliquando vero accipitur antonomastice
+          <lb ed="#P" n="8"/>pro imperio imponente necessitatem 
+          mortali<lb break="no" ed="#P" n="9"/>ter peccandi si non pareatur, et utroque modo
+          <lb ed="#P" n="10"/>praeceptum includit obligationem in 
+          conscien<lb break="no" ed="#P" n="11"/>tia, et ita utraque ratio praecepti sufficit ad
+          <lb ed="#P" n="12"/>veram rationem legis, et aliqua earum 
+          neces<lb break="no" ed="#P" n="13"/>saria est juxta supra dicta. Hinc ergo oritur
+          <lb ed="#P" n="14"/>quaestio an lex civilis solum includat rationem
+          <lb ed="#P" n="15"/>praecepti large sumpti, vel etiam possit ex suo
+          <lb ed="#P" n="16"/>genere magis obligare, et necessitatem 
+          impo<lb break="no" ed="#P" n="17"/>nere vel parendi, vel mortaliter peccandi. In
+          <lb ed="#P" n="18"/>quo puncto clarius videntur loqui Gerson et
+          <lb ed="#P" n="19"/>Almain. supra citati cap. 20, negantes 
+          magis<lb break="no" ed="#P" n="20"/>tratul civili hanc potestatem. Idemque a 
+          for<lb break="no" ed="#P" n="21"/>tori tenent qui de legibus ecclesiasticis hoc
+          <lb ed="#P" n="22"/>docent, quos libro sequenti, cap. 18 
+          comme<lb break="no" ed="#P" n="23"/>morabimus. Aliqui etiam canonistae docuerunt
+          <lb ed="#P" n="24"/>non esse peccatum mortale, non parere 
+          legi<lb break="no" ed="#P" n="25"/>bus civilibus secluso contemptu : Imol. in
+          <lb ed="#P" n="26"/>repet. cap. Cum contingat, de Jurjur., col. 17,
+          <lb ed="#P" n="27"/>cujus doctrinam in hac parte valde 
+          commen<lb break="no" ed="#P" n="28"/>dat Felin. in c. 1 de Sponsal. n. 19; unde 
+          vi<lb break="no" ed="#P" n="29"/>dentur supponere ex vi talium legum non 
+          se<lb break="no" ed="#P" n="30"/>qui per se talem obligationem. Hi vero 
+          aucto<lb break="no" ed="#P" n="31"/>res nullam novam rationem vel probationem
+          <lb ed="#P" n="32"/>afferunt , qua ostendant excedere efficaciam
+          <lb ed="#P" n="33"/>potestatis ac legis civilis, attingere hunc 
+          gra<lb break="no" ed="#P" n="34"/>dum praecepti, seu obligationis, et omnes quae
+          <lb ed="#P" n="35"/>afferri possunt reducuntur ad eas quae in c. 20
+          <lb ed="#P" n="36"/>positae sunt. Quibus omissis,
+        </p>
+        <p xml:id="szdleg-a68140-d1e202">
+          <lb ed="#P" n="37"/>2. Legem civilem ex genere suo obligare posse
+          <lb ed="#P" n="38"/>sub culpa mortali, licet hoc non semper in 
+          indi<lb break="no" ed="#P" n="39"/>viduo contingat. — Dico primo : lex civilis ex
+          <lb ed="#P" n="40"/>genere suo obligare potest sub reatu mortalis
+          <lb ed="#P" n="41"/>culpae. Dico autem ex genere suo, quia certum
+          <lb ed="#P" n="42"/>est in individuo, seu in singulis legibus non
+          <lb ed="#P" n="43"/>seinper esse tam gravem obligationem, ut
+          <lb ed="#P" n="44"/>transgressio legis civilis reatum aeternae poenae
+          <lb ed="#P" n="45"/>inducat. Quia nec lex divina et naturalis in
+          <lb ed="#P" n="46"/>omni materia et actione cum tanto rigore 
+          obli<lb break="no" ed="#P" n="47"/>gant, ut ex 1. 2, q. 88 et 89 nunc suppono.
+          <lb ed="#P" n="48"/>Dicitur ergo lex civilis ex suo genere obligare
+          <lb ed="#P" n="49"/>sub mortali, quia, si ex parte materiae sit 
+          capa<lb break="no" ed="#P" n="50"/>citas, et voluntas legislatoris interveniat, ex
+          <lb ed="#P" n="51"/>parte legis non deest efficacia seu potestas ad
+          <lb ed="#P" n="52"/>obligandum. Ita docet aperte D. Thom. 2. 2,
+          <lb ed="#P" n="53"/>q. 104, art. 6, juncto art. 1, q. 105, et q. 147,
+          <lb ed="#P" n="54"/>art. 3; Soto, lib. 1 de justit., q. 6, art. 4; 
+          Cas<lb break="no" ed="#P" n="55"/>tro, lib. 1 de Leg. poen., cap. 4 et 5; Dried.,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>lib. 2 de Libert. Christian., cap. 1; Medin., c.
+          <lb ed="#P" n="57"/>de Poenitent., tract.4 de Jejun., cap.7; Adrian.
+          <lb ed="#P" n="58"/>quodlib. 6, art. 2; Major 4, dist. 15, q. 4, 
+          pra<lb break="no" ed="#P" n="59"/>sertim ad 2; Navar. in sum., cap. 23, n. 55;
+          <lb ed="#P" n="60"/>Covar. in reg. peccatum, p. 2, 55, n.2et3,
+          <lb ed="#P" n="61"/>ubi plures alios refert. Et probari potest ex
+          <lb ed="#P" n="62"/>August. epist. 50, non longe a principio, 
+          di<lb break="no" ed="#P" n="63"/>cente : Quicumque legibus imperatorum, que
+          <lb ed="#P" n="64"/>pro Dei veritate feruntur, obtemperare non vult,
+          <lb ed="#P" n="65"/>acquirit grande supplicium; utique apud Deum,
+          <lb ed="#P" n="66"/>ut ex contextu constat. Ostendi etiam potest
+          <lb ed="#P" n="67"/>assertio omnibus testimoniis et rationibus 
+          ad<lb break="no" ed="#P" n="68"/>ductis in cap. 20; nam obligatio in conscientia
+          <lb ed="#P" n="69"/>simpliciter dicta extenditur ex genere suo ad
+          <lb ed="#P" n="70"/>obligationem sub mortali. Unde ratio propria
+          <lb ed="#P" n="71"/>est, quia lex humana ex se obligat in 
+          conscien<lb break="no" ed="#P" n="72"/>tia : ergo ex se etiam inducit obligationem
+          <lb ed="#P" n="73"/>materiae proportionatam, si circa illam 
+          abso<lb break="no" ed="#P" n="74"/>lute feratur : ergo ex se inducere valet 
+          obliga<lb break="no" ed="#P" n="75"/>tionem sub mortali. Confirmatur, quia ratio
+          <lb ed="#P" n="76"/>naturalis dictat talibus legibus esse 
+          obedien<lb break="no" ed="#P" n="77"/>dum, sicut dictat esse obediendum parentibus,
+          <lb ed="#P" n="78"/>et sicut dictat promissionem Deo factam esse
+          <lb ed="#P" n="79"/>servandam : ergo sicut non servase vota vel
+          <lb ed="#P" n="80"/>non obedire parentibus ex suo genere est 
+          pec<lb break="no" ed="#P" n="81"/>catum mortale, ita etiam non servare leges
+          <lb ed="#P" n="82"/>civiles, seu (quod perinde est) non obedire
+          <lb ed="#P" n="83"/>principi seculari, ex suo genere est peccatum
+          <lb ed="#P" n="84"/>mortale : ergo leges civiles ex genere suo 
+          pos<lb break="no" ed="#P" n="85"/>sunt obligare ad mortale.
+        </p>
+        <p xml:id="szdleg-a68140-d1e314">
+          <lb ed="#P" n="86"/>3. Corollarium. --Praedictam potestatem 
+          prae<lb break="no" ed="#P" n="87"/>cipiendi cum tanto rigore, consequi adillam 
+          po<lb break="no" ed="#P" n="88"/>testatem : non autem esse ex speciali Dei aut
+          <lb ed="#P" n="89"/>Christi concessione.—Adtque hinc infertur 
+          potes<lb break="no" ed="#P" n="90"/>tatem hanc sic praecipiendi cum tam rigorosa
+          <lb ed="#P" n="91"/>obligatione non convenire principibus 
+          secula<lb break="no" ed="#P" n="92"/>ribus ex speciali Dei aut Christi concessione,
+          <lb ed="#P" n="93"/>sed ex natura rei consequi ad illam potestatem
+          <lb ed="#P" n="94"/>quam habent a Deo ad gubernandam 
+          rempu<lb break="no" ed="#P" n="95"/>blicam in suo ordine. Probatur primo a simili
+          <lb ed="#P" n="96"/>de potestate quam pater habet ad imperandum
+          <lb ed="#P" n="97"/>filio, imponendo ei gravem obligationem,
+          <lb ed="#P" n="98"/>quando materia illam postulat : illa enim 
+          po<lb break="no" ed="#P" n="99"/>testas non est ex speciali concessione, sed 
+          se<lb break="no" ed="#P" n="100"/>quitur jure naturae ex vi dominii paterni et 
+          il<lb break="no" ed="#P" n="101"/>lius naturalis principii: Obediendum est 
+          paren<lb break="no" ed="#P" n="102"/>tibus juste praecipientibus. Idemque est cum
+          <lb ed="#P" n="103"/>proportione de obedientia quam servus debet
+          <lb ed="#P" n="104"/>domino : ergo en est de obedientia debita
+          <lb ed="#P" n="105"/>legibus principum: Secundo, quia potestas
+          <lb ed="#P" n="106"/>principis ad constituenlum actum ut 
+          necessa<lb break="no" ed="#P" n="107"/>rium ad honestatem illius virtutis in cujus
+          <lb ed="#P" n="108"/>materia versatur, vel ad praescribendum 
+          me<lb break="no" ed="#P" n="109"/>dium in tali materia virtutis, non est ex 
+          spe<lb break="no" ed="#P" n="110"/>ciali concessione distincta a potestate regendi
+          <pb ed="#P" n="270"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rempublicam, sed est inclusa in illa ex ipsa rei
+          <lb ed="#P" n="2"/>natura : sed ex hac potestate, et actn ejus 
+          se<lb break="no" ed="#P" n="3"/>quitur intrinsece, et ex natura rei, ut sit 
+          pec<lb break="no" ed="#P" n="4"/>catum mortale transgredi talem legem : ergo
+          <lb ed="#P" n="5"/>etiam potestas sic praecipiendi est inclusa ex
+          <lb ed="#P" n="6"/>natura rei in tali potestate, et non est addita
+          <lb ed="#P" n="7"/>per specialem concessionem. Minor declaratur
+          <lb ed="#P" n="8"/>(caetera enim clara sunt) in materia justitiae,
+          <lb ed="#P" n="9"/>quando lex taxat pretium rei: nam eo ipso
+          <lb ed="#P" n="10"/>illud est medium justitiae, et transgressio est
+          <lb ed="#P" n="11"/>injustitia, quae ex genere suo peccatum 
+          mor<lb break="no" ed="#P" n="12"/>tale est, et consequenter etiam violatio talis
+          <lb ed="#P" n="13"/>legis est ex suo genere peccatum mortale, et
+          <lb ed="#P" n="14"/>idem est cum proportione in reliquis. Tertio
+          <lb ed="#P" n="15"/>probatur,quia haec concessio non est specialiter
+          <lb ed="#P" n="16"/>data a Christo, alias esset propria legis novae,
+          <lb ed="#P" n="17"/>quod est frivolum etsine fundamento, et aperte
+          <lb ed="#P" n="18"/>repugnat Paulo Rom. 13 dicenti omnis anima,
+          <lb ed="#P" n="19"/>etc., et tradit generalem doctrinam 
+          commu<lb break="no" ed="#P" n="20"/>nem etiam ethnicis, ut in superioribus visum
+          <lb ed="#P" n="21"/>est, et constat aperte ex simili loco Petri, 1 
+          Ca<lb break="no" ed="#P" n="22"/>non., cap. 1, et Sapient. 6, Audite reges, etc.,
+          <lb ed="#P" n="23"/>quoniam data est a Domino potestas vobis.
+          <lb ed="#P" n="24"/>Quod vero illa potestas, quae communis est
+          <lb ed="#P" n="25"/>ethnicis, non sit ex speciali concessione addita
+          <lb ed="#P" n="26"/>naturae, in superioribus ostensum est, et per
+          <lb ed="#P" n="27"/>se est evidens, tum quia in Scriptura nulla sit
+          <lb ed="#P" n="28"/>mentio talis concessionis, sed illi potestati 
+          na<lb break="no" ed="#P" n="29"/>turali tribuitur tanta vis imperandi, ut qui ei
+          <lb ed="#P" n="30"/>resistunt sibi damnationem acquirant, Roman.
+          <lb ed="#P" n="31"/>13; tum etiamquia talis potestas inventa est in
+          <lb ed="#P" n="32"/>legitimis regibus infidelibus, nullam 
+          revelatio<lb break="no" ed="#P" n="33"/>nem vel supernaturalem notitiam habentibus:
+          <lb ed="#P" n="34"/>est ergo intrinseca potestati naturali, et divina
+          <lb ed="#P" n="35"/>dicitur per modum doni connaturalis, non per
+          <lb ed="#P" n="36"/>modum specialis concessionis.
+        </p>
+        <p xml:id="szdleg-a68140-d1e453">
+          <lb ed="#P" n="37"/>4. Contra hanc autem veritatem videtur
+          <lb ed="#P" n="38"/>sensisse Medina tract. de Jejunio, cap. 7, 
+          sen<lb break="no" ed="#P" n="39"/>tit enim seculares principes habere hanc 
+          po<lb break="no" ed="#P" n="40"/>testatem ex speciali Dei concessione: ratione
+          <lb ed="#P" n="41"/>cujus dicit eos uti auctoritate Dei, quando 
+          im<lb break="no" ed="#P" n="42"/>perant sub reatu poenae aeternae. Et in hoc
+          <lb ed="#P" n="43"/>eequiparat principes seculares praelatis Ecclesiae,
+          <lb ed="#P" n="44"/>qui potestatem suam habent ex speciali 
+          con<lb break="no" ed="#P" n="45"/>cessione Christi. Nititurque in illo fundamento
+          <lb ed="#P" n="46"/>Gersonis, quod nemo potest sub reatu poenae
+          <lb ed="#P" n="47"/>eeternae imperare, nisi qui illam poenam potest
+          <lb ed="#P" n="48"/>infligere, et ideo solus Deus id potest, vel qui
+          <lb ed="#P" n="49"/>ab illo habet talem potestatem specialiter 
+          com<lb break="no" ed="#P" n="50"/>missam. Almain. vero d. cap. 12 Moral., licet
+          <lb ed="#P" n="51"/>in principali assertione dissentiat a Medina,
+          <lb ed="#P" n="52"/>tamen in hoc fundamento convenire videtur.
+          <lb ed="#P" n="53"/>Putat enim ad praecipiendum sub reatu poenae
+          <lb ed="#P" n="54"/>eternae necessariam esse auctoritatem 
+          specia<lb break="no" ed="#P" n="55"/>liter a Deo concessam, et quia putat hanc esse
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>datam Christi Vicario, non autem principi
+          <lb ed="#P" n="57"/>temporali, ideo negat leges civiles obligare sub
+          <lb ed="#P" n="58"/>mortali, licet de ecclesiasticis id concedat.
+        </p>
+        <p xml:id="szdleg-a68140-d1e505">
+          <lb ed="#P" n="59"/>5. Sed profecto idem est cum proportione
+          <lb ed="#P" n="60"/>de utroque superiori seculari et ecclesiastico in
+          <lb ed="#P" n="61"/>hac parte sentiendum. Nam licet in hoc 
+          diffe<lb break="no" ed="#P" n="62"/>rant, quod potestas gubernandi aliter data est
+          <lb ed="#P" n="63"/>Vicario Christi, quam imperatori, illi enim
+          <lb ed="#P" n="64"/>data est per specialem concessionem 
+          superna<lb break="no" ed="#P" n="65"/>turalem, huic per electionem hominum, vel
+          <lb ed="#P" n="66"/>alium modum dimanantem a Deo, ut auctore
+          <lb ed="#P" n="67"/>naturae ex vi naturalis luminis rationis; 
+          nihilo<lb break="no" ed="#P" n="68"/>minus in hoc conveniunt, quod neutri data est
+          <lb ed="#P" n="69"/>peculiaris potestas imperandi in sua materia
+          <lb ed="#P" n="70"/>et foro sub reatu poenae aeternae per specialem
+          <lb ed="#P" n="71"/>concessionem, sed solum quatenus ex natura
+          <lb ed="#P" n="72"/>rei includitur in potestate gubernandi 
+          unicui<lb break="no" ed="#P" n="73"/>que concessa. Nam Petrus non habuit hanc
+          <lb ed="#P" n="74"/>potestatem (ut infra videbimus) nisi ex vi illius
+          <lb ed="#P" n="75"/>concessionis Pasce oves meas, et aliam 
+          specia<lb break="no" ed="#P" n="76"/>liorem fingere vanum est et sine fundamento.
+          <lb ed="#P" n="77"/>Idem ergo cum proportione est de rege, seu
+          <lb ed="#P" n="78"/>imperatore, quia in latitudine suae materiae
+          <lb ed="#P" n="79"/>potestas ejus includit hanc vim et efficaciam
+          <lb ed="#P" n="80"/>imperandi, ut declaratum est.
+        </p>
+        <p xml:id="szdleg-a68140-d1e555">
+          <lb ed="#P" n="81"/>6. Neque fortasse Medina aliud sensit: 
+          nun<lb break="no" ed="#P" n="82"/>quam enim dixit hanc esse specialem 
+          conces<lb break="no" ed="#P" n="83"/>sionem, sed solum voluit explicare non 
+          po<lb break="no" ed="#P" n="84"/>tuisse quamcumque ex his potestatibus extendi
+          <lb ed="#P" n="85"/>ad obligandum sub reatu poenae aeternae, nisi
+          <lb ed="#P" n="86"/>esset utraque aliquo modo divina, et per eam
+          <lb ed="#P" n="87"/>operaretur homo, ac praeciperet ut minister
+          <lb ed="#P" n="88"/>Dei. Quod est verissimum, tum quia id satis
+          <lb ed="#P" n="89"/>indicavit Paulus loco citato, tum etiam quia
+          <lb ed="#P" n="90"/>alias transgressio talis legis non redundaret in
+          <lb ed="#P" n="91"/>Dei offensionem, et consequenter non 
+          mere<lb break="no" ed="#P" n="92"/>retur aeternam poenam. Almain. autem 
+          imme<lb break="no" ed="#P" n="93"/>rito constituit in hoc differentiam inter 
+          potes<lb break="no" ed="#P" n="94"/>tatem laicam et ecclesiasticam : nam, licet in
+          <lb ed="#P" n="95"/>multis aliis differant, in hoc servant 
+          propor<lb break="no" ed="#P" n="96"/>tionem, non aequalitatis, sed cujusdam 
+          propor<lb break="no" ed="#P" n="97"/>tionalitatis, ut satis explicatum est.
+        </p>
+        <p xml:id="szdleg-a68140-d1e594">
+          <lb ed="#P" n="98"/>7. Secundum corollarium. — Secundo, ex
+          <lb ed="#P" n="99"/>dictis infertur non solum posse peccari 
+          mor<lb break="no" ed="#P" n="100"/>taliter contra legem civilem, quando ex 
+          con<lb break="no" ed="#P" n="101"/>temptu formali non servatur ; sed etiam 
+          quo<lb break="no" ed="#P" n="102"/>ties cum sufficienti cognitione ac deliberatione
+          <lb ed="#P" n="103"/>violatur, sive id fiat ex negligentia, sive ex
+          <lb ed="#P" n="104"/>quocumque alio pravo affectu. Hoc advertimus
+          <lb ed="#P" n="105"/>contra aliquos qui etiam de ecclesiasticis 
+          legi<lb break="no" ed="#P" n="106"/>bus dixerunt, non peccari contra eas 
+          mortali<lb break="no" ed="#P" n="107"/>ter, nisi formaliter contemnantur, qui a 
+          for<lb break="no" ed="#P" n="108"/>tiori idem essent dicturi de legibus civilibus.
+          <lb ed="#P" n="109"/>Sed contra illos ex professo tractabimus libro
+          <lb ed="#P" n="110"/>seq. Nunc probatur illatio, quia sine contemptu
+          <pb ed="#P" n="271"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>formali datur plena et consummata 
+          transgres<lb break="no" ed="#P" n="2"/>sio legis ; ergo, si lex de se obligat sub reatu
+          <lb ed="#P" n="3"/>eeternae poenae, in transgressione ejus 
+          commit<lb break="no" ed="#P" n="4"/>titur peccatum mortale, etiamsi non fiat ex
+          <lb ed="#P" n="5"/>contemptu formali. Loquor autem semper de
+          <lb ed="#P" n="6"/>formali contemptu : nam virtualis, seu potius
+          <lb ed="#P" n="7"/>materialis, in omni transgressione legis 
+          inclu<lb break="no" ed="#P" n="8"/>ditur : formalis autem necessarius non est, ut
+          <lb ed="#P" n="9"/>patet inductione : nam ad peccandum contra
+          <lb ed="#P" n="10"/>justitiam, vendendo rem carius quam lege
+          <lb ed="#P" n="11"/>taxatum sit, non est necessarius formalis 
+          con<lb break="no" ed="#P" n="12"/>temptus legis, sed satis est id facere voluntarie
+          <lb ed="#P" n="13"/>ex affectu pecuniae, vel alio simili. Item, ut
+          <lb ed="#P" n="14"/>judex peccet graviter transgrediendo juris 
+          or<lb break="no" ed="#P" n="15"/>dinem in judicio, non est necesse ut ex 
+          con<lb break="no" ed="#P" n="16"/>temptu id faciat, ut constat. Et idem est in 
+          si<lb break="no" ed="#P" n="17"/>milibus, quae satis constant ex communi usu
+          <lb ed="#P" n="18"/>et sensu fidelium. [Imo hinc obiter infero posse
+          <lb ed="#P" n="19"/>peccari mortahter contra legem humanam per
+          <lb ed="#P" n="20"/>unum actum, vel omissionem, omnibus illis
+          <lb ed="#P" n="21"/>modis quibus potest peccari contra legem 
+          na<lb break="no" ed="#P" n="22"/>turalem vel divinam, scilicet, vel per malitiam,
+          <lb ed="#P" n="23"/>seu ex certa scientia et pravo usu libertatis,
+          <lb ed="#P" n="24"/>vel ex passione, quae sufficientem 
+          deliberatio<lb break="no" ed="#P" n="25"/>nem non excludat, vel per ignorantiam 
+          cras<lb break="no" ed="#P" n="26"/>sam et supinam, seu ex notabili negligentia
+          <lb ed="#P" n="27"/>profectam. Patet, quia omnibus his modis 
+          po<lb break="no" ed="#P" n="28"/>test esse actus sufficienter voluntarius, et nihil
+          <lb ed="#P" n="29"/>aliud requiritur, supposita obligatione legis,
+          <lb ed="#P" n="30"/>et quod ad hoc eadem est ratio de humana quae
+          <lb ed="#P" n="31"/>de naturali vel divina lege. Quapropter sano
+          <lb ed="#P" n="32"/>modo intelligendum est quod Cajetanus verb.
+          <lb ed="#P" n="33"/>Preceptun in fine ait, in his quae sunt positivi
+          <lb ed="#P" n="34"/>juris, si absque contemptu peccetur ex pura
+          <lb ed="#P" n="35"/>ignorantia, vel apparenti excusatione, cum
+          <lb ed="#P" n="36"/>animo non consentiendi contra praeceptum
+          <lb ed="#P" n="37"/>obligans ad mortale, non peccari mortaliter.
+          <lb ed="#P" n="38"/>Hoc enim intelligendum est de ignorantia 
+          in<lb break="no" ed="#P" n="39"/>vincibili et non crassa, et de probabili 
+          existi<lb break="no" ed="#P" n="40"/>matione excusationis. Unde idem dici posset
+          <lb ed="#P" n="41"/>de rebus juris divini positivi, licet in humano
+          <lb ed="#P" n="42"/>plures admitti possint similes excusationes.
+          <lb ed="#P" n="43"/>Atque ita explicuit illam doctrinam Sylvest.
+          <lb ed="#P" n="44"/>verbo Znobedientia. ubi D. Thomam et alios
+          <lb ed="#P" n="45"/>refert.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="199"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a50468"><!-- deleg-l3c8 -->
+        <head xml:id="szdleg-a50468-Hd1e101">Caput 8</head>
+        <head xml:id="szdleg-a50468-Hd1e103" type="question-title">Corollaria ex praecedenti doctrina, quibus potestas imperatoris, et legum civilium iuris communis magis explicatur</head>
+        <p xml:id="szdleg-a50468-d1e106">
+          <lb ed="#P" n="59"/>CAPUT VII.
+          <lb ed="#P" n="60"/>COROLLARIA EX PRAECEDENTI DOCTRINA, QUIBUS
+          <lb ed="#P" n="61"/>POTESTAS IMPERATORIS, ET LEGUM CIVILIUM
+          <lb ed="#P" n="62"/>JURIS COMMUNIS MAGIS EXPLICATUR.
+        </p>
+        <p xml:id="szdleg-a50468-d1e117">
+          <lb ed="#P" n="63"/>1. Imperatorem per suas leges obligare posse
+          <lb ed="#P" n="64"/>tantum imperio romano subjectas terras. —Ex
+          <lb ed="#P" n="65"/>dictis concluditur primo imperatorem quidem
+          <lb ed="#P" n="66"/>posse leges civiles condere, non tamen posse
+          <lb ed="#P" n="67"/>per illas obligare totam Ecclesiam, sed tantum
+          <lb ed="#P" n="68"/>provincias imperio romano subjectas. Prior
+          <lb ed="#P" n="69"/>pars certa est apud omnes, quia imperator in
+          <lb ed="#P" n="70"/>suis terris est princeps supremus quoad 
+          juris<lb break="no" ed="#P" n="71"/>dictionem temporalem directam ; ergo maxime
+          <lb ed="#P" n="72"/>ferre potest leges civiles. Et hoc constat ex
+          <lb ed="#P" n="73"/>jure communi Caesareo, quod auctoritate 
+          im<lb break="no" ed="#P" n="74"/>peratorum institutum est: eamdem enim 
+          auc<lb break="no" ed="#P" n="75"/>toritatem habet nunc imperator in terris sibi
+          <lb ed="#P" n="76"/>subjectis, quam olim habebant imperatores in
+          <lb ed="#P" n="77"/>suo latiori imperio ; imperator autem non 
+          so<lb break="no" ed="#P" n="78"/>lum hanc potestatem habuit, sed etiam l/i
+          <lb ed="#P" n="79"/>Deus leges subjecit, eunmque legem animatam
+          <lb ed="#P" n="80"/>constituit, ut dicit Justinian. in Authentica de
+          <lb ed="#P" n="81"/>Consulibus, circa finem. Imo in l. 2, c. de
+          <lb ed="#P" n="82"/>Veter. jure enucl. : Soli imperiali auctoritati
+          <lb ed="#P" n="83"/>(ait) leges condere et interpretari esse concessum.
+          <lb ed="#P" n="84"/>Et idem fere habet in l. 4 et ult., c. de 
+          Legi<lb break="no" ed="#P" n="85"/>bus. Loquitur tamen in ordine ad populos sibi
+          <lb ed="#P" n="86"/>subjectos (ut saepissime aliis locis declarat) ;
+          <lb ed="#P" n="87"/>nam in suo imperio se tantum agnoscebat in
+          <lb ed="#P" n="88"/>temporalibus supremum: eadem ergo potestas
+          <lb ed="#P" n="89"/>nunc est in imperatore cum eadem 
+          proportio<lb break="no" ed="#P" n="90"/>ne; unde facile etiam patet altera pars ex
+          <lb ed="#P" n="91"/>dictis : nam ostensum est non habere 
+          impera<lb break="no" ed="#P" n="92"/>torem romanum propriam jurisdictionem 
+          tem<lb break="no" ed="#P" n="93"/>poralem in universam Ecclesiam ; ergo non
+          <lb ed="#P" n="94"/>potest totam illam suis legibus obligare, sed
+          <lb ed="#P" n="95"/>tantum provincias sibi subjectas.
+        </p>
+        <p xml:id="szdleg-a50468-d1e191">
+          <lb ed="#P" n="96"/>2. Provincias subjectas imperio in duplici
+          <lb ed="#P" n="97"/>esse differentia. — An principes imperio 
+          sub<lb break="no" ed="#P" n="98"/>Jecti suis legibus possint derogare imperatoriis.
+          <lb ed="#P" n="99"/>— Quod si quis quaerat quaenam sint hae 
+          pro<lb break="no" ed="#P" n="100"/>vinciae nunc subjectae imperio, respondeo in
+          <lb ed="#P" n="101"/>duplici esse posse differentia : quaedam sunt
+          <lb ed="#P" n="102"/>in quibus ipse immediate dominatur, ita ut
+          <lb ed="#P" n="103"/>nullum alium recognoscant proximum 
+          princi<lb break="no" ed="#P" n="104"/>pem, sive sub nomine regis, sive ducis, vel
+          <lb ed="#P" n="105"/>alio simili, sed immediate soli imperatori 
+          pa<lb break="no" ed="#P" n="106"/>reant tanquam supremo principi. Et in his
+          <lb ed="#P" n="107"/>terris non solum obligant imperiales leges, ve-
+          <pb ed="#P" n="200"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rum etiam nulla aliae habere vim possunt,
+          <lb ed="#P" n="2"/>nisi ab ipso imperatore confirmatae sint, quia
+          <lb ed="#P" n="3"/>ibi solus ipse habet summam potestatem quae
+          <lb ed="#P" n="4"/>ad ferendas leges civiles necessaria est, ut in
+          <lb ed="#P" n="5"/>capite sequenti amplius explicabimus. Aliae
+          <lb ed="#P" n="6"/>sunt provinciae seu terrae, imperatori quidem
+          <lb ed="#P" n="7"/>subjectae tanquam supremo principi, non 
+          ta<lb break="no" ed="#P" n="8"/>men tanquam immediato domino: cujusmodi
+          <lb ed="#P" n="9"/>esse dicuntur multi ducatus, marchionatus,
+          <lb ed="#P" n="10"/>comitatus, vel quolibet alio nomine 
+          nuncupen<lb break="no" ed="#P" n="11"/>tur, Germaniae et ltaliae. Nam sunt quidem
+          <lb ed="#P" n="12"/>propri dominii, et principes cum potestate
+          <lb ed="#P" n="13"/>quodammodo regia: nam leges proprias ferre
+          <lb ed="#P" n="14"/>possunt, monetam cudere, et interdum etiam
+          <lb ed="#P" n="15"/>bellum indicere: et nihilominus imperatorem
+          <lb ed="#P" n="16"/>recognoscunt ut supremum dominum, vel jure
+          <lb ed="#P" n="17"/>feudi, vel alio simili: quia vel ab imperatore
+          <lb ed="#P" n="18"/>sub illa conditione principatum acceperunt,
+          <lb ed="#P" n="19"/>vel consuetudine introducti sunt cum illa 
+          re<lb break="no" ed="#P" n="20"/>cognitione et subjectione. Et in his provinciis
+          <lb ed="#P" n="21"/>obligant etiam leges imperatorum, quamvis
+          <lb ed="#P" n="22"/>non solae, quia etiam possunt habere proprias
+          <lb ed="#P" n="23"/>leges a suis propriis principibus latas, quia
+          <lb ed="#P" n="24"/>supponimus habere potestatem gubernativam
+          <lb ed="#P" n="25"/>suo modo supremam quoad immediatum 
+          re<lb break="no" ed="#P" n="26"/>eimen suarum terrarum, et ita quoad hoc
+          <lb ed="#P" n="27"/>eequiparantur regibus juxta dicenda capite 
+          se<lb break="no" ed="#P" n="28"/>quenti. Àn vero isti principes subjecti imperio
+          <lb ed="#P" n="29"/>possint suis legibus derogare imperatoris 
+          le<lb break="no" ed="#P" n="30"/>cibus, ex modo donationis, vel ex consuetudine
+          <lb ed="#P" n="31"/>colligendum est. Utroque enim modo 
+          potue<lb break="no" ed="#P" n="32"/>runt hujusmodi principatus concedi ab 
+          impe<lb break="no" ed="#P" n="33"/>peratoribus, vel consuetudine, et quasi 
+          prae<lb break="no" ed="#P" n="34"/>scriptione introduci, scilicet, vel cum 
+          obliga<lb break="no" ed="#P" n="35"/>tione parendi legibus imperatorum, ita ut
+          <lb ed="#P" n="36"/>proprias condere possint per modum 
+          additio<lb break="no" ed="#P" n="37"/>nis, non per modum derogationis, vel certe
+          <lb ed="#P" n="38"/>cum potestate derogandi illis, solumque cum
+          <lb ed="#P" n="39"/>obhgatione illas servandi, quamdiu per 
+          pro<lb break="no" ed="#P" n="40"/>prias derogatae non fuerint. Qualis autem fuerit
+          <lb ed="#P" n="41"/>concessionis modus, usu ipso maxime constare
+          <lb ed="#P" n="42"/>posse videtur.
+        </p>
+        <p xml:id="szdleg-a50468-d1e316">
+          <lb ed="#P" n="43"/>3. Quibus in terris obligant leges civiles 
+          ju<lb break="no" ed="#P" n="44"/>ris commnunis. —Jus civile ex vi sua non obligat
+          <lb ed="#P" n="45"/>in Lusitania. — Atque hinc obiter intelligitur
+          <lb ed="#P" n="46"/>in quibus provinciis seu terris Ecclesiae 
+          obli<lb break="no" ed="#P" n="47"/>zent leges civiles quae juris communis 
+          dicun<lb break="no" ed="#P" n="48"/>tur, et in corpore juris civilis continentur, 
+          so<lb break="no" ed="#P" n="49"/>lamque imperatoriam auctoritatem habent.
+          <lb ed="#P" n="50"/>Dicendum est enim per se et ex vi talium 
+          le<lb break="no" ed="#P" n="51"/>gum tantum obligare in terris imperii, altero
+          <lb ed="#P" n="52"/>ex duobus modis declaratis. In regnis autem
+          <lb ed="#P" n="53"/>supremis, quae proprios habent principes 
+          su<lb break="no" ed="#P" n="54"/>premos non recognoscentes superiorem in 
+          tem<lb break="no" ed="#P" n="55"/>poralibus, per se et ex vi sua non obligant,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>propter rationem factam : quia jurisdictio 
+          im<lb break="no" ed="#P" n="57"/>peratorum ibi non obligat, et extra territorium
+          <lb ed="#P" n="58"/>jus dicenti impune non paretur. Et ita in 
+          pau<lb break="no" ed="#P" n="59"/>cis provinciis Christianorum servatur jus 
+          ci<lb break="no" ed="#P" n="60"/>vile, ut late refert Gigas tract. de Crim. laesee
+          <lb ed="#P" n="61"/>majest. , libro 3, q. 23, n. 17 et sequentibus.
+          <lb ed="#P" n="62"/>Poterunt autem tales leges obligare quantum
+          <lb ed="#P" n="63"/>per leges talium regnorum acceptatae fuerunt.
+          <lb ed="#P" n="64"/>Sic enim in terris subjectis Pontifici in 
+          tem<lb break="no" ed="#P" n="65"/>poralibus jus civile servatur, ubi canonicum
+          <lb ed="#P" n="66"/>defuerit, non vi sua, sed quia Pontifices ita
+          <lb ed="#P" n="67"/>voluerunt, capite 1 de Novi oper. nunc. Qui
+          <lb ed="#P" n="68"/>textus non de causis temporalibus, sed de 
+          Ec<lb break="no" ed="#P" n="69"/>clesiasticis loquitur, et quoad hoc servari debet
+          <lb ed="#P" n="70"/>in tota Ecclesia, quia in his causis ubique
+          <lb ed="#P" n="71"/>subjecta est juri canonico, et ita etiam uti
+          <lb ed="#P" n="72"/>debet civili, quatenus ibi est canonizatum, et
+          <lb ed="#P" n="73"/>favet cap. iSv adjutorium , dist. 10. In causis
+          <lb ed="#P" n="74"/>autem mere temporalibus solum habebit locum
+          <lb ed="#P" n="75"/>jus illud in terris temporalibus subjectis 
+          Ec<lb break="no" ed="#P" n="76"/>clesiae. Sic etiam in hoc regno Lusitaniae, quod
+          <lb ed="#P" n="77"/>eisdem titulis supremum est, quibus regnum
+          <lb ed="#P" n="78"/>Hispaniae, jus civile per se non obligat, eique
+          <lb ed="#P" n="79"/>per leges regni derogari potest, ac seepe 
+          dero<lb break="no" ed="#P" n="80"/>gatur: ubi autem deest lex regni, servatur
+          <lb ed="#P" n="81"/>civile, non vi sua, sed ex ordinatione propria
+          <lb ed="#P" n="82"/>ejusdem regni, ut habetur libro 3 Ordin.,
+          <lb ed="#P" n="83"/>tit. 64.
+        </p>
+        <p xml:id="szdleg-a50468-d1e410">
+          <lb ed="#P" n="84"/>4. Leges civiles absolute non sunt in usu in
+          <lb ed="#P" n="85"/>Gallia.—At vero in regno Gallia aliter 
+          serva<lb break="no" ed="#P" n="86"/>tur, quia non solum jus proprium praefertur
+          <lb ed="#P" n="87"/>civili, sed absolute leges civiles non sunt in
+          <lb ed="#P" n="88"/>usu, ut testatur Honor. 3, in cap. Swuper 
+          spe<lb break="no" ed="#P" n="89"/>cula, de Privil. dicens: 7n Francia et nonnullis
+          <lb ed="#P" n="90"/>provinciis laici romanorum imperatorum 
+          legi<lb break="no" ed="#P" n="91"/>bus non utuntur, et tradit Bald. capite ultimo
+          <lb ed="#P" n="92"/>de Constit. circa finem. Idemque in Hispania
+          <lb ed="#P" n="93"/>expresse cautum est legibus regni, parte 1,
+          <lb ed="#P" n="94"/>tit. 1, I. 15, et clarius part. 3, tit. 4, l. 6. ibi,
+          <lb ed="#P" n="95"/>Por las legs deste libro, e non por otras, quibus
+          <lb ed="#P" n="96"/>locis id notat Gregor. Lop. et refert Palacium
+          <lb ed="#P" n="97"/>hub. dicentem Hispanos olim constituisse, ut
+          <lb ed="#P" n="98"/>qui leges imperatorum allegaret capite 
+          plec<lb break="no" ed="#P" n="99"/>teretur. Quod etiam Oldrad. consil. 69, Joann.
+          <lb ed="#P" n="100"/>Andr. et alii referunt, Gigas supra, et Vargas,
+          <lb ed="#P" n="101"/>et Salced. infra citandi. Item in l. 1 Tauri
+          <lb ed="#P" n="102"/>refertur antiqua lex regis Alphonsi, quae ibi
+          <lb ed="#P" n="103"/>confirmatur et renovatur, in qua declaratur
+          <lb ed="#P" n="104"/>quo ordine et modo judicandum sit per 
+          pro<lb break="no" ed="#P" n="105"/>prias leges Hispaniae, nullaque ratio habetur
+          <lb ed="#P" n="106"/>juris civilis in ratione legis ac juris. Additur
+          <lb ed="#P" n="107"/>vero ibidem permitti nihilominus in 
+          Hispa<lb break="no" ed="#P" n="108"/>nia leges civiles in publicis Academiis 
+          doce<lb break="no" ed="#P" n="109"/>ri, et interpretari propter earum eruditionem
+          <lb ed="#P" n="110"/>et sapientiam, non quia per illas judicandum
+          <pb ed="#P" n="201"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sit. Et in l. 2 Tauri adduntur illa verba, per
+          <lb ed="#P" n="2"/>leges regni, et non per alias judicandum esse,
+          <lb ed="#P" n="3"/>et omnia haec novissime confirmantur in nova
+          <lb ed="#P" n="4"/>recopilatione l. 1, ante librum 1, et lib. 2,
+          <lb ed="#P" n="5"/>1.1 et 2. Ex quibus legibus manifestum est
+          <lb ed="#P" n="6"/>leges civiles in Hispania non habere vim legum
+          <lb ed="#P" n="7"/>quatenus leges positivae sunt. Et ita si irritant
+          <lb ed="#P" n="8"/>contractum qui per leges Hispaniae non est
+          <lb ed="#P" n="9"/>irritus, talis contractus in Hispania non erit
+          <lb ed="#P" n="10"/>irritus, vel si pro delicto imponunt poenam
+          <lb ed="#P" n="11"/>quam non imponunt leges Hispaniae, non 
+          te<lb break="no" ed="#P" n="12"/>nebitur judex ex rigore legis illam poenam
+          <lb ed="#P" n="13"/>imponere, sed uti poterit prudenti arbitrio,
+          <lb ed="#P" n="14"/>idemque est in aliis dispositionibus, quae 
+          pen<lb break="no" ed="#P" n="15"/>dent ex potestate jurisdictionis et voluntate
+          <lb ed="#P" n="16"/>principis. Quatenus vero illae leges in multis
+          <lb ed="#P" n="17"/>continent et declarant ipsam naturalem legem,
+          <lb ed="#P" n="18"/>servandae erunt in vi legis naturalis, non in
+          <lb ed="#P" n="19"/>vi legis humanae, ut recte notavit Gregor. Lop.
+          <lb ed="#P" n="20"/>supra ex Panormit. in capite Feclesia sancte
+          <lb ed="#P" n="21"/>Marie, de Constit. Item quamvis non 
+          conti<lb break="no" ed="#P" n="22"/>neant naturalem obligationem, nec etiam per
+          <lb ed="#P" n="23"/>se obligent, deservire possunt per modum
+          <lb ed="#P" n="24"/>exemplarium ad imitandam prudentiam et
+          <lb ed="#P" n="25"/>eequitatem, quam frequentius continent, sive
+          <lb ed="#P" n="26"/>in taxandis poenis, sive in interpretandis 
+          tes<lb break="no" ed="#P" n="27"/>tamentis, in conjecturanda mente defuncti, et
+          <lb ed="#P" n="28"/>similibus.
+        </p>
+        <p xml:id="szdleg-a50468-d1e536">
+          <lb ed="#P" n="29"/>5. An servandum unquam necessario jus 
+          ci<lb break="no" ed="#P" n="30"/>vile in Hispania. — Addunt vero aliqui 
+          con<lb break="no" ed="#P" n="31"/>suetudine receptum esse in Hispania, ut jus
+          <lb ed="#P" n="32"/>civile servetur, ubi leges regni desunt. Ita
+          <lb ed="#P" n="33"/>tenet Burgos de Paz. in l. 1 Tauri, n. 520, ubi
+          <lb ed="#P" n="34"/>etiam Anton. Gom. n. 10 sentit leges civiles
+          <lb ed="#P" n="35"/>habere vim legis in Hispania, deficiente lege
+          <lb ed="#P" n="36"/>regni; non tamen affert jus in quo id fundetur,
+          <lb ed="#P" n="37"/>nec consuetudinis mentionem facit, sed tantum
+          <lb ed="#P" n="38"/>ait esse communem opinionem. Hhe tamen vera
+          <lb ed="#P" n="39"/>non habet sufficiens fundamentum ; nam 
+          con<lb break="no" ed="#P" n="40"/>stat ex dictis illas leges ex vi suae originis non
+          <lb ed="#P" n="41"/>habere vim in Hispania. Constat etiam non
+          <lb ed="#P" n="42"/>accepisse illam ex vi alicujus legis Hispaniae,
+          <lb ed="#P" n="43"/>imo per illas exclusas esse, ut allegatum est.
+          <lb ed="#P" n="44"/>De consuetudine autem sufficiente quae 
+          con<lb break="no" ed="#P" n="45"/>sentientibus regibus vel scientibus introducta
+          <lb ed="#P" n="46"/>sit non constat, praesertim cum novissime per
+          <lb ed="#P" n="47"/>Philippum II renovatae in hac parte sint 
+          supe<lb break="no" ed="#P" n="48"/>riores leges. Nec sufticit quod judices in 
+          simi<lb break="no" ed="#P" n="49"/>libus casibus frequentius judicent per leges
+          <lb ed="#P" n="50"/>civiles; nam credendum est id facere 
+          imita<lb break="no" ed="#P" n="51"/>tione, non obligatione. Non credo tamen esse
+          <lb ed="#P" n="52"/>consuetudinem puniendi aliquem propter
+          <lb ed="#P" n="53"/>transgressionem talium legum, si actus non
+          <lb ed="#P" n="54"/>sit vel contra leges naturales, vel contra leges
+          <lb ed="#P" n="55"/>regni. Et eadem ratione non debent nec pos-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sunt judices irritare contractum aliquem, eo
+          <lb ed="#P" n="57"/>quod sit contra jus civile, si non sit irritus per
+          <lb ed="#P" n="58"/>leges regni, vel jure natura, aut mereatur
+          <lb ed="#P" n="59"/>irritari. Et ita sensit Gregorius Lopez supra,
+          <lb ed="#P" n="60"/>et Francisc. Varg. tract. de Potestate 
+          pontifi<lb break="no" ed="#P" n="61"/>cia, axioma 7, n. 10, Bernard. Diaz in Pract.
+          <lb ed="#P" n="62"/>q. 144 circa finem, ubi Salzed. litt. C alios
+          <lb ed="#P" n="63"/>allegat.
+        </p>
+        <p xml:id="szdleg-a50468-d1e617">
+          <lb ed="#P" n="64"/>6. Dubium incidens. — Ex quibus tandem
+          <lb ed="#P" n="65"/>potest definiri dubium quod in fine capitis
+          <lb ed="#P" n="66"/>praecedentis huc remisimus, an in regnis non
+          <lb ed="#P" n="67"/>subjectis temporaliter Papae nec imperio, 
+          se<lb break="no" ed="#P" n="68"/>quendum sit jus pontificium in materia mere
+          <lb ed="#P" n="69"/>civili, seu temporali ; vel imperiale in casibus
+          <lb ed="#P" n="70"/>qui per proprium jus regni decidi non possunt.
+          <lb ed="#P" n="71"/>Et per utrumque illud jus diverso modo 
+          deci<lb break="no" ed="#P" n="72"/>duntur. Tunc enim jus pontificium sequendum
+          <lb ed="#P" n="73"/>esse tenuit Joan. Lupus in repetit. cap. Per
+          <lb ed="#P" n="74"/>cestras, ce Donat. inter virum et uxor., inrubr.
+          <lb ed="#P" n="75"/>seu introductione , quem refert et sequitur
+          <lb ed="#P" n="76"/>Gregorius Lop. in l. 8, tit. 14, partit. 5, n. 2,
+          <lb ed="#P" n="77"/>et Salzed. supra, referens plures alios hispanos
+          <lb ed="#P" n="78"/>scriptores. Verumtamen hoc intelligendum 
+          vi<lb break="no" ed="#P" n="79"/>detur per modum consilii et aequitatis; nam
+          <lb ed="#P" n="80"/>ratio obligationis aut necessitatis nulla potest
+          <lb ed="#P" n="81"/>assignari : quia, sicut in eo casu absolute non
+          <lb ed="#P" n="82"/>obligant in hoc regno leges imperiales, ita 
+          ne<lb break="no" ed="#P" n="83"/>que etiam pontificiae mere temporales, ut cap.
+          <lb ed="#P" n="84"/>superiori dictum est, et ex hic dictis cum 
+          pro<lb break="no" ed="#P" n="85"/>portione patet ; ergo etiamsi utrumque jus,
+          <lb ed="#P" n="86"/>pontificium et imperiale , concurrant in eo
+          <lb ed="#P" n="87"/>casu, poterit utrumque omitti et tertium 
+          ar<lb break="no" ed="#P" n="88"/>bitrium sumi; quia neutrum obligat : ergo
+          <lb ed="#P" n="89"/>etiam erit liberum judici eligere quod voluerit,
+          <lb ed="#P" n="90"/>si alterum illorum imitari velit. Quin potius in
+          <lb ed="#P" n="91"/>legibus hujus regni Lusitaniae, cautum est ut
+          <lb ed="#P" n="92"/>in tali casu judicium feratur juxta imperiales
+          <lb ed="#P" n="93"/>leges, licet pontificiae contrarium disponant,
+          <lb ed="#P" n="94"/>lib. 3 Ordinat.. tit. 64. Imo additur ibi S 3,
+          <lb ed="#P" n="95"/>quod si aliquo casu jus regni et imperiale nihil
+          <lb ed="#P" n="96"/>disponit , et per jus canonicum disponitur
+          <lb ed="#P" n="97"/>uno modo, per Glossas autem et interpretes
+          <lb ed="#P" n="98"/>legum civilium alio modo ; non sunt canonica
+          <lb ed="#P" n="99"/>jura praeferenda, sed rex ipse consulendus.
+          <lb ed="#P" n="100"/>Igitur in his eventibus vel id servandum est,
+          <lb ed="#P" n="101"/>quod jura regni disponunt ; vel, si nihil 
+          dispo<lb break="no" ed="#P" n="102"/>nitur, liberum erit eligere quod juxta 
+          occurren<lb break="no" ed="#P" n="103"/>tes circumstantias rationi et aequitati magis
+          <lb ed="#P" n="104"/>consentaneum judicabitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 13</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 13</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="474"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-b19883"><!-- deleg-l5c13 -->
+        <head xml:id="szdleg-b19883-Hd1e101">Caput 13</head>
+        <head xml:id="szdleg-b19883-Hd1e103" type="question-title">An leges per quas tbributa imponuntur pure poenales sint</head>
+        <p xml:id="szdleg-b19883-d1e106">
+          <lb ed="#P" n="31"/>CAPUT XIII.
+          <lb ed="#P" n="32"/>AN LEGES PER QUAS TBRIBUTA IMPONUNTUR PURE
+          <lb ed="#P" n="33"/>POENALES SINT.
+        </p>
+        <p xml:id="szdleg-b19883-d1e115">
+          <lb ed="#P" n="34"/>1. Quod hae leges tributorum onerosae sint,
+          <lb ed="#P" n="35"/>et inter odiosas computentur, notissimum est,
+          <lb ed="#P" n="36"/>tum ex communi sensu non solum jurium et
+          <lb ed="#P" n="37"/>doctorum, sed etiam omnium hominum; tum
+          <lb ed="#P" n="38"/>etiam ex ipsis terminis, ut illos exponendo
+          <lb ed="#P" n="39"/>statim patebit ; ideoque ad hunc locum 
+          spec<lb break="no" ed="#P" n="40"/>tant, et merito cum lege poenali 
+          conjungun<lb break="no" ed="#P" n="41"/>tur, quia sunt adeo similes, ut earum 
+          diffe<lb break="no" ed="#P" n="42"/>rentiam prius explicare necessarium sit. Prius
+          <lb ed="#P" n="43"/>vero circa nomen tributi advertere oportet,
+          <lb ed="#P" n="44"/>aliquos existimasse illud derivari a tribus, ut,
+          <lb ed="#P" n="45"/>scilicet, quia pecuniae olim tributim 
+          impera<lb break="no" ed="#P" n="46"/>bantur, inde tributa sunt appellata. Alii vero
+          <lb ed="#P" n="47"/>putant e contrario tribum a tributo esse 
+          appel<lb break="no" ed="#P" n="48"/>latam. Nam quia tributa exigebantur a 
+          singu<lb break="no" ed="#P" n="49"/>lis partibus in quas totus populus dividebatur,
+          <lb ed="#P" n="50"/>ideo partes illae tribus sunt appellatae. Et hoc
+          <lb ed="#P" n="51"/>videtur verisimilius; sequitur Gregor. Lop. in
+          <lb ed="#P" n="52"/>l. 25, tit. 13, p. 5; Gloss. 2, cum Joan. de
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>Platea in rubr., c. de Annon. et trib. Unde
+          <lb ed="#P" n="54"/>etiam videtur verisimilius tributum a verbo
+          <lb ed="#P" n="55"/>Tribuo derivatum esse, ut sentit etiam Ulpian.
+          <lb ed="#P" n="56"/>in l. Ager, S Stipendiwn, ff. de Verb. signif.
+          <lb ed="#P" n="57"/>Juxta hanc autem vocis etymologiam, 
+          quae<lb break="no" ed="#P" n="58"/>cumque pensio aut portio determinata, quae
+          <lb ed="#P" n="59"/>alteri ex jure aliquo persolvitur, poterit 
+          tri<lb break="no" ed="#P" n="60"/>butum appellari, lata et generali 
+          significa<lb break="no" ed="#P" n="61"/>tione, sive pensio illa ad jus privatum 
+          perti<lb break="no" ed="#P" n="62"/>neat, sive ad publicum. Verumtamen jam vox
+          <lb ed="#P" n="63"/>illa, sive ex usus accommodatione, sive per
+          <lb ed="#P" n="64"/>antonomasiam, significat pensionem publicam,
+          <lb ed="#P" n="65"/>quae ad regios sumptus, seu communes 
+          reipu<lb break="no" ed="#P" n="66"/>blicae operas, per singulos de populo 
+          distribui<lb break="no" ed="#P" n="67"/>tur, et stata lege persolvitur. Sunt autem alia
+          <lb ed="#P" n="68"/>etiam nomina, quibus tributa significantur,
+          <lb ed="#P" n="69"/>ut vectigal, pedagium, et similia, quae quasi
+          <lb ed="#P" n="70"/>specificas rationes tributorum indicant , licet
+          <lb ed="#P" n="71"/>interdum generalius usurpentur ; et ideo 
+          eo<lb break="no" ed="#P" n="72"/>rum significationes breviter exponere 
+          neces<lb break="no" ed="#P" n="73"/>sarium existimo.
+        </p>
+        <p xml:id="szdleg-b19883-d1e206">
+          <lb ed="#P" n="74"/>2. Tributum dividitur in reale, personale,
+          <lb ed="#P" n="75"/>et minxtum.—RBeale quid. — Canon quid. —Ut
+          <lb ed="#P" n="76"/>autem commodius fiat, oportet prius 
+          distinc<lb break="no" ed="#P" n="77"/>tionem tributi adnotare , in reale, personale,
+          <lb ed="#P" n="78"/>et mixtum, quae sumitur ex l. ult., ff. de 
+          Mu<lb break="no" ed="#P" n="79"/>ner. et honor. heale dicitur, quod pro rebus
+          <lb ed="#P" n="80"/>immobilibus, et fructibus earum quotannis
+          <lb ed="#P" n="81"/>persolvitur, quo modo decimae ecclesiasticae
+          <lb ed="#P" n="82"/>possunt dici tributa realia, quamvis nec sub
+          <lb ed="#P" n="83"/>hac vice comprehendi soleant, nec de illis nunc
+          <lb ed="#P" n="84"/>disseramus. Solent igitur ita vocari pensiones
+          <lb ed="#P" n="85"/>quaedam quae penduntur regibus et 
+          principi<lb break="no" ed="#P" n="86"/>bus ex terris et agris, quae a principio ad 
+          eo<lb break="no" ed="#P" n="87"/>rum sustentationem illis applicata fuerunt,
+          <lb ed="#P" n="88"/>ipsi vero in emphyteusim vel feudum alis ea
+          <lb ed="#P" n="89"/>donarunt sub certa pensione annua, quae in
+          <lb ed="#P" n="90"/>jure civili solet canon appellari, quia certa
+          <lb ed="#P" n="91"/>regula et lege praescripta erat, 1. 1, c. de 
+          In<lb break="no" ed="#P" n="92"/>dictionibus, 1. 10. Solet etiam haec pensio 
+          ap<lb break="no" ed="#P" n="93"/>pellari vectigal, et agri ei subjecti vectigales,
+          <lb ed="#P" n="94"/>ut patet ex l. 1et 2, ff. Si ager vectigal. Alia
+          <lb ed="#P" n="95"/>vero significatio hujus vocis statim tradenda,
+          <lb ed="#P" n="96"/>magis propria et usitata est. Personaliatributa
+          <lb ed="#P" n="97"/>dicuntur, quae ratione tantum personae 
+          solvun<lb break="no" ed="#P" n="98"/>tur, et vocantur census, juxta illud Matthaei
+          <lb ed="#P" n="99"/>92: Licet censum dare Caeesari, an non ? Nam
+          <lb ed="#P" n="100"/>census ille tributum personale erat , propter
+          <lb ed="#P" n="101"/>quod imponendum facta est descriptio, quam
+          <lb ed="#P" n="102"/>narrat Lucas c. 2, et Actor. 5, ut probabilor
+          <lb ed="#P" n="103"/>fert sententia ex Josepho, lib. 18, et Antiquit.
+          <lb ed="#P" n="104"/>cap. 1, et expositoribus ibi. Quod tributum
+          <lb ed="#P" n="105"/>generali nomine tributi appellatur Lucae c. 20,
+          <lb ed="#P" n="106"/>a Matthaeo vero speciali, vel fortasse illae voces
+          <lb ed="#P" n="107"/>synonymae sunt respectu principis, licet res-
+          <pb ed="#P" n="475"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>pectu privatorum soleant distingui, ut notat
+          <lb ed="#P" n="2"/>Panormit. in c. Iunovamus, de Censib., n. 3,
+          <lb ed="#P" n="3"/>quod solum pertinet ad usum vocis, ut dixi.
+          <lb ed="#P" n="4"/>Proprie item personale tributum vocatur a
+          <lb ed="#P" n="5"/>jurisuis capitatio, in l. ult., S ult., ff. de Mun.
+          <lb ed="#P" n="6"/>et honor., et l. Saerosancta, c. de Sacrosanctis
+          <lb ed="#P" n="7"/>Eccles., quia, scilicet, per capita solvuntur.
+          <lb ed="#P" n="8"/>Mixta dicuntur quae pro rebus praesertim 
+          mo<lb break="no" ed="#P" n="9"/>bilibus et personis solvuntur ; hujusmodi sunt
+          <lb ed="#P" n="10"/>gabella, quae solvitur de rebus, aut venditis,
+          <lb ed="#P" n="11"/>hispane alcavealla ; item vectigal , quo 
+          no<lb break="no" ed="#P" n="12"/>mine in jure significatur tributum debitum ex
+          <lb ed="#P" n="13"/>mercibus invectis in provinciam, vel ex illa
+          <lb ed="#P" n="14"/>evectis. seu quae per pontes, aut portus 
+          ve<lb break="no" ed="#P" n="15"/>huntur, juxta 1. Vectigalia, ff. de Public. et
+          <lb ed="#P" n="16"/>vectigal., et l. Ev praescriptione, c. Vectigal.
+          <lb ed="#P" n="17"/>Et ita distinguitur vectigal a tributo tanquam
+          <lb ed="#P" n="18"/>species a genere: licet interdum videantur
+          <lb ed="#P" n="19"/>condistingui tanquam duae species, ut apud
+          <lb ed="#P" n="20"/>Paul. Rom. 13: Cui tributum tributum, c
+          <lb ed="#P" n="21"/>vectigal vectigal, ut tributum videatur 
+          signifi<lb break="no" ed="#P" n="22"/>care pensionem debitam ratione personae vel
+          <lb ed="#P" n="23"/>possessionis ; vectigal autem ratione mercium,
+          <lb ed="#P" n="24"/>vel rerum quae portantur. Et hoc habet etiam
+          <lb ed="#P" n="25"/>fundamentum in jure, l. 1, $1, ff. de Publ. et
+          <lb ed="#P" n="26"/>vect., et ibi notat Gloss. verb. Pendant. 
+          Ordi<lb break="no" ed="#P" n="27"/>nario vero usu nomen fributi generale est, 
+          vec<lb break="no" ed="#P" n="28"/>tigalis speciale, quod solet etiam appellari 
+          por<lb break="no" ed="#P" n="29"/>torium, 1. 3, c. de Vectigal.
+        </p>
+        <p xml:id="szdleg-b19883-d1e350">
+          <lb ed="#P" n="30"/>3. Alia vocantur angaria, l. His oneribus,
+          <lb ed="#P" n="31"/>ff. de Vacat. et excus. mun., et l. Neminem,
+          <lb ed="#P" n="32"/>c. de Sac. Eccl., ubi Gloss. inquit : Angaria
+          <lb ed="#P" n="33"/>sunt quae sunt in operis personarum. Alia 
+          vo<lb break="no" ed="#P" n="34"/>cantur pedagia et guidagia, quorum significatio
+          <lb ed="#P" n="35"/>nota est; et de illis videri potest Gloss. in cap.
+          <lb ed="#P" n="36"/>Super quibusdam, de Verb. signific., ubi 
+          peda<lb break="no" ed="#P" n="37"/>gium pro vectigali ponitur; vide etiam Sylv.,
+          <lb ed="#P" n="38"/>verb. Gabella, in princ.; Navar., in cap. 
+          Pra<lb break="no" ed="#P" n="39"/>ternitas, a n. M. Et de his posterioribus 
+          tri<lb break="no" ed="#P" n="40"/>butis sub nomine pedagii dicitur in c. 
+          Quan<lb break="no" ed="#P" n="41"/>quam, de Cens., in 6, regulariter esse in jure
+          <lb ed="#P" n="42"/>reprobata, non quia semper injusta sint, sed
+          <lb ed="#P" n="43"/>quia solent esse suspecta. Omnis autem haec
+          <lb ed="#P" n="44"/>tributorum varietas, quantum ad praesens 
+          spec<lb break="no" ed="#P" n="45"/>tat, materialis est; sumitur enim vel ex rebus
+          <lb ed="#P" n="46"/>super quas imponuntur, vel ex fine et causa
+          <lb ed="#P" n="47"/>impositionis : formalis autem ratio obligationis
+          <lb ed="#P" n="48"/>eadem est in omnibus, et ideo de illis tantum
+          <lb ed="#P" n="49"/>generatim loquemur. Alii vero explicant illa
+          <lb ed="#P" n="50"/>itria membra ex parte oneris seu pensionis
+          <lb ed="#P" n="51"/>alicui impositae : aliquando enim est opus seu
+          <lb ed="#P" n="52"/>labor personae, et ideo personalis dicitur: 
+          in<lb break="no" ed="#P" n="53"/>terdum vero est res aliqua, vel usus ejus, ut
+          <lb ed="#P" n="54"/>pecunia, triticum, gallinae, vel usus equi aut
+          <lb ed="#P" n="55"/>domus ; nonnunquam vero utrumque includit,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ut si quis certis temporibus teneatur servire
+          <lb ed="#P" n="57"/>principi. persona et sumptibus suis. Quae 
+          expli<lb break="no" ed="#P" n="58"/>catio habet etiam fundamentum in dicta leg.
+          <lb ed="#P" n="59"/>ult. Tamen etiam est valde materialis et magis
+          <lb ed="#P" n="60"/>habet locum in privatis oneribus, seu 
+          muneri<lb break="no" ed="#P" n="61"/>bus, quam in tributis, quae frequentius solent
+          <lb ed="#P" n="62"/>in pecunia exigi, quamvis aliquando etiam alia
+          <lb ed="#P" n="63"/>onera exigantur, de quibus, quod spectat ad 
+          jus<lb break="no" ed="#P" n="64"/>titiam legum, eadem est proportionalis ratio.
+        </p>
+        <p xml:id="szdleg-b19883-d1e431">
+          <lb ed="#P" n="65"/>4. Obligatio est in conscientia ad solvenda 
+          tri<lb break="no" ed="#P" n="66"/>buta realia, licet non petantur. — Ex his ergo
+          <lb ed="#P" n="67"/>facile intelligitur quaestionem propositam non
+          <lb ed="#P" n="68"/>habere locum in tributis realibus; nam, ut
+          <lb ed="#P" n="69"/>bene dixit Navar. supra, sunt maxime 
+          natura<lb break="no" ed="#P" n="70"/>lia, et prae se ferunt justitiam, quia exiguntur
+          <lb ed="#P" n="71"/>de rebus propriis, et in contractu justo fundata
+          <lb ed="#P" n="72"/>sunt. Et ideo leges per quas talia tributa solvi
+          <lb ed="#P" n="73"/>praecipiuntur, etiamsi in illis addatur poena,
+          <lb ed="#P" n="74"/>sine dubio pure poenales dici non possunt, sed
+          <lb ed="#P" n="75"/>morales, sicut sunt aliae de servandis 
+          contrac<lb break="no" ed="#P" n="76"/>tibus et implendis promissis, et in universum
+          <lb ed="#P" n="77"/>de reddendo debito quod unicuique ex justitia
+          <lb ed="#P" n="78"/>debetur. Unde etiam certum est tales leges
+          <lb ed="#P" n="79"/>obligare in conscientia ad solvenda talia 
+          tribu<lb break="no" ed="#P" n="80"/>ta, integre et sponte, et sine ulla diminutione
+          <lb ed="#P" n="81"/>ac fraude, etiamsi non petantur : quia sunt 
+          de<lb break="no" ed="#P" n="82"/>bita ex justitia commutativa, quae secum affert
+          <lb ed="#P" n="83"/>hanc intrinsecam obligationem, nisi ex 
+          con<lb break="no" ed="#P" n="84"/>suetudine vel scriptura constet aliam fuisse
+          <lb ed="#P" n="85"/>conditionem pacti seu oneris rebus ipsis 
+          impo<lb break="no" ed="#P" n="86"/>siti : nam tunc illae servandae sunt, et ita de
+          <lb ed="#P" n="87"/>his tributis nihil amplius hic dicemus : 
+          perti<lb break="no" ed="#P" n="88"/>nent enim ad materiam de feudis et aliis 
+          rega<lb break="no" ed="#P" n="89"/>libus, ut vocant.
+        </p>
+        <p xml:id="szdleg-b19883-d1e488">
+          <lb ed="#P" n="90"/>5. Circa alia vero tributa ratio dubitandi
+          <lb ed="#P" n="91"/>esse potest, quia haec tributa poni ordinarie
+          <lb ed="#P" n="92"/>solent sine verbo praecipiendi, seu statuendi
+          <lb ed="#P" n="93"/>sub aliqua conditione poenali : ergo leges 
+          qui<lb break="no" ed="#P" n="94"/>bus praecipiuntur mere poenales sunt. Probatur
+          <lb ed="#P" n="95"/>consequentia, quia per talem conditionem 
+          in<lb break="no" ed="#P" n="96"/>dicatur tributum non poni sub reatu 
+          conscien<lb break="no" ed="#P" n="97"/>tiae, sed sub reatu solius poenae; ut supra de
+          <lb ed="#P" n="98"/>lege pure poenali dictum est. Confirmatur ac
+          <lb ed="#P" n="99"/>declaratur, quia, interpretando has leges in
+          <lb ed="#P" n="100"/>hoc sensu, servatur aequitas justitiae quae ad
+          <lb ed="#P" n="101"/>talem obligationem necessaria est: hoc enim
+          <lb ed="#P" n="102"/>modo non defraudatur rex pensione sibi debita,
+          <lb ed="#P" n="103"/>quia per adjectionem poenae compensatur 
+          suffi<lb break="no" ed="#P" n="104"/>cienter quidquid de bonis ejus per 
+          denegatio<lb break="no" ed="#P" n="105"/>nem tributi diminui potest : ergo poena 
+          impo<lb break="no" ed="#P" n="106"/>sita est ad resarciendum, vel potius vitandum
+          <lb ed="#P" n="107"/>nocumentum regis, quo cessante cessat etiam
+          <lb ed="#P" n="108"/>obligatio in conscientia solvendi tributum, vel
+          <lb ed="#P" n="109"/>ex ipsarei natura, quia nullasit inaequalitas, vel
+          <lb ed="#P" n="110"/>ex intentione legislatoris rationabiliter prae-
+          <pb ed="#P" n="476"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sumpta. Quae praesumptio confirmatur ; nam
+          <lb ed="#P" n="2"/>sic explicatae leges tributorum erunt moderatae
+          <lb ed="#P" n="3"/>et tolerabiles, quae in majori rigore erunt nimis
+          <lb ed="#P" n="4"/>durae, et fortasse injustae. Et pro hac sententia
+          <lb ed="#P" n="5"/>referri possunt auctores qui dicunt tributa non
+          <lb ed="#P" n="6"/>deberi in conscientia prius quam petantur,
+          <lb ed="#P" n="7"/>quos cap. 15 referemus. Atque ita tenet aperte
+          <lb ed="#P" n="8"/>Angel., verb. Pedagium, n. 6, et possunt citari
+          <lb ed="#P" n="9"/>omnes qui legem poenalem negant in 
+          conscien<lb break="no" ed="#P" n="10"/>tia obligare, sicut consequenter tenuit Nav. in
+          <lb ed="#P" n="11"/>sum. , cap. 23, n. 60, loquens specialiter de
+          <lb ed="#P" n="12"/>vectigalibus et portoriis. Declarat tamen, 
+          post<lb break="no" ed="#P" n="13"/>quam aliquis cecidit in commissum, non posse
+          <lb ed="#P" n="14"/>res defendere vi et armis, quia juste impeditur
+          <lb ed="#P" n="15"/>et punitur; posse tamen fugere, vel modo alio
+          <lb ed="#P" n="16"/>licito evadere, si potest.
+        </p>
+        <p xml:id="szdleg-b19883-d1e575">
+          <lb ed="#P" n="17"/>6. Conclusio. — Dicendum nihilominus est
+          <lb ed="#P" n="18"/>leges tributorum ex genere suo, seu ex vi 
+          ma<lb break="no" ed="#P" n="19"/>teriae, nec per se habere ut poenales sint, neque
+          <lb ed="#P" n="20"/>etiam esse mere poenales ex eo tantum quod
+          <lb ed="#P" n="21"/>in eis poena adjiciatur, nisi ex verbis aut 
+          cir<lb break="no" ed="#P" n="22"/>cumstantiis legis aliud constet. Hanc 
+          doctri<lb break="no" ed="#P" n="23"/>nam existimo esse communem, eamque late
+          <lb ed="#P" n="24"/>tradit Covar. in regula Peccatum, 2 part., S 5.
+          <lb ed="#P" n="25"/>Eamdemque supponunt omnes qui dicunt 
+          le<lb break="no" ed="#P" n="26"/>ges tributorum obligare in conscientia, quos
+          <lb ed="#P" n="27"/>infra cap. 15 referemus. Sensus autem est nihil
+          <lb ed="#P" n="28"/>speciale in hoc habere leges tributorum, ac
+          <lb ed="#P" n="29"/>subinde sicut alias leges, ita et has posse tribus
+          <lb ed="#P" n="30"/>modis ferri, scilicet, per purum praeceptum
+          <lb ed="#P" n="31"/>sine adjectione poenas, et praecipiendo simul
+          <lb ed="#P" n="32"/>et adjiciendo poenam non solventibus, et 
+          im<lb break="no" ed="#P" n="33"/>ponendo tributum sub onere tantum poenae
+          <lb ed="#P" n="34"/>sine interpositione praecepti; ratio generalis
+          <lb ed="#P" n="35"/>est, quia materia harum legum est capax 
+          om<lb break="no" ed="#P" n="36"/>nium horum modorum, et nulla est ratio ob
+          <lb ed="#P" n="37"/>quam aliquem illorum excludamus. Quod ita
+          <lb ed="#P" n="38"/>breviter declaratur et probatur, quia in lege
+          <lb ed="#P" n="39"/>tributi duae partes distingui possunt et debent.
+          <lb ed="#P" n="40"/>Una est imperans seu imponens tributum, alia
+          <lb ed="#P" n="41"/>est imponens poenam non solventibus 
+          tribu<lb break="no" ed="#P" n="42"/>tum; haec autem pars non est per se ac 
+          neces<lb break="no" ed="#P" n="43"/>sario conjuncta cum prima, sed pendet ex 
+          ar<lb break="no" ed="#P" n="44"/>bitrio principis, ut per se notum videtur; tum
+          <lb ed="#P" n="45"/>quia secunda pars est posterior, et re omnino
+          <lb ed="#P" n="46"/>distincta a prima, et prior non pendet 
+          essen<lb break="no" ed="#P" n="47"/>taliter a posteriori : ergo potest poni sine illa;
+          <lb ed="#P" n="48"/>tum etiam quia posset lex comminari tantum
+          <lb ed="#P" n="49"/>poenam in genere non solventibus tributum,
+          <lb ed="#P" n="50"/>nimirum, quod digne puniantur nisi solvant,
+          <lb ed="#P" n="51"/>non taxando poenam, sed relinquendo arbitrio
+          <lb ed="#P" n="52"/>judicis, sicut in aliis rebus non minus gravibus
+          <lb ed="#P" n="53"/>seepe fit: ergo etiam potest nullam omnino
+          <lb ed="#P" n="54"/>mentionem poenae facere, sed simpliciter 
+          im<lb break="no" ed="#P" n="55"/>perare tributum; nam ibi implicite includitur
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>transgressorem fieri reum poenee, et posse 
+          pu<lb break="no" ed="#P" n="57"/>niri saltem arbitrio judicis : est ergo possibilis
+          <lb ed="#P" n="58"/>ille prior modus, de aliis vero res est 
+          mani<lb break="no" ed="#P" n="59"/>festa.
+        </p>
+        <p xml:id="szdleg-b19883-d1e673">
+          <lb ed="#P" n="60"/>7. Hinc ergo aperte concluditur prima pars
+          <lb ed="#P" n="61"/>assertionis; nam leges tributorum ex genere
+          <lb ed="#P" n="62"/>suo, et ex vi materiae suae tantum habent, ut
+          <lb ed="#P" n="63"/>tributa imponant, ut declaratum est; sed ut
+          <lb ed="#P" n="64"/>sic non sunt poenales : ergo. Probatur minor,
+          <lb ed="#P" n="65"/>quia, licet tributum sit aliquando onerosum
+          <lb ed="#P" n="66"/>vel laboriosum, non tamen supponit culpam,
+          <lb ed="#P" n="67"/>nec transgressionem aliquam, etiam civilem,
+          <lb ed="#P" n="68"/>propter quam vindicandam, vel coercendam
+          <lb ed="#P" n="69"/>imponatur : ergo nullam habet rationem 
+          poe<lb break="no" ed="#P" n="70"/>nae; ergo ex hoc capite non habet talis lex
+          <lb ed="#P" n="71"/>quod poenalis sit. Confirmatur, quia multae
+          <lb ed="#P" n="72"/>aliae leges possunt imponere graviora onera,
+          <lb ed="#P" n="73"/>vel imperare res difficiliores, quae non 
+          pro<lb break="no" ed="#P" n="74"/>pterea sunt poenales, ut in legibus militiae, et
+          <lb ed="#P" n="75"/>similibus manifestum est. Denique materia
+          <lb ed="#P" n="76"/>talium legum est materia justitiae 
+          commuta<lb break="no" ed="#P" n="77"/>tivae, continetque veluti justum stipendium,
+          <lb ed="#P" n="78"/>seu subsidium reddendum regibus ad 
+          susten<lb break="no" ed="#P" n="79"/>tanda onera muneris sui, juxta illud Pauli
+          <lb ed="#P" n="80"/>Rom. 13.: Solvite omnibus debita, cui 
+          tribu<lb break="no" ed="#P" n="81"/>tun tributum, etc. Et rationem reddit, quia
+          <lb ed="#P" n="82"/>ministri Dei sunt, in hoc ipsum servientes ; ideo
+          <lb ed="#P" n="83"/>enim (inquit) tributa praestatis -ergo hae leges,
+          <lb ed="#P" n="84"/>ut tales sunt, nullo modo possunt dici poenales,
+          <lb ed="#P" n="85"/>sicut leges taxantes pretia rerum, vel stipendia
+          <lb ed="#P" n="86"/>operariorum, aut militum, non possunt dici
+          <lb ed="#P" n="87"/>poenales respectu eorum qui talia stipendia
+          <lb ed="#P" n="88"/>solvere coguntur, quia in eorum utilitatem vel
+          <lb ed="#P" n="89"/>commodum illae res vel munera fiunt, vel
+          <lb ed="#P" n="90"/>conferuntur.
+        </p>
+        <p xml:id="szdleg-b19883-d1e743">
+          <lb ed="#P" n="91"/>8. Dices, interdum tributum aliquod potest
+          <lb ed="#P" n="92"/>imponi in poenam, ut recte docuit Victor., 
+          re<lb break="no" ed="#P" n="93"/>lect. de Jur. belli, n. 57, et colligitur ex 
+          Deu<lb break="no" ed="#P" n="94"/>ter. 20, et patet, quia rex potest punire 
+          civi<lb break="no" ed="#P" n="95"/>tatem rebellem, vel aliud regnum, aut 
+          rempu<lb break="no" ed="#P" n="96"/>blicam quae injuriam sibi intulit, postquam
+          <lb ed="#P" n="97"/>illam expugnavit : ergo potest justo arbitrio
+          <lb ed="#P" n="98"/>eligere aliquod tributum quod illi iu poenam
+          <lb ed="#P" n="99"/>imponat. Respondeo nos formaliter loqui de
+          <lb ed="#P" n="100"/>tributo, ut tributum est, secundum proprium
+          <lb ed="#P" n="101"/>finem et quasi intrinsecam naturam ejus, et
+          <lb ed="#P" n="102"/>sic manifestum est non esse poenam. Nihil 
+          ta<lb break="no" ed="#P" n="103"/>men obstat quominus similis impositio fiat in
+          <lb ed="#P" n="104"/>poenam. Tunc autem sequetur naturam poenae
+          <lb ed="#P" n="105"/>quoad obligationem; solum est considerandum
+          <lb ed="#P" n="106"/>in istis casibus et similibus tributum non 
+          im<lb break="no" ed="#P" n="107"/>poni propter delictum futurum, sed propter
+          <lb ed="#P" n="108"/>jam factum, et post justam condemnationem,
+          <lb ed="#P" n="109"/>ut supponitur; et ideo ita obligari homines ad
+          <lb ed="#P" n="110"/>illud tributum solvendum, sicut obligatur
+          <pb ed="#P" n="477"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>reus ad solutionem pecuniariae poenae, 
+          post<lb break="no" ed="#P" n="2"/>quam ad illam est juste condemnatus.
+        </p>
+        <p xml:id="szdleg-b19883-d1e799">
+          <lb ed="#P" n="3"/>9. Ex his ulterius infertur leges tributorum,
+          <lb ed="#P" n="4"/>spectatas praecise secundum id quod per se et
+          <lb ed="#P" n="5"/>intrinsece requirunt, esse veras leges morales
+          <lb ed="#P" n="6"/>obligantes in conscientia. Probatur, quia si
+          <lb ed="#P" n="7"/>lex haec imperat tributum sine adjectione 
+          poe<lb break="no" ed="#P" n="8"/>nae, imponit necessitatem solvendi tributum,
+          <lb ed="#P" n="9"/>| et non imponit necessitatem poenalem, quia,
+          <lb ed="#P" n="10"/>ut supponimus, illam non exprimit; ergo 
+          impo<lb break="no" ed="#P" n="11"/>nit necessitatem in conscientia. Probatur 
+          ulti<lb break="no" ed="#P" n="12"/>ma consequentia, quia alias esset lex inutilis
+          <lb ed="#P" n="13"/>et inefficax : nullo enim modo cogeret 
+          trans<lb break="no" ed="#P" n="14"/>gressorem ; quia si non obligaret in 
+          conscien<lb break="no" ed="#P" n="15"/>tia, neque postea posset quis propter 
+          trans<lb break="no" ed="#P" n="16"/>gressionem puniri, quia neque sub tali 
+          condi<lb break="no" ed="#P" n="17"/>Uone fuit posita. Secundo, quia lex superioris
+          <lb ed="#P" n="18"/>absolute posita obligat in conscientia juxta
+          <lb ed="#P" n="19"/>capacitatem materiae ; sed illa materia est 
+          ca<lb break="no" ed="#P" n="20"/>pax obligationis rigorossee; nam est materia
+          <lb ed="#P" n="21"/>justitiae, et justi stipendii solvendi, ut 
+          declara<lb break="no" ed="#P" n="22"/>tum est: ergo. Quin potius, licet talis lex non
+          <lb ed="#P" n="23"/>contineret alia verba praeceptiva praeter taxam
+          <lb ed="#P" n="24"/>quantitatis solvendae principi in tributum,
+          <lb ed="#P" n="25"/>obligaret in conscientia, quia debitum alendi
+          <lb ed="#P" n="26"/>et sustentandi onera regis naturale est: ergo,
+          <lb ed="#P" n="27"/>eo ipso quod lex humana taxat quantitatem
+          <lb ed="#P" n="28"/>et modum, obligat in conscientia ad 
+          servan<lb break="no" ed="#P" n="29"/>dam illam, quia illud statim est medium 
+          jus<lb break="no" ed="#P" n="30"/>titiae, ut, in aliis pretiis rerum quae lege 
+          taxan<lb break="no" ed="#P" n="31"/>tur, et in decimis ecclesiasticis, quoad quotam
+          <lb ed="#P" n="32"/>taxatam per Ecclesiam, est manifestum videre.
+          <lb ed="#P" n="33"/>10. Adjectione pene non datur vassallo optio
+          <lb ed="#P" n="34"/>ut tribulum vel pomam solvat, licet non repugnet
+          <lb ed="#P" n="35"/>dari legem sic ligantem sub disjunctione. —
+          <lb ed="#P" n="36"/>Jam ergo probatur secunda pars assertionis
+          <lb ed="#P" n="37"/>ex dictis de lege poenali in communi ; nam
+          <lb ed="#P" n="38"/>adjectio poenae non tollit obligationem quam
+          <lb ed="#P" n="39"/>eadem lex praecise lata sine poena induceret ;
+          <lb ed="#P" n="40"/>sed ostensum est legem tributorum, ut 
+          mora<lb break="no" ed="#P" n="41"/>lis est, praecise latam obligare in conscientia :
+          <lb ed="#P" n="42"/>ergo, licet illi addatur poena, obligabit per se
+          <lb ed="#P" n="43"/>ad tributum persolvendum vel restituendum
+          <lb ed="#P" n="44"/>(cum contra justitiam non sit solutum), 
+          abs<lb break="no" ed="#P" n="45"/>que ulla condemnatione vel sententia, etiamsi
+          <lb ed="#P" n="46"/>tunc nemo obliget ad poenae solutionem ante
+          <lb ed="#P" n="47"/>sententiam, juxta generalem doctrinam datam
+          <lb ed="#P" n="48"/>de lege poenali. Quae non minus habet locum
+          <lb ed="#P" n="49"/>in legibus tributorum quam inaliis, supposita
+          <lb ed="#P" n="50"/>paritate in verbis legis : nulla enim ratio 
+          dis<lb break="no" ed="#P" n="51"/>criminis excogitari potest. Declaraturque in
+          <lb ed="#P" n="52"/>hunc modum, quia intali lege mixta, seu quasi
+          <lb ed="#P" n="53"/>composita ex tributo et poena, ad diversos fines
+          <lb ed="#P" n="54"/>ordinanti r impositio tributi et adjectio poenae:
+          <lb ed="#P" n="55"/>tributum enim est ad sustentationem princi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>pis, seu ad satisfaciendum naturali obligationi
+          <lb ed="#P" n="57"/>dandi stipendium justum laboranti in nostram
+          <lb ed="#P" n="58"/>utilitatem ; poena vero est ad cogendum ut
+          <lb ed="#P" n="59"/>prior obligatio impleatur vel puniendum 
+          de<lb break="no" ed="#P" n="60"/>lictum si omittatur: ergo, licet tributum sit
+          <lb ed="#P" n="61"/>justum et adaequatum fini suo, et obligatio
+          <lb ed="#P" n="62"/>ejus integra maneat, juste additur comminatio
+          <lb ed="#P" n="63"/>poenae, et executio ejus, si culpa intercedat,
+          <lb ed="#P" n="64"/>ultra integram tributi exactionem. Sicut in
+          <lb ed="#P" n="65"/>poenis conventionalibus quae addi solent inter
+          <lb ed="#P" n="66"/>contrahentes, juste exigi potest poena a 
+          viola<lb break="no" ed="#P" n="67"/>tore contractus, etiam ultra interesse et 
+          satis<lb break="no" ed="#P" n="68"/>factioncm damni illati, ut supra dictum est.
+          <lb ed="#P" n="69"/>Idem ergo est in praesenti ; intercedit enim
+          <lb ed="#P" n="70"/>veluti contractus inter principem et subditos,
+          <lb ed="#P" n="71"/>ut ille gubernet, hi vero ipsum alant per 
+          tri<lb break="no" ed="#P" n="72"/>butorum solutionem; et ad soliditatem hujus
+          <lb ed="#P" n="73"/>contractus poena potest adjungi, quae non 
+          mi<lb break="no" ed="#P" n="74"/>nuat vim aut obligationem contractus, sed 
+          no<lb break="no" ed="#P" n="75"/>vam coactionem adjungat. Unde etiam potest
+          <lb ed="#P" n="76"/>ita declarari, quia propter adjectionem poenae
+          <lb ed="#P" n="77"/>non conceditur libertas, seu optio vassallo, ut
+          <lb ed="#P" n="78"/>vel tributum solvat, vel poenam patienter 
+          sus<lb break="no" ed="#P" n="79"/>tineat, si illi imponatur: sic enim adjectio
+          <lb ed="#P" n="80"/>poenae non augeret efficaciam legis, sed 
+          minue<lb break="no" ed="#P" n="81"/>ret, quod plane est contra intentionem talium
+          <lb ed="#P" n="82"/>legislatorum : ergo, addendo poenam, non 
+          tol<lb break="no" ed="#P" n="83"/>lunt praeceptum, sed confirmant et urgent 
+          il<lb break="no" ed="#P" n="84"/>lud: ergo semper lex per se obligat, licet illi
+          <lb ed="#P" n="85"/>addatur poena. Et revera hoc est maxime 
+          con<lb break="no" ed="#P" n="86"/>sentaneum fini talis legis, et, ut sic dicam,
+          <lb ed="#P" n="87"/>quasi connaturale illi, ut in puncto sequenti
+          <lb ed="#P" n="88"/>magis explicabo.
+        </p>
+        <p xml:id="szdleg-b19883-d1e990">
+          <lb ed="#P" n="89"/>11. Superest ergo explicanda tertia pars 
+          as<lb break="no" ed="#P" n="90"/>sertionis, nimirum, quando ex verbis et forma
+          <lb ed="#P" n="91"/>legis constiterit mentem legislatoris esse non
+          <lb ed="#P" n="92"/>absolute imperare tributum, sed solum sub
+          <lb ed="#P" n="93"/>conditione, nisi quis malit fieri poenae obnoxius,
+          <lb ed="#P" n="94"/>seu (quod perinde est) sub disjunctione, vel
+          <lb ed="#P" n="95"/>solvendi tributum, vel poenam ob non 
+          solutio<lb break="no" ed="#P" n="96"/>nem, sideilla feratur judicium, sustinere: tunc
+          <lb ed="#P" n="97"/>leges non obligare in conscientia determinate
+          <lb ed="#P" n="98"/>ad solutionem tributi, sed solum per modum
+          <lb ed="#P" n="99"/>poenae, seu simul cum illa, quando exigatur.
+          <lb ed="#P" n="100"/>In qua parte duae includuntur: una est posse
+          <lb ed="#P" n="101"/>tributum sic tantum imponi, et hoc est per se
+          <lb ed="#P" n="102"/>notum ; nam pendet ex voluntate principis, et
+          <lb ed="#P" n="103"/>non continet injustitiam nec rigorem, sed 
+          po<lb break="no" ed="#P" n="104"/>tius lenitatem ; nam in eo videtur princeps
+          <lb ed="#P" n="105"/>potius ex parte cedere juri suo quam in aliquo
+          <lb ed="#P" n="106"/>excedere. Àc denique non magis repugnat hic
+          <lb ed="#P" n="107"/>modus legis in hac materia quam in aliis ; nulla
+          <lb ed="#P" n="108"/>enim ratio discriminis afferri potest, ut de aliis
+          <lb ed="#P" n="109"/>argumentati sumus. Altera pars est, quod,
+          <lb ed="#P" n="110"/>posita tali lege. illa non obligat in conscientia
+          <pb ed="#P" n="478"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>statim seu determinate ad solutionem tributi.
+          <lb ed="#P" n="2"/>Et haec etiam est evidens eisdem fere 
+          rationi<lb break="no" ed="#P" n="3"/>bus ; tum quia obligatio haec pendet ex 
+          volun<lb break="no" ed="#P" n="4"/>tate principis ; ipse autem princeps satis per
+          <lb ed="#P" n="5"/>talia verba declarat nolle se obligare absolute,
+          <lb ed="#P" n="6"/>sed tantum sub praedicta conditione seu 
+          dis<lb break="no" ed="#P" n="7"/>junctione : tum etiam quia non est major ratio
+          <lb ed="#P" n="8"/>de hac materia quam de aliis ; in aliis verolex
+          <lb ed="#P" n="9"/>illa non obligat in conscientia nisi modo dicto,
+          <lb ed="#P" n="10"/>ut supra ostensum est: ergo neque in ista.
+        </p>
+        <p xml:id="szdleg-b19883-d1e1066">
+          <lb ed="#P" n="11"/>12. Statim vero insurgit dubitatio supra
+          <lb ed="#P" n="12"/>etiam de lege poenali generatim tractata, an
+          <lb ed="#P" n="13"/>leges tributorum adjicientes poenam, ut 
+          regu<lb break="no" ed="#P" n="14"/>lariter feruntur, intelligendae sint juxta hanc
+          <lb ed="#P" n="15"/>ultimam partem, vel juxta secundam. Sed de
+          <lb ed="#P" n="16"/>hoc puncto dicemus plura paulo post in c. 15;
+          <lb ed="#P" n="17"/>nunc breviter censeo leges has poenales 
+          impo<lb break="no" ed="#P" n="18"/>nentes tributa sub poena esse mixtas, ac 
+          sub<lb break="no" ed="#P" n="19"/>inde per se obligare in conscientia ad 
+          solutio<lb break="no" ed="#P" n="20"/>nem tributi. Ratio est, quia verba legis 
+          ordi<lb break="no" ed="#P" n="21"/>narie sunt praeceptiva, sicut sunt communiter
+          <lb ed="#P" n="22"/>in aliis legibus moralibus, qua ad bonum
+          <lb ed="#P" n="23"/>regimen reipublicae ordinantur, ideoque 
+          obli<lb break="no" ed="#P" n="24"/>gant in conscientia, non obstante adjectione
+          <lb ed="#P" n="25"/>poenae. Secundo, quia intentio talis esse 
+          praesu<lb break="no" ed="#P" n="26"/>mitur, nisi aliud certo constet morali 
+          certitu<lb break="no" ed="#P" n="27"/>dine, quia (ut dicebam) per poenam volunt
+          <lb ed="#P" n="28"/>principes augere efficaciam legis, non 
+          minue<lb break="no" ed="#P" n="29"/>re; et quia per se primo intendunt in effectum
+          <lb ed="#P" n="30"/>consequi tributum sibi et communi bono 
+          rei<lb break="no" ed="#P" n="31"/>publicae necessarium. Unde est tertia ratio,
+          <lb ed="#P" n="32"/>quia materia talium legum maxime postulat
+          <lb ed="#P" n="33"/>hujusmodi obligationem, quia est materia 
+          jus<lb break="no" ed="#P" n="34"/>Utiae, et in re gravissima, ac pertinente ad
+          <lb ed="#P" n="35"/>commune bonum; imo necessaria moraliter
+          <lb ed="#P" n="36"/>ad reipublicae conservationem et 
+          gubernatio<lb break="no" ed="#P" n="37"/>nem ; ergo illi materiae quasi debetur et 
+          con<lb break="no" ed="#P" n="38"/>naturale est praeceptum per se et absolute
+          <lb ed="#P" n="39"/>obligans, et non tantum sub conditionali pacto
+          <lb ed="#P" n="40"/>sustinendi poenam, quod est valde per accidens,
+          <lb ed="#P" n="41"/>et de se insufficiens ad gravissimum 
+          tribu<lb break="no" ed="#P" n="42"/>torum finem. Ideoque censeo non esse 
+          regu<lb break="no" ed="#P" n="43"/>landas has leges per illas, quae sub poena 
+          pro<lb break="no" ed="#P" n="44"/>hibent venari, aut ligna caedere, aut aliquid
+          <lb ed="#P" n="45"/>e regno extrahere : nam hae prohibitiones et
+          <lb ed="#P" n="46"/>similes sunt multo minoris momenti, 
+          ordina<lb break="no" ed="#P" n="47"/>rie loquendo et extra causas gravis 
+          necessi<lb break="no" ed="#P" n="48"/>tatis regni, et ad illas sufticit illa coactio, vel
+          <lb ed="#P" n="49"/>compensatio quasi contingens per poenam.
+          <lb ed="#P" n="50"/>Tributorum autem impositio et solutio est per
+          <lb ed="#P" n="51"/>legem intenta tanquam per se debita, et 
+          ne<lb break="no" ed="#P" n="52"/>cessaria reipublicae ac principi, et ideo ex se
+          <lb ed="#P" n="53"/>postulat proprium ac directum praeceptum,
+          <lb ed="#P" n="54"/>per se et absolute obligans, etiamsi poenae 
+          ac<lb break="no" ed="#P" n="55"/>cumulentur. Quapropter non existimo suflice-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>re quod lex loquatur conditionali modo, si
+          <lb ed="#P" n="57"/>quis non solverit tale tributum tali poena 
+          pu<lb break="no" ed="#P" n="58"/>niatur, ut illo modo intelligatur. Nam talis lex
+          <lb ed="#P" n="59"/>supponit necessario tale tributum esse 
+          debi<lb break="no" ed="#P" n="60"/>tum, et ideo moraliter nunquam ponitur illa
+          <lb ed="#P" n="61"/>conditionalis, nisi post impositionem tributi,
+          <lb ed="#P" n="62"/>quae fit per absolutum praeceptum, vel saltem
+          <lb ed="#P" n="63"/>per taxationem quantitatis solvendae, qua 
+          fac<lb break="no" ed="#P" n="64"/>ta, naturalis lex justitiae obligat ad tributum
+          <lb ed="#P" n="65"/>solvendum, etiam ante adjectionem poeena:
+          <lb ed="#P" n="66"/>illa autem obligatio non adimitur propter
+          <lb ed="#P" n="67"/>conditionalem illam adjunctam, ut ex dictis
+          <lb ed="#P" n="68"/>constat. Illa ergo non sufficit in tali materia
+          <lb ed="#P" n="69"/>ad praesumendum legem esse pure poenalem;
+          <lb ed="#P" n="70"/>sed oportet ut vel clarioribus verbis 
+          declare<lb break="no" ed="#P" n="71"/>tur, vel ex aliis circumstantis, aut certa 
+          con<lb break="no" ed="#P" n="72"/>suetudine colligatur.
+        </p>
+        <p xml:id="szdleg-b19883-d1e1205">
+          <lb ed="#P" n="73"/>13. Fit satis argumentis contrariae 
+          senten<lb break="no" ed="#P" n="74"/>tic. — Ad fundamentum ergo contrariae 
+          sen<lb break="no" ed="#P" n="75"/>tentiae, respondetur ad summum probare 
+          ter<lb break="no" ed="#P" n="76"/>tiam partem assertionis nostra; quia vero
+          <lb ed="#P" n="77"/>simpliciter procedit contra secundam, et 
+          in<lb break="no" ed="#P" n="78"/>tendit ex adjectione poenae inferre ablationem
+          <lb ed="#P" n="79"/>absolutae obligationis in conscientia, 
+          respon<lb break="no" ed="#P" n="80"/>detur negando hanc consequentiam; quia non
+          <lb ed="#P" n="81"/>est hoc necessarium ad aequitatem justitiae, ut
+          <lb ed="#P" n="82"/>ostensum est; quin potius, ad providendum
+          <lb ed="#P" n="83"/>sufficienter justitiae et aequitati quae debet 
+          ser<lb break="no" ed="#P" n="84"/>vari inter principem et subditos, necessarium
+          <lb ed="#P" n="85"/>est ut subditi simpliciter et absolute obligentur
+          <lb ed="#P" n="86"/>in conscientia ad justa tributa solvenda, et ut
+          <lb ed="#P" n="87"/>rebelles distincta poena puniantur. Alia enim
+          <lb ed="#P" n="88"/>est justitia vindicativa a commutativa, et prior
+          <lb ed="#P" n="89"/>obligatio ad commutativam pertinet, et 
+          trans<lb break="no" ed="#P" n="90"/>gressio ejus constituit novum reatum, seu 
+          de<lb break="no" ed="#P" n="91"/>bitum in ordine ad justitiam vindicativam.
+          <lb ed="#P" n="92"/>Neque etiam de intentione legislatoris aliud
+          <lb ed="#P" n="93"/>praesumi potest ex vi solius comminationis
+          <lb ed="#P" n="94"/>poenae, ut ostensum est, neque ulla 
+          inaequali<lb break="no" ed="#P" n="95"/>tas, vel nimius rigor resultat in his legibus ex
+          <lb ed="#P" n="96"/>illo solo capite, magis quam in aliis omnibus
+          <lb ed="#P" n="97"/>quae praecipiendo poenam transgressoribus 
+          mi<lb break="no" ed="#P" n="98"/>nantur; vel quam in contractibus jusus et
+          <lb ed="#P" n="99"/>aequalibus, quibus nihilominus adjicitur poena,
+          <lb ed="#P" n="100"/>ultra interesse, ut dictum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

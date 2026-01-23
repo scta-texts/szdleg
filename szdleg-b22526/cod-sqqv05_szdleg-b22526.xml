@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 15</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 15</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="484"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-b22526"><!-- deleg-l5c15 -->
+        <head xml:id="szdleg-b22526-Hd1e101">Caput 15</head>
+        <head xml:id="szdleg-b22526-Hd1e103" type="question-title">De ratione et causa finali ad iustitiam tributi necessaria</head>
+        <p xml:id="szdleg-b22526-d1e106">
+          <lb ed="#P" n="77"/>CAPUT XV.
+          <lb ed="#P" n="78"/>DE RATIONE ET CAUSA FINALI AD JUSTITIAM
+          <lb ed="#P" n="79"/>TRIBUTI NECESSARIA.
+        </p>
+        <p xml:id="szdleg-b22526-d1e115">
+          <lb ed="#P" n="80"/>1. Secunda conditio ad justitiam tributi 
+          ne<lb break="no" ed="#P" n="81"/>cessaria est causa finalis, seu ratio. Ita sumitur
+          <lb ed="#P" n="82"/>ex cap. Pervenit, de Censib., ubi etiam 
+          signi<lb break="no" ed="#P" n="83"/>ficatur necesse esse causam esse notam, quia
+          <lb ed="#P" n="84"/>census ignorantice (ut ibi dicitur), id est, cujus
+          <lb ed="#P" n="85"/>justa causaignoratur (ut ibidem exponit Glossa),
+          <lb ed="#P" n="86"/>nullo jure divino vel humano probatur.Et ideo,
+          <lb ed="#P" n="87"/>inquit Pontifex, oportet ut census omnis, ad
+          <lb ed="#P" n="88"/>quid et quomodo persolvi debeat, presciatur.
+          <lb ed="#P" n="89"/>Quod intelligendum est de censibus noviter
+          <lb ed="#P" n="90"/>impositis, vel imponendis, ut ibi sentit Gloss.,
+          <lb ed="#P" n="91"/>ut notat Medin. supra, quast. 14. Nam de 
+          an<lb break="no" ed="#P" n="92"/>tiquis praesumitur causa, licet non sciatur, ut
+          <lb ed="#P" n="93"/>dicemus. Imo etiam in tributis novis (ut infra
+          <lb ed="#P" n="94"/>dicam) non est necessarium ut causa sit nota
+          <lb ed="#P" n="95"/>omnibus et singulis de populo; oportet tamen
+          <lb ed="#P" n="96"/>ut sit nota principi et consiliariis ejus, vel 
+          pro<lb break="no" ed="#P" n="97"/>curatoribus regni, aut aliis ad quos pertinet 
+          jus<lb break="no" ed="#P" n="98"/>titiam tributi examinare. Quia nisi principi
+          <lb ed="#P" n="99"/>constet justam intervenire causam, vel 
+          proba<lb break="no" ed="#P" n="100"/>bilibus rationibus, vel fide digna auctoritate,
+          <lb ed="#P" n="101"/>et judicio suorum consiliariorum, non poterit
+          <lb ed="#P" n="102"/>juste imponere, vel exigere tributum, quia
+          <lb ed="#P" n="103"/>temere agendo non habet jus exigendi. Et ideo
+          <lb ed="#P" n="104"/>nec retinere potest quod sic exegit, nisi postea
+          <lb ed="#P" n="105"/>examinata causa invenerit justum fuisse 
+          tri<lb break="no" ed="#P" n="106"/>butum in re, licet temere fuerit impositum.
+        </p>
+        <p xml:id="szdleg-b22526-d1e176">
+          <pb ed="#P" n="485"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>2. Ut autem causa sit justa, dicunt doctores
+          <lb ed="#P" n="2"/>omnes, necessarium esse ut tributum 
+          impo<lb break="no" ed="#P" n="3"/>natur propter bonum commune, non propter
+          <lb ed="#P" n="4"/>privatum ipsius principis. Sed in hoc oportet
+          <lb ed="#P" n="5"/>duo distinguere : unum est, id quod debetur
+          <lb ed="#P" n="6"/>principi ratione sui muneris et laboris, quod
+          <lb ed="#P" n="7"/>dici potest pertinere ad utilitatem ejus; nam
+          <lb ed="#P" n="8"/>datur ad sustentationem, et quasi stipendium;
+          <lb ed="#P" n="9"/>aliud est, quod necessarium est ad 
+          subvenien<lb break="no" ed="#P" n="10"/>dum reipublicae in occasionibus necessariis
+          <lb ed="#P" n="11"/>occurrentibus. Si ergo de utihltate principis
+          <lb ed="#P" n="12"/>priori modo spectata sit sermo, juste 
+          impo<lb break="no" ed="#P" n="13"/>nuntur tributa propter usum et utilitatem
+          <lb ed="#P" n="14"/>principis. In hoc enim sensu dixit Paul. ad
+          <lb ed="#P" n="15"/>Rom. 13: Zdeo enim tributa praestatis, et 
+          sub<lb break="no" ed="#P" n="16"/>dit: Minister enim Dei est, quasi diceret, 
+          Sol<lb break="no" ed="#P" n="17"/>vitis stipendium principibus, quia ministri Dei
+          <lb ed="#P" n="18"/>sunt, in hoc ipsum servientes, ac subinde 
+          pro<lb break="no" ed="#P" n="19"/>pter eorum ministerium. In hac autem 
+          utili<lb break="no" ed="#P" n="20"/>tate servanda est aequalitas, ut, scilicet, detur
+          <lb ed="#P" n="21"/>principi quantum necesse est, et quantum
+          <lb ed="#P" n="22"/>decet juxta statum et labores ejus, non vero
+          <lb ed="#P" n="23"/>sine mensura juxta concupiscentiam ejus. Addi
+          <lb ed="#P" n="24"/>vero potest hanc utilitatem principis non esse
+          <lb ed="#P" n="25"/>omnino privatam, sed communem, quia ipse
+          <lb ed="#P" n="26"/>est persona publica, et sustentare illum et 
+          sta<lb break="no" ed="#P" n="27"/>tum illius bonum commune est. Praeter hunc
+          <lb ed="#P" n="28"/>autem finem, imponuntur saepe aliqua tributa
+          <lb ed="#P" n="29"/>propter insurgentes occasiones et causas, et de
+          <lb ed="#P" n="30"/>his verum est causam esse debere non 
+          commo<lb break="no" ed="#P" n="31"/>dum principis, neque alicujus personae privatae,
+          <lb ed="#P" n="32"/>sed communitatis bonum.
+        </p>
+        <p xml:id="szdleg-b22526-d1e253">
+          <lb ed="#P" n="33"/>3. Duplex ergo immediata causa in tributis
+          <lb ed="#P" n="34"/>spectanda est, una pertinens ad personam
+          <lb ed="#P" n="35"/>principis, ut talis est ; alia spectans ad sumptus
+          <lb ed="#P" n="36"/>communes. Et haec potest esse multiplex. Una
+          <lb ed="#P" n="37"/>et valde communis est bellum, et ideo dixit
+          <lb ed="#P" n="38"/>Aug. 22 contra Faust., cap. 74, tributa solvi
+          <lb ed="#P" n="39"/>ut habeat rex unde militibus stipendia solvat.
+          <lb ed="#P" n="40"/>Alia causa esse solet refectio pontium et 
+          via<lb break="no" ed="#P" n="41"/>rum, atque earum custodiae, et aliae similes quae
+          <lb ed="#P" n="42"/>in totius communitatis commodum cedunt.Sic
+          <lb ed="#P" n="43"/>igitur explicata causa tributi, non potest esse
+          <lb ed="#P" n="44"/>justa, nisi ad commune bonum pertineat : nam,
+          <lb ed="#P" n="45"/>cum onus tributi commune sit, etiam finis seu
+          <lb ed="#P" n="46"/>fructus ejus debet esse communis, alioqui non
+          <lb ed="#P" n="47"/>servaretur aequalitas. Hoc autem praecipue 
+          lo<lb break="no" ed="#P" n="48"/>cum habet in tributis quae per se ut tributa
+          <lb ed="#P" n="49"/>imponuntur. Nam imponi etiam possunt in
+          <lb ed="#P" n="50"/>poenam alicujus delicti, vel in 
+          recompensatio<lb break="no" ed="#P" n="51"/>nem alicujus nocumenti illati, ut supra dictum
+          <lb ed="#P" n="52"/>est. Tunc ergo non oportet ut ad communem
+          <lb ed="#P" n="53"/>utilitatem specialiter ordinentur. Nam si 
+          po<lb break="no" ed="#P" n="54"/>nantur in poenam, poterunt, sicut aliae poenae,
+          <lb ed="#P" n="55"/>applicari fisco, vel pauperibus, vel aliis piis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>aut etiam publicis operibus, aut ministris 
+          jus<lb break="no" ed="#P" n="57"/>titiae, arbitrio regis imponentis. S1 vero sint ad
+          <lb ed="#P" n="58"/>damna recompensanda, in eorum commodum
+          <lb ed="#P" n="59"/>redundare debent qui damnum passi sunt, ut
+          <lb ed="#P" n="60"/>per se constat.
+        </p>
+        <p xml:id="szdleg-b22526-d1e318">
+          <lb ed="#P" n="61"/>4. Atque hinc sequitur quantitatem tributi
+          <lb ed="#P" n="62"/>non posse juste excedere conditionem seu 
+          in<lb break="no" ed="#P" n="63"/>digentiam causae. Quia sicut causa justa est
+          <lb ed="#P" n="64"/>necessaria, ita etiam proportio tributi ad 
+          cau<lb break="no" ed="#P" n="65"/>sam ejus necessaria est ad aequalitatem 
+          justi<lb break="no" ed="#P" n="66"/>tiae commutativae, quae est rei ad rem, quia
+          <lb ed="#P" n="67"/>tantum tributum juste potest imponi, quantum
+          <lb ed="#P" n="68"/>ad finem ejus est necessarium et sufficiens:
+          <lb ed="#P" n="69"/>nam, si plus imponatur, jam in eo non habet
+          <lb ed="#P" n="70"/>causam, et excedit aequalitatem justitiae, ut in
+          <lb ed="#P" n="71"/>simili dicitur in c. Quia plerique, de Immunit.
+          <lb ed="#P" n="72"/>ecclesiastica. Atque ita sub hac conditione 
+          in<lb break="no" ed="#P" n="73"/>cluditur alia, quam Cajet. ponit in Sum., verb.
+          <lb ed="#P" n="74"/>Vectigalia, quam vocat usum, id est, quod
+          <lb ed="#P" n="75"/>tributum expendatur in illum usum propter
+          <lb ed="#P" n="76"/>quem est impositum, et sumitur ex D. Th.,1.2
+          <lb ed="#P" n="77"/>de Regim. Princ., cap. 12. Nam ut juste 
+          exi<lb break="no" ed="#P" n="78"/>gatur tributum, et ex debito solvatur tanquam
+          <lb ed="#P" n="79"/>necessarium , requirit ut id fiat propter quod
+          <lb ed="#P" n="80"/>imponitur, eumque imitatus est Greg. Lop. in
+          <lb ed="#P" n="81"/>1.2 tit. 1,p.9 n.9.
+        </p>
+        <p xml:id="szdleg-b22526-d1e366">
+          <lb ed="#P" n="82"/>5. Circa hanc vero conditionem est 
+          conside<lb break="no" ed="#P" n="83"/>randum, si loquamur de tributis quae 
+          pendun<lb break="no" ed="#P" n="84"/>tur ipsi regi ad suos sumptus, et propter suos
+          <lb ed="#P" n="85"/>labores et vigilias, talium tributorum justitiam
+          <lb ed="#P" n="86"/>non pendere ex usu ; nam sive male, sive
+          <lb ed="#P" n="87"/>bene rex postea expendat tales redditus , non
+          <lb ed="#P" n="88"/>erit injustus acci piendo tributa , quia vere est
+          <lb ed="#P" n="89"/>dominus illorum , et de illis potest libere
+          <lb ed="#P" n="90"/>dispensare, sine injustitia, dummodo suo 
+          mu<lb break="no" ed="#P" n="91"/>neri satisfaciat, gubernando, et defendendo
+          <lb ed="#P" n="92"/>rempublicam, sicut tenetur : alioqui, si in hoc
+          <lb ed="#P" n="93"/>deficiat, injuste accipiet et retinebit haec 
+          tri<lb break="no" ed="#P" n="94"/>buta, quae propter officium dantur, et sunt
+          <lb ed="#P" n="95"/>tanquam merces operis, quam injuste accipit
+          <lb ed="#P" n="96"/>qui non laborat. Si vero loquamur de tributis
+          <lb ed="#P" n="97"/>impositis ad opera communia reipublicae. de
+          <lb ed="#P" n="98"/>his clarum est debere expendi in talia opera,
+          <lb ed="#P" n="99"/>alias committi fraudem et injustitiam , quae
+          <lb ed="#P" n="100"/>potius est in acceptione et retentione illius,
+          <lb ed="#P" n="101"/>quam in impositione. Nam haec potuit esse
+          <lb ed="#P" n="102"/>justa, si vera causa suberat : postea vero 
+          ac<lb break="no" ed="#P" n="103"/>ceptio vel retentio fit injusta ex defectu debiti
+          <lb ed="#P" n="104"/>usus. Necessarium ergo est ut tributum 
+          expen<lb break="no" ed="#P" n="105"/>datur in opus propter quod impositum est;
+          <lb ed="#P" n="106"/>nam illius tributi non fit proprie rex dominus,
+          <lb ed="#P" n="107"/>sed dispensator : unde ad summum poterit
+          <lb ed="#P" n="108"/>interdum , quando vera necessitas occurrerit,
+          <lb ed="#P" n="109"/>commutare illud in aliud opus pertinens etiam
+          <lb ed="#P" n="110"/>ad communem regni vel populi utilitatem ,
+          <pb ed="#P" n="486"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nam quoad hoc habet supremam potestatem
+          <lb ed="#P" n="2"/>et administrationem.
+        </p>
+        <p xml:id="szdleg-b22526-d1e440">
+          <lb ed="#P" n="3"/>6. Tributum pendere a causa in fieri et 
+          con<lb break="no" ed="#P" n="4"/>servari. — Ex quo ulterius infertur tributum
+          <lb ed="#P" n="5"/>pendere (ut dicam) a causa in fieri et 
+          conser<lb break="no" ed="#P" n="6"/>vari. Nam si causa est necessaria ad justitiam
+          <lb ed="#P" n="7"/>tituli, non potest plus durare tributum quam
+          <lb ed="#P" n="8"/>causa, quia cessante causa (utique necessaria,
+          <lb ed="#P" n="9"/>et in suo genere adaequata) cessat effectus,
+          <lb ed="#P" n="10"/>c. Cum cessante, de Appell. Quod ita fere 
+          expli<lb break="no" ed="#P" n="11"/>cat Gloss. citans varia jura in c. Post 
+          transla<lb break="no" ed="#P" n="12"/>tionem, de Renunt., verb. Cessante, et notant
+          <lb ed="#P" n="13"/>doctores in l. Cum pater, S Dulcissimi, ff. de
+          <lb ed="#P" n="14"/>Leg. 2. Sed in praesenti, causa est necessaria
+          <lb ed="#P" n="15"/>ad justitiam tributi, ut dictum est ; ergo illa
+          <lb ed="#P" n="16"/>cessante cessat justitia, et consequenter debet
+          <lb ed="#P" n="17"/>cessare tributum. Et confirmatur , quia, si
+          <lb ed="#P" n="18"/>cessante causa tributum exigatur, jam plus
+          <lb ed="#P" n="19"/>exigitur quam sit necessarium ; ergo in eo non
+          <lb ed="#P" n="20"/>servatur aequitas nec justitia, quia, ut diximus,
+          <lb ed="#P" n="21"/>proportio inter quantitatem tributi et 
+          exigen<lb break="no" ed="#P" n="22"/>tiam causae est necessaria ad justitiam tributi;
+          <lb ed="#P" n="23"/>ergo si causa sit perpetua, tributum poterit
+          <lb ed="#P" n="24"/>esse perpetuum : si autem sit causa 
+          tempora<lb break="no" ed="#P" n="25"/>lis, tributum debet etiam esse temporale, ita
+          <lb ed="#P" n="26"/>ut illa cessante hoc etiam cesset.
+        </p>
+        <p xml:id="szdleg-b22526-d1e495">
+          <lb ed="#P" n="27"/>7. Hoc autem intelligendum est cum 
+          limi<lb break="no" ed="#P" n="28"/>tatione, seu declaratione, ut intelligatur 
+          for<lb break="no" ed="#P" n="29"/>maliter de causa, potius quam materialter.
+          <lb ed="#P" n="30"/>Nam, licet cessaverit determinata causa pro
+          <lb ed="#P" n="31"/>qua positum fuit tributum, si alia aequivalens
+          <lb ed="#P" n="32"/>loco illius substituatur, poterit non cessare 
+          tri<lb break="no" ed="#P" n="33"/>butum, quia tunc non cessat simpliciter causa,
+          <lb ed="#P" n="34"/>sed talis causa, quae non est simpliciter 
+          neces<lb break="no" ed="#P" n="35"/>saria, et est in potestate principis, ut dixi, 
+          il<lb break="no" ed="#P" n="36"/>lam mutationem facere, sicut posset novum
+          <lb ed="#P" n="37"/>tributum imponere, nova insurgente causa.
+          <lb ed="#P" n="38"/>Item, oportet advertere interdum causam 
+          tri<lb break="no" ed="#P" n="39"/>buti consistere in uno actu seu effectu, quo
+          <lb ed="#P" n="40"/>absoluto, omnino cessat causa ut aedificato tali
+          <lb ed="#P" n="41"/>ponte, finito tali bello, et similibus; et in 
+          hu<lb break="no" ed="#P" n="42"/>jusmodi causa maxime procedit doctrina data,
+          <lb ed="#P" n="43"/>quod, cessante illa, cesset justitia tributi. 
+          Sae<lb break="no" ed="#P" n="44"/>pius vero causa tributi est permanentior, et
+          <lb ed="#P" n="45"/>occasio ejus cessat proaliquo tempore, semper
+          <lb ed="#P" n="46"/>tamen manet occasio vel periculum ejus; ut,
+          <lb ed="#P" n="47"/>verbi gratia, causa imponendi pedagium fuit
+          <lb ed="#P" n="48"/>securitas itineris et commoditas quam rex
+          <lb ed="#P" n="49"/>procurare tenetur. In his ergo et similibus 
+          cau<lb break="no" ed="#P" n="50"/>sis, licet pro aliquo tempore cesset actualis
+          <lb ed="#P" n="51"/>necessitas expensarum in tali opere, 
+          nihilo<lb break="no" ed="#P" n="52"/>minus non cessat tributum, nec justitia ejus,
+          <lb ed="#P" n="53"/>tum quia illud est accidentarium, et in re 
+          mo<lb break="no" ed="#P" n="54"/>rali non potest esse tanta dependentia, alias
+          <lb ed="#P" n="55"/>quotidie fieret mutatio juxta occurrentes occa-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>siones , quod sine dubio non expedit; tum
+          <lb ed="#P" n="57"/>praecipue quia illa causa de se est permanens,
+          <lb ed="#P" n="58"/>et princeps semper tenetur esse paratus, et 
+          ha<lb break="no" ed="#P" n="59"/>bere curam securitatis viarum aut maris, quae
+          <lb ed="#P" n="60"/>obligatio est digna stipendio : tum denique
+          <lb ed="#P" n="61"/>quia, sicut cessat interdum necessitas 
+          expen<lb break="no" ed="#P" n="62"/>sarum in uno vel alio opere, ita seepe 
+          occur<lb break="no" ed="#P" n="63"/>runt aliae occasiones expendendi, quae loco
+          <lb ed="#P" n="64"/>aliorum operum possunt succedere. Et ita, ut
+          <lb ed="#P" n="65"/>in hoc etiam sumatur aequalitas, tenebitur
+          <lb ed="#P" n="66"/>princeps non pro quacumque exurgente 
+          occa<lb break="no" ed="#P" n="67"/>sione novam facere impositionem, etiam 
+          tem<lb break="no" ed="#P" n="68"/>poraneam, sed prudenter pensare an pro illis
+          <lb ed="#P" n="69"/>sufficiant antiqua tributa, in quibus actualis
+          <lb ed="#P" n="70"/>necessitas faciendi expensas cessavit, vel 
+          sus<lb break="no" ed="#P" n="71"/>pensa est.
+        </p>
+        <p xml:id="szdleg-b22526-d1e597">
+          <lb ed="#P" n="72"/>8. Dubium de consuetudine. — Quaeri vero
+          <lb ed="#P" n="73"/>ulterius potest an in aliquo casu possit juste
+          <lb ed="#P" n="74"/>exigi tributum cujus causa cessavit, saltem
+          <lb ed="#P" n="75"/>ratione antiquae consuetudinis, quae suppleat
+          <lb ed="#P" n="76"/>vicem causae. Hoc dubium tangit Cord. in Sum.
+          <lb ed="#P" n="77"/>Hispan., q. 95, et absolute negat, quia non 
+          pu<lb break="no" ed="#P" n="78"/>tat posse bonam fidem in tali consuetudine
+          <lb ed="#P" n="79"/>intervenire. Contrarium tenet Medin. , dict.
+          <lb ed="#P" n="80"/>c. 14, qui non solum affirmat sufficere 
+          consue<lb break="no" ed="#P" n="81"/>tudinem ad praesumptionem justae causae, 
+          quan<lb break="no" ed="#P" n="82"/>do de illa est ignorantia negativa, ut sic 
+          di<lb break="no" ed="#P" n="83"/>cam, verum etiamsi constet causam propter
+          <lb ed="#P" n="84"/>quam impositum fuit tributum cessasse, atque
+          <lb ed="#P" n="85"/>adeo jam non subsistere legiumam causam,
+          <lb ed="#P" n="86"/>putat nihilominus consuetudinem antiquam,
+          <lb ed="#P" n="87"/>et bona fide ac sufficienti tempore praescriptam
+          <lb ed="#P" n="88"/>sufficere ut tributum juste exigatur ; ratio est,
+          <lb ed="#P" n="89"/>quia praescriptio dat sufficientem titulum, et
+          <lb ed="#P" n="90"/>supplet defectum quemlibet, etiamsi proveniat
+          <lb ed="#P" n="91"/>ex defectu causae. Quod si objicias, quia tunc
+          <lb ed="#P" n="92"/>non potest consuetudo esse bona fide 
+          continua<lb break="no" ed="#P" n="93"/>ta, nam eo ipso quod scitur causam cessasse,
+          <lb ed="#P" n="94"/>non potest exactio tributi bona fide continuari,
+          <lb ed="#P" n="95"/>respondet posse durare bonam fidem, quia, 
+          li<lb break="no" ed="#P" n="96"/>cet prior causa cessaverit, loco illius successit
+          <lb ed="#P" n="97"/>praescriptio, quae dat sufficientem causam 
+          jus<lb break="no" ed="#P" n="98"/>tam ad exigendum tributum.
+        </p>
+        <p xml:id="szdleg-b22526-d1e659">
+          <lb ed="#P" n="99"/>9. Sed hoc non videtur satisfacere. Nam 
+          con<lb break="no" ed="#P" n="100"/>suetudo antecedit titulum praescriptionis, nam
+          <lb ed="#P" n="101"/>est causa ejus; ergo bona fides consuetudinis
+          <lb ed="#P" n="102"/>non potest fundari in prescriptione, quia ante
+          <lb ed="#P" n="103"/>acquisitum titulum praescriptionis oportet ut
+          <lb ed="#P" n="104"/>consuetudo bona fide continuetur; ergo toto
+          <lb ed="#P" n="105"/>illo tempore non potest fundari bona fides in
+          <lb ed="#P" n="106"/>titulo acquisito per praescriptionem. Neque
+          <lb ed="#P" n="107"/>tunc potest fundari in alia causa justa : nam
+          <lb ed="#P" n="108"/>supponimus illam cessasse, et hoc constare
+          <lb ed="#P" n="109"/>principi exigenti tributum : ergo non potuit
+          <lb ed="#P" n="110"/>illa consuetudo bona fide continuari. Et decla-
+          <pb ed="#P" n="487"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ratur amplius, quia, dum justa causa tributi
+          <lb ed="#P" n="2"/>durat, consuetudo exigendi non servit ad 
+          prae<lb break="no" ed="#P" n="3"/>scribendum jus exigendi etiam cessante illa
+          <lb ed="#P" n="4"/>causa ; alias omne tributum positum propter
+          <lb ed="#P" n="5"/>causam temporalem, duraturam tamen longo
+          <lb ed="#P" n="6"/>tempore, quadraginta aut centum annorum,
+          <lb ed="#P" n="7"/>praescriberetur per illud tempus, ut perpetuo
+          <lb ed="#P" n="8"/>peti possit, etiamsi constet causam cessasse,
+          <lb ed="#P" n="9"/>quod est aperte falsum, quia esset inaequalitas
+          <lb ed="#P" n="10"/>magna inter tributum et causam ejus; quin
+          <lb ed="#P" n="11"/>potius, eo ipso quod consuetudo exigendi 
+          con<lb break="no" ed="#P" n="12"/>tinuatur tantum propter durationem causae,
+          <lb ed="#P" n="13"/>praescribitur (ut sic dicam) contra solutionem
+          <lb ed="#P" n="14"/>talis tributi, si cesset talis causa. Et ita dum
+          <lb ed="#P" n="15"/>causa durat, et propter illam durat etiam 
+          exac<lb break="no" ed="#P" n="16"/>tio tributi, non potest inchoari praescriptio ad
+          <lb ed="#P" n="17"/>exigendum illud sine tali causa ; ergo deberet
+          <lb ed="#P" n="18"/>inchoari postquam cessavit causa, et 
+          nihilo<lb break="no" ed="#P" n="19"/>minus continuata fuit exactio; at tunc non
+          <lb ed="#P" n="20"/>potuit esse bona fides, quia nec potuit fundari
+          <lb ed="#P" n="21"/>in causa quae cessavit, et non ignorabatur, ut
+          <lb ed="#P" n="22"/>supponitur, nec in praescriptione, quae 
+          non<lb break="no" ed="#P" n="23"/>dum erat; ergo talis consuetudo nunquam 
+          po<lb break="no" ed="#P" n="24"/>test dare titulum praescriptionis.
+        </p>
+        <p xml:id="szdleg-b22526-d1e744">
+          <lb ed="#P" n="25"/>10. Mens auctoris.—Alio ergo modo censeo
+          <lb ed="#P" n="26"/>esse possibilem bonam fidem in hujusmodi
+          <lb ed="#P" n="27"/>consuetudine, et ita esse explicandam et 
+          prae<lb break="no" ed="#P" n="28"/>sumendam, ut praescriptio judicari possit 
+          legi<lb break="no" ed="#P" n="29"/>ma. Nam, licet causa prima propter quam fuit
+          <lb ed="#P" n="30"/>impositum tributum cessaverit, potuit loco 
+          il<lb break="no" ed="#P" n="31"/>lius alia et alia succedere, et ita bona fide 
+          tri<lb break="no" ed="#P" n="32"/>butum continuari : nam hoc est in potestate
+          <lb ed="#P" n="33"/>principis, ut diximus. Si ergo constaret non 
+          so<lb break="no" ed="#P" n="34"/>lum primam causam cessasse, sed etiam 
+          nul<lb break="no" ed="#P" n="35"/>lam aliam, extra praescriptionem, fuisse loco
+          <lb ed="#P" n="36"/>illius subrogatam, non video quomodo possit
+          <lb ed="#P" n="37"/>bona fide continuari consuetudo exigendi tale
+          <lb ed="#P" n="38"/>tributum, ut probat ratio facta. Si vero 
+          quam<lb break="no" ed="#P" n="39"/>vis constet primam causam cessasse, non 
+          ta<lb break="no" ed="#P" n="40"/>men constet an alia fuerit loco illius 
+          subroga<lb break="no" ed="#P" n="41"/>ta, tunc potest facile locum habere bona fides.
+          <lb ed="#P" n="42"/>Et ideo distinguenda sunt tempora. Aut enim
+          <lb ed="#P" n="43"/>sumus intra tempus nondum consummatae
+          <lb ed="#P" n="44"/>praescriptionis, et tunc dicendum est quam
+          <lb ed="#P" n="45"/>primum constiterit causam omnino cessasse,
+          <lb ed="#P" n="46"/>ita ut neque prima subsistat, neque alia justa
+          <lb ed="#P" n="47"/>subvenerit, cessandum esse ab exactione 
+          tri<lb break="no" ed="#P" n="48"/>buti, quia tunc nec per se est justum, ut ex
+          <lb ed="#P" n="49"/>dictis patet, nec ratione praescriptionis, quia
+          <lb ed="#P" n="50"/>non fuit consummata. Aut loquimur de 
+          tem<lb break="no" ed="#P" n="51"/>pore post consummatam praescriptionem, et
+          <lb ed="#P" n="52"/>tunc poterit tributum sustineri, quidquid sit,
+          <lb ed="#P" n="53"/>vel fuerit de causa in re ipsa spectata: nam
+          <lb ed="#P" n="54"/>praesumitur fuisse justa. Neque est moraliter
+          <lb ed="#P" n="55"/>possibile ut post talem praescriptionem incipiat
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>positive constare (ut sic dicam) quod nulla
+          <lb ed="#P" n="57"/>subsit causa, sed ad summum negative potest
+          <lb ed="#P" n="58"/>non constare de illa, et ita semper est locus
+          <lb ed="#P" n="59"/>praesumendi non deesse.
+        </p>
+        <p xml:id="szdleg-b22526-d1e825">
+          <lb ed="#P" n="60"/>11. Praesertim quia est tanta varietas in
+          <lb ed="#P" n="61"/>statu et sumptibus principum, et in valore
+          <lb ed="#P" n="62"/>rerum, ut facile credi possit antiqua tributa
+          <lb ed="#P" n="63"/>quae propter alias causas imposita fuere, illis
+          <lb ed="#P" n="64"/>cessantibus durasse, quia judicata sunt 
+          neces<lb break="no" ed="#P" n="65"/>saria ad honestam principis sustentationem.
+          <lb ed="#P" n="66"/>Quod etiam attigit Medin. supra: et propter
+          <lb ed="#P" n="67"/>hoc Castro, supra, in his tributis antiquis non
+          <lb ed="#P" n="68"/>requirit has conditiones, sed pro illis dicit
+          <lb ed="#P" n="69"/>sufficere immemorialem consuetudinem. Et
+          <lb ed="#P" n="70"/>ita mihi probabile est, ad hanc consuetudinem
+          <lb ed="#P" n="71"/>quae suppleat causam justam , non sufficere
+          <lb ed="#P" n="72"/>certum tempus etiam diuturnum, sed oportere
+          <lb ed="#P" n="73"/>ut excedat hominum memoriam, argumento
+          <lb ed="#P" n="74"/>dicti cap. Super quibusdam, a paritate 
+          ratio<lb break="no" ed="#P" n="75"/>nis, et quia tributum nunquam potest juste
+          <lb ed="#P" n="76"/>exigi nisi per respectum ad causam justam,
+          <lb ed="#P" n="77"/>nec aliter potest praescribi, quia hic respectus
+          <lb ed="#P" n="78"/>intrinsece includitur in ipsa consuetudine, ut
+          <lb ed="#P" n="79"/>justa et bonae fidei esse possit; ergo oportet ut
+          <lb ed="#P" n="80"/>causa illa sit nota vel praesumpta ; ubi autem
+          <lb ed="#P" n="81"/>ignoratur, non potest ita praesumi, nisi 
+          con<lb break="no" ed="#P" n="82"/>suetudo excedat hominum memoriam: ergo
+          <lb ed="#P" n="83"/>talis consuetudo necessaria est ad hunc 
+          effec<lb break="no" ed="#P" n="84"/>tum, et ita etiam sentit Medina supra.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

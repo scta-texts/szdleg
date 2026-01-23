@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="3"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a01052"><!-- deleg-l1c2 -->
+        <head xml:id="szdleg-a01052-Hd1e101">Caput 2</head>
+        <head xml:id="szdleg-a01052-Hd1e103" type="question-title">Quid ius significet, et quomodo ad legem comparetur</head>
+        <p xml:id="szdleg-a01052-d1e106">
+          <lb ed="#P" n="84"/>CAPUT II.
+          <lb ed="#P" n="85"/>Quid ius significet, et quomodo ad legem 
+          com<lb break="no" ed="#P" n="86"/>paretur.
+        </p>
+        <p xml:id="szdleg-a01052-d1e115">
+          <lb ed="#P" n="87"/>1. Leg. jus naturale.—Varie nominis Jus
+          <lb ed="#P" n="88"/>etymologia.— Prima.—Secunda. — Hujus 
+          vo<lb break="no" ed="#P" n="89"/>cis frequens est in hac materia usus, et 
+          inter<lb break="no" ed="#P" n="90"/>dum pro lege accipitur, ut patet ex S 
+          Singu<lb break="no" ed="#P" n="91"/>lorum, Instit. de Rer. divis., et l./us naturale,
+          <lb ed="#P" n="92"/>ff. de Legibus, quamvis interdum aliis etiam
+          <lb ed="#P" n="93"/>modis accipiatur, ideoque et illam explicare,
+          <lb ed="#P" n="94"/>et cum lege conferre necessarium est : prius
+          <lb ed="#P" n="95"/>vero advertere oportet tres solere juris 
+          etymo<lb break="no" ed="#P" n="96"/>logias assignari. Prima est, ut jus dicatur quod
+          <lb ed="#P" n="97"/>juxta sit, de qua videri potest Conan., lib. 1,
+          <lb ed="#P" n="98"/>Comment. juris civil. Eam enim omitto, quia
+          <lb ed="#P" n="99"/>mihi non probatur ; quia si materiales voces
+          <lb ed="#P" n="100"/>consideramus, non est in ea proportio, cum
+          <lb ed="#P" n="101"/>Jucta non per S sicut Jus, sed per X 
+          scriba<lb break="no" ed="#P" n="102"/>tur. Si vero significationem attendamus, juxta
+          <lb ed="#P" n="103"/>esse, non significat aequale esse, sed tantum
+          <lb ed="#P" n="104"/>esse prope. Et licet interdum significet 
+          simi<lb break="no" ed="#P" n="105"/>litudinem, vel aequalitatem in aliquo munere,
+          <lb ed="#P" n="106"/>vel actione, illud tamen est in sensu longe 
+          di<lb break="no" ed="#P" n="107"/>verso ab aequitate quam jus indicat ; unde du-
+          <pb ed="#P" n="4"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ra mihi videtur et singularis baec deductio.
+          <lb ed="#P" n="2"/>Secunda, et Latinis magis recepta est, ut jus
+          <lb ed="#P" n="3"/>dicatur a jubendo : nam jussun participium
+          <lb ed="#P" n="4"/>est verbi Jubeo. et sia participlo jussqun 
+          se<lb break="no" ed="#P" n="5"/>cundam syllabam demamus, jus relinquitur,
+          <lb ed="#P" n="6"/>vel certe, si illas duas syllabas dividas, 
+          ora<lb break="no" ed="#P" n="7"/>tionem constitues, qua ipsum jussum seu 
+          im<lb break="no" ed="#P" n="8"/>perium dicat, se esse jus; seu jus sum. :
+        </p>
+        <p xml:id="szdleg-a01052-d1e185">
+          <lb ed="#P" n="9"/>2. Tertia. — Tertia derivatio est, ut jus a
+          <lb ed="#P" n="10"/>justitia dicatur ; sic enim dixit Ulpianus, 1. 1,
+          <lb ed="#P" n="11"/>f. de Justit. et jur. : Est autem jus a justitia
+          <lb ed="#P" n="12"/>appeliatum. Quam etymologiam aliqui 
+          impu<lb break="no" ed="#P" n="13"/>gnant, quia justitla potius a jure derivatur
+          <lb ed="#P" n="14"/>quam e converso : justum enim dicitur quod
+          <lb ed="#P" n="15"/>est secundum jus. Sed haec ratio non cogit:
+          <lb ed="#P" n="16"/>nam aliud est loqui de ordine, seu derivatione
+          <lb ed="#P" n="17"/>quoad causalitatem, aliud quoad 
+          denomina<lb break="no" ed="#P" n="18"/>tionem, seu nominis impositionem ; nam 
+          prio<lb break="no" ed="#P" n="19"/>ri modo verum est, justitiam derivari a jure
+          <lb ed="#P" n="20"/>(id est, ab eo quod in re justum, et aequum
+          <lb ed="#P" n="21"/>est) in ratione objecti, ac subinde in genere
+          <lb ed="#P" n="22"/>causae finalis vel formalis extrinsece. Et hoc
+          <lb ed="#P" n="23"/>modo justitia per jus definitur, quia Jus suumn
+          <lb ed="#P" n="24"/>uniguique tribuit, b. Justitia, ff. de Justit.
+          <lb ed="#P" n="25"/>et jur. Nihilominus tamen quoad 
+          denomina<lb break="no" ed="#P" n="26"/>tionem, et appellationem juris de qua loquitur
+          <lb ed="#P" n="27"/>jureconsultus, potuit jus a justitia appellari,
+          <lb ed="#P" n="28"/>sicut visus talis est, quia tendit in objectum
+          <lb ed="#P" n="29"/>visibile, et nihilominus objectum denominatur
+          <lb ed="#P" n="30"/>visibile ab ipso visu. Sic ergo justitia et est
+          <lb ed="#P" n="31"/>talis, quia tendit ad constituendam 
+          aequalita<lb break="no" ed="#P" n="32"/>tem, quam dicimus esse ipsum medium 
+          jus<lb break="no" ed="#P" n="33"/>tum, et hoc medium recte potuit a justitia
+          <lb ed="#P" n="34"/>denominari justum : nam illa aequalitas apta
+          <lb ed="#P" n="35"/>est per justitiam fieri, et inde vocatur justa.
+          <lb ed="#P" n="36"/>Iude vero potuit facile derivari jus, dempta
+          <lb ed="#P" n="37"/>ultima parte vocis justum, sicut de nomine
+          <lb ed="#P" n="38"/>jussumn dicebamus. Et ita etiam dixit 
+          Isido<lb break="no" ed="#P" n="39"/>rus, 5 Etymol., cap. 3: Jus esse dictum, quia
+          <lb ed="#P" n="40"/>justum est : Augustinus, etiam in Psalm. 145,
+          <lb ed="#P" n="41"/>circa finem : Jus (inquit) et injuria contraria
+          <lb ed="#P" n="42"/>sunt : jus enum est quod justum est. Sicut ergo
+          <lb ed="#P" n="43"/>justum a justitia clare denominatur, ita jus
+          <lb ed="#P" n="44"/>potuit a justo, et justitia denominari quoad
+          <lb ed="#P" n="45"/>etymologiam vocis.
+        </p>
+        <p xml:id="szdleg-a01052-d1e269">
+          <lb ed="#P" n="46"/>3. Unde idem Augustinus, lib. 19 de 
+          Civi<lb break="no" ed="#P" n="47"/>tate, cap. 21, tanquam principium 
+          philosopho<lb break="no" ed="#P" n="48"/>rum sumit : Quod illud jus esse dicaut, quod
+          <lb ed="#P" n="49"/>de justitie fonte manavit. Quamvis enim jus
+          <lb ed="#P" n="50"/>per modum objecti sit causa justitiae, In genere
+          <lb ed="#P" n="51"/>tamen causae etficientis, est effectus justitiae:
+          <lb ed="#P" n="52"/>nam justitia facit, et constituit objectum suum,
+          <lb ed="#P" n="53"/>sicut aliae virtutes morales. Illud ergo 
+          objec<lb break="no" ed="#P" n="54"/>tum si in potentia consideretur, posset 
+          deno<lb break="no" ed="#P" n="55"/>m nari a justitia justificabile (ut sic dicam),
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sicut de visu et visibili dicebamus: tamen illa
+          <lb ed="#P" n="57"/>denominatio non est in usu, et barbara est, et
+          <lb ed="#P" n="58"/>loco illius videtur introductum nomen juris,
+          <lb ed="#P" n="59"/>ut est objectum justitiae : si autem 
+          considere<lb break="no" ed="#P" n="60"/>tur illud objectum in actu, sic dicitur Justum,
+          <lb ed="#P" n="61"/>et dici potest jus. Sie enim proprie locum 
+          ha<lb break="no" ed="#P" n="62"/>bet quod dixit Augustinus, jus et injuriam esse
+          <lb ed="#P" n="63"/>contraria: nam injuria nihil aliud est quam
+          <lb ed="#P" n="64"/>actus injustus: et ita etiam dixit in secundo
+          <lb ed="#P" n="65"/>loco allegato: Quod jure fit, profecto juste fit.
+          <lb ed="#P" n="66"/>Unde Bartolomeus, in d. lib. 1, dixit jus in
+          <lb ed="#P" n="67"/>actu esse executionem, et de hoc interpretatur
+          <lb ed="#P" n="68"/>illam legem: verumtamen etiam potest optime
+          <lb ed="#P" n="69"/>intelligi de jure in potentia, seu in habitu,
+          <lb ed="#P" n="70"/>quia (ut dixi) non est sermo de emanatione
+          <lb ed="#P" n="71"/>causali, sed de sola denominatione, sicut 
+          sci<lb break="no" ed="#P" n="72"/>bile denominatur a scientia etiam in habitu.
+          <lb ed="#P" n="73"/>Nihil ergo est incommodi in hac etymologia,
+          <lb ed="#P" n="74"/>et quamvis incertum sit quae istarum duarum
+          <lb ed="#P" n="75"/>deductionum sit verior, utraque praesenti 
+          in<lb break="no" ed="#P" n="76"/>stituto deservire potest.
+        </p>
+        <p xml:id="szdleg-a01052-d1e341">
+          <lb ed="#P" n="77"/>4. Nominis Jus significatio. — Juxta has
+          <lb ed="#P" n="78"/>ergo duas vocis derivationes, nomen Jus duas
+          <lb ed="#P" n="79"/>praecipuas habet significaticnes, quas adnotavit
+          <lb ed="#P" n="80"/>Driedo, lib. 1 de Libert. Christian., cap. 10.
+          <lb ed="#P" n="81"/>Nam, juxta ultimam ety mologiam, jus idem
+          <lb ed="#P" n="82"/>significat quod justum et aequum, quod est
+          <lb ed="#P" n="83"/>objectum justitiae. Considerandum est autem
+          <lb ed="#P" n="84"/>justitiae nomen dupliciter accipi. Primo, pro
+          <lb ed="#P" n="85"/>omni virtute, quia omnis virtus respicit et 
+          fa<lb break="no" ed="#P" n="86"/>cit aliquo modo aequitatem : secundo, pro 
+          spe<lb break="no" ed="#P" n="87"/>ciali virtute tribuente alteri quod suum est.
+          <lb ed="#P" n="88"/>Utrique ergo significationi jus cum 
+          propor<lb break="no" ed="#P" n="89"/>tione respondet : nam primo jus significare
+          <lb ed="#P" n="90"/>potest quidquid est aequum, et consentaneum
+          <lb ed="#P" n="91"/>rationi, quod est veluti generale objectum 
+          vir<lb break="no" ed="#P" n="92"/>tutis in genere. Secundo, potest jus significare
+          <lb ed="#P" n="93"/>equitatem, quae unicuique ex justitia debetur,
+          <lb ed="#P" n="94"/>et haec posterior significatio magis est in usu:
+          <lb ed="#P" n="95"/>nam jus sic acceptum ad propriam justitiam
+          <lb ed="#P" n="96"/>referri maxime solet. Unde D. Thomas 2. 2,
+          <lb ed="#P" n="97"/>quaest. 57, art. 1, hanc dixit esse primam 
+          ra<lb break="no" ed="#P" n="98"/>tionem et significationem juris: et inde optime
+          <lb ed="#P" n="99"/>concludit in solutione ad 2, jus non esse legem,
+          <lb ed="#P" n="100"/>sed potius esse id quod lege praescribitur, seu
+          <lb ed="#P" n="101"/>mensuratur. Quod ego censeo cum proportione
+          <lb ed="#P" n="102"/>esse intelligendum: nam leges pertinentes ad
+          <lb ed="#P" n="103"/>specialem justitiam respiciunt jus speciale, in
+          <lb ed="#P" n="104"/>dicta proprietate sumptum : lex autem in 
+          ge<lb break="no" ed="#P" n="105"/>nere, prout in omnibus virtutibus locum 
+          ha<lb break="no" ed="#P" n="106"/>bere potest, respiciet jus generaliter, et large
+          <lb ed="#P" n="107"/>sumptum, sicut dixit Cicero, lib. 2 de Legibus,
+          <lb ed="#P" n="108"/>in ipso nomine legis inesse vim justi et juris
+          <lb ed="#P" n="109"/>colendi, quia vera lex aequum et justum 
+          prae<lb break="no" ed="#P" n="110"/>cipere debet, ut dixi.
+        </p>
+        <p xml:id="szdleg-a01052-d1e417">
+          <pb ed="#P" n="5"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>5. Propria nominis Jus appellatio. — Ft
+          <lb ed="#P" n="2"/>juxta posteriorem et strictam juris 
+          significa<lb break="no" ed="#P" n="3"/>tionem solet proprie jus vocari facultas 
+          quae<lb break="no" ed="#P" n="4"/>dam moralis, quam unusquisque habet, vel
+          <lb ed="#P" n="5"/>circa rem suam, vel ad rem sibi debitam ; sic
+          <lb ed="#P" n="6"/>enim dominus rei dicitur habere jus in re, et
+          <lb ed="#P" n="7"/>operarius dicitur habere jus ad stipendium,
+          <lb ed="#P" n="8"/>ratione cujus dicitur dignus mercede sua. Et
+          <lb ed="#P" n="9"/>haec significatio vocis hujus frequens est non
+          <lb ed="#P" n="10"/>solum in jure, sed etiam in Scriptura: nam in
+          <lb ed="#P" n="11"/>jure hoc modo distinguuntur jus in re, vel ad
+          <lb ed="#P" n="12"/>rem: item jura servitutum, seu jura 
+          praedto<lb break="no" ed="#P" n="13"/>rum rusticorum, vel urbanorum, jura utendi,
+          <lb ed="#P" n="14"/>vel fruendi, et similia, quae late videri possunt
+          <lb ed="#P" n="15"/>apud Brissonium, lib. 9 de Verb. signif., verb.
+          <lb ed="#P" n="16"/>Jus. In Scriptura vero legimus, dixisse 
+          Abra<lb break="no" ed="#P" n="17"/>ham ad filios Heth, Genes. 23: Date mihi jus
+          <lb ed="#P" n="18"/>sepulchri, id est, facultatem sepeliendi, et c. 31,
+          <lb ed="#P" n="19"/>de Jacob, quando discessit a socero, dicitur 
+          tu<lb break="no" ed="#P" n="20"/>lisse secum omnia quue juris sui erant, et 
+          si<lb break="no" ed="#P" n="21"/>milia loca sunt frequentia. Atque hoc modo
+          <lb ed="#P" n="22"/>sumi videtur jus in lib. Justitia, ff. de Justit.
+          <lb ed="#P" n="23"/>et jur., cum dicitur justitia esse virtus quae jus
+          <lb ed="#P" n="24"/>suum unicuique tribuit, id est, id tribuens
+          <lb ed="#P" n="25"/>unicuique quod ad illum spectat; illa ergo
+          <lb ed="#P" n="26"/>actio, seu moralis facultas, quam unusquisque
+          <lb ed="#P" n="27"/>habet ad rem suam, vel ad rem ad se aliquo
+          <lb ed="#P" n="28"/>modo pertinentem, vocatur jus, et illud 
+          pro<lb break="no" ed="#P" n="29"/>prie videtur esse objectum justitiae. Hinc etiam
+          <lb ed="#P" n="30"/>solet jus pro necessitudine accipi, ut dicitur in
+          <lb ed="#P" n="31"/>l. ult., ff. de Justit. et jur.; videtur enim tunc
+          <lb ed="#P" n="32"/>vox illa significare specialem quamdam 
+          obli<lb break="no" ed="#P" n="33"/>gationem, aut relationem quae ex ipsa 
+          neces<lb break="no" ed="#P" n="34"/>situdine nascitur. Atque hoc modo dicitur
+          <lb ed="#P" n="35"/>unus succedere jure sanguinis, alius jure 
+          adop<lb break="no" ed="#P" n="36"/>tionis, alius vero jure institutionis, seu 
+          testa<lb break="no" ed="#P" n="37"/>menti. Sic etiam dicitur in l. Jus, 34, ff. de
+          <lb ed="#P" n="38"/>Pactis, Jus cognationis non posse repudiari, et
+          <lb ed="#P" n="39"/>jus cognationis restitui filio, dicitur in l. ult.,
+          <lb ed="#P" n="40"/>ff. de Sentent., passim. Unde colligitur non si-
+          <lb ed="#P" n="41"/>gnificare ipsam cognationem, sed moralem 
+          ac<lb break="no" ed="#P" n="42"/>tionem, seu facultatem quae ex illa nascitur, et
+          <lb ed="#P" n="43"/>sic de aliis.
+        </p>
+        <p xml:id="szdleg-a01052-d1e517">
+          <lb ed="#P" n="44"/>6. Alia significatio nominis Jus. — Juxta
+          <lb ed="#P" n="45"/>aliam vero etymologiam, qua jus a jubendo
+          <lb ed="#P" n="46"/>dicitur, proprie videtur jus legem significare:
+          <lb ed="#P" n="47"/>nam lex in jussione seu imperio posita est. Et
+          <lb ed="#P" n="48"/>hoc modo sumunt frequenter hane vocem
+          <lb ed="#P" n="49"/>jureconsulti, ut quando dicunt, hoc vel illo
+          <lb ed="#P" n="50"/>jure utimur, vel hoc est certi et explorati 
+          ju<lb break="no" ed="#P" n="51"/>ris, et similia. Item videtur hoc modo sumi
+          <lb ed="#P" n="52"/>quoties a facto distinguitur, ut cum dividitur
+          <lb ed="#P" n="53"/>ignorantia juris ab ignorantia facti, ut est 
+          fre<lb break="no" ed="#P" n="54"/>quens in jure, et doctoribus: estque titulus de
+          <lb ed="#P" n="55"/>uris et facti ignorantia. Et hinc etiam id quod
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>est consentaneum rationi, jure fieri dicitur,
+          <lb ed="#P" n="57"/>tanquam legi conforme. Sic etiam videtur 
+          de<lb break="no" ed="#P" n="58"/>finisse jus Salustius, in Catilinario, cum dixit:
+          <lb ed="#P" n="59"/>Jus est civilis equitas, vel scriptis legibus
+          <lb ed="#P" n="60"/>sancila, vel institutis, aut moribus recepta.
+          <lb ed="#P" n="61"/>Quae descriptio imprimis de solis legibus 
+          civi<lb break="no" ed="#P" n="62"/>libus data videtur : si tamen particula illa 
+          ci<lb break="no" ed="#P" n="63"/>vilis dematur, etiam legibus canonicis et 
+          divi<lb break="no" ed="#P" n="64"/>nis positivis facile poterit adaptari. Legi autem
+          <lb ed="#P" n="65"/>naturali non videtur convenire, nisi eam 
+          di<lb break="no" ed="#P" n="66"/>camus esse scriptam in mentibus hominum:
+          <lb ed="#P" n="67"/>nam jus etiam de lege naturali dicitur, ut
+          <lb ed="#P" n="68"/>constat ex titulo de jure naturali, gentium, et
+          <lb ed="#P" n="69"/>civili, de qua divisione infra dicemus. Deinde
+          <lb ed="#P" n="70"/>illa descriptio magis videtur data per effectum
+          <lb ed="#P" n="71"/>legis, quam per propriam ejus rationem. Vel
+          <lb ed="#P" n="72"/>certe videtur magis esse descriptio objecti
+          <lb ed="#P" n="73"/>constituti per legem, quam ipsius legis; quia
+          <lb ed="#P" n="74"/>lex constituit aequitatem, vel est mensura, et
+          <lb ed="#P" n="75"/>regula ejus: non est proprie ipsa aequitas.
+        </p>
+        <p xml:id="szdleg-a01052-d1e591">
+          <lb ed="#P" n="76"/>7. Addit vero Isidorus, dicto lib. 5 Origin.,
+          <lb ed="#P" n="77"/>cap. 3, jus et legem comparari, ut genus et
+          <lb ed="#P" n="78"/>speciem : nam jus vult esse genus, legem vero
+          <lb ed="#P" n="79"/>speciem : et rationem reddere videtur, quia
+          <lb ed="#P" n="80"/>jus legibus et moribus constat. Lex autem est
+          <lb ed="#P" n="81"/>constitutio scripta, et habetur in capit. 2, 3 et
+          <lb ed="#P" n="82"/>4, dist. 1. Et videtur sequi D. Thomas 2. 2,
+          <lb ed="#P" n="83"/>quaest. 58, art. 1, ad 2, dicens rationem aequi
+          <lb ed="#P" n="84"/>et justi, si in scriptum redigatur, esse legem.
+          <lb ed="#P" n="85"/>Et videntur sumpsisse ex Augustino, lib. 83
+          <lb ed="#P" n="86"/>Quaestionum, quaest. 31, dicente: Lege jus est
+          <lb ed="#P" n="87"/>quod in eo scripto, quod populo empositum est,
+          <lb ed="#P" n="88"/>ut observet, continetur. At vero e contrario
+          <lb ed="#P" n="89"/>Cicero, lib. 1 et 2 de Legibus, solam illam
+          <lb ed="#P" n="90"/>putat esse propriam legem, quae in ratione
+          <lb ed="#P" n="91"/>est : scriptam vero exterius dicit esse 
+          popula<lb break="no" ed="#P" n="92"/>riter legem : unde divinam mentem vocat
+          <lb ed="#P" n="93"/>summam legem, deinde rationem existentem
+          <lb ed="#P" n="94"/>in mente sapientis: legem vero scriptam magis
+          <lb ed="#P" n="95"/>nomine, quam re legem appellari. Jam vero
+          <lb ed="#P" n="96"/>usus obtinuit, ut lex de scripta, et non scripta
+          <lb ed="#P" n="97"/>proprie dicatur, et ita jus prout legem 
+          signifi<lb break="no" ed="#P" n="98"/>cat, cum illa convertitur, et tanquam 
+          syno<lb break="no" ed="#P" n="99"/>nyma reputantur.
+        </p>
+        <p xml:id="szdleg-a01052-d1e646">
+          <lb ed="#P" n="100"/>8. Actus judicis Jus significat aliquando.
+          <lb ed="#P" n="101"/>—Hinc vero derivatum est nomen juris ad alia
+          <lb ed="#P" n="102"/>quaedam significata, ad quae significanda legis
+          <lb ed="#P" n="103"/>vox translata non est: nam hinc actus judicis
+          <lb ed="#P" n="104"/>solet nomine juris appellari, vel quia 
+          secun<lb break="no" ed="#P" n="105"/>dum leges fieri debet, vel quia interdum 
+          vi<lb break="no" ed="#P" n="106"/>detur quasi legem constituere, et sic dicitur
+          <lb ed="#P" n="107"/>judex, cum munus suum exercet, jus dicere;
+          <lb ed="#P" n="108"/>unde est titulus, ff. Si quis jus dicendi non
+          <lb ed="#P" n="109"/>obtemperaverit, et capite 2 de Constt., in 6,
+          <lb ed="#P" n="110"/>dicitur : Extra territorium jus dicenti impune
+          <pb ed="#P" n="6"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>no obediri, quod tam de sententia quam de
+          <lb ed="#P" n="2"/>lege. seu statuto intelligi potest. Imo, in lege
+          <lb ed="#P" n="3"/>penult.. ff. de Just. et jur., dicitur judex jus
+          <lb ed="#P" n="4"/>reddere, etiam cum inique decernit, non 
+          ha<lb break="no" ed="#P" n="5"/>bito respectu ad id quod facit, sed ad id quod
+          <lb ed="#P" n="6"/>faccre debet. Praeterea hoc modo dicitur judex
+          <lb ed="#P" n="7"/>subditum in jus vocare, utique juris 
+          expo<lb break="no" ed="#P" n="8"/>nendi causa, ut dicitur in libro 1, ff. de in jus
+          <lb ed="#P" n="9"/>vocando. Quamvis posset illud intelligi de 
+          vo<lb break="no" ed="#P" n="10"/>catione ad locum judicii. Nam vox haec etiam
+          <lb ed="#P" n="11"/>ad signuificandum locum, in quo judicium
+          <lb ed="#P" n="12"/>cxercetur, translata est, ut notatur in eadem
+          <lb ed="#P" n="13"/>lege penult.. ff. de Justitia et jure, unde apud
+          <lb ed="#P" n="14"/>Latnos, ire in jus, idem est quod ad 
+          Praeto<lb break="no" ed="#P" n="15"/>rium, seu sedem praetoris ire, ut ex 
+          Donatia<lb break="no" ed="#P" n="16"/>no Victore et multis juristis notat Brissonius
+          <lb ed="#P" n="17"/>supra: imo et divus Thomas supra, ad 1,
+          <lb ed="#P" n="18"/>ita interpretatur, cum dieitur aliquis 
+          compa<lb break="no" ed="#P" n="19"/>rere in jure ; uhi addit etiam aliam 
+          significa<lb break="no" ed="#P" n="20"/>tionem hujus vocis: nam ipsa etiam ars, qua
+          <lb ed="#P" n="21"/>discernitur quid sit justum, dicit aliquando
+          <lb ed="#P" n="22"/>vocari jus. Et sic tacite videtur exponere 
+          dic<lb break="no" ed="#P" n="23"/>tam leg. 1, ff. de Justitia et jure, ubi Ulpianus
+          <lb ed="#P" n="24"/>refert et probat definitionem Celsi dicentis,
+          <lb ed="#P" n="25"/>jus est ars boni et equi-: nam bhaec definitio
+          <lb ed="#P" n="26"/>non tam ipsi legi quam jurisprudentiae 
+          conve<lb break="no" ed="#P" n="27"/>nire videtur, nisi ars late sumatur pro 
+          qua<lb break="no" ed="#P" n="28"/>cumquce ratione, seu mensura operationis.
+        </p>
+        <p xml:id="szdleg-a01052-d1e738">
+          <lb ed="#P" n="29"/>9. Quomodo jus distinguatur ab equo et
+          <lb ed="#P" n="30"/>bono. — Duo tandem supersunt declaranda.
+          <lb ed="#P" n="31"/>Unum est, quomodo jus interdum ab aequo et
+          <lb ed="#P" n="32"/>bono distinguatur, si nihil aliud est jus quam
+          <lb ed="#P" n="33"/>ipsum justum, quod etiam est ipsum aequum
+          <lb ed="#P" n="34"/>et bonum : vel, si sumatur pro lege, est ratio
+          <lb ed="#P" n="35"/>ipsius boni et jusu, ut diximus. Illa autem
+          <lb ed="#P" n="36"/>distinctio juris, ab aequo et bono, constat ex
+          <lb ed="#P" n="37"/>miltis, quae refert Ludovicus Viv., in Schol.
+          <lb ed="#P" n="38"/>ad Augustinum, libro secundo, de Civitate,
+          <lb ed="#P" n="39"/>capite decimo-septimo. Sic enim dixit 
+          Quinti<lb break="no" ed="#P" n="40"/>lianus, libro quarto: Judicis natura noscenda
+          <lb ed="#P" n="41"/>est, uri magis, an equo sit opposita ; et lhibro
+          <lb ed="#P" n="42"/>sexto. jure pugnandum, an eequo? et Cicero, in
+          <lb ed="#P" n="43"/>Bruto: Crassus multa tum contra scriptum pro
+          <lb ed="#P" n="44"/>equo et bono diait. Hanc ergo dubitationem
+          <lb ed="#P" n="45"/>proponit Aristoteles, quinto Ethic., capite 
+          de<lb break="no" ed="#P" n="46"/>cimo, et in summa respondet aequitatem esse
+          <lb ed="#P" n="47"/>justi emendationem. Ad quod intelligendum,
+          <lb ed="#P" n="48"/>voces justi et aequi, et justitiae ac aequitatis
+          <lb ed="#P" n="49"/>distinguendae sunt. Duplex est enim justum:
+          <lb ed="#P" n="50"/>unum naturale, quod est rectum secundum
+          <lb ed="#P" n="51"/>naturalem rationem, quod nunquam doeficit,
+          <lb ed="#P" n="52"/>si ratio non erret: aliud est justum legale, id
+          <lb ed="#P" n="53"/>est, quod lege humana constituitur, et hoc,
+          <lb ed="#P" n="54"/>licet in universali justum sit, solet in particulari
+          <lb ed="#P" n="55"/>deficere. Nec propterea lex injusta est, quia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>necesse est universaliter ferri : defectus autem
+          <lb ed="#P" n="57"/>(ait Aristoteles) non ex legislatore, sed ex 
+          ma<lb break="no" ed="#P" n="58"/>teria ipsa provenit. Et juxta hoe duplex 
+          jus<lb break="no" ed="#P" n="59"/>tum, duplex cum proportione potest distingui
+          <lb ed="#P" n="60"/>justitia: eodemque modo dupliciter solet accipi
+          <lb ed="#P" n="61"/>aequitas, uno modo pro aequitate naturali, quae
+          <lb ed="#P" n="62"/>eadem est cum justitia naturali, et illi 
+          respon<lb break="no" ed="#P" n="63"/>det aequum, prout idem est, quod justum 
+          na<lb break="no" ed="#P" n="64"/>turale; et in hoc sensu loquuntur saepe civilia
+          <lb ed="#P" n="65"/>jura de aequitate naturali, ut in libro 1, 8$i
+          <lb ed="#P" n="66"/>filius, ff. de Suis et legit. haered.: Naturali
+          <lb ed="#P" n="67"/>equitate nepotes in filiorum locum succedunt ;
+          <lb ed="#P" n="68"/>et lib. 1, ff. de Requir. reis: quitatis ratio
+          <lb ed="#P" n="69"/>non patitur inaudita causa quem condemnari.
+          <lb ed="#P" n="70"/>Et huic aequitati respondet aequum generalter
+          <lb ed="#P" n="71"/>dictum: sicque dicitur in lib. Nam hoc, tf. de
+          <lb ed="#P" n="72"/>Cond. indebiti: Hoc natura equum est, 
+          nemi<lb break="no" ed="#P" n="73"/>nem cum alterius nocumento locupletari. Aique
+          <lb ed="#P" n="74"/>aequitas hoc modo sumpía non est emendatio
+          <lb ed="#P" n="75"/>juris, sed potius origo seu regula ipsius, juxta
+          <lb ed="#P" n="76"/>l. 94, ff. de Reg. jur.: in omnibus, macime
+          <lb ed="#P" n="77"/>lamen in jure, cequitas spectanda est.
+        </p>
+        <p xml:id="szdleg-a01052-d1e849">
+          <lb ed="#P" n="78"/>10. Alio vero modo sumitur aequitas pro
+          <lb ed="#P" n="79"/>prudenti moderatione legis scriptae praeter 
+          ri<lb break="no" ed="#P" n="80"/>gorem verborum ejus, et sic dicitur opponi
+          <lb ed="#P" n="81"/>stricto juri, in l. 2, S /tem, ff. de Aqua pluvia
+          <lb ed="#P" n="82"/>arcen., sicque dixit Terentius: 7nter jus et
+          <lb ed="#P" n="83"/>equitatem hoc iuterest, jus est, quod omnia
+          <lb ed="#P" n="84"/>recia et inflevibilia exigit. equitas est, quae de
+          <lb ed="#P" n="85"/>Jure multum remittit. Et ab aequitate sic 
+          sum<lb break="no" ed="#P" n="86"/>pta dicitur etiam quasi per antonomasiam
+          <lb ed="#P" n="87"/>aequum et bonum, quod in se quidem tale est,
+          <lb ed="#P" n="88"/>licet a verbis legis discordare videatur. Et sic
+          <lb ed="#P" n="89"/>sumpsit Aristoteles aequitatem, cum illam dixit
+          <lb ed="#P" n="90"/>esse emendationem justi, utique legalis, 
+          vir<lb break="no" ed="#P" n="91"/>tutemque a qua procedit hic actus vocavit
+          <lb ed="#P" n="92"/>epikiam, de qua disputat etiam divus Thomas
+          <lb ed="#P" n="93"/>secunda secundae, quaest. 120. Ad illam enim
+          <lb ed="#P" n="94"/>spectat contra verba legis humanae agere in
+          <lb ed="#P" n="95"/>particulari, quando illam servare esset contra
+          <lb ed="#P" n="96"/>naturalem aequitatem, tuncque judex dicitur
+          <lb ed="#P" n="97"/>non agere jure, utique materialiter, et ut 
+          so<lb break="no" ed="#P" n="98"/>nat, sed agere aequo et bono, quod est, jus
+          <lb ed="#P" n="99"/>ipsum juxta intentionem ejus servare, et 
+          con<lb break="no" ed="#P" n="100"/>trarium agere esset jus violare, juxta illud
+          <lb ed="#P" n="101"/>Justin., cod. de Leg.: Non dubium est n 
+          le<lb break="no" ed="#P" n="102"/>gen committere eum qui, verba legis complemus,
+          <lb ed="#P" n="103"/>contra legis nititur voluntatem ; et ideo fortasse
+          <lb ed="#P" n="104"/>jurisprudentia dicta est ars boni et aequi, quod
+          <lb ed="#P" n="105"/>in legibus interpretandis bonum et aequum
+          <lb ed="#P" n="106"/>semper intueri debet, etiam si interdum 
+          opor<lb break="no" ed="#P" n="107"/>teat verborum rigorem temperare, ne ab aequo
+          <lb ed="#P" n="108"/>et bono naturali discedatur. Plura de hac re
+          <lb ed="#P" n="109"/>vide in Covarro, in reg. Possessor, part. 2,
+          <lb ed="#P" n="110"/>§ 6 n. 3.
+        </p>
+        <p xml:id="szdleg-a01052-d1e923">
+          <pb ed="#P" n="7"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>11. De distinctione inter jus et fas. — 
+          Ale<lb break="no" ed="#P" n="2"/>rum declaraudum est, quid sit fas, et quomodo
+          <lb ed="#P" n="3"/>ad jus et legem comparetur. Ait enim Isidorus,
+          <lb ed="#P" n="4"/>quinto Etymolog., capite secundo: Fas lec
+          <lb ed="#P" n="5"/>divina est, jus humana, et habetur etiam 
+          dis<lb break="no" ed="#P" n="6"/>tinctione prima, capite primo, ubi hoc 
+          exem<lb break="no" ed="#P" n="7"/>plo explicatur : Transire per agrum alienum
+          <lb ed="#P" n="8"/>fas est, jus non est. Haec autem videntur 
+          in<lb break="no" ed="#P" n="9"/>telligenda juxta dicta in proximo puncto, ut
+          <lb ed="#P" n="10"/>ibi jus stricte sumatur pro lege scripta : fas
+          <lb ed="#P" n="11"/>autem pro aequitate, et quasi justa exceptione.
+          <lb ed="#P" n="12"/>Ut in dicto exemplo transire per alienum
+          <lb ed="#P" n="13"/>agrum dicitur non esse jus, quia nimirum lex
+          <lb ed="#P" n="14"/>humana per se potius prohibet illum 
+          iransi<lb break="no" ed="#P" n="15"/>tum : tamen si ex rationabili eausa absque 
+          de<lb break="no" ed="#P" n="16"/>trimento fiat, fas est, seu licitum est. Atque
+          <lb ed="#P" n="17"/>ita explicuit Glossa ibi, et Henricus, quodlib.
+          <lb ed="#P" n="18"/>nono, quaestione secunda; at vero D. Thomas,
+          <lb ed="#P" n="19"/>secunda secundae, quaestione 
+          quinquagesima<lb break="no" ed="#P" n="20"/>septima, articulo primo ad ultimum, aliter illa
+          <lb ed="#P" n="21"/>verba exponit. Vult enim, nomen juris 
+          secun<lb break="no" ed="#P" n="22"/>dum quamdam specialem proprietatem magis
+          <lb ed="#P" n="23"/>convenire legibus, quae ordinantur ad 
+          homi<lb break="no" ed="#P" n="24"/>nes inter se, quam legibus, quae ordinant 
+          ho<lb break="no" ed="#P" n="25"/>minem ad Deum, quia Deo non possumus
+          <lb ed="#P" n="26"/>reddere aequale, et ideo, inquit, respectu Dei
+          <lb ed="#P" n="27"/>potius fas quam jus appellatur lex. Sed 
+          quid<lb break="no" ed="#P" n="28"/>quid sit de hac proprietate, quae non est ab usu
+          <lb ed="#P" n="29"/>Latinorum aliena, Isidorus non appellat fas
+          <lb ed="#P" n="30"/>legem divinam, eo quod circa debitum Deo
+          <lb ed="#P" n="31"/>reddendum disponat; sed quia in naturali
+          <lb ed="#P" n="32"/>aequitate, atque adeo in ratione naturali, quae
+          <lb ed="#P" n="33"/>lex divina est, nititur. Omissis autem 
+          meta<lb break="no" ed="#P" n="34"/>phoricis significationibus et distinctionibus,
+          <lb ed="#P" n="35"/>quae in praesenti instituto non deserviunt, nunc
+          <lb ed="#P" n="36"/>de jure in secunda et propria significatione
+          <lb ed="#P" n="37"/>generalter loquimur, sicque cum lege 
+          conver<lb break="no" ed="#P" n="38"/>titur, prout nunc etiam de illa universaliter
+          <lb ed="#P" n="39"/>tractamus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

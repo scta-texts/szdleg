@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 17</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 17</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="66"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a16988"><!-- deleg-l1c17 -->
+        <head xml:id="szdleg-a16988-Hd1e101">Caput 17</head>
+        <head xml:id="szdleg-a16988-Hd1e103" type="question-title">Utrum sint alii effectus legis praeter illos quatuor</head>
+        <p xml:id="szdleg-a16988-d1e106">
+          <lb ed="#P" n="9"/>CAPUT XVII.
+          <lb ed="#P" n="10"/>UTRUM SINT ALH EFFECTUS LEGIS PRJUETER ILLOS
+          <lb ed="#P" n="11"/>QUATUOR.
+        </p>
+        <p xml:id="szdleg-a16988-d1e115">
+          <lb ed="#P" n="12"/>1. Inquirimus sufficientiam praedictae 
+          nume<lb break="no" ed="#P" n="13"/>rationis: et ratio dubitandi est, quia plures alii
+          <lb ed="#P" n="14"/>effectus solent fieri per leges. Primo enim per
+          <lb ed="#P" n="15"/>leges taxantur pretia rerum. Secundo, per illas
+          <lb ed="#P" n="16"/>constituitur medium in materia virtutis. 
+          Ter<lb break="no" ed="#P" n="17"/>tio, dantur formae contractibus, testamentis,
+          <lb ed="#P" n="18"/>etc. Et constituuntur ut essentiales, ita ut 
+          ac<lb break="no" ed="#P" n="19"/>tus aliter facti non valeant. Ad quem effectum
+          <lb ed="#P" n="20"/>pertinent etiam irritationes contractuum, 
+          inha<lb break="no" ed="#P" n="21"/>bilitationes personarum ad tales contractus, vel
+          <lb ed="#P" n="22"/>munera. Quartus est mutare dominia rerum.
+          <lb ed="#P" n="23"/>Quintus leges revocare. Sextus favores 
+          conce<lb break="no" ed="#P" n="24"/>dere et praemia tribuere: non enim minus hoc
+          <lb ed="#P" n="25"/>ad legem pertinet quam punitio. Nam praemio
+          <lb ed="#P" n="26"/>ut pena vita moderatur humana, ut Isidorus
+          <lb ed="#P" n="27"/>supra dicit.
+        </p>
+        <p xml:id="szdleg-a16988-d1e152">
+          <lb ed="#P" n="28"/>2. Hanc difficultatem facile aliqui expediunt,
+          <lb ed="#P" n="29"/>concedendo esse alios effectus legis; illos vero
+          <lb ed="#P" n="30"/>quatuor fuisse numeratos ut praecipuos, 
+          ma<lb break="no" ed="#P" n="31"/>gisque usitatos, ac necessarios, et quia ex eis
+          <lb ed="#P" n="32"/>facile erat alios intelligere. Quod non habet
+          <lb ed="#P" n="33"/>magnum inconveniens, quia nec Isidorus, nec
+          <lb ed="#P" n="34"/>Jureconsulti, nec D. Thomas assumpserunt
+          <lb ed="#P" n="35"/>provinciam tradendi omnes effectus, sed 
+          mo<lb break="no" ed="#P" n="36"/>raliter ac doctrinaliter locuti sunt. Et ab hoc
+          <lb ed="#P" n="37"/>modo dicendi non longe absunt Glossa, et 
+          Bar<lb break="no" ed="#P" n="38"/>tolomaeus in d. l. Legis virtus, dum dicunt
+          <lb ed="#P" n="39"/>aliquas esse leges quae non habent aliquem ex
+          <lb ed="#P" n="40"/>his effectibus; nullam tamen esse quae non
+          <lb ed="#P" n="41"/>faciat alquem effectum asequipollentem, et hoc
+          <lb ed="#P" n="42"/>satis esse. Et eadem ratione concedunt posse
+          <lb ed="#P" n="43"/>aliquam legem non habere aliquem alium
+          <lb ed="#P" n="44"/>eequipollentem alicui ex supra numeratis.
+        </p>
+        <p xml:id="szdleg-a16988-d1e192">
+          <lb ed="#P" n="45"/>3. Nullam esse legem sine aliquo ex 
+          effecti<lb break="no" ed="#P" n="46"/>bus numeratis, el omnes alios in his contineri
+          <lb ed="#P" n="47"/>ut probabile asseritur.—Satis tamen 
+          probabi<lb break="no" ed="#P" n="48"/>liter dici potest nullam esse legem, quae non
+          <lb ed="#P" n="49"/>habeat aliquem ex dictis effectibus cum omni
+          <lb ed="#P" n="50"/>proprietate. Et e contrario nullum esse 
+          effec<lb break="no" ed="#P" n="51"/>tum legis qui sub praedictis non contineatur.
+          <lb ed="#P" n="52"/>Primum probatur ex principio posito in capite
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>praecedenti, ubi ostendimus omnem legem 
+          ha<lb break="no" ed="#P" n="54"/>bere vim obligandi : ergo necesse est ut omnis
+          <lb ed="#P" n="55"/>lex obliget : ergo vel ad agendum, vel ad non
+          <lb ed="#P" n="56"/>agendum : nam haec contradictorie 
+          opponun<lb break="no" ed="#P" n="57"/>tur, et consequenter non admittunt medium,
+          <lb ed="#P" n="58"/>et ideo nulla est lex quae saltem quatenus 
+          ali<lb break="no" ed="#P" n="59"/>quem obligat, non habeat rationem praecepti
+          <lb ed="#P" n="60"/>aut prohibitionis, licet sub aliis rationibus 
+          pos<lb break="no" ed="#P" n="61"/>sit alios effectus habere.
+        </p>
+        <p xml:id="szdleg-a16988-d1e234">
+          <lb ed="#P" n="62"/>4. De duplici potestate, directiva scilicet et
+          <lb ed="#P" n="63"/>coactiva, quae comitantur legem. — Ut autem
+          <lb ed="#P" n="64"/>probetur altera pars. supponenda est vulgaris
+          <lb ed="#P" n="65"/>distinctio de duplici virtute legis, directiva, et
+          <lb ed="#P" n="66"/>coactiva, quam tradit D. Thomas, q. 69, art. 5,
+          <lb ed="#P" n="67"/>et ibi alii. Solent autem haec verba varie 
+          ac<lb break="no" ed="#P" n="68"/>cipi : interdum enim vis coactiva legis dicitur
+          <lb ed="#P" n="69"/>vis obligandi in conscientia, quomodo loquitur
+          <lb ed="#P" n="70"/>D. Thomus, 1. 2, q. 17, art. 3, ad 2, dum in
+          <lb ed="#P" n="71"/>hoc distinguit consilium a praecepto, quod 
+          con<lb break="no" ed="#P" n="72"/>silium est inductio non habens vim activam,
+          <lb ed="#P" n="73"/>id est obligativam, et sic vis directiva est 
+          com<lb break="no" ed="#P" n="74"/>munis consilio : consistitque solum in 
+          illumi<lb break="no" ed="#P" n="75"/>natione et directione mentis. Ita etiam 
+          Caje<lb break="no" ed="#P" n="76"/>tanus, t. 14 Opusc., q. 2, sub coactione legis
+          <lb ed="#P" n="77"/>vim omnem ad obligandum includit, et fere,
+          <lb ed="#P" n="78"/>eodem modo loquitur Soto, l. 1 de Just., q. 6,
+          <lb ed="#P" n="79"/>art. 7, circa finem. Proprie vero loquendo,
+          <lb ed="#P" n="80"/>in ipsamet lege duo effectus, et consequenter
+          <lb ed="#P" n="81"/>quasi duae virtutes distinguuntur : alia 
+          obli<lb break="no" ed="#P" n="82"/>gandi in conscientia, quae directiva dicitur,
+          <lb ed="#P" n="83"/>alia subjiciendi et obligandi ad poenam, quae
+          <lb ed="#P" n="84"/>coactiva dicitur. Nam in legislatore utraque
+          <lb ed="#P" n="85"/>potestas necessaria est : directiva, ut imperare
+          <lb ed="#P" n="86"/>valeat quid agendum vel non agendum sit cum
+          <lb ed="#P" n="87"/>necessitate quadam pertinente ad honestatem
+          <lb ed="#P" n="88"/>morum, quae dicitur obligatio in conscientia,
+          <lb ed="#P" n="89"/>seu in ratione honestatis : coactiva, ut cogere
+          <lb ed="#P" n="90"/>possit ut sibi obediatur. Et hic est communior
+          <lb ed="#P" n="91"/>usus harum vocum, ut constat ex D. Thoma,
+          <lb ed="#P" n="92"/>dict. q. 96, art. 5, et aliis interpretibus ibi, et
+          <lb ed="#P" n="93"/>ita illis uiemur, quia coactio proprie dicitur
+          <lb ed="#P" n="94"/>de re involuntaria, ut est poena : directio 
+          au<lb break="no" ed="#P" n="95"/>tem legis plus includit, quia consilium, vel
+          <lb ed="#P" n="96"/>motionem, ac subinde includit obligationem.
+        </p>
+        <p xml:id="szdleg-a16988-d1e312">
+          <lb ed="#P" n="97"/>D. Potestas ergo directiva sufficienter videtur
+          <lb ed="#P" n="98"/>explicari per actum praecipiendi et prohibendi
+          <lb ed="#P" n="99"/>propter rationem dictam, quod haec 
+          contradic<lb break="no" ed="#P" n="100"/>torie opponuntur. Item quia illae duae partes
+          <lb ed="#P" n="101"/>justitiae, quae sunt vitare malum et facere 
+          bo<lb break="no" ed="#P" n="102"/>num, sufficienter comprehendunt totam 
+          justi<lb break="no" ed="#P" n="103"/>tiam, ut recte tradit D. Thomas 2. 2, q. 79,
+          <lb ed="#P" n="104"/>art 1; ergo et leges ut obligantes sufficienter
+          <lb ed="#P" n="105"/>dividuntur per praecipientem et prohibentem.
+          <lb ed="#P" n="106"/>Ad potestatem autem coactivam pertinet 
+          mo<lb break="no" ed="#P" n="107"/>raliter cogere ad obediendum utrique legi,
+          <pb ed="#P" n="67"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quod fit per comminationem poena : unde
+          <lb ed="#P" n="2"/>Augustinus, lib. de Correp. et Grat., cap. i
+          <lb ed="#P" n="3"/>Dominus (inquit) solum ostendit a quo malo 
+          de<lb break="no" ed="#P" n="4"/>clinemus, et quod bonun faciamus, quod solum
+          <lb ed="#P" n="5"/>potest legis littera.Postea vero ait haec non posse
+          <lb ed="#P" n="6"/>impleri sine Spiritu gratiae : Que si desit (
+          in<lb break="no" ed="#P" n="7"/>quit), ad hoc lex valet ut reos faciat et occidat.
+          <lb ed="#P" n="8"/>In quo explicat propriam vim coactivam legis:
+          <lb ed="#P" n="9"/>unde per haec tria videbatur sufficienter 
+          expli<lb break="no" ed="#P" n="10"/>cata tota efficacia legis : tamen quia interdum
+          <lb ed="#P" n="11"/>etiam necessarium est aliquid permittere, quod
+          <lb ed="#P" n="12"/>fit sine obligatione, vel coactione respectu
+          <lb ed="#P" n="13"/>ejus cui fit permissio : ideo necessarium fuit
+          <lb ed="#P" n="14"/>hunc etiam effectum explicare, quia prout
+          <lb ed="#P" n="15"/>fieri potest per legem, partim a potestate 
+          direc<lb break="no" ed="#P" n="16"/>tiva, partim a coactiva dependet. Nam ipsamet
+          <lb ed="#P" n="17"/>vis directiva ostendit et statuit aliquid esse 
+          per<lb break="no" ed="#P" n="18"/>mittendum, et non puniendum ab homine, et
+          <lb ed="#P" n="19"/>ita praecipit ipsam permissionem, et cogit ad
+          <lb ed="#P" n="20"/>illius observationem, et ita constant dicti 
+          qua<lb break="no" ed="#P" n="21"/>tuor effectus, nec apparet necessitas 
+          multipli<lb break="no" ed="#P" n="22"/>candi alios.
+        </p>
+        <p xml:id="szdleg-a16988-d1e390">
+          <lb ed="#P" n="23"/>6. Ad quem effectum legis pertineat pretia
+          <lb ed="#P" n="24"/>rerum tacare. — Hoc autem ultimum magis
+          <lb ed="#P" n="25"/>confirmabitur discurrendo per alios effectus
+          <lb ed="#P" n="26"/>qui in principio, in secunda parte rationis 
+          du<lb break="no" ed="#P" n="27"/>bitandi, proponebantur. Primus erat taxare
+          <lb ed="#P" n="28"/>pretia rerum, de quo assero pertinere ad 
+          effec<lb break="no" ed="#P" n="29"/>tum praecipiendi, vel prohibendi, aut 
+          permit<lb break="no" ed="#P" n="30"/>tendi, vel certe aliquid de singulis includere:
+          <lb ed="#P" n="31"/>ordinarie enim videntur tales leges ferri per
+          <lb ed="#P" n="32"/>prohibitionem, ne talis res pluris vendatur
+          <lb ed="#P" n="33"/>quam tanti, vel ne minori pretio ematur quam
+          <lb ed="#P" n="34"/>tali. Et interdum potest utrumque praecipi,
+          <lb ed="#P" n="35"/>scilicet, ut res vendatur, et ut tanti vendatur:
+          <lb ed="#P" n="36"/>frequentius vero permittitur venditio: taxatur
+          <lb ed="#P" n="37"/>autem pretium per aliquam prohibitionem, ut
+          <lb ed="#P" n="38"/>dixi. Vel, si velimus per modum affirmativi
+          <lb ed="#P" n="39"/>praecepti illud explicare, erit quasi sub 
+          condi<lb break="no" ed="#P" n="40"/>tione, seu quoad modum actus, non quoad
+          <lb ed="#P" n="41"/>exercitium, scilicet, si quis voluerit vendere,
+          <lb ed="#P" n="42"/>aut emere, tanti id faciat. Nec refert quod lex
+          <lb ed="#P" n="43"/>non feratur per propria verba praecepti, sed
+          <lb ed="#P" n="44"/>per verba quae circa materiam versantur,
+          <lb ed="#P" n="45"/>taxando illam, vel aliquid simile, quia, ut 
+          di<lb break="no" ed="#P" n="46"/>citur in lib. Cum pater, S Donationis, tt. de
+          <lb ed="#P" n="47"/>Legar. 2: Non queri oportet, cum quo de 
+          su<lb break="no" ed="#P" n="48"/>premis quis loquatur, sed in quem voluntatis
+          <lb ed="#P" n="49"/>intentio dirigatur.
+        </p>
+        <p xml:id="szdleg-a16988-d1e451">
+          <lb ed="#P" n="50"/>7. Ad quem effectum pertineat constituerc
+          <lb ed="#P" n="51"/>mediwmn in materia virtutis. — Secundus 
+          et<lb break="no" ed="#P" n="52"/>fectus erat constituere medium in materia
+          <lb ed="#P" n="53"/>virtutis. De quo idem dicendum est : nam illud
+          <lb ed="#P" n="54"/>non fit nisi prohibendo, vel praecipierdo. Ut
+          <lb ed="#P" n="55"/>praeceptum jejunii praescribit hodie medium
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>temperantiae prohibendo cibos talis quahtatis,
+          <lb ed="#P" n="57"/>et plures comestiones ex aliis permissis, vel si
+          <lb ed="#P" n="58"/>medium affirmative statuatur, pertinet ad 
+          prae<lb break="no" ed="#P" n="59"/>ceptum. Hoc enim modo lex praecipiens audire
+          <lb ed="#P" n="60"/>Missam in die festo, constituit in usu illius
+          <lb ed="#P" n="61"/>medium virtutis religionis pro tali tempore,
+          <lb ed="#P" n="62"/>quia pro illo facit talem actum esse 
+          necessa<lb break="no" ed="#P" n="63"/>rium ad honestatem illius virtutis, quod non
+          <lb ed="#P" n="64"/>fit nisi imponendo obligationem talis actus pro
+          <lb ed="#P" n="65"/>tali tempore.
+        </p>
+        <p xml:id="szdleg-a16988-d1e490">
+          <lb ed="#P" n="66"/>8. Ad quem effectum legis pertineat formam
+          <lb ed="#P" n="67"/>in humnanis actionibus statuere. — Tertius 
+          ef<lb break="no" ed="#P" n="68"/>fectus erat formam in humanis actionibus
+          <lb ed="#P" n="69"/>ponere, scilicet, ut fiant tali vel tali modo, sub
+          <lb ed="#P" n="70"/>quo comprehendimus irritationem 
+          contrac<lb break="no" ed="#P" n="71"/>tuum, et inhabilitationem personarum, vel ad
+          <lb ed="#P" n="72"/>illos simpliciter, vel ad illos tali aut tali modo
+          <lb ed="#P" n="73"/>faciendos, vel ad talia munera, etc. De quo
+          <lb ed="#P" n="74"/>effectu generatim dici potest sub praecepto
+          <lb ed="#P" n="75"/>comprehendi, quatenus lex dat formam 
+          acti<lb break="no" ed="#P" n="76"/>bus, et sub prohibitione, quatenus illos irritat.
+          <lb ed="#P" n="77"/>Sed hoc posterius habet difficultatem, quia ad
+          <lb ed="#P" n="78"/>irritandum non suffcit prohibitio, etiam 
+          direc<lb break="no" ed="#P" n="79"/>ta, ut suo loco dicetur; ergo irritatio dicit
+          <lb ed="#P" n="80"/>specialem effectum a prohibitione 
+          distinc<lb break="no" ed="#P" n="81"/>tum. Nam prohibitio, ut sic, non tollit 
+          abso<lb break="no" ed="#P" n="82"/>lutam potestatem faciendi actum, sed facit ne
+          <lb ed="#P" n="83"/>liceat: at irritatio privat potestate faciendi
+          <lb ed="#P" n="84"/>valide actum ; est ergo effectus distinctus: et
+          <lb ed="#P" n="85"/>ideo addi potest, irritationem esse quidem
+          <lb ed="#P" n="86"/>distinctum effectum a prohibitione; semper
+          <lb ed="#P" n="87"/>tamen adjungi prohibitioni, et habere 
+          ratio<lb break="no" ed="#P" n="88"/>nem poensae, vel ejusdem prohibitionis violatae,
+          <lb ed="#P" n="89"/>vel alterius culpae. Verumtamen, licet hae 
+          ir<lb break="no" ed="#P" n="90"/>ritationes vel inhabilitationes saepe inferantur
+          <lb ed="#P" n="91"/>per leges in poenam, per se tamen non ita est:
+          <lb ed="#P" n="92"/>nam inhabilitatio sacerdotis ad matrimonium
+          <lb ed="#P" n="93"/>non est poena, nec irritatio matrimonii sine
+          <lb ed="#P" n="94"/>parocho et testibus, et similia. Dici aliter 
+          po<lb break="no" ed="#P" n="95"/>test hunc effectum esse specialem, et 
+          distinc<lb break="no" ed="#P" n="96"/>tum ab illis quatuor ; tamen esse specialem
+          <lb ed="#P" n="97"/>legis humanae, et ideo non assignari. Sed hoc
+          <lb ed="#P" n="98"/>non satis facit: tum quia qui distinguunt et
+          <lb ed="#P" n="99"/>numerant illos quatuor effectus, praecipue 
+          lo<lb break="no" ed="#P" n="100"/>quuntur de lege humana: tum etiam quia
+          <lb ed="#P" n="101"/>forte assumptum non est verum, et non est 
+          pa<lb break="no" ed="#P" n="102"/>rum controversum, an lex naturalis vel divina
+          <lb ed="#P" n="103"/>interdum irritet actus, vel inhabilitet personas
+          <lb ed="#P" n="104"/>ad illos, quod postea. videndum est.
+        </p>
+        <p xml:id="szdleg-a16988-d1e578">
+          <lb ed="#P" n="105"/>9. Effectus irritandi vel inhabilitandi ad
+          <lb ed="#P" n="106"/>legem prolibentem vel praecipientem pertinet.—
+          <lb ed="#P" n="107"/>Dicendum ergo est, hunc effectum irritandi
+          <lb ed="#P" n="108"/>vel inhabilitandi sub prohibitione, vel 
+          prae<lb break="no" ed="#P" n="109"/>cepto contineri. Duobus enim modis fieri 
+          po<lb break="no" ed="#P" n="110"/>test irritatio, scilicet praescribendo formam
+          <pb ed="#P" n="68"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>essentialem, sine qua actus non valeat, vel
+          <lb ed="#P" n="2"/>prohibendo omnino actum. Primus spectat ad
+          <lb ed="#P" n="3"/>potestatem quam lex habet ad taxanda pretia
+          <lb ed="#P" n="4"/>rerum : nam ejusdem rationis sunt praescribere
+          <lb ed="#P" n="5"/>modum in translatione, acquisitione, vel 
+          amis<lb break="no" ed="#P" n="6"/>sione rerum : haec autem omnia fiunt 
+          praeci<lb break="no" ed="#P" n="7"/>piendo saltem modum operandi, vel 
+          prohi<lb break="no" ed="#P" n="8"/>bendo alios modos, ut declaravi. Secundus
+          <lb ed="#P" n="9"/>autem modus ad prohibitionem spectat; quia
+          <lb ed="#P" n="10"/>legislator habet potestatem prohibendi non
+          <lb ed="#P" n="11"/>solum actum, sed etiam valorem actus : unde
+          <lb ed="#P" n="12"/>irritatio dici potest specialis, et quasi duplicata
+          <lb ed="#P" n="13"/>prohibitio; quia non tantum actum, sed etiam
+          <lb ed="#P" n="14"/>valorem ejus prohibet, et ad idem reducitur
+          <lb ed="#P" n="15"/>inhabilitatio personae : nam eodem modo fit.
+        </p>
+        <p xml:id="szdleg-a16988-d1e630">
+          <lb ed="#P" n="16"/>10. Objici vero potest, quia sunt quaedam
+          <lb ed="#P" n="17"/>leges, quae irritant actum, et non prohibent
+          <lb ed="#P" n="18"/>illum directe, ut dixi in libro 2 de Juram.,
+          <lb ed="#P" n="19"/>capite 24. Item quia prohibitio directe fit de
+          <lb ed="#P" n="20"/>actu possibili, ac subinde relinquitur in 
+          abso<lb break="no" ed="#P" n="21"/>luta potestate illius cui fit prohibitio : irritatio
+          <lb ed="#P" n="22"/>autem aufert potestatem valide faciendi: ergo
+          <lb ed="#P" n="23"/>non est prohibitio, sed effectus alterius 
+          ratio<lb break="no" ed="#P" n="24"/>nis. Sed respondetur irritationem sub 
+          prohi<lb break="no" ed="#P" n="25"/>bitione comprehendi, sive actus omnino 
+          ca<lb break="no" ed="#P" n="26"/>veatur, sive solum statuatur ne valide fieri
+          <lb ed="#P" n="27"/>possit, qua saltem necesse est prohibere actum
+          <lb ed="#P" n="28"/>ut formaliter talem, scilicet ut matrimonium,
+          <lb ed="#P" n="29"/>vel testamentum, quia prohibere valorem 
+          ac<lb break="no" ed="#P" n="30"/>tus, est prohibere ne subditi possint talibus
+          <lb ed="#P" n="31"/>actibus uti ut validis: an vero haec prohibitio,
+          <lb ed="#P" n="32"/>quando est per leges civiles, semper obliget in
+          <lb ed="#P" n="33"/>conscientia, postea videbimus. Alter etiam
+          <lb ed="#P" n="34"/>potest hic effectus explicari, ut dicam in puncto
+          <lb ed="#P" n="35"/>sequenti.
+        </p>
+        <p xml:id="szdleg-a16988-d1e676">
+          <lb ed="#P" n="36"/>11. Ad quem effectum legis pertineat mutare
+          <lb ed="#P" n="37"/>domininia rerum. — Quartus effectus erat mutare
+          <lb ed="#P" n="38"/>dominia rerum, ut fit in lege praescriptionis,
+          <lb ed="#P" n="39"/>etc. Ad quam dici potest etiam hunc effectum
+          <lb ed="#P" n="40"/>reduci ad praeceptum : nam lex praecipit hunc
+          <lb ed="#P" n="41"/>esse dominum, et non illum: praecipit autem
+          <lb ed="#P" n="42"/>faciendo, quia alias non posset eflficaciter 
+          prae<lb break="no" ed="#P" n="43"/>cipere. Addi vero potest, probabile essé hunc
+          <lb ed="#P" n="44"/>effectum, et similes (licet legibus firmentur, et
+          <lb ed="#P" n="45"/>ideo ferendo leges fieri soleant) formaliter
+          <lb ed="#P" n="46"/>non fieri per legem ut lex est, quia auferre
+          <lb ed="#P" n="47"/>vel dare dominium non est praecipere, sed est
+          <lb ed="#P" n="48"/>quasi donare, vel operari. Item quia videtur
+          <lb ed="#P" n="49"/>esse a potestate diversae rationis : nam in 
+          prin<lb break="no" ed="#P" n="50"/>cipe vel republica non solum est potestas 
+          pro<lb break="no" ed="#P" n="51"/>pria jurisdictionis ad imperandum et 
+          punien<lb break="no" ed="#P" n="52"/>dum, sed etiam est potestas supremi 
+          dispen<lb break="no" ed="#P" n="53"/>satoris et administratoris bonorum reipublicae.
+          <lb ed="#P" n="54"/>Lex ergo cum suis propriis effectibus procedit
+          <lb ed="#P" n="55"/>a potestate jurisdictionis : transferre autem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dominia vel impedire illa, et similia pertinent
+          <lb ed="#P" n="57"/>ad bonorum administrationem, et ad 
+          potesta<lb break="no" ed="#P" n="58"/>tem dominii alti, quod dicitur esse in 
+          repu<lb break="no" ed="#P" n="59"/>blica. Et hac potestate formaliter utitur 
+          prin<lb break="no" ed="#P" n="60"/>ceps, quando statuit, ut per praescriptionem
+          <lb ed="#P" n="61"/>acquiratur dominium ab uno, et amittatur ab
+          <lb ed="#P" n="62"/>alio : ipse enim sua superiori potestate et 
+          vo<lb break="no" ed="#P" n="63"/>luntate de facto confert dominium, quod certe
+          <lb ed="#P" n="64"/>formaliter non est praecipere, sed agere, et
+          <lb ed="#P" n="65"/>quasi donare. Tamen non fit sine praecepto,
+          <lb ed="#P" n="66"/>quia oportet ut modus -acquirendi lege 
+          prae<lb break="no" ed="#P" n="67"/>scribatur, et ut facta acquisitione postea firma
+          <lb ed="#P" n="68"/>et illaesa conservetur, et ideo hic effectus 
+          tri<lb break="no" ed="#P" n="69"/>buitur legi, licet, ut dixi, formaliter diversus
+          <lb ed="#P" n="70"/>sit, et ideo fortasse inter effectus legis, ut talis
+          <lb ed="#P" n="71"/>est, non numeratur; quae doctrina ad effectum
+          <lb ed="#P" n="72"/>etiam irritandi applicari potest.
+        </p>
+        <p xml:id="szdleg-a16988-d1e761">
+          <lb ed="#P" n="73"/>12. Ad quem effectum legis pertineat legis
+          <lb ed="#P" n="74"/>revocatio .—fCuintus effectus erat de revocatione
+          <lb ed="#P" n="75"/>legis, sed hic non habet difficultatem, quia
+          <lb ed="#P" n="76"/>revocatio legis non est legislatio, sed potius
+          <lb ed="#P" n="77"/>ablatio, sicut dispensatio legis, vel 
+          interpreta<lb break="no" ed="#P" n="78"/>tio, aut moderatio non sunt effectus legis, sed
+          <lb ed="#P" n="79"/>alii actus qui circa legem ipsam fiunt. Quod
+          <lb ed="#P" n="80"/>si interdum abrogatio unius legis fit per aliam,
+          <lb ed="#P" n="81"/>tunc lex nova habebit suos proprios effectus,
+          <lb ed="#P" n="82"/>quos per se intendat, aut faciat: ablatio autem
+          <lb ed="#P" n="83"/>alterius est quid consequens, sicut generatio
+          <lb ed="#P" n="84"/>unius est corruptio alterius; vel certe si nova
+          <lb ed="#P" n="85"/>lex directe imperat ne prior servetur nec pro
+          <lb ed="#P" n="86"/>lege habeatur, tunc illa abrogatio pertinebit
+          <lb ed="#P" n="87"/>ad prohibitionem quamdam, et sub illo effectu
+          <lb ed="#P" n="88"/>legis continebitur.
+        </p>
+        <p xml:id="szdleg-a16988-d1e798">
+          <lb ed="#P" n="89"/>13. Favores seu pramnia ad legem 
+          permissi<lb break="no" ed="#P" n="90"/>vam pertinent-ne, an non.—Sextus effectus erat
+          <lb ed="#P" n="91"/>favores concedere, et praemia conferre. Sed de
+          <lb ed="#P" n="92"/>favoribus jam vidimus, ex mente Isidori sub
+          <lb ed="#P" n="93"/>permissione comprehendi. Dico etiam idem esse
+          <lb ed="#P" n="94"/>de favoribus quod de privilegiis: nam si 
+          consi<lb break="no" ed="#P" n="95"/>derentur respectu ejus cui fiunt, non sunt 
+          effec<lb break="no" ed="#P" n="96"/>tus legis, sed alterius potestatis donandi, vel
+          <lb ed="#P" n="97"/>dispensandi jura reipublicae : si vero 
+          conside<lb break="no" ed="#P" n="98"/>rentur ex parte aliorum, quibus favor ille 
+          prae<lb break="no" ed="#P" n="99"/>standus est, vel privilegium servandum, sic
+          <lb ed="#P" n="100"/>continetur sub praecepto, aut prohibitione,
+          <lb ed="#P" n="101"/>juxta dicta in capite 13. De praemio vero dixit
+          <lb ed="#P" n="102"/>Castro supra, sub poena comprehendi et 
+          sub<lb break="no" ed="#P" n="103"/>intelligi. Juxta mentem autem Isidori videtur
+          <lb ed="#P" n="104"/>sub permissione comprehendi, quia petitionem
+          <lb ed="#P" n="105"/>praemii ponit expresse sub permissione. Divus
+          <lb ed="#P" n="106"/>Thomas autem non putat hunc esse effectum
+          <lb ed="#P" n="107"/>legis, quia non requirit potestatem 
+          superio<lb break="no" ed="#P" n="108"/>rem, sed potest a quolibet fieri: unde 
+          aequipa<lb break="no" ed="#P" n="109"/>rat illud consilio, quod etiam non requirit legis
+          <lb ed="#P" n="110"/>auctoritatem, et ideo etiam non est effectus
+          <pb ed="#P" n="69"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>legis. Et haec sententia mihi placet. Addi vero
+          <lb ed="#P" n="2"/>potest poenae adjectionem esse multo 
+          frequen<lb break="no" ed="#P" n="3"/>tiorem in legibus quam promissionem praemii,
+          <lb ed="#P" n="4"/>quia est. moraliter loquendo, magis necessaria;
+          <lb ed="#P" n="5"/>homines enim majori ex parte pravi sunt ad
+          <lb ed="#P" n="6"/>malum, et suis ducuntur cupiditatibus, et ideo
+          <lb ed="#P" n="7"/>frequentius timore poenae coerceri debent:
+          <lb ed="#P" n="8"/>unde etiam judices et custodes legum 
+          ordina<lb break="no" ed="#P" n="9"/>rie magis obligantur ad puniendos legum
+          <lb ed="#P" n="10"/>transgressores, quam ad conferendum 
+          prae<lb break="no" ed="#P" n="11"/>mium observantibus illas, et propterea merito
+          <lb ed="#P" n="12"/>inter legis effectus, potius poena, quam 
+          prae<lb break="no" ed="#P" n="13"/>mium constituitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

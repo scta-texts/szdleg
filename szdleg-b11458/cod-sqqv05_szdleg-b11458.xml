@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="441"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-b11458"><!-- deleg-l5c7 -->
+        <head xml:id="szdleg-b11458-Hd1e101">Caput 7</head>
+        <head xml:id="szdleg-b11458-Hd1e103" type="question-title">Quando leges imponentes poenam latae sententiae obligent in conscientia ad exequendum, ante iudicis sententiam, poenam quae in actione consistit</head>
+        <p xml:id="szdleg-b11458-d1e106">
+          <lb ed="#P" n="12"/>CAPUT VII.
+          <lb ed="#P" n="13"/>QUANDO LEGES IMPONENTES POENAM LATAE 
+          SENTEN<lb break="no" ed="#P" n="14"/>TIAE OBLIGENT IN CONSCIENTIA AD EXEQUENDUM,
+          <lb ed="#P" n="15"/>ANTE JUDICIS SENTENTIAM, POENAM QUAE IN 
+          AC<lb break="no" ed="#P" n="16"/>TIONE CONSISTIT.
+        </p>
+        <p xml:id="szdleg-b11458-d1e119">
+          <lb ed="#P" n="17"/>1. Communis partitio poenarum.— 
+          Quaestio<lb break="no" ed="#P" n="18"/>nem hanc in materia de Censuris in 5 t., 3p.
+          <lb ed="#P" n="19"/>disputat., sect. 11, succincte et breviter 
+          expe<lb break="no" ed="#P" n="20"/>divi, quoniam in illo genere poenarum fere
+          <lb ed="#P" n="21"/>nullam habet controversiam, ut statim 
+          attin<lb break="no" ed="#P" n="22"/>gam ; nunc autem, quoniam de omni genere
+          <lb ed="#P" n="23"/>legum et poenarum disserimus, generalius et
+          <lb ed="#P" n="24"/>accuratius tractanda est. Ut autem distinctius
+          <lb ed="#P" n="25"/>procedamus, supponenda est communis 
+          parti<lb break="no" ed="#P" n="26"/>tio poenarum. Nam quaedam sunt quae 
+          requi<lb break="no" ed="#P" n="27"/>runt ministerium hominis, ut executioni 
+          man<lb break="no" ed="#P" n="28"/>dentur ; aliae quae per ipsas leges immediate
+          <lb ed="#P" n="29"/>fieri possunt ; inter quas haec est differentia,
+          <lb ed="#P" n="30"/>quod in prioribus poenis lex non trahit secum
+          <lb ed="#P" n="31"/>executionem, id est, non infert poenam ipsam,
+          <lb ed="#P" n="32"/>sed ad summum obligationem ad illam; nam
+          <lb ed="#P" n="33"/>lex quae jubet hominem flagellari non 
+          flagel<lb break="no" ed="#P" n="34"/>lat, et lex quae praecipit solvere quadruplum,
+          <lb ed="#P" n="35"/>non solvit, nec spoliat hominem sua pecunia,
+          <lb ed="#P" n="36"/>sed obligat ut solvat. At vero in poenis 
+          poste<lb break="no" ed="#P" n="37"/>rioris generis, lex ipsa per se potest non solum
+          <lb ed="#P" n="38"/>ferre, seu statuere poenam, sed etiam inferre,
+          <lb ed="#P" n="39"/>seu exequi illam: lex enim canonica ferens
+          <lb ed="#P" n="40"/>excommunicationem latae sententiae, secum
+          <lb ed="#P" n="41"/>affert executionem, per se enim censuram 
+          im<lb break="no" ed="#P" n="42"/>ponit, idemque est in lege irritante vel 
+          inha<lb break="no" ed="#P" n="43"/>bilitante. Haec autem differentia indicat aliam,
+          <lb ed="#P" n="44"/>quia priores poenae requirunt aliquem effectum
+          <lb ed="#P" n="45"/>physicum, ratione cujus requirunt actionem
+          <lb ed="#P" n="46"/>hominis; posteriores vero consistunt in effectu
+          <lb ed="#P" n="47"/>aliquo morali: lex autem per se non potest
+          <lb ed="#P" n="48"/>facere effectum physicum, potest autem 
+          efti<lb break="no" ed="#P" n="49"/>cere effectum moralem, quales sunt 
+          inhahili<lb break="no" ed="#P" n="50"/>tationes, impedimenta, censurae, privatio 
+          do<lb break="no" ed="#P" n="51"/>minii, etc. Et hinc etiam est, ut hae poenae, quae
+          <lb ed="#P" n="52"/>per legem immediate inferuntur, semper con-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>sistant in privationibus moralibus, ut sunt
+          <lb ed="#P" n="54"/>inhabilitates, nullitates, etc., quia poena est
+          <lb ed="#P" n="55"/>malum, et ut sic est privatio, et ideo lex per
+          <lb ed="#P" n="56"/>se puniens non confert potestatem moralem,
+          <lb ed="#P" n="57"/>sed aufert. Aliae vero poenae positivae dici 
+          pos<lb break="no" ed="#P" n="58"/>sunt, quatenus requirunt actionem positivam
+          <lb ed="#P" n="59"/>ad quam sequitur aliqua privatio, in qua 
+          ma<lb break="no" ed="#P" n="60"/>lum illud poenae consummatur.
+        </p>
+        <p xml:id="szdleg-b11458-d1e219">
+          <lb ed="#P" n="61"/>2. Subdistinctio membri primi. — Ulerius
+          <lb ed="#P" n="62"/>vero possumus subdistinguere primum 
+          mem<lb break="no" ed="#P" n="63"/>brum. Nam poenae requirentes actionem 
+          homi<lb break="no" ed="#P" n="64"/>nis, quaedam postulant actionem tertiae personae
+          <lb ed="#P" n="65"/>distinctae ab eo qui punitur; aliae per actionem
+          <lb ed="#P" n="66"/>ipsiusmet rei fieri possunt et solent, vel ex
+          <lb ed="#P" n="67"/>necessitate, ut comedere, ambulare, etc., vel
+          <lb ed="#P" n="68"/>juxta communem et usitatum hominum 
+          mo<lb break="no" ed="#P" n="69"/>rem, ut solvere pecuniam. De priori genere
+          <lb ed="#P" n="70"/>poenarum, quae postulart actionem alterius,
+          <lb ed="#P" n="71"/>non oportet in praesenti dicere: regula enim
+          <lb ed="#P" n="72"/>generalis est, illas nunquam ferri per legem
+          <lb ed="#P" n="73"/>latae sententiae, quae statim obliget in 
+          conscien<lb break="no" ed="#P" n="74"/>tia. Ratio est, quia lex ad summum potest
+          <lb ed="#P" n="75"/>obligare reum ad sustinendam patienter seu
+          <lb ed="#P" n="76"/>obedienter talem poenam, quia ipse facere non
+          <lb ed="#P" n="77"/>tenetur, nec potest, donec talis poena ab alio
+          <lb ed="#P" n="78"/>inferatur: alius autem non potest illam inferre
+          <lb ed="#P" n="79"/>ex vi legis, nisi ut minister justitiae, ideoque
+          <lb ed="#P" n="80"/>necessario talis poena requirit sententiam, et
+          <lb ed="#P" n="81"/>mandatum hominis applicantis, et exequentis
+          <lb ed="#P" n="82"/>poenam legis. Quomodo autem reus teneatur
+          <lb ed="#P" n="83"/>parere legi post sententiam in susceptione 
+          ta<lb break="no" ed="#P" n="84"/>lis poenae, attingemus capite sequenti. De hac
+          <lb ed="#P" n="85"/>ergo poena nihil amplius dicere necesse est.
+          <lb ed="#P" n="86"/>Non omittam autem advertere, non solum 
+          cen<lb break="no" ed="#P" n="87"/>seri poenam requirentem actionem alterius 
+          il<lb break="no" ed="#P" n="88"/>lam quae, physice loquendo, non potest aliter
+          <lb ed="#P" n="89"/>fieri; vix enim reperitur aliqua, quam non
+          <lb ed="#P" n="90"/>possit homo in se ipso exercere, spectando
+          <lb ed="#P" n="91"/>physicam potestatem : censetur ergo talis poena
+          <lb ed="#P" n="92"/>omnis illa quam vel non potest homo honeste
+          <lb ed="#P" n="93"/>infligere, ut est poena mortis, juxta multorum
+          <lb ed="#P" n="94"/>sententiam, vel certe quae esset nimis acerba
+          <lb ed="#P" n="95"/>et crudelis, si homo cogeretur ad illam sibi
+          <lb ed="#P" n="96"/>infligendam, juxta doctrinam cap. 5 datam.
+        </p>
+        <p xml:id="szdleg-b11458-d1e301">
+          <lb ed="#P" n="97"/>3. Subdistingui potest poena requirens 
+          ac<lb break="no" ed="#P" n="98"/>tionem ipsius rei, in eam quae requirit 
+          positi<lb break="no" ed="#P" n="99"/>vam actionem, ut est solutio pecuniae, vel 
+          fla<lb break="no" ed="#P" n="100"/>gellatio, et in eam quae requirit omissionem
+          <lb ed="#P" n="101"/>actionis ; omissio enim moralis et humana
+          <lb ed="#P" n="102"/>solet quodammodo inter actus morales 
+          com<lb break="no" ed="#P" n="103"/>putari, et in praesenti non immerito reputari
+          <lb ed="#P" n="104"/>potest per modum actionis, quia nec fit sine
+          <lb ed="#P" n="105"/>positiva voluntate, moraliter loquendo, nec
+          <lb ed="#P" n="106"/>sine dolore et afflictione, imo saepe cum 
+          ma<lb break="no" ed="#P" n="107"/>jori quam positiva actio. Hujusmodi enim
+          <pb ed="#P" n="442"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>poena censeri potest jejunium, quia nullam 
+          re<lb break="no" ed="#P" n="2"/>quirit actionem, sed abstinentiam. Denique in
+          <lb ed="#P" n="3"/>hoc conveniunt hae peenae cum poenis activis,
+          <lb ed="#P" n="4"/>ut sic dicam, quia non possunt inferri 
+          imme<lb break="no" ed="#P" n="5"/>diate per legem quoad physicam privationem
+          <lb ed="#P" n="6"/>actionis, sed ad summum potest lex imponere
+          <lb ed="#P" n="7"/>obligationem in conscientia ad talem 
+          omissio<lb break="no" ed="#P" n="8"/>nem : nam lex imponens poenam jejunii non
+          <lb ed="#P" n="9"/>potest per ipsam cogere hominem ut abstineat,
+          <lb ed="#P" n="10"/>vel invitus; potest tamen obligare ad 
+          abstinen<lb break="no" ed="#P" n="11"/>tiam: et similiter lex privans suffragio non
+          <lb ed="#P" n="12"/>infert ipsam omissionem suftragii, sed ad 
+          sum<lb break="no" ed="#P" n="13"/>mum potest imponere obligationem ad illam.
+          <lb ed="#P" n="14"/>Verumtamen, licet haec consideratio, et 
+          sub<lb break="no" ed="#P" n="15"/>divisio, in corporalibus poenis possit esse utilis
+          <lb ed="#P" n="16"/>ad intelligentiam legum, quia hae corporales
+          <lb ed="#P" n="17"/>poenae ordinantur ad positivam corporis 
+          afllic<lb break="no" ed="#P" n="18"/>tionem, ut sunt jejuftium, vel absoluta poena
+          <lb ed="#P" n="19"/>non comedendi, vel non exeundi a carcere, vcl
+          <lb ed="#P" n="20"/>a domo, aut civitate ; nihilominus in 
+          spiritua<lb break="no" ed="#P" n="21"/>libus poenis similes privationes actionum sub
+          <lb ed="#P" n="22"/>poenis privativis computantur, ut patet in 
+          sus<lb break="no" ed="#P" n="23"/>pensionis poena, et magna ex parte in 
+          excom<lb break="no" ed="#P" n="24"/>municatione quae privat communicatione, quae
+          <lb ed="#P" n="25"/>in actionibus humanis consistit; et idem est
+          <lb ed="#P" n="26"/>de privatione suffragii, praesertim, quia simul
+          <lb ed="#P" n="27"/>solet lex invalidare illud, inhabilitando 
+          perso<lb break="no" ed="#P" n="28"/>nam, quod pertinet ad moralem effectum ac
+          <lb ed="#P" n="29"/>privationem juris seu facultatis moralis ad
+          <lb ed="#P" n="30"/>suffragium ferendum.
+        </p>
+        <p xml:id="szdleg-b11458-d1e397">
+          <lb ed="#P" n="31"/>4. Distinctio terminorum quibus 
+          significa<lb break="no" ed="#P" n="32"/>tur sententia lata. —Tandem distinguere 
+          opor<lb break="no" ed="#P" n="33"/>tet varios terminos, quibus significari solet
+          <lb ed="#P" n="34"/>sententia lata per legem, praeter eos quos 
+          ca<lb break="no" ed="#P" n="35"/>pite praecedenti obiter tetigimus. Interdum
+          <lb ed="#P" n="36"/>enim ipsum verbum, quo praecipitur poena, 
+          ta<lb break="no" ed="#P" n="37"/>lis modi ac temporis est, ut poenam latam
+          <lb ed="#P" n="38"/>indicet, ut ibi diximus, et hic amplius 
+          exph<lb break="no" ed="#P" n="39"/>cabimus: frequentius verbo praecepti adduntur
+          <lb ed="#P" n="40"/>aliquae particulae, vel circumlocutiones, vel 
+          cla<lb break="no" ed="#P" n="41"/>rissima verba, quibus sententia lata per legem
+          <lb ed="#P" n="42"/>indicatur : particulae sunt, ipso facto, ipso jure,
+          <lb ed="#P" n="43"/>eo ipso, em munc, vel em lunc, et equivalentes
+          <lb ed="#P" n="44"/>circumlocutiones. Poenae communiter esse 
+          so<lb break="no" ed="#P" n="45"/>lent per effectus legis, quando statim fieri 
+          di<lb break="no" ed="#P" n="46"/>cuntur, ut: Vacare censeatur ; S'ine 
+          dispensa<lb break="no" ed="#P" n="47"/>Lione non eligatur ; Non faciat fructus suos,
+          <lb ed="#P" n="48"/>Non possit eos retinere tuta conscientia ; Non
+          <lb ed="#P" n="49"/>valeat, etc., clarioraque erunt verba, si 
+          adda<lb break="no" ed="#P" n="50"/>tur, feneatur ante sententium, vel, ante 
+          decla<lb break="no" ed="#P" n="51"/>rationem, vel, ante omnem monitionem. 
+          Claris<lb break="no" ed="#P" n="52"/>sima denique erunt, si lex tot verba ex his
+          <lb ed="#P" n="53"/>accumulet, ut nullus tergiversationi detur 
+          lo<lb break="no" ed="#P" n="54"/>cus, et praesertim si dicat: Statim et ante 
+          om<lb break="no" ed="#P" n="55"/>nem sententiam hoc facere in conscientia te-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>neatur; semper tamen sunt attente spectanda
+          <lb ed="#P" n="57"/>verba poenae, cui hae particulae adjunguntur,
+          <lb ed="#P" n="58"/>ut illud tantum gravamen intelligatur per 
+          le<lb break="no" ed="#P" n="59"/>ges ipso jure impositum, quod per talem vocem
+          <lb ed="#P" n="60"/>in propria significatione, vel secundum jus,
+          <lb ed="#P" n="61"/>vel secundum communem consuetudinem solet
+          <lb ed="#P" n="62"/>significari ; ita enim debent poenae et rigores
+          <lb ed="#P" n="63"/>restringi, quae animadversio postea exemplis
+          <lb ed="#P" n="64"/>melius explicabitur.
+        </p>
+        <p xml:id="szdleg-b11458-d1e475">
+          <lb ed="#P" n="65"/>5. Regula generalis. — Primo igitur de 
+          poe<lb break="no" ed="#P" n="66"/>nis exequendis per actionem ipsius rei sit 
+          re<lb break="no" ed="#P" n="67"/>gula generalis: solum ita imponi, quando per
+          <lb ed="#P" n="68"/>verba legis tam clare explicatur lata sententia
+          <lb ed="#P" n="69"/>statim obligans in conscientia, ut vitari non
+          <lb ed="#P" n="70"/>possit sine corruptione, vel magna extorsione
+          <lb ed="#P" n="71"/>verborum legis. Hanc assertionem sumo ex
+          <lb ed="#P" n="72"/>communi sententia doctorum quos cap. 5 
+          re<lb break="no" ed="#P" n="73"/>tuli. Nam qui negant has poenas posse imponi
+          <lb ed="#P" n="74"/>ipso facto, videntur loqui de potestate 
+          ordina<lb break="no" ed="#P" n="75"/>ria (ut sic dicam) seu de ordinario jure; nam
+          <lb ed="#P" n="76"/>absolute fatentur in casu raro posse id fieri,
+          <lb ed="#P" n="77"/>unde a fortiori dicent nunquam esse ita legem
+          <lb ed="#P" n="78"/>intelligendam, nisi quando omnino verba 
+          co<lb break="no" ed="#P" n="79"/>gunt. Alii etiam aliarum opinionum auctores
+          <lb ed="#P" n="80"/>fatentur difficilius et rarius imponi has poenas
+          <lb ed="#P" n="81"/>ipso facto, quam alias privativas, unde oportet
+          <lb ed="#P" n="82"/>ut clarissima verba requirant. Nam si in hoc
+          <lb ed="#P" n="83"/>genere poenae sic imponendo major est 
+          acerbi<lb break="no" ed="#P" n="84"/>tas ex genere suo, et ideo minor est illius usus,
+          <lb ed="#P" n="85"/>certe necessarium est ut talis modus puniendi
+          <lb ed="#P" n="86"/>omnino in lege declaretur, et alias non 
+          cen<lb break="no" ed="#P" n="87"/>seatur a legislatore intentus. Quando autem
+          <lb ed="#P" n="88"/>lex sufficienter declarat obhigationem ad talem
+          <lb ed="#P" n="89"/>poenam, sine dubio obligat, quia potestas non
+          <lb ed="#P" n="90"/>deest, ut probatum est. Supponimus autem
+          <lb ed="#P" n="91"/>legem esse ita moderatam, ut non contineat
+          <lb ed="#P" n="92"/>crudelitatem nec apertam injustitiam, et ideo
+          <lb ed="#P" n="93"/>regulariter tales poenae sunt pecuniarise, et
+          <lb ed="#P" n="94"/>non de omnibus bonis, sed in quantitate 
+          mo<lb break="no" ed="#P" n="95"/>derata, aut tolerabili. Denique supponimus
+          <lb ed="#P" n="96"/>legem esse receptam, et non derogatam per
+          <lb ed="#P" n="97"/>consuetudinem contrariam quoad hanc 
+          par<lb break="no" ed="#P" n="98"/>tem, quod in omnibus legibus poenalibus locum
+          <lb ed="#P" n="99"/>habet. Abrogari enim possunt per 
+          consuetudi<lb break="no" ed="#P" n="100"/>nem quoad poenam, vel modum poenae, licet
+          <lb ed="#P" n="101"/>quoad reliqua observentur, ut notant Cajetan.
+          <lb ed="#P" n="102"/>in Sum., verb. Excommunicatio , cap. 15, et
+          <lb ed="#P" n="103"/>Nav., cap. 27, n. 130, et infra dicemus. Et ita
+          <lb ed="#P" n="104"/>in praesenti posset lex esse derogata quoad
+          <lb ed="#P" n="105"/>vim obligandi statim in conscientia ad poenae
+          <lb ed="#P" n="106"/>solutionem ; quia consuetudo potest derogare
+          <lb ed="#P" n="107"/>legi in totum : ergo etiam in parte separabili
+          <lb ed="#P" n="108"/>ab alis.
+        </p>
+        <p xml:id="szdleg-b11458-d1e573">
+          <lb ed="#P" n="109"/>6. Exempla regulae praedictae. — Ut autem
+          <lb ed="#P" n="110"/>haec regula melius intelligatur, faciliusque
+          <pb ed="#P" n="443"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>possit ad usum applicari, nonnulla illius 
+          exem<lb break="no" ed="#P" n="2"/>pla afferre oportet. Primum sit de legibus 
+          prae<lb break="no" ed="#P" n="3"/>cipientibus actiones afflictivas corporis, ut est
+          <lb ed="#P" n="4"/>flagellatio, quam potest homo in seipsum, et
+          <lb ed="#P" n="5"/>sine peccato exercere. Huc etiam pertinet poena
+          <lb ed="#P" n="6"/>exilii, quam potest in se quis exequi exeundo
+          <lb ed="#P" n="7"/>a loco prohibito, seu movendo, et agendo in
+          <lb ed="#P" n="8"/>seipsum, sine ullo peccato, vel indecentia. 
+          Or<lb break="no" ed="#P" n="9"/>dinarie vero non solent cogi homines per solas
+          <lb ed="#P" n="10"/>leges ad hujusmodi actiones, licet non 
+          repu<lb break="no" ed="#P" n="11"/>gnet obligari. Ideoque in his maxime poenis
+          <lb ed="#P" n="12"/>verum est verba debere esse luce clariora, ut
+          <lb ed="#P" n="13"/>talem obligationem inducant. Harum vero 
+          le<lb break="no" ed="#P" n="14"/>gum exempla non habemus in jure civili, vel
+          <lb ed="#P" n="15"/>canonico. In aliquibus autem religionibus 
+          di<lb break="no" ed="#P" n="16"/>cuntur esse aliquae regulae poenales, quae, licet
+          <lb ed="#P" n="17"/>non obligent in conscientia absolute ad 
+          proxi<lb break="no" ed="#P" n="18"/>mum opus quod injungunt, vel ad cavendum
+          <lb ed="#P" n="19"/>quod prohibent, obligant nihilominus ad 
+          ali<lb break="no" ed="#P" n="20"/>quam poenam , quam transgredientibus talem
+          <lb ed="#P" n="21"/>vel talem regulam imponunt. Quae poena talis
+          <lb ed="#P" n="22"/>esse debet, ut non excedat disciplinam 
+          religio<lb break="no" ed="#P" n="23"/>sam , et communiter esse solet brevis aliqua
+          <lb ed="#P" n="24"/>oratio, et posset extendi ad moderatam 
+          flagel<lb break="no" ed="#P" n="25"/>lationem propriam, et secretam, vel etiam ad
+          <lb ed="#P" n="26"/>jejunium, ut infra dicam. Ut tamen 
+          intelliga<lb break="no" ed="#P" n="27"/>tur esse obligatio in conscientia ex vi legis, et
+          <lb ed="#P" n="28"/>ante praeceptum superioris, oportet ut lex 
+          di<lb break="no" ed="#P" n="29"/>cat: In virtute sanctae obedientiae, vel : 
+          Te<lb break="no" ed="#P" n="30"/>neantur in conscientia, aut quid simile, juxta
+          <lb ed="#P" n="31"/>consuetudinem religionis.
+        </p>
+        <p xml:id="szdleg-b11458-d1e651">
+          <lb ed="#P" n="32"/>7. De penis pecuniariis. —Extraordinarius
+          <lb ed="#P" n="33"/>modus praecipiendi indicat rigorosiorem 
+          obli<lb break="no" ed="#P" n="34"/>gationem. — Secundum exemplum esse potest
+          <lb ed="#P" n="35"/>de legibus imponentibus pecuniarias poenas,
+          <lb ed="#P" n="36"/>in quibus facilius potest haec obligatio imponi,
+          <lb ed="#P" n="37"/>quia ex genere suo leviores sunt, et sine 
+          de<lb break="no" ed="#P" n="38"/>decore vel infamia impleri possunt. Hujusmodi
+          <lb ed="#P" n="39"/>sunt aliquae leges in regno Hispaniae, quae 
+          pro<lb break="no" ed="#P" n="40"/>hibent aliquid recipere quibusdam personis,
+          <lb ed="#P" n="41"/>et puniunt transgressores in quadruplo, 
+          ad<lb break="no" ed="#P" n="42"/>dendo, ut in conscientia, et sententia non 
+          ea<lb break="no" ed="#P" n="43"/>pectata reddere teneantur. Tta referunt Covar.,
+          <lb ed="#P" n="44"/>Cord. et alii ex l. 9 Ordin. regal.. tit. 9,1.2,
+          <lb ed="#P" n="45"/>tit. 14, l. 4 tit. 15, l. 30, tit. 21, I. 15, ubi sic
+          <lb ed="#P" n="46"/>habetur : 7n quibus peenis ea wunc pro tunc eos
+          <lb ed="#P" n="47"/>condemnamus, ita ut in foro conscientie ad eas
+          <lb ed="#P" n="48"/>paenas solvendas, etiam ante judicis sententiam
+          <lb ed="#P" n="49"/>teneantur; quia vero non dicunt hae leges, ante
+          <lb ed="#P" n="50"/>omnem sententiam, vel absque alia declaratione,
+          <lb ed="#P" n="51"/>dubitari potest an coarctari possint ad 
+          senten<lb break="no" ed="#P" n="52"/>tiam condemnatoriam, et sufficienter exponi,
+          <lb ed="#P" n="53"/>ut ante sententiam condemnatoriam judicis
+          <lb ed="#P" n="54"/>oriatur haec obligatio in conscientia, non vero
+          <lb ed="#P" n="55"/>ante sententiam declaratoriam, sed immediate
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>post illam; nam condemnatoria satis aperte
+          <lb ed="#P" n="57"/>ponitur per legem, non tamen videtur 
+          exclu<lb break="no" ed="#P" n="58"/>dere necessitatem juridicae declarationis. Sed
+          <lb ed="#P" n="59"/>nihilominus censeo ex vi illorum verborum
+          <lb ed="#P" n="60"/>induci dictam obligationem, nulla expectata
+          <lb ed="#P" n="61"/>sententia judicis etiam declaratoria, tum quia
+          <lb ed="#P" n="62"/>alias inutilis fuisset tot verborum multiplicatio
+          <lb ed="#P" n="63"/>et exaggeratio, unde ipsamet extraordinaria
+          <lb ed="#P" n="64"/>forma praecipiendi indicat satis 
+          extraordina<lb break="no" ed="#P" n="65"/>riam, et magis rigorosam obligationem ad
+          <lb ed="#P" n="66"/>talem poenam; tum etiam, quia cum dicit lex
+          <lb ed="#P" n="67"/>ex nunc pro tunc, particula illa pro tunc, non
+          <lb ed="#P" n="68"/>designat tempus post latam a judice 
+          senten<lb break="no" ed="#P" n="69"/>tiam declaratoriam criminis, de qua lex 
+          men<lb break="no" ed="#P" n="70"/>tionem non fecerat, sed tempus commissi 
+          cri<lb break="no" ed="#P" n="71"/>minis, de quo lex fuerat locuta; tum denique
+          <lb ed="#P" n="72"/>(quod notandum est) quia illa particula ante
+          <lb ed="#P" n="73"/>sententiam, licet indefinita videatur, aequivalet
+          <lb ed="#P" n="74"/>universali in lege absolute loquente, quia ubi
+          <lb ed="#P" n="75"/>lex non distinguit, nec nos distinguere 
+          debe<lb break="no" ed="#P" n="76"/>mus, maxime quia illud verbum ante includit
+          <lb ed="#P" n="77"/>negationem sententiae latae a judice. Atque ita
+          <lb ed="#P" n="78"/>intelliguntur illae leges a citatis auctoribus.
+        </p>
+        <p xml:id="szdleg-b11458-d1e758">
+          <lb ed="#P" n="79"/>8. At vero Soto supra, ad 4, ausus est 
+          car<lb break="no" ed="#P" n="80"/>pere aut reprehendere legislatorem civilem,
+          <lb ed="#P" n="81"/>eo quod usurpet vcrba illa in conscientia, quia
+          <lb ed="#P" n="82"/>non est, inquit, secularium principum de 
+          con<lb break="no" ed="#P" n="83"/>scientia judicare, et in jure communi 
+          exem<lb break="no" ed="#P" n="84"/>plum simile non invenitur, et fortasse ob eam
+          <lb ed="#P" n="85"/>rem tales leges usu receptae non sunt. Sed certe
+          <lb ed="#P" n="86"/>excessit Soto, quia leges quae magna 
+          conside<lb break="no" ed="#P" n="87"/>ratione conduntur, non possunt tam facile
+          <lb ed="#P" n="88"/>reprehendi; item quia princeps secularis potest
+          <lb ed="#P" n="89"/>obligare in conscientia, ut supra ostensum est;
+          <lb ed="#P" n="90"/>cur ergo peccat explicando in actu signato
+          <lb ed="#P" n="91"/>usum illius potestatis ad superanda 
+          subterfu<lb break="no" ed="#P" n="92"/>gia et tergiversationes hominum? Nec refert
+          <lb ed="#P" n="93"/>quod in jure communi non inveniatur 
+          exem<lb break="no" ed="#P" n="94"/>plum, quia non tenetur supremus rex formam
+          <lb ed="#P" n="95"/>praecipiendi sumere a communi jure, sed 
+          po<lb break="no" ed="#P" n="96"/>test novam addere, si expedire judicet. Quod si
+          <lb ed="#P" n="97"/>illa leges (ut fertur), usu, vel per posteriores
+          <lb ed="#P" n="98"/>leges, quoad hanc partem mutatae sunt, non
+          <lb ed="#P" n="99"/>ideo fuit quia essent injustae , sed quia vel
+          <lb ed="#P" n="100"/>hominum protervia praevaluit, vel experientia
+          <lb ed="#P" n="101"/>docuit aliud magis expedire. Et nihilominus
+          <lb ed="#P" n="102"/>in novissima compilatione legum Hispaniae in
+          <lb ed="#P" n="103"/>l. 2, tit. 18, l. 1, extat lex quae prohibet 
+          se<lb break="no" ed="#P" n="104"/>cretarios regios munera recipere sub poena 
+          red<lb break="no" ed="#P" n="105"/>dendi quadruplum, cum his circumstantiis :
+          <lb ed="#P" n="106"/>prima, ut jurent hanc poenam solvere si in 
+          il<lb break="no" ed="#P" n="107"/>lam inciderint ; secunda, ex nunc illa 
+          con<lb break="no" ed="#P" n="108"/>demnantur; tertio, declaratur ut ad illam
+          <lb ed="#P" n="109"/>solvendam in conscientia teneantur, nulla 
+          ex<lb break="no" ed="#P" n="110"/>pectata condemnatione. De qua lege etiam so-
+          <pb ed="#P" n="444"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>let dubitari an sit recepta quoad hanc partem,
+          <lb ed="#P" n="2"/>seu abrogata per contrariam consuetudinem,
+          <lb ed="#P" n="3"/>et an possit in illa habere locum expositio, ut
+          <lb ed="#P" n="4"/>non excludat necessitatem sententiae 
+          declara<lb break="no" ed="#P" n="5"/>toriae, et quidem hoc posterius valde probabile
+          <lb ed="#P" n="6"/>videtur; tum quia non dicit ante sententiam,
+          <lb ed="#P" n="7"/>absolute, sed ante condemnationem , seu non
+          <lb ed="#P" n="8"/>expectata condemnatione ; tum etiam quia, licet
+          <lb ed="#P" n="9"/>dicat ex nunc, non addit pro tunc; et ita, licet
+          <lb ed="#P" n="10"/>lex ferat sententiam condemnatoriam, non 
+          de<lb break="no" ed="#P" n="11"/>signat tempus pro quo illam fert, nec excludit
+          <lb ed="#P" n="12"/>sententiam declaratoriam ; tum denique quia
+          <lb ed="#P" n="13"/>etiam hoc modo tam juramentum, quam 
+          re<lb break="no" ed="#P" n="14"/>liqua verba habent magnos effectus : nam 
+          ra<lb break="no" ed="#P" n="15"/>tione juramenti tenetur quis statim ac 
+          decla<lb break="no" ed="#P" n="16"/>ratur de crimine, solvere quadruplum sub
+          <lb ed="#P" n="17"/>poena perjurii, nec potest occultare bona 
+          qui<lb break="no" ed="#P" n="18"/>bus potest solvere poenam, imo nec potest
+          <lb ed="#P" n="19"/>negare quantitatem munerum quae recepit,
+          <lb ed="#P" n="20"/>etiamsi in sententia non declaretur, sed tantum
+          <lb ed="#P" n="21"/>crimen recipiendi munera. Item ad hoc etiam
+          <lb ed="#P" n="22"/>obligat illa lex sua propria vi praeter 
+          obliga<lb break="no" ed="#P" n="23"/>tionem juramenti: imo ita obligat, ut facta
+          <lb ed="#P" n="24"/>declaratione delicti nullus inferior judex possit
+          <lb ed="#P" n="25"/>illam minuere, qui est etiam magnus effectus
+          <lb ed="#P" n="26"/>illorum verborum. Et saltem hoc modo videtur
+          <lb ed="#P" n="27"/>mihi illa lex observanda, nec posse dici 
+          abro<lb break="no" ed="#P" n="28"/>gata contraria consuetudine, quia nec talis
+          <lb ed="#P" n="29"/>consuetudo probari potest, nec tolerantia 
+          prin<lb break="no" ed="#P" n="30"/>cipis scientis illam.
+        </p>
+        <p xml:id="szdleg-b11458-d1e900">
+          <lb ed="#P" n="31"/>9. Ex Conc. Lat. et Motu Pii V teneri 
+          bene<lb break="no" ed="#P" n="32"/>ficiarios non recitantes restituere fructus 
+          cor<lb break="no" ed="#P" n="33"/>respondentes beneficiis pro rata. -— Tertium
+          <lb ed="#P" n="34"/>exemplum afferri solet ex Concil. Later. sub
+          <lb ed="#P" n="35"/>Leone X, et Motu quodam Pii V, ubi clerici
+          <lb ed="#P" n="36"/>beneficiarii non recitantes divinum officium
+          <lb ed="#P" n="37"/>fructus omnes omnium beneficiorum singulis
+          <lb ed="#P" n="38"/>diebus respondentes pro rata restituere 
+          obli<lb break="no" ed="#P" n="39"/>gantur in conscientia, statim, et absque alia
+          <lb ed="#P" n="40"/>declaratione, seu sententia. Ita enim esse illud
+          <lb ed="#P" n="41"/>praeceptum, et poenam in eo impositam 
+          intel<lb break="no" ed="#P" n="42"/>ligenda, late ostendi lib. 4 de Orat., cap. 29 et
+          <lb ed="#P" n="43"/>30; sed nihilominus hoc exemplum non 
+          per<lb break="no" ed="#P" n="44"/>tinet proprie et directe ad hanc regulam quam
+          <lb ed="#P" n="45"/>modo tractamus, quia illa poena privativa 
+          po<lb break="no" ed="#P" n="46"/>tius est quam activa, ut sic dicam. Lex enim
+          <lb ed="#P" n="47"/>illa immediate impedit acquisitionem 
+          fruc<lb break="no" ed="#P" n="48"/>tuum beneficii propter omissionem officii, quo
+          <lb ed="#P" n="49"/>posito impedimento ex natura rei sequitur
+          <lb ed="#P" n="50"/>obligatio respectu fructuum, quia nemo potest
+          <lb ed="#P" n="51"/>retinere sibi quod suum non est. Et ita 
+          inter<lb break="no" ed="#P" n="52"/>pretantur omnes illud praeceptum, et colligitur
+          <lb ed="#P" n="53"/>aperte ex verbis concilii, tum ibi: Benefí
+          cio<lb break="no" ed="#P" n="54"/>rum suorum fructus suos non faciat ; tum
+          <lb ed="#P" n="55"/>maxime ibi: Tanguam injuste perceptos erogare
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>teneatur. Illud ergo prius factum est virtute
+          <lb ed="#P" n="57"/>illius legis, secundum autem sequitur ex vi
+          <lb ed="#P" n="58"/>justitiae, non quia per se et immediate in 
+          poe<lb break="no" ed="#P" n="59"/>nam impositum sit.
+        </p>
+        <p xml:id="szdleg-b11458-d1e968">
+          <lb ed="#P" n="60"/>10. Dices : interdum ex vi illius legis, 
+          be<lb break="no" ed="#P" n="61"/>neficiarius tenetur se spoliare fructibus jam
+          <lb ed="#P" n="62"/>perceptis, et quos vere fecerat suos : ut si quis
+          <lb ed="#P" n="63"/>grossam beneficii acquisierit et receperit, jure
+          <lb ed="#P" n="64"/>illam accepit, et fecit suam ; et nihilominus,
+          <lb ed="#P" n="65"/>si postea recitare desinat aliquibus anni 
+          die<lb break="no" ed="#P" n="66"/>bus, tenetur partem grossae illis diebus pro
+          <lb ed="#P" n="67"/>rata respondentem restituere , juxta 
+          declara<lb break="no" ed="#P" n="68"/>tionem aperte factam a Pio V: ergo nascitur
+          <lb ed="#P" n="69"/>haec obligatio immediate ex punitione legis,
+          <lb ed="#P" n="70"/>non ex alia obligatione justitiae. Sed hoc obstat,
+          <lb ed="#P" n="71"/>nam haec obligatio restituendi partem illam ex
+          <lb ed="#P" n="72"/>eodem fonte et eodem modo nascitur. Cum enim
+          <lb ed="#P" n="73"/>expresse concilium dicat, fructus suos non 
+          fa<lb break="no" ed="#P" n="74"/>ciat, sed eos tanquam injuste perceptos pro rata
+          <lb ed="#P" n="75"/>restituere teneatur , et Pius V non mutet nec
+          <lb ed="#P" n="76"/>augeat hanc poenam , sed tantum ratam illam
+          <lb ed="#P" n="77"/>declaret, non possumus nos ad aliquam 
+          resti<lb break="no" ed="#P" n="78"/>tutionem obligare ex vi illius legis, nisi eodem
+          <lb ed="#P" n="79"/>modo et titulo. Dico ergo, ex vi illius legis 
+          fac<lb break="no" ed="#P" n="80"/>tum esse, ut in dicto casu non percipiat 
+          fruc<lb break="no" ed="#P" n="81"/>tus omnes grossae, nisi sub conditione et onere
+          <lb ed="#P" n="82"/>non omittendi peccaminose divinum officium.
+          <lb ed="#P" n="83"/>Unde, si tunc recepisset grossam totam cum
+          <lb ed="#P" n="84"/>animo non recitandi decem diebus, injuste
+          <lb ed="#P" n="85"/>recepisset, suamque non fecisset partem illam,
+          <lb ed="#P" n="86"/>repugnante lege concilii. Quando ergo bono
+          <lb ed="#P" n="87"/>animo et proposito totam recipit, quasi 
+          anti<lb break="no" ed="#P" n="88"/>cipata solutione, suam quidem facit, non 
+          ta<lb break="no" ed="#P" n="89"/>men omnino plene et absolute, sed sub modo
+          <lb ed="#P" n="90"/>et conditione tali ut illa non impleta amittatur
+          <lb ed="#P" n="91"/>dominium , ex vi legis quae illud a principio
+          <lb ed="#P" n="92"/>infirmavit, ut sic dicam, et fecit pendens a 
+          fu<lb break="no" ed="#P" n="93"/>turo eventu, qui effectus legis privativus etiam
+          <lb ed="#P" n="94"/>fuit , et ex illo nascitur postea ex natura rei
+          <lb ed="#P" n="95"/>obligatio restituendi.
+        </p>
+        <p xml:id="szdleg-b11458-d1e1049">
+          <lb ed="#P" n="96"/>11. Quamvis autem haec vera sint, 
+          nihilo<lb break="no" ed="#P" n="97"/>minus ex illa lege sumitur probabilis 
+          confir<lb break="no" ed="#P" n="98"/>matio dictae regulae, nam sicut lex humana
+          <lb ed="#P" n="99"/>imponit ipso facto poenam privativam, ex qua
+          <lb ed="#P" n="100"/>necessario sequitur obligatio ad actionem 
+          poe<lb break="no" ed="#P" n="101"/>nalem, ita potest obligare ad similem actionem
+          <lb ed="#P" n="102"/>poenalem immediate. Colligitur etiam ex illis
+          <lb ed="#P" n="103"/>decretis, ut lex obliget per se ad actionem 
+          poe<lb break="no" ed="#P" n="104"/>nalem, sive mediate, sive immediate, non
+          <lb ed="#P" n="105"/>oportere ut semper expresse declaret 
+          forma<lb break="no" ed="#P" n="106"/>libus verbis obligationem in conscientia 
+          an<lb break="no" ed="#P" n="107"/>te omnem sententiam , sed satis esse ut id
+          <lb ed="#P" n="108"/>explicet per aliquem effectum, qui subsistere
+          <lb ed="#P" n="109"/>non possit sine tali obligatione, vel quia 
+          neces<lb break="no" ed="#P" n="110"/>sario illam inferat, sicut ibi, ex effectu impe-
+          <pb ed="#P" n="445"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>diendi acquisitionem dominii , sequitur 
+          obli<lb break="no" ed="#P" n="2"/>gatio restituendi. Estque simile huic 
+          exem<lb break="no" ed="#P" n="3"/>plum in Conc. Trid., sess. 23, c. 1 de Reform.,
+          <lb ed="#P" n="4"/>ubi de beneficiario non residente modo ibi
+          <lb ed="#P" n="5"/>praescripto dicitur : Statuit sancta synodus,
+          <lb ed="#P" n="6"/>eun pro rata temporis absentis fructus suos non
+          <lb ed="#P" n="7"/>facere, nec tuta conscientia, alia etiam 
+          declara<lb break="no" ed="#P" n="8"/>tione non secuta, illos omnes sibi detinere posse,
+          <lb ed="#P" n="9"/>etc.
+        </p>
+        <p xml:id="szdleg-b11458-d1e1108">
+          <lb ed="#P" n="10"/>12. Extensio praedictae regulae ad penas quo
+          <lb ed="#P" n="11"/>promime privant actione humana, ex qua 
+          sequi<lb break="no" ed="#P" n="12"/>tur afflictio corporis. — Atque ex dictis in hoc
+          <lb ed="#P" n="13"/>tertio exemplo , intelligi potest hanc regulam
+          <lb ed="#P" n="14"/>positam de poenis consistentibus directe in 
+          ac<lb break="no" ed="#P" n="15"/>tione hominis, cum proportione applicandam
+          <lb ed="#P" n="16"/>esse ad poenas quae proxime privant actione
+          <lb ed="#P" n="17"/>humana, ex qua privatione sequitur poenalis
+          <lb ed="#P" n="18"/>afflictio corporis; nam hae poenae, ut supra
+          <lb ed="#P" n="19"/>dixi, moraliter aequivalent illis quae in actione
+          <lb ed="#P" n="20"/>consistunt, et ideo eadem doctrina ad illas est
+          <lb ed="#P" n="21"/>applicanda. Exemplum est in poena jejunii,
+          <lb ed="#P" n="22"/>quae non tam agendo, quam carendo, seu
+          <lb ed="#P" n="23"/>abstinendo impletur. Haec vero non tam est
+          <lb ed="#P" n="24"/>poena civilis quam canonica ; et nihilominus
+          <lb ed="#P" n="25"/>non invenio eam ipso jure impositam in jure
+          <lb ed="#P" n="26"/>canonico. Nam licet Cord., d. q. 36, ad hoc
+          <lb ed="#P" n="27"/>alleget, c. Quicumque, 6, q. 1, etc. Ut mensure
+          <lb ed="#P" n="28"/>de Empti. et vendit., et c. Accepisti, de Sponsa
+          <lb ed="#P" n="29"/>duorum ; in his et similibus juribus nullum est
+          <lb ed="#P" n="30"/>verbum indicans talem obligationem, vel 
+          sen<lb break="no" ed="#P" n="31"/>tentiam latam ; solum enim dicitur, ut 
+          contra<lb break="no" ed="#P" n="32"/>hens cum duabus , et perjurus , et defraudans
+          <lb ed="#P" n="33"/>Justam mensuram, quadraginta dies in pane et
+          <lb ed="#P" n="34"/>aqua peniteat ; quae verba non obligant statim
+          <lb ed="#P" n="35"/>ad illam poenitentiam agendam, donec 
+          impo<lb break="no" ed="#P" n="36"/>natur, ut de perjurio explicui l. 4 Juram.,
+          <lb ed="#P" n="37"/>c. ult., in fine; et eadem ratio est de reliquis.
+          <lb ed="#P" n="38"/>Igitur in jure communi non habemus hujus
+          <lb ed="#P" n="39"/>rei exemplum ; tamen in regulis religiosis 
+          pos<lb break="no" ed="#P" n="40"/>set facile reperiri, in quibus servanda sunt
+          <lb ed="#P" n="41"/>quae supra de aliis actionibus poenalibus 
+          dixi<lb break="no" ed="#P" n="42"/>mus.
+        </p>
+        <p xml:id="szdleg-b11458-d1e1182">
+          <lb ed="#P" n="43"/>13. De poena famis usque ad mortem.—Aliud
+          <lb ed="#P" n="44"/>exemplum hujus poenae est de fame, et 
+          caren<lb break="no" ed="#P" n="45"/>tia cibi sustinenda usque ad mortem ; hanc
+          <lb ed="#P" n="46"/>enim poenam interdum leges imponunt : tam
+          <lb ed="#P" n="47"/>acerba autem est, ut non possit ipso facto 
+          im<lb break="no" ed="#P" n="48"/>poni. Imo etiam credo nec per sententiam 
+          judi<lb break="no" ed="#P" n="49"/>cis obligari hominem in conscientia ad illam
+          <lb ed="#P" n="50"/>implendam, si comedere possit. Solet autem
+          <lb ed="#P" n="51"/>quaestio esse an tunc possit non comedere, et
+          <lb ed="#P" n="52"/>sinere se mori, si facultas suppetat comedendi,
+          <lb ed="#P" n="53"/>quae ad materiam de homicidio spectat., 2. 2.
+          <lb ed="#P" n="54"/>q. 64. Aliud denique exemplum est de poena
+          <lb ed="#P" n="55"/>permanendi in carcere, vel aliquo loco; nam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>illa etiam sustinetur per privationem actionis,
+          <lb ed="#P" n="57"/>scilicet, non fugiendo, et haec etiam non solet
+          <lb ed="#P" n="58"/>imponi per legem, sed per mandatum hominis;
+          <lb ed="#P" n="59"/>de quo quando ponitur in solam poenam, vel
+          <lb ed="#P" n="60"/>in ordine ad solam punitionem, dubium est an
+          <lb ed="#P" n="61"/>possit obligare in conscientia, de quo alias.
+          <lb ed="#P" n="62"/>Nam quod ad nos attinet, leges per se ad hoc
+          <lb ed="#P" n="63"/>non obligant in conscientia, maxime quando
+          <lb ed="#P" n="64"/>grave damnum inde timetur ; absolute enim
+          <lb ed="#P" n="65"/>existimo non esse in usu tales leges, et ideo
+          <lb ed="#P" n="66"/>nihil amplius de illis in praesenti dicere necesse
+          <lb ed="#P" n="67"/>est. Nam quae tractari solent de justa 
+          punitio<lb break="no" ed="#P" n="68"/>ne rei fugientis e carcere in 2. 2 habent 
+          pro<lb break="no" ed="#P" n="69"/>prium locum, q. 69, art. 4.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

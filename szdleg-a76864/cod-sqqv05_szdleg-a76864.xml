@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 33</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 33</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="303"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a76864"><!-- deleg-l3c33 -->
+        <head xml:id="szdleg-a76864-Hd1e101">Caput 33</head>
+        <head xml:id="szdleg-a76864-Hd1e103" type="question-title">Utrum leges propriae alicuius territorii obligent advenas dum ibi existunt</head>
+        <p xml:id="szdleg-a76864-d1e106">
+          <lb ed="#P" n="15"/>CAPUT XXXII.
+          <lb ed="#P" n="16"/>UTRUM LEGES PROPRIAE ALICUJUS TERRITORII 
+          OBLI<lb break="no" ed="#P" n="17"/>GENT ADVENAS DUM IBI EXISTUNT.
+        </p>
+        <p xml:id="szdleg-a76864-d1e115">
+          <lb ed="#P" n="18"/>1. Tria in lege distinguenda.—Quaestionem
+          <lb ed="#P" n="19"/>hanc tractavi late tom. 1 de helg.. tract. 2,
+          <lb ed="#P" n="20"/>lib. 2 de Festis, cap. 14, occasione praecepti
+          <lb ed="#P" n="21"/>servandi festa, et ideo in praesenti absque 
+          re<lb break="no" ed="#P" n="22"/>petitione perstringam breviter quae ibi tradidi,
+          <lb ed="#P" n="23"/>et nonnulla addam huic loco magis 
+          accommo<lb break="no" ed="#P" n="24"/>data. Tria ergo in lege distingui possunt: vis
+          <lb ed="#P" n="25"/>obligandi in conscientia, quam directivam
+          <lb ed="#P" n="26"/>voco ; et vis coactiva, per quam fit ut aliquis
+          <lb ed="#P" n="27"/>puniri possit secundum legem ; et vis ponendi
+          <lb ed="#P" n="28"/>formam in contractibus, et aliis actibus 
+          foren<lb break="no" ed="#P" n="29"/>sibus, per quam interdum fit ut actus 
+          aliterfac<lb break="no" ed="#P" n="30"/>tus validus non sit; et quoad haec tria 
+          expli<lb break="no" ed="#P" n="31"/>canda est proposita quaestio, quia proprias
+          <lb ed="#P" n="32"/>habent difficultates.
+        </p>
+        <p xml:id="szdleg-a76864-d1e150">
+          <lb ed="#P" n="33"/>2. Sententiae negativae fundamenta. — Circa
+          <lb ed="#P" n="34"/>primum punctum variae sunt sententiee, quas
+          <lb ed="#P" n="35"/>citato loco retuli. Prima est absolute negans,
+          <lb ed="#P" n="36"/>aliquem obligari legibus loci, nisi in eo habeat
+          <lb ed="#P" n="37"/>fixum et perfectum domicilium. Pro qua ibi
+          <lb ed="#P" n="38"/>allegavi Palud., Medin., Archid., Hostiens. et
+          <lb ed="#P" n="39"/>alios; sed illam tanquam improbabilem 
+          refuta<lb break="no" ed="#P" n="40"/>vi. Secunda dicit leges loci obligare exteros,
+          <lb ed="#P" n="41"/>ita ibi permanentes ut saltem quasi domicilium
+          <lb ed="#P" n="42"/>contrahant : non vero alios brevi tempore ibi
+          <lb ed="#P" n="43"/>existentes, vel illac transeuntes, pro qua Felin.,
+          <lb ed="#P" n="44"/>Anton. et alios adduxi. Utriusque autem 
+          sen<lb break="no" ed="#P" n="45"/>tentiae idem fere est fundamentum, scilicet,
+          <lb ed="#P" n="46"/>quia peregrini non sunt subditi : nam 
+          subjec<lb break="no" ed="#P" n="47"/>tio quoad morum directionem et obligationem
+          <lb ed="#P" n="48"/>non acquiritur nisi per domicilium, vel saltem
+          <lb ed="#P" n="49"/>per quasi domicilium. Praeter hanc rationem
+          <lb ed="#P" n="50"/>afferunt exempla de infidelibus, qui non 
+          obh<lb break="no" ed="#P" n="51"/>gantur legibus Christianorum, licet inter illos
+          <lb ed="#P" n="52"/>vivant, et de religiosis respectu saecularium, et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>de novitiis respectu professorum. Sed haec
+          <lb ed="#P" n="54"/>omitto, quia non sunt ad rem, cum haec 
+          exem<lb break="no" ed="#P" n="55"/>pla non solum in transeuntibus, sed etiam in
+          <lb ed="#P" n="56"/>habentibus ibi domicilium locum habeant, et
+          <lb ed="#P" n="57"/>in sequenti libro, capite ultimo, de his dicemus.
+          <lb ed="#P" n="58"/>Confirmatur ab incommodis, quia alias 
+          tene<lb break="no" ed="#P" n="59"/>rentur infideles, dum transeunt per provincias
+          <lb ed="#P" n="60"/>fidelium, servare leges seu ritus eorum, 
+          absti<lb break="no" ed="#P" n="61"/>nendo a carnibus diebus prohibitis, etc., quod
+          <lb ed="#P" n="62"/>est absurdum. Item obligarentur monachi 
+          ha<lb break="no" ed="#P" n="63"/>bitantes servare jejunia synodalia, quod esset
+          <lb ed="#P" n="64"/>grave onus, cum ipsi habeant plura alia 
+          jeju<lb break="no" ed="#P" n="65"/>nia propria, ad quae non obligantur laici propter
+          <lb ed="#P" n="66"/>ipsorum regularium statuta. Item sequitur 
+          te<lb break="no" ed="#P" n="67"/>neri religiosum unius provinciae ad servanda
+          <lb ed="#P" n="68"/>jejunia, festivitates, et similia statuta propria
+          <lb ed="#P" n="69"/>alterius provinciae, quando est hospes in illa,
+          <lb ed="#P" n="70"/>etiamsi non sint communia toti religioni; et
+          <lb ed="#P" n="71"/>similiter novitius teneretur servare leges 
+          reli<lb break="no" ed="#P" n="72"/>gionis, quamdiu ibi moratur, quae admittenda
+          <lb ed="#P" n="73"/>non sunt.
+        </p>
+        <p xml:id="szdleg-a76864-d1e245">
+          <lb ed="#P" n="74"/>3. Legem territorii obligare advenas 
+          quam<lb break="no" ed="#P" n="75"/>diu ibi commorantur in conscientia, et eo modo
+          <lb ed="#P" n="76"/>quo obligant incolas.—3Ad pacem et bonos mores
+          <lb ed="#P" n="77"/>loci necessarium est advenas, dum ibi versantur,
+          <lb ed="#P" n="78"/>conformari moribus populi, ne sequantur 
+          scan<lb break="no" ed="#P" n="79"/>dala.—Nihilominus dicendum est legem 
+          terri<lb break="no" ed="#P" n="80"/>torii obligare advenas et hospites, quamdiu ibi
+          <lb ed="#P" n="81"/>commorantur, in conscientia, et eo modo quo
+          <lb ed="#P" n="82"/>obligat incolas. Haec est communis sententia
+          <lb ed="#P" n="83"/>interpretum in l. Cunctos populos, C. de 
+          Sum<lb break="no" ed="#P" n="84"/>ma Trinitate, et in cap. A nobis, 1 de Sentent.
+          <lb ed="#P" n="85"/>excommunicat. praesertim Innocen., Hostiens.
+          <lb ed="#P" n="86"/>et Panormit., et in cap. 2 de Constitut., in 6,
+          <lb ed="#P" n="87"/>ubi late Gemin. et Sylvest. verb. 
+          Fxcommuni<lb break="no" ed="#P" n="88"/>catio, 2, n. 4, et plures alios in citato loco 
+          alle<lb break="no" ed="#P" n="89"/>gavi, eamque Augustini auctoritate et Ecclesiae
+          <lb ed="#P" n="90"/>consuetudine, varisque rationibus 
+          compro<lb break="no" ed="#P" n="91"/>bavi. Propria vero ratio est, quia lex 
+          genera<lb break="no" ed="#P" n="92"/>liter fertur pro tali territorio, ut supponimus:
+          <lb ed="#P" n="93"/>ergo obligat omnes actu ibi degentes pro 
+          tem<lb break="no" ed="#P" n="94"/>pore quo ibi commorantur. Probatur 
+          conse<lb break="no" ed="#P" n="95"/>quentia, primo, ex parte causae finalis, quia ad
+          <lb ed="#P" n="96"/>bonam gubernationem provinciae, loci, seu
+          <lb ed="#P" n="97"/>territorii, est moraliter necessarium ut leges
+          <lb ed="#P" n="98"/>pro illo latae hanc vim habeant; quia ad 
+          pa<lb break="no" ed="#P" n="99"/>cem et bonos mores loci necesse est ut advenae
+          <lb ed="#P" n="100"/>conformentur moribus populi, quamdiu ibi 
+          ver<lb break="no" ed="#P" n="101"/>santur, ut saepe in jure insinuatur, cap. 7llud,
+          <lb ed="#P" n="102"/>distinct. 12, cap. Quae contra, distinct. 8, cap.
+          <lb ed="#P" n="103"/>In nova, 16, quaest. 7, et experientia id satis
+          <lb ed="#P" n="104"/>docet, quia, si aliter fiat, sequuntur dissidia et
+          <lb ed="#P" n="105"/>scandala. Cum ergo leges ferantur propter
+          <lb ed="#P" n="106"/>commune bonum, et pacem et bonos mores
+          <lb ed="#P" n="107"/>loci praecipue intendant, necesse est ut hanc
+          <pb ed="#P" n="304"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vim habeant. Secundo, idem probatur ex parte
+          <lb ed="#P" n="2"/>causa efhicientis, seu potestatis legislatoris,
+          <lb ed="#P" n="3"/>quia unusquisque gubernator reipublicae 
+          ha<lb break="no" ed="#P" n="4"/>bet potestatem necessariam ad conservationem
+          <lb ed="#P" n="5"/>suae reipublieae, et ad ejus bonos mores 
+          tuen<lb break="no" ed="#P" n="6"/>dos; ergo habet potestatem ad ferendas leges
+          <lb ed="#P" n="7"/>quas omnes ibi morantes servare tenentur. Hac
+          <lb ed="#P" n="8"/>enim ratione habet potestatem puniendi 
+          adve<lb break="no" ed="#P" n="9"/>nas ibi delinquentes : ergo eadem ratione 
+          ha<lb break="no" ed="#P" n="10"/>bet potestatem obligandi per suam legem
+          <lb ed="#P" n="11"/>omnes ibi operantes, quatenus ad bonum suae
+          <lb ed="#P" n="12"/>reipublicae necessarium est.
+        </p>
+        <p xml:id="szdleg-a76864-d1e352">
+          <lb ed="#P" n="13"/>4. Probatur ex parte advenarum. — Tertio,
+          <lb ed="#P" n="14"/>idem patet ex parte personarum advenarum,
+          <lb ed="#P" n="15"/>quia non deest in illis sufficiens titulus 
+          sub<lb break="no" ed="#P" n="16"/>jectionis, ratione cujus obligari possint legibus
+          <lb ed="#P" n="17"/>territorii ; haec autem subjectio tantum 
+          deside<lb break="no" ed="#P" n="18"/>ratur ; ergo. Major patet, tum quia potestas
+          <lb ed="#P" n="19"/>in uno et subjectio in alio sunt correlativa;
+          <lb ed="#P" n="20"/>ostensum est autem in principe esse 
+          potesta<lb break="no" ed="#P" n="21"/>tem ; ergo illi respondet subjectio ex parte 
+          al<lb break="no" ed="#P" n="22"/>terius extremi; tum etiam quia, sicut illa
+          <lb ed="#P" n="23"/>obligatio est quasi transiens et secundum quid,
+          <lb ed="#P" n="24"/>ita ad illam sufficit quasi transitoria subjectio,
+          <lb ed="#P" n="25"/>ad quam satis est actualis commoratio et 
+          prae<lb break="no" ed="#P" n="26"/>sentia, licet diuturna futura non sit: nam, 
+          si<lb break="no" ed="#P" n="27"/>cut is qui transfert domicilium in aliquem 
+          lo<lb break="no" ed="#P" n="28"/>cum eo ipso vult obligari legibus loci 
+          perma<lb break="no" ed="#P" n="29"/>nenter ; vel ex consequenti obligatur, etiamsi
+          <lb ed="#P" n="30"/>nolit ; ita qui alicubi vult ad breve tempus
+          <lb ed="#P" n="31"/>morari, eo ipso vult, aut velle debet, subdi
+          <lb ed="#P" n="32"/>pro tunc regimini illius loci quoad ea quae ad
+          <lb ed="#P" n="33"/>zenerales mores et leges spectant. Quod 
+          con<lb break="no" ed="#P" n="34"/>firmatur a contrario: nam incola discedens a
+          <lb ed="#P" n="35"/>territorio ad breve tempus, statim pro eodem
+          <lb ed="#P" n="36"/>desinit obligari legibus territorii, juxta dicta
+          <lb ed="#P" n="37"/>capite praecedenti, et consequenter pro tunc
+          <lb ed="#P" n="38"/>fit non subditus in actu; ergo idem erit e
+          <lb ed="#P" n="39"/>contrario : nam est eadem ratio, et aequitas
+          <lb ed="#P" n="40"/>postulat ut in utroque paritas seu proportio
+          <lb ed="#P" n="41"/>servetur.
+        </p>
+        <p xml:id="szdleg-a76864-d1e417">
+          <lb ed="#P" n="42"/>5. Satisfit fundamento contrario.— 
+          Funda<lb break="no" ed="#P" n="43"/>mentum contrariae sententiae ex dictis solutum
+          <lb ed="#P" n="44"/>est: jam enim ostensum est quomodo hic nec
+          <lb ed="#P" n="45"/>jurisdictio nec subjectio desit, et in citato loco
+          <lb ed="#P" n="46"/>de censuris, sigillatim ostendimus ad hanc
+          <lb ed="#P" n="47"/>obligationem sufticere imprimis quasi 
+          domi<lb break="no" ed="#P" n="48"/>cilium, deinde satis esse brevem moram 
+          ali<lb break="no" ed="#P" n="49"/>quorum dierum, et hanc extendendam esse
+          <lb ed="#P" n="50"/>cum proportione ad viatores qui ad breve 
+          tem<lb break="no" ed="#P" n="51"/>pus in hospitio commorantur; et quae ibi 
+          dixi<lb break="no" ed="#P" n="52"/>mus de lege servandi festa possunt facile ad
+          <lb ed="#P" n="53"/>omnes leges, etiam civiles, applicari, de 
+          qui<lb break="no" ed="#P" n="54"/>bus etiam multa obiter tetigimus. Addo etiam
+          <lb ed="#P" n="55"/>obiter eamdem doctrinam applicandam esse
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ad religiosos peregrinos, seu hospites in aliis
+          <lb ed="#P" n="57"/>provinciis vel domibus, quoad particularia
+          <lb ed="#P" n="58"/>statuta earum; quod ideo adverto, quia aliqui
+          <lb ed="#P" n="59"/>excipiunt religiosos peregrinantes ab hac 
+          obli<lb break="no" ed="#P" n="60"/>gatione, quia non habent territorium 
+          pro<lb break="no" ed="#P" n="61"/>prium, eo quod per totam Ecclesiam potest
+          <lb ed="#P" n="62"/>diffundi religio. Sed hoc non obstat, quia 
+          ni<lb break="no" ed="#P" n="63"/>hilominus possunt religiosi habere sua 
+          domi<lb break="no" ed="#P" n="64"/>cilia propria, argumento cap. 1 de Privileg.,
+          <lb ed="#P" n="65"/>in 6, et quoad hoc possunt peculiaria 
+          monas<lb break="no" ed="#P" n="66"/>teria, et provinciae habere proprias 
+          observan<lb break="no" ed="#P" n="67"/>tias, et ab has dicimus obligari advenas,
+          <lb ed="#P" n="68"/>quamdiu ibi sunt, servata proportione, quia
+          <lb ed="#P" n="69"/>est eadem ratio, nisi ipsamet consuetudo 
+          re<lb break="no" ed="#P" n="70"/>ligiosa aliquam exceptionem illis tribuat.
+        </p>
+        <p xml:id="szdleg-a76864-d1e485">
+          <lb ed="#P" n="71"/>6. Non ob scandalum tantum teneri advenas
+          <lb ed="#P" n="72"/>ad loci leges, sed etiam propter ipsas leges et
+          <lb ed="#P" n="73"/>sufficientem subjectionem. —Tandem, ex dictis
+          <lb ed="#P" n="74"/>constat non recte aliquos dixisse teneri advenas
+          <lb ed="#P" n="75"/>ad has leges servandas, solum propter 
+          vitan<lb break="no" ed="#P" n="76"/>dum scandalum. Hoc enim verum non est,
+          <lb ed="#P" n="77"/>alias, cessante scandalo, ac per se et in occulto
+          <lb ed="#P" n="78"/>non obligarentur his legibus. Dicendum ergo
+          <lb ed="#P" n="79"/>est, licet intervenientc actuali scandalo crescat
+          <lb ed="#P" n="80"/>accidentarie obligatio, non tamen esse 
+          scan<lb break="no" ed="#P" n="81"/>dalum proprium fundamentum obligationis,
+          <lb ed="#P" n="82"/>sed ad summum esse occasionem seu motivum,
+          <lb ed="#P" n="83"/>quod legislatorem movet ad terendam legem
+          <lb ed="#P" n="84"/>cujus obligatio non cessat, etiamsi in 
+          particu<lb break="no" ed="#P" n="85"/>lari cesset motivum; sicut prohibentur arma
+          <lb ed="#P" n="86"/>tali loco vel tempore ut vitentur rixae, et 
+          pro<lb break="no" ed="#P" n="87"/>hibentur feminae hoc vel illo modo ornari, ut
+          <lb ed="#P" n="88"/>non praebeant scandalum ; et nihilominus,
+          <lb ed="#P" n="89"/>postquam leges positae sunt, obligatio non est
+          <lb ed="#P" n="90"/>tantum scandali, sed per se ratione talium 
+          le<lb break="no" ed="#P" n="91"/>gum. Sic ergo est in praesenti, necessitas enim
+          <lb ed="#P" n="92"/>vitandi scandala, et conservandi bonos mores
+          <lb ed="#P" n="93"/>reipublicae movet ad ferendas leges pro 
+          omni<lb break="no" ed="#P" n="94"/>bus qui in tali loco versantur ; et ideo, 
+          post<lb break="no" ed="#P" n="95"/>quam lex est constituta, tenetur advena illi
+          <lb ed="#P" n="96"/>conformari, non solum ratione scandali 
+          vitan<lb break="no" ed="#P" n="97"/>di, sed etiam propter ipsam legem et 
+          sufficien<lb break="no" ed="#P" n="98"/>tem subjectionem, ut explicatum est.
+        </p>
+        <p xml:id="szdleg-a76864-d1e548">
+          <lb ed="#P" n="99"/>7. Posse ferri legem pro aliquo territorio,
+          <lb ed="#P" n="100"/>qua solos advenas in illo emistentes obliget, cum
+          <lb ed="#P" n="101"/>hoc ad bonum commnune spectet. — Sed quaeres
+          <lb ed="#P" n="102"/>an possit ferri lex pro aliqua civitate aut 
+          ter<lb break="no" ed="#P" n="103"/>ritorio, quae solos advenas in illo existentes
+          <lb ed="#P" n="104"/>obliget ; nam Innocent., in dicto cap. A nobis,
+          <lb ed="#P" n="105"/>dicit talem legem non posse obligare 
+          pere<lb break="no" ed="#P" n="106"/>grinos, sed solum quando generalis est, et per
+          <lb ed="#P" n="107"/>se obligat incolas, et quasi concomitanter 
+          pe<lb break="no" ed="#P" n="108"/>regrinos ; et forte motus est, quia tunc habet
+          <lb ed="#P" n="109"/>locum ratio uniformitatis, et accessorii, quod
+          <lb ed="#P" n="110"/>sequitur principale : haec autem ratio non ha-
+          <pb ed="#P" n="305"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bet locum quando lex loquitur ad solos 
+          pe<lb break="no" ed="#P" n="2"/>regrinos, qui per se ac directe non sunt subditi
+          <lb ed="#P" n="3"/>talis reipublicae, vel principis. Nihilominus
+          <lb ed="#P" n="4"/>contrarium censeo verum , quod tenet 
+          Hos<lb break="no" ed="#P" n="5"/>tiens. ibi, cui magis adhaeret Panormitan. et
+          <lb ed="#P" n="6"/>sequitur Sylvest. Ratio autem est eadem cum
+          <lb ed="#P" n="7"/>proportione applicata ; nam ad bonum 
+          civita<lb break="no" ed="#P" n="8"/>tis vel reipublicae spectat ordinare, quomodo
+          <lb ed="#P" n="9"/>peregrini se ibi gerere debeant, et statuere
+          <lb ed="#P" n="10"/>quae ad hunc finem necessaria fuerint, alioqui
+          <lb ed="#P" n="11"/>non fuisset sufficienter provisum reipublicae,
+          <lb ed="#P" n="12"/>nec talis potestas esse potest in alio quam in
+          <lb ed="#P" n="13"/>ipsa, vel ejus gubernatore, quia illi providentia
+          <lb ed="#P" n="14"/>et cura illius loci commissa est. Sicut ergo 
+          pe<lb break="no" ed="#P" n="15"/>regrini habent peculiarem modum vivendi,
+          <lb ed="#P" n="16"/>seu existendi in tali loco, ita in multis 
+          postu<lb break="no" ed="#P" n="17"/>lare possuntpeculiaria statuta: ergo possunt per
+          <lb ed="#P" n="18"/>illa obligari, quia quoad hoc efficiuntur subditi
+          <lb ed="#P" n="19"/>per solam illam moram, ut declaratum est.
+          <lb ed="#P" n="20"/>Supponimus autem debere leges esse justas, et
+          <lb ed="#P" n="21"/>accommodatas non solum loco, sed etiam ipsis
+          <lb ed="#P" n="22"/>peregrinis, proportionem inter eos servando:
+          <lb ed="#P" n="23"/>sic enim nihil deest in illis legibus ad 
+          peregri<lb break="no" ed="#P" n="24"/>nos obligandos.
+        </p>
+        <p xml:id="szdleg-a76864-d1e633">
+          <lb ed="#P" n="25"/>8. De vi coactiva. — Ratio dubitandi. —
+          <lb ed="#P" n="26"/>Rejicitur Glossa. — Circa secundum punctum
+          <lb ed="#P" n="27"/>de vi coactiva, an etiam secundum illam lex
+          <lb ed="#P" n="28"/>obliget advenas seu peregrinos, specialis ratio
+          <lb ed="#P" n="29"/>dubitandi sumitur ex cap. A nobis, 1 de 
+          Sen<lb break="no" ed="#P" n="30"/>tent. excommun. , ubi proposita quaestione, an
+          <lb ed="#P" n="31"/>Episcopus ferens in sua dioecesi generalem 
+          sen<lb break="no" ed="#P" n="32"/>tentiam : Sà quis furatus fuerit, evcommuni -
+          <lb ed="#P" n="33"/>catus sit, obliget forenses, respondet Pontifex
+          <lb ed="#P" n="34"/>tantum obligare subditos, cujus rei ratio alia
+          <lb ed="#P" n="35"/>esse non potest, nisi quia talis Episcopus non
+          <lb ed="#P" n="36"/>habet potestatem coactivam in forenses, sed
+          <lb ed="#P" n="37"/>tantum in subditos. Respondet Glossa ibi,
+          <lb ed="#P" n="38"/>etiam advenas comprehendi illa 
+          excommuni<lb break="no" ed="#P" n="39"/>catione, non quatenus tales sunt, sed quatenus
+          <lb ed="#P" n="40"/>sunt subditi ratione delicti, et ita putat esse
+          <lb ed="#P" n="41"/>textum intelligendum de subditis quocumque
+          <lb ed="#P" n="42"/>titulo. Sed revera evertit responsionem 
+          Ponti<lb break="no" ed="#P" n="43"/>ficis, et frivolam, ac ridiculam illam reddit ;
+          <lb ed="#P" n="44"/>nam hoc ipsum est quod quaerebatur, an illi
+          <lb ed="#P" n="45"/>forenses fiant subditi ratione delicti : non ergo
+          <lb ed="#P" n="46"/>loquitur hoc sensu de subditis, sed prout 
+          in<lb break="no" ed="#P" n="47"/>colae simpliciter subditi appellantur. Praeterea
+          <lb ed="#P" n="48"/>involvitur in illa responsione quaedam 
+          repu<lb break="no" ed="#P" n="49"/>gnantia: nam in poena excommunicationis non
+          <lb ed="#P" n="50"/>potest proxima ratio subjectionis esse delictum
+          <lb ed="#P" n="51"/>in tali loco commissum, sed necessario supponi
+          <lb ed="#P" n="52"/>debet obligatio parendi praelato illius loci, quia
+          <lb ed="#P" n="53"/>ad excommunicationem necessaria est 
+          contu<lb break="no" ed="#P" n="54"/>macia respectu Ecclesiae, et non sufficit 
+          delic<lb break="no" ed="#P" n="55"/>tum contra legem naturalem, ut sic (quod
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>suppono ex propria materia); ergo ante 
+          delic<lb break="no" ed="#P" n="57"/>tum supponi debet subjectio, ex qua oriatur
+          <lb ed="#P" n="58"/>obligatio parendi praecepto prohibenti aliquid
+          <lb ed="#P" n="59"/>sub poena excommunicationis ; ergo cum in
+          <lb ed="#P" n="60"/>illo textu sit sermo de hac censura, non 
+          pos<lb break="no" ed="#P" n="61"/>sunt advenae ratione delicti comprehendi sub
+          <lb ed="#P" n="62"/>nomine subditorum, sed subditi vocantur, quia
+          <lb ed="#P" n="63"/>per se ante talem legem, vel delictum 
+          hujus<lb break="no" ed="#P" n="64"/>modi erant. Atque ita intellexerunt textum
+          <lb ed="#P" n="65"/>illum Panorm. et alii, qui consequenter 
+          faten<lb break="no" ed="#P" n="66"/>tur advenas non comprehendi sub illa censura
+          <lb ed="#P" n="67"/>per sententiam generalem lata.
+        </p>
+        <p xml:id="szdleg-a76864-d1e732">
+          <lb ed="#P" n="68"/>9. Mens auctoris.—Nihilominus dicendum
+          <lb ed="#P" n="69"/>est legem pro territorio latam comprehendere
+          <lb ed="#P" n="70"/>peregrinos ibi morantes, etiam quoad vim 
+          co<lb break="no" ed="#P" n="71"/>activam, id est, puniri ibi posse propter 
+          trans<lb break="no" ed="#P" n="72"/>gressionem talis legis, vel per judicem, vel
+          <lb ed="#P" n="73"/>per ipsam legem, si poenam ferat ipso facto.
+          <lb ed="#P" n="74"/>Ita sentiunt auctores supra allegati, et 
+          inter<lb break="no" ed="#P" n="75"/>pretes in eodem cap. A nmobis. Et ratio est
+          <lb ed="#P" n="76"/>manifesta, quia idem titulus subjectionis seu
+          <lb ed="#P" n="77"/>potestatis intervenit quoad vim coactivam,
+          <lb ed="#P" n="78"/>qui demonstratus est de vi directiva: imo
+          <lb ed="#P" n="79"/>directiva non esset efficax nisi haberet 
+          adjunc<lb break="no" ed="#P" n="80"/>tam coactivam. Accedit praeterea, quia si
+          <lb ed="#P" n="81"/>advena tenetur per se et in conscientia servare
+          <lb ed="#P" n="82"/>legem hujus reipublicae, transgrediendo illam
+          <lb ed="#P" n="83"/>delinquit in hoc loco, et in hanc rempublicam:
+          <lb ed="#P" n="84"/>ergo etiam ratione delicti manet subjectus 
+          co<lb break="no" ed="#P" n="85"/>actioni talis reipublicae, juxta authenticam
+          <lb ed="#P" n="86"/>Que in provincia, C. Ubi de criminibus agi
+          <lb ed="#P" n="87"/>oporteat.
+        </p>
+        <p xml:id="szdleg-a76864-d1e778">
+          <lb ed="#P" n="88"/>10. Unus Episcopus non potest ab alio 
+          equa<lb break="no" ed="#P" n="89"/>li puniri.—hBddi vero solet limitatio, nisi 
+          pe<lb break="no" ed="#P" n="90"/>regrinus sit superior respectu auctoris talis
+          <lb ed="#P" n="91"/>legis, quia nullus superior potest subdi 
+          infe<lb break="no" ed="#P" n="92"/>riori quoad vim coactivam, ut si Episcopus hic
+          <lb ed="#P" n="93"/>prohibeat aliquid clericis sub poena 
+          excommu<lb break="no" ed="#P" n="94"/>nicationis ipso facto, metropolitanus, etiamsi
+          <lb ed="#P" n="95"/>in hoc episcopatu contra talem legem agat,
+          <lb ed="#P" n="96"/>non poterit incurrere illam censuram, quod
+          <lb ed="#P" n="97"/>notavit Sylv. E«communicatio, 1, n. 9, et
+          <lb ed="#P" n="98"/>Panorm. in cap. 1, de Raptoribus, n. 11, qui
+          <lb ed="#P" n="99"/>idem attigit in cap. ultim, de Foro compet.
+          <lb ed="#P" n="100"/>Idem sentit Soto in A, dist. 22, quaest. 2, ubi
+          <lb ed="#P" n="101"/>etiam ad aequalem hoc extendit, dicens neque
+          <lb ed="#P" n="102"/>Archiepiscopum, neque alium Episcopum 
+          de<lb break="no" ed="#P" n="103"/>linquentem intra dioecesim suffraganei vel
+          <lb ed="#P" n="104"/>Episcopi posse ligari censura ejus. Panorm.
+          <lb ed="#P" n="105"/>autem recte hoc declarat de superiore quoad
+          <lb ed="#P" n="106"/>jurisdictionem : nam, licet aliquis sit aequalis,
+          <lb ed="#P" n="107"/>vel etiam superior in dignitate, dum existit in
+          <lb ed="#P" n="108"/>tali episcopatu obligari potest legibus ejus:
+          <lb ed="#P" n="109"/>ergo etiam poterit ligari censuris, vel puniri
+          <lb ed="#P" n="110"/>propter delictum ibi commissum; quod tam in
+          <pb ed="#P" n="306"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Ecclesiasticis legibus, quam in civilibus verum
+          <lb ed="#P" n="2"/>est, ut sensit etiam Innocent. in cap. Cum
+          <lb ed="#P" n="3"/>inferior, de Majorit. et obedient., et sumitur
+          <lb ed="#P" n="4"/>ex l. 3, ff. de Offic. Praes. Et ratio est, quia 
+          di<lb break="no" ed="#P" n="5"/>enitas sine jurisdictione non impedit 
+          subjec<lb break="no" ed="#P" n="6"/>tionem ratione delicti, sicut non impedit 
+          obli<lb break="no" ed="#P" n="7"/>gationem servandi talem legem: unde illa 
+          di<lb break="no" ed="#P" n="8"/>gnitas est quasi per accidens ad ordinem 
+          ju<lb break="no" ed="#P" n="9"/>risdictionum. Hoc autem procedit secundum
+          <lb ed="#P" n="10"/>ordinarium jus, et nisi persona ratione talis
+          <lb ed="#P" n="11"/>dignitatis sit exempta : nam ob hanc rationem
+          <lb ed="#P" n="12"/>unus Episcopus non potest ab alio aequali 
+          pu<lb break="no" ed="#P" n="13"/>niri. At vero quando persona est jurisdictione
+          <lb ed="#P" n="14"/>superior. tunc clarum est non posse ligari ab
+          <lb ed="#P" n="15"/>inferiori, cap. Cum inferior, de Majorit. et
+          <lb ed="#P" n="16"/>obedien.: tunc autem, sicut superior non 
+          sub<lb break="no" ed="#P" n="17"/>jicitur quoad vim coactivam, seu quoad 
+          poe<lb break="no" ed="#P" n="18"/>nam, ita nec quoad vim directivam, seu 
+          obli<lb break="no" ed="#P" n="19"/>gationem quantum est ex vi praecepti, quia est
+          <lb ed="#P" n="20"/>eadem ratio, cum etiam hoc pendeat ex 
+          juris<lb break="no" ed="#P" n="21"/>dictione. Àn vero possit alia ratione obligari,
+          <lb ed="#P" n="22"/>dicemus infra disputantes de ipsomet 
+          legisla<lb break="no" ed="#P" n="23"/>tore; nam quoad hoc est eadem fere ratio.
+          <lb ed="#P" n="24"/>11. Zn objectione non esse sermonem de lege
+          <lb ed="#P" n="25"/>vel statuto, sed de praecepto, seu sententia 
+          homi<lb break="no" ed="#P" n="26"/>nis, et quid inter haec interest.—Ad objectionem
+          <lb ed="#P" n="27"/>igitur factam ex cap. A nobis, dicendum est ibi
+          <lb ed="#P" n="28"/>non esse sermonem de lege, vel statuto, sed de
+          <lb ed="#P" n="29"/>praecepto seu sententia hominis, etiam 
+          gene<lb break="no" ed="#P" n="30"/>raliter lata, ut ex textu constat et omnes 
+          in<lb break="no" ed="#P" n="31"/>terpretantur. Oportet tamen differentiam 
+          red<lb break="no" ed="#P" n="32"/>dere inter statutum et praeceptum, seu 
+          sen<lb break="no" ed="#P" n="33"/>tentiam generalem hominis. Panorm. ibi hanc
+          <lb ed="#P" n="34"/>reddit, quod sententia hominis operatur, cum
+          <lb ed="#P" n="35"/>fertur, et ideo tantum ligat illos quos tunc
+          <lb ed="#P" n="36"/>invenit habiles ; lex vero semper ligat eos qui
+          <lb ed="#P" n="37"/>de novo efficiuntur subditi. Sed hoc non 
+          pla<lb break="no" ed="#P" n="38"/>cet, primo, quia juxta cap. A nobis, talis 
+          sen<lb break="no" ed="#P" n="39"/>tentia generalis non comprehendit extraneos,
+          <lb ed="#P" n="40"/>etiamsi actu existantin territorio, quando 
+          pro<lb break="no" ed="#P" n="41"/>fertur talis sententia, et tamen, si praeceptum,
+          <lb ed="#P" n="42"/>et sententia ferretur per statutum 
+          comprehen<lb break="no" ed="#P" n="43"/>derentur : ergo, etiam supposita aequali 
+          sub<lb break="no" ed="#P" n="44"/>jectione seu praesentia, est reddenda 
+          differen<lb break="no" ed="#P" n="45"/>tia, et non tantum in ordine ad futurum 
+          tem<lb break="no" ed="#P" n="46"/>pus. Secundo, quia etiam in ordine ad futurum
+          <lb ed="#P" n="47"/>illa differentia non subsistit: nam si per 
+          prae<lb break="no" ed="#P" n="48"/>ceptum ab homine sententia fertur pro futuro
+          <lb ed="#P" n="49"/>delicto, etiam pro illo tempore durat, et pro
+          <lb ed="#P" n="50"/>illo semper loquitur, et comprehendit eos qui
+          <lb ed="#P" n="51"/>de novo ibi nascuntur, et eos qui domicilium
+          <lb ed="#P" n="52"/>denuo illuc transferunt, etiamsi non essent
+          <lb ed="#P" n="53"/>subditi tempore praecepti impositi. Item, quia
+          <lb ed="#P" n="54"/>statutum non solum praecipit, aut probibet,
+          <lb ed="#P" n="55"/>sed etiam per se punit ipso facto, et in se con-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tinet sententiam jure latam, et nihilominus
+          <lb ed="#P" n="57"/>tam obligatio praecepti quam vis sententiae
+          <lb ed="#P" n="58"/>juris extenditur ad eos qui, post primam 
+          edi<lb break="no" ed="#P" n="59"/>tionem talis statuti, veniunt ad territorium, et
+          <lb ed="#P" n="60"/>ibi delinquunt: ergo quoad hoc eadem est
+          <lb ed="#P" n="61"/>ratio de generali praecepto hominis includente
+          <lb ed="#P" n="62"/>sententiam generalem imponentem poenam
+          <lb ed="#P" n="63"/>ipso facto contra futuros transgressores talis
+          <lb ed="#P" n="64"/>praecepti: nam siin statuto consideratur illa
+          <lb ed="#P" n="65"/>permanentia, qua semper loquitur, et ideo
+          <lb ed="#P" n="66"/>semper obligat, cur non considerabitur in
+          <lb ed="#P" n="67"/>praecepto hominis, quod etiam durat juxta 
+          in<lb break="no" ed="#P" n="68"/>tentionem ejus, quamdiu ipse vivit, seu in
+          <lb ed="#P" n="69"/>officio perseverat ? Quod si in statuto fictione
+          <lb ed="#P" n="70"/>juris intelligitur ferri sententia, quando fit
+          <lb ed="#P" n="71"/>delictum in territorio, etiamsi fiat ab extraneo,
+          <lb ed="#P" n="72"/>qui denuo illuc venit, cur non eadem fictio
+          <lb ed="#P" n="73"/>juris habebit locum in sententia lata per 
+          ho<lb break="no" ed="#P" n="74"/>minis praeceptum.
+        </p>
+        <p xml:id="szdleg-a76864-d1e997">
+          <lb ed="#P" n="75"/>12. Differentia legis et puri praecepti 
+          homi<lb break="no" ed="#P" n="76"/>nis.—bico ergo differentiam sumendam esse
+          <lb ed="#P" n="77"/>ex natura legis et puri praecepti hominis: nam
+          <lb ed="#P" n="78"/>lex perpetua est, ut lib. 1, dixi; praeceptum
+          <lb ed="#P" n="79"/>autem hominis transitorium, et facile 
+          muta<lb break="no" ed="#P" n="80"/>bile: unde fit ut lex, ratione suae perpetuitatis
+          <lb ed="#P" n="81"/>eequiparetur consuetudini, et censeatur nota
+          <lb ed="#P" n="82"/>omnibus, et omnibus proposita, ut ab eis 
+          ser<lb break="no" ed="#P" n="83"/>vetur: praeceptum vero non ita aequiparatur
+          <lb ed="#P" n="84"/>consuetudini, nec illam introducit, cum facile
+          <lb ed="#P" n="85"/>mutetur, nec ita solet esse notum, et ideo
+          <lb ed="#P" n="86"/>praeceptum de se solum obligat incolas terrae,
+          <lb ed="#P" n="87"/>et subditos vere ac permanenter; statutum
+          <lb ed="#P" n="88"/>vero omnes ibi degentes: unde consideratur
+          <lb ed="#P" n="89"/>alia differentia, quod lex fertur pro territorio,
+          <lb ed="#P" n="90"/>est enim jus civitatis, ut consideravit Dartol.
+          <lb ed="#P" n="91"/>seu lex territorii, ut dixit Panormit. et ideo
+          <lb ed="#P" n="92"/>obligat personas, quasi mediante loco, id est,
+          <lb ed="#P" n="93"/>quatenus in tali loco versantur, ad eum 
+          mo<lb break="no" ed="#P" n="94"/>dum, quo interdictum locale ligat personam in
+          <lb ed="#P" n="95"/>tali loco, propter quod etiam statutum non
+          <lb ed="#P" n="96"/>obligat extra territorium personas alias 
+          subdi<lb break="no" ed="#P" n="97"/>tas, ut supra dicebamus: at vero praeceptum
+          <lb ed="#P" n="98"/>hominis seu personale directe cadit in 
+          perso<lb break="no" ed="#P" n="99"/>nas subditorum, ideoque praerequirit 
+          subjec<lb break="no" ed="#P" n="100"/>tionem, et ideo non obligat extraneos, etiam
+          <lb ed="#P" n="101"/>in loco existentes, et e contrario potest 
+          obli<lb break="no" ed="#P" n="102"/>gare subditos etiam extra territorium, ut dixi
+          <lb ed="#P" n="103"/>in 5 tom. de Censur., disputat. 5, sect. 5, ubi
+          <lb ed="#P" n="104"/>de hac difficultate plura dixi: hic autem 
+          so<lb break="no" ed="#P" n="105"/>lum indicare volui quomodo illa doctrina ad
+          <lb ed="#P" n="106"/>omnes leges humanas, etiam civiles, applicari
+          <lb ed="#P" n="107"/>potest.
+        </p>
+        <p xml:id="szdleg-a76864-d1e1071">
+          <lb ed="#P" n="108"/>13. Tertium dubium.—Advenam, facientem
+          <lb ed="#P" n="109"/>testamentum aut contractum debere servare an
+          <lb ed="#P" n="110"/>illis formum. praescriptam loci in quo est. —
+          <pb ed="#P" n="307"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Tertium punctum supra positum, est an 
+          efti<lb break="no" ed="#P" n="2"/>cacia legis dantis formam judiciis, 
+          contracti<lb break="no" ed="#P" n="3"/>bus, aut aliis similibus actionibus, et irritantis
+          <lb ed="#P" n="4"/>aliterfactas, extendatur intra territorium etiam
+          <lb ed="#P" n="5"/>ad non subditos. In quo breviter dicendum est,
+          <lb ed="#P" n="6"/>etiam quoad hoc servandam esse legem in suo
+          <lb ed="#P" n="7"/>territorio, et secundum illam esse de actu 
+          ju<lb break="no" ed="#P" n="8"/>dicandum. Ita Bartol., Jason, et alii in dicta
+          <lb ed="#P" n="9"/>l. Cunctos populos, Felin., cap. 1, de Sponsal.,
+          <lb ed="#P" n="10"/>n. 2, et n. 23 et sequentibus; et optime 
+          Pa<lb break="no" ed="#P" n="11"/>normit. 2 part. consil. in 52; Tiraquel. de
+          <lb ed="#P" n="12"/>Primogenitis, quaest. 46 et 48. Sensus autem
+          <lb ed="#P" n="13"/>assertionis est advenam, qui in hoc loco facit
+          <lb ed="#P" n="14"/>testamentum aut contractum, debere in illis
+          <lb ed="#P" n="15"/>servare formam praescriptam per leges hujus
+          <lb ed="#P" n="16"/>regni: ac proinde si, forma illa non servata,
+          <lb ed="#P" n="17"/>contractus sit irritus ex vi ejusdem legis, etiam
+          <lb ed="#P" n="18"/>factus ab extraneo erit irritus, et sic de aliis:
+          <lb ed="#P" n="19"/>ratio est, quia illa lex est regula talis actus
+          <lb ed="#P" n="20"/>quoad vim obligandi ratione loci, ut dixi: 
+          er<lb break="no" ed="#P" n="21"/>go etiam ibi obligat ad servandam formam
+          <lb ed="#P" n="22"/>operandi quam praescribit, et sicut ibi habet
+          <lb ed="#P" n="23"/>vim puniendi, ita etiam vim irritandi. Patet
+          <lb ed="#P" n="24"/>consequentia ex paritate rationis, et quia actus
+          <lb ed="#P" n="25"/>ille simpliciter est subjectus illi legi: ergo est
+          <lb ed="#P" n="26"/>subditus quoad totam efficaciam ejus. Et 
+          con<lb break="no" ed="#P" n="27"/>firmatur, quia hi actus qui certam formam et
+          <lb ed="#P" n="28"/>solemnitatem requirunt, non habent valorem
+          <lb ed="#P" n="29"/>sine adminiculo juris, l. Legitima, ff. de 
+          Pac<lb break="no" ed="#P" n="30"/>tis; tunc autem jus non concurrit, sed potius
+          <lb ed="#P" n="31"/>resistit: ergo actus non habebit valorem. 
+          De<lb break="no" ed="#P" n="32"/>nique, in hujusmodi rebus et actionibus 
+          con<lb break="no" ed="#P" n="33"/>suetudines locorum servandae sunt: ergo etiam
+          <lb ed="#P" n="34"/>leges. Et hoc ipsa etiam jura civilia docent,
+          <lb ed="#P" n="35"/>quae late referunt allegati auctores, ad quos
+          <lb ed="#P" n="36"/>proprie pertinent, et ideo non immoror.
+        </p>
+        <p xml:id="szdleg-a76864-d1e1162">
+          <lb ed="#P" n="37"/>14. Hinc infertur, jus positioum impediendo
+          <lb ed="#P" n="38"/>valorem actus, consequenter impedit 
+          obligatio<lb break="no" ed="#P" n="39"/>nem. — Quomodo teneatur advena ad tributa.
+          <lb ed="#P" n="40"/>— Hinc tamen nobis inferre licet valorem 
+          ta<lb break="no" ed="#P" n="41"/>lium actuum, et obligationem in foro 
+          conscien<lb break="no" ed="#P" n="42"/>tiae juxta hujusmodi leges spectandam esse,
+          <lb ed="#P" n="43"/>quia jus positivum impediendo valorem actus,
+          <lb ed="#P" n="44"/>consequenter impedivit obligationem ejus.
+          <lb ed="#P" n="45"/>Idem dicendum est de judiciis : nam agenda
+          <lb ed="#P" n="46"/>sunt juxta formam, et modum praescriptum
+          <lb ed="#P" n="47"/>per leges loci in quo fiunt, quibus propterea
+          <lb ed="#P" n="48"/>debet forensis litigans accommodari : alias 
+          ni<lb break="no" ed="#P" n="49"/>hil validum efficiet si per leges loci irritatum
+          <lb ed="#P" n="50"/>sit, et sic de aliis. Semper autem supponimus
+          <lb ed="#P" n="51"/>et leges esse justas, et respicere bona in tali
+          <lb ed="#P" n="52"/>loco existentia, seu actiones ibi factas, quia
+          <lb ed="#P" n="53"/>ratione loci debent subdi jurisdictioni illius
+          <lb ed="#P" n="54"/>territorii, etiamsi persona secundum se, et
+          <lb ed="#P" n="55"/>quoad conditiones personales, seu abstrahen-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tes a loco, non sit subdita, ut latius dicti 
+          auc<lb break="no" ed="#P" n="57"/>tores prosequuntur. Hic occurrebat quaestio de
+          <lb ed="#P" n="58"/>tributis, an peregrinus teneatur ea solvere:
+          <lb ed="#P" n="59"/>ex eisdem tamen principiis definienda est. Nam
+          <lb ed="#P" n="60"/>si debeatur tributum ratione rei existentis in
+          <lb ed="#P" n="61"/>loco, vel actionis quae in tali loco fit, etiam 
+          ad<lb break="no" ed="#P" n="62"/>vena illud solvere tenebitur, per se loquendo,
+          <lb ed="#P" n="63"/>et supposita justitia tributi; non vero alia,
+          <lb ed="#P" n="64"/>quae personalia sunt. De qua re tota plura in
+          <lb ed="#P" n="65"/>lib. 5 dicemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

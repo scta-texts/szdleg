@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 17</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 17</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="242"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a61279"><!-- deleg-l3c17 -->
+        <head xml:id="szdleg-a61279-Hd1e101">Caput 17</head>
+        <head xml:id="szdleg-a61279-Hd1e103" type="question-title">Quando, et quomodo incipiat obligare ex natura sua lex civilis postquam est sufficienter promulgata</head>
+        <p xml:id="szdleg-a61279-d1e106">
+          <lb ed="#P" n="8"/>CAPUT XVII.
+          <lb ed="#P" n="9"/>QUANDO, ET QUOMODO INCIPIAT OBLIGARE EX 
+          NATU<lb break="no" ed="#P" n="10"/>RA SUA LEX CIVILIS POSTQUAM EST SUFFICIENTER
+          <lb ed="#P" n="11"/>PROMULGATA.
+        </p>
+        <p xml:id="szdleg-a61279-d1e117">
+          <lb ed="#P" n="12"/>1. Status quaestionis. —Quamvis lex in 
+          ali<lb break="no" ed="#P" n="13"/>quo loco promulgata consequenter sit in suo
+          <lb ed="#P" n="14"/>esse sufficienter constituta, et habeat vim ad
+          <lb ed="#P" n="15"/>obligandum, non inde statim constat posse
+          <lb ed="#P" n="16"/>subito totam regionem pro qua fertur obligare.
+          <lb ed="#P" n="17"/>Nam, licet agens sit in se perfecte constitutum
+          <lb ed="#P" n="18"/>cum plena virtute agendi, non semper potest
+          <lb ed="#P" n="19"/>statim ac subito operari in propinquis et 
+          re<lb break="no" ed="#P" n="20"/>motis partibus sphaerae suae. Ob hanc ergo 
+          cau<lb break="no" ed="#P" n="21"/>sam de lege jam suffhicienter constituta 
+          inqui<lb break="no" ed="#P" n="22"/>rimus an statim obliget in tota sua sphaera, vel
+          <lb ed="#P" n="23"/>qua successione suam obligationem quasi 
+          dif<lb break="no" ed="#P" n="24"/>fundat. Suppono autem in praesenti solum esse
+          <lb ed="#P" n="25"/>sermonem de lege praecipiente ut sic, quantum
+          <lb ed="#P" n="26"/>ad effectum obligandi vel cogendi, quia de
+          <lb ed="#P" n="27"/>aliis effectibus irritandi actus, inhabilitandi
+          <lb ed="#P" n="28"/>personas, et revocandi priores leges, dandi vel
+          <lb ed="#P" n="29"/>auferendi privilegia, sunt peculiares 
+          difficul<lb break="no" ed="#P" n="30"/>tates quae infra suis locis tractandae sunt. 
+          Po<lb break="no" ed="#P" n="31"/>test autem quaestio haec tractari vel ex sola rei
+          <lb ed="#P" n="32"/>natura, et secluso omni jure positivo, 
+          om<lb break="no" ed="#P" n="33"/>nique speciali voluntate legislatoris, vel 
+          ad<lb break="no" ed="#P" n="34"/>juncta hac voluntate, aut communi jure 
+          posi<lb break="no" ed="#P" n="35"/>tivo.
+        </p>
+        <p xml:id="szdleg-a61279-d1e172">
+          <lb ed="#P" n="36"/>2. Primo igitur, loquendo ex natura rei, est
+          <lb ed="#P" n="37"/>opinio multorum legem humanam statim ac
+          <lb ed="#P" n="38"/>publice promulgatam in loco competente, 
+          obli<lb break="no" ed="#P" n="39"/>gare in toto territorio in quo potest obligare
+          <lb ed="#P" n="40"/>juxta potestatem et jurisdictionem legislatoris,
+          <lb ed="#P" n="41"/>nisi per ipsum legislatorem suspendatur vel
+          <lb ed="#P" n="42"/>differatur obligatio. Hoc videntur supponere
+          <lb ed="#P" n="43"/>communiter doctores statim citandi, qui 
+          tem<lb break="no" ed="#P" n="44"/>poris dilationem in hac obligatione juxta 
+          vo<lb break="no" ed="#P" n="45"/>Iuntatem legislatoris vel jus positivum putant
+          <lb ed="#P" n="46"/>esse regulandam : nam inde inferri videtur
+          <lb ed="#P" n="47"/>seclusa hujusmodi quasi suspensione positiva,
+          <lb ed="#P" n="48"/>legem de se statim ubique obligare. Et ratio
+          <lb ed="#P" n="49"/>esse potest, quia lex sufficienter promulgata
+          <lb ed="#P" n="50"/>est perfecta lex, et habet omnia requisita ad
+          <lb ed="#P" n="51"/>obligandum, et est quasi agens naturale quod
+          <lb ed="#P" n="52"/>statim agit, quantum potest. Atque hinc a for-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tiori sequitur si legislator expresse declaret se
+          <lb ed="#P" n="54"/>velle statim obligare sine ulla mora a 
+          promul<lb break="no" ed="#P" n="55"/>gatione, statim obligare illo modo, quia, si
+          <lb ed="#P" n="56"/>taciturnitas vel negatio suspensionis sufficit
+          <lb ed="#P" n="57"/>ut lex obliget propter indefinitam et absolutam
+          <lb ed="#P" n="58"/>(ut sic dicam) voluntatem legislatoris, multo
+          <lb ed="#P" n="59"/>magis suffticiet illa voluntas ita expressa. Ete
+          <lb ed="#P" n="60"/>contrario etiam fit optimum argumentum:
+          <lb ed="#P" n="61"/>nam legislator potest hoc modo obligare, si id
+          <lb ed="#P" n="62"/>expresse velit et declaret; ergo ille modus 
+          obli<lb break="no" ed="#P" n="63"/>gandi non est contra rationem naturalem;
+          <lb ed="#P" n="64"/>ergo, eo ipso quod lex per voluntatem 
+          huma<lb break="no" ed="#P" n="65"/>nam non limitetur, nec impeditur, absolute
+          <lb ed="#P" n="66"/>lata et promulgata ita obligavit. Atque hoc
+          <lb ed="#P" n="67"/>modo possunt etiam pro hac sententia citari
+          <lb ed="#P" n="68"/>auctores dicentes leges positivas expresse 
+          di<lb break="no" ed="#P" n="69"/>centes ec nunc vel ex tunc, aut aliquid 
+          aequi<lb break="no" ed="#P" n="70"/>valens, post promulgationem statim obligare
+          <lb ed="#P" n="71"/>omnes, seu in toto territorio. Quod tenet Glos.
+          <lb ed="#P" n="72"/>in Clement. 2 de Haeretic. verb. Ex tunc,
+          <lb ed="#P" n="73"/>quam ibi sequuntur doctores, et Panormitanus
+          <lb ed="#P" n="74"/>in cap. 2 de Constit. n. 7; et ibi Felin. n. 7,
+          <lb ed="#P" n="75"/>limitat. 5; Decius, Imola et alii, et Navar.
+          <lb ed="#P" n="76"/>consil. 1 de Constit., q. 4, n. 15, et in summa,
+          <lb ed="#P" n="77"/>cap. 23, n. A4.
+        </p>
+        <p xml:id="szdleg-a61279-d1e269">
+          <lb ed="#P" n="78"/>3. Refutatur praedicta opinio.—bhaec 
+          senten<lb break="no" ed="#P" n="79"/>tia sic intellecta, ut explicata est, mihi semper
+          <lb ed="#P" n="80"/>difficilis visa est, quia plane videtur excedere
+          <lb ed="#P" n="81"/>potestatem legislatoris, et esse supra 
+          conditio<lb break="no" ed="#P" n="82"/>nem legis humanae, quod statim obliget ab
+          <lb ed="#P" n="83"/>instanti promulgationis pro toto territorio, seu
+          <lb ed="#P" n="84"/>principatu legislatoris; ergo ex natura rei
+          <lb ed="#P" n="85"/>non potest ita obligare; ergo non solum 
+          ab<lb break="no" ed="#P" n="86"/>solute lata non ita obligabit, verum etiam si 
+          le<lb break="no" ed="#P" n="87"/>gislator id velit et declaret, non id efficiet,
+          <lb ed="#P" n="88"/>quia excedit potestatem : imo idem est cum
+          <lb ed="#P" n="89"/>proportione, etiamsi concedatur dilatio 
+          tem<lb break="no" ed="#P" n="90"/>poris, si illa sufficiens non sit. Declaratur 
+          an<lb break="no" ed="#P" n="91"/>tecedens, quia ad actualem obligationem legis
+          <lb ed="#P" n="92"/>per se est necessaria notitia ejus; ergo, ut 
+          pos<lb break="no" ed="#P" n="93"/>sit obligare, necessarium saltem est ut per se
+          <lb ed="#P" n="94"/>loquendo possit ad notitiam devenire : nam
+          <lb ed="#P" n="95"/>ubi non est potestas ad media, neque etiam ad
+          <lb ed="#P" n="96"/>finem erit. Sed fieri non potest ut facta 
+          pro<lb break="no" ed="#P" n="97"/>mulgatione in uno loco, lex statim sciatur ab
+          <lb ed="#P" n="98"/>omnibus subditis et in toto loco jurisdictionis;
+          <lb ed="#P" n="99"/>ergo impossibile est ut lex statim obliget, nec
+          <lb ed="#P" n="100"/>ante elapsum sufhiciens tempus intra quod 
+          le<lb break="no" ed="#P" n="101"/>gis notitia in toto territorio, per se loquendo,
+          <lb ed="#P" n="102"/>possibilis sit. Confirmatur et declaratur, quia
+          <lb ed="#P" n="103"/>promulgatio legis, ut dixi, necessaria est ad
+          <lb ed="#P" n="104"/>sufficientem divulgationem : nam haec 
+          requi<lb break="no" ed="#P" n="105"/>ritur ad obligationem ; ergo praeter 
+          promulga<lb break="no" ed="#P" n="106"/>tionem concedi debet necessario, et jure 
+          natu<lb break="no" ed="#P" n="107"/>rae, tempus suffliciens in quo fieri possit talis
+          <pb ed="#P" n="243"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>divulgatio post promulgationem ; ergo, 
+          quan<lb break="no" ed="#P" n="2"/>tumcumque velit legislator statim a 
+          promulga<lb break="no" ed="#P" n="3"/>tione omnes subditos obligare, non potest, quia
+          <lb ed="#P" n="4"/>repugnat naturali juri. Quomodo enim 
+          intel<lb break="no" ed="#P" n="5"/>ligi potest ut lex hodie promulgata Matriti
+          <lb ed="#P" n="6"/>hodie etiam obliget habitantes Conimbricae ?
+          <lb ed="#P" n="7"/>Plane id videtur supra humanam potestatem,
+          <lb ed="#P" n="8"/>quia per se est impossibile, et non tantum
+          <lb ed="#P" n="9"/>per accidens, consequi eadem die notitiam 
+          ta<lb break="no" ed="#P" n="10"/>lis legis.
+        </p>
+        <p xml:id="szdleg-a61279-d1e363">
+          <lb ed="#P" n="11"/>4. Confirmatur secundo, quia eadem est 
+          pro<lb break="no" ed="#P" n="12"/>portio legis ad communitatem unius populi in
+          <lb ed="#P" n="13"/>quo promulgatur, quae est ad totam 
+          commu<lb break="no" ed="#P" n="14"/>nitatem regni, vel populorum totius territorii
+          <lb ed="#P" n="15"/>pro quo promulgatur ; sed, silex in hoc 
+          popu<lb break="no" ed="#P" n="16"/>lo privatim vel submissa voce proferatur in
+          <lb ed="#P" n="17"/>aula regis, non potest habere vim obligandi
+          <lb ed="#P" n="18"/>communitatem totius populi, quia non est ita
+          <lb ed="#P" n="19"/>sensibiliter prolata, ut sit accommodata toti
+          <lb ed="#P" n="20"/>communitati talis populi; ergo similiter, licet
+          <lb ed="#P" n="21"/>hic sit promulgata, non satis;est ut possit 
+          obli<lb break="no" ed="#P" n="22"/>gare statim totam provinciam aut regnum,
+          <lb ed="#P" n="23"/>quia tam impossibile est legem hic 
+          promulga<lb break="no" ed="#P" n="24"/>tam statim sciri in tota Lusitania, sicut est 
+          le<lb break="no" ed="#P" n="25"/>gem promulgatam in hoc cubiculo audiri a
+          <lb ed="#P" n="26"/>tota Conimbrica. Confirmatur tertio ex D. 
+          Tho<lb break="no" ed="#P" n="27"/>ma 1. 2, q. 90, a. 4, ad 2, dicente legem 
+          obli<lb break="no" ed="#P" n="28"/>gare in quantum ejus promulgatio n omniwm
+          <lb ed="#P" n="29"/>notitiam per se, vel per alios pervenire potest.
+          <lb ed="#P" n="30"/>Et addit Cajet. et merito hoc non intelligi de
+          <lb ed="#P" n="31"/>potentia logica, quae non implicat 
+          contradic<lb break="no" ed="#P" n="32"/>tionem, sed de politica, id est, secundum 
+          ordi<lb break="no" ed="#P" n="33"/>nem vel cursum politicum. At publicatio in
+          <lb ed="#P" n="34"/>uno loco facta non potest humano modo 
+          per<lb break="no" ed="#P" n="35"/>venire ad loca distantia; ergo nec lex statim
+          <lb ed="#P" n="36"/>obligat in omnibus illis locis.
+        </p>
+        <p xml:id="szdleg-a61279-d1e422">
+          <lb ed="#P" n="37"/>5. Prima conclusio. — Propter haec ad hoc
+          <lb ed="#P" n="38"/>punctum explicandum dico primo : lex 
+          suffi<lb break="no" ed="#P" n="39"/>cienter publicata in loco debito, absque illa
+          <lb ed="#P" n="40"/>limitatione temporis ex voluntate principis aut
+          <lb ed="#P" n="41"/>determinatione juris positivi, statim incipit
+          <lb ed="#P" n="42"/>obligare ex natura sua. Haec assertio est 
+          con<lb break="no" ed="#P" n="43"/>sentanea communi sententiae propositae , et
+          <lb ed="#P" n="44"/>probatur sufficienter ex dictis circa illam. 
+          De<lb break="no" ed="#P" n="45"/>claratur praeterea, quia si legislator non 
+          praes<lb break="no" ed="#P" n="46"/>cribit certum tempus ad obligandum, non est
+          <lb ed="#P" n="47"/>major ratio admittendi tantam dilationem, vel
+          <lb ed="#P" n="48"/>majorem aut minorem ; ergo nulla 
+          admitten<lb break="no" ed="#P" n="49"/>da est; ergo statim incipit obligatio. Item ob
+          <lb ed="#P" n="50"/>hanc causam in hujusmodi rebus indefinita
+          <lb ed="#P" n="51"/>aequivalet universali, quia alias esset 
+          indeter<lb break="no" ed="#P" n="52"/>minata ac proinde inutilis. Universalitas 
+          au<lb break="no" ed="#P" n="53"/>tem in praesenti est, ut post promulgationem
+          <lb ed="#P" n="54"/>lex semper obliget ; ergo statim obligare 
+          inci<lb break="no" ed="#P" n="55"/>pit. Item hac ratione votum simpliciter fac-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tum, sine designatione temporis pro quo 
+          obli<lb break="no" ed="#P" n="57"/>gaturum est, incipit statim obligare quantum
+          <lb ed="#P" n="58"/>est ex se; ergo idem est de lege. Oportet 
+          au<lb break="no" ed="#P" n="59"/>tem in hoc notare nonnullam diversitatem 
+          in<lb break="no" ed="#P" n="60"/>ter praecepta negativa et affirmativa : nam
+          <lb ed="#P" n="61"/>priora obligant pro semper, et ideo in eis 
+          ve<lb break="no" ed="#P" n="62"/>rum est incipere obligare statim et prostatim:
+          <lb ed="#P" n="63"/>affirmativa vero non obligant pro semper, et
+          <lb ed="#P" n="64"/>ideo, licet statim etiam obligare incipiant, non
+          <lb ed="#P" n="65"/>tamen pro statim, sed pro tempore opportuno
+          <lb ed="#P" n="66"/>juxta exigentiam materiae, et praesumptam
+          <lb ed="#P" n="67"/>seu probabilem intentionem legislatoris, sicut
+          <lb ed="#P" n="68"/>in exemplo adducto de voto cum proportione
+          <lb ed="#P" n="69"/>dicunt omnes auctores.
+        </p>
+        <p xml:id="szdleg-a61279-d1e498">
+          <lb ed="#P" n="70"/>6. Secunda conclusio.— Legem incipere 
+          obli<lb break="no" ed="#P" n="71"/>gare pro prudenti arbitrio juata tempus 
+          mora<lb break="no" ed="#P" n="72"/>liter necessarium ut notitia legis haberi possit.
+          <lb ed="#P" n="73"/>— Dico secundo : lex sufficienter et absolute
+          <lb ed="#P" n="74"/>promulgata in uno loco competente, licet 
+          sta<lb break="no" ed="#P" n="75"/>tm obligare incipiat, non simul et in eodem
+          <lb ed="#P" n="76"/>momento obligat in toto territorio pro quo
+          <lb ed="#P" n="77"/>fertur, sed successive, et intra tempus 
+          morali<lb break="no" ed="#P" n="78"/>ter sufficiens ut notitia legis et promulgationis
+          <lb ed="#P" n="79"/>ejus per totum territorium diffundatur. Hanc
+          <lb ed="#P" n="80"/>assertionem videntur mihi convincere 
+          argu<lb break="no" ed="#P" n="81"/>menta facta posteriori loco. Quae licet 
+          videan<lb break="no" ed="#P" n="82"/>tur esse contra communem sententiam, non
+          <lb ed="#P" n="83"/>militabunt contra illam, si in hoc sensu 
+          expli<lb break="no" ed="#P" n="84"/>cetur, scilicet, ut lex promulgata absolute, id
+          <lb ed="#P" n="85"/>est, a legislatore non impedita, seu suspensa,
+          <lb ed="#P" n="86"/>statim natura sua obliget, ubi moraliter sciri
+          <lb ed="#P" n="87"/>potest, id est, in illo proximo et praesenti loco:
+          <lb ed="#P" n="88"/>inde vero quasi continue extendatur obligatio
+          <lb ed="#P" n="89"/>ad loca distantia intra tempus in quo prudenti
+          <lb ed="#P" n="90"/>arbitrio deferri ad illud potest notitia legis.
+          <lb ed="#P" n="91"/>Quem sensum non existimo esse alienum ab
+          <lb ed="#P" n="92"/>auctoribus allegatis pro priori sententia. 
+          Na<lb break="no" ed="#P" n="93"/>varrus enim, cum sibi objecisset quarto loco,
+          <lb ed="#P" n="94"/>quia durum est credere legem Romae 
+          promul<lb break="no" ed="#P" n="95"/>gatam intra duos menses obligare JEthiopes
+          <lb ed="#P" n="96"/>et Indos, respondet concedendo durum quidem
+          <lb ed="#P" n="97"/>et gravissimum esse dicere, omnes existentes
+          <lb ed="#P" n="98"/>in illis partibus extra Romam peccare contra
+          <lb ed="#P" n="99"/>legem post illos menses, sed non esse (ait) 
+          du<lb break="no" ed="#P" n="100"/>rwm dicere quod obligantur post tenpus quod
+          <lb ed="#P" n="101"/>vir bonus, sive judev arbitrabitur esse 
+          suffi<lb break="no" ed="#P" n="102"/>ciens, ut illi de quibus queeritur, sciant, attenta
+          <lb ed="#P" n="103"/>distantia provincie, et qualitate legis, et 
+          fre<lb break="no" ed="#P" n="104"/>quentia Lominum illius provincie habitantium
+          <lb ed="#P" n="105"/>Homee, el venientiun ad eam, et redeuntium ab
+          <lb ed="#P" n="106"/>ea; quod est aptissimum temperamentum 
+          dic<lb break="no" ed="#P" n="107"/>torum in dicto c. 2, de Constit. Haec Navarr.,
+          <lb ed="#P" n="108"/>per quae videtur clare exponere communem
+          <lb ed="#P" n="109"/>sententiam, ut non intelligatur de obligatione
+          <lb ed="#P" n="110"/>quae in momento fiat pro omnibus locis distan-
+          <pb ed="#P" n="244"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tibus, sed intra tempus prudenter 
+          existiman<lb break="no" ed="#P" n="2"/>dum. Quod profecto satis etiam indicant 
+          Pa<lb break="no" ed="#P" n="3"/>normit. supra, n. 7et 8; et Felin. n. 7;et
+          <lb ed="#P" n="4"/>Bart. in l. Omnes populi, ff. de Justit. et jur.,
+          <lb ed="#P" n="5"/>q. 5. Nam, seclusa legis determinatione certa
+          <lb ed="#P" n="6"/>et sufficiente, dicunt obligationem esse 
+          judi<lb break="no" ed="#P" n="7"/>candam prudenti arbitrio, juxta tempus 
+          mo<lb break="no" ed="#P" n="8"/>raliter necessarium ut notitia legis posset ad
+          <lb ed="#P" n="9"/>loca distantia pervenire. lIdem videntur 
+          sen<lb break="no" ed="#P" n="10"/>sisse D. Thoma et Cajet. locoallegato ; ad 
+          obliga<lb break="no" ed="#P" n="11"/>tionem enim legis requirunt ut notitia legis
+          <lb ed="#P" n="12"/>moraliter pervenire possit ubi futura est 
+          obli<lb break="no" ed="#P" n="13"/>gatio. Et expressus ibi Medin. concl. 5 dixit
+          <lb ed="#P" n="14"/>leges tunc, et non ante, esse suflicienter 
+          pro<lb break="no" ed="#P" n="15"/>mulgatas, quando sic propositae sunt, ut 
+          mo<lb break="no" ed="#P" n="16"/>raliter loquendo in omnium notitiam pervenire
+          <lb ed="#P" n="17"/>valeant.
+        </p>
+        <p xml:id="szdleg-a61279-d1e631">
+          <lb ed="#P" n="18"/>7. Respondetur objectioni.—Potest praeterea
+          <lb ed="#P" n="19"/>haec assertio sumi ex c.1de Concess. praebend.
+          <lb ed="#P" n="20"/>in 6, ibi : Lex, seu constitutio et mandatum
+          <lb ed="#P" n="21"/>nullos astringunt, nisi postquam ad. notitiam
+          <lb ed="#P" n="22"/>pervenerint eorumdem, aut nisi post tempus 
+          in<lb break="no" ed="#P" n="23"/>tra quod ignorare minime debuisset. Quae 
+          ulti<lb break="no" ed="#P" n="24"/>ma verba notanda sunt : nam in eis satis 
+          signi<lb break="no" ed="#P" n="25"/>ficat Pontifex legem non obligare nisi post
+          <lb ed="#P" n="26"/>sufticiens tempus elapsum intra quod 
+          morali<lb break="no" ed="#P" n="27"/>ter sciri posset ; nam illud est in quo ignorare
+          <lb ed="#P" n="28"/>minime debuisset. Neque contra hanc 
+          asser<lb break="no" ed="#P" n="29"/>tionem obstat ratio facta in prima sententia,
+          <lb ed="#P" n="30"/>quia, licet semel promulgata sit vera lex et
+          <lb ed="#P" n="31"/>habeat vim obligandi perfectam, non tamen
+          <lb ed="#P" n="32"/>statim, vel simul applicatur suflicienter ad
+          <lb ed="#P" n="33"/>agendum (ut sic dicam) in loca distantia, et
+          <lb ed="#P" n="34"/>ideo debet successive deferri et applicari. 
+          Ne<lb break="no" ed="#P" n="35"/>que propterea erit necesse ut in singulis 
+          pro<lb break="no" ed="#P" n="36"/>vinciis fiat nova solemnis promulgatio (ut sine
+          <lb ed="#P" n="37"/>causa colligit Medina etiam pro legibus 
+          ponti<lb break="no" ed="#P" n="38"/>ficiis, de quibus infra dicemus), nam ex 
+          natu<lb break="no" ed="#P" n="39"/>ra rei (ut nunc loquimur) sufficit illa prior, et
+          <lb ed="#P" n="40"/>per eos qui eam audiunt ad alios distantes 
+          de<lb break="no" ed="#P" n="41"/>feratur, ut D. Thomas significavit dicens satis
+          <lb ed="#P" n="42"/>esse quod notitia legis per alios possit 
+          compa<lb break="no" ed="#P" n="43"/>rari. Si autem non solum non fiat nova 
+          publi<lb break="no" ed="#P" n="44"/>catio in distantibus locis, verum etiam nec
+          <lb ed="#P" n="45"/>concedatur sufficiens tempus ut publicatio 
+          ali<lb break="no" ed="#P" n="46"/>cubi facta possit ad loca remota pervenire, non
+          <lb ed="#P" n="47"/>video quomodo possint homines existentes in
+          <lb ed="#P" n="48"/>illis remotis locis obligari, cum impossibile
+          <lb ed="#P" n="49"/>illis sit habere illius legis notitiam, et 
+          conse<lb break="no" ed="#P" n="50"/>quenter invincibiliter illam ignorent, non 
+          tan<lb break="no" ed="#P" n="51"/>tum ex accidenti, sed etiam per se, moraliter
+          <lb ed="#P" n="52"/>loquendo.
+        </p>
+        <p xml:id="szdleg-a61279-d1e709">
+          <lb ed="#P" n="53"/>8. Corollarum primumn.—Ex quibus colligo
+          <lb ed="#P" n="54"/>primo, quod, licet lex dicat es uunc vel 
+          quip<lb break="no" ed="#P" n="55"/>piam simile, non ideo incipit simul obligare
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in toto territorio pro quo fertur, quia lex 
+          hu<lb break="no" ed="#P" n="57"/>mana, sicut non potest obligare ad impossibile,
+          <lb ed="#P" n="58"/>ita nec potest obligare modo impossibili, nec
+          <lb ed="#P" n="59"/>circa talem modum aliquid statuere quod 
+          re<lb break="no" ed="#P" n="60"/>pugnet cum ratione naturali : ostensum autem
+          <lb ed="#P" n="61"/>est illum modum obligandi esse impossibilem
+          <lb ed="#P" n="62"/>et contra rationem naturalem : ergo non 
+          po<lb break="no" ed="#P" n="63"/>test ille esse sensus talium verborum. Sensus
+          <lb ed="#P" n="64"/>ergo est ut ex nunc, id est ut statim ac lex 
+          pro<lb break="no" ed="#P" n="65"/>mulgatur in loco debito, sine ulla mora 
+          obli<lb break="no" ed="#P" n="66"/>gare incipiat omnes ad quorum notitiam 
+          mo<lb break="no" ed="#P" n="67"/>raliter devenire potest, et ex tunc etiam 
+          exten<lb break="no" ed="#P" n="68"/>datur obligatio ad omnes prout creverit etiam
+          <lb ed="#P" n="69"/>moralis potestas diffundendi notitiam ad 
+          om<lb break="no" ed="#P" n="70"/>nes. Et ideo dixit Medina supra, 
+          promulga<lb break="no" ed="#P" n="71"/>tionem legis non fieri in instanti, aut in parvo
+          <lb ed="#P" n="72"/>tempore, sed in temporis spatio quo possit ad
+          <lb ed="#P" n="73"/>notitiam omnium devenire. Quod sano modo
+          <lb ed="#P" n="74"/>intellectum mihi valde placet : nam, licet 
+          pu<lb break="no" ed="#P" n="75"/>blicatio prima solemnis brevi tempore fiat et
+          <lb ed="#P" n="76"/>finiatur physice (ut sic dicam), tamen non
+          <lb ed="#P" n="77"/>censetur moraliter esse completa, donec sonus
+          <lb ed="#P" n="78"/>ejus possit ad loca distantia pervenire, quod
+          <lb ed="#P" n="79"/>non fit parvo tempore: imo nec certo ac 
+          de<lb break="no" ed="#P" n="80"/>terminato, sed prudenti arbitrio opus est, ut
+          <lb ed="#P" n="81"/>doctores supra allegati dixerunt. Haec autem
+          <lb ed="#P" n="82"/>intelligenda sunt de obligatione legis, ut in
+          <lb ed="#P" n="83"/>principio dixi : nam si sermo sit de aliis 
+          effec<lb break="no" ed="#P" n="84"/>tibus, ut de irritatione actus, vel de poena ipso
+          <lb ed="#P" n="85"/>facto incurrenda, potest esse speciale dubium
+          <lb ed="#P" n="86"/>de sensu illius particulae ex tunc, de quo infra
+          <lb ed="#P" n="87"/>suis locis et paulo inferius aliquid adjiciam.
+        </p>
+        <p xml:id="szdleg-a61279-d1e791">
+          <lb ed="#P" n="88"/>9. Secundum corollarium.—Secundo, infero
+          <lb ed="#P" n="89"/>quod, licet legislator in ipsa lege designet 
+          ex<lb break="no" ed="#P" n="90"/>presse certum tempus w£t ex tunc lex obliget,
+          <lb ed="#P" n="91"/>semper est id accipiendum vel quoad 
+          incep<lb break="no" ed="#P" n="92"/>tionem obligationis, vel quoad illa loca pro
+          <lb ed="#P" n="93"/>quibus tantum tempus moraliter sufficit : 
+          fre<lb break="no" ed="#P" n="94"/>quentiusque illa dilatio ponitur ad 
+          suspenden<lb break="no" ed="#P" n="95"/>dam obligationem intra illud tempus, etiam
+          <lb ed="#P" n="96"/>pro illis locis in quibus lex posset ex natura
+          <lb ed="#P" n="97"/>rei obligare a puncto promulgationis, nisi 
+          le<lb break="no" ed="#P" n="98"/>gislator illam restringeret; ut patet ex 
+          Authen<lb break="no" ed="#P" n="99"/>tica Ut facte nove constitutiones, quam 
+          sta<lb break="no" ed="#P" n="100"/>tim tractabimus. Et tunc lex incipiet obligare
+          <lb ed="#P" n="101"/>finito illo tempore, simulque obligabit in toto
+          <lb ed="#P" n="102"/>territorio, si tempus illud sit suflficiens ad 
+          di<lb break="no" ed="#P" n="103"/>vulgationem legis per totum illud. Quia haec
+          <lb ed="#P" n="104"/>est intentio talium legum, et nihil involvit
+          <lb ed="#P" n="105"/>repugnans legi naturali. Et ita sentit aperte
+          <lb ed="#P" n="106"/>Navar. dicta quaest. 4, n. 17. Si vero tempus
+          <lb ed="#P" n="107"/>illud non sufficit pro locis distantioribus, quoad
+          <lb ed="#P" n="108"/>illa servanda est regula data, et extendendum
+          <lb ed="#P" n="109"/>est tempus prudenti arbitrio, quantum necesse
+          <lb ed="#P" n="110"/>fuerit ut promulgationis notitia possit ad illas
+          <pb ed="#P" n="245"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>remotas partes pervenire, servata proportione
+          <lb ed="#P" n="2"/>ad initium obligationis. Tunc autem tempus
+          <lb ed="#P" n="3"/>illud computandum erit a prima publicatione
+          <lb ed="#P" n="4"/>legis, quia id sufficit ad consummationem 
+          pro<lb break="no" ed="#P" n="5"/>mulgationis. Quae omnia ex his quae de jure
+          <lb ed="#P" n="6"/>positivo dicemus clariora fient.
+        </p>
+        <p xml:id="szdleg-a61279-d1e861">
+          <lb ed="#P" n="7"/>10. Tertium corollarium. — Tertio, infero
+          <lb ed="#P" n="8"/>legem indefinite latam et promulgatam non
+          <lb ed="#P" n="9"/>obligare simul omnes subditos pro quibus 
+          fer<lb break="no" ed="#P" n="10"/>tur. lta sentit Navar. n. 17, dum ait ideo juxta
+          <lb ed="#P" n="11"/>jus civile legem non obligare intra duos 
+          men<lb break="no" ed="#P" n="12"/>ses a promulgatione, ut lex non prius liget
+          <lb ed="#P" n="13"/>quosdam subditos quam alios; sed omnes 
+          in<lb break="no" ed="#P" n="14"/>cipiat simul obligare, et ita in hoc servetur
+          <lb ed="#P" n="15"/>major aequalitas : ergo per argumentum a
+          <lb ed="#P" n="16"/>contrario, si ex jure communi vel voluntate
+          <lb ed="#P" n="17"/>principis nulla fiat suspensio vel determinatio
+          <lb ed="#P" n="18"/>temporis, lex prius obligabit quosdam quam
+          <lb ed="#P" n="19"/>alios, scilicet, propinquiores quam remotos:
+          <lb ed="#P" n="20"/>ratio autem est, quia prius est sufficienter
+          <lb ed="#P" n="21"/>promulgata pro vicinis seu praesentibus quam
+          <lb ed="#P" n="22"/>pro distantibus. Et in eodem sensu dixit 
+          Me<lb break="no" ed="#P" n="23"/>dina, supra, posse legem esse sufficienter 
+          pro<lb break="no" ed="#P" n="24"/>mulgatam respectu quorumdam, et respectu
+          <lb ed="#P" n="25"/>aliorum non esse satis propositam.
+        </p>
+        <p xml:id="szdleg-a61279-d1e905">
+          <lb ed="#P" n="26"/>11. Quartum corollarium. —Quarto, infero,
+          <lb ed="#P" n="27"/>post elapsum sufficiens tempus a solemni 
+          pu<lb break="no" ed="#P" n="28"/>blicatione legis ut ejus notitia per totum 
+          ter<lb break="no" ed="#P" n="29"/>ritorium moraliter diffundatur, absolute 
+          lo<lb break="no" ed="#P" n="30"/>quendo, obligat in toto illo et omnes de illo,
+          <lb ed="#P" n="31"/>etiamsi fortasse talis notitia, ob incuriam 
+          ho<lb break="no" ed="#P" n="32"/>minum, vel casu aliquo, ad plures subditos vel
+          <lb ed="#P" n="33"/>etiam ad aiiquam partem territorii non 
+          perve<lb break="no" ed="#P" n="34"/>nerit. Hoc plane colligitur ex doctrina D. 
+          Tho<lb break="no" ed="#P" n="35"/>mae supra citata, quia ad obligationem legis
+          <lb ed="#P" n="36"/>solum requirit ut notitia ejus habeatur vel
+          <lb ed="#P" n="37"/>possit haberi: sed quando facta est solemnis
+          <lb ed="#P" n="38"/>publicatio et tempus sufficiens elapsum est,
+          <lb ed="#P" n="39"/>poterat notitia legis ad omnes pervenire : ergo
+          <lb ed="#P" n="40"/>hoc satis est ut obliget, licet casu non 
+          perve<lb break="no" ed="#P" n="41"/>nerit. Praeterea, in illo casu cessat ratio a 
+          no<lb break="no" ed="#P" n="42"/>bis facta, quia notitia legis non est tunc per
+          <lb ed="#P" n="43"/>se et humano modo impossibilis : leges autem
+          <lb ed="#P" n="44"/>non considerant ea quae per accidens sunt.
+        </p>
+        <p xml:id="szdleg-a61279-d1e949">
+          <lb ed="#P" n="45"/>12. Obviatur dubiolo. — Dices : quamvis 
+          no<lb break="no" ed="#P" n="46"/>titia legis potuerit pervenire ad partes 
+          remo<lb break="no" ed="#P" n="47"/>tas, si de facto non pervenit, non obligat 
+          sub<lb break="no" ed="#P" n="48"/>ditos ibi habitantes : imo, licet illuc 
+          pervene<lb break="no" ed="#P" n="49"/>rit, non tamen ad omnes personas, non obligat
+          <lb ed="#P" n="50"/>eos qui nihil de ea audierunt sine ipsorum
+          <lb ed="#P" n="51"/>culpa : ergo non satis est potuisse pervenire
+          <lb ed="#P" n="52"/>notitiam legis ad partes illas vel ad personas,
+          <lb ed="#P" n="53"/>nisi pervenerit. Antecedens patet, quia illi non
+          <lb ed="#P" n="54"/>peccant non servando talem legem, et 
+          conse<lb break="no" ed="#P" n="55"/>quenter non incurrunt poenam ejus; ergo non
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>obligantur lege. E converso autem, si modo
+          <lb ed="#P" n="57"/>aliquo extraordinario, ut per Angelos malos
+          <lb ed="#P" n="58"/>vel bonos aliquis existens in India sciret eodem
+          <lb ed="#P" n="59"/>die vel mense legem promulgatam Matriti,
+          <lb ed="#P" n="60"/>seclusa omni determinatione positiva 
+          obliga<lb break="no" ed="#P" n="61"/>retur illa lege, et peccaret violando illam : ergo
+          <lb ed="#P" n="62"/>statim a principio est sufficiens virtus ex parte
+          <lb ed="#P" n="63"/>legis ad obligandum aequaliter in utroque casu,
+          <lb ed="#P" n="64"/>si post publicationem habeatur notitia, 
+          solum<lb break="no" ed="#P" n="65"/>que erit differentia, quia in hoc tempore 
+          bre<lb break="no" ed="#P" n="66"/>viori est frequentior ac quasi per se necessaria
+          <lb ed="#P" n="67"/>excusatio : in alio vero est per accidens et rara,
+          <lb ed="#P" n="68"/>et ideo erit differentia quoad forum externum,
+          <lb ed="#P" n="69"/>quia, quando tempus est breve et insufficiens,
+          <lb ed="#P" n="70"/>praesumitur ignorantia invincibilis : non vero
+          <lb ed="#P" n="71"/>quando tempus est sufficiens : in re autem ipsa
+          <lb ed="#P" n="72"/>et in veritate nulla videtur esse differentia.
+        </p>
+        <p xml:id="szdleg-a61279-d1e1014">
+          <lb ed="#P" n="73"/>13. Respondeo aliquos existimare 
+          differen<lb break="no" ed="#P" n="74"/>tiam hanc reduci ad quaestionem de vocabulo,
+          <lb ed="#P" n="75"/>an in illo casu dicendum sit, legem non 
+          obli<lb break="no" ed="#P" n="76"/>gare, vel subditos ignorantes excusari. Dico
+          <lb ed="#P" n="77"/>tamen hoc fortasse habere locum quando 
+          igno<lb break="no" ed="#P" n="78"/>ratio est post tempus de se sufficiens ad 
+          haben<lb break="no" ed="#P" n="79"/>dam notitiam legis, de quo modo loquendi
+          <lb ed="#P" n="80"/>paulo post dicam. At vero, quando tempus de
+          <lb ed="#P" n="81"/>se est insufficiens, dico non in modo tantum
+          <lb ed="#P" n="82"/>loquendi, sed in re ipsa legem non obligare
+          <lb ed="#P" n="83"/>infra illud tempus pro remotissimis partibus,
+          <lb ed="#P" n="84"/>eodem plane modo quo non obligaret in curia
+          <lb ed="#P" n="85"/>principis, si non fuisset in illa publice 
+          propo<lb break="no" ed="#P" n="86"/>sita, etiamsi esset edita cum pleno consilio ac
+          <lb ed="#P" n="87"/>deliberatione, quia aeque est impossibilis 
+          noti<lb break="no" ed="#P" n="88"/>tia legis pro talibus locis, servata proportione.
+          <lb ed="#P" n="89"/>Imo, quodammodo est impossibilior notitia in
+          <lb ed="#P" n="90"/>partibus remotis statim post publicationem,
+          <lb ed="#P" n="91"/>quam sit in eodem loco ante eamdem 
+          publica<lb break="no" ed="#P" n="92"/>tionem, quia facilius est nosse Matriti eodem
+          <lb ed="#P" n="93"/>die quae rex secrete statuit sine publicatione,
+          <lb ed="#P" n="94"/>quam scire Neapoli quae eodem die Matriti
+          <lb ed="#P" n="95"/>publice evulgavit. Itaque in eo casu non solum
+          <lb ed="#P" n="96"/>est excusatio ex parte subditi, sed etiam 
+          in<lb break="no" ed="#P" n="97"/>sufficientia ex parte legis, et idec simpliciter
+          <lb ed="#P" n="98"/>non obligat, vel quoad efficaciam, vel quoad
+          <lb ed="#P" n="99"/>sufficientiam (ut sic dicam). Quando vero 
+          no<lb break="no" ed="#P" n="100"/>titia promulgationis legis potuit pervenire, et
+          <lb ed="#P" n="101"/>casu non pervenit, lex de se sufficienter 
+          obli<lb break="no" ed="#P" n="102"/>gat, licet de facto non liget ignorantes. Quae
+          <lb ed="#P" n="103"/>differentia licet forte quoad effectum 
+          obliga<lb break="no" ed="#P" n="104"/>tionis non habeat in re morali diversitatem
+          <lb ed="#P" n="105"/>ordinarie loquendo, nihilominus quoad alios
+          <lb ed="#P" n="106"/>effectus, praesertim irritandi aut inhabilitandi,
+          <lb ed="#P" n="107"/>potest illam habere, ut infra in propriis locis
+          <lb ed="#P" n="108"/>dicetur.
+        </p>
+        <p xml:id="szdleg-a61279-d1e1095">
+          <lb ed="#P" n="109"/>14. Et praeterea in illo extraordinario casu
+          <lb ed="#P" n="110"/>credo esse diversitatem etiam quoad obligatio-
+          <pb ed="#P" n="246"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nem. Nam si aliquis in India existens industria
+          <lb ed="#P" n="2"/>daemonis haberet notitiam eorum quae in 
+          His<lb break="no" ed="#P" n="3"/>pania geruntur ante tempus in quo posset 
+          hu<lb break="no" ed="#P" n="4"/>mano modo talis notitia illuc pervenire, ille
+          <lb ed="#P" n="5"/>sciens legem in Hispania promulgatam, infra
+          <lb ed="#P" n="6"/>illud non obligaretur illa. Quia respectu illius
+          <lb ed="#P" n="7"/>re vera non est sufficienter promulgata, et illa
+          <lb ed="#P" n="8"/>notitia per Angelum collata non pertinet ad
+          <lb ed="#P" n="9"/>promulgationem nec ad humanam pnotitiam.
+          <lb ed="#P" n="10"/>Quod tamen secus esset si post tempus 
+          suffi<lb break="no" ed="#P" n="11"/>ciens, et post promulgaticnem de se 
+          consum<lb break="no" ed="#P" n="12"/>matam aliquis reciperet illo extraordinario
+          <lb ed="#P" n="13"/>modo divino vel angelico notitiam legis ; nam
+          <lb ed="#P" n="14"/>sine dubio obligaretur lege, quia lex de se
+          <lb ed="#P" n="15"/>jam sufflicienter obligabat, et impedimentum
+          <lb ed="#P" n="16"/>erat accidentale, quod sublatum est, et nihil
+          <lb ed="#P" n="17"/>refert quod per hunc vel illum, hoc vel illo
+          <lb ed="#P" n="18"/>modo auferatur. Et ita sufficienter responsum
+          <lb ed="#P" n="19"/>est ad objectionem, et omnia clariora fient in
+          <lb ed="#P" n="20"/>puncto sequenti.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

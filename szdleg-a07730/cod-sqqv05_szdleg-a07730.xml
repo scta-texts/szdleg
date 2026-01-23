@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7 UTRUM DE RATIONE LEGIS SIT UT PROPTER 
+          COMMUNE BONUM FERATUR</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7 UTRUM DE RATIONE LEGIS SIT UT PROPTER 
+            COMMUNE BONUM FERATUR</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="29"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a07730"><!-- deleg-l1c7 -->
+        <head xml:id="szdleg-a07730-Hd1e101">Caput 7</head>
+        <head xml:id="szdleg-a07730-Hd1e103" type="quesiton-title">UTRUM DE RATIONE LEGIS SIT UT PROPTER 
+          COM<lb break="no" ed="#P" n="102"/>MUNE BONUM FERATUR</head>
+        <p xml:id="szdleg-a07730-d1e108">
+          <lb ed="#P" n="103"/>CAPUT VII.
+          <lb ed="#P" n="104"/>UTRUM DE RATIONE LEGIS SIT UT PROPTER 
+          COM<lb break="no" ed="#P" n="105"/>MUNE BONUM FERATUR.
+        </p>
+        <p xml:id="szdleg-a07730-d1e117">
+          <lb ed="#P" n="106"/>1. De ratione legis esse ob commune bonum
+          <lb ed="#P" n="107"/>ferri.—Ex hac conditionc legis videntur 
+          maxi<lb break="no" ed="#P" n="108"/>ma ex parte aliae pendere, et ideo secundo
+          <pb ed="#P" n="30"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>loco illam constituimus, licet Isidorus ultimam
+          <lb ed="#P" n="2"/>eam posuerit : simulque intrinsecum finem
+          <lb ed="#P" n="3"/>legis declarabimus. In quaestione ergo 
+          propo<lb break="no" ed="#P" n="4"/>sita nulla est inter auctores controversia, sed
+          <lb ed="#P" n="5"/>omnium commune axioma est, de ratione et
+          <lb ed="#P" n="6"/>substantia legis esse, ut pro communi bono
+          <lb ed="#P" n="7"/>feratur: ita ut propter illud praecipue tradatur.
+          <lb ed="#P" n="8"/>Ita docet divus Thomas, dicta quaest. 90, ubi
+          <lb ed="#P" n="9"/>Cajetanus. Conradus et alii moderni, Soto,
+          <lb ed="#P" n="10"/>lib. 1, de Just., quaest. 1, a. 2, Castro, lib. 1,
+          <lb ed="#P" n="11"/>de Lege poenali, capite 1, Antoninus, 1 part.,
+          <lb ed="#P" n="12"/>tit. 11, c.2, S l, et tt. 17, 53, et Summistae
+          <lb ed="#P" n="13"/>omnes verbo Zez. Et bene Navarrus, in 
+          com<lb break="no" ed="#P" n="14"/>ment. de Finibus, n. 28, Gregorius Lopez, in
+          <lb ed="#P" n="15"/>l. 9, tit. 1, part. 1, ubi Alphonsus, Hispaniae
+          <lb ed="#P" n="16"/>rex, eamdem conditionem in suis legibus 
+          re<lb break="no" ed="#P" n="17"/>quirit : et ita etiam intelligunt juris civilis
+          <lb ed="#P" n="18"/>interpretes libro primo, ff de Legibus, dicentes
+          <lb ed="#P" n="19"/>legem debere esse comune praceptum, id est,
+          <lb ed="#P" n="20"/>pro communà uliitate statutum, ut ibi Glossa
+          <lb ed="#P" n="21"/>exponit, quam Bartholomaeus Jason et alii,
+          <lb ed="#P" n="22"/>sequuntur. Clarius id docuit Isidorus, in dicto
+          <lb ed="#P" n="23"/>capite, Erit autem lem, d. 4, ut capite 
+          praece<lb break="no" ed="#P" n="24"/>denti explicui, et sequuntur ibi canonistae.
+        </p>
+        <p xml:id="szdleg-a07730-d1e182">
+          <lb ed="#P" n="25"/>2. Sumitur praeterea haec veritas ex 
+          Aristo<lb break="no" ed="#P" n="26"/>tele, qui, lib. 3 Ethic., cap. 6, ait finem 
+          civi<lb break="no" ed="#P" n="27"/>tatis esse bene ac feliciter vivere, et ideo 
+          sub<lb break="no" ed="#P" n="28"/>dit: De cirtute et vitio publice cogitant, 
+          qui<lb break="no" ed="#P" n="29"/>cumque curam habent bene instituendi civitatem,
+          <lb ed="#P" n="30"/>utique per leges. Unde in lib. 4, cap. 1, addit:
+          <lb ed="#P" n="31"/>Leges ad rempublicam esse accommodandas ,
+          <lb ed="#P" n="32"/>non rempublicam ad leges. Sic Marsilius 
+          Fici<lb break="no" ed="#P" n="33"/>nus, in argumento dialogi Minos Platonis ex
+          <lb ed="#P" n="34"/>ejus mente, tum ibi, tum in libris de Legibus
+          <lb ed="#P" n="35"/>et Repub., colligit talem legis descriptionem:
+          <lb ed="#P" n="36"/>E'st vera gubernandi ratio, que ad finem 
+          opti<lb break="no" ed="#P" n="37"/>mun per commoda media gubernata dirigit.
+          <lb ed="#P" n="38"/>Quin potius Plato, in eodem Dialogo, et 
+          re<lb break="no" ed="#P" n="39"/>giam legem appellat eam, quae in civitatis 
+          or<lb break="no" ed="#P" n="40"/>dine et gubernandi ratione, quod rectum est
+          <lb ed="#P" n="41"/>constituit. Et in dialogo Hippias, seu de 
+          Pul<lb break="no" ed="#P" n="42"/>chro, parum a principio: Conditur (ait), mea
+          <lb ed="#P" n="43"/>quidem sententia, utilitatis gratia lem, et ut
+          <lb ed="#P" n="44"/>macunwum civitati bonwm legem concedunt 
+          le<lb break="no" ed="#P" n="45"/>gislatores, legeque sublata, legitime in civitate
+          <lb ed="#P" n="46"/>vivere non possumus. Et lib. 1, de Legib., late
+          <lb ed="#P" n="47"/>ostendit, leges esse virtutis gratia conditas, et
+          <lb ed="#P" n="48"/>ob communem pacem et felicitatem. Idem 
+          la<lb break="no" ed="#P" n="49"/>tissime Cicero, lib. 3, de Leg., Plutarchus, in
+          <lb ed="#P" n="50"/>Probl., in 40, ait omnium pulcherrimum in
+          <lb ed="#P" n="51"/>civitate judicari bonitatem legum, quod 
+          nimi<lb break="no" ed="#P" n="52"/>rum commune illius bonum maxime 
+          procu<lb break="no" ed="#P" n="53"/>rent.
+        </p>
+        <p xml:id="szdleg-a07730-d1e248">
+          <lb ed="#P" n="54"/>3. Et quidem veritas haec per se patens est
+          <lb ed="#P" n="55"/>in legibus divinis, ideoque probare illam ne-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cesse non est. Nam licet ad divinum honorem
+          <lb ed="#P" n="57"/>necessario ordinentur (non enim potest Deus
+          <lb ed="#P" n="58"/>quidquam extra se velle, vel operari, nisi 
+          pro<lb break="no" ed="#P" n="59"/>pter seipsum) tamen in eis non quaerit suam
+          <lb ed="#P" n="60"/>utilitatem, sed hominum bonum et felicitatem.
+          <lb ed="#P" n="61"/>Unde, quia divina opera perfectissima sunt, et
+          <lb ed="#P" n="62"/>maxime proportionata, sicut leges divinae alicui
+          <lb ed="#P" n="63"/>communitati tribuuntur, ita etiam dantur
+          <lb ed="#P" n="64"/>propter ejus commune bonum et felicitatem,
+          <lb ed="#P" n="65"/>ut facile etiam inductione constare potest, tam
+          <lb ed="#P" n="66"/>in lege naturali quam in divinis positivis. 
+          Ne<lb break="no" ed="#P" n="67"/>que obstat quod per has leges saepe intendit
+          <lb ed="#P" n="68"/>DEUS privatum commodum hujus, vel illius
+          <lb ed="#P" n="69"/>persona, ut per legem poenitentiae salutem
+          <lb ed="#P" n="70"/>ipsius peccatoris, et sic de aliis: non (inquam)
+          <lb ed="#P" n="71"/>hoc obstat; tum quia bonum singulorum, ut
+          <lb ed="#P" n="72"/>statim latius dicam, sub communi 
+          compre<lb break="no" ed="#P" n="73"/>henditur, quando bonum unius tale non est
+          <lb ed="#P" n="74"/>ut excludat commune, sed potius est tale, ut
+          <lb ed="#P" n="75"/>in singulis requiratur, ex vi talis legis, ut 
+          ap<lb break="no" ed="#P" n="76"/>plicatae ad singulos, ut ita ex bonis singulorum
+          <lb ed="#P" n="77"/>consurgat commune bonum; tum etiam, quia
+          <lb ed="#P" n="78"/>leges divinae praesertim referuntur ad 
+          felicita<lb break="no" ed="#P" n="79"/>lem aeternam, quae secundum se commune
+          <lb ed="#P" n="80"/>bonum est, et in unoquoque individuo est per
+          <lb ed="#P" n="81"/>se, et propter se intenta etiam sine ordine ad
+          <lb ed="#P" n="82"/>aliam communitatem. Propter quod dixit 
+          di<lb break="no" ed="#P" n="83"/>vus Thomas, 1 part., quaest. 23, articulo T7, et
+          <lb ed="#P" n="84"/>quaest. 98, articulo 1, humanarum animarum
+          <lb ed="#P" n="85"/>multiplicationem, etiamsi tantum numero 
+          dif<lb break="no" ed="#P" n="86"/>ferant, non esse tantum per accidens, sed per
+          <lb ed="#P" n="87"/>se intentam propter suam immortalitatem et
+          <lb ed="#P" n="88"/>felicitatis capacitatem.
+        </p>
+        <p xml:id="szdleg-a07730-d1e329">
+          <lb ed="#P" n="89"/>4. De legibus autem humanis, cujuscumque
+          <lb ed="#P" n="90"/>ordinis sint, ratio sumenda est ex praecedenti
+          <lb ed="#P" n="91"/>conditione ; nam sicut leges communitati 
+          im<lb break="no" ed="#P" n="92"/>ponuntur, ita propter bonum communitatis
+          <lb ed="#P" n="93"/>praecipue ferri debent, alioquin inordinatae
+          <lb ed="#P" n="94"/>essent. Nam contra omnem rectitudinem est,
+          <lb ed="#P" n="95"/>bonum commune ad privatum ordinare, seu
+          <lb ed="#P" n="96"/>totum ad partem propter ipsam referre; igitur
+          <lb ed="#P" n="97"/>cum lex pro communitate feratur, illius 
+          bo<lb break="no" ed="#P" n="98"/>num per se primo procurare debet. Item ex
+          <lb ed="#P" n="99"/>ordine finium sumitur optima ratio: nam
+          <lb ed="#P" n="100"/>finis debet esse proportionatus actui, ejusque
+          <lb ed="#P" n="101"/>jrincipio et facultati; sed lex est regula 
+          com<lb break="no" ed="#P" n="102"/>munis operationum moralium : ergo et 
+          pri<lb break="no" ed="#P" n="103"/>mum principium moralium operationum 
+          de<lb break="no" ed="#P" n="104"/>bet esse primum principium legis: sed finis
+          <lb ed="#P" n="105"/>ultimus, seu felicitas est primum principium
+          <lb ed="#P" n="106"/>moralium operationum : nam in moralibus
+          <lb ed="#P" n="107"/>finis est principium operandi, et ita ultimus
+          <lb ed="#P" n="108"/>finis est primum principium talium operum:
+          <lb ed="#P" n="109"/>bonum autem commune, seu felicitas civitatis
+          <lb ed="#P" n="110"/>est ultimus finis ejus in suo ordine: ergo illud
+          <pb ed="#P" n="31"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>debet esse primum principium legis: debet
+          <lb ed="#P" n="2"/>ergo esse lex propter commune bonum. Qui
+          <lb ed="#P" n="3"/>fere est discursus D. Thomae, in d. art. 2, qui
+          <lb ed="#P" n="4"/>potest egregie illustrari ex doctrina Augustini,
+          <lb ed="#P" n="5"/>lib. 19, de Civit., c. 16, ubi ex debito ordine
+          <lb ed="#P" n="6"/>partis ad totum, et unius domus ad civitatem
+          <lb ed="#P" n="7"/>(cujus est, ut inquit, initium, seu particula)
+          <lb ed="#P" n="8"/>colligit, ad pacem civium pacem domesticam
+          <lb ed="#P" n="9"/>referri : et subjungit : 7ta fit, ut ex lege 
+          civi<lb break="no" ed="#P" n="10"/>tatis precepta sumere patrem familias 
+          opor<lb break="no" ed="#P" n="11"/>teat, quibus domum suam sic regat, ut sit paci
+          <lb ed="#P" n="12"/>accommodaíta civitatis, ergo multo magis (
+          se<lb break="no" ed="#P" n="13"/>cundum Augustinum)leges civitatis debent ad
+          <lb ed="#P" n="14"/>communem pacem et bonum civitatis 
+          ordi<lb break="no" ed="#P" n="15"/>nari.
+        </p>
+        <p xml:id="szdleg-a07730-d1e416">
+          <lb ed="#P" n="16"/>5. Alia manifesta ratio sumi potest ex 
+          ori<lb break="no" ed="#P" n="17"/>gine humanae legis, quia potestas gubernativa,
+          <lb ed="#P" n="18"/>quae est in hominibus, vel est immediate a Deo,
+          <lb ed="#P" n="19"/>ut contingit in potestate spirituali, vel est 
+          im<lb break="no" ed="#P" n="20"/>mediate ab ipsis hominibus, ut in potestate
+          <lb ed="#P" n="21"/>pure temporali : utroque autem modo talis 
+          po<lb break="no" ed="#P" n="22"/>testas est praecipue data propter commune 
+          bo<lb break="no" ed="#P" n="23"/>num communitatis : ergo hoc bonum debet
+          <lb ed="#P" n="24"/>intendi in legibus ferendis. Minor quoad 
+          prio<lb break="no" ed="#P" n="25"/>rem partem de spirituah potestate est evidens
+          <lb ed="#P" n="26"/>in Scriptura : nam propterea Praelati 
+          vocan<lb break="no" ed="#P" n="27"/>tur pastores, quia animam suam debent 
+          pone<lb break="no" ed="#P" n="28"/>re pro ovibus suis : et dispensatores, non 
+          do<lb break="no" ed="#P" n="29"/>mini; et ministri Dei, non causae primariae :
+          <lb ed="#P" n="30"/>ergo tenentur divinae intentioni conformari in
+          <lb ed="#P" n="31"/>usu talis potestatis : Deus autem commune
+          <lb ed="#P" n="32"/>bonum ipsorum hominum principaliter 
+          inten<lb break="no" ed="#P" n="33"/>dit : ergo etiam ministri ad hoc tenentur. Et
+          <lb ed="#P" n="34"/>ideo gravissime in Scriptura reprehenduntur,
+          <lb ed="#P" n="35"/>qui hac potestate in suum privatum 
+          commo<lb break="no" ed="#P" n="36"/>dum abutuntur. (Quando vero potestas data est
+          <lb ed="#P" n="37"/>immediate ab ipsis hominibus, evidentissimum
+          <lb ed="#P" n="38"/>est, non esse propter principis utilitatem, sed
+          <lb ed="#P" n="39"/>propter commune bonum eorum, qui illam
+          <lb ed="#P" n="40"/>contulerunt, et ideo Reges ministri reipublicae
+          <lb ed="#P" n="41"/>appellantur. Adde etiam esse ministros Dei ad
+          <lb ed="#P" n="42"/>Roman. 13, et Sapient. 6: Cum essent ministri
+          <lb ed="#P" n="43"/>regni ejus, etc. Debent ergo ea potestate uti
+          <lb ed="#P" n="44"/>in bonum reipublicae, a qua et propter quam
+          <lb ed="#P" n="45"/>illam acceperunt. Propter quod recte dixit
+          <lb ed="#P" n="46"/>Basilius, hom. 12, in initium Proverb., in hoc
+          <lb ed="#P" n="47"/>differre tyrannum a rege, quod ille propriam,
+          <lb ed="#P" n="48"/>hic communem utilitatem in suo regimine
+          <lb ed="#P" n="49"/>quaerit. Ouod etiam tradi: Aristoteles 8 Ethic.,
+          <lb ed="#P" n="50"/>cap. 10 et 3 Politicorum, cap. 5, et consentit
+          <lb ed="#P" n="51"/>D. Thomas, 2. 2, q. 42, art. 2, ad 3, et lib. 3,
+          <lb ed="#P" n="52"/>de Rgimin. princip., c. 11.Jam vero probatur
+          <lb ed="#P" n="53"/>prima consequentia, quia unus ex praecipuis
+          <lb ed="#P" n="54"/>actibus hujus potestatis est lex : nam est veluti
+          <lb ed="#P" n="55"/>instrumentum , per quod princeps moraliter
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>influit in rempublicam, ut illam gubernet : 
+          de<lb break="no" ed="#P" n="57"/>bet ergo esse lex propter commune bonum
+          <lb ed="#P" n="58"/>ipsius reipublicae.
+        </p>
+        <p xml:id="szdleg-a07730-d1e514">
+          <lb ed="#P" n="59"/>6. Objectio.—Contra hanc vero conditionem
+          <lb ed="#P" n="60"/>objici potest quia multae sunt leges, quae in
+          <lb ed="#P" n="61"/>bonum privatarum personarum ordinantur,
+          <lb ed="#P" n="62"/>ut verbi gratia, quae fiunt in favorem 
+          pupillo<lb break="no" ed="#P" n="63"/>rum, militum, et similes. Unde, in l. 1, ff. de
+          <lb ed="#P" n="64"/>Justit. et jur., et in S Hujus studii, Instit.,
+          <lb ed="#P" n="65"/>eodem titulo , duplices distinguuntur leges,
+          <lb ed="#P" n="66"/>quaedam quae ad commune bonum, seu 
+          sta<lb break="no" ed="#P" n="67"/>tum reipublicae ordinantur: aliae vero quae sunt
+          <lb ed="#P" n="68"/>circa privatum bonum singulorum ; et inl. 1,
+          <lb ed="#P" n="69"/>ff de Constitut. principum, dicitur quasdam
+          <lb ed="#P" n="70"/>esse leges personales, quae personam non 
+          egre<lb break="no" ed="#P" n="71"/>diuntur, quia nimirum in illius tantum 
+          com<lb break="no" ed="#P" n="72"/>modum fiunt. Quod maxime videre licet in
+          <lb ed="#P" n="73"/>privilegio, quod lex privata dicitur in capite
+          <lb ed="#P" n="74"/>Privilegium, d. 3, quia nmmirum, in privatum
+          <lb ed="#P" n="75"/>commodum privilegiati conceditur : non ergo
+          <lb ed="#P" n="76"/>leges omnes ordinantur in commune bonum.
+          <lb ed="#P" n="77"/>Aliunde vero non videtur satis esse quod in
+          <lb ed="#P" n="78"/>commune bonum ordinentur, quia sape in
+          <lb ed="#P" n="79"/>multorum damnum et detrimentum 
+          redun<lb break="no" ed="#P" n="80"/>dant : non sunt autem facienda mala, ut 
+          ve<lb break="no" ed="#P" n="81"/>niant bona, nec quidam locupletandi sunt cum
+          <lb ed="#P" n="82"/>aliorum detrimento, juxta regulam locupletari,
+          <lb ed="#P" n="83"/>de Regul. jur. in 9. Major patet, primo, 
+          quan<lb break="no" ed="#P" n="84"/>do contingit eidem regi multa regna subjecta
+          <lb ed="#P" n="85"/>esse : nam lex quae uni regno est utilis alteri
+          <lb ed="#P" n="86"/>solet esse nociva: et in eodem regno potest
+          <lb ed="#P" n="87"/>idem contingere inter diversas civitates. Item
+          <lb ed="#P" n="88"/>lex praescriptionis, ut uni praebeat dominium
+          <lb ed="#P" n="89"/>rei, verum dominum privat re sua: saepe etiam
+          <lb ed="#P" n="90"/>quod communitati videtur utile, multis 
+          parti<lb break="no" ed="#P" n="91"/>cularibus personis onerosum est et 
+          incommo<lb break="no" ed="#P" n="92"/>dum : imo aliquando leges directe inferunt
+          <lb ed="#P" n="93"/>malum aliquibus, ut leges punitivae.
+        </p>
+        <p xml:id="szdleg-a07730-d1e592">
+          <lb ed="#P" n="94"/>7. Fit satis objectioni.—Ad priorem partem
+          <lb ed="#P" n="95"/>varie respondent auctores, ut videre licet in
+          <lb ed="#P" n="96"/>Navarro, n. 28 et 29, loco supra citato. Mihi
+          <lb ed="#P" n="97"/>vero res videtur clara, et adhibita duplici 
+          dis<lb break="no" ed="#P" n="98"/>tinctione facile expediri. Prior est de duplici
+          <lb ed="#P" n="99"/>bono communi reipublicae : unum est, quod
+          <lb ed="#P" n="100"/>per se primo commune est, quia non est sub
+          <lb ed="#P" n="101"/>alicujus privati dominio, sed totius 
+          communi<lb break="no" ed="#P" n="102"/>tatis, ad cujus usum vel usum fructum 
+          imme<lb break="no" ed="#P" n="103"/>diate ordinatur : hujusmodi sunt templa, vel
+          <lb ed="#P" n="104"/>res sacrae, magistratus, pascua communia, seu
+          <lb ed="#P" n="105"/>prata, et similia, de quibus sermo est in 
+          prae<lb break="no" ed="#P" n="106"/>dictis juribus, et in aliis sub titulo de rerum
+          <lb ed="#P" n="107"/>divisione. Aliud vero est bonum commune 
+          so<lb break="no" ed="#P" n="108"/>Ium secundario, et quasi per redundantiam ;
+          <lb ed="#P" n="109"/>immediate autem bonum privatum est, quia
+          <lb ed="#P" n="110"/>sub dominio privatae personae, et ad ejus com-
+          <pb ed="#P" n="32"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>modum proxime ordinatur : dicitur autem
+          <lb ed="#P" n="2"/>etiam commune, vel quia respublica habet jus
+          <lb ed="#P" n="3"/>quoddam altius in bona propria singularum
+          <lb ed="#P" n="4"/>personarum, ut eis uti possit, quando illi 
+          fue<lb break="no" ed="#P" n="5"/>rint necessaria, vel etiam quia eo ipso quod
+          <lb ed="#P" n="6"/>unaquaeque persona est pars communitatis ,
+          <lb ed="#P" n="7"/>bonum uniuscujusque quod in damnum 
+          alio<lb break="no" ed="#P" n="8"/>rum non redundat, est commodum totius 
+          com<lb break="no" ed="#P" n="9"/>munitatis. Sic dicunt jura expedire reipublicae
+          <lb ed="#P" n="10"/>ut cives sint locupletes, et ut nemo male sua
+          <lb ed="#P" n="11"/>re utatur, S Sed major, Inst. de His qui sunt
+          <lb ed="#P" n="12"/>sui vel alieni juris, Authent. Uft judices, etc.,
+          <lb ed="#P" n="13"/>S Considerandum, collat. 9, cum similibus.
+        </p>
+        <p xml:id="szdleg-a07730-d1e664">
+          <lb ed="#P" n="14"/>8. Duplex materia boni communis circa quam
+          <lb ed="#P" n="15"/>cersari potest lev. — Abia distinctio est, quae
+          <lb ed="#P" n="16"/>de actibus humanis generatim dari solet, in
+          <lb ed="#P" n="17"/>quibus distinguitur materia proxima, circa
+          <lb ed="#P" n="18"/>quam versantur, et motivum, seu ratio 
+          pro<lb break="no" ed="#P" n="19"/>pter quam : cum enim lex actus moralis sit,
+          <lb ed="#P" n="20"/>illa etiam duo in ea sunt distinguenda. Materia
+          <lb ed="#P" n="21"/>ergo circa quam versatur lex interdum est 
+          bo<lb break="no" ed="#P" n="22"/>num commune per se primo: aliquando vero
+          <lb ed="#P" n="23"/>per se primo est bonum privatum : commune
+          <lb ed="#P" n="24"/>autem per redundantiam. lgitur hoc etiam
+          <lb ed="#P" n="25"/>modo data fuit distinctio legum in illis juribus,
+          <lb ed="#P" n="26"/>ut etiam latius explicui, tract. 5, de relig.,
+          <lb ed="#P" n="27"/>seu de jura., 1l. 2. Nam quaedam leges proxime
+          <lb ed="#P" n="28"/>versantur circa materiam communem , aliae
+          <lb ed="#P" n="29"/>circa bona singulorum : semper tamen ratio
+          <lb ed="#P" n="30"/>propter quam lex versatur circa utramque
+          <lb ed="#P" n="31"/>materiam estcommune bonum, quod propterea
+          <lb ed="#P" n="32"/>semper debet esse primario intentum.
+        </p>
+        <p xml:id="szdleg-a07730-d1e709">
+          <lb ed="#P" n="33"/>9. Objectio. — Materia legis ex se debet esse
+          <lb ed="#P" n="34"/>utilis et commoda communi bouo, non em 
+          inten<lb break="no" ed="#P" n="35"/>tione legislatoris. — Quaeri autem potest circa
+          <lb ed="#P" n="36"/>hanc partem, an oporteat hoc bonum esse 
+          in<lb break="no" ed="#P" n="37"/>tentum intentione operantis, vel intentione
+          <lb ed="#P" n="38"/>ipsius operis, juxta modum loquendi D. 
+          Tho<lb break="no" ed="#P" n="39"/>mae 2. 2. q. 141, art. 6, ad 1. Nam intentio
+          <lb ed="#P" n="40"/>operantis videtur esse extrinseca, et per 
+          acci<lb break="no" ed="#P" n="41"/>dens variari posse, et non pendere ab illa 
+          ra<lb break="no" ed="#P" n="42"/>tionem legis: opus autem ipsum ex se non 
+          sem<lb break="no" ed="#P" n="43"/>per fertur ad bonum commune , nisi ab alio
+          <lb ed="#P" n="44"/>referatur, et ideo neque intentio operis videtur
+          <lb ed="#P" n="45"/>necessaria, nec sufficiens. Respondeo breviter,
+          <lb ed="#P" n="46"/>ad valorem et substantiam legis solum esse
+          <lb ed="#P" n="47"/>necessarium ut res illa, de qua fertur lex, hoc
+          <lb ed="#P" n="48"/>tempore, hoc loco, in hac gente et 
+          communi<lb break="no" ed="#P" n="49"/>tate sit utilis, et conveniens ad bonum 
+          com<lb break="no" ed="#P" n="50"/>mune illius : haec enim utilitas et commoditas
+          <lb ed="#P" n="51"/>non datur a legislatore, sed supponitur, et ideo
+          <lb ed="#P" n="52"/>quantum ad suum esse, ut sic dicam, non
+          <lb ed="#P" n="53"/>pendet ex intentione legislatoris. Ex quo etiam
+          <lb ed="#P" n="54"/>fit ut talis res ex se debeat esse referibilis in
+          <lb ed="#P" n="55"/>commune bonum : nam omne bonum utile,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quatenus tale est, aptum est ordinari in eum
+          <lb ed="#P" n="57"/>finem ad quem est utile, et in hoc sensu 
+          ne<lb break="no" ed="#P" n="58"/>cessaria est in praesenti intentio operis, non
+          <lb ed="#P" n="59"/>operantis: ratio clara est, quia etiam si 
+          legis<lb break="no" ed="#P" n="60"/>lator ex odio, verbi gratia, aut ex alio pravo
+          <lb ed="#P" n="61"/>fine legem ferat, si les ipsa nihilominus in 
+          bo<lb break="no" ed="#P" n="62"/>num commune cedit, id sufficit ad valorem 
+          le<lb break="no" ed="#P" n="63"/>gis. Quia illa prava intentio est mere 
+          persona<lb break="no" ed="#P" n="64"/>lis, et non redundat in actum , quatenus ad
+          <lb ed="#P" n="65"/>utilitatem commuem spectat : sic prava 
+          inten<lb break="no" ed="#P" n="66"/>tio judicis non refert ad valorem sententiae, si
+          <lb ed="#P" n="67"/>non est contra aequitatem ejus: sic etiam prava
+          <lb ed="#P" n="68"/>intentio ministri nihil officit sacramento, si
+          <lb ed="#P" n="69"/>non sit contra substantiam ejus : ita ergo in
+          <lb ed="#P" n="70"/>praesenti bonum commune in lege ipsa 
+          spectan<lb break="no" ed="#P" n="71"/>dum est, non in extrinseca intentione 
+          legis<lb break="no" ed="#P" n="72"/>latoris. Quam sententiam optime tradit 
+          Augus<lb break="no" ed="#P" n="73"/>tinus, lib. 1, de Liber. arbitr., cap. 5, dicens:
+          <lb ed="#P" n="74"/>Lex que tuendi populi causa lata est, nullius
+          <lb ed="#P" n="75"/>libidinis ar gui potest, si quidem ille quà tulit, si
+          <lb ed="#P" n="76"/>Dei jussu tulit , id est, quod praecepit eterna
+          <lb ed="#P" n="77"/>justitia, empers omnis libidinis id agere potuat.
+          <lb ed="#P" n="78"/>Si autem ille cum aliqua libidine hoc statuit,
+          <lb ed="#P" n="79"/>non ec eo fit ut ei legi cum libidine obtemperare
+          <lb ed="#P" n="80"/>necesse sit, et quia bona lea, et a non bono ferri
+          <lb ed="#P" n="81"/>potest. Et infra, optimam rationem indicat,
+          <lb ed="#P" n="82"/>quia licet ille cum libidine legem tulerit , 
+          po<lb break="no" ed="#P" n="83"/>test illi sine libidine obtemperari.
+        </p>
+        <p xml:id="szdleg-a07730-d1e824">
+          <lb ed="#P" n="84"/>10. Fit satis objectioni. — Per haec ergo
+          <lb ed="#P" n="85"/>facilis est responsio ad priorem partem 
+          ob<lb break="no" ed="#P" n="86"/>jectionum : solum enim concludit legem
+          <lb ed="#P" n="87"/>non semper habere pro materia proxima
+          <lb ed="#P" n="88"/>illud bonum commune , quod per se primo
+          <lb ed="#P" n="89"/>est in communitate secundum se, et ita
+          <lb ed="#P" n="90"/>intelligitur distinctio data in prioribus 
+          juri<lb break="no" ed="#P" n="91"/>bus ibi citatis. Data est enim ex parte 
+          ma<lb break="no" ed="#P" n="92"/>teriae ; et illae leges dicuntur versari circa 
+          par<lb break="no" ed="#P" n="93"/>ticularia commoda, quae habent pro materia
+          <lb ed="#P" n="94"/>bona propria ipsorum civium, quae alia ratione
+          <lb ed="#P" n="95"/>diximus continere bonum commune. In quibus
+          <lb ed="#P" n="96"/>etiam est considerandum , nunquam cadere
+          <lb ed="#P" n="97"/>sub lege , quatenus ad unam vel alteram 
+          per<lb break="no" ed="#P" n="98"/>sonam tantum pertinent, sed quatenus 
+          spec<lb break="no" ed="#P" n="99"/>tant ad personas certae conditionis, ut ad 
+          pu<lb break="no" ed="#P" n="100"/>pillos, ad milites, etc., vel certae originis, ut
+          <lb ed="#P" n="101"/>nobiles, vel ad successores talis familiae: et ex
+          <lb ed="#P" n="102"/>hac etiam parte respicere bonum commune
+          <lb ed="#P" n="103"/>communitate, ut sic dicam, universalitatis,
+          <lb ed="#P" n="104"/>quia scilicet bonum illud in multis reperitur,
+          <lb ed="#P" n="105"/>ut capite praecedenti in fine declaratum est.
+          <lb ed="#P" n="106"/>At vero, in d. l. 1, ff. de Constit. princip., cum
+          <lb ed="#P" n="107"/>dicitur constitutioncm Principis aliquando non
+          <lb ed="#P" n="108"/>egredi personam, non videtur sumi 
+          eonstitu<lb break="no" ed="#P" n="109"/>tio pro lege propria, sed pro quolibet edicto,
+          <lb ed="#P" n="110"/>vel decreto principis, in favorem vel odium
+          <pb ed="#P" n="33"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>alicujus certae personae constitutum : quod nisi
+          <lb ed="#P" n="2"/>habeat majorem amplitudinem et majorem
+          <lb ed="#P" n="3"/>durationem, non est proprie lex, ut capite 
+          su<lb break="no" ed="#P" n="4"/>periori dictum est.
+        </p>
+        <p xml:id="szdleg-a07730-d1e898">
+          <lb ed="#P" n="5"/>11. Et hinc patet quid dicendum sit de 
+          pri<lb break="no" ed="#P" n="6"/>vilegio, de quo etiam loqui videtur dicta lex 1
+          <lb ed="#P" n="7"/>ff. de Const. princ. Respondet igitur Glossa,
+          <lb ed="#P" n="8"/>in d. c. Erit autem lev, per hanc conditionem
+          <lb ed="#P" n="9"/>distingui legom a privilegio. Quam 
+          responsio<lb break="no" ed="#P" n="10"/>nem acriter impugnat Castro, supra, quia ex
+          <lb ed="#P" n="11"/>illa (inquit) sequitur legem latam a principe
+          <lb ed="#P" n="12"/>de perpetuo tributo sibi solvendo in suum 
+          com<lb break="no" ed="#P" n="13"/>modum, dicendam esse privilegium. Sed hoc
+          <lb ed="#P" n="14"/>non multum urget contra Glossam: quia vel
+          <lb ed="#P" n="15"/>tale tributum esset justum vel injustum: si
+          <lb ed="#P" n="16"/>justum, etiam lex esset justa, et licet esset in
+          <lb ed="#P" n="17"/>commodum principis, nihilominus esset 
+          pro<lb break="no" ed="#P" n="18"/>pter commune bonum ; tum quia bonum 
+          prin<lb break="no" ed="#P" n="19"/>cipis, quatenus talis est, censetur commune,
+          <lb ed="#P" n="20"/>cum ipse sit persona publica et communis ;
+          <lb ed="#P" n="21"/>tum etiam quia justum subsidium datum 
+          prin<lb break="no" ed="#P" n="22"/>cipi a republica ccemmune bonum est totius
+          <lb ed="#P" n="23"/>reipublicae. Si autem tributum esset injustum
+          <lb ed="#P" n="24"/>et tyrannicum, tunc non esset lex, sed 
+          habe<lb break="no" ed="#P" n="25"/>ret se ad modum privilegii iniqui et injusti.
+          <lb ed="#P" n="26"/>Nec videtur illa responsio Glossae aliena a 
+          sen<lb break="no" ed="#P" n="27"/>tentia Ciceronis, lib. 3 de Legib.. dicentis:
+          <lb ed="#P" n="28"/>Mapjores nostri in privatas personas leges ferri
+          <lb ed="#P" n="29"/>noluerunt, id est enim privilegium.
+        </p>
+        <p xml:id="szdleg-a07730-d1e955">
+          <lb ed="#P" n="30"/>12. Privilegium esse veram legem. — 
+          Nihil<lb break="no" ed="#P" n="31"/>ominus tamen existimo istam conditionem non
+          <lb ed="#P" n="32"/>esse positam ab Isidoro ad excludendum 
+          pri<lb break="no" ed="#P" n="33"/>vilegium a ratione legis: tum quia eadem
+          <lb ed="#P" n="34"/>Glossa, in cap. Privilegia, d. 3, dicit 
+          privile<lb break="no" ed="#P" n="35"/>gium esse legem, et in illo requirit alias 
+          con<lb break="no" ed="#P" n="36"/>ditiones positas ab Isidoro in alio cap. Zrit
+          <lb ed="#P" n="37"/>autem lez . ium etiam quia illa particula 
+          di<lb break="no" ed="#P" n="38"/>recte ponitur ad excludendas leges tyrannicas,
+          <lb ed="#P" n="39"/>vel quae non cedunt in commune bonum,
+          <lb ed="#P" n="40"/>etiamsi fortasse nec ad privatum respiciant, et
+          <lb ed="#P" n="41"/>ita necesse est per illam conditionem excludi
+          <lb ed="#P" n="42"/>pravas leges, etsi privilegia non sint: tum 
+          de<lb break="no" ed="#P" n="43"/>nique quia forte necesse non fuit privilegium
+          <lb ed="#P" n="44"/>excludere, de quo dicam infra suo loco. Nunc
+          <lb ed="#P" n="45"/>solum assero, ex parte boni communis non
+          <lb ed="#P" n="46"/>repugnare quin sit lex, quia licet proxima ejus
+          <lb ed="#P" n="47"/>materia sit speciale bonum alicujus familiae,
+          <lb ed="#P" n="48"/>vel domus, vel aliquarum personarum (
+          pro<lb break="no" ed="#P" n="49"/>pter quod fortasse privata lex appellatum est
+          <lb ed="#P" n="50"/>ab Isidoro, in d. c. Privilegium) nihilominus
+          <lb ed="#P" n="51"/>formaliter etiam debet respicere bonum 
+          com<lb break="no" ed="#P" n="52"/>mune, argumento cap. Aequiritur, et S Nisi
+          <lb ed="#P" n="53"/>rigor, et cap. Dispensationes, 1, quaest. 7, et
+          <lb ed="#P" n="54"/>quae tradit D. Thomas, 1.2, q. 97, art. 4, ad1.
+          <lb ed="#P" n="55"/>Nam illud bonum per privilegium concessum,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ita debet esse aliquorum proprium ut in 
+          bo<lb break="no" ed="#P" n="57"/>num commune redundet , modo superius 
+          de<lb break="no" ed="#P" n="58"/>clarato. Ac praeterea ipsa concessio privilegii
+          <lb ed="#P" n="59"/>tam rationabilis esse debet, ut ad bonum 
+          com<lb break="no" ed="#P" n="60"/>mune spectet, ex similibus causis similia 
+          pri<lb break="no" ed="#P" n="61"/>vilegia concedi. Ex hoc ergo capite non 
+          ex<lb break="no" ed="#P" n="62"/>cluduntur privilegia a propria ratione legis;
+          <lb ed="#P" n="63"/>an vcro excludantur ex eo quod respiciunt
+          <lb ed="#P" n="64"/>privatam personam, vel possint esse proprie
+          <lb ed="#P" n="65"/>leges, maxime si perpetua sint, dicemus in
+          <lb ed="#P" n="66"/>l. 10.
+        </p>
+        <p xml:id="szdleg-a07730-d1e1040">
+          <lb ed="#P" n="67"/>13. Minor difficultas est in legibus 
+          tributo<lb break="no" ed="#P" n="68"/>rum: nam illae communitati imponuntur, ut
+          <lb ed="#P" n="69"/>per seconstat, et immediate respiciunt bonum
+          <lb ed="#P" n="70"/>commune, quia, ut dixi, licet videantur cedere
+          <lb ed="#P" n="71"/>in commodum principis, tamen ut verae leges
+          <lb ed="#P" n="72"/>sint, commune bonum respicere debent, quia
+          <lb ed="#P" n="73"/>non dantur regi nisi quatenus persona 
+          com<lb break="no" ed="#P" n="74"/>munis et publica est, et ut in commune 
+          bo<lb break="no" ed="#P" n="75"/>num illis utatur. Unde in Concilio Toletano, 8,
+          <lb ed="#P" n="76"/>cap. 10, de regibus dicitur: NVon prospectantes
+          <lb ed="#P" n="77"/>proprii jura commodi, sed consulentes patrie,
+          <lb ed="#P" n="78"/>atque genti.
+        </p>
+        <p xml:id="szdleg-a07730-d1e1069">
+          <lb ed="#P" n="79"/>14. Ad alteram partem objectionum 
+          gene<lb break="no" ed="#P" n="80"/>ratim dicitur hanc esse conditionem rerum
+          <lb ed="#P" n="81"/>humanarum, ut non servent uniformitatem in
+          <lb ed="#P" n="82"/>omnibus, et ideo plerumque accidit ut quod
+          <lb ed="#P" n="83"/>communitati expedit, uni vel alteri 
+          nocumen<lb break="no" ed="#P" n="84"/>tum afferat. Quia vero commune bonum 
+          prae<lb break="no" ed="#P" n="85"/>fertur privato quando simul esse non possunt,
+          <lb ed="#P" n="86"/>ideo leges simpliciter feruntur pro bono 
+          com<lb break="no" ed="#P" n="87"/>muni, et ad particularia non attendunt, ut
+          <lb ed="#P" n="88"/>habetur in multis legibus, ff de Legib., et de
+          <lb ed="#P" n="89"/>justit. et jur., et sumitur ex cap. Licet, de
+          <lb ed="#P" n="90"/>Regular., et ex cap. Scias, 1, q. 1. Contingit
+          <lb ed="#P" n="91"/>autem aliquando sub eodem rege esse plura
+          <lb ed="#P" n="92"/>regna, vel plures communitates quasi per 
+          ac<lb break="no" ed="#P" n="93"/>cidens, quia re vera inter se non componunt
+          <lb ed="#P" n="94"/>unum corpus politicum, sed ex accidenti 
+          di<lb break="no" ed="#P" n="95"/>versis titulis in illius potestatem devenerunt,
+          <lb ed="#P" n="96"/>et tunc injustum esset eisdem legibus diversa
+          <lb ed="#P" n="97"/>regna obligare, si uni essent utiles, et non
+          <lb ed="#P" n="98"/>alteri. Quia non comparantur tunc ut bonum
+          <lb ed="#P" n="99"/>commune et particulare, sed ut duo bona 
+          com<lb break="no" ed="#P" n="100"/>munia, quibus per se ac sigillatim propriis 
+          le<lb break="no" ed="#P" n="101"/>gibus prospiciendum est, ac si sub diversis
+          <lb ed="#P" n="102"/>regibus permanerent, sicut facit etiam 
+          Ponti<lb break="no" ed="#P" n="103"/>fex cum praecipit diversis religionibus, 
+          quate<lb break="no" ed="#P" n="104"/>nus distinctae communitates sunt et 
+          unaquae<lb break="no" ed="#P" n="105"/>que propriis legibus indiget. Quando vero
+          <lb ed="#P" n="106"/>communitates sunt partes ejusdem regni seu
+          <lb ed="#P" n="107"/>politici corporis, tunc uniuscujusque partis
+          <lb ed="#P" n="108"/>bonum censetur privatum respectu totius 
+          com<lb break="no" ed="#P" n="109"/>munitatis, ad quam leges per se primo 
+          ferun<lb break="no" ed="#P" n="110"/>tur : observanda vero duo sunt: unum, ne tot
+          <pb ed="#P" n="34"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sint particularia nocumenta ut praeponderent
+          <lb ed="#P" n="2"/>aliorum commodis: aliud, ut. si opus fuerit,
+          <lb ed="#P" n="3"/>adjungatur dispensatio vel exceptio : nam in
+          <lb ed="#P" n="4"/>hujusmodi eventibus maxime licet, et 
+          aliquan<lb break="no" ed="#P" n="5"/>do etiam deberi potest.
+        </p>
+        <p xml:id="szdleg-a07730-d1e1157">
+          <lb ed="#P" n="6"/>15. Ex quo facile constat quid dicendum
+          <lb ed="#P" n="7"/>sit de nocumento privatae personae; illud enim
+          <lb ed="#P" n="8"/>minus consideratur, et ideo aliquando 
+          per<lb break="no" ed="#P" n="9"/>mittitur, ut in praescriptione quae respicit 
+          bo<lb break="no" ed="#P" n="10"/>num commune, scilicet, pacem, evitando lites,
+          <lb ed="#P" n="11"/>etc. Aliquando etiam intenditur, ut in legibus
+          <lb ed="#P" n="12"/>punitivus, quae etiam sunt ad commune 
+          bo<lb break="no" ed="#P" n="13"/>num necessariae. Et ita explicatae manent aliae
+          <lb ed="#P" n="14"/>duse aditiones legis positae ab Isidoro, in eod.
+          <lb ed="#P" n="15"/>cap., se p ut sit necessaria et utilis: quas
+          <lb ed="#P" n="16"/>ita exponit D. Thomas, q. 95, art. 3, ut 
+          neces<lb break="no" ed="#P" n="17"/>sitas referatur ad remotionem mali, ut quando
+          <lb ed="#P" n="18"/>fertur propter vitandum aiqued malum
+          <lb ed="#P" n="19"/>reipubliae , utilitas ad promotionem boni:
+          <lb ed="#P" n="20"/>qucd recte dictum est, ne altera ex illis partü-
+          <lb ed="#P" n="21"/>culis redundare videatur. In utraque autem
+          <lb ed="#P" n="22"/>majus bonum commune attendi debet : 1ta
+          <lb ed="#P" n="23"/>enim removendum est unum malum, ne inde
+          <lb ed="#P" n="24"/>aliud majus reipublieae sequatur: alias talis lex
+          <lb ed="#P" n="25"/>non esset necessaria, sed perniciosa. Et ita est
+          <lb ed="#P" n="26"/>etiam procuranda aliqua utilitas, ne inde 
+          ma<lb break="no" ed="#P" n="27"/>jor impediatur, aut majora mala communia
+          <lb ed="#P" n="28"/>consequantur. Omnia ergo illa verba eamdem
+          <lb ed="#P" n="29"/>proprietatem in lege explicant, licet sub 
+          di<lb break="no" ed="#P" n="30"/>versis respectibus ad majorem declarationem,
+          <lb ed="#P" n="31"/>quod satis est, ut non sint superflua.
+        </p>
+        <p xml:id="szdleg-a07730-d1e1216">
+          <lb ed="#P" n="32"/>16. An lex generalis lata ea intentione ut
+          <lb ed="#P" n="33"/>noceat particulari , sit injusta el invalida.—
+          <lb ed="#P" n="34"/>Quaeri vero hic solet an lex lata sub forma
+          <lb ed="#P" n="35"/>generali, ea intentione, aut dolo, ut cedat in
+          <lb ed="#P" n="36"/>praejudicium singularis personae, injusta sit,
+          <lb ed="#P" n="37"/>vel invalida. Nam juristae dicere solent, adeo
+          <lb ed="#P" n="38"/>esse iniquam talem legem, ut ab illa liceat
+          <lb ed="#P" n="39"/>appellare, vel exceptionem doli contra illam
+          <lb ed="#P" n="40"/>ponere, ut videre licet in Bartholomeo, in l.
+          <lb ed="#P" n="41"/>Omnes populi, ff de Just. et jur., q. 5, n. 53,
+          <lb ed="#P" n="42"/>Panormitano, in rubric. de Constit., n. 2, 
+          Fe<lb break="no" ed="#P" n="43"/>lino, in cap. Cun omnes, de Const., n. 5, Jason
+          <lb ed="#P" n="44"/>et Gregorio Lopez, ubi supra. Non sentiunt
+          <lb ed="#P" n="45"/>tamen hi auctores talem legem semper esse
+          <lb ed="#P" n="46"/>invalidam aut injustam : nam sine dubio 
+          po<lb break="no" ed="#P" n="47"/>test interdum fieri ex rationabili causa, 
+          per<lb break="no" ed="#P" n="48"/>mittendo potius damnum privatum propter
+          <lb ed="#P" n="49"/>commune bonum, quam illud intendendo, vel
+          <lb ed="#P" n="50"/>etiam illud intendendo in poenam justam, vel
+          <lb ed="#P" n="51"/>si contingat intendi inique , a ferente legem
+          <lb ed="#P" n="52"/>ex odio privato, non nocebit i ipsi legi, nec 
+          jus<lb break="no" ed="#P" n="53"/>titiae ejus, ut supra dictum est, si alias ipsa sit
+          <lb ed="#P" n="54"/>necessaria ad commune bonum. Et ita docuit
+          <lb ed="#P" n="55"/>late Felinus supra, concl. 1, et in 3 additidem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>esse si lex fiat in favorem privatae personae, vel
+          <lb ed="#P" n="57"/>familia, quando illa redundat in commune
+          <lb ed="#P" n="58"/>bonum, quod est satis clarum ex dictis. 
+          Lo<lb break="no" ed="#P" n="59"/>quuntur ergo dicti auctores, quando damnum
+          <lb ed="#P" n="60"/>tertii sine justa causa sub specie communis
+          <lb ed="#P" n="61"/>legis procuratur : tunc enim clara est 
+          injusti<lb break="no" ed="#P" n="62"/>tia: et :u est etiam licita et debita
+          <lb ed="#P" n="63"/>conveniens defensio, dequa ipsi tractant, quia
+          <lb ed="#P" n="64"/>ad ipsos proprie pertinet.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

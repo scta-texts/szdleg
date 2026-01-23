@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 32</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 32</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="300"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a76159"><!-- deleg-l3c32 -->
+        <head xml:id="szdleg-a76159-Hd1e101">Caput 32</head>
+        <head xml:id="szdleg-a76159-Hd1e103" type="question-title">Utrum leges proprie alicuius regni vel territorii obligent homines illius territorii quando extra illud versantur</head>
+        <p xml:id="szdleg-a76159-d1e106">
+          <lb ed="#P" n="42"/>CAPUT XXXI.
+          <lb ed="#P" n="43"/>UTRUM LEGES PROPRIE ALICUJUS REGNI VEL 
+          TER<lb break="no" ed="#P" n="44"/>RITORII OBLIGENT HOMINES ILLIUS TERRITORII
+          <lb ed="#P" n="45"/>QUANDO EXTRA ILLUD VERSANTUR.
+        </p>
+        <p xml:id="szdleg-a76159-d1e117">
+          <lb ed="#P" n="46"/>1. Quatuor modis potest aliqua persona 
+          com<lb break="no" ed="#P" n="47"/>parari ad territorium, seu dioecesim. Primo,
+          <lb ed="#P" n="48"/>quia ibi est incola, et ibi etiam actu existit
+          <lb ed="#P" n="49"/>et habitat ; secundo, per contrarium 
+          extre<lb break="no" ed="#P" n="50"/>mum, quia neutrum habet in tali territorio ;
+          <lb ed="#P" n="51"/>tertio, quia , cum sit incola illius territorii et
+          <lb ed="#P" n="52"/>in eo habeat domicilium, in alieno actu ver-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>satur ; quarto, quod in territorio habeat 
+          prae<lb break="no" ed="#P" n="54"/>sentiam, non tamen domicilium, aut originem.
+          <lb ed="#P" n="55"/>De primo et secundo nulla est disputatio ; nam
+          <lb ed="#P" n="56"/>in primo maxime locum habent dicta in 
+          ca<lb break="no" ed="#P" n="57"/>pite praecedenti, quia ibi occurrunt omnia 
+          ne<lb break="no" ed="#P" n="58"/>cessaria ad actualem subjectionem, et 
+          consce<lb break="no" ed="#P" n="59"/>quenter ad obligationem legis; in secundo
+          <lb ed="#P" n="60"/>vero clarum est non posse obligare legem,
+          <lb ed="#P" n="61"/>quia nullus est titulus subjectionis : in tertio
+          <lb ed="#P" n="62"/>autem et quarto puncto occurrunt duae 
+          difi<lb break="no" ed="#P" n="63"/>cultates tractandae.
+        </p>
+        <p xml:id="szdleg-a76159-d1e161">
+          <lb ed="#P" n="64"/>2. Ratio dubitandi. — Prima difficultas est
+          <lb ed="#P" n="65"/>in titulo proposita : ratio autem dubitandi
+          <lb ed="#P" n="66"/>est, quia, quamvis subditus actu versetur seu
+          <lb ed="#P" n="67"/>peregrinetur extra territorium, semper 
+          ma<lb break="no" ed="#P" n="68"/>net subditus, dum non mutat domicilium :
+          <lb ed="#P" n="69"/>sed dictum est legem obligare omnes 
+          subdi<lb break="no" ed="#P" n="70"/>tos, et omnes partes communitatis ; ergo etiam
+          <lb ed="#P" n="71"/>obligat in illo casu. Confirmatur primo 
+          sum<lb break="no" ed="#P" n="72"/>pto argumento a contrario: nam incola 
+          alte<lb break="no" ed="#P" n="73"/>rius regni dum in hoc versatur, non cogitur
+          <lb ed="#P" n="74"/>servare praecepta hujus regni, ut in legibus
+          <lb ed="#P" n="75"/>canonicis videtur expressce definiri in capite A
+          <lb ed="#P" n="76"/>nobis, 1, de Sentent. excommun.; ergo 
+          obli<lb break="no" ed="#P" n="77"/>gandus est servare praecepta sui territorii, 
+          alio<lb break="no" ed="#P" n="78"/>qui propter solam absentiam maneret liber ab
+          <lb ed="#P" n="79"/>onere utrarumque legum, quod videtur 
+          absur<lb break="no" ed="#P" n="80"/>dum. Confirmatur secundo: nam si Episcopus
+          <lb ed="#P" n="81"/>hujus dioecesis faciat statutum, ut omnes sui
+          <lb ed="#P" n="82"/>subditi habentes beneficium in suo Episcopatu
+          <lb ed="#P" n="83"/>resideant tali tempore sub tali poena, vel 
+          cen<lb break="no" ed="#P" n="84"/>sura, obligat illos ubicumque existant, ita ut
+          <lb ed="#P" n="85"/>si praescripto tempore non veniant, incurrant
+          <lb ed="#P" n="86"/>poenam vel censuram, per se loquendo, et 
+          se<lb break="no" ed="#P" n="87"/>clusa ignorantia et impotentia ; ergo statutum
+          <lb ed="#P" n="88"/>provinciale obligat dioecesanos, etiam alibi 
+          pe<lb break="no" ed="#P" n="89"/>regrinantes ; ergo idem est de quacumque lege
+          <lb ed="#P" n="90"/>simili.
+        </p>
+        <p xml:id="szdleg-a76159-d1e223">
+          <lb ed="#P" n="91"/>3. Conclusio negativa, eaque communis. —
+          <lb ed="#P" n="92"/>Nihilominus dicendum est legem non obligare
+          <lb ed="#P" n="93"/>extra terminum territorii illius superioris vel
+          <lb ed="#P" n="94"/>principis a quo fertur, et ideo incolas illius
+          <lb ed="#P" n="95"/>territorii, per se loquendo, nihil peccare,
+          <lb ed="#P" n="96"/>etiamsi contra illam agant, dum extra 
+          territo<lb break="no" ed="#P" n="97"/>rium existunt. Haec est communis sententia
+          <lb ed="#P" n="98"/>doctorum in cap. 2, de Constit. in 6, et in dicto
+          <lb ed="#P" n="99"/>cap. A nobis, 1, de Sentent. excommun. Sylv.
+          <lb ed="#P" n="100"/>verb. Excommunicatio, 2, n. 1, ubi Ang. et
+          <lb ed="#P" n="101"/>alii Summistae verb. Lex; Covar. in cap. Alma
+          <lb ed="#P" n="102"/>mater , | part., S 10, n. 3: sumiturque ex dicto
+          <lb ed="#P" n="103"/>cap. 2, ubi dicitur non incurrere sententiam
+          <lb ed="#P" n="104"/>latam per statutum Episcopi, qui extra 
+          terri<lb break="no" ed="#P" n="105"/>torium existens illud non servat. Respondere
+          <lb ed="#P" n="106"/>autem quispiam potest ibi non esse sermonem
+          <lb ed="#P" n="107"/>de obligatione praecepti, sed de censura, et in
+          <pb ed="#P" n="301"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ea diversam esse rationem, quia impositio 
+          cen<lb break="no" ed="#P" n="2"/>surae non pertinet ad vim directivam, sed ad
+          <lb ed="#P" n="3"/>coactivam legis, et ideo non extenditur extra
+          <lb ed="#P" n="4"/>territorium, quia superior vel judex non potest
+          <lb ed="#P" n="5"/>extra territorium punire, licet possit 
+          praecipe<lb break="no" ed="#P" n="6"/>re et obligare; et hunc sensum videtur 
+          indi<lb break="no" ed="#P" n="7"/>care Pontifex in ratione quam subdit, quia
+          <lb ed="#P" n="8"/>extra territorium jus dicenti non paretur 
+          im<lb break="no" ed="#P" n="9"/>pune : nam jus dicere idem est, quod 
+          senten<lb break="no" ed="#P" n="10"/>tiam ferre. Nihilominus mens Pontificis, sine
+          <lb ed="#P" n="11"/>dubio, fuit declarare tale statutum non violari
+          <lb ed="#P" n="12"/>a subdito in illo casu, et ob eam causam non
+          <lb ed="#P" n="13"/>incurrere censuram; ergo etiam quoad vim
+          <lb ed="#P" n="14"/>directivam non obligat in eo casu. Item, qui
+          <lb ed="#P" n="15"/>in eo casu non servat statutum non est 
+          contu<lb break="no" ed="#P" n="16"/>max contra obedientiam Ecclesiae ; ergo signum
+          <lb ed="#P" n="17"/>est non obligari per statutum, etiam quoad vim
+          <lb ed="#P" n="18"/>directivam. Antecedens patet, quia si tunc 
+          sub<lb break="no" ed="#P" n="19"/>ditus esset contumax, posset etiam 
+          excommu<lb break="no" ed="#P" n="20"/>nicari, et consequenter incurrere censuram
+          <lb ed="#P" n="21"/>legis ; nam excommunicatio, juxta veriorem
+          <lb ed="#P" n="22"/>sententiam, ferri potest in absentem, etiamsi
+          <lb ed="#P" n="23"/>in alieno territorio versetur, dummodo 
+          sufhi<lb break="no" ed="#P" n="24"/>ciens causa censurae supponatur: contumacia
+          <lb ed="#P" n="25"/>autem est sufficiens causa, juxta illud: ;
+          <lb ed="#P" n="26"/>Hcclesiam non audierit, sit tibi tanquam 
+          ethni<lb break="no" ed="#P" n="27"/>cus et publicanus , Matth. 18 : ergo, sicut
+          <lb ed="#P" n="28"/>censura non ligat absentem, ita nec 
+          praece<lb break="no" ed="#P" n="29"/>ptum: unde aperte fit quod, licet tale statutum
+          <lb ed="#P" n="30"/>simpliciter latum esset sine censura, vel poena,
+          <lb ed="#P" n="31"/>in vi cujusdam legis directivae obligantis in
+          <lb ed="#P" n="32"/>conscientia, non obligaret absentes ; tum quia
+          <lb ed="#P" n="33"/>ejus obligatio in conscientia non magis 
+          exte<lb break="no" ed="#P" n="34"/>nuatur ratione censurae : nam potius censura
+          <lb ed="#P" n="35"/>supponit jurisdictionem et potestatem ad 
+          obli<lb break="no" ed="#P" n="36"/>gandum, et quando additur censura, ratione
+          <lb ed="#P" n="37"/>illius non extenuatur, seu coarctatur 
+          jurisdic<lb break="no" ed="#P" n="38"/>tio; atque ita ex illo textu optimum sumitur
+          <lb ed="#P" n="39"/>argumentum de quacumque lege prodeunte
+          <lb ed="#P" n="40"/>a potestate limitata ad definitum tciritorium,
+          <lb ed="#P" n="41"/>sive illa canonica sit, sive civilis, servata 
+          pro<lb break="no" ed="#P" n="42"/>portione.
+        </p>
+        <p xml:id="szdleg-a76159-d1e358">
+          <lb ed="#P" n="43"/>4. Ratio autem assertionis non eadem 
+          red<lb break="no" ed="#P" n="44"/>ditur ab omnibus; quidam enim eam referunt
+          <lb ed="#P" n="45"/>ad intentionem legislatoris, quia tantum 
+          in<lb break="no" ed="#P" n="46"/>tendit obligare subditos in suo territorio; unde
+          <lb ed="#P" n="47"/>consequenter aiunt assertionem positam solum
+          <lb ed="#P" n="48"/>procedere, quando lex solum loquitur 
+          genera<lb break="no" ed="#P" n="49"/>libus verbis: nam per ea non explicatur alia,
+          <lb ed="#P" n="50"/>seu major intentio statuentis ; quapropter, si
+          <lb ed="#P" n="51"/>expressis verbis legislator declaret se velle
+          <lb ed="#P" n="52"/>obligare subditos ubicumque sint, tunc aiunt
+          <lb ed="#P" n="53"/>legem obligare illos etiam extra territorium,
+          <lb ed="#P" n="54"/>et ita limitant dictum cap. 2. Pro qua opinione
+          <lb ed="#P" n="55"/>communiter citatur Bartol. in leg. 1, Cod. de
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Summ. Trinit., n. 44 et sequentibus. Hanc
+          <lb ed="#P" n="57"/>vero rationem ut ex Bartol. sumptam 
+          repre<lb break="no" ed="#P" n="58"/>hendunt Panormit. in dicto cap. A nobis; 
+          Na<lb break="no" ed="#P" n="59"/>var., cap. 27, n. 272; Sylvest., Covar. supra,
+          <lb ed="#P" n="60"/>et omnes; et convincitur plane ex dicto cap. 2,
+          <lb ed="#P" n="61"/>ubi Pontifex rationem suae assertionis reddit,
+          <lb ed="#P" n="62"/>quia eatra territorium jus dicenti non paretur
+          <lb ed="#P" n="63"/>impune. Quae verba non significant tantum
+          <lb ed="#P" n="64"/>defectum voluntatis, sed etiam potestatis, ut
+          <lb ed="#P" n="65"/>per se constat ex leg. ultim., ff. de Jurisdict.
+          <lb ed="#P" n="66"/>omni judic., a qua desumpta sunt, ubi etiam
+          <lb ed="#P" n="67"/>communiter interpretes in hoc conveniunt:
+          <lb ed="#P" n="68"/>ratio ergo propria assertionis est, quia 
+          juris<lb break="no" ed="#P" n="69"/>dictio unius cujuscumque civitatis vel 
+          parti<lb break="no" ed="#P" n="70"/>cularis principis non extenditur quoad leges
+          <lb ed="#P" n="71"/>ferendas extra civitatem, seu territorium, ut
+          <lb ed="#P" n="72"/>latius explicavi in tom. 5 de Censuris, disp. 5,
+          <lb ed="#P" n="73"/>sect. 4, ubi de hoc puncto alia quae ad 
+          censu<lb break="no" ed="#P" n="74"/>ras magis pertinent tractavi ; neque ista ratio
+          <lb ed="#P" n="75"/>est aliena a mente Bartoli: nam illam attigit
+          <lb ed="#P" n="76"/>illo n. 44. Eamque colligit ex l. Omnes populi,
+          <lb ed="#P" n="77"/>ff. de Justit. et jur., ubi lex dicitur jus 
+          pro<lb break="no" ed="#P" n="78"/>prium civitatis. Sicut ergo in philosophia 
+          di<lb break="no" ed="#P" n="79"/>cere solemus extra sphaeram activitatis non
+          <lb ed="#P" n="80"/>sequi actionem, nimirum ex defectu 
+          potesta<lb break="no" ed="#P" n="81"/>tis, non voluntatis; ita jurisdictionis activitas
+          <lb ed="#P" n="82"/>in ferenda lege limitatur ad territorium, et
+          <lb ed="#P" n="83"/>ideo lex extra illum non obligat: unde aperte
+          <lb ed="#P" n="84"/>concluditur, etiamsi legislator maxime velit
+          <lb ed="#P" n="85"/>et suis verbis expresse id explicet, non posse
+          <lb ed="#P" n="86"/>obligare subditum extra territorium 
+          existen<lb break="no" ed="#P" n="87"/>tem.
+        </p>
+        <p xml:id="szdleg-a76159-d1e460">
+          <lb ed="#P" n="88"/>5. Quando possit princeps punire extra 
+          ter<lb break="no" ed="#P" n="89"/>ritorium subditum. — Hoc autem 
+          intelligen<lb break="no" ed="#P" n="90"/>dum est de propria obligatione legis directiva
+          <lb ed="#P" n="91"/>et in conscientia ; hic est enim proprius et 
+          im<lb break="no" ed="#P" n="92"/>mediatus effectus legis. At vero, si sermo sit
+          <lb ed="#P" n="93"/>de coactione per poenam, est opinio juristarum
+          <lb ed="#P" n="94"/>posse principem punire subditum, qui deliquit
+          <lb ed="#P" n="95"/>extra territorium, poena imposita per legem
+          <lb ed="#P" n="96"/>suam et latam pro suo territorio, quando poena
+          <lb ed="#P" n="97"/>non est ipso jure imposita, sed imponenda, et
+          <lb ed="#P" n="98"/>delictum extra territorium commissum, intra
+          <lb ed="#P" n="99"/>illud postea punitur. ita docet Abbas in cap. 1
+          <lb ed="#P" n="100"/>de Raptoribus, n. 8; et revera hoc solum 
+          in<lb break="no" ed="#P" n="101"/>tendit Bartol. in loco citato, si attente legatur.
+          <lb ed="#P" n="102"/>Et ratio est, quia tunc poena non imponitur
+          <lb ed="#P" n="103"/>extra territorium, sed intra illud, quia 
+          suppo<lb break="no" ed="#P" n="104"/>nitur per hominem imponenda, et judices non
+          <lb ed="#P" n="105"/>puniunt, nec inferunt vim forensibus extra
+          <lb ed="#P" n="106"/>territorium existentibus, sed quando ad illud
+          <lb ed="#P" n="107"/>redeunt, et ita hoc non repugnat dicto cap. 2
+          <lb ed="#P" n="108"/>tum quia loquitur de statuto ferente 
+          senten<lb break="no" ed="#P" n="109"/>tiam censurae, per quam sententiam censura
+          <lb ed="#P" n="110"/>ipso jure fertur ; tum etiam quia tale statutum
+          <pb ed="#P" n="302"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>necessario supponit et requirit propriam vim
+          <lb ed="#P" n="2"/>obligandi in conscientia, ut possit 
+          transgres<lb break="no" ed="#P" n="3"/>sorem reddere contumacem et capacem 
+          cen<lb break="no" ed="#P" n="4"/>surae; et ob eamdem causam non obstat 
+          prae<lb break="no" ed="#P" n="5"/>dictae limitationi ratio illius cap. 2, quia per
+          <lb ed="#P" n="6"/>talem legem designantem poenam ferendam,
+          <lb ed="#P" n="7"/>etiam pro delicto extra territorium commisso,
+          <lb ed="#P" n="8"/>et per executionem ejus, non dicitur jus extra
+          <lb ed="#P" n="9"/>territorium.
+        </p>
+        <p xml:id="szdleg-a76159-d1e536">
+          <lb ed="#P" n="10"/>6. Et hinc etiam constat ratio differentiae
+          <lb ed="#P" n="11"/>inter legem ferentem poenam ipso facto, aut
+          <lb ed="#P" n="12"/>solum statuentem ferendam, quia prior lex
+          <lb ed="#P" n="13"/>debet extendere suam efficaciam quoad 
+          obli<lb break="no" ed="#P" n="14"/>gationem et executionem extra territorium,
+          <lb ed="#P" n="15"/>quia per seipsam exequitur poenam, quod non
+          <lb ed="#P" n="16"/>potest aliter facere nisi obligando 
+          delinquen<lb break="no" ed="#P" n="17"/>tem ut in se poenam exequatur, quod facere
+          <lb ed="#P" n="18"/>non potest, ut probatum est; quia, si non 
+          po<lb break="no" ed="#P" n="19"/>test obhigare ad actum, vel prohibere illum,
+          <lb ed="#P" n="20"/>multo minus poterit obligare ad executionem
+          <lb ed="#P" n="21"/>poenae.. At vero lex quae imponit poenam 
+          fe<lb break="no" ed="#P" n="22"/>rendam per judicem, per se magis obligat 
+          ju<lb break="no" ed="#P" n="23"/>dicem ut secundum ipsam judicet, quam reum:
+          <lb ed="#P" n="24"/>judex autem intra territorium existit. Dices:
+          <lb ed="#P" n="25"/>etiam subditus obligatur in conscientia ad
+          <lb ed="#P" n="26"/>sustinendam talem poenam. Respondeo 
+          subdi<lb break="no" ed="#P" n="27"/>tum delinquentem proprie non obligari per
+          <lb ed="#P" n="28"/>illam legem, nisi post sententiam, quando jam
+          <lb ed="#P" n="29"/>in territorio esse supponitur: unde recte 
+          ad<lb break="no" ed="#P" n="30"/>notat Panormitanus necessarium esse ut 
+          de<lb break="no" ed="#P" n="31"/>lictum illud, quod per talem legem punitur,
+          <lb ed="#P" n="32"/>non sit tantum malum, quia illa lege 
+          prohibi<lb break="no" ed="#P" n="33"/>tum, sed ut supponatur per se malum, aut
+          <lb ed="#P" n="34"/>alias sufficienter prohibitum, quia lex illa non
+          <lb ed="#P" n="35"/>poterat prohibere illud opus extra territorium,
+          <lb ed="#P" n="36"/>ut probatum est ; ergo nec potest pro illo 
+          poe<lb break="no" ed="#P" n="37"/>nam designare, nisi alias opus supponatur
+          <lb ed="#P" n="38"/>malum, vel sufficienter prohibitum.
+        </p>
+        <p xml:id="szdleg-a76159-d1e601">
+          <lb ed="#P" n="39"/>7. Respondetur argumentis adversantibus. —
+          <lb ed="#P" n="40"/>Ad rationem dubitandi in principio positam 
+          res<lb break="no" ed="#P" n="41"/>pondetur ex dictis, subditum extra territorium
+          <lb ed="#P" n="42"/>existentem, licet non amittat subjectionem in
+          <lb ed="#P" n="43"/>habitu, ut sic dicam, seu radicalem, amittere
+          <lb ed="#P" n="44"/>tamen actualem, seu ejus usum in ordine ad
+          <lb ed="#P" n="45"/>leges territorii, quia constituitur extra 
+          termi<lb break="no" ed="#P" n="46"/>nos earum. In confirmatione autem prima 
+          pe<lb break="no" ed="#P" n="47"/>titur difficultas de intelligentia illius cap. A
+          <lb ed="#P" n="48"/>nolis, quae ad punctum sequens magis pertinet,
+          <lb ed="#P" n="49"/>et ideo breviter dico ibi non esse sermonem
+          <lb ed="#P" n="50"/>de statuto vel lege, sed de sententia generali,
+          <lb ed="#P" n="51"/>seu praecepto personali ac temporali : quae 
+          au<lb break="no" ed="#P" n="52"/>tem differentia hinc nascatur et quae sit ratio
+          <lb ed="#P" n="53"/>ejus, dicam statim.
+        </p>
+        <p xml:id="szdleg-a76159-d1e636">
+          <lb ed="#P" n="54"/>8. Propter secundam confirmationem, 
+          ad<lb break="no" ed="#P" n="55"/>dunt doctores limitationes aliquas assertioni
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>positae, ut videre licet in Sylvest. supra, et
+          <lb ed="#P" n="57"/>Angelo verb. Excommunicatio, 1, n. 10, qui
+          <lb ed="#P" n="58"/>ad hoc principium illas reducunt, ut extra
+          <lb ed="#P" n="59"/>territorium non ligetur quis, quando et 
+          per<lb break="no" ed="#P" n="60"/>sona operans, et res circa quam operatur, et
+          <lb ed="#P" n="61"/>actio ipsa omnino sunt extra territorium: 
+          un<lb break="no" ed="#P" n="62"/>de, si persona sit extra, res autem circa quam
+          <lb ed="#P" n="63"/>peccatur sit intra, poterit obligatio legis 
+          ha<lb break="no" ed="#P" n="64"/>bere locum. Covarrus autem aliis verbis 
+          limi<lb break="no" ed="#P" n="65"/>tationem explieat licet fortasse in idem redeat,
+          <lb ed="#P" n="66"/>scilicet legem non obligare extra territorium,
+          <lb ed="#P" n="67"/>nisi materia ejus respiciat bonum ipsiusmet
+          <lb ed="#P" n="68"/>territorii, scilicet, ut vitetur injuria, aut 
+          nocu<lb break="no" ed="#P" n="69"/>mentum ejus, vel aliquid simile; quam 
+          doctri<lb break="no" ed="#P" n="70"/>nam veram censeo, et eam latius explicui in
+          <lb ed="#P" n="71"/>dicto loco de Censur., et ex ibi dictis colligo,
+          <lb ed="#P" n="72"/>per eam in rigore non limitari assertionem,
+          <lb ed="#P" n="73"/>quia delicta contraria tali legi, non extra, sed
+          <lb ed="#P" n="74"/>intra territorium fieri censenda sunt: nam si
+          <lb ed="#P" n="75"/>praeceptum, verbi gratia, sit affirmativum
+          <lb ed="#P" n="76"/>mandans aliquid fieri in territorio, omissio ejus
+          <lb ed="#P" n="77"/>ibi censetur consummari ubi actus praeceptus
+          <lb ed="#P" n="78"/>fieri debuisset, quia ibi videtur quis 
+          delin<lb break="no" ed="#P" n="79"/>quere ubi non facit quod debet, sicut e 
+          con<lb break="no" ed="#P" n="80"/>trario ibi peceat, ubi facit quod non debet,
+          <lb ed="#P" n="81"/>juxta legem Qui non facit, tt. de Regul. jur.
+          <lb ed="#P" n="82"/>Si autem praeceptum sit negativum, et 
+          com<lb break="no" ed="#P" n="83"/>missio contra illud cedat in injuriam territorii,
+          <lb ed="#P" n="84"/>ibi plane consummatur delictum, ut si quis
+          <lb ed="#P" n="85"/>corpore existens extra terminum territorii, vel
+          <lb ed="#P" n="86"/>regni emissa sagitta occidat hominem intra
+          <lb ed="#P" n="87"/>territorium existentem, plane censetur peccare
+          <lb ed="#P" n="88"/>in territorio, ideoque contra legem ageret, et
+          <lb ed="#P" n="89"/>sic censuram, si in eo lata esset, incurreret, ut
+          <lb ed="#P" n="90"/>in citato loco dixi. Ita ergo contingit in casu
+          <lb ed="#P" n="91"/>illius confirmationis, cui per hoc est 
+          sufficien<lb break="no" ed="#P" n="92"/>ter responsum.
+        </p>
+        <p xml:id="szdleg-a76159-d1e726">
+          <lb ed="#P" n="93"/>9. Idem cum proportione dicendum de locis
+          <lb ed="#P" n="94"/>exemptis, quando alias intra territorium 
+          con<lb break="no" ed="#P" n="95"/>tinentur.— Dubitabit vero aliquis an idem 
+          di<lb break="no" ed="#P" n="96"/>cendum sit de locis exemptis, quando alias 
+          in<lb break="no" ed="#P" n="97"/>ter territorium continentur. Sed hoc dubium,
+          <lb ed="#P" n="98"/>et frequentius locum habet in legibus canonicis
+          <lb ed="#P" n="99"/>quam in civilibus, et illud sufficienter 
+          tracta<lb break="no" ed="#P" n="100"/>vi in dieto loco de Censuris, et ideo bveviter
+          <lb ed="#P" n="101"/>dico idem cum proportione dicendum esse de
+          <lb ed="#P" n="102"/>hujusmodi loco, quae est communis resolutio,
+          <lb ed="#P" n="103"/>ut ibi dixi; quam tenent etiam Paludan. 4,
+          <lb ed="#P" n="104"/>distinct. 18, quaest. 2, in 2 parte illius, artic. 2;
+          <lb ed="#P" n="105"/>et ibi Gabriel quaest. 2, artic. 2, conclus. 6; 
+          An<lb break="no" ed="#P" n="106"/>tonin., 3 part., titul. 24, cap. 75, S2 etSumm.;
+          <lb ed="#P" n="107"/>Rosel., verb. eccommunicatio 1, S 3; Armil.,
+          <lb ed="#P" n="108"/>num. 30; Canonistae in cap. Cum Episcopus,
+          <lb ed="#P" n="109"/>de Offic. ordin. in 6, et in Clement. 
+          Archie<lb break="no" ed="#P" n="110"/>piscopo, de Privil., et ex illis juribus hoc com-
+          <pb ed="#P" n="303"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>probari potest, quatenus ex eis colligitur 
+          Prae<lb break="no" ed="#P" n="2"/>latum non posse exercere jurisdictionem suam
+          <lb ed="#P" n="3"/>in loco exempto, quod in omni superiore 
+          pro<lb break="no" ed="#P" n="4"/>cedit. Inde ergo colligimus locum exemptum
+          <lb ed="#P" n="5"/>quoad jurisdictionem esse extra territorium,
+          <lb ed="#P" n="6"/>quia, exceptis casibus a jure expressis, non
+          <lb ed="#P" n="7"/>potest ordinarius superior territorii 
+          jurisdic<lb break="no" ed="#P" n="8"/>tionis actus ibi exercere : obligare autem per
+          <lb ed="#P" n="9"/>statutum, vel legem in loco exempto, est 
+          ju<lb break="no" ed="#P" n="10"/>risdictionem ibi exercere, ut constat ex dicto
+          <lb ed="#P" n="11"/>cap. 2de Constitut. in 6; ergo est eadem ratio
+          <lb ed="#P" n="12"/>de illo loco, et ad illum optime applicatur illud
+          <lb ed="#P" n="13"/>principium : Zaíra territoriun jus dicenti
+          <lb ed="#P" n="14"/>non paretur impune.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

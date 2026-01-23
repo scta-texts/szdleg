@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 18</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 18</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="403"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-b02083"><!-- deleg-l4c18 -->
+        <head xml:id="szdleg-b02083-Hd1e101">Caput 18</head>
+        <head xml:id="szdleg-b02083-Hd1e103" type="question-title">Quando lex ecclesiastica obliget sub mortali culpa, et quomodo id discernendum sit</head>
+        <p xml:id="szdleg-b02083-d1e106">
+          <lb ed="#P" n="61"/>CAPUT XVII.
+          <lb ed="#P" n="62"/>QUANDO LEX ECCLESIASTICA OBLIGET SUB 
+          MORTA<lb break="no" ed="#P" n="63"/>LI CULPA, ET QUOMODO ID DISCERNENDUM SIT.
+        </p>
+        <p xml:id="szdleg-b02083-d1e115">
+          <lb ed="#P" n="64"/>1. Tres conditiones ut leges positivae obligent
+          <lb ed="#P" n="65"/>sub mortali , gravitas , verba pracipientia seu
+          <lb ed="#P" n="66"/>signa, et intentio precipientis. — Certum est
+          <lb ed="#P" n="67"/>legem ecclesiasticam, etiam absolute latam,
+          <lb ed="#P" n="68"/>non semper obligare sub mortali culpa, sed
+          <lb ed="#P" n="69"/>interdum sub veniali, quia in materia 
+          cujus<lb break="no" ed="#P" n="70"/>cumque virtutis potest esse gravis et levis
+          <lb ed="#P" n="71"/>obligatio, juxta materiae capacitatem : ergo
+          <lb ed="#P" n="72"/>idem est in materia legis ecclesiasticae. Item
+          <lb ed="#P" n="73"/>quoad hoc eadem est ratio de lege ecclesiastica,
+          <lb ed="#P" n="74"/>quae de civili. Unde sicut supra posuimus
+          <lb ed="#P" n="75"/>plures conditiones requisitas , ut lex civilis
+          <lb ed="#P" n="76"/>obliget sub mortali, quibus deficientibus ad
+          <lb ed="#P" n="77"/>summum obligat ad veniale, etiamsi sit 
+          absolu<lb break="no" ed="#P" n="78"/>ta et vera lex, ita de ecclesiastica lege 
+          censen<lb break="no" ed="#P" n="79"/>dum est ; nam quoad hoc (ut dixi) est eadem
+          <lb ed="#P" n="80"/>ratio. Tres autem conditiones necessarias esse
+          <lb ed="#P" n="81"/>diximus , ut positiva lex obliget sub mortali,
+          <lb ed="#P" n="82"/>quae sunt gravitas materiae, verba seu signa
+          <lb ed="#P" n="83"/>praeceptiva, et intentio praecipientis : de 
+          qui<lb break="no" ed="#P" n="84"/>bus fere nihil occurrit addendum his quae 
+          dixi<lb break="no" ed="#P" n="85"/>mus de lege humana civili, sed applicanda
+          <lb ed="#P" n="86"/>hic sunt omnia ibi dicta, praesertim circa 
+          ter<lb break="no" ed="#P" n="87"/>tiam conditionem de intentione legislatoris, et
+          <lb ed="#P" n="88"/>de prima quoad necessitatem gravis materiae,
+          <lb ed="#P" n="89"/>et quoad modum cognoscendi illam. In hac
+          <lb ed="#P" n="90"/>vero conditione addi potest materiam legis 
+          ec<lb break="no" ed="#P" n="91"/>clesiasticae ex suo genere magis spiritualem
+          <lb ed="#P" n="92"/>esse, et ad finem altiorem ordinari, et ideo
+          <lb ed="#P" n="93"/>facilius, ac frequentius materiam 
+          ecclesiasti<lb break="no" ed="#P" n="94"/>carum legum esse gravem, licet non raro levis
+          <lb ed="#P" n="95"/>etiam in eo ordine inveniatur. In quo etiam
+          <lb ed="#P" n="96"/>est advertendum, aliter esse hanc materiae
+          <lb ed="#P" n="97"/>gravitatem expendendam in communibus 
+          le<lb break="no" ed="#P" n="98"/>gibus Ecclesiae, quae ex sola jurisdictione 
+          pro<lb break="no" ed="#P" n="99"/>cedunt : aliter vero in praeceptis religionum,
+          <lb ed="#P" n="100"/>quae non solum in jurisdictione, sed etiam in
+          <lb ed="#P" n="101"/>voto obedientiae nituntur : unde fieri potest ut
+          <lb ed="#P" n="102"/>materia , quae secundum se non esset gravis
+          <lb ed="#P" n="103"/>per se spectata in ordine ad nudam 
+          jurisdic<lb break="no" ed="#P" n="104"/>tionem, et communem Excclesiae 
+          gubernatio<lb break="no" ed="#P" n="105"/>nem, ut subest tali voto et in ordine ad finem
+          <lb ed="#P" n="106"/>talis status gravis sit, ut latius tractando de
+          <lb ed="#P" n="107"/>Statu religionis diximus.
+        </p>
+        <p xml:id="szdleg-b02083-d1e213">
+          <pb ed="#P" n="404"/>
+          <lb ed="#P" n="1"/>2. Circa secundam vero conditionem de vi
+          <lb ed="#P" n="2"/>verborum supra distinximus verbum simplex
+          <lb ed="#P" n="3"/>ab oratione complexa, et de verbo quidem
+          <lb ed="#P" n="4"/>simplici nihil occurrit addendum, quia in his
+          <lb ed="#P" n="5"/>etiam legibus nullum est verbum impositum,
+          <lb ed="#P" n="6"/>vel ex usu aut juris accommodatione 
+          applica<lb break="no" ed="#P" n="7"/>tum ad significandam obligationem sub 
+          mor<lb break="no" ed="#P" n="8"/>tali. Nam si aliquod esset, maxime verbum
+          <lb ed="#P" n="9"/>preecipimus, aut aequivalens ; hoc autem, licet
+          <lb ed="#P" n="10"/>satis indicet vim praecepti, et obligationem in
+          <lb ed="#P" n="11"/>conscientia, non tamen sub mortali, nisi ut
+          <lb ed="#P" n="12"/>conjunctum gravitati materiae, quae semper
+          <lb ed="#P" n="13"/>consideranda est, et ita explicummus supra
+          <lb ed="#P" n="14"/>Clementinam Exivit, de Verb. signific., et c.
+          <lb ed="#P" n="15"/>Haiit, eodem tit., in 6.
+        </p>
+        <p xml:id="szdleg-b02083-d1e251">
+          <lb ed="#P" n="16"/>3. Verba indicantia obligationem gravem.—
+          <lb ed="#P" n="17"/>Circa verba autem complexa, duo modi 
+          judi<lb break="no" ed="#P" n="18"/>candi hanc obligationem peculiares ac proprii
+          <lb ed="#P" n="19"/>ecclesiasticarum legum adnotari possunt. Unus
+          <lb ed="#P" n="20"/>est, quando adduntur verba, quae vel expresse,
+          <lb ed="#P" n="21"/>vel implicite addunt comminationem 
+          aeter<lb break="no" ed="#P" n="22"/>nae poenae. Hujusmodi sunt, quando additur
+          <lb ed="#P" n="23"/>sub interminatione mortis eternee, vel, qui hoc
+          <lb ed="#P" n="24"/>fecerit, divinam maledictionem incurrat, aut,
+          <lb ed="#P" n="25"/>indignationem sanctorum Petri et Pauli. ltem
+          <lb ed="#P" n="26"/>talis censetur esse forma praecipiendi, in 
+          vir<lb break="no" ed="#P" n="27"/>tute obedientiee, quae frequentius est in usu 
+          re<lb break="no" ed="#P" n="28"/>ligionum, interdum vero etiam Pontifices illa
+          <lb ed="#P" n="29"/>utuntur. Et ex eodem usu constat in hoc sensu
+          <lb ed="#P" n="30"/>addi : imo in religionibus juxta communem
+          <lb ed="#P" n="31"/>usum non intelligitur rigorosum praeceptum
+          <lb ed="#P" n="32"/>imponi, nisi quando illa verba, vel similia 
+          ad<lb break="no" ed="#P" n="33"/>duntur, vel gravis censura imponitur, juxta
+          <lb ed="#P" n="34"/>statim dicenda. Denique etiam haec verba,
+          <lb ed="#P" n="35"/>stricte praecipimus, implicite censentur eamdem
+          <lb ed="#P" n="36"/>significationem habere, quia illa exaggeratio
+          <lb ed="#P" n="37"/>non sine causa additur, et in rigore indicat
+          <lb ed="#P" n="38"/>superiorem velle obligare quantum potest. 
+          Al<lb break="no" ed="#P" n="39"/>ter modus explicandi hanc gravitatem est per
+          <lb ed="#P" n="40"/>adjectionem alicujus gravis censurae, quae 
+          poe<lb break="no" ed="#P" n="41"/>na solum per ecclesiasticas leges ferri potest.
+          <lb ed="#P" n="42"/>Et licet in legibus civilibus etiam gravis poena
+          <lb ed="#P" n="43"/>indicet gravem legis obligationem, ut supra
+          <lb ed="#P" n="44"/>vidimus, et quoad hoc sit aliqua convenientia
+          <lb ed="#P" n="45"/>inter utrasque leges : nihilominus in censuris
+          <lb ed="#P" n="46"/>invenitur hoc peculiare, quod sunt spirituales
+          <lb ed="#P" n="47"/>poenae, et saepe contrahi non solent vel fortasse
+          <lb ed="#P" n="48"/>non possunt, nisi propter peccatum mortale.
+          <lb ed="#P" n="49"/>Quando ergo poena seu censura talis est, et illa
+          <lb ed="#P" n="50"/>imponitur transgressori talis legis, evidens est
+          <lb ed="#P" n="51"/>violationem illius legis esse peccatum mortale,
+          <lb ed="#P" n="52"/>si clavis non erret, ac subinde talem legem
+          <lb ed="#P" n="53"/>obligare de suo sub mortali, quia 
+          transgres<lb break="no" ed="#P" n="54"/>sio illius facit transgressorem tali censura 
+          di<lb break="no" ed="#P" n="55"/>gnum.
+        </p>
+        <p xml:id="szdleg-b02083-d1e340">
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="56"/>4. Excommunicatio minor non est sufficiens
+          <lb ed="#P" n="57"/>signwmn gravis obligationis, secus de majori
+          <lb ed="#P" n="58"/>ipso jure inflicta, vel statim infltigenda sine
+          <lb ed="#P" n="59"/>alia monitione ; contra eero quando requiritur
+          <lb ed="#P" n="60"/>onitio.—Statim vero insurgit quaestio, 
+          quae<lb break="no" ed="#P" n="61"/>nam censura sufficiens signum sit talis 
+          obliga<lb break="no" ed="#P" n="62"/>tionis. Sed hoc spectat ad materiam de 
+          censu<lb break="no" ed="#P" n="63"/>ris et de irregularitate, ubi copiose tractatum
+          <lb ed="#P" n="64"/>est. et ideo hic breviter expediendum est. 
+          Pri<lb break="no" ed="#P" n="65"/>mo enim de excommunicatione, si minor sit,
+          <lb ed="#P" n="66"/>certum est, quocumque modo feratur, non esse
+          <lb ed="#P" n="67"/>de se sufticiens signum obligationis sub 
+          mor<lb break="no" ed="#P" n="68"/>tali, quia talis excommunicatio frequenter 
+          in<lb break="no" ed="#P" n="69"/>curritur propter venialem culpam. 
+          Excommu<lb break="no" ed="#P" n="70"/>nicatio autem major dupliciter fertur, scilicet
+          <lb ed="#P" n="71"/>ipso jure lata, vel per homines ferenda. De
+          <lb ed="#P" n="72"/>priori ergo est certum indicare obligationem
+          <lb ed="#P" n="73"/>sub mortali, quia incurritur ipso facto ex vi
+          <lb ed="#P" n="74"/>transgressionis talis legis, et non incurritur
+          <lb ed="#P" n="75"/>nisi propter peccatum mortale, ut est notum.
+          <lb ed="#P" n="76"/>De posteriori autem controversia est; nam
+          <lb ed="#P" n="77"/>multi pnutant etiam tunc esse sufficiens signum
+          <lb ed="#P" n="78"/>obligationis legis ad mortale. Ita Anton. citans
+          <lb ed="#P" n="79"/>Joan. de Neapol., 2 par., tit. 4, cap.2, 835; et
+          <lb ed="#P" n="80"/>sequitur Sylvest., verb. Preceptum, quaest. 3;
+          <lb ed="#P" n="81"/>Angel., verb. Lex, num. 3; Cajet. 2. 2, q. 189,
+          <lb ed="#P" n="82"/>art. 3, circa ad 2. Alii vero censent, quando
+          <lb ed="#P" n="83"/>lex fertur sub excommunicatione tantum 
+          fe<lb break="no" ed="#P" n="84"/>renda, non esse sufficiens signum obligationis
+          <lb ed="#P" n="85"/>sub mortali. Quam sententiam probabilem 
+          ju<lb break="no" ed="#P" n="86"/>dicat Ánton. supra, et idem sentit Armil. verbo
+          <lb ed="#P" n="87"/>Lex, n. 4, et verb. Praeeceptum, n. 6, quia 
+          so<lb break="no" ed="#P" n="88"/>Ium judicat priorem sententiam esse 
+          securio<lb break="no" ed="#P" n="89"/>rem, et pro hac citat Cajet., in Sum., verb.
+          <lb ed="#P" n="90"/>Preeceptum; et solet referri Driedo, lib. 2 de
+          <lb ed="#P" n="91"/>Libert. Christian. , capit. 1, et potest referri
+          <lb ed="#P" n="92"/>Navar. cap. 23, n. 53. Hi enim Cajet. in Sum.
+          <lb ed="#P" n="93"/>sequuntur.
+        </p>
+        <p xml:id="szdleg-b02083-d1e427">
+          <lb ed="#P" n="94"/>5. Veritas ergo est distinguendum esse de 
+          ex<lb break="no" ed="#P" n="95"/>communicatione ferenda. Nam dupliciter 
+          im<lb break="no" ed="#P" n="96"/>poni potest : primo, ut lex sufficientem 
+          moni<lb break="no" ed="#P" n="97"/>tionem contineat, ita ut pro illius 
+          transgres<lb break="no" ed="#P" n="98"/>sione statim sine alia hominis admonitione
+          <lb ed="#P" n="99"/>possit excommunicatio major in transgressores
+          <lb ed="#P" n="100"/>ferri. Et tunc verissimum est 
+          excommunica<lb break="no" ed="#P" n="101"/>tionem sic ferendam, esse signum legis 
+          obli<lb break="no" ed="#P" n="102"/>gantis sub mortali, quia si transgressor potest
+          <lb ed="#P" n="103"/>statim excommunicari , supponitur peccasse
+          <lb ed="#P" n="104"/>mortaliter in illa transgressione : ergo 
+          suppo<lb break="no" ed="#P" n="105"/>nitur lex obligare sub mortali. Et hoc etiam
+          <lb ed="#P" n="106"/>sentiunt auctores, qui absolute et indistincte
+          <lb ed="#P" n="107"/>dicunt, excommunicationis poenam per legem
+          <lb ed="#P" n="108"/>impositam esse signum obligationis sub 
+          mor<lb break="no" ed="#P" n="109"/>tali, ut sunt Medin., dict. cap. 7 de Jejun.;
+          <lb ed="#P" n="110"/>Castro, dict. cap. 5 de Lege poenali, lib. 1, et
+          <pb ed="#P" n="405"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Covar. in Regula Peccatum, part. 2, dicto S 5,
+          <lb ed="#P" n="2"/>n. 3, et Navarr. Supponunt enim hi auctores
+          <lb ed="#P" n="3"/>excommunicationis vocem absolute prolatam
+          <lb ed="#P" n="4"/>pro majori sumi, ut constat ex jure, et tunc 
+          di<lb break="no" ed="#P" n="5"/>cunt ferri per legem,quandosola legis 
+          transgres<lb break="no" ed="#P" n="6"/>sio sufficit ad illam subeundam, sive per legem
+          <lb ed="#P" n="7"/>ipsam statim inferatur, sive per homines ex
+          <lb ed="#P" n="8"/>vi transgressionis legis : haec enim diversitas
+          <lb ed="#P" n="9"/>parum ad praesens refert, quia in utroque 
+          mo<lb break="no" ed="#P" n="10"/>do supponenda necessario est mortalis culpa,
+          <lb ed="#P" n="11"/>ut talis censura inferatur.
+        </p>
+        <p xml:id="szdleg-b02083-d1e495">
+          <lb ed="#P" n="12"/>6. Alio vero modo potest excommunicatio
+          <lb ed="#P" n="13"/>imponi per legem, quae non solum non inferat
+          <lb ed="#P" n="14"/>illam ipso facto, verum etiam nec suflicienter
+          <lb ed="#P" n="15"/>admoneat subditum in ordine ad talem 
+          censu<lb break="no" ed="#P" n="16"/>ram, sed potius requirat superioris 
+          admonitio<lb break="no" ed="#P" n="17"/>nem, ut si post illam subditus legis 
+          transgres<lb break="no" ed="#P" n="18"/>sor adhuc contumax sit, excommunicetur. Et
+          <lb ed="#P" n="19"/>tunc excommunicatio sic ferenda non est 
+          suffi<lb break="no" ed="#P" n="20"/>ciens signum obligationis legis per se spectatae
+          <lb ed="#P" n="21"/>sub mortali, quia fieri potest ut ante 
+          monitio<lb break="no" ed="#P" n="22"/>nem Praelati talis transgressio non sit 
+          pecca<lb break="no" ed="#P" n="23"/>tum mortale. Nam, licet necessarium sit ut post
+          <lb ed="#P" n="24"/>monitionem Praelati contumacia in tali 
+          trans<lb break="no" ed="#P" n="25"/>gressione sit peccatum mortale, ut 
+          transgres<lb break="no" ed="#P" n="26"/>sor sit excommunicatione dignus, nihilominus
+          <lb ed="#P" n="27"/>non potest inde colligi legem per se spectatam
+          <lb ed="#P" n="28"/>obligare sub mortali, quia multum augetur
+          <lb ed="#P" n="29"/>culpa ex inobedientia et contumacia contra
+          <lb ed="#P" n="30"/>Praelati monitionem ; includit enim majorem
+          <lb ed="#P" n="31"/>contemptum non solum legis, sed etiam 
+          supe<lb break="no" ed="#P" n="32"/>rioris, per quem completur causa talis 
+          excom<lb break="no" ed="#P" n="33"/>municationis. Et haec fuit mens Cajetani loco
+          <lb ed="#P" n="34"/>citato, et ita etiam exposuit Navar., et sine
+          <lb ed="#P" n="35"/>dubio nihil aliud sensit Driedo. Quando autem
+          <lb ed="#P" n="36"/>lex quae imponit excommunicationem 
+          feren<lb break="no" ed="#P" n="37"/>dam, requirat postea hominis monitionem, vel
+          <lb ed="#P" n="38"/>illam per se faciat, licet quidam dicant 
+          nun<lb break="no" ed="#P" n="39"/>quam requirere monitionem hominis, nisi hoc
+          <lb ed="#P" n="40"/>exprimat, ego contrariam regulam statuere
+          <lb ed="#P" n="41"/>soleo, ut semper talis lex intelligenda sit, 
+          mo<lb break="no" ed="#P" n="42"/>nitione praemissa, nisi illam aperte excludat ;
+          <lb ed="#P" n="43"/>tum quia hic sensus mitior est, et ideo 
+          praefe<lb break="no" ed="#P" n="44"/>rendus in lege poenali: tum etiam quia est
+          <lb ed="#P" n="45"/>juri conformior, quia excommunicatio 
+          praere<lb break="no" ed="#P" n="46"/>quirit monitionem hominis, quando lex illam
+          <lb ed="#P" n="47"/>expresse non facit ; tum quia juxta comn.
+          u<lb break="no" ed="#P" n="48"/>nem usum ita videntur intelligi similes 
+          con<lb break="no" ed="#P" n="49"/>minationes legum. Et hoc videntur supponere
+          <lb ed="#P" n="50"/>auctores prioris sententiae, et ideo dixerunt ex
+          <lb ed="#P" n="51"/>vi talis censurae non satis colligi legem obligare
+          <lb ed="#P" n="52"/>per se sub mortali, utique regulariter 
+          loquen<lb break="no" ed="#P" n="53"/>do, et nisi lex ipsa declaret ut 
+          excommuniea<lb break="no" ed="#P" n="54"/>tio feratur, nulla alia admonitione praemissa.
+        </p>
+        <p xml:id="szdleg-b02083-d1e591">
+          <lb ed="#P" n="55"/>7. Idem cum proportione dicendum de sus-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>pensione et interdicto majori vel minori suo
+          <lb ed="#P" n="57"/>modo. — Irregularitatem esse signum gravis
+          <lb ed="#P" n="58"/>obligationis. — Ex his constat quid dicendum
+          <lb ed="#P" n="59"/>sit de aliis duabus censuris, suspensione et 
+          in<lb break="no" ed="#P" n="60"/>terdicto. Castro enim et Medin. absolute negant
+          <lb ed="#P" n="61"/>has duas censuras esse signum sufficiens 
+          trans<lb break="no" ed="#P" n="62"/>cressionis mortalis, et consequenter nec 
+          obli<lb break="no" ed="#P" n="63"/>gationis legis. Contrarium vero censent Angel.,
+          <lb ed="#P" n="64"/>Sylv., Armil., et alii. Ego vero in materia de
+          <lb ed="#P" n="65"/>suspensione distinxi suspensionem in majorem
+          <lb ed="#P" n="66"/>et minorem, instar excommunicationis. Si 
+          er<lb break="no" ed="#P" n="67"/>go suspensio sit major, id est, totalis, vel 
+          par<lb break="no" ed="#P" n="68"/>tialis a gravi aliquo munere seu officio, 
+          si<lb break="no" ed="#P" n="69"/>gnum est gravis obligationis, et sub mortali,
+          <lb ed="#P" n="70"/>quia tam gravis poena non imponeretur juste
+          <lb ed="#P" n="71"/>propter levem culpam: siautem suspensio sit
+          <lb ed="#P" n="72"/>minor, potest interdum incurri propter levem
+          <lb ed="#P" n="73"/>culpam, et ita non potest esse sufficiens 
+          si<lb break="no" ed="#P" n="74"/>gnum obligationis sub mortali. idemque cum
+          <lb ed="#P" n="75"/>proportione dicendum est de interdicto; nam
+          <lb ed="#P" n="76"/>in illo etiam habet locum similis distinctio,
+          <lb ed="#P" n="77"/>ut ex propria materia suppono. Loquor autem
+          <lb ed="#P" n="78"/>de interdicto prout habet veram rationem 
+          poe<lb break="no" ed="#P" n="79"/>nae respectu ejus qui dedit causam interdicto:
+          <lb ed="#P" n="80"/>sic enim non imponitur sine gravi culpa ejus
+          <lb ed="#P" n="81"/>qui personaliter et specialiter interdicitur.
+          <lb ed="#P" n="82"/>Etiamsi universale interdictum soleat 
+          inno<lb break="no" ed="#P" n="83"/>centes comprehendere, quia non est propria
+          <lb ed="#P" n="84"/>poena respectu illorum, sed illius qui dedit
+          <lb ed="#P" n="85"/>causam, et per quamdam redundantiam et
+          <lb ed="#P" n="86"/>moralem unionem redundat in alios : inde 
+          ta<lb break="no" ed="#P" n="87"/>men evidentius concluditur, non posse tale
+          <lb ed="#P" n="88"/>interdictum imponi, nisi propter gravem 
+          cul<lb break="no" ed="#P" n="89"/>pam alicujus. Denique, circa irregularitatem
+          <lb ed="#P" n="90"/>non habet locum proprie haec doctrina, quia
+          <lb ed="#P" n="91"/>irregularitas non est censura : nihilominus 
+          ta<lb break="no" ed="#P" n="92"/>men, quia est gravissima, et suo modo 
+          spiri<lb break="no" ed="#P" n="93"/>tualis, signum esse censeo gravis obligationis,
+          <lb ed="#P" n="94"/>quando poenalis est. Neque in illa habet 
+          lo<lb break="no" ed="#P" n="95"/>cum illa distinctio de majori aut minori : 
+          om<lb break="no" ed="#P" n="96"/>nis enim irregularitas simpliciter talis, gravis
+          <lb ed="#P" n="97"/>est, et grave affert nocumentum, ideoque si sit
+          <lb ed="#P" n="98"/>poena, gravis est poena, et consequenter est
+          <lb ed="#P" n="99"/>indicium gravis obligationis legis, gravisque
+          <lb ed="#P" n="100"/>transgressionis ejus, quando propter illam 
+          im<lb break="no" ed="#P" n="101"/>ponitur per eamdem legem. Dixi autem, si sit
+          <lb ed="#P" n="102"/>pena, quia illa irregularitas, quae est 
+          indecen<lb break="no" ed="#P" n="103"/>tia tantum, requirit causam, non veroculpam,
+          <lb ed="#P" n="104"/>et ideo illa in praesenti non consideratur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

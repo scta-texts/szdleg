@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 13</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 13</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="222"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a56285"><!-- deleg-l3c13 -->
+        <head xml:id="szdleg-a56285-Hd1e101">Caput 13</head>
+        <head xml:id="szdleg-a56285-Hd1e103" type="question-title">An lex civilis tantum possit externos actus praecipere aut prohibere</head>
+        <p xml:id="szdleg-a56285-d1e106">
+          <lb ed="#P" n="47"/>CAPUT XII.
+          <lb ed="#P" n="48"/>AN LEX CIVILIS TANTUM POSSIT EXTERNOS ACTUS
+          <lb ed="#P" n="49"/>PRAECIPERE AUT PROHIBERE.
+        </p>
+        <p xml:id="szdleg-a56285-d1e115">
+          <lb ed="#P" n="50"/>1. Actus humanus duplex - interior et 
+          exte<lb break="no" ed="#P" n="51"/>rior, et hinc tanquam a forma morali habet
+          <lb ed="#P" n="52"/>quod sit humanus et moralis. — Actus huma-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>nus (de quo solo lex potest proxime ferri) 
+          du<lb break="no" ed="#P" n="54"/>plex est, ut ex 1. 2, q. 18 et sequentibus 
+          con<lb break="no" ed="#P" n="55"/>stat, interior et exterior, qui inter se ita 
+          com<lb break="no" ed="#P" n="56"/>parantur, ut exterior non possit esse sine 
+          inte<lb break="no" ed="#P" n="57"/>riori : ab illo enim tanquam a morali forma
+          <lb ed="#P" n="58"/>habet quod humanus et moralis sit. Unde 
+          ex<lb break="no" ed="#P" n="59"/>terior actus humanus est veluti compositum
+          <lb ed="#P" n="60"/>quoddam ex actu exteriori, corporis verbi
+          <lb ed="#P" n="61"/>gratia (ita enim nunc loquimur), et ex interiori
+          <lb ed="#P" n="62"/>actu voluntatis, tanquam ex materia visibili,
+          <lb ed="#P" n="63"/>et forma per se invisibili: sicut homo 
+          compo<lb break="no" ed="#P" n="64"/>nitur ex corpore et anima;et de hoc actu nulla
+          <lb ed="#P" n="65"/>est quaestio quin possit esse materia humanae
+          <lb ed="#P" n="66"/>legis. Tantum ergo superest inquirendum an
+          <lb ed="#P" n="67"/>solus ille sit materia humanae legis, aut etiam
+          <lb ed="#P" n="68"/>interior esse possit vel per se, vel ut 
+          conjunc<lb break="no" ed="#P" n="69"/>tus exteriori. Unde simul etiam oportebit 
+          in<lb break="no" ed="#P" n="70"/>quirere utrum actus exterior per legem 
+          hu<lb break="no" ed="#P" n="71"/>manam praecipiatur, ut voluntarius est, vel
+          <lb ed="#P" n="72"/>solum ut actus quidam exterior est. Sub actu
+          <lb ed="#P" n="73"/>autem (ut saepe monui) comprehendimus 
+          omis<lb break="no" ed="#P" n="74"/>sionem actus humani : constat enim hanc
+          <lb ed="#P" n="75"/>etiam esse praeceptam per legem negativam,
+          <lb ed="#P" n="76"/>vel prohibitam per affirmativam: nam qui 
+          ac<lb break="no" ed="#P" n="77"/>tum praecipit consequenter prohibet ejus 
+          omis<lb break="no" ed="#P" n="78"/>sionem.
+        </p>
+        <p xml:id="szdleg-a56285-d1e183">
+          <lb ed="#P" n="79"/>2. Lex mere humana non potest praecipere
+          <lb ed="#P" n="80"/>actum pure internum directe et secundum se.—
+          <lb ed="#P" n="81"/>Dico ergo primo: lex mere humana non potest
+          <lb ed="#P" n="82"/>praecipere actum pure internum directe et 
+          se<lb break="no" ed="#P" n="83"/>cundum se. Haec assertio in sensu statim 
+          ex<lb break="no" ed="#P" n="84"/>plicando communiter recepta est, sumiturque
+          <lb ed="#P" n="85"/>ex l. Cogitationis panam nemo meretur, ff. de
+          <lb ed="#P" n="86"/>Poenis; Penam utique civilem, quia, scilicet,
+          <lb ed="#P" n="87"/>jus civile per se non versatur circa internos
+          <lb ed="#P" n="88"/>actus. Nam quia illos naturaliter ac per se
+          <lb ed="#P" n="89"/>punire non potest, ideo nec illos praecipere aut
+          <lb ed="#P" n="90"/>prohibere potest : nam potestas legislativa est
+          <lb ed="#P" n="91"/>etiam coactiva, ut diximus, et ita si coactiva
+          <lb ed="#P" n="92"/>esse non potest respectu interioris actus, neque
+          <lb ed="#P" n="93"/>legem ferre circa illum potest. Dixi autem
+          <lb ed="#P" n="94"/>actum pure intermun, quia oportet ut in sola
+          <lb ed="#P" n="95"/>mente sistatur. Nam si cupiens, verbi gratia,
+          <lb ed="#P" n="96"/>occidere, aliquo modo intentet exteriorem
+          <lb ed="#P" n="97"/>actum, et in illo prodere incipiat, quamvis
+          <lb ed="#P" n="98"/>effectum non assequatur , saepe aget contra
+          <lb ed="#P" n="99"/>legem et incurret poenam ejus. Quomodo 
+          ali<lb break="no" ed="#P" n="100"/>quando dicitur in jure aliquem puniri, vd quia
+          <lb ed="#P" n="101"/>cogitavit, scilicet exterius inchoando, vel per
+          <lb ed="#P" n="102"/>consilium, vel per aliquam actionem quae casu
+          <lb ed="#P" n="103"/>non habuit effectum. Sicque intelligitur lex
+          <lb ed="#P" n="104"/>Quisquis, C. ad leg. Jul. majestatis, et l. Divus,
+          <lb ed="#P" n="105"/>ff. ad Leg. Cornel. de Sacr. Quibus locis alia
+          <lb ed="#P" n="106"/>jura circa hoc Gloss. et doctores adnotant, et
+          <lb ed="#P" n="107"/>late Felin. tr. 1, Quando conatus puniatur et
+          <pb ed="#P" n="223"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Navar. in cap. Si quis non dicam, de Poen.,
+          <lb ed="#P" n="2"/>d. 1, n. 5. Ratio autem hujus limitationis est,
+          <lb ed="#P" n="3"/>quia jam tunc est actus exterior, licet non
+          <lb ed="#P" n="4"/>consummatus, et ideo prohiberi potest a lege
+          <lb ed="#P" n="5"/>humana, et puniri vel leviori poena, vel 
+          ah<lb break="no" ed="#P" n="6"/>quando etiam ordinaria, juxta materiae 
+          gravi<lb break="no" ed="#P" n="7"/>tatem.
+        </p>
+        <p xml:id="szdleg-a56285-d1e269">
+          <lb ed="#P" n="8"/>3. Potestas humana legislativa solum 
+          ordi<lb break="no" ed="#P" n="9"/>nalur ad exteriorem pacem, et honestatem 
+          com<lb break="no" ed="#P" n="10"/>munitatis hunane. — Hatio vero principalis
+          <lb ed="#P" n="11"/>assertionis, est, quia potestas humana 
+          legisla<lb break="no" ed="#P" n="12"/>tiva solum ordinatur ad exteriorem pacem et
+          <lb ed="#P" n="13"/>honestatem communitatis humanae, ad quam
+          <lb ed="#P" n="14"/>nihil referunt actus qui in pura mente 
+          consum<lb break="no" ed="#P" n="15"/>mantur. ltem quia haec potestas immediate
+          <lb ed="#P" n="16"/>nascitur ab ipsa communitate humana media
+          <lb ed="#P" n="17"/>ratione naturali : nulla autem ratio dictat quod
+          <lb ed="#P" n="18"/>communitas humana possit dare potestatem
+          <lb ed="#P" n="19"/>immediate et per se super actus mere internos,
+          <lb ed="#P" n="20"/>cum illi sint omnino extra cognitionem suam,
+          <lb ed="#P" n="21"/>ac proinde etiam sint extra forum suum. 
+          De<lb break="no" ed="#P" n="22"/>nique hoc optime declarat D. Thomas 2. 2,
+          <lb ed="#P" n="23"/>q. 104, art. 5, ex Seneca 3 de Benefic.. quia
+          <lb ed="#P" n="24"/>unus homo naturaliter non subditur alteri 
+          se<lb break="no" ed="#P" n="25"/>cundum animam et secundum corpus. Zrrat
+          <lb ed="#P" n="26"/>enim (inquit ille) si quis putat servitutem in
+          <lb ed="#P" n="27"/>totum hominem descendere, pars enim melior
+          <lb ed="#P" n="28"/>excepta est. Corpora obnosia sunt et adscripta
+          <lb ed="#P" n="29"/>dominis, mens sut juris est. Solum enim potest
+          <lb ed="#P" n="30"/>inveniri subjectio inter homines quatenus 
+          in<lb break="no" ed="#P" n="31"/>ter se communicationem habere possunt, et
+          <lb ed="#P" n="32"/>actiones unius possunt aliis esse utiles vel 
+          no<lb break="no" ed="#P" n="33"/>civae, et ideo solum de his actibus possunt
+          <lb ed="#P" n="34"/>praecepta humana dari, qui ad exteriorem 
+          dis<lb break="no" ed="#P" n="35"/>positionem rerum humanarum pertinere 
+          pos<lb break="no" ed="#P" n="36"/>sunt.
+        </p>
+        <p xml:id="szdleg-a56285-d1e334">
+          <lb ed="#P" n="37"/>4. Si quis autem has rationes attente 
+          con<lb break="no" ed="#P" n="38"/>sideret, facile intelliget solum procedere de
+          <lb ed="#P" n="39"/>lege humana, quatenus per potestatem a sola
+          <lb ed="#P" n="40"/>ratione naturali manantem ferri potest, quae
+          <lb ed="#P" n="41"/>lex cum civili coincidit ; non vero procedere
+          <lb ed="#P" n="42"/>in lege ecclesiastica, quae procedit a superiore
+          <lb ed="#P" n="43"/>potestate, ordinata ad altiorem finem, et 
+          ha<lb break="no" ed="#P" n="44"/>bente altiorem originem. Manet ergo de illa
+          <lb ed="#P" n="45"/>lege specialis difficultas quae ex speciali ratione
+          <lb ed="#P" n="46"/>illius nascitur, et ideo in librum quartum 
+          il<lb break="no" ed="#P" n="47"/>lam tractandam relinquimus: et ob hanc 
+          cau<lb break="no" ed="#P" n="48"/>sam locutus sum in assertione de lege mere
+          <lb ed="#P" n="49"/>humana; nam ecclesiastica quodammodo est
+          <lb ed="#P" n="50"/>divina, et in hoc sensu nulla est difficultas in
+          <lb ed="#P" n="51"/>assertione.
+        </p>
+        <p xml:id="szdleg-a56285-d1e369">
+          <lb ed="#P" n="52"/>5. Objicitur legem civilem non posse esse
+          <lb ed="#P" n="53"/>circa, actum externum qui non potest probari
+          <lb ed="#P" n="54"/>cum non possit puniri omnino. — Sed objici
+          <lb ed="#P" n="55"/>potest ; nam sequitur non posse egem civilem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>prohibere aut praecipere actum externum 
+          om<lb break="no" ed="#P" n="57"/>nino occultum, qui in judicio bumano 
+          proba<lb break="no" ed="#P" n="58"/>bilis non sit: consequens autem est falsum;
+          <lb ed="#P" n="59"/>ergo. Sequela patet, quia talis actus non 
+          po<lb break="no" ed="#P" n="60"/>test puniri per legem pure humanam; ergo
+          <lb ed="#P" n="61"/>nec prohiberi, quia potestas legislativa semper
+          <lb ed="#P" n="62"/>habet coactivam adjunctam, ut saepe cum
+          <lb ed="#P" n="63"/>Arist. diximus. Antecedens patet, quia tale
+          <lb ed="#P" n="64"/>delictum non potest puniri per judicium 
+          hu<lb break="no" ed="#P" n="65"/>manum ; ergo nec per legem humanam, quia
+          <lb ed="#P" n="66"/>eadem est potestas ad utrumque actum; et 
+          con<lb break="no" ed="#P" n="67"/>firmatur, quia tale delictum non est probabile
+          <lb ed="#P" n="68"/>in humano judicio; ergo nec potest in illo 
+          ju<lb break="no" ed="#P" n="69"/>dicari, quia judicium humanum non fertur
+          <lb ed="#P" n="70"/>nisi secundum allegata et probata. Primum
+          <lb ed="#P" n="71"/>autem consequens plane falsum est, quia alias
+          <lb ed="#P" n="72"/>non peccaret qui legem humanam occultissime
+          <lb ed="#P" n="73"/>non servaret, quod dici non potest, quia lex
+          <lb ed="#P" n="74"/>non tantum prohibet ne actibus publice fiat,
+          <lb ed="#P" n="75"/>sed simpliciter ne fiat: tum etiam quia non
+          <lb ed="#P" n="76"/>prohibet actum solum ratione scandali aut 
+          no<lb break="no" ed="#P" n="77"/>torietatis, sed ratione sui, quia vel malus est,
+          <lb ed="#P" n="78"/>vel ex vi prohibitionis legis sit malus; tum
+          <lb ed="#P" n="79"/>denique quia lex praecipiendo constituit 
+          ac<lb break="no" ed="#P" n="80"/>tum in tali specie vel mediocritate virtutis, et
+          <lb ed="#P" n="81"/>ideo qui ab illa discrepat quantumvis occulte,
+          <lb ed="#P" n="82"/>contra virtutem agit, ac subinde peccat; ut si
+          <lb ed="#P" n="83"/>lex taxat pretium tritici. si quis carius illud
+          <lb ed="#P" n="84"/>vendat occulte, omnino contra justitiam agit,
+          <lb ed="#P" n="85"/>et sic de aliis.
+        </p>
+        <p xml:id="szdleg-a56285-d1e447">
+          <lb ed="#P" n="86"/>6. Actus dupliciter occultus per se et per 
+          ac<lb break="no" ed="#P" n="87"/>cidens.—Pro solutione, supponenda est 
+          vulga<lb break="no" ed="#P" n="88"/>ris distinctio de actu dupliciter occulto, scilicet,
+          <lb ed="#P" n="89"/>per se et natura sua , vel per accidens, ex 
+          de<lb break="no" ed="#P" n="90"/>fectu probationis, cujus quidem capax erat
+          <lb ed="#P" n="91"/>actus de se spectatus, de facto tamen defuit.
+          <lb ed="#P" n="92"/>Quam distinctionem bene tractat Cajet. 2. 2,
+          <lb ed="#P" n="93"/>q. 11, art. 3; Castro l. 2 de Leg. poenal., cap.
+          <lb ed="#P" n="94"/>ult. ; et Simanc. in Catholic. instit., tit. 42.
+          <lb ed="#P" n="95"/>Actus ergo mentales ac mere interni sunt per
+          <lb ed="#P" n="96"/>se et natura sua occulti aliis hominibus extra
+          <lb ed="#P" n="97"/>operantem, quia homines non cognoscunt 
+          na<lb break="no" ed="#P" n="98"/>turaliter nisi ministerio sensuum; et ideo quae
+          <lb ed="#P" n="99"/>per sensibiles etfectus vel signa non 
+          manifes<lb break="no" ed="#P" n="100"/>tantur, per se et natura sua sunt extra 
+          cogni<lb break="no" ed="#P" n="101"/>tionem humanam: hujusmodi autem sunt 
+          ac<lb break="no" ed="#P" n="102"/>tus mere interni, et ideo dicuntur per se
+          <lb ed="#P" n="103"/>occulti. Actus vero qui exterius prodeunt
+          <lb ed="#P" n="104"/>sensibus percipi possunt, et ideo non sunt per
+          <lb ed="#P" n="105"/>se occulti: contingit autem ignorari propter
+          <lb ed="#P" n="106"/>absentiam testium, et sic non posse probari, et
+          <lb ed="#P" n="107"/>tunc occulti quidem sunt , tamen per accidens,
+          <lb ed="#P" n="108"/>quia illa testium absentia est accidentaria. 
+          As<lb break="no" ed="#P" n="109"/>sertio ergo posita procedit de actibus internis,
+          <lb ed="#P" n="110"/>ac subinde per se occultis: objectio vero pro-
+          <pb ed="#P" n="224"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cedit de actibus externis per accidens occultis,
+          <lb ed="#P" n="2"/>de quibus fatemur esse posse materiam legis
+          <lb ed="#P" n="3"/>humanae , et per illam prohiberi, ut probant
+          <lb ed="#P" n="4"/>rationes factae, et recte docent auctores 
+          alle<lb break="no" ed="#P" n="5"/>gati, et Palud. 4, dist. 17, q. 2; Navar. de
+          <lb ed="#P" n="6"/>Poenit. dist. 5, in princ. n. 27, ubi alios in
+          <lb ed="#P" n="7"/>eamdem sententiam refert. Allegat autem D.
+          <lb ed="#P" n="8"/>Thomam quodlib. 4, art. 12, significantem
+          <lb ed="#P" n="9"/>peccatum occultum etiam externum non 
+          ca<lb break="no" ed="#P" n="10"/>dere sub humanam jurisdictionem : sed divus
+          <lb ed="#P" n="11"/>Thomas non neagat simpliciter cadere sub 
+          ju<lb break="no" ed="#P" n="12"/>risdictionem hominis, sed solum quoad actum
+          <lb ed="#P" n="13"/>judicandi de illo inquirendo, vel alio simili
+          <lb ed="#P" n="14"/>modo, quia hic actus supponit notitiam 
+          ali<lb break="no" ed="#P" n="15"/>quam humanam tanquam fundamentum 
+          in<lb break="no" ed="#P" n="16"/>quisitionis et judicii : secus vero est de actibus
+          <lb ed="#P" n="17"/>jurisdictionis, qui per sententiam generalem
+          <lb ed="#P" n="18"/>et per leges exerceri possunt, quia illi optime
+          <lb ed="#P" n="19"/>cadere possunt in actus per se cognoscibiles,
+          <lb ed="#P" n="20"/>etiamsi per accidens occultissimi sint.
+        </p>
+        <p xml:id="szdleg-a56285-d1e551">
+          <lb ed="#P" n="21"/>7. Ad objectionem ergo negatur 
+          consequen<lb break="no" ed="#P" n="22"/>tia. et ratio differentiae inter utrumque actum
+          <lb ed="#P" n="23"/>est, quia multum refert ad morales effectus
+          <lb ed="#P" n="24"/>quod actio sit natura sua insensibilis vel 
+          sen<lb break="no" ed="#P" n="25"/>sibilis, quia jurisdictio haec datur hominibus
+          <lb ed="#P" n="26"/>modo connaturali, ac subinde proportionato
+          <lb ed="#P" n="27"/>naturae, et ideo datur super eas actiones quae
+          <lb ed="#P" n="28"/>per se et natura sua cognoscibiles sunt 
+          huma<lb break="no" ed="#P" n="29"/>no modo, non vero super alias per se occultas,
+          <lb ed="#P" n="30"/>quia ex se sunt extra humanum forum. Nec in
+          <lb ed="#P" n="31"/>prioribus considerari potest accidentalis ille
+          <lb ed="#P" n="32"/>status occultus in ordine ad universalem 
+          po<lb break="no" ed="#P" n="33"/>testatem : tum quia lex generaliter datur de
+          <lb ed="#P" n="34"/>actibus secundum conditionem naturalem 
+          eo<lb break="no" ed="#P" n="35"/>rum, et circumstantiae accidentariae non 
+          mu<lb break="no" ed="#P" n="36"/>tant, nec impediunt efficaciamlegis : tum etiam
+          <lb ed="#P" n="37"/>quia non deest modus humanus quo possint
+          <lb ed="#P" n="38"/>tales actus dirigi et cohiberi per legem 
+          abstra<lb break="no" ed="#P" n="39"/>hendo ab illa circumstantia.
+        </p>
+        <p xml:id="szdleg-a56285-d1e595">
+          <lb ed="#P" n="40"/>8. Lex indefinite lata per se extenditur ad
+          <lb ed="#P" n="41"/>omnia quae sub ejus verbis conprehenduntur.—
+          <lb ed="#P" n="42"/>Unde ulterius addimus, quoties lex absolute
+          <lb ed="#P" n="43"/>disponit de hujusmodi actu, illum simpliciter
+          <lb ed="#P" n="44"/>praecipiendo aut vetando, comprehendere 
+          ac<lb break="no" ed="#P" n="45"/>tum externum occultum, nisi addantur in lege
+          <lb ed="#P" n="46"/>verba limitantia illam ad actum publicum vel
+          <lb ed="#P" n="47"/>notorium : ratio est, quia lex indefinite lata et
+          <lb ed="#P" n="48"/>nihil distinguens, per se loquendo extenditur
+          <lb ed="#P" n="49"/>ad omnia quae sub verbis ejus 
+          comprehendun<lb break="no" ed="#P" n="50"/>tur. Ad difficultatem autem in contrarium cum
+          <lb ed="#P" n="51"/>eadem proportione et distinctione respondetur
+          <lb ed="#P" n="52"/>actum talem per se esse punibilem per legem
+          <lb ed="#P" n="53"/>humanam, licet per accidens ex defectu 
+          pro<lb break="no" ed="#P" n="54"/>bationis puniri per homines non possit. Cujus
+          <lb ed="#P" n="55"/>signum est,quia quacumque ratione perveniat
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>delictum ad sufficientem hominum notitiam,
+          <lb ed="#P" n="57"/>puniri poterit, licet in principio fuerit 
+          occultis<lb break="no" ed="#P" n="58"/>sime commissum, quod non ita est de actu
+          <lb ed="#P" n="59"/>mere interno: unde interdum poterit lex 
+          hu<lb break="no" ed="#P" n="60"/>mana per seipsam punire delictum sic 
+          occul<lb break="no" ed="#P" n="61"/>tum, imponendo poenam ipso facto sibi 
+          pro<lb break="no" ed="#P" n="62"/>portionatam, ut latius dicemus tract. de Lege
+          <lb ed="#P" n="63"/>poenali, ideoque recte potest oriri aliquando
+          <lb ed="#P" n="64"/>obligatio ad restituendum ex vi talis 
+          transgres<lb break="no" ed="#P" n="65"/>sionis humanae legis, ut recte in argumento
+          <lb ed="#P" n="66"/>dicebatur.
+        </p>
+        <p xml:id="szdleg-a56285-d1e659">
+          <lb ed="#P" n="67"/>9. Lea pure hwmana potest indirecte 
+          praeci<lb break="no" ed="#P" n="68"/>pere actum interiorem. — Dico secundo: Lex
+          <lb ed="#P" n="69"/>pure bumana seu civilis potest indirecte, seu
+          <lb ed="#P" n="70"/>per quamdam consecutionem, praecipere 
+          ac<lb break="no" ed="#P" n="71"/>tum interiorem voluntatis et intellectus, 
+          qua<lb break="no" ed="#P" n="72"/>tenus connexi per se esse possunt cum actu
+          <lb ed="#P" n="73"/>exteriori praecepto vel prohibito. Hoc est 
+          cer<lb break="no" ed="#P" n="74"/>tum apud omnes et per se satis clarum, quia
+          <lb ed="#P" n="75"/>actus exterior praecipitur per legem ut 
+          huma<lb break="no" ed="#P" n="76"/>nus et liber; sed non potest esse humanus et
+          <lb ed="#P" n="77"/>liber sine interiori ; ergo necesse est ut actum
+          <lb ed="#P" n="78"/>interiorem saltem indirecte et consequenter
+          <lb ed="#P" n="79"/>praecipiat. Quomodo enim lex praecipiet homini
+          <lb ed="#P" n="80"/>ut faciat, nisi possit praecipere ut velit facere,
+          <lb ed="#P" n="81"/>cum voluntate facturus sit? Et proportionali
+          <lb ed="#P" n="82"/>ratione, si lex humana prohibeat facere 
+          ali<lb break="no" ed="#P" n="83"/>quid, prohibet etiam velle efficaciter facere
+          <lb ed="#P" n="84"/>idem. Imo, non solum lex prohibens actum
+          <lb ed="#P" n="85"/>externum consequenter prohibet aliquam 
+          vo<lb break="no" ed="#P" n="86"/>Iuntatem internam ; sed etiam lex praecipiens
+          <lb ed="#P" n="87"/>actum externum pro aliquo tempore 
+          conse<lb break="no" ed="#P" n="88"/>quenter prohibet habere pro illo tempore 
+          vo<lb break="no" ed="#P" n="89"/>luntatem non faciendi, seu nolitionem 
+          facien<lb break="no" ed="#P" n="90"/>di, vel etiam voluntatem faciendi alium actum
+          <lb ed="#P" n="91"/>incompossibilem, quia necesse est ut prohibeat
+          <lb ed="#P" n="92"/>quidquid incompossibile est observationi legis:
+          <lb ed="#P" n="93"/>quilibet autem ex his actibus voluntatis est
+          <lb ed="#P" n="94"/>incompossibilis observationi talis legis, ut
+          <lb ed="#P" n="95"/>constat. Atque hinc etiam fit ut, eo ipso quod
+          <lb ed="#P" n="96"/>lex prohibet aliquid facere , prohibeat etiam
+          <lb ed="#P" n="97"/>habere propositum absolutum faciendi: ete
+          <lb ed="#P" n="98"/>converso, si praecipit aliquid facere, 
+          consequen<lb break="no" ed="#P" n="99"/>ter prohibet propositum non faciendi debito
+          <lb ed="#P" n="100"/>tempore, licet propositum actus interior sit,
+          <lb ed="#P" n="101"/>quia eo ipso quod actus exterior est prohibitus,
+          <lb ed="#P" n="102"/>est malum objectum respectu voluntatis, et
+          <lb ed="#P" n="103"/>ideo consequenter fit ut talis voluntas ejus sit
+          <lb ed="#P" n="104"/>mala, ac subinde prohibita mediante objecto
+          <lb ed="#P" n="105"/>suo.
+        </p>
+        <p xml:id="szdleg-a56285-d1e746">
+          <lb ed="#P" n="106"/>10. An desideriumn inefficam possit prohiberi
+          <lb ed="#P" n="107"/>a lege lumana. — Dices: ergo eadem ratione
+          <lb ed="#P" n="108"/>erit prohibitum omne desiderium etiam 
+          ineffi<lb break="no" ed="#P" n="109"/>cax, omnisque complacentia circa tale 
+          objec<lb break="no" ed="#P" n="110"/>tum, quia etiam hi actus circa objectum ma-
+          <pb ed="#P" n="225"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>lum mali sunt ; consequens auteme est falsum :
+          <lb ed="#P" n="2"/>quia illi actus non sunt per se connexi cum
+          <lb ed="#P" n="3"/>actu exteriori, nec impediunt per se 
+          executio<lb break="no" ed="#P" n="4"/>nem praecepti. Respondeo : quod attinet ad
+          <lb ed="#P" n="5"/>desiderium inefficax, illud ex parte objecti 
+          sem<lb break="no" ed="#P" n="6"/>per includit conditionem aliquam, quae 
+          atten<lb break="no" ed="#P" n="7"/>denda est ad judicandum de honestate vel 
+          tur<lb break="no" ed="#P" n="8"/>pitudine talis desiderii. Si ergo desiderium
+          <lb ed="#P" n="9"/>cadat in tale objectum non obstante 
+          prohibi<lb break="no" ed="#P" n="10"/>tione, et conditio solum sit, si possem occulte
+          <lb ed="#P" n="11"/>facere vel sine discrimine poenae, aut alia 
+          si<lb break="no" ed="#P" n="12"/>milis, talis actus prohibitus est ex vi legis,
+          <lb ed="#P" n="13"/>propter rationem factam, quia versatur circa
+          <lb ed="#P" n="14"/>objectum prohibitum retenta prohibitione, et
+          <lb ed="#P" n="15"/>formaliter est desiderium quoddam 
+          transgre<lb break="no" ed="#P" n="16"/>diendi legem, quod malum est et prohibitum.
+          <lb ed="#P" n="17"/>At vero, si conditio sit talis ut removeat 
+          pro<lb break="no" ed="#P" n="18"/>hibitionem, non erit prohibitum nec malum,
+          <lb ed="#P" n="19"/>quia jam non versatur circa objectum malum,
+          <lb ed="#P" n="20"/>ut, verbi gratia, si quis habeat simplicem 
+          af<lb break="no" ed="#P" n="21"/>fectum faciendi hoc si non esset prohibitum,
+          <lb ed="#P" n="22"/>per hanc conditionem removet malitiam e
+          <lb ed="#P" n="23"/>prohibitionem, et appetit actum illum 
+          secun<lb break="no" ed="#P" n="24"/>dum se spectatum, qui ut sic malus non est;
+          <lb ed="#P" n="25"/>et idem dicendum cum proportione est de
+          <lb ed="#P" n="26"/>simplici complacentia, seu delectatione in actu
+          <lb ed="#P" n="27"/>illo cogitato: nam si talis delectatio 
+          praescin<lb break="no" ed="#P" n="28"/>dat a prohibitione, ut ordinarie fieri solet in
+          <lb ed="#P" n="29"/>actibus qui solum sunt mali quia prohibiti,
+          <lb ed="#P" n="30"/>eo ipso non est de objecto malo, et 
+          consequen<lb break="no" ed="#P" n="31"/>ter non prohibetur ex vi talis legis, nec 
+          di<lb break="no" ed="#P" n="32"/>recte nec indirecte, ut ex dictis constat. Si
+          <lb ed="#P" n="33"/>autem quis delectaretur de illo actu involvendo
+          <lb ed="#P" n="34"/>transgressionem praecepti , ut puta, quia 
+          de<lb break="no" ed="#P" n="35"/>lectatur cogitans se id facere non obstante 
+          pro<lb break="no" ed="#P" n="36"/>hibitione legis , sic complacentia esset mala ;
+          <lb ed="#P" n="37"/>imo esset quidam contemptus legis, vel 
+          forma<lb break="no" ed="#P" n="38"/>lis, vel saltem virtualis, et ideo indirecte 
+          pro<lb break="no" ed="#P" n="39"/>hibetur per legem.
+        </p>
+        <p xml:id="szdleg-a56285-d1e848">
+          <lb ed="#P" n="40"/>11. Ex quibus intelligi potest duobus modis
+          <lb ed="#P" n="41"/>posse legem humanam prohibere vel 
+          praeci<lb break="no" ed="#P" n="42"/>pere indirecte internum actum, scilicet, vel ex
+          <lb ed="#P" n="43"/>parte actus, comprehendendo illum tanquam
+          <lb ed="#P" n="44"/>causam formalem, seu partem actus humani
+          <lb ed="#P" n="45"/>completi, qui est compositus ex interiori et
+          <lb ed="#P" n="46"/>exteriori actu : vel ex parte objecti actus 
+          in<lb break="no" ed="#P" n="47"/>terioris, reddendo illud pravum et contrarium
+          <lb ed="#P" n="48"/>rectae rationi. Priorque modus praecipue 
+          cerni<lb break="no" ed="#P" n="49"/>tur in actibus efficacibus et absolutis qui 
+          ordi<lb break="no" ed="#P" n="50"/>nantur ad executionem operis praecepti aut
+          <lb ed="#P" n="51"/>prohibiti, suntque causa ejus : posterior vero
+          <lb ed="#P" n="52"/>modus invenitur in actibus inefficacibus et
+          <lb ed="#P" n="53"/>simplicibus, qui, licet non sint causae, suam
+          <lb ed="#P" n="54"/>tamen rationem sumunt ab objectis, et ratione
+          <lb ed="#P" n="55"/>illorum boni vel mali fiunt. Denique in priori
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>modo actus interior aliquo modo est materia
+          <lb ed="#P" n="57"/>legis, estque (ut sic dicam) compraeceptus per
+          <lb ed="#P" n="58"/>legem, quia per se praecipitur actus humanus
+          <lb ed="#P" n="59"/>sensibilis ; compraecipitur autem pars et quasi
+          <lb ed="#P" n="60"/>forma ejus, etiamsi insensibilis et spiritualis
+          <lb ed="#P" n="61"/>sit, sicut per se generatur homo, et anima
+          <lb ed="#P" n="62"/>congeneratur suo modo quatenus forma 
+          homi<lb break="no" ed="#P" n="63"/>nis est, saltem quoad unionem cum materia;
+          <lb ed="#P" n="64"/>et ideo secundum hunc modum non solum
+          <lb ed="#P" n="65"/>potest praecipi actus interior, qui est voluntas
+          <lb ed="#P" n="66"/>operandi, sed etiam omnis ille actus mentis
+          <lb ed="#P" n="67"/>sine quo actus exterior praeceptus esse non 
+          po<lb break="no" ed="#P" n="68"/>test, ut, si miles praecipitur custodire arcem,
+          <lb ed="#P" n="69"/>consequenter praecipitur vigilare et attendere,
+          <lb ed="#P" n="70"/>et si superior praecipit studere, attentionem et
+          <lb ed="#P" n="71"/>applicationem animi compraecipit, et sic de
+          <lb ed="#P" n="72"/>aliis, ut novat Sylvest. verb. Hora, q. 11, et
+          <lb ed="#P" n="73"/>dicemus infra latius tractando de lege 
+          canoni<lb break="no" ed="#P" n="74"/>ca. At vero in posteriori modo actus interior
+          <lb ed="#P" n="75"/>non est materia legis humanae, sed versatur
+          <lb ed="#P" n="76"/>circa materiam legis humanae; et ex 
+          mutatio<lb break="no" ed="#P" n="77"/>ne morali, quae per legem fit circa illam 
+          ma<lb break="no" ed="#P" n="78"/>teriam resultat malitia in interiori actu 
+          propo<lb break="no" ed="#P" n="79"/>siti, aut desiderii de tali materia prohibita,
+          <lb ed="#P" n="80"/>ad eum modum quo unum relativum resultat
+          <lb ed="#P" n="81"/>ex mutatione alterius extremi, et ideo talis
+          <lb ed="#P" n="82"/>mutatio non excedit potestatem humanam.
+          <lb ed="#P" n="83"/>Solum poterat hic superesse difficultas, an 
+          pos<lb break="no" ed="#P" n="84"/>sit alio modo prohiberi per legem humanam,
+          <lb ed="#P" n="85"/>vel praecipi actus interior cum exteriori, cum
+          <lb ed="#P" n="86"/>quo neutro ex dictis modis connexus sit. Sed
+          <lb ed="#P" n="87"/>haec difficultas specialis esse videtur in legibus
+          <lb ed="#P" n="88"/>canonicis, et ideo in libro quarto commodius
+          <lb ed="#P" n="89"/>tractabitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

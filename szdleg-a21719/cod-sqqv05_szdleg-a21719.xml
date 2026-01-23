@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prooemium</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Prooemium</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="85"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a21719"><!-- deleg-l2prooem -->
+        <head xml:id="szdleg-a21719-Hd1e101">Prooemium</head>
+        <p xml:id="szdleg-a21719-d1e103">
+          <pb ed="#P" n="85"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER SECUNDUS
+          <lb ed="#P" n="2"/>DE LEGE AETERNA
+          <lb ed="#P" n="3"/>ET NATURALI, AC JURE GENTIUM.
+        </p>
+        <p xml:id="szdleg-a21719-d1e116">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="4"/>Post tractationem de lege in communi, 
+          se<lb break="no" ed="#P" n="5"/>quitur ut ad singulas species legum 
+          descen<lb break="no" ed="#P" n="6"/>damus, inter quas primum locum obtinet lex
+          <lb ed="#P" n="7"/>aeterna propter suam dignitatem et 
+          excellen<lb break="no" ed="#P" n="8"/>tiam, et quia est legum omnium fons et origo.
+          <lb ed="#P" n="9"/>De illa vero brevius disseremus quam de aliis,
+          <lb ed="#P" n="10"/>quia respectu hominum non ita applicatur per
+          <lb ed="#P" n="11"/>seipsam ad usum, seu munus legis, sicut aliae,
+          <lb ed="#P" n="12"/>et quia magna ex parte solet confundi cum
+          <lb ed="#P" n="13"/>providentia divina, de qua in 1 p. ex instituto
+          <lb ed="#P" n="14"/>disputatur. Cum lege autem aeterna naturalem
+          <lb ed="#P" n="15"/>conjungimus, tum ad hujus libri 
+          complemen<lb break="no" ed="#P" n="16"/>tum , tum etiam quia naturalis lex est prima
+          <lb ed="#P" n="17"/>earum, per quas lex aeterna nobis applicatur
+          <lb ed="#P" n="18"/>seu innotescit, et quia differunt tanquam lex
+          <lb ed="#P" n="19"/>per essentiam et per participationem, vel (ut sic
+          <lb ed="#P" n="20"/>dicam) tanquam signum, et significatum, ut
+          <lb ed="#P" n="21"/>declarabimus. Sumin us autem hic legem 
+          na<lb break="no" ed="#P" n="22"/>turalem stricte , ut continetur in solo lumine
+          <lb ed="#P" n="23"/>naturali ;nam illa quae'est connaturalis gratiae,
+          <lb ed="#P" n="24"/>seu fidei, simpliciter supernaturalis est, et 
+          in<lb break="no" ed="#P" n="25"/>fra tractando de lege gratiae consequenter 
+          ex<lb break="no" ed="#P" n="26"/>plicabitur, licet cum proportione possint ad
+          <lb ed="#P" n="27"/>illam applicari quae de lege naturali dicemus.
+          <lb ed="#P" n="28"/>Circa quam adverto dupliciter esse hominibus
+          <lb ed="#P" n="29"/>propositam, prius per naturale lumen rationis,
+          <lb ed="#P" n="30"/>secundo per legem Decalogi in tabulis Mosaicis
+          <lb ed="#P" n="31"/>scriptam ; et ideo D. Thomam de lege naturali
+          <lb ed="#P" n="32"/>sub priori ratione spectata disputasse 1. 2,
+          <lb ed="#P" n="33"/>q. 94, sub posteriori autem in q. 100.
+        </p>
+        <p xml:id="szdleg-a21719-d1e186">
+          <lb ed="#P" n="34"/>Sed quia lex illa scripta in tabulis reipsa non
+          <lb ed="#P" n="35"/>est alia quoad substantialem obligationem a
+          <lb ed="#P" n="36"/>lege naturali, cujus solam majorem notitiam
+          <lb ed="#P" n="37"/>contulit illa scripta, ideo in praesenti 
+          compre<lb break="no" ed="#P" n="38"/>hendemus omnia quae ad illam legem 
+          perti<lb break="no" ed="#P" n="39"/>nent : quid vero illi adjunctum sit ex lege 
+          ve<lb break="no" ed="#P" n="40"/>teri, vel quoad poenam, vel quoad aliquas 
+          cir<lb break="no" ed="#P" n="41"/>cumstantias, vel quoad augmentum alicujus
+          <lb ed="#P" n="42"/>obligationis, dicemus postea de lege veteri 
+          dis<lb break="no" ed="#P" n="43"/>putando, et ibi consequenter videbimus an
+          <lb ed="#P" n="44"/>secundum aliquam rationem lex illa Decalogi
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="45"/>cessaverit, vel adhuc duret. Denique quia jus
+          <lb ed="#P" n="46"/>gentium propinquissimum est legi naturali,
+          <lb ed="#P" n="47"/>illud etiam in hujus libri fine declarabimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="412"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-b04213"><!-- deleg-l5c1 -->
+        <head xml:id="szdleg-b04213-Hd1e101">Caput 1</head>
+        <head xml:id="szdleg-b04213-Hd1e103" type="question-title">De humanarum legum varietate</head>
+        <p xml:id="szdleg-b04213-d1e106">
+          <lb ed="#P" n="46"/>CAPUT I.
+          <lb ed="#P" n="47"/>DE HUMANARUM LEGUM VARIETATE.
+        </p>
+        <p xml:id="szdleg-b04213-d1e113">
+          <lb ed="#P" n="48"/>1. Varie legum distinctiones seu 
+          denomina<lb break="no" ed="#P" n="49"/>lunes ex Gratiano. — Tradunt varias legum
+          <cb ed="#P" n="e"/>
+          <lb ed="#P" n="50"/>humanarum distinctiones, seu potius 
+          denomi<lb break="no" ed="#P" n="51"/>nationes, utriusque juris auctores et 
+          exposito<lb break="no" ed="#P" n="52"/>res, ut in jure canonico Gratian. dist. 1, 2 et
+          <lb ed="#P" n="53"/>3 per totas, ex Isidoro lib. 5 Etymol., cap.1
+          <lb ed="#P" n="54"/>et sequent., et ibi expositores, et in rubr. de
+          <lb ed="#P" n="55"/>Constit. In jure autem civili Papinian. in l.
+          <lb ed="#P" n="56"/>Jus civile, ff. de Justit. et jur.; et Pompon. in
+          <lb ed="#P" n="57"/>l. 2. ff. de Orig. jur.; et Julian. in 1. Neque
+          <lb ed="#P" n="58"/>leges, ff. de Legibus; et Ulpian. inl. Diuturno,
+          <lb ed="#P" n="59"/>eod., et Justinian. imperator, Instit. de Justit.
+          <lb ed="#P" n="60"/>et jur., et de Jur. natur., gent. et civili, per
+          <lb ed="#P" n="61"/>plures textus, et interpretes eisdem locis. Et ex
+          <lb ed="#P" n="62"/>theologis tractat late Anton. 1 part., tit. 17,
+          <lb ed="#P" n="63"/>18 et 19; brevius D. Thom. 1.2, q. 95, art. 4,
+          <lb ed="#P" n="64"/>cujus methodum sequendo clarius et 
+          expedi<lb break="no" ed="#P" n="65"/>tius nonnullis partitionibus omnia 
+          comprehen<lb break="no" ed="#P" n="66"/>demus, et elucidabimus.
+        </p>
+        <p xml:id="szdleg-b04213-d1e159">
+          <lb ed="#P" n="67"/>2. Lex primo dividitur in scriptam el non
+          <lb ed="#P" n="68"/>scriptam.—bPrimo ergo D. Thomas dividit 
+          le<lb break="no" ed="#P" n="69"/>gem humanam in jus gentium et civile, seu 
+          hu<lb break="no" ed="#P" n="70"/>manum strictius sumptum. Nos autem in 
+          supe<lb break="no" ed="#P" n="71"/>rioribus de jure gentium diximus, et ita illam
+          <lb ed="#P" n="72"/>divisionem omittimus, supponimusque 
+          sermo<lb break="no" ed="#P" n="73"/>nem esse de lege positiva humana proprie
+          <lb ed="#P" n="74"/>sumpta, ut esse solet distincta, et in diversis
+          <lb ed="#P" n="75"/>gentibus, provinciis, seu civitatibus, aut 
+          con<lb break="no" ed="#P" n="76"/>gregationibus unicuique propria. Haec igitur
+          <lb ed="#P" n="77"/>lex primo dividi potest in scriptam et non
+          <lb ed="#P" n="78"/>scriptam. Prior intelligi solet nomine legis,
+          <pb ed="#P" n="413"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quia, licet utraque sit vera lex, nihilominus
+          <lb ed="#P" n="2"/>nomen legis humanae simpliciter prolatum pro
+          <lb ed="#P" n="3"/>lege scripta accipi solet. Unde Isidor. ait: Lec
+          <lb ed="#P" n="4"/>est constitutio scripta : altera vero consuetudo
+          <lb ed="#P" n="5"/>appellatur, quae quoad substantiam et 
+          obliga<lb break="no" ed="#P" n="6"/>tionem veram legis rationem habet, quia vero
+          <lb ed="#P" n="7"/>habet peculiarem modum generationis (ui sic
+          <lb ed="#P" n="8"/>dicam) seu introductionis, et efficaciae, idcirco
+          <lb ed="#P" n="9"/>de illa in particulari dicemus in libro septimo;
+          <lb ed="#P" n="10"/>nunc vero de lege scripta tractamus, quae 
+          in<lb break="no" ed="#P" n="11"/>terdum denominari solet a materia, vel modo
+          <lb ed="#P" n="12"/>quo scripta est : sic enim solemnes fuerunt
+          <lb ed="#P" n="13"/>apud Romanos leges duodecim Tabularum,
+          <lb ed="#P" n="14"/>quae a decem, quae fuerant apud Graecos, 
+          duxe<lb break="no" ed="#P" n="15"/>runt originem, quibus Romani duas 
+          addide<lb break="no" ed="#P" n="16"/>runt, ut habetur in l. 1, ff. de Orig. jur. 
+          Deca<lb break="no" ed="#P" n="17"/>logus etiam in duabus tabulis scriptus fuit, licet
+          <lb ed="#P" n="18"/>inde nomen non acceperit. Est ergo illa 
+          deno<lb break="no" ed="#P" n="19"/>minatio accidentaria, et ad rationem legis 
+          pa<lb break="no" ed="#P" n="20"/>rum confert.
+        </p>
+        <p xml:id="szdleg-b04213-d1e236">
+          <lb ed="#P" n="21"/>3. Secundo dividitur lex per ordinem ad
+          <lb ed="#P" n="22"/>principia , et hoc materialiter, aut formaliter.
+          <lb ed="#P" n="23"/>— Secundo, dividi possunt leges humanae per
+          <lb ed="#P" n="24"/>habitudinem ad principia a quibus procedunt;
+          <lb ed="#P" n="25"/>sic enim distinguuntur leges canonicae a 
+          civi<lb break="no" ed="#P" n="26"/>libus, et in utrisque invenitur eadem distinctio,
+          <lb ed="#P" n="27"/>vel subdivisio, quae aliquando materialiter 
+          tan<lb break="no" ed="#P" n="28"/>tum, ut sic dicam, datur, aliquando vero 
+          po<lb break="no" ed="#P" n="29"/>test formaliter dari. Materialiter voco quando
+          <lb ed="#P" n="30"/>in auctoribus legum solum consideratur 
+          diver<lb break="no" ed="#P" n="31"/>sitas personarum : formaliter autem voco 
+          re<lb break="no" ed="#P" n="32"/>spectu munerum, quando spectatur distinctio
+          <lb ed="#P" n="33"/>regiminum, ac potestatum, quamvis totum
+          <lb ed="#P" n="34"/>hoc tandem materiale fere sit respectu 
+          obliga<lb break="no" ed="#P" n="35"/>tionis ipsarum legum. Priori modo distingui
+          <lb ed="#P" n="36"/>solent in legibus civilibus, leges Trysmegisti,
+          <lb ed="#P" n="37"/>Lycurgi, Solonis, Rhadamanthi, Minois, 
+          Ce<lb break="no" ed="#P" n="38"/>reris, et aliorum apud Isidorum supra, et 
+          Pla<lb break="no" ed="#P" n="39"/>ton. in Dialog. Minos, et Plin. lib. 7 Histor.,
+          <lb ed="#P" n="40"/>cap. 35, et Aristot. saepe in libris Ethicor. Imo
+          <lb ed="#P" n="41"/>interdum denominantur hae leges non solum
+          <lb ed="#P" n="42"/>ab auctoribus, sed etiam a collectoribus, ut
+          <lb ed="#P" n="43"/>sumitur de jure Papyriano et Flavian. ex l. 2,
+          <lb ed="#P" n="44"/>f. de Orig. jur. Sic etiam denominatur lex
+          <lb ed="#P" n="45"/>Hortensia, Papia et Juliana, et sic sunt varii
+          <lb ed="#P" n="46"/>tituli, ff. ad leg. Falcidiam, et similes. 
+          Poste<lb break="no" ed="#P" n="47"/>riori autem modo distinguuntur leges 
+          secun<lb break="no" ed="#P" n="48"/>dum varias rationes gubernandi civitates, vel
+          <lb ed="#P" n="49"/>simplices, vel mixtas, et sic in legibus 
+          Roma<lb break="no" ed="#P" n="50"/>norum distinguuntur leges latae a populo, et
+          <lb ed="#P" n="51"/>vocantur Plebiscita, et latae a senatu dicuntur
+          <lb ed="#P" n="52"/>Senatusconsulta, et quia in senatu aliquis 
+          con<lb break="no" ed="#P" n="53"/>sul praesidebat, nomen ejus interdum notatur
+          <lb ed="#P" n="54"/>in ipso legis nomine, ut cum dicitur: Ad 
+          sena<lb break="no" ed="#P" n="55"/>tus consultum Velleianum, aut Macedonianum,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>etc. Atque huc referri etiam potest jus 
+          praeto<lb break="no" ed="#P" n="57"/>rium, quod a praetore ferebatur, et 
+          honora<lb break="no" ed="#P" n="58"/>rium etiam dicitur in 1. 7 et 8, ff. de 
+          Le<lb break="no" ed="#P" n="59"/>gibus. Item jus dictum Tribunitium, quia a
+          <lb ed="#P" n="60"/>tribunis erat latum, et sic de aliis, juxta 
+          po<lb break="no" ed="#P" n="61"/>testatem unicuique magistratui concessam.
+          <lb ed="#P" n="62"/>Praeterea huc spectant responsa prudentum, id
+          <lb ed="#P" n="63"/>est, jurisconsultorum, quae vim habebant 
+          le<lb break="no" ed="#P" n="64"/>gum, quando eis auctoritas principis aut 
+          rei<lb break="no" ed="#P" n="65"/>publicae accedebat : vel antecedenter illam eis
+          <lb ed="#P" n="66"/>committendo , vel consequenter illa 
+          commu<lb break="no" ed="#P" n="67"/>niter acceptando, et hoc jus interdum per
+          <lb ed="#P" n="68"/>antonomasiam vocatur jus civile. Leges autem
+          <lb ed="#P" n="69"/>quae ferebantur ab imperatoribus, dicuntur
+          <lb ed="#P" n="70"/>constitutiones principum, dici possunt jus 
+          Im<lb break="no" ed="#P" n="71"/>peratorium. Nunc autem utrasque leges 
+          com<lb break="no" ed="#P" n="72"/>plectitur jus commune civile, quod absolute
+          <lb ed="#P" n="73"/>dictum solet accipi pro jure Romanorum, ut
+          <lb ed="#P" n="74"/>dicitur in S Sed jus, Instit. de Jur. natur.; illi
+          <lb ed="#P" n="75"/>vero respondet in singulis regnis jus regium.
+        </p>
+        <p xml:id="szdleg-b04213-d1e360">
+          <lb ed="#P" n="76"/>4. Haec autem varietas vocum, licet conferat
+          <lb ed="#P" n="77"/>ad intelligendum jus civile, ad formalem 
+          dis<lb break="no" ed="#P" n="78"/>tinctionem legum parum est necessaria, licet
+          <lb ed="#P" n="79"/>cum proportione ad varias communitates,
+          <lb ed="#P" n="80"/>prout diversimode gubernantur, applicari 
+          pos<lb break="no" ed="#P" n="81"/>sit. Et similiter cum proportione potest 
+          appli<lb break="no" ed="#P" n="82"/>cari ad leges canonicas ; nam leges pontificiae
+          <lb ed="#P" n="83"/>sunt constitutiones principum, et interdum
+          <lb ed="#P" n="84"/>nominantur a suis auctoribus, ut Clementinae,
+          <lb ed="#P" n="85"/>etc.; leges autem episcopales censeri possunt
+          <lb ed="#P" n="86"/>quasi jus praetorium, vel honorarium; leges
+          <lb ed="#P" n="87"/>autem conciliorum quasi senatusconsulta ; in
+          <lb ed="#P" n="88"/>legibus autem canonicis non habent locum
+          <lb ed="#P" n="89"/>plebiscita, quia potestas ferendi leges 
+          canoni<lb break="no" ed="#P" n="90"/>cas nec in populo est, neque ab illo manavit.
+        </p>
+        <p xml:id="szdleg-b04213-d1e395">
+          <lb ed="#P" n="91"/>5. Tertio dividuntur leges in ordine ad eos
+          <lb ed="#P" n="92"/>ad quos feruntur. —Tertio, dividi possunt leges
+          <lb ed="#P" n="93"/>ex parte eorum ad quos feruntur, et ad hoc
+          <lb ed="#P" n="94"/>dupliciter, scilicet, vel secundum 
+          communita<lb break="no" ed="#P" n="95"/>tes omnino distinctas, vel secundum partes
+          <lb ed="#P" n="96"/>ejusdem communitatis, quatenus intra illam
+          <lb ed="#P" n="97"/>diversa habent munia, et suo modo distinctas
+          <lb ed="#P" n="98"/>communitates magis particulares componunt.
+          <lb ed="#P" n="99"/>Priori modo distinguuntur leges /gyptiorum,
+          <lb ed="#P" n="100"/>Lacedaemonum, Atheniensium, seu Graecorum,
+          <lb ed="#P" n="101"/>Longobardorum, et Romanorum, ut notatur
+          <lb ed="#P" n="102"/>in S Sed jus, Institut. de Jur. Natur., gent.
+          <lb ed="#P" n="103"/>et civil. Et tunc etiam distinguimus leges 
+          His<lb break="no" ed="#P" n="104"/>panorum a legibus Gallorum, etc. Posteriori
+          <lb ed="#P" n="105"/>autem modo intra idem regnum, vel 
+          rempu<lb break="no" ed="#P" n="106"/>blicam, distinguuntur leges per civitates, et
+          <lb ed="#P" n="107"/>intra eamdem civitatem per communitates
+          <lb ed="#P" n="108"/>particulares, et sic distinguuntur jus 
+          munici<lb break="no" ed="#P" n="109"/>pale et commune, et municipalia dividuntur
+          <lb ed="#P" n="110"/>juxta modum et nomina civitatum, aut com-
+          <pb ed="#P" n="414"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>munitatum. Hoc etiam modo dividuntur jura
+          <lb ed="#P" n="2"/>aut leges pro diversitate munerum seu 
+          per<lb break="no" ed="#P" n="3"/>sonarum communi bono reipublicae 
+          deservien<lb break="no" ed="#P" n="4"/>tium, et sic intra eamdem rempublicam 
+          dis<lb break="no" ed="#P" n="5"/>tinguitur jus militare, quod pro militibus
+          <lb ed="#P" n="6"/>specialiter institutum est, jus patronorum, 
+          li<lb break="no" ed="#P" n="7"/>bertorum, aut servorum. lItem jus 
+          magistra<lb break="no" ed="#P" n="8"/>tuum, quod publicum etiam dicebatur. 
+          Dice<lb break="no" ed="#P" n="9"/>batur etiam apud Romanos jus publicum, quod
+          <lb ed="#P" n="10"/>erat de rebus sacris et sacerdotibus, cap. Jus
+          <lb ed="#P" n="11"/>publicum, dist. 1. Unde sacerdotale etiam dici
+          <lb ed="#P" n="12"/>poterat. Nunc autem hoc jus in Ecclesia 
+          sepa<lb break="no" ed="#P" n="13"/>ratum est a civili ac temporali, et canonicum
+          <lb ed="#P" n="14"/>denominatum est, ut supra vidimus.
+        </p>
+        <p xml:id="szdleg-b04213-d1e476">
+          <lb ed="#P" n="15"/>6. In quo canonico jure potest aliquid 
+          pro<lb break="no" ed="#P" n="16"/>prium considerari, quia leges canonicae in sua
+          <lb ed="#P" n="17"/>generalitate universaliores sunt quam leges 
+          ci<lb break="no" ed="#P" n="18"/>viles. ex parte eorum pro quibus ferri possunt,
+          <lb ed="#P" n="19"/>quia dari possunt universo orbi, quia per illud
+          <lb ed="#P" n="20"/>totum Ecclesia diffusa est. Atque ita 
+          commu<lb break="no" ed="#P" n="21"/>nitas adaequata (ut sic dicam) legibus 
+          canoni<lb break="no" ed="#P" n="22"/>cis non multiplicatur, sed una tantum est;
+          <lb ed="#P" n="23"/>ideoque leges canonicae ex hac parte 
+          univer<lb break="no" ed="#P" n="24"/>sales sunt, et non recipiunt varias 
+          denomina<lb break="no" ed="#P" n="25"/>tiones ex parte eorum pro quibus feruntur,
+          <lb ed="#P" n="26"/>sed simpliciter dici possunt canones 
+          ecclesias<lb break="no" ed="#P" n="27"/>tici, vel praecepta Ecclesiae. At vero intra ipsam
+          <lb ed="#P" n="28"/>Ecclesiam, ex parte personarum vel 
+          commu<lb break="no" ed="#P" n="29"/>nitatum particularium, distingui possunt 
+          va<lb break="no" ed="#P" n="30"/>riae leges seu jura, et sic potest specialiter dici
+          <lb ed="#P" n="31"/>jus sacerdotale vel clericale, quod non solum
+          <lb ed="#P" n="32"/>canonicum est, sed specialiter pro statu 
+          sacer<lb break="no" ed="#P" n="33"/>dotali vel clericali fertur : sic etiam dici potest
+          <lb ed="#P" n="34"/>jus monachale seu regulare, proprium 
+          reli<lb break="no" ed="#P" n="35"/>giosis. Item hoc modo distinguuntur jura
+          <lb ed="#P" n="36"/>synodalia secundum varios episcopatus, 
+          dioe<lb break="no" ed="#P" n="37"/>ceses, vel provincias, a quibus etiam saepe 
+          de<lb break="no" ed="#P" n="38"/>nominantur, et appellari etiam possunt jura
+          <lb ed="#P" n="39"/>municipalia canonica.
+        </p>
+        <p xml:id="szdleg-b04213-d1e533">
+          <lb ed="#P" n="40"/>1. Quid interest inter legem et statutun. —
+          <lb ed="#P" n="41"/>Hinc etiam distinguere aliqui solent inter 
+          le<lb break="no" ed="#P" n="42"/>cem et statutum, quia lex dicitur proprie de
+          <lb ed="#P" n="43"/>lege pertinente ad totam communitatem alicui
+          <lb ed="#P" n="44"/>regi vel supremo principi subjectam, 
+          statu<lb break="no" ed="#P" n="45"/>tum vero dicitur proprie de lege municipal.
+          <lb ed="#P" n="46"/>Sic enim leges universitatum, collegiorum,
+          <lb ed="#P" n="47"/>religionum, etc., statuta dici solent. Sed hoc
+          <lb ed="#P" n="48"/>solum ad significationem vocabulorum 
+          spec<lb break="no" ed="#P" n="49"/>tat, et ideo communis usus observandus est.
+          <lb ed="#P" n="50"/>Nam sine dubio statuta municipalia sunt verae
+          <lb ed="#P" n="51"/>leges; illis enim cum proportione conveniunt,
+          <lb ed="#P" n="52"/>quae hactenus de lege in communi, vel de lege
+          <lb ed="#P" n="53"/>humana dicta sunt, et ita saepe appellantur;
+          <lb ed="#P" n="54"/>et e converso leges communes et universales
+          <lb ed="#P" n="55"/>vocari possunt statuta, et frequenter ita vo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cantur, quia vis vocis non minus in illas 
+          con<lb break="no" ed="#P" n="57"/>venit, ut per se constat; solum ergo per 
+          quam<lb break="no" ed="#P" n="58"/>dam accommodationem solent illa vocabula
+          <lb ed="#P" n="59"/>ita distingui, praesertim in doctrina tradenda,
+          <lb ed="#P" n="60"/>ut habeamus vocabula quibus breviter, et 
+          dis<lb break="no" ed="#P" n="61"/>tincte loqui possimus. Ad eumdem modum
+          <lb ed="#P" n="62"/>censendum est de nomine constitutionis. 
+          Ali<lb break="no" ed="#P" n="63"/>qui enim putant legem simpliciter dici de lege
+          <lb ed="#P" n="64"/>civili, non de canonica, constitutionem vero e
+          <lb ed="#P" n="65"/>contrario : sed hoc etiam non habet 
+          funda<lb break="no" ed="#P" n="66"/>mentum in re, nam leges etiam civiles 
+          consti<lb break="no" ed="#P" n="67"/>tutiones principum appellantur, Digestis de
+          <lb ed="#P" n="68"/>constitution. principum ; Isidorus in capit.
+          <lb ed="#P" n="69"/>Constitutio, distinct. 2, ait constitutionem esse
+          <lb ed="#P" n="70"/>edictum quod rex vel imperator constituit ; et
+          <lb ed="#P" n="71"/>e converso constitutiones canonicae vere leges
+          <lb ed="#P" n="72"/>sunt, et ita etiam passim nominantur. Tamen
+          <lb ed="#P" n="73"/>per accommodationem ille modus loquendi
+          <lb ed="#P" n="74"/>videtur esse satis usitatus, et conformis 
+          ru<lb break="no" ed="#P" n="75"/>bricae de Constitutionibus in decretalibus, ubi
+          <lb ed="#P" n="76"/>videri possunt interpretes.
+        </p>
+        <p xml:id="szdleg-b04213-d1e618">
+          <lb ed="#P" n="77"/>8. Alia vero sunt nomina magis propria 
+          le<lb break="no" ed="#P" n="78"/>gum ecclesiasticarum : vocantur enim 
+          cano<lb break="no" ed="#P" n="79"/>nes, decreta patrum, decretalia, utique jura,
+          <lb ed="#P" n="80"/>seu decretales epistolae, ut constat ex titulo
+          <lb ed="#P" n="81"/>Decretalium, et ex capite primo et quinto, et
+          <lb ed="#P" n="82"/>de Constitut., et ex cap. primo et secundo,
+          <lb ed="#P" n="83"/>distinctione tertia, ubi Glossa in summ. 
+          ratio<lb break="no" ed="#P" n="84"/>nem nominum declarat, et alia adjungit. Nos
+          <lb ed="#P" n="85"/>solum advertimus illa tria nomina potissimum
+          <lb ed="#P" n="86"/>dici solere de legibus summorum Pontificum,
+          <lb ed="#P" n="87"/>vel conciliorum ; nam leges episcopales non
+          <lb ed="#P" n="88"/>solent canones vel decreta appellari, de quo
+          <lb ed="#P" n="89"/>videri potest Felinus in capite primo de 
+          Con<lb break="no" ed="#P" n="90"/>stitutionibus. Denique his nominibus addita
+          <lb ed="#P" n="91"/>sunt alia plura, quibus leges ecclesiasticae 
+          si<lb break="no" ed="#P" n="92"/>gnificantur , dicuntur enim Extravagantes,
+          <lb ed="#P" n="93"/>Motus proprii, Bullae, etc. Hae autem voces et
+          <lb ed="#P" n="94"/>similes solis quibusdam legibus Pontificialibus
+          <lb ed="#P" n="95"/>attribui solent, et varias habent origines et
+          <lb ed="#P" n="96"/>etymologias, quae nunc nobis necessariae non
+          <lb ed="#P" n="97"/>sunt. Nam vis legum quae per has voces 
+          signi<lb break="no" ed="#P" n="98"/>ficantur, eadem esse videtur, et quod 
+          occur<lb break="no" ed="#P" n="99"/>rerit proprium in sequentibus adnotabitur.
+        </p>
+        <p xml:id="szdleg-b04213-d1e671">
+          <lb ed="#P" n="100"/>9. Quarto, solent distingui leges ex rebus
+          <lb ed="#P" n="101"/>seu materia quam praecipiunt, estque haec 
+          de<lb break="no" ed="#P" n="102"/>nominatio valde usitata in jure civili, et 
+          inter<lb break="no" ed="#P" n="103"/>dum fit interposito nomine auctoris, ut ad
+          <lb ed="#P" n="104"/>legem Juliam de adulteriis, ad legem 
+          Corne<lb break="no" ed="#P" n="105"/>liam de sicariis, ad legem Juliam de ambitu
+          <lb ed="#P" n="106"/>majestatis, etc. Saepe vero fit simpliciter 
+          deno<lb break="no" ed="#P" n="107"/>minatio ex materia, ut lex Frumentaria, 
+          Agra<lb break="no" ed="#P" n="108"/>ria, et Commissoria, etc. Et fere omnes tituli
+          <lb ed="#P" n="109"/>utriusque juris hoc modo distinguuntur. Sed
+          <lb ed="#P" n="110"/>haec etiam divisio materialis non est in ordine
+          <pb ed="#P" n="415"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ad formalem rationem legis quam nos 
+          consi<lb break="no" ed="#P" n="2"/>deramus; et ideo, licet in ordine ad usum et
+          <lb ed="#P" n="3"/>ad practicam notitiam legum necessarium sit
+          <lb ed="#P" n="4"/>scire quid per unamquamque legem 
+          praecipia<lb break="no" ed="#P" n="5"/>tur, nobis tamen ad generalem doctrinam 
+          ne<lb break="no" ed="#P" n="6"/>cessarium non est. Et ideo de his omnibus 
+          par<lb break="no" ed="#P" n="7"/>titionibus seu denominationibus legum nihil
+          <lb ed="#P" n="8"/>amplius dicere oportebit. Solum enim illas
+          <lb ed="#P" n="9"/>proposuimus, ut illarum vocum significatio
+          <lb ed="#P" n="10"/>non ignoretur ; id enim ad nostrum usum 
+          ne<lb break="no" ed="#P" n="11"/>cessarium erat, ad eumdem vero suffticiunt
+          <lb ed="#P" n="12"/>quae dicta sunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

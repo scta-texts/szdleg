@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 16</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 16</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="237"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a60115"><!-- deleg-l3c16 -->
+        <head xml:id="szdleg-a60115-Hd1e101">Caput 16</head>
+        <head xml:id="szdleg-a60115-Hd1e103" type="question-title">Quae promulgatio necessaria sit ad perfectam constitutionem legis civilis</head>
+        <p xml:id="szdleg-a60115-d1e106">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="55"/>CAPUT XVI.
+          <lb ed="#P" n="56"/>QUAE PROMULGATIO NECESSARIA SIT AD 
+          PERFEC<lb break="no" ed="#P" n="57"/>TAM CONSTITUTIONEM LEGIS CIVILIS.
+        </p>
+        <p xml:id="szdleg-a60115-d1e117">
+          <lb ed="#P" n="58"/>1. An sine scriptura, et publicatione valeat
+          <lb ed="#P" n="59"/>lea et liget statim. — Superest dicendum de
+          <lb ed="#P" n="60"/>tertia solemnitate legis, quam subsequentem
+          <lb ed="#P" n="61"/>appellavimus, comparatione facta ad 
+          volunta<lb break="no" ed="#P" n="62"/>tem principis, et exterius scriptam vel 
+          decla<lb break="no" ed="#P" n="63"/>ratam aliquo signo sensibili exterius indicante
+          <lb ed="#P" n="64"/>illam, et circa quam suppono in primis, non
+          <lb ed="#P" n="65"/>esse satis privatam principis locutionem, seu
+          <lb ed="#P" n="66"/>expressionem, ut lex jam lata censeatur, 
+          do<lb break="no" ed="#P" n="67"/>nec voluntas et jussio principis solemni ritu
+          <lb ed="#P" n="68"/>edita et subditis proposita sit : hoc enim et
+          <lb ed="#P" n="69"/>utroque jure humano est constitutum, ut supra
+          <lb ed="#P" n="70"/>lib. 1, cap. 11, ostensum est, et ipsa legis 
+          na<lb break="no" ed="#P" n="71"/>tura postulat : tum quia est regula operationis
+          <lb ed="#P" n="72"/>ad quam tota communitas se debet 
+          confor<lb break="no" ed="#P" n="73"/>mare : non potest autem habere talem 
+          ratio<lb break="no" ed="#P" n="74"/>nem communis regulae , nisi publice sit edita,
+          <lb ed="#P" n="75"/>ita ut a tota communitate observari possit ;
+          <lb ed="#P" n="76"/>tum etiam quia lex est signum voluntatis
+          <lb ed="#P" n="77"/>principis qua vult totam communitatem 
+          mo<lb break="no" ed="#P" n="78"/>vere et obligare: ergo oportet ut tale signum
+          <lb ed="#P" n="79"/>publicum sit ; unde fit conditionem hanc ita
+          <lb ed="#P" n="80"/>esse necessariam et intrinsecam legi humanae,
+          <lb ed="#P" n="81"/>ut non possit princeps , etiamsi velit, legem
+          <lb ed="#P" n="82"/>condere sine aliqua publicatione communitati
+          <lb ed="#P" n="83"/>accommodata, et de se sufficiente, quamvis
+          <lb ed="#P" n="84"/>modum ejus variare possit; quia illud prius
+          <lb ed="#P" n="85"/>generatim et absolute sumptum est jure 
+          na<lb break="no" ed="#P" n="86"/>turali necessarium, ut ostensum est. Estque
+          <lb ed="#P" n="87"/>communis sententia omnium quos referemus.
+          <lb ed="#P" n="88"/>Solum inveni apud Selvam, de Benef., q. 22,
+          <lb ed="#P" n="89"/>n. 14, quod sine scriptura, sine publicatione
+          <lb ed="#P" n="90"/>valet lea, et ligat statim , si conditor velit, et
+          <lb ed="#P" n="91"/>citat Glossam in Clement. de Haereticis. At
+          <lb ed="#P" n="92"/>vero illa Glossa in verb. E tunc non dicit sine
+          <lb ed="#P" n="93"/>publicatione , sed statim a promulgatione,
+          <lb ed="#P" n="94"/>quod longe diversum est, ut infra declarabo:
+          <lb ed="#P" n="95"/>neque aliter loquuntur doctores in rubr. de
+          <lb ed="#P" n="96"/>Constit. quos etiam Selva refert : unde etiam
+          <lb ed="#P" n="97"/>ille forte in eodem sensu locutus est, per 
+          pu<lb break="no" ed="#P" n="98"/>blicationem intelligens illam quae longo 
+          tem<lb break="no" ed="#P" n="99"/>pore vel certa solemnitate fit : haec enim potest
+          <lb ed="#P" n="100"/>per principem immutari , ut dicemus. 
+          Expli<lb break="no" ed="#P" n="101"/>candum vero est, quae et qualis debeat esse
+          <lb ed="#P" n="102"/>haec solemnitas, seu publica propositio, quae
+          <lb ed="#P" n="103"/>solet communiter promulgatio vocari.
+        </p>
+        <p xml:id="szdleg-a60115-d1e219">
+          <lb ed="#P" n="104"/>2. Particulam aut positam esse pro seu. —
+          <lb ed="#P" n="105"/>In quo Panormit. in cap. 1 de Postulat. 
+          Prae<lb break="no" ed="#P" n="106"/>lat., n. 10, distinguit inter solemnem editio-
+          <pb ed="#P" n="238"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nem et publicam promulgationem, et priorem
+          <lb ed="#P" n="2"/>putat sufficere ad substantiam et obligationem
+          <lb ed="#P" n="3"/>legis sine secunda, quia in illo textu dicitur
+          <lb ed="#P" n="4"/>sub disjunctione : Solemniter editur, aut 
+          pu<lb break="no" ed="#P" n="5"/>blice promulgatur ; unde ait constitutionem
+          <lb ed="#P" n="6"/>obligare statim ac solemniter in publico 
+          con<lb break="no" ed="#P" n="7"/>silio editur, antequam sit publice promulgata,
+          <lb ed="#P" n="8"/>ac subinde promulgationem publicam solum
+          <lb ed="#P" n="9"/>requiri quando lex sine solemnitate edita est.
+          <lb ed="#P" n="10"/>Melius tamen dicitur illa duo verba 
+          aequipol<lb break="no" ed="#P" n="11"/>lentia esse, et particulam au£ positam esse pro
+          <lb ed="#P" n="12"/>seu , ut frequenter fit : unde fieri non potest
+          <lb ed="#P" n="13"/>ut lex humana incipiat esse lex, et vim 
+          obli<lb break="no" ed="#P" n="14"/>gandi habeat priusquam sit aliquo modo 
+          pro<lb break="no" ed="#P" n="15"/>mulgata publice : nam si dicatur edita 
+          solem<lb break="no" ed="#P" n="16"/>niter, solum quia in publico consilio regis aut
+          <lb ed="#P" n="17"/>senatorum reipublieae conscripta vel definita
+          <lb ed="#P" n="18"/>est, hoc non est satis ut sit lex, vel ut obligare
+          <lb ed="#P" n="19"/>incipiat etiam praesentes et scientes, quia 
+          so<lb break="no" ed="#P" n="20"/>lemnitas requisita ad legem non tantum est ex
+          <lb ed="#P" n="21"/>parte conditorum, sed etiam in ordine ad
+          <lb ed="#P" n="22"/>communitatem, et ideo non est lex donec 
+          res<lb break="no" ed="#P" n="23"/>pectu communitatis habeat statum legis, nec
+          <lb ed="#P" n="24"/>incipit obligare singulos donec possit 
+          commu<lb break="no" ed="#P" n="25"/>nitatem obligare. Quod optime explicatur in
+          <lb ed="#P" n="26"/>legibus editis in generali concilio : nulla
+          <lb ed="#P" n="27"/>enim potest esse solemnior editio ante 
+          pro<lb break="no" ed="#P" n="28"/>mulgationem , et nihilominus non sufficit nisi
+          <lb ed="#P" n="29"/>sequatur promulgatio. Quamvis ergo lex sit
+          <lb ed="#P" n="30"/>edita in regio consilio, et ibi omnium ore 
+          pro<lb break="no" ed="#P" n="31"/>lata, vel eorum ayctoritate scripta, et imo
+          <lb ed="#P" n="32"/>licet sit typis mandata, nondum est lex, donec
+          <lb ed="#P" n="33"/>aliquo alio modo publico sit communitati 
+          pro<lb break="no" ed="#P" n="34"/>posita, et hanc vocamus promulgationem. Si
+          <lb ed="#P" n="35"/>vero solemnis editio legis sit in conspectu 
+          to<lb break="no" ed="#P" n="36"/>tius populi, ut Panorm. loqui videtur, tunc
+          <lb ed="#P" n="37"/>solemnis editio includit promulgationem, 
+          im<lb break="no" ed="#P" n="38"/>meritoque distinguuntur. Nunquam ergo 
+          edi<lb break="no" ed="#P" n="39"/>tio legis habet solemnitatem requisitam sine
+          <lb ed="#P" n="40"/>promulgatione ; neque e converso promulgatio
+          <lb ed="#P" n="41"/>esse potest sine solemni editione, quia vel cum
+          <lb ed="#P" n="42"/>illa fit, vel certe additur editioni legis prius
+          <lb ed="#P" n="43"/>factae, et solemnizat illam (ut sic dicam). Et
+          <lb ed="#P" n="44"/>ideo ubi illa duo distinguuntur, et diversis 
+          ac<lb break="no" ed="#P" n="45"/>tionibus ac temporibus fiunt, necesse est, ut
+          <lb ed="#P" n="46"/>utrumque concurrat. Et ita sentit Innoc. d.
+          <lb ed="#P" n="47"/>c. 1, n. 6, et Hostiens., n. 21 et 22. et alii qui
+          <lb ed="#P" n="48"/>copulative intelligunt textum illum ; nos 
+          au<lb break="no" ed="#P" n="49"/>tem utrumque sub nomine promulgationis vel
+          <lb ed="#P" n="50"/>solemnis editionis comprehendimus.
+        </p>
+        <p xml:id="szdleg-a60115-d1e342">
+          <lb ed="#P" n="51"/>3. Distinctio inter promulgationem et 
+          divul<lb break="no" ed="#P" n="52"/>gationem legis. — Ut autem explicem clarius
+          <lb ed="#P" n="53"/>qualis promulgatio sufficiat ac necessaria sit,
+          <lb ed="#P" n="54"/>distinguo inter promulgationem et 
+          divulga<lb break="no" ed="#P" n="55"/>üonem legis. Promulgationem appello illam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>publicam propositionem seu denuntiationem
+          <lb ed="#P" n="57"/>legis, quae fit aut voce praeconis, aut affigendo
+          <lb ed="#P" n="58"/>legem scriptam in publico loco, aut alio simili
+          <lb ed="#P" n="59"/>modo. Divulgationem autem appello 
+          applica<lb break="no" ed="#P" n="60"/>tionem illius primae promulgationis ad 
+          noti<lb break="no" ed="#P" n="61"/>tiam, vel aures subditorum absentium, qui
+          <lb ed="#P" n="62"/>aut legere, aut audire primam illam 
+          promul<lb break="no" ed="#P" n="63"/>gauonem non potuerunt : utrumque ergo 
+          ex<lb break="no" ed="#P" n="64"/>plicandum est: nam re vera utrumque potest
+          <lb ed="#P" n="65"/>esse aliquo modo necessarium, et in utroque
+          <lb ed="#P" n="66"/>oportet aliquos dicendi modos extreme 
+          con<lb break="no" ed="#P" n="67"/>trarios cavere.
+        </p>
+        <p xml:id="szdleg-a60115-d1e384">
+          <lb ed="#P" n="68"/>4. Prima conclusio.—bico igitur primo: Ex
+          <lb ed="#P" n="69"/>natura rei non est positive determinata certa
+          <lb ed="#P" n="70"/>solemnitas vel promulgatio publica, sed haec
+          <lb ed="#P" n="71"/>in legibus civilibus ex ipsomet jure civili, vel
+          <lb ed="#P" n="72"/>ex recepta consuetudine, vel ex voluntate 
+          ex<lb break="no" ed="#P" n="73"/>pressa legislatoris determinanda est. Prima
+          <lb ed="#P" n="74"/>pars per se nota videtur, quia ex jure naturae
+          <lb ed="#P" n="75"/>solum habemus quod hactenus diximus, legem
+          <lb ed="#P" n="76"/>humanam debere esse communitati 
+          sufficien<lb break="no" ed="#P" n="77"/>ter propositam ; modus autem hujus 
+          sufficien<lb break="no" ed="#P" n="78"/>tiae non est ex natura rei definitus ; ergo 
+          de<lb break="no" ed="#P" n="79"/>terminatio ejus non potest ex sola ratione
+          <lb ed="#P" n="80"/>naturali determinari. Addidi autem non posse
+          <lb ed="#P" n="81"/>positive determinari, quia negative aliquid 
+          de<lb break="no" ed="#P" n="82"/>signari potest in particulari quod ad 
+          promul<lb break="no" ed="#P" n="83"/>gationem legis necessarium non sit, ut, verbi
+          <lb ed="#P" n="84"/>gratia, quod singulis subditis in particulari
+          <lb ed="#P" n="85"/>intimetur necessarium non est , ut expresse
+          <lb ed="#P" n="86"/>dicitur in c. 1 de Postulat. Praelat. ; ubi omnes
+          <lb ed="#P" n="87"/>id notant non tanquam in jure tantum 
+          positi<lb break="no" ed="#P" n="88"/>vo praescriptum, sed ut ex natura rei 
+          conse<lb break="no" ed="#P" n="89"/>quens : tum quia lex per se respicit 
+          commu<lb break="no" ed="#P" n="90"/>nitatem, et ideorespectu illius postulatur 
+          neces<lb break="no" ed="#P" n="91"/>saria promulgatio, non respectu singulorum ;
+          <lb ed="#P" n="92"/>tum etiam quia illa legis intimatio particularis
+          <lb ed="#P" n="93"/>ad singulas personas est moraliter 
+          impossibi<lb break="no" ed="#P" n="94"/>lis, et ex accidenti potest in multis impediri :
+          <lb ed="#P" n="95"/>lex auiem considerat ea quae sunt per se et
+          <lb ed="#P" n="96"/>quae moraliter sufficiunt, et ideo licet 
+          particu<lb break="no" ed="#P" n="97"/>laris notitia vel ignorantia legis possit requiri
+          <lb ed="#P" n="98"/>ad accusationem vel excusationem 
+          uniuscujus<lb break="no" ed="#P" n="99"/>que personae, nihilominus sufficiens 
+          promul<lb break="no" ed="#P" n="100"/>gatio legis ex his circumstantiis non pendet.
+          <lb ed="#P" n="101"/>Sic ergo quoad aliquam negationem habet
+          <lb ed="#P" n="102"/>determinationem haec promulgatio legis, 
+          scili<lb break="no" ed="#P" n="103"/>cet, ut generalis sit, et modo publico fiat 
+          abs<lb break="no" ed="#P" n="104"/>que privata intimatione: quoad illum autem
+          <lb ed="#P" n="105"/>modum publicum non habet positivam 
+          deter<lb break="no" ed="#P" n="106"/>minationem haec promulgatio ex sola rei 
+          na<lb break="no" ed="#P" n="107"/>tura.
+        </p>
+        <p xml:id="szdleg-a60115-d1e473">
+          <lb ed="#P" n="108"/>5. Unde facile colliguntur aliae partes: quia
+          <lb ed="#P" n="109"/>de facto semper necessarium est ut haec 
+          pro<lb break="no" ed="#P" n="110"/>mulgatio determinato modo fiat, qui ad le-
+          <pb ed="#P" n="239"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gem constituendam et requiratur et sufficiat:
+          <lb ed="#P" n="2"/>alias nunquam posset subditis constare, 
+          quan<lb break="no" ed="#P" n="3"/>do lex sit sufficienter constituta ita ut obliget:
+          <lb ed="#P" n="4"/>ergo, cum hoc non sit ex natura rei 
+          determi<lb break="no" ed="#P" n="5"/>natum, oportet per hominem potestatem 
+          ha<lb break="no" ed="#P" n="6"/>bentem constitui ; ergo quoad leges civiles
+          <lb ed="#P" n="7"/>maxime id fieri potest per jus civile, juxta
+          <lb ed="#P" n="8"/>quod fieri debent hujusmodi leges, vel per 
+          con<lb break="no" ed="#P" n="9"/>suetudinem, quae ad legem introducendum
+          <lb ed="#P" n="10"/>sufficit, ut infra dicemus, vel per voluntatem
+          <lb ed="#P" n="11"/>legislatoris : nam sicut potest legem ferre, ita
+          <lb ed="#P" n="12"/>et modum ejus determinare, ut statim 
+          dice<lb break="no" ed="#P" n="13"/>mus.
+        </p>
+        <p xml:id="szdleg-a60115-d1e515">
+          <lb ed="#P" n="14"/>6. Quot in locis necessaria promulgatio legis.
+          <lb ed="#P" n="15"/>— Leges alie inferiorum communitatum, alie
+          <lb ed="#P" n="16"/>amplissimarum.— Declarandum ergo superest
+          <lb ed="#P" n="17"/>quae certa solemnitas promulgationis nunc 
+          suf<lb break="no" ed="#P" n="18"/>ficiat vel necessaria sit pro legibus civilibus,
+          <lb ed="#P" n="19"/>et quo jure sit determinata. Et in particulari
+          <lb ed="#P" n="20"/>solet dubitari an sufficiat unica promulgatio
+          <lb ed="#P" n="21"/>in curia principis vel in metropoli totius 
+          re<lb break="no" ed="#P" n="22"/>gni, vel plures requirantur, et quot. Ut autem
+          <lb ed="#P" n="23"/>ad hoc clare respondeamus, operae pretium
+          <lb ed="#P" n="24"/>erit distinguere duplices leges. Quaedam sunt
+          <lb ed="#P" n="25"/>inferiorum communitatum, seu minus 
+          univer<lb break="no" ed="#P" n="26"/>salium; aliae amplissimarum communitatum.
+          <lb ed="#P" n="27"/>Sub priori membro comprehenduntur 
+          muni<lb break="no" ed="#P" n="28"/>cipales leges civitatum particularium; item
+          <lb ed="#P" n="29"/>leges unius provinciae, vel etiam unius parvi
+          <lb ed="#P" n="30"/>regni, in quo una tantum est principalis 
+          civi<lb break="no" ed="#P" n="31"/>tas, seu metropolis, quae est veluti caput 
+          om<lb break="no" ed="#P" n="32"/>nium aliorum populorum. Sub alio capite 
+          con<lb break="no" ed="#P" n="33"/>tinentur leges quae feruntur a supremo principe
+          <lb ed="#P" n="34"/>habente sub se latissimam ditionem. Quod
+          <lb ed="#P" n="35"/>dupliciter contingit, uno modo per unionem
+          <lb ed="#P" n="36"/>plurium provinciarum in uno regno, ita ut
+          <lb ed="#P" n="37"/>singulae provinciae per se componant aliquo
+          <lb ed="#P" n="38"/>modo unum corpus, et unaquaeque habeat suam
+          <lb ed="#P" n="39"/>civitatem praecipuam, et quasi metropolitanam,
+          <lb ed="#P" n="40"/>licet ex illis omnibus provinciis unum regnum
+          <lb ed="#P" n="41"/>coalescat, quod iisdem legibus gubernatur, et
+          <lb ed="#P" n="42"/>moraliter est quasi unum et per se indivisibile.
+          <lb ed="#P" n="43"/>Quando autem provinciae ejusdem regni 
+          cen<lb break="no" ed="#P" n="44"/>seri debeant esse ita distinctae, et habere 
+          dis<lb break="no" ed="#P" n="45"/>tincta capita provinciarum, ex usu et moribus
+          <lb ed="#P" n="46"/>populorum, et consueto regimine, et 
+          aestima<lb break="no" ed="#P" n="47"/>tione illarum, credimus esse accipiendum. Alio
+          <lb ed="#P" n="48"/>modo contingit ditionem regiam non solum
+          <lb ed="#P" n="49"/>ex multis provinciis, sed etiam ex multis 
+          re<lb break="no" ed="#P" n="50"/>gnis constare, quae non habent inter se 
+          mora<lb break="no" ed="#P" n="51"/>lem unitatem per se, sed solum per accidens
+          <lb ed="#P" n="52"/>in una persona ejusdem regis, ad quem vel per
+          <lb ed="#P" n="53"/>successionem, vel alio titulo per accidens 
+          de<lb break="no" ed="#P" n="54"/>venerunt : exempla omnium istorum 
+          mem<lb break="no" ed="#P" n="55"/>brorum inveniri possunt in imperio Hispaniae,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in quo sub uno principe sunt plura regna 
+          in<lb break="no" ed="#P" n="57"/>ter se distinctissima, quae aliam unionem non
+          <lb ed="#P" n="58"/>habent nisi in una persona regis. Ex his autem
+          <lb ed="#P" n="59"/>regnis quaedam sunt particularia, quorum 
+          sin<lb break="no" ed="#P" n="60"/>gula unam habent metropolitanam civitatem,
+          <lb ed="#P" n="61"/>ut videtur esse Neapolitanum, regnum 
+          Arago<lb break="no" ed="#P" n="62"/>niae, Valenciae, etc.; aliqua sunt ampliora, ut
+          <lb ed="#P" n="63"/>Castellae regnum, quod provincias valde 
+          dis<lb break="no" ed="#P" n="64"/>tinctas et quasi metropolitanas complectitur,
+          <lb ed="#P" n="65"/>et hujusmodi etiam videtur esse regnum 
+          Gal<lb break="no" ed="#P" n="66"/>liae, et similia.
+        </p>
+        <p xml:id="szdleg-a60115-d1e635">
+          <lb ed="#P" n="67"/>7. Leges prioris ordinis sat promulgari unica
+          <lb ed="#P" n="68"/>solemni publicatione. — De legibus ergo prioris
+          <lb ed="#P" n="69"/>ordinis omnes conveniunt sufficienter 
+          promul<lb break="no" ed="#P" n="70"/>gari unica solemni publicatione facta in curia,
+          <lb ed="#P" n="71"/>vel praecipua civitate, vel in loco secundum
+          <lb ed="#P" n="72"/>morem patriae consueto: ratio est, quia illa
+          <lb ed="#P" n="73"/>sufficit ut lex dicatur publice ac solemniter
+          <lb ed="#P" n="74"/>edita, et ut moraliter valeat per totum 
+          terri<lb break="no" ed="#P" n="75"/>torium, seu districtum evulgari; ergo ex 
+          na<lb break="no" ed="#P" n="76"/>tura rei non potest cum fundamento aliquid
+          <lb ed="#P" n="77"/>amplius postulari : nec etiam jure positivo
+          <lb ed="#P" n="78"/>aliud praescriptum invenitur; ergo hoc sufficit.
+          <lb ed="#P" n="79"/>Et confirmatur, quia alias oporteret in 
+          singu<lb break="no" ed="#P" n="80"/>lis civitatibus vel populis promulgari; quia si
+          <lb ed="#P" n="81"/>una promulgatio non sufficit in capite, non est
+          <lb ed="#P" n="82"/>major ratio cur exigatur in quibusdam quam
+          <lb ed="#P" n="83"/>in omnibus aliis populis. Consequens autem
+          <lb ed="#P" n="84"/>est plane falsum, ut constat, tum ex usu, tum
+          <lb ed="#P" n="85"/>quia lex per se respicit communitatem : et ita
+          <lb ed="#P" n="86"/>satis est quod toti communitati semel publice
+          <lb ed="#P" n="87"/>proponatur. Ex qua ratione dicebamus supra
+          <lb ed="#P" n="88"/>non requiri privatam intimationem respectu
+          <lb ed="#P" n="89"/>personarum, vel familiarum ; eadem fere 
+          os<lb break="no" ed="#P" n="90"/>tendi potest non esse necessariam respectu
+          <lb ed="#P" n="91"/>singulorum populorum unius privatae ditionis,
+          <lb ed="#P" n="92"/>sive civitatis, sive provinciae particularis regni.
+          <lb ed="#P" n="93"/>Haec autem intelligitur per se, et nisi in 
+          ipsa<lb break="no" ed="#P" n="94"/>met lege aliud praescribatur : nam interdum
+          <lb ed="#P" n="95"/>id poterit expedire, et non est dubium quin
+          <lb ed="#P" n="96"/>fieri possit et saepe fiat, ut ex dicendis 
+          con<lb break="no" ed="#P" n="97"/>stabit, tam in praesenti quam in legibus 
+          cano<lb break="no" ed="#P" n="98"/>nicis.
+        </p>
+        <p xml:id="szdleg-a60115-d1e707">
+          <lb ed="#P" n="99"/>8. Prima opimo de legibus secundi ordinis.—
+          <lb ed="#P" n="100"/>De legibus autem secundi ordinis sunt variae
+          <lb ed="#P" n="101"/>opiniones. Prima affirmat in illis legibus 
+          ne<lb break="no" ed="#P" n="102"/>cessarias esse plures promulgationes, quae fiant
+          <lb ed="#P" n="103"/>in capitibus regnorum, vel provinciarum, et
+          <lb ed="#P" n="104"/>factam in unaquaque metropoli solum pro sua
+          <lb ed="#P" n="105"/>provincia suflticere ; vel si fiat in curia regis,
+          <lb ed="#P" n="106"/>solum sufficere pro illa provincia cujus est
+          <lb ed="#P" n="107"/>caput, vel in qua existit. Ita tenet Glossa in
+          <lb ed="#P" n="108"/>authentica Ut factae novae constitut. collat. 5,
+          <lb ed="#P" n="109"/>verb. Hujusmodi lex, et sequitur ibi Bartolus,
+          <lb ed="#P" n="110"/>et Baldus in lege Leges sacratissimae, cap. de
+          <pb ed="#P" n="240"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Legib.: Joannes Andreas Data sexti ; 
+          Panormi<lb break="no" ed="#P" n="2"/>tanus, cap. 2 de Constitut., n. 7; et ibi 
+          Feh<lb break="no" ed="#P" n="3"/>nus, n. 7, et alii ibi; et Navarrus consil. 1 de
+          <lb ed="#P" n="4"/>Constit.. q. 4, n. 19 et 20; Soto, lib. 1 de 
+          Jus<lb break="no" ed="#P" n="5"/>titia, q. 1, art. 4; Angel. verbo Lez, quaest. 7,
+          <lb ed="#P" n="6"/>n. 1; Armilla, n. 11; Rosell., n. 8; Ludovicus
+          <lb ed="#P" n="7"/>Gomez in Procemio ad Regulas Cancel., q. 2,
+          <lb ed="#P" n="8"/>qui aliter sentiunt de legibus canonicis, de
+          <lb ed="#P" n="9"/>quibus sequenti libro dicemus. Fundata est
+          <lb ed="#P" n="10"/>haec sententia in authentica Ut facte nove
+          <lb ed="#P" n="11"/>constitutiones, etc., quam omnes ita 
+          intelli<lb break="no" ed="#P" n="12"/>gunt ; imo Navarr. ait hanc sententiam 
+          potis<lb break="no" ed="#P" n="13"/>simum fundari in jure scripto.
+        </p>
+        <p xml:id="szdleg-a60115-d1e769">
+          <lb ed="#P" n="14"/>9. Difficultas contra dictam sententiam. —
+          <lb ed="#P" n="15"/>Difficultas vero contra hanc sententiam est,
+          <lb ed="#P" n="16"/>quia lex ita non est universalis pro omnibus
+          <lb ed="#P" n="17"/>legibus, sed solum pro legibus disponentibus
+          <lb ed="#P" n="18"/>circa testamenta, quomodo condenda sint, etc.,
+          <lb ed="#P" n="19"/>ut patet ex capite 2 ejusdem authenticae ibi:
+          <lb ed="#P" n="20"/>Sancimus igitur ea illo nostras constitutiones,
+          <lb ed="#P" n="21"/>que pro testamentis fiunt, valere, em quo in
+          <lb ed="#P" n="22"/>communi facte sunt manifeste ; in provincüis
+          <lb ed="#P" n="23"/>autem, ex quo directe per metropolitas palam
+          <lb ed="#P" n="24"/>factae sunt. Ex quibus satis constat, ex vi 
+          ver<lb break="no" ed="#P" n="25"/>borum constitutionem esse restrictam ad 
+          ta<lb break="no" ed="#P" n="26"/>lem materiam. Nec vero eam licet extendere
+          <lb ed="#P" n="27"/>propter similitudinem rationis; tum quia forte
+          <lb ed="#P" n="28"/>non est similitudo rationis, quia 
+          testamento<lb break="no" ed="#P" n="29"/>rum causae sunt magis piae, et in eis poterat
+          <lb ed="#P" n="30"/>esse magis nociva ignorantia legis obligantis,
+          <lb ed="#P" n="31"/>vel irritantis testamentum, et plures lites ob
+          <lb ed="#P" n="32"/>illam causam oriri poterant in illa materia
+          <lb ed="#P" n="33"/>quam in aliis: tum etiam quia imperator 
+          ibi<lb break="no" ed="#P" n="34"/>dem semper reddit rationem ex peculiari causa
+          <lb ed="#P" n="35"/>ultimarum voluntatum : Non enim volumnus (ait)
+          <lb ed="#P" n="36"/>deficientium infringi voluntatem ; tum denique
+          <lb ed="#P" n="37"/>quia illa extensio per similitudinem rationis
+          <lb ed="#P" n="38"/>raro aut nunquam in legibus admittenda est,
+          <lb ed="#P" n="39"/>ut infra dicemus : unde propter hanc 
+          objec<lb break="no" ed="#P" n="40"/>tionem Vasquez 12, disput. 156, cap. 2, dicit
+          <lb ed="#P" n="41"/>frustra jurisperitos extendisse Authenticam 
+          il<lb break="no" ed="#P" n="42"/>lam ad omnes leges imperatorum, cum de
+          <lb ed="#P" n="43"/>solis testamentorum legibus disponat, 
+          solum<lb break="no" ed="#P" n="44"/>que per argumentum a simili extendisse legem
+          <lb ed="#P" n="45"/>illam sine sufficiente fundamento.
+        </p>
+        <p xml:id="szdleg-a60115-d1e841">
+          <lb ed="#P" n="46"/>10. Legem strictius loquentem extendendam
+          <lb ed="#P" n="47"/>esse juxta generalitatem rubrice, quando non
+          <lb ed="#P" n="48"/>est repugnantia, aut absurdum. — 
+          Verumta<lb break="no" ed="#P" n="49"/>men jurisperiti non tantum similitudinem 
+          ra<lb break="no" ed="#P" n="50"/>tionis, sed etiam verba rubricae illius 
+          authen<lb break="no" ed="#P" n="51"/>ticae considerarunt, ut aperte constat ex Glossa
+          <lb ed="#P" n="52"/>ibi, quia verba rubricae generalia sunt, 
+          scili<lb break="no" ed="#P" n="53"/>cet : Ut factae move constitutiones post 
+          institu<lb break="no" ed="#P" n="54"/>Liones earum , post duos menses valeant. Quae
+          <lb ed="#P" n="55"/>rubrica, ut ex ipsius verbis constat, est ex il-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>lis quae a juristis dicuntur perfectum sensum
+          <lb ed="#P" n="57"/>reddere, de quibus est apud illos dogma 
+          re<lb break="no" ed="#P" n="58"/>ceptum habere textus auctoritatem in his in
+          <lb ed="#P" n="59"/>quibus non repugnat, ut ipsi loquuntur, id est,
+          <lb ed="#P" n="60"/>in his quae non sunt contraria legibus sub 
+          ru<lb break="no" ed="#P" n="61"/>bro contentis. Unde concludunt, etiamsi lex
+          <lb ed="#P" n="62"/>strictius loquatur, extendendam esse juxta 
+          ge<lb break="no" ed="#P" n="63"/>neralitatem rubricae, quando non est 
+          repu<lb break="no" ed="#P" n="64"/>gnantia, nec absurdum aliquod sequitur. Haec
+          <lb ed="#P" n="65"/>regula sumitur ex Glossa 1 et doctoribus in
+          <lb ed="#P" n="66"/>dicta authentica, et in leg. 1, c. de Capitat.
+          <lb ed="#P" n="67"/>civium, etc., lib. 11; et in leg. 1, c. Ne 
+          fide<lb break="no" ed="#P" n="68"/>jussores vel mandat. dot. dentur, ubi Glossa
+          <lb ed="#P" n="69"/>Magist. circa finem, et ex Anton. de Butrio in
+          <lb ed="#P" n="70"/>Prooemio Decret., Jasone et Decio in leg. 1,
+          <lb ed="#P" n="71"/>ff. Si certum petatur, et aliis quos refert et
+          <lb ed="#P" n="72"/>sequitur Albertus Brunus, tractat. de Stat.
+          <lb ed="#P" n="73"/>exclud. fem., art. 8, n. 93; et Joannes 
+          Bo<lb break="no" ed="#P" n="74"/>niustractatu de Statutaria urbis praescriptione,
+          <lb ed="#P" n="75"/>Glossa 19, n. 61 et sequentibus ; et Rolandus
+          <lb ed="#P" n="76"/>a Valle in quaestionibus de Lucr. dotis, q. 9;
+          <lb ed="#P" n="77"/>ubi addit generalitatem rubricae sufficere ad
+          <lb ed="#P" n="78"/>decisionem causse, non obstante locutione 
+          le<lb break="no" ed="#P" n="79"/>gis magis restricta, quia rubrica potest pro
+          <lb ed="#P" n="80"/>textu allegari, juxta notata per supradictos
+          <lb ed="#P" n="81"/>doctores.
+        </p>
+        <p xml:id="szdleg-a60115-d1e924">
+          <lb ed="#P" n="82"/>11. Hi vero doctores omnes nullam aliam
+          <lb ed="#P" n="83"/>probationem afferunt praeter communem 
+          ip<lb break="no" ed="#P" n="84"/>sorum consensum, et quasi traditionem quae
+          <lb ed="#P" n="85"/>in interpretatione jurium magnam sine dubio
+          <lb ed="#P" n="86"/>habet auctoritatem ; nam, si consuetudo est
+          <lb ed="#P" n="87"/>optima legum interpres, ergo et haec tot et
+          <lb ed="#P" n="88"/>tantorum doctorum testificatio, quae 
+          consuetu<lb break="no" ed="#P" n="89"/>dinem necessario habet adjunctam, sive illam
+          <lb ed="#P" n="90"/>induxerit, sive de illa testificetur. Videntur
+          <lb ed="#P" n="91"/>autem dicti auctores supponere rubricas juris
+          <lb ed="#P" n="92"/>civilis esse eorumdem imperatorum seu 
+          jure<lb break="no" ed="#P" n="93"/>consultorum quorum sunt leges, quod fundari
+          <lb ed="#P" n="94"/>potest in l. 1, ff. Si certum petat., et fortasse
+          <lb ed="#P" n="95"/>in aliis. Unde dicere solent iidem doctores 
+          ru<lb break="no" ed="#P" n="96"/>bricas Decreti non habere auctoritatem, quia
+          <lb ed="#P" n="97"/>non sunt ab auctoribus canonum, sed a 
+          Gra<lb break="no" ed="#P" n="98"/>tiano, vel aliis; ita notant Joannes Andr. et
+          <lb ed="#P" n="99"/>Anton. in Procem. Decret. Ex hoc autem 
+          prin<lb break="no" ed="#P" n="100"/>cipio, valde probabili illatione, colligitur 
+          ru<lb break="no" ed="#P" n="101"/>bricam reddentem sensum perfectum habere
+          <lb ed="#P" n="102"/>legis auctoritatem, et non limitari per textum
+          <lb ed="#P" n="103"/>regulariter loquendo, nisi necessitas cogat, ne
+          <lb ed="#P" n="104"/>credatur talis tituli auctor frustra generalem
+          <lb ed="#P" n="105"/>illam propositionem protulisse ; sed potius 
+          le<lb break="no" ed="#P" n="106"/>ges specialius loquentes esse veluti membra
+          <lb ed="#P" n="107"/>illius generalitatis, vel quasi materialia 
+          exem<lb break="no" ed="#P" n="108"/>pla, in quibus cernitur quod in rubrica 
+          gene<lb break="no" ed="#P" n="109"/>ralius continetur.
+        </p>
+        <p xml:id="szdleg-a60115-d1e987">
+          <lb ed="#P" n="110"/>12. Hoc ergo principium negari non potest
+          <pb ed="#P" n="241"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>a theologis cum probabilitate, quia, in his
+          <lb ed="#P" n="2"/>quae rationi contraria non sunt nec legibus 
+          re<lb break="no" ed="#P" n="3"/>pugnant, multum habet ponderis communis
+          <lb ed="#P" n="4"/>consensus peritorum in sua propria scientia ;
+          <lb ed="#P" n="5"/>praesertim cum sit illud principium per se 
+          ve<lb break="no" ed="#P" n="6"/>risimile et consentaneum rationi. Ex illo 
+          au<lb break="no" ed="#P" n="7"/>tem optime infertur in praesenti dictam 
+          au<lb break="no" ed="#P" n="8"/>thenticam extendendam esse ad omnes leges
+          <lb ed="#P" n="9"/>civiles, quia titulus rubricae generalis est, et
+          <lb ed="#P" n="10"/>sensum reddit perfectum , et ita habet textus
+          <lb ed="#P" n="11"/>auctoritatem, et per illam explicanda est 
+          au<lb break="no" ed="#P" n="12"/>thentica, sicut unum jus per aliud explicatur.
+          <lb ed="#P" n="13"/>Ubi etiam considerari potest quod notat Bald.
+          <lb ed="#P" n="14"/>Perusi. tract. de Statut., verb. Bubrica, 
+          quo<lb break="no" ed="#P" n="15"/>ties rubrica incipit per u£ aut per ne, decidere
+          <lb ed="#P" n="16"/>et habere vim textus, quia completum sensum
+          <lb ed="#P" n="17"/>reddit : ergo tunc per illam recte textus 
+          expli<lb break="no" ed="#P" n="18"/>catur. Confirmatur hoc primo, quia in materia
+          <lb ed="#P" n="19"/>hujus authenticae haec extensio favorabilis est:
+          <lb ed="#P" n="20"/>si autem considerentur allegati auctores, etiam
+          <lb ed="#P" n="21"/>in materiis odiosis et stricti juris illam 
+          doctri<lb break="no" ed="#P" n="22"/>nam admittunt: ergo a fortiori est ad hanc
+          <lb ed="#P" n="23"/>authenticam applicanda. Confirmatur hoc 
+          se<lb break="no" ed="#P" n="24"/>cundo, quia alia pars illius constitutionis, quae
+          <lb ed="#P" n="25"/>est de dilatione duorum mensium, generaliter
+          <lb ed="#P" n="26"/>intelligitur, ut infra videbimus, et sumitur ex
+          <lb ed="#P" n="27"/>quadam Bulla Pii IV super declaratione 
+          tem<lb break="no" ed="#P" n="28"/>poris observationis Concilii Tridentini, ibi:
+          <lb ed="#P" n="29"/>Jure communi sancitum est, ut constitutiones
+          <lb ed="#P" n="30"/>nove non nisi post certum temgns obtineant ;
+          <lb ed="#P" n="31"/>nullibi enim invenitur sancitum nisi in illa
+          <lb ed="#P" n="32"/>authentica ; ergo intellexit Pontifex illam 
+          le<lb break="no" ed="#P" n="33"/>gem absolute de novis constitutionibus, et non
+          <lb ed="#P" n="34"/>tantum de pertinentibus ad testamenta. 
+          Deni<lb break="no" ed="#P" n="35"/>que non repugnant verba authenticae, quia 
+          li<lb break="no" ed="#P" n="36"/>cet occasione testamentorum sit facta, et ideo
+          <lb ed="#P" n="37"/>de illis legibus in particulari loquatur, non est
+          <lb ed="#P" n="38"/>id tamen materialiter intelligendum, sed quasi
+          <lb ed="#P" n="39"/>gratia exempli, et formaliter sumendum est
+          <lb ed="#P" n="40"/>quod lex intendit, juxta rubricam quam auctor
+          <lb ed="#P" n="41"/>ejus proposuit. Cui intentioni consonant 
+          non<lb break="no" ed="#P" n="42"/>nulla verba quae rationem generalem indicant,
+          <lb ed="#P" n="43"/>ut sunt illa: Cur enim culpabimus eos quà 
+          posi<lb break="no" ed="#P" n="44"/>tas nostras ignoraverint constitutiones, s (ut
+          <lb ed="#P" n="45"/>infra dicit) eo quod non fuerunt suf ficienter
+          <lb ed="#P" n="46"/>proposite, ignorantur ?
+        </p>
+        <p xml:id="szdleg-a60115-d1e1096">
+          <lb ed="#P" n="47"/>13. Necessariam esse promulgationem legis
+          <lb ed="#P" n="48"/>in civitatibus provinciurum aut regnorum, ut
+          <lb ed="#P" n="49"/>in singulis provinciis obliget eu vi juris 
+          com<lb break="no" ed="#P" n="50"/>munis imperialis.—bicendum ergo est vi juris
+          <lb ed="#P" n="51"/>communis imperialis seu civilis necessariam
+          <lb ed="#P" n="52"/>esse promulgationem legis in civitatibus 
+          pro<lb break="no" ed="#P" n="53"/>vinciarum aut regnorum, ut in singulis 
+          pro<lb break="no" ed="#P" n="54"/>vinciis lex obliget, nec sufficere unam 
+          pubh<lb break="no" ed="#P" n="55"/>cationem factam in curia principis : ratio est,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quia ita statutum est jure imperiali modo 
+          de<lb break="no" ed="#P" n="57"/>clarato, juvante etiam consuetudine Imperii.
+          <lb ed="#P" n="58"/>Congruentia vero magna profecto est, ut hoc
+          <lb ed="#P" n="59"/>modo melius possit lex innotescere , et 
+          viten<lb break="no" ed="#P" n="60"/>tur magna incommoda et jurgia, seu lites,
+          <lb ed="#P" n="61"/>quae ex ignoratione legis propter 
+          distantissi<lb break="no" ed="#P" n="62"/>mam promulgationem possunt provenire. 
+          Ad<lb break="no" ed="#P" n="63"/>dunt juristae congruentiam, quia imperator
+          <lb ed="#P" n="64"/>non habet curiam stabilem et immobilem, sed
+          <lb ed="#P" n="65"/>facile huc atque illuc transfertur, et ideo non
+          <lb ed="#P" n="66"/>potest esse tam certa et universalis 
+          promulga<lb break="no" ed="#P" n="67"/>tio quae in illa fit, praesertim pro regnis vel
+          <lb ed="#P" n="68"/>provinciis distantibus, quae et magnam morum
+          <lb ed="#P" n="69"/>dissimilitudinem et parvam 
+          communicatio<lb break="no" ed="#P" n="70"/>nem inter se habere solent. Atque hinc fit ut
+          <lb ed="#P" n="71"/>omnes inferiores principes temporales qui 
+          sub<lb break="no" ed="#P" n="72"/>duntur imperio et legibus ejus, juxta hanc
+          <lb ed="#P" n="73"/>regulam et conditionem leges suas 
+          particula<lb break="no" ed="#P" n="74"/>res ferre teneantur, quia non possunt statuere
+          <lb ed="#P" n="75"/>contra jus commune, nisi consuetudine, vel
+          <lb ed="#P" n="76"/>speciali jure sibi concesso exempti sint, ut 
+          su<lb break="no" ed="#P" n="77"/>pra est declaratum. Unde etiam fit ut, licet
+          <lb ed="#P" n="78"/>hoc jus sit ordinarium, in aliquibus casibus
+          <lb ed="#P" n="79"/>possit sufficere alius modus promulgationis, ut
+          <lb ed="#P" n="80"/>quando lex fertur per sententiam vel 
+          episto<lb break="no" ed="#P" n="81"/>lam principis, quia secundum aliud commune
+          <lb ed="#P" n="82"/>jus sufficit illam publicari successu temporis
+          <lb ed="#P" n="83"/>per publicam notitiam et famam, vel per 
+          in<lb break="no" ed="#P" n="84"/>corporationem m communi omnibus satis 
+          no<lb break="no" ed="#P" n="85"/>tam, vel alio simili modo qui vel consuctudiuc
+          <lb ed="#P" n="86"/>vel aliqua lege approbatus sit.
+        </p>
+        <p xml:id="szdleg-a60115-d1e1187">
+          <lb ed="#P" n="87"/>14. Tandem ex dictis colligitur haec non
+          <lb ed="#P" n="88"/>habere locum in his regibus qui non 
+          subdun<lb break="no" ed="#P" n="89"/>tur legibus imperii, quia eos non obligat dicta
+          <lb ed="#P" n="90"/>Authent. ; oportet ergo consulere proprium
+          <lb ed="#P" n="91"/>regem , vel consuetudinem. Nam jure civili
+          <lb ed="#P" n="92"/>regio statui potest, ut una promulgatio in curia
+          <lb ed="#P" n="93"/>vel in loco a rege designato sufficiat, quia (ut
+          <lb ed="#P" n="94"/>dixi) hoc non est contra jus naturale, non 
+          so<lb break="no" ed="#P" n="95"/>Ium quoad diversas provincias unius regni,
+          <lb ed="#P" n="96"/>sed etiam quoad varia regna quae tantum ex
+          <lb ed="#P" n="97"/>accidenti sub uno rege militant. Regulariter
+          <lb ed="#P" n="98"/>autem credimus non ita fieri, quia raro etiam
+          <lb ed="#P" n="99"/>vel nunquam una eademque lex simul pro 
+          om<lb break="no" ed="#P" n="100"/>nibus regnis hujusmodi fertur. (Quamvis ferri
+          <lb ed="#P" n="101"/>non repugnet, si alioqui pro omnibus justa sit.
+          <lb ed="#P" n="102"/>Nam de potestate absoluta regis posset una
+          <lb ed="#P" n="103"/>publicatione pro omnibus regnis in curia regia
+          <lb ed="#P" n="104"/>publicari, quia non est intrinsece injustum,
+          <lb ed="#P" n="105"/>nec contra naturam legis. Interdum vero esse
+          <lb ed="#P" n="106"/>potest contra specialem institutionem et forum
+          <lb ed="#P" n="107"/>alicujus regni quod rex servare tenetur, quia
+          <lb ed="#P" n="108"/>sub ea conditione videtur potestatem accepisse.
+          <lb ed="#P" n="109"/>Et generatim loquendo, convenientius est ut
+          <lb ed="#P" n="110"/>promulgatio suavi modo fiat in unoquoque
+          <pb ed="#P" n="242"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>regno. Intra idem autem regnum füacilius 
+          po<lb break="no" ed="#P" n="2"/>test una promulgatio sufficere pro omnibus
+          <lb ed="#P" n="3"/>provinciis, quia major est convenientia et 
+          com<lb break="no" ed="#P" n="4"/>municatio inter illas. Unde in rigore id 
+          suffi<lb break="no" ed="#P" n="5"/>cit, nisi aliud sit consuetudine introductum.
+          <lb ed="#P" n="6"/>Quid autem de legibus canonicis censendum sit
+          <lb ed="#P" n="7"/>lib. sequenti dicemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

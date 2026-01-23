@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 20</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 20</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="506"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-b28032"><!-- deleg-l5c20 -->
+        <head xml:id="szdleg-b28032-Hd1e101">Caput 20</head>
+        <head xml:id="szdleg-b28032-Hd1e103" type="question-title">Utrum leges irritantes actus, illos in conscientia prohibeant</head>
+        <p xml:id="szdleg-b28032-d1e106">
+          <lb ed="#P" n="46"/>CAPUT XX.
+          <lb ed="#P" n="47"/>UTRUM LEGES IRRITANTES ACTUS, ILLOS IN 
+          CON<lb break="no" ed="#P" n="48"/>SCIENTIA PROHIBEANT.
+        </p>
+        <p xml:id="szdleg-b28032-d1e115">
+          <lb ed="#P" n="49"/>1. Ratio dubitandi. — Ratio dubitandi esse
+          <lb ed="#P" n="50"/>potest , quia hae leges sunt vera praecepta 
+          su<lb break="no" ed="#P" n="51"/>periorum ; sed de ratione veri praecepti seu
+          <lb ed="#P" n="52"/>legis est ut obliget in conscientia, ut supra os-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tensum est ; ergo necesse est ut hae leges in
+          <lb ed="#P" n="54"/>conscientia obligent aliquo modo. Et 
+          confir<lb break="no" ed="#P" n="55"/>matur, quia supra dictum est etiam leges pure
+          <lb ed="#P" n="56"/>poenales resolvi aliquo modo in obligationem
+        </p>
+        <p xml:id="szdleg-b28032-d1e137">
+          <lb ed="#P" n="57"/>conscientiae, quia alias non salvaretur in eis
+        </p>
+        <p xml:id="szdleg-b28032-d1e143">
+          <lb ed="#P" n="58"/>vera ratio legis ; sed leges irritantes non 
+          mi<lb break="no" ed="#P" n="59"/>nus sunt verae leges quam poenales ; ergo. In
+          <lb ed="#P" n="60"/>contrarium vero potest fieri inductio ; nam lex
+          <lb ed="#P" n="61"/>irritans testamentum minus solemne, nullam
+          <lb ed="#P" n="62"/>obligationem in conscientia inducit , quia 
+          ne<lb break="no" ed="#P" n="63"/>que testatorem obligat ad servandam 
+          solemni<lb break="no" ed="#P" n="64"/>tatem , cum possit de rebus suis valide et 
+          in<lb break="no" ed="#P" n="65"/>valide disponere, sicut potest aliter eas 
+          con<lb break="no" ed="#P" n="66"/>sumere si velit ; nec etiam obligat haeredem,
+          <lb ed="#P" n="67"/>cum illi nihil praecipiat. Similiter lex irritans
+          <lb ed="#P" n="68"/>contractum factum a minore non obligat illum
+          <lb ed="#P" n="69"/>in conscientia, cujus signum est, quia potest
+          <lb ed="#P" n="70"/>illum juramento confirmare, quod non posset
+          <lb ed="#P" n="71"/>si esset peccatum ; et sic de alis.
+        </p>
+        <p xml:id="szdleg-b28032-d1e176">
+          <lb ed="#P" n="72"/>2. Distinguendas esse duas partes in lege.—
+          <lb ed="#P" n="73"/>Ad resolutionem hujus quaestionis (cum 
+          pro<lb break="no" ed="#P" n="74"/>portione ad ea quae de lege poenali diximus),
+          <lb ed="#P" n="75"/>oportet distinguere duas partes in hac lege:
+          <lb ed="#P" n="76"/>una est effectio vel omissio actionis quam lex
+          <lb ed="#P" n="77"/>ista praecipit, alia est irritatio actionis quam
+          <lb ed="#P" n="78"/>lex ipsa jubet vel facit. Circa primum, 
+          adver<lb break="no" ed="#P" n="79"/>tere oportet ex dictis, tripliciter ferri hanc 
+          le<lb break="no" ed="#P" n="80"/>gem, scilicet, per modum affirmativi praecepti,
+          <lb ed="#P" n="81"/>vel per modum negativi, vel neutro modo, sed
+          <lb ed="#P" n="82"/>tantum quasi conditionaliter ad modum legis
+          <lb ed="#P" n="83"/>pure poenalis. Primus modus habet proprie
+          <lb ed="#P" n="84"/>locum in legibus quae dant formam 
+          contracti<lb break="no" ed="#P" n="85"/>bus, ut patet in decreto Tridentini de 
+          matri<lb break="no" ed="#P" n="86"/>monio, quo praecipitur ut matrimonium cum
+          <lb ed="#P" n="87"/>tali solemnitate fiat. Item in canonibus 
+          danti<lb break="no" ed="#P" n="88"/>bus formam in electionibus, in alienationibus
+          <lb ed="#P" n="89"/>ecclesiasticis, et similibus; praecipiunt enim
+          <lb ed="#P" n="90"/>talem formam servari, et quoad hoc habent
+          <lb ed="#P" n="91"/>formam affirmativi praecepti. Si quis autem
+          <lb ed="#P" n="92"/>recte consideret talia praecepta, ut affirmativa
+          <lb ed="#P" n="93"/>sunt, non sunt absoluta, sed conditionata;
+          <lb ed="#P" n="94"/>non enim praecipiunt alienationem fieri, verbi
+          <lb ed="#P" n="95"/>gratia, sed ut, si fiat, tali modo fiat, quia 
+          nimi<lb break="no" ed="#P" n="96"/>rum tales leges non praecipiunt exercitium 
+          ac<lb break="no" ed="#P" n="97"/>tus, ut sic dicam, sed solum formam seu 
+          mo<lb break="no" ed="#P" n="98"/>dum servandum in actu, quando fit. Unde talia
+          <lb ed="#P" n="99"/>praecepta resolvuntur tandem in negativa, 
+          sci<lb break="no" ed="#P" n="100"/>licet, ut talis actus sine tali solemnitate non
+          <lb ed="#P" n="101"/>fiat; sic Tridentinum, sess. 25, c. 15 de Regul.,
+          <lb ed="#P" n="102"/>prius prohibet professionem fieri ante 
+          exple<lb break="no" ed="#P" n="103"/>tum decimum sextum annum aetatis, et annum
+          <lb ed="#P" n="104"/>probationis, et deinde irritat professionem 
+          ah<lb break="no" ed="#P" n="105"/>ter factam. Quocirca secundus modus legum
+          <lb ed="#P" n="106"/>negativarum prohibentium, scilicet, absolute
+          <lb ed="#P" n="107"/>actus, et irritantium illos frequentior est. Sic
+          <pb ed="#P" n="507"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>enim prohibentur matrimonia inter 
+          consan<lb break="no" ed="#P" n="2"/>guineos vel affines, vel cum religioso professo
+          <lb ed="#P" n="3"/>aut clerico in sacris, vel prohibetur aut 
+          irrita<lb break="no" ed="#P" n="4"/>tur datio, vel acceptio simoniaca, et alia 
+          simi<lb break="no" ed="#P" n="5"/>lia. Tertius autem modus potest interdum cum
+          <lb ed="#P" n="6"/>quolibet ex superioribus conjungi. Aliquando
+          <lb ed="#P" n="7"/>enim lex dans formam actui prius praecipit sic
+          <lb ed="#P" n="8"/>fieri, seu non aliter fieri, et postea irritat aliter
+          <lb ed="#P" n="9"/>factum, ut in exemplis ex Concilio adductis
+          <lb ed="#P" n="10"/>satis patet : nonnunquam vero nihil praecipit,
+          <lb ed="#P" n="11"/>vel circa actum ipsum, vel formam ejus, sed
+          <lb ed="#P" n="12"/>tantum conditionaliter statuit ut, si absque
+          <lb ed="#P" n="13"/>tali forma fiat, non valeat, ut patet in lege de
+          <lb ed="#P" n="14"/>solemnitate testamenti et similibus, et 
+          simili<lb break="no" ed="#P" n="15"/>ter in legibus directe irritantibus actus aliquos,
+          <lb ed="#P" n="16"/>non propter defectum formae, sed propter alias
+          <lb ed="#P" n="17"/>causas, saepe fertur prius absoluta prohibitio
+          <lb ed="#P" n="18"/>actus, et additur irritatio, ut patet in exemplis
+          <lb ed="#P" n="19"/>adductis de matrimonio : aliquando vero nihil
+          <lb ed="#P" n="20"/>simpliciter prohibetur, sed irritatur actus si
+          <lb ed="#P" n="21"/>fiat, ut in casu cap. Quamvis, de Pact., in 6,
+          <lb ed="#P" n="22"/>cum similibus de quibus infra.
+        </p>
+        <p xml:id="szdleg-b28032-d1e309">
+          <lb ed="#P" n="23"/>3. Posse per legem statui arritationem, vel
+          <lb ed="#P" n="24"/>ut faciendam , vel ipso facto. — Circa alteram
+          <lb ed="#P" n="25"/>partem istarum legum, scilicet irritationem,
+          <lb ed="#P" n="26"/>advertendum est dupliciter posse per legem
+          <lb ed="#P" n="27"/>statui ; nempe, vel ipso facto, vel ut faciendam.
+          <lb ed="#P" n="28"/>Nam sicut lex poenalis interdum imponit 
+          poe<lb break="no" ed="#P" n="29"/>nam ferendam, interdum per se illam infert
+          <lb ed="#P" n="30"/>ipso facto, seu ipso jure : ita irritatio utroque
+          <lb ed="#P" n="31"/>modo ferri potest per legem, quia uterque
+          <lb ed="#P" n="32"/>modus est possibilis, et uterque pendet ex 
+          ar<lb break="no" ed="#P" n="33"/>bitrio legislatoris, et consequenter ex mente
+          <lb ed="#P" n="34"/>ejus, quae uno et alio modo per verba legum
+          <lb ed="#P" n="35"/>significari solet. Sepe enim dicunt talem 
+          ac<lb break="no" ed="#P" n="36"/>tum, si fiat, vel aliter fiat, esse irritum vel
+          <lb ed="#P" n="37"/>non valere, ut in leg. Stipulatio non calet, ff.
+          <lb ed="#P" n="38"/>de Verbor. oblig., cum similibus; aliquando
+          <lb ed="#P" n="39"/>vero solum dicunt ut actus irritetur, ut de
+          <lb ed="#P" n="40"/>venditione ultra dimidiam justi pretii, in l. 2,
+          <lb ed="#P" n="41"/>c. de hescind. vendit. His autem duobus 
+          ordi<lb break="no" ed="#P" n="42"/>nibus legum solent jurisperiti addere tertium,
+          <lb ed="#P" n="43"/>earum legum quas vocant nec assistentes, nec
+          <lb ed="#P" n="44"/>resistentes contractui, quia non dant actionem
+          <lb ed="#P" n="45"/>civilem alicui contrahentium. Sed hae leges
+          <lb ed="#P" n="46"/>non solum irritantes non sunt, verum etiam
+          <lb ed="#P" n="47"/>nec prohibentes actus, quia nec irritant, nec
+          <lb ed="#P" n="48"/>confirmant contractum , nec prohibent, nec
+          <lb ed="#P" n="49"/>praecipiuni ; et ita versari possunt et circa 
+          ac<lb break="no" ed="#P" n="50"/>tus injustos, ut est lex negans actionem contra
+          <lb ed="#P" n="51"/>venditionem injustam citra dimidiam; et circa
+          <lb ed="#P" n="52"/>actus justos, ut est lex negans actionem 
+          pro<lb break="no" ed="#P" n="53"/>pter solam obligationem naturalem ortam ex
+          <lb ed="#P" n="54"/>simplici promissione. Qui modus legum 
+          prae<lb break="no" ed="#P" n="55"/>sertim inter civiles reperitur, et licet irritantes
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>non sint, ut dixi, earum notitia aliquid 
+          con<lb break="no" ed="#P" n="57"/>ferre potest ad obligationem legum irritantium
+          <lb ed="#P" n="58"/>intelligendam, ut ex dicendis patebit.
+        </p>
+        <p xml:id="szdleg-b28032-d1e392">
+          <lb ed="#P" n="59"/>4. Prima conclusio. — Iam igitur dico 
+          pri<lb break="no" ed="#P" n="60"/>mo: lex dans formam actui, licet non obliget
+          <lb ed="#P" n="61"/>ad exercitium actus, nihilominus ex se obligare
+          <lb ed="#P" n="62"/>potest in conscientia, vel ad servandam 
+          for<lb break="no" ed="#P" n="63"/>mam in tali actu, si fiat, vel (quod perinde est)
+          <lb ed="#P" n="64"/>ad non faciendum actum sine tali forma, et de
+          <lb ed="#P" n="65"/>facto ita obligat, quando vel materia legis id
+          <lb ed="#P" n="66"/>ex natura sua postulat, vel in lege satis 
+          expri<lb break="no" ed="#P" n="67"/>mitur, et non alias. Assertio est clara ex dictis.
+          <lb ed="#P" n="68"/>Primo enim jam ostensum est per tales leges
+          <lb ed="#P" n="69"/>nullum actum absolute praecipi, ut est per se
+          <lb ed="#P" n="70"/>notum ; nam lex dans formam matrimonio aut
+          <lb ed="#P" n="71"/>testamento non praecipit contrahere 
+          matrimo<lb break="no" ed="#P" n="72"/>nium, aut facere testamentum ; ergo talis lex
+          <lb ed="#P" n="73"/>non inducit obligationem ad faciendum 
+          ac<lb break="no" ed="#P" n="74"/>tum, quia haec non oritur nisi ex praecepto 
+          af<lb break="no" ed="#P" n="75"/>firmativo absoluto. Secunda vero pars etiam
+          <lb ed="#P" n="76"/>est per se clara de possibili, quia illa potestas
+          <lb ed="#P" n="77"/>non excedit limites justitiae, et pertinere potest
+          <lb ed="#P" n="78"/>ad convenientem reipublicae gubernationem,
+          <lb ed="#P" n="79"/>et ab usu ostendi potest multis exemplis supra
+          <lb ed="#P" n="80"/>adductis , quae statim necessario repetemus.
+          <lb ed="#P" n="81"/>Quia vero talis lex non semper inducit talem
+          <lb ed="#P" n="82"/>obligationem, ut inductio in principio facta
+          <lb ed="#P" n="83"/>convincit, ideo difficultas tota est quando haec
+          <lb ed="#P" n="84"/>lex ita obliget in conscientia, ut omissio formae
+          <lb ed="#P" n="85"/>in tali actu peccaminosa sit, vel, quod perinde
+          <lb ed="#P" n="86"/>est, ut contrahere, vel alium similem actum
+          <lb ed="#P" n="87"/>facere sine debita forma per legem humanam
+          <lb ed="#P" n="88"/>praescripta, peccatum sit, vel non sit.
+        </p>
+        <p xml:id="szdleg-b28032-d1e460">
+          <lb ed="#P" n="89"/>5. Duo signa ad dignoscendam obligationem
+          <lb ed="#P" n="90"/>istam. — Primum ex objecto. — Secundum
+          <lb ed="#P" n="91"/>ex prohibitione in lege, si additur irritatio. —
+          <lb ed="#P" n="92"/>Duo ergo signa praebuimus ad dignoscendam
+          <lb ed="#P" n="93"/>hanc obligationem. Unum est, quando actus
+          <lb ed="#P" n="94"/>ex vi sui objecti et naturae talis est, ut velle
+          <lb ed="#P" n="95"/>illum facere quando valide fieri non potest
+          <lb ed="#P" n="96"/>turpe sit et contra rectam rationem. Quod
+          <lb ed="#P" n="97"/>maxime videtur contingere in materia 
+          religio<lb break="no" ed="#P" n="98"/>nis, et in actibus sacris, et in materia justitiae:
+          <lb ed="#P" n="99"/>nam efhicere actionem sacram modo irrito et
+          <lb ed="#P" n="100"/>invalido sacrilegium est, quia est contra 
+          reve<lb break="no" ed="#P" n="101"/>rentiam debitam rei sacrae, ut facere 
+          sacramen<lb break="no" ed="#P" n="102"/>tum irritum, et sine debita forma et materia.
+          <lb ed="#P" n="103"/>Et hac ratione, etiamsi Concilium Tridentinum
+          <lb ed="#P" n="104"/>expresse non prohibuisset, sed tantum 
+          irritas<lb break="no" ed="#P" n="105"/>set matrimonium factum sine parocho et 
+          testi<lb break="no" ed="#P" n="106"/>bus, esset grave peccatum illud sic contrahere,
+          <lb ed="#P" n="107"/>quia esset contra reverentiam sacramenti.
+          <lb ed="#P" n="108"/>Idemque est de quolibet alio matrimonio 
+          con<lb break="no" ed="#P" n="109"/>tracto cum impedimento irritante, et de 
+          pro<lb break="no" ed="#P" n="110"/>fessione in religione facta, omissa forma, seu
+          <pb ed="#P" n="508"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>conditionibus ab Ecclesia requisitis ad 
+          valo<lb break="no" ed="#P" n="2"/>rem ejus. Idem videre licet in materia justitiae;
+          <lb ed="#P" n="3"/>nam electionem facere praetermissa substantiali
+          <lb ed="#P" n="4"/>forma grave peccatum est, quia necessario in
+          <lb ed="#P" n="5"/>volvit injustitiam, et ideo graviter punitur in
+          <lb ed="#P" n="6"/>Trid., sess. 25, c. 6 de Regul. Idem est quoties
+          <lb ed="#P" n="7"/>quis ex officio tenetur facere actum ; nam 
+          con<lb break="no" ed="#P" n="8"/>sequenter tenetur facere validum, et ideo, 
+          prae<lb break="no" ed="#P" n="9"/>termittendo debitam formam, contra justitiam
+          <lb ed="#P" n="10"/>faciet, ut si judex, proferendo sententiam, 
+          sub<lb break="no" ed="#P" n="11"/>stantiales circumstantias omittat, et sic de
+          <lb ed="#P" n="12"/>aliis.
+        </p>
+        <p xml:id="szdleg-b28032-d1e541">
+          <lb ed="#P" n="13"/>6. Videri autem potest haec obligatio in 
+          hu<lb break="no" ed="#P" n="14"/>jusmodi casibus non provenire proprie ac 
+          for<lb break="no" ed="#P" n="15"/>maliter ex lege positiva, sed esse dejure 
+          natu<lb break="no" ed="#P" n="16"/>rali, quamvis non resultet, nisi posita 
+          institu<lb break="no" ed="#P" n="17"/>tione talis formae quam invehit lex positiva,
+          <lb ed="#P" n="18"/>sicut profanatio calicis consecrati sacrilegium
+          <lb ed="#P" n="19"/>est contra legem naturalem, licet supponat
+          <lb ed="#P" n="20"/>consecrationem ex positiva institutione. Sed,
+          <lb ed="#P" n="21"/>licet verum sit tale peccatum esse contra legem
+          <lb ed="#P" n="22"/>naturalem, etiam est contra legem positivam;
+          <lb ed="#P" n="23"/>nam, eo ipso quod praefinit talem formam in
+          <lb ed="#P" n="24"/>tali materia, constituit in illa medium justitiae
+          <lb ed="#P" n="25"/>velreligionis, et ideo qui debitam formam 
+          prae<lb break="no" ed="#P" n="26"/>termittit, etiam legem humanam violat, quia
+          <lb ed="#P" n="27"/>lex illa, instituendo talem formam, ponit illam
+          <lb ed="#P" n="28"/>ut necessariam ad honestatem, et 
+          consequen<lb break="no" ed="#P" n="29"/>ter prohibet actum sine illa factum, sicut lex
+          <lb ed="#P" n="30"/>quae taxat pretium rei necessario prohibet 
+          ca<lb break="no" ed="#P" n="31"/>rius vendere, etiamsi verbis formaliter 
+          prohi<lb break="no" ed="#P" n="32"/>bentibus id non explicaret. Aliud signum erat,
+          <lb ed="#P" n="33"/>quando prohibitio actus aliter facti ponitur in
+          <lb ed="#P" n="34"/>lege et additur irritatio: nam tunc lex illa 
+          con<lb break="no" ed="#P" n="35"/>tinet praeceptum negativum, ratione cujus 
+          obli<lb break="no" ed="#P" n="36"/>gat ad vitandum, seu non intentandum talem
+          <lb ed="#P" n="37"/>actum. Quod interdum fit directe prohibendo,
+          <lb ed="#P" n="38"/>ut patet in Concilio Tridentino, sess. 25, c. 15,
+          <lb ed="#P" n="39"/>ubi prius prohibet fieri professionem ante 
+          ex<lb break="no" ed="#P" n="40"/>pletum tempus probationis vel aetatis, et deinde
+          <lb ed="#P" n="41"/>irritat illam. Unde interdum lex addit 
+          specia<lb break="no" ed="#P" n="42"/>lem poenam praeter irritationem propter actum
+          <lb ed="#P" n="43"/>sic factum ; nam poena est signum 
+          prohibitio<lb break="no" ed="#P" n="44"/>nis, ut in eodem Concil., cap. 6 ejusdem sess.
+          <lb ed="#P" n="45"/>videri potest.
+        </p>
+        <p xml:id="szdleg-b28032-d1e616">
+          <lb ed="#P" n="46"/>7. Quando vero neutrum ex his signis in
+          <lb ed="#P" n="47"/>lege invenitur, talis lex non obligat in 
+          con<lb break="no" ed="#P" n="48"/>scientia ad servandam formam praescriptam
+          <lb ed="#P" n="49"/>in actu, seu ad non faciendum actum sine tali
+          <lb ed="#P" n="50"/>forma, et in hoc sensu talis lex dici potest pure
+          <lb ed="#P" n="51"/>irritans. Hoc videtur sufficienter probari 
+          exem<lb break="no" ed="#P" n="52"/>plo de testamento solemni, in quo id expresse
+          <lb ed="#P" n="53"/>asseruit Matiens., in lib. 5 Recopil., titul. 4,
+          <lb ed="#P" n="54"/>lib. 1, Gloss. 10, n. 18, et refert Navar. in Man.,
+          <lb ed="#P" n="55"/>cap. 23, n. 56, qui loquitur de lege pure poe-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nali; tacite tamen videtur sumere 
+          argumen<lb break="no" ed="#P" n="57"/>tum a simili ; idem ergo est in similibus. Ratio
+          <lb ed="#P" n="58"/>autem est, quia efficere testamentum vel 
+          simi<lb break="no" ed="#P" n="59"/>lem actionem valide non est de jure naturae,
+          <lb ed="#P" n="60"/>nec etiam praecipitur per legem dantem 
+          for<lb break="no" ed="#P" n="61"/>mam substantialem actui; ergo non est 
+          pec<lb break="no" ed="#P" n="62"/>catum per se loquendo facere actum illum 
+          inva<lb break="no" ed="#P" n="63"/>lidum, quia quod non est contra praeceptum
+          <lb ed="#P" n="64"/>non est peccatum ; ergo nec facere illum sine
+          <lb ed="#P" n="65"/>solemnitate praescripta erit peccatum, quia si
+          <lb ed="#P" n="66"/>omittere solemnitatem esset peccatum, maxime
+          <lb ed="#P" n="67"/>id esset quia fieret actus invalide, et sine fructu
+          <lb ed="#P" n="68"/>vel effectu; quae enim alia deformitas ibi 
+          po<lb break="no" ed="#P" n="69"/>test cogitari? Prima vero pars antecedentis
+          <lb ed="#P" n="70"/>probatur, quia, sicut jus naturae non obligat
+          <lb ed="#P" n="71"/>ad illam actionem absolute exercendam (ut
+          <lb ed="#P" n="72"/>suppono), ita etiam non obligat ad effectum
+          <lb ed="#P" n="73"/>ejus, ut, verbi gratia, ad transferendum 
+          domi<lb break="no" ed="#P" n="74"/>nium mearum rerum in alium, vel quid 
+          si<lb break="no" ed="#P" n="75"/>mile ; ergo etiam non obligat jus natura ad
+          <lb ed="#P" n="76"/>efficiendam illam actionem valide, supposito
+          <lb ed="#P" n="77"/>quod fiat, seu non prohibet illam facere 
+          inva<lb break="no" ed="#P" n="78"/>lide, quia, ex hoc quod fiat invalide, tantum
+          <lb ed="#P" n="79"/>sequitur ut non habeat effectum, quod non est
+          <lb ed="#P" n="80"/>contra praeceptum.
+        </p>
+        <p xml:id="szdleg-b28032-d1e697">
+          <lb ed="#P" n="81"/>8. Diluitur objectio. — Dices: ex tali actu
+          <lb ed="#P" n="82"/>invalido sequi potest deceptio alterius, vel 
+          ini<lb break="no" ed="#P" n="83"/>micitia, vel simile inconveniens, vel saltem
+          <lb ed="#P" n="84"/>ille actus sic factus erit otiosus et impertinens.
+          <lb ed="#P" n="85"/>Respondeo imprimis, licet hoc totum 
+          conceda<lb break="no" ed="#P" n="86"/>tur, non sequi quod sit lege humana 
+          prohibi<lb break="no" ed="#P" n="87"/>tus. Deinde dico haec non per se sequi, sed esse
+          <lb ed="#P" n="88"/>accidentalia, quia potest interdum ratio aliqua
+          <lb ed="#P" n="89"/>vel finis honestus movere ad testamentum 
+          fa<lb break="no" ed="#P" n="90"/>ciendum, etiam sine solemnitate, ut, si aliter
+          <lb ed="#P" n="91"/>non possit constare de voluntate morientis,
+          <lb ed="#P" n="92"/>saltem illo modo constet, vel certe ut sic 
+          ex<lb break="no" ed="#P" n="93"/>terius satisfaciat testator importunis precibus
+          <lb ed="#P" n="94"/>alicujus extranei , volens ut alius ab intestato
+          <lb ed="#P" n="95"/>habeat haereditatem : tunc enim neque 
+          menti<lb break="no" ed="#P" n="96"/>tur, neque alicui facit injuriam, sed utitur
+          <lb ed="#P" n="97"/>jure suo, et fortasse redimit vexationem suam.
+          <lb ed="#P" n="98"/>Et ita ibi non intervenit deceptio, vel, si 
+          se<lb break="no" ed="#P" n="99"/>quatur, erit passiva (ut sic dicam), non activa;
+          <lb ed="#P" n="100"/>et idem est de inimicitia et aliis incommodis.
+          <lb ed="#P" n="101"/>Altera denique pars antecedentis ex dictis
+          <lb ed="#P" n="102"/>plane sequitur, quia nec ex forma, seu verbis
+          <lb ed="#P" n="103"/>legis positivae, nec ex materia ejus colligitur
+          <lb ed="#P" n="104"/>tale praeceptum humanum, ut suppono ; ergo
+          <lb ed="#P" n="105"/>non est, nec cum fundamento potest affirmari.
+        </p>
+        <p xml:id="szdleg-b28032-d1e754">
+          <lb ed="#P" n="106"/>9. Leges negative directe prohibentes et 
+          irri<lb break="no" ed="#P" n="107"/>tantes actum obligant in conscientia ad talem
+          <lb ed="#P" n="108"/>actum vitandum. — Dico secundo : leges 
+          nega<lb break="no" ed="#P" n="109"/>tivae quae directe prohibent actum , et ad 
+          ma<lb break="no" ed="#P" n="110"/>jorem firmitatem seu exaggerationem prohi-
+          <pb ed="#P" n="509"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bitionis irritant illum, obligant in conscientia
+          <lb ed="#P" n="2"/>ad talem actum vitandum. Conclusio est clara,
+          <lb ed="#P" n="3"/>de qua videri potest Navar. supra, et probatur,
+          <lb ed="#P" n="4"/>quia talis lex est justa in tali prohibitione
+          <lb ed="#P" n="5"/>praecise spectata, et continet praeceptum 
+          ne<lb break="no" ed="#P" n="6"/>gativum ; ergo obligat in conscientia ad 
+          vitan<lb break="no" ed="#P" n="7"/>dum talem actum. Patet consequentia, quia
+          <lb ed="#P" n="8"/>hic est intrinsecus effectus legis justae, sive
+          <lb ed="#P" n="9"/>prohibentis, sive praecipientis : hic autem 
+          effec<lb break="no" ed="#P" n="10"/>tus non impeditur propterea quod lex addat 
+          ir<lb break="no" ed="#P" n="11"/>ritationem prohibitioni, sicut supra dicebamus
+          <lb ed="#P" n="12"/>additionem poenae non auferre obligationem in
+          <lb ed="#P" n="13"/>conscientia legis poenalis ; est enim cum 
+          pro<lb break="no" ed="#P" n="14"/>portione eadem ratio. Quin potius in praesenti
+          <lb ed="#P" n="15"/>auget obligationem, tum quia ex suo genere
+          <lb ed="#P" n="16"/>gravius est, magisque a recta ratione 
+          exorbi<lb break="no" ed="#P" n="17"/>tat, facere actum prohibitum et irritum, quam
+          <lb ed="#P" n="18"/>tantum prohibitum ; tum etiam quia ille 
+          mo<lb break="no" ed="#P" n="19"/>dus prohibendi indicat majorem gravitatem
+          <lb ed="#P" n="20"/>prohibitionis, tum ex parte necessitatis vitandi
+          <lb ed="#P" n="21"/>talem actum, tum ex parte intentionis 
+          legisla<lb break="no" ed="#P" n="22"/>toris, satis enim significat se velle obligare
+          <lb ed="#P" n="23"/>quantum possit,
+        </p>
+        <p xml:id="szdleg-b28032-d1e822">
+          <lb ed="#P" n="24"/>10. Statim vero occurrit inquirendum 
+          quo<lb break="no" ed="#P" n="25"/>modo cognosci possit quando lex hoc modo
+          <lb ed="#P" n="26"/>obliget, seu (quod idem est) quando contineat
+          <lb ed="#P" n="27"/>prohibitionem ante irritationem. Respondeo
+          <lb ed="#P" n="28"/>utendum esse principiis ac regulis supra datis.
+          <lb ed="#P" n="29"/>Nam primo consideranda sunt verba: si enim
+          <lb ed="#P" n="30"/>praeceptiva sunt, seu prohibitiva absolute, tunc
+          <lb ed="#P" n="31"/>sufficiunt ad hanc obligationem inducendam,
+          <lb ed="#P" n="32"/>ut ex dictis constat, et est exemplum in cap.
+          <lb ed="#P" n="33"/>Decet , 89 dist. Praeter verba vero etiam ex
+          <lb ed="#P" n="34"/>materia poterit obligatio colligi, ut si lex 
+          irri<lb break="no" ed="#P" n="35"/>tet matrimonium cum adultera machinatrice,
+          <lb ed="#P" n="36"/>etiam prohibet illud, et sic de aliis. Praeterea,
+          <lb ed="#P" n="37"/>quoties irritatio imponitur in poonam ejusdem
+          <lb ed="#P" n="38"/>actus, signum est maxime prohiberi ipsum
+          <lb ed="#P" n="39"/>actum : nam talis lex non solet esse pure 
+          poe<lb break="no" ed="#P" n="40"/>nalis, non enim recte aecommodatur huic 
+          ma<lb break="no" ed="#P" n="41"/>teriae seu poenae, et ideo admittenda non est,
+          <lb ed="#P" n="42"/>nisi aliud evidenter constet, quod erit 
+          rarissi<lb break="no" ed="#P" n="43"/>mum. Et ideo moralis regula est talem legem
+          <lb ed="#P" n="44"/>continere prohibitionem actus in conscientia,
+          <lb ed="#P" n="45"/>vel saltem supponere illam, aut ex lege 
+          natu<lb break="no" ed="#P" n="46"/>rali, aut ex alia lege positiva; sic lex irritans
+          <lb ed="#P" n="47"/>collationem beneficii per confidentiam, in 
+          con<lb break="no" ed="#P" n="48"/>scientia prohibet illam, et lex irritans 
+          electio<lb break="no" ed="#P" n="49"/>nem religiosi ad episcopatum acceptatum sine
+          <lb ed="#P" n="50"/>licentia sui Praelati, prohibet talem 
+          acceptio<lb break="no" ed="#P" n="51"/>nem ; sic etiam turpia legata, dum irritantur
+          <lb ed="#P" n="52"/>in odium scribentis, prohibentur, vel saltem
+          <lb ed="#P" n="53"/>prohibita esse supponuntur in l. Turpia, ft.
+          <lb ed="#P" n="54"/>de Legat., 1, et per haec facile erit de similibus
+          <lb ed="#P" n="55"/>Judicare. In legibus autem irritantibus actus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in favorem alicujus, vel communitatis, vel
+          <lb ed="#P" n="57"/>privatae personae, non est haec regula ita 
+          uni<lb break="no" ed="#P" n="58"/>versalis; nam interdum prohibent simpliciter
+          <lb ed="#P" n="59"/>actum, et tunc obligant in conscientia ad 
+          il<lb break="no" ed="#P" n="60"/>lum vitandum juxta conclusicnem positam, et
+          <lb ed="#P" n="61"/>rationem illius; secus vero dicendum erit
+          <lb ed="#P" n="62"/>quando non ita prohibent praecipiendo, sed
+          <lb ed="#P" n="63"/>tantum irritant juxta dicenda in sequenti 
+          as<lb break="no" ed="#P" n="64"/>sertione.
+        </p>
+        <p xml:id="szdleg-b28032-d1e916">
+          <lb ed="#P" n="65"/>11. Dico tertio: quamvis lex simphiciter et
+          <lb ed="#P" n="66"/>absolute irritet actum, si fiat, non necessario
+          <lb ed="#P" n="67"/>obligat in conscientia ad non faciendum illum
+          <lb ed="#P" n="68"/>de facto, seu materialiter, ut sic dicam, sed
+          <lb ed="#P" n="69"/>interdum est lex pure irritans, et non 
+          prohi<lb break="no" ed="#P" n="70"/>bens actum. Haec assertio in generali probari
+          <lb ed="#P" n="71"/>potest, quia hoc non repugnat, et interdum
+          <lb ed="#P" n="72"/>sufficit ad intentionem legislatoris. Item 
+          sua<lb break="no" ed="#P" n="73"/>deri potest exemplo legis pure poenalis cum
+          <lb ed="#P" n="74"/>proportione applicato. Denique convincitur
+          <lb ed="#P" n="75"/>aliquibus exemplis, ut legis irritantis 
+          vendi<lb break="no" ed="#P" n="76"/>tionem fundi dotalis factam ab uxore, etiam
+          <lb ed="#P" n="77"/>cum licentia mariti, cum tamen illam non
+          <lb ed="#P" n="78"/>prohibeat in conscientia: vel irritantis 
+          renun<lb break="no" ed="#P" n="79"/>tiationem haereditatis paternae quam facit filia,
+          <lb ed="#P" n="80"/>cum nuptui traditur, dote contenta, et tamen
+          <lb ed="#P" n="81"/>licet illam faciat, non peccat, quia cedere 
+          po<lb break="no" ed="#P" n="82"/>test juri suo. Quae videtur esse ratio a priori,
+          <lb ed="#P" n="83"/>ob quam in talibus legibus fit irritatio actus
+          <lb ed="#P" n="84"/>sine prohibitione illius, quia hujusmodi leges
+          <lb ed="#P" n="85"/>beneficium intendunt conferre illi cujus 
+          ac<lb break="no" ed="#P" n="86"/>tum irritant, et ideo nolunt aliam coactionem,
+          <lb ed="#P" n="87"/>vel obligationem in conscientia illi imponere.
+        </p>
+        <p xml:id="szdleg-b28032-d1e968">
+          <lb ed="#P" n="88"/>12. Quomodo discernatur lev pure irritans
+          <lb ed="#P" n="89"/>ab ea qua in conscientia prohibet actus. — Hic
+          <lb ed="#P" n="90"/>vero statim se offert inquirendum quomodo
+          <lb ed="#P" n="91"/>possint discerni hae leges pure irritantes ab
+          <lb ed="#P" n="92"/>aliis quae in conscientia prohibent actus. Sed
+          <lb ed="#P" n="93"/>de hoc puncto disputavi late in materia de 
+          Ju<lb break="no" ed="#P" n="94"/>ram., lib. 2, cap. 20 et seq., ubi varias retuli
+          <lb ed="#P" n="95"/>distinctiones et opiniones doctorum, easque
+          <lb ed="#P" n="96"/>examinavi, et in summa dixi primum omnium
+          <lb ed="#P" n="97"/>respiciendum esse ad verba legis, an dirigantur
+          <lb ed="#P" n="98"/>ad personam praecipiendo vel prohibendo ; an
+          <lb ed="#P" n="99"/>immediate versentur circa actionem seu 
+          con<lb break="no" ed="#P" n="100"/>tractum, illum qualificando seu infirmando;
+          <lb ed="#P" n="101"/>nam priores ex vi suae formae praecipiunt, et
+          <lb ed="#P" n="102"/>consequenter obligant; posteriores vero non
+          <lb ed="#P" n="103"/>prohibent actum ex vi talium verborum, licet
+          <lb ed="#P" n="104"/>irritent illum in favorem alicujus, nisi aliunde
+          <lb ed="#P" n="105"/>ex matcria, fine, vel circumstantiis, contrarium
+          <lb ed="#P" n="106"/>colligi possit. Et ideo ulterius considerandam
+          <lb ed="#P" n="107"/>esse dixi materiam legis, et an ordinetur ad
+          <lb ed="#P" n="108"/>bonum publicum vel privatum, et an ad 
+          ta<lb break="no" ed="#P" n="109"/>lem finem non solum irritatio, sed etiam 
+          pro<lb break="no" ed="#P" n="110"/>hibitio expediat. Atque ita ex omnibus rite
+          <pb ed="#P" n="510"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>pensatis colligi poterit an lex sit pure irritans,
+          <lb ed="#P" n="2"/>vel etiam prohibens.
+        </p>
+        <p xml:id="szdleg-b28032-d1e1030">
+          <lb ed="#P" n="3"/>13. Lex non irritans actum ipso facto, sed
+          <lb ed="#P" n="4"/>praecipiens, non obligat, nisi forte judicem. —
+          <lb ed="#P" n="5"/>Dico quarto : quando lex non irritat actum
+          <lb ed="#P" n="6"/>ipso facto, sed praecipit irritationem ejus, tunc
+          <lb ed="#P" n="7"/>ad irritationem non obligat, nisi fortasse 
+          ju<lb break="no" ed="#P" n="8"/>dicem. Explicuimus obligationem harum 
+          le<lb break="no" ed="#P" n="9"/>gum quoad vitandum actum ; superest 
+          expli<lb break="no" ed="#P" n="10"/>canda obligatio quae specialiter ex irritatione
+          <lb ed="#P" n="11"/>oriri potest; et quoniam lex irritans potest
+          <lb ed="#P" n="12"/>esse duplex, scilicet, vel praecipiens 
+          irritatio<lb break="no" ed="#P" n="13"/>nem, vel faciens, ideo de priori hanc ponimus
+          <lb ed="#P" n="14"/>assertionem, de posteriori vero dicemus in 
+          se<lb break="no" ed="#P" n="15"/>quenti. Conclusio ergo est clara, quia irritatio
+          <lb ed="#P" n="16"/>actus est effectus publicae potestatis; ergo si
+          <lb ed="#P" n="17"/>non fit per legem, debet fieri per judicem ; 
+          er<lb break="no" ed="#P" n="18"/>go, antequam fiat, non potest obligationem
+          <lb ed="#P" n="19"/>inducere, quia non est. Item talis lex vel est
+          <lb ed="#P" n="20"/>praeceptiva, vel punitiva, in tali irritatione 
+          im<lb break="no" ed="#P" n="21"/>ponenda : si ergo consideretur ut punitiva,
+          <lb ed="#P" n="22"/>non obligat ante sententiam, quia non ponit
+          <lb ed="#P" n="23"/>poenam ipso facto, quia solum jubet actum 
+          ir<lb break="no" ed="#P" n="24"/>ritari ; unde non obligat partes seu privatas
+          <lb ed="#P" n="25"/>personas ad efticiendam irritationem, seu ad
+          <lb ed="#P" n="26"/>dissolvendum contractum, vel quid simile,
+          <lb ed="#P" n="27"/>ante sententiam condemnatoriam judicis, quia
+          <lb ed="#P" n="28"/>solum ad patiendum obligat, juxta supra dicta
+          <lb ed="#P" n="29"/>de lege poenali. Si autem talis lex spectetur ut
+          <lb ed="#P" n="30"/>praeceptiva, judici praecipit per se loquendo;
+          <lb ed="#P" n="31"/>ergo alios non obligat. Et hinc relinquitur
+          <lb ed="#P" n="32"/>probata ultima pars, scilicet, quod obliget 
+          ju<lb break="no" ed="#P" n="33"/>dicem, quia ad illum loquitur qui tenetur 
+          se<lb break="no" ed="#P" n="34"/>cundum leges judicare, sicut supra dictum est
+          <lb ed="#P" n="35"/>de lege poenali, et juxta ibi dicta haec assertio
+          <lb ed="#P" n="36"/>cum proportione explicanda est, neque alia
+          <lb ed="#P" n="37"/>difficultas circa illam occurrit.
+        </p>
+        <p xml:id="szdleg-b28032-d1e1108">
+          <lb ed="#P" n="38"/>14. Ha lege irritante, si suum habeat 
+          effec<lb break="no" ed="#P" n="39"/>tum, sequitur obligatio ad omnia quae intrinsece
+          <lb ed="#P" n="40"/>ex irritatione nascuntur , secus si effectus 
+          in<lb break="no" ed="#P" n="41"/>pediantur.—bico quinto: ex lege irritante ipso
+          <lb ed="#P" n="42"/>facto, si suum consequatur effectum, sequitur
+          <lb ed="#P" n="43"/>obligatio in conscientia ad omnia quae 
+          intrin<lb break="no" ed="#P" n="44"/>sece ex irritatione nascuntur : secus vero erit
+          <lb ed="#P" n="45"/>si effectus impediatur. Supponit haec assertio
+          <lb ed="#P" n="46"/>hanc legem non obligare ad irritationem 
+          ip<lb break="no" ed="#P" n="47"/>sam faciendam, quia illam non facit homo,
+          <lb ed="#P" n="48"/>sed ipsa lex, et ita quoad hoc non obligat lex,
+          <lb ed="#P" n="49"/>sed operatur. Solum ergo potest obligare ad
+          <lb ed="#P" n="50"/>sustinendam, seu executioni mandandam 
+          irri<lb break="no" ed="#P" n="51"/>tationem a lege factam. Et hoc est quod per
+          <lb ed="#P" n="52"/>hanc conclusionem intenditur, quae duas 
+          con<lb break="no" ed="#P" n="53"/>tinet partes, et utraque est satis clara, et 
+          uni<lb break="no" ed="#P" n="54"/>versalis ad omnes leges irritantes , sive in
+          <lb ed="#P" n="55"/>odium, sive in favorem, sive in publicum, sive
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in privatum fiant. Prior ergo pars probatur,
+          <lb ed="#P" n="57"/>quia si lex illa consequitur effectum suum,
+          <lb ed="#P" n="58"/>actus est nullus; ergo nullum confert jus;
+          <lb ed="#P" n="59"/>ergo si actus ille sit acceptio, vel acquisitio
+          <lb ed="#P" n="60"/>alicujus rei, ex tali lege sequitur obligatio non
+          <lb ed="#P" n="61"/>utendi, nec fruendi illa re tanquam propria,
+          <lb ed="#P" n="62"/>nec contrectandi eam illo modo quo rem 
+          alie<lb break="no" ed="#P" n="63"/>nam contrectare non licet. Ut si talis actus sit
+          <lb ed="#P" n="64"/>matrimonium, non licet ad conjugem 
+          accede<lb break="no" ed="#P" n="65"/>re, neque alia jura conjugis aut mariti 
+          usur<lb break="no" ed="#P" n="66"/>pare. Si sit professio religiosa, non licet actus
+          <lb ed="#P" n="67"/>proprios religiosorum efficere, et sic de aliis
+          <lb ed="#P" n="68"/>quae fundari poterant in actus validitate ; nam
+          <lb ed="#P" n="69"/>sublato fundamento ruunt omnia quae ex illo
+          <lb ed="#P" n="70"/>oriri aut in illo fundari poterant. Et potest
+          <lb ed="#P" n="71"/>hoc confirmari ex verbis Concilii Lateran. sub
+          <lb ed="#P" n="72"/>Leone X, sess. 9, ubi beneficiatis non 
+          recitan<lb break="no" ed="#P" n="73"/>tibus imponitur poena irritans acquisitionem
+          <lb ed="#P" n="74"/>fructuum beneficii, his vcrbis: Beneficiorum
+          <lb ed="#P" n="75"/>suorum fructus pro rata omissionis suos non
+          <lb ed="#P" n="76"/>faciant : unde subjungit : Sed eos tanguum 
+          in<lb break="no" ed="#P" n="77"/>Juste perceptos erogare teneuntur, etc. Ergo 
+          pro<lb break="no" ed="#P" n="78"/>portionalis obligatio sequitur ex omni lege 
+          ir<lb break="no" ed="#P" n="79"/>ritante et consequente effectum , quocumque
+          <lb ed="#P" n="80"/>titulo vel ratione irritatio fiat, quia obligatio
+          <lb ed="#P" n="81"/>non sequitur ex titulo irritationis, sed ex 
+          ef<lb break="no" ed="#P" n="82"/>fectu ipso, et effectus idem est, quocumque
+          <lb ed="#P" n="83"/>titulo fiat.
+        </p>
+        <p xml:id="szdleg-b28032-d1e1212">
+          <lb ed="#P" n="84"/>15. Diluitur objectio.— Dices ex illis verbis
+          <lb ed="#P" n="85"/>probari quidem obligationem naturalem ex vi
+          <lb ed="#P" n="86"/>justitia, non tamen probari aliquam 
+          obliga<lb break="no" ed="#P" n="87"/>tionem ipsius legis irritantis. Respondeo 
+          im<lb break="no" ed="#P" n="88"/>primis ideo in assertione non esse dictum, 
+          le<lb break="no" ed="#P" n="89"/>gem positivam obligare ad hoc, sed ex illa
+          <lb ed="#P" n="90"/>cum effectu ejus sequi talem obligationem,
+          <lb ed="#P" n="91"/>quod erit verum, sive haec obligatio quae 
+          sequi<lb break="no" ed="#P" n="92"/>tur naturalis sit, supposito effectu positivae 
+          le<lb break="no" ed="#P" n="93"/>gis, sive sit etiam specialiter inducta per 
+          ip<lb break="no" ed="#P" n="94"/>sam legem. Addo vero probabilissimum esse
+          <lb ed="#P" n="95"/>etiam ipsam legem, irritantem actum, obligare
+          <lb ed="#P" n="96"/>ad non utendum illo actu ut valido, ac subinde
+          <lb ed="#P" n="97"/>per contrarium usum non solum peccari 
+          con<lb break="no" ed="#P" n="98"/>tra legem naturalem, sed etiam contra ipsam
+          <lb ed="#P" n="99"/>legem irritantem, quia intentio irritantis 
+          prin<lb break="no" ed="#P" n="100"/>cipalis est, ne talis actus utilitatem habeat,
+          <lb ed="#P" n="101"/>seu moralem usum, et ideo irritando prohibet
+          <lb ed="#P" n="102"/>usum illius actus ut validi. Et ideo etiam solet
+          <lb ed="#P" n="103"/>talis usus speciali poena puniri: non solum
+          <lb ed="#P" n="104"/>attenta malitia contra legem naturalem, sed
+          <lb ed="#P" n="105"/>etiam spectata inobedientia contra legem 
+          posi<lb break="no" ed="#P" n="106"/>tivam irritantem, propter quam solent 
+          censu<lb break="no" ed="#P" n="107"/>rae imponi per ecclesiasticas leges , cum ad
+          <lb ed="#P" n="108"/>talem poenam requiratur inobedientia , et
+          <lb ed="#P" n="109"/>contumacia contra ecclesiastica praecepta.
+        </p>
+        <p xml:id="szdleg-b28032-d1e1271">
+          <lb ed="#P" n="110"/>16. Posterior vero pars assertionis ex tenore
+          <pb ed="#P" n="511"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>prioris constat: nam illa prior sub conditione
+          <lb ed="#P" n="2"/>tantum posita est, scilicet, si effectus legis 
+          ir<lb break="no" ed="#P" n="3"/>ritantis sequatur ; ergo, cessante conditione,
+          <lb ed="#P" n="4"/>non procedet illa prior pars assertionis, nec
+          <lb ed="#P" n="5"/>habebit locum legis obligatio. Et patet ratione,
+          <lb ed="#P" n="6"/>quia cessante causa adaequata cessat effectus:
+          <lb ed="#P" n="7"/>sed adaequata causa hujus ogligationis est 
+          nul<lb break="no" ed="#P" n="8"/>litas actus facta per legem, seu lex irritans
+          <lb ed="#P" n="9"/>eflicaciter, et cum effectu, ut discursus facti
+          <lb ed="#P" n="10"/>satis ostendunt ; ergo cessante illo effectu 
+          ces<lb break="no" ed="#P" n="11"/>sat causa obligationis, et consequenter etiam
+          <lb ed="#P" n="12"/>obiigatio ipsa. Posita autem est illa conditio, et
+          <lb ed="#P" n="13"/>haec posterior pars, quia interdum potest 
+          im<lb break="no" ed="#P" n="14"/>pediri hic effectus. Quibus autem modis 
+          impe<lb break="no" ed="#P" n="15"/>diri possit in capite sequenti dicam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

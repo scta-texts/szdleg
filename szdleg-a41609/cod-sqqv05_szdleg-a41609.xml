@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 18</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 18</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="163"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a41609"><!-- deleg-l2c18 -->
+        <head xml:id="szdleg-a41609-Hd1e101">Caput 18</head>
+        <head xml:id="szdleg-a41609-Hd1e103" type="question-title">An ius gentium aliquid praecipiat, vel prohibeat, aut potius solum concedat, vel permittat</head>
+        <p xml:id="szdleg-a41609-d1e106">
+          <lb ed="#P" n="35"/>CAPUT XVIII.
+          <lb ed="#P" n="36"/>AN JUS GENTIUM ALIQUID PRAECIPIAT, VEL 
+          PRO<lb break="no" ed="#P" n="37"/>HIBEAT, AUT POTIUS SOLUM CONCEDAT, VEL
+          <lb ed="#P" n="38"/>PERMITTAT.
+        </p>
+        <p xml:id="szdleg-a41609-d1e117">
+          <lb ed="#P" n="39"/>1. Opinio aliquorum asserens jus gentium
+          <lb ed="#P" n="40"/>non esse praeceptivum, sed permissivum tantum
+          <lb ed="#P" n="41"/>et concessivum aliquod agendi, vel e contra. —
+          <lb ed="#P" n="42"/>Propter ea quae superiori capite tractata sunt
+          <lb ed="#P" n="43"/>Conan., lib. 1 Comment. Jur. civil., cap. 6,
+          <lb ed="#P" n="44"/>n. 5, quem refert et sequitur Vasquez, 
+          dis<lb break="no" ed="#P" n="45"/>put. 157, capite 3, existimavit jus gentium,
+          <lb ed="#P" n="46"/>prout a naturali distinguitur, non continere
+          <lb ed="#P" n="47"/>sub se praecepta aut promissiones, sed solum
+          <lb ed="#P" n="48"/>concessiones quasdam, seu facultates, aut 
+          per<lb break="no" ed="#P" n="49"/>missiones aliquid agendi vel non agendi non
+          <lb ed="#P" n="50"/>tantum impune, sed etiam juste et honeste:
+          <lb ed="#P" n="51"/>ita tamen ut contrarium non sit turpe vel 
+          in<lb break="no" ed="#P" n="52"/>justum. Adduntque ulterius auctores hujus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>sententiae ad jus gentium necessarium csse ut
+          <lb ed="#P" n="54"/>conveniat humanae naturae non absolute 
+          spec<lb break="no" ed="#P" n="55"/>tatae, sed ut jam constitutae in civili 
+          commu<lb break="no" ed="#P" n="56"/>nitate, quia multa sunt utilia hominibus, ut
+          <lb ed="#P" n="57"/>in communitate viventibus, quae absolute non
+          <lb ed="#P" n="58"/>pertinent ad commodum naturse secundum se.
+          <lb ed="#P" n="59"/>Illa ergo quae conceduntur hominibus in 
+          com<lb break="no" ed="#P" n="60"/>munitate viventibus, propter communem 
+          uti<lb break="no" ed="#P" n="61"/>litatem, tanquam honesta, et non tanquam
+          <lb ed="#P" n="62"/>necessaria ad honestatem nec tanquam 
+          prae<lb break="no" ed="#P" n="63"/>cepta, dicunt esse de jure gentium. Nam si
+          <lb ed="#P" n="64"/>praecipiantur, erunt vel de jure naturali, si ex
+          <lb ed="#P" n="65"/>vi rationis praecipiantur, vel de jure civili, si
+          <lb ed="#P" n="66"/>praecipiantur ex humana voluntate potestatem
+          <lb ed="#P" n="67"/>habente, ut probant discursus facti capite 
+          su<lb break="no" ed="#P" n="68"/>periori; ergo ut jus gentium possit esse 
+          dis<lb break="no" ed="#P" n="69"/>ünctum, oportet ut sit concessivum, non 
+          prae<lb break="no" ed="#P" n="70"/>ceptivum. Confirmatur haec sententia 
+          aucto<lb break="no" ed="#P" n="71"/>ritate saltem negativa D. Isidori et D. Thomae.
+          <lb ed="#P" n="72"/>Nam Isidorus 5 Etymolog., cap. 4 et 6, 
+          di<lb break="no" ed="#P" n="73"/>cit jus naturale esse illud quod est commune
+          <lb ed="#P" n="74"/>omnibus rationibus : jus autem gentium non
+          <lb ed="#P" n="75"/>definit , sed explicat tantum per quaedam
+          <lb ed="#P" n="76"/>exempla quae concessionem tantum continent,
+          <lb ed="#P" n="77"/>non praecepta, ut postea videbimus, D. etiam
+          <lb ed="#P" n="78"/>Thomas solum dixit jus gentium positum esse
+          <lb ed="#P" n="79"/>ab hominibus in societate viventibus ad 
+          ma<lb break="no" ed="#P" n="80"/>jorem utilitatem, quae ex rationis discursu 
+          col<lb break="no" ed="#P" n="81"/>ligitur : non vero dixit esse positum per 
+          mo<lb break="no" ed="#P" n="82"/>dum praecepti.
+        </p>
+        <p xml:id="szdleg-a41609-d1e217">
+          <lb ed="#P" n="83"/>9. Excluditur opinatio. — Hanc vero 
+          sen<lb break="no" ed="#P" n="84"/>tentiam, ut verum fatear, non satis intelligo.
+          <lb ed="#P" n="85"/>Nam inquiro an loquatur de jure ut solum
+          <lb ed="#P" n="86"/>consistit in morali facultate utendi et non 
+          uten<lb break="no" ed="#P" n="87"/>di, vel de jure ut significat legem, seu 
+          regu<lb break="no" ed="#P" n="88"/>lam rationis : sive proprie praecipientem, sive
+          <lb ed="#P" n="89"/>approbantem aliquid ut honestum. Prior 
+          sen<lb break="no" ed="#P" n="90"/>sus non est ad rem, ut ex dictis constat, nisi
+          <lb ed="#P" n="91"/>fortasse velint auctores illius sententiae negare
+          <lb ed="#P" n="92"/>dari aliquod jus gentium, quod sit vera lex,
+          <lb ed="#P" n="93"/>quod non declarant. Nec possunt rationem
+          <lb ed="#P" n="94"/>reddere cur admittant hoc membrum juris
+          <lb ed="#P" n="95"/>gentium in jure, quod sit facultas utendi, et
+          <lb ed="#P" n="96"/>non in lege, et ex dicendis constabit esse
+          <lb ed="#P" n="97"/>eamdem utriusque rationem. Si vero 
+          loquan<lb break="no" ed="#P" n="98"/>tur de jure, quod est vera lex, aut regula
+          <lb ed="#P" n="99"/>honestatis, facile etiam potest illa doctrina
+          <lb ed="#P" n="100"/>refutari.
+        </p>
+        <p xml:id="szdleg-a41609-d1e260">
+          <lb ed="#P" n="101"/>3. Nam ostendo imprimis nullam esse 
+          ma<lb break="no" ed="#P" n="102"/>jorem rationem distinguendi jus gentium 
+          con<lb break="no" ed="#P" n="103"/>cessivum a jure naturali, quam jus 
+          praecepti<lb break="no" ed="#P" n="104"/>vum. Quia in jure naturali multa sunt quae
+          <lb ed="#P" n="105"/>honeste fieri possunt ex vi legis naturalis, quae
+          <lb ed="#P" n="106"/>non praecipiuntur, nec contraria prohibentur,
+          <lb ed="#P" n="107"/>et ita etiam dari potest jus naturale concessi-
+          <pb ed="#P" n="164"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vum, quale est jus ducendi uxorem, jus 
+          reti<lb break="no" ed="#P" n="2"/>nendi et conservandi propriam libertatem:
+          <lb ed="#P" n="3"/>hoc enim honestum est, et illud jus naturae
+          <lb ed="#P" n="4"/>concedit, non praecipit. Et in hoc sensu solet
+          <lb ed="#P" n="5"/>distingui duplex jus naturae, aliud positivum,
+          <lb ed="#P" n="6"/>idest, praecipiens; aliud negativum, id est, non
+          <lb ed="#P" n="7"/>prohibens, ut videre licet in Covarro, regula
+          <lb ed="#P" n="8"/>Peccatum, 2 part., S 11, n. 3, et supra 
+          trac<lb break="no" ed="#P" n="9"/>tando de immutabilitate legis naturalis, illam
+          <lb ed="#P" n="10"/>distinctionem explicavimus: et ratio est quia
+          <lb ed="#P" n="11"/>ratio naturalis non solum dictat quid 
+          necessa<lb break="no" ed="#P" n="12"/>rium sit, sed etiam quid liceat. Quando ergo
+          <lb ed="#P" n="13"/>dicitur jus gentium dare facultatem honeste
+          <lb ed="#P" n="14"/>operandi aliquid, interrogo an illa facultas, ut
+          <lb ed="#P" n="15"/>est justa et honesta, habeatur ex ipsa ratione
+          <lb ed="#P" n="16"/>naturali praecise spectata, vel ex aliqua 
+          homi<lb break="no" ed="#P" n="17"/>num consensione. Si primum dicatur, jam 
+          il<lb break="no" ed="#P" n="18"/>lud jus erit naturale, licet sit tantum 
+          conces<lb break="no" ed="#P" n="19"/>sivum. Si vero dicatur secundum, vel 
+          proce<lb break="no" ed="#P" n="20"/>dunt rationes factae, quod illud non sit jus
+          <lb ed="#P" n="21"/>centium distinctum a civili, vel si eo non 
+          ob<lb break="no" ed="#P" n="22"/>stante potest esse tale jus concessivum 
+          distinc<lb break="no" ed="#P" n="23"/>tum a civili, et quasi medium inter naturale
+          <lb ed="#P" n="24"/>et civile, eadem ratione poterit dari simile jus
+          <lb ed="#P" n="25"/>praeceptivum.
+        </p>
+        <p xml:id="szdleg-a41609-d1e336">
+          <lb ed="#P" n="26"/>4. Responderi potest illud jus haberi ex vi
+          <lb ed="#P" n="27"/>solius rationis naturalis; tamen non 
+          conve<lb break="no" ed="#P" n="28"/>nire hominibus absolute spectatis, sed ut 
+          con<lb break="no" ed="#P" n="29"/>gregatis in aliqua societate humana, et ideo
+          <lb ed="#P" n="30"/>distingui a primario jure naturali tanquam
+          <lb ed="#P" n="31"/>secundarium, vocarique jus gentium. Exemplis
+          <lb ed="#P" n="32"/>usitatis in hac materia declaratur : nam 
+          bel<lb break="no" ed="#P" n="33"/>Ium, verbi gratia, dicitur esse de jure 
+          gen<lb break="no" ed="#P" n="34"/>tium, non quia praecipiatur etiam supposito
+          <lb ed="#P" n="35"/>justo titulo, sed quia conceditur tanquam 
+          ho<lb break="no" ed="#P" n="36"/>nestum: hoc autem genus juris supponit 
+          com<lb break="no" ed="#P" n="37"/>munitatem humanam, ut constat. Item divisio
+          <lb ed="#P" n="38"/>agrorum, seu terrarum, ac sedium, et 
+          termi<lb break="no" ed="#P" n="39"/>norum in communi dicitur esse de jure 
+          gen<lb break="no" ed="#P" n="40"/>tium, quae manifeste supponit institutionem
+          <lb ed="#P" n="41"/>humanarum societatum, et illa supposita ex
+          <lb ed="#P" n="42"/>vi solius rationis naturalis omnia illa licent,
+          <lb ed="#P" n="43"/>licet simpliciter necessaria non sint. Sed 
+          con<lb break="no" ed="#P" n="44"/>tra hoc est primo, quia ipsamet gentium 
+          dis<lb break="no" ed="#P" n="45"/>cretio et regnorum divisio est de jure 
+          gen<lb break="no" ed="#P" n="46"/>tium, ut dicitur in l. Ex hoc jure, ff. de
+          <lb ed="#P" n="47"/>Justitia et jure, et tamen ante illam 
+          divisio<lb break="no" ed="#P" n="48"/>nem non supponitur aliquid praeter statum 
+          na<lb break="no" ed="#P" n="49"/>turalem hominum : ergo non semper jus 
+          gen<lb break="no" ed="#P" n="50"/>tium oritur ex illa suppositione, sed solum ex
+          <lb ed="#P" n="51"/>pura conditione naturali, qua homo est animal
+          <lb ed="#P" n="52"/>sociale, adjuncto naturali etiam principio, quod
+          <lb ed="#P" n="53"/>divisio civitatum est magis accommodata ad
+          <lb ed="#P" n="54"/>hominum conservationem. Secundo 
+          argumen<lb break="no" ed="#P" n="55"/>tor, quia quod in hujusmodi rebus aut juribus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>supponantur societates hominum, non tollit
+          <lb ed="#P" n="57"/>quin illud jus concessivum naturale sit, quia
+          <lb ed="#P" n="58"/>illa suppositio solum praerequiritur ut resultet
+          <lb ed="#P" n="59"/>materia talis juris: regula autem ipsa rationis
+          <lb ed="#P" n="60"/>antea erat, et semper naturalis est. Probatur,
+          <lb ed="#P" n="61"/>quia jus praeceptivum saepe etiam non habet
+          <lb ed="#P" n="62"/>materiam in qua actu obliget, nisi supposita
+          <lb ed="#P" n="63"/>vita hominum in communitate et societate, et
+          <lb ed="#P" n="64"/>nihilominus talia praecepta semper sunt juris
+          <lb ed="#P" n="65"/>naturalis, ut supra probatum est, et dicti 
+          auc<lb break="no" ed="#P" n="66"/>tores etiam concedunt ; ergo idem erit cum
+          <lb ed="#P" n="67"/>proportione in jure concessivo: nulla enim
+          <lb ed="#P" n="68"/>verisimilis ratio differentiae assignari posse 
+          vi<lb break="no" ed="#P" n="69"/>detur.
+        </p>
+        <p xml:id="szdleg-a41609-d1e436">
+          <lb ed="#P" n="70"/>5. Deinde ostendo non separari jus 
+          conces<lb break="no" ed="#P" n="71"/>sivum ab omni jure praecipiente vel 
+          prohi<lb break="no" ed="#P" n="72"/>bente, et in praesenti materia si unum sit juris
+          <lb ed="#P" n="73"/>gentium, etiam alterum : vel si unum est juris
+          <lb ed="#P" n="74"/>naturalis, etiam aliud, et ita non subsistere
+          <lb ed="#P" n="75"/>distinctionem datam. Primum declaratur 
+          im<lb break="no" ed="#P" n="76"/>primis exemplo privilegii : nam eo ipso quod
+          <lb ed="#P" n="77"/>uni conceditur, praecipitur aliis ne usum illius
+          <lb ed="#P" n="78"/>impediant, et hac ratione explicabamus supra
+          <lb ed="#P" n="79"/>rationem legis in privilegio: hoc autem 
+          eam<lb break="no" ed="#P" n="80"/>dem rationem habet in omni jure concessivo.
+          <lb ed="#P" n="81"/>Secundo declaratur discurrendo per exempla
+          <lb ed="#P" n="82"/>juris gentium, quae Isidorus posuit. Primum
+          <lb ed="#P" n="83"/>est sedium occupatio, haec enim ita est hceita
+          <lb ed="#P" n="84"/>unicuique jure gentium, vel potius naturali,
+          <lb ed="#P" n="85"/>ut nemo juste impedire possit alium quamvis
+          <lb ed="#P" n="86"/>occupet sedem ab alio non praeoccupatam, et
+          <lb ed="#P" n="87"/>ita illa concessio habet annexum hoc 
+          praece<lb break="no" ed="#P" n="88"/>ptum. Secundum exemplum est cedificatio:
+          <lb ed="#P" n="89"/>tertium munitio, de quibus est eadem ratio.
+          <lb ed="#P" n="90"/>Nam repugnat aliquem habere liberam 
+          facul<lb break="no" ed="#P" n="91"/>tatem aedificandi, vel muniendi terram aut
+          <lb ed="#P" n="92"/>possessionem a se occupatam, et posse ab aliis
+          <lb ed="#P" n="93"/>juste impediri aut perturbari in usu illius 
+          fa<lb break="no" ed="#P" n="94"/>cultatis : ergo est necessaria connexio inter
+          <lb ed="#P" n="95"/>jus concessivum et praeceptivum. Quartum
+          <lb ed="#P" n="96"/>exemplum est Della, in quo id evidentius 
+          con<lb break="no" ed="#P" n="97"/>stat. Nam imprimis supponit praeceptum 
+          pro<lb break="no" ed="#P" n="98"/>hibens aggressori tale bellum; ideo enim uni
+          <lb ed="#P" n="99"/>licet defensio, quia alter injuste bellum 
+          aggre<lb break="no" ed="#P" n="100"/>ditur. Deinde respectu ejus qui se defendit,
+          <lb ed="#P" n="101"/>seepe tale jus non solum concedit facultatem,
+          <lb ed="#P" n="102"/>sed etiam praecipit usum, praesertim principi,
+          <lb ed="#P" n="103"/>qui tenetur defendere rempublicam. Et idem
+          <lb ed="#P" n="104"/>est de aliis, qui tenentur defendere commune
+          <lb ed="#P" n="105"/>bonum, vel etiam interdum propriam vitam.
+          <lb ed="#P" n="106"/>Si autem bellum sit aggressivum, eo ipso quod
+          <lb ed="#P" n="107"/>uni licet contra alterum, huic est prohihita
+          <lb ed="#P" n="108"/>defensio, quia tenetur parere, et jus suum 
+          al<lb break="no" ed="#P" n="109"/>teri reddere, vel justam poenam acceptare.
+        </p>
+        <p xml:id="szdleg-a41609-d1e525">
+          <lb ed="#P" n="110"/>6. Quintum et sextum exemplum sunt cap-
+          <pb ed="#P" n="165"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tivitates et servitutes, in quibus etiam constat,
+          <lb ed="#P" n="2"/>si uni licet alterum in captivitatem vel 
+          servi<lb break="no" ed="#P" n="3"/>tutem redigere, etiam cogendo illum; eo ipso
+          <lb ed="#P" n="4"/>teneri hunc ad parendum, et non resistendum,
+          <lb ed="#P" n="5"/>quia non potest esse bellum justum ex utraque
+          <lb ed="#P" n="6"/>parte. Septimum exemplum est postliminia,
+          <lb ed="#P" n="7"/>de quo eadem cum proportione est ratio : nam
+          <lb ed="#P" n="8"/>est jus vel recuperandi libertatem amissam,
+          <lb ed="#P" n="9"/>vel redeundi ad priorem statum post exitum a
+          <lb ed="#P" n="10"/>liminibus captivitatis; in hoc autem jure 
+          ne<lb break="no" ed="#P" n="11"/>cessario includitur praeceptum vel restituendi
+          <lb ed="#P" n="12"/>talem hominem in antiquum jus, vel non 
+          pri<lb break="no" ed="#P" n="13"/>vandi illum recuperato jure. Octavum 
+          exem<lb break="no" ed="#P" n="14"/>plum est federa pacis; nonum inducie. In
+          <lb ed="#P" n="15"/>quibus primo potest considerari facultas 
+          fe<lb break="no" ed="#P" n="16"/>riendi pacem, vel concedendi inducias, quae
+          <lb ed="#P" n="17"/>sine dubio est res honesta de se et saepe utilis,
+          <lb ed="#P" n="18"/>vel necessaria ; tamen cum hac facultate 
+          con<lb break="no" ed="#P" n="19"/>juncta est obligatio non violandi pacis foedera,
+          <lb ed="#P" n="20"/>neque nocendi hosti induciarum tempore. 
+          De<lb break="no" ed="#P" n="21"/>cimum exemplum est legatorum non 
+          violando<lb break="no" ed="#P" n="22"/>rum religio, quod aperte per modum praecepti
+          <lb ed="#P" n="23"/>fertur: in eo tamen distingui possunt illa duo,
+          <lb ed="#P" n="24"/>unum est facultas mittendi legatos ad alios
+          <lb ed="#P" n="25"/>principes vel provincias, aliud est praeceptum
+          <lb ed="#P" n="26"/>et obligatio servandi immunitatem illorum.
+          <lb ed="#P" n="27"/>Ultimum denique exemplum est connubia inter
+          <lb ed="#P" n="28"/>alienigenas prohibita, in quo non sola 
+          permis<lb break="no" ed="#P" n="29"/>sio, sed praeceptum aperte proponitur, et quia
+          <lb ed="#P" n="30"/>negativum est, vix in eo intelligitur aliquid
+          <lb ed="#P" n="31"/>per modum concessionis ; quomodo autem in
+          <lb ed="#P" n="32"/>hoc exemplo locum habeat jus gentium paulo
+          <lb ed="#P" n="33"/>inferius exponam.
+        </p>
+        <p xml:id="szdleg-a41609-d1e606">
+          <lb ed="#P" n="34"/>7. Dici potest, esto verum sit cum jure 
+          con<lb break="no" ed="#P" n="35"/>cessivo semper conjungi aliquod praeceptivum,
+          <lb ed="#P" n="36"/>tamen saepe esse posse diversorum ordinum:
+          <lb ed="#P" n="37"/>nam saepe posito jure civili concessivo resultat
+          <lb ed="#P" n="38"/>jus naturale, ut posito jure concedente 
+          domi<lb break="no" ed="#P" n="39"/>nium media praescriptione, et acquisita 
+          prae<lb break="no" ed="#P" n="40"/>scriptione, resultat jus naturale prohibens 
+          ac<lb break="no" ed="#P" n="41"/>cipere ab aliquo ipso invito rem quam 
+          prae<lb break="no" ed="#P" n="42"/>scripsit, et concesso privilegio ab homine, vel
+          <lb ed="#P" n="43"/>humano jure eximente aliquem a solutione
+          <lb ed="#P" n="44"/>tributi, naturalis lex dictat non esse petendum.
+          <lb ed="#P" n="45"/>Sic ergo in dictis exemplis dici potest 
+          permis<lb break="no" ed="#P" n="46"/>sionem seu concessionem esse de jure gentium,
+          <lb ed="#P" n="47"/>praecepta vero inde resultantia esse de jure
+          <lb ed="#P" n="48"/>naturali praeceptivo.
+        </p>
+        <p xml:id="szdleg-a41609-d1e641">
+          <lb ed="#P" n="49"/>8. Propter hanc objectionem proposui 
+          se<lb break="no" ed="#P" n="50"/>cundam partem assertionis, scilicet, in 
+          prae<lb break="no" ed="#P" n="51"/>senti materia hoc non habere locum. Nam in
+          <lb ed="#P" n="52"/>simili inductione ostendi potest, quod tam 
+          con<lb break="no" ed="#P" n="53"/>cessio quam probibitio ad alios resultans est
+          <lb ed="#P" n="54"/>de jure naturali, vel si aliqua earum est 
+          abso<lb break="no" ed="#P" n="55"/>lute de jure humano, potius hoc conveniat
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>concessioni, qua facta obligatio inde resultans
+          <lb ed="#P" n="57"/>naturalis est. Primum aperte, ut credo, osten- |
+          <lb ed="#P" n="58"/>ditur in quatuor primis exemplis Isidori, de
+          <lb ed="#P" n="59"/>sedium occupatione, aedificatione, mutatione,
+          <lb ed="#P" n="60"/>ac defensione per justum bellum : nam jus ad
+          <lb ed="#P" n="61"/>haec omnia naturale est, id est, haec omnia 
+          li<lb break="no" ed="#P" n="62"/>cita sunt jure naturae : et eodem modo 
+          obli<lb break="no" ed="#P" n="63"/>gatio unius ad non violandum tale jus alterius
+          <lb ed="#P" n="64"/>naturalis legis est. Solum usus illarum 
+          facul<lb break="no" ed="#P" n="65"/>tatum posset dici de jure gentium ratione 
+          con<lb break="no" ed="#P" n="66"/>suetudinis omnium gentium; at hoc ad factum
+          <lb ed="#P" n="67"/>pertinet, non ad legem. Idemque cum 
+          propor<lb break="no" ed="#P" n="68"/>tione dicendum est in 8, 9 et 10 exemplis de
+          <lb ed="#P" n="69"/>pace, induciis et legatis : nam illa omnia 
+          fun<lb break="no" ed="#P" n="70"/>dantur in pacto aliquo humano, in quo tam 
+          fa<lb break="no" ed="#P" n="71"/>cultas contrahendi quam obligationes 
+          fidelita<lb break="no" ed="#P" n="72"/>tis et justitiae quae ex foedere seu conventione
+          <lb ed="#P" n="73"/>nascuntur, ad jus naturae spectant. Solus usus
+          <lb ed="#P" n="74"/>potest dici de jure gentium propter 
+          convenien<lb break="no" ed="#P" n="75"/>tiam omnium gentium in usu talium rerum in
+          <lb ed="#P" n="76"/>genere; verumtamen hic etiam usus est 
+          effec<lb break="no" ed="#P" n="77"/>tus juris, non ipsum jus, quia hoc jus non ex
+          <lb ed="#P" n="78"/>usu, sed usus ex jure est.
+        </p>
+        <p xml:id="szdleg-a41609-d1e712">
+          <lb ed="#P" n="79"/>9. At vero in quinto et sexto exemplo de
+          <lb ed="#P" n="80"/>captivitate et servitute videtur aliquid 
+          intro<lb break="no" ed="#P" n="81"/>ductum usu hominum, quod non est immediate
+          <lb ed="#P" n="82"/>de dictamine rationis naturalis, nimirum, quod
+          <lb ed="#P" n="83"/>titulus acceptionis in bello justo sit sufficiens
+          <lb ed="#P" n="84"/>ad detinendum alium etiam invitum et 
+          coac<lb break="no" ed="#P" n="85"/>tum, vel etiam ad acquirendum dominium
+          <lb ed="#P" n="86"/>unius hominis in alium, et consequenter ad
+          <lb ed="#P" n="87"/>introducendum servitutem in uno, respectu
+          <lb ed="#P" n="88"/>alterius. Nam lex sola naturalis hoc non 
+          prae<lb break="no" ed="#P" n="89"/>scribit, licet illud non vetet, supposita justitia
+          <lb ed="#P" n="90"/>belli. Determinatio ergo illius juris est quasi
+          <lb ed="#P" n="91"/>lex quaedam poenalis usu hominum introducta
+          <lb ed="#P" n="92"/>contra gerentes injustum bellum : ponitur
+          <lb ed="#P" n="93"/>enim illis in poenam, ut captivi vel servi fiant
+          <lb ed="#P" n="94"/>si vincantur. Haec autem lex sic intellecta non
+          <lb ed="#P" n="95"/>est concessiva, sed magis directe est punitiva,
+          <lb ed="#P" n="96"/>et obligat reum ad poenam eadem proportione,
+          <lb ed="#P" n="97"/>qua aliae leges poenales civiles, de quibus infra
+          <lb ed="#P" n="98"/>lib. 5 dicturi sumus. Qualiscumque autem sit,
+          <lb ed="#P" n="99"/>quatenus de facto dat facultatem reducendi
+          <lb ed="#P" n="100"/>homines in captivitatem vel servitutem, 
+          posi<lb break="no" ed="#P" n="101"/>tiva est, et non ex sola vi ac discursu rationis
+          <lb ed="#P" n="102"/>naturalis, etiam supposita institutione 
+          huma<lb break="no" ed="#P" n="103"/>narum communitatum : ergo non pertinebit
+          <lb ed="#P" n="104"/>ad jus gentium quale ab illa sententia 
+          descri<lb break="no" ed="#P" n="105"/>bitur.
+        </p>
+        <p xml:id="szdleg-a41609-d1e773">
+          <lb ed="#P" n="106"/>10. Praeterea idem evidentius est in octavo
+          <lb ed="#P" n="107"/>exemplo de postliminibus, in quo videtur esse
+          <lb ed="#P" n="108"/>plus de jure civili quam de jure naturali vel
+          <lb ed="#P" n="109"/>gentium : nam videtur esse illa quaedam 
+          mo<lb break="no" ed="#P" n="110"/>deratio poenae captivitatis aut servitutis, vel in
+          <pb ed="#P" n="166"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>universum amissionis bonorum, vel 
+          depraeda<lb break="no" ed="#P" n="2"/>tionum hostium, quae maxime in bellum 
+          con<lb break="no" ed="#P" n="3"/>tingunt, quae non est tam universalis omnium
+          <lb ed="#P" n="4"/>gentium, sed jura civilia maxime de illa 
+          lo<lb break="no" ed="#P" n="5"/>quuntur. Et praeterea eo modo quo talis 
+          mode<lb break="no" ed="#P" n="6"/>ratio intelligitur lege constituta, non est sola
+          <lb ed="#P" n="7"/>permissio, sed lex vere obligans ad sui 
+          obser<lb break="no" ed="#P" n="8"/>vationem : non enim est minus obligatoria lex
+          <lb ed="#P" n="9"/>quae moderatur aliquam poenam, quam lex
+          <lb ed="#P" n="10"/>quae poenam taxavit. Denique in ultimo 
+          exem<lb break="no" ed="#P" n="11"/>plo clara est prohibitio et non tantum 
+          permis<lb break="no" ed="#P" n="12"/>sio, ne fiant connubia cum alienigenis. 
+          Prae<lb break="no" ed="#P" n="13"/>terquam quod neutro modo constat fuisse hoc
+          <lb ed="#P" n="14"/>jus, vel hunc usum communem omnibus 
+          gen<lb break="no" ed="#P" n="15"/>tibus, sed videtur maxime propria consuetudo
+          <lb ed="#P" n="16"/>fidelis populi tam in lege veteri quam nunc in
+          <lb ed="#P" n="17"/>nova , et ita illud potius est jus divinum, vel
+          <lb ed="#P" n="18"/>canonicum, et si aliquae gentes id servarunt,
+          <lb ed="#P" n="19"/>magis videtur pertinuisse ad jus civile illarum
+          <lb ed="#P" n="20"/>quam gentium. Concludimus ergo non recte
+          <lb ed="#P" n="21"/>distingui jus gentium a naturali, quia unum
+          <lb ed="#P" n="22"/>concessivum tantum sit et aliud praeceptivum:
+          <lb ed="#P" n="23"/>nam vel utrumque membrum in utroque jure
+          <lb ed="#P" n="24"/>repetitur, vel si praeceptum naturale est, etiam
+          <lb ed="#P" n="25"/>concessio illi cum proportione respondens ex
+          <lb ed="#P" n="26"/>ipso jure naturali nascitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

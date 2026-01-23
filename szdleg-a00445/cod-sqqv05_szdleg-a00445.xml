@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a00445"><!-- deleg-l1c1 -->
+        <head xml:id="szdleg-a00445-Hd1e101">Caput 1</head>
+        <head xml:id="szdleg-a00445-Hd1e103" type="question-title">Quid nomine legis significetur</head>
+        <p xml:id="szdleg-a00445-d1e106">
+          <lb ed="#P" n="18"/>CAPUT I.
+          <lb ed="#P" n="19"/>QUID NOMINE LEGIS SIGNIFICETUR ?
+        </p>
+        <p xml:id="szdleg-a00445-d1e113">
+          <lb ed="#P" n="20"/>1. Legis definitio ec D. Thoma. — Divus
+          <lb ed="#P" n="21"/>Thomas 1. 2, quaest. 90, art. 1, ita describit
+          <lb ed="#P" n="22"/>quid nominis legis : Lex est quedam regula et
+          <lb ed="#P" n="23"/>menswra, secundum quam inducitur aliquis ad
+          <lb ed="#P" n="24"/>agendum, vel ab agendo retrahitur. Quae 
+          des<lb break="no" ed="#P" n="25"/>criptio nimis lata et generalis videtur; sic enim
+          <lb ed="#P" n="26"/>lex non solum in hominibus, seu rationalibus
+          <lb ed="#P" n="27"/>creaturis, sed etiam in reliquis locum habebit:
+          <lb ed="#P" n="28"/>nam unaquaeque res suam regulam habet et
+          <lb ed="#P" n="29"/>mensuram, secundam quam operatur, et 
+          indu<lb break="no" ed="#P" n="30"/>citur ad agendum, vel retrahitur ab agendo.
+          <lb ed="#P" n="31"/>Lex item non solum in moralibus, sed etiam
+          <lb ed="#P" n="32"/>in artificialibus, nec solum in bonis et 
+          hones<lb break="no" ed="#P" n="33"/>tis, sed etiam in turpibus versabitur, quia etiam
+          <lb ed="#P" n="34"/>artes, sive licitae, sive illicitae, habent suas 
+          re<lb break="no" ed="#P" n="35"/>gulas et mensuras, juxta quas vel ad 
+          operan<lb break="no" ed="#P" n="36"/>dum, vel ad abstinendum ab opere 
+          inducun<lb break="no" ed="#P" n="37"/>tur. Denique (quod diffticilius videtur) sequitur,
+          <lb ed="#P" n="38"/>consilium esse sub lege comprehensum : nam
+          <lb ed="#P" n="39"/>etiam est quaedam regula et mensura 
+          operatio<lb break="no" ed="#P" n="40"/>nis bonae ad meliorem inducens, et a minus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="41"/>bona retrahens : constat autem secundum 
+          fi<lb break="no" ed="#P" n="42"/>dem consilia a praeceptis distingui, et 
+          conse<lb break="no" ed="#P" n="43"/>quenter sub lege propria non comprehendi.
+        </p>
+        <p xml:id="szdleg-a00445-d1e170">
+          <lb ed="#P" n="44"/>2. Legis divisio es Platone. —Circa hoc 
+          no<lb break="no" ed="#P" n="45"/>tari imprimis potest divisio, quae ex Platone
+          <lb ed="#P" n="46"/>sumitur in dialogo Minos, seu de lege, ubi
+          <lb ed="#P" n="47"/>duplicem distinguit legem, artis et morum,
+          <lb ed="#P" n="48"/>cul tertium membrum addere possumus, 
+          or<lb break="no" ed="#P" n="49"/>dinis, seu propensionis naturae ex eodem 
+          Pla<lb break="no" ed="#P" n="50"/>tone in Timaeo, et Gorgia, ubi quadruplicem
+          <lb ed="#P" n="51"/>legem distinguens quamdam vocat naturalem,
+          <lb ed="#P" n="52"/>de qua divisione infra, in cap. 3, aliqua 
+          dice<lb break="no" ed="#P" n="53"/>mus. Nunc per naturalem non intelligemus
+          <lb ed="#P" n="54"/>illam, quae est in hominibus, de qua etiam
+          <lb ed="#P" n="55"/>postea dicturi sumus : sed eam quae rebus
+          <lb ed="#P" n="56"/>omnibus ex inclinatione ab Auctore naturae
+          <lb ed="#P" n="57"/>indita convenit ; ita enim illam videtur 
+          expli<lb break="no" ed="#P" n="58"/>care Plato, quamvis etiam in hominibus 
+          no<lb break="no" ed="#P" n="59"/>biliori modo esse fateatur. Unde haec tertia
+          <lb ed="#P" n="60"/>acceptio metaphorica est : nam res carentes
+          <lb ed="#P" n="61"/>ratione non sunt proprie capaces legis, sicut
+          <lb ed="#P" n="62"/>nec obedientiae. Efficacia ergo divinae virtutis,
+          <lb ed="#P" n="63"/>et necessitas naturalis, quae in his rebus inde
+          <lb ed="#P" n="64"/>resultat, per metaphoram lex appellatur; 
+          con<lb break="no" ed="#P" n="65"/>sonatque phrasis Scripturae Prov. 1, quando certa
+          <lb ed="#P" n="66"/>lege, et gyro vallabat abyssos, et infra, et legem
+          <lb ed="#P" n="67"/>ponebat aquis, ne transirent fines suos. Atque
+          <lb ed="#P" n="68"/>haec lex mensurae nomine significatur Job. 38:
+          <lb ed="#P" n="69"/>Quis posuit mensuraan ejus, sinosti? et infra,
+          <lb ed="#P" n="70"/>quis conclusit ostiis mare? et divii, hucusque 
+          ve<lb break="no" ed="#P" n="71"/>nies, etc. Et juxta hanc etiam significationem
+          <lb ed="#P" n="72"/>solet inclinatio naturalis, legis nomine 
+          signi<lb break="no" ed="#P" n="73"/>ficari, vel quia est mensura operationis, ad
+          <lb ed="#P" n="74"/>quam inducit ; vel quia est ex lege conditoris.
+          <lb ed="#P" n="75"/>Solet enim vocari lex, et ipsa regula, et opus,
+          <lb ed="#P" n="76"/>seu effectus ejus, quatenus est illi conformis:
+          <lb ed="#P" n="77"/>sicut ars interdum appellatur ipsum artificium.
+          <lb ed="#P" n="78"/>Quomodo intelligi potest illud Rom. 2: Non 
+          au<lb break="no" ed="#P" n="79"/>ditores tantum, sed factores legis (id est operis
+          <lb ed="#P" n="80"/>lege praecepti)justificabuntur ,et Joan.1: Mogses
+          <lb ed="#P" n="81"/>dedit vobis legem, et nemo ex vobs facit legem.
+          <pb ed="#P" n="2"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Quamvis ibi possit etiam verbum faciendi in
+          <lb ed="#P" n="2"/>alia significatione pro verbo observandi sumi.
+        </p>
+        <p xml:id="szdleg-a00445-d1e265">
+          <lb ed="#P" n="3"/>3. Juxta hanc etiam priorem acceptionem
+          <lb ed="#P" n="4"/>intelligi potest Paulus, cum inclinationem 
+          sen<lb break="no" ed="#P" n="5"/>tientis appetitus legem membrorum, et legem
+          <lb ed="#P" n="6"/>peccati appellat, ad Rom. 7, quam D. Thomas,
+          <lb ed="#P" n="7"/>dict. quaest. 90, a. 1, ad 1, et q. 90, a. 6, 
+          le<lb break="no" ed="#P" n="8"/>gem fomitis appellavit. Declarat autem ibi, 
+          fo<lb break="no" ed="#P" n="9"/>mitis inordinatam inclinationem vocari legem:
+          <lb ed="#P" n="10"/>non formaliter, ut lex est mensura, sed 
+          parti<lb break="no" ed="#P" n="11"/>cipative, ut solet dici de mensurato per legem.
+          <lb ed="#P" n="12"/>Unde sentit D. Thomas inclinationem 
+          appeti<lb break="no" ed="#P" n="13"/>tus secundum se non vocari legem, sed 
+          quate<lb break="no" ed="#P" n="14"/>nus ex lege Dei puniente privata est rectitudine
+          <lb ed="#P" n="15"/>originalis justitiae propter peccatum originale.
+          <lb ed="#P" n="16"/>Nam hoc modo inordinatio fomitis non est
+          <lb ed="#P" n="17"/>mere naturalis, sed est poena peccati, et ita
+          <lb ed="#P" n="18"/>dicitur lex tanquam eflectus divinae legis. Quod
+          <lb ed="#P" n="19"/>etiam videtur sensisse Augustinus, lib. 1 ad
+          <lb ed="#P" n="20"/>Simplic., quaest. 1, dicens : Quam sarcinam
+          <lb ed="#P" n="21"/>prementem, et urgentem, ideo legene uppellat,
+          <lb ed="#P" n="22"/>quia jure supplicii, divino judicio tributa et
+          <lb ed="#P" n="23"/>imposita est, utique removendo justiuiam, quae
+          <lb ed="#P" n="24"/>contrariam rectitudinem tribuebat.
+        </p>
+        <p xml:id="szdleg-a00445-d1e315">
+          <lb ed="#P" n="25"/>4. Sed, licet haec vera sint, nihilominus 
+          vide<lb break="no" ed="#P" n="26"/>tur ipsa inclinatio appetitus, ut mere naturalis
+          <lb ed="#P" n="27"/>est, posse vocari lex eo modo, quo inclinatio
+          <lb ed="#P" n="28"/>naturalis aeque lex appellatur. Sic enim in 
+          ho<lb break="no" ed="#P" n="29"/>mine in puris naturalibus esset illa lex fomitis,
+          <lb ed="#P" n="30"/>licet non esset poena peccati. Item etiam nunc
+          <lb ed="#P" n="31"/>videtur fomitis propensio vocari lex non 
+          so<lb break="no" ed="#P" n="32"/>lum, quia effectus legis, sed etiam quia est
+          <lb ed="#P" n="33"/>quasi mensura et regula sensualium motuum,
+          <lb ed="#P" n="34"/>et ideo a Paulo lex membrorum vocata est,
+          <lb ed="#P" n="35"/>quia membris corporis specialiter dominatur:
+          <lb ed="#P" n="36"/>unde est illud Augustini, lib. 5, Genes. ad Lit.,
+          <lb ed="#P" n="37"/>cap. 10: Motum illius legis, que repugnat legi
+          <lb ed="#P" n="38"/>mentis, in membris suis habere meruerunt. Et
+          <lb ed="#P" n="39"/>inde etiam lex peccati vocata est, non solum
+          <lb ed="#P" n="40"/>quia est ex peccato, sed etiam quia ad 
+          pecca<lb break="no" ed="#P" n="41"/>tum inclinat. Hoc autem modo non fuit in
+          <lb ed="#P" n="42"/>Adamo haec lex ante peccatum, quia licet 
+          ap<lb break="no" ed="#P" n="43"/>petitus sensitivus ejus non careret sua 
+          natu<lb break="no" ed="#P" n="44"/>rali inclinatione, per se non operabatur, nec
+          <lb ed="#P" n="45"/>dominabatur ullo moo, nec erat regula, aut
+          <lb ed="#P" n="46"/>mensura aliquorum motuum, sed iegi mentis
+          <lb ed="#P" n="47"/>omnino subjecta erat. Sed de metaphoricis 
+          lo<lb break="no" ed="#P" n="48"/>cutionibus haec sufficiunt.
+        </p>
+        <p xml:id="szdleg-a00445-d1e370">
+          <lb ed="#P" n="49"/>5. Secunda acceptio legis magis propria est:
+          <lb ed="#P" n="50"/>nam ars est opus rationis, et ideo mensura
+          <lb ed="#P" n="51"/>ejus proprius potest legis nominc significari:
+          <lb ed="#P" n="52"/>et ita solemus distinguere leges militiae, 
+          mer<lb break="no" ed="#P" n="53"/>caturae, etc., ut D. Thomas, d. art. 6, notavit.
+          <lb ed="#P" n="54"/>Et regulae congrue loquendi solent leges 
+          gram<lb break="no" ed="#P" n="55"/>ruaticae appellari, et sic de aliis artibus. Ta-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>men sicut rectitudo artis respectu creaturae
+          <lb ed="#P" n="57"/>rationahs est rectitudo secundum quid, ut 1.2,
+          <lb ed="#P" n="58"/>quaest. 56, D. Thomas declarat, ita lex artis
+          <lb ed="#P" n="59"/>solum potest dici lex secundum quid. Propria
+          <lb ed="#P" n="60"/>ergo et absoluta appellatio legis est, quae ad
+          <lb ed="#P" n="61"/>mores pertinet : atque ita restringenda est
+          <lb ed="#P" n="62"/>D. Thomae descriptio, ut scilicet lex sit 
+          men<lb break="no" ed="#P" n="63"/>sura quaedam actuum moralium, ita ut per
+          <lb ed="#P" n="64"/>conformitatem ad illam, rectitudinem 
+          mora<lb break="no" ed="#P" n="65"/>lem habeant, et si ab illa discordent obliqui
+          <lb ed="#P" n="66"/>sint.
+        </p>
+        <p xml:id="szdleg-a00445-d1e414">
+          <lb ed="#P" n="67"/>6. Quae sit propria et vera lex. — Quocirca
+          <lb ed="#P" n="68"/>quamvis interdum iniqua praecepta, seu 
+          regu<lb break="no" ed="#P" n="69"/>lae, soleant legis nomine significari, juxta illud
+          <lb ed="#P" n="70"/>Isai. 20, Vae qu condtis leges iniquas, et iud
+          <lb ed="#P" n="71"/>Aristotelis, 4 Ethicor., cap. i: Mala lea est,
+          <lb ed="#P" n="72"/>quae tumultuarie posita est, quahs est illa, quae
+          <lb ed="#P" n="73"/>vulgo dici solet, lex mundi, lex duell, et
+          <lb ed="#P" n="74"/>similes; licet (inquam) hoc ita sit, 
+          nihilomi<lb break="no" ed="#P" n="75"/>nus proprie, et simpliciter loquendo, sola illa
+          <lb ed="#P" n="76"/>quae est mensura rectitudinis simpliciter, et
+          <lb ed="#P" n="77"/>consequenter sola illa quae est regula recta et
+          <lb ed="#P" n="78"/>honesta, potest lex appellari. Àc propterea
+          <lb ed="#P" n="79"/>dixit D. Thomas, dict. quaest. 90, art. 1, et
+          <lb ed="#P" n="80"/>quaest. 06, art. 4, turpe praeceptum non esse
+          <lb ed="#P" n="81"/>legem, sed iniquitatem ; et Augustinus, lib.1
+          <lb ed="#P" n="82"/>de Lib. arb., cap. 5: Mihi lea esse non videtur,
+          <lb ed="#P" n="83"/>qua justa non fuerit. Idemque de jure asserit,
+          <lb ed="#P" n="84"/>lib. 19 de Civitat., cap. 21. Imo etiam Cicero,
+          <lb ed="#P" n="85"/>2 de Legibus, dixit legem condi debere ad
+          <lb ed="#P" n="86"/>vitam justam, quietam et beatam : et ideo qui
+          <lb ed="#P" n="87"/>leges injustas condidere, quidvis potius tulisse
+          <lb ed="#P" n="88"/>quam leges. Quod etiam late confirmat Plato
+          <lb ed="#P" n="89"/>in dialogo citato : et ratio etiam ex dictis 
+          ma<lb break="no" ed="#P" n="90"/>nifesta est, quia lex est mensura rectitudinis:
+          <lb ed="#P" n="91"/>lex autem iniqua non est mensura 
+          rectitudi<lb break="no" ed="#P" n="92"/>nis operationis humanae : nam potius actio illi
+          <lb ed="#P" n="93"/>conformis iniqua est : non est ergo lex, sed
+          <lb ed="#P" n="94"/>participat nomen legis per quamdam 
+          analo<lb break="no" ed="#P" n="95"/>giam, quatenus in ordine ad aliquem finem
+          <lb ed="#P" n="96"/>praescribit certum operandi modum. De qua
+          <lb ed="#P" n="97"/>re plura inferius dicturi sumus.
+        </p>
+        <p xml:id="szdleg-a00445-d1e484">
+          <lb ed="#P" n="98"/>7. Atque ex his satisfactum est rationibus
+          <lb ed="#P" n="99"/>dubitandi quoad duo priora capita : nam lex
+          <lb ed="#P" n="100"/>in praesenti dicitur mensura, non 
+          quorum<lb break="no" ed="#P" n="101"/>cumque actuum, sed moralium, quoad 
+          boni<lb break="no" ed="#P" n="102"/>tatem et rectitudinem eorum simpliciter, 
+          ra<lb break="no" ed="#P" n="103"/>tione cujus ad eos inducit : quomodo dixit 
+          Cle<lb break="no" ed="#P" n="104"/>mens Alexandrinus, lib. 1 Stromatum, legem
+          <lb ed="#P" n="105"/>esse regulam justorum et injustorum. Ultima
+          <lb ed="#P" n="106"/>vero objectio postulat differentiam inter 
+          con<lb break="no" ed="#P" n="107"/>silium et legem, quae longam habet cum 
+          hae<lb break="no" ed="#P" n="108"/>reticis disputationem, non tamen ad hunc
+          <lb ed="#P" n="109"/>locum pertinentem. Dicunt ergo aliqui, legem
+          <lb ed="#P" n="110"/>dupliciter accipi: uno modo pro praecepto
+          <pb ed="#P" n="3"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>obligante, et sic distingui a consiliis : alio 
+          mo<lb break="no" ed="#P" n="2"/>do, pro quocumque dictamine rationis de 
+          ho<lb break="no" ed="#P" n="3"/>nestate actus, et sic dicunt legem 
+          comprehen<lb break="no" ed="#P" n="4"/>dere consilia: nam D. Thomas, 1.2, quaest. 19,
+          <lb ed="#P" n="5"/>art. 4, dicit, omnem actum bonum pendere
+          <lb ed="#P" n="6"/>in sua bonitate a lege aeterna: actus autem
+          <lb ed="#P" n="7"/>consiliorum boni sunt et optimi : ergo 
+          com<lb break="no" ed="#P" n="8"/>prehenduntur sub lege aeterna. Proprie tamen
+          <lb ed="#P" n="9"/>loquendo de lege, ut hic loquimur, illa non est,
+          <lb ed="#P" n="10"/>nisi quae aliquam obligationem inducit, ut 
+          in<lb break="no" ed="#P" n="11"/>fra latius dicam.
+        </p>
+        <p xml:id="szdleg-a00445-d1e543">
+          <lb ed="#P" n="12"/>S. Differentia inter legem, et consiltum. —
+          <lb ed="#P" n="13"/>Est autem considerandum, aliquando dari 
+          le<lb break="no" ed="#P" n="14"/>gem de exercitio actus, et tunc obligare ad
+          <lb ed="#P" n="15"/>illum, ut est, verbi gratia, lex faciendi 
+          elee<lb break="no" ed="#P" n="16"/>mosynam:: aliquando vero dari legem solum
+          <lb ed="#P" n="17"/>de specificatione, seu modo actus, quae licet
+          <lb ed="#P" n="18"/>non obliget ad actum exercendum, obligat
+          <lb ed="#P" n="19"/>tamen, ut si actus fiat, talis modus servetur,
+          <lb ed="#P" n="20"/>qualis est, verbi gratia, attente orandi, quae licet
+          <lb ed="#P" n="21"/>non obliget ad orandum, obligat, ut si oratio
+          <lb ed="#P" n="22"/>fiat, cum attentione fiat. Hoc igitur posteriori
+          <lb ed="#P" n="23"/>modo in universum verum est, quod D. 
+          Tho<lb break="no" ed="#P" n="24"/>mas proxime citatus dixit, omnem actum, ut
+          <lb ed="#P" n="25"/>bonus sit, debere esse conformem legi aeternae,
+          <lb ed="#P" n="26"/>scilicet, praescribendi debitum modum 
+          operan<lb break="no" ed="#P" n="27"/>di, quod etiam in operibus consihi locum 
+          ha<lb break="no" ed="#P" n="28"/>bet : tamen ut sic non dicuntur esse sub 
+          con<lb break="no" ed="#P" n="29"/>silio, sed quatenus eorum usus, seu exercitium
+          <lb ed="#P" n="30"/>non praecipitur, sed consulitur. Et hoc modo
+          <lb ed="#P" n="31"/>absolute negandum est, consilium sub lege
+          <lb ed="#P" n="32"/>comprehendi : excluditur autem consilium a
+          <lb ed="#P" n="33"/>descriptione data, vel quia non est propria 
+          re<lb break="no" ed="#P" n="34"/>gula, et mensura bonitatis actus: nam haec 
+          po<lb break="no" ed="#P" n="35"/>tius consistit in lege praescribente modum : vel
+          <lb ed="#P" n="36"/>certe quia moraliter loquendo non efrticaciter
+          <lb ed="#P" n="37"/>inducit ad opus, imponendo scilicet moralem
+          <lb ed="#P" n="38"/>necessitatem operandi : cum autem lex dicitur
+          <lb ed="#P" n="39"/>inducere ad actum, hoc modo intelligendum
+          <lb ed="#P" n="40"/>est.
+        </p>
+        <p xml:id="szdleg-a00445-d1e609">
+          <lb ed="#P" n="41"/>9. Legis etymologia. — Atque hinc intulit
+          <lb ed="#P" n="42"/>D. Thomas in illo art. 1, quaest. 90, 
+          etymolo<lb break="no" ed="#P" n="43"/>giam legis; putat enim a ligando sumptam
+          <lb ed="#P" n="44"/>esse, quia proprius effectus legis est ligare,
+          <lb ed="#P" n="45"/>seu obligare, quod secutus est Gabriel in 3,
+          <lb ed="#P" n="46"/>dist. 37, art. 1, et Clichtove, in Damas., lib. 4
+          <lb ed="#P" n="47"/>Fidei, cap. 23, eamdem ety mologiam legis ex
+          <lb ed="#P" n="48"/>Cassiodoro refert, et probat. Consonatque
+          <lb ed="#P" n="49"/>Scriptura , quae leges appellat vincula , 
+          Je<lb break="no" ed="#P" n="50"/>rem. 2: Prnpegisti jugum, rupisti vincula.
+          <lb ed="#P" n="51"/>Isidorus autem, lib. 2 Etymol., cap. 10, et
+          <lb ed="#P" n="52"/>lib. 5, cap. 3, a legendo putat legem esse 
+          dic<lb break="no" ed="#P" n="53"/>tam, quod inde colligit, quia lex debet esse
+          <lb ed="#P" n="54"/>scripta, et ideo legenda est. Sed quia nunc
+          <lb ed="#P" n="55"/>latius de lege loquimur, ut illa etymologia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>possit in omnem legem convenire, oportet 
+          7e<lb break="no" ed="#P" n="57"/>gendi verbum ad interiorem lectionem, seu
+          <lb ed="#P" n="58"/>recogitationem ampliare, ut notavit Alensis,
+          <lb ed="#P" n="59"/>3 p., q. 26, memb. 1. Nam sicut lex naturalis
+          <lb ed="#P" n="60"/>dicitur a Paulo scripta in cordibus, ad Roman.
+          <lb ed="#P" n="61"/>2. ita in eis mente legi potest et debet, id est,
+          <lb ed="#P" n="62"/>meditari et recogitari, ut secundum illam 
+          mo<lb break="no" ed="#P" n="63"/>res dirigantur, juxta illud Psalm. 118: 
+          Zucer<lb break="no" ed="#P" n="64"/>na pedibus meis verbum tuum. Et huic 
+          etymo<lb break="no" ed="#P" n="65"/>logiae consonat nomen hebraicum , quo lex
+          <lb ed="#P" n="66"/>Tora dicitur, id est, instructio. Alii denique
+          <lb ed="#P" n="67"/>legem dictam esse putant ab eligendo, vel quia
+          <lb ed="#P" n="68"/>cum magna, et prudenti electione ferenda sit,
+          <lb ed="#P" n="69"/>vel quod unicuique ostendat quid eligendum
+          <lb ed="#P" n="70"/>sit; sic Augustinus, in quaestionibus ex novo
+          <lb ed="#P" n="71"/>Testamento, quaest. 15, si ejus est opus : Lec
+          <lb ed="#P" n="72"/>(ait) a lectione dicta est, ut de multis quid eligas
+          <lb ed="#P" n="73"/>scias. Cicero vero, l. 1 de Legibus, a legendo
+          <lb ed="#P" n="74"/>dictam esse declarat: Quia nos, inquit, delectus
+          <lb ed="#P" n="75"/>vim in lege ponimus, sicut Greeci (ait) legem 
+          vo<lb break="no" ed="#P" n="76"/>cant vopov, a tribuendo unicuique quod suum
+          <lb ed="#P" n="77"/>est. quia lex debet esse justa; unde alii 
+          deri<lb break="no" ed="#P" n="78"/>vant legem ab eo quod legitime actiones 
+          hu<lb break="no" ed="#P" n="79"/>manas moderatur, ut refert Turrec. in cap.
+          <lb ed="#P" n="80"/>Lex, dist. 1, in fine. Itaque hae omnes 
+          etymo<lb break="no" ed="#P" n="81"/>logiae aliquid explicant quod vere convenit
+          <lb ed="#P" n="82"/>legi : unde autem vox derivata sit incertum
+          <lb ed="#P" n="83"/>est, et parum refert.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

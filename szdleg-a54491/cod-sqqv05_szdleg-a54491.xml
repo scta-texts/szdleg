@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 12</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 12</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="215"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a54491"><!-- deleg-l3c12 -->
+        <head xml:id="szdleg-a54491-Hd1e101">Caput 12</head>
+        <head xml:id="szdleg-a54491-Hd1e103" type="question-title"/>
+        <p xml:id="szdleg-a54491-d1e105">
+          <lb ed="#P" n="37"/>CAPUT XII.
+          <lb ed="#P" n="38"/>UTRUM LEGES CIVILES IN SOLA MATERIA HONESTA
+          <lb ed="#P" n="39"/>VERSENTUR, VIRTUTUM OMNIUM ACTUS 
+          PRAECI<lb break="no" ed="#P" n="40"/>PIENDO, VEL VITIA CONTRARIA PROHIBENDO.
+        </p>
+        <p xml:id="szdleg-a54491-d1e116">
+          <lb ed="#P" n="41"/>1. Hactenus explicatae sunt causa finalis et
+          <lb ed="#P" n="42"/>efficiens legis civilis, quoniam ad ostendendum
+          <lb ed="#P" n="43"/>hoc genus legis esse possibile, conveniensque
+          <lb ed="#P" n="44"/>et quasi naturale homini, fuit necessarium;
+          <lb ed="#P" n="45"/>nunc ad declarandam naturam et efficaciam
+          <lb ed="#P" n="46"/>hujus legis, de materia et forma aliquid 
+          dicen<lb break="no" ed="#P" n="47"/>dum est. Non agimus autem de materia ex
+          <lb ed="#P" n="48"/>qua, seu subjecta, quia de hac satis dictum
+          <lb ed="#P" n="49"/>est in primo libro, tractando, an lex interna
+          <lb ed="#P" n="50"/>(ut sic dicam) sit in intellectu vel voluntate
+          <lb ed="#P" n="51"/>principis aut subditi, et an lex externa debeat
+          <lb ed="#P" n="52"/>esse scripta, vel verba sufhiciant. Inquirimus
+          <lb ed="#P" n="53"/>ergo materiam circa quam legis civilis, id est,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>quid possit praecipere aut prohibere : constat
+          <lb ed="#P" n="55"/>autem ex dictis in primo libro legem tantum
+          <lb ed="#P" n="56"/>esse posse de actibus humanis qui sint in 
+          ho<lb break="no" ed="#P" n="57"/>minis potestate, unde etiam certum est, de his
+          <lb ed="#P" n="58"/>tantum esse posse legem civilem ; hi vero 
+          ac<lb break="no" ed="#P" n="59"/>tus studiosi, pravi et indifferentes esse possunt,
+          <lb ed="#P" n="60"/>et in his potest magna varietas reperiri 
+          secun<lb break="no" ed="#P" n="61"/>dum varias species virtutum et vitiorum; idem
+          <lb ed="#P" n="62"/>quidem sunt externi, alii mentales tantum ac
+          <lb ed="#P" n="63"/>mere interni : quidam futuri, alii praeteriti;
+          <lb ed="#P" n="64"/>quidam faciles, vel ordinarii, alii ardui et
+          <lb ed="#P" n="65"/>valde difficiles, seu extraordinarii, ideoque de
+          <lb ed="#P" n="66"/>tota hac varietate aliquid dicere necesse est.
+        </p>
+        <p xml:id="szdleg-a54491-d1e177">
+          <lb ed="#P" n="67"/>2. Machiavelis error et politicorum pro 
+          tem<lb break="no" ed="#P" n="68"/>porali regimine non curanda spiritualia. —
+          <lb ed="#P" n="69"/>Circa propositam ergo quaestionem duplex 
+          po<lb break="no" ed="#P" n="70"/>test referri opinio: una est, potestatem laicam
+          <lb ed="#P" n="71"/>et jus civile per se primo intendere statum
+          <lb ed="#P" n="72"/>politicum, ejusque conservationem, et 
+          aug<lb break="no" ed="#P" n="73"/>mentum, ac subinde materiam legum esse
+          <lb ed="#P" n="74"/>illam quae statui politico inservit, et 
+          conserva<lb break="no" ed="#P" n="75"/>tioni vel augmento ejus : et in ordine ad hunc
+          <lb ed="#P" n="76"/>finem has leges ferri, sive in eis vera honestas
+          <lb ed="#P" n="77"/>inveniatur, sive tantum simulata et apparens,
+          <lb ed="#P" n="78"/>dissimulando etiam illa quae injusta sunt, si
+          <lb ed="#P" n="79"/>reipublicae temporali sint utilia. Haec est 
+          doc<lb break="no" ed="#P" n="80"/>trina politicorum hujus temporis, quam 
+          prae<lb break="no" ed="#P" n="81"/>cipue persuadere conatus est principibus 
+          secu<lb break="no" ed="#P" n="82"/>laribus <name xml:id="szdleg-a54491-Nd1e213">Machiavelus</name>, solumque fundatur in
+          <lb ed="#P" n="83"/>hoc, quod non potest aliter temporalis 
+          respu<lb break="no" ed="#P" n="84"/>blica conservari ; unde illius judicium 
+          perver<lb break="no" ed="#P" n="85"/>sum, est, non posse esse verum regem et 
+          sta<lb break="no" ed="#P" n="86"/>bilem qui legibus virtutis astringitur, eisque
+          <lb ed="#P" n="87"/>omnino subjicitur. Potestque juvari hic error
+          <lb ed="#P" n="88"/>ex legibus civilibus, quae interdum sustinent
+          <lb ed="#P" n="89"/>et fovent actus pravos, propter temporalem
+          <lb ed="#P" n="90"/>commoditatem, ut inl. Dolo, C. de inutil. 
+          sti<lb break="no" ed="#P" n="91"/>pul., datur actio non obstante dolo; et inS
+          <lb ed="#P" n="92"/>Namque, Instit. de Actionibus, conceditur 
+          ac<lb break="no" ed="#P" n="93"/>tio fraudulenta, et in l. Pacisci, ff. de Pactis,
+          <lb ed="#P" n="94"/>pactum contra leges sustinetur : item 
+          prae<lb break="no" ed="#P" n="95"/>scriptio cum mala fide per leges civiles 
+          com<lb break="no" ed="#P" n="96"/>mendabatur olim, ut constat ex cap. Vigilanti,
+          <lb ed="#P" n="97"/>cap. ult. de Praescrip., et ex Grat. 16, q. 8
+          <lb ed="#P" n="98"/>Preescriptionem, post cap. Placuit, cum tamen
+          <lb ed="#P" n="99"/>illa praescriptio iniqua esset, et ideo per jura
+          <lb ed="#P" n="100"/>canonica reprobata sit: et in multis aliis etiam
+          <lb ed="#P" n="101"/>aliqua approbantur jure civili, quae in foro
+          <lb ed="#P" n="102"/>animae non possunt subsistere, ut notat Covar.
+          <lb ed="#P" n="103"/>in regula Possessor, p. 2, S 9, n. 6 in fine, et
+          <lb ed="#P" n="104"/>in regula Peccatum, 29 p., S6, n.3et 4;et
+          <lb ed="#P" n="105"/>ex materia de matrimon., juramento, usuris,
+          <lb ed="#P" n="106"/>et aliis possunt multa exempla afferri quae
+          <lb ed="#P" n="107"/>omitto, et aliqua videri possunt in Azor. t. 1,
+          <lb ed="#P" n="108"/>lib. 5, cap. 20 et 21.
+          <pb ed="#P" n="216"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>3. S'ecunda sententia dicens legem civilem 
+          so<lb break="no" ed="#P" n="2"/>lum posse ferri in materia justitie.— Secunda
+          <lb ed="#P" n="3"/>sententia referri potest, quae, licet fateatur jus
+          <lb ed="#P" n="4"/>civile solum versari in materia honesta, 
+          limi<lb break="no" ed="#P" n="5"/>tat tamen illam ad materiam justitiae, 
+          dicit<lb break="no" ed="#P" n="6"/>que legem civilem solum posse ferri in 
+          mate<lb break="no" ed="#P" n="7"/>ria justitiae praecipiendo justa, et prohibendo
+          <lb ed="#P" n="8"/>ac puniendo injurias, non pertinere autem ad
+          <lb ed="#P" n="9"/>illam, vel ad potestatem civilem de actibus
+          <lb ed="#P" n="10"/>aliarum virtutum moralium disponere. Solet
+          <lb ed="#P" n="11"/>haec sen*entia tribui Francisco Sarm. tract. de
+          <lb ed="#P" n="12"/>Redit. ecclesiast. p. 4, cap. 5. Sed ibi non 
+          so<lb break="no" ed="#P" n="13"/>Ium de lege civili loquitur, sed etiam de 
+          ca<lb break="no" ed="#P" n="14"/>nonica : imo de hac praecipue, quia omnia quae
+          <lb ed="#P" n="15"/>adducit in illa potissimum locum habent, et
+          <lb ed="#P" n="16"/>ideo infra tractando de lege canonica illi 
+          res<lb break="no" ed="#P" n="17"/>pondebimus. Nunc specialiter de civili jure
+          <lb ed="#P" n="18"/>id suaderi potest ex dictis cap. praeced. Nam
+          <lb ed="#P" n="19"/>finis potestatis civilis est pax et felicitas 
+          tem<lb break="no" ed="#P" n="20"/>poralis reipublicae humanae: ergo solum 
+          po<lb break="no" ed="#P" n="21"/>test leges ferre ad pacem hanc et felicitatem
+          <lb ed="#P" n="22"/>conservandam; sed hujusmodi est materia 
+          jus<lb break="no" ed="#P" n="23"/>titiae et non aliarum virtutum; ergo tantum
+          <lb ed="#P" n="24"/>in illa materia potest leges ferre. Minor sumi
+          <lb ed="#P" n="25"/>potest ex Aug. lib. 2 de Civ., cap. 21, ubi ex
+          <lb ed="#P" n="26"/>Ciceron. refert concordiam esse arctissimum
+          <lb ed="#P" n="27"/>atque optimun in omni republica vinculum 
+          in<lb break="no" ed="#P" n="28"/>columnitatis, eamque sine justitia nullo pacto
+          <lb ed="#P" n="29"/>esse posse, significans cum illa esse posse, et
+          <lb ed="#P" n="30"/>illam solam sufficere ad illum finem. Quod
+          <lb ed="#P" n="31"/>etiam colligitur ex definitione populi, quam
+          <lb ed="#P" n="32"/>ex eodem refert, scilicet, populum esse cetum
+          <lb ed="#P" n="33"/>juris consensu, et utilitatis communione 
+          socia<lb break="no" ed="#P" n="34"/>tuin : nam hoc totum habebit populus si 
+          justi<lb break="no" ed="#P" n="35"/>tia inter cives servetur : ergo illa sola est 
+          pro<lb break="no" ed="#P" n="36"/>pria materia legis civilis. Hoc item videtur
+          <lb ed="#P" n="37"/>suadere usus legum civilium : semper enim
+          <lb ed="#P" n="38"/>versantur in materia justitiae, et de aliis non
+          <lb ed="#P" n="39"/>disponunt nisi in ordine ad aequitatem inter
+          <lb ed="#P" n="40"/>cives servandam, et ut occasiones 
+          injuria<lb break="no" ed="#P" n="41"/>rum evitentur. Argumento l. Zac lege, C. de
+          <lb ed="#P" n="42"/>pact. convent. ibi: Quamvis enim bomum erat,
+          <lb ed="#P" n="43"/>mulierem, que seipsam marito committit, ves
+          <lb ed="#P" n="44"/>etiam ejusdem pari arbitrio gubernari - 
+          atta<lb break="no" ed="#P" n="45"/>men quoniaum conditores legum equitatis 
+          con<lb break="no" ed="#P" n="46"/>cenit esse fautores, nullo modo volumus, etc.
+        </p>
+        <p xml:id="szdleg-a54491-d1e378">
+          <lb ed="#P" n="47"/>4. Conclusio. — Legem civilem solum versari
+          <lb ed="#P" n="48"/>in materia honesta, vel precipiendo honestum,
+          <lb ed="#P" n="49"/>vel prohibendo malum, vel illud non 
+          praecipien<lb break="no" ed="#P" n="50"/>do. — Ratio a priori.— Prior ex his sententiis
+          <lb ed="#P" n="51"/>omnino falsa et erronea est : unde dicendum
+          <lb ed="#P" n="52"/>primo est leges civiles solum posse versari in
+          <lb ed="#P" n="53"/>materia honesta cum proportione, id est, vel
+          <lb ed="#P" n="54"/>praecipiendo honestum, vel prohibendo quod
+          <lb ed="#P" n="55"/>malum est, vel saltem illud non praecipiendo:
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>loquor autem de potestate juris, non facti:
+          <lb ed="#P" n="57"/>nam per errorem saepe magistratus civilis 
+          po<lb break="no" ed="#P" n="58"/>test praecipere aliquid injustum, vel illicitum:
+          <lb ed="#P" n="59"/>jure tamen non poxest : nec tale praeceptum
+          <lb ed="#P" n="60"/>poterit veram rationem legis habere, quia lex
+          <lb ed="#P" n="61"/>injusta vel turpis non est lex, ut supra l. 1
+          <lb ed="#P" n="62"/>dictum est cum August., 1. 1 de libero 
+          Arbi<lb break="no" ed="#P" n="63"/>trio, cap. 5. Vera ergo lex civilis non potest
+          <lb ed="#P" n="64"/>esse de turpi : ratio a priori est, quia lex 
+          na<lb break="no" ed="#P" n="65"/>turalis prohibet quidquid est turpe: lex autem
+          <lb ed="#P" n="66"/>civilis non potest legem naturalem auferre,
+          <lb ed="#P" n="67"/>nec homo potest simul obligari legibus 
+          con<lb break="no" ed="#P" n="68"/>trariis : ergo impossibile est ut talis lex civilis
+          <lb ed="#P" n="69"/>sit vera lex, aut obliget. Major constat ex 
+          dic<lb break="no" ed="#P" n="70"/>tis lib. 2 : minor quoad posteriorem partem
+          <lb ed="#P" n="71"/>per se nota est. Quoad priorem vero constat,
+          <lb ed="#P" n="72"/>tumn quia inferior non potest abrogare legem
+          <lb ed="#P" n="73"/>superioris, nec illi derogare : unde jus 
+          praeto<lb break="no" ed="#P" n="74"/>rium in jure civili non valet contra jus 
+          impe<lb break="no" ed="#P" n="75"/>ratoris, 1. 2, C. de offic. Praefecti Praetor.
+          <lb ed="#P" n="76"/>Orient., et in universum lex inferioris non 
+          va<lb break="no" ed="#P" n="77"/>let contra legem imperatoris, 1. Cajfa, C. de
+          <lb ed="#P" n="78"/>Sacros. Eccles. : ergo nec lex imperatoris aut
+          <lb ed="#P" n="79"/>regis valere potest contra legem Dei, ut recte
+          <lb ed="#P" n="80"/>colligit Augustinus serm. 6 de Verbis Domini,
+          <lb ed="#P" n="81"/>et Epistola 106, et habetur in c. Qui resistit,
+          <lb ed="#P" n="82"/>cum sequentib. 11, q. 3; cum ergo lex 
+          natu<lb break="no" ed="#P" n="83"/>ralis sit lex Dei, ut supra ostensum est, non
+          <lb ed="#P" n="84"/>potest lex civilis contra illam praevalere : debet
+          <lb ed="#P" n="85"/>ergo esse de re honesta, seu consentanea 
+          ra<lb break="no" ed="#P" n="86"/>tioni naturali, alias lex non erit.
+        </p>
+        <p xml:id="szdleg-a54491-d1e469">
+          <lb ed="#P" n="87"/>5. Addo rationem hanc concludere de om-,
+          <lb ed="#P" n="88"/>nibus actibus seu materiis contrariis legi 
+          di<lb break="no" ed="#P" n="89"/>vinae, etiam supernaturali, vel etiam canonicae,
+          <lb ed="#P" n="90"/>ut infra dicemus. In omnibus enim vera est
+          <lb ed="#P" n="91"/>illa sententia Apostolorum Actor. 5: Obedire
+          <lb ed="#P" n="92"/>oportet Deo magis quam hominibus, sive Deus
+          <lb ed="#P" n="93"/>per lumen rationis, sive per lumen fidei 
+          lo<lb break="no" ed="#P" n="94"/>quatur : nam Apostoli de negotio fidei et 
+          reli<lb break="no" ed="#P" n="95"/>gionis christianae potissime loquebantur. Quam
+          <lb ed="#P" n="96"/>veritatem tam manifestam esse supponebant,
+          <lb ed="#P" n="97"/>ut judicium illius adversariis committerent
+          <lb ed="#P" n="98"/>c. 4 dicentes : Si justum est in conspectu Dei
+          <lb ed="#P" n="99"/>vos potius audire quam Deum, judicate. Unde
+          <lb ed="#P" n="100"/>constat politicos qui doctrinam illam suadent
+          <lb ed="#P" n="101"/>principibus secularibus, si sentiant id eis licere
+          <lb ed="#P" n="102"/>et jure posse talia ferre praecepta quae sint
+          <lb ed="#P" n="103"/>contraria religioni verae (de his enim legibus
+          <lb ed="#P" n="104"/>illi potissimum loquebantur), haereticos esse,
+          <lb ed="#P" n="105"/>vel certe atheos, quod verisimilius est. Nam
+          <lb ed="#P" n="106"/>qui credit Deum esse non potest non credere
+          <lb ed="#P" n="107"/>praecepta ejus esse praeferenda mandatis 
+          ho<lb break="no" ed="#P" n="108"/>minum, cum Dei jurisdictio sit longe superior.
+          <lb ed="#P" n="109"/>De quo videri possunt multa apud Gratian. 11,
+          <lb ed="#P" n="110"/>q. 3, et optime Urban. Papa in cap. ult. 15,
+          <pb ed="#P" n="217"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>q. 6; Bernard. de Praecep. et disp. et Epist. 7;
+          <lb ed="#P" n="2"/>et Basil. Regul. 114 ex brevior. Quod autem
+          <lb ed="#P" n="3"/>politici dicunt, non posse rempublicam 
+          tem<lb break="no" ed="#P" n="4"/>poralem vel regnum temporale conservari si
+          <lb ed="#P" n="5"/>in omnibus regulam honestatis aut divinae 
+          le<lb break="no" ed="#P" n="6"/>gis sequatur, omnino falsum est; nam si 
+          lo<lb break="no" ed="#P" n="7"/>quamur de honestate naturali, potius illa 
+          ne<lb break="no" ed="#P" n="8"/>cessaria est ad pacem et felicitatem politicam
+          <lb ed="#P" n="9"/>reipublicae humanae, ut etiam ipsa jura civilia
+          <lb ed="#P" n="10"/>fatentur, quae statim referemus. Si vero sit
+          <lb ed="#P" n="11"/>sermo de integritate fidei et religionis, ipsa
+          <lb ed="#P" n="12"/>experientia constat nulla re melius conservari
+          <lb ed="#P" n="13"/>regna, etiam in temporali felicitate, quam
+          <lb ed="#P" n="14"/>obedientia et conservatione catholicae fidei ac
+          <lb ed="#P" n="15"/>religionis, de quo argumento videri possunt
+          <lb ed="#P" n="16"/>quae copiose scribit Bozius de Signis Eccles.,
+          <lb ed="#P" n="17"/>praecipue libro 11 et seq.; Bellarm. libro 4 de
+          <lb ed="#P" n="18"/>Notis Eccl., c. 17 et 18; et Petr. Ribaden. 1.1
+          <lb ed="#P" n="19"/>de Princ. Christ. c. 13 et sequent., et fere per
+          <lb ed="#P" n="20"/>totum illud opus prudenter satis ac erudite.
+          <lb ed="#P" n="21"/>6. Aliud praecipere iniquum, aliud 
+          permit<lb break="no" ed="#P" n="22"/>tere ; hoc interdum faciunt leges, non vero illud.
+          <lb ed="#P" n="23"/>— Hhplicantur aliquot leges. — Nullum ergo
+          <lb ed="#P" n="24"/>est illius erroris fundamentum. Ad illud autem
+          <lb ed="#P" n="25"/>quod ex usu legum civilium afferebatur, 
+          di<lb break="no" ed="#P" n="26"/>cendum est imprimis nihil esse in legibus ibi
+          <lb ed="#P" n="27"/>citatis quod directe adversetur aequitati 
+          natu<lb break="no" ed="#P" n="28"/>rali vel honestati, quod late tractat Fortun. in
+          <lb ed="#P" n="29"/>dicto tr. de ult. fine, vindicans jus civile ab
+          <lb ed="#P" n="30"/>hac nota. Pro his vero quae adduximus, 
+          gene<lb break="no" ed="#P" n="31"/>ralis regula notanda est, aliud esse praecipere
+          <lb ed="#P" n="32"/>iniquum, aliud permittere, aut non punire vel
+          <lb ed="#P" n="33"/>non rescindere quod male factum est; leges
+          <lb ed="#P" n="34"/>ergo civiles non praecipiunt iniqua; interdum
+          <lb ed="#P" n="35"/>vero permittunt aut tolerant, ad majora mala
+          <lb ed="#P" n="36"/>vitanda, ut late explicat Barbosa, ff.Solut.Matr.
+          <lb ed="#P" n="37"/>in rubr. p. 2, et n. 10 et sequent. mox 
+          dice<lb break="no" ed="#P" n="38"/>mus. Primo igitur in dictal. Dolo datur actio in
+          <lb ed="#P" n="39"/>jure civili, non obstante dolo, in contractibus
+          <lb ed="#P" n="40"/>stricti juris, non quia jus approbet, sed quia
+          <lb ed="#P" n="41"/>vult judicari de illo per praetorem, et ita 
+          con<lb break="no" ed="#P" n="42"/>cedit exceptionem doli, quod malum non est,
+          <lb ed="#P" n="43"/>et potest esse utile reipublica : nihilominus
+          <lb ed="#P" n="44"/>tamen qui fecit dolum, in conscientia tenebitur
+          <lb ed="#P" n="45"/>abstinere. Ad secundum vero, de actione 
+          pu<lb break="no" ed="#P" n="46"/>bliciana de qua loquitur 8 Namque, negatur
+          <lb ed="#P" n="47"/>illam esse actionem fraudulentam, quia et sine
+          <lb ed="#P" n="48"/>mendacio proponi potest, ubi Glossa late, verbo
+          <lb ed="#P" n="49"/>Dicit, et bonam fidem requirit, ut late Covar.
+          <lb ed="#P" n="50"/>in regula Possessor, 2 part., S 11, n. 6; ubi
+          <lb ed="#P" n="51"/>ostendit etiam jure canonico esse receptam.
+          <lb ed="#P" n="52"/>Ad tertium, ex l. Pacisci responderi posset
+          <lb ed="#P" n="53"/>illam esse permissionem quamdam; verius 
+          ta<lb break="no" ed="#P" n="54"/>men dicitur pactum de quo ibi est sermo, 
+          lici<lb break="no" ed="#P" n="55"/>tum esse, ut quod emptor cum venditore con-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>veniat ut de vitiis rei venditae non teneatur,
+          <lb ed="#P" n="57"/>nec possit moveri quaestio: hoc enim emptori
+          <lb ed="#P" n="58"/>licet, cum per hoc renuntiet juri suo; ex parte
+          <lb ed="#P" n="59"/>autem vendentis necessaria erit bona fides
+          <lb ed="#P" n="60"/>non solum ex jure naturali, sed etiam ex civili,
+          <lb ed="#P" n="61"/>ut ibi notat Glossa. Ad quartum, de 
+          praescrip<lb break="no" ed="#P" n="62"/>tione, respondetur necessariam esse bonam
+          <lb ed="#P" n="63"/>fidem, etiam secundum posteriora jura civilia.
+          <lb ed="#P" n="64"/>Neque potuerunt unquam jura civilia securum
+          <lb ed="#P" n="65"/>reddere in conscientia possessorem malae fidei,
+          <lb ed="#P" n="66"/>sed ad summum potuerunt non admittere
+          <lb ed="#P" n="67"/>contra illum actionem, aut litem : et idem cum
+          <lb ed="#P" n="68"/>proportione dicendum est de omnibus aliis
+          <lb ed="#P" n="69"/>casibus in quibus jus civile dicitur non 
+          proce<lb break="no" ed="#P" n="70"/>dere in foro animae. In quo etiam est 
+          conside<lb break="no" ed="#P" n="71"/>randum quod , licet magistratus civilis non
+          <lb ed="#P" n="72"/>teneatur semper cavere pericula peccatorum,
+          <lb ed="#P" n="73"/>interdum tamen posse excedere, ferendo leges,
+          <lb ed="#P" n="74"/>quae, licet de peccatis non sint, pericula illorum
+          <lb ed="#P" n="75"/>involvant, vel illis aliquomodo favere vel 
+          oc<lb break="no" ed="#P" n="76"/>casionem praebere videantur: et in his casibus
+          <lb ed="#P" n="77"/>solent leges canonicae corrigere civiles, ut 
+          in<lb break="no" ed="#P" n="78"/>fra videbimus: ille vero defectus est personae,
+          <lb ed="#P" n="79"/>non officii; et prudentiae, non potestatis : nam
+          <lb ed="#P" n="80"/>lex civilis, si prudenter feratur, non modo
+          <lb ed="#P" n="81"/>non debet praecipere turpe, verum etiam nec
+          <lb ed="#P" n="82"/>morale periculum peccandi dare. Quomodo
+          <lb ed="#P" n="83"/>autem lex possit indifferentia praecipere, 
+          di<lb break="no" ed="#P" n="84"/>cam in fine capitis.
+        </p>
+        <p xml:id="szdleg-a54491-d1e712">
+          <lb ed="#P" n="85"/>7. Leges civiles posse precipere recta in 
+          om<lb break="no" ed="#P" n="86"/>nibus virtutibus, et opposita illis vetare.—
+          Pla<lb break="no" ed="#P" n="87"/>to duos bonorum ordines distinguit. — Dico
+          <lb ed="#P" n="88"/>secundo : Leges civiles non solum praecipiunt
+          <lb ed="#P" n="89"/>recta in materia justitiae, sed etiam in 
+          mate<lb break="no" ed="#P" n="90"/>ria aliarum virtutum moralium, et similiter
+          <lb ed="#P" n="91"/>vetare possunt vitia contra omnes virtutes.
+          <lb ed="#P" n="92"/>Haec enim duo eamdem semper rationem seu
+          <lb ed="#P" n="93"/>proportionem servant, quia facere bonum et
+          <lb ed="#P" n="94"/>vitare malum partes sunt justitiae non tantum
+          <lb ed="#P" n="95"/>particularis, sed etiam generalis. Haec assertio
+          <lb ed="#P" n="96"/>sumitur ex D. Thoma, q. 95, a. 3, et ubi de
+          <lb ed="#P" n="97"/>lege humana in communi loquitur ; praecipue
+          <lb ed="#P" n="98"/>vero id docet propter civilem , nam de 
+          cano<lb break="no" ed="#P" n="99"/>nica nulla poterat esse dubitatio, et ita 
+          confir<lb break="no" ed="#P" n="100"/>mat assertionem ex Aristot. 5 Eth. c. 1 
+          di<lb break="no" ed="#P" n="101"/>cente : 7pse autem leges de omnibus dictant,
+          <lb ed="#P" n="102"/>conjectantes communem utilitatem; et infra:
+          <lb ed="#P" n="103"/>Precipit uutem lex et ea agere quae ad virum
+          <lb ed="#P" n="104"/>pertinent fortem, ut non deserere locum in acie,
+          <lb ed="#P" n="105"/>non fugere, non abjicere arma. Et item ea que
+          <lb ed="#P" n="106"/>sunt temperantis, ut non adulterari, non 
+          libi<lb break="no" ed="#P" n="107"/>dine uti. Ft illa etiam que sunt materia justi,
+          <lb ed="#P" n="108"/>ut non pulsare, non convicia dicere, et in 
+          cete<lb break="no" ed="#P" n="109"/>ris virtutibus atque vitiis, alia jubens, alia 
+          ve<lb break="no" ed="#P" n="110"/>tans. Plato etiam 1 de Legibus duos ordines
+          <pb ed="#P" n="218"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bonorum distinguit; priora vocat divina, 
+          pos<lb break="no" ed="#P" n="2"/>teriora humana: et in prioribus ponit quatuor
+          <lb ed="#P" n="3"/>virtutes cardinales, in posterioribus bona 
+          for<lb break="no" ed="#P" n="4"/>tunae et corporis, et priora dicit esse 
+          praefe<lb break="no" ed="#P" n="5"/>renda, eorumque ordinem ac connexionem
+          <lb ed="#P" n="6"/>declarat, et subjungii: Quare oportet ut legum
+          <lb ed="#P" n="7"/>quogue lator et ipse hunc ordinem sequatur, et
+          <lb ed="#P" n="8"/>mandet omnibus ut semper hec ipsa 
+          respicien<lb break="no" ed="#P" n="9"/>tes in singulis operentur. Idem profitentur 
+          auc<lb break="no" ed="#P" n="10"/>tores legum civilium : nam in l. 1, ff. de 
+          Jus<lb break="no" ed="#P" n="11"/>titia et jur., ait Ulpianus : Justitiam 
+          coli<lb break="no" ed="#P" n="12"/>mus, etc. Declarat autem se loqui non tantum
+          <lb ed="#P" n="13"/>de peculiari justitia, sed de generali, quae 
+          respi<lb break="no" ed="#P" n="14"/>cit justum legitimum (ut Aristoteles supra 
+          lo<lb break="no" ed="#P" n="15"/>quitur); unde subjungit Ulpianus : Zquum ab
+          <lb ed="#P" n="16"/>iniquo separantes, licitum ab illicito 
+          discernen<lb break="no" ed="#P" n="17"/>tes. bonos efficere cupientes, et infra in l. 
+          Jus<lb break="no" ed="#P" n="18"/>litia, et in S Puris, Instit. eod. dicitur : Juris
+          <lb ed="#P" n="19"/>preecepta sunt heec, honeste vivere, alterum non
+          <lb ed="#P" n="20"/>ledere, suum cuique tribuere ; ex quibus 
+          pri<lb break="no" ed="#P" n="21"/>mum latius patet quam particularis justitia.
+          <lb ed="#P" n="22"/>S. Potestas legislativa non potest assequi
+          <lb ed="#P" n="23"/>suun finem, nisi in materia omnium virtutum
+          <lb ed="#P" n="24"/>praecipiat. — Leges civiles intendunt cives 
+          fa<lb break="no" ed="#P" n="25"/>cere bonos viros, quia non possunt aliter facere
+          <lb ed="#P" n="26"/>Lonos cives. — Ratio propria est, quia potestas
+          <lb ed="#P" n="27"/>legislativa civitatis non potest assequi finem
+          <lb ed="#P" n="28"/>suum, nisi in materia omnium virtutum 
+          prae<lb break="no" ed="#P" n="29"/>cipiat. Quod ut declarem, suppono primo 
+          ser<lb break="no" ed="#P" n="30"/>monem hic esse de virtutibus moralibus; nam
+          <lb ed="#P" n="31"/>de theologalibus nihil agnoscit naturalis 
+          ra<lb break="no" ed="#P" n="32"/>tio, in qua leges civiles fundantur ; quanquam
+          <lb ed="#P" n="33"/>eo modo, quo potest esse in natura aliqua 
+          re<lb break="no" ed="#P" n="34"/>mota imitatio illarum virtutum, illa etiam
+          <lb ed="#P" n="35"/>posset per leges civiles in officio contineri, ut
+          <lb ed="#P" n="36"/>ex dicendis constabit. De virtutibus ergo 
+          mo<lb break="no" ed="#P" n="37"/>ralibus probatur assumptum, quia finis juris
+          <lb ed="#P" n="38"/>civilis est felicitas vera naturalis politicae 
+          civi<lb break="no" ed="#P" n="39"/>vats : haec autem obtineri non potest sine 
+          ob<lb break="no" ed="#P" n="40"/>servantia omnium virtutum moralium; ergoin
+          <lb ed="#P" n="41"/>omnibus potest praecipere jus civile. Major 
+          pa<lb break="no" ed="#P" n="42"/>tet ex dictis cap. praeced.; minor autem probari
+          <lb ed="#P" n="43"/>posset ex dictis l. 1, c. 15, ubi ostendimus 
+          le<lb break="no" ed="#P" n="44"/>ges civiles intendere cives facere bonos viros,
+          <lb ed="#P" n="45"/>quia non possunt aliter facere bonos cives.
+          <lb ed="#P" n="46"/>Ulterius vero potest idem probari inductione.
+          <lb ed="#P" n="47"/>Quia enim necessitas justitiae per se clara est,
+          <lb ed="#P" n="48"/>ideo in illa materia multiplicantur magis leges
+          <lb ed="#P" n="49"/>civiles. Temperantia vero etiam est necessaria,
+          <lb ed="#P" n="50"/>ne natura ipsa nimium corrumpatur, aut 
+          con<lb break="no" ed="#P" n="51"/>servatio, vel propagatio ejus impediatur ; 
+          cu<lb break="no" ed="#P" n="52"/>jus rei cura etiam spectat ad leges civiles ; et
+          <lb ed="#P" n="53"/>hac ratione prohibent ac puniunt leges civiles
+          <lb ed="#P" n="54"/>vitia contra naturam ; possunt etiam 
+          prohibe<lb break="no" ed="#P" n="55"/>re nimium abusum ciborum, vel in eis men-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>suram et modum ponere. Fortitudo etiam est
+          <lb ed="#P" n="57"/>necessaria ad defensionem reipublicae, ut de
+          <lb ed="#P" n="58"/>se constat. De prudentia vero non videntur
+          <lb ed="#P" n="59"/>dari speciales leges distinctae a legibus de 
+          ac<lb break="no" ed="#P" n="60"/>tibus aliarum virtutum moralium, quia 
+          prn<lb break="no" ed="#P" n="61"/>dentia per se non operatur bene vel moraliter
+          <lb ed="#P" n="62"/>sine virtutibus moralibus voluntatis; tamen,
+          <lb ed="#P" n="63"/>quia aliae virtutes morales non operantur sine
+          <lb ed="#P" n="64"/>prudentia, ideo leges de aliis virtutibus simul
+          <lb ed="#P" n="65"/>sunt de usu prudentiae.
+        </p>
+        <p xml:id="szdleg-a54491-d1e918">
+          <lb ed="#P" n="66"/>9. Omnes virtutes morales aut sunt ad 
+          alte<lb break="no" ed="#P" n="67"/>rum hominem, aut ad se, aut ad Deum, et 
+          se<lb break="no" ed="#P" n="68"/>cundum omnes hos respectus potest praecipere
+          <lb ed="#P" n="69"/>lea civilis.—Alio item modo potest haec 
+          induc<lb break="no" ed="#P" n="70"/>tio fieri, quia omnes virtutes morales aut sunt ad
+          <lb ed="#P" n="71"/>alterum hominem, aut sunt ad se, aut ad Deum;
+          <lb ed="#P" n="72"/>leges autem civiles secundum omnes hos 
+          res<lb break="no" ed="#P" n="73"/>pectus praecipere possunt. Primo quidem, et
+          <lb ed="#P" n="74"/>maxime in ordine ad alterum, quod quidem
+          <lb ed="#P" n="75"/>possunt facere non solum ubi est debitum 
+          jus<lb break="no" ed="#P" n="76"/>titiae, sed etiam ubi debitum fidelitatis, aut
+          <lb ed="#P" n="77"/>simplicis promissionis intervenit : nam hcet
+          <lb ed="#P" n="78"/>seepe id non faciant, tamen non est extra 
+          po<lb break="no" ed="#P" n="79"/>testatem earum, quia etiam observatio 
+          fideli<lb break="no" ed="#P" n="80"/>tatis valde conveniens est ad concordiam 
+          ci<lb break="no" ed="#P" n="81"/>vium: unde in multis casibus de illa disponunt.
+          <lb ed="#P" n="82"/>Item etiam respiciunt debitum gratitudinis, et
+          <lb ed="#P" n="83"/>propter ingratitudinem privant multis 
+          com<lb break="no" ed="#P" n="84"/>modis ob eamdem causam. Opera etiam 
+          elee<lb break="no" ed="#P" n="85"/>mosynae, et communis amicitiae, seu 
+          dilectio<lb break="no" ed="#P" n="86"/>nis ad proximum, et maxime ubi intervenit
+          <lb ed="#P" n="87"/>necessitas communis, praecipere possunt, et sic
+          <lb ed="#P" n="88"/>de aliis. Secundo. ex virtutibus adse praecipere
+          <lb ed="#P" n="89"/>possunt observationem temperantiae et 
+          fortitu<lb break="no" ed="#P" n="90"/>dinis modo supra dicto. Possunt etiam 
+          praeci<lb break="no" ed="#P" n="91"/>pere moderationem in externis sumptibus, in
+          <lb ed="#P" n="92"/>deliciis, in cultu vestium et nimio apparatu
+          <lb ed="#P" n="93"/>domorum , ac servientium, etc. Quae omnia
+          <lb ed="#P" n="94"/>spectant ad honestatem personae in usu 
+          pro<lb break="no" ed="#P" n="95"/>priarum rerum et actionum, et necessaria 
+          pos<lb break="no" ed="#P" n="96"/>sunt esse reipublicae civili, tum propter 
+          vitan<lb break="no" ed="#P" n="97"/>dum scandalum aliorum, et ne noxiae 
+          consue<lb break="no" ed="#P" n="98"/>tudines introducantur; tum etiam ne cives
+          <lb ed="#P" n="99"/>pauperiores fiant, quod est etiam reipublicae
+          <lb ed="#P" n="100"/>noxium. Item possunt hae leges interdum 
+          im<lb break="no" ed="#P" n="101"/>perare res arduas, et pericula quae sine 
+          forti<lb break="no" ed="#P" n="102"/>tudine superari non possunt. Tertio, etiam de
+          <lb ed="#P" n="103"/>rebus pertinentibus ad Deum curam habuerunt
+          <lb ed="#P" n="104"/>leges civiles ductu naturae, quia observantiam
+          <lb ed="#P" n="105"/>religionis putarunt semper ad incolumitatem
+          <lb ed="#P" n="106"/>reipublicae maxime pertinere : unde opinor in
+          <lb ed="#P" n="107"/>statu purae naturae, si in illo esset respublica
+          <lb ed="#P" n="108"/>verum Deum naturaliter colens, potuisse leges
+          <lb ed="#P" n="109"/>civiles prohibere et punire docentes cultum
+          <lb ed="#P" n="110"/>falsorum deorum, aut falsas opiniones de Deo,
+          <pb ed="#P" n="219"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et similia. Denique potest hoc declarari ex 
+          con<lb break="no" ed="#P" n="2"/>nexione harum moralium virtutum, quia saepe
+          <lb ed="#P" n="3"/>justitia servari non potest, nisi cohibeatur 
+          in<lb break="no" ed="#P" n="4"/>temperantia, ut patet in adulterio ; seepe etiam
+          <lb ed="#P" n="5"/>ad cavendam injustitiam necessaria est 
+          man<lb break="no" ed="#P" n="6"/>suetudo, sapientia, aut fortitudo, et sic de aliis.
+        </p>
+        <p xml:id="szdleg-a54491-d1e1035">
+          <lb ed="#P" n="7"/>10. Potest vero aliquis dubitare de 
+          quibus<lb break="no" ed="#P" n="8"/>dam virtutibus minus perfectis minusve 
+          ne<lb break="no" ed="#P" n="9"/>cessariis, ut sunt liberalitas, magnificentia, et
+          <lb ed="#P" n="10"/>similes. De actibus enim harum virtutum non
+          <lb ed="#P" n="11"/>videntur ferri posse leges ecclesiasticae, nedum
+          <lb ed="#P" n="12"/>civiles, quia necessariae non sunt, imo 
+          viden<lb break="no" ed="#P" n="13"/>tur extra ordinariae, et ex se postulare carentiam
+          <lb ed="#P" n="14"/>obligationis, quia usus earum videtur esse
+          <lb ed="#P" n="15"/>consilii potius quam necessitatis. Ad hoc vero
+          <lb ed="#P" n="16"/>responderi posset primo, assertionem seu 
+          dis<lb break="no" ed="#P" n="17"/>tributionem intelligi de virtutibus 
+          cardinali<lb break="no" ed="#P" n="18"/>bus praecipuis, quae ad communem honestatem
+          <lb ed="#P" n="19"/>necessariae sunt : nam de his maxime videntur
+          <lb ed="#P" n="20"/>loqui D. Thomas et Arist., et ordinarie 
+          viden<lb break="no" ed="#P" n="21"/>tur sufficere ad bonum regimen reipublicae.
+          <lb ed="#P" n="22"/>Dico vero ulterius, licet leges civiles ordinarie
+          <lb ed="#P" n="23"/>non praecipiant exercitium actuum talium 
+          vir<lb break="no" ed="#P" n="24"/>tutum, posse nihilominus imponere modum
+          <lb ed="#P" n="25"/>et mensuram, et hoc satis esse ut illae etiam
+          <lb ed="#P" n="26"/>virtutes sint materia legis humanae. Denique
+          <lb ed="#P" n="27"/>dico non esse impossibile inveniri casus in
+          <lb ed="#P" n="28"/>quibus tales actus sint necessarii, aut valde
+          <lb ed="#P" n="29"/>convenientes ad commune bonum reipublicae,
+          <lb ed="#P" n="30"/>et hoc satis esse ut aliquando, licet rarissime,
+          <lb ed="#P" n="31"/>praecipi possint.
+        </p>
+        <p xml:id="szdleg-a54491-d1e1092">
+          <lb ed="#P" n="32"/>11. Tertia conclusio.—bLeges civiles non posse
+          <lb ed="#P" n="33"/>ferri de omnibus actibus omnium et singularum
+          <lb ed="#P" n="34"/>virtutumn.—Clertio, dicendum est leges civiles
+          <lb ed="#P" n="35"/>non posse ferri de omnibus actibus omnium et
+          <lb ed="#P" n="36"/>singularum virtutum. Hoc etiam docet D. 
+          Tho<lb break="no" ed="#P" n="37"/>mas dicto articulo tertio, et constat facile 
+          in<lb break="no" ed="#P" n="38"/>ductione. Non enim potest praecipi virginitas,
+          <lb ed="#P" n="39"/>etiamsi optimus actus virtutis sit, et idem est
+          <lb ed="#P" n="40"/>de aliis actibus, qui proprie dicuntur 
+          consilio<lb break="no" ed="#P" n="41"/>rum. Item de actibus difficillimis, quando ad
+          <lb ed="#P" n="42"/>commune bonum reipublicae civilis non sunt
+          <lb ed="#P" n="43"/>simpliciter necessarii, ut esset verbi gratia,
+          <lb ed="#P" n="44"/>frequenter jejunare, et similia : ratio autem
+          <lb ed="#P" n="45"/>est, tum quia lex humana debet esse moderata,
+          <lb ed="#P" n="46"/>et de re moraliter possibili universae 
+          commu<lb break="no" ed="#P" n="47"/>nitati pro majori parte, ut libro secundo in
+          <lb ed="#P" n="48"/>communi ostensum est; tum maxime quia ad
+          <lb ed="#P" n="49"/>finem legis humanae non sunt necessarii 
+          om<lb break="no" ed="#P" n="50"/>nes actus virtutum omnium; mensura. autem
+          <lb ed="#P" n="51"/>potestatis ex fine illius sumenda est.
+        </p>
+        <p xml:id="szdleg-a54491-d1e1139">
+          <lb ed="#P" n="52"/>12. Non potest lex civilis prohibere omnia
+          <lb ed="#P" n="53"/>vitia contra omnes virtutes. — Et ob eamdem
+          <lb ed="#P" n="54"/>rationem non potest lex civilis prohibere 
+          om<lb break="no" ed="#P" n="55"/>nia vitia contra omnes virtutes, ut simplicem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>fornicationem non scandalosam, nec aliter
+          <lb ed="#P" n="57"/>nocivam communitati. Imo nec in materia
+          <lb ed="#P" n="58"/>justitiae prohibet omnia, ut deceptionem in
+          <lb ed="#P" n="59"/>emptione citra dimidiam, vel sine enormi 
+          lae<lb break="no" ed="#P" n="60"/>sione, et similia. Quod etiam tradit D. Thomas
+          <lb ed="#P" n="61"/>d. q. 96, art. 2, cum August. 1. 1, de libero
+          <lb ed="#P" n="62"/>Arbit., cap. 5, et optimam rationem indicat,
+          <lb ed="#P" n="63"/>quia cavere omnia vitia non est omnium, nec
+          <lb ed="#P" n="64"/>multorum, sed perfectorum: lex autem civilis
+          <lb ed="#P" n="65"/>esse debet accommodata communitati humanae
+          <lb ed="#P" n="66"/>secundum naturalem conditionem spectatae, et
+          <lb ed="#P" n="67"/>ideo per leges civiles non prohibentur omnia
+          <lb ed="#P" n="68"/>vitia: sicut etiam potestas coactiva civilis non
+          <lb ed="#P" n="69"/>extend:tur ad omnia, quia hoc esset supra 
+          con<lb break="no" ed="#P" n="70"/>ditionem humanam ; et propter hoc etiam 
+          dixi<lb break="no" ed="#P" n="71"/>mus lib. 1, cap. 15, legem civilem, licet 
+          in<lb break="no" ed="#P" n="72"/>tendat facere hominem bonum moraliter, non
+          <lb ed="#P" n="73"/>tamen simpliciter bonum in illo genere, quia
+          <lb ed="#P" n="74"/>non est talis, nisi careat omnibus vitiis, quod
+          <lb ed="#P" n="75"/>lex civilis efficaciter non potest intendere, licet
+          <lb ed="#P" n="76"/>possit consulere.
+        </p>
+        <p xml:id="szdleg-a54491-d1e1198">
+          <lb ed="#P" n="77"/>13. Explicatur sententia dicentium, solum
+          <lb ed="#P" n="78"/>illum actum posse esse materiam legis humanee
+          <lb ed="#P" n="79"/>qui est materia legis naturalis vel divine. —
+          <lb ed="#P" n="80"/>Sed forte quaerat aliquis quinam sint actus
+          <lb ed="#P" n="81"/>uniuscujusque virtutis aut vitii quos lex civilis
+          <lb ed="#P" n="82"/>potest vel non potest praecipere, vel prohibere.
+          <lb ed="#P" n="83"/>Quidam dixerunt solum illum actum esse posse
+          <lb ed="#P" n="84"/>materiam legis humanae, qui est materia legis
+          <lb ed="#P" n="85"/>naturalis, vel divinae. Quod quidem duplicem
+          <lb ed="#P" n="86"/>potest habere sensum ; unus est, legem 
+          huma<lb break="no" ed="#P" n="87"/>nam nihil posse praecipere nisi quod est aliqua
+          <lb ed="#P" n="88"/>lege naturali vel divina praeceptum, ita ut
+          <lb ed="#P" n="89"/>humana lex solum sit nova explicatio, et 
+          pro<lb break="no" ed="#P" n="90"/>positio legis naturalis aut divinae, et in hoc
+          <lb ed="#P" n="91"/>sensu solet haec sententia Gersoni tribui, sed
+          <lb ed="#P" n="92"/>quid ille senserit postea videbimus ; nunc dico
+          <lb ed="#P" n="93"/>explicationem hanc in illo sensu esse 
+          erro<lb break="no" ed="#P" n="94"/>neam et conformem doctrinae haereticorum
+          <lb ed="#P" n="95"/>hujus temporis: evertet enim veram potestatem
+          <lb ed="#P" n="96"/>civilem legislativam supra demonstratam.ltem
+          <lb ed="#P" n="97"/>corstat ex usu humanarum legum, multa per
+          <lb ed="#P" n="98"/>eas praecipi quae antea non erant necessaria:
+          <lb ed="#P" n="99"/>unde etiam Arist., 5 Ethic., cap. 7, dixit 
+          jus<lb break="no" ed="#P" n="100"/>tum legitimum, esse, quod a principio quidem
+          <lb ed="#P" n="101"/>nihl refert, sic an aliter habeat, cum vero 
+          po<lb break="no" ed="#P" n="102"/>situm fuerit, refert. Idque ex dicendis infra
+          <lb ed="#P" n="103"/>de obligatione legis civilis magis patebit.
+        </p>
+        <p xml:id="szdleg-a54491-d1e1259">
+          <lb ed="#P" n="104"/>14. Alio ergo modo posset illa regula 
+          expli<lb break="no" ed="#P" n="105"/>cari, videlicet, solum illum actum virtutis
+          <lb ed="#P" n="106"/>posse praecipi per legem humanam, quia cadit
+          <lb ed="#P" n="107"/>sub legem naturalem sub aliqua ratione 
+          gene<lb break="no" ed="#P" n="108"/>rali, ita ut a lege naturali praecipiatur saltem
+          <lb ed="#P" n="109"/>in communi: per humanam autem 
+          determi<lb break="no" ed="#P" n="110"/>netur ad aliquem particularem modum, aut
+          <pb ed="#P" n="220"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>alias circumstantias, quae non cadebant sub
+          <lb ed="#P" n="2"/>legem divinam, per naturalem : et hic sensus
+          <lb ed="#P" n="3"/>insinuatur a Gersone 3 part. alph., litt. G et
+          <lb ed="#P" n="4"/>seq.. videturque probabilis: nam si fiat 
+          in<lb break="no" ed="#P" n="5"/>ductio, fere omnes leges humanae invenientur
+          <lb ed="#P" n="6"/>esse hujusmodi, sicut in ecclesiasticis legibus,
+          <lb ed="#P" n="7"/>quia lex divina praecipit confessionem et 
+          com<lb break="no" ed="#P" n="8"/>munionem: lex ecclesiastica praecipit ut tali
+          <lb ed="#P" n="9"/>tempore fiat. Sic ergo in civilibus, quia jus
+          <lb ed="#P" n="10"/>naturae praecipit Dei cultum, vel honorare 
+          pa<lb break="no" ed="#P" n="11"/>rentes, vel servare aequitatem in rebus: lex
+          <lb ed="#P" n="12"/>humana determinat ut haec fiant tali tempore,
+          <lb ed="#P" n="13"/>vel tali modo. Ea vero quae tantum sunt 
+          su<lb break="no" ed="#P" n="14"/>pererogationis ex vi legis divinae vel naturalis,
+          <lb ed="#P" n="15"/>non possunt praecipi per legem civilem, quia
+          <lb ed="#P" n="16"/>non recipiunt talem determinationem.
+        </p>
+        <p xml:id="szdleg-a54491-d1e1316">
+          <lb ed="#P" n="17"/>15. Praedicta regula, licel vera, non tamem
+          <lb ed="#P" n="18"/>omnino satisfaciens. — Sed licet haec regula
+          <lb ed="#P" n="19"/>ordinarie vera sit, tamen non omnino 
+          satisfa<lb break="no" ed="#P" n="20"/>cit, quia illa etiam quae generatim praecepta
+          <lb ed="#P" n="21"/>sunt lege divina vel naturali possunt variis
+          <lb ed="#P" n="22"/>modis magis vel minus perfectis 
+          determi<lb break="no" ed="#P" n="23"/>nari, et lex humana non potest praecipere
+          <lb ed="#P" n="24"/>quamcumque determinationem , ut 
+          tempe<lb break="no" ed="#P" n="25"/>rantiam per jejunium in pane et aqua, vel
+          <lb ed="#P" n="26"/>quid simile; ergo alia regula necessaria est ad
+          <lb ed="#P" n="27"/>discernendum quis modus observari possit ac
+          <lb ed="#P" n="28"/>debeat in hac determinatione legis naturalis
+          <lb ed="#P" n="29"/>aut divinae : et praeterea positivum praeceptum
+          <lb ed="#P" n="30"/>non semper est per modum determinationis
+          <lb ed="#P" n="31"/>alicujus praecepti divini, aut naturalis, solum
+          <lb ed="#P" n="32"/>quoad circumstantias, sed etiam quoad totum
+          <lb ed="#P" n="33"/>actum, quia lex humana non supponit semper
+          <lb ed="#P" n="34"/>naturale vel divinum praeceptum illius actus
+          <lb ed="#P" n="35"/>quem ipsa praecipit, sed ad summum supponit
+          <lb ed="#P" n="36"/>generalia principia, ut delicta esse punienda,
+          <lb ed="#P" n="37"/>pretia rerum debere esse justa, vel similia:
+          <lb ed="#P" n="38"/>lex autem humana, prudenti arbitrio, 
+          determi<lb break="no" ed="#P" n="39"/>nat genus poenaee, vel taxam pretii, etc. Hoc 
+          au<lb break="no" ed="#P" n="40"/>tem modo omnis operatio studiosa in particulari
+          <lb ed="#P" n="41"/>determinatur per rationem et arbitrium 
+          huma<lb break="no" ed="#P" n="42"/>num, et tamen non semper potest talis 
+          determi<lb break="no" ed="#P" n="43"/>natio fieri per legem humanam;, licet 
+          honestis<lb break="no" ed="#P" n="44"/>sime fiat, proprio arbitrio, ut per se constat.
+        </p>
+        <p xml:id="szdleg-a54491-d1e1379">
+          <lb ed="#P" n="45"/>16. Dicendum igitur censeo nullam aliam
+          <lb ed="#P" n="46"/>regulam in hoc assignari posse, praeter eam
+          <lb ed="#P" n="47"/>quae ex conditionibus legis supra in commune
+          <lb ed="#P" n="48"/>positis colligi valeat : nimirum, illum actum
+          <lb ed="#P" n="49"/>virtutis posse esse materiam legis humanae,
+          <lb ed="#P" n="50"/>qui ad bonum finem talis legis moraliter 
+          ne<lb break="no" ed="#P" n="51"/>cessarius, et al commune bonum valde utilis,
+          <lb ed="#P" n="52"/>et communitati hominum, eorumque 
+          ordina<lb break="no" ed="#P" n="53"/>riae facultati accommodatus sit : has enim 
+          con<lb break="no" ed="#P" n="54"/>ditiones diximus esse necessarias ad legem, et
+          <lb ed="#P" n="55"/>ideo ab illis ctiam sumenda est mensura, seu
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>regula materiae humanae ac civilis legis. 
+          Idem<lb break="no" ed="#P" n="57"/>que cum proportione dicendum est de 
+          prohi<lb break="no" ed="#P" n="58"/>bitione vitiorum : illa enim vetanda sunt per
+          <lb ed="#P" n="59"/>civilem legem qua communitati humanae
+          <lb ed="#P" n="60"/>noxia sunt, et cum morali utilitate reipublicae
+          <lb ed="#P" n="61"/>prohiberi possint et puniri. Quando autem 
+          vi<lb break="no" ed="#P" n="62"/>tia non sunt noxia communitati, vel ex 
+          rigo<lb break="no" ed="#P" n="63"/>rosa punitione illorum majora mala timentur,
+          <lb ed="#P" n="64"/>permittenda potius sunt quam cohibenda per
+          <lb ed="#P" n="65"/>leges civiles. Quapropter in particulari ad 
+          ap<lb break="no" ed="#P" n="66"/>plicandam hanc regulam necessaria est 
+          pru<lb break="no" ed="#P" n="67"/>dentia legislatoris : neque aliquid aliud 
+          cer<lb break="no" ed="#P" n="68"/>tum in hoc puncto dici aut affirmari posse
+          <lb ed="#P" n="69"/>existimo.
+        </p>
+        <p xml:id="szdleg-a54491-d1e1438">
+          <lb ed="#P" n="70"/>17. Superest vero difficultas de actibus 
+          in<lb break="no" ed="#P" n="71"/>differentibus : nam ex dictis sequitur non posse
+          <lb ed="#P" n="72"/>esse materiam legis humanae, nec praecipientis,
+          <lb ed="#P" n="73"/>nec vetantis. Primum patet, quia non omnes
+          <lb ed="#P" n="74"/>actus moralium virtutum per hanc legem 
+          prae<lb break="no" ed="#P" n="75"/>cipi possunt : ergo multo minus poterunt
+          <lb ed="#P" n="76"/>praecipi actus indifferentes, quia minus utiles
+          <lb ed="#P" n="77"/>sunt ad commune bonum actus indifferentes,
+          <lb ed="#P" n="78"/>quam actus boni et valde perfecti : sed hi 
+          pro<lb break="no" ed="#P" n="79"/>pter suam excellentiam non cadunt sub 
+          huma<lb break="no" ed="#P" n="80"/>nam legem ; ergo illi propter suam 
+          inutilita<lb break="no" ed="#P" n="81"/>tem non poterunt per legem civilem praecipi;
+          <lb ed="#P" n="82"/>et confirmatur, quia lex non potest praecipere
+          <lb ed="#P" n="83"/>ut isti actus fiant, manentes (ut sic dicam) in
+          <lb ed="#P" n="84"/>sua indifferentia, quia sic essent mali in 
+          indi<lb break="no" ed="#P" n="85"/>viduo; quod autem malum est, praecipi non
+          <lb ed="#P" n="86"/>potest : nec etiam potest lex praecipere ut fiant
+          <lb ed="#P" n="87"/>propter aliquem finem extrinsecum honestum;
+          <lb ed="#P" n="88"/>nam finis operationis non cadit sub praeceptum
+          <lb ed="#P" n="89"/>humanum, sed tantum operatio ipsa, ut paulo
+          <lb ed="#P" n="90"/>post dicemus. Secundum vero de lege 
+          prohi<lb break="no" ed="#P" n="91"/>bente patet, quia non potest prohiberi nisi
+          <lb ed="#P" n="92"/>malum : in his autem actibus indifferentibus
+          <lb ed="#P" n="93"/>vel nulla est malitia, vel si in individuo 
+          ah<lb break="no" ed="#P" n="94"/>quam habent ut indifferentes sunt et fiunt, illa
+          <lb ed="#P" n="95"/>est minima quae non potest prohiberi per 
+          le<lb break="no" ed="#P" n="96"/>gem humanam, cum dictum sit non posse 
+          le<lb break="no" ed="#P" n="97"/>gem humanam prohibere omnem malitiam.
+          <lb ed="#P" n="98"/>Consequens autem videtur esse contra usum
+          <lb ed="#P" n="99"/>legum humanarum, quae multa indifferentia
+          <lb ed="#P" n="100"/>vetant vel praecipiunt. Quod videtur etiam
+          <lb ed="#P" n="101"/>supponere Aristoteles in descriptione justi 
+          le<lb break="no" ed="#P" n="102"/>galis supra relata. Item hac ratione dicunt
+          <lb ed="#P" n="103"/>theologi quaedam esse mala, quia prohibita
+          <lb ed="#P" n="104"/>per legem humanam, quae per se talia non
+          <lb ed="#P" n="105"/>erant ; igitur ante legem erant indifferentia:
+          <lb ed="#P" n="106"/>nam si fuissent bona, non potuissent fieri mala
+          <lb ed="#P" n="107"/>per legem : et eadem ratione quaedam erunt
+          <lb ed="#P" n="108"/>bona quia praecepta : ergo ante praeceptum
+          <lb ed="#P" n="109"/>non sunt bona, erunt ergo indifferentia, quia
+          <lb ed="#P" n="110"/>si fuissent mala praecipi non potuissent.
+        </p>
+        <p xml:id="szdleg-a54491-d1e1530">
+          <pb ed="#P" n="221"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>18. Respondeo actum indifferentem 
+          dupli<lb break="no" ed="#P" n="2"/>citer considerari posse : primo, secundum se,
+          <lb ed="#P" n="3"/>quatenus propter se fieri vel caveri potest, et
+          <lb ed="#P" n="4"/>ut sic concedo non esse materiam legis 
+          huma<lb break="no" ed="#P" n="5"/>nae praecipientis aut vetantis, sed tantum 
+          per<lb break="no" ed="#P" n="6"/>mittentis, ut probat ratio facta. Imo sentit
+          <lb ed="#P" n="7"/>D. Thomas, quaest. 93, art. 2, nullius legis
+          <lb ed="#P" n="8"/>esse posse materiam, nisi quoad permissionem,
+          <lb ed="#P" n="9"/>quod verum est loquendo de tali actu in sua
+          <lb ed="#P" n="10"/>specie considerato, vel quantum ad suam 
+          po<lb break="no" ed="#P" n="11"/>sitivam rationem: si tamen in individuo 
+          con<lb break="no" ed="#P" n="12"/>sideretur quantum ad carentiam honesti finis,
+          <lb ed="#P" n="13"/>seu quantum ad omissionem ejus (ut sic 
+          di<lb break="no" ed="#P" n="14"/>cam), si propter se tantum fiat, sic prohibetur
+          <lb ed="#P" n="15"/>per legem naturalem, juxta doctrinam 
+          ejus<lb break="no" ed="#P" n="16"/>dem D. Thomae 1. 2, q. 48, art. 9. 
+          Verumta<lb break="no" ed="#P" n="17"/>men sub hac ratione non cadit sub prohibitione
+          <lb ed="#P" n="18"/>legis humanae, ut etiam probat ratio facta, quia
+          <lb ed="#P" n="19"/>est ex minimis de quibus lex civilis non curat.
+          <lb ed="#P" n="20"/>Alio vero modo potest considerari actus 
+          indif<lb break="no" ed="#P" n="21"/>ferens ex objecto ut utilis ad aliquod commune
+          <lb ed="#P" n="22"/>Dbonum reipublicae, vel ad vitandum grave 
+          ma<lb break="no" ed="#P" n="23"/>lum ejus, et ut sic, clarum est, posse praecipi
+          <lb ed="#P" n="24"/>aut vetari per leges civiles ; tum quia potestas
+          <lb ed="#P" n="25"/>ad aliquem finem consequenter est omnino 
+          ne<lb break="no" ed="#P" n="26"/>cessaria ad illum finem: tum etiam quia 
+          ac<lb break="no" ed="#P" n="27"/>tus indifferens sub ea ratione de se est 
+          con<lb break="no" ed="#P" n="28"/>sentaneus rationi, et honestus. Si enim actus
+          <lb ed="#P" n="29"/>indifferens ordinatus ad commoditatem naturae
+          <lb ed="#P" n="30"/>privatae personae non est otiosus, sed de se 
+          ho<lb break="no" ed="#P" n="31"/>neste fit , multo magis id habebit si propter
+          <lb ed="#P" n="32"/>commune bonum ffiat, intercedente vera 
+          ne<lb break="no" ed="#P" n="33"/>cessitate aut sufficienti utilitate, ut saepe potest
+          <lb ed="#P" n="34"/>intervenire, ut de se constat ; unde tunc ex
+          <lb ed="#P" n="35"/>parte legislatoris justa est talis lex, quia est
+          <lb ed="#P" n="36"/>utilis communi bono, et non est de re mala,
+          <lb ed="#P" n="37"/>sed quae potest bene fieri. Ex parte vero 
+          sub<lb break="no" ed="#P" n="38"/>ditorum, licet ad illam legem implendam 
+          ne<lb break="no" ed="#P" n="39"/>cessarium nonsit illos operari propter ejusdem
+          <lb ed="#P" n="40"/>finem quem legislator intendit, ob rationem
+          <lb ed="#P" n="41"/>factam quod finis legis non cadit sub lege;
+          <lb ed="#P" n="42"/>nihilominus ad obligationem legis satis est
+          <lb ed="#P" n="43"/>quod ille actus de se non est otiosus nec 
+          inuti<lb break="no" ed="#P" n="44"/>lis, et quod potest honeste fieri, si subditus
+          <lb ed="#P" n="45"/>velit materiam talis legis exequi, observando
+          <lb ed="#P" n="46"/>omnes alias circumstantias quas naturalis ratio
+          <lb ed="#P" n="47"/>postulat ut actus in individuo honestus sit.
+        </p>
+        <p xml:id="szdleg-a54491-d1e1639">
+          <lb ed="#P" n="48"/>19. Unde tandem potest considerari 
+          diffe<lb break="no" ed="#P" n="49"/>rentia inter actum bonum et malum, quod 
+          ac<lb break="no" ed="#P" n="50"/>tus si per se et intrinsece malus sit nunquam
+          <lb ed="#P" n="51"/>potest per legem humanam praecipi, licet 
+          pos<lb break="no" ed="#P" n="52"/>sit permitti, quia nunquam est ab illo 
+          separa<lb break="no" ed="#P" n="53"/>bilis malitia vel prohibitio superioris legis, ut
+          <lb ed="#P" n="54"/>patet ex dictis in prima assertione. At vero
+          <lb ed="#P" n="55"/>actus bonus ex objecto, qui potest per se et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>propter se honeste fieri, seclusa lege 
+          prohi<lb break="no" ed="#P" n="57"/>bente , nihilominus potest prohiberi per 
+          hu<lb break="no" ed="#P" n="58"/>manam legem etiam civilem, et fieri malus
+          <lb ed="#P" n="59"/>ratione prohibitionis, qui alias de se erat 
+          bo<lb break="no" ed="#P" n="60"/>nus: ratio est, quiasi actus sit malus in specie
+          <lb ed="#P" n="61"/>sua, quandocumque exercetur retinet illam
+          <lb ed="#P" n="62"/>malitiam, et ideo non potest praecipi, quia ad
+          <lb ed="#P" n="63"/>malum suffhicit quicumque defectus : actus 
+          au<lb break="no" ed="#P" n="64"/>tem bonus, licet ex specie sua talis sit, potest
+          <lb ed="#P" n="65"/>in exercitio esse malus, quia potest tale 
+          exer<lb break="no" ed="#P" n="66"/>citium esse prohibitum, et ita jam deerit illi
+          <lb ed="#P" n="67"/>actui circumstantia aliqua debita ex vi legis,
+          <lb ed="#P" n="68"/>et ideo jam erit malus, quia malum ex 
+          quo<lb break="no" ed="#P" n="69"/>cumque defectu. Sic, licet facere sacrum 
+          bo<lb break="no" ed="#P" n="70"/>num sit, id facere in feria sexta Parasceves
+          <lb ed="#P" n="71"/>non erit bonum, quia deest illi debita 
+          circum<lb break="no" ed="#P" n="72"/>stantia temporis ratione prohibitionis ; idem
+          <lb ed="#P" n="73"/>est de jejunio in die Dominica : de quo 
+          exem<lb break="no" ed="#P" n="74"/>plo vide, si placet, quae scripsimus tract. 2 de
+          <lb ed="#P" n="75"/>Religione, l. 2, c. 4, n. 6; et quidem sanctus
+          <lb ed="#P" n="76"/>Thomas 2. 2, q. 141, a. 5, ad 3, expresse 
+          asse<lb break="no" ed="#P" n="77"/>rit non esse a peccato immunem qui die 
+          Do<lb break="no" ed="#P" n="78"/>minica jejunaret. Et in legibus civilibus 
+          po<lb break="no" ed="#P" n="79"/>test idem considerari ; nam donatio liberalis
+          <lb ed="#P" n="80"/>de se bona est, et nihilominus potest ex justa
+          <lb ed="#P" n="81"/>causa per legem civilem prohiberi, et fieri
+          <lb ed="#P" n="82"/>mala solum quia prohibita: et sic de aliis.
+          <lb ed="#P" n="83"/>Potest etiam hoc declarari ex alio principio,
+          <lb ed="#P" n="84"/>quod leges humanae possunt mediocritatem
+          <lb ed="#P" n="85"/>constituere in actionibus humanis: undc fieri
+          <lb ed="#P" n="86"/>potest ut actus qui, seclusa lege positiva 
+          serva<lb break="no" ed="#P" n="87"/>ret medium virtutis, posita lege prohibente
+          <lb ed="#P" n="88"/>jam non servet medium et peccet per 
+          extre<lb break="no" ed="#P" n="89"/>mum, sicut peccaret per defectum si lex 
+          prae<lb break="no" ed="#P" n="90"/>ciperet actum et non fieret.
+        </p>
+        <p xml:id="szdleg-a54491-d1e1737">
+          <lb ed="#P" n="91"/>20. Et hic etiam obiter intelligitur quomodo
+          <lb ed="#P" n="92"/>lex humana dicatur constituere medium in
+          <lb ed="#P" n="93"/>materiis virtutum; id enim facit imponendo
+          <lb ed="#P" n="94"/>necessitatem operandi in talibus materiis juxta
+          <lb ed="#P" n="95"/>cxigentiam earum. In quo est notanda 
+          diffe<lb break="no" ed="#P" n="96"/>rentia inter praecepta affirmativa et negativa,
+          <lb ed="#P" n="97"/>quod affirmativa regulariter supponunt 
+          intrin<lb break="no" ed="#P" n="98"/>secam honestatem in actu quem praecipiunt,
+          <lb ed="#P" n="99"/>et consequenter medium virtutis in materia
+          <lb ed="#P" n="100"/>ejus, ut patet in praecepto jejunii et similibus;
+          <lb ed="#P" n="101"/>non tamen supponunt necessitatem, sed 
+          fa<lb break="no" ed="#P" n="102"/>ciunt. Quia medium virtutis habet latitudinem
+          <lb ed="#P" n="103"/>et varietatem, et ideo non omne id quod est
+          <lb ed="#P" n="104"/>de se honestum est per se necessarium: lex
+          <lb ed="#P" n="105"/>autem humana potest hanc necessitatem 
+          po<lb break="no" ed="#P" n="106"/>nere, qua posita, ille actus jam est necessarius
+          <lb ed="#P" n="107"/>ad honestatem talis virtutis: et hoc sensu 
+          di<lb break="no" ed="#P" n="108"/>citur constitui per talem humanam legem in
+          <lb ed="#P" n="109"/>tali specie virtutis, utique quoad necessitatem,
+          <lb ed="#P" n="110"/>non quoad honestatem. Dixi autem regulariter
+          <pb ed="#P" n="222"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>loquendo, propter actus indifferentes in quibus
+          <lb ed="#P" n="2"/>non videtur supponi honestas, quanquam si
+          <lb ed="#P" n="3"/>sumantur ut ordinati ad finem propter quem
+          <lb ed="#P" n="4"/>lex eos praecipit, honesti sint, quam 
+          honesta<lb break="no" ed="#P" n="5"/>tem haberent sic facti, etiamsi sine lege fierent,
+          <lb ed="#P" n="6"/>non tamen haberent necessitatem. Atque ita
+          <lb ed="#P" n="7"/>in universum praeceptum affirmativum 
+          huma<lb break="no" ed="#P" n="8"/>num facit potius necessitatem quam 
+          honesta<lb break="no" ed="#P" n="9"/>tem. At vero praeceptum negativum pure 
+          hu<lb break="no" ed="#P" n="10"/>manum ex se non supponit malitian in actu
+          <lb ed="#P" n="11"/>quem prohibet, sed facit: sic enim dicuntur
+          <lb ed="#P" n="12"/>multa esse mala quia prohibita; et ratio est,
+          <lb ed="#P" n="13"/>quia malitia consistit in carentia rectitudinis
+          <lb ed="#P" n="14"/>debitae : ante praeceptum autem hujusmodi
+          <lb ed="#P" n="15"/>nullum erat dehitum, et ideo carentia actus
+          <lb ed="#P" n="16"/>erat negatio, non privatio moralis, ac proinde
+          <lb ed="#P" n="17"/>nec malitia erat: posita autem lege insurgit
+          <lb ed="#P" n="18"/>debitum, et carentia transit in rationem 
+          pri<lb break="no" ed="#P" n="19"/>vationis, atque ita surgit malitia ex vi legis
+          <lb ed="#P" n="20"/>positivae. Ad ejus autem speciem intelligendam
+          <lb ed="#P" n="21"/>consideranda est materia legis, vel motivum
+          <lb ed="#P" n="22"/>virtutis, sub quo talis actus prohibetur per
+          <lb ed="#P" n="23"/>legem: nam tunc pertinet malitia ad vitium
+          <lb ed="#P" n="24"/>contrarium illi virtuti : ut, verbi gratia, effusio
+          <lb ed="#P" n="25"/>sanguinis in Ecclesia, quatenus per legem 
+          ec<lb break="no" ed="#P" n="26"/>clesiasticam prohibetur, non pertinet ad 
+          in<lb break="no" ed="#P" n="27"/>justitiam, sed ad sacrilegium, quia illa 
+          prohi<lb break="no" ed="#P" n="28"/>bitio fit intuitu reverentiae debitae loco sacro,
+          <lb ed="#P" n="29"/>quod ad religionem spectat. Et idem est in
+          <lb ed="#P" n="30"/>omnibus peccatis commissionis, quae repugnant
+          <lb ed="#P" n="31"/>formaliter praeceptis negativis seu 
+          prohibenti<lb break="no" ed="#P" n="32"/>bus : nam in aliis malitiis omissionis quae 
+          re<lb break="no" ed="#P" n="33"/>pugnant directe praecepto affirmativo, ex 
+          ho<lb break="no" ed="#P" n="34"/>nestate actus contrarie oppositi insurgi! propria
+          <lb ed="#P" n="35"/>determinatio seu specificatio omissionis : et
+          <lb ed="#P" n="36"/>ita etiam constat quo modo leges humanae 
+          ha<lb break="no" ed="#P" n="37"/>beant pro materia actus vitiorum secundum
+          <lb ed="#P" n="38"/>species suas.
+        </p>
+        <p xml:id="szdleg-a54491-d1e1870">
+          <lb ed="#P" n="39"/>21. Posset praeterea circa hanc materiam
+          <lb ed="#P" n="40"/>tractari an modus virtutis cadat sub 
+          praecep<lb break="no" ed="#P" n="41"/>tum, an actns difficiles et ardui possint praecipi
+          <lb ed="#P" n="42"/>per legem civilem. Sed haec commodius 
+          dicen<lb break="no" ed="#P" n="43"/>tur infra explicando obligationem hujus legis
+          <lb ed="#P" n="44"/>et modum implendi illam. De modo autem
+          <lb ed="#P" n="45"/>quo lex civilis differat a canonica ex parte
+          <lb ed="#P" n="46"/>materiae dicemus l. seq., c. 2.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

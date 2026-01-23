@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="201"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a51079"><!-- deleg-l3c9 -->
+        <head xml:id="szdleg-a51079-Hd1e101">Caput 9</head>
+        <head xml:id="szdleg-a51079-Hd1e103" type="question-title">Apud quos sit potestas condendi leges civiles inter fideles</head>
+        <p xml:id="szdleg-a51079-d1e106">
+          <lb ed="#P" n="105"/>CAPUT IX.
+          <lb ed="#P" n="106"/>APUD QUOS SIT POTESTAS CONDENDI LEGES CIVILES
+          <lb ed="#P" n="107"/>INTER FIDELES.
+        </p>
+        <p xml:id="szdleg-a51079-d1e115">
+          <lb ed="#P" n="108"/>1. Haec quaestio expedienda fere est ex prin-
+          <pb ed="#P" n="202"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cipiis positis in cap. 2 et 3, quia haec potestas,
+          <lb ed="#P" n="2"/>prout est intra Ecclesiam , eisdem modis et 
+          ti<lb break="no" ed="#P" n="3"/>tulis obtinetur quibus ex natura rei haberi
+          <lb ed="#P" n="4"/>potest : nihil enim in hoc legimus fuisse a
+          <lb ed="#P" n="5"/>Christo Domino directe et per se immutatum,
+          <lb ed="#P" n="6"/>licet indirecte et per quamdam consecutionem
+          <lb ed="#P" n="7"/>aliquid speciale interdum in Ecclesia fieri
+          <lb ed="#P" n="8"/>possit, ut ex dictis in duobus capitibus proxime
+          <lb ed="#P" n="9"/>praecedentibus facile intelligi petest.
+        </p>
+        <p xml:id="szdleg-a51079-d1e144">
+          <lb ed="#P" n="10"/>2. Prima conclusio. — Potestatem condendi
+          <lb ed="#P" n="11"/>leges civiles esse in omnibus regibus supremis
+          <lb ed="#P" n="12"/>cum partitione accominoda.—Primo ergo constat
+          <lb ed="#P" n="13"/>ex dictis, hanc potestatem esse in omnibus 
+          re<lb break="no" ed="#P" n="14"/>gibus supremis cum partitione accommoda, id
+          <lb ed="#P" n="15"/>est. in unoquoqne pro suo regno. Ita D. 
+          Tho<lb break="no" ed="#P" n="16"/>mas 1. 9, q. 90, ari. 3;: 9. 9, q. M, art.3;
+          <lb ed="#P" n="17"/>Canonistae in cap. Zcclesia, de Constitut.,
+          <lb ed="#P" n="18"/>Bartol. et alii inl. ult. C. de Legibus; Bald. in
+          <lb ed="#P" n="19"/>cap. 1 de Constit., Navar. in cap. Novit, not.
+          <lb ed="#P" n="20"/>9. n. 110. Unde D. Thomas 2. 2, q. 50, dixit
+          <lb ed="#P" n="21"/>principalem actum regis esse leges condere,
+          <lb ed="#P" n="22"/>et ideo (ut advertit in discursu illius articuli)
+          <lb ed="#P" n="23"/>eamdem prudentiam quam Aristoteles 6 
+          Ethi<lb break="no" ed="#P" n="24"/>corum, cap. S, legislativam appellavit, vocasse
+          <lb ed="#P" n="25"/>propriam prudentiam principis, id est, 
+          regna<lb break="no" ed="#P" n="26"/>tivam, lib. 3 Polit., c. Praeterea hoc sensit 
+          Au<lb break="no" ed="#P" n="27"/>gustinus , tract. 6 in Joan. cum dixit : 
+          Divi<lb break="no" ed="#P" n="28"/>mumn jus in Scriptura habemus, huumamum jus
+          <lb ed="#P" n="29"/>in legibus regum. Et infra : Quia ipsa jura 
+          hu<lb break="no" ed="#P" n="30"/>mana per imperatores et reges seculi Deus 
+          dis<lb break="no" ed="#P" n="31"/>tribuit generi humano ; et refertur in cap. 1,
+          <lb ed="#P" n="32"/>dist. 8. Denique colligitur haec veritas etiam
+          <lb ed="#P" n="33"/>ex modo loquendi Scripturae, in qua saepe cum
+          <lb ed="#P" n="34"/>regia dignitate potestaslegislativa conjungitur,
+          <lb ed="#P" n="35"/>Proverb. 8. et Isai. 33, et sumitur ex 1 Petri2:
+          <lb ed="#P" n="36"/>sive regi tanquam praecellenti. Ratio a priori
+          <lb ed="#P" n="37"/>est , quia potestas regia et suprema translata
+          <lb ed="#P" n="38"/>est a tota communitate perfecta in personam
+          <lb ed="#P" n="39"/>regis, ita ut tota potestas regendi 
+          communita<lb break="no" ed="#P" n="40"/>tem, quae in ipsa erat, in regem transmissa
+          <lb ed="#P" n="41"/>fuerit ; sed potestas legislativa per se primo et
+          <lb ed="#P" n="42"/>ex natura rei erat in communitate , ut supra
+          <lb ed="#P" n="43"/>ostensum est ; ergo potestas regia legislativa
+          <lb ed="#P" n="44"/>est. Et confirmatur, quia in republica quae 
+          mo<lb break="no" ed="#P" n="45"/>narchice regitur necessaria est haec potestas ;
+          <lb ed="#P" n="46"/>ergo maxime esse debet in supremo principe
+          <lb ed="#P" n="47"/>et capite, ut argumentatur Justinianus in d. 1.
+          <lb ed="#P" n="48"/>ult., C. de Legib.
+        </p>
+        <p xml:id="szdleg-a51079-d1e232">
+          <lb ed="#P" n="49"/>3. Unde fit hanc conclusionem non solum
+          <lb ed="#P" n="50"/>habere locum in illis principibus supremis qui
+          <lb ed="#P" n="51"/>reges nominantur , sed etiam in omnibus qui
+          <lb ed="#P" n="52"/>non recognoscunt superiorem quoad 
+          subordi<lb break="no" ed="#P" n="53"/>nationem temporalis jurisdictionis, sive duces,
+          <lb ed="#P" n="54"/>sive comites, aut quolibet alio nomine 
+          vocen<lb break="no" ed="#P" n="55"/>tur, quia hacc potestas in jurisdictione consis-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tit, et nulla major requiri potest quam 
+          supre<lb break="no" ed="#P" n="57"/>ma. De principibus autem imperatori subditis,
+          <lb ed="#P" n="58"/>jam diximus capite praecedenti , habere posse
+          <lb ed="#P" n="59"/>hanc potestatem , si jurisdictio in eo gradu
+          <lb ed="#P" n="60"/>perfectionis illis data sit, et consuetudine, aut
+          <lb ed="#P" n="61"/>alio sufficienti modo id constet. Ilemque cum
+          <lb ed="#P" n="62"/>proportione applicari potest ad principes (si
+          <lb ed="#P" n="63"/>qui sunt) habentes aliquo modo supremam 
+          po<lb break="no" ed="#P" n="64"/>testatem in aliquibus rebus, ut sunt judicia
+          <lb ed="#P" n="65"/>ferre ac terminare sine ulla appellatione vel
+          <lb ed="#P" n="66"/>supplicatione ad superius tribunal temporale,
+          <lb ed="#P" n="67"/>monetam cudere, etc., etiamsi in aliis regem
+          <lb ed="#P" n="68"/>aliquem recognoscunt ut superiorem ac 
+          domi<lb break="no" ed="#P" n="69"/>num , quia ab illo fortasse sub ea conditione
+          <lb ed="#P" n="70"/>principatum habuerunt. Nam hi etiam, juxta
+          <lb ed="#P" n="71"/>modum et conditionem potestatis acceptae, vel
+          <lb ed="#P" n="72"/>poterunt leges ferre, vel in hoc pendere a
+          <lb ed="#P" n="73"/>superiori rege.
+        </p>
+        <p xml:id="szdleg-a51079-d1e291">
+          <lb ed="#P" n="74"/>4. Secunda conclusio. — Potestatem 
+          praeedic<lb break="no" ed="#P" n="75"/>tam eo modo, sub quo translata est per 
+          communi<lb break="no" ed="#P" n="76"/>tatem esse in principe.—Atque hinc sequitur 
+          se<lb break="no" ed="#P" n="77"/>cundo, etiam in principe supremo esse hanc
+          <lb ed="#P" n="78"/>potestatem eo modo et subea conditione sub qua
+          <lb ed="#P" n="79"/>data est et translata per communitatem: ratio
+          <lb ed="#P" n="80"/>est clara ex superius dictis : quia haec est veluti
+          <lb ed="#P" n="81"/>conventio quaedam inter communitatem et
+          <lb ed="#P" n="82"/>principem, et ideo potestas recepta non excedit
+          <lb ed="#P" n="83"/>modum donationis , vel conventionis. Quis
+          <lb ed="#P" n="84"/>autem ille modus fuerit, si scriptum non sit, ex
+          <lb ed="#P" n="85"/>consuetudine maxime colligendum est : nam
+          <lb ed="#P" n="86"/>ipsamet consuetudo solet esse sufliciens ad
+          <lb ed="#P" n="87"/>dandam jurisdictionem ; ergo multo magis
+          <lb ed="#P" n="88"/>sufficiet ad modum illius declarandum. Et
+          <lb ed="#P" n="89"/>juxta hoc etiam definiendum est an requiratur
+          <lb ed="#P" n="90"/>consensus populi ad ferendas hujusmodi leges,
+          <lb ed="#P" n="91"/>quando , scilicet , populus per reges 
+          guberna<lb break="no" ed="#P" n="92"/>tur. Nam per se loquendo, et jure communi
+          <lb ed="#P" n="93"/>potestas legislativa proprie est in solo supremo
+          <lb ed="#P" n="94"/>principe, ut constat ex juribus et rationibus
+          <lb ed="#P" n="95"/>adductis : juxta consuetudinem autem requiri
+          <lb ed="#P" n="96"/>poterit consensus populi saltem quoad 
+          accep<lb break="no" ed="#P" n="97"/>tationem, de quo infra videbimus.
+        </p>
+        <p xml:id="szdleg-a51079-d1e346">
+          <lb ed="#P" n="98"/>5. Tertia conclusio. — Quid dicendum de
+          <lb ed="#P" n="99"/>principibus non supremis, et magistratibus. —
+          <lb ed="#P" n="100"/>Tertio, ex his intelligi potest, quid dicendum
+          <lb ed="#P" n="101"/>sit de principibus non supremis et 
+          magistra<lb break="no" ed="#P" n="102"/>tibus, seu gubernatoribus , qui a regibus 
+          con<lb break="no" ed="#P" n="103"/>stituuntur. Quamvis enim ex jure civili colligi
+          <lb ed="#P" n="104"/>videatur omnes, qui sunt principales 
+          magis<lb break="no" ed="#P" n="105"/>tratus habentes regimen provinciarum, posse
+          <lb ed="#P" n="106"/>etiam condere leges civiles, quae praetoriae seu
+          <lb ed="#P" n="107"/>jus praetorium appellari solent , de quo extant
+          <lb ed="#P" n="108"/>plures tituli in jure civili , nihilominus de
+          <lb ed="#P" n="109"/>facto non possumus aliam regulam assignare,
+          <lb ed="#P" n="110"/>nisi concessionem vel permissionem principis
+          <pb ed="#P" n="203"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>supremi. Tantam enim potestatem ad hunc
+          <lb ed="#P" n="2"/>actum habent inferiores, quantam eis 
+          conce<lb break="no" ed="#P" n="3"/>dit supremus princeps , quia in illo est 
+          inde<lb break="no" ed="#P" n="4"/>pendenter ; in aliis vero cum dependentia ab
+          <lb ed="#P" n="5"/>ipso. Cum autem haec potestas jurisdictio sit,
+          <lb ed="#P" n="6"/>sicut jurisdictio haberi potest vel ordinaria vel
+          <lb ed="#P" n="7"/>delegata, ita etiam haec potestas : nam eadem
+          <lb ed="#P" n="8"/>est ratio ; nihil enim obstat quominus haec 
+          po<lb break="no" ed="#P" n="9"/>testas delegabilis sit. Quando autem uno vel
+          <lb ed="#P" n="10"/>alio modo concedatur, ex institutione officii vel
+          <lb ed="#P" n="11"/>muneris juxta leges uniuscujusque regni, vel
+          <lb ed="#P" n="12"/>ex consuetudine , ut dixi, vel ex privilegio,
+          <lb ed="#P" n="13"/>aut speciali voluntate et concessione principis
+          <lb ed="#P" n="14"/>accipiendum est. Unde constat in Hispania
+          <lb ed="#P" n="15"/>non posse duces, marchiones, comites et 
+          simi<lb break="no" ed="#P" n="16"/>les dynastas leges ferre, quia soli regi haec 
+          po<lb break="no" ed="#P" n="17"/>testas reservata est. Nam in l. 12, tit 1,
+          <lb ed="#P" n="18"/>partit. 2, expresse dicitur principes regni 
+          sub<lb break="no" ed="#P" n="19"/>ditos regi non posse leges ferre. Estque 
+          con<lb break="no" ed="#P" n="20"/>sentaneum legi naturali et juri gentium ut
+          <lb ed="#P" n="21"/>recte deducit divus Thomas q. 90, a. 3, et ibi
+          <lb ed="#P" n="22"/>caeteri theologi. Et usus etiam hujus regni id
+          <lb ed="#P" n="23"/>servat. De quo videri potest Azeb. in Leges
+          <lb ed="#P" n="24"/>Hispan., lib. 2, cap. 1; Greg. autem Lopez
+          <lb ed="#P" n="25"/>conatur aliter illam legem interpretari, vel
+          <lb ed="#P" n="26"/>limitare : sed non est necessaria alia limitatio
+          <lb ed="#P" n="27"/>praeter eam quam ponit lex ipsa, scilicet nisi
+          <lb ed="#P" n="28"/>eis fuerit per leges specialiter concessum, ut
+          <lb ed="#P" n="29"/>dicemus etiam in ultimo dubio hujus capitis :
+          <lb ed="#P" n="30"/>nam quoad hoc eadem est ratio de his 
+          potesta<lb break="no" ed="#P" n="31"/>tatibus, quae de civitatibus regni, de quibus
+          <lb ed="#P" n="32"/>etiam dicemus.
+        </p>
+        <p xml:id="szdleg-a51079-d1e450">
+          <lb ed="#P" n="33"/>6. Quid de communitatibus quae per seipsas
+          <lb ed="#P" n="34"/>gubernantur dicendum. — Quarto( concluditur
+          <lb ed="#P" n="35"/>-ex dictis potestatem hanc legislativam etiam
+          <lb ed="#P" n="36"/>esse in illis communitatibus perfectis, quae per
+          <lb ed="#P" n="37"/>seipsas et non per reges gubernantur, sive
+          <lb ed="#P" n="38"/>aristocratice, sive populariter regantur; illud
+          <lb ed="#P" n="39"/>intelligendo cum proportione et partitione 
+          ac<lb break="no" ed="#P" n="40"/>commoda. Ita sumitur ex l. Omnes populi, ft.
+          <lb ed="#P" n="41"/>de Justit. et jur., et ibi docent omnes: et ratio
+          <lb ed="#P" n="42"/>est etiam manifesta, quia hae communitates
+          <lb ed="#P" n="43"/>in se retinent supremam potestatem 
+          guberna<lb break="no" ed="#P" n="44"/>tivam, cum non transtulerint illam in aliquem
+          <lb ed="#P" n="45"/>principem : ergo per illam possunt sibi leges
+          <lb ed="#P" n="46"/>condere. Unde fit idem dicendum esse cum
+          <lb ed="#P" n="47"/>proportione de illis rebuspublicis quae 
+          supre<lb break="no" ed="#P" n="48"/>mam in se potestatem retinent, ut Veneta,
+          <lb ed="#P" n="49"/>Genuensis, et similes: quae, licet sibi unum
+          <lb ed="#P" n="50"/>ducem vel principem eligant, non tamen in
+          <lb ed="#P" n="51"/>eum transferunt omnem potestatem : ideo in
+          <lb ed="#P" n="52"/>illis regimen est mixtum et suprema potestas
+          <lb ed="#P" n="53"/>neque est in principe solo, neque in sola 
+          com<lb break="no" ed="#P" n="54"/>munitate, ut ab illo distinguitur, sed in toto
+          <lb ed="#P" n="55"/>corpore cum capite. Atque eodem modo in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>toto ipso residet potestas leges ferendi, ita ut
+          <lb ed="#P" n="57"/>nec communitas sine principe, nec princeps
+          <lb ed="#P" n="58"/>sine communitate illas ferre valeat. Posset 
+          ta<lb break="no" ed="#P" n="59"/>men respublica eligere principem cum 
+          hujus<lb break="no" ed="#P" n="60"/>modi potestate, et tunc quoad actum ferendi
+          <lb ed="#P" n="61"/>legem habebit regimen monarchicum, et ita
+          <lb ed="#P" n="62"/>princeps solus tunc posset leges validas 
+          con<lb break="no" ed="#P" n="63"/>dere.
+        </p>
+        <p xml:id="szdleg-a51079-d1e522">
+          <lb ed="#P" n="64"/>7. Duo vero hic supersunt dubia explicanda,
+          <lb ed="#P" n="65"/>unum circa singulares personas, aliud circa
+          <lb ed="#P" n="66"/>communitates. Primum ergo est an haec 
+          po<lb break="no" ed="#P" n="67"/>testas legislativa civilis possit esse in femina,
+          <lb ed="#P" n="68"/>seu regina haerede regni. Quando enim solum
+          <lb ed="#P" n="69"/>habet illud nomen et dignitatem propter 
+          ma<lb break="no" ed="#P" n="70"/>trimonium cum rege, certum est non habere
+          <lb ed="#P" n="71"/>ex vi illius potestatem ferendi leges, quia illa
+          <lb ed="#P" n="72"/>non est dignitas jurisdictionis, sed tantum
+          <lb ed="#P" n="73"/>honoris. Unde non solum non habet 
+          potesta<lb break="no" ed="#P" n="74"/>tem legislativam, verum etiam nec aliquam
+          <lb ed="#P" n="75"/>propriam gubernationem, nisi ei specialiter
+          <lb ed="#P" n="76"/>concedatur. Difficultas ergo manet quando
+          <lb ed="#P" n="77"/>mulier est haeres, et per se ac ratione propriae
+          <lb ed="#P" n="78"/>successionis regina effecta est. Videri enim
+          <lb ed="#P" n="79"/>potest nihilominus actum ferendi legem 
+          exce<lb break="no" ed="#P" n="80"/>dere facultatem et capacitatem feminei sexus.
+          <lb ed="#P" n="81"/>Dicit enim Paul. 1 Timoth. 2: Docere mulieri
+          <lb ed="#P" n="82"/>non permitlo, nec dominari viro; sed sub illius
+          <lb ed="#P" n="83"/>esse potestate, ut additar 1 Corinth. 11; ergo
+          <lb ed="#P" n="84"/>multo minus potest leges ferre, et hunc actum,
+          <lb ed="#P" n="85"/>qui supremi dominii est, in totam virorum
+          <lb ed="#P" n="86"/>communitatem exercere. Et confirmatur : nam
+          <lb ed="#P" n="87"/>in l. Femine , ff. de Regul. jur. dicitur 
+          fe<lb break="no" ed="#P" n="88"/>minas ab omnibus officiis civilibus vel publicis
+          <lb ed="#P" n="89"/>remotas esse, et ideo nec judices esse posse
+          <lb ed="#P" n="90"/>nec magistratus gerere: multo ergo minus
+          <lb ed="#P" n="91"/>possunt imperare, ut infert Augustinus libro
+          <lb ed="#P" n="92"/>Quaestionum novi et veteris Testamenti, q. 45,
+          <lb ed="#P" n="93"/>et refertur in cap. Mulierem, 33, q. 5.
+        </p>
+        <p xml:id="szdleg-a51079-d1e590">
+          <lb ed="#P" n="94"/>8. Reginam regni dominam posse leges 
+          con<lb break="no" ed="#P" n="95"/>dere.— Nihilominus certum est reginam 
+          domi<lb break="no" ed="#P" n="96"/>nam regni posse leges condere perinde ac 
+          re<lb break="no" ed="#P" n="97"/>cem. In duplici autem statu potest haec regina
+          <lb ed="#P" n="98"/>considerari, primo, in statu libero a 
+          matrimo<lb break="no" ed="#P" n="99"/>nii vinculo, vel quia nondum nupsit licet
+          <lb ed="#P" n="100"/>regnum possideat et gubernet, vel quia vidua
+          <lb ed="#P" n="101"/>est. Secundo, potest considerari in statu 
+          matri<lb break="no" ed="#P" n="102"/>monii. De priori statu est res manifesta et extra
+          <lb ed="#P" n="103"/>controversiam : quia supponimus esse vere 
+          do<lb break="no" ed="#P" n="104"/>minam regni; ergo habet in se potestatem 
+          re<lb break="no" ed="#P" n="105"/>giam, quae legislativa est, et tunc in usu ejus
+          <lb ed="#P" n="106"/>a nullo superiore pendet, quia ex se nullum
+          <lb ed="#P" n="107"/>habet in temporalibus, ut supponitur, nec per
+          <lb ed="#P" n="108"/>matrimonium illum assumpsit, ut etiam 
+          poni<lb break="no" ed="#P" n="109"/>tur; ergo potest libere uti illa potestate et leges
+          <lb ed="#P" n="110"/>ferre. Item alias contra rationem esset et con-
+          <pb ed="#P" n="204"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tra legalem justitiam, jus regni et dominium
+          <lb ed="#P" n="2"/>feminae conferre, quia contra rationem est ei
+          <lb ed="#P" n="3"/>potestatem dare. qui non potest ejus actum 
+          po<lb break="no" ed="#P" n="4"/>tissimum exercere. Tandem femina capax est
+          <lb ed="#P" n="5"/>jurisdictionis etiam regiae, ut supponitur in
+          <lb ed="#P" n="6"/>cap. Z pate, 2 de Privileg., et sumitur in
+          <lb ed="#P" n="7"/>cap. Dilecti, de Arbitr., ubi id notat Innoc.;
+          <lb ed="#P" n="8"/>et Abb. n. 1 et 3 inde infert feminam 
+          haben<lb break="no" ed="#P" n="9"/>tem regnum posse, si velit, per se causam 
+          co<lb break="no" ed="#P" n="10"/>gnoscere, et ferre sententiam, et jurisdictionem
+          <lb ed="#P" n="11"/>in subditos exercere. Et idem tradit Anton.
+          <lb ed="#P" n="12"/>Corset. Tract. de Potestate regis, p. ult., q. 98,
+          <lb ed="#P" n="13"/>n.58; ergo quando femina habet jurisdictionem
+          <lb ed="#P" n="14"/>supremam. poterit illa uti ad leges ferendas,
+          <lb ed="#P" n="15"/>quia est eadem ratio, nec est aliquid quod 
+          spe<lb break="no" ed="#P" n="16"/>cialiter impediat. Nam defectus scientiae et
+          <lb ed="#P" n="17"/>prudentiae per sapientum consilium suppleri
+          <lb ed="#P" n="18"/>potest, ut notant dicti auctores: et ita quoad
+          <lb ed="#P" n="19"/>hoc eadem est ratio de caeteris actibus 
+          juris<lb break="no" ed="#P" n="20"/>dictionis.
+        </p>
+        <p xml:id="szdleg-a51079-d1e678">
+          <lb ed="#P" n="21"/>9. Neque contra hoc obstant citata verba
+          <lb ed="#P" n="22"/>Pauli : nam ille loquitur de doctrina fidei, et
+          <lb ed="#P" n="23"/>de modo publice illam tradendi et concionandi
+          <lb ed="#P" n="24"/>in Ecclesia : de hoc enim ibi tractat, et magis
+          <lb ed="#P" n="25"/>declarat 1 Corinth. 14, dicitque id feminae
+          <lb ed="#P" n="26"/>non permitti, non tam propter incapacitatem
+          <lb ed="#P" n="27"/>(haec enim posset saepius non deesse) quam
+          <lb ed="#P" n="28"/>propter honestatem et decentiam. Quae ratio
+          <lb ed="#P" n="29"/>non habet locum in actu ferendi leges; potest
+          <lb ed="#P" n="30"/>enim ex parte ferentis legem secrete et cum
+          <lb ed="#P" n="31"/>summa decentia fieri, etiamsi lex ipsa publice
+          <lb ed="#P" n="32"/>postea promulganda sit. Alia autem verba
+          <lb ed="#P" n="33"/>Pauli proprie intelliguntur de femina 
+          matri<lb break="no" ed="#P" n="34"/>monio conjuncta respectu mariti, de qua 
+          sta<lb break="no" ed="#P" n="35"/>tim dicemus. Nec valet argumentum a simili,
+          <lb ed="#P" n="36"/>quod, sicut mulier non potest dominari marito,
+          <lb ed="#P" n="37"/>ita nec possit dominari suae reipublicae, quia
+          <lb ed="#P" n="38"/>in ordine ad usum matrimonii et regimen 
+          fa<lb break="no" ed="#P" n="39"/>miliae mulier est naturaliter inferior ac 
+          subdi<lb break="no" ed="#P" n="40"/>ta : in ordine autem ad regimen civile nihil
+          <lb ed="#P" n="41"/>est ex lege naturae statutum ; sed respublica
+          <lb ed="#P" n="42"/>potuit transferre potestatem in feminam, vel
+          <lb ed="#P" n="43"/>in regem, cum ea conditione ut ei posset 
+          femi<lb break="no" ed="#P" n="44"/>na succedere. Nec denique obstant leges 
+          civi<lb break="no" ed="#P" n="45"/>les seu jura humana, quia loquuntur de 
+          femi<lb break="no" ed="#P" n="46"/>nis communibus (ut ita dicam) seu non 
+          ha<lb break="no" ed="#P" n="47"/>bentibus propriam jurisdictionem ; secus vero
+          <lb ed="#P" n="48"/>esse de feminis praecellentibus, et praesertim
+          <lb ed="#P" n="49"/>reginis supremis, quae sunt supra ipsum civile
+          <lb ed="#P" n="50"/>jus : neque illas comprehendere potest in his
+          <lb ed="#P" n="51"/>quae illarum potestati repugnant.
+        </p>
+        <p xml:id="szdleg-a51079-d1e748">
+          <lb ed="#P" n="52"/>10. Nonnulla major dubitatio est de regina
+          <lb ed="#P" n="53"/>habente maritum, qui ratione matrimonii rex
+          <lb ed="#P" n="54"/>appellatur, et ut rex honoratur et obeditur.
+          <lb ed="#P" n="55"/>In qua re communis sententia jurisperitorum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>est reginam, etiam post contractum 
+          matrimo<lb break="no" ed="#P" n="57"/>nium, retinere et regnum et liberam regni 
+          ad<lb break="no" ed="#P" n="58"/>ministrationem , ac subinde potestatem et
+          <lb ed="#P" n="59"/>usum ferendi leges. Praecipuus auctor hujus
+          <lb ed="#P" n="60"/>sententiae fuit Bald. in cap. Significavit, de
+          <lb ed="#P" n="61"/>Reseript., quem sequitur Tiraquel. de 
+          Nobili<lb break="no" ed="#P" n="62"/>tat., cap. 18, n. 3, referens Decium, Alciat. et
+          <lb ed="#P" n="63"/>alios. idem Martin. Garatus tract. de 
+          Princi<lb break="no" ed="#P" n="64"/>pib. q. 176; Greg. Lop. in. 1, Gloss. 9, et in
+          <lb ed="#P" n="65"/>l. 9, Gloss. 4, t. 1, p. 2. Ratio Baldi fuit, quia
+          <lb ed="#P" n="66"/>regina per matrimonium non transfert 
+          re<lb break="no" ed="#P" n="67"/>gnum in maritum, illud a se abdicando : nec
+          <lb ed="#P" n="68"/>etiam illud ita confert marito ut aeque maneat
+          <lb ed="#P" n="69"/>in utroque, nec retinet proprietatem in se, et
+          <lb ed="#P" n="70"/>administrationem praebet marito: ergo in se
+          <lb ed="#P" n="71"/>sola utrumque retinet, scilicet potestatem et
+          <lb ed="#P" n="72"/>administrationem, et ita per se potest sicut
+          <lb ed="#P" n="73"/>antea jurisdictionem exercere, ac proinde 
+          le<lb break="no" ed="#P" n="74"/>ges ferre. Consequentia clara est. Antecedens
+          <lb ed="#P" n="75"/>probatur quoad singulas partes. Prima ergo
+          <lb ed="#P" n="76"/>pars probatur, quia regnum non potest 
+          alie<lb break="no" ed="#P" n="77"/>nari, neque in dotem dari, ut ait Bald., et ratio
+          <lb ed="#P" n="78"/>esse videtur, quia est veluti officium et onus
+          <lb ed="#P" n="79"/>personale a regno collatum, et ideo non 
+          po<lb break="no" ed="#P" n="80"/>test in alium transferri sine consensu regni,
+          <lb ed="#P" n="81"/>vel nisi juxta conditionem inclusam in ipsa
+          <lb ed="#P" n="82"/>regni institutione, quae solet esse ut 
+          transfe<lb break="no" ed="#P" n="83"/>ratur per electionem, vel successionem, non
+          <lb ed="#P" n="84"/>vero per alium modum alienationis. Adde 
+          ta<lb break="no" ed="#P" n="85"/>lem alienationem seu translationem regni in
+          <lb ed="#P" n="86"/>maritum nec fieri voluntate reginae, ut 
+          con<lb break="no" ed="#P" n="87"/>stat, nec aliquo jure, quia nec tale ejus est
+          <lb ed="#P" n="88"/>naturale, ut per se notum est : nec de humano
+          <lb ed="#P" n="89"/>constat, nec posset ad hoc cogere reginam 
+          su<lb break="no" ed="#P" n="90"/>premam dominam , quae potestatem habet
+          <lb ed="#P" n="91"/>supra tale jus. Maxime quia nec in dominiis
+          <lb ed="#P" n="92"/>inferioribus, nec in aliis bonis, per 
+          matrimo<lb break="no" ed="#P" n="93"/>nium amittit uxor dominium suorum 
+          bono<lb break="no" ed="#P" n="94"/>rum et illud in maritum transfert, sed ad
+          <lb ed="#P" n="95"/>summum administrationem. Denique alias,
+          <lb ed="#P" n="96"/>etiamsi talis regina moreretur sine liberis,
+          <lb ed="#P" n="97"/>maritus retineret dominium regni, quod est
+          <lb ed="#P" n="98"/>aperte falsum.
+        </p>
+        <p xml:id="szdleg-a51079-d1e855">
+          <lb ed="#P" n="99"/>11. Secundum membrum antecedentis 
+          pro<lb break="no" ed="#P" n="100"/>bari solet, quia est contra rationem naturalem,
+          <lb ed="#P" n="101"/>ut idem regnum sit aeque in duobus, quia esset
+          <lb ed="#P" n="102"/>unum corpus habens duo capita , quod est
+          <lb ed="#P" n="103"/>monstrosum et rectae gubernationi regni valde
+          <lb ed="#P" n="104"/>perniciosum. Quia si inter se dissentirent, 
+          ni<lb break="no" ed="#P" n="105"/>hil fieret, nec pateret via aut modus definiendi
+          <lb ed="#P" n="106"/>quid agendum vel praecipiendum esset. Unde
+          <lb ed="#P" n="107"/>facilius posset esse gubernatio per tres simul,
+          <lb ed="#P" n="108"/>ut posset major pars vincere, quam per duos
+          <lb ed="#P" n="109"/>tantum, nisi inter eos alter aliquo modo 
+          prae<lb break="no" ed="#P" n="110"/>cederet, et qualitate vinceret in casu discor-
+          <pb ed="#P" n="205"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>diae, vel nisi in hoc haberent aliquam 
+          vicissi<lb break="no" ed="#P" n="2"/>tudinem, aut alio medio uti tenerentur, ut
+          <lb ed="#P" n="3"/>sortibus, vel compromissione, vel adjunctione
+          <lb ed="#P" n="4"/>alicujus tertii suffragii. Sed quidquid sit de
+          <lb ed="#P" n="5"/>possibili, certum est hoc non posse fieri in
+          <lb ed="#P" n="6"/>praesenti casu, etiamsi regina vellet, quia esset
+          <lb ed="#P" n="7"/>mutatio magna in regno, et in modo 
+          monar<lb break="no" ed="#P" n="8"/>chiae ejus, quae sine consensu regni fieri non
+          <lb ed="#P" n="9"/>potest. Item illa multiplicatio duorum, etiam
+          <lb ed="#P" n="10"/>illo modo facta, esset magnum gravamen et
+          <lb ed="#P" n="11"/>praejudicium subditorum ; ergo fieri non 
+          po<lb break="no" ed="#P" n="12"/>test, etiam vi matrimonii. Denique, ad hoc et
+          <lb ed="#P" n="13"/>superius punctum confirmandum valet axioma
+          <lb ed="#P" n="14"/>commune jurisperitorum, quod suprema 
+          prin<lb break="no" ed="#P" n="15"/>cipis potestas nec abdicari potest, nec minui,
+          <lb ed="#P" n="16"/>de quo videri possunt, quae congerit Franc.
+          <lb ed="#P" n="17"/>Vargas, tractat. de Potestate pontificia in 
+          prin<lb break="no" ed="#P" n="18"/>cipio.
+        </p>
+        <p xml:id="szdleg-a51079-d1e927">
+          <lb ed="#P" n="19"/>12. Regnum est veluti officium quod 
+          incum<lb break="no" ed="#P" n="20"/>lat propriae personae cui confertur. — Tertium
+          <lb ed="#P" n="21"/>item membrum patet, quia eadem fere est
+          <lb ed="#P" n="22"/>ratio de administratione quae de dominio et
+          <lb ed="#P" n="23"/>proprietate. Nam duobus modis posset hoc 
+          in<lb break="no" ed="#P" n="24"/>telligi. Unus est, ut illa administratio ita esset
+          <lb ed="#P" n="25"/>in rege, ut solus ac repugnante uxore posset
+          <lb ed="#P" n="26"/>leges condere et alios actus gubernationis 
+          exe<lb break="no" ed="#P" n="27"/>qui, et hoc plane esset quaedam alienatio regni
+          <lb ed="#P" n="28"/>ejusque translatio in alium, saltem ad vitam,
+          <lb ed="#P" n="29"/>seu durante vinculo matrimonii : haec autem
+          <lb ed="#P" n="30"/>fieri non potest sine consensu regni, et ad 
+          il<lb break="no" ed="#P" n="31"/>lam applicari possunt omnia dicta in primo
+          <lb ed="#P" n="32"/>membro. Accedit quod in hoc non est 
+          compa<lb break="no" ed="#P" n="33"/>randum regnum cum aliis bonis, seu cum 
+          ad<lb break="no" ed="#P" n="34"/>ministratione dotis, quia regnum est veluti
+          <lb ed="#P" n="35"/>quoddam officium quod incumbit propriae 
+          per<lb break="no" ed="#P" n="36"/>sonae cui confertur, et non tam est propter 
+          ip<lb break="no" ed="#P" n="37"/>sam quam propter eos qui regendi sunt, et
+          <lb ed="#P" n="38"/>ideo non potest rex vel regina tale onus a se
+          <lb ed="#P" n="39"/>separare, nec in alium transferre, etiam quoad
+          <lb ed="#P" n="40"/>usum vel administrationem, ita ut non maneat
+          <lb ed="#P" n="41"/>apud ipsum suprema potestas et obligatio 
+          re<lb break="no" ed="#P" n="42"/>gendi: non ergo transferri potest illo modo
+          <lb ed="#P" n="43"/>administratio regni in regem ratione 
+          matri<lb break="no" ed="#P" n="44"/>monii. Alter modus est ut regina haberet 
+          qui<lb break="no" ed="#P" n="45"/>dem administrationem, sed dependentem a
+          <lb ed="#P" n="46"/>rege, ita ut sine ejus consensu, vel illo 
+          repu<lb break="no" ed="#P" n="47"/>gnante, non posset leges ferre, et aliter 
+          juris<lb break="no" ed="#P" n="48"/>dictionem suam exercere. Et hoc etiam dici
+          <lb ed="#P" n="49"/>non potest, quia incidimus in omnia 
+          incom<lb break="no" ed="#P" n="50"/>moda quae in secundo membro tacta sunt:
+          <lb ed="#P" n="51"/>nam vel sequeretur continua perplexitas et 
+          di<lb break="no" ed="#P" n="52"/>visio, vel oporteret uxorem cedere marito,
+          <lb ed="#P" n="53"/>quod esset sua jurisdictione privari: unde 
+          si<lb break="no" ed="#P" n="54"/>cut non potest regina suam administrationem
+          <lb ed="#P" n="55"/>a se auferre, invito regno, ita nec potest illam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>minuere, nec facere ut suprema in suo genere
+          <lb ed="#P" n="57"/>non sit; ergo non potest facere usum ejus 
+          de<lb break="no" ed="#P" n="58"/>pendentem a consensu mariti.
+        </p>
+        <p xml:id="szdleg-a51079-d1e1018">
+          <lb ed="#P" n="59"/>13. Sed contra hanc communem sententiam
+          <lb ed="#P" n="60"/>objici potest lex Hispaniae 9, tit. 1, part. 2,
+          <lb ed="#P" n="61"/>ubi in principio dicitur quatuor modis posse
+          <lb ed="#P" n="62"/>jure obtineri dominium regni et nomen regis.
+          <lb ed="#P" n="63"/>Et postea dicitur tertium modum esse per 
+          ma<lb break="no" ed="#P" n="64"/>trimonium, quando aliquis privatus ducit 
+          uxo<lb break="no" ed="#P" n="65"/>rem reginam et regni haeredem : ergo tunc vir
+          <lb ed="#P" n="66"/>obtinet jure dominium regni; ergo apud 
+          ip<lb break="no" ed="#P" n="67"/>sum est potestas legislativa, non apud 
+          regi<lb break="no" ed="#P" n="68"/>nam. Et confirmatur, quia alias maritus esset
+          <lb ed="#P" n="69"/>uxori subditus, ac subinde teneretur parere
+          <lb ed="#P" n="70"/>ejus legibus, et consequenter etiam 
+          persona<lb break="no" ed="#P" n="71"/>libus praeceptis, ut, verbi gratia, teneretur 
+          bel<lb break="no" ed="#P" n="72"/>lum gerere praecipiente uxore, et similia quae
+          <lb ed="#P" n="73"/>videntur esse contra debitum naturae ordinem,
+          <lb ed="#P" n="74"/>et contra sententias Pauli supra citatas. 
+          Con<lb break="no" ed="#P" n="75"/>firmatur secundo, quia maritus habet jus ct
+          <lb ed="#P" n="76"/>potestatem gubernandi uxorem in omnibus
+          <lb ed="#P" n="77"/>actionibus suis, et corripere illam non solum
+          <lb ed="#P" n="78"/>in rebus ad se pertinentibus, sed absolute in
+          <lb ed="#P" n="79"/>omnibus quae adversantur bonis moribus, qua
+          <lb ed="#P" n="80"/>ratione multi censent posse maritum omnia
+          <lb ed="#P" n="81"/>vota uxoris irritare; ergo etiamsi uxor sit 
+          regi<lb break="no" ed="#P" n="82"/>na, habet maritus potestatem et superioritatem
+          <lb ed="#P" n="83"/>in omnes actiones ejus, etiam in eas quas 
+          exer<lb break="no" ed="#P" n="84"/>cere potest ut regina est ; ergo necesse est ut
+          <lb ed="#P" n="85"/>regina pendeat a marito in usu et 
+          administra<lb break="no" ed="#P" n="86"/>tione suae jurisdictionis.
+        </p>
+        <p xml:id="szdleg-a51079-d1e1081">
+          <lb ed="#P" n="87"/>14. Propter haec fortasse et similia 
+          Montal<lb break="no" ed="#P" n="88"/>tus, ut refert supra Gregor. Lop., dixit in eo
+          <lb ed="#P" n="89"/>casu jurisdictionem reginae seu 
+          administratio<lb break="no" ed="#P" n="90"/>nem ejus transferri in maritum regem. Et
+          <lb ed="#P" n="91"/>Palac. Rubi. quem etiam refert, dixit 
+          secun<lb break="no" ed="#P" n="92"/>dum leges Hispaniae administrationem regni
+          <lb ed="#P" n="93"/>esse in utroque. Sed, ut idem Gregor. notat,
+          <lb ed="#P" n="94"/>nulla est lex in Hispania quae hoc disponat,
+          <lb ed="#P" n="95"/>nec esset conformis rationi, ut probatum est.
+          <lb ed="#P" n="96"/>Ad legem ergo citatam respondetur in eadem
+          <lb ed="#P" n="97"/>contineri limitationem et declarationem, quia
+          <lb ed="#P" n="98"/>in illo tertio modo obtinendi regnum solum
+          <lb ed="#P" n="99"/>dicit, ratione conjugii cum regina posse 
+          mari<lb break="no" ed="#P" n="100"/>tum vocari regem, quod est consentaneum 
+          ra<lb break="no" ed="#P" n="101"/>tioni naturali, quia vir et uxor ita fiunt unum
+          <lb ed="#P" n="102"/>ratione matrimonii, ut honores et dignitates
+          <lb ed="#P" n="103"/>sibi communicent. Et quamvis communiter
+          <lb ed="#P" n="104"/>soleat vir, quia caput est, trahere uxorem ad
+          <lb ed="#P" n="105"/>participationem conditionis suae, sive 
+          nobilita<lb break="no" ed="#P" n="106"/>tis, sive ignobilitatis, ut statuunt plures leges
+          <lb ed="#P" n="107"/>civiles quas late refert Tiraq. d. c. 18, n. 1
+          <lb ed="#P" n="108"/>et 15, nihilominus, quando tanta est 
+          excellen<lb break="no" ed="#P" n="109"/>tia uxoris, quanta est in regina, illa trahit ad
+          <lb ed="#P" n="110"/>se virum, ut illi communicet nomen et hono-
+          <pb ed="#P" n="206"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rem suae dignitatis, ut idem auctor 
+          prosequi<lb break="no" ed="#P" n="2"/>tur a n. 39. Hoc ergo solum est quod per illam
+          <lb ed="#P" n="3"/>legem Hispanisae statuitur. Et quia nomen illud
+          <lb ed="#P" n="4"/>regis vacuum non est, dicitur etiam vir per
+          <lb ed="#P" n="5"/>matrimonium consequi dominium regni, non
+          <lb ed="#P" n="6"/>quoad jurisdictionem propriam, sed per 
+          quam<lb break="no" ed="#P" n="7"/>dam communicationem cum regina, ratione
+          <lb ed="#P" n="8"/>cujus ut dominus habendus est, et honorandus
+          <lb ed="#P" n="9"/>ut rex. Imo probabile est, si aliquid disponat
+          <lb ed="#P" n="10"/>circa regimen regni, vellegem ferat, et regina
+          <lb ed="#P" n="11"/>videns taceat, parendum illi esse, quia regina
+          <lb ed="#P" n="12"/>tacendo censetur illi consentire, vel 
+          committe<lb break="no" ed="#P" n="13"/>re vices suas: quamvis in hoc consuetudini et
+          <lb ed="#P" n="14"/>communi modo sentiendi regni standum 
+          vi<lb break="no" ed="#P" n="15"/>deatur.
+        </p>
+        <p xml:id="szdleg-a51079-d1e1173">
+          <lb ed="#P" n="16"/>15. Maritum regine subdi illài quoad 
+          politi<lb break="no" ed="#P" n="17"/>cum regimen, in aeconomico vero esse 
+          superio<lb break="no" ed="#P" n="18"/>rem.— Ad primam confirmationem 
+          responde<lb break="no" ed="#P" n="19"/>tur, concedendo, in his quae pertinent ad 
+          com<lb break="no" ed="#P" n="20"/>munem reipublicae gubernationem, regem in
+          <lb ed="#P" n="21"/>eo casu esse subjectum regina,, quia re vera
+          <lb ed="#P" n="22"/>illa sola est suprema domina quoad 
+          jurisdic<lb break="no" ed="#P" n="23"/>tionem politicam, unde sola est caput: rex
+          <lb ed="#P" n="24"/>autem est membrum illius reipublicae ; sub ea
+          <lb ed="#P" n="25"/>ergo ratione subditum esse necesse est. Unde
+          <lb ed="#P" n="26"/>non est dubium quin obligetur legibus a regina
+          <lb ed="#P" n="27"/>latis, neque hoc est mirum, quia infra 
+          ostende<lb break="no" ed="#P" n="28"/>mus etiam ipsum legislatorem obligari suis 
+          le<lb break="no" ed="#P" n="29"/>gibus : et verisimile est in hoc aequiparari 
+          vi<lb break="no" ed="#P" n="30"/>rum uxori , quia tanquam unum reputantur,
+          <lb ed="#P" n="31"/>argumento sumpto a fortiori ex l. Princeps,
+          <lb ed="#P" n="32"/>ff. de Legibus. Neque hic modus subjectionis
+          <lb ed="#P" n="33"/>viri ad uxorem est contra rationem, aut contra
+          <lb ed="#P" n="34"/>verba Pauli, quia sub diversis rationibus, et in
+          <lb ed="#P" n="35"/>ordine ad diversos fines fieri potest ut vir,
+          <lb ed="#P" n="36"/>quatenus habet potestatem jure conjugii, sit
+          <lb ed="#P" n="37"/>superior uxore etiam regina, in his quae 
+          spec<lb break="no" ed="#P" n="38"/>tant ad usum matrimonii, gubernationem 
+          fa<lb break="no" ed="#P" n="39"/>miliae, custodiam uxoris, educationem 
+          filo<lb break="no" ed="#P" n="40"/>rum, uxor autem, quatenus regina, sit superior
+          <lb ed="#P" n="41"/>in ordine ad politicam gubernationem. Et 
+          jux<lb break="no" ed="#P" n="42"/>ta haec dicendum etiam est ad secundam 
+          con<lb break="no" ed="#P" n="43"/>firmationem, virum non habere absolutam 
+          po<lb break="no" ed="#P" n="44"/>testatem in uxorem, sed tantum in ordine
+          <lb ed="#P" n="45"/>ad oeconomicum regimen, unde non potest 
+          dis<lb break="no" ed="#P" n="46"/>ponere ad libitum de omnibus actionibus ejus,
+          <lb ed="#P" n="47"/>nec vota ejus indiscriminatim irritare, sed
+          <lb ed="#P" n="48"/>tantum ea quae sibi, vel suae familiae, aut 
+          pri<lb break="no" ed="#P" n="49"/>vato regimini praejudicant, et ideo non oportet
+          <lb ed="#P" n="50"/>ut in eo casu actiones regiae potestatis uxoris a
+          <lb ed="#P" n="51"/>marito in rigore pendeant ; quamvis ex 
+          qua<lb break="no" ed="#P" n="52"/>dam honestate debeat uxor etiam in his 
+          consi<lb break="no" ed="#P" n="53"/>lium mariti magni facere.
+        </p>
+        <p xml:id="szdleg-a51079-d1e1258">
+          <lb ed="#P" n="54"/>16. An quelibet civitas possit condere leges.
+          <lb ed="#P" n="55"/>— Quae civitates dicende maaime, majores,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>minores. — Aliud dubium pertinens ad 
+          com<lb break="no" ed="#P" n="57"/>munitates est an quaelibet civitas possit veras
+          <lb ed="#P" n="58"/>leges condere. Dividuntur autem civitates 
+          se<lb break="no" ed="#P" n="59"/>cundum jus civile in maximas, majores et 
+          mi<lb break="no" ed="#P" n="60"/>nores, juxta l. S duas, tf. de Excusat. tutor.
+          <lb ed="#P" n="61"/>Maximae dieuntur in illa lege illae quae sunt
+          <lb ed="#P" n="62"/>metropoles gentium. Ubi Glossa declarat nunc
+          <lb ed="#P" n="63"/>esse ejusmodi omnes civitates 
+          archiepiscopa<lb break="no" ed="#P" n="64"/>les, quia habent metropolitanum, sic enim 
+          ar<lb break="no" ed="#P" n="65"/>chiepiscopus appellatur. Majores autem 
+          dicun<lb break="no" ed="#P" n="66"/>tur ibidem quae habent forum causarum ; 
+          opor<lb break="no" ed="#P" n="67"/>tet enim ut civitas habeat jurisdictionem, et
+          <lb ed="#P" n="68"/>specialem auctoritatem, et modum se 
+          guber<lb break="no" ed="#P" n="69"/>nandi. Et ita populi in quibus sunt episcopales
+          <lb ed="#P" n="70"/>sedes sunt ex his civitatibus, quamvis non sit
+          <lb ed="#P" n="71"/>de ratione civitatis, etiam proprie dictae, ut
+          <lb ed="#P" n="72"/>habeat Episcopum, ut notavit Panorm. in cap.
+          <lb ed="#P" n="73"/>Pernicioswn, de Offic. ordin., n. 1 et late Bart.
+          <lb ed="#P" n="74"/>in Extrav. Qui sint rebelles, verbo Lombardie,
+          <lb ed="#P" n="75"/>quia civitates antiquiores sunt Episcopis; ergo
+          <lb ed="#P" n="76"/>Episcopus supponit civitatem, non facit; imo
+          <lb ed="#P" n="77"/>olim non in pluribus civitatibus sed solum in
+          <lb ed="#P" n="78"/>frequentioribus erant episcopi. Minores vero
+          <lb ed="#P" n="79"/>civitates dicuntur illi populi qui sub 
+          civitati<lb break="no" ed="#P" n="80"/>bus sunt, et ab illorum foro judicantur. Quae
+          <lb ed="#P" n="81"/>nunc non vocantur civitates, sed villae vel
+          <lb ed="#P" n="82"/>castra.
+        </p>
+        <p xml:id="szdleg-a51079-d1e1326">
+          <lb ed="#P" n="83"/>17. Conclusio — Minores civitates non 
+          ha<lb break="no" ed="#P" n="84"/>bere potestatem ferendi proprias leges. — De
+          <lb ed="#P" n="85"/>populis ergo hujus tertii gradus videtur res
+          <lb ed="#P" n="86"/>clara, eos non habere potestatem ferendi 
+          pro<lb break="no" ed="#P" n="87"/>prias leges. Ita docet Bart. in l. omnes populi,
+          <lb ed="#P" n="88"/>ff. de Just. et jur. in principio: et ratio est,
+          <lb ed="#P" n="89"/>quia supra ostensum est non posse ferre legem
+          <lb ed="#P" n="90"/>qui non habet jurisdictionem, imo nec 
+          quam<lb break="no" ed="#P" n="91"/>cumque sufficere, sed valde superiorem, ut
+          <lb ed="#P" n="92"/>mox etiam explicabimus ; sed hi populi 
+          juris<lb break="no" ed="#P" n="93"/>dictionem talem non habent, quia nec forum
+          <lb ed="#P" n="94"/>causarum habent, ut supponitur in d. 1. Si
+          <lb ed="#P" n="95"/>duas, vel certe si aliquem modum judicii 
+          ha<lb break="no" ed="#P" n="96"/>bent, est tantum in levibus causis, et cum
+          <lb ed="#P" n="97"/>magna subordinatione ad forum civitatis, vel
+          <lb ed="#P" n="98"/>similem superiorem judicem ; ergo non est 
+          ve<lb break="no" ed="#P" n="99"/>risimile habere hos populos potestatem 
+          con<lb break="no" ed="#P" n="100"/>dendi leges. Et hoc ex aliis duobus membris
+          <lb ed="#P" n="101"/>magis constabit. Adhibet autem exceptionem
+          <lb ed="#P" n="102"/>Bart. dicens, posse facere statuta de his quae
+          <lb ed="#P" n="103"/>pertinent ad suorum bonorum 
+          administratio<lb break="no" ed="#P" n="104"/>nem. Sed non est necessaria limitatio. Nam
+          <lb ed="#P" n="105"/>talia statuta, si non sint confirmata ab habente
+          <lb ed="#P" n="106"/>potestatem, non possunt habere vim et 
+          ratio<lb break="no" ed="#P" n="107"/>nem legis, quia de ratione legis positivae est
+          <lb ed="#P" n="108"/>ut procedat ab habente jurisdictionem, ut 
+          su<lb break="no" ed="#P" n="109"/>periori libro ostensum est. Poterunt ergo esse
+          <lb ed="#P" n="110"/>vel pacta quaedam inter eos qui sunt de com-
+          <pb ed="#P" n="207"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>munitate, vel praecepta humana temporalia,
+          <lb ed="#P" n="2"/>sicut sunt praecepta patrisfamilias in domo
+          <lb ed="#P" n="3"/>sua, teste D. Thoma, q. 90, art. 3; non tamen
+          <lb ed="#P" n="4"/>poterunt habere legis perpetuitatem ac 
+          vir<lb break="no" ed="#P" n="5"/>tutem.
+        </p>
+        <p xml:id="szdleg-a51079-d1e1404">
+          <lb ed="#P" n="6"/>18. De civitatibus autem maximis videtur
+          <lb ed="#P" n="7"/>frequentius receptum posse condere leges.
+          <lb ed="#P" n="8"/>Nam in l. Omnes populi, ft. de Justit. et jure,
+          <lb ed="#P" n="9"/>dicitur uuumquemque populum posse sibi jus
+          <lb ed="#P" n="10"/>constituere. Quod etiam habetur in S Jus 
+          aa<lb break="no" ed="#P" n="11"/>tem civile, Instit. de Jure natur., gentium, etc.;
+          <lb ed="#P" n="12"/>ergo maxime debet habere locum in his 
+          popu<lb break="no" ed="#P" n="13"/>lis qui sunt metropoles civitatum. Et juvat quod
+          <lb ed="#P" n="14"/>dicitur in l. 9, ff. de Legibus, non ambigitur
+          <lb ed="#P" n="15"/>senatum jus facere posse. Verumtamen nulla
+          <lb ed="#P" n="16"/>specialis ratio in rigore invenitur in his 
+          maxi<lb break="no" ed="#P" n="17"/>mis civitatibus magis quam in majoribus, quae
+          <lb ed="#P" n="18"/>respectu illarum minores sunt; quod attinet
+          <lb ed="#P" n="19"/>ad potestatem ex vi juris, licet in facto et 
+          con<lb break="no" ed="#P" n="20"/>suetudine possit assignari aliquod discrimen,
+          <lb ed="#P" n="21"/>ut dicemus. Igitur absolute de omnibus 
+          pro<lb break="no" ed="#P" n="22"/>priis civitatibus est communis sententia, posse
+          <lb ed="#P" n="23"/>condere jus municipale quod propriis 
+          legi<lb break="no" ed="#P" n="24"/>bus constet : dummodo sint tales leges de 
+          ma<lb break="no" ed="#P" n="25"/>teria proportionata unicuique civitati, id est,
+          <lb ed="#P" n="26"/>propria illius, et non communi cum aliis, nec
+          <lb ed="#P" n="27"/>contra bonos mores, nec reservata principi,
+          <lb ed="#P" n="28"/>aut juri civili contraria. Ita fere Abb. in c.
+          <lb ed="#P" n="29"/>Quod clericis, de Foro compet., n. ult., ubi in
+          <lb ed="#P" n="30"/>eamdem sententiam refert Joan. Andr. et 
+          Spe<lb break="no" ed="#P" n="31"/>culat. Videtur etiam idem sentire Sylvest.
+          <lb ed="#P" n="32"/>verb. Lex, q. 4. Sed re vera non persistit in
+          <lb ed="#P" n="33"/>illa. In eam etiam inclinat Gregor. Lop. in
+          <lb ed="#P" n="34"/>l. 12, tit. 1, partit. 1, saltem quoad eas leges
+          <lb ed="#P" n="35"/>quae spectant ad rerum uniuscujusque civitatis
+          <lb ed="#P" n="36"/>administrationem. Probari autem solet 
+          praeci<lb break="no" ed="#P" n="37"/>pue haec sententia ex dicta l. Omnes populi,
+          <lb ed="#P" n="38"/>quae loquitur indistincte (ut expendit 
+          Panor<lb break="no" ed="#P" n="39"/>mit.), et ideo de omnibus civitatibus 
+          intelh<lb break="no" ed="#P" n="40"/>genda est. Idem probat 8 sed naturalia, Instit.
+          <lb ed="#P" n="41"/>de Jure natur. ibi : Fa, qua ipsa sibi queque
+          <lb ed="#P" n="42"/>civitas constituit. Et in S Jus autem dictum
+          <lb ed="#P" n="43"/>fuerat tale esse jus uniuscujusque civitatis, 
+          vo<lb break="no" ed="#P" n="44"/>carique jus civile quasi jus proprium ipsius
+          <lb ed="#P" n="45"/>civitatis. Ratio reddi potest, quia unaquaeque
+          <lb ed="#P" n="46"/>civitas indiget hac potestate, quia per solum
+          <lb ed="#P" n="47"/>commune jus non potest sufficienter provideri
+          <lb ed="#P" n="48"/>necessitatibus omnibus quae in diversis locis
+          <lb ed="#P" n="49"/>pro eorum varia qualitate et dispositione 
+          oc<lb break="no" ed="#P" n="50"/>currunt; ergo oportet ut hoc suppleatur per
+          <lb ed="#P" n="51"/>jus municipale. Confirmatur : nam quaelibet
+          <lb ed="#P" n="52"/>civitas censetur communitas perfecta 
+          secun<lb break="no" ed="#P" n="53"/>dum Aristotelem : ergo per se potest leges
+          <lb ed="#P" n="54"/>condere ; sed circa res proprias melius potest
+          <lb ed="#P" n="55"/>unaquaeque civitas statuere; ergo rationi con-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sentaneum est ut illis fuerit relicta haec 
+          potes<lb break="no" ed="#P" n="57"/>tas, quae spectat ad rerum propriarum 
+          admi<lb break="no" ed="#P" n="58"/>nistrationem.
+        </p>
+        <p xml:id="szdleg-a51079-d1e1524">
+          <lb ed="#P" n="59"/>19. Sed in hoc puncto probanda videtur
+          <lb ed="#P" n="60"/>doctrina Baldi in dicta l. Omnes populi, quam
+          <lb ed="#P" n="61"/>etiam refert et sequitur Sylvest. supra, 
+          videli<lb break="no" ed="#P" n="62"/>cet, unamquamque civitatem tantum habere
+          <lb ed="#P" n="63"/>de potestate condendi legem, vel statutum,
+          <lb ed="#P" n="64"/>quantum habet de jurisdictione. Et ratio 
+          su<lb break="no" ed="#P" n="65"/>mitur ex dictis, quia potestas condendi leges
+          <lb ed="#P" n="66"/>(ut lib. 1, cap. S et lib. 2, cap. 1, dixi) 
+          juris<lb break="no" ed="#P" n="67"/>dictionis est ; ergo pro mensura jurisdictionis
+          <lb ed="#P" n="68"/>quam civitas habuenrit, judicandum erit de hac
+          <lb ed="#P" n="69"/>potestate. Unde ad hanc resolutionem, per se
+          <lb ed="#P" n="70"/>loquendo , non multum refert distinctio de
+          <lb ed="#P" n="71"/>maxima vel majori civitate, quia fieri potest
+          <lb ed="#P" n="72"/>ut civitas secundi ordinis habeat hanc 
+          juris<lb break="no" ed="#P" n="73"/>dictionem, et non maxima civitas. Potius ergo
+          <lb ed="#P" n="74"/>spectandum est an civitas retineat in se 
+          ali<lb break="no" ed="#P" n="75"/>quam potestatem supremae reipublicae, et per
+          <lb ed="#P" n="76"/>illam seipsam gubernet, vel illam transtulerit
+          <lb ed="#P" n="77"/>simpliciter in aliquem principem, vel quolibet
+          <lb ed="#P" n="78"/>alio justo titulo translata sit. Omnis ergo 
+          ci<lb break="no" ed="#P" n="79"/>vitas prioris ordinis potest sine dubio condere
+          <lb ed="#P" n="80"/>leges, quia habet supremam jurisdictionem
+          <lb ed="#P" n="81"/>juxta principia posita in priori libro. Et de his
+          <lb ed="#P" n="82"/>populis liberis loquitur dicta l. Omnes populi.
+          <lb ed="#P" n="83"/>Nam loquitur de jure civili prout 
+          condistingui<lb break="no" ed="#P" n="84"/>tur a jure gentium: jus autem civile illo modo
+          <lb ed="#P" n="85"/>sumptum non est tantum jus municipale, seu
+          <lb ed="#P" n="86"/>particulare alicujus popuh ; sed est quodlibet
+          <lb ed="#P" n="87"/>jus proprium unius gentis, vel provinciae, vel
+          <lb ed="#P" n="88"/>regni, vel cujuslibet communitatis habentis
+          <lb ed="#P" n="89"/>supremam jurisdictionem temporalem.Tamen,
+          <lb ed="#P" n="90"/>quia hoc jus coepit a civitatibus supremis, et
+          <lb ed="#P" n="91"/>ab illis nomen sumpsit, ideo in dicta lege 
+          di<lb break="no" ed="#P" n="92"/>citur esse proprium uniuscujusque populi
+          <lb ed="#P" n="93"/>qui legibus et moribus regitur, id est, qui 
+          po<lb break="no" ed="#P" n="94"/>test sibi proprium jus constituere praeter illud
+          <lb ed="#P" n="95"/>quod omnibus gentibus est commune; loquitur
+          <lb ed="#P" n="96"/>ergo de populis liberis, ut erant Romanus,
+          <lb ed="#P" n="97"/>Atheniensis, et similes, in quibus posuit 
+          exem<lb break="no" ed="#P" n="98"/>plum Imperator in S 2 et 3, Instit. de Jure 
+          na<lb break="no" ed="#P" n="99"/>turali, gentium et civili. Et de eisdem liberis
+          <lb ed="#P" n="100"/>populis locutus est etiam Isidor. in cap. Jus
+          <lb ed="#P" n="101"/>civile, dist. 1, ut ibi notat Cardin. Alexand. et
+          <lb ed="#P" n="102"/>Decius in cap. Zcclesia, de Constit. n. 24.
+          <lb ed="#P" n="103"/>Loquuntur enim illa jura de populis secundum
+          <lb ed="#P" n="104"/>se spectatis, et secundum suam primaevam 
+          na<lb break="no" ed="#P" n="105"/>turam.
+        </p>
+        <p xml:id="szdleg-a51079-d1e1628">
+          <lb ed="#P" n="106"/>20. At vero omnis civitas, sive major sit,
+          <lb ed="#P" n="107"/>sive maxima, quae subdita est supremo 
+          prin<lb break="no" ed="#P" n="108"/>cipi in quem populi potestas translata est, jam
+          <lb ed="#P" n="109"/>non potest condere leges per se sola, ex vi 
+          so<lb break="no" ed="#P" n="110"/>lius potestatis propriae, quia jam se abdicavit
+          <pb ed="#P" n="208"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>potestate necessaria ad ferendas leges 
+          perpe<lb break="no" ed="#P" n="2"/>tuas et ad commune bonum ordinatas; oportet
+          <lb ed="#P" n="3"/>ergo ut vel a principio in creatione sui 
+          princi<lb break="no" ed="#P" n="4"/>patus sub tali conditione vel limitatione 
+          col<lb break="no" ed="#P" n="5"/>lata fuerit principi potestas, ut civitas posset
+          <lb ed="#P" n="6"/>nihilominus per se statuere de rebus ad suam
+          <lb ed="#P" n="7"/>peculiarem gubernationem et 
+          administratio<lb break="no" ed="#P" n="8"/>nem pertinentibus; vel certe ut postea ex 
+          par<lb break="no" ed="#P" n="9"/>ticulari principis concessione talem potestatem
+          <lb ed="#P" n="10"/>receperit. Et de quolibet istorum modorum
+          <lb ed="#P" n="11"/>constare poterit, vel privilegiis antiquis, vel ex
+          <lb ed="#P" n="12"/>communi jure talis regni, vel, quod est 
+          fre<lb break="no" ed="#P" n="13"/>quentius, usu et longa consuetudine. Extra
+          <lb ed="#P" n="14"/>hos vero casus necesse est, ut statutum 
+          civita<lb break="no" ed="#P" n="15"/>tis subditae per suum superiorem expresse vel
+          <lb ed="#P" n="16"/>tacite confirmetur, ut habeat rationem legis,
+          <lb ed="#P" n="17"/>sicut in S Constat, Instit. de Jure naturali,
+          <lb ed="#P" n="18"/>dicitur plebiscita coepisse habere valorem 
+          le<lb break="no" ed="#P" n="19"/>gum per legem Hortensiam, scilicet, quia 
+          con<lb break="no" ed="#P" n="20"/>sentiente senatu illa facultas plebi data est.
+          <lb ed="#P" n="21"/>Idem ergo requiritur cum proportione in 
+          qua<lb break="no" ed="#P" n="22"/>cumque communitate quae non est suprema.
+          <lb ed="#P" n="23"/>Et hoc etiam significatur in lib. 3, C. de 
+          legi<lb break="no" ed="#P" n="24"/>bus, ibi: Nec iis, quae specialiter quibusdam
+          <lb ed="#P" n="25"/>concessa sunt civitatibus , vel provinciis, vel
+          <lb ed="#P" n="26"/>corporibus, etc. Ubi clare supponitur omnes
+          <lb ed="#P" n="27"/>terras subjectas imperio indigere concessione
+          <lb ed="#P" n="28"/>imperatoris ad statuendas proprias leges, quod
+          <lb ed="#P" n="29"/>non solum de civitatibus maximis, sed etiam
+          <lb ed="#P" n="30"/>de provinciis, et in universum de corporibus
+          <lb ed="#P" n="31"/>mysticis traditur.
+        </p>
+        <p xml:id="szdleg-a51079-d1e1714">
+          <lb ed="#P" n="32"/>21. Solum constitui potest differentia inter
+          <lb ed="#P" n="33"/>maximas civitates et inferiores, quia 
+          verisimi<lb break="no" ed="#P" n="34"/>lius est potestatem hanc concedi maximis 
+          ci<lb break="no" ed="#P" n="35"/>vitatibus potius quam inferioribus, quamvis
+          <lb ed="#P" n="36"/>in utrisque necessarium sit ut de tali 
+          conces<lb break="no" ed="#P" n="37"/>sione vel potestate sufficienter constet aliquo
+          <lb ed="#P" n="38"/>ex dictis modis. Nam ex jure communi non
+          <lb ed="#P" n="39"/>constat etiam pro civitatibus maximis 
+          subjec<lb break="no" ed="#P" n="40"/>tis imperio, quia nec jureconsultus Caius in
+          <lb ed="#P" n="41"/>dicta l. Omnes populi, de his populis locutus
+          <lb ed="#P" n="42"/>est, ut dixi, nec ipse poterat populis subjectis
+          <lb ed="#P" n="43"/>illam facultatem dare, ut per se constat. Nec
+          <lb ed="#P" n="44"/>etiam Justinianus imperator in eo sensu illam
+          <lb ed="#P" n="45"/>legem acceptavit in S 2 Instit. de Jure Natur.,
+          <lb ed="#P" n="46"/>quin potius in l. ult., C. de Legibus, expresse
+          <lb ed="#P" n="47"/>dixit : /n praesenti solt imperatori leges condere
+          <lb ed="#P" n="48"/>concessum est, utique in suo imperio, et ex vi
+          <lb ed="#P" n="49"/>ordinariae potestatis. Atque idem cum 
+          propor<lb break="no" ed="#P" n="50"/>üone est in regno Hispaniae, ut statuitur in
+          <lb ed="#P" n="51"/>dicta 1. 12, tit. 1, parte 1, ubi etiam Gregor.
+          <lb ed="#P" n="52"/>Lop. refert Pragmaticam specialem hoc 
+          sta<lb break="no" ed="#P" n="53"/>tuentem, quae hodie habetur in libro 7 novae
+          <lb ed="#P" n="54"/>recopilat. tit. 1, 1. 8, d.; idem significatur in
+          <lb ed="#P" n="55"/>legibus hujus regni Lusitaniae libro 3, tit. 75,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>§  1. Ultimo inquiri hic poterat an haec 
+          potes<lb break="no" ed="#P" n="57"/>tas ferendi leges civiles delegabilis sit. Sed in
+          <lb ed="#P" n="58"/>hoc nihil occurrit addendum his quae in libro
+          <lb ed="#P" n="59"/>superiori cap. 4, in fine diximus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

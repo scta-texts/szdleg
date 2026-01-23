@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="454"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-b14818"><!-- deleg-l5c9 -->
+        <head xml:id="szdleg-b14818-Hd1e101">Caput 9</head>
+        <head xml:id="szdleg-b14818-Hd1e103" type="question-title">Quae obligatio oriatur in conscientia ad executionem poenae privativae ex lege imponente illam ipso facto, quando executio poenae actionem non requirit</head>
+        <p xml:id="szdleg-b14818-d1e106">
+          <lb ed="#P" n="40"/>CAPUT IX.
+          <lb ed="#P" n="41"/>QUAE OBLIGATIO ORIATUR IN CONSCIENTIA AD 
+          EXE<lb break="no" ed="#P" n="42"/>CUTIONEM POENAE PRIVATIVAE EX LEGE 
+          IMPO<lb break="no" ed="#P" n="43"/>NENTE ILLAM IPSO FACTO, QUANDO EXECUTIO
+          <lb ed="#P" n="44"/>POENAE ACTIONEM NON REQUIRIT.
+        </p>
+        <p xml:id="szdleg-b14818-d1e119">
+          <lb ed="#P" n="45"/>1. Ex regulis superiori capite propositis, 
+          pri<lb break="no" ed="#P" n="46"/>ma communis est omnibus poenis privativis,
+          <lb ed="#P" n="47"/>ct ideo de illa jam non tractamus; secunda
+          <lb ed="#P" n="48"/>vero et tertia tantum propositae sunt de poenis,
+          <lb ed="#P" n="49"/>quae, licet proxime privationem inducant, in
+          <lb ed="#P" n="50"/>actione consummantur. Et ideo superest 
+          du<lb break="no" ed="#P" n="51"/>bium qua ex his regulis utendum sit, in poenis
+          <lb ed="#P" n="52"/>pure privativis, quae ad plenam executionem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>nullam hominis actionem requirunt. De 
+          qui<lb break="no" ed="#P" n="54"/>bus certum a fortiori est quod, si in lege 
+          dica<lb break="no" ed="#P" n="55"/>tur ipso jure, et addatur absque alia 
+          declara<lb break="no" ed="#P" n="56"/>tione, vel quid sin ile, statim absque mora lex
+          <lb ed="#P" n="57"/>ipsa exequitur poenam, quia potest, et nihil
+          <lb ed="#P" n="58"/>est quod expectetur, ut probatum est. Dubium
+          <lb ed="#P" n="59"/>ergo solum est, an simplex verbum ipso 
+          fac<lb break="no" ed="#P" n="60"/>to sufficiat in his poenis, quae distingui possunt :
+          <lb ed="#P" n="61"/>nam interdum sunt quasi passivae, ut esse 
+          ine<lb break="no" ed="#P" n="62"/>ligibilem , esse incapacem bonorum, et 
+          si<lb break="no" ed="#P" n="63"/>miles, quae tollunt passivam capacitatem, seu
+          <lb ed="#P" n="64"/>habilitatem; aliae vero dici possunt activae,
+          <lb ed="#P" n="65"/>quae privant voce activa, seu reddunt 
+          inhabi<lb break="no" ed="#P" n="66"/>lem personam ad ferendum suffragium, ad
+          <lb ed="#P" n="67"/>eligendum, et similes.
+        </p>
+        <p xml:id="szdleg-b14818-d1e174">
+          <lb ed="#P" n="68"/>2. Regula generalis pro particula - ipso facto.
+          <lb ed="#P" n="69"/>— De his ergo est valde recepta sententia,
+          <lb ed="#P" n="70"/>quoties lex poenalis cum additione ipso facto,
+          <lb ed="#P" n="71"/>vel simili, imponit hujusmodi inhabilitatem,
+          <lb ed="#P" n="72"/>etiamsi non addat absque alia declaratione,
+          <lb ed="#P" n="73"/>vel aliud aequivalens, inducere statim illam
+          <lb ed="#P" n="74"/>inhabilitatem ante omnem sententiam, etiam
+          <lb ed="#P" n="75"/>declaratoriam criminis. Ita tenent aperte 
+          Ca<lb break="no" ed="#P" n="76"/>jetan. 2. 2, quaest. 62, art. 3; Sylvest., verb.
+          <lb ed="#P" n="77"/>Assassimts, Navar., Cord. et alii in cap. 1 de
+          <lb ed="#P" n="78"/>Const., et Tiraq. supra. Consentit etiam 
+          Me<lb break="no" ed="#P" n="79"/>din. 1. 2, quaest. 96, artic. 4; et in his poenis
+          <lb ed="#P" n="80"/>idem sentit Covar., in 4, part. 2, cap. 8, 85,
+          <lb ed="#P" n="81"/>num. $, loquens de incapacitate ad 
+          haeredita<lb break="no" ed="#P" n="82"/>tem paternam, quae illegitimis spuriis 
+          imponi<lb break="no" ed="#P" n="83"/>tur ipso facto per leges, quamvis illa non tam
+          <lb ed="#P" n="84"/>sit filiorum poena, quam parentum. Idemque
+          <lb ed="#P" n="85"/>ait in regula Peccatum, 2 part., S 6, de Lege
+          <lb ed="#P" n="86"/>quae in poenam impedit acquisitionem dominii
+          <lb ed="#P" n="87"/>alicujus rei, ut ex Concilio Lateran. supra 
+          re<lb break="no" ed="#P" n="88"/>tuli, et ex Trid., sess. 23, cap. 1 de Reform.;
+          <lb ed="#P" n="89"/>et simile habetur in sess. 22, c. 3; et Soto,
+          <lb ed="#P" n="90"/>lib. 10 de Justit., quaest. 5, art. 6, non audet
+          <lb ed="#P" n="91"/>hoc negare, saltem de impedimento pure 
+          pas<lb break="no" ed="#P" n="92"/>sivo : semper tamen reducit has poenas ad 
+          con<lb break="no" ed="#P" n="93"/>ventionales, quia beneficia vel officia dantur
+          <lb ed="#P" n="94"/>sub his conditionibus. Quod, ut saepe dixi, 
+          vo<lb break="no" ed="#P" n="95"/>luntarium et insufficiens est; tum quia illae
+          <lb ed="#P" n="96"/>leges generaliter feruntur, etiam pro his qui
+          <lb ed="#P" n="97"/>ante illas beneficia vel officia obtinebant; tum
+          <lb ed="#P" n="98"/>etiam quia non pendent ex pacto vel 
+          conven<lb break="no" ed="#P" n="99"/>tione, nec illo intuitu feruntur, nec requirunt
+          <lb ed="#P" n="100"/>scientiam aut consensum talis pacti, sed ex
+          <lb ed="#P" n="101"/>mera potestate legislativa feruntur.
+        </p>
+        <p xml:id="szdleg-b14818-d1e251">
+          <lb ed="#P" n="102"/>3. Probaturque ex cap. Cum singula, de
+          <lb ed="#P" n="103"/>Praebend. in 6, ibi: Ea tunc eo ipso efficiatur
+          <lb ed="#P" n="104"/>ineligibilis ; et in fine: Reddantur ineligibiles
+          <lb ed="#P" n="105"/>ipso jure; ubi omnes intelligunt, cum Glossa,
+          <lb ed="#P" n="106"/>illam poenam statim incurri, ita ut electio de
+          <lb ed="#P" n="107"/>tali persona facta nulla sit, et tamen inhabili-
+          <pb ed="#P" n="455"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tas illa, seu ineligibilitas non nascitur ex 
+          ali<lb break="no" ed="#P" n="2"/>quo pacto, vel conventione, sed pure ex 
+          effi<lb break="no" ed="#P" n="3"/>cacia legis. Aliud exemplum hujus assertionis
+          <lb ed="#P" n="4"/>sumi potest ex Motu proprio Pii V contra 
+          si<lb break="no" ed="#P" n="5"/>mnoniacos, ubi, recipiens beneficium per 
+          simo<lb break="no" ed="#P" n="6"/>niam redditur inhabilis ipso jure ad beneficia,
+          <lb ed="#P" n="7"/>quae poena statim etiam incurritur ante omnem
+          <lb ed="#P" n="8"/>sententiam, ut proprio loco dixi, stante illa
+          <lb ed="#P" n="9"/>lege in sua vi. Huc etiam spectant canones,
+          <lb ed="#P" n="10"/>qui in poenam alicujus delicti, ut uxoricidii,
+          <lb ed="#P" n="11"/>reddunt personam inhabilem ad matrimonium
+          <lb ed="#P" n="12"/>ut constat ex cap. 1, et cap. Super eo, et cap.
+          <lb ed="#P" n="13"/>Significasti, De eo qui duxit in matrimonium
+          <lb ed="#P" n="14"/>quam polluit, etc. Verum est in his juribus
+          <lb ed="#P" n="15"/>non haberi particulam ipso facto, vel similes,
+          <lb ed="#P" n="16"/>sed ex effectu colligi inhabilitatem ipso facto,
+          <lb ed="#P" n="17"/>quia talia matrimonia censentur irrita, et ita
+          <lb ed="#P" n="18"/>illa jura non probant an alia jura per solas
+          <lb ed="#P" n="19"/>particulas praedictas censeantur illam inferre.
+          <lb ed="#P" n="20"/>4. Prebendati sine justa causa non promoti
+          <lb ed="#P" n="21"/>intra annum ad ordines suis praebendis annemos
+          <lb ed="#P" n="22"/>ex tunc privantur voce activa in Capitulo. —
+          <lb ed="#P" n="23"/>Praeterea de privatione quasi activa est 
+          opti<lb break="no" ed="#P" n="24"/>mum exemplum in Clement. Ut is qui, de Stat.
+          <lb ed="#P" n="25"/>et qualit., ubi praebendati in ecclesiis 
+          cathe<lb break="no" ed="#P" n="26"/>dralibus, qui sine justa causa non 
+          promoven<lb break="no" ed="#P" n="27"/>tur intra annum ad ordines suis praebendis 
+          an<lb break="no" ed="#P" n="28"/>nexos, ex tunc privantur voce activa in 
+          Capi<lb break="no" ed="#P" n="29"/>tulo. Quod intelligitur ante omnem 
+          senten<lb break="no" ed="#P" n="30"/>tiam, juxta Glossam, Cardin. Bonif. et omnes;
+          <lb ed="#P" n="31"/>plura afferemus infra, tractando de legibus
+          <lb ed="#P" n="32"/>irritantibus contractus. Ratio denique est, quia
+          <lb ed="#P" n="33"/>hic effectus est aptus fieri integre et perfecte
+          <lb ed="#P" n="34"/>per solam legem, et ita potestas non deest:
+          <lb ed="#P" n="35"/>voluntas autem legislatoris sutficienter 
+          signi<lb break="no" ed="#P" n="36"/>ficatur per illam vocem, neque est ullum 
+          juri<lb break="no" ed="#P" n="37"/>dicum fundamentum ad limitandum illam.
+          <lb ed="#P" n="38"/>Item, quia in hoc videntur hae inhabiltates
+          <lb ed="#P" n="39"/>comparari censuris, et irregularitatibus, nec
+          <lb ed="#P" n="40"/>sufficiens ratio differentiae assignari potest,
+          <lb ed="#P" n="41"/>neque ex usu aliud constat.
+        </p>
+        <p xml:id="szdleg-b14818-d1e360">
+          <lb ed="#P" n="42"/>5. Ab hac vero sententia dissentit Soto, 1. 1
+          <lb ed="#P" n="43"/>de Just., quaest. 6, art. 6, ad 4, et lib. 4, q. 6,
+          <lb ed="#P" n="44"/>art. 3, circa finem; Ledesm. in 4, part. 2,
+          <lb ed="#P" n="45"/>quaest. 18, art. 2, S Postremo hesitat, qui
+          <lb ed="#P" n="46"/>loquuntur de inhabilitate quasi activa ad 
+          fe<lb break="no" ed="#P" n="47"/>rendum suftragium ; tractant enim specialiter
+          <lb ed="#P" n="48"/>de legibus universitatum, per quas poena 
+          inha<lb break="no" ed="#P" n="49"/>bilitatis imponitur scholasticis hoc vel illud
+          <lb ed="#P" n="50"/>committentibus, et docet tales poenas non 
+          in<lb break="no" ed="#P" n="51"/>curri, donec ipsi condemnentur. Et Ledesm.
+          <lb ed="#P" n="52"/>quidem non addit expresse Licet lec dicat
+          <lb ed="#P" n="53"/>ipso facto, vel ipso jure, sed indefinite 
+          loqui<lb break="no" ed="#P" n="54"/>tur, supponitque legem poenalem nunquam
+          <lb ed="#P" n="55"/>aliter obligare ad poenam ; et eisdem fere ver-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>bis loquitur Soto in posteriori loco: tamen in
+          <lb ed="#P" n="57"/>primo ubi ex professo rem tractat, aperte 
+          lo<lb break="no" ed="#P" n="58"/>quitur de legibus punientibus ipso facto, et
+          <lb ed="#P" n="59"/>extendit sermonem ad omnes electiones, et
+          <lb ed="#P" n="60"/>suffragia. Et praeter rationes generales quas
+          <lb ed="#P" n="61"/>supponit, addit aliam, scilicet, quia alias vix
+          <lb ed="#P" n="62"/>esse posset tutus aliquis electus, vel qui 
+          ca<lb break="no" ed="#P" n="63"/>thedram per suftragia scholarium obtinuit,
+          <lb ed="#P" n="64"/>quia multi electo suffragantes fortasse 
+          inhabi<lb break="no" ed="#P" n="65"/>les erant ipso facto, licet occulti. Hi vero 
+          auc<lb break="no" ed="#P" n="66"/>tores imprimis excedunt, quatenus indicant
+          <lb ed="#P" n="67"/>has leges in priori sensu intellectas, aut fore
+          <lb ed="#P" n="68"/>injustas, aut omnino excedere potestatem 
+          le<lb break="no" ed="#P" n="69"/>gislatoris humani : hoc enim satis improbatum
+          <lb ed="#P" n="70"/>est in superioribus, et ideo necesse non est
+          <lb ed="#P" n="71"/>hic ad rationes generales respondere: hoc enim
+          <lb ed="#P" n="72"/>satis in superioribus actum est. Deinde, ratio
+          <lb ed="#P" n="73"/>quam Soto addit, non est magni momenti.
+          <lb ed="#P" n="74"/>Negatur enim sequela, et primo dici posset de
+          <lb ed="#P" n="75"/>occultis Ecclesiam non judicare, et ideo merito
+          <lb ed="#P" n="76"/>approbari hujusmodi electionem seu 
+          collatio<lb break="no" ed="#P" n="77"/>nem, et electum esse omnino tutum et 
+          secu<lb break="no" ed="#P" n="78"/>rum, quia non tenetur malum praesumere, et
+          <lb ed="#P" n="79"/>praesertim contra se. Verumtamen, etiamsi
+          <lb ed="#P" n="80"/>electo constet aliquem sibi suffragantem fuisse
+          <lb ed="#P" n="81"/>inhabilem poenali inhabilitate, et solum 
+          ratio<lb break="no" ed="#P" n="82"/>ne illius cathedram obtinuisse , nihilominus
+          <lb ed="#P" n="83"/>dico electionem fuisse validam, quia, licet ille
+          <lb ed="#P" n="84"/>esset inhabilis reipsa, et quoad se, nihilominus
+          <lb ed="#P" n="85"/>erat minister toleratus, et publica auctoritate
+          <lb ed="#P" n="86"/>suffragium tulit, et ideo acta ejus tenuerunt,
+          <lb ed="#P" n="87"/>juxta regulam l. Barbatius, tf. de Offic. Praet.,
+          <lb ed="#P" n="88"/>et saltem, quoad leges ecclesiasticas 
+          impo<lb break="no" ed="#P" n="89"/>nentes hanc poenam, habet in eis locum 
+          mo<lb break="no" ed="#P" n="90"/>deratio Extravag. Ad evitenda, ut ille 
+          censea<lb break="no" ed="#P" n="91"/>tur prohibitus quoad se, non quoad alios, et
+          <lb ed="#P" n="92"/>ideo ipse peccat suffragio ferendo, nihil vero
+          <lb ed="#P" n="93"/>nocet electioni quatenus ad alios pertinet.
+        </p>
+        <p xml:id="szdleg-b14818-d1e477">
+          <lb ed="#P" n="94"/>6. Fundamentum auctoris. — Objectio cum
+          <lb ed="#P" n="95"/>responsione. — Ex quo potest communis 
+          sen<lb break="no" ed="#P" n="96"/>tentia confirmari, quia, nisi ex vi hujusmodi
+          <lb ed="#P" n="97"/>legis obligetur talis homo, inhabilis factus, ad
+          <lb ed="#P" n="98"/>non eligendum, seu ad non ferendum 
+          suftra<lb break="no" ed="#P" n="99"/>gium, inutilis esset talis lex ipso facto 
+          imposi<lb break="no" ed="#P" n="100"/>ta quoad particulam ipso facto : nullum enim
+          <lb ed="#P" n="101"/>moralem effectum inde haberet, quod 
+          admit<lb break="no" ed="#P" n="102"/>tendum non est, ut supra ostendi. Dices, etiam
+          <lb ed="#P" n="103"/>tunc operari ut sufficiat postea sententia 
+          decla<lb break="no" ed="#P" n="104"/>ratoria criminis sine condemnatoria. Sed 
+          con<lb break="no" ed="#P" n="105"/>tra : nam tunc differentia erit verbalis potius
+          <lb ed="#P" n="106"/>quam realis. Declaratur, quia tunc non poterit
+          <lb ed="#P" n="107"/>sententia retrotrahi , quia non poterit irritari
+          <lb ed="#P" n="108"/>suffragium jam datum , vel electio ratione 
+          il<lb break="no" ed="#P" n="109"/>lius facta, quia revera fuit actus validus, ut 
+          os<lb break="no" ed="#P" n="110"/>tensum est ; ergo condemnatio non habet et-
+          <pb ed="#P" n="456"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>fectum, nisi ex quo fertur sententia, et quoad
+          <lb ed="#P" n="2"/>futuros effectus, quod pertinet ad sententiam
+          <lb ed="#P" n="3"/>condemnatoriam : et ita differentia erit de 
+          vo<lb break="no" ed="#P" n="4"/>cabulo, et vix etiam talis erit, quia, ut 
+          nota<lb break="no" ed="#P" n="5"/>vit Simancas, tit. 9, n. 163, nullus judex 
+          pro<lb break="no" ed="#P" n="6"/>fert sententiam declaratoriam criminis, quin
+          <lb ed="#P" n="7"/>declaret delinquentem reum poenae legis, quod
+          <lb ed="#P" n="8"/>est condemnare ; imo hoc requiritur ad 
+          justi<lb break="no" ed="#P" n="9"/>tiam sententiae definitivae, juxta l. Praeses, c.
+          <lb ed="#P" n="10"/>de Sent. et interloq. Ut ergo sit aliqua 
+          diffe<lb break="no" ed="#P" n="11"/>rentia in re, oportet ut sententia retrotrahatur,
+          <lb ed="#P" n="12"/>et quod illa retrotractio per se habeat aliquem
+          <lb ed="#P" n="13"/>eflectum; quo puniatur delinquens a die 
+          com<lb break="no" ed="#P" n="14"/>missi criminis, quod in genere poenae locum
+          <lb ed="#P" n="15"/>non habet ; ergo oportet ut habeat suum 
+          eft<lb break="no" ed="#P" n="16"/>fectum, etiam ante sententiam declaratoriam.
+          <lb ed="#P" n="17"/>Accedit quod alias moraliter illa lex esset
+          <lb ed="#P" n="18"/>inutilis, tum quia saepe non punit, nisi 
+          prohi<lb break="no" ed="#P" n="19"/>bendo et inhabilitando ad unum actum, qui
+          <lb ed="#P" n="20"/>ordinarie fit ante sententiam declaratoriam,
+          <lb ed="#P" n="21"/>et vix potest aliter fieri moraliter loquendo,
+          <lb ed="#P" n="22"/>quia hae inhabilitates vix possunt sufficienter
+          <lb ed="#P" n="23"/>probari. At sententia postea lata inutilis esset,
+          <lb ed="#P" n="24"/>quia jam non habet locum dicta poena, et alia
+          <lb ed="#P" n="25"/>non imponitur per legem , nec videtur posse
+          <lb ed="#P" n="26"/>imponi etiam arbitrio judicis , quia ille non
+          <lb ed="#P" n="27"/>peccavit sic ferendo suffragium, quia non erat
+          <lb ed="#P" n="28"/>inhabilis, sed inhabilitandus ; ergo juxta 
+          ma<lb break="no" ed="#P" n="29"/>teriae capacitatem verisimillimum est 
+          intentio<lb break="no" ed="#P" n="30"/>nem harum legum, quando addunt vpso facto,
+          <lb ed="#P" n="31"/>esse poenam inferre ante omnem sententiam
+          <lb ed="#P" n="32"/>extra conscientiam ipsius persone.
+        </p>
+        <p xml:id="szdleg-b14818-d1e590">
+          <lb ed="#P" n="33"/>7. Quod autem diximus de valore suffragii,
+          <lb ed="#P" n="34"/>non obstante inhabilitate contracta ipso jure ,
+          <lb ed="#P" n="35"/>imprimis locum habet in activa inhabilitate ,
+          <lb ed="#P" n="36"/>non in passiva : nam rationes factae non 
+          ha<lb break="no" ed="#P" n="37"/>bent locum in eo qui, per legem, ipso jure
+          <lb ed="#P" n="38"/>factus est ineligibilis vel inhabilis ad 
+          cathe<lb break="no" ed="#P" n="39"/>dram : nam ille non exercet actum aliquem
+          <lb ed="#P" n="40"/>publica auctoritate , sed ut privata persona
+          <lb ed="#P" n="41"/>suum commodum quaerit, et ideo cum inique
+          <lb ed="#P" n="42"/>sese immisceat , non debet ejus malitia illi
+          <lb ed="#P" n="43"/>suffragari. Unde in illo etiam cessat alter ratio;
+          <lb ed="#P" n="44"/>quia , hcet illa inhabiltas sit occulta , 
+          nihil<lb break="no" ed="#P" n="45"/>ominus quoad ipsum inhabilem, habet totum
+          <lb ed="#P" n="46"/>suum effectum , et ita facit electionem vel
+          <lb ed="#P" n="47"/>provisionem nullam, quia per hoc non nocet
+          <lb ed="#P" n="48"/>aliis, sed sibi, sicut de excommunicato vel
+          <lb ed="#P" n="49"/>irregulari dicitur.
+        </p>
+        <p xml:id="szdleg-b14818-d1e629">
+          <lb ed="#P" n="50"/>8. Deinde quoad activam inhabilitatem 
+          de<lb break="no" ed="#P" n="51"/>bet id intelligi de inhabilitatibus poenalibus ,
+          <lb ed="#P" n="52"/>non de illis quae tantum sunt ex defectu 
+          condi<lb break="no" ed="#P" n="53"/>tionum necessariarum ut alicui detur potestas
+          <lb ed="#P" n="54"/>ferendi suffragium, ut est, in hac universitate,
+          <lb ed="#P" n="55"/>eetas quatuordecim annorum, habere cursum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>integrum juxta morem universitatis, audivisse
+          <lb ed="#P" n="57"/>lectiones oppositorum, vel saltem sufficientem
+          <lb ed="#P" n="58"/>habere notitiam, seu informationem eorum, et
+          <lb ed="#P" n="59"/>ad hanc conditionem pertinet, ut opinor (
+          quid<lb break="no" ed="#P" n="60"/>quid Soto et Ledesm. contradicant) , conditio
+          <lb ed="#P" n="61"/>ut quis sit inscriptus in matricula 
+          universita<lb break="no" ed="#P" n="62"/>tis, juxta illius statuta : nam ille qui non est
+          <lb ed="#P" n="63"/>inscriptus , privatur suffragio non in poonam
+          <lb ed="#P" n="64"/>prioris omissionis , sed quia tunc non se gerit
+          <lb ed="#P" n="65"/>ut membrum hujus communitatis, et ideo ad
+          <lb ed="#P" n="66"/>illum non pertinet electio ejus, et idem est de
+          <lb ed="#P" n="67"/>similibus. Quoties enim inhabilitas est ex 
+          de<lb break="no" ed="#P" n="68"/>fectu cujuscumque conditionis ex praedictis ,
+          <lb ed="#P" n="69"/>suffragium erit omnino nullum, etiamsi 
+          defec<lb break="no" ed="#P" n="70"/>tus sit occultus, quia illa inhabilitas non est
+          <lb ed="#P" n="71"/>privatio potestatis prius habitae , ut sic dicam,
+          <lb ed="#P" n="72"/>sed est perpetua carentia nunquam acceptae
+          <lb ed="#P" n="73"/>potestatis. Nam haec potestas non est ab 
+          in<lb break="no" ed="#P" n="74"/>trinseco, ut sic dicam, sed est ex concessione
+          <lb ed="#P" n="75"/>principis, patroni aut superioris, qui illam non
+          <lb ed="#P" n="76"/>vult concedere nisi personae habenti tales vel
+          <lb ed="#P" n="77"/>tales qualitates ; ideo, sicut supra dicebamus
+          <lb ed="#P" n="78"/>de legato relicto sub conditione, ea non 
+          imple<lb break="no" ed="#P" n="79"/>ta non obtineri, ita hic dicendum est de 
+          habi<lb break="no" ed="#P" n="80"/>litate ad ferendum suffragium. Et hoc plane
+          <lb ed="#P" n="81"/>significat lex, cum dicit, qui non fuerit 
+          qua<lb break="no" ed="#P" n="82"/>tuordecim annorum, non habebit suffragium,
+          <lb ed="#P" n="83"/>seu to sera voto, ut nostra habent statuta, quae
+          <lb ed="#P" n="84"/>eodem tenore loquuntur de aliis casibus.
+        </p>
+        <p xml:id="szdleg-b14818-d1e710">
+          <lb ed="#P" n="85"/>9. Hinc autem difficile est discernere 
+          quan<lb break="no" ed="#P" n="86"/>do inhabilitas sit poenalis, quando vero 
+          sub<lb break="no" ed="#P" n="87"/>stantialis, ut sic dicam, et ex defectu 
+          condi<lb break="no" ed="#P" n="88"/>tionis necessariae : id tamen ex qualitate 
+          con<lb break="no" ed="#P" n="89"/>ditionis et materiae discerni poterit , maxime
+          <lb ed="#P" n="90"/>tamen ex usu. lllae enim conditiones, quae per
+          <lb ed="#P" n="91"/>se eo tendunt ut persona habeat qualitates
+          <lb ed="#P" n="92"/>moraliter convenientes, ut sit idonea ad talem
+          <lb ed="#P" n="93"/>actum, et sine quibus eli non datur jus 
+          suffra<lb break="no" ed="#P" n="94"/>gii, possunt censeri substantiales ; et carentia
+          <lb ed="#P" n="95"/>illarum non habet rationem poenae, sed 
+          cujus<lb break="no" ed="#P" n="96"/>dam inidoneitatis. At vero quando 
+          inhabilh<lb break="no" ed="#P" n="97"/>tas ponitur non obstante idoneitate personae
+          <lb ed="#P" n="98"/>propter actiones incongruas et disconvenientes
+          <lb ed="#P" n="99"/>rectae electioni , tunc censetvr poenalis. Quae
+          <lb ed="#P" n="100"/>discretio maxime perfici potest consuetudine ,
+          <lb ed="#P" n="101"/>quae est optima legum interpres. Et ita solent
+          <lb ed="#P" n="102"/>in hac universitate distingui duplices 
+          inhabili<lb break="no" ed="#P" n="103"/>tates; quasdam vocant juris, alias facti. 
+          Prio<lb break="no" ed="#P" n="104"/>res sunt, quas ego substantiales voco, et forte
+          <lb ed="#P" n="105"/>dictae sunt juris, quia omnino impediunt 
+          obti<lb break="no" ed="#P" n="106"/>nere jus ad ferendum suffragium, vel quia 
+          ex<lb break="no" ed="#P" n="107"/>tra omne dubium inducunt ipso jure 
+          inhabili<lb break="no" ed="#P" n="108"/>tatem et annullant actum, vel quia non 
+          fun<lb break="no" ed="#P" n="109"/>dantur in facto personae, sed in jure requirente
+          <lb ed="#P" n="110"/>talem conditionem ut essentialem in persona,
+          <pb ed="#P" n="457"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ut sit capax suffragii. Aliae vero dictae sunt
+          <lb ed="#P" n="2"/>facti, licet etiam per jus introductae sint, quia
+          <lb ed="#P" n="3"/>in facto fundantur, et ad illud cohibendum
+          <lb ed="#P" n="4"/>positae sunt. Et ideo de his posterioribus 
+          inha<lb break="no" ed="#P" n="5"/>bilitatibus dicimus esse poenales , ac subinde,
+          <lb ed="#P" n="6"/>licet inhabilitent personam ipso facto, posse
+          <lb ed="#P" n="7"/>sustineri actum,si alias persona habeat omnes
+          <lb ed="#P" n="8"/>conditiones per se et jure requisitas ad 
+          potes<lb break="no" ed="#P" n="9"/>tatem ferendi suffragium.
+        </p>
+        <p xml:id="szdleg-b14818-d1e794">
+          <lb ed="#P" n="10"/>10. An vero in hac universitate istae 
+          inhabi<lb break="no" ed="#P" n="11"/>litates, quae dicuntur facti, incurrantur ipso
+          <lb ed="#P" n="12"/>facto, ita ut obligent personam ad 
+          abstinen<lb break="no" ed="#P" n="13"/>dum a suflragio ante omnem sententiam 
+          de<lb break="no" ed="#P" n="14"/>claratoriam, dubia res est. Quia partem 
+          ne<lb break="no" ed="#P" n="15"/>gantem suadet, quod in statutis non habetur
+          <lb ed="#P" n="16"/>particula ipso jure, vel ipso facto; 
+          affirman<lb break="no" ed="#P" n="17"/>tem vero suadet ille modus loquendi , no sean
+          <lb ed="#P" n="18"/>voto , non habeant suffragium , qui videtur
+          <lb ed="#P" n="19"/>aquivalens, et habere vim negationis de 
+          prae<lb break="no" ed="#P" n="20"/>senti, seu imperii practici denegantis seu non
+          <lb ed="#P" n="21"/>concedentis jus suffragii. Et fortasse in rigore
+          <lb ed="#P" n="22"/>verborum , et attenta serie capitum omnium
+          <lb ed="#P" n="23"/>sub illo titulo contentorum, hoc posterius 
+          pro<lb break="no" ed="#P" n="24"/>babilius est : tamen si aliud habet consuetudo,
+          <lb ed="#P" n="25"/>sustineri potest, quia est interpres et 
+          mode<lb break="no" ed="#P" n="26"/>ratrix legum. Et cum hoc temperamento 
+          mo<lb break="no" ed="#P" n="27"/>neo esse accipiendam sententiam hanc, qua
+          <lb ed="#P" n="28"/>docemus inhabilitates has statim incurri ex
+          <lb ed="#P" n="29"/>vi legum loquentium per verbum ipso facto ,
+          <lb ed="#P" n="30"/>scilicet, nisi ubi aliud fuerit in aliqua lege 
+          con<lb break="no" ed="#P" n="31"/>suetudine receptum. Et hoc modo limitanda
+          <lb ed="#P" n="32"/>sunt quae loquendo de particularibus vitiis et
+          <lb ed="#P" n="33"/>poenis in aliis locis scripsimus.
+        </p>
+        <p xml:id="szdleg-b14818-d1e849">
+          <lb ed="#P" n="34"/>11. De jurantibus si fecerint contra statuta
+          <lb ed="#P" n="35"/>universitatis inhabilitantia. — Mens auctoris.
+          <lb ed="#P" n="36"/>—8Sed tunc occurrit aliud dubium, quod etiam
+          <lb ed="#P" n="37"/>Soto et Ledesm. attingunt, an scholaris, verbi
+          <lb ed="#P" n="38"/>gratia, sub juramento a superiore 
+          interroga<lb break="no" ed="#P" n="39"/>tus, an hoc vel illud fecerit contra statuta 
+          in<lb break="no" ed="#P" n="40"/>habilitantia , teneatur veritatem respondere,
+          <lb ed="#P" n="41"/>etiamsi occulte fecerit, vel possit sine perjurio
+          <lb ed="#P" n="42"/>negare, saltem quando non laborat infamia,
+          <lb ed="#P" n="43"/>nec habetur semiplena probatio contra illum.
+          <lb ed="#P" n="44"/>Soto enim et Ledesm. supra absolute 
+          respon<lb break="no" ed="#P" n="45"/>dent non teneri, quando nec infamia praecedit,
+          <lb ed="#P" n="46"/>nec semiplena probatio, quia non interrogatur
+          <lb ed="#P" n="47"/>juridice, supponunt enim non incurrisse 
+          inha<lb break="no" ed="#P" n="48"/>bilitatem ipso facto, et ita non posse jure 
+          re<lb break="no" ed="#P" n="49"/>pelli , donec legitime convincatur , et 
+          conse<lb break="no" ed="#P" n="50"/>quenter nec posse interrogari juridice, donec
+          <lb ed="#P" n="51"/>praecedat aliqualis probatio. At vero si 
+          suppo<lb break="no" ed="#P" n="52"/>namus hanc inhabilitatem ipso facto incurri,
+          <lb ed="#P" n="53"/>necessario dicendum est subditum a rectore
+          <lb ed="#P" n="54"/>interrogatum teneri veritatem confiteri, et ad
+          <lb ed="#P" n="55"/>mentem interrogantis respondere sub perjurii
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>poena, etiamsi nulla praecedat probatio, vel 
+          in<lb break="no" ed="#P" n="57"/>famia : ratio est, quia tunc non interrogatur
+          <lb ed="#P" n="58"/>per se et praecipue ad punitionem, sed ad 
+          ca<lb break="no" ed="#P" n="59"/>vendum peccatum, et injuriam tertii. Ille enim
+          <lb ed="#P" n="60"/>subditus , supposita inhabilitate et privatione
+          <lb ed="#P" n="61"/>vel suspensione quam incurrit, peccat graviter
+          <lb ed="#P" n="62"/>se immiscendo , et tendit ad faciendam alteri
+          <lb ed="#P" n="63"/>injuriam, usurpando judicium vel electionem
+          <lb ed="#P" n="64"/>ad se non pertinentem ; ad hos autem fines
+          <lb ed="#P" n="65"/>habet superior jus interrogandi occulta, 
+          etiam<lb break="no" ed="#P" n="66"/>si nulla praecesserit infamia ; et subditus 
+          tene<lb break="no" ed="#P" n="67"/>tur simpliciter veritatem fateri, ut est certum
+          <lb ed="#P" n="68"/>in jure, capite ult. de Clandestin. desponsat.
+          <lb ed="#P" n="69"/>cum similibus , et est communis sententia 
+          In<lb break="no" ed="#P" n="70"/>noc., Panorm. et aliorum in cap. Qualiter et
+          <lb ed="#P" n="71"/>quando, 2 de Accusat., Angeli, Sylvest. et 
+          alio<lb break="no" ed="#P" n="72"/>rum Summistarum verb. Inquisitio, et Navar.
+          <lb ed="#P" n="73"/>in cap. 7nter verba, concl. 6, n. 255 et sequen.,
+          <lb ed="#P" n="74"/>et tenet ipse Soto relect. de Secreto, memb. 2,
+          <lb ed="#P" n="75"/>quaest. 6, conclus. 3. Quod si hoc fuerit grave
+          <lb ed="#P" n="76"/>onus, sibi imputet qui se immiscuit ; nam ante
+          <lb ed="#P" n="77"/>omnem interrogationem tenebatur abstinere.
+          <lb ed="#P" n="78"/>Et declaratur in aliis inhabilitatibus juris, quas
+          <lb ed="#P" n="79"/>non poenales, sed substantiales appellavimus :
+          <lb ed="#P" n="80"/>de illis enim interrogati electores tenentur
+          <lb ed="#P" n="81"/>simpliciter veritatem fateri, tum quia agitur
+          <lb ed="#P" n="82"/>de cognitione necessaria ad legitimam 
+          electio<lb break="no" ed="#P" n="83"/>nem, tum etiam quia intercedit ibi pactum
+          <lb ed="#P" n="84"/>tacitum, ut habeat suffragium qui tales 
+          con<lb break="no" ed="#P" n="85"/>ditiones habuerit, et non alias; ergo omnes
+          <lb ed="#P" n="86"/>de his conditionibus legitime interrogantur,
+          <lb ed="#P" n="87"/>ne inique se ingerant qui ad illud munus non
+          <lb ed="#P" n="88"/>sunt admissi, nec jus habent eligendi, et ideo
+          <lb ed="#P" n="89"/>in his non est necesse ut praecedat aliqua 
+          pro<lb break="no" ed="#P" n="90"/>batio, vel infamia, quia non agitur de illorum
+          <lb ed="#P" n="91"/>punitione, sed de cavenda injustitia : ergo
+          <lb ed="#P" n="92"/>idem est dicendum in caeteris inhabilitatibus,
+          <lb ed="#P" n="93"/>si verum est ita esse contractas ipso facto, ut
+          <lb ed="#P" n="94"/>graviter peccent qui tale judicium seu 
+          suf<lb break="no" ed="#P" n="95"/>fragium usurpant.
+        </p>
+        <p xml:id="szdleg-b14818-d1e988">
+          <lb ed="#P" n="96"/>12. Quando potest quis respondere 
+          amphi<lb break="no" ed="#P" n="97"/>bologice. —At vero ubi inhabilitas non est 
+          con<lb break="no" ed="#P" n="98"/>tracta ipso jure, donec per sententiam 
+          decla<lb break="no" ed="#P" n="99"/>retur, probabilis est opinio Soti, nimirum,
+          <lb ed="#P" n="100"/>subditum sic interrogatum de actu occulto de
+          <lb ed="#P" n="101"/>quo nulla infamia vel semiplena probatio
+          <lb ed="#P" n="102"/>praecessit, non teneri veritatem aperire, etiamsi
+          <lb ed="#P" n="103"/>juret , sed uti posse amphibologia, 
+          respon<lb break="no" ed="#P" n="104"/>dendo ad mentem suam, non ad mentem 
+          su<lb break="no" ed="#P" n="105"/>perioris interrogantis, quia tunc qui fert 
+          suf<lb break="no" ed="#P" n="106"/>fragium ante sententiam, non peccat, per se
+          <lb ed="#P" n="107"/>loquendo, quia suum jus retinet, dum non 
+          ju<lb break="no" ed="#P" n="108"/>dicatur inhabilis, et ita jure suo utitur ferendo
+          <lb ed="#P" n="109"/>suffragium; ergo non peccat. Nec obstat 
+          di<lb break="no" ed="#P" n="110"/>cere quod per legem fuerit prohibitus, quia
+          <pb ed="#P" n="458"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>illa prohibitio non obligat illum nisi per 
+          judi<lb break="no" ed="#P" n="2"/>cem, et ita directe instruit judicem, non 
+          obli<lb break="no" ed="#P" n="3"/>gat reum, donec condemnetur, atque ita non
+          <lb ed="#P" n="4"/>peceat juxta illam sententiam ; ergo nec 
+          tene<lb break="no" ed="#P" n="5"/>tur respondere superiori interroganti, ad 
+          men<lb break="no" ed="#P" n="6"/>tem ejus et occultum suum factum aperiendo,
+          <lb ed="#P" n="7"/>nisi legitime interrogetur quia praecessit 
+          infa<lb break="no" ed="#P" n="8"/>mia vel semiplena probatio. Probatur 
+          conse<lb break="no" ed="#P" n="9"/>quentia, quia jam tunc illa interrogatio non
+          <lb ed="#P" n="10"/>tendit ad vitandam culpam, vel injuriam 
+          ter<lb break="no" ed="#P" n="11"/>tii, quia ostensum est nullam committi, 
+          etiam<lb break="no" ed="#P" n="12"/>si ille suffragium ferat; ergo tendit ad 
+          puni<lb break="no" ed="#P" n="13"/>tionem, ergo debet in ea juridicus ordo 
+          ser<lb break="no" ed="#P" n="14"/>vari.
+        </p>
+        <p xml:id="szdleg-b14818-d1e1058">
+          <lb ed="#P" n="15"/>13. An praedictus teneatur restituere dumna
+          <lb ed="#P" n="16"/>non elecio: affirmant Sot. et Ledesn.; est 
+          ta<lb break="no" ed="#P" n="17"/>men incertum. —Addunt vero Soto et Ledesm.
+          <lb ed="#P" n="18"/>supra, quod si quis juridice interrogetur, non
+          <lb ed="#P" n="19"/>solum peccat, et est perjurus negando 
+          verita<lb break="no" ed="#P" n="20"/>tem, sed etiam tenetur restituere damna quae
+          <lb ed="#P" n="21"/>fortasse ob eam causam patitur non electus.
+          <lb ed="#P" n="22"/>Sed hoc secundum valde incertum est, et 
+          con<lb break="no" ed="#P" n="23"/>trarium fortasse est probabilius, supposito illo
+          <lb ed="#P" n="24"/>principio, quod ille non est inhabilis ipso facto.
+          <lb ed="#P" n="25"/>Nam tunc ille, negando veritatem, non peccat
+          <lb ed="#P" n="26"/>contra justitiam commutativam respectu 
+          eli<lb break="no" ed="#P" n="27"/>gendi, sed contra obedientiam respectu 
+          judi<lb break="no" ed="#P" n="28"/>cis, vel contra justitiam legalem respectu 
+          rei<lb break="no" ed="#P" n="29"/>publicae, vel contra juramentum et 
+          religio<lb break="no" ed="#P" n="30"/>nem. Neque etiam ferendo suffragium post
+          <lb ed="#P" n="31"/>negatam veritatem ille peccat contra justitiam,
+          <lb ed="#P" n="32"/>quia non amisit ipso facto jus ferendi 
+          suflra<lb break="no" ed="#P" n="33"/>gium, etiam postquam veritatem negavit, 
+          do<lb break="no" ed="#P" n="34"/>nec reipsa condemnetur, quia illa est poena
+          <lb ed="#P" n="35"/>ferenda, ut supponitur, talis autem poena non
+          <lb ed="#P" n="36"/>aliter incurritur. Et jdeo reus qui, negando
+          <lb ed="#P" n="37"/>inique veritatem, evitat condemnationem 
+          poe<lb break="no" ed="#P" n="38"/>nae alias ferendae, non tenetur illam restituere,
+          <lb ed="#P" n="39"/>juxta probabiliorem sententiam, quam nunc
+          <lb ed="#P" n="40"/>suppono ex Navar. in Summ., cap. 18, n. 49,
+          <lb ed="#P" n="41"/>et aliis modernis.
+        </p>
+        <p xml:id="szdleg-b14818-d1e1119">
+          <lb ed="#P" n="42"/>14. Juridice interrogatus tenetur respondere
+          <lb ed="#P" n="43"/>nisi sit periculum magnà scandali , infamie
+          <lb ed="#P" n="44"/>propriee, vel inimicitie, vel alie similis 
+          gra<lb break="no" ed="#P" n="45"/>vis jactura.—Aterum vero de culpa 
+          regulari<lb break="no" ed="#P" n="46"/>ter verum est, supposita interrogatione 
+          legi<lb break="no" ed="#P" n="47"/>tima, quia non potest dari bellum justum ex
+          <lb ed="#P" n="48"/>utraque parte, et quia lex illa justa est, et non
+          <lb ed="#P" n="49"/>in vanum tales interrogationes praecipit, ergo
+          <lb ed="#P" n="50"/>obligat, saltem quando juridice fiunt. Hoc 
+          au<lb break="no" ed="#P" n="51"/>tem videtur intelligendum per se: nam ex 
+          ac<lb break="no" ed="#P" n="52"/>cidenti posset a culpa excusari, qui non potest
+          <lb ed="#P" n="53"/>respondere verum sine magno scandalo, vel
+          <lb ed="#P" n="54"/>infamia propria, vel inimicitia, vel alia simili
+          <lb ed="#P" n="55"/>gravi jactura; et tunc licet interrogatio per se
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sit juridica , quia tamen ex accidenti 
+          respon<lb break="no" ed="#P" n="57"/>dens impeditur, licet respondeat se non 
+          fe<lb break="no" ed="#P" n="58"/>cisse, habet locum subintellecta interpretatio,
+          <lb ed="#P" n="59"/>scilicet, non ita feci ut tenear propalare, et
+          <lb ed="#P" n="60"/>ita excusatur a mendacio et perjurio. In his
+          <lb ed="#P" n="61"/>etiam legibus contingere potest ut in 
+          praesum<lb break="no" ed="#P" n="62"/>ptione fundentur, et ideo juxta doctrinam satis
+          <lb ed="#P" n="63"/>receptam, si is qui alias vere habebat jus 
+          suf<lb break="no" ed="#P" n="64"/>fragii, habeat animum servandi justitiam, et
+          <lb ed="#P" n="65"/>favendi digniori, poterit excusari ab 
+          obliga<lb break="no" ed="#P" n="66"/>tione confitendi suum factum occultum, quia
+          <lb ed="#P" n="67"/>lex id jubens fundatur in praesumptione quae
+          <lb ed="#P" n="68"/>tunc cessat, et intentio legis servatur. Haec 
+          ta<lb break="no" ed="#P" n="69"/>men posterior excusatio moraliter non est 
+          ad<lb break="no" ed="#P" n="70"/>mittenda. Quia illa non est lex proprie fundata
+          <lb ed="#P" n="71"/>in praesumptione, sed fundata in morali 
+          peri<lb break="no" ed="#P" n="72"/>culo, quod imminet reipublicae seu Academiae
+          <lb ed="#P" n="73"/>ex hujusmodi subornationibus, et muneribus,
+          <lb ed="#P" n="74"/>quibus electores corrumpuntur, et justae 
+          clec<lb break="no" ed="#P" n="75"/>tiones impediuntur, quod fundamentum non
+          <lb ed="#P" n="76"/>est praesumptum, sed verum, et licet in 
+          parti<lb break="no" ed="#P" n="77"/>culari cesset effectus ejus, non ideo cessat 
+          obli<lb break="no" ed="#P" n="78"/>gatio legis. Ideoque non excusatur quis ab
+          <lb ed="#P" n="79"/>obligatione respondendi verum, etiamsi 
+          inten<lb break="no" ed="#P" n="80"/>tionem habeat faciendi justitiam. Eo vel 
+          maxi<lb break="no" ed="#P" n="81"/>me, quod facile hi decipiuntur, et formant
+          <lb ed="#P" n="82"/>conscientiam juxta suum affectum, quem 
+          ha<lb break="no" ed="#P" n="83"/>bent ad alteram partem propensum. Prior
+          <lb ed="#P" n="84"/>etiam excusatio, licet in rigore suffhiciat, et
+          <lb ed="#P" n="85"/>contingere possit, tamen, moraliter loquendo,
+          <lb ed="#P" n="86"/>rarissima est, tum quia fere semper potest
+          <lb ed="#P" n="87"/>quis se subducere, et coram rectore non 
+          appa<lb break="no" ed="#P" n="88"/>rere; tum etiam quia potest ita moderari 
+          res<lb break="no" ed="#P" n="89"/>ponsionem, ut ad inhabilitatem confitendam
+          <lb ed="#P" n="90"/>sufficiat, et infamiam non inducat, qua 
+          subla<lb break="no" ed="#P" n="91"/>ta, alia incommoda levia esse solent.
+        </p>
+        <p xml:id="szdleg-b14818-d1e1232">
+          <lb ed="#P" n="92"/>15. Teneri absolute scholares offerentes se ad
+          <lb ed="#P" n="93"/>suffragia veritatem fateri, sive praecedat 
+          infa<lb break="no" ed="#P" n="94"/>mia, sive non. — Denique, sincere spectato
+          <lb ed="#P" n="95"/>tenore statutorum et legum, et praecipue hujus
+          <lb ed="#P" n="96"/>Academise, sentio teneri scholares, qui ad 
+          suf<lb break="no" ed="#P" n="97"/>fragia ferenda se offerunt, et coram rectore
+          <lb ed="#P" n="98"/>praesentantur, veritatem fateri, sive praecedat
+          <lb ed="#P" n="99"/>infamia, sive non; tum quia illa interrogatio
+          <lb ed="#P" n="100"/>non est primario propter punitionem. sed 
+          pro<lb break="no" ed="#P" n="101"/>pter morale bonum commune reipublicae, et
+          <lb ed="#P" n="102"/>(ut ita rem explicem) non oritur ex affectu
+          <lb ed="#P" n="103"/>justitiae vindicativae , sed ex affectu justitiae
+          <lb ed="#P" n="104"/>distributivae et legalis, et hoc est satis ut 
+          inter<lb break="no" ed="#P" n="105"/>rogatiosit justa, etiamsi infamia non praecedat.
+          <lb ed="#P" n="106"/>Quia non est necesse, ut semper interrogatio
+          <lb ed="#P" n="107"/>fiat ad impediendum peccatum futurum, sed
+          <lb ed="#P" n="108"/>satis est ut fiat propter communem utilitatem,
+          <lb ed="#P" n="109"/>et ad tollendam materiam, et communes 
+          oc<lb break="no" ed="#P" n="110"/>casiones peccatorum , ut bene notavit Navar.
+          <pb ed="#P" n="459"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in dict. cap. Inter verba, concl. 6, n. 258,
+          <lb ed="#P" n="2"/>264 et 265 ; tum etiam quia lex illa 
+          indifferen<lb break="no" ed="#P" n="3"/>ter praecipit exigere juramentum, et sub eodem
+          <lb ed="#P" n="4"/>tenore in omnibus illis articulis, sive pertineat
+          <lb ed="#P" n="5"/>ad conditiones quasi substantiales ad jus 
+          suf<lb break="no" ed="#P" n="6"/>fragii habendum, sive ad alias quae tendunt
+          <lb ed="#P" n="7"/>ad cavenda mala, et occasiones injustitiae 
+          pu<lb break="no" ed="#P" n="8"/>blieae et acceptionis personarum. Et similiter
+          <lb ed="#P" n="9"/>ponuntur pro omnibus personis, nulla habita
+          <lb ed="#P" n="10"/>ratione infamiae, nec alterius ordinisjudicialis;
+          <lb ed="#P" n="11"/>ergo supponit illa lex, interrogationem illam
+          <lb ed="#P" n="12"/>esse justam, et aeque posse omnes et in 
+          om<lb break="no" ed="#P" n="13"/>nibus casibus obligare, alias lex ipsa non esset
+          <lb ed="#P" n="14"/>justa, quod dici non potest ; ergo sicut 
+          tenen<lb break="no" ed="#P" n="15"/>tur omnes respondere veritatem in 
+          inhabilita<lb break="no" ed="#P" n="16"/>tibus juris, seu substantialibus, quantumvis
+          <lb ed="#P" n="17"/>occultae sint, ita in reliquis ; tum praeterea quia
+          <lb ed="#P" n="18"/>sub hac lege et conditione admittuntur omnes
+          <lb ed="#P" n="19"/>ad suffragium ferendum, ut illis 
+          interrogatio<lb break="no" ed="#P" n="20"/>nibus vere respondeant juxta mentem 
+          inter<lb break="no" ed="#P" n="21"/>rogantis (haec enim sine dubio est intentio 
+          le<lb break="no" ed="#P" n="22"/>gis), et has conditiones accipiunt electores sine
+          <lb ed="#P" n="23"/>ulla limitatione, vel discrimine; ergo tenentur
+          <lb ed="#P" n="24"/>illas servare, vel non dare suffragium.
+        </p>
+        <p xml:id="szdleg-b14818-d1e1333">
+          <lb ed="#P" n="25"/>16. Consuetudo contraria dictis est 
+          corrup<lb break="no" ed="#P" n="26"/>Lela. — Unde est magna differentia inter hanc
+          <lb ed="#P" n="27"/>interrogationem et illam quae tendit ad 
+          vin<lb break="no" ed="#P" n="28"/>dictam ; nam in hac posteriori, interrogatio et
+          <lb ed="#P" n="29"/>responsio est quasi coacta, et in malum 
+          inter<lb break="no" ed="#P" n="30"/>rogati ; illa vero prior est magis voluntaria ei
+          <lb ed="#P" n="31"/>qui vult ferre suffragium, et per se ordinatur
+          <lb ed="#P" n="32"/>ad cavendam justitiam in electionibus, et ideo
+          <lb ed="#P" n="33"/>non est necessarius alius ordo juridicus in hac
+          <lb ed="#P" n="34"/>interrogatione, praeter illum quem statuta 
+          prae<lb break="no" ed="#P" n="35"/>scribunt, cui electores voluntarie subduntur.
+          <lb ed="#P" n="36"/>Nec etiam facile admittenda est excusatio 
+          con<lb break="no" ed="#P" n="37"/>suetudinis, per quam dici solet hic rigor 
+          ta<lb break="no" ed="#P" n="38"/>lium legum temperatus. Nam consuetudo illa
+          <lb ed="#P" n="39"/>videtur potius corruptela, quia est contra 
+          bo<lb break="no" ed="#P" n="40"/>nos mores, et praebet occasionem innumeris
+          <lb ed="#P" n="41"/>malis, nec etiam talis consuetudo censeri potest
+          <lb ed="#P" n="42"/>tolerata a principe sciente illam : nam semper
+          <lb ed="#P" n="43"/>reprehenditur et reprobatur, et si contingat
+          <lb ed="#P" n="44"/>aliquem convinci de mendacio, punitur: atque
+          <lb ed="#P" n="45"/>hoc maxime observandum est in gravioribus
+          <lb ed="#P" n="46"/>actibus et transgressionibus, ut sunt emptio et
+          <lb ed="#P" n="47"/>venditio suffragiorum, et alia illicita pacta et
+          <lb ed="#P" n="48"/>similia, quae valde corrumpunt justitiam et
+          <lb ed="#P" n="49"/>mores publicos; in rebus vero levioribus, ut
+          <lb ed="#P" n="50"/>sunt loqui, ingredi domum, et similes, facilius
+          <lb ed="#P" n="51"/>admitti posset probabilitas contrariae 
+          senten<lb break="no" ed="#P" n="52"/>tiae, maxime favente consuetudine, quae quoad
+          <lb ed="#P" n="53"/>haec leviora magis tolerata esse videtur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

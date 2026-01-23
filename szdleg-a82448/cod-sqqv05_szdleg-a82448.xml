@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="326"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a82448"><!-- deleg-l4c1 -->
+        <head xml:id="szdleg-a82448-Hd1e101">Caput 1</head>
+        <head xml:id="szdleg-a82448-Hd1e103" type="question-title">An sit in ecclesia spiritualis potestas ad canonicas leges ferendas</head>
+        <p xml:id="szdleg-a82448-d1e106">
+          <lb ed="#P" n="19"/>CAPUT I.
+          <lb ed="#P" n="20"/>AN SIT IN ECCLESIA SPIRITUALIS POTESTAS AD
+          <lb ed="#P" n="21"/>CANONICAS LEGES FERENDAS.
+        </p>
+        <p xml:id="szdleg-a82448-d1e115">
+          <lb ed="#P" n="22"/>1. Pars negativa est error Aerii — Vetus
+          <lb ed="#P" n="23"/>fuit error negans esse in Ecclesiae pastoribus
+          <lb ed="#P" n="24"/>hanc potestatem. Potestque tribui Aerio, 
+          qua<lb break="no" ed="#P" n="25"/>tenus dixit jejunia Ecclesiae non esse servanda,
+          <lb ed="#P" n="26"/>ne sub lege esse videamur, ut sumitur ex 
+          Epi<lb break="no" ed="#P" n="27"/>phan. haeres. 75, August. in 55. Solet etiam
+          <lb ed="#P" n="28"/>tribui Marsil. Paduan., ut indicat Albert. 
+          Pi<lb break="no" ed="#P" n="29"/>ghi, I. 5 de Ecclesiast. hierar. Verumtamen
+          <lb ed="#P" n="30"/>neque Alvarus Pelag. 1. 1 de Planctu Eccles.,
+          <lb ed="#P" n="31"/>c. 68, neque Castro, neque Prateol. referendo
+          <lb ed="#P" n="32"/>Marsilii errores, hujus meminerunt. Ille enim
+          <lb ed="#P" n="33"/>abstulit quidem fundamentum hujus 
+          potesta<lb break="no" ed="#P" n="34"/>tis, negando potestatem Papae et Vicarii Christi
+          <lb ed="#P" n="35"/>in terris; negavit etiam habere Episcopos 
+          ma<lb break="no" ed="#P" n="36"/>jorem potestatem quam habeant Presbyteri,
+          <lb ed="#P" n="37"/>inde tamen non necessario sequitur, quod 
+          ne<lb break="no" ed="#P" n="38"/>gaverit esse in clero potestatem ad leges 
+          fe<lb break="no" ed="#P" n="39"/>rendas. Refert tamen Anton. A4 part. Theol.,
+          <lb ed="#P" n="40"/>tit. 11, cap. 7, 8 5, extravagantem Joan. 22,
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="41"/>quae incipit Dudum ad audientiaum, quae in
+          <lb ed="#P" n="42"/>corpore juris non habetur, in qua Petrus de
+          <lb ed="#P" n="43"/>Corbaria et alii damnantur propter dictos 
+          er<lb break="no" ed="#P" n="44"/>rores, quibus addebant omnem jurisdictionem,
+          <lb ed="#P" n="45"/>quam quidem Praelati habent majorem quam
+          <lb ed="#P" n="46"/>alii, esse ab imperatore, et nullam habere a
+          <lb ed="#P" n="47"/>Christo, quod est negare ecclesiasticam 
+          potes<lb break="no" ed="#P" n="48"/>tatem ad leges ferendas. Fuit autem Marsilius
+          <lb ed="#P" n="49"/>Paduan. eodem tempore, et fautor illius Petri,
+          <lb ed="#P" n="50"/>qui fuit Antipapa, et ita sine dubio ille fuit
+          <lb ed="#P" n="51"/>principalis auctor illius erroris. Eumdem 
+          se<lb break="no" ed="#P" n="52"/>cuti sunt Waldenses, alias dicti Pauperes de
+          <lb ed="#P" n="53"/>Lugduno, quorum meminit Anton. A part.,
+          <lb ed="#P" n="54"/>tit. 11, cap. 7, S 2, licet hunc errorem non
+          <lb ed="#P" n="55"/>referat: eum tamen refert Prateol. verbo 
+          Pau<lb break="no" ed="#P" n="56"/>peres de Lugduno, n. 8 et 22, ex Anea. Sylv.
+          <lb ed="#P" n="57"/>de Origin. Bohemor., cap. 33. Idem secuti sunt
+          <lb ed="#P" n="58"/>Wicleph, et Joan. Hus, ut constat ex Concilio
+          <lb ed="#P" n="59"/>Constan., sess. 8 et 15, ubi istorum errores
+          <lb ed="#P" n="60"/>referuntur. Idem postea Luther, quem secuti
+          <lb ed="#P" n="61"/>sunt Melanchton, Calvin., Joan. Westphalus
+          <lb ed="#P" n="62"/>et alii, de quibus apud Prateol. et Bellarm.
+          <lb ed="#P" n="63"/>l. 4 de Summ. Pontif. cap. 13.
+        </p>
+        <p xml:id="szdleg-a82448-d1e211">
+          <lb ed="#P" n="64"/>2. Fundamenta pradicti erroris. — 
+          Funda<lb break="no" ed="#P" n="65"/>menta hujus erroris partim sumuntur ex his
+          <lb ed="#P" n="66"/>testimoniis Scripturae, quae l. 3, cap. 1, 
+          ad<lb break="no" ed="#P" n="67"/>duximus ad suadendum homines, praesertim
+          <lb ed="#P" n="68"/>Christianos, non debere subjici hominibus;
+          <lb ed="#P" n="69"/>nam illa possunt etiam ad Praelatos 
+          ecclesiasti<lb break="no" ed="#P" n="70"/>cos applicari, cum ipsi homines sint: sed ad
+          <lb ed="#P" n="71"/>illa eisdem locis satis responsum est. Praeterea
+          <lb ed="#P" n="72"/>hic maxime accumulant haeretici illa 
+          testimo<lb break="no" ed="#P" n="73"/>nia, quae sunt de libertate Christiana, ex 
+          qui<lb break="no" ed="#P" n="74"/>bus quae ad justorum exemptionem a lege
+          <lb ed="#P" n="75"/>pertinent, in 4 1., cap. 16, tractata sunt; alia
+          <lb ed="#P" n="76"/>vero, quae pertinent ad libertatem legis gratiae,
+          <lb ed="#P" n="77"/>inferius de illa tractando expendentur. Illis
+          <lb ed="#P" n="78"/>ergo omissis, possumus in favorem hujus 
+          er<lb break="no" ed="#P" n="79"/>roris argumentari primo, quia in lege veteri
+          <lb ed="#P" n="80"/>non erat licitum addere humana praecepta
+          <lb ed="#P" n="81"/>divinis, quia Dominus fuerat illius populi pro-
+          <pb ed="#P" n="327"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>prius legislator, ut dicitur Isaiae 33; ergo 
+          ne<lb break="no" ed="#P" n="2"/>que in nova lege licet. Consequentia 
+          supponi<lb break="no" ed="#P" n="3"/>tur, quia major est dignitas et libertas 
+          prae<lb break="no" ed="#P" n="4"/>sentis status, quam veteris. Antecedens autem
+          <lb ed="#P" n="5"/>probatur, quia Deut., 4 et 12, aeque probibet
+          <lb ed="#P" n="6"/>Deus aliquid addere legi, sicut et minuere;
+          <lb ed="#P" n="7"/>unde Is. 29, conqueritur Deus de Judaeis quod
+          <lb ed="#P" n="8"/>colerent ipsum secundum mandata hominum.
+          <lb ed="#P" n="9"/>Et 4 Reg. 21, reprehendit Manassem, quod
+          <lb ed="#P" n="10"/>novas aras in templo Dei sine ejus mandato
+          <lb ed="#P" n="11"/>edidisset. Et similiter 4 Reg. 16, reprehenditur
+          <lb ed="#P" n="12"/>Achaz, quia altare in templo addidit. Secundo,
+          <lb ed="#P" n="13"/>Christus abstulit a sua Ecclesia jugum legis
+          <lb ed="#P" n="14"/>veteris ; nam saltem de hac libertate legis 
+          gra<lb break="no" ed="#P" n="15"/>tiae non est inter Catholicos et novos haereticos
+          <lb ed="#P" n="16"/>controversia : ergo multo magis abstulit jugum
+          <lb ed="#P" n="17"/>legum ecclesiasticarum ; non ergo dedit 
+          potes<lb break="no" ed="#P" n="18"/>tatem ad illas condendas. Probatur prima 
+          con<lb break="no" ed="#P" n="19"/>sequentia, quia onus tot legum canonicarum
+          <lb ed="#P" n="20"/>non minus repugnat libertati christianae, nec
+          <lb ed="#P" n="21"/>minus onerosum reddit jugum Christi, quod
+          <lb ed="#P" n="22"/>ipse suave esse dixit, quam id faceret onus
+          <lb ed="#P" n="23"/>veteris legis: unde August., Epist. 219, dicit
+          <lb ed="#P" n="24"/>voluisse Christum religionem quam 
+          paucissi<lb break="no" ed="#P" n="25"/>mis sacramentis esse liberam, et subdit hanc
+          <lb ed="#P" n="26"/>libertatem premi humanis observantiis, etc.,
+          <lb ed="#P" n="27"/>quae ibi videri possunt. Tertio, possumus 
+          ar<lb break="no" ed="#P" n="28"/>gumentari, quia vel haec potestas dirigit 
+          ho<lb break="no" ed="#P" n="29"/>mines ad naturalem finem, vel ad 
+          supernatu<lb break="no" ed="#P" n="30"/>ralem : ad primum necessaria non est, sufficit
+          <lb ed="#P" n="31"/>enim potestas politica: ad secundum autem
+          <lb ed="#P" n="32"/>impossibilis est, excedit enim humanam 
+          capa<lb break="no" ed="#P" n="33"/>citatem, quia nemo potest efficaciter movere
+          <lb ed="#P" n="34"/>hominem ad finem supernaturalem, nisi solus
+          <lb ed="#P" n="35"/>Deus: ergo nec leges condere qua ad illum
+          <lb ed="#P" n="36"/>finem perducant ; nam ejusdem est ferre leges
+          <lb ed="#P" n="37"/>ordinatas ad aliquem finem, cujus est 
+          efficaci<lb break="no" ed="#P" n="38"/>ter movere in eumdem finem.
+        </p>
+        <p xml:id="szdleg-a82448-d1e340">
+          <lb ed="#P" n="39"/>3. Prima conclusio. — Dicendum vero est
+          <lb ed="#P" n="40"/>primo esse in Ecclesia peculiarem potestatem
+          <lb ed="#P" n="41"/>ad regendam et gubernandam illam. Haec 
+          as<lb break="no" ed="#P" n="42"/>sertio est de fide, quae probatur praecipue ex
+          <lb ed="#P" n="43"/>verbis Christi dictis Petro Matth. 16: Tibi dabo
+          <lb ed="#P" n="44"/>claves, et quodcumque ligaveris, etc., et Joan.
+          <lb ed="#P" n="45"/>21: Pasce oves meas, quae verba inferius latius
+          <lb ed="#P" n="46"/>expendemus. Deinde probatur ex verbis quae
+          <lb ed="#P" n="47"/>generatim dixit Apostolis Luc. 10 : Qui vos 
+          au<lb break="no" ed="#P" n="48"/>dit me audit, et qui vos spernit me spernit : quae
+          <lb ed="#P" n="49"/>verba non solum quantum ad doctrinam, sed
+          <lb ed="#P" n="50"/>etiam quantum ad praecepta intelligenda esse,
+          <lb ed="#P" n="51"/>praeter expositores ibi, declaravit optime 
+          Cy<lb break="no" ed="#P" n="52"/>prian., ep. 69, et Basil. in Constit. Monast.,
+          <lb ed="#P" n="53"/>c. 22 et 23, et sumitur ex aliis verbis ejusdem
+          <lb ed="#P" n="54"/>Christi Joan. 20: Sicut misit me vivens Pater,
+          <lb ed="#P" n="55"/>et ego mitto vos : missus est autem Christus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>non solum ut doctor, sed etiam ut legislator
+          <lb ed="#P" n="57"/>et gubernator, juxta illud Ps. 2 : Dabo tibi
+          <lb ed="#P" n="58"/>gentes haeereditatem tuam, veges eos in virga
+          <lb ed="#P" n="59"/>ferrea, et latius in lib. 10 videbimus : ergo
+          <lb ed="#P" n="60"/>etiam misit suos Apostolos cum sufficienti 
+          par<lb break="no" ed="#P" n="61"/>ticipatione illius potestatis. Regnum enim et
+          <lb ed="#P" n="62"/>regimen Christi in Ecclesia militante non erat
+          <lb ed="#P" n="63"/>finiendum cum vita mortali ejus, aut cum
+          <lb ed="#P" n="64"/>praesentia visibili et corporali in terris, sed
+          <lb ed="#P" n="65"/>perpetuo erat duraturum, juxta illud : Dabit
+          <lb ed="#P" n="66"/>illà Dominus sedem David Patris ejus, et 
+          re<lb break="no" ed="#P" n="67"/>gnabit in aeternum, Luc. 1 : ergo necessarium
+          <lb ed="#P" n="68"/>fuit ut relinqueret in terris potestatem vicem
+          <lb ed="#P" n="69"/>ejus tenentem, per quam hoc regimen 
+          spiri<lb break="no" ed="#P" n="70"/>tuale perpetuo duraret.
+        </p>
+        <p xml:id="szdleg-a82448-d1e414">
+          <lb ed="#P" n="71"/>4. Secundo, principaliter hoc probatur ex
+          <lb ed="#P" n="72"/>usu hujus potestatis. Nam primus actus hujus
+          <lb ed="#P" n="73"/>potestatis qui in Scriptura legitur, videtur
+          <lb ed="#P" n="74"/>fuisse decretum Apostolicum Actor. 15 : 
+          Vi<lb break="no" ed="#P" n="75"/>sum est Spiritui Sancto et nobis, nihil ultra
+          <lb ed="#P" n="76"/>imponere volis oneris, quam heec necessaria, ut
+          <lb ed="#P" n="77"/>abstineatis. Ubi duo continentur humana 
+          prae<lb break="no" ed="#P" n="78"/>cepta canonica, unum imponens illud onus ut
+          <lb ed="#P" n="79"/>necessarium, quae duo verba clare indicant
+          <lb ed="#P" n="80"/>prohibitionem sub praecepto ; aliud vero fuit,
+          <lb ed="#P" n="81"/>vel declarativum, vel constitutivum, ut ex
+          <lb ed="#P" n="82"/>tunc nihil aliud caeremoniale legis Moysi 
+          ob<lb break="no" ed="#P" n="83"/>servaretur ut necessarium onus : et in fine
+          <lb ed="#P" n="84"/>capitis dicitur de Paulo : Perambulabat 
+          praeci<lb break="no" ed="#P" n="85"/>piens custodire praecepta Apostolorum et 
+          senio<lb break="no" ed="#P" n="86"/>rum. Fuerunt ergo illa vera praecepta 
+          huma<lb break="no" ed="#P" n="87"/>na, de quibus plura dicemus infra tractando
+          <lb ed="#P" n="88"/>de cessatione legalium ; unde constabit illud
+          <lb ed="#P" n="89"/>prius non obligasse ex propria prohibitione
+          <lb ed="#P" n="90"/>Christi : fuit ergo pro illo tempore mandatum
+          <lb ed="#P" n="91"/>apostolicum. Deinde Paulus in suis epistolis
+          <lb ed="#P" n="92"/>saepe commemorat potestatem, quam ait sibi
+          <lb ed="#P" n="93"/>dedisse Dominum in aedificationem, non in
+          <lb ed="#P" n="94"/>destructionem, 9 ad Corinth. 13; et 1 ad 
+          Co<lb break="no" ed="#P" n="95"/>rinth. 4 interrogat : Vultis ut in virga veniam
+          <lb ed="#P" n="96"/>ad vos ? Virga autem significat potestatem
+          <lb ed="#P" n="97"/>gubernativam, quae, quatenus directiva est,
+          <lb ed="#P" n="98"/>dicitur virga directionis, Psalm. 44; quatenus
+          <lb ed="#P" n="99"/>vero est coactiva, dicitur virga ferrea, Psalm. 2
+          <lb ed="#P" n="100"/>ex August. exponente utrumque locum. Nam
+          <lb ed="#P" n="101"/>in priori ait: Directionis virga est, quae dirigit
+          <lb ed="#P" n="102"/>homines, et infra : Accede ad istam virgam,
+          <lb ed="#P" n="103"/>sit tibi rex Christus, regat te ipsa virga, ne
+          <lb ed="#P" n="104"/>frangat te. Virga enim est illa inflemibilis. Et
+          <lb ed="#P" n="105"/>in posteriori loco exposuerat virgam ferream
+          <lb ed="#P" n="106"/>esse inflexibilem justitiam. Unde in priori 
+          ad<lb break="no" ed="#P" n="107"/>dit : Alios regit, alios conterit, regit 
+          spiritua<lb break="no" ed="#P" n="108"/>les , conterit carnales. Talis ergo erat virga
+          <lb ed="#P" n="109"/>Pauli aChristo participata ; unde statim cap. 5
+          <lb ed="#P" n="110"/>virga illa ut ferrea utens, ait : Jam judicavi
+          <pb ed="#P" n="328"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ut praesens eum, qui sic operatus est, tradere
+          <lb ed="#P" n="2"/>hujusmodi satane, ut expendit August. 1. 3
+          <lb ed="#P" n="3"/>contra Epistolam Par.. cap.1; de virga autem
+          <lb ed="#P" n="4"/>directionis ait idem Paul. loquens de Episcopis
+          <lb ed="#P" n="5"/>Actor. 20: Quos Spiritus sanctus posuit regere
+          <lb ed="#P" n="6"/>Ecclesiam Dei ; et ad subditos fideles ait Heb.
+          <lb ed="#P" n="7"/>13: Obedite praepositis vestris, et subjacete illas.
+          <lb ed="#P" n="8"/>Denique 1 ad Timoth. 5, sic ait : Adversus
+          <lb ed="#P" n="9"/>presbyterum accusationem noli recipere , nisi
+          <lb ed="#P" n="10"/>sub duobus, aut tribus testibus. In quibus 
+          ver<lb break="no" ed="#P" n="11"/>bis supponit esse in Ecclesia judicium 
+          pro<lb break="no" ed="#P" n="12"/>prium et tribunal, ex quo etiam potestas 
+          le<lb break="no" ed="#P" n="13"/>gislativa colligi facile potest. Verba etiam illa,
+          <lb ed="#P" n="14"/>quatenus constituunt talem formam 
+          servan<lb break="no" ed="#P" n="15"/>dam in judicio presbyteri, legem a Paulo 
+          la<lb break="no" ed="#P" n="16"/>tam continent. Item quod in eadem Epist. c.3
+          <lb ed="#P" n="17"/>dicit : Oportet Episcopum esse unius uaoris
+          <lb ed="#P" n="18"/>virum , legem apostolicam continet de 
+          irre<lb break="no" ed="#P" n="19"/>gularitate bigamiae, ut est constans apud 
+          om<lb break="no" ed="#P" n="20"/>nes.
+        </p>
+        <p xml:id="szdleg-a82448-d1e551">
+          <lb ed="#P" n="21"/>5. Tertio constat haec veritas ex Ecclesiae
+          <lb ed="#P" n="22"/>traditione et consuetudine, quam ex Conciliis
+          <lb ed="#P" n="23"/>et Pontificibus statim ostendam. Ex Patribus
+          <lb ed="#P" n="24"/>videri potest Clemens Rom. Epist. 1 ad 
+          Jaco<lb break="no" ed="#P" n="25"/>bum fratrem Domini, ad finem; D. Ignatius,
+          <lb ed="#P" n="26"/>Epistol. 6 ad Magnesian., circa initium, et in
+          <lb ed="#P" n="27"/>Epistol. ad Trallian. ; Hieronymus, Epist. ad
+          <lb ed="#P" n="28"/>Rusticum Monachum; Origenes hom. 20 in
+          <lb ed="#P" n="29"/>Lucam ; Cyprian., lib. 1, Epist. 3, Epist. 1;
+          <lb ed="#P" n="30"/>alias Epist. 55 et 58 : Epiphan., haeres. 21;
+          <lb ed="#P" n="31"/>Leo, serm. 2 de Jujun.; Chrysost., Hom. 83
+          <lb ed="#P" n="32"/>in Matth., et Epist. 1 ad Innocent. et Hom. 70
+          <lb ed="#P" n="33"/>ad Populum; Augustin., serm. 42 et 46 de
+          <lb ed="#P" n="34"/>Verbis Domini, et Epistol. 76 ad Casulanum;
+          <lb ed="#P" n="35"/>Bernard. lib. de Praecepto et dispensat. Ratio
+          <lb ed="#P" n="36"/>denique manifesta est, quia Ecclesia est una
+          <lb ed="#P" n="37"/>tanquam unum corpus Christi mysticum, ut
+          <lb ed="#P" n="38"/>ex Scripturis et ex Symbolo suppono : ergo
+          <lb ed="#P" n="39"/>cum a Deo sit constituta, perfecte, et ordinate
+          <lb ed="#P" n="40"/>instituta est, juxta illud ad Rom. 13: Quea
+          <lb ed="#P" n="41"/>Deo sunt, ordinata sunt ; non esset autem recte
+          <lb ed="#P" n="42"/>instituta, nisi haberet potestatem 
+          proportio<lb break="no" ed="#P" n="43"/>natam, qua regeretur et gubernaretur, ut a
+          <lb ed="#P" n="44"/>fortiori constat ex dictis supra in simili de 
+          po<lb break="no" ed="#P" n="45"/>litica communitate : esset enim corpus sine
+          <lb ed="#P" n="46"/>capite. et multitudo sine ordine, quae non 
+          po<lb break="no" ed="#P" n="47"/>test non esse confusa. Etita ad hoc propositum
+          <lb ed="#P" n="48"/>dixit Leo Papa Epist. 85, alias 87 : In domo
+          <lb ed="#P" n="49"/>Dei nlhil inordinatum esse debet, referturque
+          <lb ed="#P" n="50"/>in cap. Miramur, dist. 61 : ergo est in 
+          Eccle<lb break="no" ed="#P" n="51"/>sia spiritualis principatus ad quem pertineat
+          <lb ed="#P" n="52"/>Ecclesiae gubernatio in spiritualibus : ergo est
+          <lb ed="#P" n="53"/>etiam in eo principatu potestas praecipiendi.
+          <lb ed="#P" n="54"/>Probatur haec ultima consequentia, quia 
+          im<lb break="no" ed="#P" n="55"/>possibile est intelligere principatum, et potes-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tatem gubernandi sine potestate praecipiendi,
+          <lb ed="#P" n="57"/>quia futilis esset gubernatio, nisi esset 
+          neces<lb break="no" ed="#P" n="58"/>sitas obediendi. Quia vero lex aliquid addit
+          <lb ed="#P" n="59"/>supra praeceptum, ut de propria lege id 
+          os<lb break="no" ed="#P" n="60"/>tendamus, secundam assertionem addemus.
+        </p>
+        <p xml:id="szdleg-a82448-d1e642">
+          <lb ed="#P" n="61"/>6. Secunda conclusio. —bico ergo secundo:
+          <lb ed="#P" n="62"/>potestas haec vere et proprie legislativa est. Haec
+          <lb ed="#P" n="63"/>assertio est aeque certa ac praecedens; nam ex
+          <lb ed="#P" n="64"/>eisdem principiis constat, et sequitur ex illa
+          <lb ed="#P" n="65"/>manifeste, quia potestas legislativa nihil aliud
+          <lb ed="#P" n="66"/>requirit quam potestatem directivam et 
+          coac<lb break="no" ed="#P" n="67"/>tivam ordinariam, ac de se perpetuam supra
+          <lb ed="#P" n="68"/>communitatem aliquam perfectam : haec 
+          au<lb break="no" ed="#P" n="69"/>tem omnia in dicta potestate inveniuntur, ut
+          <lb ed="#P" n="70"/>facile constabit applicando quae adduximus.
+          <lb ed="#P" n="71"/>Item gubernatio perfecta talis communitatis
+          <lb ed="#P" n="72"/>debet fieri per leges, ut supra ostensum est;
+          <lb ed="#P" n="73"/>sed haec est potestas gubernativa perfecta ; 
+          er<lb break="no" ed="#P" n="74"/>go. Item potestas, quae potest talia praecepta
+          <lb ed="#P" n="75"/>ponere ut durent, etiamsi persona praecipiens
+          <lb ed="#P" n="76"/>moriatur, est legislativa, ut constat ex dictis
+          <lb ed="#P" n="77"/>in l. 1; sed talis est potestas gubernativa 
+          Ec<lb break="no" ed="#P" n="78"/>clesiae ; ergo. Minor probatur, tum quia est
+          <lb ed="#P" n="79"/>nobilior quam potestas civilis, et civilis hoc
+          <lb ed="#P" n="80"/>habet, ut dictum est; tum etiam quia illa 
+          po<lb break="no" ed="#P" n="81"/>testas talis est ut non moriatur, etiamsi mo -
+          <lb ed="#P" n="82"/>riatur persona quae illam habet ; praeceptum
+          <lb ed="#P" n="83"/>autem si feratur juxta efficaciam potestatis,
+          <lb ed="#P" n="84"/>imitatur illam in duratione; tum denique quia
+          <lb ed="#P" n="85"/>Christus, cujus vicem gerunt qui hanc 
+          potes<lb break="no" ed="#P" n="86"/>tatem administrant, semper vivit, et ideo 
+          po<lb break="no" ed="#P" n="87"/>testas non deficit, licet Vicarius Christi 
+          moria<lb break="no" ed="#P" n="88"/>tur; et simili ratione leges ejus semper 
+          per<lb break="no" ed="#P" n="89"/>manent, donec revocentur. Tandem haec
+          <lb ed="#P" n="90"/>assertio evidenter confirmatur ex usu, sicut
+          <lb ed="#P" n="91"/>praecedens. Nam Apostoli, per potestatem 
+          il<lb break="no" ed="#P" n="92"/>lam quam habebant ad gubernandam 
+          Eccle<lb break="no" ed="#P" n="93"/>siam, leges tulerunt, Actor. 15, ut satis 
+          decla<lb break="no" ed="#P" n="94"/>ratum est. Quae ex parte confirmatae sunt, et
+          <lb ed="#P" n="95"/>censuris munitae in canon. 62 Apost., ut bene
+          <lb ed="#P" n="96"/>expendit ibi Turrec. 1. 1 pro Canon. Apostol.,
+          <lb ed="#P" n="97"/>cap. 5, et lib. 6, in Const. Apost. Clem., c. 13,
+          <lb ed="#P" n="98"/>ubi auctoritate Patrum hoc confirmat, quibus
+          <lb ed="#P" n="99"/>additur Concil. Aurelianense II, capite 20;
+          <lb ed="#P" n="100"/>Chrysostom., Hom. 33 in Acta; Leo Papa,
+          <lb ed="#P" n="101"/>Epistol. 79, c. 5; Augustin., Epist. 15. Aliud
+          <lb ed="#P" n="102"/>exemplum est de praecepto quod bigamus non
+          <lb ed="#P" n="103"/>ordinetur, quod latum creditur a Paulo 1 ad
+          <lb ed="#P" n="104"/>Timoth. 3, et ad Titum 1, et tradit Innoc. 1,
+          <lb ed="#P" n="105"/>Epist. 4, c. 2. Ut autem in materia de 
+          irregula<lb break="no" ed="#P" n="106"/>ritate latius diximus, praeceptum illud 
+          divi<lb break="no" ed="#P" n="107"/>num non est, sed humanum: unde et 
+          dispensa<lb break="no" ed="#P" n="108"/>tionem admittit. Denique Paul. 1 ad Corinth. 7,
+          <lb ed="#P" n="109"/>distinguit quaedam esse praecepta a Domino,
+          <lb ed="#P" n="110"/>quaedam vero ab ipso Paulo. Atque similia
+          <pb ed="#P" n="329"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>exempla multa habemus ex canonibus 
+          Apos<lb break="no" ed="#P" n="2"/>tolorum, et omnibus decretis quae in jure 
+          ca<lb break="no" ed="#P" n="3"/>nonico, et in omnibus conciliis habentur, quae
+          <lb ed="#P" n="4"/>nunc referre supervacaneum est.
+        </p>
+        <p xml:id="szdleg-a82448-d1e766">
+          <lb ed="#P" n="5"/>7. Tertia conclusio. — Dico tertio : haec 
+          po<lb break="no" ed="#P" n="6"/>testas spiritualis et supernaturalis est. Quae
+          <lb ed="#P" n="7"/>veritas est certa de fide, dummodo termini
+          <lb ed="#P" n="8"/>recte intelligantur. Est enim advertendum
+          <lb ed="#P" n="9"/>potestatem hanc non esse characterem 
+          ali<lb break="no" ed="#P" n="10"/>quem, vel qualitatem, aut physicam entitatem
+          <lb ed="#P" n="11"/>inditam hominibus. Non enim datur haec 
+          po<lb break="no" ed="#P" n="12"/>testas per consecrationem aliquam ejus 
+          perso<lb break="no" ed="#P" n="13"/>nae cui confertur; nam, licet requirat vel 
+          sup<lb break="no" ed="#P" n="14"/>ponat ordinem, non consistit in ipsa 
+          ordina<lb break="no" ed="#P" n="15"/>tione, nec per eam datur, sed per electionem,
+          <lb ed="#P" n="16"/>vel deputationem voluntate hominis aut 
+          ho<lb break="no" ed="#P" n="17"/>minum factam, sive detur ab homine, tanquam
+          <lb ed="#P" n="18"/>a ministro Dei, sive immediate ab ipso Deo,
+          <lb ed="#P" n="19"/>ad praesentiam (ut sic dicam) electionis 
+          huma<lb break="no" ed="#P" n="20"/>nae, de quo postea videbimus; et ratio est, quia
+          <lb ed="#P" n="21"/>potestas haec jurisdictio quaedam est, pertinens
+          <lb ed="#P" n="22"/>ad externum forum ecclesiasticum, et ideo data
+          <lb ed="#P" n="23"/>est a Christo Domino, juxta modum 
+          jurisdic<lb break="no" ed="#P" n="24"/>tioni accommodatum. Jurisdictio autem, sicut
+          <lb ed="#P" n="25"/>et dominium non consistit in qualitate 
+          physi<lb break="no" ed="#P" n="26"/>ca, sed in jure et potestate morali; ita ergo
+          <lb ed="#P" n="27"/>data hae- est potestas: et ideo, quando 
+          spiri<lb break="no" ed="#P" n="28"/>tualis et supernaturalis dicitur, non est 
+          quae<lb break="no" ed="#P" n="29"/>renda entitas aliqua ordinis angelici, sed ex
+          <lb ed="#P" n="30"/>fine, et mediis in quibus haec potestas versatur,
+          <lb ed="#P" n="31"/>illas proprietates vel denominationes recipit.
+          <lb ed="#P" n="32"/>Sic ergo intellecta conclusio facile probari 
+          po<lb break="no" ed="#P" n="33"/>test; nam finis hujus potestatis est aeterna
+          <lb ed="#P" n="34"/>felicitas, et consequenter etiam hujus vitae
+          <lb ed="#P" n="35"/>sanctitas, quae maxime spirituales sunt et 
+          su<lb break="no" ed="#P" n="36"/>pernaturales : ergo potestas ipsa spiritualis et
+          <lb ed="#P" n="37"/>supernaturalis est. Major est Nicolai Papae in
+          <lb ed="#P" n="38"/>Epist. ad Michaelem imperatorem, ubi inter
+          <lb ed="#P" n="39"/>alia inquit imperatores indigere ecclesiasticis
+          <lb ed="#P" n="40"/>legibus pro eterna vita. Habetur in cap. Cum
+          <lb ed="#P" n="41"/>ad verum, 96 dist., ubi multa alia decreta idem
+          <lb ed="#P" n="42"/>continent, praecipue cap. Duo sunt, et cap. Si
+          <lb ed="#P" n="43"/>unperator, ubi haec potestas ad civilem 
+          com<lb break="no" ed="#P" n="44"/>paratur, sicut anima ad corpus, sicut coeleste
+          <lb ed="#P" n="45"/>ad terrenum, aeternum ad temporale. Idem
+          <lb ed="#P" n="46"/>sumitur ex cap. Solite, de Majorit. et 
+          obe<lb break="no" ed="#P" n="47"/>dient.
+        </p>
+        <p xml:id="szdleg-a82448-d1e862">
+          <lb ed="#P" n="48"/>8. Et ratione patet, quia potestas Christi
+          <lb ed="#P" n="49"/>Domini praecipue ordinata est ad finem 
+          spiri<lb break="no" ed="#P" n="50"/>tualem et supernaturalem, propter quem in
+          <lb ed="#P" n="51"/>mundum venit, et ideo ipse dicebat : Regnum
+          <lb ed="#P" n="52"/>meum non est de hoc mundo; ergo etiam haec
+          <lb ed="#P" n="53"/>potestas, quae est participatio illius, ad 
+          eum<lb break="no" ed="#P" n="54"/>dem finem tendit, et propterea clavis celorum
+          <lb ed="#P" n="55"/>appellatur, vel sub ea continetur. Idem argu-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>mentum fieri potest ex parte mediorum, quae
+          <lb ed="#P" n="57"/>sunt veluti objectum et effectus hujus 
+          potesta<lb break="no" ed="#P" n="58"/>tis : media enim sunt proportionata fini, et
+          <lb ed="#P" n="59"/>ideo ad finem praedictum spiritualia et 
+          super<lb break="no" ed="#P" n="60"/>naturalia media ordinantur. Potestas autem
+          <lb ed="#P" n="61"/>haec circa hujusmodi media versatur, quae 
+          pos<lb break="no" ed="#P" n="62"/>sunt ad nonnulla capita reduci, scilicet ad 
+          ve<lb break="no" ed="#P" n="63"/>ram de Deo cognitionem supernaturalem,
+          <lb ed="#P" n="64"/>verum cultum praecipue Sacramentorum et 
+          sa<lb break="no" ed="#P" n="65"/>crificii, et ad res alias quae per se pertinent ad
+          <lb ed="#P" n="66"/>honestos mores, et vitanda peccata hominum;
+          <lb ed="#P" n="67"/>tota autem haec potestas in hac materia 
+          versa<lb break="no" ed="#P" n="68"/>tur, ut infra dicemus, et ex ipso usu satis 
+          con<lb break="no" ed="#P" n="69"/>stat : unde quatenus directiva est, ordinat 
+          ho<lb break="no" ed="#P" n="70"/>minem ad actiones maxime spirituales, et
+          <lb ed="#P" n="71"/>quatenus est coerciva, praecipue utitur gladio
+          <lb ed="#P" n="72"/>spirituali, spirituales poenas imponendo, ut
+          <lb ed="#P" n="73"/>in tom. de Cens. late tractatum est. Atque in
+          <lb ed="#P" n="74"/>tota hac doctrina conveniunt catholici 
+          auc<lb break="no" ed="#P" n="75"/>tores; praecipue videri possunt Victor., relect.
+          <lb ed="#P" n="76"/>1 de Potest. ecclesiae; Bellarm., libro 4 de
+          <lb ed="#P" n="77"/>Summo Pontifice, capite 15 et seq.; 
+          Salme<lb break="no" ed="#P" n="78"/>ron., tom. 4 in Evang., p. 3, tract. 12, ubi de
+          <lb ed="#P" n="79"/>hac materia erudite; Castro, lib. 1 de Leg.
+          <lb ed="#P" n="80"/>poenal., cap. 4; Dried., l. 1 de Libert. 
+          Chris<lb break="no" ed="#P" n="81"/>tian.; Medin., cod. de Poenal., tract. 3, q. de
+          <lb ed="#P" n="82"/>Necessit. jejunii ; Adrian., quodlib. 6; Anton.
+          <lb ed="#P" n="83"/>3 p., tit. 22, et juris canonici interpretes in
+          <lb ed="#P" n="84"/>rubr. de Constit., praesertim in cap. Ecclesia
+          <lb ed="#P" n="85"/>sanctae Mariae, et in Decreto dist. 15 et 96.
+        </p>
+        <p xml:id="szdleg-a82448-d1e950">
+          <lb ed="#P" n="86"/>9. Satisfit argumentis oppositis. — Ad 
+          pri<lb break="no" ed="#P" n="87"/>mum igitur argumentum, sumptum ex 
+          com<lb break="no" ed="#P" n="88"/>paratione legis veteris, quidquid sit de 
+          antece<lb break="no" ed="#P" n="89"/>dente (de quo in capite sequenti dicendum est),
+          <lb ed="#P" n="90"/>negari potest consequentia. Est enim magna
+          <lb ed="#P" n="91"/>differentia inter veterem legem et novam; nam
+          <lb ed="#P" n="92"/>in illa lege Deus ipse non solum dederat 
+          prae<lb break="no" ed="#P" n="93"/>cepta legis naturae vel gratiae, ipsi gratiae 
+          con<lb break="no" ed="#P" n="94"/>naturalia ; sed etiam dederat innumera 
+          prae<lb break="no" ed="#P" n="95"/>cepta positiva, praesertim judicialia et 
+          caere<lb break="no" ed="#P" n="96"/>monialia, et ideo in illa lege minus necessariae
+          <lb ed="#P" n="97"/>erant leges positivae, praesertim ad religionem
+          <lb ed="#P" n="98"/>pertinentes (quales sunt canonicae), quia 
+          om<lb break="no" ed="#P" n="99"/>nes caeremoniales erant hujusmodi, et ilae
+          <lb ed="#P" n="100"/>erant quamplurimae. In lege autem gratiae,
+          <lb ed="#P" n="101"/>Christus paucissima dedit per seipsum positiva
+          <lb ed="#P" n="102"/>praecepta, ut infra suo loco videbimus; sed hoc
+          <lb ed="#P" n="103"/>reliquit dispositioni suorum ministrorum, quos
+          <lb ed="#P" n="104"/>reliquit ut dispensatores mysteriorum Dei, ut
+          <lb ed="#P" n="105"/>ait Paul. 1 Cor. 4, qui, utens hac potestate,
+          <lb ed="#P" n="106"/>dicit in eadem Epist.: Ceetera autem cum 
+          ve<lb break="no" ed="#P" n="107"/>nero disponam ; in principio laudat eos dicens:
+          <lb ed="#P" n="108"/>Laudo vos, quod per omnia mei memores estis,
+          <lb ed="#P" n="109"/>et sicut tradidi vobis precepta mea tenetis. Hoc
+          <lb ed="#P" n="110"/>autem fecisse videtur Christus Dominus, tum
+          <pb ed="#P" n="330"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>propter majorem perfectionem hujus legis, et
+          <lb ed="#P" n="2"/>majus lumen Spiritus Sancti ad bene 
+          conve<lb break="no" ed="#P" n="3"/>nienterque omnia disponendum, quod Vicario
+          <lb ed="#P" n="4"/>suo communicaturus erat; tum etiam quia
+          <lb ed="#P" n="5"/>Christi Ecclesia universalior est et diuturnior,
+          <lb ed="#P" n="6"/>quam Hebraeorum populus. Ille enim populus
+          <lb ed="#P" n="7"/>in angulo terrae conclusus facile poterat 
+          eis<lb break="no" ed="#P" n="8"/>dem legibus particularibus gubernari ; Ecclesia
+          <lb ed="#P" n="9"/>vero, per universum orbem diffusa, licet in
+          <lb ed="#P" n="10"/>fide et ritibus substantialibus religionis 
+          con<lb break="no" ed="#P" n="11"/>veniat, in reliquis accidentalibus varietatem
+          <lb ed="#P" n="12"/>admittit, quae ad ejus pulchritudinem et 
+          am<lb break="no" ed="#P" n="13"/>plitudinem pertinet , et ideo talium rerum
+          <lb ed="#P" n="14"/>dispositionem Christus suis ministris commisit.
+          <lb ed="#P" n="15"/>Deinde vero addimus etiam assumptum esse
+          <lb ed="#P" n="16"/>falsum, et loca Scriptura explicabimus capite
+          <lb ed="#P" n="17"/>seq. ; exempla vero Achaz et Manasse 
+          ineptis<lb break="no" ed="#P" n="18"/>sime ab haereticis ad hanc causam afferuntur;
+          <lb ed="#P" n="19"/>nam uterque idolorum cultor fuit, et cultum
+          <lb ed="#P" n="20"/>illorum ac ritum gentium in templum 
+          intro<lb break="no" ed="#P" n="21"/>ducere voluit, ut ex Scriptura evidenter 
+          con<lb break="no" ed="#P" n="22"/>stat, et late exponit Abul., d. cap. 16, q. 12,
+          <lb ed="#P" n="23"/>et cap. 23, quaest. 1, 3et 6.
+        </p>
+        <p xml:id="szdleg-a82448-d1e1061">
+          <lb ed="#P" n="24"/>10. Ad secundum respondetur negando
+          <lb ed="#P" n="25"/>consequentiam et probationem ejus; non enim
+          <lb ed="#P" n="26"/>est simile de praeceptis legis veteris et praeceptis
+          <lb ed="#P" n="27"/>ecclesiasticis positivis ; nam illa erant 
+          innu<lb break="no" ed="#P" n="28"/>mera pro toto populo, haec autem pro 
+          univer<lb break="no" ed="#P" n="29"/>sali Ecclesia solum sunt quatuor, vel quinque,
+          <lb ed="#P" n="30"/>quae solum sunt determinationes quaedam juris
+          <lb ed="#P" n="31"/>divini, moraliter necessariae hominibus, ut 
+          pa<lb break="no" ed="#P" n="32"/>tet de praecepto annuae confessionis et 
+          commu<lb break="no" ed="#P" n="33"/>nionis, de jejuniis, et festis diebus, ac 
+          solven<lb break="no" ed="#P" n="34"/>dis decimis. Reliqua enim omnia vel pertinent
+          <lb ed="#P" n="35"/>ad particulares status, qui voluntarie ab 
+          homi<lb break="no" ed="#P" n="36"/>nibus sumuntur, vel ad ordinem judicialem.
+          <lb ed="#P" n="37"/>Praecepta item legis veteris, praesertim 
+          caere<lb break="no" ed="#P" n="38"/>monialia, erant figurae futurorum, et ideo
+          <lb ed="#P" n="39"/>veniente veritate cessare debuerunt : erant
+          <lb ed="#P" n="40"/>etiam valde onerosa, et quasi carnalia, ut late
+          <lb ed="#P" n="41"/>Aug., lib. 19 contra Faustum. Praecepta autem
+          <lb ed="#P" n="42"/>ecclesiastica feruntur quatenus convenientia
+          <lb ed="#P" n="43"/>sunt ad bonos mores componendos, ut res
+          <lb ed="#P" n="44"/>sacrae cum debito honore fiant : consequenter
+          <lb ed="#P" n="45"/>vero interdum habent significationem 
+          mora<lb break="no" ed="#P" n="46"/>lem, quae homines excitet ad virtutem et spem
+          <lb ed="#P" n="47"/>gloriae, ut latius in 3 tom. de Caeremoniis 
+          ec<lb break="no" ed="#P" n="48"/>clesiasticis tractavi. Augustinus autem 
+          dimi<lb break="no" ed="#P" n="49"/>nute ibi citatur; nam ante illa verba haec
+          <lb ed="#P" n="50"/>praemittit : Omnia, quae neque sanctarum 
+          Scri<lb break="no" ed="#P" n="51"/>pturarum auctoritatem continent, nec in 
+          Con<lb break="no" ed="#P" n="52"/>ciliis Episcoporum statuta inveniuntur, nec
+          <lb ed="#P" n="53"/>consuetudine universe Eocclesiae roborata sunt,
+          <lb ed="#P" n="54"/>ubi facultas fuerit resecanda existimo. Ex 
+          qui<lb break="no" ed="#P" n="55"/>bus verbis evidenter constat August. admittere
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ecclesiasticas leges, et statuta convenienti 
+          auc<lb break="no" ed="#P" n="57"/>toritate lata ; solum ergo suspectos habet 
+          pe<lb break="no" ed="#P" n="58"/>culiares ritus, vel consuetudines particularium
+          <lb ed="#P" n="59"/>locorum, quando non sunt sufficienti ratione
+          <lb ed="#P" n="60"/>et auctoritate fundatae; non ergo agit de 
+          potes<lb break="no" ed="#P" n="61"/>tate, sed prudentem ejus usum requirit.
+        </p>
+        <p xml:id="szdleg-a82448-d1e1148">
+          <lb ed="#P" n="62"/>11. Quomodo intelligendi sunt Patres qui
+          <lb ed="#P" n="63"/>sentire videntur contra pradictam potestatem.
+          <lb ed="#P" n="64"/>Ad tertium, respondetur homines sua virtute
+          <lb ed="#P" n="65"/>non posse dirigere alios in finem 
+          supernatura<lb break="no" ed="#P" n="66"/>lem, adjutos autem ab Spiritu Sancto, a quo
+          <lb ed="#P" n="67"/>habent potestatem, posse id praestare; et 
+          quam<lb break="no" ed="#P" n="68"/>vis semper Deus sit qui per gratiam suam dat
+          <lb ed="#P" n="69"/>efficaciam et incrementum, tamen homines
+          <lb ed="#P" n="70"/>etiam possunt plantare et rigare, atque ita 
+          di<lb break="no" ed="#P" n="71"/>rigere per leges in finem supernaturalem ; et
+          <lb ed="#P" n="72"/>eadem ratione possunt per spirituales poenas,
+          <lb ed="#P" n="73"/>vel alias congruentes eos cohibere a peccatis
+          <lb ed="#P" n="74"/>in ordine ad aeternam salutem, quae per 
+          pec<lb break="no" ed="#P" n="75"/>cata impeditur. Et quamvis humanae 
+          coactio<lb break="no" ed="#P" n="76"/>nes vel coercitiones per se non possint mutare
+          <lb ed="#P" n="77"/>internam voluntatem, in qua peccatum proprie
+          <lb ed="#P" n="78"/>existit, nihilominus necessaria est haec 
+          coac<lb break="no" ed="#P" n="79"/>tio; tum quia vexatio solet dare intellectum,
+          <lb ed="#P" n="80"/>tum etiam quia, sublata occasione, vel 
+          com<lb break="no" ed="#P" n="81"/>moditate exercendi actum externum, multo
+          <lb ed="#P" n="82"/>facilius voluntas desistit ab interno affectu;
+          <lb ed="#P" n="83"/>tum denique quia ipsa exterior observatio ad
+          <lb ed="#P" n="84"/>bonum Ecclesiae, et vitanda scandala et 
+          dis<lb break="no" ed="#P" n="85"/>sensiones, ac similia, necessaria est. Ideoque
+          <lb ed="#P" n="86"/>pastores Ecclesiae utraque potestate directiva
+          <lb ed="#P" n="87"/>et coactiva utuntur, et non solum interiorem
+          <lb ed="#P" n="88"/>justitiam, sed etiam exteriorem honestatem,
+          <lb ed="#P" n="89"/>decentiam, et ornatum per suas leges 
+          procu<lb break="no" ed="#P" n="90"/>rant. Et juxta haec intelligenda sunt aliqua,
+          <lb ed="#P" n="91"/>quae hic ex Patribus objici solent, quae 
+          omit<lb break="no" ed="#P" n="92"/>to, quia difficultatem non habent; non enum
+          <lb ed="#P" n="93"/>negant potestatem pastorum Ecclesiae ad 
+          prae<lb break="no" ed="#P" n="94"/>cipiendum et vindicandum, sed consulunt 
+          mo<lb break="no" ed="#P" n="95"/>dum suavem illa utendi, et prudentem, ita ut
+          <lb ed="#P" n="96"/>praecipua cura sit de interiori correctione,
+          <lb ed="#P" n="97"/>quamvis exterior non sit omittenda. Et ita 
+          fa<lb break="no" ed="#P" n="98"/>cile intelliges Chrysostom. lib 2 de Sacerd., et
+          <lb ed="#P" n="99"/>alia quae tractat Turrecrem., lib. 2 de 
+          Eccle<lb break="no" ed="#P" n="100"/>sia, cap. 45 et 4T.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

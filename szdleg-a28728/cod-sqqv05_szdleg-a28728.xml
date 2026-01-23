@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="112"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a28728"><!-- deleg-l2c7 -->
+        <head xml:id="szdleg-a28728-Hd1e101">Caput 7</head>
+        <head xml:id="szdleg-a28728-Hd1e103" type="question-title">In qua materia versetur lex naturalis, seu quae sint eius praecepta</head>
+        <p xml:id="szdleg-a28728-d1e106">
+          <lb ed="#P" n="73"/>CAPUT VII.
+          <lb ed="#P" n="74"/>IN QUA MATERIA VERSETUR LEX NATURALIS, SEU
+          <lb ed="#P" n="75"/>QUAE SINT EJUS PRAECEPTA.
+        </p>
+        <p xml:id="szdleg-a28728-d1e115">
+          <lb ed="#P" n="76"/>1. Differentia inter legem naturalem et alias.
+          <lb ed="#P" n="77"/>— Supponimus ex dictis, bonum per se 
+          ho<lb break="no" ed="#P" n="78"/>nestum, seu ad honestatem necessarium, et
+          <lb ed="#P" n="79"/>malum illi contrarium esse materiam hujus
+          <lb ed="#P" n="80"/>legis; illud ut praecipiendum, hoc ut vitandum.
+          <lb ed="#P" n="81"/>Probatur, quia cum haec sit vera lex, et Deum
+          <lb ed="#P" n="82"/>habeat auctorem, non potest non esse honesta;
+          <lb ed="#P" n="83"/>ergo non potest praecipere nisi honestum, nec
+          <lb ed="#P" n="84"/>vetare nisi contrarium. Item haec lex id 
+          prae<lb break="no" ed="#P" n="85"/>cipit, quod est naturae rationali consentaneum,
+          <lb ed="#P" n="86"/>ut talis est, et vetat contrarium; illud autem
+          <lb ed="#P" n="87"/>non est nisi honestum, ut constat. Imo in hoc
+          <lb ed="#P" n="88"/>differt lex naturalis ab aliis legibus, quod aliae
+          <lb ed="#P" n="89"/>faciunt esse malum quod prohibent, et 
+          neces<lb break="no" ed="#P" n="90"/>sarium vel honestum quod praecipiunt: haec
+          <lb ed="#P" n="91"/>vero supponit in actu seu objecto honestatem
+          <lb ed="#P" n="92"/>quam praecipiat, vel turpitudinem quam 
+          pro<lb break="no" ed="#P" n="93"/>hibeat, et ideo dici solet per hanc legem 
+          pro<lb break="no" ed="#P" n="94"/>hiberi aliquid quia malum, vel praecipi quia
+          <lb ed="#P" n="95"/>bonum, ut capite praecedenii tactum est.
+        </p>
+        <p xml:id="szdleg-a28728-d1e161">
+          <lb ed="#P" n="96"/>2. An omne honestum vel malum contrarium
+          <lb ed="#P" n="97"/>cadat sub legem naturalem. — Opinio 
+          asseren<lb break="no" ed="#P" n="98"/>tium sola communia principia et generalia 
+          ca<lb break="no" ed="#P" n="99"/>dere sub legem naturalem.—bifficultas ergo est
+          <lb ed="#P" n="100"/>an omne honestum bonum vel malum 
+          contra<lb break="no" ed="#P" n="101"/>rium cadat sub legem naturalem : nam quidam
+          <lb ed="#P" n="102"/>dixerunt, sola generalia principia per se nota,
+          <lb ed="#P" n="103"/>quae versantur circa bonitatem, vel malitiam
+          <lb ed="#P" n="104"/>moralem, qualia sunt, bonwm est faciendum,
+          <lb ed="#P" n="105"/>malwun vitandum . quod tibi fieri non vis, alteri
+          <lb ed="#P" n="106"/>ne feceris, esse materiam hujus legis, non vero
+          <lb ed="#P" n="107"/>conclusiones quae ex his principis eliciuntur,
+          <pb ed="#P" n="113"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ut depositum esse reddendum usuram vtaxdam.
+          <lb ed="#P" n="2"/>Solet citari pro hac sententia divus Thomas,
+          <lb ed="#P" n="3"/>q. 94, artic. 2, et Durandus, tract. de Legib.,
+          <lb ed="#P" n="4"/>quem habere non potui, sed illum refert 
+          Tur<lb break="no" ed="#P" n="5"/>rec. in capite Jus naturale, distinct. 1, n. 3,
+          <lb ed="#P" n="6"/>et aliqui juristae ita defendunt hanc opinionem,
+          <lb ed="#P" n="7"/>ut existiment praecepta Decalogi non continere
+          <lb ed="#P" n="8"/>jus naturale, sed jus gentium, quod putant
+          <lb ed="#P" n="9"/>esse diversum. In quam sententiam videtur
+          <lb ed="#P" n="10"/>inclinare Soto, libro 1 de Justitia, quaest. 5,
+          <lb ed="#P" n="11"/>art. 4, ut capite sequenti latius dicam. 
+          Viden<lb break="no" ed="#P" n="12"/>turque fundari in modo loquendi 
+          Jureconsul<lb break="no" ed="#P" n="13"/>torum, qui eos actus, quos dictat ratio solum
+          <lb ed="#P" n="14"/>per discursum, non tribuunt juri naturali, ut
+          <lb ed="#P" n="15"/>videre licet in lib. 1, 2et 3, et l. Omnes, cum
+          <lb ed="#P" n="16"/>aliis, ff. de Justitia et jure, ct in l. Bona fide,
+          <lb ed="#P" n="17"/>ff. Depositi.
+        </p>
+        <p xml:id="szdleg-a28728-d1e232">
+          <lb ed="#P" n="18"/>3. Ratio esse potest primo, quia jus naturale
+          <lb ed="#P" n="19"/>est id ad quod ipsa natura immeduiate inclinat:
+          <lb ed="#P" n="20"/>hujusmodi autem solum sunt prima principia:
+          <lb ed="#P" n="21"/>nam quae per discursum comparantur potius
+          <lb ed="#P" n="22"/>ab ipso homine habent originem: unde etiam
+          <lb ed="#P" n="23"/>in ipsis habitibus distinctio est inter habitum
+          <lb ed="#P" n="24"/>principiorum et conclusionum. Secundo, quia
+          <lb ed="#P" n="25"/>jus illud quod versatur circa prima principia
+          <lb ed="#P" n="26"/>est prorsus immutabile, tam ex parte sua,
+          <lb ed="#P" n="27"/>quam ex parte hominum, quia ignorari non
+          <lb ed="#P" n="28"/>potest : illud autem quod versatur circa 
+          con<lb break="no" ed="#P" n="29"/>clusiones, mutari potest et ignorari. Tertio,
+          <lb ed="#P" n="30"/>quia alias etiam actus virtutum, quos 
+          praeci<lb break="no" ed="#P" n="31"/>piunt homines, pertinerent ad legem naturae,
+          <lb ed="#P" n="32"/>quia per discursum ex illa eliciuntur. Quarto,
+          <lb ed="#P" n="33"/>quia alias non distingueretur jus gentium a
+          <lb ed="#P" n="34"/>jure naturali, sed illius pars esset, vel sub illo
+          <lb ed="#P" n="35"/>contineretur.
+        </p>
+        <p xml:id="szdleg-a28728-d1e274">
+          <lb ed="#P" n="36"/>4. Resolvitur queestio, et ostenditur jus 
+          na<lb break="no" ed="#P" n="37"/>turale complecti omnia praecepta moralia, quee
+          <lb ed="#P" n="38"/>habent evidentem honestatem necessariui ad
+          <lb ed="#P" n="39"/>morwum vectitudinem.— Nihilominus dicendum
+          <lb ed="#P" n="40"/>est jus naturale complecti omnia praecepta,
+          <lb ed="#P" n="41"/>seu principia moralia, quae evidentem habent
+          <lb ed="#P" n="42"/>honestatem necessariam ad rectitudinem 
+          mo<lb break="no" ed="#P" n="43"/>rum, ita ut opposita moralem inordinationem
+          <lb ed="#P" n="44"/>seu malitiam evidenter contineant. Haec est
+          <lb ed="#P" n="45"/>mens D. Thomae, q. 91, art. 2, q. 94, artic. 2
+          <lb ed="#P" n="46"/>et 4, q. 95, artic. 2, et q. 100, artic. 1, 9et 3,
+          <lb ed="#P" n="47"/>ubi Cajetanus, Conradus et ali expositores
+          <lb ed="#P" n="48"/>idem sentiunt; Soto, libro 1 de Justitia, q. 4,
+          <lb ed="#P" n="49"/>artic. 9. et q. 5. artic. 1 et 9. et libro 3, q. 4,
+          <lb ed="#P" n="50"/>artic. 9 et 3; et idem sumitur ex theologis in
+          <lb ed="#P" n="51"/>praecedenti capite allegatis, et ex Turrecr. in
+          <lb ed="#P" n="52"/>capite Jus autem, distinct. 1, per plures 
+          arti<lb break="no" ed="#P" n="53"/>culos, praesertim in primo et ultimo; Covarrus,
+          <lb ed="#P" n="54"/>in regula Peccatum, 2 part., S 11, n. 4. Item
+          <lb ed="#P" n="55"/>sumitur ex Aristotele, 5 Ethic., capite 7, ubi
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>omne jus in naturale et legitimum distinguit,
+          <lb ed="#P" n="57"/>sub naturali comprehendens omne illud quod
+          <lb ed="#P" n="58"/>necessariam et immutabilem habet veritatem.
+          <lb ed="#P" n="59"/>Eademque est sententia Ciceronis, libro 2 de
+          <lb ed="#P" n="60"/>Invent., ubi definit, jus naturae esse, quod
+          <lb ed="#P" n="61"/>nobis non opinio, sed quedam innata vis affert,
+          <lb ed="#P" n="62"/>ut religionem, pictatem, etc. Idem sentit 
+          Isido<lb break="no" ed="#P" n="63"/>rus, 5 Etymol., cap. 3, ubi aliis exemplis jus
+          <lb ed="#P" n="64"/>naturale declarat. ftem Augustinus, lib. 1 de
+          <lb ed="#P" n="65"/>libero Arbitrio, capite 3, quatenus adulterium
+          <lb ed="#P" n="66"/>ponit esse contra jus naturae: nam eadem 
+          ra<lb break="no" ed="#P" n="67"/>tio est de omnibus similibus. Denique sumi
+          <lb ed="#P" n="68"/>hoc potest ex illo Psalmo 4: Quis ostendit 
+          no<lb break="no" ed="#P" n="69"/>Dis bommn ? signatum est super nos lumen 
+          cul<lb break="no" ed="#P" n="70"/>tus tui, Doviine: nam inde rectc colligimus
+          <lb ed="#P" n="71"/>omnia quae lumen naturale evidenter 
+          mani<lb break="no" ed="#P" n="72"/>festat, pertinere ad legem naturae: et 
+          confir<lb break="no" ed="#P" n="73"/>mari potest ex illo Pauli ad Romanos 2: 
+          Gen<lb break="no" ed="#P" n="74"/>tes quae legem non habent, naturaliter ea, quee
+          <lb ed="#P" n="75"/>legis sunt, faciunt - unde infert eos sibi ipsis
+          <lb ed="#P" n="76"/>esse legem: illa autem quae evidenter 
+          cogno<lb break="no" ed="#P" n="77"/>scuntur lumine naturae, sive cum discursu,
+          <lb ed="#P" n="78"/>sive absque illo cognoscantur, recte dicuntur
+          <lb ed="#P" n="79"/>naturaliter fieri; ergo.
+        </p>
+        <p xml:id="szdleg-a28728-d1e374">
+          <lb ed="#P" n="80"/>5. Confirmatur assertio ratione. — hatione
+          <lb ed="#P" n="81"/>etiam declaratur assertio: nam ca quae 
+          natu<lb break="no" ed="#P" n="82"/>rali ratione cognoscuntur, in triplici genere
+          <lb ed="#P" n="83"/>distingui possunt : quaedam sunt prima 
+          prin<lb break="no" ed="#P" n="84"/>cipia generalia morum, ut sunt illa, honestum
+          <lb ed="#P" n="85"/>est faciendum , pravum citandum ; quod tibi
+          <lb ed="#P" n="86"/>fieri non vis, alteri ne feceris, el similia ; de
+          <lb ed="#P" n="87"/>his nullum est dubium pertinere ad legem 
+          na<lb break="no" ed="#P" n="88"/>turalem : alia sunt principia magis 
+          determi<lb break="no" ed="#P" n="89"/>nata et particularia, tamen etiam per se nota
+          <lb ed="#P" n="90"/>ex terminis, ut, justitia est sercanda, Deus est
+          <lb ed="#P" n="91"/>colendus, temperate vivendum est, et similia, de
+          <lb ed="#P" n="92"/>quibus etiam nulla est dubitatio, et a fortiori
+          <lb ed="#P" n="93"/>patebit ex dicendis. In tertio ordine ponimus
+          <lb ed="#P" n="94"/>conclusiones quae per evidentem illationem ex
+          <lb ed="#P" n="95"/>principiis naturalibus inferuntur, et non nisi
+          <lb ed="#P" n="96"/>per discursum cognosci possunt : inter quas
+          <lb ed="#P" n="97"/>quaedam facilius et a pluribus cognoscuntur,
+          <lb ed="#P" n="98"/>ut aduiterium, furtum, et similia, prava esse:
+          <lb ed="#P" n="99"/>aliae majori indigent discursu, et non facile
+          <lb ed="#P" n="100"/>omnibus notae, ut fornicationem esse 
+          intrin<lb break="no" ed="#P" n="101"/>sece malam, usuram esse injustam, 
+          menda<lb break="no" ed="#P" n="102"/>cium nunquam posse honestari, et similia. De
+          <lb ed="#P" n="103"/>his ergo omnibus intelligitur assertio posita:
+          <lb ed="#P" n="104"/>nam omnia haec ad legem naturalem pertinent;
+          <lb ed="#P" n="105"/>quod si id probatum fuerit, etiam de 
+          conclusio<lb break="no" ed="#P" n="106"/>nibus, cujuscumque gradus, dummodo 
+          evi<lb break="no" ed="#P" n="107"/>dentiae gradum certum attingant, a fortiori
+          <lb ed="#P" n="108"/>erit probatum de reliquis.
+        </p>
+        <p xml:id="szdleg-a28728-d1e439">
+          <lb ed="#P" n="109"/>6. Probatur ergo primo inductionec : nam
+          <lb ed="#P" n="110"/>praecepta Decalogi sunt de jure naturae, ut est
+          <pb ed="#P" n="114"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>indubitatum apud omnes, et tamen non 
+          om<lb break="no" ed="#P" n="2"/>nia continent principia per se nota, sed aliquo
+          <lb ed="#P" n="3"/>indigent discursu, ut etiam est clarum. 
+          Mul<lb break="no" ed="#P" n="4"/>toque id clarius est de multis praeceptis 
+          na<lb break="no" ed="#P" n="5"/>turalibus , quae in illis continentur, ut est
+          <lb ed="#P" n="6"/>praeceptum prohibens simplicem 
+          fornicatio<lb break="no" ed="#P" n="7"/>nem, usuram, vel vindictam de inimico 
+          pro<lb break="no" ed="#P" n="8"/>pria auctoritate , de quibus secundum 
+          doctri<lb break="no" ed="#P" n="9"/>nam catholicam certum est esse de jure 
+          natu<lb break="no" ed="#P" n="10"/>rali : et similiter in praeceptis affirmativis,
+          <lb ed="#P" n="11"/>servare votum, vel promissionem, dare 
+          elee<lb break="no" ed="#P" n="12"/>mosynam ex superfluo, honorare parentes,
+          <lb ed="#P" n="13"/>naturalia praecepta sunt non solum secundum
+          <lb ed="#P" n="14"/>fidem, sed etiam secundum philosophos, et
+          <lb ed="#P" n="15"/>omnes recte sentientes; et tamen non sine
+          <lb ed="#P" n="16"/>discursu, et interdum multa ratiocinatione
+          <lb ed="#P" n="17"/>concluduntur. Secundo, argumentor ratione,
+          <lb ed="#P" n="18"/>quia omnia illa quae in illis membris 
+          compre<lb break="no" ed="#P" n="19"/>henduntur, praecipiuntur quia honesta sunt,
+          <lb ed="#P" n="20"/>vel prohibentur quia mala sunt, et non e 
+          con<lb break="no" ed="#P" n="21"/>verso ; ergo illa non pertinent ad legem 
+          posi<lb break="no" ed="#P" n="22"/>tivam ; ergo ad natralem : non enim est
+          <lb ed="#P" n="23"/>aliud membrum legis, ut supra notavi. Prima
+          <lb ed="#P" n="24"/>consequentia patet, quia illa est proprie lex
+          <lb ed="#P" n="25"/>positiva quae addit necessitatem, praeter id quod
+          <lb ed="#P" n="26"/>postulat intrinseca natura materiae : nam (ut
+          <lb ed="#P" n="27"/>dixit Aristoteles) lex positiva est de his rebus
+          <lb ed="#P" n="28"/>quae non referunt , priusquam lex ponatur.
+          <lb ed="#P" n="29"/>Antecedens autem patet, quia veritas 
+          princi<lb break="no" ed="#P" n="30"/>pii non potest stare sine veritate conclusionis,
+          <lb ed="#P" n="31"/>quando illa necessario elicitur, et ideo si 
+          con<lb break="no" ed="#P" n="32"/>clusio, pertinens ad honestatem , necessario
+          <lb ed="#P" n="33"/>sequitur ex principiis naturae, per se, et ab 
+          in<lb break="no" ed="#P" n="34"/>trinseco, habet honestatem, etiam seclusa lege
+          <lb ed="#P" n="35"/>extrinseca : ergo si adhibetur lex, ideo est,
+          <lb ed="#P" n="36"/>quia illud objectum necessariam habet 
+          hones<lb break="no" ed="#P" n="37"/>tatem, et idem est e contrario de malitia, et
+          <lb ed="#P" n="38"/>prohibitione.
+        </p>
+        <p xml:id="szdleg-a28728-d1e533">
+          <lb ed="#P" n="39"/>7. Tertio, de primis generalibus principiis
+          <lb ed="#P" n="40"/>nemo dubitat : ergo nec de particularibus 
+          du<lb break="no" ed="#P" n="41"/>bitari potest , quia etiam illa per se et ex vi
+          <lb ed="#P" n="42"/>terminorum habent convenientiam cum 
+          na<lb break="no" ed="#P" n="43"/>tura rationali, ut talis est ; ergo nec de 
+          con<lb break="no" ed="#P" n="44"/>clusionibus ex his principiis evidenter elicitis
+          <lb ed="#P" n="45"/>dubitandum est, quia veritas principii in 
+          con<lb break="no" ed="#P" n="46"/>clusione continetur, et qui unum praecipit, vel
+          <lb ed="#P" n="47"/>prohibet, necessario prohibet id quod in illo
+          <lb ed="#P" n="48"/>continetur, vel sine quo subsistere non potest.
+          <lb ed="#P" n="49"/>Imo si proprie loquamur, magis exercetur lex
+          <lb ed="#P" n="50"/>naturalis in his principiis, vel conclusionibus
+          <lb ed="#P" n="51"/>proximis, quam in illis principiis 
+          universali<lb break="no" ed="#P" n="52"/>bus, quia lex est proxima regula operationis :
+          <lb ed="#P" n="53"/>illa autem communia principia non sunt 
+          re<lb break="no" ed="#P" n="54"/>gula risi quatenus per particularia 
+          determi<lb break="no" ed="#P" n="55"/>nantur ad singulas species actuum, seu virtu-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tum. Denique haec omnia praecepta necessitate
+          <lb ed="#P" n="57"/>quadam prodeunt a natura, et a Deo quatenus
+          <lb ed="#P" n="58"/>auctor est naturae, et tendunt ad eumdem 
+          fi<lb break="no" ed="#P" n="59"/>nem, nimirum ad debitam conservationem et
+          <lb ed="#P" n="60"/>naturalem perfectionem, seu felicitatem 
+          hu<lb break="no" ed="#P" n="61"/>manae naturae ;-ergo omnia pertinent ad 
+          natu<lb break="no" ed="#P" n="62"/>rale jus.
+        </p>
+        <p xml:id="szdleg-a28728-d1e590">
+          <lb ed="#P" n="63"/>8. Addit vero Gratian. ad 1, in principio, jus
+          <lb ed="#P" n="64"/>naturale esse quod in lege et Evangelio 
+          conti<lb break="no" ed="#P" n="65"/>netur. Quod si verum est, non solum ea quae
+          <lb ed="#P" n="66"/>diximus, sed etiam quae vel per Moysem Deus
+          <lb ed="#P" n="67"/>praecepit , vel Christus jussit in lege nova,
+          <lb ed="#P" n="68"/>ad jus naturale pertinebunt : nam haec
+          <lb ed="#P" n="69"/>sunt quae in Evangelo, et lege continentur.
+          <lb ed="#P" n="70"/>Ad quod tacite respondens Glossa ibi dicit jus
+          <lb ed="#P" n="71"/>naturale ibi vocari a Gratiano jus divinum, 
+          in<lb break="no" ed="#P" n="72"/>dicans comprehendere non solum jus divinum
+          <lb ed="#P" n="73"/>naturale, sed etiam positivum, et hoc 
+          sequun<lb break="no" ed="#P" n="74"/>tur aliqui juristae. Imo divus Thomas, in 4
+          <lb ed="#P" n="75"/>distinctione 33, q. 1, art. 1, ad 4, inquit 
+          ali<lb break="no" ed="#P" n="76"/>quando dici naturale, non solum id quod est a
+          <lb ed="#P" n="77"/>priacipio intrinseco, sed etium quod est ex 
+          in<lb break="no" ed="#P" n="78"/>fusione et impressione superioris agentis, 
+          scili<lb break="no" ed="#P" n="79"/>ctt, DET ; et sic accipi ab Isidoro, cum dicit
+          <lb ed="#P" n="80"/>Jus naturale esse, quod in lege el Evangelio 
+          con<lb break="no" ed="#P" n="81"/>Linetur : nam licet illa verba non sint Isidori,
+          <lb ed="#P" n="82"/>sed Gratiani, videntur fundata in Isidoro 
+          ibi<lb break="no" ed="#P" n="83"/>dem relato in cap. 1 ex lib. 5 Etym., cap. 2,
+          <lb ed="#P" n="84"/>dicente: Omnes leges divince sunt, aut 
+          hunanee<lb break="no" ed="#P" n="85"/>divime natura , humane moribus constant.
+          <lb ed="#P" n="86"/>Sed nihilominus hic sensus non videtur ab his
+          <lb ed="#P" n="87"/>Patribus intentus, tum quia satis explicant de
+          <lb ed="#P" n="88"/>quo jure naturali loquantur, scilicet, de eo
+          <lb ed="#P" n="89"/>quod est commune omnibus nationibus , eo
+          <lb ed="#P" n="90"/>quod instinctu naturae, non constitutione 
+          ali<lb break="no" ed="#P" n="91"/>qua habeatur , et ita illud distinguunt a jure
+          <lb ed="#P" n="92"/>civih : unde aperte loquuntur de jure, seu 
+          le<lb break="no" ed="#P" n="93"/>gibus, quibus homines ex vi suae institutionis
+          <lb ed="#P" n="94"/>mere naturalis, vel ex naturalibus constitutae,
+          <lb ed="#P" n="95"/>gubernati sunt a principio: non ergo 
+          compre<lb break="no" ed="#P" n="96"/>hendunt jus divinum supernaturale, seu 
+          posi<lb break="no" ed="#P" n="97"/>tivum : nec est verisimile quod caeremonias
+          <lb ed="#P" n="98"/>omnes legis veteris, et sacramentorum 
+          prae<lb break="no" ed="#P" n="99"/>cepta sub appellatione legis naturalis 
+          compre<lb break="no" ed="#P" n="100"/>henderint.
+        </p>
+        <p xml:id="szdleg-a28728-d1e676">
+          <lb ed="#P" n="101"/>9. Dictum Gratiani emplicatur. — Dico ergo
+          <lb ed="#P" n="102"/>Gratianum non dicere jus naturale complecti
+          <lb ed="#P" n="103"/>omnia quae in lege et Evangelio continentur,
+          <lb ed="#P" n="104"/>neque illo modo describere seu definire jus
+          <lb ed="#P" n="105"/>naturale, sed affirmare solum hoc jus naturale
+          <lb ed="#P" n="106"/>contineri in lege, utique quoad praecepta 
+          mo<lb break="no" ed="#P" n="107"/>ralia ejus, et praecepta duarum tabularum, et
+          <lb ed="#P" n="108"/>illud etiam contineri in Evangelio, vel 
+          quate<lb break="no" ed="#P" n="109"/>nus expresse in eo confirmantur et 
+          explican<lb break="no" ed="#P" n="110"/>tur praecepta Decalogi, Matth. 5, vel quatenus
+          <pb ed="#P" n="115"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>virtute totum jus naturale continetur in illo
+          <lb ed="#P" n="2"/>principio, quod habetur Matth. 1: Quaecumque
+          <lb ed="#P" n="3"/>vultis ut faciant volis homines, et vos facite
+          <lb ed="#P" n="4"/>illis, et hoc ultimum fuisse videtur a Gratiano
+          <lb ed="#P" n="5"/>maxime intentum : unde sic est ejus littera
+          <lb ed="#P" n="6"/>conjungenda : Jus naturale est, quo quisque
+          <lb ed="#P" n="7"/>jubetur alii facere quod sibi vult fieri, quod in
+          <lb ed="#P" n="8"/>lege et in Evangelio continetur . unde Christus
+          <lb ed="#P" n="9"/>in Evangelio dixit, etc.; et ita fere exposuit
+          <lb ed="#P" n="10"/>divus Thomas 1. 2, q. 94, art. 4, ad 1, et
+          <lb ed="#P" n="11"/>Turrecrem. ibi, art. 3, ad 4, licet non 
+          constan<lb break="no" ed="#P" n="12"/>ter loquatur , nunc unam nunc alteram 
+          res<lb break="no" ed="#P" n="13"/>ponsionem admittendo, et prius improbando
+          <lb ed="#P" n="14"/>Glossam, et postea probando responsionem D.
+          <lb ed="#P" n="15"/>Thomae in 4, quam postea sine dubio 
+          retracta<lb break="no" ed="#P" n="16"/>vit. Supererat vero hic explicandum, an 
+          om<lb break="no" ed="#P" n="17"/>nes conclusiones quae ex principiis juris 
+          natu<lb break="no" ed="#P" n="18"/>ralis evidenter eliciuntur , sint simpliciter de
+          <lb ed="#P" n="19"/>jure naturali, et quae connexio, quamve 
+          ne<lb break="no" ed="#P" n="20"/>cessaria , seu evidens ad hoc necessaria sit:
+          <lb ed="#P" n="21"/>hoc vero partim respondendo ad argumenta,
+          <lb ed="#P" n="22"/>partim in sequentibus capitibus deciarando
+          <lb ed="#P" n="23"/>immutabilitatem legis naturalis, commodius
+          <lb ed="#P" n="24"/>expedietur.
+        </p>
+        <p xml:id="szdleg-a28728-d1e757">
+          <lb ed="#P" n="25"/>10. Ad fundamenta contrariae sententiae 
+          im<lb break="no" ed="#P" n="26"/>primis nego D. Thomam in contraria fuisse
+          <lb ed="#P" n="27"/>sententia, quod satis ex dictis manifestum est,
+          <lb ed="#P" n="28"/>nec etiam Soto aliter sensit, ut ipse copiosius
+          <lb ed="#P" n="29"/>declaravit lib. 3 de Justit., q. 2, art. 3. De
+          <lb ed="#P" n="30"/>opinione vero juristarum dicam in capite 
+          se<lb break="no" ed="#P" n="31"/>quenti. Ad primam vero rationem respondeo,
+          <lb ed="#P" n="32"/>quidquid est ex necessario dictamine rationis
+          <lb ed="#P" n="33"/>naturalis consequi ex necessitate ad naturam,
+          <lb ed="#P" n="34"/>et esse ex naturali inclinatione, sive 
+          immedia<lb break="no" ed="#P" n="35"/>te, sive mediate et per discursum tale 
+          dicta<lb break="no" ed="#P" n="36"/>men formetur. Quia non solum immediata
+          <lb ed="#P" n="37"/>passio, sed etiam mediata fluit a natura , nec
+          <lb ed="#P" n="38"/>solum principium internum motus, sed etiam
+          <lb ed="#P" n="39"/>motus ipse et terminus ejus naturalis est, ad
+          <lb ed="#P" n="40"/>rem moralem seu obligationem parum refert
+          <lb ed="#P" n="41"/>quod interveniat vel non interveniat discursus,
+          <lb ed="#P" n="42"/>si obligatio ipsa et cum objecto et cum 
+          na<lb break="no" ed="#P" n="43"/>tura habet intrinsecam connexionem. Ad 
+          se<lb break="no" ed="#P" n="44"/>cundam rationem, ostendam infra legem 
+          na<lb break="no" ed="#P" n="45"/>turalem non esse proprie mutabilem , 
+          quam<lb break="no" ed="#P" n="46"/>vis quaedam praecepta ejus possint habere
+          <lb ed="#P" n="47"/>materiam magis vel minus mutabilem, quod
+          <lb ed="#P" n="48"/>non variat rationem formalem legis.
+        </p>
+        <p xml:id="szdleg-a28728-d1e812">
+          <lb ed="#P" n="49"/>11. An omnes actus virtutum cadant sub
+          <lb ed="#P" n="50"/>naturalem legem.—In tertio argumento 
+          postu<lb break="no" ed="#P" n="51"/>latur specialis difficultas, an omnes actus 
+          vir<lb break="no" ed="#P" n="52"/>tutum pertineant ad naturalem legem, quam
+          <lb ed="#P" n="53"/>tractat divus Thomas dicta q. 92, artic. 3, et
+          <lb ed="#P" n="54"/>q. 100, art. 2. Et in hoc loco respondet 
+          affir<lb break="no" ed="#P" n="55"/>mando : explicat autem sub jure naturali se
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>comprehendere non tantum praecepta, sed
+          <lb ed="#P" n="57"/>etiam consilia. Nos autem proprie de praeceptis
+          <lb ed="#P" n="58"/>quaerimus. Posset igitur hoc facile expediri
+          <lb ed="#P" n="59"/>eodem modo quo diximus in lege aeterna : 
+          ni<lb break="no" ed="#P" n="60"/>mirum , omnes actus virtutum quoad 
+          specifi<lb break="no" ed="#P" n="61"/>cationem, seu modum quo fieri debent, cadere
+          <lb ed="#P" n="62"/>sub naturalem legem, licet non omnes 
+          simpli<lb break="no" ed="#P" n="63"/>citer, seu quoad exercitium praecipiantur. 
+          Ali<lb break="no" ed="#P" n="64"/>ter vero idem divus Thomas in priori loco sub
+          <lb ed="#P" n="65"/>distinctione respondet actus virtutum 
+          duplici<lb break="no" ed="#P" n="66"/>ter considerari posse, scilicet, vel secundum
+          <lb ed="#P" n="67"/>rationem virtutis, id est, ut studiosi sunt, vel
+          <lb ed="#P" n="68"/>absolute, ut sunt tales actus: et priori modo
+          <lb ed="#P" n="69"/>affirmat omnes actus virtutum cadere sub 
+          le<lb break="no" ed="#P" n="70"/>gem naturae : posteriori autem modo negat.
+          <lb ed="#P" n="71"/>Quae distinctio dupliciter exponi potest : primo
+          <lb ed="#P" n="72"/>ut sensus sit, omnis virtutis actum secundum
+          <lb ed="#P" n="73"/>specificam rationem spectatum posse cadere.
+          <lb ed="#P" n="74"/>sub praeceptum naturale praecipiens non 
+          tan<lb break="no" ed="#P" n="75"/>ium modum, sed etiam exercitium actus (ita
+          <lb ed="#P" n="76"/>enim in rigore loquimur de praeceptis); si 
+          au<lb break="no" ed="#P" n="77"/>tem considerentur in individuo omnes actus
+          <lb ed="#P" n="78"/>cujuscumque virtutis, sic non omnes actus
+          <lb ed="#P" n="79"/>virtutum esse in praecepto naturali. Quae 
+          pos<lb break="no" ed="#P" n="80"/>terior pars clara est, tum de actibus 
+          consilio<lb break="no" ed="#P" n="81"/>rum, tum de multis actibus bonis, qui licet
+          <lb ed="#P" n="82"/>non sint optimi, et ideo non sint in consilio,
+          <lb ed="#P" n="83"/>nec etiam sint necessarii, et ideo non sint in
+          <lb ed="#P" n="84"/>praecepto , nihilominus sunt honesti, et licite
+          <lb ed="#P" n="85"/>fieri possunt, ut actus matrimonii, etc.
+        </p>
+        <p xml:id="szdleg-a28728-d1e897">
+          <lb ed="#P" n="86"/>12. An in omni virtute sit naturate 
+          praecep<lb break="no" ed="#P" n="87"/>tum obligans aliquando ad illius emercitium.—
+          <lb ed="#P" n="88"/>Ex priori vero parte oritur difficultas, an in
+          <lb ed="#P" n="89"/>omni virtute sit naturale praeceptum obligans
+          <lb ed="#P" n="90"/>aliquando ad exercitium illius virtutis: nam
+          <lb ed="#P" n="91"/>regulariter esse, satis per se manifestum est.
+          <lb ed="#P" n="92"/>In aliquibus autem virtutibus non ita videtur,
+          <lb ed="#P" n="93"/>ut in libertate, quae ex se videtur excludere
+          <lb ed="#P" n="94"/>debitum, et in eutrapelia, quae videtur etiam
+          <lb ed="#P" n="95"/>maxime voluntaria. Verumtamen exacta 
+          trac<lb break="no" ed="#P" n="96"/>tatio hujus difficultatis postulat cognitionem
+          <lb ed="#P" n="97"/>omnium virtutum, ideoque breviter assero, si
+          <lb ed="#P" n="98"/>praeceptum rigorose sumatur, prout obligat ad
+          <lb ed="#P" n="99"/>mortale, non habere locum in omni materia
+          <lb ed="#P" n="100"/>virtutis, sed in gravioribus virtutibus, quod
+          <lb ed="#P" n="101"/>probat ratio facta. Et de veritate multi 
+          sen<lb break="no" ed="#P" n="102"/>tiunt nunquam obligare ex genere suo ad
+          <lb ed="#P" n="103"/>mortale, quia nisi illi adjungatur obligatio
+          <lb ed="#P" n="104"/>justitiae, vel alterius similis virtutis intra suos
+          <lb ed="#P" n="105"/>limites, non obligat ad mortale. At vero si
+          <lb ed="#P" n="106"/>latius loquamur de obligatione etiam ad 
+          ve<lb break="no" ed="#P" n="107"/>niale, sic probabile est nullam esse virtutem,
+          <lb ed="#P" n="108"/>quae aliquando non possit obligare ad suum
+          <lb ed="#P" n="109"/>usum. Quia cum ex omnibus virtutibus simul
+          <lb ed="#P" n="110"/>sumptis resultet integra rectitudo hominis, et
+          <pb ed="#P" n="116"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>debitus operandi modus, tam respectu sui
+          <lb ed="#P" n="2"/>quam in ordine ad alios, verisimile est omnes
+          <lb ed="#P" n="3"/>virtutes habere suas opportunitates, in quibus
+          <lb ed="#P" n="4"/>exercendae sunt ex propria obligatione, quam
+          <lb ed="#P" n="5"/>nec liberalitas, nec quaelibet alia virtus 
+          exclu<lb break="no" ed="#P" n="6"/>dit.
+        </p>
+        <p xml:id="szdleg-a28728-d1e971">
+          <lb ed="#P" n="7"/>13. Alius sensus illius distinctionis esse 
+          po<lb break="no" ed="#P" n="8"/>test, actum virtutis posse considerari vel 
+          ma<lb break="no" ed="#P" n="9"/>terialiter, ut est, verbi gratia, comedere, vel
+          <lb ed="#P" n="10"/>abstinere ; vel formaliter, ut in tali actu 
+          con<lb break="no" ed="#P" n="11"/>sideratur medium. D. Thomas ergo hoc 
+          poste<lb break="no" ed="#P" n="12"/>riori modo loquitur de his actibus cum dicit
+          <lb ed="#P" n="13"/>cadere sub legem naturae: nam haec respicit
+          <lb ed="#P" n="14"/>honestatem. In quo etiam est considerandum,
+          <lb ed="#P" n="15"/>duobus modis contingere in aliquo actu esse
+          <lb ed="#P" n="16"/>medium virtutis: uno modo ex re ipsa, quia
+          <lb ed="#P" n="17"/>comparando talem materiam ad talem 
+          perso<lb break="no" ed="#P" n="18"/>nam cum talibus circümstantiis, in ea 
+          inveni<lb break="no" ed="#P" n="19"/>tur medium virtutis ex sola ratione, et 
+          dis<lb break="no" ed="#P" n="20"/>cursu naturali : et tunc clarum est naturalem
+          <lb ed="#P" n="21"/>legem ibi obligare. Alio vero modo contingit
+          <lb ed="#P" n="22"/>medium virtutis constitui in aliqua materia ex
+          <lb ed="#P" n="23"/>sola lege positiva, ut in jejunio, vel in justo rei
+          <lb ed="#P" n="24"/>pretio, et tunc diflicultas est an ibi habeat 
+          lo<lb break="no" ed="#P" n="25"/>cum lex naturae : nam D. Thomas indifferenter
+          <lb ed="#P" n="26"/>et generaliter loqui videtur, et ita etiam 
+          vide<lb break="no" ed="#P" n="27"/>tur a Cajetano et aliis intelligi. In contrarium
+          <lb ed="#P" n="28"/>vero est, quia hoc modo, vel tollitur obligatio
+          <lb ed="#P" n="29"/>legis positivae, vel multiplicantur circa idem
+          <lb ed="#P" n="30"/>obligationes. Sed hoc dicam commodius 
+          expli<lb break="no" ed="#P" n="31"/>cando effectus legis naturalis. Nunc solum 
+          as<lb break="no" ed="#P" n="32"/>sero intervenire quidem ibi legem naturalem,
+          <lb ed="#P" n="33"/>non tam ut per se obligantem, quam ut 
+          dan<lb break="no" ed="#P" n="34"/>tem efficaciam legi positivae.
+        </p>
+        <p xml:id="szdleg-a28728-d1e1034">
+          <lb ed="#P" n="35"/>14. Quartum argumentum postulabat 
+          gra<lb break="no" ed="#P" n="36"/>vem difficultatem de distinctione inter jus 
+          na<lb break="no" ed="#P" n="37"/>turale et jus gentium, quae declarari non 
+          po<lb break="no" ed="#P" n="38"/>test non declarato utroque extremo, et ideo
+          <lb ed="#P" n="39"/>reservamus illam in ultimam partem hujus
+          <lb ed="#P" n="40"/>libri, ubi post consummatam tractationem de
+          <lb ed="#P" n="41"/>jure naturali secundum se, aliquid dicemus de
+          <lb ed="#P" n="42"/>jure gentium, et tunc commodius dicetur 
+          quo<lb break="no" ed="#P" n="43"/>modo inter se distinguantur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

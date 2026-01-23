@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="85"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a21842"><!-- deleg-l2c1 -->
+        <head xml:id="szdleg-a21842-Hd1e101">Caput 1</head>
+        <head xml:id="szdleg-a21842-Hd1e103" type="question-title">Utrum sit aliqua lex aeterna, et qui sit eius necessitas</head>
+        <p xml:id="szdleg-a21842-d1e106">
+          <lb ed="#P" n="48"/>CAPUT I.
+          <lb ed="#P" n="49"/>UTRUM SIT ALIQUA LEX AETERNA, ET QUI SIT
+          <lb ed="#P" n="50"/>EJUS NECESSITAS.
+        </p>
+        <p xml:id="szdleg-a21842-d1e115">
+          <lb ed="#P" n="51"/>1. Primum argumentum. — Secundum. —
+          <lb ed="#P" n="52"/>Tertium. — Quartum. — Ratio dubitandi est,
+          <lb ed="#P" n="53"/>quia lex necessario requirit aliquem cui possit
+          <lb ed="#P" n="54"/>imponi ; sed ab aeterno non fuit aliquis capax
+          <lb ed="#P" n="55"/>legis : ergo nec lex aliqua aeterna esse potuit.
+          <lb ed="#P" n="56"/>Major patet, quia lex est actus imperii ; 
+          repu<lb break="no" ed="#P" n="57"/>gnat autem esse imperium, nisi sit aliquis cui
+          <lb ed="#P" n="58"/>imperetur. Minor etiam probatur, quia ab
+          <lb ed="#P" n="59"/>eeterno solum fuit Deus, cui lex imponi non 
+          po<lb break="no" ed="#P" n="60"/>test, sicut nec imperium. Secundo, quia hac
+          <lb ed="#P" n="61"/>ratione ab aeterno non fuit dominium, nec
+          <lb ed="#P" n="62"/>jurisdictio, nec gubernatio, quia non erant
+          <lb ed="#P" n="63"/>quibus dominaretur Deus, vel quos 
+          gu<lb break="no" ed="#P" n="64"/>bernaret : sed lex est actus gubernationis
+          <lb ed="#P" n="65"/>et dominii, seu jurisdictionis : ergo eadem
+          <lb ed="#P" n="66"/>ratione potuit esse aeterna. Tertio : de 
+          ra<lb break="no" ed="#P" n="67"/>tione legis est promulgatio, ut diximus; sed
+          <lb ed="#P" n="68"/>ab aeterno non potuit esse promulgatio ,
+          <lb ed="#P" n="69"/>quia non erat cui promulgaretur, neque
+          <lb ed="#P" n="70"/>intra Deum solum potuit promulgari : ergo.
+          <lb ed="#P" n="71"/>Quarto , si esset aliqua lex aeterna , esset
+          <lb ed="#P" n="72"/>simpliciter et absolute necessaria et 
+          immnta<lb break="no" ed="#P" n="73"/>bilis, quia nihil est aeternum, nisi quod 
+          sim<lb break="no" ed="#P" n="74"/>pliciter necessarium est : sed nulla lex est per
+          <lb ed="#P" n="75"/>se et absolute necessaria , ut supra dictum est:
+          <lb ed="#P" n="76"/>ergo nulla est lex aeterna.
+        </p>
+        <p xml:id="szdleg-a21842-d1e174">
+          <lb ed="#P" n="77"/>2. Dari legem cternam communis 
+          theolo<lb break="no" ed="#P" n="78"/>gorum sententia est. — Nihilominus communis
+          <lb ed="#P" n="79"/>sententia theologorum est, dari in Deo legem
+          <lb ed="#P" n="80"/>quamdam aeternam. Ita docet D. Thomas 1. 2,
+          <lb ed="#P" n="81"/>q. 91, art. 1, et 93 per totam; et ibi Cajetanus,
+          <lb ed="#P" n="82"/>Soto et alii; Vincentius Belluacus in Specul.
+          <pb ed="#P" n="86"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>morali. part. 2,. dist. 1; Alensis, 3 part., q.
+          <lb ed="#P" n="2"/>26. m. 1; Antoninus, 1 part., tit. 11, cap. 1,
+          <lb ed="#P" n="3"/>S 4. et tit. 12, a princip.; Turrecr. in cap.
+          <lb ed="#P" n="4"/>Omnes leges, d. 1, et sumitur ex Augustino,
+          <lb ed="#P" n="5"/>lib. de vera Religion., cap. 3, et lib. 1 de lib.
+          <lb ed="#P" n="6"/>Arbit., cap. 5 et 6, et lib. 22 contra Faust.,
+          <lb ed="#P" n="7"/>cap. 27. Quin etiam Cicero, lib. 1 et 2 de
+          <lb ed="#P" n="8"/>Leg.. hanc legem maxime praedicat, et a 
+          sa<lb break="no" ed="#P" n="9"/>pientissimis philosophis cognitam fuisse his
+          <lb ed="#P" n="10"/>verbis confirmat : Hanc video 
+          sapientissimo<lb break="no" ed="#P" n="11"/>rwn fuisse sententiam, legem neque hominum
+          <lb ed="#P" n="12"/>ingeniis eacogitatam, neque scitum aliquod esse
+          <lb ed="#P" n="13"/>populorum, sed etermim quiddam, quod 
+          univer<lb break="no" ed="#P" n="14"/>sim mundum vegeret, imperandi prohibendique
+          <lb ed="#P" n="15"/>sapientia. Tta principem legem illam, et 
+          ulti<lb break="no" ed="#P" n="16"/>man mentem esse dicebant omnia ratione, aut
+          <lb ed="#P" n="17"/>cogentis, aut vetrantis Dei. Plato etiam in 
+          Ti<lb break="no" ed="#P" n="18"/>mzaeo quatuor leges distinguens, primam vocat
+          <lb ed="#P" n="19"/>divinam, per quam plane hanc aeternam 
+          intel<lb break="no" ed="#P" n="20"/>ligit, per quam mundum Deus gubernat, ut
+          <lb ed="#P" n="21"/>idem tradit dialogo 10 de Legibus.
+        </p>
+        <p xml:id="szdleg-a21842-d1e240">
+          <lb ed="#P" n="22"/>3. Probat autem D. Thomas hanc veritatem,
+          <lb ed="#P" n="23"/>quia necesse est in Deo ipso esse aliquam 
+          le<lb break="no" ed="#P" n="24"/>gem, et haec non potest esse nisi aeterna : ergo
+          <lb ed="#P" n="25"/>necesse est esse in mundo aliquam legem 
+          aeter<lb break="no" ed="#P" n="26"/>nam. Minor supponitur quia Deus est 
+          immu<lb break="no" ed="#P" n="27"/>tabilis, et nihil potest illi advenire de novo.
+          <lb ed="#P" n="28"/>Major autem patet, quia cum Deus habeat 
+          pro<lb break="no" ed="#P" n="29"/>videntiam, in eo necessario supponitur aeterna
+          <lb ed="#P" n="30"/>quaedam ratio practica totius dispositionis et
+          <lb ed="#P" n="31"/>gubernationis universi, juxta illud Boetii, 3
+          <lb ed="#P" n="32"/>de Consolat. :
+          <lb ed="#P" n="33"/>O qui perpetua mundum ratione gubernas:
+          <lb ed="#P" n="34"/>ergo illa ratio Dei aeterna habet veram 
+          ratio<lb break="no" ed="#P" n="35"/>nem legis, quia, ut dixit Isidorus 2 Etymol.,
+          <lb ed="#P" n="36"/>c. de Lege: Si ratione leaw constat, lea erit omne
+          <lb ed="#P" n="37"/>quod ratione constiterit. Confirmari potest ex
+          <lb ed="#P" n="38"/>Augustino, quia omnis lex humana muktabilis
+          <lb ed="#P" n="39"/>est, et defectum ac errorem pati potest : ergo
+          <lb ed="#P" n="40"/>supponit necessario aliquam legem 
+          immutabi<lb break="no" ed="#P" n="41"/>lem, per quam stabiliatur et quasi 
+          mensure<lb break="no" ed="#P" n="42"/>tur, ut per conformitatem ad illam recte fiat,
+          <lb ed="#P" n="43"/>quae non est nisi lex aeterna. Denique omnis
+          <lb ed="#P" n="44"/>lex participata supponit legem per essentiam:
+          <lb ed="#P" n="45"/>sed lex per essentiam aeterna est: ergo.
+        </p>
+        <p xml:id="szdleg-a21842-d1e295">
+          <lb ed="#P" n="46"/>4. Objectio. — Dicet vero aliquis his 
+          discur<lb break="no" ed="#P" n="47"/>sibus solum probari esse in Deo rationem 
+          aeter<lb break="no" ed="#P" n="48"/>nam agendorum, quam providentiam 
+          voca<lb break="no" ed="#P" n="49"/>mus: non tamen probari illam fuisse ab 
+          aeter<lb break="no" ed="#P" n="50"/>no proprie legem. Quia providentia dicit
+          <lb ed="#P" n="51"/>respectum aeternum : lex autem temporalem,
+          <lb ed="#P" n="52"/>ut argumenta in principio facta ostendere 
+          vi<lb break="no" ed="#P" n="53"/>dentur. Unde illa aeterna ratio ad summum
+          <lb ed="#P" n="54"/>dici poterit lex quasi materialiter, et quoad
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="55"/>actum illum voluntatis, vel intellectus divini,
+          <lb ed="#P" n="56"/>qui est lex; non vero formaliter quoad 
+          pro<lb break="no" ed="#P" n="57"/>priam denominationem legis, et conditiones
+          <lb ed="#P" n="58"/>omnes ad legem requisitas. Sicut creatio 
+          acti<lb break="no" ed="#P" n="59"/>va potest dici aeterna materialiter quoad 
+          ac<lb break="no" ed="#P" n="60"/>tum Dei, non vero formaliter et simpliciter, ut
+          <lb ed="#P" n="61"/>creatio est : idemque est de potestate 
+          dominan<lb break="no" ed="#P" n="62"/>di, et similibus. At vero D. Thomas, d. q. 91,
+          <lb ed="#P" n="63"/>art. primo ad prim., sustinet illam legem
+          <lb ed="#P" n="64"/>etiam formaliter et sub ratione legis esse 
+          aeter<lb break="no" ed="#P" n="65"/>nam, quia ipse conceptus etermus divinae legis
+          <lb ed="#P" n="66"/>habet rationem legis eeterne, secundwm quod a
+          <lb ed="#P" n="67"/>Doo ordinatur ad gubernationem rerum ab ipso
+          <lb ed="#P" n="68"/>praecognitarum. Sed licet D. Thomas recte 
+          di<lb break="no" ed="#P" n="69"/>cat rationem rerum faciendarum in Deo esse
+          <lb ed="#P" n="70"/>eeternam, et habere rationem idea, non 
+          ta<lb break="no" ed="#P" n="71"/>men declarat quomodo etiam ab aeterno 
+          ha<lb break="no" ed="#P" n="72"/>beat rationem legis, nec in quo differat sub
+          <lb ed="#P" n="73"/>ratione ideae, nec difficultatibus positis videtur
+          <lb ed="#P" n="74"/>plane satisfacere.
+        </p>
+        <p xml:id="szdleg-a21842-d1e363">
+          <lb ed="#P" n="75"/>5. Duplex status legis. — Solutio ad 
+          objec<lb break="no" ed="#P" n="76"/>tionem. — Ut ergo non sit tantum de nomine
+          <lb ed="#P" n="77"/>quaestio, videndum superest, quid in re 
+          cla<lb break="no" ed="#P" n="78"/>rum sit, et quid possit esse in usu vocum, et
+          <lb ed="#P" n="79"/>quae ratio hujus locutionis simpliciter reddi
+          <lb ed="#P" n="80"/>possit. Distinguamus ergo in lege duplicem
+          <lb ed="#P" n="81"/>statum, unus est quem habet in interna 
+          dis<lb break="no" ed="#P" n="82"/>positione legislatoris, quatenus in mente ejus
+          <lb ed="#P" n="83"/>jam illa lex descripta est, et ejus absoluto 
+          de<lb break="no" ed="#P" n="84"/>creto ac firma voluntate stabilita. Alius status
+          <lb ed="#P" n="85"/>est quem habet lex exterius constituta, et
+          <lb ed="#P" n="86"/>subditis proposita. Priori modo manifestum
+          <lb ed="#P" n="87"/>est dari in Deo legem aeternam, et hoc probant
+          <lb ed="#P" n="88"/>rationes pro vera sententia adductae. 
+          Posterio<lb break="no" ed="#P" n="89"/>ri autem modo aeque certum est non habuisse
+          <lb ed="#P" n="90"/>legem Dei hunc secundum statum ad aeterno; et
+          <lb ed="#P" n="91"/>hoc probant rationes dubitandi in principio
+          <lb ed="#P" n="92"/>positae, ut ex earum responsione amplius 
+          pa<lb break="no" ed="#P" n="93"/>tebit. Item lex priori modo sumpta est actus
+          <lb ed="#P" n="94"/>immanens, unde potest esse aeternus in Deo,
+          <lb ed="#P" n="95"/>etiamsi dicat respectum ad effectum 
+          tempo<lb break="no" ed="#P" n="96"/>ralem : sicut praedestinatio, vel providentia :
+          <lb ed="#P" n="97"/>lex autem posteriori modo includit actum
+          <lb ed="#P" n="98"/>transeuntem respectu Dei: nam, licet possit illa
+          <lb ed="#P" n="99"/>lex aeterna Dei, quatenus propria lex est, 
+          pro<lb break="no" ed="#P" n="100"/>poni subditis per actus immanentes eorum,
+          <lb ed="#P" n="101"/>tamen illimet actus sunt externi respectu
+          <lb ed="#P" n="102"/>Dei, et necessario sunt temporales, et ideo
+          <lb ed="#P" n="103"/>lex non potest esse aeterna quoad illum 
+          secun<lb break="no" ed="#P" n="104"/>dum statum. Quod si aliquis contendat de
+          <lb ed="#P" n="105"/>verbis, dicens legem in illo priori statu non
+          <lb ed="#P" n="106"/>esse legem, quia non est lata, sed ferenda,
+          <lb ed="#P" n="107"/>respondeo imprimis non esse de vocibus 
+          con<lb break="no" ed="#P" n="108"/>tendendum : nam ut ita simpliciter appelletur,
+          <lb ed="#P" n="109"/>sufficit usus Sanctorum et sapientum in tali
+          <pb ed="#P" n="87"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>materia. Deinde potest optima ratio illius 
+          ap<lb break="no" ed="#P" n="2"/>pellationis reddi, qua etiam ostendatur, illam
+          <lb ed="#P" n="3"/>legem in eo statu non esse tantum ferendam,
+          <lb ed="#P" n="4"/>sed ex aeternitate esse suo modo latam, ut 
+          res<lb break="no" ed="#P" n="5"/>pondendo ad argumenta constabit.
+        </p>
+        <p xml:id="szdleg-a21842-d1e457">
+          <lb ed="#P" n="6"/>6. Solutio ad primum. — Ad secundum. —
+          <lb ed="#P" n="7"/>Ad primum ergo respondetur, quod sicut 
+          di<lb break="no" ed="#P" n="8"/>vina voluntas aeterna est, ita et imperium:
+          <lb ed="#P" n="9"/>nam imperium quoad substantiam suam in
+          <lb ed="#P" n="10"/>ipsa voluntate consistit, ut dixi. Et si 
+          impe<lb break="no" ed="#P" n="11"/>rium vocetur ipsa ratio, vel judicium de 
+          agen<lb break="no" ed="#P" n="12"/>dis, etiam hoc fuit aeternum in mente Dei.
+          <lb ed="#P" n="13"/>Petitur autem in illo argumento, an lex illa
+          <lb ed="#P" n="14"/>aeterna sit aliquo modo respectu ipsiusmet Dei,
+          <lb ed="#P" n="15"/>id est, an sit aliquo modo mensura et regula
+          <lb ed="#P" n="16"/>actuum voluntatis divinae, de quo dicemus in
+          <lb ed="#P" n="17"/>capite sequenti. Ad secundum respondetur 
+          ac<lb break="no" ed="#P" n="18"/>tum dominandi et gubernandi esse actum
+          <lb ed="#P" n="19"/>transeuntem, et proprium dominium dicere
+          <lb ed="#P" n="20"/>relationem ad rem actu existentem, et ideo
+          <lb ed="#P" n="21"/>denominationes quae ab his actibus sumuntur,
+          <lb ed="#P" n="22"/>esse temporales. At vero lex, ut sic, non 
+          ne<lb break="no" ed="#P" n="23"/>cessario dicit actum transeuntem, praesertim
+          <lb ed="#P" n="24"/>respectu Dei, quia in illo primo statu, qui est
+          <lb ed="#P" n="25"/>veluti substantialis, sufficienter salvatur in 
+          ac<lb break="no" ed="#P" n="26"/>tu immanente, ut declaratum est.
+        </p>
+        <p xml:id="szdleg-a21842-d1e505">
+          <lb ed="#P" n="27"/>7. Ad tertium argumentum aliquorum 
+          res<lb break="no" ed="#P" n="28"/>ponsio. — Excluditur istorum opinatio.— 
+          Ter<lb break="no" ed="#P" n="29"/>tium argumentum varie solvitur : quidam
+          <lb ed="#P" n="30"/>dicunt legem illam aeternam non dici legem
+          <lb ed="#P" n="31"/>respectu creaturarum vel hominum, quia non
+          <lb ed="#P" n="32"/>est imperium illis impositum, sed esse respectu
+          <lb ed="#P" n="33"/>actuum Dei ad extra, quia est regula et 
+          men<lb break="no" ed="#P" n="34"/>sura omnium quae a Deo fiunt. Juxta quam
+          <lb ed="#P" n="35"/>expositionem lex illa non est lex morum (ut
+          <lb ed="#P" n="36"/>sic dicam), sed artificiorum : nam omnia quae
+          <lb ed="#P" n="37"/>a Deo fiunt comparantur ad illum, tanquam
+          <lb ed="#P" n="38"/>artefacta ad artificem : unde sicut idea artificis
+          <lb ed="#P" n="39"/>dici potest lex, quam ipse sibi praescribit, ut
+          <lb ed="#P" n="40"/>juxta illam artefacta producat, ita haec lex
+          <lb ed="#P" n="41"/>eeterna est, qua Deus ut supremus artifex 
+          om<lb break="no" ed="#P" n="42"/>nia condere statuit ex aeternitate. Quapropter
+          <lb ed="#P" n="43"/>cessat ratio de promulgatione : nam haec est
+          <lb ed="#P" n="44"/>necessaria in lege morum, non in lege 
+          artifi<lb break="no" ed="#P" n="45"/>ciorum : imo etiam cessant aliae rationes : nam
+          <lb ed="#P" n="46"/>haec non est lex quae imponitur subditis, nec
+          <lb ed="#P" n="47"/>pertinet ad gubernationem. Haec vero 
+          exposi<lb break="no" ed="#P" n="48"/>tio non placet, tum quia est contra mentem
+          <lb ed="#P" n="49"/>Augustini et theologorum, imo et Ciceronis et
+          <lb ed="#P" n="50"/>philosophorum : omnes enim aperte loquuntur
+          <lb ed="#P" n="51"/>de lege, quae est mensura actionum 
+          humana<lb break="no" ed="#P" n="52"/>rum, et exemplar omnium legum quae sunt
+          <lb ed="#P" n="53"/>in mentibus hominum, vel ab illis emanare
+          <lb ed="#P" n="54"/>possunt, sive plura includat illa lex aeterna,
+          <lb ed="#P" n="55"/>sive non, quod infra videbimus : tum etiam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quia illa appellatio valde metaphorica est, ct
+          <lb ed="#P" n="57"/>impertinens esset pro materia de legibus, 
+          ra<lb break="no" ed="#P" n="58"/>tione solius metaphoricae significationis, cum
+          <lb ed="#P" n="59"/>res ipsa quae sub illa metaphorica intenditur
+          <lb ed="#P" n="60"/>nihil aliud sit, nec alium respectum dicat,
+          <lb ed="#P" n="61"/>quam idearum, de quibus in 1 p. disputatur:
+          <lb ed="#P" n="62"/>tum quia sicut providentia dicit respectum ad
+          <lb ed="#P" n="63"/>res provisas, et nihilominus potest esse 
+          aeter<lb break="no" ed="#P" n="64"/>na, licet res provisae temporales sint, ita etiam
+          <lb ed="#P" n="65"/>lex potest dicere habitudinem ad subditos, et
+          <lb ed="#P" n="66"/>esse aeterna.
+        </p>
+        <p xml:id="szdleg-a21842-d1e596">
+          <lb ed="#P" n="67"/>8. Responsio Alensis ad argumentum. —
+          <lb ed="#P" n="68"/>Unde Alensis supra aliter respondet ex Isidoro,
+          <lb ed="#P" n="69"/>lib. 9 Etymol., legem uno modo dici a legendo,
+          <lb ed="#P" n="70"/>et alio a ligando, et priori modo legem Dei esse
+          <lb ed="#P" n="71"/>eeternam, quia in mente ejus legebatur: 
+          se<lb break="no" ed="#P" n="72"/>cundo autem modo non esse aeternam, et sub
+          <lb ed="#P" n="73"/>ea tantum ratione indigere promulgatione.
+          <lb ed="#P" n="74"/>Quod si instes, quia lex quae non ligat non
+          <lb ed="#P" n="75"/>meretur nomen legis, respondet in summa, ad
+          <lb ed="#P" n="76"/>rationem legis satis esse quod de se vim habeat
+          <lb ed="#P" n="77"/>ligandi, licet nondum actu liget, quia nondum
+          <lb ed="#P" n="78"/>est applicata. Quae doctrina fortasse est vera:
+          <lb ed="#P" n="79"/>non tamen per eam suffticienter solvi videtur
+          <lb ed="#P" n="80"/>argumentum de promulgatione , quia vel 
+          ne<lb break="no" ed="#P" n="81"/>gandum est promulgationem esse necessariam
+          <lb ed="#P" n="82"/>ad esse legis, sed tantum ad effectum legis,
+          <lb ed="#P" n="83"/>qui est ligare , quod videtur esse contra 
+          com<lb break="no" ed="#P" n="84"/>munem legis definitionem, vel certe non 
+          ex<lb break="no" ed="#P" n="85"/>plicatur quomodo illa lex sit vera lex sine 
+          pro<lb break="no" ed="#P" n="86"/>mulgatione. Quod vero ibi supponit Alensis de
+          <lb ed="#P" n="87"/>duplici etymologia legis , ego non reperio
+          <lb ed="#P" n="88"/>utramque in Isidoro, sed tantum illam quae est
+          <lb ed="#P" n="89"/>a legendo, et non in illa significatione 
+          meta<lb break="no" ed="#P" n="90"/>phorica, sed magis propria : sed parum refert
+          <lb ed="#P" n="91"/>unde vox sit sumpta , quia non sufficit quod
+          <lb ed="#P" n="92"/>etymologia legis possit alicui rei applicari, ut
+          <lb ed="#P" n="93"/>illa simpliciter dicatur lex.
+        </p>
+        <p xml:id="szdleg-a21842-d1e658">
+          <lb ed="#P" n="94"/>9. Tertia responsio es D. Thoma. — 
+          Ob<lb break="no" ed="#P" n="95"/>Jectio. — Tertio igitur D. Thomas, supra ad 2,
+          <lb ed="#P" n="96"/>conatur explicare quomodo in illa lege non
+          <lb ed="#P" n="97"/>defuerit aeterna promulgatio : nam 
+          promulga<lb break="no" ed="#P" n="98"/>tio, inquit, fit et verbo, et scripto, et utroque
+          <lb ed="#P" n="99"/>modo lex illa habuit promulgationem ex parte
+          <lb ed="#P" n="100"/>Dei promulgantis, quia et verbum Det est
+          <lb ed="#P" n="101"/>eeternum , et scriptura libri vitae est aeterna.
+          <lb ed="#P" n="102"/>Sed contra primum objiciuntur aliqui, quia
+          <lb ed="#P" n="103"/>productio verbi non est per se necessaria ad
+          <lb ed="#P" n="104"/>legem Dei, quia est personalis, non essentialis.
+          <lb ed="#P" n="105"/>et quia alias solus Pater promulgasset legem,
+          <lb ed="#P" n="106"/>et esset legislator. Contra secundum etiam 
+          ob<lb break="no" ed="#P" n="107"/>jicitur, quia parum refert scriptura in scientia
+          <lb ed="#P" n="108"/>Dei ad promulgationem, si illa non innotescit,
+          <lb ed="#P" n="109"/>nec potest innotescere subditis ; nam 
+          promul<lb break="no" ed="#P" n="110"/>gatio fieri debet his quibus lex imponitur ; at
+          <pb ed="#P" n="88"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>illa scriptura a nemine legi potuit ab aeterno,
+          <lb ed="#P" n="2"/>nec fuit ab aeterno aliquis cui illa lex 
+          promul<lb break="no" ed="#P" n="3"/>garetur. Nec satisfacit quod D. Thomas ad 1
+          <lb ed="#P" n="4"/>ait, fuisse tunc creaturas in praecognitione
+          <lb ed="#P" n="5"/>divina, quia promulgatio non fit creaturis 
+          ob<lb break="no" ed="#P" n="6"/>jective praecognitis , sed in se existentibus,
+          <lb ed="#P" n="7"/>alioqui etiam lex Moysi, et lex gratiae ab
+          <lb ed="#P" n="8"/>aeterno fuisset promulgata , et ita esset lex
+          <lb ed="#P" n="9"/>eeterna.
+        </p>
+        <p xml:id="szdleg-a21842-d1e721">
+          <lb ed="#P" n="10"/>10. Sed prima objectio parum obstat ; tum
+          <lb ed="#P" n="11"/>quia quod D. Thomas dicit de promulgatione
+          <lb ed="#P" n="12"/>in verbo, intelligi potest per appropriationem,
+          <lb ed="#P" n="13"/>non per proprietatem , sicut dicuntur ideae
+          <lb ed="#P" n="14"/>esse in verbo, et ita ipsemet Divus 
+          Tho<lb break="no" ed="#P" n="15"/>mas explicavit , qui consequenter sentit
+          <lb ed="#P" n="16"/>secundum proprietatem debere intelligi de
+          <lb ed="#P" n="17"/>verbo quoad conceptum essentialem : tum
+          <lb ed="#P" n="18"/>etiam quia non est de ratione legis, ut simul
+          <lb ed="#P" n="19"/>promulgetur verbo prolato et scripto , sed
+          <lb ed="#P" n="20"/>scriptum publice expositum suffticit : D. 
+          Tho<lb break="no" ed="#P" n="21"/>mas autem ad doctrina abundantiam et 
+          ele<lb break="no" ed="#P" n="22"/>gantiam voluit utrumque modum in Deo 
+          ex<lb break="no" ed="#P" n="23"/>plicare : unde non est inconveniens quod unus
+          <lb ed="#P" n="24"/>modus sit personalis, et alter essentialis. Nec
+          <lb ed="#P" n="25"/>inde sequitur solum Patrem esse legislatorem,
+          <lb ed="#P" n="26"/>vel promulgare , quia ad utrumque sufficit
+          <lb ed="#P" n="27"/>modus essentialis. Ad aliam objectionem tacite
+          <lb ed="#P" n="28"/>respondet D. Thomas , addens limitationem,
+          <lb ed="#P" n="29"/>quod illa lex habet promulgationem ez parte
+          <lb ed="#P" n="30"/>Dei, et subjungens: Sed ez parte creature 
+          au<lb break="no" ed="#P" n="31"/>dientis seu inspicientis non potest esse 
+          promul<lb break="no" ed="#P" n="32"/>gatio eterna. Unde quod dicit in solutione 1
+          <lb ed="#P" n="33"/>de creaturis praecognitis ex aeternitate, non est
+          <lb ed="#P" n="34"/>quia putet illam existentiam objectivam 
+          crea<lb break="no" ed="#P" n="35"/>turarum in aeternitate suflicere, ut ex parte
+          <lb ed="#P" n="36"/>illarum fiat aeterna promulgatio, sed ut 
+          decla<lb break="no" ed="#P" n="37"/>ret ex parte Dei potuisse tunc statui legem,
+          <lb ed="#P" n="38"/>per quam futurae creaturae essent gubernandae.
+        </p>
+        <p xml:id="szdleg-a21842-d1e786">
+          <lb ed="#P" n="39"/>11. De ratione legis aeterne non esse 
+          promul<lb break="no" ed="#P" n="40"/>gationem actus factam — Ex hac vero doctrina
+          <lb ed="#P" n="41"/>D. Thomae aperte concluditur, juxta mentem
+          <lb ed="#P" n="42"/>ejus de ratione hujus legis aeternae non esse
+          <lb ed="#P" n="43"/>promulgationem actu factam subditis, sed 
+          suf<lb break="no" ed="#P" n="44"/>ficere ut ex parte legislatoris jam sit facta pro
+          <lb ed="#P" n="45"/>suo tempore. Et re vera idem fuit sensus
+          <lb ed="#P" n="46"/>Alensis, et mihi videtur verum. Addoque esse
+          <lb ed="#P" n="47"/>singulare in illa lege : nam censetur 
+          consum<lb break="no" ed="#P" n="48"/>mata, et perfecta eo ipso quod in mente 
+          legis<lb break="no" ed="#P" n="49"/>latoris stabilita est; aliae vero leges non 
+          con<lb break="no" ed="#P" n="50"/>summantur donec actu promulgentur: ratio 
+          au<lb break="no" ed="#P" n="51"/>tem reddi potest, quia decretum Dei aeternum
+          <lb ed="#P" n="52"/>immutabile est, et sine ulla sui mutatione pro
+          <lb ed="#P" n="53"/>suo tempore obligat ; decretum autem hominis
+          <lb ed="#P" n="54"/>mutabile est ; unde quamdiu non promulgatur
+          <lb ed="#P" n="55"/>per modum legis, semper se habet potius per
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>modum propositi ferendi legem , quam per
+          <lb ed="#P" n="57"/>modum legis firmiter stabilitae et latae. Unde
+          <lb ed="#P" n="58"/>in hac lege aeterna per se loquendo, nulla 
+          pu<lb break="no" ed="#P" n="59"/>blica promulgatio requiritur ut actu obliget,
+          <lb ed="#P" n="60"/>sed solum quod veniat in notitiam subditi,
+          <lb ed="#P" n="61"/>unde si per internam revelationem nobis 
+          in<lb break="no" ed="#P" n="62"/>notesceret divinae voluntatis decretum , 
+          suffi<lb break="no" ed="#P" n="63"/>ceret ad obligandum, quod non ita est in lege
+          <lb ed="#P" n="64"/>hominis : nam licet subditus sciat jam esse
+          <lb ed="#P" n="65"/>scriptam apud regem, non obligatur illa donec
+          <lb ed="#P" n="66"/>promulgetur. Ordinarie autem Deus non 
+          obli<lb break="no" ed="#P" n="67"/>gat homines per legem aeternam, nisi mediante
+          <lb ed="#P" n="68"/>aliqua exteriori lege, quae sit illius 
+          participa<lb break="no" ed="#P" n="69"/>tio et significatio, et ita quando aliae leges
+          <lb ed="#P" n="70"/>promulgantur hominibus , promulgatur ad
+          <lb ed="#P" n="71"/>extra lex ipsa aeterna ; ideoque in illa, ut 
+          aeter<lb break="no" ed="#P" n="72"/>na est, non habet locum propria promulgatio.
+          <lb ed="#P" n="73"/>In quarto argumento petitur an lex aeterna
+          <lb ed="#P" n="74"/>ponenda sit in actibus liberis Dei, vel in 
+          ne<lb break="no" ed="#P" n="75"/>cessariis. Sed hoc tractabitur commodius in
+          <lb ed="#P" n="76"/>cap. 3.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

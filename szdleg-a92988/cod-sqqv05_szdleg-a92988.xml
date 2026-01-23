@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="367"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a92988"><!-- deleg-l4c10 -->
+        <head xml:id="szdleg-a92988-Hd1e101">Caput 10</head>
+        <head xml:id="szdleg-a92988-Hd1e103" type="question-title">Utrum potestas ecclesiastica ad leges ferendas possit in eadem persona coniungi simul cum civili</head>
+        <p xml:id="szdleg-a92988-d1e106">
+          <lb ed="#P" n="104"/>CAPUT X.
+          <lb ed="#P" n="105"/>UTRUM POTESTAS ECCLESIASTICA AD LEGES 
+          FE<lb break="no" ed="#P" n="106"/>RENDAS POSSIT IN EADEM PERSONA CONJUNGI
+          <lb ed="#P" n="107"/>SIMUL CUM CIVILI.
+        </p>
+        <p xml:id="szdleg-a92988-d1e117">
+          <lb ed="#P" n="108"/>1. Haeresis hujus temporis.—Fundamentum
+          <pb ed="#P" n="368"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ex lege ceteri et natura. —Haec sola 
+          compara<lb break="no" ed="#P" n="2"/>tio nobis superest inter has duas potestates. Et
+          <lb ed="#P" n="3"/>in illa inveniuntur errores contrarii; unus est,
+          <lb ed="#P" n="4"/>has duas potestates, prout sunt in Ecclesia,
+          <lb ed="#P" n="5"/>semper ac necessario esse conjunctas, non 
+          qui<lb break="no" ed="#P" n="6"/>dem in eo sensu, in quo aliqui dixerunt 
+          utram<lb break="no" ed="#P" n="7"/>que potestatem esse in summo Pontifice 
+          res<lb break="no" ed="#P" n="8"/>pectu totius orbis, et directe, ac formaliter (ut
+          <lb ed="#P" n="9"/>sic dicam) ex divino jure; quamvis enim hoc
+          <lb ed="#P" n="10"/>non ita sit, non tamen est error in fide, sed
+          <lb ed="#P" n="11"/>opinio, de qua satis dictum est. In alio sensu
+          <lb ed="#P" n="12"/>haeretico docent illam haeretici hujus temporis
+          <lb ed="#P" n="13"/>quorum princeps quoad hanc partem, videtur
+          <lb ed="#P" n="14"/>fuisse Henricus VIIT, rex Anglia, qui voluit
+          <lb ed="#P" n="15"/>unumquemque regem temporalem esse 
+          sum<lb break="no" ed="#P" n="16"/>mum Peontificem in suo regno, atque ita 
+          ha<lb break="no" ed="#P" n="17"/>bere simul utramque potestatem. Hi haeretici
+          <lb ed="#P" n="18"/>nullum habent fundamentum praeter affectum
+          <lb ed="#P" n="19"/>libertatis ; videntur autem nihil altius sentire
+          <lb ed="#P" n="20"/>de hac potestate spirituali in lege nova, quam
+          <lb ed="#P" n="21"/>habuerit in lege veteri, aut naturae, et ideo
+          <lb ed="#P" n="22"/>quod illis temporibus servatum esse putant,
+          <lb ed="#P" n="23"/>ut reges essent supra sacerdotes, nunc etiam
+          <lb ed="#P" n="24"/>servandum esse existimant.
+        </p>
+        <p xml:id="szdleg-a92988-d1e178">
+          <lb ed="#P" n="25"/>2. Secundus error. — Alius error inventus
+          <lb ed="#P" n="26"/>etiam a novatoribus, est potestatem civilem
+          <lb ed="#P" n="27"/>omnino repugnare Pontificibus, seu personis
+          <lb ed="#P" n="28"/>in sacerdotali dignitate constitutis. Afferunt
+          <lb ed="#P" n="29"/>verba illa Christi Lucae 22: Reges gentium 
+          do<lb break="no" ed="#P" n="30"/>minantur eorum, etc., vos autem non sic, ex
+          <lb ed="#P" n="31"/>quibus verbis sic colligit Bernard. 1. 2 de 
+          Con<lb break="no" ed="#P" n="32"/>sider., cap. 6, Planwm est : Apostolis 
+          interdi<lb break="no" ed="#P" n="33"/>citur dominatus; ergo tu, et tibi usurpare aude,
+          <lb ed="#P" n="34"/>aut dominans Apostolatum, aut Apostolicus 
+          do<lb break="no" ed="#P" n="35"/>minatwn, plane ab alterutro prohibueris ; si
+          <lb ed="#P" n="36"/>utrumque similiter habere voles, perdes 
+          utrum<lb break="no" ed="#P" n="37"/>que. ltem illa Pauli 2 ad Timoth. 2: Nemo 
+          mi<lb break="no" ed="#P" n="38"/>Litans Deo, implicat se negotiis secularibus.
+          <lb ed="#P" n="39"/>Ex quibus volunt colligere jure divino 
+          prohi<lb break="no" ed="#P" n="40"/>bitum esse sacerdotibus habere regimen 
+          tem<lb break="no" ed="#P" n="41"/>porale. Confirmari potest, quia Nicolaus Papa,
+          <lb ed="#P" n="42"/>in Epistola ad Michaelem imperatorem dicit
+          <lb ed="#P" n="43"/>In lege natura eosdem fuisse Iueges, et 
+          sacerdo<lb break="no" ed="#P" n="44"/>Les ; Christum autem illas potestates separasse.
+          <lb ed="#P" n="45"/>hatio etiam adjungi potest, quia non videtur
+          <lb ed="#P" n="46"/>una persona sufficiens ad utrumque regimen
+          <lb ed="#P" n="47"/>convenienter praestandum, praesertim si 
+          utrum<lb break="no" ed="#P" n="48"/>que sit perfectum. quale requiritur in eo qui
+          <lb ed="#P" n="49"/>potestatem habet ferendi leges.
+        </p>
+        <p xml:id="szdleg-a92988-d1e236">
+          <lb ed="#P" n="50"/>3. Conclusio.—Nihilominus veritas catholica
+          <lb ed="#P" n="51"/>est, potestates has nec necessario esse 
+          conjunc<lb break="no" ed="#P" n="52"/>tas, nec necessario separatas, quia neutrum
+          <lb ed="#P" n="53"/>est divino jure praeceptum, aut prohibitum.
+          <lb ed="#P" n="54"/>Prior pars satis patet ipso usu et experientia.
+          <lb ed="#P" n="55"/>Nam imprimis multo tempore fuit Ecclesia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Christi sine ulla temporali potestate quoad 
+          ci<lb break="no" ed="#P" n="57"/>vile regimen reipublicae, et prius, scilicet,
+          <lb ed="#P" n="58"/>quam reges coepissent ad fidem converti; et
+          <lb ed="#P" n="59"/>tamen potestatem spiritualem semper habuit,
+          <lb ed="#P" n="60"/>ex quo Christus dixit : Pasce oves meas. Nunc
+          <lb ed="#P" n="61"/>etiam multi sunt Episcopi, qui nullam habent
+          <lb ed="#P" n="62"/>potestatem civilem ad ferendas leges, cum 
+          ta<lb break="no" ed="#P" n="63"/>men spiritualem habeant : ergo ex hac parte
+          <lb ed="#P" n="64"/>separabiles sunt. Deinde quod potestas civilis
+          <lb ed="#P" n="65"/>etiam suprema sine ecclesiastica inveniatur,
+          <lb ed="#P" n="66"/>eadem traditio ostendit. Nam Constantinus
+          <lb ed="#P" n="67"/>imperator, in Concilio Niceno, professus est se
+          <lb ed="#P" n="68"/>non habuisse potestatem ad judicandum inter
+          <lb ed="#P" n="69"/>sacerdotes. Idem de Valentiniano seniore 
+          re<lb break="no" ed="#P" n="70"/>fert Ambr., lib. 2, Epist. 13ad Valentin. 
+          junio<lb break="no" ed="#P" n="71"/>rem, in qua dignam refert catholico 
+          impera<lb break="no" ed="#P" n="72"/>tore sententiam : 7n causa fidei, vel alicujus
+          <lb ed="#P" n="73"/>ecclesiastici ordinis, eum judicare debere, qui
+          <lb ed="#P" n="74"/>nec munere impar sit, nec jure dissimilis. Et
+          <lb ed="#P" n="75"/>ita etiam factis observasse refert Niceph., l. 11
+          <lb ed="#P" n="76"/>Hist. c. 3 et 30, et similia habet Theod., 1. 4
+          <lb ed="#P" n="77"/>Hist., c.6 et 7. Qui etiam c. 16, cum Niceph.,
+          <lb ed="#P" n="78"/>supra c. 13, refert insigne dictum Eulogii 
+          sa<lb break="no" ed="#P" n="79"/>cerdotis, qui cum a praefecto induceretur ad
+          <lb ed="#P" n="80"/>consentiendum Valenti ariano imperatori,
+          <lb ed="#P" n="81"/>per ironiam interrogavit : INumquid cum 
+          impe<lb break="no" ed="#P" n="82"/>rio est etiam sacerdotis dignitatem consecutus
+          <lb ed="#P" n="83"/>Denique ab omnibus catholicis regibus ita
+          <lb ed="#P" n="84"/>usque ad nostra tempora servatum est. Ratio
+          <lb ed="#P" n="85"/>vero clara est, ex dictis destruendo 
+          fundamen<lb break="no" ed="#P" n="86"/>tum contrarii erroris: nam in lege nova 
+          po<lb break="no" ed="#P" n="87"/>testas ecclesiastica non est naturalis, sed 
+          su<lb break="no" ed="#P" n="88"/>pernaturalis , et specialiter a Christo data;
+          <lb ed="#P" n="89"/>nunquam vero data est terrenis regibus, nec
+          <lb ed="#P" n="90"/>alicubi Christus praecepit ut esset conjuncta
+          <lb ed="#P" n="91"/>cum potestate regia : nulla ergo est talis 
+          neces<lb break="no" ed="#P" n="92"/>sitas.
+        </p>
+        <p xml:id="szdleg-a92988-d1e334">
+          <lb ed="#P" n="93"/>4. Civilem et ecclesiasticam potestatem esse
+          <lb ed="#P" n="94"/>posse in eodem ostenditur em usu Eclesia.—
+          <lb ed="#P" n="95"/>Quod autem hae duae potestates in eadem 
+          per<lb break="no" ed="#P" n="96"/>sona conjunctae esse possint, similiter 
+          pro<lb break="no" ed="#P" n="97"/>batur ex usu Ecclesiae : nam summus Pontifex
+          <lb ed="#P" n="98"/>simul etiam rex est temporalis in suis terris,
+          <lb ed="#P" n="99"/>quarum est dominus, quod a sanctis 
+          Pontifici<lb break="no" ed="#P" n="100"/>bus inchoatum, et conservatum est, unde 
+          co<lb break="no" ed="#P" n="101"/>gitari non potest esse illicitum. Imo, speciali
+          <lb ed="#P" n="102"/>Dei providentia factum esse affirmat D. Thom.
+          <lb ed="#P" n="103"/>in 2 Sentent., in fine. Similiter multi Episcopi
+          <lb ed="#P" n="104"/>simul habent civilem potestatem et dominium,
+          <lb ed="#P" n="105"/>ut constat, praesertim in Germania, et 
+          Hispa<lb break="no" ed="#P" n="106"/>nia, et in Conimbricensi hoc episcopatu. Ratio
+          <lb ed="#P" n="107"/>vero est, quia hoc non est per se malum, 
+          ne<lb break="no" ed="#P" n="108"/>que est aliqua positiva lege prohibitum, et
+          <lb ed="#P" n="109"/>aliunde potest multas rationes congruentiae
+          <lb ed="#P" n="110"/>habere : ergo. Antecedens quoad primam par-
+          <pb ed="#P" n="369"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tem probatur, quia contra nullam est virtutem.
+          <lb ed="#P" n="2"/>Item quia si aliqua esset per se malitia, 
+          maxi<lb break="no" ed="#P" n="3"/>me quia temporalis potestas impediret 
+          debi<lb break="no" ed="#P" n="4"/>tam curam, et sollicitudinem circa 
+          administra<lb break="no" ed="#P" n="5"/>tionem spiritualis potestatis; hoc autem nec
+          <lb ed="#P" n="6"/>necessario sequitur, quia per ministerium
+          <lb ed="#P" n="7"/>aliorum potest illa potestas executioni 
+          manda<lb break="no" ed="#P" n="8"/>ri, ita ut non multum impediat. Praeterea, si
+          <lb ed="#P" n="9"/>quid laboris vel incommodi hinc sequi videatur,
+          <lb ed="#P" n="10"/>potest utilitatibus aliis compensari; tum quia
+          <lb ed="#P" n="11"/>verisimile est justitiam rectius esse 
+          adminis<lb break="no" ed="#P" n="12"/>trandam per hujusmodi principes ; tum etiam
+          <lb ed="#P" n="13"/>quia conjunctio illarum potestatum in eadem
+          <lb ed="#P" n="14"/>persona multum deservire potest ad majorem
+          <lb ed="#P" n="15"/>pacem, et unionem, et ut temporale regimen
+          <lb ed="#P" n="16"/>ad spirituale melius referatur ; tum etiam quia
+          <lb ed="#P" n="17"/>hoc conciliat majorem reverentiam erga 
+          eccle<lb break="no" ed="#P" n="18"/>siasticum principem, qui etiam melius poterit
+          <lb ed="#P" n="19"/>resistere hostibus fidei, si potestatem habet
+          <lb ed="#P" n="20"/>temporalem, ut experientia comprobatum est.
+          <lb ed="#P" n="21"/>Atque ita simul probata est tertia pars 
+          ante<lb break="no" ed="#P" n="22"/>cedentis. Secunda autem probatur, quia nulla
+          <lb ed="#P" n="23"/>est talis lex divina, vel humana, quod patebit
+          <lb ed="#P" n="24"/>respondendo ad fundamenta contrarii erroris.
+        </p>
+        <p xml:id="szdleg-a92988-d1e432">
+          <lb ed="#P" n="25"/>5. Explicantur auctoritates contrarie 
+          he<lb break="no" ed="#P" n="26"/>resis. — Ex verbis ergo Christi Domini, Aeges
+          <lb ed="#P" n="27"/>gentium dominantur eorum. etc., talis 
+          prohi<lb break="no" ed="#P" n="28"/>bitio non colligitur ; nam cum subdit, Vos 
+          au<lb break="no" ed="#P" n="29"/>Lem non sic, non est sensus : Vos non 
+          habebi<lb break="no" ed="#P" n="30"/>tis dominium temporale, sed sensus est : Non
+          <lb ed="#P" n="31"/>dominabimini sicut illi dominantur, id est, ad
+          <lb ed="#P" n="32"/>vesirum commodum, utilitatem, et honorem,
+          <lb ed="#P" n="33"/>ubi non loquitur de regimine temporali 
+          Eccle<lb break="no" ed="#P" n="34"/>siae, sed de spirituali; et formam ac modum
+          <lb ed="#P" n="35"/>ejus praescribit per comparationem ad 
+          tempo<lb break="no" ed="#P" n="36"/>rale, quod in superioribus etiam tactum est:
+          <lb ed="#P" n="37"/>et in eodem sensu loquitur Bernard. ut ex
+          <lb ed="#P" n="38"/>contextu est manifestum. Addo quod, licet 
+          da<lb break="no" ed="#P" n="39"/>remus Christum ibi loqui de dominio 
+          tempo<lb break="no" ed="#P" n="40"/>rali, illa verba non continerent prohibitionem,
+          <lb ed="#P" n="41"/>sed solum explicarent Christum non dedisse
+          <lb ed="#P" n="42"/>hominibus hanc potestatem, licet non 
+          prohi<lb break="no" ed="#P" n="43"/>buerit, ut per homines dari possit 
+          ecclesiasti<lb break="no" ed="#P" n="44"/>cis principibus. Neque etiam ex loco Pauli talis
+          <lb ed="#P" n="45"/>prohibitio colligi potest. Expendendum etenim
+          <lb ed="#P" n="46"/>est illud verbum implicat se ; potest namque
+          <lb ed="#P" n="47"/>ecclesiasticus princeps uti hac potestate 
+          tem<lb break="no" ed="#P" n="48"/>porali, non se implicando negotiis secularibus,
+          <lb ed="#P" n="49"/>sed prudenter, ac moderate illa utendo. Item
+          <lb ed="#P" n="50"/>est ponderandum illud verbum negotiis 
+          secula<lb break="no" ed="#P" n="51"/>ribus, quod proprie significat negotiationem,
+          <lb ed="#P" n="52"/>et nimiam sollicitudinem circa temporalia 
+          lu<lb break="no" ed="#P" n="53"/>cra, ut notavit Chrysostomus. Princeps autem
+          <lb ed="#P" n="54"/>ecclesiasticus non ad hunc finem accipit 
+          tem<lb break="no" ed="#P" n="55"/>poralem principatum, sed ut Ecclesiae utilitati
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et fidellum commodis magis inserviat ; et ideo
+          <lb ed="#P" n="57"/>illud temporale ita conjunctum spirituali non
+          <lb ed="#P" n="58"/>est seculare omnino, sed aliquo modo sacrum:
+          <lb ed="#P" n="59"/>habere igitur talem potestatem civilem simul
+          <lb ed="#P" n="60"/>cum spirituali, contra nullam legem divinam
+          <lb ed="#P" n="61"/>est, vel positivam, vel naturalem. Quod vero
+          <lb ed="#P" n="62"/>contra humanam non sit, per se notum est, nec
+          <lb ed="#P" n="63"/>indiget probatione. Sic ergo responsum est ad
+          <lb ed="#P" n="64"/>fundamentum secundi erroris : Adrianus 
+          au<lb break="no" ed="#P" n="65"/>tem Papa in Epistola ibi citata solum intendit,
+          <lb ed="#P" n="66"/>quod in priori puncto contra primum errorem
+          <lb ed="#P" n="67"/>diximus, nec enim potuit indicare esse 
+          prohi<lb break="no" ed="#P" n="68"/>bitum quod ipsemet profitebatur. Plura de hoc
+          <lb ed="#P" n="69"/>argumento legi possunt in Bellarm. 1. 5 de
+          <lb ed="#P" n="70"/>Rom. Pont, cap. 9 et 10.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

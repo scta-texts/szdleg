@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 23</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 23</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="518"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-b31217"><!-- deleg-l5c23 -->
+        <head xml:id="szdleg-b31217-Hd1e101">Caput 23</head>
+        <head xml:id="szdleg-b31217-Hd1e103" type="question-title">Utrum in lege irritante actum ipso facto et ante omnem sententiam habeat locum epikia</head>
+        <p xml:id="szdleg-b31217-d1e106">
+          <lb ed="#P" n="99"/>CAPUT XXII.
+          <lb ed="#P" n="100"/>UTRUM IN LEGE IRRITANTE ACTUM IPSO FACTO
+          <lb ed="#P" n="101"/>ET ANTE OMNEM SENTENTIAM HABEAT LOCUM
+          <lb ed="#P" n="102"/>EPIKIA.
+        </p>
+        <p xml:id="szdleg-b31217-d1e117">
+          <lb ed="#P" n="103"/>1. Ratio dubitandi. —Aliquos affirmasse 
+          epii<lb break="no" ed="#P" n="104"/>kiam sufficere ad matrimonium sine testibus in
+          <lb ed="#P" n="105"/>necessitate,ubi promulgatum est Tridentinum.—
+          <lb ed="#P" n="106"/>Ratio dubitandi est, quia interpretatio 
+          volun<lb break="no" ed="#P" n="107"/>tatis legislatoris videtur posse habere locum in
+          <pb ed="#P" n="519"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>legibus irritantibus non minus quam in 
+          prohi<lb break="no" ed="#P" n="2"/>bentibus tantum, vel praecipientibus: ergo 
+          pote<lb break="no" ed="#P" n="3"/>rit cessare irritatio per conjecturatam mentem
+          <lb ed="#P" n="4"/>legislatotis, sicut cessat obligatio. Probatur
+          <lb ed="#P" n="5"/>sequiparatio, quia, sicut lex generaliter 
+          prohi<lb break="no" ed="#P" n="6"/>bens potest in particulari casu non solum non
+          <lb ed="#P" n="7"/>esse utilis, sed etiam nocere, ita ctiam lex 
+          irri<lb break="no" ed="#P" n="8"/>tans quatenus talis est; seu (quod idem est) sicut
+          <lb ed="#P" n="9"/>in priori lege potest cessare ratio legis in 
+          par<lb break="no" ed="#P" n="10"/>ticulari, non solum negative, sed etiam 
+          con<lb break="no" ed="#P" n="11"/>trarie, ita etiam in lege irritante, ut si ex 
+          irri<lb break="no" ed="#P" n="12"/>tatione contractus hic et nunc sequantur 
+          ab<lb break="no" ed="#P" n="13"/>surda intentioni legislatoris contraria. |Accedit
+          <lb ed="#P" n="14"/>quod hac ratione multi jurisperiti docent, 
+          le<lb break="no" ed="#P" n="15"/>gem annullantem actum in favorem alicujus
+          <lb ed="#P" n="16"/>non sortiri effectum, si irritatio in ejus 
+          nocu<lb break="no" ed="#P" n="17"/>mentum cedat, quia tunc cessat ratio legis
+          <lb ed="#P" n="18"/>contrariae, quia vertitur in damnum quod 
+          prop<lb break="no" ed="#P" n="19"/>ter commodum fuerat concessum, et ita est
+          <lb ed="#P" n="20"/>contra intentionem legislatoris et contra 
+          re<lb break="no" ed="#P" n="21"/>gulam juris supra citatam. Quod tradit absolute
+          <lb ed="#P" n="22"/>Felin. in cap. 7uis, de Testibus, n. 1, cum 
+          Ro<lb break="no" ed="#P" n="23"/>man., cons. 32, dicente, alienationem factam
+          <lb ed="#P" n="24"/>a minori, quamvis annulletur per jus, sustineri
+          <lb ed="#P" n="25"/>nihilominus, si in utilitatem minoris cedat. Sic
+          <lb ed="#P" n="26"/>etiam dixit Navar., Comment. de Regul., n.
+          <lb ed="#P" n="27"/>32. contractum factum a religioso sine 
+          licen<lb break="no" ed="#P" n="28"/>tia Praelati, licet per se non valeat, si tamen
+          <lb ed="#P" n="29"/>cedat in utilitatem religionis, sustineri, quia
+          <lb ed="#P" n="30"/>in ejus favorem irritatio facta est. Atque eodem
+          <lb ed="#P" n="31"/>fere modo idem Navar., in Comment. de 
+          Alie<lb break="no" ed="#P" n="32"/>nat. rer. Ecclesiastic., a n. 15, dicit 
+          alienatio<lb break="no" ed="#P" n="33"/>nem rerum ecclesiasticarum, non servata forma
+          <lb ed="#P" n="34"/>Ecclesiae et contra legem irritantem factam,
+          <lb ed="#P" n="35"/>esse validam si est utilis Ecclesiae et in ea 
+          ser<lb break="no" ed="#P" n="36"/>vatur forma jure naturali debita. Idemque 
+          di<lb break="no" ed="#P" n="37"/>cit de electione facta contra formam juris. 
+          De<lb break="no" ed="#P" n="38"/>nique ex hoc principio aliqui ausi sunt dicere
+          <lb ed="#P" n="39"/>per epiikiam posse nunc aliquando valere 
+          ma<lb break="no" ed="#P" n="40"/>trimonium inter catholicos factum sine 
+          paro<lb break="no" ed="#P" n="41"/>cho et testibus, etiam in locis ubi est 
+          Conci<lb break="no" ed="#P" n="42"/>lium promulgatum, scilicet, in casu extremae
+          <lb ed="#P" n="43"/>necessitatis, ubi non adest parochus, et 
+          pericli<lb break="no" ed="#P" n="44"/>tatur salus aeterna hominis concubinarii 
+          agen<lb break="no" ed="#P" n="45"/>tis animam, nisi prius matrimonium cum 
+          con<lb break="no" ed="#P" n="46"/>cubina contrahat, et necessitas etiam magna
+          <lb ed="#P" n="47"/>urget ut filii legitimi efficiantur.
+        </p>
+        <p xml:id="szdleg-b31217-d1e237">
+          <lb ed="#P" n="48"/>2. Mens auctoris negativa, moraliter 
+          loguen<lb break="no" ed="#P" n="49"/>do.—Nihilominus censeo in legibus 
+          irritanti<lb break="no" ed="#P" n="50"/>bus, quae vel formam substantialem humanis
+          <lb ed="#P" n="51"/>contractibus praefigunt, vel absolute prohibent
+          <lb ed="#P" n="52"/>actus quos irritant, non esse admittendam 
+          ex<lb break="no" ed="#P" n="53"/>ceptionem quoad irritationem actus per 
+          epii<lb break="no" ed="#P" n="54"/>kiam, moraliter loquendo. In his enim rebus
+          <lb ed="#P" n="55"/>quae ex variis circumstantiis pendent, vix po-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>test tam universalis regula constitui, quae non
+          <lb ed="#P" n="57"/>patiatur aliquam exceptionem, si fingendi et
+          <lb ed="#P" n="58"/>excogitandi casus detur licentia; et ideo 
+          mo<lb break="no" ed="#P" n="59"/>raliter loquimur de humanis rebus, prout 
+          se<lb break="no" ed="#P" n="60"/>cundum ordinarium cursum contingunt, et
+          <lb ed="#P" n="61"/>sic dicimus actum irritum per legem 
+          simplici<lb break="no" ed="#P" n="62"/>ter et absolute, non posse unquam valide fieri
+          <lb ed="#P" n="63"/>contra verba legis, per solam epiikiam. 
+          Pro<lb break="no" ed="#P" n="64"/>batur primo, quando lex inducit substantialem
+          <lb ed="#P" n="65"/>formam, quia in nullo casu potest res 
+          subsis<lb break="no" ed="#P" n="66"/>tere sine tali forma: ergo in nullo etiam casu
+          <lb ed="#P" n="67"/>potest irritatio cessare, quae oritur ex defectu
+          <lb ed="#P" n="68"/>talis formae. Dices non subsistere rem tunc sine
+          <lb ed="#P" n="69"/>forma substantiah, sed desinere formam illam
+          <lb ed="#P" n="70"/>substantialem esse, sicut si in ea dispensatum
+          <lb ed="#P" n="71"/>esset. Sed contra, quia forma substantialis cum
+          <lb ed="#P" n="72"/>constituat rei essentiam debet esse semper 
+          ea<lb break="no" ed="#P" n="73"/>dem, quoad fieri possit; debet etiam esse 
+          im<lb break="no" ed="#P" n="74"/>mutabilis in suo ordine, ita ut saltem solus ipse
+          <lb ed="#P" n="75"/>illam mutare possit qui illam instituit. Et hac
+          <lb ed="#P" n="76"/>ratione dicimus nullum praeter Christum 
+          Do<lb break="no" ed="#P" n="77"/>minum posse facere ut sacramentum sine 
+          sub<lb break="no" ed="#P" n="78"/>stantiali forma valide fiat, neque in hoc 
+          ad<lb break="no" ed="#P" n="79"/>mittitur epiikia, neque dispensatio per alium
+          <lb ed="#P" n="80"/>quam per ipsummet Christum : ergo idem
+          <lb ed="#P" n="81"/>cum proportione dicendum est in omni forma
+          <lb ed="#P" n="82"/>substantiali per legem introducta.
+        </p>
+        <p xml:id="szdleg-b31217-d1e319">
+          <lb ed="#P" n="83"/>3. Ratio de omni irritatione. — Secundo, de
+          <lb ed="#P" n="84"/>omni irritatione prohibente actum est efficax
+          <lb ed="#P" n="85"/>ratio, quia lex irritans voluntatem ad actum
+          <lb ed="#P" n="86"/>aliquem, inhabilitat personam, vel simpliciter,
+          <lb ed="#P" n="87"/>vel ad contrahendum nisi juxta formam legis,
+          <lb ed="#P" n="88"/>sicut in principio capitis praecedentis 
+          declara<lb break="no" ed="#P" n="89"/>tum est; sed inhabilitas per legem inducta
+          <lb ed="#P" n="90"/>non potest restitui per modum epiikise, quia
+          <lb ed="#P" n="91"/>epiikia ad summum potest conducere ad 
+          ex<lb break="no" ed="#P" n="92"/>cusationem obligationis: ad dandam autem
+          <lb ed="#P" n="93"/>potestatem quam homo non habet, aut 
+          resti<lb break="no" ed="#P" n="94"/>tuendam ablatam , non sufficit, quia ad hoc
+          <lb ed="#P" n="95"/>requiritur positivus actus qui tunc non fit, nec
+          <lb ed="#P" n="96"/>a superiore, nec ab aliquo qui vim habeat
+          <lb ed="#P" n="97"/>restituendi potestatem ablatam vel auferendi
+          <lb ed="#P" n="98"/>inhabilitatem inductam. Nec cogitari potest
+          <lb ed="#P" n="99"/>quod per se cesset inhabilitas, vel quod sub ea
+          <lb ed="#P" n="100"/>conditione inducta sit, ut in casu necessitatis
+          <lb ed="#P" n="101"/>auferatur vel quasi suspendatur ; id enim est
+          <lb ed="#P" n="102"/>veluti contra naturam inhabilitatis absolute et
+          <lb ed="#P" n="103"/>sine restrictione inductae; est etiam contra
+          <lb ed="#P" n="104"/>morem talium legum, quoties talem 
+          inhabili<lb break="no" ed="#P" n="105"/>tatem simpliciter inducunt, ut patet de 
+          inha<lb break="no" ed="#P" n="106"/>bilitate ad contrahendum cum consanguinea
+          <lb ed="#P" n="107"/>in gradu prohibito, quae in nullo casu cessare
+          <lb ed="#P" n="108"/>potest sine dispensatione.
+        </p>
+        <p xml:id="szdleg-b31217-d1e378">
+          <lb ed="#P" n="109"/>4. Et hac ratione dicunt communiter 
+          doc<lb break="no" ed="#P" n="110"/>tores personam inhabilem ad matrimonium
+          <pb ed="#P" n="520"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non posse propter quodcumque periculum vel
+          <lb ed="#P" n="2"/>metum mortis contrahere matrimonium et
+          <lb ed="#P" n="3"/>consummare, quia nunquam erit illud 
+          matri<lb break="no" ed="#P" n="4"/>monium validum propter inhabilitatem, quae
+          <lb ed="#P" n="5"/>non restituitur per metum vel similem 
+          occa<lb break="no" ed="#P" n="6"/>sionem. Ita docuit Soto, lib. 1 de Justit., q. 6,
+          <lb ed="#P" n="7"/>a. 4, in fine, et sequuntur Medin. 1. 2, q. 96,
+          <lb ed="#P" n="8"/>2. 4, dub. 2, ad 2, et alii moderni: ergo idem
+          <lb ed="#P" n="9"/>erit in quacumque simili inhabilitate. Idem
+          <lb ed="#P" n="10"/>videre licet in irregularitate quae de se 
+          perpe<lb break="no" ed="#P" n="11"/>tua est; licet enim in casu possit suspendi usus
+          <lb ed="#P" n="12"/>ejus circa actum quem prohibet et non irritat,
+          <lb ed="#P" n="13"/>non tamen potest ipsa auferri nisi dispensatio
+          <lb ed="#P" n="14"/>intercedat. Et idem est in excommunicatione,
+          <lb ed="#P" n="15"/>et aliis censuris quae non auferuntur propter
+          <lb ed="#P" n="16"/>extrinsecas occasiones, ut sic dicam, nisi per
+          <lb ed="#P" n="17"/>absolutionem auferantur; vel nisi in ipsa lege
+          <lb ed="#P" n="18"/>habeant terminum praefixum quo absoluto 
+          ces<lb break="no" ed="#P" n="19"/>sent. Quod etiam in irritationibus et 
+          inhabi<lb break="no" ed="#P" n="20"/>litatibus locum habet, ut constat. Nam 
+          inter<lb break="no" ed="#P" n="21"/>dum imponuntur usque ad certum tempus, ut
+          <lb ed="#P" n="22"/>patet, quando requiritur tanta aetas, etc. 
+          In<lb break="no" ed="#P" n="23"/>terdum per alias leges fit exceptio, ut in 
+          ex<lb break="no" ed="#P" n="24"/>trema necessitate mortis quilibet minister 
+          sa<lb break="no" ed="#P" n="25"/>cramenti confessionis quantumvis inhabilis fit
+          <lb ed="#P" n="26"/>habilis, non per epiikiam, sed virtute legis
+          <lb ed="#P" n="27"/>scriptae vel traditae.
+        </p>
+        <p xml:id="szdleg-b31217-d1e448">
+          <lb ed="#P" n="28"/>5. Contra hanc sententiam referri potest
+          <lb ed="#P" n="29"/>Molin., tract. 2 de Justit., disput. 81, S Sunt
+          <lb ed="#P" n="30"/>vero, ubi sentit aliquando hunc juris rigorem
+          <lb ed="#P" n="31"/>esse moderandum, quando non tota 
+          solemni<lb break="no" ed="#P" n="32"/>tas, sed aliqua parva circumstantia bona fide
+          <lb ed="#P" n="33"/>omissa est, servata aequitate naturali. Nam
+          <lb ed="#P" n="34"/>tunc ipsamet naturalis aequitas postulare 
+          vide<lb break="no" ed="#P" n="35"/>tur ut actus sustineatur. Sed de hoc puncto
+          <lb ed="#P" n="36"/>dicemüs in c. 27. Nunc solum dico regulae 
+          pro<lb break="no" ed="#P" n="37"/>positae standum esse ; eamque eo certiorem
+          <lb ed="#P" n="38"/>esse futuram quo materia legis fuerit gravior,
+          <lb ed="#P" n="39"/>ut sunt materiae sacramentorum, ant status 
+          re<lb break="no" ed="#P" n="40"/>ligiosi, atque ita per modum regulae moralis
+          <lb ed="#P" n="41"/>universaliter censeo esse veram, quia rationes
+          <lb ed="#P" n="42"/>factae universales sunt. Et licet possit fortasse
+          <lb ed="#P" n="43"/>habere exceptionem recurrendo ad 
+          conjectura<lb break="no" ed="#P" n="44"/>tam mentem legislatoris, mihi tamen nunc
+          <lb ed="#P" n="45"/>talis exceptio non occurrit quae moraliter sit
+          <lb ed="#P" n="46"/>admittenda. Quia si contractus est jam factus,
+          <lb ed="#P" n="47"/>et revera fuit invalidus propter solemnitatem
+          <lb ed="#P" n="48"/>praetermissam, non habet postea locum epiikia
+          <lb ed="#P" n="49"/>vel aequitas, propter effectus postea 
+          subsecu<lb break="no" ed="#P" n="50"/>tos, vel utilitates quae alteri parti accesserunt ;
+          <lb ed="#P" n="51"/>id enim accidentarium est. Si vero agitur de
+          <lb ed="#P" n="52"/>contractu faciendo, qui habeat effectum 
+          vali<lb break="no" ed="#P" n="53"/>dum et permanentem, tunc semper est res
+          <lb ed="#P" n="54"/>valde gravis, quae intentari non potest contra
+          <lb ed="#P" n="55"/>legem irritantem propter solam extrinsecam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>necessitatem, sine adminiculo alicujus legis.
+          <lb ed="#P" n="57"/>Ita enim intelligenda est assertio posita, ut per
+          <lb ed="#P" n="58"/>se constat. Nam si in virtute alterius legis fiat
+          <lb ed="#P" n="59"/>exceptio, jam non erit epiikia, sed jus. Et sic
+          <lb ed="#P" n="60"/>intelligenda sunt quae tractat Felin. in cap. Ez
+          <lb ed="#P" n="61"/>parte, de Constit., n. 1, vers. Recepistis, ubi
+          <lb ed="#P" n="62"/>ait ratione periculi validum esse actum contra
+          <lb ed="#P" n="63"/>formam mandati, in omissione consilii; ita
+          <lb ed="#P" n="64"/>enim in jure fundatum est, in c. unic., S ult.
+          <lb ed="#P" n="65"/>Ne sed. vacan., in 6. Et ad eumdem modum
+          <lb ed="#P" n="66"/>sunt similes exceptiones admittendae.
+        </p>
+        <p xml:id="szdleg-b31217-d1e537">
+          <lb ed="#P" n="67"/>6. Distinctio inter prohibitionem et 
+          arrita<lb break="no" ed="#P" n="68"/>tionem. — Et ita responsum est ad rationem
+          <lb ed="#P" n="69"/>dubitandi in principio hujus puncti positam;
+          <lb ed="#P" n="70"/>negatur enim aequiparatio inter 
+          prohibitio<lb break="no" ed="#P" n="71"/>nem et irritationem, quia prohibitio natura
+          <lb ed="#P" n="72"/>sua admittit excusationem vel ignorantiae vel
+          <lb ed="#P" n="73"/>moralis impotentiae , et ideo in casu morali
+          <lb ed="#P" n="74"/>frequenter cessat ; nam (si quis recte 
+          conside<lb break="no" ed="#P" n="75"/>ret) fere in omni interpretatione legis per
+          <lb ed="#P" n="76"/>epiikiam moralis quaedam impotentia 
+          interve<lb break="no" ed="#P" n="77"/>nit. Irritatio vero non fundatur in obligatione,
+          <lb ed="#P" n="78"/>nec requirit voluntatem, vel potestatem 
+          sub<lb break="no" ed="#P" n="79"/>diti, sed potius inducit impotentiam 
+          quam<lb break="no" ed="#P" n="80"/>dam, vel inhabilitatem in illo, ipso etiam 
+          in<lb break="no" ed="#P" n="81"/>vito , quae per solam excusationem auferri
+          <lb ed="#P" n="82"/>non potest. Deinde in legibus simpliciter 
+          prae<lb break="no" ed="#P" n="83"/>cipientibus vel prohibentibus, non est tam
+          <lb ed="#P" n="84"/>necessaria ad commune bonum uniformitas
+          <lb ed="#P" n="85"/>in observatione legis, quin moraliter possit
+          <lb ed="#P" n="86"/>saepe expedire non observare legem ; in 
+          legi<lb break="no" ed="#P" n="87"/>bus autem imponentibus formam 
+          substantia<lb break="no" ed="#P" n="88"/>lem, vel inducentibus inhabilitatem, magis
+          <lb ed="#P" n="89"/>necessaria est uniformitas, quia ordinarie sunt
+          <lb ed="#P" n="90"/>graviores, et in earum transgressione est 
+          ma<lb break="no" ed="#P" n="91"/>jus periculum, et ideo magis expedit bono
+          <lb ed="#P" n="92"/>communi quod inviolabiliter serventur, quam
+          <lb ed="#P" n="93"/>quod in uno vel alio casu aliquod 
+          incommo<lb break="no" ed="#P" n="94"/>dum vitetur.
+        </p>
+        <p xml:id="szdleg-b31217-d1e600">
+          <lb ed="#P" n="95"/>7. Ad regulam a Felino positam, dico vel
+          <lb ed="#P" n="96"/>esset intelligendam de legibus non 
+          irritanti<lb break="no" ed="#P" n="97"/>bus ipso jure, sed praecipientibus irritari 
+          ac<lb break="no" ed="#P" n="98"/>tum aliter factum, tunc enim cum actus sit
+          <lb ed="#P" n="99"/>validus, licet fortasse prohibeatur fieri, non
+          <lb ed="#P" n="100"/>est mirum quod per epiikiam possit licite fieri.
+          <lb ed="#P" n="101"/>Nam tunc penes judicem erit arbitrium, an 
+          ir<lb break="no" ed="#P" n="102"/>ritandus sit postea talis actus, cum ex 
+          necessa<lb break="no" ed="#P" n="103"/>ria occasione fuerit factus. Vel certe si illi
+          <lb ed="#P" n="104"/>auctores loquuntur de actu irrito ipso facto per
+          <lb ed="#P" n="105"/>legem , solum habebit locum eorum regula
+          <lb ed="#P" n="106"/>quando irritatio non est absoluta, sed 
+          condi<lb break="no" ed="#P" n="107"/>tionalis, ut solet esse quando principaliter fit
+          <lb ed="#P" n="108"/>in favorem alicujus privatae personae, quae 
+          in<lb break="no" ed="#P" n="109"/>cludit conditionem, si illa non cesserit juri
+          <lb ed="#P" n="110"/>suo, vel si cedat in illius incommodum. Et ita
+          <pb ed="#P" n="521"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>contingere in obligatione minoris sensit clare
+          <lb ed="#P" n="2"/>Gloss. in l. 2, ff. de Acceptilat. Et idem 
+          existi<lb break="no" ed="#P" n="3"/>mo esse dicendum de contractu religiosi, 
+          sup<lb break="no" ed="#P" n="4"/>posita illa sententia Navarri, de qua in proprio
+          <lb ed="#P" n="5"/>loco latius disputabimus. Atque ita in his 
+          ca<lb break="no" ed="#P" n="6"/>sibus non sustinetur actus propter epiikiam
+          <lb ed="#P" n="7"/>contra legem absolute irritantem, sed propter
+          <lb ed="#P" n="8"/>formam legis non irritantis simpliciter. Aliud
+          <lb ed="#P" n="9"/>item exemplum ex Navarro sumptum, si 
+          ve<lb break="no" ed="#P" n="10"/>rum est, non fundatur in epiikia, sed in hoc
+          <lb ed="#P" n="11"/>quod lex illa fundata est in praesumptione, de
+          <lb ed="#P" n="12"/>quo dicemus in puncto sequenti. Denique
+          <lb ed="#P" n="13"/>exemplum illud de matrimonio sine parocho et
+          <lb ed="#P" n="14"/>testibus probabile non est, unde retorqueri 
+          po<lb break="no" ed="#P" n="15"/>test argumentum , quia in illo casu non valet
+          <lb ed="#P" n="16"/>matrimonium contra legem irritantem, ut
+          <lb ed="#P" n="17"/>recte sensit Navar. in cons. 6 de Clandest. 
+          de<lb break="no" ed="#P" n="18"/>spon., dicensin nullo casu posse recedi a forma
+          <lb ed="#P" n="19"/>Concilii, tum quia verba ejus expressa et 
+          prae<lb break="no" ed="#P" n="20"/>cisa sunt, tum quia si daretur licentia in uno
+          <lb ed="#P" n="21"/>casu, ostium aperiretur ad alios, quod esset
+          <lb ed="#P" n="22"/>magnum incommodum contra vim et 
+          inten<lb break="no" ed="#P" n="23"/>tionem legis. Quae ratio in gradu suo in 
+          omni<lb break="no" ed="#P" n="24"/>bus legibus irritantibus locum habet. Idem
+          <lb ed="#P" n="25"/>late docet Sanc. , 1. 3 de Matrim., disput. 17,
+          <lb ed="#P" n="26"/>n. 4.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

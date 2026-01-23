@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="195"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a49332"><!-- deleg-l3c7 -->
+        <head xml:id="szdleg-a49332-Hd1e101">Caput 7</head>
+        <head xml:id="szdleg-a49332-Hd1e103" type="question-title">Utrum potestas universalis ferendi leges civiles obligantes totam ecclesiam sit in imperatore</head>
+        <p xml:id="szdleg-a49332-d1e106">
+          <lb ed="#P" n="6"/>CAPUT VII.
+          <lb ed="#P" n="7"/>UTRUM POTESTAS UNIVERSALIS FERENDI LEGES
+          <lb ed="#P" n="8"/>CIVILES OBLIGANTES TOTAM ECCLESIAM SIT IN
+          <lb ed="#P" n="9"/>IMPERATORE.
+        </p>
+        <p xml:id="szdleg-a49332-d1e117">
+          <lb ed="#P" n="10"/>1. Potest hoc loco tractari quaestio celebris
+          <lb ed="#P" n="11"/>inter juristas, an imperator jure sit dominus et
+          <lb ed="#P" n="12"/>princeps totius orbis, et consequenter an possit
+          <lb ed="#P" n="13"/>totum mundum suis civilibus legibus obligare,
+          <lb ed="#P" n="14"/>quamvis de facto ei non obediatur, et ideo
+          <lb ed="#P" n="15"/>suam universalem jurisdictionem actu non
+          <lb ed="#P" n="16"/>exerceat. Sed quia inter theologos quaestio
+          <lb ed="#P" n="17"/>baec nullam aut parvam dubitationem vel 
+          dif<lb break="no" ed="#P" n="18"/>ficultatem habet, et quae in utramque partem
+          <lb ed="#P" n="19"/>afferri solent satis vulgaria sunt, ideo breviter
+          <lb ed="#P" n="20"/>rem expedimus, attingendo solum ea quae ad
+          <lb ed="#P" n="21"/>intelligendam vim et obligationem legum 
+          im<lb break="no" ed="#P" n="22"/>perialium conduxerint. Fuit ergo antiquorum
+          <lb ed="#P" n="23"/>utriusque juris doctorum receptissima 
+          senten<lb break="no" ed="#P" n="24"/>tia, imperatorem habere jus et dominium 
+          ju<lb break="no" ed="#P" n="25"/>risdictionis in universum orbern ; quam tanta
+          <lb ed="#P" n="26"/>asseveratione asseruit Bartol. in l. Hostes, ft.
+          <lb ed="#P" n="27"/>de Captivis, ut haereticum repulet qui dixerit
+          <lb ed="#P" n="28"/>imperatorem non esse dominum orbis ; quod
+          <lb ed="#P" n="29"/>de dominio jurisdictionis verum esse tradit
+          <lb ed="#P" n="30"/>Socin. cons. 127, et Paul. Castren. cons. 61,
+          <lb ed="#P" n="31"/>vol. 2; et hoc fundamentum tanquam certum
+          <lb ed="#P" n="32"/>supponit Panormit. 2 part. Consil., consilio 6,
+          <lb ed="#P" n="33"/>n. 2, et sequuntur alii muiti, quos refert et
+          <lb ed="#P" n="34"/>sequitur Restaur. Catald. tract. de Imperator.,
+          <lb ed="#P" n="35"/>q. 52, et alii quamplures.
+        </p>
+        <p xml:id="szdleg-a49332-d1e176">
+          <lb ed="#P" n="36"/>2. Haplicatur sententia affirmativa.— Haec
+          <lb ed="#P" n="37"/>vero sententia variüs modis potest intelligi.
+          <lb ed="#P" n="38"/>Primo, quod imperatores romani etiam ante
+          <lb ed="#P" n="39"/>Christi adventum obtinuerint totius mundi
+          <lb ed="#P" n="40"/>principatum legitimum , ac veram 
+          jurisdictio<lb break="no" ed="#P" n="41"/>nem in universum orbem, quae postea per
+          <lb ed="#P" n="42"/>successionem vel electionem derivata sit ad
+          <lb ed="#P" n="43"/>posteriores imperatores ; atque hoc modo 
+          vi<lb break="no" ed="#P" n="44"/>detur illam sententiam intellexisse Bartol. et
+          <lb ed="#P" n="45"/>nonnulli alii: nam in ejus suasionem 
+          addu<lb break="no" ed="#P" n="46"/>cunt verba Lucae cap. 2: Exvüt edictum a 
+          Cae<lb break="no" ed="#P" n="47"/>sare Augusto, ut describeretwr universus orbis ,
+          <lb ed="#P" n="48"/>et verba Christi Matth. 12 et Lucae 20: Heddite
+          <lb ed="#P" n="49"/>ergo que sunt Ceesaris Ceesari, et que sunt Dei
+          <lb ed="#P" n="50"/>Deo . nam illis verbis CHRISTUS videtur 
+          ap<lb break="no" ed="#P" n="51"/>probasse imperium Caesaris, quod Lucas dixit
+          <lb ed="#P" n="52"/>esse in universum orbem : unde in l. Depreca-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tio, ff. ad leg. Rhodi. de jactu, imperator dicit:
+          <lb ed="#P" n="54"/>Hgo mundi dominus.
+        </p>
+        <p xml:id="szdleg-a49332-d1e223">
+          <lb ed="#P" n="55"/>3. Refutatur praedicta opinio.—Haec autem
+          <lb ed="#P" n="56"/>sententia, si intelligat imperatorem romanum
+          <lb ed="#P" n="57"/>fuisse aliquando verum principem totius 
+          mun<lb break="no" ed="#P" n="58"/>di, habuisseque supremam jurisdictionem 
+          su<lb break="no" ed="#P" n="59"/>pra omnia regna mundi , est plane falsa et
+          <lb ed="#P" n="60"/>prorsus sine fundamento excogitata, ut late
+          <lb ed="#P" n="61"/>ostendit Oldrad. cons. 96, cujus initium est:
+          <lb ed="#P" n="62"/>Consuevit dubitari ; et Joan. Igneus in disput.
+          <lb ed="#P" n="63"/>pro suprema potestate regis Franciae, et Alciat.
+          <lb ed="#P" n="64"/>in l. 1, C. de summa Trinit., Gloss. 2; et
+          <lb ed="#P" n="65"/>Covar. in regul. Peccatum, 2 part., S 9, n.5
+          <lb ed="#P" n="66"/>et 6 ; Soto lib. 4 de Justit., q. 4, art. 2. Ratio
+          <lb ed="#P" n="67"/>autem est, quia imperator romanus nec a Deo
+          <lb ed="#P" n="68"/>ipso immediate potestatem illam universalem
+          <lb ed="#P" n="69"/>in totum orbem consecutus est, nec ab 
+          homi<lb break="no" ed="#P" n="70"/>nibus totius universi electus est primus 
+          im<lb break="no" ed="#P" n="71"/>perator Romanorum, ut ab illo potuerint alii
+          <lb ed="#P" n="72"/>succedere cum eadem universali potestate,
+          <lb ed="#P" n="73"/>neque etiam per bellum omnia sibi subjecit,
+          <lb ed="#P" n="74"/>neque unquam de facto tale dominium 
+          univer<lb break="no" ed="#P" n="75"/>sale habuit : ergo nullus cogitari potest justus
+          <lb ed="#P" n="76"/>titulus talis potestatis, neque unde originem
+          <lb ed="#P" n="77"/>habuerit, quia illi sunt omnes tituli juste 
+          re<lb break="no" ed="#P" n="78"/>gnandi, neque alius excogitari potest ; quia
+          <lb ed="#P" n="79"/>homo non habet a se talem potestatem : ergo
+          <lb ed="#P" n="80"/>oportet ut habeat illam ab alio; ergo vela Deo
+          <lb ed="#P" n="81"/>vel ab homine, aliquo ex dictis modis: constat
+          <lb ed="#P" n="82"/>enim ab Angelis non provenire, nullam enim
+          <lb ed="#P" n="83"/>jurisdictionem in homines habent.
+        </p>
+        <p xml:id="szdleg-a49332-d1e288">
+          <lb ed="#P" n="84"/>4. Primum ergo membrum certum est, quia
+          <lb ed="#P" n="85"/>modus ille concedendi potestatem regiam 
+          su<lb break="no" ed="#P" n="86"/>pernaturalis esset, non enim spectat ad 
+          ordi<lb break="no" ed="#P" n="87"/>nariam providentiam Dei, ut est auctor et 
+          gu<lb break="no" ed="#P" n="88"/>bernator naturae ; ergo non est asserendum
+          <lb ed="#P" n="89"/>sine fundamento vel revelatione : nullibi 
+          au<lb break="no" ed="#P" n="90"/>tem hoc traditum aut revelatum est. De solo
+          <lb ed="#P" n="91"/>enim Judaeorum populo legimus, quod prius
+          <lb ed="#P" n="92"/>per Moysem, Josue et sequentes judices illum
+          <lb ed="#P" n="93"/>gubernaverit, et postea Saulem primum 
+          illo<lb break="no" ed="#P" n="94"/>rum regem constituerit. Secundum membrum
+          <lb ed="#P" n="95"/>per se notum est, quia nec de tali concordia et
+          <lb ed="#P" n="96"/>consensu nationum totius universi constat,
+          <lb ed="#P" n="97"/>neque humano modo videtur possibilis. Item
+          <lb ed="#P" n="98"/>constat ex historiis et legibus civilibus, 
+          impe<lb break="no" ed="#P" n="99"/>ratorem romanum ab ipso populo, et republica
+          <lb ed="#P" n="100"/>tantum romana accepisse potestatem et 
+          domi<lb break="no" ed="#P" n="101"/>nium sui imperii, ut late refert Covar. in
+          <lb ed="#P" n="102"/>Practic., cap. 1, conclus. 3, seu n. 3; unde
+          <lb ed="#P" n="103"/>etiam constat tertium membrum: nam 
+          Roma<lb break="no" ed="#P" n="104"/>ni nunquam occuparunt totum orbem suis
+          <lb ed="#P" n="105"/>bellis et imperio; ergo nunquam romanus 
+          po<lb break="no" ed="#P" n="106"/>pulus potuit in suum imperatorem transferre
+          <lb ed="#P" n="107"/>jurisdictionem in universum orbem, quia ipse
+          <pb ed="#P" n="196"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>populus aut respublica illam non habebat, et in
+          <lb ed="#P" n="2"/>hoc rerum genere nemo dat quod non habet:
+          <lb ed="#P" n="3"/>unde eleganter Prosper lib. 2 de Vocat gent.,
+          <lb ed="#P" n="4"/>cap. 16, alias 6: Gratia Christiana (inquit)
+          <lb ed="#P" n="5"/>non contenta est eosdem limites habere quos
+          <lb ed="#P" n="6"/>Roma, multosque populos sceptro Crucis Christi
+          <lb ed="#P" n="7"/>subdidit, quos armis suis ipsa non domuit. Cu
+          <lb ed="#P" n="8"/>consonat illud Leonis serm. 1 de Sanctis Petro
+          <lb ed="#P" n="9"/>et Paulo: Ut latius praesideres religione divina,
+          <lb ed="#P" n="10"/>quam dominatione terrena. Confirmatur, quia
+          <lb ed="#P" n="11"/>ipsimet imperatores fatentur esse aliquos 
+          po<lb break="no" ed="#P" n="12"/>pulos sibi non subjectos, 1. Mercatores, C. de
+          <lb ed="#P" n="13"/>Commerciis, ubi regnum Persarum dicitur non
+          <lb ed="#P" n="14"/>fuisse subjectum Romanis; et in l. 2, C. de
+          <lb ed="#P" n="15"/>Offic. Praef. Praetorio Africae, dicit imperator,
+          <lb ed="#P" n="16"/>pacem cum Persis in perpetuum confirmasse,
+          <lb ed="#P" n="17"/>et in l. Postliminium, t. de Captivis, fit 
+          men<lb break="no" ed="#P" n="18"/>tio regum et populorum qui liberi erant a
+          <lb ed="#P" n="19"/>romano imperio, id est, in quos romanus 
+          im<lb break="no" ed="#P" n="20"/>perator non habebat potestatem.
+        </p>
+        <p xml:id="szdleg-a49332-d1e390">
+          <lb ed="#P" n="21"/>5. Secundus sensus predicte sententie. —
+          <lb ed="#P" n="22"/>Rejicitur etiam secundus sensus praedicte 
+          sen<lb break="no" ed="#P" n="23"/>tenlim.—Alter ergo sensus illius sententiae esse
+          <lb ed="#P" n="24"/>potest, ut saltem post Christi adventum 
+          impe<lb break="no" ed="#P" n="25"/>rator habeat universalem jurisdictionem 
+          legis<lb break="no" ed="#P" n="26"/>lativam in totum orben, non jure sanguinis,
+          <lb ed="#P" n="27"/>belli, aut alio humano titulo, sed speciali 
+          in<lb break="no" ed="#P" n="28"/>stitutione Christi; et hoc etiam sentit Bartol.
+          <lb ed="#P" n="29"/>in Extravag. Ad reprimendum , verb. Totus
+          <lb ed="#P" n="30"/>orbis, et Castald. d. quaest. 52, n. 10 et 
+          se<lb break="no" ed="#P" n="31"/>quent. Sed in hoc etiam sensu illa sententia
+          <lb ed="#P" n="32"/>probabilis non est; quia nec talis institutio est
+          <lb ed="#P" n="33"/>immediate a Christo, nec per Pontificem.
+          <lb ed="#P" n="34"/>Prior pars patet ratione supra facta, quia
+          <lb ed="#P" n="35"/>Christus nullibi contulit immediate et per se
+          <lb ed="#P" n="36"/>temporale rerum dominium aut jurisdictionem
+          <lb ed="#P" n="37"/>hominibus : ergo nec imperatori illam tribuit:
+          <lb ed="#P" n="38"/>ubi enim est vestigium aliquod tals 
+          institu<lb break="no" ed="#P" n="39"/>tionis, vel in Scriptura, vel in Ecclesiastica
+          <lb ed="#P" n="40"/>traditione? In his autem rebus (ut dixi) quae
+          <lb ed="#P" n="41"/>supernaturales sunt, nihil credendum est quod
+          <lb ed="#P" n="42"/>divinitus revelatum non sit et sufficienter 
+          no<lb break="no" ed="#P" n="43"/>bis propositum : unde manifestum est post
+          <lb ed="#P" n="44"/>Christi ascensionem et Evangeli 
+          praedicatio<lb break="no" ed="#P" n="45"/>nem non statim defecisse reliqua terrena regna
+          <lb ed="#P" n="46"/>vel imperia : neque imperatorem romanum
+          <lb ed="#P" n="47"/>ceepisse latius dominari quam antea 
+          impera<lb break="no" ed="#P" n="48"/>rat : neque regem Persarum, verbi gratia,
+          <lb ed="#P" n="49"/>vel reges Indorum, aut Japoniorum, vel Chinae,
+          <lb ed="#P" n="50"/>vel alios similes suam supremam potestatem
+          <lb ed="#P" n="51"/>temporalem amisisse. Altera vero pars de
+          <lb ed="#P" n="52"/>institutione mediata et per Pontificem 
+          proba<lb break="no" ed="#P" n="53"/>tur ex dictis; quia ostensum est Christum non
+          <lb ed="#P" n="54"/>dedisse Pontifici potestatem directam in 
+          tem<lb break="no" ed="#P" n="55"/>poralibus : ergo nec Pontifex ipse potuit illam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>per se conferre, quia non potest alteri 
+          jurisdic<lb break="no" ed="#P" n="57"/>tionem communicare quam a Christo non 
+          re<lb break="no" ed="#P" n="58"/>cipit. Potestas autem indirecta quam Pontifex
+          <lb ed="#P" n="59"/>habet circa temporalia eadem est cum 
+          spiri<lb break="no" ed="#P" n="60"/>tuali, ut ostendimus : sed Pontifex non 
+          com<lb break="no" ed="#P" n="61"/>municat imperatori spiritualeni potestatem,
+          <lb ed="#P" n="62"/>ut constat : ergo nec temporalem indirectam ;
+          <lb ed="#P" n="63"/>et quamvis illam communicaret, non esset 
+          po<lb break="no" ed="#P" n="64"/>testas legislativa directe in materia civili, de
+          <lb ed="#P" n="65"/>qua potestate nunc tractamus.
+        </p>
+        <p xml:id="szdleg-a49332-d1e492">
+          <lb ed="#P" n="66"/>6. Nullum unum hominem habere 
+          potesta<lb break="no" ed="#P" n="67"/>tem universalem ad ferendas leges civiles 
+          obli<lb break="no" ed="#P" n="68"/>gantes universum orbem. — Sit ergo imprimis
+          <lb ed="#P" n="69"/>certum neque imperatorem romanum neque
+          <lb ed="#P" n="70"/>aliquem unum hominem vel regem habere
+          <lb ed="#P" n="71"/>potestatem universalem ad ferendas leges 
+          ci<lb break="no" ed="#P" n="72"/>viles obligantes universum orbem. hationes
+          <lb ed="#P" n="73"/>enim factae de imperatore romano, de 
+          quo<lb break="no" ed="#P" n="74"/>cumque alio rege vel principe humano 
+          pro<lb break="no" ed="#P" n="75"/>cedunt majori efficacia : neque ullus auctor
+          <lb ed="#P" n="76"/>est qui de alio principe extra romanum 
+          im<lb break="no" ed="#P" n="77"/>peratorem id cogitaverit, quia de caeteris nulla
+          <lb ed="#P" n="78"/>esse potuit suspicionis umbra : nec vero pro
+          <lb ed="#P" n="79"/>imperatore romano quidquam faciunt, quae ex
+          <lb ed="#P" n="80"/>Evangelio afferuntur : nam imprimis in verbis
+          <lb ed="#P" n="81"/>Lucae 2 illa particula universus orbis non 
+          si<lb break="no" ed="#P" n="82"/>gnificat universum terrae ambitum, aut omnes
+          <lb ed="#P" n="83"/>homines, aut regna quae in illo continentur,
+          <lb ed="#P" n="84"/>quia constat nec totum orbem in hoc sensu
+          <lb ed="#P" n="85"/>fuisse descriptum, nec edictum Caesaris missum
+          <lb ed="#P" n="86"/>fuisse ad Indos vel alias gentes in quibus 
+          prae<lb break="no" ed="#P" n="87"/>fectos et praesides Augustus non habebat. 
+          Si<lb break="no" ed="#P" n="88"/>gnificatur ergo ibi nomine totius orbis (ut 
+          om<lb break="no" ed="#P" n="89"/>nes exponunt), per synecdochem , pars illa
+          <lb ed="#P" n="90"/>orbis praecipua, et notissima, et maxima, cui
+          <lb ed="#P" n="91"/>imperatores romani dominabantur, et per 
+          an<lb break="no" ed="#P" n="92"/>tonomasiam orbis appellatur. Vel ut ait 
+          Hie<lb break="no" ed="#P" n="93"/>ronym. Isai. 13: Idioma est sancte Scripturae,
+          <lb ed="#P" n="94"/>ut omnem terram illa significet provincia de
+          <lb ed="#P" n="95"/>qua. sermo est. Exempla sunt frequentia 
+          Da<lb break="no" ed="#P" n="96"/>niel. 2, 4et 5 et saepe alias. Verba autem
+          <lb ed="#P" n="97"/>Christi ex alio loco citata ad summum probant
+          <lb ed="#P" n="98"/>regibus solvenda esse tributa debita, non vero
+          <lb ed="#P" n="99"/>probant uni Caesari debuisse omnes homines
+          <lb ed="#P" n="100"/>totius mundi tributum, sed eos tantum qui
+          <lb ed="#P" n="101"/>ill subjecti erant. Addo neque ibi docuisse
+          <lb ed="#P" n="102"/>Christum imperium Caesaris in Judaeos fuisse
+          <lb ed="#P" n="103"/>legitimum et justum : nam ab ea quaestione
+          <lb ed="#P" n="104"/>abstinuit, generatimque respondit reddendum
+          <lb ed="#P" n="105"/>esse Caesari quod ei debebatur, id est, si quid
+          <lb ed="#P" n="106"/>ei debetur, vel quod ei debetur jure aut facto:
+          <lb ed="#P" n="107"/>nam (ut bene ait Soto loco citato) Christus 
+          so<lb break="no" ed="#P" n="108"/>lum jus naturae, non peculiare jus romanorum
+          <lb ed="#P" n="109"/>imperatorum declaravit ; et ideo licet ex illis
+          <lb ed="#P" n="110"/>verbis recte colligatur legitimis principibus
+          <pb ed="#P" n="197"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>solvenda esse justa tributa; nihilominus inde
+          <lb ed="#P" n="2"/>non constat quale fuerit jus imperatorum 
+          ro<lb break="no" ed="#P" n="3"/>manorum in Judaeos : unde licet admittamus
+          <lb ed="#P" n="4"/>fuisse legitimum (quia licct magna ex parte
+          <lb ed="#P" n="5"/>per tyrannidem inceperit, postea nihilominus
+          <lb ed="#P" n="6"/>consensione populorum, et legitima 
+          successio<lb break="no" ed="#P" n="7"/>ne, vel electione a subditis acceptata 
+          firma<lb break="no" ed="#P" n="8"/>tum est), nunquam tamen in totum orbem 
+          di<lb break="no" ed="#P" n="9"/>latatumn est.
+        </p>
+        <p xml:id="szdleg-a49332-d1e616">
+          <lb ed="#P" n="10"/>1. Translatio imperii a Graecis ad Germanos
+          <lb ed="#P" n="11"/>a Pontifice facta. — Tertius sensus illius 
+          sen<lb break="no" ed="#P" n="12"/>tentiae esse posset, ut saltem imperator 
+          chris<lb break="no" ed="#P" n="13"/>tianus habeat jurisdictionem hanc universalem
+          <lb ed="#P" n="14"/>ad ferendas leges civiles in universum 
+          chris<lb break="no" ed="#P" n="15"/>tianum orbem, seu in universam Ecclesiam
+          <lb ed="#P" n="16"/>ubicumque fuerit diffusa. Quam jurisdictionem
+          <lb ed="#P" n="17"/>habuerit, non jure belli aut electionis, sed 
+          in<lb break="no" ed="#P" n="18"/>stitutione romani pontificis, et postea per
+          <lb ed="#P" n="19"/>electionem legitimam juxta ritum ab eadem
+          <lb ed="#P" n="20"/>Sede Apostolica ordinatum. Et hic sensus 
+          vi<lb break="no" ed="#P" n="21"/>deri potest verisimilior. Primo, quia jura 
+          ca<lb break="no" ed="#P" n="22"/>nonica hoc indicant : constituunt enim 
+          Ponti<lb break="no" ed="#P" n="23"/>ficem et imperatorem tanquam duo suprema
+          <lb ed="#P" n="24"/>capita Ecclesiae, unum in spiritualibus, et alium
+          <lb ed="#P" n="25"/>in temporalibus. Unde in cap. Solite, de 
+          Ma<lb break="no" ed="#P" n="26"/>jor. et obedientia, comparantur soli et lunae, et
+          <lb ed="#P" n="27"/>in cap. Duo, 96 dist., mundus dicitur 
+          prin<lb break="no" ed="#P" n="28"/>cipaliter regi auctoritate sacra Pontificum, et
+          <lb ed="#P" n="29"/>regia potestate. Unde Hieronymus, cap. 7n
+          <lb ed="#P" n="30"/>apibus 1, q. 1, in omni ordine dicit esse debere
+          <lb ed="#P" n="31"/>principem unum, et subdit: mperator unus.
+          <lb ed="#P" n="32"/>Secundo, favent jura civilia christianorum
+          <lb ed="#P" n="33"/>imperatorum : nam in leg. 2 de Veteri jure
+          <lb ed="#P" n="34"/>enucl., in fine, ait Justinianus : Tertia pars
+          <lb ed="#P" n="35"/>totius mundi accrevit nobis post Europam enim
+          <lb ed="#P" n="36"/>et Asiam, tota Libya nostro imperio adjuncta
+          <lb ed="#P" n="37"/>est. Unde in l. Cum multa, c. de Bon. quae 
+          li<lb break="no" ed="#P" n="38"/>ber., imperialis (inquit) fortuna omnes 
+          superc<lb break="no" ed="#P" n="39"/>minet alias. Et in Extravaganti Ad 
+          reprimen<lb break="no" ed="#P" n="40"/>dum, in principio: Romanun imperium (ait) in
+          <lb ed="#P" n="41"/>cujus tranquillitate totaus orbis (utique 
+          chris<lb break="no" ed="#P" n="42"/>tiani) regularitas requiescit. Tertio, suadetur
+          <lb ed="#P" n="43"/>hoc, maxime quia constat imperatoriam 
+          di<lb break="no" ed="#P" n="44"/>gnitatem, ut nunc est in Ecclesia, a summis
+          <lb ed="#P" n="45"/>Pontificibus esse institutam, et ex vi illius
+          <lb ed="#P" n="46"/>imperatores esse supra omnes reges et 
+          prin<lb break="no" ed="#P" n="47"/>cipes Ecclesiae; ergo habet jurisdictionem 
+          tem<lb break="no" ed="#P" n="48"/>poralem in totam Ecclesiam. Major patet ex
+          <lb ed="#P" n="49"/>translatione imperii, quae a Graecis ad 
+          Germa<lb break="no" ed="#P" n="50"/>nos per Pontificem romanum facta est, ut
+          <lb ed="#P" n="51"/>constat ex Clement. Romani, de Jur. jur., ubi
+          <lb ed="#P" n="52"/>ctiam dicitur imperatorem a Pontifice accipere
+          <lb ed="#P" n="53"/>approbationem, unctionem , conservationem
+          <lb ed="#P" n="54"/>et coronationem. Idem sumitur ex cap. 
+          Vene<lb break="no" ed="#P" n="55"/>ralilem, de Electione, ubi etiam dicitur elec-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tores imperii a Sede Apostolica habere jus
+          <lb ed="#P" n="57"/>eligendi, et Glos. ibi verb. In Germanos, 
+          ad<lb break="no" ed="#P" n="58"/>dit : Sic ergo regnum mundi translatum est
+          <lb ed="#P" n="59"/>ad Tewtonicos, et alia quae late prosequitur,
+          <lb ed="#P" n="60"/>sentiens ex tunc imperatores Orientis non
+          <lb ed="#P" n="61"/>fuisse vere imperatores. Unde probatur 
+          con<lb break="no" ed="#P" n="62"/>sequentia primi argumenti cum minori, quia
+          <lb ed="#P" n="63"/>seclusa jurisdictione et dominio, nihil habet
+          <lb ed="#P" n="64"/>dignitas imperatoria in quo regiam excellat.
+        </p>
+        <p xml:id="szdleg-a49332-d1e740">
+          <lb ed="#P" n="65"/>8. Sententia auctoris. — Nihilominus 
+          di<lb break="no" ed="#P" n="66"/>cendum est etiam in hoc sensu imperatorem
+          <lb ed="#P" n="67"/>romanum non habere potestatem legislativam
+          <lb ed="#P" n="68"/>in totam Ecclesiam, nec jurisdictionem 
+          imme<lb break="no" ed="#P" n="69"/>diatam in omnes Ecclesiae provincias, quae ad
+          <lb ed="#P" n="70"/>hoc sufficiat. Probatur primo de toto imperio
+          <lb ed="#P" n="71"/>Orientis prout fuit sub imperatoribus graecis
+          <lb ed="#P" n="72"/>et christianis post translationem imperii 
+          occi<lb break="no" ed="#P" n="73"/>dentalis ad Graecos. Nam Irene, quae tunc 
+          im<lb break="no" ed="#P" n="74"/>perabat, post coronationem Caroli, imperatrix
+          <lb ed="#P" n="75"/>orientalis mansit, et ad illam Pontifex et 
+          Ca<lb break="no" ed="#P" n="76"/>rolus legatos miserunt ad pacem inter 
+          utrum<lb break="no" ed="#P" n="77"/>que imperium conservandum. Et quamvis
+          <lb ed="#P" n="78"/>postea multi ex Orientalibus fuerint tyranni,
+          <lb ed="#P" n="79"/>alii haeretici, nihilominus qui fuerunt rite
+          <lb ed="#P" n="80"/>electi et catholici, ut legitimi imperatores 
+          ha<lb break="no" ed="#P" n="81"/>biti sunt, etiam a Romanis, neque unquam
+          <lb ed="#P" n="82"/>imperator occidentalis jus imperii in Orientem
+          <lb ed="#P" n="83"/>sibi vindicavit aut attribuit, ut ex omnibus
+          <lb ed="#P" n="84"/>historiis constat. Secundo, idem est 
+          manifes<lb break="no" ed="#P" n="85"/>tum de principibus et regibus, si qui forte 
+          ex<lb break="no" ed="#P" n="86"/>tra ditionem romani imperii regnantes ad 
+          fi<lb break="no" ed="#P" n="87"/>dem conversi sunt: ut sunt nunc Japonii et
+          <lb ed="#P" n="88"/>alii in India, et possent esse plures, ut rex
+          <lb ed="#P" n="89"/>Chinae, etc. In hos enim nullum jus dominandi
+          <lb ed="#P" n="90"/>vel imperandi habet romanus imperator, solum
+          <lb ed="#P" n="91"/>quia Ecclesiae membra sunt, quia nulla est 
+          ra<lb break="no" ed="#P" n="92"/>tio vel titulus subjectionis temporalis : sicut
+          <lb ed="#P" n="93"/>ergo antea non erant subditi, ita etiam neque
+          <lb ed="#P" n="94"/>post conversionem.
+        </p>
+        <p xml:id="szdleg-a49332-d1e809">
+          <lb ed="#P" n="95"/>9. Tertio, id probatur de regibus christianis
+          <lb ed="#P" n="96"/>intra fines antiqui imperii existentibus : nam
+          <lb ed="#P" n="97"/>inter illos multi sunt supremi in temporalibus;
+          <lb ed="#P" n="98"/>ergo in illos et eorum regna non habet 
+          impe<lb break="no" ed="#P" n="99"/>rator jurisdictionem, nec potest eos suis 
+          legi<lb break="no" ed="#P" n="100"/>bus obligare. Consequentia clara est, quia
+          <lb ed="#P" n="101"/>repugnat esse supremum et esse subditum in
+          <lb ed="#P" n="102"/>eodem ordine jurisdictionis. Antecedens patet,
+          <lb ed="#P" n="103"/>primum in terris ipsis temporaliter subjectis
+          <lb ed="#P" n="104"/>Pontifici : ibi enim ipse habet supremam 
+          ju<lb break="no" ed="#P" n="105"/>risdictionem temporalem directam, et ita Bart.
+          <lb ed="#P" n="106"/>in dicta Extravag. Ad reprimendum saltem 
+          il<lb break="no" ed="#P" n="107"/>lam partem orbis christiani excipit. Deinde
+          <lb ed="#P" n="108"/>de regno Galliae ex cap. Per venerabilem, Qui
+          <lb ed="#P" n="109"/>filii sint legitimi, ubi dicitur rex Galliae 
+          supe<lb break="no" ed="#P" n="110"/>riorem in temporalibus non recognoscere. Et
+          <pb ed="#P" n="198"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>licet Glossa ibi dicat intelligendum id esse de
+          <lb ed="#P" n="2"/>facto, repugnare videtur textui : nam inde 
+          in<lb break="no" ed="#P" n="3"/>fert Pontifex sine juris alterius lesione potuisse
+          <lb ed="#P" n="4"/>se subdere alteri quam imperatori, quod non
+          <lb ed="#P" n="5"/>ita esset si esset jure imperatori subjectus. Et
+          <lb ed="#P" n="6"/>ita Glossam illam merito contemnit Tiraquel.
+          <lb ed="#P" n="7"/>de Jure Primog.. q. 7, opin. 3, n. 20 et 21.
+          <lb ed="#P" n="8"/>Idem est certum de rege Hispaniae, ut ostendit
+          <lb ed="#P" n="9"/>Covar. inreg. Peccatum, 2 part., S 9, n. 9,ex
+          <lb ed="#P" n="10"/>triplici titulo, scilicet, jure belli contra 
+          Sara<lb break="no" ed="#P" n="11"/>cenos gesti, jure praescriptionis et 
+          consuetudi<lb break="no" ed="#P" n="12"/>nis, et ibi refert plures alios auctores. Ilemque
+          <lb ed="#P" n="13"/>fere habet Castald., tract. de Imper., q. 53,
+          <lb ed="#P" n="14"/>n. 6, 13 et 14. Et Cabed., t. 1 decis. 211, n. 3,
+          <lb ed="#P" n="15"/>dicens reges Hispaniae habere jura imperii.
+          <lb ed="#P" n="16"/>Idem alii docent de rege Angliae, et 
+          significa<lb break="no" ed="#P" n="17"/>tur in cap. Causam, 2, Qui filii sint legitim.,
+          <lb ed="#P" n="18"/>et in cap. Norit, de Judic. Respublica etiam
+          <lb ed="#P" n="19"/>Veneta eodem jure uti dicitur, et fortasse alia
+          <lb ed="#P" n="20"/>regna ; ergo manifestum est non habere 
+          im<lb break="no" ed="#P" n="21"/>peratorem supremam jurisdictionem 
+          tempo<lb break="no" ed="#P" n="22"/>ralem ad ferendas leges civiles obligantes 
+          uni<lb break="no" ed="#P" n="23"/>versam Ecclesiam.
+        </p>
+        <p xml:id="szdleg-a49332-d1e900">
+          <lb ed="#P" n="24"/>10. Quarto, est ratio a priori, quia imperator
+          <lb ed="#P" n="25"/>etiam romanus non habet directam 
+          jurisdic<lb break="no" ed="#P" n="26"/>tionem temporalem a Pontifice: ergo multo
+          <lb ed="#P" n="27"/>minus potest illam habere in universam 
+          Ec<lb break="no" ed="#P" n="28"/>clesiam. Consequentia est clara, quia aliunde
+          <lb ed="#P" n="29"/>illam non habet, ut ostensum est. Antecedens
+          <lb ed="#P" n="30"/>autem patet ex dictis, quia Pontifex non habet
+          <lb ed="#P" n="31"/>a Christo jurisdictionem temporalem nec in
+          <lb ed="#P" n="32"/>universum orbem, nec in universam 
+          Eccle<lb break="no" ed="#P" n="33"/>siam, neque in aliquam partem ejus ex vi
+          <lb ed="#P" n="34"/>juris divini : nam regnum temporale quod
+          <lb ed="#P" n="35"/>nunc habet, jure humano obtinuit, ut constat:
+          <lb ed="#P" n="36"/>ergo non potuit talem jurisdictionem directam
+          <lb ed="#P" n="37"/>imperatori conferre per pontificiam potestatem,
+          <lb ed="#P" n="38"/>sed solum potuit illud imperium, quod antea
+          <lb ed="#P" n="39"/>erat, ab una persona in aliam transferre. Unde
+          <lb ed="#P" n="40"/>hoc sensu verissimum est regiam potestatem
+          <lb ed="#P" n="41"/>etiam in Ecclesia non ducere originem a 
+          sacer<lb break="no" ed="#P" n="42"/>dotali, ut late et bene confirmat Vuald. lib. 2,
+          <lb ed="#P" n="43"/>Doctr. fidei, cap. 78.
+        </p>
+        <p xml:id="szdleg-a49332-d1e946">
+          <lb ed="#P" n="44"/>11. Respundetur opposite sententie 
+          argu<lb break="no" ed="#P" n="45"/>mentis.—Neque jura canonica in contrarium
+          <lb ed="#P" n="46"/>adducta aliquid probant; nam in cap. Solite,
+          <lb ed="#P" n="47"/>quando fit comparatio ad solem et lunam, non
+          <lb ed="#P" n="48"/>est sermo de imperatore, sed de regia 
+          potes<lb break="no" ed="#P" n="49"/>tate: sic enim dicitur ibi: Ad firmamentum
+          <lb ed="#P" n="50"/>universalis Ecclesie fecit Deus duo magna
+          <lb ed="#P" n="51"/>luminaria , id est, duas instituit dignitates,
+          <lb ed="#P" n="52"/>que sunt Ponlificialis auctoritas, et regalis
+          <lb ed="#P" n="53"/>potestas. Quod potest recte intelligi de legali
+          <lb ed="#P" n="54"/>potestate secundum se, sive sit in una persona
+          <lb ed="#P" n="55"/>respectu totius Ecclesiae, sive in multis res-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>pectu diversarum partium Excclesiae. Unde
+          <lb ed="#P" n="57"/>paulo antea loquendo de imperatore solum
+          <lb ed="#P" n="58"/>dicitur: Praecellit in temporalibus eos qui ab
+          <lb ed="#P" n="59"/>eo suscipiunt temporalia. Similiter etiam in
+          <lb ed="#P" n="60"/>cap. Duo sunt, sermo est de regia potestate,
+          <lb ed="#P" n="61"/>non de imperatore. Unde statim in plurali de
+          <lb ed="#P" n="62"/>regibus dicitur esse subditos sacerdotibus, qui
+          <lb ed="#P" n="63"/>pro illis sunt rationem reddituri. Denique cap.
+          <lb ed="#P" n="64"/>In apibus solum probat in unoquoque regno
+          <lb ed="#P" n="65"/>debere esse unum principem supremum, sive
+          <lb ed="#P" n="66"/>ille sit imperator, sive rex. Ad leges civiles,
+          <lb ed="#P" n="67"/>respondeo in dicta l. 2 de Veter. jur. enucl.
+          <lb ed="#P" n="68"/>imperatorem loqui de mundo, et partibus ejus
+          <lb ed="#P" n="69"/>per synecdochem ; nam ex aliis legibus 
+          ejus<lb break="no" ed="#P" n="70"/>dem imperatoris constat non habuisse sub 
+          po<lb break="no" ed="#P" n="71"/>testate sua omnes Ecclesiae provincias quae
+          <lb ed="#P" n="72"/>jam erant in mundo, et partibus ejus, ut supra
+          <lb ed="#P" n="73"/>allegatum est. Ut autem imperialis fortuna
+          <lb ed="#P" n="74"/>tunc diceretur super alias eminere, satis 
+          super<lb break="no" ed="#P" n="75"/>que erat quod amplissimam et supremam 
+          ju<lb break="no" ed="#P" n="76"/>risdictionem exercebat in majorem partem
+          <lb ed="#P" n="77"/>mundi omnibus cognuitam. Et ob eamdem 
+          po<lb break="no" ed="#P" n="78"/>tentiam et protectionem specialem Ecclesiae,
+          <lb ed="#P" n="79"/>quae ad illum semper pertinuit, dicitur etiam
+          <lb ed="#P" n="80"/>requiescere orbis christiani regularitas, id est,
+          <lb ed="#P" n="81"/>pax et defensio, ac debitus ordo.
+        </p>
+        <p xml:id="szdleg-a49332-d1e1033">
+          <lb ed="#P" n="82"/>12. Quid habeat imperator ea translatione
+          <lb ed="#P" n="83"/>imperii. — Leonem III transtulisse imperium
+          <lb ed="#P" n="84"/>in Carolun Magnum.— Pontifea non potest pro
+          <lb ed="#P" n="85"/>suo arbitrio mutare regna, sed solum quando 
+          bo<lb break="no" ed="#P" n="86"/>nwn spirituale id pelit.—Ad tertium, in summa
+          <lb ed="#P" n="87"/>negatur minor, quatenus dicit per 
+          translatio<lb break="no" ed="#P" n="88"/>nem imperii auctoritate pontificia factam, 
+          im<lb break="no" ed="#P" n="89"/>peratorem esse constitutum supra omnes reges
+          <lb ed="#P" n="90"/>christianos, propria superioritate 
+          jurisdictio<lb break="no" ed="#P" n="91"/>nis, praesertim ordinariae et legislativae, sed ad
+          <lb ed="#P" n="92"/>summum obtinuisse specialem gradum 
+          hono<lb break="no" ed="#P" n="93"/>ris et dignitatis ex speciali conjunctione ad
+          <lb ed="#P" n="94"/>apostolicam sedem, ejusque concessionem. 
+          Ita<lb break="no" ed="#P" n="95"/>que imperator Occidentis, postquam facta est
+          <lb ed="#P" n="96"/>translatio et divisio imperii, non coepit habere
+          <lb ed="#P" n="97"/>majorem jurisdictionem temporalem ac 
+          direc<lb break="no" ed="#P" n="98"/>tam quam habeant imperatores orientales in
+          <lb ed="#P" n="99"/>Occidentis provincias, quia nec Pontifex illam
+          <lb ed="#P" n="100"/>majorem jurisdictionem temporalem contulit,
+          <lb ed="#P" n="101"/>nec conferre poterat. Primum patet ex juribus
+          <lb ed="#P" n="102"/>allegatis, et ex historiis, quae solum asserunt
+          <lb ed="#P" n="103"/>papam Leonem II transtulisse imperium, et
+          <lb ed="#P" n="104"/>in illo primum constituisse Carolum Magnum :
+          <lb ed="#P" n="105"/>transferre autem solum est, dominium quod
+          <lb ed="#P" n="106"/>Irene, verbi gratia, habebat in terris imperii
+          <lb ed="#P" n="107"/>occidentalis, ablatum ab ea fuisse et collatum
+          <lb ed="#P" n="108"/>Carolo, ut perpetuo in occidentah imperatore
+          <lb ed="#P" n="109"/>eligendo juxta modum a Pontificibus 
+          ordinan<lb break="no" ed="#P" n="110"/>dum permaneret : ergo ex vi illius translatio-
+          <pb ed="#P" n="199"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nis non est auctum illud imperium quoad 
+          ju<lb break="no" ed="#P" n="2"/>risdictionem temporalem et directam in eas
+          <lb ed="#P" n="3"/>provincias Ecclesiae, in quas antea illam non
+          <lb ed="#P" n="4"/>habebat. Secundum autem, scilicet, hoc aliter
+          <lb ed="#P" n="5"/>fieri non potuisse, patet, quia Pontifex non
+          <lb ed="#P" n="6"/>potest pro suo arbitrio mutare regna, vel 
+          sub<lb break="no" ed="#P" n="7"/>jicere temporaliter ea quae libera sunt, sed
+          <lb ed="#P" n="8"/>solum quando ratio spiritualis boni id postulet,
+          <lb ed="#P" n="9"/>per supremam potestatem spiritualem, quae
+          <lb ed="#P" n="10"/>hoc modo ad temporalia extenditur. Tunc 
+          au<lb break="no" ed="#P" n="11"/>tem nulla erat ratio mutandi ordinem 
+          juris<lb break="no" ed="#P" n="12"/>dictionum temporalium regnorum, nec 
+          subji<lb break="no" ed="#P" n="13"/>ciendi imperatori regna libera, si quae erant:
+          <lb ed="#P" n="14"/>ergo non est verosimile potuisse nunc 
+          Pontifi<lb break="no" ed="#P" n="15"/>cem tantam mutationem facere, multoque 
+          mi<lb break="no" ed="#P" n="16"/>nus credibile est id fecisse.
+        </p>
+        <p xml:id="szdleg-a49332-d1e1137">
+          <lb ed="#P" n="17"/>13. Imo, existimo ex vi illius translationis
+          <lb ed="#P" n="18"/>non fuisse additam immobilitatem (ut sic 
+          di<lb break="no" ed="#P" n="19"/>cam) dominio temporali, seu jurisdictioni 
+          im<lb break="no" ed="#P" n="20"/>peratoris. Ac subinde fieri etiam potuisse ut
+          <lb ed="#P" n="21"/>post illa tempora regna aliqua, quae tunc non
+          <lb ed="#P" n="22"/>erant omnino libera, fuerint libera effecta, vel
+          <lb ed="#P" n="23"/>per jus belli, vel per legitimam 
+          praescriptio<lb break="no" ed="#P" n="24"/>nem, vel certe per ipsorum Pontificum 
+          con<lb break="no" ed="#P" n="25"/>cessionem ex justa et rationabili causa factam.
+          <lb ed="#P" n="26"/>Quia temporalis imperii jurisdictio de se 
+          sub<lb break="no" ed="#P" n="27"/>jecta est.his mutationibus, et per solam 
+          trans<lb break="no" ed="#P" n="28"/>lationem non est immobilior facta, quia in
+          <lb ed="#P" n="29"/>jurisdictione vel in dominio non est aucta, nec
+          <lb ed="#P" n="30"/>in se variata, sed solum in applicatione ad 
+          ta<lb break="no" ed="#P" n="31"/>lem personam et ad talem modum 
+          successio<lb break="no" ed="#P" n="32"/>nis. Accessisse autem videtur imperatori 
+          qui<lb break="no" ed="#P" n="33"/>dam honoris et dignitatis gradus, qui, licet
+          <lb ed="#P" n="34"/>simpliciter temporalis sit, indirecte participat
+          <lb ed="#P" n="35"/>excellentiam spiritualis ordinis per 
+          habitudi<lb break="no" ed="#P" n="36"/>nem ad pontificiam dignitatem.Quia specialiter
+          <lb ed="#P" n="37"/>ordinatus est ut sit protector et defensor 
+          Eccle<lb break="no" ed="#P" n="38"/>siae et pontificiae dignitatis, et ideo specialiter
+          <lb ed="#P" n="39"/>conjungitur Pontifici, et ab eo conjungitur,
+          <lb ed="#P" n="40"/>consecratur et coronatur. Et fortasse in ordine
+          <lb ed="#P" n="41"/>ad eum finem defendendi Ecclesiam, aliquam
+          <lb ed="#P" n="42"/>auctoritatem habet convocandi, vel movendi
+          <lb ed="#P" n="43"/>principes catholicos, vel etiam similem 
+          auctori<lb break="no" ed="#P" n="44"/>tatem habet ad componendas et dirimendas
+          <lb ed="#P" n="45"/>dissensiones inter illos, ubi ad vitanda bella et
+          <lb ed="#P" n="46"/>damna Excclesiae necessarium fuerit. Sed si
+          <lb ed="#P" n="47"/>quid habet hujusmodi, a Pontifice id 
+          partici<lb break="no" ed="#P" n="48"/>pat; pertinetque ad indirectam potestatem
+          <lb ed="#P" n="49"/>quasi ministerialem et vicariam Pontificis, non
+          <lb ed="#P" n="50"/>ad directam temporalem jurisdictionem: et ita
+          <lb ed="#P" n="51"/>in usu talis auctoritatis semper a Pontifice
+          <lb ed="#P" n="52"/>pendet: imo sine interventu Pontificis credo
+          <lb ed="#P" n="53"/>esse valde inefficacem, et vix posse 
+          obligatio<lb break="no" ed="#P" n="54"/>nem inducere : in qua re usui et consuetudini
+          <lb ed="#P" n="55"/>standum erit. Haec vero auctoritas, quidquid
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>de illa sit, non sufficit ad propriam 
+          jurisdic<lb break="no" ed="#P" n="57"/>tionem temporalem directam, nec ad leges
+          <lb ed="#P" n="58"/>civiles ferendas, quod nunc tractamus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

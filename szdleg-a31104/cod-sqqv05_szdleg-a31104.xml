@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="121"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a31104"><!-- deleg-l2c10 -->
+        <head xml:id="szdleg-a31104-Hd1e101">Caput 10</head>
+        <head xml:id="szdleg-a31104-Hd1e103" type="question-title">Utrum lex naturalis obliget non solum ad actum, sed etiam ad modum virtutis, ita ut nisi per actum omni ex parte honestum iapleri non possit</head>
+        <p xml:id="szdleg-a31104-d1e106">
+          <lb ed="#P" n="99"/>CAPUT X
+          <lb ed="#P" n="100"/>UTRUM LEX NATURALIS OBLIGET NON SOLUM AD 
+          AC<lb break="no" ed="#P" n="101"/>TUM, SED ETIAM AD MODUM VIRTUTIS, ITA UT
+          <lb ed="#P" n="102"/>NISI PER ACTUM OMNI EX PARTE HONESTUM 
+          IA<lb break="no" ed="#P" n="103"/>PLERI NON POSSIT.
+        </p>
+        <p xml:id="szdleg-a31104-d1e119">
+          <lb ed="#P" n="104"/>1. Differentia inter praecepta affirnativa
+          <lb ed="#P" n="105"/>et negativa. — Haec quaestio necessaria est ad
+          <lb ed="#P" n="106"/>perfecte intelligendam vim et efficaciam 
+          le<lb break="no" ed="#P" n="107"/>gis naturalis, ejusque exactam obligationem:
+          <pb ed="#P" n="122"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>illamque disputavit de praeceptis Decalogi 
+          di<lb break="no" ed="#P" n="2"/>vus Thomas, quaest. 100, quam nos hic simul
+          <lb ed="#P" n="3"/>cum 95 fere totam explicabimus, quia 
+          praecep<lb break="no" ed="#P" n="4"/>ta Decalogi naturalia sunt, licet in lege veteri
+          <lb ed="#P" n="5"/>fuerint speciali modo proposita. Ibi ergo in
+          <lb ed="#P" n="6"/>artic. 9 quarit D. Thomas an modus virtutis
+          <lb ed="#P" n="7"/>cadat sub praeceptum, et in art. 10, idem 
+          quae<lb break="no" ed="#P" n="8"/>rit de modo charitatis, et distinguit plures
+          <lb ed="#P" n="9"/>conditiones necessarias ad actum virtutis, et
+          <lb ed="#P" n="10"/>aliquas dicit cadere sub legem naturalem: de
+          <lb ed="#P" n="11"/>aliis vero negat. Prius vero quam ejus 
+          doc<lb break="no" ed="#P" n="12"/>trinam proponamus, distinctionem 
+          constitua<lb break="no" ed="#P" n="13"/>mus inter praecepta negativa et affirmativa,
+          <lb ed="#P" n="14"/>qua in hoc quodammodo conveniunt, quod
+          <lb ed="#P" n="15"/>sicut affirmativa non praecipiunt nisi quod 
+          ho<lb break="no" ed="#P" n="16"/>nestum est, ita negativa non prohibent, nisi
+          <lb ed="#P" n="17"/>quod malum est, quia (ut saepe diximus) quae
+          <lb ed="#P" n="18"/>prohibentur lege naturae non sunt mala quia
+          <lb ed="#P" n="19"/>prohibita, sed prohibita quia mala. Differunt
+          <lb ed="#P" n="20"/>vero quia praecepta negativa impleri possunt
+          <lb ed="#P" n="21"/>sine ullo actu, quantum est ex forma 
+          praecep<lb break="no" ed="#P" n="22"/>ti, quia per solam negationem actus prohibiti
+          <lb ed="#P" n="23"/>homo est conformis praecepto : et ita in his
+          <lb ed="#P" n="24"/>praeceptis vix habet locum proposita quaestio,
+          <lb ed="#P" n="25"/>nisi fortasse quatenus haec praecepta impleri
+          <lb ed="#P" n="26"/>possunt per voluntatem non faciendi quod
+          <lb ed="#P" n="27"/>prohibitum est, de quo modo aliquid 
+          attinge<lb break="no" ed="#P" n="28"/>mus. Proprie vero habet locum quaestio in
+          <lb ed="#P" n="29"/>praeceptis affirmativis, quae per positivum 
+          ac<lb break="no" ed="#P" n="30"/>tum implenda sunt, ut constat.
+        </p>
+        <p xml:id="szdleg-a31104-d1e200">
+          <lb ed="#P" n="31"/>2. Differentia inter impletionem praecepti et
+          <lb ed="#P" n="32"/>non transgressionem illius. — Deinde 
+          obser<lb break="no" ed="#P" n="33"/>vandum est aliud esse non transgredi 
+          praece<lb break="no" ed="#P" n="34"/>ptum ; aliud vero implere illud, si proprie 
+          lo<lb break="no" ed="#P" n="35"/>quamur. Omnis enim qui non peccat contra
+          <lb ed="#P" n="36"/>praeceptum non transgreditur illud : et tamen
+          <lb ed="#P" n="37"/>non semper, qui non peccat contra praeceptum,
+          <lb ed="#P" n="38"/>implet illud. Qui enim invincibiliter ignorat
+          <lb ed="#P" n="39"/>praeceptum, vel qui ebrius est, aut dormit, vel
+          <lb ed="#P" n="40"/>est impotens, vel aliam similem excusationem
+          <lb ed="#P" n="41"/>habet, non peccat contra praeceptum : et 
+          ta<lb break="no" ed="#P" n="42"/>men non implet illud, praesertim si 
+          affirmati<lb break="no" ed="#P" n="43"/>vum sit, quia non facit quod lex praecipit, et
+          <lb ed="#P" n="44"/>hoc est proprie implere illam; imo si 
+          morali<lb break="no" ed="#P" n="45"/>ter illo verbo utamur, non satis est facere quod
+          <lb ed="#P" n="46"/>lex jubet, sed oportet libere et humano modo
+          <lb ed="#P" n="47"/>facere, ut mox dicemus. Quapropter quaestio
+          <lb ed="#P" n="48"/>non movetur de non transgressione praecepti,
+          <lb ed="#P" n="49"/>quia haec potest contingere nonsolum sine actu
+          <lb ed="#P" n="50"/>virtutis, sed etiam sine ullo actu, ut constat ex
+          <lb ed="#P" n="51"/>dictis, quia dormiendo fieri potest ut non 
+          pec<lb break="no" ed="#P" n="52"/>cetur contra praeceptum. Quaestio ergo est,
+          <lb ed="#P" n="53"/>quando nulla est excusatio, sed lex positive
+          <lb ed="#P" n="54"/>(ut sic dicam) implenda est, ut vitetur contra
+          <lb ed="#P" n="55"/>illam peccatum: et tum clarum est esse neces-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sarium actum ex suo genere honestum, quia
+          <lb ed="#P" n="57"/>(ut cap. 7 dicebam) lex naturalis non 
+          praeci<lb break="no" ed="#P" n="58"/>pit alios actus, et impleri non potest nisi per
+          <lb ed="#P" n="59"/>actum quem praecipit: quia vero non satis est
+          <lb ed="#P" n="60"/>ad virtutem honestum facere, nisi fiat honeste,
+          <lb ed="#P" n="61"/>juxta illud Deut. 16: Juste quod justum est
+          <lb ed="#P" n="62"/>persequeris, ideo inquirimus an totum hoc sit
+          <lb ed="#P" n="63"/>necessarium ad legem naturalem implendam.
+        </p>
+        <p xml:id="szdleg-a31104-d1e277">
+          <lb ed="#P" n="64"/>3. De conditionibus ad actum bonum moralem
+          <lb ed="#P" n="65"/>requisitis. — Denique, distinguendae sunt tres
+          <lb ed="#P" n="66"/>conditiones requisitae in actu morali, ut sit
+          <lb ed="#P" n="67"/>bonus, quas Aristoteles sub duabus 
+          compre<lb break="no" ed="#P" n="68"/>hendit: nos autem claritatis gratia ita illas
+          <lb ed="#P" n="69"/>distinguimus, ut magis in sequentibus 
+          expli<lb break="no" ed="#P" n="70"/>cabimus. Prima est, ut actus fiat ex sufficienti
+          <lb ed="#P" n="71"/>cognitione ; secunda, ut libere et spontanee
+          <lb ed="#P" n="72"/>fiat ; tertia, ut non solum sit de re honesta, sed
+          <lb ed="#P" n="73"/>etiam cum circumstantiis omnibus ad 
+          hones<lb break="no" ed="#P" n="74"/>tatem actus requisitis. Aliam addit Aristoteles
+          <lb ed="#P" n="75"/>quam tertio loco ponit, et nobis esse posset
+          <lb ed="#P" n="76"/>quarta, scilicet, ut actus fiat firmiter, prompte
+          <lb ed="#P" n="77"/>ac delectabiliter, id est, ut ex habitu fiat. Hanc
+          <lb ed="#P" n="78"/>vero conditionem ultimam omittere possumus,
+          <lb ed="#P" n="79"/>quia certum est et indubitatum apud omnes,
+          <lb ed="#P" n="80"/>neque naturalem legem, neque aliquam aliam
+          <lb ed="#P" n="81"/>obligare ad illum modum operandi. De aliis
+          <lb ed="#P" n="82"/>legibus est id manifestum, quia nec directe ae
+          <lb ed="#P" n="83"/>formaliter id praecipiunt, ut facile constare 
+          po<lb break="no" ed="#P" n="84"/>test ex discursu legum omnium, tam divinarum
+          <lb ed="#P" n="85"/>positivarum quam humanarum ; nec etiam
+          <lb ed="#P" n="86"/>sequitur ex eo quod praecipiunt, quia quidquid
+          <lb ed="#P" n="87"/>praecipiunt fieri potest sine illo modo. 
+          Eadem<lb break="no" ed="#P" n="88"/>que ratio probat de lege naturali: praesertim,
+          <lb ed="#P" n="89"/>quia illa non praecipit nisi quod ad honestatem
+          <lb ed="#P" n="90"/>per se necessarium est : ille autem modus non
+          <lb ed="#P" n="91"/>est necessarius ad honestatem operationis, 
+          h<lb break="no" ed="#P" n="92"/>cet sit commodus et conveniens. Item lex 
+          na<lb break="no" ed="#P" n="93"/>turalis obligat a principio, priusquam homo
+          <lb ed="#P" n="94"/>possit habere habitus (loquendo ex natura rei),
+          <lb ed="#P" n="95"/>quia debet illos acquircre suis actibus. Item,
+          <lb ed="#P" n="96"/>habere vel non habere habitus non est per se
+          <lb ed="#P" n="97"/>materia praecepti, quia praecepta dantur de
+          <lb ed="#P" n="98"/>actibus humanis; quod vero ad illos sequantur
+          <lb ed="#P" n="99"/>vel non sequantur habitus, vel est ex natura
+          <lb ed="#P" n="100"/>actuum, ut in acquisitis, vel ex gratia Dei, ut
+          <lb ed="#P" n="101"/>in infusis, et ideo illud non cadit sub 
+          praece<lb break="no" ed="#P" n="102"/>ptum : unde, licet ex observatione continua
+          <lb ed="#P" n="103"/>praeceptorum fieri possit ut acquiratur habitus
+          <lb ed="#P" n="104"/>et illa facilitas operandi, tamen illud est 
+          acci<lb break="no" ed="#P" n="105"/>dentarium ad praeceptum : prius enim 
+          obser<lb break="no" ed="#P" n="106"/>vatur praeceptum quam habitus acquiratur, et
+          <lb ed="#P" n="107"/>recte fieri potest ut diu servetur praeceptum,
+          <lb ed="#P" n="108"/>verbi gratia, jejunandi, et non acquiratur 
+          ha<lb break="no" ed="#P" n="109"/>bitus, nec facilitas jejunandi, si homo extra
+          <lb ed="#P" n="110"/>tempus jejunii laute comedat, etiamsi terminos
+          <pb ed="#P" n="123"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>naturalis temperantiae non excedat. Omissa
+          <lb ed="#P" n="2"/>ergo illa conditione in qua nulla est difficultas,
+          <lb ed="#P" n="3"/>de reliquis dicemus, quia nullam 
+          declaratio<lb break="no" ed="#P" n="4"/>nem requirunt.
+        </p>
+        <p xml:id="szdleg-a31104-d1e394">
+          <lb ed="#P" n="5"/>4. Prima assertio.—Modus operandi 
+          volun<lb break="no" ed="#P" n="6"/>tarie cadit sub praeceptum legis naturalis, et
+          <lb ed="#P" n="7"/>necessaruus est ad illius observationem. — Dico
+          <lb ed="#P" n="8"/>ergo primo : Modus voluntarie operandi, sub
+          <lb ed="#P" n="9"/>praeceptum legis naturalis cadit, et ideo 
+          neces<lb break="no" ed="#P" n="10"/>sarius est, ut lex naturalis servetur. Ita docet
+          <lb ed="#P" n="11"/>D. Thomas, dict. art. 9, et ibi omnes. Et 
+          pro<lb break="no" ed="#P" n="12"/>batur, quia lex naturalis in ratione posita est,
+          <lb ed="#P" n="13"/>et immediate dirigit et gubernat voluntatem;
+          <lb ed="#P" n="14"/>ergo illi imponitur quasi per se, et 
+          principa<lb break="no" ed="#P" n="15"/>liter obligatio illius legis: ergo non observatur
+          <lb ed="#P" n="16"/>illa lex nisi mediante voluntate : ergo modus
+          <lb ed="#P" n="17"/>voluntarie operandi est per se praeceptus, ac
+          <lb ed="#P" n="18"/>necessarius ad observationem talis legis. 
+          Se<lb break="no" ed="#P" n="19"/>cundo, quia lex naturalis directe cadit in 
+          ac<lb break="no" ed="#P" n="20"/>tum humanum:: Sed actus non est humanus,
+          <lb ed="#P" n="21"/>nisi sit perfecte voluntarius, ac subinde liber,
+          <lb ed="#P" n="22"/>saltem pro statu hujus vitae : ergo talis modus
+          <lb ed="#P" n="23"/>agendi directe cadit sub hanc legem 
+          natura<lb break="no" ed="#P" n="24"/>lem : unde qui involuntarie opus legis facit,
+          <lb ed="#P" n="25"/>licet illam servare videatur, praevaricator est
+          <lb ed="#P" n="26"/>legis, ut sumitur ex Augustino, lib. 9 contra
+          <lb ed="#P" n="27"/>duas Epistolas Pelag., cap. 9, et seepe alibi
+          <lb ed="#P" n="28"/>dicente, ubi fit bonum non amore justitiae,
+          <lb ed="#P" n="29"/>sed timore poenae, non bene fieri, utique 
+          quan<lb break="no" ed="#P" n="30"/>do timor est ita servilis ut habeat conjunctum
+          <lb ed="#P" n="31"/>affectum non faciendi opus praeceptum, si 
+          poe<lb break="no" ed="#P" n="32"/>na non esset adjuncta. Et eodem sensu dixit
+          <lb ed="#P" n="33"/>D. Thomas dicto art. 9, ad 3, quod operari
+          <lb ed="#P" n="34"/>sine tristitia cadit sub praeceptum legis 
+          divi<lb break="no" ed="#P" n="35"/>nae : quia quicumque operatur cum tristitia,
+          <lb ed="#P" n="36"/>operatur non volens. Hoc enim est verum de
+          <lb ed="#P" n="37"/>illa tristitia quae nascitur ex affectu omnino
+          <lb ed="#P" n="38"/>contrario, quo aliquis habet propositum non
+          <lb ed="#P" n="39"/>obediendi praecepto, si non cogeretur; ergo
+          <lb ed="#P" n="40"/>tale involuntarium est contra legem maxime
+          <lb ed="#P" n="41"/>naturalem, quae directe cadit in actus etiam
+          <lb ed="#P" n="42"/>internos; ergo e contrario modus voluntarie
+          <lb ed="#P" n="43"/>operandi est de necessitate talis praecepti.
+        </p>
+        <p xml:id="szdleg-a31104-d1e481">
+          <lb ed="#P" n="44"/>5. Solutio. -Dices, hac ratione recte 
+          proba<lb break="no" ed="#P" n="45"/>ri necessarium esse ut saltem cum opere legis
+          <lb ed="#P" n="46"/>non conjungatur propositum non faciendi, si
+          <lb ed="#P" n="47"/>poena vel alia similis coactio non 
+          adjungere<lb break="no" ed="#P" n="48"/>tur : non tamen probari esse necessarium 
+          po<lb break="no" ed="#P" n="49"/>sitivum modum voluntarie servandi legem:
+          <lb ed="#P" n="50"/>nam potest dari medium, videlicet, ut opus
+          <lb ed="#P" n="51"/>fiat nec voluntarie, nec involuntarie : quod
+          <lb ed="#P" n="52"/>satis erit, quia lex praecipit solum ut fiat opus.
+          <lb ed="#P" n="53"/>Respondeo ultimam rationem supponere 
+          ac<lb break="no" ed="#P" n="54"/>tum quo servatur praeceptum debere esse 
+          hu<lb break="no" ed="#P" n="55"/>manum quod priores rationes sufficienter
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>probant : non potest autem esse humanus,
+          <lb ed="#P" n="57"/>nisi sit voluntarius et a voluntate procedat,
+          <lb ed="#P" n="58"/>alias potius passio quam actio hominis dicenda
+          <lb ed="#P" n="59"/>esse. Quia vero non omne quod est a voluntate
+          <lb ed="#P" n="60"/>est simpliciter vel debito modo voluntarium,
+          <lb ed="#P" n="61"/>ideo ultima ratio ostendit tale debere esse hoc
+          <lb ed="#P" n="62"/>voluntarium, ut non admittat secum 
+          contra<lb break="no" ed="#P" n="63"/>riam voluntatem de serepugnantem praecepto,
+          <lb ed="#P" n="64"/>ac subinde absolutam voluntatem esse 
+          neces<lb break="no" ed="#P" n="65"/>sariam ad observationem legis naturalis. Ad
+          <lb ed="#P" n="66"/>majorem vero declarationem possumus hic duo
+          <lb ed="#P" n="67"/>distinguere. Unum est, quod actus praeceptus
+          <lb ed="#P" n="68"/>secundum se spectatus voluntarie fiat: aliud
+          <lb ed="#P" n="69"/>est, ut ille actus etiam ut praeceptus 
+          volunta<lb break="no" ed="#P" n="70"/>rius sit, ita ut voluntas feratur in ipsam 
+          prae<lb break="no" ed="#P" n="71"/>cepti observationem. Possunt enim haec duo
+          <lb ed="#P" n="72"/>separari : nam qui ignorat praeceptum dandi
+          <lb ed="#P" n="73"/>eleemosynam non poterit velle servare illud
+          <lb ed="#P" n="74"/>praeceptum, poterit tamen nihilominus 
+          volun<lb break="no" ed="#P" n="75"/>tarie exercere actum eleemosynae. Conclusio
+          <lb ed="#P" n="76"/>ergo potest de utraque voluntateintelligi: nam
+          <lb ed="#P" n="77"/>prior necessaria est tanquam fundamentum 
+          ac<lb break="no" ed="#P" n="78"/>tus praecepti, ut ille actus humanus sit, et 
+          ma<lb break="no" ed="#P" n="79"/>teria praecepti : posterior autem etiam videtur
+          <lb ed="#P" n="80"/>necessaria, ut observatio praecepti moralis sit,
+          <lb ed="#P" n="81"/>et ut possit esse effectus legis seu praecepti, et
+          <lb ed="#P" n="82"/>ut possit ipsi homini attribui: alioqui enim
+          <lb ed="#P" n="83"/>casu tantum accidet ut actus sit conformis
+          <lb ed="#P" n="84"/>praecepto.
+        </p>
+        <p xml:id="szdleg-a31104-d1e575">
+          <lb ed="#P" n="85"/>6. Aliquot objectiones contra traditam 
+          asser<lb break="no" ed="#P" n="86"/>tionem.—S atisfit objectionibus— Circa 
+          utram<lb break="no" ed="#P" n="87"/>que autem partem occurrit difficultas. Circa
+          <lb ed="#P" n="88"/>primam, quia videtur interdum impleri 
+          prae<lb break="no" ed="#P" n="89"/>ceptum per actum factum sine usu rationis,
+          <lb ed="#P" n="90"/>ac proinde non voluntarium humano modo.
+          <lb ed="#P" n="91"/>Sed de hac difficultate dicemus circa 
+          assertio<lb break="no" ed="#P" n="92"/>nem sequentem. Circa alteram partem dubitari
+          <lb ed="#P" n="93"/>potest, quia sequitur ex illa ad observationem
+          <lb ed="#P" n="94"/>praecepti necessarium esse formalem actum
+          <lb ed="#P" n="95"/>obedientiae, scilicet, volendi parere praecepto,
+          <lb ed="#P" n="96"/>quod absurdum est et contra omnes. Deinde
+          <lb ed="#P" n="97"/>sequitur operari cum displicentia praecepti
+          <lb ed="#P" n="98"/>semper esse peccatum, ita ut non impleatur
+          <lb ed="#P" n="99"/>praeceptum, quod etiam admittendum non est:
+          <lb ed="#P" n="100"/>nam qui dat eleemosynam, etiamsi cum 
+          displi<lb break="no" ed="#P" n="101"/>centia id faciat, servat praeceptum. Ad 
+          prio<lb break="no" ed="#P" n="102"/>rem partem respondeo negando sequelam,
+          <lb ed="#P" n="103"/>quia aliud est velle facere quod praeceptum
+          <lb ed="#P" n="104"/>est, aliud velle facere quia praeceptum est, ita
+          <lb ed="#P" n="105"/>ut illud sit motivum operandi. Primum 
+          dici<lb break="no" ed="#P" n="106"/>mus esse necessarium et sufticienter fieri, eo
+          <lb ed="#P" n="107"/>ipso quod non ignoratur praeceptum, et 
+          vo<lb break="no" ed="#P" n="108"/>luntas vult illud, quod jussum est. Hoc autem
+          <lb ed="#P" n="109"/>non estsufliciens ad formalem actum 
+          obedien<lb break="no" ed="#P" n="110"/>tiae, sed necessarium est secundum, id est, for-
+          <pb ed="#P" n="124"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>maliter operari ex tali motivo, quod sine dubio
+          <lb ed="#P" n="2"/>necessarium non est ad praeceptum 
+          implen<lb break="no" ed="#P" n="3"/>dum, quia neque in lege ipsa hoc praecipitur,
+          <lb ed="#P" n="4"/>nec est ulla ratio quae ad hoc obliget, et ita
+          <lb ed="#P" n="5"/>rari sunt qui hoc modo faciant opera 
+          praecep<lb break="no" ed="#P" n="6"/>torum naturalium, sed respiciendo ad proprias
+          <lb ed="#P" n="7"/>honestates singulorum praeceptorum.
+        </p>
+        <p xml:id="szdleg-a31104-d1e653">
+          <lb ed="#P" n="8"/>1. Quae displicentia operis praecepti repugnet
+          <lb ed="#P" n="9"/>illius impletioni. — Ad alteram vero partem
+          <lb ed="#P" n="10"/>respondetur absolute negando sequelam: nam
+          <lb ed="#P" n="11"/>imprimis esse potest displicentia quaedam mere
+          <lb ed="#P" n="12"/>naturalis orta ex aliqua repugnantia subjecti,
+          <lb ed="#P" n="13"/>vel ex aliquo humano incommodo quod inde
+          <lb ed="#P" n="14"/>nascitur, quae displicentia neque est in se mala,
+          <lb ed="#P" n="15"/>nec reddit actum malum, per se loquendo.
+          <lb ed="#P" n="16"/>Deinde displicentia etiam voluntaria, et per
+          <lb ed="#P" n="17"/>consensum deliberatum , subdistinguendum
+          <lb ed="#P" n="18"/>est : nam duplex displicentia in praesenti 
+          in<lb break="no" ed="#P" n="19"/>telligi potest, una est de ipsamet observatione
+          <lb ed="#P" n="20"/>praecepti, in sensu composito (ut sic dicam)
+          <lb ed="#P" n="21"/>quia non obstante naturali lege obligante,
+          <lb ed="#P" n="22"/>vellet quis non servare illam, si non timeret
+          <lb ed="#P" n="23"/>poenam, vel aliud nocumentum, ut dictum est
+          <lb ed="#P" n="24"/>de timore serviliter obtemperante, et hic 
+          mo<lb break="no" ed="#P" n="25"/>dus includit intrinsecam repugnantiam cum
+          <lb ed="#P" n="26"/>praecepto, et ideo est intrinsece malus, et 
+          con<lb break="no" ed="#P" n="27"/>tra naturalem legem. Quia illa displicentia,
+          <lb ed="#P" n="28"/>licet non excludat absolutam voluntatem 
+          fa<lb break="no" ed="#P" n="29"/>ciendi tale opus quod efficacius imperat timor
+          <lb ed="#P" n="30"/>servilis, excludit nihilominus voluntatem 
+          ser<lb break="no" ed="#P" n="31"/>vandi legem, et contrarium affectum supponit,
+          <lb ed="#P" n="32"/>qui de se et ex parte voluntatis absolutus est,
+          <lb ed="#P" n="33"/>licet ex metu fiat conditionatus. Alia vero 
+          dis<lb break="no" ed="#P" n="34"/>plicentia esse potest de occasione (ut sic dicam)
+          <lb ed="#P" n="35"/>talis praecepti, et quod nunc occurrat ejus 
+          ne<lb break="no" ed="#P" n="36"/>cessitas, et haec non est intrinsece mala, et
+          <lb ed="#P" n="37"/>cum illa stare potest absolutus affectus servandi
+          <lb ed="#P" n="38"/>praeceptum, et idco cum tali displicentia potest
+          <lb ed="#P" n="39"/>servari, quia non excludit sufticiens 
+          volunta<lb break="no" ed="#P" n="40"/>rium, ut constat.
+        </p>
+        <p xml:id="szdleg-a31104-d1e727">
+          <lb ed="#P" n="41"/>8. Secunda assertio. — Operari em scientia
+          <lb ed="#P" n="42"/>est aliquo modo necessarium ad impletionem
+          <lb ed="#P" n="43"/>naturalis praecepti. — Dico secundo: operari
+          <lb ed="#P" n="44"/>ex scientia seu cognitione esse aliquo modo
+          <lb ed="#P" n="45"/>necessarium ad servandum naturale 
+          praece<lb break="no" ed="#P" n="46"/>ptum: ratio est, quia praeceptum non servatur
+          <lb ed="#P" n="47"/>nisi per actum humanum : non est autem 
+          ac<lb break="no" ed="#P" n="48"/>tus humanus, nisi ex cognitione procedat; ergo.
+          <lb ed="#P" n="49"/>Major satis probata est in praecedenti 
+          asser<lb break="no" ed="#P" n="50"/>tione, ex qua non minus haec necessario 
+          sequi<lb break="no" ed="#P" n="51"/>tur: et confirmatur, quia videtur cognitio tam
+          <lb ed="#P" n="52"/>necessaria ad praeceptum implendum, quam
+          <lb ed="#P" n="53"/>ad transgrediendum : sed ad transgrediendum
+          <lb ed="#P" n="54"/>est necessaria cognitio aliqua; ergo. Dices:
+          <lb ed="#P" n="55"/>imo aliquando fit transgressio praecepti sine
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cognitione, per ignorantiam. Respondetur 
+          sal<lb break="no" ed="#P" n="57"/>iem esse necessariam scientiam debitam et
+          <lb ed="#P" n="58"/>possibilem, et per negligentiam omissam: haec
+          <lb ed="#P" n="59"/>autem suflicit ad transgressionem, quia 
+          ma<lb break="no" ed="#P" n="60"/>lum ex quocumque defectu : implere autem
+          <lb ed="#P" n="61"/>praeceptum est quoddam bonum, et ideo 
+          in<lb break="no" ed="#P" n="62"/>tegram causam requirit, ad quam pertinet 
+          co<lb break="no" ed="#P" n="63"/>gnitio.
+        </p>
+        <p xml:id="szdleg-a31104-d1e783">
+          <lb ed="#P" n="64"/>9. Quae et quotuplex cognitio haberi debeat
+          <lb ed="#P" n="65"/>de actu praecepto ad hoc ut impleatur. — 
+          Ob<lb break="no" ed="#P" n="66"/>jectio. — Solutio. — Est autem advertendum
+          <lb ed="#P" n="67"/>hanc cognitionem duplicem esse posse, scilicet,
+          <lb ed="#P" n="68"/>vel actus praecepti secundum se, et de hac
+          <lb ed="#P" n="69"/>maxime procedunt rationes factae : nam 
+          con<lb break="no" ed="#P" n="70"/>stat cognitionem actus esse necessariam, ut 
+          vo<lb break="no" ed="#P" n="71"/>luntarie fiat, quia cognitio est principium 
+          ip<lb break="no" ed="#P" n="72"/>sius voluntarii. Sed objici potest : nam qui
+          <lb ed="#P" n="73"/>ignorans vel invitus fecit actum non tenetur
+          <lb ed="#P" n="74"/>postea iterum facere; ergo signum est 
+          imple<lb break="no" ed="#P" n="75"/>visse praeceptum. Antecederts patet: nam si
+          <lb ed="#P" n="76"/>restitutio facta est debitore invito, debitor hber
+          <lb ed="#P" n="77"/>manet ab onere rostituendi: item si codem
+          <lb ed="#P" n="78"/>modo decimae solutae, vel potius extractae sunt
+          <lb ed="#P" n="79"/>a nclente, non tenetur iterum solvere: item si
+          <lb ed="#P" n="80"/>eleemosyna data est ab ebrio, cessat postea
+          <lb ed="#P" n="81"/>obligatio. Denique in praeceptis positivis idem
+          <lb ed="#P" n="82"/>est, ut si quis audiat Missam coactus, vel 
+          jeju<lb break="no" ed="#P" n="83"/>net contra suam voluntatem, quia privatur
+          <lb ed="#P" n="84"/>cibis et similia. Respondeo in his omnibus
+          <lb ed="#P" n="85"/>casibus non servari praecepta naturalia, quia
+          <lb ed="#P" n="86"/>graviter peccatur contra illa : unde ad 
+          argu<lb break="no" ed="#P" n="87"/>mentum negatur consequentia, quia in illis
+          <lb ed="#P" n="88"/>casibus praeceptum postea non obligat, non
+          <lb ed="#P" n="89"/>quia fuit impletum, sed quia subtracta fuit
+          <lb ed="#P" n="90"/>materia ejus: ut cessat obligatio restituendi,
+          <lb ed="#P" n="91"/>quia extinctum fuit debitum per rem ipsam,
+          <lb ed="#P" n="92"/>eiiamsi ab invito fuerit extracta, quia ut 
+          de<lb break="no" ed="#P" n="93"/>bitum tollatur, non est semper necessaria 
+          vo<lb break="no" ed="#P" n="94"/>luntas debitoris, ut constat: idem cum 
+          pro<lb break="no" ed="#P" n="95"/>portione est in solutione decimarum, et de
+          <lb ed="#P" n="96"/>eleemosyna idem statim dicemus. De praeceptis
+          <lb ed="#P" n="97"/>autem positivis dicemus libro sequenti; nunc
+          <lb ed="#P" n="98"/>dico illo modo coram Deo non impleri 
+          praece<lb break="no" ed="#P" n="99"/>ptum, in exteriori autem foro impleri ad 
+          eva<lb break="no" ed="#P" n="100"/>dendum poenam, dummodo actus praeceptus
+          <lb ed="#P" n="101"/>quoad substantiam fiat : nam si quis per vim
+          <lb ed="#P" n="102"/>ita adsit Missae ut non attendat, etiam exterius
+          <lb ed="#P" n="103"/>non implebit : et eadem ratione si quis ebrius
+          <lb ed="#P" n="104"/>legat totum Breviarium, nihil implet, quia
+          <lb ed="#P" n="105"/>non recitat, ct ideo tenetur postea recitare.
+        </p>
+        <p xml:id="szdleg-a31104-d1e877">
+          <lb ed="#P" n="106"/>10. An cognitio actus praecepti, ut 
+          praece<lb break="no" ed="#P" n="107"/>ptum est, sit necessaria ad impletionem 
+          praece<lb break="no" ed="#P" n="108"/>pti. — Responsio. — Abter vero esse potest
+          <lb ed="#P" n="109"/>sermo de cognitionc ipsius praecepti, id est,
+          <lb ed="#P" n="110"/>quod talis actus praeceptus sit: et sic potest
+          <pb ed="#P" n="125"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>esse dubium an talis cognitio sit necessaria
+          <lb ed="#P" n="2"/>ad implendum praeceptum, quia sine tali 
+          co<lb break="no" ed="#P" n="3"/>gnitione potest fieri actus humanus et moralis,
+          <lb ed="#P" n="4"/>qui praeceptus est. Sed hoc forte habet aliquam
+          <lb ed="#P" n="5"/>difficultatem in lege positiva, de qua infra
+          <lb ed="#P" n="6"/>dicemus. In praesenti autem breviter dico, sine
+          <lb ed="#P" n="7"/>tali cognitione posse observari praeceptum
+          <lb ed="#P" n="8"/>quasi materialiter, quod sufticiet ad non 
+          pec<lb break="no" ed="#P" n="9"/>candum directe contra praeceptum, ut probat
+          <lb ed="#P" n="10"/>ratio facta; nihilominus tamen non impleri
+          <lb ed="#P" n="11"/>tunc praeceptum formaliter, et humano modo,
+          <lb ed="#P" n="12"/>atque ita cognitionem illam esse necessariam,
+          <lb ed="#P" n="13"/>ut talis actus sit humanus in ordine ad 
+          praece<lb break="no" ed="#P" n="14"/>pti observationem, juxta dicta in praecedenti
+          <lb ed="#P" n="15"/>assertione : unde si contingat aliquem scienter
+          <lb ed="#P" n="16"/>dare eleemosynam eo tempore quo praeceptum
+          <lb ed="#P" n="17"/>naturale obligabat, ignorans illam 
+          obligatio<lb break="no" ed="#P" n="18"/>nem, quamvis non transgrediatur praeceptum,
+          <lb ed="#P" n="19"/>non potest dici proprie illud implere, quia in
+          <lb ed="#P" n="20"/>ordine ad praeceptum, casu, et quasi per 
+          acci<lb break="no" ed="#P" n="21"/>dens id facit. Imo posset accidere, si ignorantia
+          <lb ed="#P" n="22"/>esset vincibilis, ut peccaret tunc contra ipsum
+          <lb ed="#P" n="23"/>praeceptum, quia ex vi dispositionis, seu 
+          co<lb break="no" ed="#P" n="24"/>gnitionis praesentis potuit se exponere periculo
+          <lb ed="#P" n="25"/>transgrediendi praeceptum, eo quod nesciret
+          <lb ed="#P" n="26"/>obligationem cjus. Dices : qui ignorando, verbi
+          <lb ed="#P" n="27"/>gratia, praeceptum eleemosynae, actum ejus
+          <lb ed="#P" n="28"/>fecit, postea non tenetur iterum dare 
+          eleemo<lb break="no" ed="#P" n="29"/>synam , etiamsi agnoscat praeceptum : ergo
+          <lb ed="#P" n="30"/>signum est implevisse illud. Respondetur ex
+          <lb ed="#P" n="31"/>dictis negando consequentiam, quia praecepta
+          <lb ed="#P" n="32"/>affirmativa non obligant pro semper, sed 
+          ne<lb break="no" ed="#P" n="33"/>cessitatis tempore: per illam autem 
+          eleemosy<lb break="no" ed="#P" n="34"/>nam factum fuit, ut proximi necessitas 
+          cessa<lb break="no" ed="#P" n="35"/>verit : et ideo cessavit obligatio praecepti, non
+          <lb ed="#P" n="36"/>quia impleta fuerit, sed quia materia, et 
+          occa<lb break="no" ed="#P" n="37"/>sio defuit; unde si eadem occasio seu 
+          necessi<lb break="no" ed="#P" n="38"/>tas durat, etiam praecepti obligatio durabit.
+          <lb ed="#P" n="39"/>Ex quo tandem obiter intelligitur, ex 
+          unoquo<lb break="no" ed="#P" n="40"/>que praecepto oriri obligationem sciendi illud,
+          <lb ed="#P" n="41"/>quia non potest aliter moraliter observari. Ut
+          <lb ed="#P" n="42"/>recte sensit D. Thomas, dicto artic. 9, dicens
+          <lb ed="#P" n="43"/>eum qui ignorans facit actum qui lege jubetur,
+          <lb ed="#P" n="44"/>casu et per accidens facere opus praeceptum:
+          <lb ed="#P" n="45"/>at praeceptum obligat ut per se et ex intentione
+          <lb ed="#P" n="46"/>servetur , ut ostensum est: ergo obligat ad
+          <lb ed="#P" n="47"/>habendam cognitionem, imo et 
+          consideratio<lb break="no" ed="#P" n="48"/>nem illius.
+        </p>
+        <p xml:id="szdleg-a31104-d1e999">
+          <lb ed="#P" n="49"/>11. Tertia assertio.— Lev naturalis obligat
+          <lb ed="#P" n="50"/>ad modum virtutis.—bico tertio naturalem 
+          le<lb break="no" ed="#P" n="51"/>gem etiam obligare ad modum virtutis : ut
+          <lb ed="#P" n="52"/>intelligatur assertio, explicandum est quid 
+          in<lb break="no" ed="#P" n="53"/>telligamus per modum virtutis. Sub illo enim
+          <lb ed="#P" n="54"/>comprehendimus quidquid necessarium est ut
+          <lb ed="#P" n="55"/>actus sit honestus, et simpliciter bonus mora-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>liter, ad quod necesse est ut sit non solum
+          <lb ed="#P" n="57"/>de bono objecto quasi materiali, sed etiam
+          <lb ed="#P" n="58"/>formali, id est, propter honestum motivum.
+          <lb ed="#P" n="59"/>Quod significavit Aristoteles 2 Ethic., cap. 4,
+          <lb ed="#P" n="60"/>cum dixit, ut opus virtutis studiose fiat, non
+          <lb ed="#P" n="61"/>satis esse ut justa vel temperata sint quae fiunt,
+          <lb ed="#P" n="62"/>sed praeterea requiri, ut agens sic se habens
+          <lb ed="#P" n="63"/>agat. Primo quidem si sciens : secundo, si 
+          eli<lb break="no" ed="#P" n="64"/>gens propter ipsa tertio, si firmo animo, ac
+          <lb ed="#P" n="65"/>imputtabili agat. Ex quibus conditionibus 
+          se<lb break="no" ed="#P" n="66"/>cunda est quae praesenti instituto deservit:
+          <lb ed="#P" n="67"/>nam in illa videtur Aristoteles comprehendisse
+          <lb ed="#P" n="68"/>primam assertionem, et hanc tertiam ; et ideo
+          <lb ed="#P" n="69"/>aliqui illam conditionem in duas 
+          subdistin<lb break="no" ed="#P" n="70"/>guunt, ut una sit operari voluntarie: hoc enim
+          <lb ed="#P" n="71"/>est operari ex electione; alia sit operari 
+          pro<lb break="no" ed="#P" n="72"/>pter honestatem : et licet Soto, libro 2 de
+          <lb ed="#P" n="73"/>Justit., q. 3, art. 9, hoc improbet, quia 
+          Aris<lb break="no" ed="#P" n="74"/>toteles condititionem illam ut unam tradidit,
+          <lb ed="#P" n="75"/>nihilominus doctrina ipsa vera est, et in 
+          prae<lb break="no" ed="#P" n="76"/>senti confert illas distinguere, ad explicandam
+          <lb ed="#P" n="77"/>obligationem naturalis legis. Igitur operari
+          <lb ed="#P" n="78"/>eligens pertinet ad primam assertionem; 
+          ope<lb break="no" ed="#P" n="79"/>rari vero propter ipsam, id est, honestatem,
+          <lb ed="#P" n="80"/>pertinet ad hanc tertiam, et sub illa intelligo
+          <lb ed="#P" n="81"/>comprehendi totum id quod necessarium est
+          <lb ed="#P" n="82"/>ut actus habeat omnes conditiones necessarias
+          <lb ed="#P" n="83"/>ad honestatem simpliciter, quia nemo 
+          opera<lb break="no" ed="#P" n="84"/>tur intendens ad honestatem, nisi debitis 
+          cir<lb break="no" ed="#P" n="85"/>cumstantiis operetur; igitur modus virtutis
+          <lb ed="#P" n="86"/>totum hoc comprehendit, et ita dicimus cadere
+          <lb ed="#P" n="87"/>sub legem naturalem.
+        </p>
+        <p xml:id="szdleg-a31104-d1e1088">
+          <lb ed="#P" n="88"/>12. Ita ergo explicata conclusio sumitur ex
+          <lb ed="#P" n="89"/>D. Thoma, 1loco citato, qui in hoc constituit
+          <lb ed="#P" n="90"/>differentiam inter naturalem legem et 
+          positi<lb break="no" ed="#P" n="91"/>vam, quae differentia alio modo intelligi non
+          <lb ed="#P" n="92"/>potest: sentit ergo jus naturale non solum
+          <lb ed="#P" n="93"/>obligare, ut quis operetur volens, sed etiam
+          <lb ed="#P" n="94"/>volens propter hoc, id est, propter honestatem,
+          <lb ed="#P" n="95"/>in quo includitur modus virtutis: et idem
+          <lb ed="#P" n="96"/>clare docet ibi Soto ad 3, ita exponens D.
+          <lb ed="#P" n="97"/>Thomam. Nihilominus non desunt auctores
+          <lb ed="#P" n="98"/>quibus haec differentia non placeat, sed 
+          abso<lb break="no" ed="#P" n="99"/>lute sentiant modum virtutis non cadere sub
+          <lb ed="#P" n="100"/>obligationem legis naturalis. Quod sentire 
+          vi<lb break="no" ed="#P" n="101"/>detur Medina, codic. de Orat.. q. 16, de Horis
+          <lb ed="#P" n="102"/>canonic. iterandis, et Navarrus, tract. de Orat.
+          <lb ed="#P" n="103"/>et Horis canonicis, cap. 20, n. 29, et in cap.
+          <lb ed="#P" n="104"/>Inter verba, 11, q. 3, et in summa cap. 21,
+          <lb ed="#P" n="105"/>num. 7; nam qui restituit debitum, naturale
+          <lb ed="#P" n="106"/>praeceptum restituendi servat, etiamsi id faciat
+          <lb ed="#P" n="107"/>modo indebito; et qui dat eleemosynam 
+          na<lb break="no" ed="#P" n="108"/>turale praeceptum misericordiae servat, etiamsi
+          <lb ed="#P" n="109"/>propter vanam gloriam faciat.
+        </p>
+        <p xml:id="szdleg-a31104-d1e1138">
+          <lb ed="#P" n="110"/>13. Conciliatur utraque opinio. — Sed haec
+          <pb ed="#P" n="126"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ita possunt breviter conciliari, ut licet per 
+          ac<lb break="no" ed="#P" n="2"/>tum bonum ex genere male factum re vera
+          <lb ed="#P" n="3"/>servari possit aliquid jure natura: praeceptum,
+          <lb ed="#P" n="4"/>non tamen totum jus naturae, in quo differt
+          <lb ed="#P" n="5"/>hoc jus ab humano: nam jus humanum ita
+          <lb ed="#P" n="6"/>potest servari per actum malum, ut nulla ex
+          <lb ed="#P" n="7"/>parte violetur, quia illa malitia, quae 
+          adjungi<lb break="no" ed="#P" n="8"/>tur tali actui, saepe non est contra aliquod 
+          prae<lb break="no" ed="#P" n="9"/>ceptum humanum , sed contra naturale, ut
+          <lb ed="#P" n="10"/>patet de communione indigne sumpta tempore
+          <lb ed="#P" n="11"/>Paschae: quae nullo modo est contra jus 
+          eccle<lb break="no" ed="#P" n="12"/>siasticum : nam praeceptum ibi violatum (
+          sci<lb break="no" ed="#P" n="13"/>licet, digne communicandi, quando id fit) non
+          <lb ed="#P" n="14"/>est humanum, sed naturale, et solum hoc tunc
+          <lb ed="#P" n="15"/>violatur. At vero jus ipsum naturale, quod
+          <lb ed="#P" n="16"/>praecipit facere actum honestum , praecipit
+          <lb ed="#P" n="17"/>etiam ut studiose fiat, quia hoc ipsum est ex
+          <lb ed="#P" n="18"/>dictamine rationis naturalis, ergo est de jure
+          <lb ed="#P" n="19"/>naturali: et ideo quoties per actum malum
+          <lb ed="#P" n="20"/>unum naturale praeceptum impletur, jus 
+          ip<lb break="no" ed="#P" n="21"/>sum naturae violatur.
+        </p>
+        <p xml:id="szdleg-a31104-d1e1193">
+          <lb ed="#P" n="22"/>14. Dubium. — Quaeri autem posset an lla
+          <lb ed="#P" n="23"/>duplex vel quasi duplex obligatio oriatur ex
+          <lb ed="#P" n="24"/>eodem, vel diversis praeceptis naturalibus. In
+          <lb ed="#P" n="25"/>quo probabil distinctione uti possumus. 
+          In<lb break="no" ed="#P" n="26"/>terdum enim circumstantia malitiae, quae 
+          ad<lb break="no" ed="#P" n="27"/>jungitur, est contra diversam virtutem, ut in
+          <lb ed="#P" n="28"/>exemplo posito de intentione inanis gloriae
+          <lb ed="#P" n="29"/>adjuncta operi misericordiae, id est, 
+          eleemosy<lb break="no" ed="#P" n="30"/>nae; tunc enim malitia illius circumstantiae
+          <lb ed="#P" n="31"/>contra humilitatem est, non contra 
+          misericor<lb break="no" ed="#P" n="32"/>diam. Et tunc est duplex obligatio orta ex 
+          di<lb break="no" ed="#P" n="33"/>versis praeceptis, ideoque in eo casu dicendum
+          <lb ed="#P" n="34"/>est unum praeceptum naturale servari integre
+          <lb ed="#P" n="35"/>per actum bonum ex genere male factum:
+          <lb ed="#P" n="36"/>nihilominus tamen non servari absolute 
+          inte<lb break="no" ed="#P" n="37"/>gre jus naturale, quia committitur contra aliud
+          <lb ed="#P" n="38"/>praeceptum naturale. Aliquando vero 
+          contin<lb break="no" ed="#P" n="39"/>gere potest malitiam quae adjungitur actui esse
+          <lb ed="#P" n="40"/>contra eamdem virtutem, cujus praeceptum
+          <lb ed="#P" n="41"/>per substantiam actus servari videtur, ut si
+          <lb ed="#P" n="42"/>quis oret attente, tamen in loco indecenti, vel
+          <lb ed="#P" n="43"/>cum alia circumstantia contraria divinae 
+          reve<lb break="no" ed="#P" n="44"/>rentiae in oratione debitae. Et tunc recte dici
+          <lb ed="#P" n="45"/>potest idem praeceptum servari quoad 
+          sub<lb break="no" ed="#P" n="46"/>stantiam , et violari quoad circumstantiam,
+          <lb ed="#P" n="47"/>quia licet actus virtutis requirat objectum et
+          <lb ed="#P" n="48"/>circumstantias intrinsecas, non ideo 
+          putan<lb break="no" ed="#P" n="49"/>dum est dari plura distincta praecepta de 
+          ob<lb break="no" ed="#P" n="50"/>Jecto et singulis circumstantiis ; sed unum et
+          <lb ed="#P" n="51"/>idem praeceptum naturale est quod praecipit
+          <lb ed="#P" n="52"/>actum talis honestatis, quae tales 
+          circumstan<lb break="no" ed="#P" n="53"/>tias requirit, et ideo observari potest illud
+          <lb ed="#P" n="54"/>idem praeceptum quoad substantiam actus 
+          exte<lb break="no" ed="#P" n="55"/>rioris, licet quoadalias circumstantias violetur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

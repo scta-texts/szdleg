@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prooemium</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Prooemium</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="175"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a44281"><!-- deleg-l3prooem -->
+        <head xml:id="szdleg-a44281-Hd1e101">Prooemium</head>
+        <p xml:id="szdleg-a44281-d1e103">
+          <pb ed="#P" n="175"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER TERTIUS.
+          <lb ed="#P" n="2"/>DE LEGE POSITIVA HUMANA
+          <lb ed="#P" n="3"/>SECUNDUM SE
+          <lb ed="#P" n="4"/>ET PROUT IN PURA HOMINIS NATURA SPECTARI POTEST, QUAE LEX ETIAM
+          <lb ed="#P" n="5"/>CIVILIS DICITUR.
+        </p>
+        <p xml:id="szdleg-a44281-d1e121">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="6"/>Distinximus in primo libro temporalem 
+          le<lb break="no" ed="#P" n="7"/>gem in naturalem et positivam, et ideo, 
+          post<lb break="no" ed="#P" n="8"/>quam de aeterna lege et temporali naturali 
+          dic<lb break="no" ed="#P" n="9"/>tum est, dicendum sequitur de positiva. Hanc
+          <lb ed="#P" n="10"/>vero ibidem subdistinximus in divinam et
+          <lb ed="#P" n="11"/>humanam, inter quas divina quidem nobilior
+          <lb ed="#P" n="12"/>est et dignior : tamen humana est nobis notior
+          <lb ed="#P" n="13"/>et propinquior naturae, quia ejusdem ordinis
+          <lb ed="#P" n="14"/>est : et ita sicut natura gratiae supponitur, ita
+          <lb ed="#P" n="15"/>ex suo genere lex humana veluti generationis
+          <lb ed="#P" n="16"/>ordine prior est quam divina, quia haec 
+          super<lb break="no" ed="#P" n="17"/>naturalis est et ad ordinem gratiae spectat.
+          <lb ed="#P" n="18"/>Ideoque prius de lege humana quam de divina
+          <lb ed="#P" n="19"/>tractamus. De ratione autem communi 
+          posi<lb break="no" ed="#P" n="20"/>tivae legis, ut a divina et humana abstrahit,
+          <lb ed="#P" n="21"/>nihil dicere necesse est, quia praeter modum
+          <lb ed="#P" n="22"/>originis qui per hanc negationem explicatur,
+          <lb ed="#P" n="23"/>quod praecepta utriusque juris divini et 
+          huma<lb break="no" ed="#P" n="24"/>ni positivi non habent per se intrinsecam 
+          ne<lb break="no" ed="#P" n="25"/>cessitatem, sed ex voluntate extrinseca : praeter
+          <lb ed="#P" n="26"/>hoc (inquam) et praeter ea quae de lege in 
+          com<lb break="no" ed="#P" n="27"/>muni in primo libro sunt dicta, fere nihil 
+          su<lb break="no" ed="#P" n="28"/>perest dicendum in communi quod ad 
+          mora<lb break="no" ed="#P" n="29"/>lem doctrinam utile sit; imo nec ad 
+          specula<lb break="no" ed="#P" n="30"/>tionem alicujus momenti. Et explicato utroque
+          <lb ed="#P" n="31"/>membro, omnia quae de illorum convenientia
+          <lb ed="#P" n="32"/>aut differentia desiderari possunt, explicata
+          <lb ed="#P" n="33"/>relinquentur.
+        </p>
+        <p xml:id="szdleg-a44281-d1e186">
+          <lb ed="#P" n="34"/>2. Lex humana dividitur in eamn que est 
+          ju<lb break="no" ed="#P" n="35"/>ris communis et proprii. — Lea lumana in 
+          ci<lb break="no" ed="#P" n="36"/>vilem et canonicam distinguitur. —Lex autem
+          <lb ed="#P" n="37"/>humana, juxta mentem Justiniani inS Jus 
+          au<lb break="no" ed="#P" n="38"/>tem Instivutionum de Jure natur., gent. et 
+          ci<lb break="no" ed="#P" n="39"/>vili, dividi potest in legem quae est juris 
+          com<lb break="no" ed="#P" n="40"/>munis et quae est juris proprii; prior ad jus
+          <lb ed="#P" n="41"/>gentium spectat, et hoc nomine significatur,
+          <lb ed="#P" n="42"/>et de illa jam satis dictum est. Hic ergo trac-
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="43"/>tamus de jure humano proprio, cui nomen
+          <lb ed="#P" n="44"/>legis humanae positivae accommodatum est :
+          <lb ed="#P" n="45"/>dicitur autem proprium alicujus civitatis, 
+          rei<lb break="no" ed="#P" n="46"/>publicae, aut similis perfectae congregationis.
+          <lb ed="#P" n="47"/>Unde hujusmodi etiam lex humana in civilem
+          <lb ed="#P" n="48"/>et canonicam distinguitur: nam licet canonica
+          <lb ed="#P" n="49"/>de se possit esse communis universo orbi, sicut
+          <lb ed="#P" n="50"/>Ecclesia catholica universalis est : tamen de
+          <lb ed="#P" n="51"/>facto est propria hujus communitatis, quae est
+          <lb ed="#P" n="52"/>Ecclesia Christi, et non est communis omnibus
+          <lb ed="#P" n="53"/>gentibus, quia non omnes sunt de Ecclesia.
+          <lb ed="#P" n="54"/>Praeterquam quod in modo quo fertur est 
+          pro<lb break="no" ed="#P" n="55"/>prie lex positiva humana, et, longe diversae
+          <lb ed="#P" n="56"/>rationis a jure gentium, in multis 
+          similitudi<lb break="no" ed="#P" n="57"/>nem servat ad jus civile. Conveniunt enim hae
+          <lb ed="#P" n="58"/>duae leges in communi ratione legis positivae
+          <lb ed="#P" n="59"/>humanae. Inter eas vero notari potest 
+          differen<lb break="no" ed="#P" n="60"/>tia, quia lex civilis est mere naturalis ordinis
+          <lb ed="#P" n="61"/>quoad suam originem et potestatem : nam 
+          li<lb break="no" ed="#P" n="62"/>cet non feratur immediate a natura, fertur
+          <lb ed="#P" n="63"/>tamen per potestatem homini connaturalem.
+          <lb ed="#P" n="64"/>At vero lex canonica proprie est illa quae ab
+          <lb ed="#P" n="65"/>hominibus fertur per potestatem 
+          supernatura<lb break="no" ed="#P" n="66"/>lem. Et hac ratione ordine doctrinae a 
+          facilio<lb break="no" ed="#P" n="67"/>ribus incipiendo, prius de civili lege quam de
+          <lb ed="#P" n="68"/>canonica dicendum videtur. De communi 
+          au<lb break="no" ed="#P" n="69"/>tem ratione legis humanae positivae simul cum
+          <lb ed="#P" n="70"/>legecivili disseremus: sic enim facilior erit 
+          doc<lb break="no" ed="#P" n="71"/>trina, facileque poterit ad legem canonicam
+          <lb ed="#P" n="72"/>accommodari, ea tantum addendo quae ratione
+          <lb ed="#P" n="73"/>supernaturalis potestatis illi conveniunt, quod
+          <lb ed="#P" n="74"/>in libro sequenti praestabimus. Et hinc etiam
+          <lb ed="#P" n="75"/>est ut in ipsa lege civili duo status distingui
+          <lb ed="#P" n="76"/>possint, unus secundum se ac pure, prout fuit
+          <lb ed="#P" n="77"/>in gentibus, et nunc est in infidelibus; alius
+          <lb ed="#P" n="78"/>prout est conjunctus cum fide, et inter fideles
+          <lb ed="#P" n="79"/>in Ecclesia Christi in usu esse potest; qui status
+          <pb ed="#P" n="176"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>accidentaliter tantum differunt, et ideo 
+          sim<lb break="no" ed="#P" n="2"/>pliciter de lege civili dicemus; ubi autem 
+          ali<lb break="no" ed="#P" n="3"/>quid proprium explicandum occurrerit, id
+          <lb ed="#P" n="4"/>non praetermittemus, sed doctrinam 
+          univer<lb break="no" ed="#P" n="5"/>sam ad praesentem Ecclesiae statum 
+          accommo<lb break="no" ed="#P" n="6"/>dabimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

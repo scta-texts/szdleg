@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10 UTRUM PERPETUITAS SIT DE RATIONE LEGIS</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10 UTRUM PERPETUITAS SIT DE RATIONE LEGIS</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="44"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a11382"><!-- deleg-l1c10 -->
+        <head xml:id="szdleg-a11382-Hd1e101">Caput 10</head>
+        <head xml:id="szdleg-a11382-Hd1e103" type="quesiton-title">UTRUM PERPETUITAS SIT DE RATIONE LEGIS</head>
+        <p xml:id="szdleg-a11382-d1e106">
+          <lb ed="#P" n="25"/>CAPUT 10
+          <lb ed="#P" n="26"/>UTRUM PERPETUITAS SIT DE RATIONE LEGIS.
+        </p>
+        <p xml:id="szdleg-a11382-d1e113">
+          <lb ed="#P" n="27"/>1. Quae sit perpetuitas ad legem requisita.
+          <lb ed="#P" n="28"/>— Divisio hujus perpetuitatis in positivam et
+          <lb ed="#P" n="29"/>negativam. — Duplicem perpetuitatem solent
+          <lb ed="#P" n="30"/>philosophi distinguere, unam ex parte initii,
+          <lb ed="#P" n="31"/>quam vocant a parte ante, aliam ex parte finis,
+          <lb ed="#P" n="32"/>quam a parte post vocant. Hic non tractamus
+          <lb ed="#P" n="33"/>de priori : nam dividendo legem diximus dari
+          <lb ed="#P" n="34"/>unam legem aeternam, quae intra Deum est:
+          <lb ed="#P" n="35"/>alias vero esse temporales ex parte initii. Nam
+          <lb ed="#P" n="36"/>licet lex naturalis dici possit aliquo modo
+          <lb ed="#P" n="37"/>eeterna, ut voluit Glossa, in princ., d. 5, verbo
+          <lb ed="#P" n="38"/>Cepit, utique objective, seu quoad esse 
+          essen<lb break="no" ed="#P" n="39"/>tiae, ut infra explicabitur : nihilominus prout
+          <lb ed="#P" n="40"/>existit in creaturis, ex tempore incepit cum
+          <lb ed="#P" n="41"/>creatura, ut bene Gratianus ibidem dixit, et
+          <lb ed="#P" n="42"/>ita a parte ante non potest dici perpetua.
+          <lb ed="#P" n="43"/>Tractamus igitur de perpetuitate in futurum,
+          <lb ed="#P" n="44"/>ex quo lex semel lata est. Quae perpetuitas 
+          so<lb break="no" ed="#P" n="45"/>let ulterius distingui in perpetuitatem 
+          simpli<lb break="no" ed="#P" n="46"/>citer, quae aeternitas dicitur, vel secundum
+          <lb ed="#P" n="47"/>quid, quae dici potest duratio longi temporis,
+          <lb ed="#P" n="48"/>quae in Scriptura saepe aevum vel aeternum
+          <lb ed="#P" n="49"/>seeculum appellatur. Ut autem omittamus 
+          va<lb break="no" ed="#P" n="50"/>rias signiicationes, quae magis ad 
+          speculatio<lb break="no" ed="#P" n="51"/>nem pertinent: perpetuitas, de qua tractamus,
+          <lb ed="#P" n="52"/>solum est quaedam legis stabilitas ad quam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>spectat, ut habeat suum esse cum valore ac
+          <lb ed="#P" n="54"/>efficacia obligandi ita fisum et permanens,
+          <lb ed="#P" n="55"/>quantum est ex vi suae originis et 
+          constitutio<lb break="no" ed="#P" n="56"/>nis, ut de se duret semper, aut per 
+          indefini<lb break="no" ed="#P" n="57"/>tum, vel diuturnum tempus. Qui modus 
+          per<lb break="no" ed="#P" n="58"/>petuitatis potest esse duplex : unus dici potest
+          <lb ed="#P" n="59"/>negativus, alter positivus. Negativus est quando
+          <lb ed="#P" n="60"/>lex indefinite fertur, et ideo infinitam habet
+          <lb ed="#P" n="61"/>durationem, licet revocari possit et tolli per
+          <lb ed="#P" n="62"/>extrinsecas causas, quomodo dicitur suspensio
+          <lb ed="#P" n="63"/>perpetua negative, quae sine termino fertur.
+          <lb ed="#P" n="64"/>Positive autem perpetua dicitur lex quae natura
+          <lb ed="#P" n="65"/>sua vel per expressa verba fertur, ut semper
+          <lb ed="#P" n="66"/>duret et nunquam revocetur, ut depositio 
+          di<lb break="no" ed="#P" n="67"/>citur suspensio perpetua. De utroque ergo
+          <lb ed="#P" n="68"/>modo perpetuitatis potest haec quaestio 
+          trac<lb break="no" ed="#P" n="69"/>tari. Et quoniam ejus difficultas tota versatur
+          <lb ed="#P" n="70"/>circa humanas leges, ideo operae pretium erit
+          <lb ed="#P" n="71"/>prius illam in divinis legibus expedire.
+        </p>
+        <p xml:id="szdleg-a11382-d1e215">
+          <lb ed="#P" n="72"/>2. Prima assertio. — Divinam legem etiam
+          <lb ed="#P" n="73"/>vindicare perpetuitatem assignatam. — Dico
+          <lb ed="#P" n="74"/>ergo primo: Omnis divina lex perpetuitatem
+          <lb ed="#P" n="75"/>dictam participat. Declaratur breviter 
+          discur<lb break="no" ed="#P" n="76"/>rendo per singulas. Nam lex aeterna proprie
+          <lb ed="#P" n="77"/>ac simpliciter perpetua est, quia in se 
+          immu<lb break="no" ed="#P" n="78"/>tabilis est. Quamvis enim prout dicit 
+          respec<lb break="no" ed="#P" n="79"/>tum ad creaturas, non semper respiciat eas
+          <lb ed="#P" n="80"/>secundum eumdem modum existentiae, neque
+          <lb ed="#P" n="81"/>imponat eis leges quae pro toto tempore 
+          du<lb break="no" ed="#P" n="82"/>rent, sed juxta modum definitum ab ipso Deo;
+          <lb ed="#P" n="83"/>nihilominus juxta illum modum, et ex parte
+          <lb ed="#P" n="84"/>Dei, lex semel ab ipso concepta perpetuo 
+          ma<lb break="no" ed="#P" n="85"/>net. Deinde lex naturalis etiam dici potest 
+          ab<lb break="no" ed="#P" n="86"/>solute perpetua, quia ex parte mentis, in qua
+          <lb ed="#P" n="87"/>scripta est, perpetuitatem habet. Et aliunde ex
+          <lb ed="#P" n="88"/>parte objecti includit intrinsecam 
+          necessita<lb break="no" ed="#P" n="89"/>tem : prohibet enim quae intrinsece mala sunt,
+          <lb ed="#P" n="90"/>et praecipit quae per se necessaria sunt; quod
+          <lb ed="#P" n="91"/>autem est necessarium, perpetuum est; et ideo
+          <lb ed="#P" n="92"/>immutabilis dicitur a Gratiano, d. 5, in 
+          prin<lb break="no" ed="#P" n="93"/>cip., et d. 6, S ult., et idem habetur Instit.
+          <lb ed="#P" n="94"/>de Jur. natur. gent. et civil., S Sed et 
+          natu<lb break="no" ed="#P" n="95"/>rale, et infra suo loco latius dicetur. Nec refert
+          <lb ed="#P" n="96"/>quod praeceptum naturale in una 
+          opportuni<lb break="no" ed="#P" n="97"/>tate obligat et non in alia, quod maxime in
+          <lb ed="#P" n="98"/>affirmativis verum habet; non, inquam, hoc
+          <lb ed="#P" n="99"/>obstat, quia praeceptum semper idem est, et
+          <lb ed="#P" n="100"/>quantum est ex se semper obligat, quamvis
+          <lb ed="#P" n="101"/>non pro semper, et id satis est ut lex sit 
+          per<lb break="no" ed="#P" n="102"/>petua. Quod optime explicavit Augustinus,
+          <lb ed="#P" n="103"/>lib. 3 Confess., cap. 37, dicens, hanc legem
+          <lb ed="#P" n="104"/>naturalem, ut omnia ordinatissime fiant, 
+          im<lb break="no" ed="#P" n="105"/>mutabilem esse, licet in applicatione ejus ad
+          <lb ed="#P" n="106"/>varias materias vel occasiones possit esse 
+          va<lb break="no" ed="#P" n="107"/>riatio.
+        </p>
+        <p xml:id="szdleg-a11382-d1e297">
+          <pb ed="#P" n="45"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>3. Perpetuitatem participat lem vetus et
+          <lb ed="#P" n="2"/>nova. — Praeterea utraque lex positiva divina
+          <lb ed="#P" n="3"/>vetus et nova suo modo perpetua dici potest;
+          <lb ed="#P" n="4"/>sed prior negative tantum, posterior etiam
+          <lb ed="#P" n="5"/>positive. Prior pars constat, quia lex vetus
+          <lb ed="#P" n="6"/>stabilem multumque permanentem 
+          duratio<lb break="no" ed="#P" n="7"/>nem habuit, non tamen irrevocabilem : habuit
+          <lb ed="#P" n="8"/>ergo perpetuitatem negativam, quia sine 
+          tem<lb break="no" ed="#P" n="9"/>poris certi limitatione posita fuit, ut per multa
+          <lb ed="#P" n="10"/>tempora duraret; tandem vero revocata fuit.
+          <lb ed="#P" n="11"/>At lex nova habet positivam perpetuitatem,
+          <lb ed="#P" n="12"/>quia mutari non debet usque ad finem mundi:
+          <lb ed="#P" n="13"/>ita enim hic sumimus perpetuum 
+          compara<lb break="no" ed="#P" n="14"/>tione facta ad subjectum, seu genus 
+          huma<lb break="no" ed="#P" n="15"/>num, non ad totam aeternitatem. Solum posset
+          <lb ed="#P" n="16"/>quis dubitare de lege veteri, quia non videtur
+          <lb ed="#P" n="17"/>indefinite lata, sed usque ad certum tempus,
+          <lb ed="#P" n="18"/>scilicet, donec veniret semen, ut dicitur ad 
+          Ga<lb break="no" ed="#P" n="19"/>lat. 3. Respondetur tamen, esto hoc ita sit,
+          <lb ed="#P" n="20"/>habuisse sufficientem perpetuitatem 
+          negati<lb break="no" ed="#P" n="21"/>vam, quia posita est ut duraret donec per
+          <lb ed="#P" n="22"/>aliam meliorem legem excluderetur, sive 
+          pos<lb break="no" ed="#P" n="23"/>tea revocatione positiva indiguerit, sive per
+          <lb ed="#P" n="24"/>se cessaverit, facta mutatione rerum, quod
+          <lb ed="#P" n="25"/>postea suo loco videbimus.
+        </p>
+        <p xml:id="szdleg-a11382-d1e358">
+          <lb ed="#P" n="26"/>4. Secunda assertio. — Legem hutmanam non
+          <lb ed="#P" n="27"/>esse ita perpetuam, ut revocari non possit.—An
+          <lb ed="#P" n="28"/>aliqua perpetuitas sit de ratione legis hunanae.
+          <lb ed="#P" n="29"/>—Prima opinio negativa. — Secundo loco 
+          di<lb break="no" ed="#P" n="30"/>cendum est de lege humana, de qua ut 
+          cer<lb break="no" ed="#P" n="31"/>tum supponimnus non esse ita perpetuam, ut
+          <lb ed="#P" n="32"/>sit irrevocabilis : nam et proximus auctor ejus
+          <lb ed="#P" n="33"/>mutabilis est et ita potest illam mutare, et 
+          po<lb break="no" ed="#P" n="34"/>test etiam ipse deficere, et successor ejus, qui
+          <lb ed="#P" n="35"/>eequalis est potestatis, poterit illam mutare, et
+          <lb ed="#P" n="36"/>ipsa etiam lex ex se et ratione suae materiae
+          <lb ed="#P" n="37"/>et humanae consuetudinis deficere potest, ut
+          <lb ed="#P" n="38"/>infra suo loco latius dicemus. Non est ergo
+          <lb ed="#P" n="39"/>haec lex positive perpetua. Dubium ergo 
+          so<lb break="no" ed="#P" n="40"/>lum esse potest de perpetuitate negativa, quae
+          <lb ed="#P" n="41"/>certum, ac definitam tempus excludat. In quo
+          <lb ed="#P" n="42"/>dubio duae possunt referri opiniones. Prima
+          <lb ed="#P" n="43"/>negat perpetuitatem aliquam esse de ratione
+          <lb ed="#P" n="44"/>legis humanae. Ita sentit Glossa 1, in cap.1
+          <lb ed="#P" n="45"/>de Constitut., quatenus dicit aliquos canones
+          <lb ed="#P" n="46"/>esse temporales. Expressius id docet Gomez,
+          <lb ed="#P" n="47"/>in Prooem. ad regulas cancell., q. 2, ad2,
+          <lb ed="#P" n="48"/>cum Gemini. consil. 93, quem refert. 
+          Potest<lb break="no" ed="#P" n="49"/>que probari primo, quia nec Isidorus, nec 
+          di<lb break="no" ed="#P" n="50"/>vus Thomas hanc conditionem posuerunt 
+          in<lb break="no" ed="#P" n="51"/>ter requisita ad legem humanam. Secundo,
+          <lb ed="#P" n="52"/>quia sola duratio est valde accidentaria, 
+          pen<lb break="no" ed="#P" n="53"/>detque ex principis voluntate: unde si lex
+          <lb ed="#P" n="54"/>generaliter feratur, licet pro certo tempore
+          <lb ed="#P" n="55"/>feratur, erit vera lex: nam aeque obligabit,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et habebit omnes alios effectus legis. Tertio,
+          <lb ed="#P" n="57"/>afferuntur exempla ex cap. 1, 29 d., etex
+          <lb ed="#P" n="58"/>Extravag. Ad regimen, de praebend. inter 
+          com<lb break="no" ed="#P" n="59"/>munes, et ex regulis Cancellariae, quae leges
+          <lb ed="#P" n="60"/>sunt, licet non sint perpetuae.
+        </p>
+        <p xml:id="szdleg-a11382-d1e439">
+          <lb ed="#P" n="61"/>5. Secunda opinio affirmans.—Secunda 
+          sen<lb break="no" ed="#P" n="62"/>tentia affirmat, perpetuitatem esse de ratione
+          <lb ed="#P" n="63"/>legis, statuti , seu constitutionis. Ita tenet
+          <lb ed="#P" n="64"/>Glossa penult., in fine, in cap. A nobis, 1 de
+          <lb ed="#P" n="65"/>Sentent. excommunicat., et ibi Panormitanus,
+          <lb ed="#P" n="66"/>n. 12, et Cardinalis, in repetit. cap. 
+          Perpendi<lb break="no" ed="#P" n="67"/>ms, de Sentent. excommunicat., et Archid.,
+          <lb ed="#P" n="68"/>in cap. Donatum, 1, q. 1, ubi conjungit illa
+          <lb ed="#P" n="69"/>duo, quod lex debet esse perpetua et 
+          commu<lb break="no" ed="#P" n="70"/>nis, et citat cap. Erit autem ler, d. 4, ubide
+          <lb ed="#P" n="71"/>perpetuitate nihil dicitur, sed de communitate.
+          <lb ed="#P" n="72"/>Unde videtur unam conditionem ex altera 
+          col<lb break="no" ed="#P" n="73"/>ligere. In eadem sententia est Bartolomaeus,
+          <lb ed="#P" n="74"/>in l. Omnes populi, ff. de Justit. et jur., 
+          Na<lb break="no" ed="#P" n="75"/>varrus in Manual. , c. 27, n. 74. Potestque
+          <lb ed="#P" n="76"/>sumi ex D. Thoma, 1. 2, q. 104, art. 3, ad 3,
+          <lb ed="#P" n="77"/>quatenus dicit praecepta judicialia ab 
+          homini<lb break="no" ed="#P" n="78"/>bus instituta habere perpetuam obligationem,
+          <lb ed="#P" n="79"/>manente illo statu regiminis. Fundarique solet
+          <lb ed="#P" n="80"/>haec sententia, in l. Fdenda. cap. de Edendo,
+          <lb ed="#P" n="81"/>ibi: Prout edicti perpetui monet auctoritas sed
+          <lb ed="#P" n="82"/>melius, inl. Arrianus, c. de Haeret.. S 1, Instit.
+          <lb ed="#P" n="83"/>de Perpet. et temp. actio. Optime vero, ex cap.
+          <lb ed="#P" n="84"/>ult. de Officio legati, ubi dicitur statuta edita
+          <lb ed="#P" n="85"/>a legato in sua provincia durare tanquam 
+          per<lb break="no" ed="#P" n="86"/>petua. Ubi est considerandum decretum illud
+          <lb ed="#P" n="87"/>declarativum esse, non concessivum specialis
+          <lb ed="#P" n="88"/>favoris: supponit enim papa, legatum suum
+          <lb ed="#P" n="89"/>posse condere statuta, et inde ex ratione 
+          sta<lb break="no" ed="#P" n="90"/>tuti colligit talia statuta durare recedente 
+          le<lb break="no" ed="#P" n="91"/>gato, quia nimirum de ratione statuti est, ut
+          <lb ed="#P" n="92"/>sit perpetuum.
+        </p>
+        <p xml:id="szdleg-a11382-d1e511">
+          <lb ed="#P" n="93"/>6. Unde etiam sumitur ratio : nam 
+          praecep<lb break="no" ed="#P" n="94"/>tum generale datum pro tota communitate, et
+          <lb ed="#P" n="95"/>ad bonum commune ejus, non est lex, et in
+          <lb ed="#P" n="96"/>nullo alio differt a lege nisi in perpetuitate :
+          <lb ed="#P" n="97"/>ergo signum est perpetuitatem esse de ratione
+          <lb ed="#P" n="98"/>legis. Major probatur , quia habent eftectus
+          <lb ed="#P" n="99"/>morales valde diversos. Nam differentiae, seu
+          <lb ed="#P" n="100"/>diversi effectus quos solent auctores tribuere
+          <lb ed="#P" n="101"/>censurae latae per statutum, vel per sententiam
+          <lb ed="#P" n="102"/>generalem , fundantur solum in differentia
+          <lb ed="#P" n="103"/>praecepti et statuti, quia escommunicatio per
+          <lb ed="#P" n="104"/>sententiam ab homine est, et per solum 
+          prae<lb break="no" ed="#P" n="105"/>ceptum fertur, per statutum autem est a jure,
+          <lb ed="#P" n="106"/>ut late notat Francus, in cap. Romana, S 
+          Ca<lb break="no" ed="#P" n="107"/>veant, de Sentent. excommunic., in 6, et 
+          Co<lb break="no" ed="#P" n="108"/>varrus in cap. Aima, p. 1, S10, n. 2. Minor
+          <lb ed="#P" n="109"/>autem patet, quia licet a posteriori assignetur
+          <lb ed="#P" n="110"/>differentia inter statutum et praeceptum in
+          <pb ed="#P" n="46"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>effectibus, verbi gratia, quia statutum ligat
+          <lb ed="#P" n="2"/>non subditos in territorio existentes, aut 
+          delin<lb break="no" ed="#P" n="3"/>quentes : non autem praeceptum, juxta dictum
+          <lb ed="#P" n="4"/>cap. A nobis, 1 de Sentent. excommunic., et
+          <lb ed="#P" n="5"/>similibus : tamen haec diversitas in effectibus
+          <lb ed="#P" n="6"/>supponit distinctionem causarum in se et in
+          <lb ed="#P" n="7"/>suo esse : nulla autem alia excogitari potest,
+          <lb ed="#P" n="8"/>nisi in perpetuitate.
+        </p>
+        <p xml:id="szdleg-a11382-d1e574">
+          <lb ed="#P" n="9"/>7. Posterior sententia juri est nagis 
+          confor<lb break="no" ed="#P" n="10"/>mis. — De triplici perpetuitate quae in lege 
+          hu<lb break="no" ed="#P" n="11"/>mana reperitur.—Haec sententia posterior 
+          ab<lb break="no" ed="#P" n="12"/>solute loquendo est juri conformior; quia 
+          ta<lb break="no" ed="#P" n="13"/>men potest esse dissensio de modo loquendi,
+          <lb ed="#P" n="14"/>ideo res magis explicanda est, et inde facile
+          <lb ed="#P" n="15"/>constabit an prior sententia possit aliquem 
+          ve<lb break="no" ed="#P" n="16"/>rum sensum habere. Dico ergo legem 
+          huma<lb break="no" ed="#P" n="17"/>nam proprie dictam triplicem habere moralem
+          <lb ed="#P" n="18"/>perpetuitatem, seu stabilitatem. Prima est ex
+          <lb ed="#P" n="19"/>parte ferentis, quia non amovetur, illo amoto,
+          <lb ed="#P" n="20"/>nec moritur illo mortuo. Secunda est ex parte
+          <lb ed="#P" n="21"/>subditorum ad quos fertur, quia non tantum
+          <lb ed="#P" n="22"/>obligat praesentes, qui vel nati sunt, vel 
+          terri<lb break="no" ed="#P" n="23"/>torium incolunt cum lex fertur, sed etiam 
+          eo<lb break="no" ed="#P" n="24"/>rum successores postea natos, vel denuo ibi
+          <lb ed="#P" n="25"/>habitantes. Tertia ex parte ipsius legis, quia
+          <lb ed="#P" n="26"/>semel lata semper durat, donec vel revocetur,
+          <lb ed="#P" n="27"/>vel materia ejus aut causa ita mutetur ut justa
+          <lb ed="#P" n="28"/>esse desinat.
+        </p>
+        <p xml:id="szdleg-a11382-d1e620">
+          <lb ed="#P" n="29"/>8. Prima perpetuitas requisita in lege es
+          <lb ed="#P" n="30"/>parte ferentis illam. — Prima perpetuitas 
+          ma<lb break="no" ed="#P" n="31"/>nifeste probatur ex dicto cap. ult. de Offic.
+          <lb ed="#P" n="32"/>legati. Confirmatur deinde, quia non videtur
+          <lb ed="#P" n="33"/>dubium quin legislator possit hoc modo 
+          obli<lb break="no" ed="#P" n="34"/>gare per suas leges. Primo, quia hoc ad 
+          mi<lb break="no" ed="#P" n="35"/>nimum probant jura citata. Secundo, quia haec
+          <lb ed="#P" n="36"/>est consuetudo omnium legum humanarum, ut
+          <lb ed="#P" n="37"/>constat. Tertio, quia haec saltem 
+          immutabili<lb break="no" ed="#P" n="38"/>tas est necessaria ad finem talium legum; alias
+          <lb ed="#P" n="39"/>quotidie fieret magna mutatio legum in 
+          re<lb break="no" ed="#P" n="40"/>publica cum magno detrimento ejus. Quarto,
+          <lb ed="#P" n="41"/>quia in legibus civilibus potestas ferendi leges
+          <lb ed="#P" n="42"/>est in republica per se primo: unde, sicut 
+          res<lb break="no" ed="#P" n="43"/>publica non moritur, ita potest ferre leges quae
+          <lb ed="#P" n="44"/>nullius morte extinguantur: ergo cum 
+          trans<lb break="no" ed="#P" n="45"/>tulit in principem suam potestatem, etiam 
+          de<lb break="no" ed="#P" n="46"/>dit illi facultatem ad ferendas leges quae sua
+          <lb ed="#P" n="47"/>morte non extinguerentur. Unde a fortiori
+          <lb ed="#P" n="48"/>probatur idem de legibus canonicis, quia 
+          po<lb break="no" ed="#P" n="49"/>testas a qua procedunt est a Christo, qui non
+          <lb ed="#P" n="50"/>moritur, et voluit ita obediri legibus sui 
+          Vica<lb break="no" ed="#P" n="51"/>rii, sicut suis, et censetur dedisse potestatem
+          <lb ed="#P" n="52"/>accommodatam humanae congregationi 
+          ejus<lb break="no" ed="#P" n="53"/>que convenienti regimini : de potestate ergo
+          <lb ed="#P" n="54"/>dubitari non potest. Ergo quoties princeps
+          <lb ed="#P" n="55"/>simpliciter praecipit statuendo , censetur ita
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>praecipere, quia statuendo legem et nullam
+          <lb ed="#P" n="57"/>limitationem adhibendo, praecipit stabiliter,
+          <lb ed="#P" n="58"/>quantum potest, et quantum finis legis 
+          postu<lb break="no" ed="#P" n="59"/>lare videtur.
+        </p>
+        <p xml:id="szdleg-a11382-d1e693">
+          <lb ed="#P" n="60"/>9. Confirmatur resolutio ex differentia inter
+          <lb ed="#P" n="61"/>praeceptum purum et statutum, seu 
+          constitutio<lb break="no" ed="#P" n="62"/>nem. — Declaratur hoc amplius ex communi
+          <lb ed="#P" n="63"/>sententia doctorum, qui hanc differentiam 
+          con<lb break="no" ed="#P" n="64"/>stituunt inter praeceptum ab homine latum 
+          so<lb break="no" ed="#P" n="65"/>Ium per modum personalis praecepti, et latum
+          <lb ed="#P" n="66"/>per modum constitutionis, quod purum 
+          prae<lb break="no" ed="#P" n="67"/>ceptum expirat per mortem praecipientis; non
+          <lb ed="#P" n="68"/>vero lex, seu statutum. Ita notant Antoninus
+          <lb ed="#P" n="69"/>et Abb. in cap. Irrefragabili, § Caeterum ,
+          <lb ed="#P" n="70"/>de Offic. ord., ubi optime notant delegationem
+          <lb ed="#P" n="71"/>ab homine expirare, re integra, per mortem
+          <lb ed="#P" n="72"/>delegantis : non autem delegationem a jure,
+          <lb ed="#P" n="73"/>seu per legem, quia lex non moritur. Idem
+          <lb ed="#P" n="74"/>late probat Restaurus Castaldus, tract. de 
+          Im<lb break="no" ed="#P" n="75"/>perato, q. 93, ostendens, mutato rege, vel
+          <lb ed="#P" n="76"/>imperatore, non mutari leges ejus per se, seu
+          <lb ed="#P" n="77"/>ipso facto, quia perpetuae sunt. Idem 
+          Sylves<lb break="no" ed="#P" n="78"/>ter, in verbo Mandatumn, q. 3, ubi ait: Talia
+          <lb ed="#P" n="79"/>praecepta empirant morte praecipientis, nisi fiant
+          <lb ed="#P" n="80"/>per modum constitutionis, ut consuetudo 
+          inter<lb break="no" ed="#P" n="81"/>pretatur : itaque solum in consuetudine 
+          diffe<lb break="no" ed="#P" n="82"/>rentiam fundat. Idem in verbo Delegatus, q. 6,
+          <lb ed="#P" n="83"/>ubi colligit omnia praecepta lata a Praelatis 
+          in<lb break="no" ed="#P" n="84"/>ferioribus, qui non possunt constitutiones 
+          fa<lb break="no" ed="#P" n="85"/>cere, expirare morte illorum, disputationes
+          <lb ed="#P" n="86"/>autem omnes quae per legem vel statutum
+          <lb ed="#P" n="87"/>fiunt perseverare post mortem statuentis. Idem
+          <lb ed="#P" n="88"/>habet Menochius, lib. 1 de Arbitrar. , q. 69,
+          <lb ed="#P" n="89"/>Corduba in regul. sancti Francisci, c. 10, q. 3,
+          <lb ed="#P" n="90"/>puncto 1, partit. 3, quos refert et sequitur
+          <lb ed="#P" n="91"/>Sanci., lib. 8 de Matrim. , disp. 28, quaest. 2,
+          <lb ed="#P" n="92"/>n. 4.
+        </p>
+        <p xml:id="szdleg-a11382-d1e767">
+          <lb ed="#P" n="93"/>10. Aliquorum limitatio ad differentiam
+          <lb ed="#P" n="94"/>inter purun praceptum et statutum. — 
+          Eam<lb break="no" ed="#P" n="95"/>dem differentiam tradit Vasquez, 1. 2, disp.
+          <lb ed="#P" n="96"/>154, cap. 3, n. 16; videtur tamen illam 
+          inter<lb break="no" ed="#P" n="97"/>pretari tantum de praeceptis singularibus, quae
+          <lb ed="#P" n="98"/>particularibus personis imponuntur. Unde 
+          ra<lb break="no" ed="#P" n="99"/>tionem praedictae differentia ex natura
+          <lb ed="#P" n="100"/>ipsius praecepti et legis colligit. Nam lex, cum
+          <lb ed="#P" n="101"/>feratur communitati et pro bono communi,
+          <lb ed="#P" n="102"/>nomine ipsius reipublicae ferri videtur a 
+          prin<lb break="no" ed="#P" n="103"/>cipe, et ideo cum semper maneat respublica,
+          <lb ed="#P" n="104"/>semper durat, etiamsi princeps moriatur. At
+          <lb ed="#P" n="105"/>vero praeceptum singulare (inquit) alicui 
+          im<lb break="no" ed="#P" n="106"/>ponitur a principe, vel superiore, ut curam 
+          il<lb break="no" ed="#P" n="107"/>lius gerit ; nam respicit bonum singulare 
+          hu<lb break="no" ed="#P" n="108"/>jus vel illius civis, et ideo fertur ab ipso 
+          prin<lb break="no" ed="#P" n="109"/>cipe, non tam nomine reipublicae quam suo,
+          <lb ed="#P" n="110"/>quatenus ad ipsum pertinet cura singulorum
+          <pb ed="#P" n="47"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>civium, quae cura expirat per mortem vel 
+          mu<lb break="no" ed="#P" n="2"/>tationem Praelati, et ideo etiam cessat 
+          praecep<lb break="no" ed="#P" n="3"/>tum.
+        </p>
+        <p xml:id="szdleg-a11382-d1e819">
+          <lb ed="#P" n="4"/>11. ejicitur limitatio. — Dicendum vero
+          <lb ed="#P" n="5"/>est differentiam datam procederc non solum
+          <lb ed="#P" n="6"/>de praecepto dato singulari personae (quod jam
+          <lb ed="#P" n="7"/>ex illo capite non est lex, quia non est 
+          praecep<lb break="no" ed="#P" n="8"/>tum commune), sed etiam de praecepto 
+          com<lb break="no" ed="#P" n="9"/>muni dato communitati in bonum commune
+          <lb ed="#P" n="10"/>ipsius, ut recte exposuerunt Menochius, 
+          Cor<lb break="no" ed="#P" n="11"/>duba et Sanci., supra contra quemdam 
+          Pe<lb break="no" ed="#P" n="12"/>trum Peuzebis, quodlib. 1, q. 21. qui de 
+          ge<lb break="no" ed="#P" n="13"/>neralibus praeceptis dixit non expirare per
+          <lb ed="#P" n="14"/>mortem praecipientis, quod falsum est, quia
+          <lb ed="#P" n="15"/>consuetudo quam allegat Sylvest. de 
+          quocum<lb break="no" ed="#P" n="16"/>que praecepto eadem est : unde colligo 
+          ratio<lb break="no" ed="#P" n="17"/>nem adaequatam hujus differentiae non posse
+          <lb ed="#P" n="18"/>sumi ex eo quod praeceptum procedit a cura
+          <lb ed="#P" n="19"/>singularis personae, et non fit nomine 
+          commu<lb break="no" ed="#P" n="20"/>nitatis : nam praeceptum generale, etiamsi non
+          <lb ed="#P" n="21"/>feratur per modum statuti, ad curam totius
+          <lb ed="#P" n="22"/>communitatis et bonum ejus pertinet. Adde
+          <lb ed="#P" n="23"/>quod leges canonicae non fiunt nomine totius
+          <lb ed="#P" n="24"/>reipublicae, seu communitatis, quia potestas
+          <lb ed="#P" n="25"/>per quam illae leges feruntur non manavit a
+          <lb ed="#P" n="26"/>communitate, et tamen illa differentia etiam
+          <lb ed="#P" n="27"/>in legibus ecclesiasticis, et praeceptis locum
+          <lb ed="#P" n="28"/>habet. Item e converso, quamvis rex praecipiat
+          <lb ed="#P" n="29"/>uni particulari personae, potest, si velit, ita 
+          im<lb break="no" ed="#P" n="30"/>ponere praeceptum , ut: duret post mortem
+          <lb ed="#P" n="31"/>suam, donec a suo successore revocetur : quia
+          <lb ed="#P" n="32"/>si potest praecipere communitati , cur non
+          <lb ed="#P" n="33"/>singulari personae ? et tamen tunc etiam 
+          dice<lb break="no" ed="#P" n="34"/>tur ferre illud praeceptum tanquam gerens
+          <lb ed="#P" n="35"/>curam specialem talis personae : ergo non est
+          <lb ed="#P" n="36"/>haec adaequata ratio cur expiret praeceptum.
+          <lb ed="#P" n="37"/>Item respublica, quando transtulit potestatem
+          <lb ed="#P" n="38"/>in principem , non communitatis tantum sed
+          <lb ed="#P" n="39"/>etiam singulorum curam illi commisit : in
+          <lb ed="#P" n="40"/>ipsa autem republica erat potestas imponendi
+          <lb ed="#P" n="41"/>praeceptum particulare, quod obliget 
+          perso<lb break="no" ed="#P" n="42"/>nam singularem, donec revocetur : ergo etiam
+          <lb ed="#P" n="43"/>in principem transtulit hanc potestatem : ergo
+          <lb ed="#P" n="44"/>potest princeps hoc modo singulare praeceptum
+          <lb ed="#P" n="45"/>imponere : ergo differentia illa non provenit
+          <lb ed="#P" n="46"/>ex eo quod, licet sit commune, fertur aut per
+          <lb ed="#P" n="47"/>modum legis, aut per modum personalis 
+          prae<lb break="no" ed="#P" n="48"/>cepti.
+        </p>
+        <p xml:id="szdleg-a11382-d1e919">
+          <lb ed="#P" n="49"/>12. Declaraturque hoc amplius, quia vel
+          <lb ed="#P" n="50"/>loquimur de principe habente potestatem 
+          con<lb break="no" ed="#P" n="51"/>dendi legem, vel de inferiori Praelato, vel 
+          gu<lb break="no" ed="#P" n="52"/>bernatore, qui potest praecepta ferre, non vero
+          <lb ed="#P" n="53"/>legem statuere. De priori constat quod, licet
+          <lb ed="#P" n="54"/>possit legem condere, potest etiam praecipere
+          <lb ed="#P" n="55"/>communitati, non condendo leges, qui duo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>modi praecipiendi non possunt melius distingui
+          <lb ed="#P" n="57"/>quam in praedicta perpetuitate. Nam cum 
+          os<lb break="no" ed="#P" n="58"/>tensum sit per legem posse imponi 
+          obligatio<lb break="no" ed="#P" n="59"/>nem quae duret post mortem praecipientis, et
+          <lb ed="#P" n="60"/>hunc modum praecipiendi esse maxime 
+          conve<lb break="no" ed="#P" n="61"/>nientem regimini reipubhcae et potestati 
+          legis<lb break="no" ed="#P" n="62"/>lativae, recte fit quotiescumque princeps 
+          decla<lb break="no" ed="#P" n="63"/>rat simpliciter se statuere vel condere legem,
+          <lb ed="#P" n="64"/>ponere praeceptum ita durabile, ac subinde
+          <lb ed="#P" n="65"/>tale praeceptum significari nomine legis. At
+          <lb ed="#P" n="66"/>vero quando tantum praecipit non statuendo,
+          <lb ed="#P" n="67"/>signum est, non pro futuris temporibus, sed
+          <lb ed="#P" n="68"/>pro tempore praesenti, seu pro tempore 
+          guber<lb break="no" ed="#P" n="69"/>nationis suae praecipere, nec uti propria 
+          potes<lb break="no" ed="#P" n="70"/>tate legislativa, sed tantum praeceptiva, et ideo
+          <lb ed="#P" n="71"/>recte censetur hoc praeceptum expirare morte
+          <lb ed="#P" n="72"/>praecipientis. Unde a fortiori idem generaliter
+          <lb ed="#P" n="73"/>est de praecepto ejus, qui non habet statuendi
+          <lb ed="#P" n="74"/>potestatem, quia in illo non solum ex 
+          volun<lb break="no" ed="#P" n="75"/>tate, sed etiam ex defectu potestatis provenire
+          <lb ed="#P" n="76"/>videtur, ut praeceptum ejus extinguatur cum
+          <lb ed="#P" n="77"/>morte ejus, vel cum ablatione a munere: nam
+          <lb ed="#P" n="78"/>hoc perinde reputatur, ut in materia de 
+          cen<lb break="no" ed="#P" n="79"/>suris dixi. Posset tamen dubium moveri an, si
+          <lb ed="#P" n="80"/>talis superior velit aliquid praecipere, cum 
+          de<lb break="no" ed="#P" n="81"/>claratione expressa ut duret praeceptum, etiam
+          <lb ed="#P" n="82"/>post mortem, donec a successore revocetur,
+          <lb ed="#P" n="83"/>valeat dispositio. Sed hoc non refert ad 
+          prae<lb break="no" ed="#P" n="84"/>sens, et ideo in alium locum illud remittimus:
+          <lb ed="#P" n="85"/>satis enim nobis est , quod jure ordinario et
+          <lb ed="#P" n="86"/>communi praeceptum simpliciter latum, a 
+          quo<lb break="no" ed="#P" n="87"/>cumque feratur, non habet stabilitatem, et
+          <lb ed="#P" n="88"/>quod in hac lex superat personale praeceptum.
+        </p>
+        <p xml:id="szdleg-a11382-d1e1010">
+          <lb ed="#P" n="89"/>13. Huc etiam spectat vulgare axioma, quod
+          <lb ed="#P" n="90"/>mandatum spirat morte mandantis, l. 
+          manda<lb break="no" ed="#P" n="91"/>tumn, c. mandati, c. Gratum, c. Relatum, de
+          <lb ed="#P" n="92"/>Offic. delegat., cap. ultim., vers. S'ecus autem
+          <lb ed="#P" n="93"/>de Offic. legat. , et doctores communiter his
+          <lb ed="#P" n="94"/>locis, Covarrus, rubr. de Testam., p. 3, n. 3,
+          <lb ed="#P" n="95"/>et Summistae communiter, verbo Mandatum.
+          <lb ed="#P" n="96"/>Haec autem vox in illo axiomate sumitur pro
+          <lb ed="#P" n="97"/>personali mandato, non pro lege. Imo advertit
+          <lb ed="#P" n="98"/>Sylvester d. q. 3, non accipi ibi mandatum
+          <lb ed="#P" n="99"/>pro praecepto simpliciter obligante ad aliquid
+          <lb ed="#P" n="100"/>faciendum, sed pro delegatione jurisdictionis:
+          <lb ed="#P" n="101"/>nam in praecepto pure et proprie dicto, 
+          simpli<lb break="no" ed="#P" n="102"/>citer et sine limitatione verum est cessare per
+          <lb ed="#P" n="103"/>mortem praecipientis : in mandato autem 
+          ad<lb break="no" ed="#P" n="104"/>ditur in jure limitatio , sà res fuerit integra -
+          <lb ed="#P" n="105"/>nam si fuerit inchoata, firmatur jurisdictio, ut
+          <lb ed="#P" n="106"/>duret etiam post mortem mandantis. Quod
+          <lb ed="#P" n="107"/>recte adnimadversum est : non est tamen
+          <lb ed="#P" n="108"/>coarctanlum mandatum ad commissionem ,
+          <lb ed="#P" n="109"/>seu delegationem solius jurisdictionis proprie
+          <lb ed="#P" n="110"/>dictae : nam etiam habet dicta regula locum in
+          <pb ed="#P" n="48"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mandato procurandi , donandi, seu agendi
+          <lb ed="#P" n="2"/>aliquid nomine alterius, ut constat ex dicta
+          <lb ed="#P" n="3"/>l. Mandatum, et ex l. 2. S S'ed si quis, et exl.
+          <lb ed="#P" n="4"/>A bsenti , ff. de Donat., et in nostro regno, in
+          <lb ed="#P" n="5"/>l. 23. tit. 5. p. 3, et notant referentes alios
+          <lb ed="#P" n="6"/>plures Covarrus in rubr. de Matrim., p.3,
+          <lb ed="#P" n="7"/>n. 13, et Antonius Gomez, lib. 2 Variar., c. 4,
+          <lb ed="#P" n="8"/>n. 3. Sed de hoc alias.
+        </p>
+        <p xml:id="szdleg-a11382-d1e1082">
+          <lb ed="#P" n="9"/>14. Secunda perpetuitas legis ex parte 
+          subdi<lb break="no" ed="#P" n="10"/>torum.—Secunda perpetuitas legis est ex parte
+          <lb ed="#P" n="11"/>eorum ad quos fertur, quia non solum 
+          praesen<lb break="no" ed="#P" n="12"/>tes obligat, sed etiam futuros, statim ac 
+          inci<lb break="no" ed="#P" n="13"/>piunt esse partes illius communitatis cui lex
+          <lb ed="#P" n="14"/>imposita est. Quae pars etiam sumitur ex 
+          Glos<lb break="no" ed="#P" n="15"/>sa Innocent. Panormitan. et aliis, in d. cap.
+          <lb ed="#P" n="16"/>A nobis, 1 de Sentent. escommun., et notat
+          <lb ed="#P" n="17"/>Covarrus in cap. 4/ma , p. 1, 310, n. 2, ubi
+          <lb ed="#P" n="18"/>etiam constituit differentiam in hoc inter 
+          ex<lb break="no" ed="#P" n="19"/>communicationem latam per generalem 
+          sen<lb break="no" ed="#P" n="20"/>tentiam, quae vim habet cujusdam praecepti, et
+          <lb ed="#P" n="21"/>latam per statutum , seu legem, quod prior
+          <lb ed="#P" n="22"/>tantum comprehendit eos qui jam sunt subditi,
+          <lb ed="#P" n="23"/>quando praeceptum fertur : posterior vero 
+          om<lb break="no" ed="#P" n="24"/>nes qui in futurum incipiunt esse subditi; quia
+          <lb ed="#P" n="25"/>lex obligat omnes , et ita in hac parte habet
+          <lb ed="#P" n="26"/>perpetuitatem. Quae differentia sano modo 
+          in<lb break="no" ed="#P" n="27"/>telligenda est quoad absolutam durationem,
+          <lb ed="#P" n="28"/>etiam post mortem ferentis sententiam: nam
+          <lb ed="#P" n="29"/>pro tempore pro quo durat generalis sententia
+          <lb ed="#P" n="30"/>in sua vi etiam obligat novos subditos, ut dixi
+          <lb ed="#P" n="31"/>in 5 tomo de Censur., d. 5, sect. 5, n. 9; solum
+          <lb ed="#P" n="32"/>ergo potest esse differentia quoad majorem
+          <lb ed="#P" n="33"/>independentiam legis , quae nascitur ex priori
+          <lb ed="#P" n="34"/>perpetuitate : satis ergo est quod haec 
+          proprie<lb break="no" ed="#P" n="35"/>tas perfectius et stabilius legi convenit. Quod
+          <lb ed="#P" n="36"/>praeterea ostendi potest manifesta inductione ,
+          <lb ed="#P" n="37"/>quia omnes leges positivae Ecclesiae, et 
+          regno<lb break="no" ed="#P" n="38"/>rum, et civilis juris ita obligant semperque
+          <lb ed="#P" n="39"/>obligarunt. Ratio autem est, primo quia lex
+          <lb ed="#P" n="40"/>fertur prospiciendo ad futura, et ideo non 
+          tan<lb break="no" ed="#P" n="41"/>tum obligat praesentes, sed etiam futuros. 
+          Se<lb break="no" ed="#P" n="42"/>cundo, lex directe fertur in communitatem, et
+          <lb ed="#P" n="43"/>consequenter obligat membra ejus : 
+          communi<lb break="no" ed="#P" n="44"/>tas autem perpetua est, et semper est eadem, 
+          li<lb break="no" ed="#P" n="45"/>cet successive membra ejus varientur , vel 
+          au<lb break="no" ed="#P" n="46"/>geantur, et ideolex etiam quamdiu durat et non
+          <lb ed="#P" n="47"/>revocatur, totam communitatem obligat et 
+          om<lb break="no" ed="#P" n="48"/>nes partes ejus. Tertio, quia qui denuo nascitur
+          <lb ed="#P" n="49"/>in aliqua communitate, eo ipso nascitur 
+          subdi<lb break="no" ed="#P" n="50"/>tus legibus ejus, et similiter qui denuo illi 
+          vo<lb break="no" ed="#P" n="51"/>luntarie aggregatur, subjicitur legibus ejus,
+          <lb ed="#P" n="52"/>quia de ratione partis est ut conformetur toti, et
+          <lb ed="#P" n="53"/>haec conditio quasi naturali jure est inclusa in
+          <lb ed="#P" n="54"/>tali convictu hbumano ; ergo etiam est de 
+          ra<lb break="no" ed="#P" n="55"/>tione legis, ut cum eadem conditione feratur.
+        </p>
+        <p xml:id="szdleg-a11382-d1e1187">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>15. Tertia perpetuitas que ez natura legis
+          <lb ed="#P" n="57"/>oritwr. — Tertia perpetuitas, scilicet, ut lex
+          <lb ed="#P" n="58"/>duret quamdiu non revocatur, vel materia
+          <lb ed="#P" n="59"/>ejus mutatur, habet idem fundamentum, quia
+          <lb ed="#P" n="60"/>ad rectam gubernationem reipublicae 
+          necessa<lb break="no" ed="#P" n="61"/>ria sunt praecepta hoc modo stabilia, quae sint
+          <lb ed="#P" n="62"/>certae et permanentes regulae, ac mensurae 
+          ope<lb break="no" ed="#P" n="63"/>rationum : haec autem praecepta significantur
+          <lb ed="#P" n="64"/>nomine legum, juxta usum jurium et 
+          docto<lb break="no" ed="#P" n="65"/>rum ; ergo. Minor satis probata est referendo
+          <lb ed="#P" n="66"/>secundam sententiam. Major etiam 
+          experien<lb break="no" ed="#P" n="67"/>tia et ratione constat; quia gubernatio humana,
+          <lb ed="#P" n="68"/>ut sit utilis, postulat stabilitatem et 
+          uniformi<lb break="no" ed="#P" n="69"/>tatem : item quia lex humana fertur pro 
+          com<lb break="no" ed="#P" n="70"/>munitate, quae per se perpetua est, et propter
+          <lb ed="#P" n="71"/>commune bonum, quod etiam debet esse 
+          sta<lb break="no" ed="#P" n="72"/>bile, et deducitur ex lege naturali, quae 
+          perpe<lb break="no" ed="#P" n="73"/>tua est ; ergo, ut convenienter feratur, debet
+          <lb ed="#P" n="74"/>accommodari, quoad fieri possit, his omnibus,
+          <lb ed="#P" n="75"/>et eorum proprietatem imitari. Praeterea haec
+          <lb ed="#P" n="76"/>perpetuitas sequitur ex prima ; nam si lex 
+          du<lb break="no" ed="#P" n="77"/>rat post mortem primi legislatoris, nisi ab eo
+          <lb ed="#P" n="78"/>revocetur, cadem ratione durabit eodem 
+          mo<lb break="no" ed="#P" n="79"/>do, et sub eadem conditione, vivente 
+          succes<lb break="no" ed="#P" n="80"/>sore, et post mortem etiam ejus, et idem erit
+          <lb ed="#P" n="81"/>de secundo successore, et sic sine termino, quia
+          <lb ed="#P" n="82"/>non est major ratio de uno quam de alio,
+          <lb ed="#P" n="83"/>quamdiu materia non ita mutatur ut lex fiat
+          <lb ed="#P" n="84"/>injusta : est etiam haec tertia perpetuitas 
+          ne<lb break="no" ed="#P" n="85"/>cessaria ad secundam, quia, ut lex de se 
+          obli<lb break="no" ed="#P" n="86"/>get semper ex parte subditorum et 
+          successo<lb break="no" ed="#P" n="87"/>rum, necesse est ut ipsa in suo esse et vigore
+          <lb ed="#P" n="88"/>perseveret , ut constat. Denique declaratur
+          <lb ed="#P" n="89"/>exemplo: nam olim bulla Coenae Domini pro
+          <lb ed="#P" n="90"/>tempore unius anni ferebatur, et tunc illius
+          <lb ed="#P" n="91"/>censurae reputabantur ab homine : postea vero
+          <lb ed="#P" n="92"/>a tempore Gregorii XIII, lata est donec 
+          revoce<lb break="no" ed="#P" n="93"/>tur, et ex tunc ejus censurae reputatae sunt a
+          <lb ed="#P" n="94"/>jure, ut notavit Navarrus in expositione illius
+          <lb ed="#P" n="95"/>bullae ; ergo signum est ad constituendum jus
+          <lb ed="#P" n="96"/>(quod idem est cum lege) necessarium esse
+          <lb ed="#P" n="97"/>illum perpetuitatis modum.
+        </p>
+        <p xml:id="szdleg-a11382-d1e1283">
+          <lb ed="#P" n="98"/>16. Unde fit, quoties praeceptum superioris
+          <lb ed="#P" n="99"/>ad limitatum tempus fertur, per se loquendo,
+          <lb ed="#P" n="100"/>et jure ordinario, non habere rationem legis.
+          <lb ed="#P" n="101"/>Dixi, per se, et jure ordinario : quia si 
+          legisla<lb break="no" ed="#P" n="102"/>tor vellet, ferendo praeceptum ad tempus 
+          sta<lb break="no" ed="#P" n="103"/>tuere ac declarare ut pro illo tempore haberet
+          <lb ed="#P" n="104"/>vim et privilegia legis, ut sic dicam, posset id
+          <lb ed="#P" n="105"/>facere, quia non includit repugnantiam: illud
+          <lb ed="#P" n="106"/>tamen esset quasi ex dispensatione quadam.
+          <lb ed="#P" n="107"/>Et ideo censeo solum gubernatorem supremum
+          <lb ed="#P" n="108"/>posse id facere, ut est rex in temporalibus,
+          <lb ed="#P" n="109"/>Papa in ecclesiasticis, quia in commani et 
+          or<lb break="no" ed="#P" n="110"/>dinario jure, praesertim in re tam gravi, non
+          <pb ed="#P" n="49"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>possunt inferiores dispensare. Tunc vero 
+          reti<lb break="no" ed="#P" n="2"/>neret illa lex illud perpetuitatis genus, quod est,
+          <lb ed="#P" n="3"/>non dependere a vita ferentis : nam si intra
+          <lb ed="#P" n="4"/>illud tempus deficeret, nihilominus usque ad
+          <lb ed="#P" n="5"/>definitum tempus lex duraret. Et eadem 
+          ra<lb break="no" ed="#P" n="6"/>tione potest supremus princeps decretum seu
+          <lb ed="#P" n="7"/>praeceptum ferre, declarans velle ut duret pro
+          <lb ed="#P" n="8"/>tempore vitae suae, et non amplius, et quod in
+          <lb ed="#P" n="9"/>caeteris habeat virtutem et efficaciam legis,
+          <lb ed="#P" n="10"/>quia in hoc etiam non est repugnantia et
+          <lb ed="#P" n="11"/>princeps potest uti sua potestate, prout 
+          volue<lb break="no" ed="#P" n="12"/>rit: et cum haec ratio, seu proprietas legis ex
+          <lb ed="#P" n="13"/>institutione pendeat, potest princeps illam 
+          mu<lb break="no" ed="#P" n="14"/>tare, ubi judicaverit expedire. Tunc autem re
+          <lb ed="#P" n="15"/>vera illa non esset simpliciter lex, qualis nunc
+          <lb ed="#P" n="16"/>significatur hoc nomine absolute sumpto , sed
+          <lb ed="#P" n="17"/>esset lex secundum quid, vel (ut sic dicam)
+          <lb ed="#P" n="18"/>per dispensationem quamdam.
+        </p>
+        <p xml:id="szdleg-a11382-d1e1357">
+          <lb ed="#P" n="19"/>17. Et hoc fortasse tantum voluerunt 
+          auc<lb break="no" ed="#P" n="20"/>tores primae sententiae: fatentur enim legem
+          <lb ed="#P" n="21"/>regulariter esse perpetuam, non esse tamen
+          <lb ed="#P" n="22"/>hoc ita essentiale, quin aliter ferri possit, quod
+          <lb ed="#P" n="23"/>in idem fere recidit: nos autem addimus legis
+          <lb ed="#P" n="24"/>nomen re vera significare praeceptum ita 
+          du<lb break="no" ed="#P" n="25"/>rabile; praeceptum autem non ita stabile, licet
+          <lb ed="#P" n="26"/>in ratione praecepti sit ejusdem essentiae, jam
+          <lb ed="#P" n="27"/>non esse propriam legem. Potest exemplo 
+          de<lb break="no" ed="#P" n="28"/>clarari : nam de ratione beatitudinis est 
+          per<lb break="no" ed="#P" n="29"/>petuitas, et ideo licet possit Deus dare homini
+          <lb ed="#P" n="30"/>visionem sui quae cito transeat, illa erit 
+          ejus<lb break="no" ed="#P" n="31"/>dem naturae cum visione quae est beatitudo :
+          <lb ed="#P" n="32"/>non tamen erit simpliciter beatitudo: ita ergo
+          <lb ed="#P" n="33"/>suo modo de lege loqui possumus. Ad primam
+          <lb ed="#P" n="34"/>igitur rationem illius sententiae respondeo 
+          im<lb break="no" ed="#P" n="35"/>primis non fuisse necessarium , Isidorum et
+          <lb ed="#P" n="36"/>D. Thomam explicite ponere omnes 
+          conditio<lb break="no" ed="#P" n="37"/>nes legis; satis enim est quod in illis quas
+          <lb ed="#P" n="38"/>ponunt reliqua contineantur : ita enim haec
+          <lb ed="#P" n="39"/>perpetuitas legis in ipsa ratione boni 
+          commu<lb break="no" ed="#P" n="40"/>nis continetur. Deinde addo non omnino 
+          prae<lb break="no" ed="#P" n="41"/>termisisse illas; jam enim allegavi locum
+          <lb ed="#P" n="42"/>D. Thomae, in quo satis expresse hujus 
+          perpe<lb break="no" ed="#P" n="43"/>tuitatis meminit. Item si attente legatur, in
+          <lb ed="#P" n="44"/>q. 95, art. 1, incorp., et ad 2, semper loquitur
+          <lb ed="#P" n="45"/>de lege humana, tanquam de regula 
+          perma<lb break="no" ed="#P" n="46"/>nente et stabili. Rationes etiam quas ibi 
+          addu<lb break="no" ed="#P" n="47"/>cit ex Aristotele, 1 Rhetor., c. 1, ut probet
+          <lb ed="#P" n="48"/>necessitatem legum , omnes probant debere
+          <lb ed="#P" n="49"/>esse fixas et stabiles, et non debere variari
+          <lb ed="#P" n="50"/>durante eodem statu reipublicae et rerum. Et
+          <lb ed="#P" n="51"/>ita eadem, q. 95, art. 4, legem ponit, ut 
+          per<lb break="no" ed="#P" n="52"/>manentem regulam directivam humanorum
+          <lb ed="#P" n="53"/>actuum, et eodem modo loquitur semper de
+          <lb ed="#P" n="54"/>lege Isidorus.
+        </p>
+        <p xml:id="szdleg-a11382-d1e1438">
+          <lb ed="#P" n="55"/>18. Ad secundum jam dictum est quod si
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>lex feratur ad certum tempus ex voluntate
+          <lb ed="#P" n="57"/>legislatoris, erit potius quoddam praeceptum
+          <lb ed="#P" n="58"/>quam lex, vel erit lex secundum quid, et quasi
+          <lb ed="#P" n="59"/>analogice. Ad tertium ab exemplis dico 
+          impri<lb break="no" ed="#P" n="60"/>mis, sine causa allegari cap. 1, 29 d., quia
+          <lb ed="#P" n="61"/>non dicit leges esse temporales, id est, non
+          <lb ed="#P" n="62"/>perpetuas de se : sed dicit judicandas esse, id
+          <lb ed="#P" n="63"/>est, intelligendas et interpretandas, attenta
+          <lb ed="#P" n="64"/>ratione temporum et locorum in quibus latae
+          <lb ed="#P" n="65"/>sunt. Et ita fatemur leges non easdem ferri
+          <lb ed="#P" n="66"/>pro omnibus temporibus, et quasdam expedire
+          <lb ed="#P" n="67"/>quibusdam temporibus, alias aliis, et pro 
+          di<lb break="no" ed="#P" n="68"/>versitate temporum variari, quod non obstat
+          <lb ed="#P" n="69"/>quominus suam habeant perpetuitatem, 
+          quam<lb break="no" ed="#P" n="70"/>diu nec status rerum mutatur nec tolluntur,
+          <lb ed="#P" n="71"/>ut explicatum est. Ad Extravag. Ad regimen,
+          <lb ed="#P" n="72"/>dico non videri propriam legem, sed 
+          reserva<lb break="no" ed="#P" n="73"/>tionem quamdam circa promissionem 
+          prae<lb break="no" ed="#P" n="74"/>bendarum et beneficiorum valde amplam et
+          <lb ed="#P" n="75"/>generalem, quam fecit Benedictus XII pro
+          <lb ed="#P" n="76"/>tempore tantum vitae suae, ut in ea expresse
+          <lb ed="#P" n="77"/>dicitur ; vocat autem illam institutionem, quia
+          <lb ed="#P" n="78"/>pro illo tempore voluit habere vim et 
+          stabili<lb break="no" ed="#P" n="79"/>tatem legis, et quia solum ex parte materise,
+          <lb ed="#P" n="80"/>quae temporalis fuit, certam durationem 
+          ha<lb break="no" ed="#P" n="81"/>buit. De regulis Cancellariae negant multi esse
+          <lb ed="#P" n="82"/>veras leges, ut ibi refert Gomez et Felinus, in
+          <lb ed="#P" n="83"/>cap. Ea parte de Resc., n. ult.; vel certe si
+          <lb ed="#P" n="84"/>per modum legum et constitutionum feruntur,
+          <lb ed="#P" n="85"/>modus durationis earum ex se perpetuus est,
+          <lb ed="#P" n="86"/>licet ex speciali declaratione Papae aliquam
+          <lb ed="#P" n="87"/>forte limitationem habeant, quod hic non 
+          po<lb break="no" ed="#P" n="88"/>test amplius declarari.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8 UTRUM SIT DE RATIONE LEGIS UT PUBLICA 
+          POTESTATE FERATUR</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8 UTRUM SIT DE RATIONE LEGIS UT PUBLICA 
+            POTESTATE FERATUR</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="34"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a08925"><!-- deleg-l1c8 -->
+        <head xml:id="szdleg-a08925-Hd1e101">Caput 8</head>
+        <head xml:id="szdleg-a08925-Hd1e103" type="quesiton-title">UTRUM SIT DE RATIONE LEGIS UT PUBLICA 
+          PO<lb break="no" ed="#P" n="65"/>TESTATE FERATUR</head>
+        <p xml:id="szdleg-a08925-d1e108">
+          <lb ed="#P" n="66"/>CAPUT VII.
+          <lb ed="#P" n="67"/>UTRUM SIT DE RATIONE LEGIS UT PUBLICA 
+          PO<lb break="no" ed="#P" n="68"/>TESTATE FERATUR.
+        </p>
+        <p xml:id="szdleg-a08925-d1e117">
+          <lb ed="#P" n="69"/>1. Explicuimus finalem causam legis ; 
+          se<lb break="no" ed="#P" n="70"/>quitur ut de efficiente dicamus : nam ex illa
+          <lb ed="#P" n="71"/>sumitur alia conditio legis, sine cujus 
+          cogni<lb break="no" ed="#P" n="72"/>tione legis natura integre tradi aut definiri
+          <lb ed="#P" n="73"/>non potest. Propter quod etiam D. Thomas,
+          <lb ed="#P" n="74"/>d. q. 90, a. 3. proponit similem quaestionem,
+          <lb ed="#P" n="75"/>interrogando an ratio cujuslibet sit factiva
+          <lb ed="#P" n="76"/>legis ? Videtur enim uniuscujusque ratio 
+          ha<lb break="no" ed="#P" n="77"/>bere vim legis saltem quoad dictamina legis
+          <lb ed="#P" n="78"/>naturalis : ergo saltem in lege naturali non
+          <lb ed="#P" n="79"/>est necessaria haec conditio, ut scilicet a 
+          pu<lb break="no" ed="#P" n="80"/>blica potestate feratur. Antecedens patet, tum
+          <lb ed="#P" n="81"/>ex illo Pauli ad Rom. 2 : Cum gentes quae 
+          le<lb break="no" ed="#P" n="82"/>gem non habent naturaliter ea quae legis sunt
+          <lb ed="#P" n="83"/>faciunt, ejusmodi legem non habentes, ipsi sibi
+          <lb ed="#P" n="84"/>sunt lez : tum etiam quia, seclusa omni 
+          supe<lb break="no" ed="#P" n="85"/>riori potestate, lex honorandi parentes, vel non
+          <lb ed="#P" n="86"/>mentiendi, et similes, semper obligant : non
+          <lb ed="#P" n="87"/>est ergo illa conditio de ratione legis, ut talis
+          <lb ed="#P" n="88"/>est : nam quod non est de ratione unius 
+          spe<lb break="no" ed="#P" n="89"/>ciei, non est de ratione generis. Et 
+          confirma<lb break="no" ed="#P" n="90"/>tur, quia omnes etiam aliae leges humanae 
+          ni<lb break="no" ed="#P" n="91"/>hil aliud sunt quam prudentum virorum 
+          con<lb break="no" ed="#P" n="92"/>sulta, ut dicitur in l. 1, ff. de Legib.; consulta
+          <lb ed="#P" n="93"/>autem prudentum non requirunt specialem
+          <lb ed="#P" n="94"/>potestatem publicam, sed prudentiam, et 
+          rec<lb break="no" ed="#P" n="95"/>tam rationem. Unde Cicero, lib. 1 de Legib.:
+          <lb ed="#P" n="96"/>Lea (inquit) est naturae vis, mens et ratio 
+          pru<lb break="no" ed="#P" n="97"/>dentis , et Isidorus, 25. Etymol., c. 10: S
+          <lb ed="#P" n="98"/>ratione (inquit) lea consistat, lem erit omne jam
+          <lb ed="#P" n="99"/>quod ratione consisterit. Lex ergo ex ratione
+          <lb ed="#P" n="100"/>pendet, non ex ala potestate.
+        </p>
+        <p xml:id="szdleg-a08925-d1e189">
+          <lb ed="#P" n="101"/>2. Deratione legis esse ut a publica potestate
+          <lb ed="#P" n="102"/>feratur. — Dicendum nihilominus est legem
+          <lb ed="#P" n="103"/>esse praeceptum ab eo impositum qui vim 
+          ha<lb break="no" ed="#P" n="104"/>beat cogendi , ac subinde de ratione legis esse
+          <lb ed="#P" n="105"/>ut ab habente publicam potestatem feratur.
+          <lb ed="#P" n="106"/>Hoc intendit D. Thomas, in d. art. 3. et est
+          <lb ed="#P" n="107"/>quasi principium primum in materia moral.
+          <lb ed="#P" n="108"/>Non potest autem uniformiter in omnibus le-
+          <pb ed="#P" n="35"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gibus declarari, ideoque per partitionem 
+          divi<lb break="no" ed="#P" n="2"/>narum humanarumque legum distinctius 
+          os<lb break="no" ed="#P" n="3"/>tendetur. De legibus enim divinis per se notum
+          <lb ed="#P" n="4"/>est, sicut de ratione earum est ut a Deo, 
+          tan<lb break="no" ed="#P" n="5"/>quam a proximo legislatore procedant, ita 
+          ne<lb break="no" ed="#P" n="6"/>cessario procedere ab habente non solum 
+          pu<lb break="no" ed="#P" n="7"/>blicam potestatem , sed etiam supremam, et,
+          <lb ed="#P" n="8"/>ut ita dicam, per essentiam, quia Deo 
+          natura<lb break="no" ed="#P" n="9"/>liter competit supremum dominium rerum
+          <lb ed="#P" n="10"/>omnium, et cum omni jure, tam nominandi
+          <lb ed="#P" n="11"/>quam gubernandi et regendi , et homo etiam
+          <lb ed="#P" n="12"/>naturaliter est Deo subjectus. In hac ergo 
+          sub<lb break="no" ed="#P" n="13"/>jectione ex parte hominis, et potestate 
+          supre<lb break="no" ed="#P" n="14"/>ma ex parte Dei, fundamentum habent leges
+          <lb ed="#P" n="15"/>divinae : juxta illud Isaiae, 33: Dominus judec
+          <lb ed="#P" n="16"/>noster, Dominus legifer noster, Dominus vea
+          <lb ed="#P" n="17"/>noster, utique summus et independens ab 
+          om<lb break="no" ed="#P" n="18"/>ni alio, qui auctoritate propria, et non ab alio
+          <lb ed="#P" n="19"/>accepta leges ferre potest, et cogere ad earum
+          <lb ed="#P" n="20"/>observationem, et punire transgressores. 
+          Quo<lb break="no" ed="#P" n="21"/>modo dixit Jacobus, c. 4: Unus est legislator
+          <lb ed="#P" n="22"/>et judem, qui potest perdere et liberare : leges
+          <lb ed="#P" n="23"/>ergo divinae necessario dicunt respectum ad
+          <lb ed="#P" n="24"/>publicam et supremam potestatem. Quocirca
+          <lb ed="#P" n="25"/>lex naturalis, aut propria lex non est, aut si
+          <lb ed="#P" n="26"/>vera lex est, a publica etiam procedit 
+          guber<lb break="no" ed="#P" n="27"/>nandi postestate, quia si lex divina est, ergo est
+          <lb ed="#P" n="28"/>ab ejus potestate qui naturam gubernat eique
+          <lb ed="#P" n="29"/>dominatur. Quomodo autem lex naturae Deum
+          <lb ed="#P" n="30"/>habeat auctorem, lib. seq. declarabitur.
+        </p>
+        <p xml:id="szdleg-a08925-d1e279">
+          <lb ed="#P" n="31"/>3. Praeceptum requirit in imponente aliquam
+          <lb ed="#P" n="32"/>potestatem. — Differentia inter actus petendi,
+          <lb ed="#P" n="33"/>promittendi et imperandi. — Ut autem in 
+          legi<lb break="no" ed="#P" n="34"/>bus humanis hanc veritatem declaremus et 
+          os<lb break="no" ed="#P" n="35"/>tendamus, supponimus primo, praeceptum, ut
+          <lb ed="#P" n="36"/>tale est, necessario postulare aliquam 
+          superio<lb break="no" ed="#P" n="37"/>rem potestatem in praecipiente respectu ejus
+          <lb ed="#P" n="38"/>cui praecipit. Nota enim est differentia inter
+          <lb ed="#P" n="39"/>hos tres actus, petere, seu orare : promittere,
+          <lb ed="#P" n="40"/>seu vovere : imperare, seu praeceptum 
+          impo<lb break="no" ed="#P" n="41"/>nere : quod primum est indigentis, et ideo, ut
+          <lb ed="#P" n="42"/>sic, est inferioris ad superiorem : ultimus est
+          <lb ed="#P" n="43"/>superioris ad inferiorem : secundus vero 
+          po<lb break="no" ed="#P" n="44"/>test esse ad omnes , ut indicavit D. Thomas,
+          <lb ed="#P" n="45"/>2. 2, q. 88, art. 1, et, tr. 4 et 6. deRelig. in
+          <lb ed="#P" n="46"/>princ., explicuimus : ratio vero est, quia per
+          <lb ed="#P" n="47"/>actum orationis nec se obligat homo, nec 
+          obli<lb break="no" ed="#P" n="48"/>gat alium, sed solum vult aliquid ab alio 
+          ob<lb break="no" ed="#P" n="49"/>tinere, in quo inferiorem se illi exhibet. Per
+          <lb ed="#P" n="50"/>promissionem autem obligat homo seipsum,
+          <lb ed="#P" n="51"/>quam potestatem unusquisque in se habet, et
+          <lb ed="#P" n="52"/>potest illam exercere respectu aequalis, vel
+          <lb ed="#P" n="53"/>inferioris, aut superioris, quia nunquam 
+          exer<lb break="no" ed="#P" n="54"/>cet jus in alium, sed in se, nec cogit alium ad
+          <lb ed="#P" n="55"/>acceptandum si nolit. Per praeceptum autem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>obligat praecipiens alium cui praecipit, et ideo
+          <lb ed="#P" n="57"/>necesse est utin illum habeat jus et superiorem
+          <lb ed="#P" n="58"/>potestatem : non enim potest esse actio sine
+          <lb ed="#P" n="59"/>principio proportionato a quo manet; hoc 
+          au<lb break="no" ed="#P" n="60"/>tem principium in praesenu est potestas illa per
+          <lb ed="#P" n="61"/>quam unus alteri superior constituitur. [tem non
+          <lb ed="#P" n="62"/>omnis homo potest alteri praecipere, nec 
+          aequa<lb break="no" ed="#P" n="63"/>lis (ut sic dicam) potest aequalem obligare , ut
+          <lb ed="#P" n="64"/>est per se notum , quia non est ulla ratio cur
+          <lb ed="#P" n="65"/>unus magis teneatur parere alteri, quam e
+          <lb ed="#P" n="66"/>converso , essetque bellum justum ex utraque
+          <lb ed="#P" n="67"/>parte: est ergo necessario specialis potestas 
+          su<lb break="no" ed="#P" n="68"/>perior ad praecipiendum valide et efficaciter :
+          <lb ed="#P" n="69"/>unde cum lex sit essentialiter praeceptum,
+          <lb ed="#P" n="70"/>etiam hoc erit de legis essentia ac necessitate ,
+          <lb ed="#P" n="71"/>etiam in humanis legibus.
+        </p>
+        <p xml:id="szdleg-a08925-d1e373">
+          <lb ed="#P" n="72"/>4. Divisio potestatis praeceptivae in 
+          domina<lb break="no" ed="#P" n="73"/>tivam, et jurisdictionis. — Secundo vero 
+          ad<lb break="no" ed="#P" n="74"/>dendum est quod, sicut praeceptum et lex non
+          <lb ed="#P" n="75"/>convertuntur, quia non omne praeceptum est
+          <lb ed="#P" n="76"/>lex, licet omnis lex sit praeceptum, ita potestas
+          <lb ed="#P" n="77"/>praeceptiva et legislativa non convertuntur.
+          <lb ed="#P" n="78"/>Potestas ergo praeceptiva quasi generica est,
+          <lb ed="#P" n="79"/>quae in duas species distinguenda est, quas
+          <lb ed="#P" n="80"/>potestatem oeconomicam et politicam, vel 
+          po<lb break="no" ed="#P" n="81"/>testatem dominativam et jurisdictionis 
+          appel<lb break="no" ed="#P" n="82"/>lare possumus, sicut eas nominavimus et 
+          dis<lb break="no" ed="#P" n="83"/>tinximus in ordine ad votorum irritationem
+          <lb ed="#P" n="84"/>et dispensationem, lib. 6 de Voto, cap. 1, et
+          <lb ed="#P" n="85"/>solent etiam distingui ab auctoribus 
+          distin<lb break="no" ed="#P" n="86"/>guentibus dominium in dominium 
+          jurisdictio<lb break="no" ed="#P" n="87"/>nis et proprietatis, ut late declarat Molina,
+          <lb ed="#P" n="88"/>tract. 2 de Justit., disput. 3, cnm Covarro, in
+          <lb ed="#P" n="89"/>regula Peccatum, 2 part., S 9, n. 8, et attigit
+          <lb ed="#P" n="90"/>Seneca, lib. 7 de Benefic. , cap. 4, dicens: Ad
+          <lb ed="#P" n="91"/>reges potestas omnium pertinet, ad singulos
+          <lb ed="#P" n="92"/>proprietas. Possunt autem distingui hae 
+          potes<lb break="no" ed="#P" n="93"/>tates circa personas, et aliquo modo circa res
+          <lb ed="#P" n="94"/>alias, circa quas proprius invenitur potestas
+          <lb ed="#P" n="95"/>dominii quam jurisdictionis ; tamen suo modo
+          <lb ed="#P" n="96"/>etiam haec circa illas versatur, vel secundario,
+          <lb ed="#P" n="97"/>et per consecutionem, vel per modum 
+          admi<lb break="no" ed="#P" n="98"/>nistrationis : hoc vero nunc ad praesens non
+          <lb ed="#P" n="99"/>spectat : nam ad leges vel praecepta per se 
+          re<lb break="no" ed="#P" n="100"/>quiritur potestas in personam, ut ex ratione
+          <lb ed="#P" n="101"/>praecepti declaratum est.
+        </p>
+        <p xml:id="szdleg-a08925-d1e441">
+          <lb ed="#P" n="102"/>5. Varie differentie inter potestatem 
+          domi<lb break="no" ed="#P" n="103"/>nativam, et jurisdictionis. — Inter illas autem
+          <lb ed="#P" n="104"/>potestates, ut in personis versantur, cum 
+          mul<lb break="no" ed="#P" n="105"/>tae aliae differentiae assignari possint, tres sunt
+          <lb ed="#P" n="106"/>quae ad praesentem causam faciunt. Una est
+          <lb ed="#P" n="107"/>quod potestas dominativa regulariter est circa
+          <lb ed="#P" n="108"/>privatas personas, seu inter partes imperfectae
+          <lb ed="#P" n="109"/>communitatis, et interdum est ex jure naturae
+          <lb ed="#P" n="110"/>per naturalem originem tantum, et ex vi il-
+          <pb ed="#P" n="36"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>lius, ut est patris potestas in filium: interdum
+          <lb ed="#P" n="2"/>est etiam a natura, supposito tamen pacto 
+          hu<lb break="no" ed="#P" n="3"/>mano, ut est potestas viri in uxorem in ordine
+          <lb ed="#P" n="4"/>ad gubernationem domus et personae : 
+          ali<lb break="no" ed="#P" n="5"/>quando est ex jure gentium., vel civili, ut 
+          po<lb break="no" ed="#P" n="6"/>testas domini in servum bello captum: 
+          inter<lb break="no" ed="#P" n="7"/>dum ex humano contractu, ut dominium in
+          <lb ed="#P" n="8"/>servum qui se vendidit; et huc spectat 
+          po<lb break="no" ed="#P" n="9"/>testas quae per votum obedientiae confertur ei
+          <lb ed="#P" n="10"/>cui obedientia promittitur. At vero potestas
+          <lb ed="#P" n="11"/>jurisdictionis per se primo respicit 
+          communi<lb break="no" ed="#P" n="12"/>tatem perfectam : nam pertinet ad politicam
+          <lb ed="#P" n="13"/>gubernationem, quae in tali communitate est
+          <lb ed="#P" n="14"/>necessaria : nam ad imperfectam suflicit prior
+          <lb ed="#P" n="15"/>potestas. Atque hinc sequitur secunda 
+          diffe<lb break="no" ed="#P" n="16"/>rentia, quia in potestate jurisdictionis multo
+          <lb ed="#P" n="17"/>major vis ad coercendum et cogendum 
+          inve<lb break="no" ed="#P" n="18"/>nitur, quam in potestate dominativa; tum
+          <lb ed="#P" n="19"/>quia major est potestas communis quam 
+          pri<lb break="no" ed="#P" n="20"/>vata; tum etiam quia ad communitatem 
+          per<lb break="no" ed="#P" n="21"/>fectam tuendam, et omnes partes ejus in 
+          offi<lb break="no" ed="#P" n="22"/>cio continendas, major coercitio necessaria est
+          <lb ed="#P" n="23"/>quam in privata domo, vel inter privatas 
+          per<lb break="no" ed="#P" n="24"/>sonas : et ita non licet domino saevire in 
+          ser<lb break="no" ed="#P" n="25"/>vum, ut dicunt jura civilia, expeditque 
+          reipu<lb break="no" ed="#P" n="26"/>blicae, ut severior correctio non nisi auctoritate
+          <lb ed="#P" n="27"/>publica fiat. Unde est etiam notanda tertia
+          <lb ed="#P" n="28"/>differentia, quia dominativa potestas ordinarie
+          <lb ed="#P" n="29"/>magis est in commodum habentis illam quam
+          <lb ed="#P" n="30"/>ejus in quem habetur, licet aliquando possit
+          <lb ed="#P" n="31"/>contrarium inveniri, maxime quando 
+          confer<lb break="no" ed="#P" n="32"/>tur ex pacto voluntario in eum finem ordinato,
+          <lb ed="#P" n="33"/>ut in obedientia ex voto debita frequentius
+          <lb ed="#P" n="34"/>servatur : posterior autem potestas per se, et
+          <lb ed="#P" n="35"/>ex primaeva institutione sua est propter bonum
+          <lb ed="#P" n="36"/>communitatis in quam datur, ut capite 
+          prae<lb break="no" ed="#P" n="37"/>cedenti declaratum est.
+        </p>
+        <p xml:id="szdleg-a08925-d1e548">
+          <lb ed="#P" n="38"/>6. Ad ferendas leges necessaria est potestas
+          <lb ed="#P" n="39"/>jurisdictionis in legislatore.—Ex his ergo 
+          con<lb break="no" ed="#P" n="40"/>cluditur veluti quarta differentia, quae ad 
+          prae<lb break="no" ed="#P" n="41"/>sens refert. Dicendum est enim, ad ferendas
+          <lb ed="#P" n="42"/>leges necessariam esse potestatem 
+          jurisdictio<lb break="no" ed="#P" n="43"/>nis, nec solam dominativam per se suffticere.
+          <lb ed="#P" n="44"/>Ita docent canonistae communiter, in c. Cum 
+          ac<lb break="no" ed="#P" n="45"/>cessissent, et c. Cum in Ecclesia sancte Marie
+          <lb ed="#P" n="46"/>(per textum ipsum) de Constit., et in c. 
+          Zc<lb break="no" ed="#P" n="47"/>clesiurum, et c. Solitae de Major, et Obed., c.
+          <lb ed="#P" n="48"/>Duo sunt, et c. Bene quidem, 96 d. Dart. in l.
+          <lb ed="#P" n="49"/>Omnes populi ; ff. de Just. et jur. in1 q.,
+          <lb ed="#P" n="50"/>princ., idem inl. Imperium, tt. de Jur. omn.
+          <lb ed="#P" n="51"/>judic., ubi, n. 8, ait legum lationem pertinere
+          <lb ed="#P" n="52"/>ad jurisdictionem meri imperii, vel existentis
+          <lb ed="#P" n="53"/>in gradu proximo. Quod ibi sequuntur 
+          com<lb break="no" ed="#P" n="54"/>muniter doctores, Antoninus, in c. ult. de his
+          <lb ed="#P" n="55"/>quae fiunt a praelatis, et Baldinus, in lib. 4 ft.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>de Just. et jur.; consentiunt etiam theologi
+          <lb ed="#P" n="57"/>cum D. Thoma, dict. quaest. 90, art. 3; q. 69,
+          <lb ed="#P" n="58"/>art. 5; 9. 2, quaest. 67, art. 15; Soto, lib. 1,
+          <lb ed="#P" n="59"/>de Just., q. 1, art. 3; Sylvester, Augustinus et
+          <lb ed="#P" n="60"/>alii Summistae, verb. Ler. Sumitur etiam haec
+          <lb ed="#P" n="61"/>assertio ex Aristotele, lib. 10 Ethic., c. ult.,
+          <lb ed="#P" n="62"/>dicente : Patris praeceptio vires non habet, 
+          ne<lb break="no" ed="#P" n="63"/>que necessitatem , neque ullius omnino unius
+          <lb ed="#P" n="64"/>viri, nisi sit rev, vel aliquis talis: Lem autem
+          <lb ed="#P" n="65"/>vim habet cogentem. Plato, in dial. Civilis,
+          <lb ed="#P" n="66"/>seu de regno, versus finem, legumn lationem
+          <lb ed="#P" n="67"/>(dicit) ad dignitatem regiam pertinere, quod
+          <lb ed="#P" n="68"/>late prosequitur Plutarchus, in Comment. in
+          <lb ed="#P" n="69"/>Principe requiri doctrinam ait legem esse
+          <lb ed="#P" n="70"/>principis opus. Unde Philo, lib. 2 de Vita 
+          Mo<lb break="no" ed="#P" n="71"/>sis, in principio: Zegis (inquit) offtcium est
+          <lb ed="#P" n="72"/>Jubere quae oportet fieri, et vetare a quibus 
+          abs<lb break="no" ed="#P" n="73"/>tinere decet ; ceterum jussio faciendorum et 
+          in<lb break="no" ed="#P" n="74"/>terdictio cavendorum proprie ad legem pertinet.
+          <lb ed="#P" n="75"/>Eodem modo loquuntur Patres, Basilius, Hom.,
+          <lb ed="#P" n="76"/>cap. 2, in initio Prov: S regnum (inquit)
+          <lb ed="#P" n="77"/>est legitima potestas, manifestum est quod ea
+          <lb ed="#P" n="78"/>rege. alioqui hoc nomine digno, eceuntes vitee
+          <lb ed="#P" n="79"/>preeceptiones multium agnud omnes momenti 
+          ha<lb break="no" ed="#P" n="80"/>beant ad considerandam et consequendam in
+          <lb ed="#P" n="81"/>commntni bono utilitatem. Et Clemens 
+          Alexan<lb break="no" ed="#P" n="82"/>drinus, lib. 1 Stromat., cap. 14, versus finem,
+          <lb ed="#P" n="83"/>legum ferendarum sapientiam, imperatoriam
+          <lb ed="#P" n="84"/>vocat, et maxime regiam, et infra: 
+          Quemad<lb break="no" ed="#P" n="85"/>modum pastoralem artem omnium curam 
+          ge<lb break="no" ed="#P" n="86"/>rere dicimus, ita eltiam legun ferendarum 
+          ar<lb break="no" ed="#P" n="87"/>tem dicemus , virtutem hominum comparare,
+          <lb ed="#P" n="88"/>humanuwn bonum pro virib. excitantem, ut que
+          <lb ed="#P" n="89"/>gregis hominum curam gerat, et providentiaum.
+        </p>
+        <p xml:id="szdleg-a08925-d1e665">
+          <lb ed="#P" n="90"/>7. Confirmatur resolutio rationibus.—
+          hatio<lb break="no" ed="#P" n="91"/>nibus etiam potest facile haec veritas declarari.
+          <lb ed="#P" n="92"/>Primo, quia legislatio est potissimus actus, quo
+          <lb ed="#P" n="93"/>respublica gubernatur. ideoque propter ejus
+          <lb ed="#P" n="94"/>commune commodumn ferri debet, ut vidimus:
+          <lb ed="#P" n="95"/>ergo per se spectat ad potestatem 
+          gubernati<lb break="no" ed="#P" n="96"/>vam reipublicae, ad quam pertinet ejus 
+          com<lb break="no" ed="#P" n="97"/>mune bonum procurare: haec autem est 
+          po<lb break="no" ed="#P" n="98"/>testas jurisdictionis, ut declaratum est. Item
+          <lb ed="#P" n="99"/>potestas dominativa per se est privata, quae
+          <lb ed="#P" n="100"/>potest esse in una persona respectu alterius;
+          <lb ed="#P" n="101"/>potestas autem jurisdictionis per se est potestas
+          <lb ed="#P" n="102"/>publica, et ad communitatem ordinata; ergo
+          <lb ed="#P" n="103"/>haec sola est principium proportionatum ad
+          <lb ed="#P" n="104"/>ferendas leges, quae per se etiam ad 
+          communi<lb break="no" ed="#P" n="105"/>tatem referuntur, ut dictum est. Tandem 
+          po<lb break="no" ed="#P" n="106"/>testas dominativa ad summum potest praecipere
+          <lb ed="#P" n="107"/>ex virtute obedientiae, vel justitiae, aut pietatis,
+          <lb ed="#P" n="108"/>quasi exigendo usum rei suae, aut sibi 
+          pro<lb break="no" ed="#P" n="109"/>missae : lex autem praecipit constituendo actum
+          <lb ed="#P" n="110"/>in propria specie virtutis juxta exigentiam
+          <pb ed="#P" n="37"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>materiae, in qua lex versatur, et in illa 
+          neces<lb break="no" ed="#P" n="2"/>sitatem imponendo : haec autem efficacitas est
+          <lb ed="#P" n="3"/>propria potestatis jurisdictionis, quia est actus
+          <lb ed="#P" n="4"/>publicae potestatis ; ergo haec potestas est per se
+          <lb ed="#P" n="5"/>requisita ad leges ferendas.
+        </p>
+        <p xml:id="szdleg-a08925-d1e728">
+          <lb ed="#P" n="6"/>8. Quae potestas jurisdictionis sit sufficiens
+          <lb ed="#P" n="7"/>ad leges ferendas. —Recte autem (ut supra 
+          teti<lb break="no" ed="#P" n="8"/>gi) advertit Bartholom. in loco allegato, non
+          <lb ed="#P" n="9"/>omnem potestatem jurisdictionis esse 
+          sufficien<lb break="no" ed="#P" n="10"/>tem ad leges ferendas : habent enim ordinarii
+          <lb ed="#P" n="11"/>judices jurisdictionem, et tamen leges ferre
+          <lb ed="#P" n="12"/>non possunt ; requiritur ergo principalis 
+          quae<lb break="no" ed="#P" n="13"/>dam et primaria potestas in illo ordine: quia,
+          <lb ed="#P" n="14"/>sicut condere legem unus est ex praecipuis 
+          ac<lb break="no" ed="#P" n="15"/>tibus gubernationis reipublicae, ita praecipuam
+          <lb ed="#P" n="16"/>et superiorem requirit potestatem. Haec autem
+          <lb ed="#P" n="17"/>potestas primario et per essentiam in Deo est;
+          <lb ed="#P" n="18"/>communicatur autem regibus per quamdam
+          <lb ed="#P" n="19"/>participationem, juxta illud Sap. 6: Audite 
+          re<lb break="no" ed="#P" n="20"/>ges, etc., quoniam data est a Domino potestas
+          <lb ed="#P" n="21"/>vobis. Non enim est potestas nisi a Deo, ut 
+          di<lb break="no" ed="#P" n="22"/>citur ad Rom. 13. Et ideo unusquisque pro
+          <lb ed="#P" n="23"/>mensura potestatis sibi commissae potest leges
+          <lb ed="#P" n="24"/>facere, et non amplius. Nam ut recte dixit
+          <lb ed="#P" n="25"/>Chrysostomus, in Psal. 44, circa finem : Wegum
+          <lb ed="#P" n="26"/>leges ratae sunt et validae intra eorum fines.
+          <lb ed="#P" n="27"/>Romanorwm Imperator Persis non posset ferre
+          <lb ed="#P" n="28"/>leges, nec Persarum Rea posset ferre leges 
+          Ro<lb break="no" ed="#P" n="29"/>manis. Et sic de caeteris. Quomodo autem haec
+          <lb ed="#P" n="30"/>potestas sit in omnibus, et ad eos dimanet, et
+          <lb ed="#P" n="31"/>quotuplex sit, et an semper sit necessaria ad
+          <lb ed="#P" n="32"/>condenda humana statuta, infra dicendum est,
+          <lb ed="#P" n="33"/>tractando de lege humana : ubi etiam 
+          explica<lb break="no" ed="#P" n="34"/>bimus in quo gradu oporteat hanc 
+          jurisdictio<lb break="no" ed="#P" n="35"/>nem habere, ut ad legem ferendam sufficiat.
+        </p>
+        <p xml:id="szdleg-a08925-d1e797">
+          <lb ed="#P" n="36"/>9. In omni communitate semper esse aliquam
+          <lb ed="#P" n="37"/>potestatem supremam.—Nunc solum adverto in
+          <lb ed="#P" n="38"/>omni communitate esse aliquam potestatem
+          <lb ed="#P" n="39"/>supremam in suo ordine, ut est in Ecclesia
+          <lb ed="#P" n="40"/>Pontifex, in regno temporali rex ; in republica,
+          <lb ed="#P" n="41"/>quae aristocratice gubernatur (id est, per se
+          <lb ed="#P" n="42"/>ipsam), tota respublica. Non enim potest esse
+          <lb ed="#P" n="43"/>corpus, nisi sit monstrosum et mutilum, sine
+          <lb ed="#P" n="44"/>capite. Et de hoc capite ait D. Thomas, d. art.
+          <lb ed="#P" n="45"/>3, esse, vel ipsam multitudinem, id est 
+          rem<lb break="no" ed="#P" n="46"/>publicam, vel gerentem vicem ejus; potest
+          <lb ed="#P" n="47"/>autem vicem ejus gerere, vel qui ab ipsa est
+          <lb ed="#P" n="48"/>constitutus, vel qui immediate a Deo, ut infra
+          <lb ed="#P" n="49"/>dicetur. Ideoque ut ab utroque abstraheret,
+          <lb ed="#P" n="50"/>recte conclusit, legem debere esse a persona 
+          gu<lb break="no" ed="#P" n="51"/>blica, que totius multitudinis curam habet.
+          <lb ed="#P" n="52"/>Constat igitur, potestatem ferendi leges 
+          huma<lb break="no" ed="#P" n="53"/>nas saltem esse in supremo capite, 
+          quodcum<lb break="no" ed="#P" n="54"/>que illud sit, quia nec potest procedi in 
+          infini<lb break="no" ed="#P" n="55"/>tum, nec in alio esse potest major potestas in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>illo ordine. In inferioribus autem, et 
+          subordi<lb break="no" ed="#P" n="57"/>natis principibus tanta erit, quanta ilhs fuerit
+          <lb ed="#P" n="58"/>communicata a capite: quod ex ratione 
+          mu<lb break="no" ed="#P" n="59"/>neris uniuscujusque, ex consuetudine, aut ex
+          <lb ed="#P" n="60"/>legibus, vel privilegiis intelligendum erit, ut
+          <lb ed="#P" n="61"/>infra latius dicetur.
+        </p>
+        <p xml:id="szdleg-a08925-d1e858">
+          <lb ed="#P" n="62"/>10. Fit satis rationi dubitandi es D. Thoma.
+          <lb ed="#P" n="63"/>—Ad rationem ergo dubitandi in principio
+          <lb ed="#P" n="64"/>positam recte respondet D. Thomas, supra, ad
+          <lb ed="#P" n="65"/>primum, legem naturalem posse considerari,
+          <lb ed="#P" n="66"/>vel prout est in subditis vel prout est in aliquo
+          <lb ed="#P" n="67"/>superiore a quo lata est. Priori modo est a 
+          na<lb break="no" ed="#P" n="68"/>tura insita ipsis hominibus, qui per eam 
+          guber<lb break="no" ed="#P" n="69"/>nantur, eique obedire debent, et hac ratione
+          <lb ed="#P" n="70"/>quatenus illam in suis mentibus scriptam 
+          ha<lb break="no" ed="#P" n="71"/>bent, dicitur unusquisque sibi ipsi esse lex,
+          <lb ed="#P" n="72"/>sicut codex legum interdum solet vocari lex,
+          <lb ed="#P" n="73"/>ut de libris veteris Testamenti ex Hieronymo
+          <lb ed="#P" n="74"/>supra diximus; liber autem mortuus non 
+          po<lb break="no" ed="#P" n="75"/>test dici esse sibi ipsi lex, quia non potest se
+          <lb ed="#P" n="76"/>per legem in ipso scriptam gubernare : cor
+          <lb ed="#P" n="77"/>autem hominis est liber vivus in quo est lex
+          <lb ed="#P" n="78"/>naturae scripta, et ideo quatenus illa regitur,
+          <lb ed="#P" n="79"/>dicitur sibi ipsi esse lex. Quomodo autem illa
+          <lb ed="#P" n="80"/>lex naturae sit ab aliquo superiore potestatem
+          <lb ed="#P" n="81"/>habente, dicemus in libro sequenti. Ad 
+          confir<lb break="no" ed="#P" n="82"/>mationem respondetur solam honestatem, vel
+          <lb ed="#P" n="83"/>justitiam actionis, quge per legem humanam
+          <lb ed="#P" n="84"/>praescribitur, non esse satis ad propriam 
+          obli<lb break="no" ed="#P" n="85"/>gationem legis, et ideo licet in condendis illis
+          <lb ed="#P" n="86"/>legibus sit necessaria prudentia, et ideo 
+          inter<lb break="no" ed="#P" n="87"/>venire debeant et soleant consilia sapientum :
+          <lb ed="#P" n="88"/>tamen illa non sufficiunt sine voluntate 
+          ha<lb break="no" ed="#P" n="89"/>bentis potestatem, a qua potestate et voluntate
+          <lb ed="#P" n="90"/>lex accipit vim et esse legis, ut supra dictum
+          <lb ed="#P" n="91"/>est. Quando ergo dicuntur leges esse consulta
+          <lb ed="#P" n="92"/>sapientum, vel esse id quod ratione constiterit,
+          <lb ed="#P" n="93"/>aut quid simile, denominatio sumitur a 
+          pro<lb break="no" ed="#P" n="94"/>prietate quadam maxime necessaria, et fortasse
+          <lb ed="#P" n="95"/>posita est ad illius necessitatem indicandam :
+          <lb ed="#P" n="96"/>non vero quia illa sufficiat
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

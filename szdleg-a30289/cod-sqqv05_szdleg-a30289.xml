@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="118"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a30289"><!-- deleg-l2c9 -->
+        <head xml:id="szdleg-a30289-Hd1e101">Caput 9</head>
+        <head xml:id="szdleg-a30289-Hd1e103" type="question-title">Utrum lex naturalis obliget in conscientia</head>
+        <p xml:id="szdleg-a30289-d1e106">
+          <lb ed="#P" n="81"/>CAPUT IX.
+          <lb ed="#P" n="82"/>UTRUM LEX NATURALIS OBLIGET IN CONSCIENTIA.
+        </p>
+        <p xml:id="szdleg-a30289-d1e113">
+          <lb ed="#P" n="83"/>1. Explicuimus hactenus naturam et causas,
+          <lb ed="#P" n="84"/>seu materiam legis naturalis ; sequitur 
+          dicen<lb break="no" ed="#P" n="85"/>dum de effectibus ejus, inter quos potissimus
+          <lb ed="#P" n="86"/>est obligatio, vel fere unicus; nam si quos alios
+          <lb ed="#P" n="87"/>habet, ad hunc reducuntur: igitur de hac 
+          obli<lb break="no" ed="#P" n="88"/>gatione et modo ejus dicendum est.
+        </p>
+        <p xml:id="szdleg-a30289-d1e129">
+          <lb ed="#P" n="89"/>2. Resolutio.—Legem naturalem obligare in
+          <lb ed="#P" n="90"/>conscientia.—Et primo statuendum est legem
+          <lb ed="#P" n="91"/>naturalem obligare in conscientia. Hoc est
+          <lb ed="#P" n="92"/>certum de fide, ut sentiunt theologi et 
+          sumi<lb break="no" ed="#P" n="93"/>tur ex illo Pauli Rom. 2: Quicumque sine lege
+          <lb ed="#P" n="94"/>(utique scripta) peccaverunt, sine lege peribunt,
+          <lb ed="#P" n="95"/>scilicet, quia naturalem legem violarunt, de
+          <lb ed="#P" n="96"/>qua subjungit: Gentes quae legem non habent,
+          <lb ed="#P" n="97"/>naturaliter quae legis sunt, faciunt, ec. 
+          Testi<lb break="no" ed="#P" n="98"/>moniwn reddente illis conscientia ipsorum : 
+          ra<lb break="no" ed="#P" n="99"/>tio vero imprimis est, quia lex naturalis est
+          <lb ed="#P" n="100"/>lex Dei, ut ostensum est. Secundo, quia est
+          <lb ed="#P" n="101"/>proxima regula honestatis moralis; unde 
+          ma<lb break="no" ed="#P" n="102"/>litia moralis per oppositionem ad hanc legem
+          <lb ed="#P" n="103"/>insurgere solet, et ita definitur, peccatum esse
+          <lb ed="#P" n="104"/>actum contra legem Dei; quod, licet 
+          Augusti<lb break="no" ed="#P" n="105"/>nus et D. Thomas explicent de lege aeterna,
+          <lb ed="#P" n="106"/>tamen in materia legis naturalis in tantum
+          <lb ed="#P" n="107"/>aliquid est contra legem aeternam, in quantum
+          <pb ed="#P" n="119"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est contra rationem ut idem D. Thomas 
+          sen<lb break="no" ed="#P" n="2"/>sit 1. 2, quaest. 11, art. 6, ad 4 et 5. Quia, ut
+          <lb ed="#P" n="3"/>supra dixi, lex aeterna quoad nos non est 
+          proxi<lb break="no" ed="#P" n="4"/>ma regula, nisi quatenus explicatur per legem
+          <lb ed="#P" n="5"/>naturalem. Atque hinc fit ut haec lex in sua
+          <lb ed="#P" n="6"/>latitudine obligare possit tam sub culpa 
+          mor<lb break="no" ed="#P" n="7"/>tali quam sub culpa veniali, ut aperte sumitur
+          <lb ed="#P" n="8"/>ex citato loco Pauli, et facile potest inductione
+          <lb ed="#P" n="9"/>ostendi: ratio vero est, quia materia hujus 
+          le<lb break="no" ed="#P" n="10"/>gis saepe est valde gravis et necessaria ad 
+          cha<lb break="no" ed="#P" n="11"/>ritatem Dei vel proximi servandam, atque adeo
+          <lb ed="#P" n="12"/>ad felicitatem humanam consequendam. 
+          Quan<lb break="no" ed="#P" n="13"/>do autem praecepta hujus juris uno vel alio
+          <lb ed="#P" n="14"/>modo obligent, non spectat ad hunc locum,
+          <lb ed="#P" n="15"/>sed in materia de Peccatis declaratur quomodo
+          <lb ed="#P" n="16"/>veniale vel mortale peccatum ex natura rei
+          <lb ed="#P" n="17"/>distinguantur, et infra tractantes de lege 
+          hu<lb break="no" ed="#P" n="18"/>mana aliquid attingemus.
+        </p>
+        <p xml:id="szdleg-a30289-d1e217">
+          <lb ed="#P" n="19"/>3. Contra hanc autem veritatem potest 
+          ob<lb break="no" ed="#P" n="20"/>jici primo, quia lex naturalis est dictamen 
+          ra<lb break="no" ed="#P" n="21"/>tionis naturalis; sed ratio naturalis non 
+          co<lb break="no" ed="#P" n="22"/>gnoscit aeternam poenam; ergo nec lex 
+          natu<lb break="no" ed="#P" n="23"/>ralis potest obligare sub reatu poenae aeternae;
+          <lb ed="#P" n="24"/>ergo nec sub culpa mortali. Posterior 
+          conse<lb break="no" ed="#P" n="25"/>quentia patet, quia culpa mortalis est quae
+          <lb ed="#P" n="26"/>reatum poenae aeternae inducit. Prior vero 
+          pro<lb break="no" ed="#P" n="27"/>batur, quia non potest lex obligare ad poenam
+          <lb ed="#P" n="28"/>quam non potest manifestare nec inferre. 
+          Pro<lb break="no" ed="#P" n="29"/>pter hoc Gerson, in 3 part., tract. de Vit.
+          <lb ed="#P" n="30"/>spirit., lect. 4, Alphab. 62, lit. G, videtur 
+          ne<lb break="no" ed="#P" n="31"/>gare legem naturalem, ut talis est, posse 
+          obli<lb break="no" ed="#P" n="32"/>care ad culpam praecipue mortalem. Sed de
+          <lb ed="#P" n="33"/>hujus auctoris sententia et sensu dicemus 
+          la<lb break="no" ed="#P" n="34"/>tius lib. seq., cap. 18. Nunc solum dicimus
+          <lb ed="#P" n="35"/>negari non posse, secundum fidem, quin 
+          trans<lb break="no" ed="#P" n="36"/>gressio legis naturalis sufficiat ad aeternam
+          <lb ed="#P" n="37"/>damnationem, etiamsi omnis supernaturalis
+          <lb ed="#P" n="38"/>lex ignoretur. Hoc enim convincunt 
+          testimo<lb break="no" ed="#P" n="39"/>nium Pauli et rationes adductae : nec obstat
+          <lb ed="#P" n="40"/>objectio, quia lex naturalis, licet in nobis sit
+          <lb ed="#P" n="41"/>ipsa ratio, tamen in Deo est ratio, aut 
+          volun<lb break="no" ed="#P" n="42"/>tas divina, et ideo satis est quod Deus ipse 
+          co<lb break="no" ed="#P" n="43"/>gnoscat poenam debitam transgressoribus talis
+          <lb ed="#P" n="44"/>legis : nam, ad incurrendum reatum alicujus
+          <lb ed="#P" n="45"/>poenae, non est necessarium ut ipse subditus et
+          <lb ed="#P" n="46"/>trangressor legis cognoscat poenam debitam
+          <lb ed="#P" n="47"/>suae transgressioni ; sed satis est ut faciat 
+          ac<lb break="no" ed="#P" n="48"/>tum dignum tali poena, ut ipsemet Gerson 
+          fa<lb break="no" ed="#P" n="49"/>tetur ibidem, lect. 2.
+        </p>
+        <p xml:id="szdleg-a30289-d1e287">
+          <lb ed="#P" n="50"/>4. Secundo objici potest quia lex naturalis
+          <lb ed="#P" n="51"/>non facit obligationem, sed supponit: ergo
+          <lb ed="#P" n="52"/>obligatio non est effectus ejus. Antecedens 
+          pa<lb break="no" ed="#P" n="53"/>tet: nam haec lex prohibet aliquid, quia 
+          ma<lb break="no" ed="#P" n="54"/>Ium est; ergo ante illam est obligatio vitandi
+          <lb ed="#P" n="55"/>tale malum. Et idem est cum proportione de
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>imperio et praecepto faciendi bonum, quia 
+          bo<lb break="no" ed="#P" n="57"/>num est. Ad hoc vero ex parte responsum est
+          <lb ed="#P" n="58"/>supra, et iterum occurretur inferius, et ideo
+          <lb ed="#P" n="59"/>nunc breviter dico cbjectionem illam probare
+          <lb ed="#P" n="60"/>assertionem : nam, silex haec prohibet aliquid
+          <lb ed="#P" n="61"/>quia malum, propriam et specialem 
+          necessita<lb break="no" ed="#P" n="62"/>tem inducit vitandi illud, quia hoc intrinsecum
+          <lb ed="#P" n="63"/>est prohibitioni. Simul autem probat, aliquid
+          <lb ed="#P" n="64"/>hanc legem supponere, quod pertinet ad 
+          intrin<lb break="no" ed="#P" n="65"/>secum debitum naturae, quia unaquaeque res
+          <lb ed="#P" n="66"/>quodammodo sibi debet ut nihil faciat suae
+          <lb ed="#P" n="67"/>naturae dissentaneum. Ultra hoc vero debitum
+          <lb ed="#P" n="68"/>addit lex specialem obligationem moralem, et
+          <lb ed="#P" n="69"/>hanc dicimus esse effectum hujus legis, quae
+          <lb ed="#P" n="70"/>a jurisperitis solet vocari obligatio naturalis,
+          <lb ed="#P" n="71"/>non quia moralis non sit, sed ut distinguant
+          <lb ed="#P" n="72"/>illam a civili: unde etiam fatentur esse 
+          obli<lb break="no" ed="#P" n="73"/>gationem in conscientia, et ita illam appellant,
+          <lb ed="#P" n="74"/>ut videre licet in Glossa, l. Ex hoc jure, verbo
+          <lb ed="#P" n="75"/>Obligationem, ff. de Just. et jure, Parnomit. et
+          <lb ed="#P" n="76"/>aliis canonistis in cap. Plerique, de Immunit.
+          <lb ed="#P" n="77"/>Eccles.
+        </p>
+        <p xml:id="szdleg-a30289-d1e352">
+          <lb ed="#P" n="78"/>5. An omnis obligatio inducta per jus 
+          natu<lb break="no" ed="#P" n="79"/>rale in conscientia obliget.—Tertio, circa hanc
+          <lb ed="#P" n="80"/>obligationem, ut magis explicetur, dubitari
+          <lb ed="#P" n="81"/>potest an in universum sit verum 
+          obligatio<lb break="no" ed="#P" n="82"/>nem inductam naturali jure esse obligationem
+          <lb ed="#P" n="83"/>in conscientia : ratio dubitandi esse potest,
+          <lb ed="#P" n="84"/>quia omnis obligatio orta ex virtute morali est
+          <lb ed="#P" n="85"/>de jure naturae, quia, ut supra diximus, hoc
+          <lb ed="#P" n="86"/>jus ad actus omnium virtutum obligat ; sed
+          <lb ed="#P" n="87"/>non omnis obligatio ex virtute morali est 
+          obli<lb break="no" ed="#P" n="88"/>gatio in conscientia; ergo. Patet minor, quia
+          <lb ed="#P" n="89"/>obligatio, ex gratitudine, verbi gratia, non
+          <lb ed="#P" n="90"/>obligat in conscientia : item obligatio ex 
+          ami<lb break="no" ed="#P" n="91"/>citia quadam, etc. Confirmatur, quia obligatio
+          <lb ed="#P" n="92"/>ad poenam quae resultat ex culpa de jure 
+          na<lb break="no" ed="#P" n="93"/>turae est, et tamen non obligat in conscientia:
+          <lb ed="#P" n="94"/>ergo.
+        </p>
+        <p xml:id="szdleg-a30289-d1e391">
+          <lb ed="#P" n="95"/>6. Distinctio aliquorum de jure legali et 
+          mo<lb break="no" ed="#P" n="96"/>rali ad dubii solutionem.— Obligatio naturalis
+          <lb ed="#P" n="97"/>in rigore semper inducit obligationem qn 
+          con<lb break="no" ed="#P" n="98"/>scientia. — Circa hoc aliqui distinguunt 
+          du<lb break="no" ed="#P" n="99"/>plex debitum, utrumque ortum ex jure 
+          natu<lb break="no" ed="#P" n="100"/>rae, scilicet legale et morale: et primum aiunt
+          <lb ed="#P" n="101"/>non obligare in conscientia, sed tantum 
+          se<lb break="no" ed="#P" n="102"/>cundum. Ita sentit Covar. in cap. Cum in 
+          of<lb break="no" ed="#P" n="103"/>ficiis, num. 10, et cap. Cum esse, num. 9 de
+          <lb ed="#P" n="104"/>Testamentis, et in c. Quamvis pactum, part. 2,
+          <lb ed="#P" n="105"/>S 4, num. 5, ubi ponit exemplum de 
+          gratitu<lb break="no" ed="#P" n="106"/>dine, citans D. Thomam, 2. 2, q. 106, art. 1,
+          <lb ed="#P" n="107"/>ad 2, et art. 5. Sed ibi D. Thomas in sensu
+          <lb ed="#P" n="108"/>longe diverso affert distinctionem illam de
+          <lb ed="#P" n="109"/>debito legali, et de debito quod ipse vocat 
+          ho<lb break="no" ed="#P" n="110"/>nestatis, a quo sine dubio non excludit obl:-
+          <pb ed="#P" n="120"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gationem in conscientia : nam ideo ADonestatis
+          <lb ed="#P" n="2"/>appellat, quia ad honestatem morum 
+          necessa<lb break="no" ed="#P" n="3"/>rium est, quamvis non sit tam rigorosum ut
+          <lb ed="#P" n="4"/>ad illud servandum leges humanae obligent,
+          <lb ed="#P" n="5"/>quod appellat debitum legale. Quocirca, si in
+          <lb ed="#P" n="6"/>rigore loquamur de obligatione naturali, 
+          se<lb break="no" ed="#P" n="7"/>parari certe non potest ab obligatione in 
+          con<lb break="no" ed="#P" n="8"/>scientia, quia si sit ad aliquid vitandum, 
+          nas<lb break="no" ed="#P" n="9"/>citur ex intrinseca turpitudine actus, qui
+          <lb ed="#P" n="10"/>propterea in conscientia vitandus est. Si vero
+          <lb ed="#P" n="11"/>sit ad aliquid agendum, nascitur ex intrinseca
+          <lb ed="#P" n="12"/>connexione talis actus cum honestate virtutis,
+          <lb ed="#P" n="13"/>quam in nostris actibus servare etiam in 
+          con<lb break="no" ed="#P" n="14"/>scientia tenemur : undc tunc omissio actus
+          <lb ed="#P" n="15"/>debiti per se mala est. Et confirmatur, quia
+          <lb ed="#P" n="16"/>repugnat frangere legem naturae, et non 
+          pec<lb break="no" ed="#P" n="17"/>care, ut patet ex definitione peccati supra 
+          po<lb break="no" ed="#P" n="18"/>sita : ergo repugnat obligationem esse ex lege
+          <lb ed="#P" n="19"/>naturae, et non esse in conscientia.
+        </p>
+        <p xml:id="szdleg-a30289-d1e474">
+          <lb ed="#P" n="20"/>7. Quo sensu obligatio moralis non inducat
+          <lb ed="#P" n="21"/>obligationem in conscientia. — Ne autem 
+          for<lb break="no" ed="#P" n="22"/>tasse sit aequivocatio in verbis, adverto, juxta
+          <lb ed="#P" n="23"/>communem modum loquendi, aliquando 
+          vo<lb break="no" ed="#P" n="24"/>cari obligationem moralem debitum quoddam,
+          <lb ed="#P" n="25"/>non necessitatis simplhiciter, sed ad melius
+          <lb ed="#P" n="26"/>esse, quod pertinet veluti ad consilium in 
+          la<lb break="no" ed="#P" n="27"/>titudine alicujus virtutis: et in hoc sensu 
+          ve<lb break="no" ed="#P" n="28"/>rum est, non omnem obligationem moralem
+          <lb ed="#P" n="29"/>esse obligationem in conscientia, seu ad 
+          cul<lb break="no" ed="#P" n="30"/>pam. Tamen illa non est proprie obligatio 
+          le<lb break="no" ed="#P" n="31"/>gis naturalis : fortasse tamen in hoc sensu
+          <lb ed="#P" n="32"/>locutus est Covar., et ita patet responsio ad
+          <lb ed="#P" n="33"/>rationem dubitandi. Propter confirmationem
+          <lb ed="#P" n="34"/>autem, Bartol. in Extrav. Ad Reprimendum,
+          <lb ed="#P" n="35"/>verbo Denuntiationem, S Sed dico, n. 10, 
+          ex<lb break="no" ed="#P" n="36"/>cipit a proposita regula obligationem ad 
+          poe<lb break="no" ed="#P" n="37"/>nam. Sed non est exceptio necessaria, quia
+          <lb ed="#P" n="38"/>obligatio ad poenam non est obligatio ad 
+          ali<lb break="no" ed="#P" n="39"/>quid agendum : sed potius debitum sustinendi
+          <lb ed="#P" n="40"/>ponam quae ab alio infligenda est. Eo vel
+          <lb ed="#P" n="41"/>maxime quod intra terminos legis naturalis
+          <lb ed="#P" n="42"/>non incurritur reatus poenae, nisi infligendae
+          <lb ed="#P" n="43"/>a Deo, ad quam non pertinet obligatio propria,
+          <lb ed="#P" n="44"/>le qua agimus.
+        </p>
+        <p xml:id="szdleg-a30289-d1e531">
+          <lb ed="#P" n="45"/>8. An omnis obligatio in conscientia sit 
+          ef<lb break="no" ed="#P" n="46"/>fectus legis naturalis. — Ultimo interrogari
+          <lb ed="#P" n="47"/>potest, an e converso omnis obligatio in 
+          con<lb break="no" ed="#P" n="48"/>scientia sit effectus legis naturals, et ideo 
+          pos<lb break="no" ed="#P" n="49"/>sit omnis illa dici obligatio naturalis: et ratio
+          <lb ed="#P" n="50"/>dubitandi est, quia, ut videbimus, etiam leges
+          <lb ed="#P" n="51"/>humanse obligant in conscientia : ergo illa
+          <lb ed="#P" n="52"/>obligatio non est effectus legis naturalis, sed
+          <lb ed="#P" n="53"/>positivae. Item, quia obligatio in conscientia
+          <lb ed="#P" n="54"/>est immediate a lege positiva supernaturali, ut
+          <lb ed="#P" n="55"/>verbi gratia obligatio corfitendi, aut servandi
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sigillum confessionis : unde talis obligatio dici
+          <lb ed="#P" n="57"/>potest supernaturalis : nullo ergo modo est
+          <lb ed="#P" n="58"/>effectus legis naturalis. Denique alias idem
+          <lb ed="#P" n="59"/>esset adaequatus effectus naturalis legis, et
+          <lb ed="#P" n="60"/>legis in communi, unde superfluae essent aliae
+          <lb ed="#P" n="61"/>leges.
+        </p>
+        <p xml:id="szdleg-a30289-d1e574">
+          <lb ed="#P" n="62"/>9. Incontrarium autem est, quia obligatio in
+          <lb ed="#P" n="63"/>conscientia, quae nascitur ex lege humana, 
+          vi<lb break="no" ed="#P" n="64"/>detur effectus legis naturalis; nam si quid
+          <lb ed="#P" n="65"/>obstaret , maxime quia intervenit voluntas
+          <lb ed="#P" n="66"/>principis : at hoc non obstat, quia etiam in
+          <lb ed="#P" n="67"/>obligatione voti intervenit propria voluntas
+          <lb ed="#P" n="68"/>promittentis, et nihilominus obligatio voti 
+          ef<lb break="no" ed="#P" n="69"/>fectus est legis naturalis. Sicut autem lex 
+          na<lb break="no" ed="#P" n="70"/>turae praecipit reddere quod propria voluntate
+          <lb ed="#P" n="71"/>promissum est, ita etiam facere quod 
+          superio<lb break="no" ed="#P" n="72"/>ris voluntate injunctum est. Item in 
+          praescri<lb break="no" ed="#P" n="73"/>ptione lex humana intervenit, quae transfert
+          <lb ed="#P" n="74"/>dominium re ab unoin alium; et tamen 
+          obl<lb break="no" ed="#P" n="75"/>gatio quae inde nascitur ad non usurpandam
+          <lb ed="#P" n="76"/>ab alio rem ab ipso praeseriptam naturahs est,
+          <lb ed="#P" n="77"/>quam violare furtum esset. Et idem videtur
+          <lb ed="#P" n="78"/>de obligatione quae oritur, posita lege taxante
+          <lb ed="#P" n="79"/>pretium rei: nam statim oritur obligatio 
+          jus<lb break="no" ed="#P" n="80"/>titiae, cujus violatio furtum erit, atque adeo
+          <lb ed="#P" n="81"/>contra legem naturae.
+        </p>
+        <p xml:id="szdleg-a30289-d1e620">
+          <lb ed="#P" n="82"/>10. Secundo, non solum obligatio humanae
+          <lb ed="#P" n="83"/>legis, sed etiam divinae et supernaturalis, 
+          vi<lb break="no" ed="#P" n="84"/>detur effectus legis naturae : sic enim censent
+          <lb ed="#P" n="85"/>theologi, non assentiri rebus fidei sufficienter
+          <lb ed="#P" n="86"/>propositis, esse contra ipsum lumen naturae,
+          <lb ed="#P" n="87"/>quod tunc cvidenter ostendit, res illas esse
+          <lb ed="#P" n="88"/>credibiles, atque adeo credendas secundum
+          <lb ed="#P" n="89"/>rectam rationem. Ex quo etiam dicunt 
+          theo<lb break="no" ed="#P" n="90"/>logi frequentius neminem averti peccando a
+          <lb ed="#P" n="91"/>fine supernaturali, quin avertatur etiam a 
+          na<lb break="no" ed="#P" n="92"/>turali. Quod non alia ratione verum esse 
+          po<lb break="no" ed="#P" n="93"/>test, nisi quia violat semper legem naturalem;
+          <lb ed="#P" n="94"/>ergo e contrario obligatio servandi 
+          superna<lb break="no" ed="#P" n="95"/>turalia praecepta semper est effectus naturalis
+          <lb ed="#P" n="96"/>legis : ratio etiam adjungi potest, quia natura
+          <lb ed="#P" n="97"/>est fundamentum tam gratiae quam 
+          cujuscum<lb break="no" ed="#P" n="98"/>que legis humanae. Principia etiam naturalia
+          <lb ed="#P" n="99"/>per quae homo in moralibus gubernari debet,
+          <lb ed="#P" n="100"/>tam sunt generalia, ut virtute comprehendant
+          <lb ed="#P" n="101"/>omnem obligationem, ita ut nulla possit 
+          ho<lb break="no" ed="#P" n="102"/>mini applicari, nisi mediantibus illis 
+          princi<lb break="no" ed="#P" n="103"/>piis; ergo sicut omnis cognitio humana est
+          <lb ed="#P" n="104"/>cffectus primorum principiorum , ita omnis
+          <lb ed="#P" n="105"/>obligatio in conscientia erit effectus legis 
+          na<lb break="no" ed="#P" n="106"/>turalis, saltem quatenus illa prima principia
+          <lb ed="#P" n="107"/>includit.
+        </p>
+        <p xml:id="szdleg-a30289-d1e679">
+          <lb ed="#P" n="108"/>11. Fit satis dubio proposito et asseritur
+          <lb ed="#P" n="109"/>non omnem obligationem in conscientia esse 
+          im<lb break="no" ed="#P" n="110"/>mediatum epffectun et per se legis uaturalis.—
+          <pb ed="#P" n="121"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Dubitatio haec breviter expedienda est juxta
+          <lb ed="#P" n="2"/>distinctionem quamdam superius insinuatam;
+          <lb ed="#P" n="3"/>auctores enim nihil de ea tractant. Possumus
+          <lb ed="#P" n="4"/>ergo loqui de effectu immediato, ac per se,
+          <lb ed="#P" n="5"/>vel de effectu remoto, qui interdum potest
+          <lb ed="#P" n="6"/>esse per se, interdum per accidens. Dico ergo
+          <lb ed="#P" n="7"/>primo non omnem obligationem in conscientia
+          <lb ed="#P" n="8"/>esse immediatum, et per se effectum legis 
+          na<lb break="no" ed="#P" n="9"/>turalis. Hoc probant rationes priori loco 
+          fac<lb break="no" ed="#P" n="10"/>tae ; nullus enim divcet obligationem jejunandi
+          <lb ed="#P" n="11"/>die ab Ecclesia praecepto esse ex lege naturae,
+          <lb ed="#P" n="12"/>nec etiam obligationem fidei, proprie 
+          loquen<lb break="no" ed="#P" n="13"/>do: unde in tertio praecepto Decalogi, prout
+          <lb ed="#P" n="14"/>in lege scripta traditum est, theologi duo 
+          dis<lb break="no" ed="#P" n="15"/>tinguunt, scilicet cultum Dei et 
+          circumstan<lb break="no" ed="#P" n="16"/>tiam diei sabbati, et primum dicunt esse 
+          effec<lb break="no" ed="#P" n="17"/>tum legis naturalis; non vero secundum, quia
+          <lb ed="#P" n="18"/>non caderet sub obligationem, nisi lex 
+          positi<lb break="no" ed="#P" n="19"/>va Dei interveniret : ratio denique a priori
+          <lb ed="#P" n="20"/>est, quia lex naturalis non est proxima regula
+          <lb ed="#P" n="21"/>omnium humanarum actionum.
+        </p>
+        <p xml:id="szdleg-a30289-d1e738">
+          <lb ed="#P" n="22"/>19. In quo sensu dici possit omnem 
+          obliga<lb break="no" ed="#P" n="23"/>tionem in conscientia esse effectum legis 
+          natu<lb break="no" ed="#P" n="24"/>ralis. — Secundo vero dicendum est nullam
+          <lb ed="#P" n="25"/>esse obligationem in conscientia, quae non sit
+          <lb ed="#P" n="26"/>aliquo modo effectus legis naturalis; saltem
+          <lb ed="#P" n="27"/>mediate et remote. Hoc probant argumenta
+          <lb ed="#P" n="28"/>posteriori loco facta. Est autem notanda 
+          dif<lb break="no" ed="#P" n="29"/>ferentia inter obligationem quae oritur ex 
+          le<lb break="no" ed="#P" n="30"/>ge civili, seu mere humana (quod dico ut 
+          ex<lb break="no" ed="#P" n="31"/>cludam canonicam, quam nunc magis sub
+          <lb ed="#P" n="32"/>lege supernaturali comprehendo), et legem
+          <lb ed="#P" n="33"/>divinam supernaturaliter a Deo positam ; quod
+          <lb ed="#P" n="34"/>respectulegis humanae et obligationis ab ea 
+          pro<lb break="no" ed="#P" n="35"/>venientis lex naturalis dici potest causa per se,
+          <lb ed="#P" n="36"/>quia re vera omnisilla obligatio per se fundatur
+          <lb ed="#P" n="37"/>in principiis legis naturalis, et cognitis per 
+          na<lb break="no" ed="#P" n="38"/>turale lumen : nam licet lex civilis non 
+          infe<lb break="no" ed="#P" n="39"/>ratur quasi speculative per absolutam 
+          illatio<lb break="no" ed="#P" n="40"/>nem ex principiis legis naturalis, sed feratur
+          <lb ed="#P" n="41"/>per modum determinationis per voluntatem
+          <lb ed="#P" n="42"/>principis ; nihilominus, supposita hac 
+          deter<lb break="no" ed="#P" n="43"/>minatione, ex principiis naturalibus infertur
+          <lb ed="#P" n="44"/>saltem practice servandam esse talem legem
+          <lb ed="#P" n="45"/>humanam ; atque hoc modo obligatio illius 
+          le<lb break="no" ed="#P" n="46"/>gis civilis dicitur esse effectus legis naturalis
+          <lb ed="#P" n="47"/>tanquam causae per se, non proximae, sed quasi
+          <lb ed="#P" n="48"/>universalis et modificatae per particularem,
+          <lb ed="#P" n="49"/>quae est lex humana. In quo ctiam (propter
+          <lb ed="#P" n="50"/>quaedam argumenta facta) considerandum est
+          <lb ed="#P" n="51"/>legem humanam aliquando habere effectum
+          <lb ed="#P" n="52"/>obligandi tantum ad aliquid agendum vel non
+          <lb ed="#P" n="53"/>agendum. Et tunc obligatio illa est proprie et
+          <lb ed="#P" n="54"/>immediate a lege humana : remote vero a 
+          na<lb break="no" ed="#P" n="55"/>turali. Aliquando vero habet lex humana alios
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>effectus circa res ipsas, in quibus actus 
+          virtu<lb break="no" ed="#P" n="57"/>tum versantur, et tunc saepe fieri potest ut 
+          li<lb break="no" ed="#P" n="58"/>cet aliqua mutatio in rebus facta sit per legem
+          <lb ed="#P" n="59"/>humanam, aut per jus gentium, aut etiam per
+          <lb ed="#P" n="60"/>voluntatem privatam, obligatio postea sic, vel
+          <lb ed="#P" n="61"/>aliter operandi immediate nascatur ex lege
+          <lb ed="#P" n="62"/>naturali. Et ita contingit in dictis exemplis de
+          <lb ed="#P" n="63"/>praescriptione, et de rerum divisione, et de
+          <lb ed="#P" n="64"/>voto : ratio autem est, quia tunc mutatio fit
+          <lb ed="#P" n="65"/>in materia : nihil autem refert, quod ab una,
+          <lb ed="#P" n="66"/>vel alia causa fiat : nam facta mutatione, 
+          sta<lb break="no" ed="#P" n="67"/>tim eodem modo obligat lex naturae, ut 
+          exem<lb break="no" ed="#P" n="68"/>pla adducta declarant, et in sequentibus 
+          am<lb break="no" ed="#P" n="69"/>plius explicabitur.
+        </p>
+        <p xml:id="szdleg-a30289-d1e847">
+          <lb ed="#P" n="70"/>13. At vero, respectu obligationis 
+          superna<lb break="no" ed="#P" n="71"/>turalis provenientis ex lege divina, 
+          distin<lb break="no" ed="#P" n="72"/>guendum ulterius est quoad naturalem legem:
+          <lb ed="#P" n="73"/>nam si loquamur de illa lege naturali quae
+          <lb ed="#P" n="74"/>connaturalis est gratiae, eodem modo 
+          compa<lb break="no" ed="#P" n="75"/>rabitur ad quamcumque legem positivam 
+          or<lb break="no" ed="#P" n="76"/>dinis supernaturalis, quo lex mere naturalis
+          <lb ed="#P" n="77"/>ad legem civilem : nam est eadem proportio.
+          <lb ed="#P" n="78"/>Imo idem dicendum est de lege humana 
+          ca<lb break="no" ed="#P" n="79"/>nonica : nam quatenus procedit ex potestate
+          <lb ed="#P" n="80"/>supernaturali, per se fundatur in principiis
+          <lb ed="#P" n="81"/>supernaturalibus connaturalibus ipsi gratiae :
+          <lb ed="#P" n="82"/>et ideo mediate quidem, tamen per se, et 
+          con<lb break="no" ed="#P" n="83"/>naturali modo ex illa oritur, ut ex causa 
+          uni<lb break="no" ed="#P" n="84"/>versali. Loquendo autem de naturali lege
+          <lb ed="#P" n="85"/>magis stricte, ut est a solo lumine naturae, sic
+          <lb ed="#P" n="86"/>quidem etiam obligatio surpernaturalis est 
+          ali<lb break="no" ed="#P" n="87"/>quo modo effectus illius legis, non tamen per
+          <lb ed="#P" n="88"/>se, sed tantum per accidens. Priorem partem
+          <lb ed="#P" n="89"/>probant superius adducta : ratio autem 
+          poste<lb break="no" ed="#P" n="90"/>rioris partis est, quia naturalis cognitio non
+          <lb ed="#P" n="91"/>potest esse causa per se supernaturalis 
+          cogni<lb break="no" ed="#P" n="92"/>tionis, cum sit inferioris ordinis : potest autem
+          <lb ed="#P" n="93"/>esse conditio necessaria, ut applicetur objectum
+          <lb ed="#P" n="94"/>sufficienter cognitioni supernaturah , ut ex
+          <lb ed="#P" n="95"/>materia de fide constat. Hoc ergo modo 
+          po<lb break="no" ed="#P" n="96"/>test dictamen naturale supponi, et esse 
+          neces<lb break="no" ed="#P" n="97"/>sarium ut praeceptum supernaturale possit
+          <lb ed="#P" n="98"/>obligare.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="365"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a92361"><!-- deleg-l4c9 -->
+        <head xml:id="szdleg-a92361-Hd1e101">Caput 9</head>
+        <head xml:id="szdleg-a92361-Hd1e103" type="question-title">Utrum potestas ecclesiastica sit ita superior civili, ut illam sibi subiectam habeat</head>
+        <p xml:id="szdleg-a92361-d1e106">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="55"/>CAPUT IX.
+          <lb ed="#P" n="56"/>UTRUM POTESTAS ECCLESIASTICA SIT ITA SUPERIOR
+          <lb ed="#P" n="57"/>CIVILI, UT ILLAM SIBI SUBJECTAM HABEAT.
+        </p>
+        <p xml:id="szdleg-a92361-d1e117">
+          <lb ed="#P" n="58"/>1. Quamvis superiori capite ostensum sit
+          <lb ed="#P" n="59"/>ecclesiasticam potestatem esse excellentiorem
+          <lb ed="#P" n="60"/>in perfectione, non inde statim infertur esse
+          <lb ed="#P" n="61"/>superiorem in subordinatione et propria 
+          juris<lb break="no" ed="#P" n="62"/>dictione ; nam potest facultas una esse minus
+          <lb ed="#P" n="63"/>perfecta quam alia, et non illi subjecta, vel
+          <lb ed="#P" n="64"/>subordinata. Atque hinc sumi potest ratio 
+          du<lb break="no" ed="#P" n="65"/>bitandi, quia subordinatio haec non sequitur
+          <lb ed="#P" n="66"/>intrinsece ex majori perfectione: neque etiam
+          <lb ed="#P" n="67"/>ostendi potest ex speciali Christi concessione:
+          <lb ed="#P" n="68"/>ergo non datur. Major patet ex ratione facta,
+          <lb ed="#P" n="69"/>et juvari potest exemplo legis veteris, in qua
+          <lb ed="#P" n="70"/>etiam fuit potestas sacerdotalis et regia, et 
+          ni<lb break="no" ed="#P" n="71"/>hilominus regalis non erat subjecta 
+          sacerdo<lb break="no" ed="#P" n="72"/>tali ; imo potius videtur posse contrarium 
+          su<lb break="no" ed="#P" n="73"/>mi ex 3 Regum 2, ubi Salomon deposuit 
+          Abia<lb break="no" ed="#P" n="74"/>thar a sacerdotio, et loco illius posuit Sadoc;
+          <lb ed="#P" n="75"/>ergo erat tunc sacerdotalis potestas sub regali,
+          <lb ed="#P" n="76"/>potius quam e contrario. Minor autem 
+          proba<lb break="no" ed="#P" n="77"/>tur, quia in Novo Testamento non legimus
+          <lb ed="#P" n="78"/>instituisse Christum sacerdotium concedendo
+          <lb ed="#P" n="79"/>illi hanc superioritatem , quia Petrus, non
+          <lb ed="#P" n="80"/>obstante sua potestate, praecipit omnibus 
+          fide<lb break="no" ed="#P" n="81"/>libus subjectos esse principibus et regibus,
+          <lb ed="#P" n="82"/>1 Pet. 2; et Paulus, Rom. 13, idem 
+          pronun<lb break="no" ed="#P" n="83"/>tiat de omni anima. Neque etiam id habetur
+          <lb ed="#P" n="84"/>ex traditione, nam potius ex historiis colligi
+          <lb ed="#P" n="85"/>potest imperatores judicium interdum tulisse
+          <lb ed="#P" n="86"/>de Pontificibus, eosque deposuisse.
+        </p>
+        <p xml:id="szdleg-a92361-d1e182">
+          <lb ed="#P" n="87"/>2. Conclusio affirmativa ob unitatem 
+          Eccle<lb break="no" ed="#P" n="88"/>sie Christi. — Nihilominus dicendum est 
+          po<lb break="no" ed="#P" n="89"/>testatem ecclesiasticam non solum esse in se
+          <lb ed="#P" n="90"/>nobiliorem, sed etiam superiorem, et habere
+          <lb ed="#P" n="91"/>sibi subordinatam et subjectam potestatem 
+          ci<lb break="no" ed="#P" n="92"/>vilem. Sunt enim haec duo, ut dixi, valde 
+          dis<lb break="no" ed="#P" n="93"/>tincta, quod etiam D. Thomas in 2, in fine,
+          <lb ed="#P" n="94"/>dist. 44, declaravit. Est ergo conclusio haec
+          <lb ed="#P" n="95"/>certa et communis apud Catholicos, de qua 
+          vi<lb break="no" ed="#P" n="96"/>deri potest D. Thomas ibi; et Bonav.. tom.2
+          <lb ed="#P" n="97"/>Opusc., in 38; et Eccles. Hierarch., p. 2,
+          <lb ed="#P" n="98"/>S 1, in fin.; Henric., quodlib. 6, q. 23; Vict.,
+          <lb ed="#P" n="99"/>relect. 2 de Potest. Ecclesiae, et relect. de Indis,
+          <lb ed="#P" n="100"/>p- 14, n. 29, ubi dicit hoc esse verum non 
+          so<lb break="no" ed="#P" n="101"/>lum de potestate hac, prout est in Papa, sed
+          <lb ed="#P" n="102"/>etiam prout est in quolibet Episcopo. Quod
+          <lb ed="#P" n="103"/>jure ordinario et ecclesiastico, ac seclusis 
+          privi<lb break="no" ed="#P" n="104"/>legiis aut exemptionibus verum est ; in 
+          sequen<lb break="no" ed="#P" n="105"/>tibus vero amplius exponetur. Videri etiam
+          <lb ed="#P" n="106"/>possunt Driedo de Libertate Christiana lib. 2,
+          <pb ed="#P" n="366"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cap. 2; Turrecrem. in Summa, lib. 2, cap.113
+          <lb ed="#P" n="2"/>et sequentib. ; Vald. lib. 2 doctrinalis fidei,
+          <lb ed="#P" n="3"/>cap. 76 et sequentibus; Albert. Pyghius, libr. 5
+          <lb ed="#P" n="4"/>de Eeclesiast. Hierarch., cap. 14 et 15; 
+          San<lb break="no" ed="#P" n="5"/>der., lib. 2 de Visibili Monarch. ; Cajet., in
+          <lb ed="#P" n="6"/>Apolog. pro Romano Pontifice, cap. 15, ad 8;
+          <lb ed="#P" n="7"/>Sot. in 4, dist. 95, q. 2, art. 5; Bellarm., de
+          <lb ed="#P" n="8"/>summo Pont., l. 2, a cap. 6; Vellosillo 
+          Lucen<lb break="no" ed="#P" n="9"/>sis Episcop., in Advertent. Theol., in 5 tom.
+          <lb ed="#P" n="10"/>Hieron., q. 5.
+        </p>
+        <p xml:id="szdleg-a92361-d1e255">
+          <lb ed="#P" n="11"/>3. Praecipuum hujus veritatis fundamentum
+          <lb ed="#P" n="12"/>ratione simul et auctoritate declaratur : 
+          sumi<lb break="no" ed="#P" n="13"/>tur enim ex unitate Ecclesiae Christi Domini in
+          <lb ed="#P" n="14"/>Evangelio satis significata, et per Paulum 
+          de<lb break="no" ed="#P" n="15"/>clarata, 1 Corinth. 12, dicentem : Omnes nos in
+          <lb ed="#P" n="16"/>unumn corpus baptizati sumus, etc.; et ad
+          <lb ed="#P" n="17"/>Rom. 12: Multi unum corpus in Christo, etc.;
+          <lb ed="#P" n="18"/>idem ad Ephes. 4, et saepe alias; igitur 
+          cons<lb break="no" ed="#P" n="19"/>tituit Christus Dominus Ecclesiam tanquam
+          <lb ed="#P" n="20"/>unum spirituale regnum, in quo unus etiam 
+          es<lb break="no" ed="#P" n="21"/>set rex, et princeps spiritualis; ergo necesse est
+          <lb ed="#P" n="22"/>ut ei subdatur temporalis potestas, sicut corpus
+          <lb ed="#P" n="23"/>animae. Hoc enim exemplo explicat 
+          subordi<lb break="no" ed="#P" n="24"/>nationem harum potestatum Gregor. Nazianz.,
+          <lb ed="#P" n="25"/>orat. 17 ad populum timore perculsum. Et
+          <lb ed="#P" n="26"/>merito, quia, sicut homo non esset recte 
+          com<lb break="no" ed="#P" n="27"/>positus, nisi corpus esset animae subordinatum,
+          <lb ed="#P" n="28"/>ita neque Ecclesia esset convenienter instituta,
+          <lb ed="#P" n="29"/>nisi temporalis potestas spirituali subderetur.
+          <lb ed="#P" n="30"/>Potestque eadem ratio declarari et confirmari
+          <lb ed="#P" n="31"/>ex dictis supra de dominio indirecto, quod
+          <lb ed="#P" n="32"/>Pontifex habet in universo orbe : nam hoc 
+          do<lb break="no" ed="#P" n="33"/>minium non fundatur, nisi in subordinatione
+          <lb ed="#P" n="34"/>harum potestatum. Quia, ut ibidem dixi, non
+          <lb ed="#P" n="35"/>est in Pontifice duplex potestas, sed una, quae
+          <lb ed="#P" n="36"/>directe respicit spiritualia, et consequenter 
+          ex<lb break="no" ed="#P" n="37"/>tenditur ad temporalia : haec autem extensio
+          <lb ed="#P" n="38"/>solum esse potest propter subordinationem
+          <lb ed="#P" n="39"/>temporalis potestatis ad spiritualem. Atque
+          <lb ed="#P" n="40"/>hac ratione Bernard., lib. 4 de Consid., cap. 3
+          <lb ed="#P" n="41"/>dicit Pontificem habere simul gladium 
+          spiri<lb break="no" ed="#P" n="42"/>tualem et naturalem, quia vel unum habet
+          <lb ed="#P" n="43"/>directe, et alium indirecte, vel unum in se et
+          <lb ed="#P" n="44"/>per se, alium sibi subordinatum, quod 
+          signi<lb break="no" ed="#P" n="45"/>ficat, cum ait spiritualem gladium ab Ecclesia
+          <lb ed="#P" n="46"/>exercendum esse, materialem vero a milite
+          <lb ed="#P" n="47"/>pro Ecclesia ad nutum sacerdotis, et jussum
+          <lb ed="#P" n="48"/>imperatoris. Unde in cap. ult. Pontificem 
+          vo<lb break="no" ed="#P" n="49"/>cat fidei defensorem , Christianorum ducem ,
+          <lb ed="#P" n="50"/>virgam potentuun, malleun tyrannorum, 
+          re<lb break="no" ed="#P" n="51"/>gum patrem, legum moderatorem, Deum 
+          Pha<lb break="no" ed="#P" n="52"/>raonis. Sic etiam conclusit Bonifacius Papa in
+          <lb ed="#P" n="53"/>Extravag. Unam sonctam, de Majorit. et obed.:
+          <lb ed="#P" n="54"/>Oportet gladiwm esse sub gladio, et temporalem
+          <lb ed="#P" n="55"/>auctoritatem spiritualà subjici potestati. Ex
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quo textu amplius roboratur ratio facta ; quia
+          <lb ed="#P" n="57"/>ubi est unum corpus, necesse est esse unum
+          <lb ed="#P" n="58"/>caput ad quod omnia aliquo modo 
+          revocen<lb break="no" ed="#P" n="59"/>tur, quoniam alias neque pax, neque perfecta
+          <lb ed="#P" n="60"/>unitas posset esse in corpore ; Ecclesia autem
+          <lb ed="#P" n="61"/>CHRISTI unum corpus est, ut diximus; ergo,
+          <lb ed="#P" n="62"/>quamvvis in eo sint plures potestates, seu 
+          ma<lb break="no" ed="#P" n="63"/>gistratus, necesse est ut inter se habeant 
+          su<lb break="no" ed="#P" n="64"/>bordinationem, ita ut ad unum aliquo modo
+          <lb ed="#P" n="65"/>revocentur propter rationem factam ; ergo vel
+          <lb ed="#P" n="66"/>spiritualis potestas subordinatur temporali,
+          <lb ed="#P" n="67"/>vel e contrario. Primum dici non potest; nam,
+          <lb ed="#P" n="68"/>ut ibidem ex Paulo affert Pontifex, Que a
+          <lb ed="#P" n="69"/>Deo sunt, ordinata sunt ; esset autem 
+          perver<lb break="no" ed="#P" n="70"/>sus ordo, si spiritualia subjecta essent 
+          tem<lb break="no" ed="#P" n="71"/>poralibus ; ergo secundum neeessario 
+          dicen<lb break="no" ed="#P" n="72"/>dum est.
+        </p>
+        <p xml:id="szdleg-a92361-d1e394">
+          <lb ed="#P" n="73"/>4. Objectio diluitur.—bicet fortasse aliquis
+          <lb ed="#P" n="74"/>Ecclesiam, ut perfecte una sit sufficienter uniri
+          <lb ed="#P" n="75"/>in uno capite suo, quod est Christus. Hanc
+          <lb ed="#P" n="76"/>enim responsionem posset quis incaute sumere
+          <lb ed="#P" n="77"/>ex Wald., l. 2 Doctr. fidei, cap. 18, n. 4, ubi
+          <lb ed="#P" n="78"/>sic inquit: Et quod arguunt quidam. Ecclesiam
+          <lb ed="#P" n="79"/>reducendam esse in monadem , verum est in
+          <lb ed="#P" n="80"/>Christum, qui solus in ore tenet, in gemina 
+          po<lb break="no" ed="#P" n="81"/>testatis sue signum, gladium bis acutum. 
+          Cee<lb break="no" ed="#P" n="82"/>terum sub Christo sacerdos et rem impermistas
+          <lb ed="#P" n="83"/>continent potestates. Respondetur, ad priorem
+          <lb ed="#P" n="84"/>partem, illam sententiam in eo sensu 
+          sum<lb break="no" ed="#P" n="85"/>ptam, et hic applicatam non posse satisfacere.
+          <lb ed="#P" n="86"/>Quia Ecclesia militans est unum corpus 
+          visi<lb break="no" ed="#P" n="87"/>bile in hoc mundo existens, ac indigens 
+          gu<lb break="no" ed="#P" n="88"/>bernatione humana, et externa: ergo non 
+          po<lb break="no" ed="#P" n="89"/>test solum reduci immediate ad caput 
+          invisi<lb break="no" ed="#P" n="90"/>bile hominibus mortalibus, quale est Christus:
+          <lb ed="#P" n="91"/>ergo necesse est ut etiam Vicarius Christi 
+          ha<lb break="no" ed="#P" n="92"/>beat excellentiam potestatis, ubi fuerat 
+          neces<lb break="no" ed="#P" n="93"/>saria ad conveniens regimen totius corporis ;
+          <lb ed="#P" n="94"/>ipse ergo est simpliciter supremum caput.
+          <lb ed="#P" n="95"/>Neque Walden. in contrario sensu locutus est,
+          <lb ed="#P" n="96"/>sed agit de reductione utriusque potestatis ad
+          <lb ed="#P" n="97"/>unum principium quoad originem, et 
+          partici<lb break="no" ed="#P" n="98"/>patione directe jurisdictionis, quam 
+          unaquae<lb break="no" ed="#P" n="99"/>que illarum potestatum habet in suo ordine.
+        </p>
+        <p xml:id="szdleg-a92361-d1e455">
+          <lb ed="#P" n="100"/>Et hoc sensu dicit impermistas, et reduci solum
+          <lb ed="#P" n="101"/>ad Deum, vel Christum: non negat tamen
+          <lb ed="#P" n="102"/>quin saltem indirecte potestas temporalis 
+          sub<lb break="no" ed="#P" n="103"/>ordinetur spirituali, praecipue in ordine ad 
+          vi<lb break="no" ed="#P" n="104"/>tandum peccatum et divinam offensionem, ut
+          <lb ed="#P" n="105"/>in numero sexto expresse declaravit cum 
+          Hu<lb break="no" ed="#P" n="106"/>gon. de Sancto Victor., l. 2 de Sacram., c. 4,
+          <lb ed="#P" n="107"/>6 et 7.
+        </p>
+        <p xml:id="szdleg-a92361-d1e475">
+          <lb ed="#P" n="108"/>5. Confirmatio. — Obviatur objectioni. —
+          <lb ed="#P" n="109"/>Et hinc potest nova confirmatio addi fundata
+          <lb ed="#P" n="110"/>in verbis Gelasii Papae in cap. Duo sunt, 96
+          <pb ed="#P" n="367"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dist.: Quia pro animabus regum Pontifices
+          <lb ed="#P" n="2"/>sunt reddituri rationem, insinuans in verbis
+          <lb ed="#P" n="3"/>illis Pasce oves meas, etiam reges et 
+          imperato<lb break="no" ed="#P" n="4"/>res Petro fuisse subjectos, quia sub Christi
+          <lb ed="#P" n="5"/>ovibus comprehendi debent; ergo etiam 
+          de<lb break="no" ed="#P" n="6"/>bent pasci et regi a Petro: jam enim 
+          explicui<lb break="no" ed="#P" n="7"/>mus sub verbo pascendi, etiam potestatem 
+          re<lb break="no" ed="#P" n="8"/>gendi contineri. Dices hoc verum esse quoad
+          <lb ed="#P" n="9"/>spirituale regimen. Sed contra, quia regula
+          <lb ed="#P" n="10"/>regiminis temporalis, ut sit rectum et 
+          hones<lb break="no" ed="#P" n="11"/>tum, debet esse spiritualis; ergo necesse est ut
+          <lb ed="#P" n="12"/>ipsamet potestas temporaliter regendi 
+          regule<lb break="no" ed="#P" n="13"/>tur per spiritualem, et hoc est illi esse 
+          subjec<lb break="no" ed="#P" n="14"/>tam et subordinatam. Et hac ratione 
+          Pontifi<lb break="no" ed="#P" n="15"/>ces reddituri sunt rationem pro regibus et
+          <lb ed="#P" n="16"/>imperatoribus, quia ad illos pertinet corrigere
+          <lb ed="#P" n="17"/>et emendare quidquid ipsi non solum ut 
+          homi<lb break="no" ed="#P" n="18"/>nes, sed etiam ut reges in usu suae potestatis
+          <lb ed="#P" n="19"/>peccaverint.
+        </p>
+        <p xml:id="szdleg-a92361-d1e530">
+          <lb ed="#P" n="20"/>6. Unde confirmatur, quia alias non esset
+          <lb ed="#P" n="21"/>sufficienter provisum Ecclesia, si non esset
+          <lb ed="#P" n="22"/>in ea potestas quae reges et principes possit in
+          <lb ed="#P" n="23"/>officio continere, saltem utendo spirituali 
+          gla<lb break="no" ed="#P" n="24"/>dio. Dices : hoc argumento probaretur 
+          neces<lb break="no" ed="#P" n="25"/>sariam etiam esse aliam potestatem, quae 
+          spi<lb break="no" ed="#P" n="26"/>rituales pastores contineat in officio : nam
+          <lb ed="#P" n="27"/>etiam illi errare possunt, et fortasse majora
+          <lb ed="#P" n="28"/>damna ovibus inferre. Respondetur ita quidem
+          <lb ed="#P" n="29"/>ese, quoad omnes spirituales principes, seu
+          <lb ed="#P" n="30"/>pastores, infra supremum Christi Vicarium; ad
+          <lb ed="#P" n="31"/>quem pertinet emendare, vel etiam punire
+          <lb ed="#P" n="32"/>reliquos : ipsum autem caput supremuni, non
+          <lb ed="#P" n="33"/>potuit alteri homini morali subjici, quia vel
+          <lb ed="#P" n="34"/>procederetur in infinitum, vel tolleretur debita
+          <lb ed="#P" n="35"/>subordinatio et unitas: et ideoalio altiori modo
+          <lb ed="#P" n="36"/>providit Christus Ecclesiae suae quoad hanc
+          <lb ed="#P" n="37"/>partem; nam quoad doctrinam et praecepta
+          <lb ed="#P" n="38"/>morum talem assistentiam suo Vicario 
+          promi<lb break="no" ed="#P" n="39"/>sit, ut in his errare non posset, ita ut grave
+          <lb ed="#P" n="40"/>aliquod damnum inferret Ecclesiae pcr abusum
+          <lb ed="#P" n="41"/>potestatis. Et hoc fuit sufficiens quoad 
+          potes<lb break="no" ed="#P" n="42"/>tatem legislativam, de qua agimus. Alia vero
+          <lb ed="#P" n="43"/>incommoda, quae interdum sequi possunt ex
+          <lb ed="#P" n="44"/>pravis moribus, vel operibus talis personae,
+          <lb ed="#P" n="45"/>minoris momenti sunt, et aliquando sunt 
+          tole<lb break="no" ed="#P" n="46"/>randa: nam haec est hominum fragilitas et
+          <lb ed="#P" n="47"/>conditio, et si interdum sint graviora et clare
+          <lb ed="#P" n="48"/>injusta, jure defensionis possunt homines se
+          <lb ed="#P" n="49"/>tueri ; non tamen jure vindicationis, aut 
+          pu<lb break="no" ed="#P" n="50"/>nitionis. Solum in casu haeresis solet fieri 
+          ali<lb break="no" ed="#P" n="51"/>qua exceptio, quam alibi tradendam et 
+          expli<lb break="no" ed="#P" n="52"/>candam relinquimus.
+        </p>
+        <p xml:id="szdleg-a92361-d1e604">
+          <lb ed="#P" n="53"/>7. Posset eadem assertio confirmari ex usu
+          <lb ed="#P" n="54"/>Ecclesiae ac variis exemplis, quae ex parte 
+          con<lb break="no" ed="#P" n="55"/>numerat Gelas. Papa loco citato ; sed quae ad
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>praesentem materiam pertinere possunt, 
+          infe<lb break="no" ed="#P" n="57"/>rius tractando de legibus canonicis attingemus;
+          <lb ed="#P" n="58"/>caetera videri possunt in historiis, et ea in
+          <lb ed="#P" n="59"/>summam redigit Bellarmin. supra cap. 7. Ex
+          <lb ed="#P" n="60"/>quibus etiam expedita manet ratio dubitandi
+          <lb ed="#P" n="61"/>in principio posita. Nam ostensum est 
+          Scri<lb break="no" ed="#P" n="62"/>ptura et traditione hanc institutionem esse a
+          <lb ed="#P" n="63"/>Christo Domino. Petrus vero et Paulus ibi 
+          alle<lb break="no" ed="#P" n="64"/>gati loquuntur de obedientia debita principibus
+          <lb ed="#P" n="65"/>et potestatibus a suis subditis respective, non
+          <lb ed="#P" n="66"/>tamen in eis explicatur qualis sit subordinatio
+          <lb ed="#P" n="67"/>potestatum inter se; neque est verum 
+          impera<lb break="no" ed="#P" n="68"/>tores christianos unquam judicasse Pontifices,
+          <lb ed="#P" n="69"/>ut in tr. de Immunit. late ostensum est.
+        </p>
+        <p xml:id="szdleg-a92361-d1e647">
+          <lb ed="#P" n="70"/>8. Exemplum autem ibi adductum ex 3 Reg.
+          <lb ed="#P" n="71"/>2. petebat specialem difficultatem de 
+          compa<lb break="no" ed="#P" n="72"/>ratione simili inter Pontificem et regem sub
+          <lb ed="#P" n="73"/>statu legis veteris, sed haec parum refert ad
+          <lb ed="#P" n="74"/>praesens institutum, et in proprio loco 
+          tractan<lb break="no" ed="#P" n="75"/>do de Romano Pontifice disputabitur; et ideo
+          <lb ed="#P" n="76"/>nunc solum dico duo. Unum est, ex illo nihil
+          <lb ed="#P" n="77"/>sufficienter probari, vel quia ibi narratur 
+          fac<lb break="no" ed="#P" n="78"/>tum, non jus, id est, narratur quid fecerit
+          <lb ed="#P" n="79"/>Salomon, non tamen an fecerit ex legitima
+          <lb ed="#P" n="80"/>vel usurpata potestate, vel certe, quia (ut 
+          ali<lb break="no" ed="#P" n="81"/>qui volunt) Salomon ex peculiari instinctu
+          <lb ed="#P" n="82"/>Spiritus Sancti id fecit, ut in eodem loco 
+          in<lb break="no" ed="#P" n="83"/>nuitur, et ideo non sequitur id fecisse ex 
+          or<lb break="no" ed="#P" n="84"/>dinaria potestate quam haberet. Alterum est,
+          <lb ed="#P" n="85"/>parum referre ad praesentem causam 
+          compa<lb break="no" ed="#P" n="86"/>ratio illa Veteris Testamenti, tum quia lex 
+          ve<lb break="no" ed="#P" n="87"/>tus in his caeremonialibus et judicialibus jam
+          <lb ed="#P" n="88"/>cessavit, ut l. 9 ostendemus; tum etiam quia
+          <lb ed="#P" n="89"/>longe altioris ordinis est pontificatus legis 
+          no<lb break="no" ed="#P" n="90"/>vae quam veteris, et ideo dato, et non 
+          conces<lb break="no" ed="#P" n="91"/>so, pontificatum veterem non habuisse illam
+          <lb ed="#P" n="92"/>excellentiam, non sequitur pontificatum a
+          <lb ed="#P" n="93"/>Christo institutum illam non habere. Sicut
+          <lb ed="#P" n="94"/>etiam Papa nunc habet potestatem remittendi
+          <lb ed="#P" n="95"/>peccata, quam non habuit sacerdos antiquae
+          <lb ed="#P" n="96"/>legis. Nunc Papa potest concedere 
+          indulgen<lb break="no" ed="#P" n="97"/>tias, quod alius non potuit. Denique Petro 
+          pro<lb break="no" ed="#P" n="98"/>missae sunt claves regni coelorum, et dictum
+          <lb ed="#P" n="99"/>illi est : Pasce oves meas, et : Quidquid 
+          ligave<lb break="no" ed="#P" n="100"/>ris super terram, erit ligatum et in calis,
+          <lb ed="#P" n="101"/>quae non sunt dicta veteri Pontifici. Et ideo
+          <lb ed="#P" n="102"/>quidquid de illo sit, veritas posita inconcussa
+          <lb ed="#P" n="103"/>manet.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="208"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a52762"><!-- deleg-l3c10 -->
+        <head xml:id="szdleg-a52762-Hd1e101">Caput 10</head>
+        <head xml:id="szdleg-a52762-Hd1e103" type="question-title">Utrum potestas ferendi leges civiles pendeat ex fide vel moribus principis</head>
+        <p xml:id="szdleg-a52762-d1e106">
+          <lb ed="#P" n="60"/>CAPUT X.
+          <lb ed="#P" n="61"/>UTRUM POTESTAS FERENDI LEGES CIVILES PENDEAT
+          <lb ed="#P" n="62"/>EX FIDE VEL MORIBUS PRINCIPIS.
+        </p>
+        <p xml:id="szdleg-a52762-d1e115">
+          <lb ed="#P" n="63"/>1. Hanc quaestionem moveo propter 
+          haere<lb break="no" ed="#P" n="64"/>sim Waldensium (ut refert Castro verbo 
+          po<lb break="no" ed="#P" n="65"/>testas) quos Wicleph. et Joan. Hus secuti sunt,
+          <lb ed="#P" n="66"/>dicentes principes iniquos vel infideles non
+          <lb ed="#P" n="67"/>habere civilem potestatem, et consequenter
+          <lb ed="#P" n="68"/>non posse suis legibus subditos obligare, quod
+          <lb ed="#P" n="69"/>etiam, ut referunt, sensit Armacanus libro 10
+          <lb ed="#P" n="70"/>de Quaestionib. Armenorum. Fundantur, quia
+          <lb ed="#P" n="71"/>potestas regia ordinatur ad bonum commune;
+          <lb ed="#P" n="72"/>esset autem valde contrarium bono communi
+          <lb ed="#P" n="73"/>si in hujusmodi iniquis hominibus talis 
+          potes<lb break="no" ed="#P" n="74"/>tas inveniretur ac perseveraret; et ideo Saul
+          <lb ed="#P" n="75"/>statim privatus fuit regno, postquam Deo 
+          dis<lb break="no" ed="#P" n="76"/>plicere coepit, 2 Reg. 15; et de regibus iniquis
+          <lb ed="#P" n="77"/>generaliter dicit Deus, Oseae 8: Regnaverunt,
+          <lb ed="#P" n="78"/>et non ex moe, id est, non legitima potestate.
+          <lb ed="#P" n="79"/>Haec tamen sententia erronea est, et damnata
+          <lb ed="#P" n="80"/>in Concilio Constantiensi, sess. 8 et 15. Ut
+          <lb ed="#P" n="81"/>tamen veritatem catholicam breviter explicem,
+          <lb ed="#P" n="82"/>dicam prius de fide, postea de moribus.
+        </p>
+        <p xml:id="szdleg-a52762-d1e161">
+          <lb ed="#P" n="83"/>2. Vera sententia.— Fidem et reliqua 
+          super<lb break="no" ed="#P" n="84"/>naturalia non requiri de jure naturae ad 
+          potes<lb break="no" ed="#P" n="85"/>tatem legislativam utpote quae sint superioris
+          <lb ed="#P" n="86"/>ordinis. — Primo ergo certum sit hanc 
+          potes<lb break="no" ed="#P" n="87"/>tatem neque fidem neque aliud donum 
+          super<lb break="no" ed="#P" n="88"/>naturale requirere in principe seu in subjecto
+          <lb ed="#P" n="89"/>in quo existit. Probatur : nam vel conditionem
+          <lb ed="#P" n="90"/>hanc postulat jure naturae, vel divino positivo,
+          <lb ed="#P" n="91"/>vel Ecclesiastico : nihil autem horum dici 
+          po<lb break="no" ed="#P" n="92"/>test : ergo. Probatur minor quoad primam
+          <lb ed="#P" n="93"/>partem, quia haec potestas pertinet ad purum
+          <lb ed="#P" n="94"/>jus naturale, ut supra ostensum est: unde 
+          fu<lb break="no" ed="#P" n="95"/>tura esset in hominibus, etiamsi crearentur in
+          <lb ed="#P" n="96"/>puris naturalibus sine ullo ordine ad 
+          superna<lb break="no" ed="#P" n="97"/>turalem finem, et fuit in gentibus ante Christi
+          <lb ed="#P" n="98"/>adventum, et nunc est in infidelibus non 
+          bap<lb break="no" ed="#P" n="99"/>tizatis, praesertim in gentibus. Et ratio clara
+          <lb ed="#P" n="100"/>est, quia fides et reliqua dona sunt superioris
+          <lb ed="#P" n="101"/>ordinis : ergo non possunt jure naturae requiri
+          <lb ed="#P" n="102"/>ad hanc potestatem.
+        </p>
+        <p xml:id="szdleg-a52762-d1e208">
+          <lb ed="#P" n="103"/>3. Occurritur dubiolo. —Dicetur fortasse hoc
+          <lb ed="#P" n="104"/>argumentum recte procedere de puro jure 
+          na<lb break="no" ed="#P" n="105"/>turae quatenus fundatur in solo lumine 
+          natu<lb break="no" ed="#P" n="106"/>rali : secus autem esse de jure connaturali
+          <lb ed="#P" n="107"/>gratiae, quod fundatur in lumine fidei, quia,
+          <pb ed="#P" n="209"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>supposita elevatione naturae humanae ad finem
+          <lb ed="#P" n="2"/>supernaturalem, ipsum lumen supernaturale
+          <lb ed="#P" n="3"/>dictat non esse homines regendos, etiam in
+          <lb ed="#P" n="4"/>civilibus et temporalibus, nisi per principes
+          <lb ed="#P" n="5"/>fideles, propter vitandum commune 
+          incommo<lb break="no" ed="#P" n="6"/>dum, quod ex contrario sequi potest. Sed hoc
+          <lb ed="#P" n="7"/>absque fundamento dicitur. Quia ordinatio ad
+          <lb ed="#P" n="8"/>finem supernaturalem per fidem vel alia dona
+          <lb ed="#P" n="9"/>non mutat naturam hujus potestatis, neque
+          <lb ed="#P" n="10"/>impedit actus ejus: ergo etiam posito lumine
+          <lb ed="#P" n="11"/>fidei non potest per veram rationem colligi
+          <lb ed="#P" n="12"/>potestatem hanc necessario supponere fidem.
+          <lb ed="#P" n="13"/>Quamvis enim ex principiis fidei recte 
+          colli<lb break="no" ed="#P" n="14"/>gatur non esse obediendum magistratui 
+          tem<lb break="no" ed="#P" n="15"/>porali in his quae fidei vel supernaturalibus
+          <lb ed="#P" n="16"/>praeceptis repugnant, non inde colligitur non
+          <lb ed="#P" n="17"/>posse esse verum principem eum qui fide 
+          ca<lb break="no" ed="#P" n="18"/>reat, aut ei obediendum non esse in his quae
+          <lb ed="#P" n="19"/>pertinent ad rectam gubernationem politicam,
+          <lb ed="#P" n="20"/>et fidei non repugnatitem. Quod etiam aperte
+          <lb ed="#P" n="21"/>confirmat Scriptura Daniel. 2: Tu es Remc, et
+          <lb ed="#P" n="22"/>Deus coeli tibi regnum dedit ; erat autem 
+          infi<lb break="no" ed="#P" n="23"/>delis; et Genes. 4T, Joseph fecit terram /
+          Egy<lb break="no" ed="#P" n="24"/>pti tributariam Pharaoni, qui etiam erat 
+          infi<lb break="no" ed="#P" n="25"/>delis. Constat ergo hanc potestatem ex natura
+          <lb ed="#P" n="26"/>rei in sola naturali ratione fundari.
+        </p>
+        <p xml:id="szdleg-a52762-d1e282">
+          <lb ed="#P" n="27"/>4. Et possumus obiter addere, quamvis ad 
+          ac<lb break="no" ed="#P" n="28"/>tualem usum ejus requiratur usus rationis in
+          <lb ed="#P" n="29"/>habente illam, tamen ad ipsam potestatem non
+          <lb ed="#P" n="30"/>requiri, scilicet, quoad jus dominandi et 
+          regen<lb break="no" ed="#P" n="31"/>di: potest enim esse in puero, etiam ante usum
+          <lb ed="#P" n="32"/>rationis, ut patet in eo qui jure haereditario 
+          re<lb break="no" ed="#P" n="33"/>gnum obtinet statim a principio nativitatis:
+          <lb ed="#P" n="34"/>ille enim et ante rationis usum et ante 
+          bap<lb break="no" ed="#P" n="35"/>tismum rex existit; habet ergo potestatem in
+          <lb ed="#P" n="36"/>habitu, licet per se illam exercere non possit.
+          <lb ed="#P" n="37"/>Et idem contingere potest in eo qui ad tempus
+          <lb ed="#P" n="38"/>incidit in amentiam : nam si amentia sit 
+          per<lb break="no" ed="#P" n="39"/>petua, privandus est tali potestate propter
+          <lb ed="#P" n="40"/>commune bonum. De quo alias.
+        </p>
+        <p xml:id="szdleg-a52762-d1e315">
+          <lb ed="#P" n="41"/>b. Secunda pars conclusionis probatur. —
+          <lb ed="#P" n="42"/>Secunda pars minoris, quae est de jure 
+          di<lb break="no" ed="#P" n="43"/>vino positivo, satis ex eo probatur, quia 
+          os<lb break="no" ed="#P" n="44"/>tendi non potest tale jus, neque ex Scriptura,
+          <lb ed="#P" n="45"/>neque ex traditione: imo oppositum docent
+          <lb ed="#P" n="46"/>Paulus ad Rom. 13, et 1 Timoth. 2, et Petrus
+          <lb ed="#P" n="47"/>1 canonica, cap. secundo, ubi admonent fideles
+          <lb ed="#P" n="48"/>subditos esse regibus et principibus qui tunc
+          <lb ed="#P" n="49"/>dominabantur, quos constat fuisse infideles.
+          <lb ed="#P" n="50"/>Nec dici potest hoc fecisse Apostolos ad 
+          vitan<lb break="no" ed="#P" n="51"/>dum majus malum : nam expresse aiunt illos
+          <lb ed="#P" n="52"/>esse ministros Dei et ab illo habere potestatem,
+          <lb ed="#P" n="53"/>eisque obediendum esse, non tantum propter
+          <lb ed="#P" n="54"/>timorem, sed etiam propter conscientiam. Ex
+          <lb ed="#P" n="55"/>quibus locis constat, stando in jure divino,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>hanc potestatem perseverare in infidcli, non
+          <lb ed="#P" n="57"/>solum respectu aliorum infidelium, sed etiam
+          <lb ed="#P" n="58"/>respectu Christianorum, qui alias justo titulo
+          <lb ed="#P" n="59"/>subditi erant illi: nam de his in particulari
+          <lb ed="#P" n="60"/>loquuntur Apostoli in illis locis. Congruentia
+          <lb ed="#P" n="61"/>autem reddi potest, quia tale jus non fuisset
+          <lb ed="#P" n="62"/>congruum ad fidei propagationem et 
+          conscer<lb break="no" ed="#P" n="63"/>vationem : nam plurima scandala -
+          sequeren<lb break="no" ed="#P" n="64"/>tur, nec reges infideles permitterent subditos
+          <lb ed="#P" n="65"/>ad fidem converti.
+        </p>
+        <p xml:id="szdleg-a52762-d1e374">
+          <lb ed="#P" n="66"/>6. Tertium membrum conclusionis probatur.
+          <lb ed="#P" n="67"/>— Quid potest Ecclesia in principes infideles non
+          <lb ed="#P" n="68"/>baptizatos.— Quid in baptizatos.— Atque hinc
+          <lb ed="#P" n="69"/>facile constat aliud membrum de jure 
+          Ecclc<lb break="no" ed="#P" n="70"/>siastico, quod auctoritate etiam negativa 
+          suffi<lb break="no" ed="#P" n="71"/>cienter probatur, quia nullibi invenitur. Ad
+          <lb ed="#P" n="72"/>majorem autem intelligentiam distinguere
+          <lb ed="#P" n="73"/>possumus duplices reges infideles, quidam
+          <lb ed="#P" n="74"/>nunquam baptizati, nec apostatae a fide; alii
+          <lb ed="#P" n="75"/>sunt haeretici apostatae. In priores non habet
+          <lb ed="#P" n="76"/>Ecclesia jurisdictionem directam; et ideo non
+          <lb ed="#P" n="77"/>potest illos punire, nec per se regnis privare.
+          <lb ed="#P" n="78"/>Si autem sub se haberent fideles et eos vel a
+          <lb ed="#P" n="79"/>fide averterent vel ab obedientia Ecclesiae, vel
+          <lb ed="#P" n="80"/>alias ad pravos mores manifeste inducerent,
+          <lb ed="#P" n="81"/>tunc Ecclesia haberet justum bellum contra
+          <lb ed="#P" n="82"/>illos, possetque eos in defensionem 
+          innocen<lb break="no" ed="#P" n="83"/>tium potestate et regno privare : quamdiu
+          <lb ed="#P" n="84"/>vero non privantur, suam retinent potestatem.
+          <lb ed="#P" n="85"/>In posteriores autem habet Ecclesia directam
+          <lb ed="#P" n="86"/>potestatem, et per se, ratione baptismi, et ideo
+          <lb ed="#P" n="87"/>in pomnam infideltatis et haeresis potest eos
+          <lb ed="#P" n="88"/>hac potestate privare ; hactenus vero non 
+          pri<lb break="no" ed="#P" n="89"/>vavit eos ipso facto, saltem quantum ad 
+          re<lb break="no" ed="#P" n="90"/>tentionem et usum illius potestatis : imo nec
+          <lb ed="#P" n="91"/>de facto ab illa dejici possunt, donec per 
+          sen<lb break="no" ed="#P" n="92"/>tentiam Ecclesiasticam declarentur, juxta cap.
+          <lb ed="#P" n="93"/>Cum secundum leges, de Haereticis, in 6, et 
+          la<lb break="no" ed="#P" n="94"/>tius traditur in materia de Fide.
+        </p>
+        <p xml:id="szdleg-a52762-d1e439">
+          <lb ed="#P" n="95"/>T. Conclusio ea quae de fide. —Circa alteram
+          <lb ed="#P" n="96"/>partem de moribus, dicendum est potestatem
+          <lb ed="#P" n="97"/>hanc in hominibus injustis et iniquis 
+          perma<lb break="no" ed="#P" n="98"/>nere posse, et ita simpliciter non pendere ex
+          <lb ed="#P" n="99"/>moribus honestis. Conclusio est etiam certa de
+          <lb ed="#P" n="100"/>fide, quae satis constat ex discursu totius 
+          Scri<lb break="no" ed="#P" n="101"/>pturae, in qua legimus plures reges, tam in
+          <lb ed="#P" n="102"/>populo Israel quam inter gentes fuisse 
+          iniquis<lb break="no" ed="#P" n="103"/>simos , et nihilominus fuisse veros reges, et
+          <lb ed="#P" n="104"/>David etiam ac Salomon, qui aliquando 
+          gravi<lb break="no" ed="#P" n="105"/>ter peccaverunt, non statim privati fuerunt
+          <lb ed="#P" n="106"/>regno. Ratione ostendi potest discursu simili
+          <lb ed="#P" n="107"/>superius facto, quia haec poena privationis talis
+          <lb ed="#P" n="108"/>potestatis nuilo jure lata est, ipso facto, contra
+          <lb ed="#P" n="109"/>reges iniquos, nec fuisset conveniens, quia 
+          in<lb break="no" ed="#P" n="110"/>finita perturbatio inde sequeretur, et omnes
+          <pb ed="#P" n="210"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>subditi facile contra reges insurgerent. 
+          Expli<lb break="no" ed="#P" n="2"/>cari deinde potest in hunc modum , quia vel
+          <lb ed="#P" n="3"/>rex, licet alias pravus sit, in legibus ferendis
+          <lb ed="#P" n="4"/>servat honestatem et justitiam, et tunc 
+          forma<lb break="no" ed="#P" n="5"/>liter , et in quantum rex, justus est : malitia
+          <lb ed="#P" n="6"/>autem illa se habet quasi concomitanter , et
+          <lb ed="#P" n="7"/>ideo non refert ad hanc potestatem. Vel in
+          <lb ed="#P" n="8"/>ipsis legibus ferendis exercet injustitiam et 
+          ini<lb break="no" ed="#P" n="9"/>quitatem, praecipiendo rem turpem, et tunc
+          <lb ed="#P" n="10"/>non inducit quidem obligationem per talem
+          <lb ed="#P" n="11"/>actum. Nam lex iniqua non est lex, nec 
+          potes<lb break="no" ed="#P" n="12"/>tas regia est data ad tales leges ferendas, juxta
+          <lb ed="#P" n="13"/>ea quae supra diximus de ratione legis. Possunt
+          <lb ed="#P" n="14"/>ergo tunc subditi et debent non obedire regi
+          <lb ed="#P" n="15"/>in tali praecepto, si de re iniqua sit, non tamen
+          <lb ed="#P" n="16"/>propterea possunt illi obedientiam absolute
+          <lb ed="#P" n="17"/>negare in his quae justa fuerint. Vel denique
+          <lb ed="#P" n="18"/>rex est iniquus etiam in usurpatione ipsius 
+          po<lb break="no" ed="#P" n="19"/>testatis, quia tyrannice illam occupavit, et tunc
+          <lb ed="#P" n="20"/>verum est illam iniquitatem excludere 
+          potes<lb break="no" ed="#P" n="21"/>tatem veram, non quia privet illa, sed quia
+          <lb ed="#P" n="22"/>supponit carentiam ejus , eamque donare non
+          <lb ed="#P" n="23"/>potest, et tunc merito tali homini non 
+          obedi<lb break="no" ed="#P" n="24"/>tur, quia rex non est, sed tyrannus.
+        </p>
+        <p xml:id="szdleg-a52762-d1e533">
+          <lb ed="#P" n="25"/>8. Dubium circa mores principis. — 
+          Oc<lb break="no" ed="#P" n="26"/>currit autem hic incidens dubium circa hoc
+          <lb ed="#P" n="27"/>ultimum membrum , an in eo casu possint
+          <lb ed="#P" n="28"/>subditi licite obedire hujusmodi principi, si
+          <lb ed="#P" n="29"/>alioqui ex parte materiae justas leges ferat.
+          <lb ed="#P" n="30"/>Quod enim non teneantur per se loquendo,
+          <lb ed="#P" n="31"/>manifestum est, quia illae non sunt leges,
+          <lb ed="#P" n="32"/>juxta supra dicta, cum non procedant a 
+          legiti<lb break="no" ed="#P" n="33"/>tima potestate. Quod autem possint, videtur
+          <lb ed="#P" n="34"/>persuaderi , quia possunt facere quidquid 
+          bo<lb break="no" ed="#P" n="35"/>num est vel non malum, licet non teneantur,
+          <lb ed="#P" n="36"/>cedendo juri suo, et patienter vim alterius 
+          sus<lb break="no" ed="#P" n="37"/>tinendo. Imo addunt multi auctores, posse tunc
+          <lb ed="#P" n="38"/>subditos postulare ab hujusmodi principe et
+          <lb ed="#P" n="39"/>concessiones gratiae et actus justitiae qui in se
+          <lb ed="#P" n="40"/>injusti non sint , quamvis ab illo injuste sint
+          <lb ed="#P" n="41"/>faciendi per usurpatam potestatem ; quia tunc
+          <lb ed="#P" n="42"/>non inducunt ad malum, sed ad minus malum:
+          <lb ed="#P" n="43"/>minus enim malum est sic gubernari, quam
+          <lb ed="#P" n="44"/>omnino non gubernari. Ita docuit Cajet. in
+          <lb ed="#P" n="45"/>summa, verb. Tyrannus , quem sequitur 
+          Ar<lb break="no" ed="#P" n="46"/>milla eodem verb. et Navar., cap. 14, n. A.
+          <lb ed="#P" n="47"/>In contrarium autem esse videtur, quia obedire
+          <lb ed="#P" n="48"/>hujusmodi regi, etiam in his quae alias honesta
+          <lb ed="#P" n="49"/>sunt, videtur esse cooperatio ad malum, et 
+          fa<lb break="no" ed="#P" n="50"/>vor injustitiae seu tyrannidis ejus.
+        </p>
+        <p xml:id="szdleg-a52762-d1e593">
+          <lb ed="#P" n="51"/>9. Quando liceat servare precepta tyranni,
+          <lb ed="#P" n="52"/>et quando non. — Breviter dicendum censeo
+          <lb ed="#P" n="53"/>quasdam esse actiones ita honestas, ut in 
+          nul<lb break="no" ed="#P" n="54"/>lius nocumentum cedant, neque indigeant 
+          po<lb break="no" ed="#P" n="55"/>estate publica ut recte fiant , ut sunt deferre
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>haec vel illa arma, vel aliquid simile, vel etiam
+          <lb ed="#P" n="57"/>solvere tributum, quod, licet ex parte 
+          exigen<lb break="no" ed="#P" n="58"/>tis requirat potestatem, ex parte solventis 
+          il<lb break="no" ed="#P" n="59"/>lam non postulat, per se loquendo. Neque 
+          con<lb break="no" ed="#P" n="60"/>ditio tributi alteri affert nocumentum, nisi
+          <lb ed="#P" n="61"/>soli solventi, qui potest cedere juri vel utilitati
+          <lb ed="#P" n="62"/>suae. Aliae vero sunt actiones quae involvunt
+          <lb ed="#P" n="63"/>nocumentum tertii, et ut juste fiant requirunt
+          <lb ed="#P" n="64"/>potestatem publicam, ut occidere 
+          malefacto<lb break="no" ed="#P" n="65"/>rem, etiam dignum morte, et similes. In 
+          prio<lb break="no" ed="#P" n="66"/>ribus per se malum non est servare leges, vel
+          <lb ed="#P" n="67"/>praecepta a tyranno data, quia illae actiones tales
+          <lb ed="#P" n="68"/>sunt, ut propria voluntate et auctoritate 
+          pos<lb break="no" ed="#P" n="69"/>sint honeste fieri sine lege. Quod autem fiant
+          <lb ed="#P" n="70"/>posita illa injusta lege, non habet 
+          circumstan<lb break="no" ed="#P" n="71"/>tiam quae reddat actum malum. Quia illa re
+          <lb ed="#P" n="72"/>vera non est cooperatio, sed tolerantia quaedam
+          <lb ed="#P" n="73"/>violentiae, quae nulli affert nocumentum: ergo
+          <lb ed="#P" n="74"/>per se non est ibi malitia. Dico autem per se,
+          <lb ed="#P" n="75"/>quia oportet scandalum vitare et non dare 
+          oc<lb break="no" ed="#P" n="76"/>casionem tyranno, ut in sua injustitia 
+          fir<lb break="no" ed="#P" n="77"/>mius perseveret, sed potius illi obsistere 
+          quan<lb break="no" ed="#P" n="78"/>do sine incommodo fieri potest. At vero in
+          <lb ed="#P" n="79"/>posterioribus actionibus contrarium videtur,
+          <lb ed="#P" n="80"/>quia honestas illarum omnino pendet ex vera
+          <lb ed="#P" n="81"/>potestate publica, sine qua nullus potest 
+          exe<lb break="no" ed="#P" n="82"/>qui vel condemnare alium, etiam in poena
+          <lb ed="#P" n="83"/>justa, nisi habeat publicam potestatem quam
+          <lb ed="#P" n="84"/>tyrannus dare non potest. Sed in hoc etiam
+          <lb ed="#P" n="85"/>advertendum, seu subdistinguendum est : nam
+          <lb ed="#P" n="86"/>hoc in rigore est verum quantum est ex parte
+          <lb ed="#P" n="87"/>tyranni: contingit autem ut respublica, quia
+          <lb ed="#P" n="88"/>non potest illi resistere, illum toleret, et ab eo
+          <lb ed="#P" n="89"/>se gubernari sinat, et tacite consentiat, ac velit
+          <lb ed="#P" n="90"/>justitiam per ipsum administrari propter 
+          ra<lb break="no" ed="#P" n="91"/>tionem tactam, quia minus malum est per 
+          il<lb break="no" ed="#P" n="92"/>lum gubernari quam omnino carere justa 
+          co<lb break="no" ed="#P" n="93"/>actione et directione; et tum non erit peccatum
+          <lb ed="#P" n="94"/>obedire, etiam in dictis actibus, quia 
+          reipu<lb break="no" ed="#P" n="95"/>blicae consensus supplet defectum potestatis
+          <lb ed="#P" n="96"/>tyranni.
+        </p>
+        <p xml:id="szdleg-a52762-d1e697">
+          <lb ed="#P" n="97"/>10. Ad fundamentum contrarii erroris 
+          res<lb break="no" ed="#P" n="98"/>pondetur multo majora incommoda contra
+          <lb ed="#P" n="99"/>bonum commune sequi, si potestas civilis 
+          pen<lb break="no" ed="#P" n="100"/>deat ex privata fide vel bonis morihus ipsius
+          <lb ed="#P" n="101"/>principis, quia nulla esset pax neque 
+          obedien<lb break="no" ed="#P" n="102"/>tia in republica , sed quilibet subditus vellet
+          <lb ed="#P" n="103"/>superiorem suum judicare, et consequenter
+          <lb ed="#P" n="104"/>illi obedientiam negare, quod absurdissimum
+          <lb ed="#P" n="105"/>est. Quocirca , licet peccator forte mereatur
+          <lb ed="#P" n="106"/>privari regno, tamen quamdiu illo non 
+          priva<lb break="no" ed="#P" n="107"/>tur ab habente potestatem, verusrex perseverat,
+          <lb ed="#P" n="108"/>atque ita contigit in Saule, donec permittente
+          <lb ed="#P" n="109"/>Deo occisus est. Quod autem dicitur Oseae 8,
+          <lb ed="#P" n="110"/>regnaverunt, et non ea me, plures habet expo-
+          <pb ed="#P" n="211"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sitiones, de quibus videri possunt Orig. Homil.
+          <lb ed="#P" n="2"/>4. in lib. Judicum, Hieronym. et Expositores
+          <lb ed="#P" n="3"/>ibi. Verus sensus mihi videtur ibi reprehendi
+          <lb ed="#P" n="4"/>reges iniquos Israel, non quia reges non essent,
+          <lb ed="#P" n="5"/>et gubernarent, sed quia, cum reges essent,
+          <lb ed="#P" n="6"/>male gubernarent : hoc enim significat regnare
+          <lb ed="#P" n="7"/>non ex Deo, quod statim explicatur quia 
+          indu<lb break="no" ed="#P" n="8"/>cebant populum ad idola colenda, et similia.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

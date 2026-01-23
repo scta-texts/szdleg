@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="415"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-b04844"><!-- deleg-l5c2 -->
+        <head xml:id="szdleg-b04844-Hd1e101">Caput 2</head>
+        <head xml:id="szdleg-b04844-Hd1e103" type="question-title">De lege odiosa et favorabili, earumque varietate</head>
+        <p xml:id="szdleg-b04844-d1e106">
+          <lb ed="#P" n="13"/>CAPUT II.
+          <lb ed="#P" n="14"/>DE LEGE ODIOSA ET FAVORABILI, EARUMQUE
+          <lb ed="#P" n="15"/>VARIETATE.
+        </p>
+        <p xml:id="szdleg-b04844-d1e115">
+          <lb ed="#P" n="16"/>1. Divisionibus legis traditis in superiori
+          <lb ed="#P" n="17"/>capite addere possumus quintam ex effectibus
+          <lb ed="#P" n="18"/>sumptam, quae instituto nostro maxime 
+          de<lb break="no" ed="#P" n="19"/>serviet. Quinto ergo lex humana generatim
+          <lb ed="#P" n="20"/>sumpta dividitur in odiosam, seu onerosam,
+          <lb ed="#P" n="21"/>et favorabilem, seu beneficium conferentem,
+          <lb ed="#P" n="22"/>quae divisio ex multis juribus colligitur. Nam
+          <lb ed="#P" n="23"/>interdum dicunt jura, odia esse restringenda,
+          <lb ed="#P" n="24"/>et favores ampliandos, cap. Odia, de heg.
+          <lb ed="#P" n="25"/>jur., in 6, cum vulgaribus concordantibus ;
+          <lb ed="#P" n="26"/>quae regula praesertim intelligitur de favoribus
+          <lb ed="#P" n="27"/>vel odiis in jure contentis, ac subinde de 
+          legi<lb break="no" ed="#P" n="28"/>bus favorabilibus et odiosis. Et ita divisionem
+          <lb ed="#P" n="29"/>hanc legum communiter doctores supponunt,
+          <lb ed="#P" n="30"/>ut constabit ex his quos in discursu capitis 
+          re<lb break="no" ed="#P" n="31"/>feremus. Tria vero ad intelligendam hujus
+          <lb ed="#P" n="32"/>partitionis regulam desiderari possunt. 
+          Pri<lb break="no" ed="#P" n="33"/>mum est, unde sit sumenda distinctio inter
+          <lb ed="#P" n="34"/>illa membra. Secundum est, an sit sufficiens
+          <lb ed="#P" n="35"/>ita ut illa duo membra adaequate dividant 
+          le<lb break="no" ed="#P" n="36"/>gem humanam. Tertium est, quot genera 
+          le<lb break="no" ed="#P" n="37"/>gum humanarum. sub singulis illorum 
+          mem<lb break="no" ed="#P" n="38"/>brorum contineantur, ut de illis sigillatim in
+          <lb ed="#P" n="39"/>sequentibus dicamus.
+        </p>
+        <p xml:id="szdleg-b04844-d1e170">
+          <lb ed="#P" n="40"/>2. Ratio dulitandi em eo quod omnis lew 
+          vi<lb break="no" ed="#P" n="41"/>detur favorablilis. — Circa primum, ratio 
+          du<lb break="no" ed="#P" n="42"/>bitandi esse potest, quia nulla est lex quae 
+          sim<lb break="no" ed="#P" n="43"/>pliciter favorabilis non sit : ergo non potest
+          <lb ed="#P" n="44"/>subsistere divisio. Antecedens patet, quia lex,
+          <lb ed="#P" n="45"/>ut sit justa. et vera lex, debet esse communi
+          <lb ed="#P" n="46"/>bono utilis, et moraliter necessaria ; sed 
+          utili<lb break="no" ed="#P" n="47"/>tas boni communis maximus favor est, quia
+          <lb ed="#P" n="48"/>bonum commune praeferendum est caeteris:
+          <lb ed="#P" n="49"/>ergo omnis lex simpliciter inducit favorem, et
+          <lb ed="#P" n="50"/>hoc est esse favorabilem ; nulla ergo esse 
+          po<lb break="no" ed="#P" n="51"/>test odiosa. Et confirmatur : nam si quae esset
+          <lb ed="#P" n="52"/>lex odiosa, maxime illa quae poenam imponit;
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>at haec non est odiosa; ergo nulla. Probatur
+          <lb ed="#P" n="54"/>minor, tum quia alias omnis lex esset odiosa,
+          <lb ed="#P" n="55"/>quia cmnis lex imponit reatum poenae 
+          trans<lb break="no" ed="#P" n="56"/>gressoribus : quod autem illa poena 
+          exprima<lb break="no" ed="#P" n="57"/>tur, vel determinetur in lege, parum auget
+          <lb ed="#P" n="58"/>gravamen seu odium, cum solus reatus 
+          aeter<lb break="no" ed="#P" n="59"/>nae poenae ad hujusmodi odium suffhiciat, et
+          <lb ed="#P" n="60"/>comminatio illius reatus in omni lege 
+          includa<lb break="no" ed="#P" n="61"/>tur quae gravis sit et nomen praecepti 
+          simpli<lb break="no" ed="#P" n="62"/>citer mereatur; tum etiam quia poena non est
+          <lb ed="#P" n="63"/>intenta per legem, sed potius apponitur ut
+          <lb ed="#P" n="64"/>fugiatur, et ut saltem ex timore ejus servetur
+          <lb ed="#P" n="65"/>praeceptum ; ergo additio poenae non facit 
+          le<lb break="no" ed="#P" n="66"/>gem odiosam, quia qualitas legis pensanda est
+          <lb ed="#P" n="67"/>ex fine, et bono per se intento per legem:
+          <lb ed="#P" n="68"/>tum denique, quia, licet poena sit malum 
+          quod<lb break="no" ed="#P" n="69"/>dam, est tantum secundum quid, et, ut est
+          <lb ed="#P" n="70"/>medium ad servandam legem, est maximum
+          <lb ed="#P" n="71"/>bonum : ergo est potius favor quam odium.
+          <lb ed="#P" n="72"/>Easedemque rationes fieri possunt de 
+          quacum<lb break="no" ed="#P" n="73"/>que ratione odii in lege considerabili.
+        </p>
+        <p xml:id="szdleg-b04844-d1e249">
+          <lb ed="#P" n="74"/>3. Secunda ratio dubitandi em eo quod omnis
+          <lb ed="#P" n="75"/>lex humana videtur odiosa. — In contrarium
+          <lb ed="#P" n="76"/>videri potest nullam esse humanam legem quae
+          <lb ed="#P" n="77"/>odiosa dici non possit ac debeat, eo modo quo
+          <lb ed="#P" n="78"/>talis denominatio potest in veram legem 
+          ca<lb break="no" ed="#P" n="79"/>dere. Lex enim non potest dici odiosa, quia
+          <lb ed="#P" n="80"/>per se sit odio digna, nec quia per se 
+          ha<lb break="no" ed="#P" n="81"/>beat effectum qui reddat hominem odio
+          <lb ed="#P" n="82"/>dignum, sic enim solum peccatum est per se
+          <lb ed="#P" n="83"/>odio dignum, et reddit peccatorem, ut talis
+          <lb ed="#P" n="84"/>est, odio dignum; lex autem nec peccatum
+          <lb ed="#P" n="85"/>est, nec ad peccatum inducit: non potest ergo
+          <lb ed="#P" n="86"/>hoc modo dici odiosa. Solum ergo dici potest
+          <lb ed="#P" n="87"/>odiosa, quatenus aliquod onus imponit, quod
+          <lb ed="#P" n="88"/>durum, ac grave merito reputatur; hoc autem
+          <lb ed="#P" n="89"/>modo omnis lex humana odiosa videri debet,
+          <lb ed="#P" n="90"/>quia addit novum conscientiae vinculum ultra
+          <lb ed="#P" n="91"/>omne vinculum divinae legis, quod grave onus
+          <lb ed="#P" n="92"/>reputatur, praesertim quia potest esse occasio
+          <lb ed="#P" n="93"/>culpae et aeternae mortis. Et confirmatur, quia
+          <lb ed="#P" n="94"/>si aliqua esset lex favorabilis, maxime 
+          privile<lb break="no" ed="#P" n="95"/>giativa, quia haec est quae magis directe et ex
+          <lb ed="#P" n="96"/>instituto favorem concedit; at privilegium,
+          <lb ed="#P" n="97"/>quatenus lex est, odiosum est, quia est 
+          onero<lb break="no" ed="#P" n="98"/>sum illis quos obligat per modum legis, et
+          <lb ed="#P" n="99"/>quatenus privilegium est censetur odiosum,
+          <lb ed="#P" n="100"/>quia derogat juri communi, et inducit 
+          singu<lb break="no" ed="#P" n="101"/>laritatem in eommunitate, quae odiosa esse
+          <lb ed="#P" n="102"/>solet, ut postea suo loco videbimus; ergo nulla
+          <lb ed="#P" n="103"/>est lex quae, quatenus est talis, simpliciter 
+          fa<lb break="no" ed="#P" n="104"/>vorabilis sit. Tandem hae rationes pro utraque
+          <lb ed="#P" n="105"/>parte factae videntur convincere omnem legem
+          <lb ed="#P" n="106"/>mixtam esse, et partim favorem, partim odium
+          <lb ed="#P" n="107"/>includere, quod satis est ut divisio non habeat
+          <pb ed="#P" n="416"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>locum, cum omnis lex sub utroque membro
+          <lb ed="#P" n="2"/>comprehendatur. Quod si dicatur in hac 
+          mix<lb break="no" ed="#P" n="3"/>tione posse ex alterutra parte esse excessum,
+          <lb ed="#P" n="4"/>et secundum excessum alterius partis illa 
+          mem<lb break="no" ed="#P" n="5"/>bra distingui , tunc difficillimum erit talem
+          <lb ed="#P" n="6"/>excessum expendere et declarare, vixque 
+          pote<lb break="no" ed="#P" n="7"/>runt applicari regulas quae de favoribus et
+          <lb ed="#P" n="8"/>odiis in jure traduntur.
+        </p>
+        <p xml:id="szdleg-b04844-d1e347">
+          <lb ed="#P" n="9"/>4. Prima sententia, es fine judicandum de
+          <lb ed="#P" n="10"/>lege.—In explicanda igitur distinctione illorum
+          <lb ed="#P" n="11"/>membrorum, variae sententiae referri possunt,
+          <lb ed="#P" n="12"/>de quibus videri potest Sarmient. lib. 1 Select.
+          <lb ed="#P" n="13"/>cap. 12. Prima est, ex fine legis judicandum
+          <lb ed="#P" n="14"/>esse an lex sit favorabilis vel odiosa. Nam si
+          <lb ed="#P" n="15"/>lex intendit favorem seu bonum aliquod 
+          con<lb break="no" ed="#P" n="16"/>ferre, favorabilis est, quidquid ex ea sequatur;
+          <lb ed="#P" n="17"/>si vero intendit inferre malum, seu onus 
+          im<lb break="no" ed="#P" n="18"/>ponere, erit odiosa, etiamsi favor aliquis 
+          se<lb break="no" ed="#P" n="19"/>quatur. Hac regula utuntur jurisperiti ; citatur
+          <lb ed="#P" n="20"/>Glos. in cap. Si propter, de Rescript., in 6;
+          <lb ed="#P" n="21"/>illa vero solum in verb. 7ntentionis, advertit
+          <lb ed="#P" n="22"/>in legibus ad intentionem scribentis 
+          recurren<lb break="no" ed="#P" n="23"/>dum esse. Citatur etiam Glos. verb. Alios, in
+          <lb ed="#P" n="24"/>cap. Sciant cuncti, de Elect., in 6, quatenus 
+          di<lb break="no" ed="#P" n="25"/>cit legem illius textus esse favorabilem, quam
+          <lb ed="#P" n="26"/>ibi Dominic. et alii sequuntur, et in simili
+          <lb ed="#P" n="27"/>Panormit. in cap. JVon dubium, de Sent. 
+          Ex<lb break="no" ed="#P" n="28"/>com., n. 3, ubi Felin., n. 2, idem sentit, quia
+          <lb ed="#P" n="29"/>in omni dispositione (inquit) attenditur quod
+          <lb ed="#P" n="30"/>principaliter agitur, 1. Si quis nec causam, ft.
+          <lb ed="#P" n="31"/>Si certum petatur. Clarius Panormit. in cap. 1
+          <lb ed="#P" n="32"/>de Locato, n. 10. Item Navar., cons. 11 de
+          <lb ed="#P" n="33"/>Constit. et cons. 31, alias 32 de Regul.; Bart.,
+          <lb ed="#P" n="34"/>Bald., Alexand. et alii, quos refert Tiraq. in
+          <lb ed="#P" n="35"/>Praefat. ad Retract., n. 56 et 65, et tract. 1 de
+          <lb ed="#P" n="36"/>Retract., S 30; Glos. 1, n. 5, ubi etiam 
+          non<lb break="no" ed="#P" n="37"/>nulla adducit jura ex quibus id colligi potest;
+          <lb ed="#P" n="38"/>et facit etiam cap. 2, S1 de Decim., in 6. 
+          Ra<lb break="no" ed="#P" n="39"/>tione item suaderi potest, tum quia finis est
+          <lb ed="#P" n="40"/>qui dat speciem actibus humanis, et 
+          conse<lb break="no" ed="#P" n="41"/>quenter etiam proprietates : ergo etiam in
+          <lb ed="#P" n="42"/>legibus finis est praecipue attendendus, ut 
+          ju<lb break="no" ed="#P" n="43"/>dicetur an lex sit favorabilis, vel odiosa; tum
+          <lb ed="#P" n="44"/>etiam quia id quod est per se, praefertur ei
+          <lb ed="#P" n="45"/>quod est per accidens; at lex intendens 
+          favo<lb break="no" ed="#P" n="46"/>rem per se favorabilis est: ergo simpliciter
+          <lb ed="#P" n="47"/>talis est, licet ex accidenti inferat gravamen.
+        </p>
+        <p xml:id="szdleg-b04844-d1e434">
+          <lb ed="#P" n="48"/>5. Verumtamen haec sententia, nisi aliquo
+          <lb ed="#P" n="49"/>modo limitetur aut explicetur, non potest 
+          sim<lb break="no" ed="#P" n="50"/>pliciter approbari. Primo, ob generalem 
+          ratio<lb break="no" ed="#P" n="51"/>nem, quod proprietas legis magis est spectata
+          <lb ed="#P" n="52"/>ex intrinseca materia, et quasi natura talis
+          <lb ed="#P" n="53"/>legis, quam ex intentione ferentis: quia talis
+          <lb ed="#P" n="54"/>intentio extrinseca est, et non potest mutare
+          <lb ed="#P" n="55"/>proprietatem intrinsece inhaerentem legi ex vi
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sui objecti, seu materiae : ergo si materia legis
+          <lb ed="#P" n="57"/>favorem continet, lex erit favorabilis, etiamsi
+          <lb ed="#P" n="58"/>legislator aliud intendat, et e contrario. Neque
+          <lb ed="#P" n="59"/>enim intentio legislatoris facere potest, ut
+          <lb ed="#P" n="60"/>quod suapte natura odiosum est sit favorabile,
+          <lb ed="#P" n="61"/>vel ut quod favorabile est sit odiosum, ut recte
+          <lb ed="#P" n="62"/>dicit Tiraq. in dicta praef., n. 67. Secundo,
+          <lb ed="#P" n="63"/>quia vel est sermo de intentione finis ultimi
+          <lb ed="#P" n="64"/>seu remoti, aut proximi; neutra autem sufficit ;
+          <lb ed="#P" n="65"/>ergo. De priori patet ex ratione dubitandi 
+          pro<lb break="no" ed="#P" n="66"/>posita, quia sic omnis lex est favorabilis, quia
+          <lb ed="#P" n="67"/>per omnem legem intenditur commune bonum,
+          <lb ed="#P" n="68"/>alias enim non erit justa ; commune autem
+          <lb ed="#P" n="69"/>bonum favorabile est. Item quia lex non potest
+          <lb ed="#P" n="70"/>esse ita odiosa, ut in odio sistat, nisi forte 
+          fe<lb break="no" ed="#P" n="71"/>ratur in odium alicujus vitii, quo per se et
+          <lb ed="#P" n="72"/>absolute dignum est, et ideo tale odium inter
+          <lb ed="#P" n="73"/>favores computandum est. Eo vel maxime
+          <lb ed="#P" n="74"/>quod per se refertur in amorem virtutis, et ita
+          <lb ed="#P" n="75"/>ex fine remoto favorabile est. Respectu vero
+          <lb ed="#P" n="76"/>personarum nunquam lex intendit malum,
+          <lb ed="#P" n="77"/>nisi propter majus bonum. Ergo si finis 
+          remo<lb break="no" ed="#P" n="78"/>tus sufficit ut lex sit favorabilis, omnis lex,
+          <lb ed="#P" n="79"/>quantumvis gravis vel poenalis, erit 
+          favorabi<lb break="no" ed="#P" n="80"/>lis, si justa sit: hoc autem est contra 
+          commu<lb break="no" ed="#P" n="81"/>nem omnium sensum, et contra principia 
+          ju<lb break="no" ed="#P" n="82"/>ris. Si autem sit sermo de fine proximo intento
+          <lb ed="#P" n="83"/>a legislatore, constat illum non satis esse, non
+          <lb ed="#P" n="84"/>solum quando ille finis est extrinsecus et 
+          acci<lb break="no" ed="#P" n="85"/>dentarius, ut probat prior ratio facta, sed etiam
+          <lb ed="#P" n="86"/>si videatur intrinsecus, quia potest aliunde
+          <lb ed="#P" n="87"/>vinci ac superari. Quod patet exemplis. Nam
+          <lb ed="#P" n="88"/>dispensans proxime intendit concedere 
+          favo<lb break="no" ed="#P" n="89"/>rem, et tamen dispensatio non censetur 
+          favo<lb break="no" ed="#P" n="90"/>rabilis, sed odiosa, ut infra videbimus; ergo
+          <lb ed="#P" n="91"/>idem esse poterit in lege. Et a contrario quando
+          <lb ed="#P" n="92"/>legislator infert gravamen, ut per illud obviet
+          <lb ed="#P" n="93"/>majori nocumento, dispositio ejus non 
+          cense<lb break="no" ed="#P" n="94"/>tur odiosa, sed favorabilis, juxta cap. 2, 82
+          <lb ed="#P" n="95"/>de Decim., in 6. Ex quo principio multi 
+          exis<lb break="no" ed="#P" n="96"/>timant dispositionem cap. S quis suadente,
+          <lb ed="#P" n="97"/>esse favorabilem, licet proxime facta sit ad
+          <lb ed="#P" n="98"/>gravem censuram imponendam ; ergo ex solo
+          <lb ed="#P" n="99"/>fine proximo legislatoris non potest sumi certa
+          <lb ed="#P" n="100"/>regula in hac materia.
+        </p>
+        <p xml:id="szdleg-b04844-d1e554">
+          <lb ed="#P" n="101"/>6. Ex intrinseca materia sumendam 
+          pro<lb break="no" ed="#P" n="102"/>prietatem, odiosa aut favorabilis. — Dici ergo
+          <lb ed="#P" n="103"/>potest leges favorabilem et odiosam 
+          distin<lb break="no" ed="#P" n="104"/>guendas esse ex materia , ita ut illa lex 
+          favo<lb break="no" ed="#P" n="105"/>rabilis sit quae favorem concedit , illa vero
+          <lb ed="#P" n="106"/>odiosa qnae poenam, velaliud simile gravamen
+          <lb ed="#P" n="107"/>infert. Quae regula erit certissima , quando
+          <lb ed="#P" n="108"/>materia legis talis est, ut vel purum favorem,
+          <lb ed="#P" n="109"/>vel purum gravamen contineat , non solum
+          <lb ed="#P" n="110"/>directe et per se, sed etiam indirecte seu per
+          <pb ed="#P" n="417"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quamdam consecutionem ; tunc enim ex 
+          in<lb break="no" ed="#P" n="2"/>trinseco fine lex talis est , et non habet unde
+          <lb ed="#P" n="3"/>contrariam denominationem accipiat. Nec
+          <lb ed="#P" n="4"/>vero repugnat dari hujusmodi leges. Nam 
+          im<lb break="no" ed="#P" n="5"/>primis saepe potest concedi favor , aut 
+          benefi<lb break="no" ed="#P" n="6"/>cium alicui fieri sine ullo illius gravamine, vel
+          <lb ed="#P" n="7"/>aliorum praejudicio, ut de nonnullis privilegiis
+          <lb ed="#P" n="8"/>infra dicemus ; tunc ergo erit lex et dispositio
+          <lb ed="#P" n="9"/>favorabilis ; idem ergo erit in quacumque lege
+          <lb ed="#P" n="10"/>communi habente similem conditionem. Sic
+          <lb ed="#P" n="11"/>enim per se valde probabile est omnem legem
+          <lb ed="#P" n="12"/>prohibentem aliquid per se malum, vel 
+          prae<lb break="no" ed="#P" n="13"/>cipientem aliquid honestum, non nimis grave
+          <lb ed="#P" n="14"/>aut onerosum, sed moderatum et communi
+          <lb ed="#P" n="15"/>modo vivendi hominum consentaneum, esse
+          <lb ed="#P" n="16"/>favorabilem , quia revera est magnum 
+          bene<lb break="no" ed="#P" n="17"/>ficium hominum, dum eos suaviter et 
+          effica<lb break="no" ed="#P" n="18"/>citer dirigit ad operandum bonum, et 
+          vitan<lb break="no" ed="#P" n="19"/>dum malum. Unde nec sola ratio obligationis,
+          <lb ed="#P" n="20"/>aut vinculi conscientiae, nec periculum reatus,
+          <lb ed="#P" n="21"/>quod ad praeceptum sequi videtur , sufficit ut
+          <lb ed="#P" n="22"/>censeatur lex non continere purum favorem ,
+          <lb ed="#P" n="23"/>sed mixtum, tum quia hoc commune est omni
+          <lb ed="#P" n="24"/>legi, et ideo non mutat rationes particularium
+          <lb ed="#P" n="25"/>legum ; tum etiam quia difficultas intrinseca
+          <lb ed="#P" n="26"/>ipsi virtuti, non impedit quominus virtus ipsa
+          <lb ed="#P" n="27"/>maximus favor sit : ergo eadem ratione lex,
+          <lb ed="#P" n="28"/>quae est regula virtutis quatenus vinculum
+          <lb ed="#P" n="29"/>imponit cum moderatione debita, gratia est et
+          <lb ed="#P" n="30"/>favor secundum rectam rationem spectata,
+          <lb ed="#P" n="31"/>licet inferiori portioni gravamen esse 
+          inter<lb break="no" ed="#P" n="32"/>dum appareat ; tum denique quia, si quid est
+          <lb ed="#P" n="33"/>periculi alicujus mali ob transgressionem legis,
+          <lb ed="#P" n="34"/>illud non nascitur ex ipsa lege, sed ex hominis
+          <lb ed="#P" n="35"/>imperfectione , et ideo non impedit quominus
+          <lb ed="#P" n="36"/>lex hujusmodi purum favorem contineat. 
+          Ma<lb break="no" ed="#P" n="37"/>gis potest dubitari de lege odiosa , quomodo
+          <lb ed="#P" n="38"/>possit purum odium continere , cum semper
+          <lb ed="#P" n="39"/>bonum intendat. Dicendum vero est ex parte
+          <lb ed="#P" n="40"/>materiae legis hoc non repugnare , etiamsi ex
+          <lb ed="#P" n="41"/>parte finis aliquid favorabile per omnem 
+          le<lb break="no" ed="#P" n="42"/>gem intendatur : et ita lex pure poenalis, seu
+          <lb ed="#P" n="43"/>quae solum fertur ad imponendam vel 
+          augen<lb break="no" ed="#P" n="44"/>dam poenam, potest dici simpliciter odiosa, et
+          <lb ed="#P" n="45"/>leges tributorum et aliae hujusmodi sub 
+          eo<lb break="no" ed="#P" n="46"/>dem ordine continebuntur.
+        </p>
+        <p xml:id="szdleg-b04844-d1e682">
+          <lb ed="#P" n="47"/>7. Difficultas vero specialis est, quando 
+          ma<lb break="no" ed="#P" n="48"/>teria legis uno respectu videtur favorabilis, et
+          <lb ed="#P" n="49"/>sub alio gravamen continet, ut saepius 
+          contin<lb break="no" ed="#P" n="50"/>git, quomodo de illa judicandum sit. Auctores
+          <lb ed="#P" n="51"/>enim in hoc etiam varie sentiunt ; quidam
+          <lb ed="#P" n="52"/>enim dicunt omnem legem continentem 
+          prae<lb break="no" ed="#P" n="53"/>judicium, vel gravamen alicujus, aut malum
+          <lb ed="#P" n="54"/>aliquod inferentem, simpliciter odiosam esse,
+          <lb ed="#P" n="55"/>etiamsi magnum favorem vel favorem aliunde
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>contineat. Ita sentit Tiraquel. in dict. praes.,
+          <lb ed="#P" n="57"/>n. 65, cum Joan. Andr. et aliis, in cap. ult. de
+          <lb ed="#P" n="58"/>Verb. signif., circa Glos., verb. Similibus ;
+          <lb ed="#P" n="59"/>qui dicunt , cum concurrunt favor et odium,
+          <lb ed="#P" n="60"/>dispositionem esse odiosam. Fundari potuit
+          <lb ed="#P" n="61"/>Tiraquel. in alio principio, quia existimat non
+          <lb ed="#P" n="62"/>posse eamdem dispositionem simul esse 
+          favo<lb break="no" ed="#P" n="63"/>rabilem et odiosam, etiam respectu 
+          diverso<lb break="no" ed="#P" n="64"/>rum, vel secundum diversas rationes; neque
+          <lb ed="#P" n="65"/>idem statutum posse esse partim favorabile,
+          <lb ed="#P" n="66"/>partim odiosum, tum quia non potest una et
+          <lb ed="#P" n="67"/>eadem res diverso jure censeri, l. Ewmn qui
+          <lb ed="#P" n="68"/>edes, ff. de Usucap.; tum etiam quia non 
+          po<lb break="no" ed="#P" n="69"/>test idem statutum extendi in favorem unius,
+          <lb ed="#P" n="70"/>quin vertatur in odium alterius, et e converso.
+          <lb ed="#P" n="71"/>Ex hoc ergo principio inferri potest, legem in
+          <lb ed="#P" n="72"/>qua simul concurrunt favor et odium, 
+          odio<lb break="no" ed="#P" n="73"/>sam censendam esse, quia non potest simul
+          <lb ed="#P" n="74"/>esse favorabilis et odiosa, nec etiam potest dici
+          <lb ed="#P" n="75"/>favorabilis omnino, quia bonum ex integra
+          <lb ed="#P" n="76"/>causa ; ergo erit odiosa, quia malum ex 
+          quo<lb break="no" ed="#P" n="77"/>cumque defectu, et odium habet rationem
+          <lb ed="#P" n="78"/>mali ; item, quia legem esse odiosam non 
+          in<lb break="no" ed="#P" n="79"/>cludit negationem omnis favoris, sed solam
+          <lb ed="#P" n="80"/>dicit impositionem alicujus odii, seu 
+          gravami<lb break="no" ed="#P" n="81"/>nis, quod verificatur simpliciter de tali lege ;
+          <lb ed="#P" n="82"/>est ergo simpliciter odiosa. Denique quia talis
+          <lb ed="#P" n="83"/>lex simpliciter restringenda est, ne odium 
+          ali<lb break="no" ed="#P" n="84"/>qua ex parte augeatur ; ergo est tantum
+          <lb ed="#P" n="85"/>odiosa.
+        </p>
+        <p xml:id="szdleg-b04844-d1e771">
+          <lb ed="#P" n="86"/>8. Alii vero existimant, ubi conjunguntur
+          <lb ed="#P" n="87"/>favor et odium in eadem lege vel statuto, 
+          ta<lb break="no" ed="#P" n="88"/>lem dispositionem favorabilem omnino 
+          cen<lb break="no" ed="#P" n="89"/>sendam esse. Fundari potest, quia ubi 
+          con<lb break="no" ed="#P" n="90"/>currunt favor et odium, favor praevalet, et
+          <lb ed="#P" n="91"/>praefertur odio ; ergo constituit dispositionem
+          <lb ed="#P" n="92"/>simpliciter favorabilem. Antecedens sumitur
+          <lb ed="#P" n="93"/>ex l. 2, c. De in jus vocando, ut notat et 
+          se<lb break="no" ed="#P" n="94"/>quitur Panormit. in cap. 7n litteris, de Restit.
+          <lb ed="#P" n="95"/>spol., n. 34; Anchar. et alii, quos refert 
+          Ti<lb break="no" ed="#P" n="96"/>raq. supra, n. 66. Et confirmatur, quia ubi
+          <lb ed="#P" n="97"/>concurrunt favor et odium, favor, quoad fieri
+          <lb ed="#P" n="98"/>possit, ampliandus est, et odium restringendum
+          <lb ed="#P" n="99"/>est quantum necesse fuerit ut favor 
+          amplie<lb break="no" ed="#P" n="100"/>tur ; ergo talis dispositio simpliciter judicanda
+          <lb ed="#P" n="101"/>est favorabilis.
+        </p>
+        <p xml:id="szdleg-b04844-d1e809">
+          <lb ed="#P" n="102"/>9. Non repuguare legem secundum diversos
+          <lb ed="#P" n="103"/>respectus esse favorabilem et odiosam : sunt
+          <lb ed="#P" n="104"/>enim ut alie relutiones oppositae.—bico tamen
+          <lb ed="#P" n="105"/>imprimis non repugnare eamdem legem 
+          di<lb break="no" ed="#P" n="106"/>versis respectibus esse favorabilem, vel 
+          odio<lb break="no" ed="#P" n="107"/>sam. Ita sentiunt communiter doctores, et
+          <lb ed="#P" n="108"/>expresse Gloss. in dicta l. 2, c. De in jus 
+          vo<lb break="no" ed="#P" n="109"/>cando, verb. Litteris, quam ibi Palud., 
+          Cas<lb break="no" ed="#P" n="110"/>trens. et alii sequuntur. Idem sentit Innoc. in
+          <pb ed="#P" n="418"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cap. Quod dilectio, de Consang. et affin., et ibi
+          <lb ed="#P" n="2"/>Panorm., num. 7, et communiter Summistae,
+          <lb ed="#P" n="3"/>verbo Prirvilegium ;potestque inductione 
+          osten<lb break="no" ed="#P" n="4"/>di in privilegio, dispensatione, lege poenali, et
+          <lb ed="#P" n="5"/>similibus, quae respectu diversorum favorabilia
+          <lb ed="#P" n="6"/>sunt et odiosa. Ratione item patet, quia in hoc
+          <lb ed="#P" n="7"/>nulla ratio repugnantiae ostendi potest ; nam
+          <lb ed="#P" n="8"/>relationes quasi oppositae possunt eidem rei
+          <lb ed="#P" n="9"/>convenire respectu diversorum, ut 
+          similitudi<lb break="no" ed="#P" n="10"/>nis ac dissimilitudinis, aequalis et inaequalis,
+          <lb ed="#P" n="11"/>majoris ac minoris: sed ita comparantur haec
+          <lb ed="#P" n="12"/>duo; nam favor et odium respectiva sunt, 
+          fa<lb break="no" ed="#P" n="13"/>vor enim alicujus est favor, et odium 
+          simili<lb break="no" ed="#P" n="14"/>ter; ergo nihil repugnat eamdem 
+          dispositio<lb break="no" ed="#P" n="15"/>nem, respectu diversorum, uni esse 
+          favorabi<lb break="no" ed="#P" n="16"/>lem, alteri odiosam.
+        </p>
+        <p xml:id="szdleg-b04844-d1e870">
+          <lb ed="#P" n="17"/>10. Dices, verum esse hoc non repugnare,
+          <lb ed="#P" n="18"/>illos tamen duos respectus ita esse inter se
+          <lb ed="#P" n="19"/>connexos, ut unus ex alio sequatur, ideoque
+          <lb ed="#P" n="20"/>non posse secundum unum ampliari legem,
+          <lb ed="#P" n="21"/>quin secundum alium etiam amplietur, neque
+          <lb ed="#P" n="22"/>e converso secundum unum restringi, quin
+          <lb ed="#P" n="23"/>secundum alium restringatur ; et idcirco 
+          ne<lb break="no" ed="#P" n="24"/>cessarium esse de tali lege judicare tanquam
+          <lb ed="#P" n="25"/>de favorabili absolute, vel odiosa absolute, ita
+          <lb ed="#P" n="26"/>ut vel nulla ratio odii habeatur propter 
+          favo<lb break="no" ed="#P" n="27"/>rem, vel nulla ratio favoris propter vitandum
+          <lb ed="#P" n="28"/>seu minuendum odium. Exemplum optimum
+          <lb ed="#P" n="29"/>est in lege tributum imponente, quae odiosa
+          <lb ed="#P" n="30"/>est ei cui tributum imponitur, favorabilis 
+          au<lb break="no" ed="#P" n="31"/>tem ei pro quo imponitur, vel rei propter quam
+          <lb ed="#P" n="32"/>imponitur, nec potest uno respectu augeri, et
+          <lb ed="#P" n="33"/>minui secundum alium; et ideo necessarium
+          <lb ed="#P" n="34"/>est ut alter respectus vincat, secundum quem
+          <lb ed="#P" n="35"/>lex judicetur simpliciter favorabilis, vel 
+          sim<lb break="no" ed="#P" n="36"/>pliciter odiosa.
+        </p>
+        <p xml:id="szdleg-b04844-d1e916">
+          <lb ed="#P" n="37"/>11. Respondeo concedendo interdum illos
+          <lb ed="#P" n="38"/>duos respectus habere inter se illam 
+          connexio<lb break="no" ed="#P" n="39"/>nem, et tunc argumentum recte procedere,
+          <lb ed="#P" n="40"/>quando favor unius augeri non potest sine
+          <lb ed="#P" n="41"/>damno alterius, neque e converso potest 
+          in<lb break="no" ed="#P" n="42"/>commodum unius temperari, quin alterius
+          <lb ed="#P" n="43"/>commodum cesset, aut minuatur. Sic in motu
+          <lb ed="#P" n="44"/>physico non potest quis lentius aut velocius 
+          ac<lb break="no" ed="#P" n="45"/>cedere ad unum terminum, quin cum eadem
+          <lb ed="#P" n="46"/>proportione recedat ab opposito, nec potest
+          <lb ed="#P" n="47"/>homo plus donare ex propria pecunia, quin
+          <lb ed="#P" n="48"/>pauperior fiat, etc. Nihilominus tamen non
+          <lb ed="#P" n="49"/>semper est necessaria illa connexio inter 
+          favo<lb break="no" ed="#P" n="50"/>rem et odium: saepe enim potest fieri vel 
+          au<lb break="no" ed="#P" n="51"/>geri favor uni sine praejudicio aliorum, et e
+          <lb ed="#P" n="52"/>converso unus potest gravari vel puniri 
+          pro<lb break="no" ed="#P" n="53"/>pter commune bonum sine speciali favore 
+          alio<lb break="no" ed="#P" n="54"/>rum, qui inde resultet. Eademque lex seu 
+          re<lb break="no" ed="#P" n="55"/>gula interdum ampliatur respectu unius ob
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>favorem, et restringitur in odium alterius 
+          ra<lb break="no" ed="#P" n="57"/>tione boni communis, ut est optimum 
+          exem<lb break="no" ed="#P" n="58"/>plum in l. Qui exceptionem, ff. de Condict. 
+          in<lb break="no" ed="#P" n="59"/>debiti. Quia potest fieri alicui beneficium sine
+          <lb ed="#P" n="60"/>diminutione bonorum alterius, et e converso.
+          <lb ed="#P" n="61"/>Item favor potest consistere in tempore, vel in
+          <lb ed="#P" n="62"/>modo, vel in honore, aut aliis rebus, quae non
+          <lb ed="#P" n="63"/>subtrahuntur uni, ut dentur alteri. Denique
+          <lb ed="#P" n="64"/>hoc potest inductione ostendi in privilegiis, in
+          <lb ed="#P" n="65"/>dispensationibus, in poenis, et aliis similibus.
+        </p>
+        <p xml:id="szdleg-b04844-d1e984">
+          <lb ed="#P" n="66"/>12. Favorem aut odium praeferenda pensatis
+          <lb ed="#P" n="67"/>circumstantiis materie , intentionis, et boni
+          <lb ed="#P" n="68"/>communis mavimne. —Deinde addo, quando lex
+          <lb ed="#P" n="69"/>diversis respectibus est favorabilis et odiosa,
+          <lb ed="#P" n="70"/>non semper favorem odio, aut odium favori
+          <lb ed="#P" n="71"/>esse praeferendum, sed prudenter pensanda
+          <lb ed="#P" n="72"/>esse omnia, scilicet, intentionem legislatoris,
+          <lb ed="#P" n="73"/>rationem boni communis, et alias 
+          circumstan<lb break="no" ed="#P" n="74"/>tias materiae et verborum, ut illud praeferatur
+          <lb ed="#P" n="75"/>quod videtur esse gravius et honestati ac 
+          jus<lb break="no" ed="#P" n="76"/>titiae legis magis consentaneum. Haec assertio,
+          <lb ed="#P" n="77"/>quatenus media est inter duas sententias 
+          alle<lb break="no" ed="#P" n="78"/>gatas, potest utriusque motivis suaderi, et per
+          <lb ed="#P" n="79"/>se quidem spectata valde probabilis est. Quia
+          <lb ed="#P" n="80"/>favor magis per se intendi potest; odium vero
+          <lb ed="#P" n="81"/>seu gravamen minime, sed propter instantem
+          <lb ed="#P" n="82"/>necessitatem. Et ideo per se loquendo, ac 
+          cae<lb break="no" ed="#P" n="83"/>teris paribus, favor est praeferendus; 
+          nihilo<lb break="no" ed="#P" n="84"/>minus tamen tanta esse potest necessitas 
+          im<lb break="no" ed="#P" n="85"/>ponendi gravamen, ut imponendum sit, vel
+          <lb ed="#P" n="86"/>augendum propter majus bonum. Atque sic
+          <lb ed="#P" n="87"/>sentiunt, qui censent canonem S quis 
+          sua<lb break="no" ed="#P" n="88"/>dente, esse legem favorabilem, et esse 
+          exten<lb break="no" ed="#P" n="89"/>dendum, etiamsi censura extendi consequenter
+          <lb ed="#P" n="90"/>videatur, quia est favor religionis, et requirit
+          <lb ed="#P" n="91"/>illum rigorem, ut stabilis perseveret. Similiter
+          <lb ed="#P" n="92"/>in lege imponente tributum potest esse causa
+          <lb ed="#P" n="93"/>tam pia et necessaria, ut non habeatur ratio
+          <lb ed="#P" n="94"/>odii seu gravaminis, quominus lex simpliciter
+          <lb ed="#P" n="95"/>favorabilis et extendenda sit. E contrario vero
+          <lb ed="#P" n="96"/>lex excludens feminas ab haereditate, licet 
+          in<lb break="no" ed="#P" n="97"/>tendat favorem masculorum, odiosa 
+          simplici<lb break="no" ed="#P" n="98"/>ter est, et coarctanda, ut est communis doctrina
+          <lb ed="#P" n="99"/>juristarum, ut videre licet in Tiraq. supradicta
+          <lb ed="#P" n="100"/>Praefat., n. 64, et aliis locis, quae ipse allegat,
+          <lb ed="#P" n="101"/>quia favor ille privatus est, et non admodum
+          <lb ed="#P" n="102"/>necessarius, neque ad pacem et honestatem
+          <lb ed="#P" n="103"/>morum multum utilis, et ad hunc modum est
+          <lb ed="#P" n="104"/>de aliis judicandum.
+        </p>
+        <p xml:id="szdleg-b04844-d1e1071">
+          <lb ed="#P" n="105"/>13. In dubio praeferendum favorem, et legem
+          <lb ed="#P" n="106"/>ampliandam, quia per se leu intendit favorem.
+          <lb ed="#P" n="107"/>— Unde tandem assero, ubi res fuerit dubia,
+          <lb ed="#P" n="108"/>quia favor et odium videntur quamdam 
+          aequa<lb break="no" ed="#P" n="109"/>litatem habere, vel quia ad invicem se habent,
+          <lb ed="#P" n="110"/>sicut excedens et excessum, tunc favorem esse
+          <pb ed="#P" n="419"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>praeferendum, et ad ampliandam legem, esse
+          <lb ed="#P" n="2"/>judicandam simpliciter favorabilem. Tta 
+          sumi<lb break="no" ed="#P" n="3"/>tur ex Gloss. in lib. 2, C. de His qui non pos.
+          <lb ed="#P" n="4"/>ad libert. perven., verb. interrogaverit , ubi
+          <lb ed="#P" n="5"/>etiam Bald. et alii, idem Bald. in l. penult.,
+          <lb ed="#P" n="6"/>C. de Pactis, circa finem, ubi etiam Roman. et
+          <lb ed="#P" n="7"/>Alex., lib. 7 Consilior., cons. 197. Et ratio est
+          <lb ed="#P" n="8"/>facilis ex dictis, quia lex per se et quasi sponte
+          <lb ed="#P" n="9"/>sua inducit favorem, odium vero quasi ex 
+          ac<lb break="no" ed="#P" n="10"/>cidenti, et coacte ob necessitatem ; id autem
+          <lb ed="#P" n="11"/>quod est per se praefertur ei quod est 
+          acciden<lb break="no" ed="#P" n="12"/>tarium, caeteris paribus, ac subinde etiam in
+          <lb ed="#P" n="13"/>dubio. Fxplicatur hoc amplius, quia odium
+          <lb ed="#P" n="14"/>non intenditur, nisi ut tandem cedat in aliquod
+          <lb ed="#P" n="15"/>commodum, quod vel sit favor, vel ut favor
+          <lb ed="#P" n="16"/>reputetur; favor autem non est propter odium;
+          <lb ed="#P" n="17"/>imo ex genere suo est per se; ergo magis 
+          in<lb break="no" ed="#P" n="18"/>tenditur favor ex suo genere. Nam propter
+          <lb ed="#P" n="19"/>quod unumquodque tale, et illud magis; ergo
+          <lb ed="#P" n="20"/>in dubio, ac caeteris paribus favor praefertur.
+          <lb ed="#P" n="21"/>Et ita facile conciliantur sententiae adductae,
+          <lb ed="#P" n="22"/>et solutaa manent omnes rationes dubitandi,
+          <lb ed="#P" n="23"/>et facile potest lector intelligere, et ideo non
+          <lb ed="#P" n="24"/>oportet circa singulas immorari.
+        </p>
+        <p xml:id="szdleg-b04844-d1e1143">
+          <lb ed="#P" n="25"/>14. Ex his resolvitur quod secundo loco 
+          su<lb break="no" ed="#P" n="26"/>pra posui de sufficientia praedictae partitionis.
+          <lb ed="#P" n="27"/>Posset enim facile dici non oportere, ut omnis
+          <lb ed="#P" n="28"/>lex aut favorabilis sit, aut odiosa. Nam potest
+          <lb ed="#P" n="29"/>aliqua esse mixta secundum diversos 
+          respec<lb break="no" ed="#P" n="30"/>tus, et aliqua forte esse potest neutra, ita ut
+          <lb ed="#P" n="31"/>nec odium contineat. nec favorem, ut 
+          viden<lb break="no" ed="#P" n="32"/>tur esse praecepta morum generaliter 
+          proposi<lb break="no" ed="#P" n="33"/>ta propter commune bonum. Melius tamen
+          <lb ed="#P" n="34"/>dicitur divisionem esse adaequatam, quia lex,
+          <lb ed="#P" n="35"/>quae videtur mixta, ab ea parte denominatur,
+          <lb ed="#P" n="36"/>quae in ea praevalet : vel si est dubium, aut
+          <lb ed="#P" n="37"/>eequalitas, talis lex censetur absolute 
+          favorabi<lb break="no" ed="#P" n="38"/>lis, ut declaratum est. Quod si lex sit quae
+          <lb ed="#P" n="39"/>nulli imponit speciale gravamen, nec ita est
+          <lb ed="#P" n="40"/>gravis et onerosa, ut propterea odiosa 
+          censea<lb break="no" ed="#P" n="41"/>tur, eo ipso quod est justa et propria 
+          commu<lb break="no" ed="#P" n="42"/>ni bono, censetur favorabilis, et amplianda
+          <lb ed="#P" n="43"/>intra limites favoris, et ita relinquitur partitio
+          <lb ed="#P" n="44"/>sufficiens et adaequata.
+        </p>
+        <p xml:id="szdleg-b04844-d1e1190">
+          <lb ed="#P" n="45"/>15. Quatuor esse species precipuas legum
+          <lb ed="#P" n="46"/>odiosarum. —Tandem, quod ad ultimum 
+          punc<lb break="no" ed="#P" n="47"/>tum attinet, plures numerari solent modi, aut
+          <lb ed="#P" n="48"/>quasi species legum odiosarum : tres autem
+          <lb ed="#P" n="49"/>vel quatuor videntur esse praecipuae. Videlicet
+          <lb ed="#P" n="50"/>lex poenalis, lex tributum aut onus imponens,
+          <lb ed="#P" n="51"/>dex irritans factum, quod prohibet directe, vel
+          <lb ed="#P" n="52"/>indirecte seu consequenter, lex exorbitans a
+          <lb ed="#P" n="53"/>jure antiquo, vel a communi jure, aut illi 
+          de<lb break="no" ed="#P" n="54"/>rogans, vel limitans, aut corrigens illud, eta
+          <lb ed="#P" n="55"/>fortiori lex posterior priorem abrogans ; et de
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>his omnibus in praesenti libro dicemus, 
+          quate<lb break="no" ed="#P" n="57"/>nus peculiares proprietates et effectus habent,
+          <lb ed="#P" n="58"/>quos explicare necesse est. Aliae vero leges
+          <lb ed="#P" n="59"/>omnes, quae hujusmodi non sunt, inter 
+          favo<lb break="no" ed="#P" n="60"/>rabiles computantur. Verumtamen ex vi 
+          hu<lb break="no" ed="#P" n="61"/>jus negationis non participant specialem 
+          ratio<lb break="no" ed="#P" n="62"/>nem , quae propria consideratione indigeat :
+          <lb ed="#P" n="63"/>tantum ergo illae, quae privilegii rationem 
+          ha<lb break="no" ed="#P" n="64"/>bent specialem , indigent consideratione , et
+          <lb ed="#P" n="65"/>ideo de illis dicemus in libro sequenti.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

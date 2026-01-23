@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prooemium</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Prooemium</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="412"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-b04138"><!-- deleg-l5prooem -->
+        <head xml:id="szdleg-b04138-Hd1e101">Prooemium</head>
+        <p xml:id="szdleg-b04138-d1e103">
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="19"/>LIBER QUINTUS.
+          <lb ed="#P" n="20"/>DE
+          <lb ed="#P" n="21"/>VARIETATE LEGUM HUMANARUM
+          <lb ed="#P" n="22"/>ET PRAESERTIM DE ODIOSIS.
+        </p>
+        <p xml:id="szdleg-b04138-d1e116">
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="23"/>Diximus hactenus de lege humana in genere,
+          <lb ed="#P" n="24"/>tam civili quam canonica : quia vero in 
+          utro<lb break="no" ed="#P" n="25"/>que ordine aliquae sunt, quae secundum suas
+          <lb ed="#P" n="26"/>peculiares rationes, vel proprietates, speciali
+          <lb ed="#P" n="27"/>etiam declaratione indigent, quia proprias 
+          ha<lb break="no" ed="#P" n="28"/>bent difficultates ; idcirco operae pretium duxi
+          <lb ed="#P" n="29"/>in hoc libro, et duobus sequentibus de illis in
+          <lb ed="#P" n="30"/>particulari dicere. Doctrina tamen illorum
+          <lb ed="#P" n="31"/>communis erit civilibus et canonicis legibus,
+          <lb ed="#P" n="32"/>quia in his rationibus fere uniformiter 
+          conve<lb break="no" ed="#P" n="33"/>niunt; quod si aliquid peculiare interdum 
+          oc<lb break="no" ed="#P" n="34"/>currit in aliquo ordine utriusque legis, facile
+          <lb ed="#P" n="35"/>poterit per occasionem adnotari. Quoniam vero
+          <lb ed="#P" n="36"/>tam leges civiles quam canonica in plura
+          <lb ed="#P" n="37"/>membra solent dividi, quae majori ex parte
+          <lb ed="#P" n="38"/>solo nomine, vel ad summum accidentali et
+          <lb ed="#P" n="39"/>materiali differentia quae ad doctrinam 
+          mo<lb break="no" ed="#P" n="40"/>ralem nihil confert, distinguuntur, idcirco in
+          <lb ed="#P" n="41"/>hoc initio partitiones illas, et varias 
+          appella<lb break="no" ed="#P" n="42"/>tiones legum utriusque ordinis prae oculis 
+          po<lb break="no" ed="#P" n="43"/>nere institui, et ex eis illas eligere, de quibus
+          <lb ed="#P" n="44"/>in hoc et duobus sequentibus libris dicendum
+          <lb ed="#P" n="45"/>est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

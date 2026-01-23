@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 21</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 21</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="511"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-b29248"><!-- deleg-l5c21 -->
+        <head xml:id="szdleg-b29248-Hd1e101">Caput 21</head>
+        <head xml:id="szdleg-b29248-Hd1e103" type="question-title">Quibus modis impediri possit irritatio actus quem lex precipit pro infecto haberi</head>
+        <p xml:id="szdleg-b29248-d1e106">
+          <lb ed="#P" n="16"/>CAPUT XXI.
+          <lb ed="#P" n="17"/>QUIBUS MODIS IMPEDIRI POSSIT IRRITATIO ACTUS
+          <lb ed="#P" n="18"/>QUEM LEX PRECIPIT PRO INFECTO HABERI.
+        </p>
+        <p xml:id="szdleg-b29248-d1e115">
+          <lb ed="#P" n="19"/>1. Duobus modis fit irritus actus, per legem
+          <lb ed="#P" n="20"/>vnmediate vel per sententiam judicis.—buobus
+          <lb ed="#P" n="21"/>modis potest actus fieri irritus per legem:
+          <lb ed="#P" n="22"/>uno modo, mediante sententia judicis, vel 
+          con<lb break="no" ed="#P" n="23"/>demnatoria, vel saltem declaratoria criminis;
+          <lb ed="#P" n="24"/>alio modo, immediate per ipsammet legem
+          <lb ed="#P" n="25"/>statim ac fit seu intentatur actus. In quibus
+          <lb ed="#P" n="26"/>modis, manifestum est difficilius esse impedire
+          <lb ed="#P" n="27"/>irritationem solius legis, quam illam quae 
+          re<lb break="no" ed="#P" n="28"/>quirit sententiam judicis, quia facilius est 
+          im<lb break="no" ed="#P" n="29"/>pedire judicem ne sententiam proferat, quam
+          <lb ed="#P" n="30"/>legem ne operetur, et ideo hic dicemus de 
+          ir<lb break="no" ed="#P" n="31"/>ritatione per judicem inducenda, et in sequenti
+          <lb ed="#P" n="32"/>de altera. Et quamvis dupliciter possit irritari
+          <lb ed="#P" n="33"/>actus per sententiam judicis, scilicet, vel per
+          <lb ed="#P" n="34"/>sententiam condemnatoriam, et hominis 
+          exe<lb break="no" ed="#P" n="35"/>cutionem, vel per declaratoriam tantum, qua
+          <lb ed="#P" n="36"/>posita statim lex operatur, inter quos modos
+          <lb ed="#P" n="37"/>est magna differentia, ut infra videbimus; 
+          ta<lb break="no" ed="#P" n="38"/>men in praesenti non multum interest, quia
+          <lb ed="#P" n="39"/>satis nunc est quod actus non sit irritus ante
+          <lb ed="#P" n="40"/>sententiam ; quod si aliquid speciale occurrerit,
+          <lb ed="#P" n="41"/>adnotabitur.
+        </p>
+        <p xml:id="szdleg-b29248-d1e167">
+          <lb ed="#P" n="42"/>2. Regula generalis.—hegula ergo 
+          genera<lb break="no" ed="#P" n="43"/>lis sit: quoties lex irritat actum dependenter
+          <lb ed="#P" n="44"/>a sententia judicis, licet actus a principio 
+          irri<lb break="no" ed="#P" n="45"/>tabilis sit ratione legis, ut per se constat, 
+          ni<lb break="no" ed="#P" n="46"/>hilominus ejus irritatio multis modis impediri
+          <lb ed="#P" n="47"/>potest ; et dum non irritatur actus, permanet
+          <lb ed="#P" n="48"/>validus, sive juste sive injuste irritatio 
+          impe<lb break="no" ed="#P" n="49"/>diatur; utroque enim modo id contingere 
+          po<lb break="no" ed="#P" n="50"/>test. Primo enim impeditur sine injustitia, si
+          <lb ed="#P" n="51"/>actus sit occultus, ita ut in judicio probari non
+          <lb ed="#P" n="52"/>possit, quia ex vi talis legis nemo tenetur actum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>suum irritare, vel contractum dissolvendo, vel
+          <lb ed="#P" n="54"/>spoliando se rebus acceptis, ut capite 
+          praece<lb break="no" ed="#P" n="55"/>denti dictum est. Et ideo nihil peccat qui 
+          ta<lb break="no" ed="#P" n="56"/>lem actum cccultum tanquam omnino firmum
+          <lb ed="#P" n="57"/>et validum perpetuo conservat, quia revera
+          <lb ed="#P" n="58"/>talis est quamdiu a judice non irritatur. Neque
+          <lb ed="#P" n="59"/>etiam peccat etiamsi actum occultum retineat
+          <lb ed="#P" n="60"/>ne irritetur, quia ex hoc capite non violatur
+          <lb ed="#P" n="61"/>lex, nec alicui fit injuria; cavendum est autem
+          <lb ed="#P" n="62"/>ne in ipsomet actu aliqua commissa sit, nam
+          <lb ed="#P" n="63"/>illa rescindenda est. Ut, licet venditio rei ultra
+          <lb ed="#P" n="64"/>dimidiam justi pretii non sit irrita, sed 
+          rescin<lb break="no" ed="#P" n="65"/>denda, licet non rescindatur de facto, quia est
+          <lb ed="#P" n="66"/>occulta, tenetur venditor in conscientia, et
+          <lb ed="#P" n="67"/>absque ulla coactione judicis, restituere 
+          par<lb break="no" ed="#P" n="68"/>tem illam pretii in qua excessit justitiae 
+          aequi<lb break="no" ed="#P" n="69"/>tatem, et omnia damna quae ob eam causam,
+          <lb ed="#P" n="70"/>vel propter dilationem restitutionis iniquam
+          <lb ed="#P" n="71"/>emptor passus est. Et e converso si emptor fuit
+          <lb ed="#P" n="72"/>injustus in parvitate pretii, tenebitur supplere
+          <lb ed="#P" n="73"/>quod abstulit, et damna quae ex illa 
+          diminu<lb break="no" ed="#P" n="74"/>tione alteri secuta sunt; nihilominus tamen
+          <lb ed="#P" n="75"/>potest rem emptam retinere, et fructus ejus
+          <lb ed="#P" n="76"/>similiter, quia cum actus fuerit validus, factus
+          <lb ed="#P" n="77"/>est dominus rei emptae, cum sola obligatione
+          <lb ed="#P" n="78"/>resarciendi injuriam.
+        </p>
+        <p xml:id="szdleg-b29248-d1e253">
+          <lb ed="#P" n="79"/>3. Secundo, potest haec irritatio actus (
+          etiam<lb break="no" ed="#P" n="80"/>si publicus seu probabilis sit) sine injustitia
+          <lb ed="#P" n="81"/>impediri, aut ex consensu partium, quia 
+          neu<lb break="no" ed="#P" n="82"/>tra vult actum rescindere, aut quia illa pars
+          <lb ed="#P" n="83"/>cujus interest non vult litem movere, nec 
+          res<lb break="no" ed="#P" n="84"/>cissionem intentare. Tunc enim nihil agitur
+          <lb ed="#P" n="85"/>contra legem, cum ipsa non imperet partibus
+          <lb ed="#P" n="86"/>ut actum rescindant, nec etiam sibi faciunt
+          <lb ed="#P" n="87"/>injuriam, vel quando ex mutuo consensu 
+          ac<lb break="no" ed="#P" n="88"/>tum conservant , quia volenti et consentienti
+          <lb ed="#P" n="89"/>non fit injuria, vel quando is qui habet jus,
+          <lb ed="#P" n="90"/>non intentat actionem, quia ipse potest cedere
+          <lb ed="#P" n="91"/>juri suo, et alter non obligatur ad irritationem
+          <lb ed="#P" n="92"/>procurandam. Semper tamen tenebitur ad 
+          re<lb break="no" ed="#P" n="93"/>compensationem faciendam si injuriam 
+          intu<lb break="no" ed="#P" n="94"/>Iit, juxta proxime dicta in praecedenti puncto.
+          <lb ed="#P" n="95"/>Atque hinc etiam fit ut possit haec irritatio 
+          im<lb break="no" ed="#P" n="96"/>pediri per legitimam praescriptionem adversus
+          <lb ed="#P" n="97"/>actionem, seu actorem qui fuit negligens in
+          <lb ed="#P" n="98"/>petenda irritatione : nam si contra illum 
+          prae<lb break="no" ed="#P" n="99"/>scriptum sit, consequenter est omnino firmatus
+          <lb ed="#P" n="100"/>actus, et irritatio exclusa, quia haec non potest
+          <lb ed="#P" n="101"/>fieri nisi mediante actione, et actio fuit per
+          <lb ed="#P" n="102"/>praescriptionem exclusa. Quod vero tempus
+          <lb ed="#P" n="103"/>ad praescribendam actionem suffhiciat, non est
+          <lb ed="#P" n="104"/>hujus loci exponere. Vide Molin. tract. 2 de
+          <lb ed="#P" n="105"/>Just., disp. 71.
+        </p>
+        <p xml:id="szdleg-b29248-d1e314">
+          <lb ed="#P" n="106"/>4. Tertio, potest irritatio haec impediri, licet
+          <lb ed="#P" n="107"/>actus sit publicus et probabilis, ad judicem
+          <pb ed="#P" n="512"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>delatus ut illum irritet, quia judex cum effectu
+          <lb ed="#P" n="2"/>illum non irritat, seu sententiam non profert ;
+          <lb ed="#P" n="3"/>nam, sive jure, sive injuria id facere omittat,
+          <lb ed="#P" n="4"/>quamdiu cum effectu actum non irritat, ille
+          <lb ed="#P" n="5"/>valorem suum retinet cum omnibus effectibus
+          <lb ed="#P" n="6"/>qui ab illo nascuntur. Probatur, quia si 
+          omit<lb break="no" ed="#P" n="7"/>tatur irritatio sine injustitia alicujus , tunc
+          <lb ed="#P" n="8"/>manet res in eodem statu in quo antea erat,
+          <lb ed="#P" n="9"/>et nulla ratio novae obligationis intervenit ; si
+          <lb ed="#P" n="10"/>vero irritatio injuste denegata est, tenebitur
+          <lb ed="#P" n="11"/>quidem ad recompensandum damnum qui 
+          in<lb break="no" ed="#P" n="12"/>juriam intulit, sive ille fuerit judex, injuste
+          <lb ed="#P" n="13"/>judicando contra allegata et probata, sive 
+          fue<lb break="no" ed="#P" n="14"/>rit falsus testis, sive alia tertia persona injuste
+          <lb ed="#P" n="15"/>cooperando, sive ipsemet reus injuste se 
+          defen<lb break="no" ed="#P" n="16"/>dendo; nihilominus tamen actus semper 
+          con<lb break="no" ed="#P" n="17"/>servabitur validus, et effectus ejus, scilicet,
+          <lb ed="#P" n="18"/>dominium acquisitum, vel quid simile, semper
+          <lb ed="#P" n="19"/>permanebit, quamdiu cum effectu actus non
+          <lb ed="#P" n="20"/>irritatur. Unde etiam fit ut, si lex non irritet
+          <lb ed="#P" n="21"/>ipso facto, sed solum praecipiat irritari actum,
+          <lb ed="#P" n="22"/>tunc solum irritetur tempore latae sententiae
+          <lb ed="#P" n="23"/>condemnatoriae. Unde si contingat actum 
+          res<lb break="no" ed="#P" n="24"/>cindi aliquo tempore postquam factus est, non
+          <lb ed="#P" n="25"/>retrotrahetur rescissio ad initium actus, sed
+          <lb ed="#P" n="26"/>solum tunc incipiet, cum fit, quia antea actus
+          <lb ed="#P" n="27"/>fuit validus, et fructus, verbi gratia, illo 
+          tem<lb break="no" ed="#P" n="28"/>pore accepti ex re acquisita per talem 
+          contrac<lb break="no" ed="#P" n="29"/>tum juste accepti sunt, et cum absoluto et
+          <lb ed="#P" n="30"/>perfecto illorum dominio. Tantumque manere
+          <lb ed="#P" n="31"/>poterit obligatio recompensandi damna, si quae
+          <lb ed="#P" n="32"/>alteri injuste illata fuere, vel in actu ipso in
+          <lb ed="#P" n="33"/>principio, vel in mora faciendi talem 
+          recom<lb break="no" ed="#P" n="34"/>pensationem, ut dictum est. Quae omnia ex
+          <lb ed="#P" n="35"/>principiis justitiae necessario sequuntur, et non
+          <lb ed="#P" n="36"/>possunt habere controversiam, et ideo longiori
+          <lb ed="#P" n="37"/>probatione aut disputatione non indigent. 
+          Se<lb break="no" ed="#P" n="38"/>cus vero erit si lex irritet actum ipso jure
+          <lb ed="#P" n="39"/>cum ordine ad sententiam declaratoriam, nam
+          <lb ed="#P" n="40"/>tunc retrotrahetur irritatio, ut infra dicam.
+        </p>
+        <p xml:id="szdleg-b29248-d1e412">
+          <lb ed="#P" n="41"/>5. Quaeri vero potest si pars ipsa, quae rem
+          <lb ed="#P" n="42"/>alterius per contractum irritabilem valide 
+          com<lb break="no" ed="#P" n="43"/>paravit, per injustitiam novam impediat ne
+          <lb ed="#P" n="44"/>contractus irritetur, vel per vim et metum
+          <lb ed="#P" n="45"/>alium cogendo ne rescissionem contractus 
+          pe<lb break="no" ed="#P" n="46"/>tat, vel subornando iniquum judicem, aut
+          <lb ed="#P" n="47"/>falsos testes, etc., an in eo casu teneatur ex
+          <lb ed="#P" n="48"/>justitia rescindere contractum, etiamsi per 
+          ju<lb break="no" ed="#P" n="49"/>dicem irritatus non fuerit. Quando enim per
+          <lb ed="#P" n="50"/>alios ponitur tale impedimentum sine injusta
+          <lb ed="#P" n="51"/>cooperatione ipsius partis, seu rei, non tenetur
+          <lb ed="#P" n="52"/>ipse spoliare se re sua, vel contractum sua 
+          vo<lb break="no" ed="#P" n="53"/>luntate solvere, magis quam antea teneretur,
+          <lb ed="#P" n="54"/>quia nulla nova ratio obligationis in eo 
+          inve<lb break="no" ed="#P" n="55"/>nitur. Alii vero, si injusti fuerunt, tenebuntur
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ad recompensationem, non vero ad 
+          restituen<lb break="no" ed="#P" n="57"/>dum in specie per rescissionem contractus,
+          <lb ed="#P" n="58"/>quia haec nou est in eorum potestate, cum 
+          pen<lb break="no" ed="#P" n="59"/>deat ex alterius voluntate, scilicet, ipsius rei.
+          <lb ed="#P" n="60"/>At vero quando ipsamet pars seu reus fecit
+          <lb ed="#P" n="61"/>talem injuriam, videtur teneri ad reparandum
+          <lb ed="#P" n="62"/>damnum quod intulit in eadem specie, quia
+          <lb ed="#P" n="63"/>potest, et ex sola sua voluntate pendet ; nam
+          <lb ed="#P" n="64"/>damnum illatum fuit privare actorem debita
+          <lb ed="#P" n="65"/>irritatione contractus , et hanc potest facere
+          <lb ed="#P" n="66"/>reus sua voluntate; ergo tenetur illam 
+          fa<lb break="no" ed="#P" n="67"/>cere.
+        </p>
+        <p xml:id="szdleg-b29248-d1e475">
+          <lb ed="#P" n="68"/>6. In contrarium vero objici potest quia
+          <lb ed="#P" n="69"/>haec est quaedam poena; at vero nullus reus 
+          obli<lb break="no" ed="#P" n="70"/>gatur ad restituendam poenam ad quam 
+          con<lb break="no" ed="#P" n="71"/>demnandus esset secundum legem, si de facto
+          <lb ed="#P" n="72"/>non condemnatur, etiamsi per iniquam et
+          <lb ed="#P" n="73"/>injustam tergiversationem, vel 
+          subordinatio<lb break="no" ed="#P" n="74"/>nem, condemnationem impediverit; ut 
+          pro<lb break="no" ed="#P" n="75"/>babiliter tenet Navar., cap. 18, n. 48, quem
+          <lb ed="#P" n="76"/>sequitur Vasq. in praesenti disp. 175, cap. 2;
+          <lb ed="#P" n="77"/>ergo neque hic tenetur ad rescindendum 
+          con<lb break="no" ed="#P" n="78"/>tractum, etiamsi dolo evitet condemnationem
+          <lb ed="#P" n="79"/>ad hujusmodi poenam; licet alii auctores 
+          con<lb break="no" ed="#P" n="80"/>trarium opinantur cum Soto, lib. 1 de Just.,
+          <lb ed="#P" n="81"/>quaest. 6, art. 6. Sed quidquid de hoe sit, 
+          pro<lb break="no" ed="#P" n="82"/>babilius mihi videtur in praesenti puncto hunc
+          <lb ed="#P" n="83"/>reum teneri in conscientia ad rescissionem
+          <lb ed="#P" n="84"/>contractus alio volente ; ut ad reddendam rem
+          <lb ed="#P" n="85"/>priori domino, recuperato pretio, vel quid 
+          si<lb break="no" ed="#P" n="86"/>mile : et ratio prius facta apud me convincit,
+          <lb ed="#P" n="87"/>quam hoc modo amplius declaro. Nam vel ille
+          <lb ed="#P" n="88"/>tenetur restituere aliquid actori in illo casu,
+          <lb ed="#P" n="89"/>vel non; hoc secundum videtur incredibile,
+          <lb ed="#P" n="90"/>quia plane irrogat illi injuriam, cum per 
+          me<lb break="no" ed="#P" n="91"/>dia iniqua illum impediat a consecutione juris
+          <lb ed="#P" n="92"/>quod per leges illi competit. Item, si falsus 
+          tes<lb break="no" ed="#P" n="93"/>tis per iniquam deceptionem illum impediat,
+          <lb ed="#P" n="94"/>tenebitur ei satisfacere : ergo et actor tenetur.
+          <lb ed="#P" n="95"/>Quod si restituere tenetur, profecto debet in
+          <lb ed="#P" n="96"/>propria specie illud restituere quod injuste
+          <lb ed="#P" n="97"/>impedivit, quandoquidem potest. Nam ubi
+          <lb ed="#P" n="98"/>restitutio in propria specie fieri potest, non
+          <lb ed="#P" n="99"/>habet locum recompensatio pro voluntate 
+          de<lb break="no" ed="#P" n="100"/>bitoris, quia altcr habet jus in suam rem 
+          pro<lb break="no" ed="#P" n="101"/>priam. Imo in praesenti casu, cum agitur de
+          <lb ed="#P" n="102"/>rescissione contractus, praecipue videtur 
+          in<lb break="no" ed="#P" n="103"/>tenta recuperatio rei propriae in propria 
+          spe<lb break="no" ed="#P" n="104"/>cie: ergo.
+        </p>
+        <p xml:id="szdleg-b29248-d1e558">
+          <lb ed="#P" n="105"/>7. Propter rationem vero in contrarium 
+          fac<lb break="no" ed="#P" n="106"/>tam, limito hanc sententiam , ut procedat,
+          <lb ed="#P" n="107"/>quando actus praeteritus , qui rescindendus
+          <lb ed="#P" n="108"/>seu irritandus est, fuit privatus, pendens ex
+          <lb ed="#P" n="109"/>voluntate contrahentium, per quam res unius
+          <lb ed="#P" n="110"/>in alterum translata est , et postea per irrita-
+          <pb ed="#P" n="513"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tionem actus, intendit prior dominus peculiare
+          <lb ed="#P" n="2"/>emolumentum sibi debitum virtute legis. Tunc
+          <lb ed="#P" n="3"/>illa rescissio contractus non habet propriam
+          <lb ed="#P" n="4"/>rationem poenae, vel saltem in tali causa per
+          <lb ed="#P" n="5"/>quam actor ille jus suum petit, non 
+          conside<lb break="no" ed="#P" n="6"/>ratur praecipue ratio poenae, sed res actoris, et
+          <lb ed="#P" n="7"/>reparatio illius, et ideo cum ab illa 
+          consequen<lb break="no" ed="#P" n="8"/>da per iniqua media impeditur, illi fit injuria
+          <lb ed="#P" n="9"/>contra justitiam commutativam, quae ad 
+          resti<lb break="no" ed="#P" n="10"/>tutionem obligat in propria specie, ut dixi,
+          <lb ed="#P" n="11"/>quando debitor in illa solvere potest. Et ita ad
+          <lb ed="#P" n="12"/>objectionem, quatenus contra hoc procedit,
+          <lb ed="#P" n="13"/>negatur consequentia, quia in poena, licet per
+          <lb ed="#P" n="14"/>fraudem impediatur, non fit contra justitiam
+          <lb ed="#P" n="15"/>commutativam, ut est probabile. Unde si 
+          con<lb break="no" ed="#P" n="16"/>tingat actum qui irritandus est, solum titulo
+          <lb ed="#P" n="17"/>poenae esse irritandum, et non propter speciale
+          <lb ed="#P" n="18"/>jus quod actor prius haberet in rem quae per
+          <lb ed="#P" n="19"/>talem actum fuit in alium translata, sed 
+          so<lb break="no" ed="#P" n="20"/>lum quia intendit ut poena illi applicetur, quia
+          <lb ed="#P" n="21"/>cedit in ejus utilitatem : in tali casu non est
+          <lb ed="#P" n="22"/>improbabile reum non teneri ad restitutionem,
+          <lb ed="#P" n="23"/>etiamsi per iniqua media se defendat. Quia
+          <lb ed="#P" n="24"/>tunc non peccat contra justitiam 
+          commutati<lb break="no" ed="#P" n="25"/>vam respectu privati actoris, sed solum contra
+          <lb ed="#P" n="26"/>justitiam legalem respectu communis boni,
+          <lb ed="#P" n="27"/>vel contra obedientiam et justitiam, qua 
+          tene<lb break="no" ed="#P" n="28"/>batur judici et reipublicae. Ut, verbi gratia, si
+          <lb ed="#P" n="29"/>quis sit consecutus beneficium valide, non per
+          <lb ed="#P" n="30"/>resignationem, vel donationem alicujus 
+          pri<lb break="no" ed="#P" n="31"/>vatae personae, cujus antea beneficium esset,
+          <lb ed="#P" n="32"/>sed quia beneficium vacabat, et ordinario 
+          mo<lb break="no" ed="#P" n="33"/>do fuit ad illud electus vel provisus cum 
+          ali<lb break="no" ed="#P" n="34"/>quo tamen defectu, ratione cujus potest et
+          <lb ed="#P" n="35"/>debet collatio cassari; tunc licet alius 
+          impe<lb break="no" ed="#P" n="36"/>tret jus ad beneficium, et agat ad irritationem
+          <lb ed="#P" n="37"/>collationis, et possessor se inique defendat, vel
+          <lb ed="#P" n="38"/>defectum occultet, et irritationem collationis
+          <lb ed="#P" n="39"/>impediat, non videtur teneri in conscientia ad
+          <lb ed="#P" n="40"/>relinquendum beneficium, quia non fecit alteri
+          <lb ed="#P" n="41"/>injustitiam, sed solum egit ad excusationem
+          <lb ed="#P" n="42"/>poena, ad quam alter non habet speciale jus
+          <lb ed="#P" n="43"/>justitiae commutativae, quia non propter illius
+          <lb ed="#P" n="44"/>commodum imposita est, sed tantum propter
+          <lb ed="#P" n="45"/>vindicationem delicti, quae ad justitiam 
+          lega<lb break="no" ed="#P" n="46"/>lem seu boni communis spectat.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 12</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 12</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="469"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-b18583"><!-- deleg-l5c12 -->
+        <head xml:id="szdleg-b18583-Hd1e101">Caput 12</head>
+        <head xml:id="szdleg-b18583-Hd1e103" type="question-title">Utrum ignorantia excuset poenam legis</head>
+        <p xml:id="szdleg-b18583-d1e106">
+          <lb ed="#P" n="19"/>CAPUT XII.
+          <lb ed="#P" n="20"/>UTRUM IGNORANTIA EXCUSET POENAM LEGIS.
+        </p>
+        <p xml:id="szdleg-b18583-d1e113">
+          <lb ed="#P" n="21"/>1. Dupliciter potest quis excusari a poena
+          <lb ed="#P" n="22"/>legis sustinenda, vel quoad executionem 
+          tan<lb break="no" ed="#P" n="23"/>tum, vel quoad reatum et debitum; priorem
+          <lb ed="#P" n="24"/>modum attigimus capite praecedenti, scilicet,
+          <lb ed="#P" n="25"/>per dispensationem, remissionem in integrum,
+          <lb ed="#P" n="26"/>vel in parte, vel per commutationem. Ita enim
+          <lb ed="#P" n="27"/>revera fit, quando delinquens contraxit totum
+          <lb ed="#P" n="28"/>debitum poenae, postea vero vel propter 
+          pau<lb break="no" ed="#P" n="29"/>pertatem, vel debilitatem virium, aut alias
+          <lb ed="#P" n="30"/>justas causas, vel non potest poena executioni
+          <lb ed="#P" n="31"/>mandari, vel non expedit, et ideo vel 
+          remitti<lb break="no" ed="#P" n="32"/>tur, vel commutatur. De alio ergo modo 
+          di<lb break="no" ed="#P" n="33"/>cendum est in praesenti, videlicet, quando ex
+          <lb ed="#P" n="34"/>circumstantia, vel modo operandi excusatur
+          <lb ed="#P" n="35"/>quis ne fiat etiam debitor poenae, vel saltem
+          <lb ed="#P" n="36"/>non tantae poenae, etiamsi fuerit legis 
+          trans<lb break="no" ed="#P" n="37"/>gressor. Et quamvis ex pluribus causis possit
+          <lb ed="#P" n="38"/>haec excusatio oriri, nihilominus quia 
+          igno<lb break="no" ed="#P" n="39"/>rantia frequentius allegari, vel intercedere 
+          so<lb break="no" ed="#P" n="40"/>let, ideo de illa in particulari dicemus, et per
+          <lb ed="#P" n="41"/>similitudinem rationis, poterit doctrina ad alias
+          <lb ed="#P" n="42"/>excusationes facile applicari. Oportet autem
+          <lb ed="#P" n="43"/>nonnullas distinctiones ignorantiae prae oculis
+          <lb ed="#P" n="44"/>habere, quae latius in 1. 2, quaest. 6 et 76,
+          <lb ed="#P" n="45"/>traduntur. Nam ex parte modi est vulgaris
+          <lb ed="#P" n="46"/>distinctio ignorantiae in probabilem, quae 
+          in<lb break="no" ed="#P" n="47"/>vincibilis, et inculpabilis, et antecedens dici
+          <lb ed="#P" n="48"/>solet, et in improbabilem, seu culpabilem, aut
+          <lb ed="#P" n="49"/>vincibilem, seu consequentem (concomitantem
+          <lb ed="#P" n="50"/>autem omitto, quia, ut talis est, mea sententia,
+          <lb ed="#P" n="51"/>neque accusat neque excusat quoad exteriorem
+          <lb ed="#P" n="52"/>actum). Solet autem ignorantia culpabilis dis-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tingui in affectatam, crassam, et generaliter
+          <lb ed="#P" n="54"/>vincibilem. Verumtamen de affectata non 
+          lo<lb break="no" ed="#P" n="55"/>quor, quia nihil excusat ; omnis vero alia, si
+          <lb ed="#P" n="56"/>talis sit, ut non excuset a culpa mortali, crassa,
+          <lb ed="#P" n="57"/>et supina in universum dici potest: si autem
+          <lb ed="#P" n="58"/>solum habeat admixtam negligentiam 
+          venia<lb break="no" ed="#P" n="59"/>lem, non est culpabilis, nisi secundum quid,
+          <lb ed="#P" n="60"/>recteque dicetur ignorantia levis. Loquor 
+          au<lb break="no" ed="#P" n="61"/>tem theologice : nam juristae in ordine ad 
+          ali<lb break="no" ed="#P" n="62"/>quos effectus juris aliter solent hanc 
+          ignoran<lb break="no" ed="#P" n="63"/>tiam culpabilem distinguere in illam, quae ex
+          <lb ed="#P" n="64"/>lata, levi, vel levissima culpa procedit, ut 
+          vi<lb break="no" ed="#P" n="65"/>deri potest in Covar., in 4, 2 p., cap. 6. 88,
+          <lb ed="#P" n="66"/>n. 12, et in reg. Possessor., 2 p., S 1; quae 
+          dis<lb break="no" ed="#P" n="67"/>tinctio nunc nobis necessaria non est.
+        </p>
+        <p xml:id="szdleg-b18583-d1e220">
+          <lb ed="#P" n="68"/>2. Ulterius ex parte rei ignoratae potest dari
+          <lb ed="#P" n="69"/>ignorantia, vel totius legis et prohibitionis
+          <lb ed="#P" n="70"/>ejus, vel solius poenae, ut quando quis non
+          <lb ed="#P" n="71"/>ignorat esse prohibitum, verbi gratia, hodie
+          <lb ed="#P" n="72"/>comedere carnes , ignorat tamen aliquam 
+          cen<lb break="no" ed="#P" n="73"/>suram vel poenam illi peccato annexam. Et
+          <lb ed="#P" n="74"/>dcinde quando ignoratur prohibitio ipsius legis
+          <lb ed="#P" n="75"/>humanae,, potest actus esse alias intrinsece
+          <lb ed="#P" n="76"/>malus, vel divina lege prohibitus, quod non
+          <lb ed="#P" n="77"/>ignoratur: aut potest tantum esse malus, quia
+          <lb ed="#P" n="78"/>prohibitus ; ac proinde, si probabilis 
+          ignoran<lb break="no" ed="#P" n="79"/>tia humanae legis interveniat, erit non malus,
+          <lb ed="#P" n="80"/>ac subinde bonus, vel indifferens. Denique
+          <lb ed="#P" n="81"/>nulla interveniente ignorantia juris, potest
+          <lb ed="#P" n="82"/>intercedere ignorantia facti, quia nimirum
+          <lb ed="#P" n="83"/>opus non putatur esse tale, quale per legem
+          <lb ed="#P" n="84"/>prohibitum est. Haec de ignorantia. De 
+          excu<lb break="no" ed="#P" n="85"/>satione vero distingui potest utrum sit in foro
+          <lb ed="#P" n="86"/>conscientiae, vel in externo, vel in utroque 
+          si<lb break="no" ed="#P" n="87"/>mul. Ad utramque excusationem 
+          intelligen<lb break="no" ed="#P" n="88"/>dam, conferet animadvertere an poena sit ipso
+          <lb ed="#P" n="89"/>jure lata, vel tantum ferenda.
+        </p>
+        <p xml:id="szdleg-b18583-d1e271">
+          <lb ed="#P" n="90"/>3. Omnis ignorantia que evcusat factum
+          <lb ed="#P" n="91"/>ne peccatum sit, excusat panam debitam in
+          <lb ed="#P" n="92"/>utroque foro per se, nisi aliud in lege 
+          evprima<lb break="no" ed="#P" n="93"/>lur. —His positis, est prima generalis regula:
+          <lb ed="#P" n="94"/>Omnis ignorantia quae excusat factum, ne 
+          pec<lb break="no" ed="#P" n="95"/>catum sit, excusat etiam debitum poenae in
+          <lb ed="#P" n="96"/>utroque foro. Est communis sententia 
+          docto<lb break="no" ed="#P" n="97"/>rum in cap. 2 de Constit., et videri potest
+          <lb ed="#P" n="98"/>Castro., lib. 2 de Leg. poen., cap. 14; Tiraq.,
+          <lb ed="#P" n="99"/>lib. 1 de utroque retract., S 35, Glos. 4, n. 27,
+          <lb ed="#P" n="100"/>qui refert alios, et probatur ex dict. cap. 2 de
+          <lb ed="#P" n="101"/>Constitut. dicente : Quod culpa caret, in 
+          damn<lb break="no" ed="#P" n="102"/>nwmn vocari non debet ; et facit regula : Cessante
+          <lb ed="#P" n="103"/>causa, cessat effectus, cap. Cum cessante, de
+          <lb ed="#P" n="104"/>Appellat. Probatur etiam ex cap. Apostolice ,
+          <lb ed="#P" n="105"/>de Clerico excommunicato ministrante, et cap.
+          <lb ed="#P" n="106"/>Ut animarwn, de Constit., in 6, cap. 
+          Propo<lb break="no" ed="#P" n="107"/>suisti, dist. 82: Ignorantibus , inquit, non
+          <pb ed="#P" n="470"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est venia deneganda ; et idem sumitur ex cap.
+          <lb ed="#P" n="2"/>Si vir , de Cognat. spirit., ubi id notat Gloss.
+          <lb ed="#P" n="3"/>et ideo in leg. ultim., ff. de Decretis ab ordine
+          <lb ed="#P" n="4"/>faciendis, dicitur poonum non imponi propter
+          <lb ed="#P" n="5"/>ignorantes, sed propter scientes. Ratio a priori
+          <lb ed="#P" n="6"/>est, quia lex justa non imponit poenam, nisi
+          <lb ed="#P" n="7"/>ut poenam ; sed ablata culpa non habet locum
+          <lb ed="#P" n="8"/>poena, ut poena ; ergo nec debitum ejus ; ergo
+          <lb ed="#P" n="9"/>talis ignorantia quae tollit culpam excusat
+          <lb ed="#P" n="10"/>omnino a poena.
+        </p>
+        <p xml:id="szdleg-b18583-d1e339">
+          <lb ed="#P" n="11"/>4. Statim vero occurrit instantia de lege
+          <lb ed="#P" n="12"/>pure poenali ; sed ex dictis in superioribus 
+          fa<lb break="no" ed="#P" n="13"/>cile solvitur. Nam vel illa non est rigorosa
+          <lb ed="#P" n="14"/>poena, sed veluti pars disjunctivi praecepti, et
+          <lb ed="#P" n="15"/>ideo incurri potest sine culpa ; vel est talis
+          <lb ed="#P" n="16"/>poena, quae solum requirit culpam civilem, et
+          <lb ed="#P" n="17"/>legalem ; unde cum proportione etiam in illa
+          <lb ed="#P" n="18"/>locum habet praedicta regula, quia, ut poena
+          <lb ed="#P" n="19"/>illa debeatur, necesse est ut praecedat 
+          volunta<lb break="no" ed="#P" n="20"/>rius actus, vel omissio contra legem. 
+          Quapro<lb break="no" ed="#P" n="21"/>pter si intercedat ignorantia quae culpam 
+          ex<lb break="no" ed="#P" n="22"/>cuset , aut excusare sufficeret si actus esset
+          <lb ed="#P" n="23"/>prohibitus, illa reddit actum involuntarium,
+          <lb ed="#P" n="24"/>et ideo etiam excusat illam poenam. Atque 
+          si<lb break="no" ed="#P" n="25"/>milis responsio applicanda est ad similem 
+          in<lb break="no" ed="#P" n="26"/>stantiam, quae fieri potest de irregularitate,
+          <lb ed="#P" n="27"/>vel alia simili inhabilitate, quando non 
+          impo<lb break="no" ed="#P" n="28"/>nitur sub propria et rigorosa ratione poenae,
+          <lb ed="#P" n="29"/>sed propter indecentiam. Tunc enim excusatio
+          <lb ed="#P" n="30"/>culpae non impedit talem irregularitatem, quia
+          <lb ed="#P" n="31"/>non propter culpam, sed propter ipsum 
+          fac<lb break="no" ed="#P" n="32"/>tum imponitur. Regulariter autem quando 
+          ac<lb break="no" ed="#P" n="33"/>tus propter quem illa quasi poena imponitur,
+          <lb ed="#P" n="34"/>est opus ipsiusmet personae quae defectum 
+          con<lb break="no" ed="#P" n="35"/>trahit, oportet, ut sit illi voluntarius, nisi
+          <lb ed="#P" n="36"/>aliud in lege exprimatur : interdum enim sine
+          <lb ed="#P" n="37"/>ulla voluntate propria, et propter factum 
+          alie<lb break="no" ed="#P" n="38"/>num incurritur irregularitas , quae non est
+          <lb ed="#P" n="39"/>poena. Dices, etiam simili modo solet 
+          aliquan<lb break="no" ed="#P" n="40"/>do incurri poena propter factum alienum, non
+          <lb ed="#P" n="41"/>obstante ignorantia ejus qui poenam sustinet,
+          <lb ed="#P" n="42"/>ut in simonia constat. Respondeo primo, 
+          re<lb break="no" ed="#P" n="43"/>gulam intelligi per se, et nisi aliud in lege 
+          ex<lb break="no" ed="#P" n="44"/>primatur, quam limitationem expresse addit
+          <lb ed="#P" n="45"/>Dec. in dicto cap. 2 de Constit., lect. 2, n. 5.
+          <lb ed="#P" n="46"/>Secundo, dici potest etiam in eo casu non 
+          in<lb break="no" ed="#P" n="47"/>curri illam poenam sine culpa alicujus, ut, in
+          <lb ed="#P" n="48"/>simonia, licet ignoret accipiens, peccat 
+          for<lb break="no" ed="#P" n="49"/>tasse dans beneficium, vel intercessor 
+          simo<lb break="no" ed="#P" n="50"/>niacus. Quomodo enim actio erit simpliciter
+          <lb ed="#P" n="51"/>simoniaca sine culpa alicujus? Tunc ergo 
+          poe<lb break="no" ed="#P" n="52"/>na illa non cessat, quia nec culpa omnino
+          <lb ed="#P" n="53"/>deest. Quod vero redundet poena in eum qui
+          <lb ed="#P" n="54"/>non peccat, est per accidens; redundat enim
+          <lb ed="#P" n="55"/>non ut poena, sed ut incommodum, quod to-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>lerandum est propter commune bonum, quia
+          <lb ed="#P" n="57"/>non sine causa imponitur. Unde, si 
+          continge<lb break="no" ed="#P" n="58"/>ret aliquid simile imponi per legem etiam
+          <lb ed="#P" n="59"/>ignorantibus omnibus qui in facto 
+          interve<lb break="no" ed="#P" n="60"/>niunt, ac subinde cessante omni culpa, tunc
+          <lb ed="#P" n="61"/>haberet locum limitatio ; quamvis etiam tunc
+          <lb ed="#P" n="62"/>dici posset illam non imponi ut pcenam, sed ut
+          <lb ed="#P" n="63"/>remedium ad tollendas occasiones, vel ad 
+          in<lb break="no" ed="#P" n="64"/>decentiam vitandam, sicut dictum est de 
+          irre<lb break="no" ed="#P" n="65"/>gularitate non poenah. Et ita in rigore non
+          <lb ed="#P" n="66"/>erit limitatio regulae, quae de propria poena
+          <lb ed="#P" n="67"/>loquitur.
+        </p>
+        <p xml:id="szdleg-b18583-d1e467">
+          <lb ed="#P" n="68"/>5. Dictam regulam non tenere in ignorantia
+          <lb ed="#P" n="69"/>juris quidam sentiunt falso. — Sed, licet haec
+          <lb ed="#P" n="70"/>regula in facti ignorantia communiter recepta
+          <lb ed="#P" n="71"/>sit in utroque foro, nihilominus in ignorantia
+          <lb ed="#P" n="72"/>juris habet nonnullam dubitationem. Nam 
+          ali<lb break="no" ed="#P" n="73"/>qui auctores absolute negant hanc ignorantiam
+          <lb ed="#P" n="74"/>excusare. Ita sentit Scot. in 4, d. 6, q. S,et
+          <lb ed="#P" n="75"/>Turrec. in c. Quibus, de Consec., d. 4, n.S8,
+          <lb ed="#P" n="76"/>qui videntur maxime loqui de ignorantia juris
+          <lb ed="#P" n="77"/>humani, quando cadit in actum prohibitum
+          <lb ed="#P" n="78"/>jure divino, vel naturali, quam dicunt non
+          <lb ed="#P" n="79"/>excusare poenam legis humanae. Generalius
+          <lb ed="#P" n="80"/>vero loquitur Glos. in cap. ult. de Verbor. 
+          si<lb break="no" ed="#P" n="81"/>gnif., in 6, verb. Scientes, ex regul. 13 juris,
+          <lb ed="#P" n="82"/>in 6: Ignorantia facti, non juris excusat. 
+          Ni<lb break="no" ed="#P" n="83"/>hilominus regula data cum proportione 
+          appli<lb break="no" ed="#P" n="84"/>cata, etiam in ignorantia juris locum habet,
+          <lb ed="#P" n="85"/>ut late ostendit Castro, l. 1 de Leg. poen., c. 1,
+          <lb ed="#P" n="86"/>ad fin., et 1. 9, c. 14. Item sentit Soto in 4, d. 3,
+          <lb ed="#P" n="87"/>a. 9, et ad 22, q. 1, a. 2; Covarr. in regul.
+          <lb ed="#P" n="88"/>Possessor, p. 2, S 4, n. 7. Et declaratur 
+          brevi<lb break="no" ed="#P" n="89"/>ter in hunc modum : nam contraria sententia
+          <lb ed="#P" n="90"/>vel fundatur in hoc quod ignorantia juris 
+          nun<lb break="no" ed="#P" n="91"/>quam est invincibilis, vel in hoc quod, licet
+          <lb ed="#P" n="92"/>sit invincibilis, non excusat a poena ; neutrum
+          <lb ed="#P" n="93"/>dici potest : ergo.
+        </p>
+        <p xml:id="szdleg-b18583-d1e526">
+          <lb ed="#P" n="94"/>6. Minor quoad priorem partem clara est,
+          <lb ed="#P" n="95"/>quantum spectat ad jus positivum humanum ;
+          <lb ed="#P" n="96"/>imo etiam quoad divinum positivum. Nam,
+          <lb ed="#P" n="97"/>licet fortasse in hoc rarius contingat ignorantia
+          <lb ed="#P" n="98"/>inculpabilis, tamen neque repugnat, nec 
+          vi<lb break="no" ed="#P" n="99"/>detur esse nimis rara inter homines rudes.
+          <lb ed="#P" n="100"/>Quin potius etiam de jure naturali, ostendimus
+          <lb ed="#P" n="101"/>supra interdum ignorari invincibiliter quoad
+          <lb ed="#P" n="102"/>aliquas conclusiones , quae per se nota non
+          <lb ed="#P" n="103"/>sunt. Et ratio omnium est, quia saepe homo per
+          <lb ed="#P" n="104"/>se non valet scientiam omnium praeceptorum
+          <lb ed="#P" n="105"/>consequi, et interdum, ac saepe etiam deficiunt
+          <lb ed="#P" n="106"/>occasiones, vel opportunitates ad 
+          comparan<lb break="no" ed="#P" n="107"/>dam illam notitiam, sine hominis culpa aut
+          <lb ed="#P" n="108"/>voluntate, quia non habuit unde aut quomodo
+          <lb ed="#P" n="109"/>excitaretur ad illam notitiam procurandam.
+          <lb ed="#P" n="110"/>Dices : licet forte talis ignorantia aliquando
+          <pb ed="#P" n="471"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non sit in se culpabilis, nihilominus est 
+          culpa<lb break="no" ed="#P" n="2"/>bile applicari ad opus cum tali ignorantia
+          <lb ed="#P" n="3"/>propter periculum transgrediendi. Respondeo
+          <lb ed="#P" n="4"/>facile, imprimis non semper intercedere aliam
+          <lb ed="#P" n="5"/>applicationem ad opus, praeter omissionem
+          <lb ed="#P" n="6"/>actus praecepti : deinde dicitur, quando 
+          inter<lb break="no" ed="#P" n="7"/>venit opus factum ex ignorantia invincibili,
+          <lb ed="#P" n="8"/>extendi etiam ignorantiam illam ad 
+          applica<lb break="no" ed="#P" n="9"/>tionem ad opus, quia neque de illo periculo
+          <lb ed="#P" n="10"/>cogitatum est, nec dubium aliquod de tali
+          <lb ed="#P" n="11"/>obligatione in mentem venit. Et ita facile 
+          pro<lb break="no" ed="#P" n="12"/>batur altera pars minoris, quia ignorantia 
+          in<lb break="no" ed="#P" n="13"/>vincibilis, etiamsi juris sit, excusat a culpa,
+          <lb ed="#P" n="14"/>quia excusat a voluntaria transgressione legis;
+          <lb ed="#P" n="15"/>ergo et a poena, juxta rationes factas pro 
+          con<lb break="no" ed="#P" n="16"/>clusione.
+        </p>
+        <p xml:id="szdleg-b18583-d1e604">
+          <lb ed="#P" n="17"/>7. Contingit autem interdum actum 
+          prohi<lb break="no" ed="#P" n="18"/>beri duplici lege, divina et humana, et 
+          huma<lb break="no" ed="#P" n="19"/>nam invincibiliter ignorari, cum tamen divina
+          <lb ed="#P" n="20"/>non ignoretur, et tunc homo non excusatur
+          <lb ed="#P" n="21"/>simpliciter a culpa, ideoque in eo casu 
+          pro<lb break="no" ed="#P" n="22"/>babile est non excusari regulariter loquendo a
+          <lb ed="#P" n="23"/>poena legis humanae, in quo sensu Scot. et
+          <lb ed="#P" n="24"/>Turrec. locuti sunt. Et ratio est, quia tunc non
+          <lb ed="#P" n="25"/>cessat causa poenae : lex enim humana non 
+          so<lb break="no" ed="#P" n="26"/>lum intendit punire transgressionem suam
+          <lb ed="#P" n="27"/>voluntariam, sed etiam culpam contra legem
+          <lb ed="#P" n="28"/>divinam commissam. Item, quia scientia 
+          poe<lb break="no" ed="#P" n="29"/>nae, ut statim dicam, non est necessaria ad 
+          in<lb break="no" ed="#P" n="30"/>currendam illam. Sicque rebaptizans fit 
+          irre<lb break="no" ed="#P" n="31"/>gularis, etiamsi ignoret legem ecclesiasticam
+          <lb ed="#P" n="32"/>de hac latam, si non ignorat invincibihter 
+          di<lb break="no" ed="#P" n="33"/>vinam, ut latius dixi in tomo tertio, 3 part.,
+          <lb ed="#P" n="34"/>disp. 31, sect. 6; ubi etiam notavi excipiendas
+          <lb ed="#P" n="35"/>esse censuras, quae non contrahuntur 
+          quan<lb break="no" ed="#P" n="36"/>do lex ecclesiastica invincibiliter ignoratur,
+          <lb ed="#P" n="37"/>etiamsi alias actus sit malus contra legem Dei,
+          <lb ed="#P" n="38"/>quia requirunt contumaciam, ut sumitur ex
+          <lb ed="#P" n="39"/>cap. Ut animarum, de Const., in 6.
+        </p>
+        <p xml:id="szdleg-b18583-d1e656">
+          <lb ed="#P" n="40"/>8. Igitur illa regula juris, si intelligatur
+          <lb ed="#P" n="41"/>quoad forum conscientiae, debet intelligi 
+          regu<lb break="no" ed="#P" n="42"/>lariter, seu frequenter, quia ignorantia juris
+          <lb ed="#P" n="43"/>raro est invincibilis, quia unusquisque tenetur
+          <lb ed="#P" n="44"/>scire leges ad se pertinentes, ut tradit D. Th.
+          <lb ed="#P" n="45"/>1. 2, quaest. 16, art. 4; et sumitur ex cap. 1 de
+          <lb ed="#P" n="46"/>Const., et ex leg. Leges sacratissime, c. de
+          <lb ed="#P" n="47"/>Legib. et ex leg. Constitutiones, c. de Juris et
+          <lb ed="#P" n="48"/>facti ignorant. Si autem illa regula intelligatur
+          <lb ed="#P" n="49"/>in foro externo (ut facilius exponitur), 
+          intelli<lb break="no" ed="#P" n="50"/>gitur secundum praesumptionem juris propter
+          <lb ed="#P" n="51"/>jura proxime citata; et nihilominus si 
+          igno<lb break="no" ed="#P" n="52"/>rantia sufficienter probetur inculpabilis (quod
+          <lb ed="#P" n="53"/>difficile est), etiam in illo foro excusabit a 
+          poe<lb break="no" ed="#P" n="54"/>na, propter alia jura pro assertione allegata,
+          <lb ed="#P" n="55"/>quae indifferenter loquuntur ; unde, etiamsi lex
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ponat poenam ipso facto ante omnem 
+          declara<lb break="no" ed="#P" n="57"/>tionem, non tenetur quis in conscientia illam
+          <lb ed="#P" n="58"/>implere in eo casu. Quod si per judicem 
+          con<lb break="no" ed="#P" n="59"/>demnetur, quia deficit in probatione, et ipse
+          <lb ed="#P" n="60"/>sit certus in conscientia de sua inculpabili 
+          igno<lb break="no" ed="#P" n="61"/>rantia, licet exterius teneatur parere, tamen
+          <lb ed="#P" n="62"/>in conscientia non tenetur exequi poenam,
+          <lb ed="#P" n="63"/>potestque illam omittere cavendo scandalum.
+        </p>
+        <p xml:id="szdleg-b18583-d1e714">
+          <lb ed="#P" n="64"/>9. Secunda regula. — Secunda regula est,
+          <lb ed="#P" n="65"/>quando ignorantia non excusat a culpa gravi,
+          <lb ed="#P" n="66"/>propter quam poena legis lata est, non excusat
+          <lb ed="#P" n="67"/>simpliciter a poena, nisi in lege addatur 
+          ver<lb break="no" ed="#P" n="68"/>bum, quod scientiam aut dolum requirat.
+          <lb ed="#P" n="69"/>Prior pars communis est; tradit illam 
+          Panor<lb break="no" ed="#P" n="70"/>mit. in c.2de Constit., n. 6, ubi Deci., lect. 1,
+          <lb ed="#P" n="71"/>n. 8, Felin., n. 4, Bartol., in l. Quod Nerea,
+          <lb ed="#P" n="72"/>ff. Depositi., n. 20, et alii moderni relati et
+          <lb ed="#P" n="73"/>referendi. Et sumitur ex l. 1, ft. de Legibus,
+          <lb ed="#P" n="74"/>ubi dicitur, non solum scientes, sed etiam
+          <lb ed="#P" n="75"/>ignorantes esse transgressores legum, quod
+          <lb ed="#P" n="76"/>debet intelligi quando ignorantia est 
+          vincibi<lb break="no" ed="#P" n="77"/>lis, quae non excusat a culpa, quia non tollit
+          <lb ed="#P" n="78"/>omnino voluntarium: unde sumitur ratio, quia
+          <lb ed="#P" n="79"/>haec ignorantia non tollit causam poenae, quae
+          <lb ed="#P" n="80"/>est culpa, quia non tollit omnino voluntarium;
+          <lb ed="#P" n="81"/>ergo nec poenam excusat. Dixi autem esse 
+          ne<lb break="no" ed="#P" n="82"/>cessarium ut talis ignorantia non excludat 
+          cul<lb break="no" ed="#P" n="83"/>pam, propter quam imposita est poena, quia
+          <lb ed="#P" n="84"/>interdum potest ignorantia non excusare ab
+          <lb ed="#P" n="85"/>omni culpa mortali, et nihilominus excusare a
+          <lb ed="#P" n="86"/>poena, quia excusat ab speciali gravitate orta
+          <lb ed="#P" n="87"/>ex speciali circumstantia, quam peccati 
+          gra<lb break="no" ed="#P" n="88"/>vitatem lex principaliter punire voluit. Ut,
+          <lb ed="#P" n="89"/>verbi gratia, si quis adulteretur invincibiliter
+          <lb ed="#P" n="90"/>ignorans matrimonium complicis, quamvis
+          <lb ed="#P" n="91"/>non ignoret non esse suam, excusabitur a poena
+          <lb ed="#P" n="92"/>posita contra adulteros, licet in eo facto 
+          mor<lb break="no" ed="#P" n="93"/>taliter peccaverit, quia illud peccatum tantum
+          <lb ed="#P" n="94"/>est in illo homine simplex fornicatio. Sic etiam,
+          <lb ed="#P" n="95"/>qui interficit hominem clericum, ignorans 
+          in<lb break="no" ed="#P" n="96"/>vincibiliter esse clericum, non tamen ignorans
+          <lb ed="#P" n="97"/>esse hominem, non incurrit poenam canonis
+          <lb ed="#P" n="98"/>Si quis suadente, licet alias homicida sit, et
+          <lb ed="#P" n="99"/>canonem non ignoret.
+        </p>
+        <p xml:id="szdleg-b18583-d1e795">
+          <lb ed="#P" n="100"/>10. Existente ignorantia crassa integre 
+          sar<lb break="no" ed="#P" n="101"/>ciendum damnum.— Non habet locun 
+          diminu<lb break="no" ed="#P" n="102"/>tio in pena imposita per legem- secus vero in
+          <lb ed="#P" n="103"/>imponenda per judicem.—Sed quaeret aliquis,
+          <lb ed="#P" n="104"/>an haec ignorantia crassa diminuat saltem 
+          poe<lb break="no" ed="#P" n="105"/>nam, esto non excuset a tota illa. In hoc duo
+          <lb ed="#P" n="106"/>distinguenda sunt, scilicet, damnum ob eam
+          <lb ed="#P" n="107"/>causam alteri illatum, quod reparandum et
+          <lb ed="#P" n="108"/>restituendum est, et propria poena vindicativa.
+          <lb ed="#P" n="109"/>Quoad primum, non habet locum diminutio,
+          <lb ed="#P" n="110"/>sed integre resarciendum est damnum, ut su-
+          <pb ed="#P" n="472"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mitur ex 1. Quod Nerca, ff. Depositi. et l. 1,
+          <lb ed="#P" n="2"/>ff. Si mensor falsum modum dixerit, et bene
+          <lb ed="#P" n="3"/>Glossa in l. 7n actionibus, ff. de In litem
+          <lb ed="#P" n="4"/>jurand., verb. Non etiam, et plura congerit
+          <lb ed="#P" n="5"/>Tiraquel., tract. de Pen. temperan., causa 14.
+          <lb ed="#P" n="6"/>Et ratio est, quia illa obligatio nascitur ex
+          <lb ed="#P" n="7"/>justitia commutativa, quae respicit 
+          aequalita<lb break="no" ed="#P" n="8"/>tem rei ad rem. Loquendo autem de propria
+          <lb ed="#P" n="9"/>poena, subdistinguere oportet an contrahatur
+          <lb ed="#P" n="10"/>per legem ante omnem sententiam, vel 
+          impo<lb break="no" ed="#P" n="11"/>nenda sit per judicem. Nam in priori casu non
+          <lb ed="#P" n="12"/>habet locum diminutio, quia lex ipsa infligit
+          <lb ed="#P" n="13"/>poenam simpliciter, et sine moderatione, et
+          <lb ed="#P" n="14"/>semper eodem modo loquitur, et ita nunquam
+          <lb ed="#P" n="15"/>diminuit illam ; ergo nec reus auctoritate sua
+          <lb ed="#P" n="16"/>potest diminuere, tum quia ad hoc requiritur
+          <lb ed="#P" n="17"/>potestas publica, tum etiam quia esset 
+          suspec<lb break="no" ed="#P" n="18"/>tus dispensator in propria causa. Quin potius
+          <lb ed="#P" n="19"/>probabile existimo, quoties lex ponit poenam
+          <lb ed="#P" n="20"/>ipso facto, quamvis requirat declarationem
+          <lb ed="#P" n="21"/>judicis, non esse in potestate illius diminuere
+          <lb ed="#P" n="22"/>poenam, si absolute per sententiam declaret
+          <lb ed="#P" n="23"/>reum commisisse delictum, quia tunc non ipse
+          <lb ed="#P" n="24"/>imponit poenam, sed legislator, et fortasse haec
+          <lb ed="#P" n="25"/>est una ex potissimis differentiis inter 
+          senten<lb break="no" ed="#P" n="26"/>tiam declaratoriam, et condemnatoriam. Atque
+          <lb ed="#P" n="27"/>ita videmus usu servari in poena 
+          confiscatio<lb break="no" ed="#P" n="28"/>nis. At vero. quando poena est imponenda per
+          <lb ed="#P" n="29"/>judicem, tunc potest in eo casu illam 
+          mode<lb break="no" ed="#P" n="30"/>rari, quia causa minor est, et quia hoc ei jure
+          <lb ed="#P" n="31"/>conceditur, juxta dicta in capite praecedenti.
+        </p>
+        <p xml:id="szdleg-b18583-d1e893">
+          <lb ed="#P" n="32"/>11. Ignorantiam solius pene regulariter non
+          <lb ed="#P" n="33"/>excusare ejusdem pene reatum. — Et ex hac
+          <lb ed="#P" n="34"/>regula colligitur ignorantiam solius poenae 
+          re<lb break="no" ed="#P" n="35"/>gulariter non excusare ejusdem poenae reatum.
+          <lb ed="#P" n="36"/>Ita docet Covar. supra, et videtur necessario
+          <lb ed="#P" n="37"/>admittenda a doctoribus pro secunda regula
+          <lb ed="#P" n="38"/>citatis. Multi tamen nihilominus dissentiunt,
+          <lb ed="#P" n="39"/>ut Joan. And. in c.2 de Const., in 6; et Felin.
+          <lb ed="#P" n="40"/>supra, n. 6, et alii quos Covar. refert, quibus
+          <lb ed="#P" n="41"/>assentire videtur Menochi., 1. 2 de Arbitris,
+          <lb ed="#P" n="42"/>cent. 2, casu 185, n. 45, dicens legem 
+          require<lb break="no" ed="#P" n="43"/>re notitiam quoad poenam, non quoad 
+          commo<lb break="no" ed="#P" n="44"/>dum. Quod dictum probat Sancius l. 3 de 
+          Ma<lb break="no" ed="#P" n="45"/>trim., disp. 36, n. 3, in fin. Fortasse vero 
+          in<lb break="no" ed="#P" n="46"/>telligunt de notitia legis quoad prohibitionem,
+          <lb ed="#P" n="47"/>vel praeceptum, non quod poenam : sic vero
+          <lb ed="#P" n="48"/>dubia erit pars alia de praemio, de qua in.
+          <lb ed="#P" n="49"/>sequ. Mihi ergo videtur illatio facta necessario
+          <lb ed="#P" n="50"/>colligi ex regula posita: quia ignorantia poenae,
+          <lb ed="#P" n="51"/>quantumcumque sit antecedens, non excusat
+          <lb ed="#P" n="52"/>culpam in transgressione legis, ut per se 
+          cons<lb break="no" ed="#P" n="53"/>tai ; quia, ut lex obliget in conscientia, non
+          <lb ed="#P" n="54"/>oportet ut addat poenam : ergo, ut quispiam
+          <lb ed="#P" n="55"/>agat contra conscientiam, violando legem, non
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>oportet ut sciat poenam : illa ergo ignorantia
+          <lb ed="#P" n="57"/>non excusat culpam ; ergo nec poenam, quia
+          <lb ed="#P" n="58"/>non cessante causa non cessat effectus. Item
+          <lb ed="#P" n="59"/>quia illa ignorantia ad summum facit, ut illa
+          <lb ed="#P" n="60"/>poena non sit voluntaria ; hoc autem nihil 
+          re<lb break="no" ed="#P" n="61"/>fert, quia poena potius postulat ut 
+          involunta<lb break="no" ed="#P" n="62"/>ria sit. Atque ita videmus servari tam a Deo
+          <lb ed="#P" n="63"/>quam ab hominibus: puniet enim Deus aeterna
+          <lb ed="#P" n="64"/>poena etiam illos qui ignorabant suis peccatis
+          <lb ed="#P" n="65"/>deberi talem poenam ; et ad hominibus 
+          sus<lb break="no" ed="#P" n="66"/>penditur fur, etiamsi poenam ignoraverit. 
+          Ne<lb break="no" ed="#P" n="67"/>que in contrarium video rationem alicujus
+          <lb ed="#P" n="68"/>momenti. Dixi autem regulariter, propter 
+          cen<lb break="no" ed="#P" n="69"/>suras, praesertim excommunicationis, de 
+          qui<lb break="no" ed="#P" n="70"/>bus est magna controversia, an ignorantia
+          <lb ed="#P" n="71"/>censurae excuset illam, quam tractavi in tom.
+          <lb ed="#P" n="72"/>5, disp. 4, section. 9, et dixi admittendam esse
+          <lb ed="#P" n="73"/>exceptionem : nam ratione contumaciae 
+          requi<lb break="no" ed="#P" n="74"/>sitae est ibi specialis ratio. Denique 
+          intelligen<lb break="no" ed="#P" n="75"/>dum hoc est per se, ac praecise ; nam, si 
+          igno<lb break="no" ed="#P" n="76"/>rantia poenae redundet in ignorantiam 
+          obli<lb break="no" ed="#P" n="77"/>gationis legis, quia nimirum existimat talis
+          <lb ed="#P" n="78"/>persona, legem non imponentem poenam 
+          gra<lb break="no" ed="#P" n="79"/>vem, non inducere gravem obligationem, tunc
+          <lb ed="#P" n="80"/>jam illa ignorantia excusare posset culpam, et
+          <lb ed="#P" n="81"/>consequenter poenam.
+        </p>
+        <p xml:id="szdleg-b18583-d1e1006">
+          <lb ed="#P" n="82"/>12. Dicti autem jurisperiti in hoc 
+          differen<lb break="no" ed="#P" n="83"/>tiam faciunt inter legem punientem actum jam
+          <lb ed="#P" n="84"/>damnatum, et legem de novo damnantem et
+          <lb ed="#P" n="85"/>punientem actum, ut doctrina data procedat
+          <lb ed="#P" n="86"/>in priori, non in posteriori; sed non est 
+          ne<lb break="no" ed="#P" n="87"/>cessaria distinctio, quia in utroque causa 
+          igno<lb break="no" ed="#P" n="88"/>rantia solius poenae non excusat illam, extra
+          <lb ed="#P" n="89"/>censuras. Quia, licet lex puniat factum alias
+          <lb ed="#P" n="90"/>damnatum, nihilominus punit illum ut 
+          culpa<lb break="no" ed="#P" n="91"/>bilem simpliciter : sed haec culpa non 
+          excusa<lb break="no" ed="#P" n="92"/>tur per ignorantiam solius legis punientis ; ergo
+          <lb ed="#P" n="93"/>nec poena. Item si eadem lex prohibet actum
+          <lb ed="#P" n="94"/>alias non damnatum, et simul punit illum, qui
+          <lb ed="#P" n="95"/>committit illum actum ut damnatum per 
+          ta<lb break="no" ed="#P" n="96"/>lem legem, quam ut prohibentem non ignorat,
+          <lb ed="#P" n="97"/>incurrit poenam ejus, licet ignoret eamdem
+          <lb ed="#P" n="98"/>legem ui punientem, sicut dictum est; ergo
+          <lb ed="#P" n="99"/>idem erit etiamsi actus damnetur per aliam
+          <lb ed="#P" n="100"/>legem, si talis damnatio et malitia actus non
+          <lb ed="#P" n="101"/>ignoratur. Patet consequentia, quia valde 
+          ac<lb break="no" ed="#P" n="102"/>cidentarium, et per accidens esse videtur, quod
+          <lb ed="#P" n="103"/>damnatio et punitio fiant per eamdem legem,
+          <lb ed="#P" n="104"/>vel per diversas, quia lex non punii culpam
+          <lb ed="#P" n="105"/>praecise, et quasi formaliter, ut a se 
+          prohibi<lb break="no" ed="#P" n="106"/>tam, seu ut est contra suam prohibitionem,
+          <lb ed="#P" n="107"/>sed absolute punit talem culpam. Sicut modo
+          <lb ed="#P" n="108"/>dicebamus de lege puniente furtum, et idem
+          <lb ed="#P" n="109"/>est de lege puniente simoniam contra jus 
+          di<lb break="no" ed="#P" n="110"/>vinum ; nam incurritur, licet quis ignoret poe-
+          <pb ed="#P" n="473"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nam, vel prohibitionem juris humani. 
+          Eadem<lb break="no" ed="#P" n="2"/>que ratio est de similibus. Nec video 
+          objectio<lb break="no" ed="#P" n="3"/>nem alicujus momenti, et ita docet Panormit.
+          <lb ed="#P" n="4"/>in cap. A nobis, de Sententia excommunicat.,
+          <lb ed="#P" n="5"/>et latius Deci.,in dicto cap. secundo de Const.,
+          <lb ed="#P" n="6"/>lect. 1, numero decimo tertio, et alii multi,
+          <lb ed="#P" n="7"/>quos Felin. supra refert. Neque etiam oportet
+          <lb ed="#P" n="8"/>distinguere inter poenam latam ipso facto per
+          <lb ed="#P" n="9"/>legem, vel per judicem imponendam, licet ita
+          <lb ed="#P" n="10"/>distinguant Bart. et alii, prout refert idem
+          <lb ed="#P" n="11"/>Felin., dicentes poenam lege latam ipso jure
+          <lb ed="#P" n="12"/>excusari per illius ignorantiam, non vero 
+          fe<lb break="no" ed="#P" n="13"/>rendam. Haec enim distinctio nec jure, nec
+          <lb ed="#P" n="14"/>ratione fundatur. Rationes enim a nobis factae
+          <lb ed="#P" n="15"/>generaliter procedunt, et probant poenam 
+          sim<lb break="no" ed="#P" n="16"/>pliciter latam, simpliciter etiam incurri, non
+          <lb ed="#P" n="17"/>obstante ignorantia poenae, quia haec non 
+          ex<lb break="no" ed="#P" n="18"/>cusat causam poenae, et ita non potest excusare
+          <lb ed="#P" n="19"/>poenam, vel poenae reatum.
+        </p>
+        <p xml:id="szdleg-b18583-d1e1117">
+          <lb ed="#P" n="20"/>13. Secunda pars assertionis posita est 
+          pro<lb break="no" ed="#P" n="21"/>pter quasdam leges, quae expresse addunt 
+          ver<lb break="no" ed="#P" n="22"/>bum scienter, aut presumpserit, aut qui temere
+          <lb ed="#P" n="23"/>hoc fecerit, vel aliud aequivalens, quod dolum
+          <lb ed="#P" n="24"/>requirit, ut juristae loquuntur. De quibus 
+          le<lb break="no" ed="#P" n="25"/>gibus dixit Glossa citata cap. ult. de Offic. 
+          de<lb break="no" ed="#P" n="26"/>legati, verb. Scientes, non obstante tali forma
+          <lb ed="#P" n="27"/>legis, incurrere poenam ejus, qui ex ignorantia
+          <lb ed="#P" n="28"/>crassa illam violat. Idem tenet Gloss. in cap.1
+          <lb ed="#P" n="29"/>de Consanguin. et affinit., verb. Scienter, quas
+          <lb ed="#P" n="30"/>secuti sunt multi, quos refert Tiraq. in dicto
+          <lb ed="#P" n="31"/>tract. de Poenis temperandis, causa 13, n. 22.
+          <lb ed="#P" n="32"/>Fundantur in dicta l. 1, ff. Si mensor falsum
+          <lb ed="#P" n="33"/>modum dixerit, quae dicit, ignorantiam 
+          cras<lb break="no" ed="#P" n="34"/>sam aequiparari dolo; et ratio esse potest,
+          <lb ed="#P" n="35"/>quia non excusat culpam gravem contra talem
+          <lb ed="#P" n="36"/>legem.
+        </p>
+        <p xml:id="szdleg-b18583-d1e1156">
+          <lb ed="#P" n="37"/>14. Sed nihilominus assertio posita certa
+          <lb ed="#P" n="38"/>est, et pro materia de censuris necessaria,
+          <lb ed="#P" n="39"/>quam ibi sequuntur communiter doctores,
+          <lb ed="#P" n="40"/>praesertim Cajet., verb. Facommunicatio, 
+          ex<lb break="no" ed="#P" n="41"/>plicando fere singulas excommunicationes, et
+          <lb ed="#P" n="42"/>Navar. in Sum., cap. 27; et dixi late in t. 5,
+          <lb ed="#P" n="43"/>disp. 4, sect. 3, a num. 9, et sequitur Tiraq.,
+          <lb ed="#P" n="44"/>supra n. 23 et sequent.referendo plures. Ratio
+          <lb ed="#P" n="45"/>autem est, quia poenae, ut in jure dicitur, 
+          le<lb break="no" ed="#P" n="46"/>niendae sunt potius quam exaggerandae, cap.
+          <lb ed="#P" n="47"/>Pona, de Poenit., dist. 1, et l. Penc, ff. de
+          <lb ed="#P" n="48"/>Poenis ; sed quando lex addit talia verba, 
+          ipsa<lb break="no" ed="#P" n="49"/>met moderatur poenam, nec vult illam incurri,
+          <lb ed="#P" n="50"/>nisi quando peccatum habet talem 
+          circum<lb break="no" ed="#P" n="51"/>stantiam ; ergo non est extendenda, ut sine
+          <lb ed="#P" n="52"/>illa circumstantia incurratur. Et confirmatur,
+          <lb ed="#P" n="53"/>quia paulo superius dixi, quamvis ignorantia
+          <lb ed="#P" n="54"/>non excuset culpam mortalem, si excuset 
+          mo<lb break="no" ed="#P" n="55"/>dum, aut circumstantiam, aut speciem peccati,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quam lex respicit, satis esse ut excuset 
+          poe<lb break="no" ed="#P" n="57"/>nam, quia revera tollit causam ejus ; ita vero
+          <lb ed="#P" n="58"/>est in praesenti : nam peccare ex certa 
+          scien<lb break="no" ed="#P" n="59"/>tia est circumstantia quae multum aggravat
+          <lb ed="#P" n="60"/>culpam et injuriam, quam gravitatem respicit
+          <lb ed="#P" n="61"/>lex, quando similia verba addit; ignorantia
+          <lb ed="#P" n="62"/>autem, licet sit crassa, excusat illam 
+          gravita<lb break="no" ed="#P" n="63"/>tem, esto non excuset culpam mortalem ; 
+          er<lb break="no" ed="#P" n="64"/>go id satis est ut excuset poenam talis legis.
+        </p>
+        <p xml:id="szdleg-b18583-d1e1222">
+          <lb ed="#P" n="65"/>15. Atque ita patet responsio ad rationem
+          <lb ed="#P" n="66"/>in contrarium. Nam, licet talis ighnorantia non
+          <lb ed="#P" n="67"/>excuset absolutam gravitatem peccati, excusat
+          <lb ed="#P" n="68"/>nihilominus ab illo modo gravitatis peccati,
+          <lb ed="#P" n="69"/>sine quo noluit lex peccatum punire, ut verba
+          <lb ed="#P" n="70"/>dicta significant. Ad dictam autem l. 1 
+          res<lb break="no" ed="#P" n="71"/>pondetur spectando rem ipsam, et in 
+          conscien<lb break="no" ed="#P" n="72"/>tia, et quoad gravitatem culpae, solam 
+          igno<lb break="no" ed="#P" n="73"/>rantiam affectatam aequiparari scientiae, quia
+          <lb ed="#P" n="74"/>solailla voluntarium directum includit, ut bene
+          <lb ed="#P" n="75"/>notavit Glos. ex textu satis expresso in c. Fos,
+          <lb ed="#P" n="76"/>de Tempor. ordin., in 6. Quin potius non 
+          de<lb break="no" ed="#P" n="77"/>fuerunt, qui dixerint, etiam ignorantiam 
+          af<lb break="no" ed="#P" n="78"/>fectatam sufficere ad excusandam in simili 
+          ca<lb break="no" ed="#P" n="79"/>su poenam legis, quia est minor quam scientia,
+          <lb ed="#P" n="80"/>argumento cap. Cun inhibitio, S 1 de Cland.
+          <lb ed="#P" n="81"/>despons., ibi: NVon eapertes scientice, vel 
+          sal<lb break="no" ed="#P" n="82"/>tem affectatores ignorantie. Quod sensit Crotus
+          <lb ed="#P" n="83"/>in cap. Ut animarum, de Const., in 6. Sed
+          <lb ed="#P" n="84"/>revera ignorantia affectata in jure 
+          aequipara<lb break="no" ed="#P" n="85"/>tur scientiae, quia et sufficit ad directam 
+          inten<lb break="no" ed="#P" n="86"/>tionem, temeritatem, et praesumptionem : et
+          <lb ed="#P" n="87"/>includit scientiam saltem periculi et 
+          dubita<lb break="no" ed="#P" n="88"/>tionis, et hac ratione quodammodo videri 
+          po<lb break="no" ed="#P" n="89"/>test potius augere culpam quam minuere, ut
+          <lb ed="#P" n="90"/>in 1. 21latius traditur. Seclusa ergo ignorantia
+          <lb ed="#P" n="91"/>affectata, alia crassa et negligens non 
+          aequi<lb break="no" ed="#P" n="92"/>paratur scientise. Illa vero lex 1 intelligenda
+          <lb ed="#P" n="93"/>est de aequiparatione non in culpa, vel poena,
+          <lb ed="#P" n="94"/>sed in obligatione ad reparandum damnum
+          <lb ed="#P" n="95"/>inde subsecutum : nam qui negligenter, vel
+          <lb ed="#P" n="96"/>ignoranter crasse exercet ministerium suum,
+          <lb ed="#P" n="97"/>tenetur restituere damna secuta, non minus
+          <lb ed="#P" n="98"/>quam si certa scientia fecisset. Quod ita bene
+          <lb ed="#P" n="99"/>explicuit alia Glossa in l. In actionibus, verb.
+          <lb ed="#P" n="100"/>Non etiam, ff. de In litem jurando. Possunt
+          <lb ed="#P" n="101"/>etiam aequiparari in poena imposita ipso jure,
+          <lb ed="#P" n="102"/>quando lex non addit particulam scienter , vel
+          <lb ed="#P" n="103"/>similes, sed simpliciter punit transgressores ;
+          <lb ed="#P" n="104"/>at vero quando addit particulam scienter, nullo
+          <lb ed="#P" n="105"/>modo aequiparantur, nec incurritur talis poena
+          <lb ed="#P" n="106"/>propter actum ex ignorantia crassa factum, ut
+          <lb ed="#P" n="107"/>dictum est.
+        </p>
+        <p xml:id="szdleg-b18583-d1e1318">
+          <lb ed="#P" n="108"/>16. Ignoranltia excusans peccatum mortale,
+          <lb ed="#P" n="109"/>excusat a pana graci legis. — Tertia et ultima
+          <lb ed="#P" n="110"/>regula est: ignorantia quae excusat culpam
+          <pb ed="#P" n="474"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mortalem, licet non excuset culpam vcnialem,
+          <lb ed="#P" n="2"/>excusata poena gravi legis. Ita sentit Soto, l. 5,
+          <lb ed="#P" n="3"/>de Just., q. 1, a. 9, ad finem: Med., c. dePoen.,
+          <lb ed="#P" n="4"/>tract. de Jejun., quaest. de Necessitate servandi
+          <lb ed="#P" n="5"/>jejunium. hRatio est, quia talis ignorantia vere
+          <lb ed="#P" n="6"/>tollit causam et fundamentum talis poenae,
+          <lb ed="#P" n="7"/>quia poena gravis non solet imponi per leges
+          <lb ed="#P" n="8"/>humanas, nisi propter culpam mortalem, ut
+          <lb ed="#P" n="9"/>supra dictum est. Unde hic potest a fortiori
+          <lb ed="#P" n="10"/>applicari illud principium, quod ignorantia,
+          <lb ed="#P" n="11"/>excusans circumstantiam quam respicit lex,
+          <lb ed="#P" n="12"/>excusat poenam, etsi maneat culpa mortalis:
+          <lb ed="#P" n="13"/>nam multo magis excusabit, si maneat tantum
+          <lb ed="#P" n="14"/>culpa venialis, quia leges humanae non solent
+          <lb ed="#P" n="15"/>ita punire veniales culpas, praesertim illas quae
+          <lb ed="#P" n="16"/>non fiunt directa voluntate, quales sunt illae
+          <lb ed="#P" n="17"/>quae fiunt ex tali ignorantia : unde talis actus
+          <lb ed="#P" n="18"/>imperfecte voluntarius et humanus dici 
+          po<lb break="no" ed="#P" n="19"/>test : merito ergo excusatur sic delinquens a
+          <lb ed="#P" n="20"/>tali poena. Secus vero esset si poena esset levis,
+          <lb ed="#P" n="21"/>quae juste in culpam venialem cadere possit :
+          <lb ed="#P" n="22"/>nam tunc verba legis servanda sunt. Inde vero
+          <lb ed="#P" n="23"/>oriri poterant variae quaestiones de censuris et
+          <lb ed="#P" n="24"/>irregularitatibus, an propter veniales 
+          negli<lb break="no" ed="#P" n="25"/>gentias incurrantur. Sed illae in locis propriis
+          <lb ed="#P" n="26"/>tractatae sunt. Supererat hoc loco dicendum de
+          <lb ed="#P" n="27"/>interpretatione stricta legis poenalis, sed hoc
+          <lb ed="#P" n="28"/>reservamus in libr. 6, ubi de interpretatione
+          <lb ed="#P" n="29"/>legis humanae dicemus. Reliquum ergo est ut
+          <lb ed="#P" n="30"/>ad alias onerosas leges transeamus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

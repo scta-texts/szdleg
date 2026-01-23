@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 16</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 16</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="153"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a39114"><!-- deleg-l2c16 -->
+        <head xml:id="szdleg-a39114-Hd1e101">Caput 16</head>
+        <head xml:id="szdleg-a39114-Hd1e103" type="question-title">Utrum circa legem naturalem habeat locum epiikia, vel interpretatio sive a deo, sive ab homine facta</head>
+        <p xml:id="szdleg-a39114-d1e106">
+          <lb ed="#P" n="49"/>CAPUT XXVI.
+          <lb ed="#P" n="50"/>UTRUM CIRCA LEGEM NATURALEM HABEAT LOCUM
+          <lb ed="#P" n="51"/>EPIIKIA, VEL INTERPRETATIO SIVE A DEO, SIVE
+          <lb ed="#P" n="52"/>AB HOMINE FACTA.
+        </p>
+        <p xml:id="szdleg-a39114-d1e117">
+          <lb ed="#P" n="53"/>1. Legem naturalem posse recipere interpre-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>tationem supponitur communiter inter auctores.
+          <lb ed="#P" n="55"/>— Duo in hoc titulo petuntur, unum est, an
+          <lb ed="#P" n="56"/>circa naturalem legem habeat locum epiikia;
+          <lb ed="#P" n="57"/>aliud est, si locum habet, an a solo Deo vel ab
+          <lb ed="#P" n="58"/>hominibus etiam fieri possit. In primo puncto
+          <lb ed="#P" n="59"/>fere omnes auctores convenire videntur, legem
+          <lb ed="#P" n="60"/>naturalem posse recipere interpretationem per
+          <lb ed="#P" n="61"/>epiikiam, ut ex statim allegandis constabit.
+          <lb ed="#P" n="62"/>Dissentiunt tamen : nam quidam dicunt hanc
+          <lb ed="#P" n="63"/>epiikiam lege naturali a solo Deo fieri posse.
+          <lb ed="#P" n="64"/>Tribuitur D. Thomae in 4, dist. 33, q. 1, a. 2,
+          <lb ed="#P" n="65"/>ubi loquitur in particulari de lege naturali
+          <lb ed="#P" n="66"/>prohibente pluralitatem uxorum: tamen ibi
+          <lb ed="#P" n="67"/>nomine dispensationis utitur ; et eodem modo
+          <lb ed="#P" n="68"/>ibi Richardus, art. 1, q. 1, Paludanus, 
+          Sup<lb break="no" ed="#P" n="69"/>plementum Gabrielis et alii ibidem in eodem
+          <lb ed="#P" n="70"/>casu utuntur nomine dispensationis. Sicut
+          <lb ed="#P" n="71"/>etiam multi theologi (ut in libro 6 de Voto
+          <lb ed="#P" n="72"/>notavimus) legis interpretationem in casibus
+          <lb ed="#P" n="73"/>obscuris dispensationem vocant. Et juxta dicta
+          <lb ed="#P" n="74"/>videtur necessaria haec expositio, quia rigorosa
+          <lb ed="#P" n="75"/>dispensatio non cadit in legem naturalem, ut
+          <lb ed="#P" n="76"/>ostensum est : ergo si aliqua videtur fieri, esse
+          <lb ed="#P" n="77"/>debet per modum interpretationis. Haec autem
+          <lb ed="#P" n="78"/>videtur moraliter necessaria, quia lex 
+          natura<lb break="no" ed="#P" n="79"/>lis quoad aliqua praecepta magis remota a 
+          pri<lb break="no" ed="#P" n="80"/>mis principiis, versatur cirea materiam 
+          muta<lb break="no" ed="#P" n="81"/>bilem et quae in multis casibus potest deficere,
+          <lb ed="#P" n="82"/>ut Aristoteles dixit 5 Ethicor., cap. 7 et 12:
+          <lb ed="#P" n="83"/>ergo in illa est etiam necessaria epiikia, quia
+          <lb ed="#P" n="84"/>alias saepe esset injusta. Quod autem haec 
+          per<lb break="no" ed="#P" n="85"/>tineat ad solum DEUM, probatur quia ejus est
+          <lb ed="#P" n="86"/>interpretari legem cujus est condere.
+        </p>
+        <p xml:id="szdleg-a39114-d1e195">
+          <lb ed="#P" n="87"/>2. Opinio asserentium epiikiam cadere posse
+          <lb ed="#P" n="88"/>in lege naturali, et ab homine interdum fieri.
+          <lb ed="#P" n="89"/>— Aliorum vero opinio est epiikiam et cadere
+          <lb ed="#P" n="90"/>posse in legem naturae et ab homine interdum
+          <lb ed="#P" n="91"/>fieri, ut a Papa vel alio simili potestatem 
+          ha<lb break="no" ed="#P" n="92"/>bente. Utrumque sentit Cajetanus 2. 2, q. 120,
+          <lb ed="#P" n="93"/>art. 1, licet primum expressius. Et idem tenet
+          <lb ed="#P" n="94"/>Soto libro 1 de Justit., q. 7, art. 3, ad 3, et
+          <lb ed="#P" n="95"/>libro 10, q. 3, articulo 4. Idem late Navar.,
+          <lb ed="#P" n="96"/>consil. 4 de Despons. impub., n. 16 et 17, 
+          va<lb break="no" ed="#P" n="97"/>ria adducens exempla, ubi etiam refert Covar.
+          <lb ed="#P" n="98"/>in 4, 2 part., cap. 6, S 9. Idem Felin. 
+          refe<lb break="no" ed="#P" n="99"/>rens alios in capite Que in BHcclesiarum de
+          <lb ed="#P" n="100"/>Constitut., n. 26. Et omnes quos in cap. 14
+          <lb ed="#P" n="101"/>allegavimus, qui dicunt posse homines 
+          dispen<lb break="no" ed="#P" n="102"/>sare in lege naturali, a fortiori possunt pro
+          <lb ed="#P" n="103"/>hac sententia allegari: ratio vero est, quia
+          <lb ed="#P" n="104"/>haec interpretatio seu epiikia saepe est 
+          morali<lb break="no" ed="#P" n="105"/>ter necessaria, ut proxime ostensum est: ergo
+          <lb ed="#P" n="106"/>non est verisimile eam sibi Deum reservasse,
+          <lb ed="#P" n="107"/>sed hominibus quos suos ministros constituit
+          <lb ed="#P" n="108"/>commisisse. Probatur consequentia, quia alias
+          <pb ed="#P" n="154"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>multum defuisset Deus hominibus in 
+          necessa<lb break="no" ed="#P" n="2"/>riis, quod non est providentiae ipsius 
+          consen<lb break="no" ed="#P" n="3"/>taneum. Sequela patet, quia recursus ad Deum
+          <lb ed="#P" n="4"/>ipsum immediate non est homini possibilis,
+          <lb ed="#P" n="5"/>neque est consentaneus ordini naturah: ergo
+          <lb ed="#P" n="6"/>si in occasionibus occurrentibus nen esset in
+          <lb ed="#P" n="7"/>hominibus potestas ad interpretandum jus 
+          na<lb break="no" ed="#P" n="8"/>turale, etiam praeter verba ejus, si causa id
+          <lb ed="#P" n="9"/>postulet, homines essent perplexi, et miraculo
+          <lb ed="#P" n="10"/>esset opus vel speciali revelatione divina ad
+          <lb ed="#P" n="11"/>dirigendas suas operationes, quod repugnat
+          <lb ed="#P" n="12"/>omni prudenti providentiae. Sicut inter 
+          homi<lb break="no" ed="#P" n="13"/>nes repugnaret principem 1ita reservare sibi
+          <lb ed="#P" n="14"/>interpretationem suarum legum, ut in nullo
+          <lb ed="#P" n="15"/>casu, etiam quando esset impossibilis recursus
+          <lb ed="#P" n="16"/>ad ipsum principem, possent ministri ejus 
+          le<lb break="no" ed="#P" n="17"/>cem interpretari.
+        </p>
+        <p xml:id="szdleg-a39114-d1e287">
+          <lb ed="#P" n="18"/>3. Alia opinio asserens legem naturalem
+          <lb ed="#P" n="19"/>epiikia esse incapacem. — Nihilominus esse
+          <lb ed="#P" n="20"/>potest tertia opinio, quae in priori puncto 
+          ne<lb break="no" ed="#P" n="21"/>cat legem naturalem esse capacem epikiae ,
+          <lb ed="#P" n="22"/>et consequenter tollit fundamentum 
+          posterio<lb break="no" ed="#P" n="23"/>ris dubii : nam ex hoc principio sequitur 
+          ne<lb break="no" ed="#P" n="24"/>que Deum ipsum posse per veram et propriam
+          <lb ed="#P" n="25"/>epiikiam casumaliquem excipere alege 
+          natura<lb break="no" ed="#P" n="26"/>li. Quia si lex ipsa naturalis non est capax talis
+          <lb ed="#P" n="27"/>interpretationis, nihil mirum est quod neca
+          <lb ed="#P" n="28"/>Deo fieri possit. Igitur primum illud 
+          funda<lb break="no" ed="#P" n="29"/>mentum probari videtur ex dictis de 
+          dispensa<lb break="no" ed="#P" n="30"/>tione : nam qua ratione non potest in legem
+          <lb ed="#P" n="31"/>cadere dispensatio, eadem neque hujusmodi 
+          in<lb break="no" ed="#P" n="32"/>terpretatio. Probatur, quia ideointalia 
+          praecep<lb break="no" ed="#P" n="33"/>ta non cadit dispensatio, quia continent 
+          intrin<lb break="no" ed="#P" n="34"/>secam rationem justitiae, seu debiti honestatis:
+          <lb ed="#P" n="35"/>vel (quod perinde est) quia praecepta hujus 
+          le<lb break="no" ed="#P" n="36"/>gis sunt quaedam propositiones necessarise,
+          <lb ed="#P" n="37"/>quae per necessariam consequentiam ex 
+          prin<lb break="no" ed="#P" n="38"/>cipiis naturalibus inferuntur : sed hujusmodi
+          <lb ed="#P" n="39"/>propositiones in nullo individuo possunt 
+          defi<lb break="no" ed="#P" n="40"/>cere, aut esse falsae; ergo non potest per 
+          ali<lb break="no" ed="#P" n="41"/>quam interpretationem fieri ut liceat facere
+          <lb ed="#P" n="42"/>quod per illa prohibetur , quia est intrinsece
+          <lb ed="#P" n="43"/>malum, neque ut liceat omittere quod per illa
+          <lb ed="#P" n="44"/>praecipitur, quia est per se necessarium ad 
+          ho<lb break="no" ed="#P" n="45"/>nestatem. Et quia alias pro illo casu in quo
+          <lb ed="#P" n="46"/>fieret talis interpretatio , inveniretur falsum
+          <lb ed="#P" n="47"/>esse id quod lex naturalis dictat, quod 
+          impos<lb break="no" ed="#P" n="48"/>sibile est, ut diximus.
+        </p>
+        <p xml:id="szdleg-a39114-d1e357">
+          <lb ed="#P" n="49"/>4. Fertur judicium de opinionibus, et 
+          poste<lb break="no" ed="#P" n="50"/>rior eligitur et euplicatur. — Quae distinctio sit
+          <lb ed="#P" n="51"/>inter epiihium et interpretationem. — Atque
+          <lb ed="#P" n="52"/>haec ultima sententia, quantum attinet ad 
+          pro<lb break="no" ed="#P" n="53"/>priam epiikiam, in rigore mihi vera videtur:
+          <lb ed="#P" n="54"/>ut autem aliorum auctorum dicta intelligantur
+          <lb ed="#P" n="55"/>et res tota magis explicetur, oportet distin-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>guere inter legis interpretationem et propriam
+          <lb ed="#P" n="57"/>epiikiam seu aequitatem : multo enim latius
+          <lb ed="#P" n="58"/>patet interpretatio legis quam epiikia; 
+          compa<lb break="no" ed="#P" n="59"/>rantur enim tanquam superius et inferius:
+          <lb ed="#P" n="60"/>omnis enim epikia est legis interpretatio: non
+          <lb ed="#P" n="61"/>vero e converso omnis interpretatio legis est
+          <lb ed="#P" n="62"/>epiikia. Notavit distinctionem hanc Cajetanus
+          <lb ed="#P" n="63"/>dicta q. 120, art. 1, ubi ait, seepe vel potius
+          <lb ed="#P" n="64"/>semper leges indigere interpretatione propter
+          <lb ed="#P" n="65"/>verborum obscuritatem , vel ambiguitatem ,
+          <lb ed="#P" n="66"/>aut aliam similem causam ; non tamen 
+          om<lb break="no" ed="#P" n="67"/>nem hujusmodi interpretationem esse 
+          epii<lb break="no" ed="#P" n="68"/>kiam, sed illam solum per quam interpretamur
+          <lb ed="#P" n="69"/>legem deficere in aliquo particulari propter
+          <lb ed="#P" n="70"/>universale, id est, quia lex universaliter lata
+          <lb ed="#P" n="71"/>est, et in aliquo particulari ita deficit, ut juste
+          <lb ed="#P" n="72"/>in illo servari non possit. Hoc ipsum sumitur
+          <lb ed="#P" n="73"/>ex Aristotele 5 Ethic., cap. 10; in hoc enim
+          <lb ed="#P" n="74"/>sensu dicit epiikiam esse emendationem justi
+          <lb ed="#P" n="75"/>legalis, quia interpretatur legem non esse
+          <lb ed="#P" n="76"/>servandam in casu in quo esset error practicus
+          <lb ed="#P" n="77"/>illam servare, et contra justi:iam vel 
+          aequita<lb break="no" ed="#P" n="78"/>tem naturalem ; et ideo dicitur esse 
+          emenda<lb break="no" ed="#P" n="79"/>tio legis. At vero possunt esse aliae 
+          interpreta<lb break="no" ed="#P" n="80"/>tiones legum, quae non pertinent ad 
+          emenda<lb break="no" ed="#P" n="81"/>tionem earum, sed solum ad explicandum 
+          sen<lb break="no" ed="#P" n="82"/>sum earum in his quae habent ambiguitatem ,
+          <lb ed="#P" n="83"/>ut verbi gratia, quando interpretamur an lex
+          <lb ed="#P" n="84"/>prohibeat contractum vel irritet illum, 
+          nul<lb break="no" ed="#P" n="85"/>lam legis emendationem facimus, sed verum
+          <lb ed="#P" n="86"/>sensum ejus inquirimus. Ita ergo differunt 
+          in<lb break="no" ed="#P" n="87"/>terpretatio in genere, vel ut fit per epiikiam.
+        </p>
+        <p xml:id="szdleg-a39114-d1e446">
+          <lb ed="#P" n="88"/>5. Deinde advertendum est legem 
+          natura<lb break="no" ed="#P" n="89"/>lem dupliciter spectari posse ; uno modo 
+          se<lb break="no" ed="#P" n="90"/>cundum se, alio prout ferri contingit per 
+          ali<lb break="no" ed="#P" n="91"/>quam legem positivam. Lex enim positiva,
+          <lb ed="#P" n="92"/>seu scripta , ut Cajetanus etiam dicto loco 
+          no<lb break="no" ed="#P" n="93"/>tat, quaedam est constitutiva novi juris, et haec
+          <lb ed="#P" n="94"/>est stricte positiva sive divina, sive humana:
+          <lb ed="#P" n="95"/>alia vero est solum declarativa, vel (ut sic 
+          di<lb break="no" ed="#P" n="96"/>cam) recordativa juris naturalis, ut fuerunt
+          <lb ed="#P" n="97"/>praecepta moralia Decalogi in lege veteri, et
+          <lb ed="#P" n="98"/>sunt leges humanae quae naturalem justitiam
+          <lb ed="#P" n="99"/>continent, ut quod depositum reddatur, 
+          pro<lb break="no" ed="#P" n="100"/>missum solvatur, uxor a viro non separetur,
+          <lb ed="#P" n="101"/>et similia. Aliqua vero sunt praecepta 
+          natura<lb break="no" ed="#P" n="102"/>lia quae non praescribuntur aliqua lege positiva,
+          <lb ed="#P" n="103"/>ut vitandam esse simpliciter fornicationem,
+          <lb ed="#P" n="104"/>quia lex humana non omnia declarat aut
+          <lb ed="#P" n="105"/>praecipit. Sic ergo lex naturalis spectari 
+          po<lb break="no" ed="#P" n="106"/>test vel secundum se, prout recta ratione 
+          con<lb break="no" ed="#P" n="107"/>cipitur, vel dictatur ; vel prout exprimitur
+          <lb ed="#P" n="108"/>aliquibus certis verbis per aliquam legem
+          <lb ed="#P" n="109"/>scriptam.
+        </p>
+        <p xml:id="szdleg-a39114-d1e496">
+          <lb ed="#P" n="110"/>6. Prima assertio. — Multa praecepta na-
+          <pb ed="#P" n="155"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>turalia interpretatione et declaratione sepe 
+          in<lb break="no" ed="#P" n="2"/>digere. — Dico ergo primo: Multa praecepta
+          <lb ed="#P" n="3"/>naturalia indigent multa declaratione et 
+          inter<lb break="no" ed="#P" n="4"/>pretatione ad verum sensum uniuscujusque 
+          sta<lb break="no" ed="#P" n="5"/>tuendum. Haec assertio intelligi potest de lege
+          <lb ed="#P" n="6"/>naturali, tam secundum se quam prout scripta
+          <lb ed="#P" n="7"/>in aliqua lege positiva, et utroque modo 
+          ma<lb break="no" ed="#P" n="8"/>nifesta est. Probaturque primo inductione :
+          <lb ed="#P" n="9"/>nam in praecepto, verbi gratia, vitandi 
+          homi<lb break="no" ed="#P" n="10"/>cidium , interpretatio maxime necessaria est
+          <lb ed="#P" n="11"/>ad intelligendum quid nomine homicidii ibi
+          <lb ed="#P" n="12"/>significetur, quia non quaelibet occisio hominis
+          <lb ed="#P" n="13"/>est homicidium prohibitum lege naturali, sed
+          <lb ed="#P" n="14"/>illa quae fit privata auctoritate, et per se, seu ex
+          <lb ed="#P" n="15"/>instituto, aut per modum agressionis; non vero
+          <lb ed="#P" n="16"/>quae fit legitima auctoritate , vel per 
+          mo<lb break="no" ed="#P" n="17"/>dum causoe defensionis. Ita in praecepto 
+          sol<lb break="no" ed="#P" n="18"/>vendi votum Deo factum, interpretamur 
+          in<lb break="no" ed="#P" n="19"/>telligendum esse de voto juxta intentionem
+          <lb ed="#P" n="20"/>voventis , ideoque non obligare in casibus sub
+          <lb ed="#P" n="21"/>ejus mente ac intentione non comprehensis; et
+          <lb ed="#P" n="22"/>sic de aliis quae statim proponemus : ratio
+          <lb ed="#P" n="23"/>vero est, quia non omnia praecepta naturalia
+          <lb ed="#P" n="24"/>sunt aeque nota nec aeque facilia ad 
+          intelligen<lb break="no" ed="#P" n="25"/>dum, et indigent interpretatione propter 
+          ve<lb break="no" ed="#P" n="26"/>rum sensum eorum intelligendum absque
+          <lb ed="#P" n="27"/>aliqua diminutione vel additione. Item potest
+          <lb ed="#P" n="28"/>declarari, quia actus humani in honestate et
+          <lb ed="#P" n="29"/>malitia multum pendent ex circumstantiis et
+          <lb ed="#P" n="30"/>opportunitatibus operandi, et in hoc est magna
+          <lb ed="#P" n="31"/>varietas inter illos : quidam enim sunt aliis
+          <lb ed="#P" n="32"/>simpliciores (ut sic dicam) et pauciores 
+          condi<lb break="no" ed="#P" n="33"/>tiones requirunt, ut eorum bonitas vel malitia
+          <lb ed="#P" n="34"/>insurgat : lex autem naturalis secundum se
+          <lb ed="#P" n="35"/>spectata non praecipit actum nisi ut illum 
+          bo<lb break="no" ed="#P" n="36"/>num esse supponit , nec prohibet nisi prout
+          <lb ed="#P" n="37"/>supponit intrinsece malum , et ideo ad 
+          intelli<lb break="no" ed="#P" n="38"/>gendum verum sensum naturalis praecepti,
+          <lb ed="#P" n="39"/>necesse est inquirere conditiones et 
+          circum<lb break="no" ed="#P" n="40"/>stantias cum quibus actus ille secundum se 
+          ma<lb break="no" ed="#P" n="41"/>lus est vel bonus, et haec vocatur interpretatio
+          <lb ed="#P" n="42"/>praecepti naturalis quoad verum sensum ejus.
+          <lb ed="#P" n="43"/>Unde constat hanc interpretationem 
+          homini<lb break="no" ed="#P" n="44"/>bus seu pro homiuibus esse necessariam: Deus
+          <lb ed="#P" n="45"/>enim vel Angeli perse non indigent 
+          interpre<lb break="no" ed="#P" n="46"/>tatione, sed directe intuentur quale sit 
+          unum<lb break="no" ed="#P" n="47"/>quodque praeceptum, et quomodo et cum 
+          qui<lb break="no" ed="#P" n="48"/>bus conditionibus circa suam materiam 
+          verse<lb break="no" ed="#P" n="49"/>tur. Constat etiam hanc interpretationem fieri
+          <lb ed="#P" n="50"/>posse et debere non tantum a Deo, sed etiam
+          <lb ed="#P" n="51"/>ab homine, quia ipse homo est qui debet 
+          in<lb break="no" ed="#P" n="52"/>quirere et intelligere verum sensum legis 
+          na<lb break="no" ed="#P" n="53"/>turalis ; et, si per se non potest id assequi,
+          <lb ed="#P" n="54"/>debet ab aliis discere, quod saepe fieri potest
+          <lb ed="#P" n="55"/>per solam doctrinam sine potestate jurisdictio-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nis. Quomodo autem haec interpretatio 
+          inter<lb break="no" ed="#P" n="57"/>dum pertineat ad auctoritatem superioris 
+          sta<lb break="no" ed="#P" n="58"/>tim dicam.
+        </p>
+        <p xml:id="szdleg-a39114-d1e633">
+          <lb ed="#P" n="59"/>7. Secunda assertio. — Propria epiikia nil
+          <lb ed="#P" n="60"/>habet locum in lege naturali, ut naturalis est.
+          <lb ed="#P" n="61"/>—Confirmatur doctrina varia ememplorum 
+          in<lb break="no" ed="#P" n="62"/>ductione, ac emplicatur.—Nihilominus dico 
+          se<lb break="no" ed="#P" n="63"/>cundo : Propria epiikia non habet locum in
+          <lb ed="#P" n="64"/>aliquo praecepto naturali, ut naturale est, seu
+          <lb ed="#P" n="65"/>secundum se spectato: unde nec ab homine
+          <lb ed="#P" n="66"/>neque a Deo ipso fieri potest. Haec posterior
+          <lb ed="#P" n="67"/>pars sequitur ex prima : prima vero probatur
+          <lb ed="#P" n="68"/>inductione in eisdem exemplis quae alii 
+          aucto<lb break="no" ed="#P" n="69"/>res in contrarium adducunt. Unum est de lege
+          <lb ed="#P" n="70"/>reddendidepositum, quo utitur Cajetanus, quia
+          <lb ed="#P" n="71"/>inillo interpretamur non obligare in casuin quo
+          <lb ed="#P" n="72"/>esset contra justitiam vel charitatem 
+          deposi<lb break="no" ed="#P" n="73"/>tum reddere. Haec autem interpretatio non est
+          <lb ed="#P" n="74"/>epiikia in ipso praecepto naturali secundum se
+          <lb ed="#P" n="75"/>spectato : nam illud praeceptum, ut sic, est in
+          <lb ed="#P" n="76"/>recta ratione, et recta ratio non absolute dictat
+          <lb ed="#P" n="77"/>depositum esse reddendum, sed sub intellectis
+          <lb ed="#P" n="78"/>conditionibus quas ratio justitiae et charitatis
+          <lb ed="#P" n="79"/>requirit, et ita illa interpretatio quae tunc fit
+          <lb ed="#P" n="80"/>non est propter universale (ut Cajetanus 
+          loqui<lb break="no" ed="#P" n="81"/>tur), sed est declaratio verae universalitatis
+          <lb ed="#P" n="82"/>ipsius legis, prout in se lata est, id est, prout
+          <lb ed="#P" n="83"/>in recta ratione continetur. Non est ergo 
+          epii<lb break="no" ed="#P" n="84"/>kia. Aliud exemplum adducit Navarrus ex 
+          Cle<lb break="no" ed="#P" n="85"/>ment. I de Homicid., de praecepto Non occides,
+          <lb ed="#P" n="86"/>quod non comprehendat occisionem in 
+          defen<lb break="no" ed="#P" n="87"/>sionem necessariam : haec autem non est
+          <lb ed="#P" n="88"/>epilkia, sed simplex interpretatio veri sensus
+          <lb ed="#P" n="89"/>illius praecepti. Quis enim dicat declarationem
+          <lb ed="#P" n="90"/>quod liceat auctoritate publica occidere 
+          male<lb break="no" ed="#P" n="91"/>factores non obstante quinto praecepto 
+          Deca<lb break="no" ed="#P" n="92"/>logi, esse epiikiam, seu emendationem 
+          prae<lb break="no" ed="#P" n="93"/>cepti : nemo certe ita loquitur, quia solum est
+          <lb ed="#P" n="94"/>declaratio veri sensus praecepti : idem ergo est
+          <lb ed="#P" n="95"/>de propria defensione ; nam sunt ejusdem 
+          ra<lb break="no" ed="#P" n="96"/>tionis. Aliud exemplum ejusdem Navarri est
+          <lb ed="#P" n="97"/>in cap. 1 de Jurejur. in 6, ubi explicatur 
+          na<lb break="no" ed="#P" n="98"/>turalem legem de servando juramento non
+          <lb ed="#P" n="99"/>obligare ad servandum statutum illicitum. De
+          <lb ed="#P" n="100"/>quo constat nullam ibi esse epiikiam, sed 
+          so<lb break="no" ed="#P" n="101"/>lum declarationem naturae juramenti, quae est
+          <lb ed="#P" n="102"/>non obligare ad ahquid illicitum. Et ita in his
+          <lb ed="#P" n="103"/>duobus exemplis ipse Navarrus fatetur non esse
+          <lb ed="#P" n="104"/>interpretationem epiikiae. Addit vero tertium,
+          <lb ed="#P" n="105"/>sentiens in eo esse propriam epiikiam : nam
+          <lb ed="#P" n="106"/>lex naturae praecipit inferiorem parere 
+          supe<lb break="no" ed="#P" n="107"/>riori, a qua fit exceptio per exemptionem : per
+          <lb ed="#P" n="108"/>illam enim fit ut inferior non teneatur parere
+          <lb ed="#P" n="109"/>superiori. Sed multo minus haec est epiikia;
+          <lb ed="#P" n="110"/>tum quia exceptio a lege per privilegium non
+          <pb ed="#P" n="156"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est epiikia, ut recte Cajetanus supra notavit:
+          <lb ed="#P" n="2"/>illa vero exemptio nihil aliud est nisi 
+          privile<lb break="no" ed="#P" n="3"/>gium quoddam; tum etiam quia ibi lex 
+          desi<lb break="no" ed="#P" n="4"/>nit obligare per mutationem materiae, quia
+          <lb ed="#P" n="5"/>scilicet ille qui erat inferior, per esemptionem
+          <lb ed="#P" n="6"/>desinit esse inferior, ut ipse Navarrus fatetur ;
+          <lb ed="#P" n="7"/>at haec non est epiikia; alias in praescriptione
+          <lb ed="#P" n="8"/>fieret epiikiaa lege naturali non retinendi rem
+          <lb ed="#P" n="9"/>alienam, et sic de aliis, quae dici non possunt ;
+          <lb ed="#P" n="10"/>et ratio est, quia per mutationem materiae non
+          <lb ed="#P" n="11"/>cmendatur lex ; imo nec fit in illa ulla propria
+          <lb ed="#P" n="12"/>interpretatio, nec mutatio, sed mera cessatio
+          <lb ed="#P" n="13"/>per denominationem extrinsecam, ut in c. 13
+          <lb ed="#P" n="14"/>declaratum est.
+        </p>
+        <p xml:id="szdleg-a39114-d1e783">
+          <lb ed="#P" n="15"/>S. Tandem adducit Navarrus exemplum de
+          <lb ed="#P" n="16"/>votis, in quibus saepe fit interpretatio. Sed, ut
+          <lb ed="#P" n="17"/>dicebam de juramento, ita dicendum est de
+          <lb ed="#P" n="18"/>voto: nam interdum fit interpretatio solum ad
+          <lb ed="#P" n="19"/>explicandam naturam ejus, ut quod non 
+          obli<lb break="no" ed="#P" n="20"/>get in materia illicita, vel impossibili, etc. Et
+          <lb ed="#P" n="21"/>tunc nulla est umbra epiikiae. Aliquando vero
+          <lb ed="#P" n="22"/>fieri potest interpretatio intentionis voventis,
+          <lb ed="#P" n="23"/>Iimitando illam, etiamsi verba voti videantur
+          <lb ed="#P" n="24"/>universalia, et tuncre vera habet modum 
+          epii<lb break="no" ed="#P" n="25"/>kiae, quia est emendatio voti propter 
+          univer<lb break="no" ed="#P" n="26"/>sale : tamen illa epiikia non cadit in legem 
+          na<lb break="no" ed="#P" n="27"/>turalem implendi votum, sed in votum ipsum,
+          <lb ed="#P" n="28"/>quod est quasi lex positiva privata, et ita per
+          <lb ed="#P" n="29"/>illam epiikiam voti solum declaratur modus
+          <lb ed="#P" n="30"/>promissionis, quae est materia, iu quam tunc
+          <lb ed="#P" n="31"/>cadit lex naturalis, et ita respectu legis 
+          natu<lb break="no" ed="#P" n="32"/>ralis non est epiikia, sed simplex declaratio
+          <lb ed="#P" n="33"/>objecti ejus. Sicut dicebamus, dispensationem
+          <lb ed="#P" n="34"/>in voto non esse dispensationem in illa lege
+          <lb ed="#P" n="35"/>naturali, sed in materia ejus, qua remissa, per
+          <lb ed="#P" n="36"/>se cessat obligatio naturalis legis; ita enim est
+          <lb ed="#P" n="37"/>in praesenti, servata proportione. Et ita etiam
+          <lb ed="#P" n="38"/>cessat exemplum quo utitur Soto de naturali
+          <lb ed="#P" n="39"/>praecepto, quo tenentur Episcopi residere, quod
+          <lb ed="#P" n="40"/>dicit interdum tolli per interpretationem 
+          epii<lb break="no" ed="#P" n="41"/>kiae. Ut enim omittam illam non esse 
+          inter<lb break="no" ed="#P" n="42"/>pretationem sine aliqua mutatione ex parte
+          <lb ed="#P" n="43"/>obligationis , quae vere inerat et aufertur;
+          <lb ed="#P" n="44"/>etiamsi esset interpretatio, non esset epiikia in
+          <lb ed="#P" n="45"/>lege naturali, sed in pacto, seu promissione,
+          <lb ed="#P" n="46"/>aut vinculo, quo Episcopus conjungitur suae
+          <lb ed="#P" n="47"/>Ecclesiae, et in quo fundatur praeceptum illud
+          <lb ed="#P" n="48"/>naturalis justitiee. Si enim aliquando potest
+          <lb ed="#P" n="49"/>talis obligatio per interpretationem cessare,
+          <lb ed="#P" n="50"/>tota interpretatio versatur circa pactum, et
+          <lb ed="#P" n="51"/>circa intentionem se obligandi, excipiendo ab
+          <lb ed="#P" n="52"/>illa casum subintellectum, licet non fuerit 
+          ex<lb break="no" ed="#P" n="53"/>pressum: ut si interpretemur posse abesse 
+          pro<lb break="no" ed="#P" n="54"/>pter gravem infirmitatem, vel aliam 
+          necessi<lb break="no" ed="#P" n="55"/>tatem similem urgentem, ctc.
+        </p>
+        <p xml:id="szdleg-a39114-d1e875">
+          <lb ed="#P" n="56"/>9. Firmatur eadem resolutio ratione.—
+          hRa<lb break="no" ed="#P" n="57"/>tione demum declaratur. Primo, quia epiikia
+          <lb ed="#P" n="58"/>est emendatio legis, seu justi legalis; at lex
+          <lb ed="#P" n="59"/>naturalis emendari non potest, cum posita sit
+          <lb ed="#P" n="60"/>in recta ratione, qua a vero deficere non 
+          po<lb break="no" ed="#P" n="61"/>test : nam si deficit, jam non est recta ratio;
+          <lb ed="#P" n="62"/>ergo eadem ratione deficere non potest justum
+          <lb ed="#P" n="63"/>huic legi respondens, quia ita legale est, ut sit
+          <lb ed="#P" n="64"/>etiam naturale : justum autem naturale, cum
+          <lb ed="#P" n="65"/>oriatur ex intrinseca (ut sic dicam) 
+          conformi<lb break="no" ed="#P" n="66"/>tate, et consonantia extremorum, deficere non
+          <lb ed="#P" n="67"/>potest, nisi aliquod ex extremis mutetur, et
+          <lb ed="#P" n="68"/>tunc jam mutatur materia legis, et non est
+          <lb ed="#P" n="69"/>idem medium virtutis, et consequenter neque
+          <lb ed="#P" n="70"/>idem justum, et ita licet cesset obligatio legis,
+          <lb ed="#P" n="71"/>non est propter epiikiam, sed propter 
+          muta<lb break="no" ed="#P" n="72"/>tionem materiae. Secundo declaratur amplius,
+          <lb ed="#P" n="73"/>quia in lege naturali nunquam fit per 
+          inter<lb break="no" ed="#P" n="74"/>pretationem exemptio ab eadem lege 
+          univer<lb break="no" ed="#P" n="75"/>sali, eo quod sit universaliter proposita, quae
+          <lb ed="#P" n="76"/>sola est epiikia, ut dictum est. Assumptum 
+          pa<lb break="no" ed="#P" n="77"/>tet, quia dictamen rectae rationis secundum
+          <lb ed="#P" n="78"/>se spectatum, et ut practice verum, non fertur
+          <lb ed="#P" n="79"/>in universale, prout potest deficere, sed prout
+          <lb ed="#P" n="80"/>his circumstantiis affectum, cum quibus 
+          nun<lb break="no" ed="#P" n="81"/>quam deficit : alias non esset dictamen verum,
+          <lb ed="#P" n="82"/>et consequenter nec necessarium, nec rectum,
+          <lb ed="#P" n="83"/>nec praeceptum naturale continens. Sicut
+          <lb ed="#P" n="84"/>scientia philosophiae non judicat simphiriter
+          <lb ed="#P" n="85"/>omnem hominem habere tantum quinque 
+          di<lb break="no" ed="#P" n="86"/>gitos, sed cum limitatione, si causae naturales
+          <lb ed="#P" n="87"/>sint aptae et non impediantur, et ita nunquam
+          <lb ed="#P" n="88"/>deficit, alias non esset conclusio scientifica.
+        </p>
+        <p xml:id="szdleg-a39114-d1e949">
+          <lb ed="#P" n="89"/>10. Tertio declaratur inductione quadam :
+          <lb ed="#P" n="90"/>nam praecepta legis naturae aut affirmativa
+          <lb ed="#P" n="91"/>sunt aut negativa. Priora talis sunt 
+          conditio<lb break="no" ed="#P" n="92"/>nis ut semper obligent , non tamen pro 
+          sem<lb break="no" ed="#P" n="93"/>per : in eis autem , ut semper obligant , non
+          <lb ed="#P" n="94"/>cadit interpretatio, quia non cadit variatio:
+          <lb ed="#P" n="95"/>necesse est enim ut pro suis opportunitatibus
+          <lb ed="#P" n="96"/>semper et infallibiliter oblgent. In eisdem
+          <lb ed="#P" n="97"/>vero ut non obligant pro semper, duphliciter
+          <lb ed="#P" n="98"/>potest fieri determinatio temporis pro quo
+          <lb ed="#P" n="99"/>obligant, uno modo per legem positivam, et
+          <lb ed="#P" n="100"/>tunc in illa determinatione cadere poterit non
+          <lb ed="#P" n="101"/>solum interpretatio et epiikia, sed etiam 
+          dis<lb break="no" ed="#P" n="102"/>pensatio, quae non pertinent ad praesens, quia
+          <lb ed="#P" n="103"/>non sunt in lege naturali, sed in positiva. Alio
+          <lb ed="#P" n="104"/>ergo modo fit determinatio per eamdem 
+          natu<lb break="no" ed="#P" n="105"/>ralem rationem, et tunc licet ratio determinet
+          <lb ed="#P" n="106"/>pro nunc obligare praeceptum , pro tunc vero
+          <lb ed="#P" n="107"/>non obligare, nulla est epiikia, quia nulla est
+          <lb ed="#P" n="108"/>exceptio a lege, nec emendatio praecepti , sed
+          <lb ed="#P" n="109"/>simplex intelligentia illius : ergo in his 
+          prae<lb break="no" ed="#P" n="110"/>ceptis non habet locum epiikia, quia non potest
+          <pb ed="#P" n="157"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in eis intelligi alius modus determinationis
+          <lb ed="#P" n="2"/>aut carentiae obligationis pro aliquo casu:
+          <lb ed="#P" n="3"/>nam si ratio determinat pro aliquo tempore
+          <lb ed="#P" n="4"/>non obligare, hoc ipso intelligitur tale 
+          prae<lb break="no" ed="#P" n="5"/>ceptum natura sua non esse latum pro 
+          occa<lb break="no" ed="#P" n="6"/>sione, et circumstantiis illo tempore 
+          occurren<lb break="no" ed="#P" n="7"/>tibus; ut, verbi gratia, in praecepto 
+          correctio<lb break="no" ed="#P" n="8"/>nis fraternae, quatenus naturale est, ipsa ratio
+          <lb ed="#P" n="9"/>determinat non obligare, quando non est spes
+          <lb ed="#P" n="10"/>fructus, non per epiikiam, sed quia praeceptum
+          <lb ed="#P" n="11"/>illud natura sua non obligat pro semper, et
+          <lb ed="#P" n="12"/>illa est una ex circumstantiis pro qua non
+          <lb ed="#P" n="13"/>obligat. Sic etiam intelligo praeceptum de 
+          red<lb break="no" ed="#P" n="14"/>dendo deposito , si per modum affirmativi
+          <lb ed="#P" n="15"/>praecepti concipiatur , quia non obligat pro
+          <lb ed="#P" n="16"/>semper , sed pro tempore, in quo possit 
+          com<lb break="no" ed="#P" n="17"/>mode , id est, sine alterius praejudicio vel
+          <lb ed="#P" n="18"/>injuria reddi. Ita ergo in his praeceptis nulla
+          <lb ed="#P" n="19"/>est epiikia.
+        </p>
+        <p xml:id="szdleg-a39114-d1e1045">
+          <lb ed="#P" n="20"/>11. Venio ad negativa, quorum natura est
+          <lb ed="#P" n="21"/>ut semper et pro semper obligent, vitando
+          <lb ed="#P" n="22"/>mala quia mala sunt : hoc enim est de ratione
+          <lb ed="#P" n="23"/>praecepti naturalis negativi, et ob hanc 
+          ulti<lb break="no" ed="#P" n="24"/>mam partem non patitur epiikiam : quia 
+          im<lb break="no" ed="#P" n="25"/>possibile est id quod est per se et intrinsece
+          <lb ed="#P" n="26"/>malum fieri bonum aut non malum, manente
+          <lb ed="#P" n="27"/>eodem objecto et circumstantiis, et ideo 
+          dici<lb break="no" ed="#P" n="28"/>mus non posse hoc fieri per dispensationem ;
+          <lb ed="#P" n="29"/>ergo multo minus fieri potest per epiikiam.
+          <lb ed="#P" n="30"/>Probatur consequentia, quia quod non potest
+          <lb ed="#P" n="31"/>esse non malum nunquam non est malum;
+          <lb ed="#P" n="32"/>ergo nunquam non est prohibitum ; ergo non
+          <lb ed="#P" n="33"/>potest vere declarari non prohibitum lege 
+          na<lb break="no" ed="#P" n="34"/>turali pro aliquo tempore, vel occasione, quod
+          <lb ed="#P" n="35"/>ad epiikiam pertinet. Quod si mutatio fiat in
+          <lb ed="#P" n="36"/>objecto, vel circumstantiis intrinsecis , et 
+          ra<lb break="no" ed="#P" n="37"/>tione ejus mutationis actus desinat esse malus,
+          <lb ed="#P" n="38"/>jam illa non est epiikia, quia non versatur
+          <lb ed="#P" n="39"/>circa materiam sub tali lege naturali 
+          compre<lb break="no" ed="#P" n="40"/>hensam, sed est cognitio, seu interpretatio
+          <lb ed="#P" n="41"/>materiae legis et finium ejus. Ut quando 
+          inter<lb break="no" ed="#P" n="42"/>pretamur per legem non furandi non 
+          prohi<lb break="no" ed="#P" n="43"/>beri accipere ab alio necessaria ad vitam in
+          <lb ed="#P" n="44"/>extrema necessitate, illa non est epiikia, sed
+          <lb ed="#P" n="45"/>propria declaratio illius legis quae non 
+          prohi<lb break="no" ed="#P" n="46"/>bet nisi furtum, id est, acceptionem rei alienae,
+          <lb ed="#P" n="47"/>domino rationabiliter invito, seu acceptionem
+          <lb ed="#P" n="48"/>rei alienae quoad proprietatem et usum; acceptio
+          <lb ed="#P" n="49"/>autem rei alienae in extrema necessitate nec est
+          <lb ed="#P" n="50"/>dereomnino aliena, quia pro illoarticulo omnia
+          <lb ed="#P" n="51"/>sunt communia , nec est invito domino 
+          ratio<lb break="no" ed="#P" n="52"/>nabilitter. Sic etiam inillo exemplo de deposito,
+          <lb ed="#P" n="53"/>si intelligatur praeceptum illud tanquam 
+          nega<lb break="no" ed="#P" n="54"/>tivum, sicut praeceptum restituendi, id est, non
+          <lb ed="#P" n="55"/>retinendi depositum alienum , non est ita in-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>definitum praeceptum, sed non retinendi 
+          irra<lb break="no" ed="#P" n="57"/>tionabiliter, seu sine causa cogente. Ita ergo
+          <lb ed="#P" n="58"/>in praeceptis negativis naturalibus intelligi non
+          <lb ed="#P" n="59"/>potest propria epiikia.
+        </p>
+        <p xml:id="szdleg-a39114-d1e1136">
+          <lb ed="#P" n="60"/>19. Objectio. — Dupler differentia inter 
+          le<lb break="no" ed="#P" n="61"/>gem positivam et naturalem, ex qua solvitur
+          <lb ed="#P" n="62"/>objectio. — Prima.— Probatur mendacium esse
+          <lb ed="#P" n="63"/>intrinsece malum, ac proinde mulla causa 
+          coho<lb break="no" ed="#P" n="64"/>nestari per se. — Dices: ergo eadem ratione
+          <lb ed="#P" n="65"/>etiam in praeceptis positivis nunquam 
+          intelli<lb break="no" ed="#P" n="66"/>getur epiikia. Patet, quia vel manet actus
+          <lb ed="#P" n="67"/>semper cum eisdem circumstantiis, et tunc
+          <lb ed="#P" n="68"/>impossibile est ut praeceptum negativum 
+          pro<lb break="no" ed="#P" n="69"/>hibens actum nunc obliget et postea non 
+          obli<lb break="no" ed="#P" n="70"/>get : vel circumstantiae actus mutantur, et
+          <lb ed="#P" n="71"/>tunc etiam non erit epiikia. Et idem cum 
+          pro<lb break="no" ed="#P" n="72"/>portione dici poterit in affirmativis. 
+          Respon<lb break="no" ed="#P" n="73"/>detur negando consequentiam: sunt enim duae
+          <lb ed="#P" n="74"/>differentiae notandae inter jus positivum et 
+          na<lb break="no" ed="#P" n="75"/>turale, quae maxime declarant hanc 
+          mate<lb break="no" ed="#P" n="76"/>riam. Prior est, quod in lege positiva, manente
+          <lb ed="#P" n="77"/>tota materia actus cum omnibus 
+          circumstan<lb break="no" ed="#P" n="78"/>tiis intrinsecis ejus, potest per 
+          interpretatio<lb break="no" ed="#P" n="79"/>nem aequam cessare obligatio, quamvis 
+          ne<lb break="no" ed="#P" n="80"/>cesse sit ut aliqua circumstantia extrinseca
+          <lb ed="#P" n="81"/>occurrat, quae cogat ad talem interpretationem
+          <lb ed="#P" n="82"/>faciendam, et illa est propriissima epiikia. 
+          Pa<lb break="no" ed="#P" n="83"/>tet in exemplo communi de prohibitione 
+          fe<lb break="no" ed="#P" n="84"/>rendi arma noctu; nam si sit evidens 
+          necessi<lb break="no" ed="#P" n="85"/>tas, et ita urgens, ut non possit a superiori
+          <lb ed="#P" n="86"/>licentia postulari, juste interpretamur tunc
+          <lb ed="#P" n="87"/>praeceptum non obligare, non quia non sit illa
+          <lb ed="#P" n="88"/>materia talis praecepti, sed quia licet sit 
+          ea<lb break="no" ed="#P" n="89"/>dem, ab ea est separabilis malitia, ablata 
+          pro<lb break="no" ed="#P" n="90"/>hibitione, et tunc non est verisimile 
+          intentio<lb break="no" ed="#P" n="91"/>nem legislatoris ad illum casum extendi. At
+          <lb ed="#P" n="92"/>vero in lege naturali fieri non potest ut, stante
+          <lb ed="#P" n="93"/>integra materia cum eisdem circumstantiis 
+          in<lb break="no" ed="#P" n="94"/>trinsecis, propter solas extrinsecas occasiones
+          <lb ed="#P" n="95"/>interpretemur legem prohibentem non 
+          obliga<lb break="no" ed="#P" n="96"/>re, quia impossibile est a tali materia suis
+          <lb ed="#P" n="97"/>intrinsecis conditionibus affecta separari 
+          mali<lb break="no" ed="#P" n="98"/>tiam, et consequenter nec naturalem 
+          prohibi<lb break="no" ed="#P" n="99"/>tionem, etiamsi extrinsecus finis vel 
+          circum<lb break="no" ed="#P" n="100"/>stantiae varientur. Hoc declarat egregie 
+          exem<lb break="no" ed="#P" n="101"/>plum de mendacio, de quo suppono ita esse
+          <lb ed="#P" n="102"/>intrinsece malum, ut propter nullam 
+          occasio<lb break="no" ed="#P" n="103"/>nem vei necessitatem extrinsecam licere 
+          pos<lb break="no" ed="#P" n="104"/>sit, si manet mendacium, juxta doctrinam
+          <lb ed="#P" n="105"/>Augustini in lib. de Mend. et contra mendac.,
+          <lb ed="#P" n="106"/>et in epist. 8 ad Hieron. et sequentibus, quae
+          <lb ed="#P" n="107"/>fuit etiam Basilii, et regula 76 ex Brevior., et
+          <lb ed="#P" n="108"/>Hieronymi Apolog. contra hRuff., et Epistol.
+          <lb ed="#P" n="109"/>65, et est recepta ab omnibus theologis cum
+          <lb ed="#P" n="110"/>Magistro in 3, d. 38, et D. Thoma 2. 2, q. 110,
+          <pb ed="#P" n="158"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>art. 3; et habet magnum fundamentum in
+          <lb ed="#P" n="2"/>verbis Christi Joan. 8, ubi de daemone ait:
+          <lb ed="#P" n="3"/>Mendaa est, et pater mendacii, quia 
+          menda<lb break="no" ed="#P" n="4"/>cium non potest esse ex Deo, sed daemone, et
+          <lb ed="#P" n="5"/>ideo vocatur pater, id est, inventor ejus, et ideo
+          <lb ed="#P" n="6"/>de Deo potius scriptum est: Perdes omnes qui
+          <lb ed="#P" n="7"/>loguuntur inendacium, Psal. 5; unde in cap.
+          <lb ed="#P" n="8"/>Super eo de Usur. dicitur Scripturam sacram
+          <lb ed="#P" n="9"/>prohibere pro alterius vita mentiri, et ideo
+          <lb ed="#P" n="10"/>contrarium in Cassiano Collat. 17, tanquam
+          <lb ed="#P" n="11"/>error damnatur, de quo latius alibi, et videri
+          <lb ed="#P" n="12"/>potest Castro contra Haer., verb. Mendacium.
+          <lb ed="#P" n="13"/>Nulla enim alia ratio hujus verissimi dogmatis
+          <lb ed="#P" n="14"/>reddi potest, nisi quia extrinsecus finis, vel
+          <lb ed="#P" n="15"/>necessitas extrinseca non mutat objectum,
+          <lb ed="#P" n="16"/>nec intrinsecas conditiones ad mendacium 
+          re<lb break="no" ed="#P" n="17"/>quisitas, a quo objecto praecise spectato habet
+          <lb ed="#P" n="18"/>mendacium suam intrinsecam deformitatem,
+          <lb ed="#P" n="19"/>et ideo nec dispensatio, nec epiikia in eo 
+          lo<lb break="no" ed="#P" n="20"/>cum habet, ut possit licere propter 
+          extrinse<lb break="no" ed="#P" n="21"/>cas occasiones, necessitates, aut fines. Quoties
+          <lb ed="#P" n="22"/>ergo praeceptum aliquod naturale videtur non
+          <lb ed="#P" n="23"/>obligare in aliqua opportunitate, necesse est
+          <lb ed="#P" n="24"/>mutari materiam talis actus quae illi dabat 
+          ma<lb break="no" ed="#P" n="25"/>litiam propter quam prohibetur lege naturali.
+          <lb ed="#P" n="26"/>Et ita differt multum talis mutatio ab illa,
+          <lb ed="#P" n="27"/>quae fit in lege positiva, quando intervenit
+          <lb ed="#P" n="28"/>epiikia, quia hic sola prohibitio cessat circa
+          <lb ed="#P" n="29"/>eamdem materiam; ibi autem minime, sed
+          <lb ed="#P" n="30"/>materia subtrahitur, et per illius mutationem
+          <lb ed="#P" n="31"/>tollitur malitia.
+        </p>
+        <p xml:id="szdleg-a39114-d1e1321">
+          <lb ed="#P" n="32"/>13. Secunda. — Alia differentia est, quol
+          <lb ed="#P" n="33"/>in lege positiva, quando interpretatio fit per
+          <lb ed="#P" n="34"/>epiikiam, non fit circa actum prohibitum per
+          <lb ed="#P" n="35"/>legem nec circa obscuritatem verborum ejus.
+          <lb ed="#P" n="36"/>sed potius supponitur illum esse actum 
+          prohi<lb break="no" ed="#P" n="37"/>bitum secundum speciem suam, et 
+          compre<lb break="no" ed="#P" n="38"/>hendi sub verbis legis spectatis in sua 
+          proprie<lb break="no" ed="#P" n="39"/>tate : tota vero interpretatio et conjectura fit
+          <lb ed="#P" n="40"/>circa intentionem legislatoris, quod non fuerit
+          <lb ed="#P" n="41"/>mens ejus comprehendere talem casum, seu
+          <lb ed="#P" n="42"/>actum illum pro tali opportunitate. Et haec
+          <lb ed="#P" n="43"/>est propria epiikia quae dicitur emendatio 
+          le<lb break="no" ed="#P" n="44"/>gis, utique secundum speciem verborum, 
+          jus<lb break="no" ed="#P" n="45"/>tificando illam (ut sic dicam) per intentionem
+          <lb ed="#P" n="46"/>et aequitatem praesumptam legislatoris. Hoc
+          <lb ed="#P" n="47"/>vero non habet locum in lege naturali, quia
+          <lb ed="#P" n="48"/>non fundatur primo in voluntate prohibente,
+          <lb ed="#P" n="49"/>sed in natura ipsius actus per se mali, et ideo
+          <lb ed="#P" n="50"/>interpretatio ibi solum habet locum circa 
+          ma<lb break="no" ed="#P" n="51"/>teriam, quando actus abstracte sumptus non
+          <lb ed="#P" n="52"/>habet intrinsecam malitiam, sed solum ut 
+          ver<lb break="no" ed="#P" n="53"/>satur circa talem materiam tali veltali modo, ut
+          <lb ed="#P" n="54"/>in occisione hominis, acceptione rei alienae, 
+          re<lb break="no" ed="#P" n="55"/>tentione depositi, et aliis similibus explicui-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>mus. Et ideo in hujusmodi lege non fit 
+          inter<lb break="no" ed="#P" n="57"/>pretatio per emendationem legis, nam haec
+          <lb ed="#P" n="58"/>semper coaptatur materiae, sed fit per solam
+          <lb ed="#P" n="59"/>explicationem rei et malitiae quam secundum
+          <lb ed="#P" n="60"/>se habet : nam secundum illam tantum fit 
+          pro<lb break="no" ed="#P" n="61"/>hibitio, vel fertur lex, sive intelligatur ut 
+          in<lb break="no" ed="#P" n="62"/>dicativa malitiee, sive ut prohibitiva. Et tunc
+          <lb ed="#P" n="63"/>nunquam potest per epiikiam interpretatio
+          <lb ed="#P" n="64"/>fieri, quod ille actus, ut versatur tali modo
+          <lb ed="#P" n="65"/>circa talem materiam, possit licere propter
+          <lb ed="#P" n="66"/>solam intentionem legislatoris conjecturatam
+          <lb ed="#P" n="67"/>per extrinsecam occasionem, necessitatem, aut
+          <lb ed="#P" n="68"/>finem : et ita non recte fit comparatio inter
+          <lb ed="#P" n="69"/>naturalem legem et positivam.
+        </p>
+        <p xml:id="szdleg-a39114-d1e1408">
+          <lb ed="#P" n="70"/>14. Objectio. — Sed instari adhuc potest,
+          <lb ed="#P" n="71"/>quia nonnulla sunt naturalia praecepta quae
+          <lb ed="#P" n="72"/>propriissimam interpretationem epiikiae 
+          reci<lb break="no" ed="#P" n="73"/>piunt : nam circa eosdem actus, et cum 
+          omni<lb break="no" ed="#P" n="74"/>bus circumstantiis intrinsecis quae ordinarie
+          <lb ed="#P" n="75"/>sufficiunt ad naturalem prohibitionem, 
+          pro<lb break="no" ed="#P" n="76"/>pter extrinsecam necessitatem, seu finem 
+          ex<lb break="no" ed="#P" n="77"/>trinsecum, interpretamur non obligare in 
+          ali<lb break="no" ed="#P" n="78"/>quo casu. Hujusmodi est praeceptum prohibens
+          <lb ed="#P" n="79"/>matrimonium cum sorore, quod in casu 
+          extre<lb break="no" ed="#P" n="80"/>mae necessitatis non obligat propter 
+          conserva<lb break="no" ed="#P" n="81"/>tionem speciei. Idem est de praecepto non 
+          con<lb break="no" ed="#P" n="82"/>trahendi cum secunda, vivente prima; maxime
+          <lb ed="#P" n="83"/>si primum matrimonium fuit consummatum :
+          <lb ed="#P" n="84"/>nam in eadem necessitate generis humani, si
+          <lb ed="#P" n="85"/>prima esset sterilis, liceret accipere secundam:
+          <lb ed="#P" n="86"/>et in praeceptis pertinentibus ad impedimenta
+          <lb ed="#P" n="87"/>quae jure naturae irritant matrimonium 
+          inve<lb break="no" ed="#P" n="88"/>nientur multa similia.
+        </p>
+        <p xml:id="szdleg-a39114-d1e1453">
+          <lb ed="#P" n="89"/>15. Solutio. — Respondetur nihilominus,
+          <lb ed="#P" n="90"/>generalem regulam datam veram esse, 
+          nimi<lb break="no" ed="#P" n="91"/>rum, stante eadem materia praecepti negativi
+          <lb ed="#P" n="92"/>naturalis, fieri non posse ut per epiikiam 
+          judi<lb break="no" ed="#P" n="93"/>cetur licitus actus prohibitus propter solam 
+          ex<lb break="no" ed="#P" n="94"/>trinsecam causam, seu finem, aut 
+          necessita<lb break="no" ed="#P" n="95"/>tem : hoc enim convincunt rationes et exempia
+          <lb ed="#P" n="96"/>adducta. Quod si in aliquo praecepto id 
+          acci<lb break="no" ed="#P" n="97"/>dere videtur pro aliquo casu, vel tale 
+          praece<lb break="no" ed="#P" n="98"/>ptum simpliciter naturale non est, sed naturali
+          <lb ed="#P" n="99"/>proximum, et consuetudine hominum receptum
+          <lb ed="#P" n="100"/>et approbatum, ac proinde absolute solius 
+          ju<lb break="no" ed="#P" n="101"/>ris gentium, et ideo mutabile vel alterabile pro
+          <lb ed="#P" n="102"/>aliquo casu: vel si praeceptum est naturale
+          <lb ed="#P" n="103"/>simpliciter, materia ejus non erit actus 
+          sim<lb break="no" ed="#P" n="104"/>pliciter et abstracte sumptus, sed cum aliqua
+          <lb ed="#P" n="105"/>circumstantia intrinseca, qua sublata possit
+          <lb ed="#P" n="106"/>obligatio cessare: non tamen per epiikiam,
+          <lb ed="#P" n="107"/>sed per defectum propriae materiae. Applicare
+          <lb ed="#P" n="108"/>autem hanc regulam ad singula praecepta non
+          <lb ed="#P" n="109"/>est praesentis instituti, sed ad varias materias
+          <lb ed="#P" n="110"/>spectat. De illis ergo praeceptis matrimonii,
+          <pb ed="#P" n="159"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>qualia sint disputant doctores, et non eodem
+          <lb ed="#P" n="2"/>modo sentiunt. Nunc autem, supponendo illa
+          <lb ed="#P" n="3"/>esse vere praecepta naturalia, respondetur per
+          <lb ed="#P" n="4"/>illa non prohiberi simpliciter matrimonium,
+          <lb ed="#P" n="5"/>verbi gratia, inter fratres, vel cum secunda,
+          <lb ed="#P" n="6"/>sed prohiberi tale matrimonium quatenus
+          <lb ed="#P" n="7"/>noxium humanae naturae, et ita contrarium
+          <lb ed="#P" n="8"/>naturali honestati secundum rectam rationem:
+          <lb ed="#P" n="9"/>in casu vero illius necessitatis cessat haec ratio,
+          <lb ed="#P" n="10"/>et incipit esse matrimonium maxime 
+          commo<lb break="no" ed="#P" n="11"/>dum naturae, et subinde honestum, quia 
+          pro<lb break="no" ed="#P" n="12"/>pter solam conservationem necessariam 
+          susci<lb break="no" ed="#P" n="13"/>pitur, qui finis non est extrinsecus, sed 
+          intrin<lb break="no" ed="#P" n="14"/>secus tali actui: atque hoc modo in illa 
+          occa<lb break="no" ed="#P" n="15"/>sione mutatur materia praecepti negativi. 
+          De<lb break="no" ed="#P" n="16"/>claratur a simili : nam mutilatio proprii 
+          corpo<lb break="no" ed="#P" n="17"/>ris. sine necessitate ad conservationem vitae, 
+          in<lb break="no" ed="#P" n="18"/>trinsece mala est: tamen in casu necessitatis
+          <lb ed="#P" n="19"/>propter conservandum corpus licet, quia illa
+          <lb ed="#P" n="20"/>mutilatio non prohibetur nec est per se mala,
+          <lb ed="#P" n="21"/>nisi ut noxia vitae : tunc autem non est noxia,
+          <lb ed="#P" n="22"/>sed necessaria. Sic etiam verbum prolatum
+          <lb ed="#P" n="23"/>sine fine honesto vel convenienti naturae 
+          ma<lb break="no" ed="#P" n="24"/>lum est et jure naturae prohibitum: idem 
+          au<lb break="no" ed="#P" n="25"/>tem verbum propter convenientem finem non
+          <lb ed="#P" n="26"/>prohibetur, quia non erat per se malum ut
+          <lb ed="#P" n="27"/>tale verbum, sed ut otiosum et inutile, quae
+          <lb ed="#P" n="28"/>deformitas tollitur ex relatione ad talem finem.
+          <lb ed="#P" n="29"/>Sic ergo attente est consideranda qualitas et
+          <lb ed="#P" n="30"/>conditio materiae : nam juxta capacitatem ejus
+          <lb ed="#P" n="31"/>mutatur moraliter ejus conditio ex fine, vel
+          <lb ed="#P" n="32"/>necessitate occurrente, quia actio talis est ut
+          <lb ed="#P" n="33"/>natura sua petat crdinem ad talem finem, tali
+          <lb ed="#P" n="34"/>vel tali modo, et tunc necessitas occurrens
+          <lb ed="#P" n="35"/>redundat in materiam praecepti et mutat illam,
+          <lb ed="#P" n="36"/>et inde fit ut cesset obligatio praecepti 
+          natura<lb break="no" ed="#P" n="37"/>lis, non quia praeceptum in sua materia non
+          <lb ed="#P" n="38"/>obliget semper et pro semper, sine 
+          exceptio<lb break="no" ed="#P" n="39"/>ne, sed quia, mutata materia, jam non habet in
+          <lb ed="#P" n="40"/>illa locum tale praeceptum, ut naturale est.
+        </p>
+        <p xml:id="szdleg-a39114-d1e1594">
+          <lb ed="#P" n="41"/>16. Tertia assertio.—Lex naturalis, ut per
+          <lb ed="#P" n="42"/>legem positivam constituta, admittere potest
+          <lb ed="#P" n="43"/>epiikiam.—bico igitur tertio: Si praecepta 
+          na<lb break="no" ed="#P" n="44"/>turalia spectentur ut per legem positivam 
+          con<lb break="no" ed="#P" n="45"/>stituta sunt, tunc recipiunt exceptionem 
+          epii<lb break="no" ed="#P" n="46"/>kiae, praesertim in ordine ad intentionem 
+          le<lb break="no" ed="#P" n="47"/>gislatoris humani, licet secundum se et ut 
+          na<lb break="no" ed="#P" n="48"/>turalia sunt, illam proprie non admittant.
+          <lb ed="#P" n="49"/>Juxta hanc assertionem possunt exponi 
+          fre<lb break="no" ed="#P" n="50"/>quentes locutiones aliorum auctorum. Et 
+          prae<lb break="no" ed="#P" n="51"/>sertim Cajetanus expresse loquitur de his
+          <lb ed="#P" n="52"/>praeceptis, ut constitutis per leges humanas,
+          <lb ed="#P" n="53"/>et alii etiam loquuntur de illis ut latis per
+          <lb ed="#P" n="54"/>generalia verba, sine moderatione, quam 
+          pos<lb break="no" ed="#P" n="55"/>tea adhibet epiikia, quod non habet locum in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>his praeceptis ut naturalia sunt, quia ut sic non
+          <lb ed="#P" n="57"/>feruntur per aliquod generale verbum, nisi in
+          <lb ed="#P" n="58"/>co sensu in quo includat omnia necessaria ad
+          <lb ed="#P" n="59"/>intrinsecam malitiam, et ita nullam possit 
+          ad<lb break="no" ed="#P" n="60"/>mittere exceptionem, sicut dicebamus de 
+          pro<lb break="no" ed="#P" n="61"/>hibitione furti, ut furtum est, vel homicidii,
+          <lb ed="#P" n="62"/>ut per se mali. Et inde patet ratio assertionis.
+          <lb ed="#P" n="63"/>Nam leges humanae saepe hoc non attendunt,
+          <lb ed="#P" n="64"/>sed simpliciter praecipiunt actum, verbi gratia,
+          <lb ed="#P" n="65"/>reddere depositum, vel solvere promissum, in
+          <lb ed="#P" n="66"/>quibus legibus ut sic propositis potest habere
+          <lb ed="#P" n="67"/>locum epiikia. Dico autem hoc intelligi in 
+          or<lb break="no" ed="#P" n="68"/>dine ad intentionem legislatoris humani, quia
+          <lb ed="#P" n="69"/>seepe contingere potest ut legislator humanus
+          <lb ed="#P" n="70"/>nihil de tali exceptione cogitaverit nec illam
+          <lb ed="#P" n="71"/>expresse intenderit, sed potius absolute et sine
+          <lb ed="#P" n="72"/>limitatione legem tulerit sub verbis de se 
+          com<lb break="no" ed="#P" n="73"/>prehendentibus casum illum, et nihilominus
+          <lb ed="#P" n="74"/>interpretamur non comprehendisse illum.Quae
+          <lb ed="#P" n="75"/>interpretatio respectu voluntatis legislatoris
+          <lb ed="#P" n="76"/>humani est epiikia, quia est quasi emendatio
+          <lb ed="#P" n="77"/>ejus ; in se vero, et respectu legis naturalis est
+          <lb ed="#P" n="78"/>tantum explicatio mutationis factae in materia,
+          <lb ed="#P" n="79"/>ratione cujus actus cum talibus circumstantiis
+          <lb ed="#P" n="80"/>non habet per se malitiam, nec 
+          comprehendi<lb break="no" ed="#P" n="81"/>tur sub lege naturali, et ita facilis est tota 
+          as<lb break="no" ed="#P" n="82"/>sertio posita. Crediderim etiam plures ex dictis
+          <lb ed="#P" n="83"/>auctoribus late et improprie interdum loqui de
+          <lb ed="#P" n="84"/>interpretatione legis naturalis, vocantes 
+          epii<lb break="no" ed="#P" n="85"/>kiam vel exceptionem a lege, solam 
+          declaratio<lb break="no" ed="#P" n="86"/>nem materiae et veri sensus legis ; sed non est
+          <lb ed="#P" n="87"/>de nomine contendendum quando de re 
+          con<lb break="no" ed="#P" n="88"/>stat ; quamvis ad explicandam vim legis et ad
+          <lb ed="#P" n="89"/>constanter loquendum de interpretatione ejus,
+          <lb ed="#P" n="90"/>doctrina data necessaria videatur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

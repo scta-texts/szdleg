@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 19</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 19</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="502"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-b26977"><!-- deleg-l5c19 -->
+        <head xml:id="szdleg-b26977-Hd1e101">Caput 19</head>
+        <head xml:id="szdleg-b26977-Hd1e103" type="question-title">Utrum leges humanae irritantes contractum poenales vel onerosae sint</head>
+        <p xml:id="szdleg-b26977-d1e106">
+          <lb ed="#P" n="25"/>CAPUT XIX.
+          <lb ed="#P" n="26"/>UTRUM LEGES HUMANAE IRRITANTES CONTRACTUM
+          <lb ed="#P" n="27"/>POENALES VEL ONEROSAE SINT.
+        </p>
+        <p xml:id="szdleg-b26977-d1e115">
+          <lb ed="#P" n="28"/>1. Leg humana irritat contractus, quia hoc
+          <lb ed="#P" n="29"/>expedit aliquando communi bono. — Unus ex
+          <lb ed="#P" n="30"/>effectibus legis humanae est irritare contractus,
+          <lb ed="#P" n="31"/>ut in superioribus diximus, et nunc 
+          supponi<lb break="no" ed="#P" n="32"/>mus tanquam manifestum ex usu utriusque
+          <lb ed="#P" n="33"/>juris civilis et canonici. Sic enim in 
+          conficien<lb break="no" ed="#P" n="34"/>dis testamentis, et in contractibus minorum et
+          <lb ed="#P" n="35"/>mulierum, et in bonis ecclesiasticis, ct in ipso
+          <lb ed="#P" n="36"/>etiam sacramento matrimonii, aliquae 
+          condi<lb break="no" ed="#P" n="37"/>tiones sunt jure humano requisitae, sine 
+          qui<lb break="no" ed="#P" n="38"/>bus contractus non est validus ex vi ejusdem
+          <lb ed="#P" n="39"/>juris humani : ratio autem cur hoc possit 
+          fa<lb break="no" ed="#P" n="40"/>cere lex humana, est quia non repugnat legi
+          <lb ed="#P" n="41"/>naturali, et alioqui expedit ad commune 
+          bo<lb break="no" ed="#P" n="42"/>num reipublicae ut talis potestas sit in 
+          repu<lb break="no" ed="#P" n="43"/>blica seu ejus principe. Prior pars constat,
+          <lb ed="#P" n="44"/>quia, licet potestas contrahendi valide sit 
+          na<lb break="no" ed="#P" n="45"/>turalis homini, tamen potest illa privari, sicut
+          <lb ed="#P" n="46"/>potest privari libertate, neque id est contra jus
+          <lb ed="#P" n="47"/>naturae praeceptivum, sed negativum, ut supra
+          <lb ed="#P" n="48"/>lib. 2 declaratum est. Posterior autem pars
+          <lb ed="#P" n="49"/>constat experientia, quia ad vitandas fraudes
+          <lb ed="#P" n="50"/>et alia incommoda saepe hoc est necessarium,
+          <lb ed="#P" n="51"/>et ideo sicut data est reipublicae potestas 
+          prae<lb break="no" ed="#P" n="52"/>cipiendi, ita et irritandi actus; item quia pars
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>communitatis est magis reipublicae quam sua,
+          <lb ed="#P" n="54"/>et ideo habet operationes suas dependentes a
+          <lb ed="#P" n="55"/>republica, quando tales sunt ut in commune
+          <lb ed="#P" n="56"/>bonum vel damnum cedere possint : ergo 
+          ca<lb break="no" ed="#P" n="57"/>put reipublicae habet potestatem in membra
+          <lb ed="#P" n="58"/>sua, ut possit operationes eorum irritare, vel
+          <lb ed="#P" n="59"/>modum eis praefigere sine quo invalidae sint
+          <lb ed="#P" n="60"/>quoad morales effectus qui per eas fieri possent.
+          <lb ed="#P" n="61"/>Ab hoc ergo effectu leges aliquae irritantes 
+          de<lb break="no" ed="#P" n="62"/>nominantur, quae secundum illam rationem
+          <lb ed="#P" n="63"/>specialem considerationem habent, quae in
+          <lb ed="#P" n="64"/>hunc locum optime cadit; nam propter illum
+          <lb ed="#P" n="65"/>effectum inter onerosas et odiosas leges 
+          com<lb break="no" ed="#P" n="66"/>putantur, quia valde onerosum est homini
+          <lb ed="#P" n="67"/>ejus voluntatem ita ligare, ut neque licite 
+          ne<lb break="no" ed="#P" n="68"/>que valide facere possit quod vult, et facere
+          <lb ed="#P" n="69"/>posset, nisi in lege impediretur. Ad 
+          explican<lb break="no" ed="#P" n="70"/>dam igitur harum legum obligationem, 
+          opor<lb break="no" ed="#P" n="71"/>tet declarare quale sit hoc onus, et an subeat
+          <lb ed="#P" n="72"/>rationem poenae : inde enim constabit an hae
+          <lb ed="#P" n="73"/>leges obligent ad modum poenalium legum,
+          <lb ed="#P" n="74"/>vel moralium : nam quod aliquo modo 
+          obhli<lb break="no" ed="#P" n="75"/>gent dubitari non potest, cum verae leges sint
+          <lb ed="#P" n="76"/>et intrinsece includant omnia quae legi 
+          huma<lb break="no" ed="#P" n="77"/>nae conveniunt ex vi generis, seu quatenus
+          <lb ed="#P" n="78"/>vera lex est.
+        </p>
+        <p xml:id="szdleg-b26977-d1e230">
+          <lb ed="#P" n="79"/>2. Leges irritantes esse penales sentumnt
+          <lb ed="#P" n="80"/>multi, quia est gravamen subdito. — In 
+          quaes<lb break="no" ed="#P" n="81"/>tione igitur proposita, multi jurisperiti 
+          cen<lb break="no" ed="#P" n="82"/>sent leges irritantes esse poenales. lta tenet
+          <lb ed="#P" n="83"/>Gloss. in c. Decet, S Ordinarii, verb. Processus,
+          <lb ed="#P" n="84"/>de Immunit. Ecclesiar. in 6; sequitur Panorm.
+          <lb ed="#P" n="85"/>in c. ult. de Fer., n. 18. Idem habet Bart. in
+          <lb ed="#P" n="86"/>l. Sanctio, in princ., ff. de Poenis, et plures
+          <lb ed="#P" n="87"/>alii. Et potest sumi ex c. Super litteris , de
+          <lb ed="#P" n="88"/>Rescri. ibi, n sue percersitatis penam, et ex
+          <lb ed="#P" n="89"/>l. Turpia, ibi, Odio scribentis, tf. de Legat. t,
+          <lb ed="#P" n="90"/>ubi notat Bald. Imo aliqui vocant hane 
+          poe<lb break="no" ed="#P" n="91"/>nam naturalem et intrinsecam, ut videre licet
+          <lb ed="#P" n="92"/>in Decio, c. 2 de Constit., lect. 1, n. 5, cum
+          <lb ed="#P" n="93"/>Imol., in cap. ult. de hRescri., circa Gloss.,
+          <lb ed="#P" n="94"/>verb. Personalibus. Et ratio reddi potest, quia
+          <lb ed="#P" n="95"/>irritatio actus quem homo suo jure et naturali
+          <lb ed="#P" n="96"/>libertate posset valide facere, est non parvum
+          <lb ed="#P" n="97"/>gravamen et nocumentum subditi : ergo non
+          <lb ed="#P" n="98"/>potest nisi in poenam juste imponi. Et 
+          decla<lb break="no" ed="#P" n="99"/>ratur, quia haec annullatio non fit nisi 
+          inha<lb break="no" ed="#P" n="100"/>bilitando personam ad talem actionem ; sed
+          <lb ed="#P" n="101"/>omnis inhabilitas personae per legem inducta
+          <lb ed="#P" n="102"/>est quaedam poena : ergo. Confirmatur , quia
+          <lb ed="#P" n="103"/>si lex irritans non esset poenalis, non esset
+          <lb ed="#P" n="104"/>restringenda, sed potius extendenda ; 
+          conse<lb break="no" ed="#P" n="105"/>quens est contra communem omnium sensum.
+          <lb ed="#P" n="106"/>Atque hinc inferunt aliqui, eo ipso quod lex
+          <lb ed="#P" n="107"/>addit aliam poenam, censeri non irritare, ne
+          <pb ed="#P" n="503"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bis eumdem actum punire videatur, de quo
+          <lb ed="#P" n="2"/>puneto in cap. 23 dicemus.
+        </p>
+        <p xml:id="szdleg-b26977-d1e305">
+          <lb ed="#P" n="3"/>3. Leges irritantes non esse poenales, sed 
+          direc<lb break="no" ed="#P" n="4"/>tivas sentiunt alii.— Probatur quia non est pena
+          <lb ed="#P" n="5"/>sine culpa.—Aliorum vero sententia est, leges
+          <lb ed="#P" n="6"/>irritantes non esse poenales, sed morales, seu
+          <lb ed="#P" n="7"/>per se directivas communitatis. Ita tenet Joan.
+          <lb ed="#P" n="8"/>And. in c. ult. de Elect., in 6, regula Odia,
+          <lb ed="#P" n="9"/>de Regul. jur., in 6, in Mecurial. Fundatur
+          <lb ed="#P" n="10"/>quia poena solum est, quando lex diminuit
+          <lb ed="#P" n="11"/>patrimonium aut tollit jus acquisitum, quod
+          <lb ed="#P" n="12"/>non fit in actus irritatione. Idem tenet Domin.
+          <lb ed="#P" n="13"/>in d. cap. ult. de Elect., in 6; et idem sentit
+          <lb ed="#P" n="14"/>Felin., in d. c. 2de Constit., n. 3, citans Inn.
+          <lb ed="#P" n="15"/>in c. Si vero, de Sent. excom., ubi dixit 
+          an<lb break="no" ed="#P" n="16"/>nullationem actus non esse naturalem poenam.
+          <lb ed="#P" n="17"/>Sed dictum illud alium fortasse sensum habet,
+          <lb ed="#P" n="18"/>ut infra hoc capite dicam. Ratio autem pro
+          <lb ed="#P" n="19"/>hac sententia, praeter eam quam tetigit Joan.
+          <lb ed="#P" n="20"/>Andr., esse potest quia poena non est nisi 
+          prae<lb break="no" ed="#P" n="21"/>cedat culpa; sed annullatio actus fit sine culpa
+          <lb ed="#P" n="22"/>praevia ; ergo non est poena. Dices poenam 
+          in<lb break="no" ed="#P" n="23"/>terdum imponi sine culpa, licet non sine 
+          cau<lb break="no" ed="#P" n="24"/>sa, ut supra dicebamus de lege pure poenali.
+          <lb ed="#P" n="25"/>Sed contra hoc, quia etiam loquendo hoc 
+          mo<lb break="no" ed="#P" n="26"/>do de poena late sumpta, requirit culpam etiam
+          <lb ed="#P" n="27"/>lato modo, scilicet civilem, seu in eo foro in
+          <lb ed="#P" n="28"/>quo imponitur poena, esto non sit necessaria
+          <lb ed="#P" n="29"/>culpa in foro Dei; at hic nulla culpa 
+          requiri<lb break="no" ed="#P" n="30"/>tur, etiam legalis. Vel aliter, quando ad 
+          poe<lb break="no" ed="#P" n="31"/>nam non requiritur culpa, sed causa, 
+          necessa<lb break="no" ed="#P" n="32"/>rium saltem est ut illa causa sit actus liber
+          <lb ed="#P" n="33"/>punibilis ex justa causa, quia poena non est
+          <lb ed="#P" n="34"/>nisi propter actionem vel omissionem liberam;
+          <lb ed="#P" n="35"/>at nulla talis causa est necessaria ad 
+          irritan<lb break="no" ed="#P" n="36"/>dum actum, sed alia quae consideratur ex parte
+          <lb ed="#P" n="37"/>boni communis; ergo illa non sufficit ut sit
+          <lb ed="#P" n="38"/>poena. Confirmatur, quia alias omnis 
+          irregu<lb break="no" ed="#P" n="39"/>laritas esset poena, quia est gravamen quod
+          <lb ed="#P" n="40"/>non imponitur sine rationabili causa : 
+          conse<lb break="no" ed="#P" n="41"/>quens autem est plene falsum.
+        </p>
+        <p xml:id="szdleg-b26977-d1e392">
+          <lb ed="#P" n="42"/>4. Irritationem actus in proprio conceptu
+          <lb ed="#P" n="43"/>non includere quod. sit pena , et sepius non
+          <lb ed="#P" n="44"/>esse penam, interdum vero sic. — Vera tamen
+          <lb ed="#P" n="45"/>resolutio est irritationem actus in proprio ac
+          <lb ed="#P" n="46"/>necessario conceptu non includere quod sit
+          <lb ed="#P" n="47"/>poena, et ita saepius non esse poenam, 
+          inter<lb break="no" ed="#P" n="48"/>dum vero posse veram rationem poenae 
+          ha<lb break="no" ed="#P" n="49"/>bere. Haec est resolutio ceommunis, ut videre
+          <lb ed="#P" n="50"/>licet in Bald., in l. Non dubiwm, c. de Legib.;
+          <lb ed="#P" n="51"/>Panor., in c. 2 de Constit., et melius Decio,
+          <lb ed="#P" n="52"/>ibi lect. 2. Ut autem distincte et in specie 
+          de<lb break="no" ed="#P" n="53"/>claretur, adverto duobus modis posse irritari
+          <lb ed="#P" n="54"/>actum : primo, directe aliquid constituendo et
+          <lb ed="#P" n="55"/>praecipiendo, et solum per consecutionem , seu
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>indirecte, prohibendo et irritando ; ita videre
+          <lb ed="#P" n="57"/>licet in lege dante formam actui, et per 
+          conse<lb break="no" ed="#P" n="58"/>cutionem irritante actum factum sine tali
+          <lb ed="#P" n="59"/>forma. Exemplum optimum est in decreto
+          <lb ed="#P" n="60"/>Tridentini, sess. 24, circa contractum 
+          matri<lb break="no" ed="#P" n="61"/>monii : nam pro forma contractus posuit ut
+          <lb ed="#P" n="62"/>fieret praesente parocho et duobus testibus, et
+          <lb ed="#P" n="63"/>aliter factum irritavit. Simile exemplum est
+          <lb ed="#P" n="64"/>de lege requirente ad valorem testamenti 
+          ta<lb break="no" ed="#P" n="65"/>lem numerum testium. Item de lege dante 
+          for<lb break="no" ed="#P" n="66"/>mam alienationibus rerum ecclesiasticarum,
+          <lb ed="#P" n="67"/>Clem. 1, de Reb. Eccl. non alienan., et c.
+          <lb ed="#P" n="68"/>Sine exceptione, 12, q. 2. Item de dante 
+          for<lb break="no" ed="#P" n="69"/>mam eligendi. c. Quia propter, de Elect. Alius
+          <lb ed="#P" n="70"/>modus directe irritandi actum est negativus
+          <lb ed="#P" n="71"/>seu prohibitivus actus cum verbis 
+          sufficienti<lb break="no" ed="#P" n="72"/>bus ad irritandum illum ; talis est lex 
+          prohi<lb break="no" ed="#P" n="73"/>bens matrimonium inter consanguineos vel
+          <lb ed="#P" n="74"/>affines intra quartum gradum, et irritans 
+          ma<lb break="no" ed="#P" n="75"/>trimonium clerici in sacris, aut religiosi 
+          pro<lb break="no" ed="#P" n="76"/>fessi, et similes. Haec autem prohibitio ob 
+          tripli<lb break="no" ed="#P" n="77"/>cem causam seu finem fieri potest, Primo, per
+          <lb ed="#P" n="78"/>se propter commune bonum, quia ita expedit
+          <lb ed="#P" n="79"/>ad divinum cultum, vel ad decentiam 
+          religio<lb break="no" ed="#P" n="80"/>nis; secundo, in favorem aliquarum 
+          persona<lb break="no" ed="#P" n="81"/>rum, ut ad subveniendum fragilitati earum, ut
+          <lb ed="#P" n="82"/>fit per leges irritantes aliquos contractus 
+          mino<lb break="no" ed="#P" n="83"/>rum; tertio, in odium personae seu actionis ejus,
+          <lb ed="#P" n="84"/>ut in legibus irritantibus acquisitionem 
+          do<lb break="no" ed="#P" n="85"/>minii in aliquibus donationibus vel 
+          acceptatio<lb break="no" ed="#P" n="86"/>nibus. Aliqui addunt tertium irritandi modum
+          <lb ed="#P" n="87"/>per inhabilitatem personae , sicut solent 
+          theo<lb break="no" ed="#P" n="88"/>logi explicare impedimenta matrimonii et 
+          pro<lb break="no" ed="#P" n="89"/>fessionis , et sicut Conc. Trid. expresse 
+          decla<lb break="no" ed="#P" n="90"/>ravit factum ab ipso esse in decreto edito 
+          con<lb break="no" ed="#P" n="91"/>tra clandestina matrimonia. Sed hic modus,
+          <lb ed="#P" n="92"/>licet verissimus sit , in duobus praecedentibus
+          <lb ed="#P" n="93"/>includitur, nec potest ab illis separari, si 
+          res<lb break="no" ed="#P" n="94"/>pective sumatur. Nam quoties lex irritat 
+          ac<lb break="no" ed="#P" n="95"/>tum, reddit subditi voluntatem inefficacem et
+          <lb ed="#P" n="96"/>impotentem ad contrahendum, vel 
+          transferen<lb break="no" ed="#P" n="97"/>dum aut acquirendum dominium, vel quid
+          <lb ed="#P" n="98"/>simile, et hoc est inhabilitare actum ad 
+          con<lb break="no" ed="#P" n="99"/>trahendum, vel sic contrahendum. Aliquando
+          <lb ed="#P" n="100"/>enim lex inhabilitat simpliciter personam ad
+          <lb ed="#P" n="101"/>actum aliquem in specie, ut inhabilitat 
+          cleri<lb break="no" ed="#P" n="102"/>cum in sacris, vel religiosum professum ad
+          <lb ed="#P" n="103"/>contrahendum matrimonium ; aliquando 
+          in<lb break="no" ed="#P" n="104"/>habilitat respective tantum, ut ad 
+          contrahen<lb break="no" ed="#P" n="105"/>dum cum consanguinea, vel ad donandum 
+          ex<lb break="no" ed="#P" n="106"/>traneis; aliquando solum inhabilitat ad sic
+          <lb ed="#P" n="107"/>contrahendum , ut dixit Concil. Trident. in
+          <lb ed="#P" n="108"/>dicto decreto. Et in his omnibus respective 
+          ir<lb break="no" ed="#P" n="109"/>ritatur actus ipse, et voluntatis consensus 
+          red<lb break="no" ed="#P" n="110"/>ditur inefficax ad talem effectum faciendum.
+          <pb ed="#P" n="504"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Per hoc autem et non aliter persona inhabilis
+          <lb ed="#P" n="2"/>fit ad eumdem effectum, quia, sicut actus 
+          hu<lb break="no" ed="#P" n="3"/>mani voluntate perficiuntur , ita inhabilitas
+          <lb ed="#P" n="4"/>personae ad tales actus in voluntate spectari
+          <lb ed="#P" n="5"/>debet, quatenus actus ejus redditur inefficax.
+          <lb ed="#P" n="6"/>Et e converso non potest actus irritari, vel 
+          vo<lb break="no" ed="#P" n="7"/>Iuntas fieri inefficax, quin persona eo ipso 
+          in<lb break="no" ed="#P" n="8"/>habilis reddatur cum proportione, ut dictum
+          <lb ed="#P" n="9"/>est. Et ideo nobis sufficit duos illos modos 
+          irri<lb break="no" ed="#P" n="10"/>tationis distinguere, quia interdum distinctam
+          <lb ed="#P" n="11"/>doctrinam requirunt : tertius vero in illis 
+          in<lb break="no" ed="#P" n="12"/>cluditur, et non habet aliquid speciale quod
+          <lb ed="#P" n="13"/>oporteat declarare.
+        </p>
+        <p xml:id="szdleg-b26977-d1e579">
+          <lb ed="#P" n="14"/>5. Prima conclusio. —Dico primo: lex 
+          irri<lb break="no" ed="#P" n="15"/>tans actum indirecte tantum et per 
+          consecutio<lb break="no" ed="#P" n="16"/>nem ad institutionem formae servandae in 
+          ali<lb break="no" ed="#P" n="17"/>quo contractu, non est poenalis. Ita sentiunt
+          <lb ed="#P" n="18"/>auctores allegati, et plures quos refert et 
+          se<lb break="no" ed="#P" n="19"/>quitur Matien., 1. 4 Recopil., tit. 4, 1. 1, Glos.,
+          <lb ed="#P" n="20"/>10, n. 35. Et alios refert Sanch., 1. 3 de 
+          Ma<lb break="no" ed="#P" n="21"/>trim., distinct. 4, n. 9 et 10. Et ratio est clara,
+          <lb ed="#P" n="22"/>quia ibi nulla praecedit culpa, nec suffticiens
+          <lb ed="#P" n="23"/>causa poenae ex parte ejus cujus actus 
+          irrita<lb break="no" ed="#P" n="24"/>tur; verbi gratia, quando quis condit 
+          testa<lb break="no" ed="#P" n="25"/>mentum minus solemne, quod ex illo defectu
+          <lb ed="#P" n="26"/>irritum est, nihil peccavit, nec aliquid fecit
+          <lb ed="#P" n="27"/>punitione dignum, quia, sicut libere posset 
+          tes<lb break="no" ed="#P" n="28"/>tamentum non condere, et non ideo esset 
+          di<lb break="no" ed="#P" n="29"/>gnus poena, ita etiam libere potuit minus 
+          so<lb break="no" ed="#P" n="30"/>lemne testamentum facere sine macula vel
+          <lb ed="#P" n="31"/>causa poenae; ergo nullitas illa non est poena;
+          <lb ed="#P" n="32"/>ergo nec lex est poenalis, sed directiva tali 
+          mo<lb break="no" ed="#P" n="33"/>do, et cum tali efficacia, ut constituat illam
+          <lb ed="#P" n="34"/>formam tanquam substantialem actui, etiamsi
+          <lb ed="#P" n="35"/>inde consequatur alteri incommodum ex 
+          nul<lb break="no" ed="#P" n="36"/>litate talis actus. Et confirmatur, quia intentio
+          <lb ed="#P" n="37"/>talis legis non est punire actum, vel 
+          negligen<lb break="no" ed="#P" n="38"/>tiam alicujus, cujus signum est, quia in dicto
+          <lb ed="#P" n="39"/>casu detrimentum quod ex nullitate testamenti
+          <lb ed="#P" n="40"/>sequitur magis cedit in damnum haeredis quam
+          <lb ed="#P" n="41"/>testatoris, neque id reputatur inconveniens,
+          <lb ed="#P" n="42"/>quia revera lex neutrum punire intendit, sed
+          <lb ed="#P" n="43"/>communi bono providere ; non potest ergo 
+          ta<lb break="no" ed="#P" n="44"/>lis lex poenalis reputari. Nec obstat quod 
+          inter<lb break="no" ed="#P" n="45"/>dum in jure videatur hic effectus, prout fit per
+          <lb ed="#P" n="46"/>has leges, vocari nomine poenae, et in l. 1, c.
+          <lb ed="#P" n="47"/>de Posthum. haered. instit., ibi: Ne penam
+          <lb ed="#P" n="48"/>patiatur praeteritionis, qui suos non praeterüt -
+          <lb ed="#P" n="49"/>nam ibi lato modo sumitur poena pro 
+          incom<lb break="no" ed="#P" n="50"/>modo vel damno quocumque.
+        </p>
+        <p xml:id="szdleg-b26977-d1e662">
+          <lb ed="#P" n="51"/>6. Secunda conclusio. — Dico secundo : lex
+          <lb ed="#P" n="52"/>prohibens actum et irritans illum intuitu boni
+          <lb ed="#P" n="53"/>communis vel privatorum, non est poenalis. Haec
+          <lb ed="#P" n="54"/>etiam assertio est communis, ut patet ex Glos.
+          <lb ed="#P" n="55"/>communiter approbata in Clem. 2 de Haeret.,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>vers. E nunc, et Abb., c. 2 de Constit., n. 7;
+          <lb ed="#P" n="57"/>Dec., n. 14; Felin., n. 7; Sylvest., verb. Lez,
+          <lb ed="#P" n="58"/>quaest. 6; Rosella, n. 6, qui omnes hanc 
+          irrita<lb break="no" ed="#P" n="59"/>tionem a poena distinguunt. Exempla illius
+          <lb ed="#P" n="60"/>sunt in legibus irritantibus matrimonia inter
+          <lb ed="#P" n="61"/>consanguineos, vel affines, vel inter cognatos
+          <lb ed="#P" n="62"/>spiritualiter: illa enim irritatio non est 
+          intro<lb break="no" ed="#P" n="63"/>ducta in poenam contrahentium, sed per se,
+          <lb ed="#P" n="64"/>propter decentiam religionis , vel conjugalis
+          <lb ed="#P" n="65"/>honestatis. Item huc spectant leges irritantes
+          <lb ed="#P" n="66"/>professiones minorum vel professiones factas
+          <lb ed="#P" n="67"/>ante expletum annum probationis, vel 
+          simi<lb break="no" ed="#P" n="68"/>les ; ratio vero est, quia illa irritatio non fit
+          <lb ed="#P" n="69"/>in odium alicujus, nec in vindictam delicti,
+          <lb ed="#P" n="70"/>quod ad poenam in rigore sumptam 
+          necessa<lb break="no" ed="#P" n="71"/>rium est, juxta 1. Sancimus, cap. de Poenis,
+          <lb ed="#P" n="72"/>nec etiam fit in recompensationem alterius
+          <lb ed="#P" n="73"/>transgressionis politice, ut explicatum est.
+          <lb ed="#P" n="74"/>Denique declaratur in hunc modum, quia 
+          poe<lb break="no" ed="#P" n="75"/>na solum per accidens introducitur, seu per
+          <lb ed="#P" n="76"/>occasionem ad cohibendum, vel vindicandum:
+          <lb ed="#P" n="77"/>haec autem irritatio per se imperatur et fit, quia
+          <lb ed="#P" n="78"/>per se excedit bono communi vel privatorum.
+          <lb ed="#P" n="79"/>Neque obstabit quod talis irritatio cedat in 
+          no<lb break="no" ed="#P" n="80"/>cumentum alicujus, quia hoc est indirecte et
+          <lb ed="#P" n="81"/>per consecutionem, non vero est illud damnum
+          <lb ed="#P" n="82"/>intentum a legislatore, ut ille puniatur. Unde
+          <lb ed="#P" n="83"/>multi censent talem legem non solum non esse
+          <lb ed="#P" n="84"/>poenalem, verum neque odiosam esse, sed 
+          po<lb break="no" ed="#P" n="85"/>tius favorabilem, quod sentit supra Dec. cum
+          <lb ed="#P" n="86"/>Alex. in l. 1 de Liber. et Posthum. Sed hoc ex
+          <lb ed="#P" n="87"/>principiis positis in principio hujus libri 
+          judi<lb break="no" ed="#P" n="88"/>candum est.
+        </p>
+        <p xml:id="szdleg-b26977-d1e749">
+          <lb ed="#P" n="89"/>1. Tertia conclusio. — Dico tertio : aliquae
+          <lb ed="#P" n="90"/>leges irritantes poenales sunt, scilicet, quae
+          <lb ed="#P" n="91"/>irritationem inducunt in odium alterius 
+          trans<lb break="no" ed="#P" n="92"/>gressionis, seu culpae. Ita docent Bald., Panor.
+          <lb ed="#P" n="93"/>et Dec. supra. Ut autem in proprio sensu 
+          intel<lb break="no" ed="#P" n="94"/>ligatur, oportet advertere aliud esse 
+          irritatio<lb break="no" ed="#P" n="95"/>nem esse poenam, aliud vero effectionem actus
+          <lb ed="#P" n="96"/>irriti puniri poena : contingit enim legem 
+          irri<lb break="no" ed="#P" n="97"/>tari actum et adjicere poenam in eum qui 
+          ta<lb break="no" ed="#P" n="98"/>lem actum irritum facit, sicut notant Bar. in l.
+          <lb ed="#P" n="99"/>Praetor ait, S Interdictum, ff. de Oper. nov.
+          <lb ed="#P" n="100"/>nunc., 3; Abb., Fel. et alii in c. 2 de Test., et
+          <lb ed="#P" n="101"/>constat ex usu jurium in l. Jubemus, 2. S Sane,
+          <lb ed="#P" n="102"/>c. de Sacros. Eccl., et ex 1l. 1, ff. de His qua
+          <lb ed="#P" n="103"/>pro non scrip. hab., et in Exir. 2, de Simo.,
+          <lb ed="#P" n="104"/>cum aliis punientibus illud delictum ultra 
+          irri<lb break="no" ed="#P" n="105"/>tationem ; et ex Conc. Trid., sess. 25, ubi 
+          irri<lb break="no" ed="#P" n="106"/>tat matrimonium contractum sine parocho et
+          <lb ed="#P" n="107"/>testibus, et insuper praecipit puniri sic 
+          contra<lb break="no" ed="#P" n="108"/>hentes, ut posset poenam designare, licet non
+          <lb ed="#P" n="109"/>faciat; denique ex cap. 2 de Reb. Eccles. non
+          <lb ed="#P" n="110"/>alien., ubi contra eos qui res Ecclesiae a do-
+          <pb ed="#P" n="505"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>minis temporalibus impetrant et obtinent, 
+          di<lb break="no" ed="#P" n="2"/>citur : Irrita habeantur quae obtinent, et a 
+          com<lb break="no" ed="#P" n="3"/>mamione Ecclesiae excludantur, quae lex 
+          poena<lb break="no" ed="#P" n="4"/>lis est quoad poeonam excommunicationis 
+          feren<lb break="no" ed="#P" n="5"/>dam; quoad priorem vero partem de irritatione
+          <lb ed="#P" n="6"/>non est poenalis, sed moralis. Imo neque est
+          <lb ed="#P" n="7"/>institutiva irritationis, sed declarativa,quia illa
+          <lb ed="#P" n="8"/>obtentio fuerat rapina quaedam. Nam (ut ibi
+          <lb ed="#P" n="9"/>dicitur), qui sic obtinent bona Ecclesiae, 
+          egen<lb break="no" ed="#P" n="10"/>tium substantiam rapiunt, quia dominus 
+          tem<lb break="no" ed="#P" n="11"/>poralis non potest illa valide conferre : ergo
+          <lb ed="#P" n="12"/>quod obtentio sit irrita non fit, sed declaratur
+          <lb ed="#P" n="13"/>per illam legem. Quando ergo actus irritus sic
+          <lb ed="#P" n="14"/>punitur per legem, clarum est legem esse 
+          poe<lb break="no" ed="#P" n="15"/>nalem quoad novae poenae impositionem ; sed
+          <lb ed="#P" n="16"/>id quasi accidentarium est, seu adventitium
+          <lb ed="#P" n="17"/>irritationi, et ideo illam poenam hic non 
+          consi<lb break="no" ed="#P" n="18"/>deramus, sed per generalem doctrinam de lege
+          <lb ed="#P" n="19"/>poenali metienda est. Agimus ergo priori modo
+          <lb ed="#P" n="20"/>de ipsa irritatione, quae interdum in poenam
+          <lb ed="#P" n="21"/>praecipue introducitur.
+        </p>
+        <p xml:id="szdleg-b26977-d1e849">
+          <lb ed="#P" n="22"/>8. Probatur conclusio inductione. — Sic 
+          au<lb break="no" ed="#P" n="23"/>tem probari potest conclusio inductione ; nam
+          <lb ed="#P" n="24"/>inter impedimenta matrimonii, illa quae sunt
+          <lb ed="#P" n="25"/>ratione delicti poenalia sunt, ut sunt 
+          uxorici<lb break="no" ed="#P" n="26"/>dium cum promissione, adulterium cum aliquo
+          <lb ed="#P" n="27"/>vivente conjuge cum promissione futuri 
+          matri<lb break="no" ed="#P" n="28"/>monii,ut habenturin toto titulo de Eo qui duxit
+          <lb ed="#P" n="29"/>in matrim. quam poll. per adult., etc. Si 
+          ci<lb break="no" ed="#P" n="30"/>vente, 91, q. 1; sic etiam electio religiosi ad
+          <lb ed="#P" n="31"/>praelationem, cui ipse consentit sine superioris
+          <lb ed="#P" n="32"/>sui licentia, irritatur in poenam suae 
+          praesump<lb break="no" ed="#P" n="33"/>tionis, ut expresse dicitur in cap. S religiosus,
+          <lb ed="#P" n="34"/>de Elect., in 6. Idem colligitur ex cap. 
+          Dispen<lb break="no" ed="#P" n="35"/>dio, de hescriptis, in 6, ibi: Simili pena, si
+          <lb ed="#P" n="36"/>contra hoc fecerit, puniendus, scilicet, irritatione
+          <lb ed="#P" n="37"/>cujusdam rescripti ; et alia plura jura citantur
+          <lb ed="#P" n="38"/>a praedictis auctoribus, aliaque exempla de 
+          ir<lb break="no" ed="#P" n="39"/>ritatione donationum, vel acquisitionum, 
+          lar<lb break="no" ed="#P" n="40"/>gitionum, aut fructuum frequentia sunt, et
+          <lb ed="#P" n="41"/>aliis locis tractata. Denique quoties in jure 
+          ad<lb break="no" ed="#P" n="42"/>ditur particula in penam, vel in odium, vel in
+          <lb ed="#P" n="43"/>injuriam, ut in capite Cum secundum, de 
+          Prae<lb break="no" ed="#P" n="44"/>bend., censetur irritatio fieri in poenam ; 
+          ali<lb break="no" ed="#P" n="45"/>quando vero sine his particulis, et ex modo quo
+          <lb ed="#P" n="46"/>fertur, satis intelligi potest sub illa habitudine
+          <lb ed="#P" n="47"/>ferri ; ratio vero clara est, quia irritatio actus
+          <lb ed="#P" n="48"/>est magnum gravamen, et potest nocumentum
+          <lb ed="#P" n="49"/>afferre : ergo de se esse potest sufficiens poena,
+          <lb ed="#P" n="50"/>et aliquando est valde accommodata delicto,
+          <lb ed="#P" n="51"/>ergo potest per legem intendi sub ratione 
+          poe<lb break="no" ed="#P" n="52"/>nae: tunc ergo vel illa, quatenus irritans, 
+          habe<lb break="no" ed="#P" n="53"/>bit simul rationem legis poenalis. Nec obstabit
+          <lb ed="#P" n="54"/>quod per irritationem non minuatur 
+          patrimo<lb break="no" ed="#P" n="55"/>nium, aut tollatur jus quaesitum ; nam satis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>superque sufficit quod impediatur 
+          acquiren<lb break="no" ed="#P" n="57"/>dum, vel quod privetur homo potestate, quam
+          <lb ed="#P" n="58"/>habet ad efficiendum valide actiones suas. Nam
+          <lb ed="#P" n="59"/>hoc modo inhabilitas ad beneficium est magna
+          <lb ed="#P" n="60"/>poena, et in leg. Senatus, ft. de Conwahend.
+          <lb ed="#P" n="61"/>empt., irritatio venditionis dicitur poena 
+          ven<lb break="no" ed="#P" n="62"/>ditoris, etiamsi re sua non privetur, et similes
+          <lb ed="#P" n="63"/>poenae numerantur in 1. Minoris, ff. de Poenis.
+        </p>
+        <p xml:id="szdleg-b26977-d1e946">
+          <lb ed="#P" n="64"/>9. Sententiarum conciliatio. — Ex his ergo
+          <lb ed="#P" n="65"/>possunt facile sententiae adductae conciliari ;
+          <lb ed="#P" n="66"/>nam indefinite utraque verum dicit, neutra
+          <lb ed="#P" n="67"/>autem universaliter. Unde quae dicit legem
+          <lb ed="#P" n="68"/>irritantem esse poenalem, ut sit vera, 
+          permis<lb break="no" ed="#P" n="69"/>sive seu potentialiter est intelligenda, id est,
+          <lb ed="#P" n="70"/>potest esse poenalis. Quae vero negat esse 
+          poe<lb break="no" ed="#P" n="71"/>nalem intelligenda est formaliter, seu ex 
+          ne<lb break="no" ed="#P" n="72"/>cessitate, quia lex irritans, ut talis est, non
+          <lb ed="#P" n="73"/>postulat quod sit poenalis, neque hoc est illi 
+          in<lb break="no" ed="#P" n="74"/>trinsecum. Et ita etiam facile solvuntur 
+          fun<lb break="no" ed="#P" n="75"/>damenta illarum opinionum, si contra ea quae
+          <lb ed="#P" n="76"/>diximus applicentur. Jura enim allegata in
+          <lb ed="#P" n="77"/>prima opinione solum probant irritationem
+          <lb ed="#P" n="78"/>interdum esse poenam : ratio vero ibi facta
+          <lb ed="#P" n="79"/>probat hanc posse esse poenam, non tamen
+          <lb ed="#P" n="80"/>necessarium esse respectum poenae ut fiat, quia
+          <lb ed="#P" n="81"/>per accidens est quod respectu alicujus sit
+          <lb ed="#P" n="82"/>gravamen. Propter bonum commune multa
+          <lb ed="#P" n="83"/>gravamina toleranda sunt sine culpa, sine 
+          per<lb break="no" ed="#P" n="84"/>sonali causa, seu defectu. Unde non est verum
+          <lb ed="#P" n="85"/>omnem inhabilitatem personae esse poenam ;
+          <lb ed="#P" n="86"/>interdum enim ad perfectionem, et statum 
+          re<lb break="no" ed="#P" n="87"/>ligiosum pertinet; aliquando vero est quid
+          <lb ed="#P" n="88"/>indifferens. Ad confirmationem vero ibi 
+          addi<lb break="no" ed="#P" n="89"/>tam de interpretatione legis irritantis, dicemus
+          <lb ed="#P" n="90"/>latius in libro 8. Nunc solum respondemus 
+          le<lb break="no" ed="#P" n="91"/>gem irritantem, si fuerit simul poenalis, 
+          res<lb break="no" ed="#P" n="92"/>tringendam esse ; alias vero intendi posse
+          <lb ed="#P" n="93"/>prout favorem vel utilitatem commuuis boni
+          <lb ed="#P" n="94"/>prospexerit, et aliquando restringi posse, nisi
+          <lb ed="#P" n="95"/>inde resultet aliquid contra commune bonum,
+          <lb ed="#P" n="96"/>quia ad hoc suffhicit ut sit onerosa, licet 
+          poena<lb break="no" ed="#P" n="97"/>lis non sit. Argumenta vero et jura allata in
+          <lb ed="#P" n="98"/>secunda sententia probant recte irritationem
+          <lb ed="#P" n="99"/>posse et saepe induci in poenam, non tamen
+          <lb ed="#P" n="100"/>hoc illi esse intrinsecum, nec in universum illi
+          <lb ed="#P" n="101"/>convenire. Et hoc tantum convincitur 
+          exem<lb break="no" ed="#P" n="102"/>plo irregularitatis ibi adducto, quod etiam
+          <lb ed="#P" n="103"/>probat posse dari inhabilitatem, ac subinde
+          <lb ed="#P" n="104"/>irritationem, quae non sit poena. Discursus 
+          de<lb break="no" ed="#P" n="105"/>nique ibi factus convincit in illis casibus, ubi
+          <lb ed="#P" n="106"/>irritatio fit sine culpa alicujus, et sine causa
+          <lb ed="#P" n="107"/>(ut sic dicam) personali, non posse irritationem
+          <lb ed="#P" n="108"/>esse poenam. Saepe autem imponitur irritatio
+          <lb ed="#P" n="109"/>praecedente culpa et ratione illius, et ideo tunc
+          <lb ed="#P" n="110"/>merito imponi potest in poenam.
+        </p>
+        <p xml:id="szdleg-b26977-d1e1050">
+          <pb ed="#P" n="506"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>10. Posse in eadem lege irritationem actus
+          <lb ed="#P" n="2"/>ferri per se in bonum commune, et in ponam.—
+          <lb ed="#P" n="3"/>Obviatur objectioni.— Addo denique aliquando
+          <lb ed="#P" n="4"/>accidere posse ut in eadem lege irritatio actus
+          <lb ed="#P" n="5"/>feratur, et per se propter commune bonum, et
+          <lb ed="#P" n="6"/>simul in poenam. Quia isti duo respectus non
+          <lb ed="#P" n="7"/>repugnant simul conjungi in eodem effectu ;
+          <lb ed="#P" n="8"/>velrespectu ejusdem, vel respectu diversorum.
+          <lb ed="#P" n="9"/>In exemplum adduci possunt impedimenta
+          <lb ed="#P" n="10"/>irritantia matrimonium propter delictum 
+          in<lb break="no" ed="#P" n="11"/>troducta ; nam illa poenalia sunt, ut vidimus,
+          <lb ed="#P" n="12"/>et tamen etiam per sese erant expedientia ad
+          <lb ed="#P" n="13"/>commune bonum, ut securitati et fidelitati
+          <lb ed="#P" n="14"/>conjugum consuleretur : unde, licet alia poena
+          <lb ed="#P" n="15"/>tale delictum condigne puniretur, nihilominus
+          <lb ed="#P" n="16"/>posset juste irritatio simul persistere sine 
+          du<lb break="no" ed="#P" n="17"/>plicatione poenae , quia per se expediebat ,
+          <lb ed="#P" n="18"/>etiamsi non adjiceretur in poenam. Dices hinc
+          <lb ed="#P" n="19"/>sequi nunquam fieri irritationem in poenam,
+          <lb ed="#P" n="20"/>quin etiam propter se et propter suam 
+          utilita<lb break="no" ed="#P" n="21"/>tem fiat, quia semper talis irritatio confert ad
+          <lb ed="#P" n="22"/>commune bonum, et propter illud fit. 
+          Respon<lb break="no" ed="#P" n="23"/>deo negando sequelam, quia hic non 
+          conside<lb break="no" ed="#P" n="24"/>ratur tantum communis utilitas quae 
+          inveni<lb break="no" ed="#P" n="25"/>tur in pena, ut poena est , quae est vindicare
+          <lb ed="#P" n="26"/>delictum, et per illum modum coactionis 
+          prae<lb break="no" ed="#P" n="27"/>cavere ne similia fiant, quod est commune
+          <lb ed="#P" n="28"/>omni poenae : sed ulterius consideratur utilitas
+          <lb ed="#P" n="29"/>medicinae (ut sic dicam) auferendo occasiones
+          <lb ed="#P" n="30"/>perpetrandi similia delicta, quae utilitas non
+          <lb ed="#P" n="31"/>est communis omni poenae, nec de ratione
+          <lb ed="#P" n="32"/>ejus, ut ad vindicationem spectat. Hoc ergo
+          <lb ed="#P" n="33"/>modo dicimus, per irritationem illam 
+          matri<lb break="no" ed="#P" n="34"/>monii in praedictis casibus auferri occasiones
+          <lb ed="#P" n="35"/>perpetrandi similia delicta, et hanc causam
+          <lb ed="#P" n="36"/>fuisse sufficientem ad imponenda talia 
+          impe<lb break="no" ed="#P" n="37"/>dimenta, etiam sine vindicatione delicti, quod
+          <lb ed="#P" n="38"/>per aliam poenam fieri potuisset, sicut de facto
+          <lb ed="#P" n="39"/>ctiam fit. Aliquando vero imponitur in poenam
+          <lb ed="#P" n="40"/>inhabilitas ad beneficia , propter 
+          rebaptizatio<lb break="no" ed="#P" n="41"/>nem, verbi gratia, vel aliud simile delictum,
+          <lb ed="#P" n="42"/>ad quod vitandum nihil confert illa 
+          inhabili<lb break="no" ed="#P" n="43"/>tas, nisi per modum comminationis et 
+          vindic<lb break="no" ed="#P" n="44"/>tae, sicut quaelibet alia gravis poena prodesse
+          <lb ed="#P" n="45"/>posset.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

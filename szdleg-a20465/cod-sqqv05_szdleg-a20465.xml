@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 20</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 20</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="79"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a20465"><!-- deleg-l1c20 -->
+        <head xml:id="szdleg-a20465-Hd1e101">Caput 20</head>
+        <head xml:id="szdleg-a20465-Hd1e103" type="question-title">An in lege fieri possit mutatio, et quotuplex illa sit</head>
+        <p xml:id="szdleg-a20465-d1e106">
+          <lb ed="#P" n="78"/>CAPUT XX.
+          <lb ed="#P" n="79"/>AN IN LEGE FIERI POSSIT MUTATIO, ET QUOTUPLEX
+          <lb ed="#P" n="80"/>ILLA SIT.
+        </p>
+        <p xml:id="szdleg-a20465-d1e115">
+          <lb ed="#P" n="81"/>1. Prima assertio.— Lea indefinite lata non
+          <lb ed="#P" n="82"/>mautatur ob solam temporis durationem. — 
+          Ex<lb break="no" ed="#P" n="83"/>plicata natura legis, et omnibus causis, et
+          <lb ed="#P" n="84"/>effectibus ejus, solum superest dicendum de
+          <lb ed="#P" n="85"/>mutatione legis. Verumtamen, quia haec 
+          pro<lb break="no" ed="#P" n="86"/>prietas non est communis omni legi, ideo 
+          me<lb break="no" ed="#P" n="87"/>lius tractabitur de singulis in particulari, in
+          <lb ed="#P" n="88"/>eis declarando, an modum aliquem 
+          mutatio<lb break="no" ed="#P" n="89"/>nis admittant. Hic ergo solum praemittemus
+          <lb ed="#P" n="90"/>quasdam generales regulas, et explicationes
+          <lb ed="#P" n="91"/>terminorum, ut facilior sit postea doctrina in
+          <lb ed="#P" n="92"/>singulis legibus. Primo igitur supponimus ex
+          <lb ed="#P" n="93"/>dictis, legem indefinite latam de se non 
+          muta<lb break="no" ed="#P" n="94"/>ri, neque ejus obligationem cessare propter
+          <lb ed="#P" n="95"/>solam temporis diuturnitatem, si alia causa
+          <lb ed="#P" n="96"/>mutationis non interveniat. Probatur, quia
+          <lb ed="#P" n="97"/>lex de se perpetua est: ergo propter solam
+          <lb ed="#P" n="98"/>temporis durationem non mutabitur , nisi
+          <lb ed="#P" n="99"/>aliunde tollatur. Dices: aliquando lex 
+          invol<lb break="no" ed="#P" n="100"/>vit, seu praescribit certum terminum suae 
+          obli<lb break="no" ed="#P" n="101"/>gationis. Respondetur primo, ideo locutos nos
+          <lb ed="#P" n="102"/>fuisse in assertione de lege indefinite lata. 
+          Se<lb break="no" ed="#P" n="103"/>cundo addimus, illud solum habere locum in
+          <lb ed="#P" n="104"/>aliqua lege positiva, et rarum esse, et quasi
+          <lb ed="#P" n="105"/>praeter naturam perfectae legis, ut supra 
+          dic<lb break="no" ed="#P" n="106"/>tum est, et ideo simpliciter aflirmari posse,
+          <lb ed="#P" n="107"/>moraliter loquendo, non cessare propter so-
+          <pb ed="#P" n="80"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>lam temporis diuturnitatem. Eo vel maxime,
+          <lb ed="#P" n="2"/>quod cum lex esse debeat rationabilis et justa,
+          <lb ed="#P" n="3"/>nunquam praescribet certum terminum suae
+          <lb ed="#P" n="4"/>durationis, nisi quia in illo termino, seu fine
+          <lb ed="#P" n="5"/>temporis cessabit vel justitia legis, vel 
+          potis<lb break="no" ed="#P" n="6"/>sima ratio, quae movit legislatorem ad 
+          ponen<lb break="no" ed="#P" n="7"/>dam illam, et ita nunquam oritur proprie
+          <lb ed="#P" n="8"/>mutatio ex solo temporis decursu, sed ex 
+          ali<lb break="no" ed="#P" n="9"/>qua alia mutatione, quae cum illo conjungitur.
+        </p>
+        <p xml:id="szdleg-a20465-d1e200">
+          <lb ed="#P" n="10"/>2. Secunda assertio. —Mutationem legis 
+          du<lb break="no" ed="#P" n="11"/>pliciter accidere posse, vel per defectum cause
+          <lb ed="#P" n="12"/>conservantis, vel per actionem contrarii agentis.
+          <lb ed="#P" n="13"/>— Secundo, dicendum est mutationem legis
+          <lb ed="#P" n="14"/>dupliciter accidere posse. Uno modo quasi ab
+          <lb ed="#P" n="15"/>intrinseco ex defectu materiae, seu causae 
+          con<lb break="no" ed="#P" n="16"/>servantis. Secundo, ab extrinseco per actionem
+          <lb ed="#P" n="17"/>contrarii agentis; quae assertio non est 
+          uni<lb break="no" ed="#P" n="18"/>versaliter accipienda, ita ut sensus sit omnem
+          <lb ed="#P" n="19"/>legem esse mutabilem his modis, quia non ita
+          <lb ed="#P" n="20"/>est : aliqua enim esse potest immutabilis, et
+          <lb ed="#P" n="21"/>aliqua potest mutari uno modo, et non alio:
+          <lb ed="#P" n="22"/>solum ergo indefinite dicimus, in lege habere
+          <lb ed="#P" n="23"/>locum illo duos modos mutationis. Et ita 
+          de<lb break="no" ed="#P" n="24"/>clarari potest primo, quia lex se habet ad 
+          mo<lb break="no" ed="#P" n="25"/>dum cujusdam accidentis, quatenus est in
+          <lb ed="#P" n="26"/>subditis, vel illos obligat, seu debitores 
+          consti<lb break="no" ed="#P" n="27"/>tuit : accidens autem illis duobus modis in
+          <lb ed="#P" n="28"/>generali mutari potest, aut destrui, ut constat
+          <lb ed="#P" n="29"/>ex philosophia : idem ergo erit cum 
+          propor<lb break="no" ed="#P" n="30"/>tione in lege. Secundo, probatur declarando in
+          <lb ed="#P" n="31"/>particulari utrumque membrum : ratio prioris
+          <lb ed="#P" n="32"/>membri est, quia lex requirit causam quasi
+          <lb ed="#P" n="33"/>materialem, circa quam versetur, et ideo si
+          <lb ed="#P" n="34"/>illa desit, cessabit obligatio legis : ut si omnino
+          <lb ed="#P" n="35"/>subditi desint, cessabit obligatio legis, licet
+          <lb ed="#P" n="36"/>ipsa possit manere in mente legislatoris : sed
+          <lb ed="#P" n="37"/>haec mutatio nihil ad moralem 
+          consideratio<lb break="no" ed="#P" n="38"/>nem refert. Habet etiam lex causam 
+          efficien<lb break="no" ed="#P" n="39"/>tem, et ex hac parte solet effectus desinere,
+          <lb ed="#P" n="40"/>seu mutari per suspensionem influxus, seu non
+          <lb ed="#P" n="41"/>conservationem causae eflicientis ; quia vero
+          <lb ed="#P" n="42"/>efficiens causa legis, prout est in subditis, seu
+          <lb ed="#P" n="43"/>extra legislatorem, non est nisi voluntas 
+          le<lb break="no" ed="#P" n="44"/>gislatoris, quae eadem perseverare censetur,
+          <lb ed="#P" n="45"/>quamdiu contraria non intervenit, ideo 
+          muta<lb break="no" ed="#P" n="46"/>tionem legis ex parte causae eflficientis 
+          com<lb break="no" ed="#P" n="47"/>prehendimus sub illa, quae fit per actionem
+          <lb ed="#P" n="48"/>contrariam. Denique habet lex causam 
+          fina<lb break="no" ed="#P" n="49"/>lem, et ex hac parte maxime censetur lex 
+          ces<lb break="no" ed="#P" n="50"/>sare, seu mutari ab intrinseco ex defectu 
+          cau<lb break="no" ed="#P" n="51"/>sae finalis, in qua maxime habet locum illud,
+          <lb ed="#P" n="52"/>Cessante causa, cesset effectus, cap. Cessante
+          <lb ed="#P" n="53"/>de Appellat. Verumtamen hic modus 
+          muta<lb break="no" ed="#P" n="54"/>tionis maxime habet locum inlegibus positivis
+          <lb ed="#P" n="55"/>humanis, quia in naturali non videtur habere
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>locum, et de divina positiva est res sub 
+          contro<lb break="no" ed="#P" n="57"/>versia, et ideo in singulis melius explicabitur:
+          <lb ed="#P" n="58"/>ratio vero alterius partis est, quia lex accipit
+          <lb ed="#P" n="59"/>suum esse, et vim obligandi per voluntatem
+          <lb ed="#P" n="60"/>legislatoris : ergo per contrariam voluntatem
+          <lb ed="#P" n="61"/>auferri poterit, quia supponimus non deesse
+          <lb ed="#P" n="62"/>potestatem, cum illa sit eadem in legislatore
+          <lb ed="#P" n="63"/>ad utrumque actum, supposita capacitate 
+          ma<lb break="no" ed="#P" n="64"/>teriae, ut magis ex sequentibus declarabitur.
+        </p>
+        <p xml:id="szdleg-a20465-d1e325">
+          <lb ed="#P" n="65"/>3. Tertia assertio.— Legem posse mutari, vel
+          <lb ed="#P" n="66"/>per ablationem illus, vel per ingressum alterius
+          <lb ed="#P" n="67"/>qui illam extinguat. — Tertio, dicimus hanc
+          <lb ed="#P" n="68"/>legis mutationem interdum esse posse pure
+          <lb ed="#P" n="69"/>ablativam, seu corruptivam per se; aliquando
+          <lb ed="#P" n="70"/>vero esse posse per modum generationis unius,
+          <lb ed="#P" n="71"/>quae sit corruptio alterius. Declaratur, quia
+          <lb ed="#P" n="72"/>imprimis, quoties mutatio legis fit per solam
+          <lb ed="#P" n="73"/>mutationem, vel defectum causae necessariae
+          <lb ed="#P" n="74"/>ad conservationem ejus, tunc est mera cessatio
+          <lb ed="#P" n="75"/>legis per carentiam obligationis ejus, absque
+          <lb ed="#P" n="76"/>introductione alterius obligationis, sicut 
+          cor<lb break="no" ed="#P" n="77"/>rumpitur lumen per absentiam solis. Deinde
+          <lb ed="#P" n="78"/>etiamsi tollatur lex per voluntatem contrariam
+          <lb ed="#P" n="79"/>legislatoris, qui vult legem cessare, tunc etiam
+          <lb ed="#P" n="80"/>habet locum pura subtractio legis, quia non
+          <lb ed="#P" n="81"/>est necesse aliam introduci ad prioris 
+          ablatio<lb break="no" ed="#P" n="82"/>nem. Unde licet in eo dicatur lex tolli per 
+          ac<lb break="no" ed="#P" n="83"/>tionem contrariam quasi immanentem , quia
+          <lb ed="#P" n="84"/>voluntas contraria versari potest circa solam
+          <lb ed="#P" n="85"/>privationem, seu ablationem legis, non tamen
+          <lb ed="#P" n="86"/>tollitur per mutationem contrariam quasi 
+          tran<lb break="no" ed="#P" n="87"/>seuntem, sed per mutationem privativam, et
+          <lb ed="#P" n="88"/>ablativam legis : ita ergo satis constat prius
+          <lb ed="#P" n="89"/>membrum. Posterius autem locum habet,
+          <lb ed="#P" n="90"/>quando una lex tollitur per introductionem 
+          al<lb break="no" ed="#P" n="91"/>terius priori repugnantis, ut si praeceptum 
+          je<lb break="no" ed="#P" n="92"/>junii tollatur, imponendo praeceptum 
+          come<lb break="no" ed="#P" n="93"/>dendi carnem, aut bis in die. Hic enim 
+          muta<lb break="no" ed="#P" n="94"/>tionis modus locum habet in materia mutabili,
+          <lb ed="#P" n="95"/>et quae nunc potest esse utilis, et postea 
+          noci<lb break="no" ed="#P" n="96"/>va : et tunc si praecepta sint contraria, necesse
+          <lb ed="#P" n="97"/>est ut unum excludat aliud, etiamsi id directe
+          <lb ed="#P" n="98"/>non exprimat, quia non possunt simul obligare
+          <lb ed="#P" n="99"/>leges contrarise, ut per se notum est.
+        </p>
+        <p xml:id="szdleg-a20465-d1e403">
+          <lb ed="#P" n="100"/>A. Quarta assertio. — Mutationem legis vel
+          <lb ed="#P" n="101"/>posse esse universalem, vel particularem, vel
+          <lb ed="#P" n="102"/>simpliciter , vel secundum quid. — Quarto, 
+          po<lb break="no" ed="#P" n="103"/>test haec mutatio legis esse universalis, vel
+          <lb ed="#P" n="104"/>particularis tantum, seu potest esse mutatio
+          <lb ed="#P" n="105"/>simpliciter, vel secundum quid. Mutatio 
+          uni<lb break="no" ed="#P" n="106"/>versalis et simpliciter erit, quando lex in 
+          to<lb break="no" ed="#P" n="107"/>tum et simpliciter tollitur, id est, et respectu
+          <lb ed="#P" n="108"/>omnium, seu totius communitatis quam 
+          obli<lb break="no" ed="#P" n="109"/>gabat, et respectu sui esse, seu durationis,
+          <lb ed="#P" n="110"/>quia simpliciter tollitur, ita ut amplius non
+          <pb ed="#P" n="81"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>redeat. Posset autem fieri mutatio universalis,
+          <lb ed="#P" n="2"/>non tamen simpliciter, sed ad tempus, si pro
+          <lb ed="#P" n="3"/>aliquo tempore suspendatur obligatio legis,
+          <lb ed="#P" n="4"/>statim reditura illo transacto; et hanc vocamus
+          <lb ed="#P" n="5"/>mutationem secundum quid, quia re vera lex
+          <lb ed="#P" n="6"/>non simpliciter tollitur, quandoquidem 
+          tran<lb break="no" ed="#P" n="7"/>sacto illo tempore perseverat sicut antea sine
+          <lb ed="#P" n="8"/>nova editione, vel promulgatione. Particularis
+          <lb ed="#P" n="9"/>autem mutatio fit, quando manente lege 
+          quo<lb break="no" ed="#P" n="10"/>ad universalem obligationem respectu 
+          com<lb break="no" ed="#P" n="11"/>munitatis, aufertur in particulari respectu 
+          ali<lb break="no" ed="#P" n="12"/>cujus personae, seu partis communitatis, ut
+          <lb ed="#P" n="13"/>fieri solet per dispensationes, aut privilegia :
+          <lb ed="#P" n="14"/>nam, sicut supra diximus, posse interdum ferri
+          <lb ed="#P" n="15"/>legem pro aliqua communitate, excipiendo
+          <lb ed="#P" n="16"/>partem, vel aliqua membra, ex justa causa:
+          <lb ed="#P" n="17"/>ita post latam generaliter legem potest fieri
+          <lb ed="#P" n="18"/>similis exemptio, et tunc dicitur fieri mutatio
+          <lb ed="#P" n="19"/>aliqua particularis in lege.
+        </p>
+        <p xml:id="szdleg-a20465-d1e475">
+          <lb ed="#P" n="20"/>5. Varia vocabula quibus legis mutatio 
+          uni<lb break="no" ed="#P" n="21"/>versalis significatur. — Et juxta hanc 
+          distinc<lb break="no" ed="#P" n="22"/>tionem sunt impositae variae voces ad hanc
+          <lb ed="#P" n="23"/>legis mutationem significandam, quas oportet
+          <lb ed="#P" n="24"/>breviter prae oculis ponere, ut clarius et 
+          expe<lb break="no" ed="#P" n="25"/>ditius in sequentibus loqui possimus. Quaedam
+          <lb ed="#P" n="26"/>igitur verba sunt quae significant generalem
+          <lb ed="#P" n="27"/>et absolutam mutationem legis; alia quae 
+          tan<lb break="no" ed="#P" n="28"/>tum significant mutationem secundum quid,
+          <lb ed="#P" n="29"/>vel particularem. Prior significatur praecipue
+          <lb ed="#P" n="30"/>per verbum abrogandi legem, tunc enim 
+          abro<lb break="no" ed="#P" n="31"/>gari lex dicitur, quando totaliter ac 
+          simplici<lb break="no" ed="#P" n="32"/>ter aufertur. Potest autem hoc fieri variis
+          <lb ed="#P" n="33"/>modis. Unus est per simplicem ablationem
+          <lb ed="#P" n="34"/>legis, quae potest dici revocatio legis, et 
+          inter<lb break="no" ed="#P" n="35"/>dum vocatur mors legis, ut videbimus infra
+          <lb ed="#P" n="36"/>tractando de lege veteri. Aliud est quando non
+          <lb ed="#P" n="37"/>solum tollitur lex, sed etiam vetatur ejus 
+          ob<lb break="no" ed="#P" n="38"/>servatio, et dici potest prohibitio legis, per
+          <lb ed="#P" n="39"/>quam prior lex incipit esse non solum mortua,
+          <lb ed="#P" n="40"/>sed etiam mortifera, ut de lege veteri 
+          loquun<lb break="no" ed="#P" n="41"/>tur theologi. Differtque hic modus a 
+          praece<lb break="no" ed="#P" n="42"/>denti, quia ille consistit solum in ablatione
+          <lb ed="#P" n="43"/>legis et obligationis ejus: hic vero praeter 
+          il<lb break="no" ed="#P" n="44"/>lam privationem addit novam legem 
+          prohi<lb break="no" ed="#P" n="45"/>bentem id quod per aliam praecipiebatur.
+        </p>
+        <p xml:id="szdleg-a20465-d1e534">
+          <lb ed="#P" n="46"/>6. Irritatio et abrogatio legis idem 
+          signift<lb break="no" ed="#P" n="47"/>cat. — Tertius modus esse potest, quando non
+          <lb ed="#P" n="48"/>solum prohibetur quod prius praecipiebatur,
+          <lb ed="#P" n="49"/>sed etiam contrarium vel incompossibile priori
+          <lb ed="#P" n="50"/>praecipitur, ut si prius praecipiebatur studium
+          <lb ed="#P" n="51"/>tali hora, et postea praecipiebatur oratio pro
+          <lb ed="#P" n="52"/>eadem hora: nam hoc plus est quam non 
+          prae<lb break="no" ed="#P" n="53"/>cipere studium, et quam prohibere illud : 
+          ad<lb break="no" ed="#P" n="54"/>ditur ergo in hoc tertio modo novum 
+          praecep<lb break="no" ed="#P" n="55"/>tum non solum de contradictorio objecto (ut
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sic dicam), sed etiam de contrario. Potest 
+          au<lb break="no" ed="#P" n="57"/>tem his duobus ultimis modis abrogatio prioris
+          <lb ed="#P" n="58"/>legis fieri per aliam novam legem 
+          contradicto<lb break="no" ed="#P" n="59"/>riam, vel contrariam ; aliquando vero 
+          praece<lb break="no" ed="#P" n="60"/>dit pura revocatio, et postea additur nova 
+          pro<lb break="no" ed="#P" n="61"/>hibitio, vel novum contrarium praeceptum. Et
+          <lb ed="#P" n="62"/>quando fit priori modo non potest posterior lex
+          <lb ed="#P" n="63"/>fieri, nisi vel ab eodem qui priorem tollit, vel
+          <lb ed="#P" n="64"/>a superiori potestate, quia inferior non potest
+          <lb ed="#P" n="65"/>resistere majori: quando vero fit prohibitio
+          <lb ed="#P" n="66"/>posteriori modo, potest fieri ab inferiori, quia
+          <lb ed="#P" n="67"/>jam supponit ablatam priorem legem, ut in
+          <lb ed="#P" n="68"/>abrogatione legis veteris videre licet, et infra
+          <lb ed="#P" n="69"/>suo loco explicabimus. Denique Soto addidit
+          <lb ed="#P" n="70"/>irritationem legis tanquam distinctam ab 
+          abro<lb break="no" ed="#P" n="71"/>gatione legis: quia sicut votum irritari potest,
+          <lb ed="#P" n="72"/>ita videtur etiam lex posse irritari. 
+          Verumta<lb break="no" ed="#P" n="73"/>men in lege irritatio non videtur distincta ab
+          <lb ed="#P" n="74"/>abrogatione, quia eumdem effectum habet, et
+          <lb ed="#P" n="75"/>solum per potestatem jurisdictionis fieri 
+          po<lb break="no" ed="#P" n="76"/>test. Soto autem vocat simplicem 
+          abrogatio<lb break="no" ed="#P" n="77"/>nem, quando fit ab eodem qui legem tulit, vel
+          <lb ed="#P" n="78"/>a successore, qui tanquam idem reputatur.
+          <lb ed="#P" n="79"/>Quando vero ablatio legis fit a superiori, tunc
+          <lb ed="#P" n="80"/>vocat irritationem. Sed hoc solum potest 
+          perti<lb break="no" ed="#P" n="81"/>nere ad usum vocis, an vero in re sit aliqua 
+          dif<lb break="no" ed="#P" n="82"/>ferentia, infra circa legem humanam dicemus.
+        </p>
+        <p xml:id="szdleg-a20465-d1e619">
+          <lb ed="#P" n="83"/>7. Vocabula quibus mutatio particularis legis
+          <lb ed="#P" n="84"/>significatur. — Propria significatio verbi 
+          dis<lb break="no" ed="#P" n="85"/>pensatio.— Aliae sunt voces significantes 
+          par<lb break="no" ed="#P" n="86"/>ticularem mutationem legis, inter quas prima
+          <lb ed="#P" n="87"/>et magis usitata est dispensatio legis. Circa
+          <lb ed="#P" n="88"/>quam vocem notari imprimis debet origo, et
+          <lb ed="#P" n="89"/>proprietas ejus. Dispensare enim in sua 
+          pro<lb break="no" ed="#P" n="90"/>pria impositione, idem est quod distribuere,
+          <lb ed="#P" n="91"/>vel administrare munus aliquod, habens 
+          con<lb break="no" ed="#P" n="92"/>junctam rerum necessariarum distributionem:
+          <lb ed="#P" n="93"/>et ita distributio ipsa beneficiorum Dei, quae
+          <lb ed="#P" n="94"/>pro ratione divinae providentiae diversis 
+          tem<lb break="no" ed="#P" n="95"/>poribus fit, dispensatio solet appellari, ut patet
+          <lb ed="#P" n="96"/>ex illo ad Ephes. 1: Secundwm beneplacitum
+          <lb ed="#P" n="97"/>ejus, quod proposuit in eo, in dispensatione 
+          ple<lb break="no" ed="#P" n="98"/>nitudinis temporis instaurare omnia in Christo.
+          <lb ed="#P" n="99"/>Specialiter autem solet in sacra Scriptura 
+          vo<lb break="no" ed="#P" n="100"/>cari dispensator, qui in domo aliqua ab ejus
+          <lb ed="#P" n="101"/>domino constituitur, ut necessaria familiae 
+          dis<lb break="no" ed="#P" n="102"/>penset, juxta illud Luc 12: Quis putet est 
+          fi<lb break="no" ed="#P" n="103"/>delis dispensator, etc. Et ita in veteri 
+          Testa<lb break="no" ed="#P" n="104"/>mento solet nomen dispensatoris temporalis
+          <lb ed="#P" n="105"/>accipi pro illo, qui familiam alicujus 
+          tempora<lb break="no" ed="#P" n="106"/>liter administrat , ut Genes. 43 et 44,et 3
+          <lb ed="#P" n="107"/>heg. S, et haec acceptio est valde usitata in
+          <lb ed="#P" n="108"/>jure civili, S Hecte, Instit. de Mandato, l. 
+          U<lb break="no" ed="#P" n="109"/>bana, ff. de Verb. significat., et multa de illa
+          <lb ed="#P" n="110"/>erudite congerit Brissonius.
+        </p>
+        <p xml:id="szdleg-a20465-d1e682">
+          <pb ed="#P" n="82"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>8. Disputatur quid significet in novo 
+          Testa<lb break="no" ed="#P" n="2"/>mento item dispensatio. — Quando exerceatur
+          <lb ed="#P" n="3"/>propria dispensatio in lege. — At in novo 
+          Tes<lb break="no" ed="#P" n="4"/>tamento ad altiorem, spiritualem scilicet 
+          si<lb break="no" ed="#P" n="5"/>gnificationem vox haec translata est : significat
+          <lb ed="#P" n="6"/>enim ceconomum, seu ministrum spiritualis
+          <lb ed="#P" n="7"/>domus Dei, quae est Ecclesia, juxta illud 2
+          <lb ed="#P" n="8"/>Corinth. 4: Sic nos existimet homo ut 
+          minis<lb break="no" ed="#P" n="9"/>tros Christi, et dispensatores mysteriorum Dei,
+          <lb ed="#P" n="10"/>et 2 Petr. 4: Sicut boni dispensatores 
+          multi<lb break="no" ed="#P" n="11"/>formis gratie Dei. Unde etiam ipsa 
+          distribu<lb break="no" ed="#P" n="12"/>tio, seu generalis administratio mysteriorum
+          <lb ed="#P" n="13"/>Dei, quae in Ecclesia fit, solet in sacra Scriptura
+          <lb ed="#P" n="14"/>dispensatio appellari, 1 Corinth. 9: 
+          Dispensa<lb break="no" ed="#P" n="15"/>tio mihi credita est ; ad Ephes. 3: Si tamen
+          <lb ed="#P" n="16"/>audistis dispensationem Dei, quae data est mihi
+          <lb ed="#P" n="17"/>in vobis; ad Coloss. 1: Cujus factus sum ego
+          <lb ed="#P" n="18"/>minister secundum dispensationem Dei, que
+          <lb ed="#P" n="19"/>data est mihi. Sic etiam dixit Bernardus ad
+          <lb ed="#P" n="20"/>Eugenium, libro 3 de Considerat., capite 3:
+          <lb ed="#P" n="21"/>Dispensatio tibi super orbem credita est, non
+          <lb ed="#P" n="22"/>data possessio. Hinc ergo ulterius translata est
+          <lb ed="#P" n="23"/>haec vox, ad significandum particularem actum
+          <lb ed="#P" n="24"/>hujus potestatis administrativae : sic enim 
+          con<lb break="no" ed="#P" n="25"/>cessio indulgentiarum, dispensatio thesauri
+          <lb ed="#P" n="26"/>Ecclesiastici dicitur: sic etiam dantur 
+          dispen<lb break="no" ed="#P" n="27"/>sationes voti et juramenti, de quibus aliis locis
+          <lb ed="#P" n="28"/>dictum est. Ita ergo in praesenti accommodata
+          <lb ed="#P" n="29"/>est vox dispensationis, ad significandam 
+          par<lb break="no" ed="#P" n="30"/>ticularem mutationem legis per relaxationem
+          <lb ed="#P" n="31"/>obligationis ejus circa unam vel aliam 
+          per<lb break="no" ed="#P" n="32"/>sonam : est enim obligatio legis quasi onus
+          <lb ed="#P" n="33"/>quoddam distribuendum inter multos, et ideo
+          <lb ed="#P" n="34"/>liberatio unius ab illa obligatione, et non 
+          alio<lb break="no" ed="#P" n="35"/>rum, quaedam dispensauo illius appellata est:
+          <lb ed="#P" n="36"/>nam quia lex in communi ponitur, et in 
+          par<lb break="no" ed="#P" n="37"/>ticulari persona potest occurrere specialis 
+          ra<lb break="no" ed="#P" n="38"/>tio, vel necessitas, ut a tali onere eximatur,
+          <lb ed="#P" n="39"/>ideo genus hoc mutationis interdum 
+          necessa<lb break="no" ed="#P" n="40"/>rium, aut conveniens est. Unde dispensatio
+          <lb ed="#P" n="41"/>tunc propriissime fit, quando obligatio legis,
+          <lb ed="#P" n="42"/>quae antea et communitatem et talem personam
+          <lb ed="#P" n="43"/>obligabat, ab hac persona tollitur, cum maneat
+          <lb ed="#P" n="44"/>lex communitatem obligans circa eamdem
+          <lb ed="#P" n="45"/>materiam.
+        </p>
+        <p xml:id="szdleg-a20465-d1e787">
+          <lb ed="#P" n="46"/>9. De mutatione legis que fit per 
+          comma<lb break="no" ed="#P" n="47"/>talionem vel compensationem. — Quid sit 
+          per<lb break="no" ed="#P" n="48"/>missio in materia legis. — Quid significet
+          <lb ed="#P" n="49"/>nomen licentia. — Aliter etiam solet haec
+          <lb ed="#P" n="50"/>mutatio fieri per modum commutationis, seu
+          <lb ed="#P" n="51"/>compensationis, quae revera est quaedam 
+          dis<lb break="no" ed="#P" n="52"/>pensatio, quia per illam etiam aufertur in 
+          par<lb break="no" ed="#P" n="53"/>ticulari obligatio legis; tamen quando non 
+          tol<lb break="no" ed="#P" n="54"/>Iitur per puram privationem (ut sic dicam),
+          <lb ed="#P" n="55"/>sed loco illius aliquod aliud onus imponitur,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>vocatur commutatio, vel compensatio, ut
+          <lb ed="#P" n="57"/>quando alicui relaxatur jejunium cum onere
+          <lb ed="#P" n="58"/>recitandi Rosarium, vel quid simile; et quando
+          <lb ed="#P" n="59"/>illud onus, quod loco obligationis legis 
+          substi<lb break="no" ed="#P" n="60"/>tuitur, pecuniarium est, poterit illa dici 
+          re<lb break="no" ed="#P" n="61"/>demptio, sicut in votis solet appellari: nam
+          <lb ed="#P" n="62"/>quoad hoc est eadem ratio, servata 
+          proportio<lb break="no" ed="#P" n="63"/>ne: et ideo de his videri possunt quae in simili
+          <lb ed="#P" n="64"/>diximus, tractando de voto. Hic demum 
+          ad<lb break="no" ed="#P" n="65"/>verti potest, solere hanc mutationem vocari
+          <lb ed="#P" n="66"/>nomine permissionis et licentie, quae tamen
+          <lb ed="#P" n="67"/>voces generaliores sunt, et ideo sunt 
+          expli<lb break="no" ed="#P" n="68"/>candae. Permissio enim non solum dicitur,
+          <lb ed="#P" n="69"/>quando obligatio aufertur, sed etiam quando
+          <lb ed="#P" n="70"/>connivetur, dissimulatur, aut cum effectus
+          <lb ed="#P" n="71"/>non impeditur, nec punitur violator legis, et
+          <lb ed="#P" n="72"/>haec non est dispensatio, ut per se notum est.
+          <lb ed="#P" n="73"/>Deus enim multa praecepta sua violari 
+          permit<lb break="no" ed="#P" n="74"/>tit, in quibus non dispensat; non ergo omnis
+          <lb ed="#P" n="75"/>permissioc est dispensatio, sed dispensatio dici
+          <lb ed="#P" n="76"/>potest quaedam permissio, quia per illam 
+          sini<lb break="no" ed="#P" n="77"/>tur quis agere contra praescriptum legis non
+          <lb ed="#P" n="78"/>solum impune, sed etiam immaculate. Sieut
+          <lb ed="#P" n="79"/>autem diximus de abrogatione, quod potest
+          <lb ed="#P" n="80"/>fieri, vel auferendo tantum, vel etiam 
+          prohi<lb break="no" ed="#P" n="81"/>bendo, aut praecipiendo contrarium, ita de
+          <lb ed="#P" n="82"/>dispensatione dici potest: nam interdum est
+          <lb ed="#P" n="83"/>pura, et tunc habet modum permissionis, et
+          <lb ed="#P" n="84"/>per se hoc solum requirit; interdum vero 
+          po<lb break="no" ed="#P" n="85"/>test per prohibitionem fieri, ut si Praelatus non
+          <lb ed="#P" n="86"/>solum auferat a subdito obligationem audiendi
+          <lb ed="#P" n="87"/>Missam, verbi gratia, sed etiam prohibeat 
+          il<lb break="no" ed="#P" n="88"/>lam audire, etc. Nomen etiam licentiae latius
+          <lb ed="#P" n="89"/>patet quam nomen dispensationis: omnis enim
+          <lb ed="#P" n="90"/>dispensatio recte dicitur licentia quaedam; non
+          <lb ed="#P" n="91"/>tamen omnis licentia est dispensatio: nam
+          <lb ed="#P" n="92"/>seepe per licentiam non relaxatur obligatio
+          <lb ed="#P" n="93"/>legis, sed solum est circumstantia quaedam
+          <lb ed="#P" n="94"/>requisita in ipsa lege ad actum bene 
+          exercen<lb break="no" ed="#P" n="95"/>dum, ut maxime in religiosis statutis videre
+          <lb ed="#P" n="96"/>licet : nam religiosus non debet loqui, aut
+          <lb ed="#P" n="97"/>exire domo sine licentia; cum tamen illa datur,
+          <lb ed="#P" n="98"/>non proprie in lege dispensatur, sed potius
+          <lb ed="#P" n="99"/>completur modus operandi lege praescriptus,
+          <lb ed="#P" n="100"/>et ideo talis licentia non requirit causam 
+          ejus<lb break="no" ed="#P" n="101"/>dem rationis, nec propriam potestatem 
+          juris<lb break="no" ed="#P" n="102"/>dictionis, sed alicujus administrationis, quae
+          <lb ed="#P" n="103"/>ad legum mutationem non pertinet.
+        </p>
+        <p xml:id="szdleg-a20465-d1e917">
+          <lb ed="#P" n="104"/>10. De nomine interpretatio, et quomodo a
+          <lb ed="#P" n="105"/>dispensatione differat. — His addenda est 
+          in<lb break="no" ed="#P" n="106"/>terpretatio legis, quam aliqui cum 
+          dispensa<lb break="no" ed="#P" n="107"/>tione confundunt, sed sunt longe diversae, ut
+          <lb ed="#P" n="108"/>dixi late lib. 6 de Voto, cap. 9; nam ibi dicta
+          <lb ed="#P" n="109"/>de dispensatione et interpretatione voti 
+          eam<lb break="no" ed="#P" n="110"/>dem rationem habent in dispensatione et in-
+          <pb ed="#P" n="83"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>terpretatione legis, et ideo non sunt hic 
+          repe<lb break="no" ed="#P" n="2"/>tenda. Differt ergo interpretatio a 
+          dispensa<lb break="no" ed="#P" n="3"/>tione, quod non tollit obligationem legis, sed
+          <lb ed="#P" n="4"/>declarat legem interdum non obligare. Unde
+          <lb ed="#P" n="5"/>dispensatio a voluntate proxime pendet, et
+          <lb ed="#P" n="6"/>gratiae ac liberalitatis rationem habet; 
+          inter<lb break="no" ed="#P" n="7"/>pretatio intellectus potius est, et rationem
+          <lb ed="#P" n="8"/>justitiae involvit : unde si fiat privatim, ad 
+          ju<lb break="no" ed="#P" n="9"/>dicium prudentis pertinet; si vero fiat ex 
+          po<lb break="no" ed="#P" n="10"/>testate, est quasi juridica sententia. Hinc etiam
+          <lb ed="#P" n="11"/>interpretatio non solum in particulari casu,
+          <lb ed="#P" n="12"/>sed etiam de tota lege fieri potest, ut si fiat
+          <lb ed="#P" n="13"/>interpretatio, quod lex sit injusta, et ideo 
+          om<lb break="no" ed="#P" n="14"/>nino non obliget; vel si cessante omnino 
+          ra<lb break="no" ed="#P" n="15"/>tione legis, in universali consequenter 
+          declare<lb break="no" ed="#P" n="16"/>tur legis obligationem cessasse, vera fit 
+          inter<lb break="no" ed="#P" n="17"/>pretatio, et tamen illa non dicetur abrogatio
+          <lb ed="#P" n="18"/>legis, sed cognitio, vel judicium nullitatis ejus.
+          <lb ed="#P" n="19"/>Ita ergo quando interpretatio legis fit in 
+          particu<lb break="no" ed="#P" n="20"/>lari persona, velcasu, quod ineolex nonobliget,
+          <lb ed="#P" n="21"/>non potest illa dici dispensatio. Quocirca nec
+          <lb ed="#P" n="22"/>mutatio legis dici poterit, quia tunc non 
+          muta<lb break="no" ed="#P" n="23"/>tur lex: nam ipsa de se, eadem, et eodem modo
+          <lb ed="#P" n="24"/>perseverans, invenitur non obligans pro illo
+          <lb ed="#P" n="25"/>casu, quia vel suis verbis illum non 
+          compre<lb break="no" ed="#P" n="26"/>hendit, vel a principio non fuit mens 
+          legisla<lb break="no" ed="#P" n="27"/>toris in illo, seu pro illo obligare: unde 
+          inter<lb break="no" ed="#P" n="28"/>pretatio in quadam significatione magis stricte
+          <lb ed="#P" n="29"/>dicitur illa quae fit per specialem virtutem
+          <lb ed="#P" n="30"/>eequitatis, de qua disputat D. Thomas, 2. 2,
+          <lb ed="#P" n="31"/>quaest. 120. Illamque vocavit emendationem
+          <lb ed="#P" n="32"/>legis, seu epiikiam, Aristoteles 5 Ethicor.,
+          <lb ed="#P" n="33"/>cap. 10, non quia in lege fuerit proprius error,
+          <lb ed="#P" n="34"/>qui postea per interpretationem emendetur, et
+          <lb ed="#P" n="35"/>ita lex ex parte mutetur, sed dicitur 
+          emenda<lb break="no" ed="#P" n="36"/>tio legis quoad externam speciem, et quoad
+          <lb ed="#P" n="37"/>generalem vigorem verborum: nam lex 
+          ge<lb break="no" ed="#P" n="38"/>neraliter loquitur, et verbis suis non potest
+          <lb ed="#P" n="39"/>singulares casus excipere, et ita in externa
+          <lb ed="#P" n="40"/>specie videtur comprehendere aliquos, quos
+          <lb ed="#P" n="41"/>revera non comprehendit ; et quia hoc declarat
+          <lb ed="#P" n="42"/>epiikia, ideo emendatio legis dicitur.
+        </p>
+        <p xml:id="szdleg-a20465-d1e1030">
+          <lb ed="#P" n="43"/>11. Variatio que fit in obligatione legis ob
+          <lb ed="#P" n="44"/>mutationem materia non est dispensatio.— 
+          At<lb break="no" ed="#P" n="45"/>que hinc etiam obiter colligitur variationem
+          <lb ed="#P" n="46"/>quae interdum contingit in obligatione legis ex
+          <lb ed="#P" n="47"/>mutatione, vel variatione materiae, non esse
+          <lb ed="#P" n="48"/>dispensationem in lege. Probatur, quia propria
+          <lb ed="#P" n="49"/>dispensatio legis est mutatio ejus, haec autem
+          <lb ed="#P" n="50"/>non est mutatio legis, sed materiae, quae est
+          <lb ed="#P" n="51"/>alterum extremum a quo pendet obligatio. Est
+          <lb ed="#P" n="52"/>enim obligatio quasi relatio quaedam, quae
+          <lb ed="#P" n="53"/>pendet ex fundamento et termino et ex 
+          utrius<lb break="no" ed="#P" n="54"/>que mutatione potest auferri; quando ergo
+          <lb ed="#P" n="55"/>tollitur per solam materiae mutationem, tunc
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>lex non obligat, non quia ipsa mutetur, sed
+          <lb ed="#P" n="57"/>quia ipsa pro eo casu non loquitur: ut, verbi
+          <lb ed="#P" n="58"/>gratia, si quis teneatur promissum solvere, et
+          <lb ed="#P" n="59"/>creditor remittat debitum, jam non obligat lex
+          <lb ed="#P" n="60"/>quae prior obligabat, non quia in illa 
+          dispen<lb break="no" ed="#P" n="61"/>satum sit, sed quia subtracta est materia, et
+          <lb ed="#P" n="62"/>sic de aliis. Quod pro intelligentia legis 
+          natu<lb break="no" ed="#P" n="63"/>ralis est notandum, ut infra declarabitur. Ad
+          <lb ed="#P" n="64"/>dispensationem ergo necessarium est ut, 
+          per<lb break="no" ed="#P" n="65"/>severante materia et subjecto capaci 
+          obliga<lb break="no" ed="#P" n="66"/>tionis legis, tollatur obligatio ex parte ipsius
+          <lb ed="#P" n="67"/>legis per relaxationem ejus: nam si solum
+          <lb ed="#P" n="68"/>subtrahitur legi materia, vel subjectum, circa
+          <lb ed="#P" n="69"/>quod possit operari, seu obligationem inducere,
+          <lb ed="#P" n="70"/>ipsa de se eadem semper manet, et ex se habet,
+          <lb ed="#P" n="71"/>non ut semper, et in omni casu obliget, sed
+          <lb ed="#P" n="72"/>cum certis circumstantis : et hac ratione lex
+          <lb ed="#P" n="73"/>jejunandi obligat hominem sanum; si autem
+          <lb ed="#P" n="74"/>eegrotet, desinit illum obligare, non quia ipsa
+          <lb ed="#P" n="75"/>mutetur, sed quia moraliter jam non est idem
+          <lb ed="#P" n="76"/>subjectum, ad quod loquitur lex.
+        </p>
+        <p xml:id="szdleg-a20465-d1e1108">
+          <lb ed="#P" n="77"/>12. Objectio. — Solutio. — Objicies, quia
+          <lb ed="#P" n="78"/>supra dictum est aliquando fieri mutationem
+          <lb ed="#P" n="79"/>in lege per ablationem causae : talis autem 
+          vi<lb break="no" ed="#P" n="80"/>detur esse haec mutatio. Respondeo, illud 
+          ge<lb break="no" ed="#P" n="81"/>nus mutationis solum contingere, quando 
+          om<lb break="no" ed="#P" n="82"/>nino lex desinit esse per subtractionem totalis
+          <lb ed="#P" n="83"/>causae conservantis, quia tunc transit de esse
+          <lb ed="#P" n="84"/>ad non esse, et ita mutatur. At vero quando
+          <lb ed="#P" n="85"/>mutatio materiae solum est in particulari casu,
+          <lb ed="#P" n="86"/>tunc lex non desinit esse, sed tantum non
+          <lb ed="#P" n="87"/>obligat, et ideo non mutatur ipsa nec variatur,
+          <lb ed="#P" n="88"/>quia semper fuit ita constituta. Urgebis, idem
+          <lb ed="#P" n="89"/>dici posse de dispensatione legis, quia tunc
+          <lb ed="#P" n="90"/>etiam non desinit esse, sed tantum obligare.
+          <lb ed="#P" n="91"/>Respondetur negando similitudinem : nam per
+          <lb ed="#P" n="92"/>dispensationem mutatur lex, seu coarctatur,
+          <lb ed="#P" n="93"/>plus quam antea esset ; per mutationem 
+          au<lb break="no" ed="#P" n="94"/>tem materiae minime, quia a principio 
+          consti<lb break="no" ed="#P" n="95"/>tuta est circa talem materiam, et cum talibus
+          <lb ed="#P" n="96"/>conditionibus, et non alio modo. Sicut 
+          praecep<lb break="no" ed="#P" n="97"/>ta affirmativa pro quibusdam temporibus 
+          obli<lb break="no" ed="#P" n="98"/>gant, et non pro aliis, non quia ipsa mutentur,
+          <lb ed="#P" n="99"/>sed quia sunt a principio ita constituta, et quia
+          <lb ed="#P" n="100"/>haec est eorum natura; ita ergo in praesenti
+          <lb ed="#P" n="101"/>cogitandum est.
+        </p>
+        <p xml:id="szdleg-a20465-d1e1165">
+          <lb ed="#P" n="102"/>13. De mutatione legis secundum quid quaee
+          <lb ed="#P" n="103"/>fit per suspensionem.— Tandem solet alia 
+          mu<lb break="no" ed="#P" n="104"/>tatio in lege fieri per suspensionem ejus, quam
+          <lb ed="#P" n="105"/>vocavimus mutationem secundum quid, quia
+          <lb ed="#P" n="106"/>non simphiciter tollit legem, sed suspendit 
+          ef<lb break="no" ed="#P" n="107"/>fectum ejus ad tempus: et non immerito 
+          po<lb break="no" ed="#P" n="108"/>test haec mutatio sub dispensatione 
+          compre<lb break="no" ed="#P" n="109"/>hendi : nam si suspensio illa fiat circa aliquam
+          <lb ed="#P" n="110"/>personam in particulari, est clara dispensatio
+          <pb ed="#P" n="84"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>temporalis, et ex hac parte minus perfecta.
+          <lb ed="#P" n="2"/>Potest autem interdum fieri pro tota 
+          commu<lb break="no" ed="#P" n="3"/>nitate, et tunc ex hac parte videtur habere
+          <lb ed="#P" n="4"/>similitudinem cum abrogatione: tamen quia
+          <lb ed="#P" n="5"/>non simpliciter tollit legem, sed ad tempus
+          <lb ed="#P" n="6"/>suspendit obligationem ejus , dicitur tantum
+          <lb ed="#P" n="7"/>suspensio. Potest autem haec suspensio accidere
+          <lb ed="#P" n="8"/>aliquando per solam interpretationem, et tunc
+          <lb ed="#P" n="9"/>ad epiikiam pertinet : interdum vero a 
+          supe<lb break="no" ed="#P" n="10"/>riore concedi potest talis relaxatio toti 
+          commu<lb break="no" ed="#P" n="11"/>nitati pro brevi tempore, vel etiam pro uno
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="12"/>tantum actu, ad faciendum aliquod opus 
+          ser<lb break="no" ed="#P" n="13"/>vile in tali die festo, propter specialem 
+          cau<lb break="no" ed="#P" n="14"/>sam, et tunc talis suspensio dispensatio dici
+          <lb ed="#P" n="15"/>potest. Atque haec sufficiant de significatione
+          <lb ed="#P" n="16"/>vocum , in quibus supponimus mutationes
+          <lb ed="#P" n="17"/>lis vocibus significatas in legibus esse 
+          pos<lb break="no" ed="#P" n="18"/>sibiles : quomodo autem ad singulas leges
+          <lb ed="#P" n="19"/>applicandae sint, et per quas causas fieri 
+          pos<lb break="no" ed="#P" n="20"/>sint, in sequentibus libris explicandum est,
+          <lb ed="#P" n="21"/>et ideo de lege in communi hactenus dictum
+          <lb ed="#P" n="22"/>sit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

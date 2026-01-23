@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 12</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 12</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="374"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a94581"><!-- deleg-l4c12 -->
+        <head xml:id="szdleg-a94581-Hd1e101">Caput 12</head>
+        <head xml:id="szdleg-a94581-Hd1e103" type="question-title">Utrum potestas ecclesiastica efficaciam habeat in actus mere internos, ita ut per legem canonicam per se praecipi aut prohiberi possint</head>
+        <p xml:id="szdleg-a94581-d1e106">
+          <lb ed="#P" n="17"/>CAPUT XI.
+          <lb ed="#P" n="18"/>UTRUM POTESTAS ECCLESIASTICA EFFICACIAM 
+          HA<lb break="no" ed="#P" n="19"/>BEAT IN ACTUS MERE INTERNOS, ITA UT PER
+          <lb ed="#P" n="20"/>LEGEM CANONICAM PER SE PRAECIPI AUT 
+          PROHI<lb break="no" ed="#P" n="21"/>BERI POSSINT.
+        </p>
+        <p xml:id="szdleg-a94581-d1e119">
+          <lb ed="#P" n="22"/>1. Ratio dubitandi. —Explicuimus hactenus
+          <lb ed="#P" n="23"/>proprium principium, et finem legis 
+          canoni<lb break="no" ed="#P" n="24"/>cae, sequitur ut declaremus materiam ejus, et
+          <lb ed="#P" n="25"/>incipiamus a propinquiori, quae est actus 
+          hu<lb break="no" ed="#P" n="26"/>manus, et quia de actu exteriori in genere
+          <lb ed="#P" n="27"/>nulla est difficultas, de interiori specialiter
+          <lb ed="#P" n="28"/>inquirimus ; nam, licet de lege humana in
+          <lb ed="#P" n="29"/>communi supra definierimus non posse per se
+          <lb ed="#P" n="30"/>versari circa internos actus, in lege canonica
+          <lb ed="#P" n="31"/>habet illa resolutio specialem difficultatem,
+          <lb ed="#P" n="32"/>quam in hunc locum remisimus. Est autem
+          <lb ed="#P" n="33"/>generalis ratio dubitandi, quia potestas 
+          eccle<lb break="no" ed="#P" n="34"/>siastica est spiritualis, et ordinatur 
+          principali<lb break="no" ed="#P" n="35"/>ter ad internum bonum animarum, et habet
+          <lb ed="#P" n="36"/>altius principium, scilicet, Deum ipsum 
+          super<lb break="no" ed="#P" n="37"/>naturaliter illam conferentem, et ideo ex 
+          utro<lb break="no" ed="#P" n="38"/>que capite videtur posse immediate versari
+          <lb ed="#P" n="39"/>circa interiores actus. Unde argumentor in
+          <lb ed="#P" n="40"/>hunc modum : nam Christus Dominus habet
+          <lb ed="#P" n="41"/>potestatem ferendi leges obligantes ad actus
+          <lb ed="#P" n="42"/>internos, ut credendi, et similes, et ideo potuit
+          <lb ed="#P" n="43"/>praecipere confiteri etiam cogitationes 
+          inter<lb break="no" ed="#P" n="44"/>nas : ergo potuit Vicario suo relinquere 
+          parti<lb break="no" ed="#P" n="45"/>cipationem hujus potestatis : nulla est enim
+          <lb ed="#P" n="46"/>repugnantia : ergo relicta fuit ab eo.
+        </p>
+        <p xml:id="szdleg-a94581-d1e176">
+          <lb ed="#P" n="47"/>2. Probo hanc ultimam consequentiam variis
+          <lb ed="#P" n="48"/>modis : primo, ex generalitate illorum 
+          verbo<lb break="no" ed="#P" n="49"/>rum, quodcumque ligaveris, etc. Cur enima
+          <lb ed="#P" n="50"/>nobis limitatur, cum principis concessio ample
+          <lb ed="#P" n="51"/>sit interpretanda? Secundo, ex congruentia
+          <lb ed="#P" n="52"/>insinuata, quia ad finem hujus potestatis haec
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>materia proportionata est ; nam aeterna salus
+          <lb ed="#P" n="54"/>animarum, quae per hanc potestatem 
+          intendi<lb break="no" ed="#P" n="55"/>tur, magis pendet ex internis actibus quam ex
+          <lb ed="#P" n="56"/>externis. Tertio, probatur inductione ; nam
+          <lb ed="#P" n="57"/>primo potest Ecclesia remittere interiores 
+          cul<lb break="no" ed="#P" n="58"/>pas per absolutionem sacramentalem. Deinde
+          <lb ed="#P" n="59"/>potest dispensare in votis, etiam pure internis
+          <lb ed="#P" n="60"/>et mentalibus; ergo habet jurisdictionem in
+          <lb ed="#P" n="61"/>tales actus. Item potest similia vota irritare.
+          <lb ed="#P" n="62"/>Praeterea potest poenas pro peccatis debitas
+          <lb ed="#P" n="63"/>per indulgentias remittere, quod etiam 
+          requi<lb break="no" ed="#P" n="64"/>rit potestatem jurisdictionis, ut nune suppono.
+          <lb ed="#P" n="65"/>Praeterea aliquando excommunicat propter 
+          in<lb break="no" ed="#P" n="66"/>teriorem actum, ut propter haeresim 
+          menta<lb break="no" ed="#P" n="67"/>lem, ut ex multis Decretis conatur probare
+          <lb ed="#P" n="68"/>Medina statim citandus. Interdum etiam 
+          vide<lb break="no" ed="#P" n="69"/>tur punire actum externum ob conditionem
+          <lb ed="#P" n="70"/>internam aeque hominibus occultam, quod 
+          pe<lb break="no" ed="#P" n="71"/>rinde est. Tandem potest haec sententia 
+          con<lb break="no" ed="#P" n="72"/>firmari, quia homo potest se voluntarie 
+          subji<lb break="no" ed="#P" n="73"/>cere alteri per votum obedientiae, etiam quoad
+          <lb ed="#P" n="74"/>internos actus; quid ergo mirum quod Christus
+          <lb ed="#P" n="75"/>subjecerit fideles Vicario suo, etiam quoad 
+          in<lb break="no" ed="#P" n="76"/>teriores actus?
+        </p>
+        <p xml:id="szdleg-a94581-d1e247">
+          <lb ed="#P" n="77"/>3. Prima opinio affirmativa.—Propter haec
+          <lb ed="#P" n="78"/>et similia argumenta, nonnulli doctores 
+          affir<lb break="no" ed="#P" n="79"/>mant posse Ecclesiam ferre leges quae 
+          imme<lb break="no" ed="#P" n="80"/>diate versentur circa interiores actus. Ita sentit
+          <lb ed="#P" n="81"/>Glossa in Clement. 1 de Haeret., S Verum,
+          <lb ed="#P" n="82"/>verbo Zo ipso ; Glossa etiam in c. Cogitationis,
+          <lb ed="#P" n="83"/>de Poen., d. 4; Adrian., quodl. 8, a. 1, litter.
+          <lb ed="#P" n="84"/>H et sequent.; Medin., Cod. de Orat., q. 15; de
+          <lb ed="#P" n="85"/>hac re Albert. Pighi, 1. 6 de Ecclesiast. 
+          hie<lb break="no" ed="#P" n="86"/>rarchia, c. 26, et Summa Rosel., verbo 
+          Abso<lb break="no" ed="#P" n="87"/>lutio, 1, num. 928 et 29, ubi plura allegat, sed
+          <lb ed="#P" n="88"/>non recte, ut Sylvester advertit.
+        </p>
+        <p xml:id="szdleg-a94581-d1e276">
+          <lb ed="#P" n="89"/>4. Sententia communis. —Contraria tamen
+          <lb ed="#P" n="90"/>sententia communis est, quam tenet divus
+          <lb ed="#P" n="91"/>Thomas 1. 2, q. 94, art. 4, q. 100, art. 9; et
+          <lb ed="#P" n="92"/>ibi Soto, et reliqui expositores : item Soto in
+          <lb ed="#P" n="93"/>d. 22, q. 2, a. 3, et Cajetanus 22, q. 11, a. 3, et
+          <lb ed="#P" n="94"/>opusc. de Auctoritate Papae, c. 19, et in 
+          Sum<lb break="no" ed="#P" n="95"/>ma, verb. Horesis ; Palud. in 4, d. 13, q. 3,
+          <lb ed="#P" n="96"/>8. 1, n. 15; et d. 15, q. 5, a. 9. n. 94; et
+          <lb ed="#P" n="97"/>d. 17, q. 2, a. 2, et q. 7, n. 20; Major in 3,
+          <lb ed="#P" n="98"/>d. 25, q. 2, dub. ult.; Durand. in 4, d. 15,
+          <lb ed="#P" n="99"/>q. 12; et d. 17, q. 8; Antonin., 3 p., tit. 24;
+          <lb ed="#P" n="100"/>Almain. de Potestate Ecclesiae, c. 10; Castro,
+          <lb ed="#P" n="101"/>1. 2, de Justa haeret. punit., c. 18, et lib. 2 de
+          <lb ed="#P" n="102"/>Leg. poenal., c. ult.; Gabr., lect. 62 in Can.,
+          <lb ed="#P" n="103"/>litt. K; Gerson., tract. de Vit. Spirit., lec. 4,
+          <lb ed="#P" n="104"/>sub Alphab. 62, litt. G et H; Navar. in Sum.,
+          <lb ed="#P" n="105"/>c. 97, n. DT, et in dicto c. Cogitationis, de
+          <lb ed="#P" n="106"/>Poenit., d. 1, n.89; et in c. Si quis non dicat,
+          <lb ed="#P" n="107"/>eadem dist. n. 8, ubi refert Felin., Hippolyt. et
+          <pb ed="#P" n="375"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>alios; idem in princ. de Poenit. 5, n. 93; 
+          Drie<lb break="no" ed="#P" n="2"/>do, lib. 3 de Libert. Christiana, cap. 5; 
+          Si<lb break="no" ed="#P" n="3"/>mancas, de Cathol. instit.. tit. 42, n. 3; Ang.,
+          <lb ed="#P" n="4"/>verb. Hereticus, ubi refer: canonistas, et verb.
+          <lb ed="#P" n="5"/>Hora, n. ?1, Sylvest., verb. Fycommunicatio,
+          <lb ed="#P" n="6"/>1,n. 3, ubi male allegat Angel. in contrarium,
+          <lb ed="#P" n="7"/>ut infra videbimus, et verb. Hora, quaest. 11,
+          <lb ed="#P" n="8"/>et verb. Hoeresis, 1, quaest. 8; Armil., eodem
+          <lb ed="#P" n="9"/>num. 1, et bene Tabien. verb. 
+          Facommunica<lb break="no" ed="#P" n="10"/>kio, D, casu 4, num. 4.
+        </p>
+        <p xml:id="szdleg-a94581-d1e346">
+          <lb ed="#P" n="11"/>5. Humana potestas non potest judicare de
+          <lb ed="#P" n="12"/>actibus mere internis, nec punire, cum nequeat
+          <lb ed="#P" n="13"/>scire illos. — Fundamentum potissimum divi
+          <lb ed="#P" n="14"/>Thomae est, quia humana jurisdictio non 
+          po<lb break="no" ed="#P" n="15"/>test ferre leges de actibus de quibus non potest
+          <lb ed="#P" n="16"/>judicare, nec punire ; sed potestas ecclesiastica
+          <lb ed="#P" n="17"/>humana non potest judicare de actibus mere
+          <lb ed="#P" n="18"/>internis, neque illos punire; ergo nec potest
+          <lb ed="#P" n="19"/>de illis leges ferre. Minor expresse asseritur
+          <lb ed="#P" n="20"/>in cap. Sicut tuis, et c. Tua nos, de Simon.:
+          <lb ed="#P" n="21"/>Nobis, inquit Pontifex, solum datum est de 
+          ma<lb break="no" ed="#P" n="22"/>nifestis judicare ; sumitur etiam ex cap. 
+          Era<lb break="no" ed="#P" n="23"/>bescant, d. 32. Et ratio est, quia judicium 
+          sup<lb break="no" ed="#P" n="24"/>ponit causae cognitionem ; actus autem 
+          inte<lb break="no" ed="#P" n="25"/>riores sunt omnino extra cognitionem 
+          huma<lb break="no" ed="#P" n="26"/>nam, et ideo judicium de internis ad solum
+          <lb ed="#P" n="27"/>Deum pertinet : Homo enim videt ea quae parent,
+          <lb ed="#P" n="28"/>Deus autem intuetur cor, 1 Reg. 16; et ideo
+          <lb ed="#P" n="29"/>dicebat Paul. 1 ad Corinth. 14: Nolite ante
+          <lb ed="#P" n="30"/>tempus judicare quoad usque veniat Dominus,
+          <lb ed="#P" n="31"/>qui et illuminabit abscondita tenebrarum, et
+          <lb ed="#P" n="32"/>manifestalit consilia cordium. Major autem
+          <lb ed="#P" n="33"/>sumitur ex Arist., 10 Ethicor., c. 5, dicente
+          <lb ed="#P" n="34"/>potestatem legislativam necessario debere 
+          con<lb break="no" ed="#P" n="35"/>junctam habere potestatem coactivam, quia
+          <lb ed="#P" n="36"/>alias esset inutilis et inefficax: unde fit 
+          homi<lb break="no" ed="#P" n="37"/>nem solum posse ea lege praecipere, quae 
+          po<lb break="no" ed="#P" n="38"/>test punire, si aliter fiant ; non punit autem
+          <lb ed="#P" n="39"/>nisi judicando ; ergo circa ea tantum versatur
+          <lb ed="#P" n="40"/>lex humana, circa quae potest humanum 
+          judi<lb break="no" ed="#P" n="41"/>cium versari. Potest etiam idem probari a 
+          pa<lb break="no" ed="#P" n="42"/>ritate rationis, vel etiam a fortiori, quia plus
+          <lb ed="#P" n="43"/>est legem ferre quam judicare, et quialex esse
+          <lb ed="#P" n="44"/>solet regula humani judicii.
+        </p>
+        <p xml:id="szdleg-a94581-d1e422">
+          <lb ed="#P" n="45"/>6. Difficultas. — Hoc vero fundamentum
+          <lb ed="#P" n="46"/>difficultate non caret. Interrogo enim de quo
+          <lb ed="#P" n="47"/>judicio sit sermo in majori assumpta, aut de
+          <lb ed="#P" n="48"/>judicio quod profertur ab homine per 
+          senten<lb break="no" ed="#P" n="49"/>tiam, aut quod proferri potest ab ipso 
+          legisla<lb break="no" ed="#P" n="50"/>tore per legem : interdum enim ita fertur 
+          judi<lb break="no" ed="#P" n="51"/>cium ; quando, videlicet, lex ipsa per se ipsam
+          <lb ed="#P" n="52"/>punit delictum, ferendo, verbi gratia, 
+          excom<lb break="no" ed="#P" n="53"/>municationem ipso facto incurrendam, quae
+          <lb ed="#P" n="54"/>propterea vocatur latae sententiae, quia fert lex
+          <lb ed="#P" n="55"/>ipsa sententiam. Si intelligatur priori modo,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>videtur falsa illa major, quia multa possunt
+          <lb ed="#P" n="57"/>prohiberi et puniri per legem ecclesiasticam,
+          <lb ed="#P" n="58"/>quae non possunt per sententiam hominis 
+          con<lb break="no" ed="#P" n="59"/>demnari, ut sunt omnia ita occulta, ut 
+          proba<lb break="no" ed="#P" n="60"/>ri non possint ; et ratio est, quia ut homo 
+          ju<lb break="no" ed="#P" n="61"/>dicet, indiget testibus et probatione facti : ut
+          <lb ed="#P" n="62"/>autem lex judicet et puniat , non semper hoc
+          <lb ed="#P" n="63"/>est necessarium, sed sufficit conscientia 
+          delin<lb break="no" ed="#P" n="64"/>quentis, ut patet in exteriori haeretico omnino
+          <lb ed="#P" n="65"/>occulto, qui statim manet excommunicatus, et
+          <lb ed="#P" n="66"/>in conscientia tenetur abstinere. Si autem 
+          ju<lb break="no" ed="#P" n="67"/>dicium in majori propositione sumatur 
+          poste<lb break="no" ed="#P" n="68"/>riori, vel generali modo, sic in eadem 
+          propo<lb break="no" ed="#P" n="69"/>sitione petitur principium ; nam hoc est de quo
+          <lb ed="#P" n="70"/>agimus, scilicet. an lex ipsa per se possit 
+          judi<lb break="no" ed="#P" n="71"/>care de actibus occultis per se, sicut potest de
+          <lb ed="#P" n="72"/>per accidens occultis ; et sic facile negabitur
+          <lb ed="#P" n="73"/>minor de eodem judicio intellecta : nam jura
+          <lb ed="#P" n="74"/>quae in probationem adducuntur non sunt ad
+          <lb ed="#P" n="75"/>rem, quia loquuntur de judicio ferendo per
+          <lb ed="#P" n="76"/>sententiam hominis. Et praeterea propositio
+          <lb ed="#P" n="77"/>illa, quod potestas legislativa non possit esse
+          <lb ed="#P" n="78"/>circa aliquem actum sine coactiva, non videtur
+          <lb ed="#P" n="79"/>per se necessaria, si sermo sit de coactione,
+          <lb ed="#P" n="80"/>ut distinguitur ab obligatione in conscientia,
+          <lb ed="#P" n="81"/>quam fortasse Aristoteles ignoravit, et ideo
+          <lb ed="#P" n="82"/>postulavit externam coactionem, quae det 
+          effi<lb break="no" ed="#P" n="83"/>caciam legi. At vero silex obligat in 
+          conscien<lb break="no" ed="#P" n="84"/>tia, ut maxime de ecclesiastica infra 
+          ostende<lb break="no" ed="#P" n="85"/>mus, illa est sufficiens efficacia legis ; imo
+          <lb ed="#P" n="86"/>poenae, vel censurae, quae ipso jure ab Ecclesia
+          <lb ed="#P" n="87"/>imponuntur, maxime habent efficaciam ex 
+          li<lb break="no" ed="#P" n="88"/>gamine conscientiae ; ergo non repugnat 
+          Eccle<lb break="no" ed="#P" n="89"/>siam habere potestatem ad ferendas leges, quae
+          <lb ed="#P" n="90"/>in conscientia obligent pro actibus internis,
+          <lb ed="#P" n="91"/>etiamsi non posset ad illos exterius et per 
+          ho<lb break="no" ed="#P" n="92"/>minis actionem cogere.
+        </p>
+        <p xml:id="szdleg-a94581-d1e531">
+          <lb ed="#P" n="93"/>7. Non esse impossibilem ecclesiasticam 
+          po<lb break="no" ed="#P" n="94"/>testatem in mere interna- de facto tamen non
+          <lb ed="#P" n="95"/>dari, non enim constat ubi data. — Priusquam
+          <lb ed="#P" n="96"/>ad haec respondeam, censeo praecipuam 
+          pro<lb break="no" ed="#P" n="97"/>bationem hujus sententiae non esse sumendam
+          <lb ed="#P" n="98"/>ex impossibilitate rei secundum se, hanc enim
+          <lb ed="#P" n="99"/>plane non video, quod et argumentum 
+          proxi<lb break="no" ed="#P" n="100"/>me factum, et rationes in principio positae 
+          per<lb break="no" ed="#P" n="101"/>suadere videntur ; potuisset enim Christus, si
+          <lb ed="#P" n="102"/>voluisset, hanc potestatem Ecclesiae dare. 
+          Trac<lb break="no" ed="#P" n="103"/>tanda est ergo res de facto, et probandum est
+          <lb ed="#P" n="104"/>non dedisse: nam hoc mihi multo verisimilius
+          <lb ed="#P" n="105"/>est. Et primum argumentum sit, quod in 
+          Scri<lb break="no" ed="#P" n="106"/>ptura non est aliquod indicium hujus 
+          potesta<lb break="no" ed="#P" n="107"/>tis; sed haec occulta interiora semper 
+          reser<lb break="no" ed="#P" n="108"/>vantur Deo, et ad hoc faciunt verba supra
+          <lb ed="#P" n="109"/>adducta ex Paulo. Neque etiam summi 
+          Ponti<lb break="no" ed="#P" n="110"/>fices de hac potestate mentionem aliquam fe-
+          <pb ed="#P" n="376"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cerunt, sed potius ubique significant haec esse
+          <lb ed="#P" n="2"/>extra forum suum, cum tamen alias 
+          jurisdic<lb break="no" ed="#P" n="3"/>tionem suam totam sape explicent et 
+          tuean<lb break="no" ed="#P" n="4"/>tur. Est etiam magnum argumentum, quod
+          <lb ed="#P" n="5"/>hactenus non invenimus legem datam ab 
+          Ec<lb break="no" ed="#P" n="6"/>clesia de his actibus mere internis ; quod enim
+          <lb ed="#P" n="7"/>nunquam factum est, signum est fieri non
+          <lb ed="#P" n="8"/>posse. Antecedens non potest probari directe,
+          <lb ed="#P" n="9"/>constabit tamen sufficienter, respondendo ad
+          <lb ed="#P" n="10"/>decreta quae Medina adducit, et reliqua 
+          argu<lb break="no" ed="#P" n="11"/>menta solvendo.
+        </p>
+        <p xml:id="szdleg-a94581-d1e601">
+          <lb ed="#P" n="12"/>8. Potestas legislativa per se primo 
+          ordina<lb break="no" ed="#P" n="13"/>tur ad externum Ecclesiae regimen, actus autem
+          <lb ed="#P" n="14"/>internus mere non pertinet ad hoc. — Praeterea
+          <lb ed="#P" n="15"/>addi potest congruentia, quia potestas 
+          legisla<lb break="no" ed="#P" n="16"/>tiva per se primo ordinatur ad externum et
+          <lb ed="#P" n="17"/>commune Ecclesiae regimen, ut in ea omnia
+          <lb ed="#P" n="18"/>convenienter et ordinate fiant; ergo per se 
+          ver<lb break="no" ed="#P" n="19"/>sari debuit solum circa exteriores actus ; nam
+          <lb ed="#P" n="20"/>Ecclesia corpus est visibile, et ideo materia
+          <lb ed="#P" n="21"/>accommodata ad ejus communem et 
+          exter<lb break="no" ed="#P" n="22"/>nam gubernationem, debet etiam esse 
+          sensibi<lb break="no" ed="#P" n="23"/>lis, et externa; illa ergo tantum est 
+          proportio<lb break="no" ed="#P" n="24"/>nata potestati legislativae. Et confirmatur, quia
+          <lb ed="#P" n="25"/>gratia accommodatur naturae ; postulat autem
+          <lb ed="#P" n="26"/>natura hominis ut in ordine ad regimen 
+          com<lb break="no" ed="#P" n="27"/>munitatis humanae, in solis actibus servetur
+          <lb ed="#P" n="28"/>communicatio, et debita proportio, tam 
+          infe<lb break="no" ed="#P" n="29"/>riorum ad superiores, quam e converso, atque
+          <lb ed="#P" n="30"/>ipsorum membrorum inter se; et ideo ait D.
+          <lb ed="#P" n="31"/>Thomas 2. 2. q. 104, art. 5, obedientiam 
+          hu<lb break="no" ed="#P" n="32"/>manam ad homines, solum esse in his quae per
+          <lb ed="#P" n="33"/>corpus fiunt, et non in omnibus, sed in his quae
+          <lb ed="#P" n="34"/>pertinent ad dispositionem actuum, et rerum
+          <lb ed="#P" n="35"/>humanarum , ac sensibilium: nam ea quae
+          <lb ed="#P" n="36"/>sensibilia non sunt non censentur humana,
+          <lb ed="#P" n="37"/>saltem in ordine ad communitatem 
+          huma<lb break="no" ed="#P" n="38"/>nam. Ergo Christus Dominus hoc modo 
+          contu<lb break="no" ed="#P" n="39"/>lit Ecclesie potestatem illam, qua ad hoc
+          <lb ed="#P" n="40"/>Ecclesiae regimen pertinebat. Nam actus 
+          inte<lb break="no" ed="#P" n="41"/>riores proprie non pertinent ad communitatem,
+          <lb ed="#P" n="42"/>sed ad privatam uniuscujusque salutem , vel
+          <lb ed="#P" n="43"/>damnationem, quibus sufficienter provisum est
+          <lb ed="#P" n="44"/>per priorem potestatem ad internum forum
+          <lb ed="#P" n="45"/>pertinentem : haec ergo est propria ratio hujus
+          <lb ed="#P" n="46"/>institutionis, et veritatis.
+        </p>
+        <p xml:id="szdleg-a94581-d1e680">
+          <lb ed="#P" n="47"/>9. Et juxta illam explicanda est ratio D.
+          <lb ed="#P" n="48"/>Thommae, et communis. Non enim eo tendit, ut
+          <lb ed="#P" n="49"/>persuadeat, aliud fuisse omnino impossibile, sed
+          <lb ed="#P" n="50"/>solum ut declaret hunc esse ordinem 
+          consen<lb break="no" ed="#P" n="51"/>taneum naturae hominis. Quo sensu verum est,
+          <lb ed="#P" n="52"/>juxta rei naturam et ordinariam legem , 
+          so<lb break="no" ed="#P" n="53"/>Ium illum actum posse humana lege praecipi,
+          <lb ed="#P" n="54"/>qui potest per homines judicari, ita ut sermo
+          <lb ed="#P" n="55"/>sit de judicio per sententiam hominis proferen-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>do. Imo eadem ratione verum est, nihil posse
+          <lb ed="#P" n="57"/>per legem ipsam judicari, nisi quod de se
+          <lb ed="#P" n="58"/>etiam potest judicari per hominem. Nam ipsa
+          <lb ed="#P" n="59"/>sententia hominis dicitur esse quaedam lex 
+          par<lb break="no" ed="#P" n="60"/>ticularis, et e contrario lex imponens poenam
+          <lb ed="#P" n="61"/>ipso jure est quaedam sententia generalis:
+          <lb ed="#P" n="62"/>unde in supremo Pontifice sunt actus ejusdem
+          <lb ed="#P" n="63"/>potestatis. Quod autem interdum contingat
+          <lb ed="#P" n="64"/>aliquid quod prohibetur et punitur per legem
+          <lb ed="#P" n="65"/>humanam, non posse puniri per sententiam
+          <lb ed="#P" n="66"/>hominis, accidentarium est ex occasione 
+          aii<lb break="no" ed="#P" n="67"/>qua extrinseca, quia nimirum deficiunt testes
+          <lb ed="#P" n="68"/>seu probationes, non vero ex natura talis 
+          ac<lb break="no" ed="#P" n="69"/>tus, qui revera posset esset materia hujusmodi
+          <lb ed="#P" n="70"/>judicii, ut supra l. 3, c. 5, declaravi. Similiter
+          <lb ed="#P" n="71"/>illa propositio, quod potestas legislativa 
+          sem<lb break="no" ed="#P" n="72"/>per habet potestatem coactivam conjunctam,
+          <lb ed="#P" n="73"/>vera est, et moraliter necessaria, ut inductione
+          <lb ed="#P" n="74"/>constat in quacumque alia simili potestate, et
+          <lb ed="#P" n="75"/>quia utraque pertinet ad perfectam 
+          jurisdictio<lb break="no" ed="#P" n="76"/>nem. Nec sufficit per se loquendo posse 
+          obli<lb break="no" ed="#P" n="77"/>gare in conscientia, nisi interveniat etiam
+          <lb ed="#P" n="78"/>potestas cogendi ad hanc obligationem 
+          implen<lb break="no" ed="#P" n="79"/>dam, seu (quod idem est) ad puniendos 
+          trans<lb break="no" ed="#P" n="80"/>gressores hujus obligationis. Quamvis ergo
+          <lb ed="#P" n="81"/>speculative rem considerando, sit una 
+          potes<lb break="no" ed="#P" n="82"/>tas separabilis ab alia, non tamen moraliter,
+          <lb ed="#P" n="83"/>et juxta convenientem institutionem, et ideo
+          <lb ed="#P" n="84"/>Christus Dominus non dedit potestatem 
+          homi<lb break="no" ed="#P" n="85"/>nibus ad ferendas leges de illis actibus, pro
+          <lb ed="#P" n="86"/>quibus non poterant transgressores punire,
+          <lb ed="#P" n="87"/>non solum ex accidenti, sed per se, et ex 
+          natu<lb break="no" ed="#P" n="88"/>rali conditione talium actuum.
+        </p>
+        <p xml:id="szdleg-a94581-d1e776">
+          <lb ed="#P" n="89"/>10. Fit satis prime rationi. — Ex his 
+          faci<lb break="no" ed="#P" n="90"/>lis etiam est responsio ad primam rationem
+          <lb ed="#P" n="91"/>in principio positam ; concedimus enim 
+          Chris<lb break="no" ed="#P" n="92"/>tum de absoluta potentia sua potuisse dare 
+          Ec<lb break="no" ed="#P" n="93"/>clesiae hanc potestatem; negamus autem 
+          de<lb break="no" ed="#P" n="94"/>disse : et ad verba quodcumque ligaveris, etc.,
+          <lb ed="#P" n="95"/>respondemus distributionem illam 
+          intelligen<lb break="no" ed="#P" n="96"/>dam esse de omnibus requisitis ad 
+          convenien<lb break="no" ed="#P" n="97"/>tem Ecclesiae gubernationem. Quae autem haec
+          <lb ed="#P" n="98"/>sint, quamvis ex discursu rationis magna ex
+          <lb ed="#P" n="99"/>parte possit intelligi, praecipue sumendum est
+          <lb ed="#P" n="100"/>ex traditione, et communi doctrina Ecclesiae.
+          <lb ed="#P" n="101"/>Ex utroque autem capite intelligimus illam
+          <lb ed="#P" n="102"/>potestatem ligandi, quatenus legislativa est,
+          <lb ed="#P" n="103"/>in materia tantum externa, et sensibili versari.
+          <lb ed="#P" n="104"/>Dico praeterea (respondendo ad alteram 
+          pro<lb break="no" ed="#P" n="105"/>bationem sumptam ex fine) potestatem 
+          eccie<lb break="no" ed="#P" n="106"/>siasticam in tota sua latitudine sumptam,
+          <lb ed="#P" n="107"/>duplicem esse, scilicet, fori interni et externi.
+          <lb ed="#P" n="108"/>Quas ita distinxit ac declaravit D. Thomas, 4,
+          <lb ed="#P" n="109"/>dist. 18, q. 2, art. 1, quaestiunc. 1, quod in
+          <lb ed="#P" n="110"/>foro conscientiae causa agitur inter hominem
+          <pb ed="#P" n="377"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et Deum : in foro autem exteriori causa agitur
+          <lb ed="#P" n="2"/>hominis ad hominem. Hinc ergo fit, ut prior
+          <lb ed="#P" n="3"/>potestas possit versari circa actus interiores ,
+          <lb ed="#P" n="4"/>imo illos potissime respiciat, quia per illos
+          <lb ed="#P" n="5"/>maxime ordinatur homo ad Deum, et in illis
+          <lb ed="#P" n="6"/>consistit interna salus singulorum fidelium,
+          <lb ed="#P" n="7"/>propter quam maxime haec potestas datur. Et
+          <lb ed="#P" n="8"/>ob eamdem causam actus hujus potestatis ad
+          <lb ed="#P" n="9"/>jurisdictionem pertinent, quam Juristae 
+          vo<lb break="no" ed="#P" n="10"/>cant voluntariam, quae exercetur in 
+          commo<lb break="no" ed="#P" n="11"/>dum subditi, seu rei, et ad petitionem, vel 
+          con<lb break="no" ed="#P" n="12"/>sensum ejus, quia interior salus et 
+          reconcilia<lb break="no" ed="#P" n="13"/>tio cum Deo voluntaria esse debet. Qui autem
+          <lb ed="#P" n="14"/>actus ad hanc potestatem pertineant, infra 
+          di<lb break="no" ed="#P" n="15"/>cetur ; certum est autem legislationem non esse
+          <lb ed="#P" n="16"/>actum hujus potestatis, et ideo ab illa nullum
+          <lb ed="#P" n="17"/>sumi argumentum. At vero potestas 
+          ecclesias<lb break="no" ed="#P" n="18"/>tica, quatenns gubernativa est totius 
+          commu<lb break="no" ed="#P" n="19"/>nitatis, ut sic, habet etiam suam materiam
+          <lb ed="#P" n="20"/>proportionatam, nimirum, actus externos ad
+          <lb ed="#P" n="21"/>gubernationem etiam Ecclesiae exteriorem 
+          per<lb break="no" ed="#P" n="22"/>tinentes, et ad hunc ordinem pertinet potestas
+          <lb ed="#P" n="23"/>ecclesiastica, ut legislativa est. Nam, licet 
+          ec<lb break="no" ed="#P" n="24"/>clesiasticae leges etiam ordinentur ad finem 
+          su<lb break="no" ed="#P" n="25"/>pernaturalem, et ad internum bonum 
+          anima<lb break="no" ed="#P" n="26"/>rum, non tamen immediate operando illud,
+          <lb ed="#P" n="27"/>sed media honestate actuum externorum, circa
+          <lb ed="#P" n="28"/>quos proxime versantur.
+        </p>
+        <p xml:id="szdleg-a94581-d1e891">
+          <lb ed="#P" n="29"/>11. Ad inductionem, quae in contrarium 
+          fie<lb break="no" ed="#P" n="30"/>bat, facilis etiam est ex dictis responsio. Nam
+          <lb ed="#P" n="31"/>primo aliqua ex his quae ibi recensentur, non
+          <lb ed="#P" n="32"/>pertinent ad hanc potestatem legislativam, de
+          <lb ed="#P" n="33"/>qua agimus, sed ad jurisdictionem fori 
+          inter<lb break="no" ed="#P" n="34"/>ni, ut absolutio a peccatis, quae maxime 
+          spec<lb break="no" ed="#P" n="35"/>tat ad jurisdictionem fori sacramentalis, quod
+          <lb ed="#P" n="36"/>est maxime internum. Quanquam eo modo,
+          <lb ed="#P" n="37"/>quo fit inter homines, necessario postulet ut,
+          <lb ed="#P" n="38"/>licet peccata sint omnino interna, per 
+          exter<lb break="no" ed="#P" n="39"/>nam confessionem ad tale judicium deferantur.
+          <lb ed="#P" n="40"/>Quod solus Christus instituere et primario 
+          prae<lb break="no" ed="#P" n="41"/>cipere potuit. Quomodo autem ecclesiastica
+          <lb ed="#P" n="42"/>etiam lex in hac materia versari possit, in 
+          ca<lb break="no" ed="#P" n="43"/>pite sequenti dicitur.
+        </p>
+        <p xml:id="szdleg-a94581-d1e926">
+          <lb ed="#P" n="44"/>12. De dispensatione votorum.—llla 
+          potes<lb break="no" ed="#P" n="45"/>tas non est coactiva, sed jurisdictionis 
+          volun<lb break="no" ed="#P" n="46"/>tarig. — Secundum exemplum erat de 
+          potes<lb break="no" ed="#P" n="47"/>tate dispensandi in votis, etiamsi sola mente
+          <lb ed="#P" n="48"/>interius facta sint. Ad quos respondeo non
+          <lb ed="#P" n="49"/>esse similem rationem. Primo, quia illa 
+          po<lb break="no" ed="#P" n="50"/>testas non est coactiva, sed jurisdictionis 
+          vo<lb break="no" ed="#P" n="51"/>luntariae, et ideo mirum non est quod etiam
+          <lb ed="#P" n="52"/>circa actus internos data sit. Secundo, quia
+          <lb ed="#P" n="53"/>haec potestas magis respicit forum animae, seu
+          <lb ed="#P" n="54"/>ejus bonum, quam externam gubernationem
+          <lb ed="#P" n="55"/>Ecclesiae, et ideo ex hac parte merito extendi
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>potuit ad actus internos. Declaratur, quia haec
+          <lb ed="#P" n="57"/>potestas data est a Deo ad remittendum 
+          nomi<lb break="no" ed="#P" n="58"/>ne ejus obligationem illi factam per hominis
+          <lb ed="#P" n="59"/>promissionem, et ita ejus actus versatur 
+          tan<lb break="no" ed="#P" n="60"/>tum inter hominem et Deum, ideoque in 
+          ac<lb break="no" ed="#P" n="61"/>tum interiorem cadit. Imo, si attente res 
+          con<lb break="no" ed="#P" n="62"/>sideretur, propria voti obligatio, quae per ejus
+          <lb ed="#P" n="63"/>dispensationem tollitur, per actum internum
+          <lb ed="#P" n="64"/>inducitur : nam exterior prolatio voti magis
+          <lb ed="#P" n="65"/>est, ut hominibus innotescat obligatio voti,
+          <lb ed="#P" n="66"/>quam apud Deum illam inducat, quia Deus
+          <lb ed="#P" n="67"/>non indiget signo externo, ut cognoscat et 
+          ac<lb break="no" ed="#P" n="68"/>ceptet promissionem, et ideo talis potestas per
+          <lb ed="#P" n="69"/>se respicit illam obligationem, sive per solum
+          <lb ed="#P" n="70"/>actum internum, sive cum externo inducta
+          <lb ed="#P" n="71"/>sit. Moraliter autem loquendo, semper 
+          neces<lb break="no" ed="#P" n="72"/>sarium est ut votum internum exterius 
+          propo<lb break="no" ed="#P" n="73"/>natur superiori, ut illud valeat dispensare.
+          <lb ed="#P" n="74"/>Nam, licet cogitari posset casus in quo 
+          supe<lb break="no" ed="#P" n="75"/>rior, votum ignorans, sub condiuone dicat:
+          <lb ed="#P" n="76"/>Ego tecum dispenso, si forte votum emisisti,
+          <lb ed="#P" n="77"/>etiam sola mente; tamen hoc non potest 
+          mo<lb break="no" ed="#P" n="78"/>raliter considerari, quia dispensatio voti 
+          requi<lb break="no" ed="#P" n="79"/>rit cognitionem causae, et consequenter 
+          cogni<lb break="no" ed="#P" n="80"/>tionem materiae ejus, et periculi, quae vix potest
+          <lb ed="#P" n="81"/>intelligi moraliter sine notitia voti. Verum est
+          <lb ed="#P" n="82"/>tamen hoc non multum referre, quia semper
+          <lb ed="#P" n="83"/>actus hujus dispensationis fertur in ipsum 
+          vin<lb break="no" ed="#P" n="84"/>culum, et internum actum, licet exterior 
+          si<lb break="no" ed="#P" n="85"/>gnificatio illius praecedat.
+        </p>
+        <p xml:id="szdleg-a94581-d1e1022">
+          <lb ed="#P" n="86"/>13. De commutatione voti. — Tertio, idem
+          <lb ed="#P" n="87"/>dicendum est de commutatione voti; nam est
+          <lb ed="#P" n="88"/>ejusdem potestatis, quatenus jurisdictionem
+          <lb ed="#P" n="89"/>Praelati requirit, aliqualemque dispensationem
+          <lb ed="#P" n="90"/>saltem partialem includit, ut tract. de Relig.,
+          <lb ed="#P" n="91"/>lib. 6, cap. 9 et seq. dictum est. De irritatione
+          <lb ed="#P" n="92"/>vero alia est ratio, quia non necessario est 
+          po<lb break="no" ed="#P" n="93"/>testatis jurisdictionis, sed dominativae, ut 
+          ibi<lb break="no" ed="#P" n="94"/>dem dixi. Fit autem dupliciter, scilicet, vel ex
+          <lb ed="#P" n="95"/>parte materiae, vel ex subjectione voluntatis
+          <lb ed="#P" n="96"/>voventis. Prior modus tunc habet locum, 
+          quan<lb break="no" ed="#P" n="97"/>do materia est sub alterius dominio et 
+          potes<lb break="no" ed="#P" n="98"/>tate, et ideo necesse est ut sit materia 
+          sensibi<lb break="no" ed="#P" n="99"/>lis: nam illa tantum ita esse potest sub 
+          alte<lb break="no" ed="#P" n="100"/>rius potestate, ut possit libere usum illius
+          <lb ed="#P" n="101"/>prohibere, et ita ex hac parte talis irritatio
+          <lb ed="#P" n="102"/>directe versatur circa materiam sensibilem, et
+          <lb ed="#P" n="103"/>indirecte ac per consecutionem tollit internum
+          <lb ed="#P" n="104"/>vinculum voti. Si autem tale esset votum, ut
+          <lb ed="#P" n="105"/>non solum actus ipse promittendi esset 
+          men<lb break="no" ed="#P" n="106"/>talis, sed etiam materia promissa esset interna,
+          <lb ed="#P" n="107"/>ut sancta cogitatio, vel mentalis oratio, non
+          <lb ed="#P" n="108"/>posset ex parte materiae irritari, nisi remote,
+          <lb ed="#P" n="109"/>praecipiendo nimirum atiquod opus externum,
+          <lb ed="#P" n="110"/>quod aliud internum impediret. At vero per
+          <pb ed="#P" n="378"/>
+          <lb ed="#P" n="1"/>irritationem directam possunt hujusmodi vota
+          <lb ed="#P" n="2"/>irritari, eo quod vovens, quoad suam 
+          volunta<lb break="no" ed="#P" n="3"/>tem et potestatem se obligandi firmiter, 
+          pen<lb break="no" ed="#P" n="4"/>det omnino a voluntate alterius, vel ob 
+          defec<lb break="no" ed="#P" n="5"/>tum aetatis, et naturalem subjectionem, ut in
+          <lb ed="#P" n="6"/>filio impubere, vel ratione religiosae 
+          professio<lb break="no" ed="#P" n="7"/>nis, et voti obedientiae, quod includit: hanc 
+          au<lb break="no" ed="#P" n="8"/>tem dependentiam habent vota, ut 
+          promissio<lb break="no" ed="#P" n="9"/>nes ad Deum sunt, ac subinde etiam ut 
+          menta<lb break="no" ed="#P" n="10"/>lia sunt, quia respectu Dei ibi consummantur.
+          <lb ed="#P" n="11"/>Denique vota haec conditionem includunt, 
+          ra<lb break="no" ed="#P" n="12"/>tione cujus irritari possunt, non subsistente
+          <lb ed="#P" n="13"/>conditione. Et ita ex his actibus nullum potest
+          <lb ed="#P" n="14"/>sumi argumentum a simili, quia sunt valde
+          <lb ed="#P" n="15"/>diversi, et a diversis non fit illatio.
+        </p>
+        <p xml:id="szdleg-a94581-d1e1113">
+          <lb ed="#P" n="16"/>14. De remissione panarum per 
+          indulgen<lb break="no" ed="#P" n="17"/>tias. —Quartum exemplum erat de remissione
+          <lb ed="#P" n="18"/>poenarum apud Deum per indulgentias, quod
+          <lb ed="#P" n="19"/>idem habet responsum. Nam potestas ad 
+          dis<lb break="no" ed="#P" n="20"/>pensandum thesaurum per concessionem 
+          in<lb break="no" ed="#P" n="21"/>dulgentiarum, magis reducitur ad potestatem
+          <lb ed="#P" n="22"/>fori interioris: nam illud negotium etiam 
+          ver<lb break="no" ed="#P" n="23"/>satur inter hominem et Deum, et ad perfectam
+          <lb ed="#P" n="24"/>Iiberationem animae ab omni reatu ordinatur,
+          <lb ed="#P" n="25"/>ut in proprio tract. de Indulgent. dictum est.
+          <lb ed="#P" n="26"/>Denique quod ultimo loco ibi assumitur, 
+          fal<lb break="no" ed="#P" n="27"/>sum est, scilicet, excommunicationem ferri
+          <lb ed="#P" n="28"/>propter actum pure mentalem ; nam jura quae
+          <lb ed="#P" n="29"/>loquuntur de peccato haeresis, intelliguntur de
+          <lb ed="#P" n="30"/>illa quae prodit aliquo modo in actum 
+          exter<lb break="no" ed="#P" n="31"/>num, ut communiter doctores allegati docent
+          <lb ed="#P" n="32"/>et in propria materia ex professo tractandum
+          <lb ed="#P" n="33"/>est et explicandum, et nonnulla de hoc puncto
+          <lb ed="#P" n="34"/>diximus in t. 5 de Censur., disput. A, sect. 2.
+          <lb ed="#P" n="35"/>De alia vero difficultate ibi tacta de 
+          conditio<lb break="no" ed="#P" n="36"/>nibus occultis actuum externorum, dicemus
+          <lb ed="#P" n="37"/>commodius capite sequenti.
+        </p>
+        <p xml:id="szdleg-a94581-d1e1164">
+          <lb ed="#P" n="38"/>15. Ad ultimam confirmationem de 
+          subjec<lb break="no" ed="#P" n="39"/>tione quoad actus internos mediante voto, non
+          <lb ed="#P" n="40"/>desunt qui existiment, etiam ratione voti 
+          obe<lb break="no" ed="#P" n="41"/>dientiae, non posse superiorem praecipere 
+          ac<lb break="no" ed="#P" n="42"/>tum mere internum, ut verbi gratia, 
+          oratio<lb break="no" ed="#P" n="43"/>nem mentalem ; quia, licet possit prohibere
+          <lb ed="#P" n="44"/>exteriores actus qui interiorem impedire 
+          pos<lb break="no" ed="#P" n="45"/>sunt, non vero directe obligare ad exercendum
+          <lb ed="#P" n="46"/>actum interiorem. Et videtur favere D. Thom.
+          <lb ed="#P" n="47"/>2. 2. quaest. 104, art. 5, quatenus generaliter
+          <lb ed="#P" n="48"/>ait, quoad interiores animi motus hominem
+          <lb ed="#P" n="49"/>soli Deo subjici. In contrarium vero est, quia
+          <lb ed="#P" n="50"/>homo potest vovere Deo immediate et absolute
+          <lb ed="#P" n="51"/>actum mere internum, ut omnes in materia
+          <lb ed="#P" n="52"/>de voto absolute fatentur ; et est res clara, quia
+          <lb ed="#P" n="53"/>tale votum erit de meliori bono et possibili :
+          <lb ed="#P" n="54"/>ergo potest etiam idem vovere sub conditione,
+          <lb ed="#P" n="55"/>si Praelatus praeceperit, quia hoc nec difficilius
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="56"/>est, nec minus honestum quam primum: hoc
+          <lb ed="#P" n="57"/>autem virtualiter fit vovendo obedientiam in
+          <lb ed="#P" n="58"/>ordine ad talem actum; ergo, supposito tali
+          <lb ed="#P" n="59"/>voto, potest superior praecipere talem actum.
+          <lb ed="#P" n="60"/>16. Lex fundatur in jurisdictione quae solum
+          <lb ed="#P" n="61"/>data est quantuwm evpedit ad commune bonum.
+          <lb ed="#P" n="62"/>— Quuocirca loquendo de possibili, hoc 
+          poste<lb break="no" ed="#P" n="63"/>rius censeo verum. Neque est simile de 
+          potes<lb break="no" ed="#P" n="64"/>tate legis, quia lex fundatur in jurisdictione,
+          <lb ed="#P" n="65"/>quae solum data est, quantum expedit ad 
+          bo<lb break="no" ed="#P" n="66"/>num commune, ut diximus: hoc aliud 
+          prae<lb break="no" ed="#P" n="67"/>ceptum fundatur in voluntate voventis, et
+          <lb ed="#P" n="68"/>pacto, seu promissione ejus, quae, quia Deo
+          <lb ed="#P" n="69"/>principaliter fit, de actu etiam mere interno
+          <lb ed="#P" n="70"/>fieri potest. Item quia materia voti latius patet
+          <lb ed="#P" n="71"/>quam legis ; nam votum maxime est de 
+          consi<lb break="no" ed="#P" n="72"/>liis, de quibus non est lex. An vero de facto
+          <lb ed="#P" n="73"/>Praelati religionum habeant hanc potestatem,
+          <lb ed="#P" n="74"/>et haec sit intentio voventium obedientiam,
+          <lb ed="#P" n="75"/>pendet ex regula uniuscujusque religionis.Quia
+          <lb ed="#P" n="76"/>juxta doctrinam D. Thomae, et communem,
+          <lb ed="#P" n="77"/>non omnes religiosi vovent eamdem 
+          obedien<lb break="no" ed="#P" n="78"/>tiam, sed singuli secundum suam regulam, et
+          <lb ed="#P" n="79"/>ideo si regula praecipit, vel consulit actus 
+          men<lb break="no" ed="#P" n="80"/>tales, vel significat Praelatos posse illos 
+          injun<lb break="no" ed="#P" n="81"/>gere, tunc eodem modo interpretandum est
+          <lb ed="#P" n="82"/>obedientiae votum, ut, scilicet, possint Praelati
+          <lb ed="#P" n="83"/>tales actus imponere; recte autem facient 
+          nun<lb break="no" ed="#P" n="84"/>quam eos imponendo sub rigore praecepti,
+          <lb ed="#P" n="85"/>propter periculum vitandum ; satis enim est
+          <lb ed="#P" n="86"/>exteriorem vacationem praecipere.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

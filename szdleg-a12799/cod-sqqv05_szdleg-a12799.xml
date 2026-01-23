@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 11</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 11</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="49"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a12799"><!-- deleg-l1c11 -->
+        <head xml:id="szdleg-a12799-Hd1e101">Caput 11</head>
+        <head xml:id="szdleg-a12799-Hd1e103" type="question-title">An de ratione legis sit promulgatio et quxe sit sufficiens</head>
+        <p xml:id="szdleg-a12799-d1e106">
+          <lb ed="#P" n="89"/>CAPUT XI.
+          <lb ed="#P" n="90"/>AN DE RATIONE LEGIS SIT PROMULGATIO ET QUXE
+          <lb ed="#P" n="91"/>SIT SUFFICIENS.
+        </p>
+        <p xml:id="szdleg-a12799-d1e115">
+          <lb ed="#P" n="92"/>1. Haec conditio fere ab omnibus doctoribus
+          <lb ed="#P" n="93"/>ad complementum legis postulatur, ut videre
+          <lb ed="#P" n="94"/>licet in D. Thoma, d. quaest. 90, art. 4, et aliis
+          <lb ed="#P" n="95"/>scriptoribus ibi, et super jura statim alleganda,
+          <lb ed="#P" n="96"/>et in Summistis verbo Lez, crediturque 
+          com<lb break="no" ed="#P" n="97"/>prehensa ab Isidoro in d. cap. Frit autem lex,
+          <lb ed="#P" n="98"/>sub alia conditione, in qua postulat ut lex sit
+          <lb ed="#P" n="99"/>clara et manifesta, ne aliquid per obscuritatem
+          <lb ed="#P" n="100"/>captionem contineat, 3 Etym., cap. 10, etl. 5,
+          <lb ed="#P" n="101"/>cap. 21. Haec enim conditio potest intelligi
+          <lb ed="#P" n="102"/>primo de ipsis verbis, ut sint clara et 
+          perspi<lb break="no" ed="#P" n="103"/>cua, ne occasionem praebeant erroris aut 
+          ter<lb break="no" ed="#P" n="104"/>giversationis, vel opinionum et 
+          interpretatio<lb break="no" ed="#P" n="105"/>num, ex quibus et fraudes et lites nasci solent,
+          <lb ed="#P" n="106"/>et in hoc sensu videtur praecipue ab Isidoro
+          <lb ed="#P" n="107"/>posita. Sic autem requiritur maxime ad per-
+          <pb ed="#P" n="50"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>fectionem legis, non est tamen de essentia, et
+          <lb ed="#P" n="2"/>vix potest diligentia humana adhiberi, qua
+          <lb ed="#P" n="3"/>vitentur dubia quae circa legum intelligentiam
+          <lb ed="#P" n="4"/>oriuntur. Secundo tamen modo potest inielligi,
+          <lb ed="#P" n="5"/>quod lex debet esse manifesta, id est, publice
+          <lb ed="#P" n="6"/>proposita, ut ab omnibus legi possit, vel 
+          au<lb break="no" ed="#P" n="7"/>diri. et hoc modo erit conditio magis 
+          essentia<lb break="no" ed="#P" n="8"/>lis, quam vel etiam intendit Isidorus, vel certe
+          <lb ed="#P" n="9"/>illam supponit, quia specialiter agit de lege
+          <lb ed="#P" n="10"/>humana. de qua dixerat a legendo esse dicta,
+          <lb ed="#P" n="11"/>quia debet esse scripta, ut ab omnibus legi
+          <lb ed="#P" n="12"/>possit. Unde ibidem concludit debere esse pro
+          <lb ed="#P" n="13"/>communi utilitate conscriptam, quod sine 
+          pro<lb break="no" ed="#P" n="14"/>mulgatione habere non potest. Et in eodem
+          <lb ed="#P" n="15"/>lib.. cap. 10, ait legem esse constitutionem
+          <lb ed="#P" n="16"/>populi, qua majores natu simul cum pleb:bus
+          <lb ed="#P" n="17"/>aliquid sanzerunt. In quo includit 
+          promulga<lb break="no" ed="#P" n="18"/>tionem. Eamdem conditionem indicat 
+          Gratia<lb break="no" ed="#P" n="19"/>nus in S Leges, ubi exponit verba Augustini,
+          <lb ed="#P" n="20"/>lib. de vera Relig.. cap. 31, quae ibi retulerat
+          <lb ed="#P" n="21"/>cap. Zn istis, videlicet, leges postquam 
+          insti<lb break="no" ed="#P" n="22"/>tute et firmate sunt, non posse a subditis 
+          ju<lb break="no" ed="#P" n="23"/>dicari. Addit autem Gratianus ftunc leges 
+          insti<lb break="no" ed="#P" n="24"/>tui quando promulgantur ; firmari autem 
+          quan<lb break="no" ed="#P" n="25"/>do moribus recipiuntur.
+        </p>
+        <p xml:id="szdleg-a12799-d1e211">
+          <lb ed="#P" n="26"/>2. Habet autem haec proprietas specialem
+          <lb ed="#P" n="27"/>difficultatem in lege aeterna, quia, ut aeterna
+          <lb ed="#P" n="28"/>est, non videtur capax promulgationis, quam
+          <lb ed="#P" n="29"/>difficultatem in libro sequenti tractabimus,
+          <lb ed="#P" n="30"/>quia hic non potest una ratio communis illi
+          <lb ed="#P" n="31"/>legi cum aliis reddi, et ideo prae oculis 
+          haben<lb break="no" ed="#P" n="32"/>da est distinctio supra insinuata de duplici
+          <lb ed="#P" n="33"/>lege, seu duplici statu legis: unus est mere 
+          in<lb break="no" ed="#P" n="34"/>terior, prout lex consideratur in mente 
+          legis<lb break="no" ed="#P" n="35"/>latoris, alius est exterior, prout lex existit 
+          ex<lb break="no" ed="#P" n="36"/>tra legislatorem, vel in ipsis subditis, vel in
+          <lb ed="#P" n="37"/>aliquo signo manifestante voluntatem legi:
+          la<lb break="no" ed="#P" n="38"/>toris. Promulgatio ergo, ut ex viipsius vocis
+          <lb ed="#P" n="39"/>constat, dicitur respectu legis externae : nam
+          <lb ed="#P" n="40"/>promulgatio dicit publicationem legis per quam
+          <lb ed="#P" n="41"/>possit a subditis cognosci, quae non potest 
+          ca<lb break="no" ed="#P" n="42"/>dere in legem, nisi ut exterius prodeuntem.
+          <lb ed="#P" n="43"/>Lex autem aeterna tantum dicit legem in 
+          men<lb break="no" ed="#P" n="44"/>te Dei conceptam, et ideo non potest eadem
+          <lb ed="#P" n="45"/>ratio promulgationis ad eam applicari; 
+          quo<lb break="no" ed="#P" n="46"/>modo autem in illa locum habeat, in loco 
+          al<lb break="no" ed="#P" n="47"/>legato videbimus.
+        </p>
+        <p xml:id="szdleg-a12799-d1e262">
+          <lb ed="#P" n="48"/>3. Ratio assertionis ex D. Thoma. — Vla
+          <lb ed="#P" n="49"/>ergo omissa, de aliis legibus, seu de lege 
+          ex<lb break="no" ed="#P" n="50"/>terna optima est ratio D. Thomae. Quia ut lex
+          <lb ed="#P" n="51"/>plene constituta sit, oportet ut habeat 
+          effica<lb break="no" ed="#P" n="52"/>ciam obhligandi, sed hanc non habet donec
+          <lb ed="#P" n="53"/>promulgetur ; ergo donec promulgetur non est
+          <lb ed="#P" n="54"/>vera lex, ac subinde promulgatio est de 
+          ratio<lb break="no" ed="#P" n="55"/>ne legis. Major constat, quia lex est mensura
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et regula communis operationum habens vim
+          <lb ed="#P" n="57"/>cogendi, ut Aristoteles dixit, et infra 
+          probabi<lb break="no" ed="#P" n="58"/>tur, quia in hoc differt a consilio, et qualibet
+          <lb ed="#P" n="59"/>alia monitione. Minor etiam probatur, quia ut
+          <lb ed="#P" n="60"/>regula de se obliget, oportet ut quantum est
+          <lb ed="#P" n="61"/>ex parte sua sit sufficienter proposita. Est 
+          au<lb break="no" ed="#P" n="62"/>tem lex regula non pro una vel altera persona,
+          <lb ed="#P" n="63"/>sed pro tota communitate lata; ergo debet
+          <lb ed="#P" n="64"/>esse proposita publico modo et communitati
+          <lb ed="#P" n="65"/>accommodato ; talis ergo publicatio seu 
+          propo<lb break="no" ed="#P" n="66"/>sitio promulgatio appellatur. Quam rationem
+          <lb ed="#P" n="67"/>insinuavit Justinianus, c. de Legib., inleg.:
+          <lb ed="#P" n="68"/>Leges sacratissimae intelligi ab omnibus debent,
+          <lb ed="#P" n="69"/>ut universi, praescripto earum manifestius 
+          in<lb break="no" ed="#P" n="70"/>tellecto, prohibita declinent et faciant praecepta.
+          <lb ed="#P" n="71"/>Unde etiam sumitur confirmatio, quia lex 
+          pos<lb break="no" ed="#P" n="72"/>tulat obedientiam a subditis, quae praestari non
+          <lb ed="#P" n="73"/>potest nisilex sit sufficienter proposita, et quia
+          <lb ed="#P" n="74"/>non obligat singulos, nisi quatenus sunt pars
+          <lb ed="#P" n="75"/>communitatis ; ideo ut obliget debet 
+          commu<lb break="no" ed="#P" n="76"/>nitati proponi, quod est promulgari. Denique
+          <lb ed="#P" n="77"/>lex est praeceptum principis, ut princeps est;
+          <lb ed="#P" n="78"/>ergo oportet ut per eam loquatur princeps ut
+          <lb ed="#P" n="79"/>persona publica, quod tunc facit quando 
+          le<lb break="no" ed="#P" n="80"/>gem promulgat : alias si privatim loquatur ,
+          <lb ed="#P" n="81"/>nondum loquitur ut persona publica, et ideo
+          <lb ed="#P" n="82"/>non sufficit ad obligandum, nec ad 
+          consti<lb break="no" ed="#P" n="83"/>tuendam legem.
+        </p>
+        <p xml:id="szdleg-a12799-d1e345">
+          <lb ed="#P" n="84"/>4. Diversam promulgationem requari in lege
+          <lb ed="#P" n="85"/>positiva ac in naturali. —Est praeterea 
+          obser<lb break="no" ed="#P" n="86"/>vandum hanc promulgationem aliter in 
+          natu<lb break="no" ed="#P" n="87"/>rali lege, aliter vero in positiva requiri : nam
+          <lb ed="#P" n="88"/>in priori invenitur certus modus 
+          promulga<lb break="no" ed="#P" n="89"/>tionis a natura definitus; quia sicut illa lex 
+          na<lb break="no" ed="#P" n="90"/>turalis est, ita ex se determinat conditiones
+          <lb ed="#P" n="91"/>legis. Promulgatur ergo eo ipso quod ex natura
+          <lb ed="#P" n="92"/>ipsa manat: oritur enim ex specifica ratione
+          <lb ed="#P" n="93"/>talis naturae, et ideo licet promulgatio fiat in
+          <lb ed="#P" n="94"/>singulis, non censetur esse propositio 
+          particu<lb break="no" ed="#P" n="95"/>laris, sed communis vox totius naturae, vel
+          <lb ed="#P" n="96"/>potius auctoris ejus, quia licet loquatur ad 
+          sin<lb break="no" ed="#P" n="97"/>gulos, loquitur ut persona publica, quia 
+          lo<lb break="no" ed="#P" n="98"/>quitur ut auctor ipsius naturae, juxta illud:
+          <lb ed="#P" n="99"/>Signatum est super nos lunen vultus tui, ps. 4.
+          <lb ed="#P" n="100"/>Quomodo etiam intelligunt aliqui illud Joan.:
+          <lb ed="#P" n="101"/>Iiuminat omnem hominem venientem in hunc
+          <lb ed="#P" n="102"/>mundum. Verumtamen bhoc de lumine gratiae
+          <lb ed="#P" n="103"/>magis intelligitur : potest autem in praesenti
+          <lb ed="#P" n="104"/>attribui legi naturali, quatenus diximus 
+          com<lb break="no" ed="#P" n="105"/>prehendere supernaturalia praecepta 
+          connatu<lb break="no" ed="#P" n="106"/>ralia gratiae : illa enim lex non promulgatur a
+          <lb ed="#P" n="107"/>Deo ut auctore purae naturae, sed ut auctore 
+          gra<lb break="no" ed="#P" n="108"/>tiae; promulgatur autem eo ipso quod gratiam
+          <lb ed="#P" n="109"/>infundit. Et quia de se paratus est ad 
+          infun<lb break="no" ed="#P" n="110"/>dendum et promulgandum omnibus lumen
+          <pb ed="#P" n="51"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>fidei, per quod lex illa manifestatur, ideo 
+          di<lb break="no" ed="#P" n="2"/>citur quantum est ex se omnes illuminare, ut
+          <lb ed="#P" n="3"/>in tractatu de Gratia late dicemus. Et ita sicut
+          <lb ed="#P" n="4"/>nunquam defuit in universo suffticiens fidei
+          <lb ed="#P" n="5"/>propositio, quantum fuit ex parte Dei, ita 
+          nun<lb break="no" ed="#P" n="6"/>quam defuit sufficiens illius legis promulgatio.
+          <lb ed="#P" n="7"/>Modus autem quasi connaturalis illius legis
+          <lb ed="#P" n="8"/>fuit, ut inciperet a divina revelatione; postea
+          <lb ed="#P" n="9"/>vero per traditionem descenderet a parentibus
+          <lb ed="#P" n="10"/>ad filios, praeveniente simul et cooperante Deo
+          <lb ed="#P" n="11"/>cum singulis ad illuminationem illius legis
+          <lb ed="#P" n="12"/>percipiendam ; sed de hoc plura in dicto 
+          trac<lb break="no" ed="#P" n="13"/>tatu de Gratia.
+        </p>
+        <p xml:id="szdleg-a12799-d1e439">
+          <lb ed="#P" n="14"/>5. Alia vero ratio est de lege positiva, sive
+          <lb ed="#P" n="15"/>divina, sive humana : haec enim semper fertur
+          <lb ed="#P" n="16"/>per se primo pro aliqua communitate, et ideo
+          <lb ed="#P" n="17"/>semper requirit vocem publicam legislatoris
+          <lb ed="#P" n="18"/>per se vel per alium communitati loquentis;
+          <lb ed="#P" n="19"/>non tamen ex se determinat cerrum modum
+          <lb ed="#P" n="20"/>illius publicae manifestationis, sed ab ipsomet
+          <lb ed="#P" n="21"/>legislatore praescribendus est, quia non potest
+          <lb ed="#P" n="22"/>aliunde determinari. Et ita observatum 
+          vide<lb break="no" ed="#P" n="23"/>mus tam in legibus divinis quam in humanis.
+          <lb ed="#P" n="24"/>Quod quidem de lege divina veteri constat
+          <lb ed="#P" n="25"/>Exodi 19 et 20, ubi magnis signis et prodigiis
+          <lb ed="#P" n="26"/>promulgata est publice : de lege autem nova
+          <lb ed="#P" n="27"/>ex Actibus Apostolorum, ubi post admirabilem
+          <lb ed="#P" n="28"/>et publicum adventum Spiritus sancti, coepit
+          <lb ed="#P" n="29"/>ab Apostolis publice praedicari, donec in 
+          om<lb break="no" ed="#P" n="30"/>nem terrum ecivit sonus eorum. De qua 
+          pro<lb break="no" ed="#P" n="31"/>mulgatione quando consummata fuerit 
+          dice<lb break="no" ed="#P" n="32"/>mus in ultimo libro. De legibus autem 
+          huma<lb break="no" ed="#P" n="33"/>nis idem constat ex usu, et quoad leges 
+          cano<lb break="no" ed="#P" n="34"/>nicas sumitur ex cap. 1, de Postul. Praelat., et
+          <lb ed="#P" n="35"/>ex cap. 2 de Constit. : quoad civiles vero 
+          de<lb break="no" ed="#P" n="36"/>claratum hoc est in Authentic. Ut factae novae
+          <lb ed="#P" n="37"/>constitutiones, collat. 5. Unde Gratianus in
+          <lb ed="#P" n="38"/>S Sub, cap. 7n istis, d. 4: Leges (inquit) tunc
+          <lb ed="#P" n="39"/>instituuntur, cum promulgantur. In particulari
+          <lb ed="#P" n="40"/>autem de promulgatione requisita in singulis
+          <lb ed="#P" n="41"/>generibus legum, praesertim humanarum, 
+          di<lb break="no" ed="#P" n="42"/>cemus inferius suo loco.
+        </p>
+        <p xml:id="szdleg-a12799-d1e504">
+          <lb ed="#P" n="43"/>6. Quae propositio et promulgatio legis sit
+          <lb ed="#P" n="44"/>necessaria. — An promulgatio sit conditio 
+          ne<lb break="no" ed="#P" n="45"/>cessaria ea parte legis obligantis, an ec parte
+          <lb ed="#P" n="46"/>subditorum qui obligantur.—Nunc ergo in 
+          ge<lb break="no" ed="#P" n="47"/>nere sufficiat necessariam esse aliquam 
+          pro<lb break="no" ed="#P" n="48"/>positionem externam et sensibilem factam ita
+          <lb ed="#P" n="49"/>publice, et cum tanta temporis latitudine, ut
+          <lb ed="#P" n="50"/>moraliter possit ad notitiam totius 
+          communi<lb break="no" ed="#P" n="51"/>tatis devenire, quia hoc saltem necessarium est
+          <lb ed="#P" n="52"/>ut obligare possit, quod per se ad legem 
+          spec<lb break="no" ed="#P" n="53"/>tat. An vero ad aliquem effectum legis minor
+          <lb ed="#P" n="54"/>promulgatio sufficiat, habet specialem 
+          quaes<lb break="no" ed="#P" n="55"/>tionem tam circa legem humanam quam circa
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>divinam, quae ex diversis principiis oritur, et
+          <lb ed="#P" n="57"/>ideo tractando de illis melius explicabitur. 
+          Po<lb break="no" ed="#P" n="58"/>test autem hic quaeri an haec promulgatio 
+          re<lb break="no" ed="#P" n="59"/>quiratur solum ut conditio necessaria ex parte
+          <lb ed="#P" n="60"/>hominis, quia non potest obligari, nisi 
+          cognos<lb break="no" ed="#P" n="61"/>cat legem, vel etiam requiratur ex parte ipsius
+          <lb ed="#P" n="62"/>legis, quia non potest obligare, nisi sit 
+          pro<lb break="no" ed="#P" n="63"/>mulgata. Multi enim nihil inter haec duo 
+          dis<lb break="no" ed="#P" n="64"/>tnguere videntur : unde Castro lib. 1, deLege
+          <lb ed="#P" n="65"/>poenal., cap. 1, tantam dicit esse hujus 
+          pro<lb break="no" ed="#P" n="66"/>mulgationis necessitatem, ut nec Deus ipse
+          <lb ed="#P" n="67"/>possit lege positiva ab eo data aliquem obligare
+          <lb ed="#P" n="68"/>sine legis publicatione. Hoc autem est verum
+          <lb ed="#P" n="69"/>de publicatione, ut dicit notitiam legis 
+          propor<lb break="no" ed="#P" n="70"/>tionatam obligationi : haec enim est necessaria
+          <lb ed="#P" n="71"/>ex parte ipsius hominis, quia nisi ei 
+          propona<lb break="no" ed="#P" n="72"/>tur objectum, non potest moveri nec peccare,
+          <lb ed="#P" n="73"/>et ita non potest cum effectu obligari. 
+          Promul<lb break="no" ed="#P" n="74"/>gatio autem publica et externa, ac sensibilis,
+          <lb ed="#P" n="75"/>de qua nunc tractamus, non est ita necessaria
+          <lb ed="#P" n="76"/>in legibus Dei de potentia absoluta, quin 
+          pos<lb break="no" ed="#P" n="77"/>sit ipse tanquam supremus dominus obligare
+          <lb ed="#P" n="78"/>omnes per privatam notitiam etiam mere 
+          in<lb break="no" ed="#P" n="79"/>teriorem : ille autem modus non esset 
+          homi<lb break="no" ed="#P" n="80"/>nibus accommodatus, et praesertim pro 
+          mul<lb break="no" ed="#P" n="81"/>titudine seu communitate humana. At vero
+          <lb ed="#P" n="82"/>simpliciter, et ex natura rei loquendo, talis
+          <lb ed="#P" n="83"/>promulgatio est necessaria ex parte ipsius
+          <lb ed="#P" n="84"/>legis, quia hoc postulat conditio legis, quatenus
+          <lb ed="#P" n="85"/>est regula publica totius communitatis, ut 
+          dic<lb break="no" ed="#P" n="86"/>tum est; et ideo licet lex sit a principe 
+          decre<lb break="no" ed="#P" n="87"/>ta et publicari mandata, quamdiu promulgata
+          <lb ed="#P" n="88"/>non est non obligat, etiamsi privatim sciatur:
+          <lb ed="#P" n="89"/>postquam autem promulgata est, de se jam
+          <lb ed="#P" n="90"/>obligat omnes ad quos per se potest notitia ejus
+          <lb ed="#P" n="91"/>pervenire; nec oportet ut alia intimatio quasi
+          <lb ed="#P" n="92"/>juridica singulis fiat, ut dicitur d. c. 1 de 
+          Pos<lb break="no" ed="#P" n="93"/>tul. Praelat., et tractando de lege humana latius
+          <lb ed="#P" n="94"/>explicabitur.
+        </p>
+        <p xml:id="szdleg-a12799-d1e621">
+          <lb ed="#P" n="95"/>7. An sit de ratione legis acceptatio 
+          subdi<lb break="no" ed="#P" n="96"/>Lorun. —bnubitari vero hic ulterius poterat, an
+          <lb ed="#P" n="97"/>de ratione legis sit etiam acceptatio 
+          subdito<lb break="no" ed="#P" n="98"/>rum, quae post promulgationem sequitur, ut
+          <lb ed="#P" n="99"/>videtur insinuare Gratianus, supra dicens leges
+          <lb ed="#P" n="100"/>institui cum promulgantur - firmnari cum 
+          mo<lb break="no" ed="#P" n="101"/>ribus suscipiuntur. Sed hoc dubium non 
+          ha<lb break="no" ed="#P" n="102"/>bet locum in legibus divinis, sed solum in 
+          hu<lb break="no" ed="#P" n="103"/>manis, et ideo illud infra tractandum remitto.
+          <lb ed="#P" n="104"/>Et dico breviter illam conditionem non esse de
+          <lb ed="#P" n="105"/>ratione legis, nec formaliter convenire alicui
+          <lb ed="#P" n="106"/>legi : imo quodammodo cum illius ratione
+          <lb ed="#P" n="107"/>pugnare : nam de ratione legis est ut vim 
+          ha<lb break="no" ed="#P" n="108"/>beat obligandi : si autem pendeat ex 
+          accepta<lb break="no" ed="#P" n="109"/>tione subditorum, jam non tam ipsa obligaret
+          <lb ed="#P" n="110"/>quam ipsi subditi voluntarie se submitterent
+          <pb ed="#P" n="52"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>legi. Si ergo aliquando requiritur populi 
+          ac<lb break="no" ed="#P" n="2"/>ceptatio, vel est propter imperfectam 
+          potesta<lb break="no" ed="#P" n="3"/>tem principis, quia tantum sub hac conditione
+          <lb ed="#P" n="4"/>et dependentia potestatem recipit, vel est ex
+          <lb ed="#P" n="5"/>benignitate legislatoris, qui non vult uti sua
+          <lb ed="#P" n="6"/>absoluta potestate : unde quando dicitur lex
+          <lb ed="#P" n="7"/>humana firmari moribus utentium, non tam
+          <lb ed="#P" n="8"/>jure quam facto intelligendum est, ut sensit
+          <lb ed="#P" n="9"/>Archid. in d. S Lec, d. 4, et ibi Turrec.,
+          <lb ed="#P" n="10"/>art. 2, sed de hoc plura tractando de legibus
+          <lb ed="#P" n="11"/>humanis.
+        </p>
+        <p xml:id="szdleg-a12799-d1e686">
+          <lb ed="#P" n="12"/>8. An scriptura sit de ratione legis. — 
+          De<lb break="no" ed="#P" n="13"/>nique dubitari potest an esse scriptam sit de
+          <lb ed="#P" n="14"/>ratione legis. Ratio dubii est, quia Isidorus
+          <lb ed="#P" n="15"/>saepe hoc ponit in definitione legis: nam lib. 5
+          <lb ed="#P" n="16"/>Ety mol., cap. 5: Lea (inquit) est constitutio
+          <lb ed="#P" n="17"/>scripta habetur in cap. 3, d. 1, et in hoc 
+          dis<lb break="no" ed="#P" n="18"/>tinguit legem a jure et a consuetudine ibidem.
+          <lb ed="#P" n="19"/>Unde D. Thomas 2. 2, quaest 57, art. 1, ad 2,
+          <lb ed="#P" n="20"/>dicit, jus si in scriptum redigatur, vocari 
+          le<lb break="no" ed="#P" n="21"/>gem: et Aristoteles in Rhetor. ad Alexand.
+          <lb ed="#P" n="22"/>in principio, definit legem, dicens: Lez est
+          <lb ed="#P" n="23"/>communis civitatis consensus, qui scriptis 
+          prae<lb break="no" ed="#P" n="24"/>ceperit, quomodo unumquodque agendum sit
+          <lb ed="#P" n="25"/>et similia repetit cap. 2; et Cicero 1 et 2 de
+          <lb ed="#P" n="26"/>Legib., legem populariter dictam esse illam
+          <lb ed="#P" n="27"/>quae scripto sancit quod vult. Atque ita 
+          Tur<lb break="no" ed="#P" n="28"/>rec. in cap. Lez, d. 1, art. 2, simpliciter 
+          pro<lb break="no" ed="#P" n="29"/>nunciat de essentia legis esse scripturam, ubi
+          <lb ed="#P" n="30"/>alios pro hac sententia refert.
+        </p>
+        <p xml:id="szdleg-a12799-d1e731">
+          <lb ed="#P" n="31"/>9. Sed hoc dubium non potest eodem modo
+          <lb ed="#P" n="32"/>tractari aut definiri in omnibus legibus: ut
+          <lb ed="#P" n="33"/>enim omittamus legem aeternam, quae intra
+          <lb ed="#P" n="34"/>Deum est, et non nisi metaphorice dici potest
+          <lb ed="#P" n="35"/>scripta : lex etiam naturalis non est scripta,
+          <lb ed="#P" n="36"/>nisi metaphorice in mente, seu in corde 
+          homi<lb break="no" ed="#P" n="37"/>num. Inter leges autem divinas positivas, lex
+          <lb ed="#P" n="38"/>vetus scripturam necessario requirebat, quia
+          <lb ed="#P" n="39"/>Deus ita voluit illam tradere, et nihil illi addi
+          <lb ed="#P" n="40"/>tanquam pertinens ad divinum jus: et ideo lex
+          <lb ed="#P" n="41"/>illa scripta per antonomasiam dicitur. At vero
+          <lb ed="#P" n="42"/>lex gratiae non requirit per se cuod sit scripta
+          <lb ed="#P" n="43"/>in membranis, sed in cordibus : unde non 
+          li<lb break="no" ed="#P" n="44"/>mitatur ad scripturam, sed antiquior est illa,
+          <lb ed="#P" n="45"/>et sinc illa sufficienter promulgata fuit, ut 
+          pos<lb break="no" ed="#P" n="46"/>tea videbimus. Hinc ergo evidenter convincitur
+          <lb ed="#P" n="47"/>scripturam materialem et externam, de qua
+          <lb ed="#P" n="48"/>est quaestio, non esse de ratione legis: de lege
+          <lb ed="#P" n="49"/>autem humana dicendum est regulariter et
+          <lb ed="#P" n="50"/>ordinarie non fieri sine scriptura, quia re vera
+          <lb ed="#P" n="51"/>ita expedit ut leges sint conspicuae et non 
+          fa<lb break="no" ed="#P" n="52"/>cile mutabiles. Et hinc fit ut ab his quae 
+          fre<lb break="no" ed="#P" n="53"/>quentius accidunt, saepe tales leges dicantur
+          <lb ed="#P" n="54"/>per scripturam publicam ferri. Nihilominus
+          <lb ed="#P" n="55"/>tamen in rigore, ac per se loquendo, non est
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>scriptura de essentia legis, ut est communis
+          <lb ed="#P" n="57"/>sententia juris interpretum in Rubr. de 
+          Con<lb break="no" ed="#P" n="58"/>stit., ubi praecipue Panormitanus et Felinus, et
+          <lb ed="#P" n="59"/>pluribus confirmat Selva, tract. de Benef.,
+          <lb ed="#P" n="60"/>cap. 22, n. 14. Et ita Castro, lib. 1, de Lege
+          <lb ed="#P" n="61"/>poenal., cap. 1, in definitione legis sub 
+          dis<lb break="no" ed="#P" n="62"/>junctione ponit, quod sit voce aut scripto 
+          pro<lb break="no" ed="#P" n="63"/>mulgata, quam disjunctionem ipse non 
+          pro<lb break="no" ed="#P" n="64"/>bat, sed ut manifestam supponit. Idemque
+          <lb ed="#P" n="65"/>admittit Turrecr., d. art. 2, in fine, et dicit
+          <lb ed="#P" n="66"/>posse sumi ex Isidoro. Favet etiam Aristoteles,
+          <lb ed="#P" n="67"/>lib. 10 Ethic., cap. ult, dicens: Lex est sermo
+          <lb ed="#P" n="68"/>ab aliqua prudentia profectus, etc. Ratio vero
+          <lb ed="#P" n="69"/>est, quia etiam verbo potest praeceptum 
+          supe<lb break="no" ed="#P" n="70"/>rioris sufficienter intimari non solum privatae
+          <lb ed="#P" n="71"/>personae, sed etiam communitati, si voce 
+          prae<lb break="no" ed="#P" n="72"/>conis sufficienter publicetur, et postea maneat
+          <lb ed="#P" n="73"/>in memoriis hominum et per traditionem 
+          con<lb break="no" ed="#P" n="74"/>servetur, et tunc etiam distingueretur talis lex
+          <lb ed="#P" n="75"/>a consuetudine, ut constat. Itaque ex natura
+          <lb ed="#P" n="76"/>rei nihil aliud probari potest: an vero ex
+          <lb ed="#P" n="77"/>jure civili vel canonico scriptura interdum re-
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="78"/>quiratur ad legis obligationem, postea 
+          vide<lb break="no" ed="#P" n="79"/>bimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

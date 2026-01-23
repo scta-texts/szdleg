@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 11</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 11</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="211"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a53417"><!-- deleg-l3c11 -->
+        <head xml:id="szdleg-a53417-Hd1e101">Caput 11</head>
+        <head xml:id="szdleg-a53417-Hd1e103" type="question-title">Utrum finis potestatis et legis civilis, prout nunc est in ecclesia, sit alius a fine eiusdem potestatis et legis, ut in pura natura vel in gentibus spectari potest</head>
+        <p xml:id="szdleg-a53417-d1e106">
+          <lb ed="#P" n="9"/>CAPUT XI.
+          <lb ed="#P" n="10"/>UTRUM FINIS POTESTATIS ET LEGIS CIVILIS, PROUT
+          <lb ed="#P" n="11"/>NUNC EST IN ECCLESIA, SIT ALIUS A FINE 
+          EJUS<lb break="no" ed="#P" n="12"/>DEM POTESTATIS ET LEGIS, UT IN PURA NATURA
+          <lb ed="#P" n="13"/>VEL IN GENTIBUS SPECTARI POTEST.
+        </p>
+        <p xml:id="szdleg-a53417-d1e119">
+          <lb ed="#P" n="14"/>1. Finem juris civilis esse eumdem cum fine
+          <lb ed="#P" n="15"/>canonici sentit Fortunius. — Diximus dari in
+          <lb ed="#P" n="16"/>hominibus potestatem ad ferendas leges, atque
+          <lb ed="#P" n="17"/>adeo has leges esse possibiles; ut autem natura
+          <lb ed="#P" n="18"/>et necessitas earum magis declaretur , oportet
+          <lb ed="#P" n="19"/>finem illarum ipsiusque potestatis generatim
+          <lb ed="#P" n="20"/>considerare, quod in hoc capite praestandum
+          <lb ed="#P" n="21"/>est. Statimque occurit opinio Fortunii Garciae
+          <lb ed="#P" n="22"/>tract. de Ultimo fine utriusque juris, ubi 
+          con<lb break="no" ed="#P" n="23"/>tendit suadere finem juris civilis esse eumdem
+          <lb ed="#P" n="24"/>cum fine juris canonici, habereque eamdem
+          <lb ed="#P" n="25"/>originem eademque principia. Unde multa 
+          in<lb break="no" ed="#P" n="26"/>fert quae postea examinanda sunt: nam de hac
+          <lb ed="#P" n="27"/>opinione quatenus comparationem facit inter
+          <lb ed="#P" n="28"/>utrumque jus, in libro sequenti dicendum ex
+          <lb ed="#P" n="29"/>professo est, quia non explicato prius utroque
+          <lb ed="#P" n="30"/>extremo, non potest eorum comparatio fieri
+          <lb ed="#P" n="31"/>aut intelligi. Hic ergo solum, de potestate ac
+          <lb ed="#P" n="32"/>jure civili absolute spectato in ordine ad suum
+          <lb ed="#P" n="33"/>finem, opinio haec tractanda est. Sentit ergo
+          <lb ed="#P" n="34"/>Fortunius finem juris civilis esse non solum
+          <lb ed="#P" n="35"/>externam pacem et justitiam reipublicae, sed
+          <lb ed="#P" n="36"/>etiam veram et internam hominis felicitatem
+          <lb ed="#P" n="37"/>ac salutem. lta significat ibi, n. 6, junctis,
+          <lb ed="#P" n="38"/>quae dixerat n. 2, ubi eumdem finem juris
+          <lb ed="#P" n="39"/>canonici posuerat, et inde concludit esse 
+          eum<lb break="no" ed="#P" n="40"/>dem finem utriusque juris. Unde necesse est
+          <lb ed="#P" n="41"/>ut vel sentiat finem canonici juris esse tantum
+          <lb ed="#P" n="42"/>externam politiam humanam, quod valde 
+          ab<lb break="no" ed="#P" n="43"/>surdum est ; vel oportet ut sentiat finem juris
+          <lb ed="#P" n="44"/>civilis non sistere in humana politia, et 
+          exter<lb break="no" ed="#P" n="45"/>na pace ac justitia reipublicae, sed etiam 
+          ten<lb break="no" ed="#P" n="46"/>dere ad veram felicitatem humanam.
+        </p>
+        <p xml:id="szdleg-a53417-d1e193">
+          <lb ed="#P" n="47"/>2. Quia vero haec opinio statim apparet 
+          in<lb break="no" ed="#P" n="48"/>credibilis, intellecta de jure civili et de 
+          potes<lb break="no" ed="#P" n="49"/>tate ferendi illud, prout esse potest in pura
+          <lb ed="#P" n="50"/>natura, et in principio libri a nobis explicata
+          <lb ed="#P" n="51"/>est, ideo Navar. in Commen. de Finibus 
+          hu<lb break="no" ed="#P" n="52"/>manorum actuum, n. 29, ita illam interpreta-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tur, ut intelligenda sit de jure civili quatenus
+          <lb ed="#P" n="54"/>est a christianis imperatoribus et regibus 
+          com<lb break="no" ed="#P" n="55"/>positum aut probatum: sic enim etiam ipse
+          <lb ed="#P" n="56"/>ait veram felicitatem aeternam, quam credimus
+          <lb ed="#P" n="57"/>et speramus, esse finem juris civilis. Quia, licet
+          <lb ed="#P" n="58"/>ipsa potestas de se non tendat in illum finem,
+          <lb ed="#P" n="59"/>nihilominus ut est conjuncta fidei, in illum
+          <lb ed="#P" n="60"/>referri potest et debet: et ita etiam ejus actus,
+          <lb ed="#P" n="61"/>qui est lex civilis, a legislatoribus christianis
+          <lb ed="#P" n="62"/>in eumdem finem refertur. Quod suadet ipse
+          <lb ed="#P" n="63"/>Navar. ex inscriptione Codicis et Prooemii 
+          Di<lb break="no" ed="#P" n="64"/>gestorum a Justiniano editi, quae sic habet:
+          <lb ed="#P" n="65"/>In nomine Domini nostri Jesu Christi, etc. Et
+          <lb ed="#P" n="66"/>eamdem habet in declaratione juris civilis,
+          <lb ed="#P" n="67"/>quae habeturin fine legis ? de Veteri jur enucl.;
+          <lb ed="#P" n="68"/>et in Epistol. ad Tribonianum, quae incipit:
+          <lb ed="#P" n="69"/>Deo auctore, et in Codice est lex 1 de Veteri
+          <lb ed="#P" n="70"/>jure enucleando, ubi de auctoritate legum dicit
+          <lb ed="#P" n="71"/>que divinas et humanas res bene disposuit, et
+          <lb ed="#P" n="72"/>omnem iniquitatem eapulit. Addit Navar. 
+          pro<lb break="no" ed="#P" n="73"/>bationem ex l. 1 et 2, C. de Sum. Trinitat.,
+          <lb ed="#P" n="74"/>ubi imperator praecipit omnes populos sibi
+          <lb ed="#P" n="75"/>subditos Christianam fidem et religionem sequi
+          <lb ed="#P" n="76"/>et haereticos puniri; et ex multis legibus quas
+          <lb ed="#P" n="77"/>ille Imperator de rebus ecclesiasticis constituit
+          <lb ed="#P" n="78"/>per plures titulos usque ad 16, 1. 1 Codicis.
+        </p>
+        <p xml:id="szdleg-a53417-d1e268">
+          <lb ed="#P" n="79"/>3. Fortunii fundamenta. — Verumtamen
+          <lb ed="#P" n="80"/>de hac opinione Navarri per se spectata 
+          di<lb break="no" ed="#P" n="81"/>cemus postea : nunc enim considerando 
+          fun<lb break="no" ed="#P" n="82"/>damenta Fortunii videtur simpliciter loqui de
+          <lb ed="#P" n="83"/>potestate civili secundum se, et in omni statu:
+          <lb ed="#P" n="84"/>probat enim sententiam suam ex Arist. 1
+          <lb ed="#P" n="85"/>Ethic., cap. 2 et 4, dicente humanam 
+          felicita<lb break="no" ed="#P" n="86"/>tem esse finem moralis doctrinae , et lib. 5,
+          <lb ed="#P" n="87"/>cap. 1, dicit ea dici justa que felicitatem 
+          so<lb break="no" ed="#P" n="88"/>cietatis civilis efficiunt et conservant, et ideo
+          <lb ed="#P" n="89"/>leges de omnibus virtutibus praecepta dare quae
+          <lb ed="#P" n="90"/>ad hanc felicitatem conferunt. Adducit etiam
+          <lb ed="#P" n="91"/>Ciceronem lib. 2 de Officiis, dicentem: Pe;
+          <lb ed="#P" n="92"/>leges bene beateque vivitur. Adducit item quod
+          <lb ed="#P" n="93"/>ex Demosthene refertur in leg. 2, ff. de Legib.,
+          <lb ed="#P" n="94"/>omnes debere parere legi, quia inventio quedam
+          <lb ed="#P" n="95"/>et donum Dei est - et ex Chrysippo legem esse
+          <lb ed="#P" n="96"/>omnium divinarum et humanarum rerum 
+          regi<lb break="no" ed="#P" n="97"/>nam, et justorum atque injustorum regulam.
+          <lb ed="#P" n="98"/>Haec autem omnia dicta sunt a philosophis
+          <lb ed="#P" n="99"/>ethnicis de lege civili, et ante leges 
+          imperato<lb break="no" ed="#P" n="100"/>rum : ergo dicta sunt de lege civili secundum
+          <lb ed="#P" n="101"/>se, et prout naturam humanam consequitur,
+          <lb ed="#P" n="102"/>seclusa fide: ergo in eodem sensu videtur ille
+          <lb ed="#P" n="103"/>auctor locutus. Confirmat vero suam 
+          senten<lb break="no" ed="#P" n="104"/>tiam a fortiori ex legibus imperatorum quas
+          <lb ed="#P" n="105"/>adduximus pro sententia Navar., et addit 
+          Au<lb break="no" ed="#P" n="106"/>thentic., ut non lururientur contra naturam ;
+          <lb ed="#P" n="107"/>quia in ea ostendit Justinian. sui muneris esse;
+          <pb ed="#P" n="212"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>curare ut subditi sui bene vivant et Dei 
+          placa<lb break="no" ed="#P" n="2"/>tionem inveniant. Item Authent. Quomodo
+          <lb ed="#P" n="3"/>oporteat Episcopos, etc. in princ. ubi 
+          Justi<lb break="no" ed="#P" n="4"/>nian. ait: Macimam habemus sollicitudinen
+          <lb ed="#P" n="5"/>circa vera Dei dogmata, et circa sacerdotum
+          <lb ed="#P" n="6"/>honestatem, etc. Videtur ergo hic auctor 
+          utrum<lb break="no" ed="#P" n="7"/>que statum potestatis seu legis civilis amplecti,
+          <lb ed="#P" n="8"/>hoc fortasse discursu, quod lex civilis intendit
+          <lb ed="#P" n="9"/>homines in veram eorum beatitudinem 
+          per<lb break="no" ed="#P" n="10"/>ducere : unde quando potestas illa est sola et
+          <lb ed="#P" n="11"/>separata a lumine fidei, dirigit in veram 
+          feli<lb break="no" ed="#P" n="12"/>citatem naturalem de qua philosophi locuti
+          <lb ed="#P" n="13"/>sunt : quando autem conjungitur fidei 
+          mani<lb break="no" ed="#P" n="14"/>festanti veram hominis felicitatem altioris 
+          or<lb break="no" ed="#P" n="15"/>dinis, tunc etiam per fidem elevatur, et 
+          exten<lb break="no" ed="#P" n="16"/>ditur ad ferendas leges , intendendo eamdem
+          <lb ed="#P" n="17"/>veram et supernaturalem felicitatem. Atque
+          <lb ed="#P" n="18"/>hoc modo nunc intra Ecclesiam eumdem esse
+          <lb ed="#P" n="19"/>finem legis civilis et canonici. Et ad hoc tandem
+          <lb ed="#P" n="20"/>inducit D. Thomas, quia in 1. 2, q. 90, a. 2,
+          <lb ed="#P" n="21"/>et q. 95, art. 1, indifferenter loquens de lege
+          <lb ed="#P" n="22"/>humana dicit finem ejus esse felicitatem.
+        </p>
+        <p xml:id="szdleg-a53417-d1e385">
+          <lb ed="#P" n="23"/>4. Fortunii opinio noa.—H ominis felicitas
+          <lb ed="#P" n="24"/>dupler, vitae praesentis et future, et utraque in
+          <lb ed="#P" n="25"/>naturalem et supernaturalem distincta. — 
+          Dan<lb break="no" ed="#P" n="26"/>biolum. — Occurritur dubiolo. — Nihilominus
+          <lb ed="#P" n="27"/>haec opinio Fortunii nova est et singularis, 
+          or<lb break="no" ed="#P" n="28"/>taque est ex quadam verborum confusa et 
+          in<lb break="no" ed="#P" n="29"/>distincta significatione , seu aequivocatione,
+          <lb ed="#P" n="30"/>qua sublata facile rei veritas intelligetur. 
+          Du<lb break="no" ed="#P" n="31"/>plex ergo felicitas hominis distinguenda est:
+          <lb ed="#P" n="32"/>una est vitae praesentis, altera futurae, et 
+          utra<lb break="no" ed="#P" n="33"/>que in naturalem et supernaturalem distingui
+          <lb ed="#P" n="34"/>debet secundum receptam theologicam 
+          doctri<lb break="no" ed="#P" n="35"/>nam quam nunc supponimus. Dico ergo 
+          pri<lb break="no" ed="#P" n="36"/>mo : potestas civilis et jus civile per se non
+          <lb ed="#P" n="37"/>respiciunt aeternam felicitatem supernaturalem
+          <lb ed="#P" n="38"/>vitae futurae tanquam finem proprium , vel
+          <lb ed="#P" n="39"/>proximum, vel ultimum. Probatur quia talis
+          <lb ed="#P" n="40"/>potestas est mere naturalis ; ergo natura sua
+          <lb ed="#P" n="41"/>non tendit in finem supernaturalem. Dices:
+          <lb ed="#P" n="42"/>ipsa hominis natura ordinatur ad 
+          supernatu<lb break="no" ed="#P" n="43"/>ralem felicitatem ut ad finem ultimum : ergo
+          <lb ed="#P" n="44"/>etiam potentiae omnes naturales hujus naturae
+          <lb ed="#P" n="45"/>ordinantur ad eumdem finem: ergo etiam 
+          po<lb break="no" ed="#P" n="46"/>testas civilis. Respondeo dupliciter posse 
+          ali<lb break="no" ed="#P" n="47"/>quid ordinari in illum finem ultimum : uno
+          <lb ed="#P" n="48"/>modo per intrinsecam habitudinem ; alio modo
+          <lb ed="#P" n="49"/>per solam relationem vel imperium 
+          extrin<lb break="no" ed="#P" n="50"/>secum. Priori modo ordinatur fides infusa,
+          <lb ed="#P" n="51"/>verbi gratia , ad supernaturalem 
+          beatitu<lb break="no" ed="#P" n="52"/>dinem : posteriori modo fides , vel alia
+          <lb ed="#P" n="53"/>virtus acquisita. Dico ergo potestatem 
+          ci<lb break="no" ed="#P" n="54"/>vilem per relationem extrinsecam , vel Dei
+          <lb ed="#P" n="55"/>vel hominis habentis illam , posse ordinari
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ad supernaturalem felicitatem ut ad finem 
+          ul<lb break="no" ed="#P" n="57"/>timum : et hoc ad summum probat ratio facta:
+          <lb ed="#P" n="58"/>nam ex parte Dei verum est omnia bona data
+          <lb ed="#P" n="59"/>hominibus, etiam naturalia, data esse propter
+          <lb ed="#P" n="60"/>felicitatem supernaturalem adipiscendam, et
+          <lb ed="#P" n="61"/>hoc modo etiam haec pouvestas data est propter
+          <lb ed="#P" n="62"/>illum finem. Ex parte vero hominis non potest
+          <lb ed="#P" n="63"/>ipse referre actus hujus potestatis in illum 
+          fi<lb break="no" ed="#P" n="64"/>nem per solum naturale lumen, sed oportet ut
+          <lb ed="#P" n="65"/>supernaturaliter cognoscat illum finem, 
+          ideo<lb break="no" ed="#P" n="66"/>que stando in pura natura non posset lex 
+          civi<lb break="no" ed="#P" n="67"/>lis etiam hoc modo ordinari ad finem 
+          superna<lb break="no" ed="#P" n="68"/>turalem.
+        </p>
+        <p xml:id="szdleg-a53417-d1e489">
+          <lb ed="#P" n="69"/>5. Discrimen habituum naturalium et 
+          super<lb break="no" ed="#P" n="70"/>naturaliun. — Deinde addo legem civilem,
+          <lb ed="#P" n="71"/>prout est actus hujus potestatis , ex se non
+          <lb ed="#P" n="72"/>tendere in supernaturalem finem, et hunc esse
+          <lb ed="#P" n="73"/>sensum in praesenti praecipue intentum. 
+          De<lb break="no" ed="#P" n="74"/>clari autem potest notando differentiam inter
+          <lb ed="#P" n="75"/>habitus seu facultates naturales et 
+          supernatu<lb break="no" ed="#P" n="76"/>rales, qaod supernaturales et virtutes per se
+          <lb ed="#P" n="77"/>infusae,ita ordinantur per se in supernaturales,
+          <lb ed="#P" n="78"/>et circa objectum aliquo modo supernaturale
+          <lb ed="#P" n="79"/>secundum se proportionatum supernaturali
+          <lb ed="#P" n="80"/>felicitati. Ilemque est suo modo in 
+          potestati<lb break="no" ed="#P" n="81"/>bus moralibus supernaturalibus. Nam hoc
+          <lb ed="#P" n="82"/>modo character, verbi gratia, ordinatur ad 
+          su<lb break="no" ed="#P" n="83"/>pernaturalem finem, et similiter potestas 
+          ec<lb break="no" ed="#P" n="84"/>clesiasticae jurisdictionis tendit in eumdem
+          <lb ed="#P" n="85"/>finem quasi connaturali modo et operando ex
+          <lb ed="#P" n="86"/>se circa materiam supernaturalem, et per se
+          <lb ed="#P" n="87"/>relatam ad illum finem. At vero virtutes 
+          ac<lb break="no" ed="#P" n="88"/>quisitae de se non ita tendunt, nec operari
+          <lb ed="#P" n="89"/>possunt circa supernaturalem finem, sed 
+          so<lb break="no" ed="#P" n="90"/>lum per extrinsecum imperium possunt in
+          <lb ed="#P" n="91"/>illum referri. Ita ergo se habet potestas civilis
+          <lb ed="#P" n="92"/>in ordine ad supernaturalem felicitatem: nam
+          <lb ed="#P" n="93"/>per se non tendit in illum finem ultimum ex
+          <lb ed="#P" n="94"/>vi propriae naturae, vel propriarum actionum,
+          <lb ed="#P" n="95"/>per quas nullo modo versatur circa talem 
+          fi<lb break="no" ed="#P" n="96"/>nem, nec circa materiam vel objecta 
+          superna<lb break="no" ed="#P" n="97"/>turalis ordinis: et hoc modo dicimus 
+          potesta<lb break="no" ed="#P" n="98"/>tem civilem vel leges ab illa procedentes non
+          <lb ed="#P" n="99"/>respicere felicitatem supernaturalem ut finem
+          <lb ed="#P" n="100"/>ultimum, et in hoc maxime distingui a 
+          potes<lb break="no" ed="#P" n="101"/>tate ecclesiastica, ut in sequenti lib., cap. 1 et
+          <lb ed="#P" n="102"/>8 latius videbimus: et ideo dixit Nicol. pap.,
+          <lb ed="#P" n="103"/>in cap. Quoniam, d. 10, et in c. Cum ad verum,
+          <lb ed="#P" n="104"/>96 dist., imperatores indigere Pontificibus pro
+          <lb ed="#P" n="105"/>eeterna vita, et non debere nec posse divinis
+          <lb ed="#P" n="106"/>rebus praeesse, cum sint negotiis secularibus
+          <lb ed="#P" n="107"/>implicati. Et imperator ipse in Authent. 
+          Quo<lb break="no" ed="#P" n="108"/>modo oporteat Episcop.. etc., in principio dixit
+          <lb ed="#P" n="109"/>sacerdotium et imperium esse maxima dona a
+          <lb ed="#P" n="110"/>Deo data : Illud divinis ministrans, hoc autem
+          <pb ed="#P" n="213"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>humanis praesidens. Et alia similia in citato
+          <lb ed="#P" n="2"/>loco afferemus.
+        </p>
+        <p xml:id="szdleg-a53417-d1e591">
+          <lb ed="#P" n="3"/>6. Secunda conclusio. — Ex D. Thoma in
+          <lb ed="#P" n="4"/>quid ordinatur divina les principaliter et in
+          <lb ed="#P" n="5"/>quid lIuumana.—Unde dico secundo potestatem
+          <lb ed="#P" n="6"/>civilem non solum non respicere felicitatem
+          <lb ed="#P" n="7"/>eeternam vitae futurae ut finem ultimum 
+          pro<lb break="no" ed="#P" n="8"/>prium, verum etiam nec per se intendere 
+          pro<lb break="no" ed="#P" n="9"/>priam spiritualem felicitatem hominum in hac
+          <lb ed="#P" n="10"/>vita, et consequenter nec per se posse in 
+          ma<lb break="no" ed="#P" n="11"/>teria spirituali disponere, aut leges ferre. Hoc
+          <lb ed="#P" n="12"/>colligitur ex juribus citatis. Item ex illis 
+          omni<lb break="no" ed="#P" n="13"/>bus in quibus leges civiles per canonicas 
+          ali<lb break="no" ed="#P" n="14"/>quatenus corriguntur, vel supplentur in ordine
+          <lb ed="#P" n="15"/>ad vitanda peccata, quia lex civilis considerat
+          <lb ed="#P" n="16"/>honestam utilitatem temporalem reipublicae
+          <lb ed="#P" n="17"/>humanae : lex autem canonica principalius
+          <lb ed="#P" n="18"/>attendit saluti animae, et ut peccata evitentur,
+          <lb ed="#P" n="19"/>ut dixit Glossa inv. Cum contingat, de Jurejur.,
+          <lb ed="#P" n="20"/>verb. Debent, et sumitur ex illo textu cum
+          <lb ed="#P" n="21"/>concordantibus c. Zicet, de Jurejur., in 6, et
+          <lb ed="#P" n="22"/>cap. ult. de Praescript., et notant late Joan.
+          <lb ed="#P" n="23"/>And. in regula Possessor, in Mercurial., et
+          <lb ed="#P" n="24"/>Panorm. in Prooem. Decret., n. 16, et in c.1,
+          <lb ed="#P" n="25"/>de Juram. cal., n. 7. Ratione declaratur, quia
+          <lb ed="#P" n="26"/>spirituale bonum, seu felicitas hujus vitae est
+          <lb ed="#P" n="27"/>dispositio per se ordinata ad ultimam 
+          felici<lb break="no" ed="#P" n="28"/>tatem supernaturalem vitae futurae, vel potius
+          <lb ed="#P" n="29"/>est quaedam inchoatio ejus: ergo potestas quae
+          <lb ed="#P" n="30"/>non ordinatur per se ad dirigendos homines in
+          <lb ed="#P" n="31"/>illam felicitatem non potest per se referri ad
+          <lb ed="#P" n="32"/>spiritualem finem hujus vitae, quia ejusdem
+          <lb ed="#P" n="33"/>potestatis est dirigere ad finem ultimum, et
+          <lb ed="#P" n="34"/>ad omnia quae per se ad illum disponunt. 
+          Po<lb break="no" ed="#P" n="35"/>testas ergo civilis sicut non ordinatur ad 
+          aeter<lb break="no" ed="#P" n="36"/>nam beatitudinem vitae futurae, ita nec ad 
+          spi<lb break="no" ed="#P" n="37"/>ritualem felicitatem praesentis. Unde etiam
+          <lb ed="#P" n="38"/>concluditur, per se non versari in spirituali
+          <lb ed="#P" n="39"/>materia, quia finis proximus et materia 
+          cujus<lb break="no" ed="#P" n="40"/>cumque potestatis proportionantur inter se, et
+          <lb ed="#P" n="41"/>fini ultimo ejusdem potestatis : sed potestas
+          <lb ed="#P" n="42"/>civilis non habet pro fine ultimo felicitatem
+          <lb ed="#P" n="43"/>supernaturalem vitae futurae, aut praesentis:
+          <lb ed="#P" n="44"/>ergo. Atque ideo in decretis saepe lex civilis
+          <lb ed="#P" n="45"/>comparatur corpori, et lex canonica animae ac
+          <lb ed="#P" n="46"/>spiritui, ut auctores proxime citati notant, et
+          <lb ed="#P" n="47"/>aperte tradit Innoc. IlI, in cap. Solite, de
+          <lb ed="#P" n="48"/>Majorat. et obedien. Hinc etiam dixit divus
+          <lb ed="#P" n="49"/>Thom. 1.2, q. 99, a.3: Lez divina 
+          principali<lb break="no" ed="#P" n="50"/>ter instituitur ad ordinandum homines ad Deum:
+          <lb ed="#P" n="51"/>lex autem humana principaliter ad 
+          ordinan<lb break="no" ed="#P" n="52"/>dum homines adinvicem. et ideo leges humance
+          <lb ed="#P" n="53"/>,n curaverunt aliquod instituere de cultu divino,
+          <lb ed="#P" n="54"/>nisi in ordine ad bomutm commune hominum.
+        </p>
+        <p xml:id="szdleg-a53417-d1e706">
+          <lb ed="#P" n="55"/>7. Tertia conclusio.—Addo tertio potesta-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tem civilem legislativam, etiam in pura natura
+          <lb ed="#P" n="57"/>spectatam, non habere pro fine intrinseco et
+          <lb ed="#P" n="58"/>per se intento felicitatem naturalem vitae 
+          fu<lb break="no" ed="#P" n="59"/>turae: imo nec propriam felicitatem naturalem
+          <lb ed="#P" n="60"/>vitae praesentis, quatenus ad singulos homines,
+          <lb ed="#P" n="61"/>ut particulares personae sunt, pertinere potest,
+          <lb ed="#P" n="62"/>sed ejus finem esse felicitatem naturalem 
+          com<lb break="no" ed="#P" n="63"/>munitatis humanae perfectae, cujus curam 
+          ge<lb break="no" ed="#P" n="64"/>rit, et singulorum hominum ut sunt membra
+          <lb ed="#P" n="65"/>talis communitatis, ut in ea, scilicet in pace
+          <lb ed="#P" n="66"/>et justitia vivant, et cum sufficientia bonorum
+          <lb ed="#P" n="67"/>quae ad vitae corporalis conservationem et
+          <lb ed="#P" n="68"/>commoditatem spectant, et cum ea probitate
+          <lb ed="#P" n="69"/>morum quae ad hanc externam pacem et 
+          feli<lb break="no" ed="#P" n="70"/>citatem reipublicae, et convenientem humanae
+          <lb ed="#P" n="71"/>naturae conservationem necessaria est. Haec est
+          <lb ed="#P" n="72"/>mens Aristotelis in locis in principio citatis, et
+          <lb ed="#P" n="73"/>D. Thomae supra, q. 90, art. 2, junctis q. 95,
+          <lb ed="#P" n="74"/>art. 1 et 4, q. 96, art. 2 et 3, et q. 99, art. 3.
+          <lb ed="#P" n="75"/>In quibus docet, ac declarat finem humanarum
+          <lb ed="#P" n="76"/>legum esse commune bonum civitatis, et illa
+          <lb ed="#P" n="77"/>tantum prohibere ac praecipere quae huic fini
+          <lb ed="#P" n="78"/>consentanea sunt. Ad idem faciunt quae 
+          For<lb break="no" ed="#P" n="79"/>tunius adducit ex prooemio Decret. et cap.
+          <lb ed="#P" n="80"/>Factae sunt, d. 4, nam quae ibi dicuntur, 
+          legi<lb break="no" ed="#P" n="81"/>bus etiam civilibus communia esse videntur:
+          <lb ed="#P" n="82"/>ratio vero sumi potest ex dictis, quia haec 
+          na<lb break="no" ed="#P" n="83"/>turalis potestas condendi humanas leges non est
+          <lb ed="#P" n="84"/>in singulis hominibus per se spectatis, nec in
+          <lb ed="#P" n="85"/>multitudine hominum aggregata solum per 
+          ac<lb break="no" ed="#P" n="86"/>cidens; sed est in communitate, ut moraliter
+          <lb ed="#P" n="87"/>unita et ordinata ad componendum unum 
+          cor<lb break="no" ed="#P" n="88"/>pus mysticum, et ex illo resultat tanquam
+          <lb ed="#P" n="89"/>proprietas ejus: ergo per se ordinatur ab 
+          bo<lb break="no" ed="#P" n="90"/>num commune hujus corporis ejusque 
+          felici<lb break="no" ed="#P" n="91"/>tatem : nam finis est proportionatus principio:
+          <lb ed="#P" n="92"/>sicut ergo bonum naturale hujus corporis 
+          po<lb break="no" ed="#P" n="93"/>litici non extenditur ultra praesentem vitam,
+          <lb ed="#P" n="94"/>imo nec durat nisi in illa, ita nec finis hujus
+          <lb ed="#P" n="95"/>potestatis aut legis ultra praesentem vitam 
+          ex<lb break="no" ed="#P" n="96"/>tenditur ; et eadem ratione etiam pro hac vita
+          <lb ed="#P" n="97"/>non intendit bonum singulorum, nisi in ordine
+          <lb ed="#P" n="98"/>ad bonum totius communitatis, in quo sistit
+          <lb ed="#P" n="99"/>tanquam in ultimo fine proprio talis facultatis;
+          <lb ed="#P" n="100"/>ergo id quod ita pertinet ad privatam 
+          felici<lb break="no" ed="#P" n="101"/>tatem, ut non redundet in bonum 
+          communi<lb break="no" ed="#P" n="102"/>tatis, ad hanc potestatem vel legem civilem non
+          <lb ed="#P" n="103"/>spectat.
+        </p>
+        <p xml:id="szdleg-a53417-d1e817">
+          <lb ed="#P" n="104"/>8. Regimen humanum triplex: politicum ,
+          eco<lb break="no" ed="#P" n="105"/>nomicum et monasticum —Potestas civilis non
+          <lb ed="#P" n="106"/>multum curat de actibus internis.—
+          Confirma<lb break="no" ed="#P" n="107"/>tur ac declaratur : nam triplex potest distingui
+          <lb ed="#P" n="108"/>moralis gubernatio hominis: quaedam politica,
+          <lb ed="#P" n="109"/>quae pertinet ad regimen civitatis et 
+          commu<lb break="no" ed="#P" n="110"/>nitatis perfectae; alia oeconomica, quae spectat
+          <pb ed="#P" n="214"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ad regimen unius familiae, seu domus; tertia
+          <lb ed="#P" n="2"/>dici potest propria uniuscujusque circa 
+          semet<lb break="no" ed="#P" n="3"/>ipsum, quae dici potest monastica, quasi unius
+          <lb ed="#P" n="4"/>regimen continens. Potestas autem civilis per
+          <lb ed="#P" n="5"/>se ordinatur ad gubernationem polticam, ut
+          <lb ed="#P" n="6"/>ex superioribus constat, et ideo per se non 
+          di<lb break="no" ed="#P" n="7"/>rigit oeconomicum regimen, nisi in his quae
+          <lb ed="#P" n="8"/>redundant in commune bonum civitatis, et
+          <lb ed="#P" n="9"/>illud possunt impedire aut promovere: reliqua
+          <lb ed="#P" n="10"/>enim quae ad privatam familiam spectant, non
+          <lb ed="#P" n="11"/>per leges civiles, sed per uniuscujusque 
+          patris<lb break="no" ed="#P" n="12"/>familias prudentiam ordinantur. Ergo simili
+          <lb ed="#P" n="13"/>proportione ac ratione non spectat ad legcs
+          <lb ed="#P" n="14"/>-civiles monastica directio, seu privata honestas
+          <lb ed="#P" n="15"/>singulorum, ut tales sunt, sed solum ea morum
+          <lb ed="#P" n="16"/>rectitudo per has leges constituitur, quae bono
+          <lb ed="#P" n="17"/>civili vel necessaria, vel valde utilis est. Ad 
+          feli<lb break="no" ed="#P" n="18"/>citatem autem etiam naturalem uniuscujusque
+          <lb ed="#P" n="19"/>hominis, ut singularis persona est, non sufficit
+          <lb ed="#P" n="20"/>virtus illa civilis, sed necessaria est integritas
+          <lb ed="#P" n="21"/>morum cnm debito ordine ad Deum quantum
+          <lb ed="#P" n="22"/>Iumen naturale dictat; ergo non spectat 
+          fe<lb break="no" ed="#P" n="23"/>licitas privata ad finem proprium legis civilis,
+          <lb ed="#P" n="24"/>seu potestatis legislativae mere naturalis. 
+          Ac<lb break="no" ed="#P" n="25"/>cedit tandem quod haec naturalis felicitas 
+          sin<lb break="no" ed="#P" n="26"/>gulorum ut tales sunt, principaliter consistit
+          <lb ed="#P" n="27"/>in actibus internis, vel speculativis, vel 
+          mora<lb break="no" ed="#P" n="28"/>libus, et practicis cum integra rectitudine 
+          na<lb break="no" ed="#P" n="29"/>turali. Potestas autem civilis non multum 
+          cu<lb break="no" ed="#P" n="30"/>rat de internis actibus, imo vix circa illos
+          <lb ed="#P" n="31"/>aliquid potest, ut infra dicetur; valde etiam
+          <lb ed="#P" n="32"/>impotens et inefficax est ad dirigendos illos:
+          <lb ed="#P" n="33"/>ergo non intendit per se hujusmodi 
+          felicita<lb break="no" ed="#P" n="34"/>tem, sed solum communem, prout explicatum
+          <lb ed="#P" n="35"/>est. Neque argumenta Fortunii amplius 
+          pro<lb break="no" ed="#P" n="36"/>bant, ut facile ex dictis constare potest.
+        </p>
+        <p xml:id="szdleg-a53417-d1e918">
+          <lb ed="#P" n="37"/>9. Quarto, dico potestatem hanc civilem
+          <lb ed="#P" n="38"/>(etiam prout est in principibus Christianis 
+          fi<lb break="no" ed="#P" n="39"/>dei conjuncta) non extendi in materia vel 
+          ac<lb break="no" ed="#P" n="40"/>tibus suis ad finem supernaturalem seu 
+          spiri<lb break="no" ed="#P" n="41"/>tualem vitae futurae vel praesentis, licet ipsi
+          <lb ed="#P" n="42"/>legislatores, fideles in suis legibus ferendis,
+          <lb ed="#P" n="43"/>intueri possint et ex parte debeant 
+          supernatu<lb break="no" ed="#P" n="44"/>ralem finem, et actum ipsum ferendi legem in
+          <lb ed="#P" n="45"/>supernaturalem finem referre. Utraque pars
+          <lb ed="#P" n="46"/>assertionis manifesta videtur. Prima quidem,
+          <lb ed="#P" n="47"/>quia potestas haec ut nunc est in principibus
+          <lb ed="#P" n="48"/>christianis, in se non est major, nec alterius
+          <lb ed="#P" n="49"/>naturae quam fuerit in principibus ethnicis;
+          <lb ed="#P" n="50"/>ergo ex se non habet alium finem nec aliam
+          <lb ed="#P" n="51"/>materiam : sicnt virtus acquisita temperantiae
+          <lb ed="#P" n="52"/>in fidel et infideli, in justo et injusto, non est
+          <lb ed="#P" n="53"/>alterius naturae, nec actus suos efficere potest
+          <lb ed="#P" n="54"/>circa aliam materiam, vel propter alium 
+          proxi<lb break="no" ed="#P" n="55"/>mum finem, seu motivum, aut intrinsecam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>honestatem. Denique jura canonica supra 
+          al<lb break="no" ed="#P" n="57"/>legata, quae hanc potestatem vocant terrenam,
+          <lb ed="#P" n="58"/>temporalem, ad corpora pertinentem, et 
+          simi<lb break="no" ed="#P" n="59"/>lia, loquuntur de illa, ut est in imperatore et
+          <lb ed="#P" n="60"/>regibus christianis, et inde concluditur non
+          <lb ed="#P" n="61"/>posse disponere in spiritualibus, neque de his
+          <lb ed="#P" n="62"/>quae per se spectant ad salutem animarum,
+          <lb ed="#P" n="63"/>vel cultum religionis : ergo etiam nunc 
+          secu<lb break="no" ed="#P" n="64"/>laris potestas talium principum eisdem 
+          ter<lb break="no" ed="#P" n="65"/>minis concluditur.
+        </p>
+        <p xml:id="szdleg-a53417-d1e986">
+          <lb ed="#P" n="66"/>10. Dices : nunc possunt principes 
+          secula<lb break="no" ed="#P" n="67"/>res haereticos punire, et alia vitia contraria
+          <lb ed="#P" n="68"/>religioni Christianae, ut talis est, prohibere, ut
+          <lb ed="#P" n="69"/>est blasphemia in Christum, circumcisio 
+          Ju<lb break="no" ed="#P" n="70"/>daeorum, et similia quae non pertinuissent ad
+          <lb ed="#P" n="71"/>civilem potestatem, seclusa fide. Respondeo
+          <lb ed="#P" n="72"/>imprimis aliqua ex his non tam per se 
+          perti<lb break="no" ed="#P" n="73"/>nere ad secularem potestatem, quam ex 
+          con<lb break="no" ed="#P" n="74"/>cessione ecclesiasticae potestatis, et quasi per
+          <lb ed="#P" n="75"/>tacitam vel expressam invocationem ejus 
+          pos<lb break="no" ed="#P" n="76"/>tulantis auxilium brachii secularis : et ita 
+          in<lb break="no" ed="#P" n="77"/>fra dicemus universas leges civiles quae circa
+          <lb ed="#P" n="78"/>materias spirituales versantur, vel non esse 
+          le<lb break="no" ed="#P" n="79"/>ges, vel habere vim suama superiori potestate.
+          <lb ed="#P" n="80"/>Deinde dicimus illa vitia et peccata quae 
+          di<lb break="no" ed="#P" n="81"/>cuntur mixti fori, eatenus puniri et cohiberi
+          <lb ed="#P" n="82"/>per leges civiles, quatenus supposito hoc statu
+          <lb ed="#P" n="83"/>reipublicae christiana illam perturbant, et
+          <lb ed="#P" n="84"/>magna nocumenta illi afferunt etiam quoad
+          <lb ed="#P" n="85"/>suam pacem, et externam felicitatem ac 
+          con<lb break="no" ed="#P" n="86"/>servationem : hunc enim finem semper 
+          inten<lb break="no" ed="#P" n="87"/>dit jpsa potestas quatenus talis est, licet utens
+          <lb ed="#P" n="88"/>illa possit perfectius operari: et hoc modo Leo
+          <lb ed="#P" n="89"/>Papa Epist. 7 laudat Theodosium, quod fide
+          <lb ed="#P" n="90"/>sua praesidium afferret Ecclesiae, et non solum
+          <lb ed="#P" n="91"/>regium animum, sed etiam sacerdotalem 
+          os<lb break="no" ed="#P" n="92"/>tenderet, et quod curam haberet avertendi
+          <lb ed="#P" n="93"/>haereses et schismata: Quia tunc (inquit) est
+          <lb ed="#P" n="94"/>optimus regni vestri status, quando sempiterne
+          <lb ed="#P" n="95"/>Trinitati unius Deitatis confessione servitur.
+        </p>
+        <p xml:id="szdleg-a53417-d1e1054">
+          <lb ed="#P" n="96"/>11. Secunda pars conclusionis probatur. —
+          <lb ed="#P" n="97"/>Altera vero pars probari potest aliquibus 
+          ar<lb break="no" ed="#P" n="98"/>gumentis Navarri, et fortasse ipse uihil aliud
+          <lb ed="#P" n="99"/>intendit secundum suam privatam sententiam;
+          <lb ed="#P" n="100"/>immerito tamen adducit ad illam 
+          confirman<lb break="no" ed="#P" n="101"/>dam leges Codicis quae in materia spirituali
+          <lb ed="#P" n="102"/>versantur : nam illa vel leges non sunt, nec
+          <lb ed="#P" n="103"/>fuere unquam, vel nixae fuerunt auctoritati
+          <lb ed="#P" n="104"/>Pontificum, ut lib. sequenti, cap. 12, dicemus.
+          <lb ed="#P" n="105"/>Non recte etiam ad hunc sensum accommodat
+          <lb ed="#P" n="106"/>opinionem Fortunii, quia sine dubio loquitur
+          <lb ed="#P" n="107"/>de legibus ipsis ac potestatibus, et non tantum
+          <lb ed="#P" n="108"/>de personis operantibus : et ita illum late 
+          im<lb break="no" ed="#P" n="109"/>pugnat Michael Ulcurruno tr. de Regim. mun.
+          <lb ed="#P" n="110"/>p. 5, q. 5 princip. Argumenta item ejusdem
+          <pb ed="#P" n="215"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Fortunii probant hanc opinionem, et nihil
+          <lb ed="#P" n="2"/>aliud, ut facile intuenti patebit. Denique res
+          <lb ed="#P" n="3"/>ipsa per se nota est : nam haec legislatio civilis
+          <lb ed="#P" n="4"/>de se et suo genere actio honesta est, licet
+          <lb ed="#P" n="5"/>ordinis naturalis et prudentiae acquisitae, ac
+          <lb ed="#P" n="6"/>rationi naturali consentanea ; ergo est de se
+          <lb ed="#P" n="7"/>apta referri ad finem supernaturalem; ergo
+          <lb ed="#P" n="8"/>princeps christianus facile potest in eum finem
+          <lb ed="#P" n="9"/>illam referre, et optime faciet illam referendo,
+          <lb ed="#P" n="10"/>juxta illud Augustini l. 5 de Civ., cap. 24, ubi
+          <lb ed="#P" n="11"/>de regibus christianis ait: Felices eos dicimus,
+          <lb ed="#P" n="12"/>si suam potestatem ad Dei cultum macime 
+          di<lb break="no" ed="#P" n="13"/>latandum, majestati ejus famulam faciunt : et
+          <lb ed="#P" n="14"/>quod in Concil. Moguntino sub Steph. c. 2 de
+          <lb ed="#P" n="15"/>hege dicitur: Meminerit se pre omnibus ita
+          <lb ed="#P" n="16"/>sancte matris Ecclesie esse filium, ut ejus
+          <lb ed="#P" n="17"/>paci et tranquillitati per universum mundum
+          <lb ed="#P" n="18"/>suwm prodesse faciat imperium. Est autem
+          <lb ed="#P" n="19"/>observandum hanc relationem posse dupliciter
+          <lb ed="#P" n="20"/>fieri, primo per positivam ordinationem, et
+          <lb ed="#P" n="21"/>sic regulariter erit in consilio, nisi ubi speciale
+          <lb ed="#P" n="22"/>praeceptum vel necessitas ad illum obligaverit.
+          <lb ed="#P" n="23"/>Sic enim Leo Papa, Epist. 75 ad Leonem 
+          Au<lb break="no" ed="#P" n="24"/>gustum inquit: Debes incunctanter advertere
+          <lb ed="#P" n="25"/>regiam potestatem Libi non solum ad mundi
+          <lb ed="#P" n="26"/>regimen, sed maxime ad Ecclesiae presidium
+          <lb ed="#P" n="27"/>esse collatum, etc. Secundo intelligi potest per
+          <lb ed="#P" n="28"/>negationem tantum, seu per circumspectionem
+          <lb ed="#P" n="29"/>nihil statuendi per hanc potestatem, quod sit
+          <lb ed="#P" n="30"/>contrarium fini supernaturali, vel ejus 
+          conse<lb break="no" ed="#P" n="31"/>cutionem impedire possit, quae observantia et
+          <lb ed="#P" n="32"/>prudens cautio ex fide procedit, et virtualis
+          <lb ed="#P" n="33"/>quaedam relatio in ultimum finem dici potest.
+          <lb ed="#P" n="34"/>Estque non tantum in consilio, sed etiam in
+          <lb ed="#P" n="35"/>praecepto maxime proprio christiani ac 
+          catho<lb break="no" ed="#P" n="36"/>lici principis, ut constat.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

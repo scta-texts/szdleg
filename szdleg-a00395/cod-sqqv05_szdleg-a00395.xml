@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prooemium</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Prooemium</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a00395"><!-- deleg-l1prooem -->
+        <head xml:id="szdleg-a00395-Hd1e101">Prooemium</head>
+        <p xml:id="szdleg-a00395-d1e103">
+          <pb ed="#P" n="1"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER PRIMUS.
+          <lb ed="#P" n="2"/>DE LEGE IN COMMUNI
+          <lb ed="#P" n="3"/>EJUSQUE NATURA, CAUSIS ET EFFECTIBUS.
+        </p>
+        <p xml:id="szdleg-a00395-d1e116">
+          <lb ed="#P" n="4"/>In hoc primo libro, servando doctrinae 
+          or<lb break="no" ed="#P" n="5"/>dinem, solum de generali ratione legis 
+          disputa<lb break="no" ed="#P" n="6"/>bimus : praemittemus tamen divisionem legis
+          <lb ed="#P" n="7"/>in membra sua, ut aliqua eorum notitia saltem
+          <lb ed="#P" n="8"/>confusa habeatur. Quia, licet in hoc libro ea
+          <lb ed="#P" n="9"/>tractanda sint, quae omnibus legibus fuerint
+          <lb ed="#P" n="10"/>communia, abstrahendo quoad fieri possit ab
+          <lb ed="#P" n="11"/>his, quae singulis speciebus sunt propria ; 
+          nihil<lb break="no" ed="#P" n="12"/>ominus saepe oportebit specierum mentionem
+          <lb ed="#P" n="13"/>facere, ut ea, quae communia sunt, melius 
+          in<lb break="no" ed="#P" n="14"/>telligantur ; et ideo necesse est ut de 
+          specie<lb break="no" ed="#P" n="15"/>bus ipsis aliqua notitia tradatur: ut autem
+          <lb ed="#P" n="16"/>clarius procedamus, prius de nomine ac 
+          ra<lb break="no" ed="#P" n="17"/>tione legis aliquid praemittendum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

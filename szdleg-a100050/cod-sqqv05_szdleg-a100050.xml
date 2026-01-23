@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 16</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 16</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="395"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a100050"><!-- deleg-l4c16 -->
+        <head xml:id="szdleg-a100050-Hd1e101">Caput 16</head>
+        <head xml:id="szdleg-a100050-Hd1e103" type="question-title">Utrum lex canonica obliget fideles priusquam ab eis acgeptetur</head>
+        <p xml:id="szdleg-a100050-d1e106">
+          <lb ed="#P" n="64"/>CAPUT XXVI.
+          <lb ed="#P" n="65"/>UTRUM LEX CANONICA OBLIGET FIDELES PRIUSQUAM
+          <lb ed="#P" n="66"/>AB EIS ACGEPTETUR.
+        </p>
+        <p xml:id="szdleg-a100050-d1e115">
+          <lb ed="#P" n="67"/>1. Sententia negativa.— Hanc quaestionem
+          <lb ed="#P" n="68"/>facile in praesenti expediemus ex his quae de
+          <lb ed="#P" n="69"/>lege civili diximus, et hic addemus ea quae ibi
+          <lb ed="#P" n="70"/>in hunc locum remisimus. Multi ergo auctores,
+          <lb ed="#P" n="71"/>qui in lege civili ponunt dependentiam ab 
+          ac<lb break="no" ed="#P" n="72"/>ceptatione subdictorum, eamdem ponunt in
+          <lb ed="#P" n="73"/>lege canonica, et indifferenter de utraque 
+          lo<lb break="no" ed="#P" n="74"/>quuntur. Ita Major, Driedo, Angel., Armill.,
+          <lb ed="#P" n="75"/>Navar., Covarr., Felin., et alii jurisperiti pro
+          <lb ed="#P" n="76"/>illa opinione allegati, praesertim in cap. 1 de
+          <lb ed="#P" n="77"/>Treug. et pac., ubi Gloss. verb. Frangere. Et
+          <lb ed="#P" n="78"/>sequitur Henricus, tractatu de Synod. post., 3
+          <lb ed="#P" n="79"/>part., art. 2, a n. 50; sed praesertim n. 62, 
+          di<lb break="no" ed="#P" n="80"/>cit ad integritatem legis et constitutionis tria
+          <lb ed="#P" n="81"/>requiri : primo, ut constituatur ; secundo, ut
+          <lb ed="#P" n="82"/>promulgetur ; tertio, ut moribus utentium
+          <lb ed="#P" n="83"/>approbetur, et si quid horum (inquit) desit,
+          <lb ed="#P" n="84"/>non debet dici lex, vel constitutio : et 
+          subjun<lb break="no" ed="#P" n="85"/>git, cum agitur de impediendo vinculo statuti
+          <lb ed="#P" n="86"/>novi, et non de praescribendo contra statutum,
+          <lb ed="#P" n="87"/>non peccare contravenientes statuto. Et refert
+          <lb ed="#P" n="88"/>Panormit. in dicto cap. 1, et Decium in cap.
+          <lb ed="#P" n="89"/>Nam concupiscentiam, de Constitut., lect. 1.
+          <lb ed="#P" n="90"/>Fundamentum hujus sententiae totum videtur
+          <lb ed="#P" n="91"/>poni in praesumpta voluntate Praelatorum 
+          Ec<lb break="no" ed="#P" n="92"/>clesiae ponendi leges suas subintellecta 
+          condi<lb break="no" ed="#P" n="93"/>tone, ut moribus subditorum probentur. Solus
+          <lb ed="#P" n="94"/>Major indicat etiam id esse ex defectu 
+          potes<lb break="no" ed="#P" n="95"/>tatis, quia non possunt aliter eas ferre; et ad
+          <lb ed="#P" n="96"/>hoc suadendum dicit Ecclesiam esse supra 
+          Pa<lb break="no" ed="#P" n="97"/>pam, et ideo si Ecclesia non acceptat legem
+          <lb ed="#P" n="98"/>Papae, non posse per illam obligari.
+        </p>
+        <p xml:id="szdleg-a100050-d1e187">
+          <lb ed="#P" n="99"/>2. Pontifex potest obligare Ecclesiam ad 
+          ac<lb break="no" ed="#P" n="100"/>ceptandas suas leges sufficienter promulgatas,
+          <lb ed="#P" n="101"/>ea eo: Quodcumque ligaveris. — Dico vero primo:
+          <lb ed="#P" n="102"/>Pontifex potest obligare Ecclesiam ad 
+          accep<lb break="no" ed="#P" n="103"/>tandum leges canonicas a se latas, et 
+          sufficien<lb break="no" ed="#P" n="104"/>ter promulgatas. Idemque est cum proportione
+          <lb ed="#P" n="105"/>de Episcopis. Hanc conclusionem declaravit
+          <lb ed="#P" n="106"/>expresse Castro l. primo de Lege poenal. cap.
+          <lb ed="#P" n="107"/>primo, et Turrecrem. dicto $ Leges, S2, qui,
+          <pb ed="#P" n="396"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>licet in communi loquatur, tamen maxime
+          <lb ed="#P" n="2"/>loquitur de legibus canonicis; et idem est de
+          <lb ed="#P" n="3"/>omnibus auctoribus allegatis libro praecedenti,
+          <lb ed="#P" n="4"/>c. 16, pro secunda opinione. Quocirca prior
+          <lb ed="#P" n="5"/>pars conclusionis mihi videtur tam certa, ut
+          <lb ed="#P" n="6"/>secundum fidem negari non possit, ex dictis
+          <lb ed="#P" n="7"/>supra tractando de potestate legislativa 
+          Ponti<lb break="no" ed="#P" n="8"/>ficis, ubi ostendimus Petro esse datam a 
+          Chris<lb break="no" ed="#P" n="9"/>to Domino supremam potestatem in Ecclesiam,
+          <lb ed="#P" n="10"/>et non alteri, ac subinde habere illam 
+          Pontifi<lb break="no" ed="#P" n="11"/>cem successorem Petri immediate ab eodem
+          <lb ed="#P" n="12"/>Christo, a quo illam Petrus habuit, et non ab
+          <lb ed="#P" n="13"/>Ecclesia. Hinc ergo concludimus Christum ita
+          <lb ed="#P" n="14"/>dedisse hanc potestatem Vicario suo, ut per se
+          <lb ed="#P" n="15"/>posset valide et efficaciter operari sine 
+          depen<lb break="no" ed="#P" n="16"/>dentia a consensu populi ; ergo perillam potest
+          <lb ed="#P" n="17"/>ferre leges habentes efficaciam et valorem ad
+          <lb ed="#P" n="18"/>obligandum Ecclesiam ad consentiendam et
+          <lb ed="#P" n="19"/>acceptandam legem , vel praeceptum. Patet
+          <lb ed="#P" n="20"/>haec consequentia, quia alias potestas non esset
+          <lb ed="#P" n="21"/>absoluta et efficax. Prior vero probatur 
+          pri<lb break="no" ed="#P" n="22"/>mo, quia alias illa potestas magna ex parte
+          <lb ed="#P" n="23"/>es:et data populo christiano, quia tunc lex
+          <lb ed="#P" n="24"/>ecclesiastica non haberet vim, ut est a Pontifice
+          <lb ed="#P" n="25"/>solo, sed ut ab illo simul cum Ecclesia : si enim
+          <lb ed="#P" n="26"/>lex non potest esse lex, nisi consentiente 
+          popu<lb break="no" ed="#P" n="27"/>lo, profecto populus est conlegislator simul
+          <lb ed="#P" n="28"/>cum Pontifice, quod absurdissimum dictu est.
+        </p>
+        <p xml:id="szdleg-a100050-d1e275">
+          <lb ed="#P" n="29"/>3. Secundo, quia Christus absolute dixit:
+          <lb ed="#P" n="30"/>Quodcumque ligaveris, et, Pasce oves meas ; de
+          <lb ed="#P" n="31"/>populo autem nihil dixit, nec posuit 
+          conditio<lb break="no" ed="#P" n="32"/>nem, 5i populus acceptaverit : estergo 
+          conclu<lb break="no" ed="#P" n="33"/>sio certa de hac potestate, prout est in summo
+          <lb ed="#P" n="34"/>Pontifice, quia in illo est immediate a Christo,
+          <lb ed="#P" n="35"/>atque adeo cum eodem modo, et 
+          independen<lb break="no" ed="#P" n="36"/>tia, quo a principio data est. De inferioribus
+          <lb ed="#P" n="37"/>autem non est res ita certa, quia in illis 
+          potes<lb break="no" ed="#P" n="38"/>tas est ab ipso Papa, a quo dari potest cum
+          <lb ed="#P" n="39"/>limitatione, et sub praedicta conditione: 
+          nihi<lb break="no" ed="#P" n="40"/>lominus tamen illa non est admittenda, neque
+          <lb ed="#P" n="41"/>praesumenda, nisi de illa satis constiterit, juxta
+          <lb ed="#P" n="42"/>dicta superius de potestate Episcoporum ad
+          <lb ed="#P" n="43"/>ferendas leges. In quo etiam est notanda 
+          diffe<lb break="no" ed="#P" n="44"/>rentia inter Pontificem, et inferiores Praelatos,
+          <lb ed="#P" n="45"/>quod nulla consuetudine obstare potest, 
+          quo<lb break="no" ed="#P" n="46"/>minus Pontifex habeat dictam potestatem, quia
+          <lb ed="#P" n="47"/>consuetudo non potest praevalere contra jus
+          <lb ed="#P" n="48"/>divinum : respectu autem inferiorum, ubi
+          <lb ed="#P" n="49"/>esset consuetudo contraria, multum valeret,
+          <lb ed="#P" n="50"/>quia in his quae pendent a jure humano, 
+          mul<lb break="no" ed="#P" n="51"/>tum potest consuetudo. Unde et jurisdictionem
+          <lb ed="#P" n="52"/>augere potest et minuere, quando per hominem
+          <lb ed="#P" n="53"/>concedi potest, ut notat Glossa ult. in cap. Cum
+          <lb ed="#P" n="54"/>olim, de Cler. conjug.
+        </p>
+        <p xml:id="szdleg-a100050-d1e334">
+          <lb ed="#P" n="55"/>4. Secunda conclusio.—dHon carere culpa qui
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>incipiunt non observare leges pontificias.—
+          Se<lb break="no" ed="#P" n="57"/>cundo dicendum est, supposita justitia legis
+          <lb ed="#P" n="58"/>canonicae, per se loquendo, oriri ex illa 
+          obli<lb break="no" ed="#P" n="59"/>gationem ad acceptandum eam, ita ut non
+          <lb ed="#P" n="60"/>careant culpa, qui incipiunt illam non 
+          obser<lb break="no" ed="#P" n="61"/>vare post sufficientem promulgationem. Dixi
+          <lb ed="#P" n="62"/>supposita justitia legis, quia lex evidenter 
+          in<lb break="no" ed="#P" n="63"/>justa, etiamsi canonica sit, non obligat, juxta
+          <lb ed="#P" n="64"/>supra dicta de lege in communi, et sumitur ex
+          <lb ed="#P" n="65"/>c. Ante trienniwn, distinct. 31, et prosequitur
+          <lb ed="#P" n="66"/>late Corduba in quaest. 1. 4, quaest. 7; Victor.
+          <lb ed="#P" n="67"/>in 3 relect. de Potestate Eccles. ; Bellarmin.,
+          <lb ed="#P" n="68"/>l. 4 de Pontif., cap. 15; Panormit., in cap.
+          <lb ed="#P" n="69"/>Cwun teneamus ; Felin. in cap. Si quando, de
+          <lb ed="#P" n="70"/>Rescript., et cap. Accepimus, de Fide instrum.
+          <lb ed="#P" n="71"/>Et ita est assertio clara, praesertim quando lex
+          <lb ed="#P" n="72"/>est non solum justa, sed etiam moderata, et
+          <lb ed="#P" n="73"/>facilis, quia tunc potestas non deest, et 
+          volun<lb break="no" ed="#P" n="74"/>tas contraria nulla rationabili conjectura 
+          prae<lb break="no" ed="#P" n="75"/>sumi potest. Quod a fortiori patet ex dictis de
+          <lb ed="#P" n="76"/>lege civili. Addendum vero est ex dictis ibidem,
+          <lb ed="#P" n="77"/>etiam in legibus difficilioribus et durioribus,
+          <lb ed="#P" n="78"/>si in rigore justae sint, idem esse servandum,
+          <lb ed="#P" n="79"/>ut declarat Corduba supra ex capit. 7n 
+          memo<lb break="no" ed="#P" n="80"/>rium, 19 distinct., ibi : licet viv ferendum ab
+          <lb ed="#P" n="81"/>illa sancta sede imponatur jugum, tamen 
+          fera<lb break="no" ed="#P" n="82"/>mbus, et pia devotione toleremus. Quod censeo
+          <lb ed="#P" n="83"/>verum per se, et ex vi potestatis canonicae,
+          <lb ed="#P" n="84"/>quae major est quam civilis : oportet autem ut
+          <lb ed="#P" n="85"/>etiam de voluntate satis constet, tum ex 
+          ver<lb break="no" ed="#P" n="86"/>bis legis, et modo praecipiendi, tum etiam ex
+          <lb ed="#P" n="87"/>aliis indiciis, et circumstantiis legis. Addo
+          <lb ed="#P" n="88"/>etiam oportere, ut verisimile sit, legislatorem
+          <lb ed="#P" n="89"/>non ignorasse specialem rei praeceptae 
+          difficul<lb break="no" ed="#P" n="90"/>tatem pro tali loco, vel tempore, aut alia 
+          occa<lb break="no" ed="#P" n="91"/>sione. Nam si probabiliter credatur haec 
+          igno<lb break="no" ed="#P" n="92"/>rasse, credi etiam potest noluisse cum tanto 
+          ri<lb break="no" ed="#P" n="93"/>gore obligarc.
+        </p>
+        <p xml:id="szdleg-a100050-d1e423">
+          <lb ed="#P" n="94"/>5. Sed tunc inquiri potest, an in simili casu
+          <lb ed="#P" n="95"/>liceat subditis a lege ad legislatorem 
+          supplica<lb break="no" ed="#P" n="96"/>re, et praesertim ad Pontificem. Quidam 
+          omni<lb break="no" ed="#P" n="97"/>no negant ; imo dicunt, frivolam et inutilem
+          <lb ed="#P" n="98"/>esse talem supplicationem, et ex ignorantia
+          <lb ed="#P" n="99"/>profectam. Probatur, quia a lege non 
+          provoca<lb break="no" ed="#P" n="100"/>tur, seu appellatur, ut colligitur ex l. ultim.,
+          <lb ed="#P" n="101"/>fr. de Appellat. recip., et 1. antepenultim., ff.
+          <lb ed="#P" n="102"/>de Verbor. signific., ubi id notat Rebuff. 
+          ad<lb break="no" ed="#P" n="103"/>ducens alios doctores et jura. Idem in 
+          Concor<lb break="no" ed="#P" n="104"/>dat., tit. de Constitut. Ratio etiam assignatur
+          <lb ed="#P" n="105"/>ex differentia inter sententiam, rescriptum ac
+          <lb ed="#P" n="106"/>legem : nam sententia est, cum fertur in 
+          ne<lb break="no" ed="#P" n="107"/>gotio particulari, et pendet ex partium 
+          proba<lb break="no" ed="#P" n="108"/>tionibus, et ideo in ea admittitur appellatio, ut
+          <lb ed="#P" n="109"/>pars, quae gravamen sensit, possit melores vel
+          <lb ed="#P" n="110"/>clariores probationes afferre. Rescriptum etiam
+          <pb ed="#P" n="397"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>conceditur super factum singulare, in quo 
+          po<lb break="no" ed="#P" n="2"/>test princeps decipi a collitigante, vel 
+          procu<lb break="no" ed="#P" n="3"/>rante suum commodum, et ideo in rescripto
+          <lb ed="#P" n="4"/>merito admittitur appellatio in capitulo 
+          Signi<lb break="no" ed="#P" n="5"/>ficavit, de Rescript. At vero lex fertur in 
+          gene<lb break="no" ed="#P" n="6"/>rali, et per universalem scientiam , contra
+          <lb ed="#P" n="7"/>quam privata scientia subditorum non est 
+          ad<lb break="no" ed="#P" n="8"/>mittenda, et ideo neque appellatio, vel 
+          sup<lb break="no" ed="#P" n="9"/>plicatio admittenda est. Accedit quod, in 
+          legi<lb break="no" ed="#P" n="10"/>bus civilibus a rege latis, talis appellatio vel
+          <lb ed="#P" n="11"/>supplicatio non admittitur, neque est in usu;
+          <lb ed="#P" n="12"/>ergo neque in legibus canonicis admittenda est.
+        </p>
+        <p xml:id="szdleg-a100050-d1e493">
+          <lb ed="#P" n="13"/>6. Posse supplicari Pape de sua lege ab 
+          eme<lb break="no" ed="#P" n="14"/>cutione illius patet consuetudine.—bico tamen,
+          <lb ed="#P" n="15"/>si supplicatio fiat ex rationabili causa, et licite
+          <lb ed="#P" n="16"/>fieri posse, etiam in legibus pontificiis, et esse
+          <lb ed="#P" n="17"/>valde utilem, ac rationi consentaneam. Hoca
+          <lb ed="#P" n="18"/>fortiori sentiunt Panormit., Felin. et alii in
+          <lb ed="#P" n="19"/>c. 1 de Treug. et pac., et in dicto S Leges, et
+          <lb ed="#P" n="20"/>citatur Ancharr., cons. 214, et expresse ac 
+          in<lb break="no" ed="#P" n="21"/>distincte tam de lege civili quam de canonica
+          <lb ed="#P" n="22"/>id affirmat Castr., lib. 1 de Leg. poenal., c. 1.
+          <lb ed="#P" n="23"/>Et probatur primo, quia hoc nullo jure 
+          pro<lb break="no" ed="#P" n="24"/>hibetur, imo est juri consentaneum et rationi.
+          <lb ed="#P" n="25"/>Prima pars patet, quia in legibus ult. et 
+          ante<lb break="no" ed="#P" n="26"/>penult. supra citatis solum dicitur, non licere
+          <lb ed="#P" n="27"/>appellare a poena imposita secundum 
+          praescri<lb break="no" ed="#P" n="28"/>ptum legis, nec a sententia, seu decisione data
+          <lb ed="#P" n="29"/>juxta legem, seu perpetuum edictum ; non
+          <lb ed="#P" n="30"/>vero dicitur non licere supplicare de tota lege
+          <lb ed="#P" n="31"/>coram ipso Principe. Sunt autem haec duo valde
+          <lb ed="#P" n="32"/>diversa, quia in prioribus casibus appellatio
+          <lb ed="#P" n="33"/>repellitur tanquam plane injusta, quia illa non
+          <lb ed="#P" n="34"/>est appellatio a lege, sed a sententia justa, 
+          ut<lb break="no" ed="#P" n="35"/>pote secundum legem lata. Quod si appellatio
+          <lb ed="#P" n="36"/>eo tendat, ut legem arguat injustitiae, est etiam
+          <lb ed="#P" n="37"/>iniqua, tum quia supponitur lex universalis,
+          <lb ed="#P" n="38"/>et servari solita, ac subinde justa; tum etiam,
+          <lb ed="#P" n="39"/>quia appellatio talis fit in particulari facto, in
+          <lb ed="#P" n="40"/>quo non licet a lege provocare, quamvis liceat
+          <lb ed="#P" n="41"/>appellare vel a declaratione legis, vel ab 
+          ap<lb break="no" ed="#P" n="42"/>plicatione ejus ad tale vel tale factum : hic
+          <lb ed="#P" n="43"/>autem agimus de lege nondum recepta, et de
+          <lb ed="#P" n="44"/>supplicatione facta ex causa rationabili, et a
+          <lb ed="#P" n="45"/>communitate, vel nomine ejus ab eo qui 
+          auc<lb break="no" ed="#P" n="46"/>toritatem habeat. Unde auctores citati non 
+          ne<lb break="no" ed="#P" n="47"/>gant licere supplicare a lege, sed de 
+          appella<lb break="no" ed="#P" n="48"/>tione loquuntur, et hanc non simpliciter 
+          ne<lb break="no" ed="#P" n="49"/>gant. Nam Rebuff. expresse ait. Tunc a lege
+          <lb ed="#P" n="50"/>non appellari, quando ab eo est condita a quo
+          <lb ed="#P" n="51"/>appellare non licet, utpote a Principe 
+          superio<lb break="no" ed="#P" n="52"/>rem non cognoscente. Unde sentit ex parte legis
+          <lb ed="#P" n="53"/>non repugnare appellationem ; nam si sit edita
+          <lb ed="#P" n="54"/>ab eo qui habet superiorem in eodem ordine,
+          <lb ed="#P" n="55"/>id est, in temporalibus vel spiritualibus, et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>subditi gravari se intelligant, poterunt ad 
+          su<lb break="no" ed="#P" n="57"/>periorem provocare, ut ab statuto Episcopi ad
+          <lb ed="#P" n="58"/>summum Poniificem ; ab ipso autem supremo
+          <lb ed="#P" n="59"/>principe non est ad quem appelletur; 
+          suppli<lb break="no" ed="#P" n="60"/>catio autem ad eumdem non repugnat. Imo
+          <lb ed="#P" n="61"/>addit Rebuff. in Concordat., quod licet non
+          <lb ed="#P" n="62"/>appelletur a concessione litterarum regis vel
+          <lb ed="#P" n="63"/>Papae, ab executione appellatur, seu 
+          supplica<lb break="no" ed="#P" n="64"/>tur. Sic ergo de lege dicere possumus quod,
+          <lb ed="#P" n="65"/>licet ab ipsa proprie non appelletur, posse 
+          ni<lb break="no" ed="#P" n="66"/>hilominus supplicari ab ejus executione, donec
+          <lb ed="#P" n="67"/>Papa informetur.
+        </p>
+        <p xml:id="szdleg-a100050-d1e617">
+          <lb ed="#P" n="68"/>7. Deinde est hoc consentaneum cap. Si
+          <lb ed="#P" n="69"/>quando, de Rescrip., ubi Papa declarat licitum
+          <lb ed="#P" n="70"/>esse, non exequi rescriptum ejus, donec ipse
+          <lb ed="#P" n="71"/>plenius informetur, quando vera et 
+          rationabi<lb break="no" ed="#P" n="72"/>lis causa intercedit. Et simile habetur in cap.
+          <lb ed="#P" n="73"/>Cum teneamur, de Praebend. Nec differentia
+          <lb ed="#P" n="74"/>supra data satisfacit, quia eadem 
+          proportiona<lb break="no" ed="#P" n="75"/>lis ratio potest in lege intervenire. Quod patet,
+          <lb ed="#P" n="76"/>ratione ostendendo eamdem sententiam. Quia,
+          <lb ed="#P" n="77"/>eo ipso quod lex universaliter fertur, facile
+          <lb ed="#P" n="78"/>fieri potest ut non congruat moribus, aut 
+          dis<lb break="no" ed="#P" n="79"/>positionibus gentium omnium pro quibus 
+          fer<lb break="no" ed="#P" n="80"/>tur, quod maxime contingere potest in 
+          legi<lb break="no" ed="#P" n="81"/>bus canonicis et Pontificiis, quae pro universa
+          <lb ed="#P" n="82"/>Ecclesia dantur: nam Ecclesia complectitur
+          <lb ed="#P" n="83"/>varia regna et provincias, habentes varios 
+          ri<lb break="no" ed="#P" n="84"/>tus, et modos vivendi. Unde, licet talis lex,
+          <lb ed="#P" n="85"/>regulariter loquendo, non sit disconveniens
+          <lb ed="#P" n="86"/>vel nimis dura pro universa Ecclesia, et ideo
+          <lb ed="#P" n="87"/>respectu totius non habeat locum supplicatio,
+          <lb ed="#P" n="88"/>nihilominus in uno vel alio regno aut 
+          provin<lb break="no" ed="#P" n="89"/>cia potest esse nimis dissentiens a moribus ejus
+          <lb ed="#P" n="90"/>et contra consuetudines ejus, quas non solent
+          <lb ed="#P" n="91"/>Pontifices velle mutare, nisi id exprimant, sed
+          <lb ed="#P" n="92"/>potius conservare, juxta capitul. Certificari,
+          <lb ed="#P" n="93"/>de Sepul.; in tali ergo casu ratio postulat ut
+          <lb ed="#P" n="94"/>liceat supplicare Pontificem, quia scientia ejus
+          <lb ed="#P" n="95"/>universalis non potest semper extendi ad haec
+          <lb ed="#P" n="96"/>particularia. Et hoc ipsum est a Pontificibus
+          <lb ed="#P" n="97"/>jure statutum in cap. 1 de Constitution., in 6;
+          <lb ed="#P" n="98"/>ex quo videtur colligi, absque alia 
+          supplica<lb break="no" ed="#P" n="99"/>tione a lege pontificia, ipsam ex vi illius juris
+          <lb ed="#P" n="100"/>ipso facto non obligare in simili casu; 
+          nihilo<lb break="no" ed="#P" n="101"/>minus tamen fieri potest, ut casus non sit ita
+          <lb ed="#P" n="102"/>clarus et certus, quin sit conveniens nova 
+          de<lb break="no" ed="#P" n="103"/>claratio Pontificis ; ergo in tali casu licita est
+          <lb ed="#P" n="104"/>supplicatio et juri consentanea.
+        </p>
+        <p xml:id="szdleg-a100050-d1e700">
+          <lb ed="#P" n="105"/>8. Tempore supplicationum nil faciendum
+          <lb ed="#P" n="106"/>contra legem ; quod si fieri non potest sine 
+          ma<lb break="no" ed="#P" n="107"/>gna rerum mutatione , vel scandali periculo,
+          <lb ed="#P" n="108"/>tunc ea interpretatione benigna Pontificis mon
+          <lb ed="#P" n="109"/>censetur obligare.—benique consuetudo 
+          vide<lb break="no" ed="#P" n="110"/>tur satis hanc assertionem confirmare: scimus
+          <pb ed="#P" n="398"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>enim ita servari in multis provinciis Ecclesiae,
+          <lb ed="#P" n="2"/>et Pontificibus non displicere, quando causa
+          <lb ed="#P" n="3"/>est rationabilis, et cum debita moderatione ac
+          <lb ed="#P" n="4"/>obedientia fit supplicatio. Et fortasse in legibus
+          <lb ed="#P" n="5"/>civilibus non tam ordinarie fit haec supplicatio,
+          <lb ed="#P" n="6"/>quia non sunt tam generales, et ordinarie una
+          <lb ed="#P" n="7"/>et eadem lex non fertur, nisi pro regno, vel
+          <lb ed="#P" n="8"/>provinciis in moribus civilibus multum 
+          simi<lb break="no" ed="#P" n="9"/>libus. Unde in ipsis legibus pontificiis 
+          frequen<lb break="no" ed="#P" n="10"/>tius fiunt tales supplicationes a provinciis vel
+          <lb ed="#P" n="11"/>regnis quae a romana sede magis distant, quia
+          <lb ed="#P" n="12"/>facilius possunt earum propriae consuetudines
+          <lb ed="#P" n="13"/>ignorari. Deniqne in hujusmodi casu pro 
+          tem<lb break="no" ed="#P" n="14"/>pore pro quo durat supplicatio, cavendum est
+          <lb ed="#P" n="15"/>omne periculum peccati. Unde, si fieri potest
+          <lb ed="#P" n="16"/>ut pro illo tempore nihil fiat contra legem
+          <lb ed="#P" n="17"/>Pontificis, curandum omnino est, licet ejus
+          <lb ed="#P" n="18"/>executio suspendatur, quia ita magis cavetur
+          <lb ed="#P" n="19"/>omne periculum, et eo modo paretur legi, quo
+          <lb ed="#P" n="20"/>commode fieri potest. Si autem non potest hoc
+          <lb ed="#P" n="21"/>modo suspensio executionis fieri sine magna
+          <lb ed="#P" n="22"/>rerum mutatione, vel periculo alicujus 
+          scan<lb break="no" ed="#P" n="23"/>dali, tunc ex benigna interpretatione 
+          volun<lb break="no" ed="#P" n="24"/>tatis Pontificis, lex censetur pro tunc non 
+          obli<lb break="no" ed="#P" n="25"/>gare, et tali declaratione prudenter facta, 
+          ces<lb break="no" ed="#P" n="26"/>sat etiam omne periculum peccati.
+        </p>
+        <p xml:id="szdleg-a100050-d1e777">
+          <lb ed="#P" n="27"/>9. Tertia conclusio. —Dico tertio: lex 
+          cano<lb break="no" ed="#P" n="28"/>nica, si per consuetudinem toleratam non 
+          ac<lb break="no" ed="#P" n="29"/>ceptatur, tandem non obligat, etiamsi fortasse
+          <lb ed="#P" n="30"/>in principio culpabiliter fuerit non observata.
+          <lb ed="#P" n="31"/>Ita procedit communis sententia supra citata,
+          <lb ed="#P" n="32"/>et sumitur ex capite ultimo de Consuetud., ubi
+          <lb ed="#P" n="33"/>dicitur legem etiam receptam posse rta 
+          con<lb break="no" ed="#P" n="34"/>suetudine abrogari, ut non obliget ; ergo multo
+          <lb ed="#P" n="35"/>magis poterit impediri ne obliget, cum ante
+          <lb ed="#P" n="36"/>acceptationem minorem firmitatem habeat,
+          <lb ed="#P" n="37"/>juxta dictum S Leges. Ratio autem est, quia
+          <lb ed="#P" n="38"/>tunc est magna causa praesumendi 
+          legislato<lb break="no" ed="#P" n="39"/>rem connivere, et nolle cum tanto periculo
+          <lb ed="#P" n="40"/>communitatem obligare, et hoc etiam ostendit
+          <lb ed="#P" n="41"/>usus totius Ecclesiee. Oportet autem ut 
+          con<lb break="no" ed="#P" n="42"/>suetudo illa aliquam rationabilem causam 
+          ha<lb break="no" ed="#P" n="43"/>beat, ut dicitur in dicto capite ult. et infra in
+          <lb ed="#P" n="44"/>loco latius explicabitur. Deinde necesse est, et
+          <lb ed="#P" n="45"/>sufficit, ut a majori parte populi non 
+          observe<lb break="no" ed="#P" n="46"/>tur : nam, si major pars legem servet, 
+          quam<lb break="no" ed="#P" n="47"/>vis alii eam non acceptent, suam vim retinet,
+          <lb ed="#P" n="48"/>quia id requiritur ad consuetudinem, ut infra
+          <lb ed="#P" n="49"/>dicetur, et videri potest Panormitan. in capite
+          <lb ed="#P" n="50"/>Cum jam dudwmn, de Praebend. in fine, et in
+          <lb ed="#P" n="51"/>capite Quia circa, de Consanguinitate et 
+          affi<lb break="no" ed="#P" n="52"/>nitate, n. 8, ubi etiam Anton. et ali. Item
+          <lb ed="#P" n="53"/>Abb. in cap. Cum olim, de Cler. conjug., n. 4;
+          <lb ed="#P" n="54"/>et Angel., verb. Constitutio, n. 1. Et eadem
+          <lb ed="#P" n="55"/>ratione e converso, si major pars resistat, in-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>troducet consuetudinem contra obligationem
+          <lb ed="#P" n="57"/>legis, quia in rebus moralibus consensus 
+          ma<lb break="no" ed="#P" n="58"/>joris partis censetur communitatis, et ideo
+          <lb ed="#P" n="59"/>sufficit ad consuetudinem, lib. Quod major, ft.
+          <lb ed="#P" n="60"/>Ad municipalem. ; Abb. et alii supra relati.
+        </p>
+        <p xml:id="szdleg-a100050-d1e855">
+          <lb ed="#P" n="61"/>10. Dubium de scientia principis.—bubitari
+          <lb ed="#P" n="62"/>autem potest quantum tempus necessarium sit
+          <lb ed="#P" n="63"/>ut haec consuetudo praevaleat contra legem et
+          <lb ed="#P" n="64"/>an oporteat legislatorem scire illam non 
+          ser<lb break="no" ed="#P" n="65"/>vari; videri enim potest hoc necessarium, ut
+          <lb ed="#P" n="66"/>consentire censeatur. Et ita sentit Glossa in
+          <lb ed="#P" n="67"/>cap. Vir, de Secund. Nupt. Nihilominus 
+          cer<lb break="no" ed="#P" n="68"/>tum est non esse necessariam scientiam 
+          legis<lb break="no" ed="#P" n="69"/>latoris, in quo conveniunt auctores statim 
+          ci<lb break="no" ed="#P" n="70"/>tandi, quia est res moraliter impossibilis, et
+          <lb ed="#P" n="71"/>praeter consuetudinem et usum, ut a fortiori
+          <lb ed="#P" n="72"/>patebit ex dicendis. Et ideo quoad tempus 
+          dis<lb break="no" ed="#P" n="73"/>tinguere solent doctores. Nam si lex non 
+          ob<lb break="no" ed="#P" n="74"/>servatur, sciente legislatore, nullum certum
+          <lb ed="#P" n="75"/>tempus necessarium est, quia nullum est jus
+          <lb ed="#P" n="76"/>quod illud praescribat ; sufficiunt ergo tot actus
+          <lb ed="#P" n="77"/>contrarii majoris partis communitatis, qui
+          <lb ed="#P" n="78"/>moralem conjecturam efficere valeant de 
+          tole<lb break="no" ed="#P" n="79"/>rantia legislatoris, quod prudenti arbitrio 
+          de<lb break="no" ed="#P" n="80"/>finiendum est.
+        </p>
+        <p xml:id="szdleg-a100050-d1e901">
+          <lb ed="#P" n="81"/>11. At vero quando intervenit ignorantia
+          <lb ed="#P" n="82"/>principis, aliqui requirunt tempus 40 annorum
+          <lb ed="#P" n="83"/>ut lex derogata censeatur; refert Felin. ex 
+          Pa<lb break="no" ed="#P" n="84"/>normit. in cap. 1 de Treuga et pac.. Alii vero
+          <lb ed="#P" n="85"/>nullum requirunt tempus, sed solum non 
+          ob<lb break="no" ed="#P" n="86"/>servantiam subditorum per aliquos actus, qui
+          <lb ed="#P" n="87"/>prudenti arbitrio sufficiant. Itaque nihil 
+          distin<lb break="no" ed="#P" n="88"/>-guunt inter scientiam vel ignorantiam 
+          princi<lb break="no" ed="#P" n="89"/>pis. Ita tenet Henric., tractatu de Synod., art. 2,
+          <lb ed="#P" n="90"/>n. 63, cum Felin., dicto cap. 1, n. 13, et aliis.
+          <lb ed="#P" n="91"/>Fundantur, quia subditi non peccant non 
+          re<lb break="no" ed="#P" n="92"/>cipiendo legem a principio. Hoc tamen 
+          funda<lb break="no" ed="#P" n="93"/>mentum a nobis reprobatum est. Unde 
+          com<lb break="no" ed="#P" n="94"/>munis sententia affirmat sufficere et 
+          necessa<lb break="no" ed="#P" n="95"/>rium esse tempus decem annorum, quam multi
+          <lb ed="#P" n="96"/>tradunt, quos Felinus refert, et sequitur Card.
+          <lb ed="#P" n="97"/>in dicto S Leges, et Jas. in lib. Rem non novam,
+          <lb ed="#P" n="98"/>ff. de Judiciis. Fundamentum est, quia hoc
+          <lb ed="#P" n="99"/>tempus sufficit ut dicatur consuetudo, seu
+          <lb ed="#P" n="100"/>praescriptio longi temporis, juxta Gloss. in cap.
+          <lb ed="#P" n="101"/>ultim. de Consuetud., in 6. Ut autem lex 
+          cen<lb break="no" ed="#P" n="102"/>seatur absolute non acceptata et derogaia, 
+          suf<lb break="no" ed="#P" n="103"/>ficit consuetudo longi temporis, ut loquitur
+          <lb ed="#P" n="104"/>idem Panormit. in cap. Cum olim, de Cler.
+          <lb ed="#P" n="105"/>conjug., n. 4, et alii communiter. Denique
+          <lb ed="#P" n="106"/>quia brevius tempus postulandum est ut lex
+          <lb ed="#P" n="107"/>nondum recepta non obliget, quam ut 
+          abroge<lb break="no" ed="#P" n="108"/>tur lex jam usu praescripta; sed ad hoc 
+          poste<lb break="no" ed="#P" n="109"/>rius ad summum requiritur tempus 40 
+          anno<lb break="no" ed="#P" n="110"/>rum, ut postea videbimus: ergo ad alium ef-
+          <pb ed="#P" n="399"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>fectum non est tantum tempus postulandum;
+          <lb ed="#P" n="2"/>ergo sufficit decennium, quia nullum aliud
+          <lb ed="#P" n="3"/>cum fundamento praescribi potest.
+        </p>
+        <p xml:id="szdleg-a100050-d1e979">
+          <lb ed="#P" n="4"/>12. Differentia adhibenda inter casus 
+          scien<lb break="no" ed="#P" n="5"/>tie et ignorantie principis, de non recepta lege.
+          <lb ed="#P" n="6"/>— Haec vero opinio quoad primam partem, ut
+          <lb ed="#P" n="7"/>non requiratur longius tempus quam 
+          decen<lb break="no" ed="#P" n="8"/>nium, practice mihi certa videtur : quoad 
+          al<lb break="no" ed="#P" n="9"/>teram vero quod requiratur decennium, licet
+          <lb ed="#P" n="10"/>sit securior, non videtur satis fundata, et ideo
+          <lb ed="#P" n="11"/>probabilis est sententia Felini et Henrici, qui
+          <lb ed="#P" n="12"/>tunc etiam non requirunt certum tempus, sed
+          <lb ed="#P" n="13"/>solum repugnantiam per actus contrarios in
+          <lb ed="#P" n="14"/>numero sufficienti arbitrio prudentum. Quae
+          <lb ed="#P" n="15"/>etiam sumitur ex Glossa in capit. ultim. de
+          <lb ed="#P" n="16"/>Consuetudin., libro sexto; et Innocent. in cap.
+          <lb ed="#P" n="17"/>Cum Petrus, de Fide instrum.; et Dominico
+          <lb ed="#P" n="18"/>in dicto S Leges, quatenus dicit ad hanc 
+          de<lb break="no" ed="#P" n="19"/>rogationem sufficere habitualem voluntatem
+          <lb ed="#P" n="20"/>principis non obligandi contra morem, 
+          argu<lb break="no" ed="#P" n="21"/>mento cap. primo, de Consuetudin., in sexto,
+          <lb ed="#P" n="22"/>et Authent. de Fidejussor. in principio. Nam,
+          <lb ed="#P" n="23"/>licet princeps ignoret subditorum 
+          consuetudi<lb break="no" ed="#P" n="24"/>nem, semper retinet illam voluntatem ; et ita
+          <lb ed="#P" n="25"/>non requiritur novus ejus consensus; ergo nec
+          <lb ed="#P" n="26"/>scientia; ergo nec determinatum tempus. 
+          Pro<lb break="no" ed="#P" n="27"/>batur haec ultima consequentia, quia nullum
+          <lb ed="#P" n="28"/>est jus, quod praescribat illud tempus decem
+          <lb ed="#P" n="29"/>annorum, neque ex natura rei est necessarium,
+          <lb ed="#P" n="30"/>et usus videtur esse in contrarium ; quia, ut
+          <lb ed="#P" n="31"/>lex censeatur non acceptata, non solet 
+          expec<lb break="no" ed="#P" n="32"/>tari illud tempus, sed solum quod pro majori
+          <lb ed="#P" n="33"/>parte per sufficientem consuetudinem 
+          repu<lb break="no" ed="#P" n="34"/>gnatum sit: haec ergo sententia in conscientia
+          <lb ed="#P" n="35"/>et praxi videtur satis secura ; nihilominus 
+          ta<lb break="no" ed="#P" n="36"/>men, ut consequenter loquamur, aliqua 
+          diffe<lb break="no" ed="#P" n="37"/>rentia adhibenda est inter casus scientiae vel
+          <lb ed="#P" n="38"/>ignorantise principis. Nam, quando princeps a
+          <lb ed="#P" n="39"/>principio scit repugnantiam et non 
+          observan<lb break="no" ed="#P" n="40"/>tiam subditorum, et dissimulat, statim post
+          <lb ed="#P" n="41"/>nonnullos actus contrarios toleratos, censetur
+          <lb ed="#P" n="42"/>prudenter revocata lex. At vero, quando 
+          prin<lb break="no" ed="#P" n="43"/>ceps ignorat, oportet ut longior sit consuetudo,
+          <lb ed="#P" n="44"/>ita ut jam prudenter judicetur non esse utilem
+          <lb ed="#P" n="45"/>tali populo, et ideo juste praesumatur a 
+          Ponti<lb break="no" ed="#P" n="46"/>fice vel principe revocata.
+        </p>
+        <p xml:id="szdleg-a100050-d1e1075">
+          <lb ed="#P" n="47"/>13. Ulterius vero quaeri potest cum Navarro
+          <lb ed="#P" n="48"/>in dicto cons. 1, quaest. 7, an lex sic non 
+          ob<lb break="no" ed="#P" n="49"/>servata per aliquod tempus sufficiens censeatur
+          <lb ed="#P" n="50"/>ita revocata et nulla, ac si non fuisset lata,
+          <lb ed="#P" n="51"/>vel ac si fuisset directe renovata a legislatore;
+          <lb ed="#P" n="52"/>nam ex dictis videtur sequi pars affirmans,
+          <lb ed="#P" n="53"/>quia dicimus jam non peccari contra illam
+          <lb ed="#P" n="54"/>legem, quia revocata est. Nihilominus placet
+          <lb ed="#P" n="55"/>mihi resolutio Navarri, non esse censendam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>illam legem omnino annullatam et derogatam,
+          <lb ed="#P" n="57"/>quia si communitas illa postea mutaret 
+          consi<lb break="no" ed="#P" n="58"/>lium, et inciperet illam legem recipere, et pro
+          <lb ed="#P" n="59"/>majori parte illam servare, revera inciperet
+          <lb ed="#P" n="60"/>obligari tali lege sine nova voluntate 
+          legisla<lb break="no" ed="#P" n="61"/>toris. Unde dicendum est illam solum fuisse
+          <lb ed="#P" n="62"/>quasi suspensam, vel revocatam non 
+          simplici<lb break="no" ed="#P" n="63"/>ter, sed quamdiu populus ille in illa 
+          consuetu<lb break="no" ed="#P" n="64"/>dine et moribus persisteret.
+        </p>
+        <p xml:id="szdleg-a100050-d1e1119">
+          <lb ed="#P" n="65"/>14. Si a scientibus pro majori parte 
+          obser<lb break="no" ed="#P" n="66"/>vetur lev, hoc sufficit ut pro ignorantibus suam
+          <lb ed="#P" n="67"/>obligationem habeat. — Ultimo, inquiri potest,
+          <lb ed="#P" n="68"/>si contingat legem non servari ex ignorantia
+          <lb ed="#P" n="69"/>populi nescientis promulgationem ejus, an hoc
+          <lb ed="#P" n="70"/>sufficiat ut desinat obligare. Aliqui respondent,
+          <lb ed="#P" n="71"/>in eo casu judicandum esse de ignorantibus
+          <lb ed="#P" n="72"/>juxta statum quem lex habet apud non 
+          igno<lb break="no" ed="#P" n="73"/>rantes. Nam si a scientibus pro majori parte
+          <lb ed="#P" n="74"/>observatur, hoc sufficit ut pro ignorantibus
+          <lb ed="#P" n="75"/>suam etiam obligationem retineat, et e 
+          con<lb break="no" ed="#P" n="76"/>verso si a scientibus non servatur pro majori
+          <lb ed="#P" n="77"/>parte, etiam pro ignorantibus derogata est.
+          <lb ed="#P" n="78"/>Quae sententia vera est, quando ignorantes et
+          <lb ed="#P" n="79"/>scientes sunt partes unius corporis. Difficultas
+          <lb ed="#P" n="80"/>vero est, quando totum aliquod corpus 
+          politi<lb break="no" ed="#P" n="81"/>cum moraliter distinctum ab aliis ignoravit
+          <lb ed="#P" n="82"/>promulgationem legis, et ideo illam non 
+          ser<lb break="no" ed="#P" n="83"/>vavit per sufficiens tempus, seu per sufficientes
+          <lb ed="#P" n="84"/>actus contrarios. In quo casu respondet 
+          Na<lb break="no" ed="#P" n="85"/>varrus dicto consil. primo, quaest. sexta, legem
+          <lb ed="#P" n="86"/>illam amittere suam vim, non obstante 
+          igno<lb break="no" ed="#P" n="87"/>rantia, quia ratio ob quam desinit obligare,
+          <lb ed="#P" n="88"/>non est scientia, et voluntas quasi formalis non
+          <lb ed="#P" n="89"/>observandi legem , nam haec potius posset 
+          im<lb break="no" ed="#P" n="90"/>pedire, quia non est digna tali indulgentia ;
+          <lb ed="#P" n="91"/>sed ratio est mos ipse, et quasi praescriptio
+          <lb ed="#P" n="92"/>quaedam. Dico tamen legem sic non 
+          observa<lb break="no" ed="#P" n="93"/>tam propter solam ignorantiam in se non 
+          au<lb break="no" ed="#P" n="94"/>ferri, seu revocari, sed solum pro tunc non
+          <lb ed="#P" n="95"/>obligare propter ignorantiam, et ita solum
+          <lb ed="#P" n="96"/>etiam negative non esse acceptatam, neque
+          <lb ed="#P" n="97"/>etiam ablatam. Quapropter si postea tollatur
+          <lb ed="#P" n="98"/>ignorantia, manebit lex respectu talis populi
+          <lb ed="#P" n="99"/>in eo statu in quo esset, si tunc fuisset primo
+          <lb ed="#P" n="100"/>edita et promulgata, et ideo tunc incipiet 
+          obli<lb break="no" ed="#P" n="101"/>gare, si in eo sensu fuit lata, juxta doctrinam
+          <lb ed="#P" n="102"/>supra tactam. à
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

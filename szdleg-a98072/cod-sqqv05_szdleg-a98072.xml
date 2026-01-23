@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 14</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 14</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="387"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a98072"><!-- deleg-l4c14 -->
+        <head xml:id="szdleg-a98072-Hd1e101">Caput 14</head>
+        <head xml:id="szdleg-a98072-Hd1e103" type="question-title">Quae sit servanda forma seu solemnitas in legibus canonicis ferendis</head>
+        <p xml:id="szdleg-a98072-d1e106">
+          <lb ed="#P" n="96"/>CAPUT XIV.
+          <lb ed="#P" n="97"/>QUAE SIT SERVANDA FORMA SEU SOLEMNITAS IN 
+          LE<lb break="no" ed="#P" n="98"/>GIBUS CANONICIS FERENDIS.
+        </p>
+        <p xml:id="szdleg-a98072-d1e115">
+          <lb ed="#P" n="99"/>1. Nihil in praesenti tractandum proponi
+          <lb ed="#P" n="100"/>mus de forma intrinseca legis canonicae, quia
+          <lb ed="#P" n="101"/>omnia quae de hoc puncto diximus lib. 
+          praece<lb break="no" ed="#P" n="102"/>denti, c. 13, communia suntlegi humanae ut sic,
+          <lb ed="#P" n="103"/>nec aliquid speciale notandum occurrit in lege
+          <lb ed="#P" n="104"/>canonica. Imo etiam quae de forma extrinseca
+          <lb ed="#P" n="105"/>diximus de legibus civilibus, magna ex parte
+          <lb ed="#P" n="106"/>communia sunt canonicis, quia illis 
+          conve<lb break="no" ed="#P" n="107"/>niunt, quatenus humanae sunt, et non quate-
+          <pb ed="#P" n="388"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nus civiles, seu seculares sunt. Et ideo leges
+          <lb ed="#P" n="2"/>canonicae in signo etiam sensibili consistunt,
+          <lb ed="#P" n="3"/>et verba requirunt quae sufficienter explicent
+          <lb ed="#P" n="4"/>praeceptum, seu voluntatem obligandi 
+          Prae<lb break="no" ed="#P" n="5"/>lati cum talibus conditionibus quae ad legem
+          <lb ed="#P" n="6"/>sufficiant, ut cum perpetuitate, 
+          communita<lb break="no" ed="#P" n="7"/>te, et similibus, ut ibi explicatum est; ubi
+          <lb ed="#P" n="8"/>etiam sufficientia verba declaramus.
+        </p>
+        <p xml:id="szdleg-a98072-d1e159">
+          <lb ed="#P" n="9"/>2. Non est de ratione legis canonice ut sit
+          <lb ed="#P" n="10"/>scripta. — Ultra illa vero non est data 
+          deter<lb break="no" ed="#P" n="11"/>minata forma verborum in legibus canonicis
+          <lb ed="#P" n="12"/>ferendis, vel ex jure divino, vel ex 
+          ecclesiasti<lb break="no" ed="#P" n="13"/>co, praesertim quoad proprios canones, 
+          quo<lb break="no" ed="#P" n="14"/>rum conditor est Pontifex, qui semper est 
+          su<lb break="no" ed="#P" n="15"/>perior illis, et ideo non arctatur ad certam
+          <lb ed="#P" n="16"/>formam verborum. Inferiores vero Episcopi,
+          <lb ed="#P" n="17"/>et Praelati, vel Capitula limitari possunt ad
+          <lb ed="#P" n="18"/>servandam certam verborum formam, vel 
+          so<lb break="no" ed="#P" n="19"/>lemnitatem. Sed de hac etiam non constat,
+          <lb ed="#P" n="20"/>saltem ex jure communi. Nam licet in 
+          quibus<lb break="no" ed="#P" n="21"/>dam statutis requiratur consensus Capituli
+          <lb ed="#P" n="22"/>respectu Praelati, vel, e converso, consensus
+          <lb ed="#P" n="23"/>Praelati respectu Capituli, vel aliquid simile;
+          <lb ed="#P" n="24"/>illud magis pertinet ad limitationem potestatis
+          <lb ed="#P" n="25"/>quam ad determinationem formae servandae
+          <lb ed="#P" n="26"/>in lege ferenda. Praeterea non est etiam de 
+          ra<lb break="no" ed="#P" n="27"/>tione legis canonicae ut sit scripta; nam ea
+          <lb ed="#P" n="28"/>quae de hoc puncto allegavimus pro lege 
+          ci<lb break="no" ed="#P" n="29"/>vili, maxime probant de canonica, et praecipue
+          <lb ed="#P" n="30"/>de pontificia propter supremam potestatem, ut
+          <lb ed="#P" n="31"/>dixi. Inferiorum autem statuta semper 
+          ferun<lb break="no" ed="#P" n="32"/>tur in scriptis, et ita servandum est ad 
+          tollen<lb break="no" ed="#P" n="33"/>dam ambiguitatem vel obscuritatem. Unde
+          <lb ed="#P" n="34"/>etiam oportet ut ex tenore ipsius scripturae
+          <lb ed="#P" n="35"/>constet, ex potestate legislativa esse 
+          profec<lb break="no" ed="#P" n="36"/>tam, et continere actum ejus, alias non erit
+          <lb ed="#P" n="37"/>sufficiens signum voluntatis principis ferendi
+          <lb ed="#P" n="38"/>legem, vel obligandi subditos communi et
+          <lb ed="#P" n="39"/>stabili legis obligatione, quod in sequenti 
+          punc<lb break="no" ed="#P" n="40"/>to declarabitur.
+        </p>
+        <p xml:id="szdleg-a98072-d1e232">
+          <lb ed="#P" n="41"/>3. Sententia dicentium epistolum pontificiam
+          <lb ed="#P" n="42"/>inducere leges. — Hinc enim suboritur dubium
+          <lb ed="#P" n="43"/>supra tractatum de lege civili, an epistolae
+          <lb ed="#P" n="44"/>pontificiae leges canonicas inducant, quoniam
+          <lb ed="#P" n="45"/>in eis respondent ad speciales interrogationes,
+          <lb ed="#P" n="46"/>aut consultationes. Canonistae enim interdum
+          <lb ed="#P" n="47"/>indicant haec responsa Pontificum non 
+          introdu<lb break="no" ed="#P" n="48"/>cere legem : Abb. in cap. 7we, de Sponsal.,
+          <lb ed="#P" n="49"/>n. 3, et ibi Alex. de Nevo, n. 15; et Praepos.
+          <lb ed="#P" n="50"/>n. 4, ad 7; nam exponens illum textum, 
+          di<lb break="no" ed="#P" n="51"/>centem verba esse de necessitate matrimonii
+          <lb ed="#P" n="52"/>quoad Ecclesiam, dicit non introducere legem,
+          <lb ed="#P" n="53"/>quia solum continet responsum Pontificis ad
+          <lb ed="#P" n="54"/>privatam consultationem.
+        </p>
+        <p xml:id="szdleg-a98072-d1e265">
+          <lb ed="#P" n="55"/>4. Vera sententia. — Contraria vero sen-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tentia vera est, a qua dicti auctores non 
+          dis<lb break="no" ed="#P" n="57"/>sentiunt : est enim certa, et inter jurisperitos
+          <lb ed="#P" n="58"/>communis: tenet Glossa in cap. Ea tua,de Fil.
+          <lb ed="#P" n="59"/>Presbyt., verb. Consultationem, ubi Panorm.
+          <lb ed="#P" n="60"/>idem sentit, et tacite declarat priorem 
+          senten<lb break="no" ed="#P" n="61"/>tiam, ut statim dicam. Idem Felin. rubr. de
+          <lb ed="#P" n="62"/>Rescrip., in princip., cum Rom. cons. 260, et
+          <lb ed="#P" n="63"/>Archid. et Domini. in cap. 7gnorantia, 38 dist.
+          <lb ed="#P" n="64"/>Imo juris civilis interpretes multo magis 
+          cer<lb break="no" ed="#P" n="65"/>tam censent esse hanc sententiam de epistolis
+          <lb ed="#P" n="66"/>Pontificum, quam regum aut imperatorum,
+          <lb ed="#P" n="67"/>ut constat ex Bart. et Paul. Castr., in l. 1, cod.
+          <lb ed="#P" n="68"/>de Legib., Jason. et aliis quos retuli superiori
+          <lb ed="#P" n="69"/>lib., cap. 13. Probatur aperte haec sententia
+          <lb ed="#P" n="70"/>ex cap. 1, dist. 19, quod est Nicolai I in Epist.
+          <lb ed="#P" n="71"/>ad Episcopos Galliae, quae habetur in tertio t.
+          <lb ed="#P" n="72"/>Bibl. : ubi in eamdem sententiam adducit 
+          Leo<lb break="no" ed="#P" n="73"/>nem I, Epist. 1, in fine, et Gelas. in c. Sancta
+          <lb ed="#P" n="74"/>Romana, dist. 15, et ibi ex professo probat
+          <lb ed="#P" n="75"/>Nicol. hoc non solum esse verum de epistolis in
+          <lb ed="#P" n="76"/>jure canonico insertis, sed etiam de omnibus
+          <lb ed="#P" n="77"/>aliis. Ratio autem sufficiens est, quia 
+          Pontifi<lb break="no" ed="#P" n="78"/>ces habent auctoritatem ad ferendas leges hoc
+          <lb ed="#P" n="79"/>modo, et ipsimet declararunt hoc sensu et hac
+          <lb ed="#P" n="80"/>potestate esse scriptas hujusmodi epistolas,
+          <lb ed="#P" n="81"/>vel responsa. Quomodo autem hoc 
+          intelligen<lb break="no" ed="#P" n="82"/>dum sit, et quid requiratur, ut hujusmodi
+          <lb ed="#P" n="83"/>epistolae vim legis habeant, dicetur 
+          respon<lb break="no" ed="#P" n="84"/>dendo ad priorem sententiam.
+        </p>
+        <p xml:id="szdleg-a98072-d1e335">
+          <lb ed="#P" n="85"/>5. Igitur ad cap. Tuce, de Sponsal., 
+          respon<lb break="no" ed="#P" n="86"/>detur imprimis, potius ex illo probari, quando
+          <lb ed="#P" n="87"/>consultus Pontifex respondet, illud responsum
+          <lb ed="#P" n="88"/>habere vim legis, quatenus directe satisfacit
+          <lb ed="#P" n="89"/>consultationi, licet consultatio privata fuerit.
+          <lb ed="#P" n="90"/>Et hoc supponunt et fatentur interpretes illius
+          <lb ed="#P" n="91"/>textus supra allegati. Addunt tamen, per 
+          hu<lb break="no" ed="#P" n="92"/>jusmodi responsa Pontificum ad 
+          interrogatio<lb break="no" ed="#P" n="93"/>nes factas circa antiqua jura non introduci
+          <lb ed="#P" n="94"/>novam legem quae antea constituta non 
+          fuis<lb break="no" ed="#P" n="95"/>set, sed solum interpretationem ejus de qua
+          <lb ed="#P" n="96"/>fuerat Pontifex consultus, sive illa sit 
+          ecclesias<lb break="no" ed="#P" n="97"/>tica, sive divina, aut naturalis, ut in illo cap.
+          <lb ed="#P" n="98"/>consultus fuit Pontifex an verba sint 
+          neces<lb break="no" ed="#P" n="99"/>saria ad matrimonium. Respondet autem 
+          ma<lb break="no" ed="#P" n="100"/>trimonium mutuo consensu perfici, necessaria
+          <lb ed="#P" n="101"/>autem esse verba quantum ad Ecclesiam. Unde
+          <lb ed="#P" n="102"/>colligunt dicti interpretes, per illud responsum
+          <lb ed="#P" n="103"/>non introduci novam legem, aliquid de novo
+          <lb ed="#P" n="104"/>praecipientem, sed tantum declarari 
+          authen<lb break="no" ed="#P" n="105"/>tice id quod antea erat jus divinum ac 
+          natu<lb break="no" ed="#P" n="106"/>rale, scilicet, de substantia matrimonii 
+          tan<lb break="no" ed="#P" n="107"/>tum esse mutuum consensum, utique 
+          sufli<lb break="no" ed="#P" n="108"/>cientibus signis expressum, quia alias non
+          <lb ed="#P" n="109"/>posset esse mutuus, et datus simul, et 
+          accepta<lb break="no" ed="#P" n="110"/>tus. Unde in hoc sensu recte inferunt noluisse
+          <pb ed="#P" n="389"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ibi Pontificem introducere novam legem 
+          ec<lb break="no" ed="#P" n="2"/>clesiasticam, qua praeciperet ut matrimonium
+          <lb ed="#P" n="3"/>fieret per verba, quando fieri potest, neque
+          <lb ed="#P" n="4"/>in hoc sensu dixisse verba esse necessaria 
+          pro<lb break="no" ed="#P" n="5"/>pter Ecclesiam, quia hoc praeceptum 
+          ecclesias<lb break="no" ed="#P" n="6"/>ticum non erat antea, nec Pontifex ibi illud
+          <lb ed="#P" n="7"/>ponit de novo, cum tantum respondeat 
+          consul<lb break="no" ed="#P" n="8"/>tationi: unde concludunt solum explicasse per
+          <lb ed="#P" n="9"/>illa verba moralem necessitatem, seu 
+          utilita<lb break="no" ed="#P" n="10"/>tem verborum in matrimonio, ut Ecclesia 
+          cer<lb break="no" ed="#P" n="11"/>tior deillo fiat, ejusque clariorem probationem
+          <lb ed="#P" n="12"/>habeat.
+        </p>
+        <p xml:id="szdleg-a98072-d1e424">
+          <lb ed="#P" n="13"/>6. Epistolae pontificiae habent auctoritatem
+          <lb ed="#P" n="14"/>temperandi jus et obligandi ad eam 
+          interpre<lb break="no" ed="#P" n="15"/>tationem tenendam.—Ex quibus aperte constat,
+          <lb ed="#P" n="16"/>non negare dictos auctores epistolam 
+          pontifi<lb break="no" ed="#P" n="17"/>ciam habere vim legis in eo quod decernit, sed
+          <lb ed="#P" n="18"/>proponere regulam ad intelligendum quid 
+          de<lb break="no" ed="#P" n="19"/>cernat. Ordinarie enim hujusmodi epistolae
+          <lb ed="#P" n="20"/>continentes responsa consultationum sunt 
+          po<lb break="no" ed="#P" n="21"/>tius declarativa, quam constitutiva juris, quia
+          <lb ed="#P" n="22"/>non solet consuli Pontifex an aliquid facere
+          <lb ed="#P" n="23"/>jubeat, necne, sed an aliquid faciendum sit
+          <lb ed="#P" n="24"/>secundum jus divinum naturale, vel ab 
+          Eccle<lb break="no" ed="#P" n="25"/>sia jam statutum. Et tunc respondendo 
+          Ponti<lb break="no" ed="#P" n="26"/>fex interpretatur jus, et in hoc habet. ejus
+          <lb ed="#P" n="27"/>responsio auctoritatem legis obligantis ad 
+          il<lb break="no" ed="#P" n="28"/>lam interpretationem tenendam, vel ad 
+          ser<lb break="no" ed="#P" n="29"/>vandum antiquum jus, secundum illam 
+          inter<lb break="no" ed="#P" n="30"/>pretationem, et hoc est quod in decretis supra
+          <lb ed="#P" n="31"/>allegatis docetur. Non tamen solent per talia
+          <lb ed="#P" n="32"/>responsa condere Pontifices novas leges, non
+          <lb ed="#P" n="33"/>quia non possint, sed quia non hoc tunc
+          <lb ed="#P" n="34"/>agunt, nec de hoc consuli solent, ut dixi. Si
+          <lb ed="#P" n="35"/>tamen occasione sumpta ex consultatione ipsi
+          <lb ed="#P" n="36"/>velint novam legem introducere, sine dubio
+          <lb ed="#P" n="37"/>possunt illo modo id facere, dummodo suis
+          <lb ed="#P" n="38"/>verbis hoc sufficienter declarent.
+        </p>
+        <p xml:id="szdleg-a98072-d1e483">
+          <lb ed="#P" n="39"/>7. Quando epistolae sunt scriptae non ad
+          <lb ed="#P" n="40"/>consultationem, sed directe ad gubernationem,
+          <lb ed="#P" n="41"/>facilius possunt habere vim legis ; sed boc 
+          colli<lb break="no" ed="#P" n="42"/>gendum ea tenore verborum.— Quocirca, 
+          quan<lb break="no" ed="#P" n="43"/>do epistolae non sunt responsivae ad 
+          consulta<lb break="no" ed="#P" n="44"/>tionem, sed directe scriptae ad gubernationem,
+          <lb ed="#P" n="45"/>tunc facilius habere possunt vim legis 
+          consti<lb break="no" ed="#P" n="46"/>tutivae de novo, quod ex tenore verborum
+          <lb ed="#P" n="47"/>spectandum est. Adjungendae etiam sunt 
+          cir<lb break="no" ed="#P" n="48"/>cumstantiae temporis, et loci, et personarum
+          <lb ed="#P" n="49"/>ad quas scribitur, ad intelligendum an lex sit
+          <lb ed="#P" n="50"/>universalis pro tota Ecclesia, vel pro aliqua
+          <lb ed="#P" n="51"/>tantum provincia, aut dicecesi. Denique 
+          ne<lb break="no" ed="#P" n="52"/>cessarium est ut talis epistola per traditionem,
+          <lb ed="#P" n="53"/>vel declarationem posteriorum Pontificum 
+          suf<lb break="no" ed="#P" n="54"/>ficienter sit nota et in auctoritate habita, hoc
+          <lb ed="#P" n="55"/>enim necessarium est ut obliget ; licet non sit
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>necessarium ut sit in corpore juris inserta,
+          <lb ed="#P" n="57"/>quia ita cautum est in ipso jure, ut dixi, ac
+          <lb ed="#P" n="58"/>merito, quia est valde accidentarium, et non
+          <lb ed="#P" n="59"/>potest jus limitare auctoritatem Papae. Quod
+          <lb ed="#P" n="60"/>maxime verum habet in his quae spectant ad
+          <lb ed="#P" n="61"/>declarationem juris naturalis, vel divini. Nam
+          <lb ed="#P" n="62"/>in his non potest esse mutatio, nec error, 
+          quan<lb break="no" ed="#P" n="63"/>do Pontifices ut Pontifices definiunt, quod 
+          pos<lb break="no" ed="#P" n="64"/>sunt facere per has epistolas, et faciunt, 
+          quan<lb break="no" ed="#P" n="65"/>do ostendunt se loqui ad docendam et 
+          in<lb break="no" ed="#P" n="66"/>struendam totam Ecclesiam. Et ideo in his
+          <lb ed="#P" n="67"/>rebus sunt talia decreta generalia et perpetua,
+          <lb ed="#P" n="68"/>licet fiant respondendo ad particulares 
+          inter<lb break="no" ed="#P" n="69"/>rogationes, quia illa particularis materia est
+          <lb ed="#P" n="70"/>accidentaria, et solum concurrunt per modum
+          <lb ed="#P" n="71"/>occasionis, doctrina autem ipsa generalis est.
+          <lb ed="#P" n="72"/>At vero, quando responsum concernit 
+          mate<lb break="no" ed="#P" n="73"/>riam juris positivi ecclesiastici, licet, ut 
+          pro<lb break="no" ed="#P" n="74"/>cessit a Pontifice, non potuerit continere 
+          erro<lb break="no" ed="#P" n="75"/>rem in moribus, per temporis successionem
+          <lb ed="#P" n="76"/>potest accipere mutationem, et quoad hoc 
+          po<lb break="no" ed="#P" n="77"/>test multum deservire quod tale decretum
+          <lb ed="#P" n="78"/>sit vel non sit moribus receptum, vel etiam
+          <lb ed="#P" n="79"/>quia sit in corpore juris insertum, vel 
+          extra<lb break="no" ed="#P" n="80"/>vagetur ; et tunc etiam oportet considerare an
+          <lb ed="#P" n="81"/>sit consentaneum juri communi, vel illi 
+          con<lb break="no" ed="#P" n="82"/>trarium: nam in priori casu servandum est; in
+          <lb ed="#P" n="83"/>posteriori autem Pontifex est consulendus,
+          <lb ed="#P" n="84"/>juxta cap. Pastoralis, de Fide instrum. Quae
+          <lb ed="#P" n="85"/>omnia usui esse possunt ad intelligendas 
+          de<lb break="no" ed="#P" n="86"/>cretales epistolas, et aliquid statim addemus
+          <lb ed="#P" n="87"/>solvendo objectionem quae in praesenti fieri
+          <lb ed="#P" n="88"/>posset.
+        </p>
+        <p xml:id="szdleg-a98072-d1e596">
+          <lb ed="#P" n="89"/>8. Praeterea, potest simile dubium de 
+          sen<lb break="no" ed="#P" n="90"/>tentiis Pontificum hic definiri, quod supra de
+          <lb ed="#P" n="91"/>sententiis imperatorum et regum tractavimus;
+          <lb ed="#P" n="92"/>nam ex ibi dictis a fortiori sequitur, 
+          senten<lb break="no" ed="#P" n="93"/>tiam latam a Papa in particulari causa 
+          intro<lb break="no" ed="#P" n="94"/>ducere legem generalem pro omnibus 
+          simili<lb break="no" ed="#P" n="95"/>bus causis ; nam major est auctoritas pontificia
+          <lb ed="#P" n="96"/>quam regia. Et hoc modo videtur magna ex
+          <lb ed="#P" n="97"/>parte esse constitutum jus canonicum ; nam
+          <lb ed="#P" n="98"/>plura illius decreta sunt quaedam sententiae
+          <lb ed="#P" n="99"/>Pontificum in singularibus causis latae. Et in
+          <lb ed="#P" n="100"/>particulari videtur hoc declaratum in cap. 7u
+          <lb ed="#P" n="101"/>causis, de he jud. ibi: Cum in similibus casibus
+          <lb ed="#P" n="102"/>ceteri teneantur similiter judicare. Et ita 
+          do<lb break="no" ed="#P" n="103"/>cent ibi expositores. Dubitant autem an hoc
+          <lb ed="#P" n="104"/>intelligendum sit tantum de sententia 
+          definiti<lb break="no" ed="#P" n="105"/>va, vel etiam de interlocutoria, dummodo de
+          <lb ed="#P" n="106"/>illa satis constet , de qua videri possunt ibi
+          <lb ed="#P" n="107"/>doctores, praesertim Panorm. num. 3et 4, et
+          <lb ed="#P" n="108"/>Felin., n. 3 et seq., quia de hac distinctione
+          <lb ed="#P" n="109"/>nobis sufficiant dicta circa legem civilem. Alia
+          <lb ed="#P" n="110"/>vero distinctio de sententia inserta, vel non in-
+          <pb ed="#P" n="390"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>serta in corpore juris, qua utuntur etiam 
+          ali<lb break="no" ed="#P" n="2"/>qui ex dictis doctoribus, in praesenti non est
+          <lb ed="#P" n="3"/>admittenda, quia repugnat juri canonico quod
+          <lb ed="#P" n="4"/>expresse illam excludit in epistolis Pontificum,
+          <lb ed="#P" n="5"/>ut vidimus ; est autem eadem ratio de 
+          sen<lb break="no" ed="#P" n="6"/>tentiis. Item, quia ex dicto capit. Pastoralis,
+          <lb ed="#P" n="7"/>aperte colligitur epistolam decretalem 
+          pontifi<lb break="no" ed="#P" n="8"/>ciam. etiamsi sit contra jus commune, habere
+          <lb ed="#P" n="9"/>auctoritatem, solumque limitatur modo supra
+          <lb ed="#P" n="10"/>dicto. quando est contra jus commune : 
+          no<lb break="no" ed="#P" n="11"/>mine autem decretalis etiam sententia lata et
+          <lb ed="#P" n="12"/>scripta a Papa comprehenditur, ut omnes 
+          fa<lb break="no" ed="#P" n="13"/>tentur, et constat ex usu decretalium ; non est
+          <lb ed="#P" n="14"/>ergo conditio simpiiciter necessaria ad 
+          ratio<lb break="no" ed="#P" n="15"/>nem legis, quod sententia sit inserta in 
+          cor<lb break="no" ed="#P" n="16"/>pore juris, licet ad promulgationem legis et
+          <lb ed="#P" n="17"/>ad cognitionem ejus magis publicam et 
+          cer<lb break="no" ed="#P" n="18"/>tiorem multum conferat.
+        </p>
+        <p xml:id="szdleg-a98072-d1e691">
+          <lb ed="#P" n="19"/>9. Objiciuntur quaedam Pontificis verba que
+          <lb ed="#P" n="20"/>videntur aliis repugnare, et ecplicantur.—
+          Con<lb break="no" ed="#P" n="21"/>tra hanc vero resolutionem objici possunt 
+          ver<lb break="no" ed="#P" n="22"/>ba Alexandri III in cap. Zicet, de Sponsa 
+          duo<lb break="no" ed="#P" n="23"/>rum , ubi definit matrimonium ratum non
+          <lb ed="#P" n="24"/>dissolvi per subsequens consummatum , et 
+          ad<lb break="no" ed="#P" n="25"/>jungit : Quamvis aliter a quibusdam 
+          praedeces<lb break="no" ed="#P" n="26"/>soribus nostris sit aliquando judicatum, utique
+          <lb ed="#P" n="27"/>per sententiam, ut communiter videtur 
+          intel<lb break="no" ed="#P" n="28"/>ligi ; ergo sententia Pontificis non potest facere
+          <lb ed="#P" n="29"/>legem, cum tam gravem errorem continere
+          <lb ed="#P" n="30"/>possit. Simihs objectio fieri potest ex c. Quanto,
+          <lb ed="#P" n="31"/>de Divortiis, ubi Innocent. III docet 
+          matrimo<lb break="no" ed="#P" n="32"/>nium inter fideles baptizatos et Catholicos
+          <lb ed="#P" n="33"/>contractum, non dissolvi per haeresim seu 
+          apos<lb break="no" ed="#P" n="34"/>tasiam a fide alterius conjugis, et subjungit:
+          <lb ed="#P" n="35"/>Licet quidum praedecessor noster sensisse aliter
+          <lb ed="#P" n="36"/>videatur. Quod dixit propter Coelestin. IHI qui
+          <lb ed="#P" n="37"/>contrarium respondit, ut in cap. Laudailem,
+          <lb ed="#P" n="38"/>alias 1 de Convers. infidel. olim habebatur,
+          <lb ed="#P" n="39"/>ut ibi notat Glossa, et nunc habetur in 
+          collec<lb break="no" ed="#P" n="40"/>tionibus Antonii Augustini, collect. 2, tit. 23,
+          <lb ed="#P" n="41"/>cap. 2.
+        </p>
+        <p xml:id="szdleg-a98072-d1e743">
+          <lb ed="#P" n="42"/>10. Circa primum, Alexander III non 
+          desi<lb break="no" ed="#P" n="43"/>gnat qui fuerint illi Pontifices qui aliter 
+          judi<lb break="no" ed="#P" n="44"/>carunt, et Glossa ibi solum allegat 
+          consuetudi<lb break="no" ed="#P" n="45"/>nem quamdam Mutinensem, cujus fit mentio
+          <lb ed="#P" n="46"/>in cap. ult. ejusdem tituli, quae est 
+          imperti<lb break="no" ed="#P" n="47"/>nens ; nam ibi non dicitur illam 
+          consuetudi<lb break="no" ed="#P" n="48"/>nem fuisse per aliquem summum Pontificem
+          <lb ed="#P" n="49"/>approbatam. Imo Innocen. IlI in illo cap. ult.
+          <lb ed="#P" n="50"/>dicit /uisse contra id quod sentit sancti Petri
+          <lb ed="#P" n="51"/>sedes, et ideo non possumus certo dicere quale
+          <lb ed="#P" n="52"/>fuerit illud judicium illorum Pontificum. 
+          Res<lb break="no" ed="#P" n="53"/>ponderi ergo potest supponendo probabile
+          <lb ed="#P" n="54"/>esse posse Pontificem ex justa causa 
+          dispen<lb break="no" ed="#P" n="55"/>sare in matrimonio rato non consummato ;
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>forte igitur illi Pontifices, quos Alexander III
+          <lb ed="#P" n="57"/>commemorat , non tantum sententiando, aut
+          <lb ed="#P" n="58"/>respondendo, sed etiam faciendo, dissolverunt
+          <lb ed="#P" n="59"/>illa matrimonia, non quidem judicando ipso
+          <lb ed="#P" n="60"/>facto dissolvi (stando in solo jure divino) per
+          <lb ed="#P" n="61"/>subsequens consummatum, sed judicando 
+          il<lb break="no" ed="#P" n="62"/>lam fuisse causam sufficientem ad illam 
+          dis<lb break="no" ed="#P" n="63"/>pensationem concedendam; et licet forte in
+          <lb ed="#P" n="64"/>hoc erraverint, erit error facti, et non juris.
+          <lb ed="#P" n="65"/>Non est autem verisimile fuisse judicium illud
+          <lb ed="#P" n="66"/>ferendo generalem legem formaliter et 
+          ex<lb break="no" ed="#P" n="67"/>presse, sed fortasse dispensando cum aliquo
+          <lb ed="#P" n="68"/>populo, aut saltem similem consuetudinem
+          <lb ed="#P" n="69"/>alicubi tolerando, vel approbando : nam hoc
+          <lb ed="#P" n="70"/>totum pertineret ad errorem facti, et 
+          particu<lb break="no" ed="#P" n="71"/>larem, id est, non redundantem in perniciem
+          <lb ed="#P" n="72"/>totius Ecclesiae, et ideo non repugnat 
+          conti<lb break="no" ed="#P" n="73"/>gisse.
+        </p>
+        <p xml:id="szdleg-a98072-d1e817">
+          <lb ed="#P" n="74"/>11. Quod si fortasse judicium illud fuit per
+          <lb ed="#P" n="75"/>sententiam latam in aliqua particulari causa
+          <lb ed="#P" n="76"/>(licet id non constet), dicendum est illam 
+          sen<lb break="no" ed="#P" n="77"/>tentiam non fuisse latam interpretando ex 
+          ca<lb break="no" ed="#P" n="78"/>thedra jus divinum, sed judicando de facto
+          <lb ed="#P" n="79"/>secundum opinionem privatam, et ideo non
+          <lb ed="#P" n="80"/>potuisse inducere generalem legem. Atque ita
+          <lb ed="#P" n="81"/>respondet Covar. 2 p. quarti, c. 7, 8 3, n. 15.
+          <lb ed="#P" n="82"/>Non est item necesse verbum Juwdicandi 
+          re<lb break="no" ed="#P" n="83"/>ferre ad sententiam alicujus causae 
+          definiti<lb break="no" ed="#P" n="84"/>vam, sed ad privatum judicium, quod 
+          inter<lb break="no" ed="#P" n="85"/>dum est per opinionem privatam, et ita potuit
+          <lb ed="#P" n="86"/>contingere in illis Pontificibus. Et ita exposuit
+          <lb ed="#P" n="87"/>Cano lib. 6 de Locis, cap. 8, ad 3, et Bellarm.,
+          <lb ed="#P" n="88"/>lib. 4 de Roman. Pontif., cap. 13, in princ.
+          <lb ed="#P" n="89"/>Imo etiam de Alexand. lII dicit non 
+          defini<lb break="no" ed="#P" n="90"/>visse, sed tantum quid sentiret explicuisse,
+          <lb ed="#P" n="91"/>sicut praedecessores sui fecerant. Idque colligi
+          <lb ed="#P" n="92"/>potest ex verbis ejusdem Alexand. in Conc.
+          <lb ed="#P" n="93"/>Later., p. 6, cap. 8, ubi habetur integra 
+          epis<lb break="no" ed="#P" n="94"/>tola, quae valde familiaris est, et in ea solum
+          <lb ed="#P" n="95"/>dicit se velle aperire quid sentiat, et postea
+          <lb ed="#P" n="96"/>non loquitur de omni matrimonio rato, sed
+          <lb ed="#P" n="97"/>multas adjungit circumstantias et 
+          solemnita<lb break="no" ed="#P" n="98"/>tes, ac tandem concludit : Quamvis alii aliter
+          <lb ed="#P" n="99"/>sentiant, aliter etium a quibusdaum 
+          praedecesso<lb break="no" ed="#P" n="100"/>ribus nostris sit aliquando judicatum. Sed, 
+          h<lb break="no" ed="#P" n="101"/>cet hoc forte ita in principio fuerit, 
+          nihilomi<lb break="no" ed="#P" n="102"/>nus postquam responsio illa juri canonico per
+          <lb ed="#P" n="103"/>Greg. IX inserta est, et pro generali lege 
+          tra<lb break="no" ed="#P" n="104"/>dita universae Ecclesiae, non est dubium quin
+          <lb ed="#P" n="105"/>sit universalis ac vera lex, ac subinde certam
+          <lb ed="#P" n="106"/>fidem faciat quia non potest intolerabilem 
+          er<lb break="no" ed="#P" n="107"/>rorem continere.
+        </p>
+        <p xml:id="szdleg-a98072-d1e893">
+          <lb ed="#P" n="108"/>12. Secunda objectio magis procedit contra
+          <lb ed="#P" n="109"/>priorem resolutionem de epistolis 
+          decretali<lb break="no" ed="#P" n="110"/>bus, quam contra hanc de sententia ; nam
+          <pb ed="#P" n="391"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>illud dictum Coelestini fuit responsio ejus ad
+          <lb ed="#P" n="2"/>quamdam consultationem, ut constat ex 
+          inte<lb break="no" ed="#P" n="3"/>gra Antonii Augustini. Et eam se vidisse refert
+          <lb ed="#P" n="4"/>Castro lib. 1 contra Haeres., cap. 4, et propter
+          <lb ed="#P" n="5"/>illam audet dicere in eo errasse Coelestinum,
+          <lb ed="#P" n="6"/>non tantum ex negligentia, ita ut illum errasse
+          <lb ed="#P" n="7"/>dicamus velut privatam personam, et non ut
+          <lb ed="#P" n="8"/>Papam, quia in qualibet re seria definienda
+          <lb ed="#P" n="9"/>tenetur consulere viros doctos, quia hujusmodi
+          <lb ed="#P" n="10"/>definitio (inquit) habebatur in antiquis 
+          decreta<lb break="no" ed="#P" n="11"/>libus; sed excedit, et videtur male sentire de
+          <lb ed="#P" n="12"/>potestate infallibili Papae ad definiendas res
+          <lb ed="#P" n="13"/>fidei. Melius ergo Cano et Bellarmin. supra
+          <lb ed="#P" n="14"/>respondent, non definiendo, sed opinando
+          <lb ed="#P" n="15"/>Coelestinum locutum fuisse, potuisseque 
+          Cas<lb break="no" ed="#P" n="16"/>tro ex verbis Coelestini attente perpensis id
+          <lb ed="#P" n="17"/>colligere; solum enim ait : Non enim videtur
+          <lb ed="#P" n="18"/>nobis, quod si prior maritus redeat, etc., quae
+          <lb ed="#P" n="19"/>verba sunt privatum sensum aperientis, et
+          <lb ed="#P" n="20"/>cum formidine loquentis, non definientis, aut
+          <lb ed="#P" n="21"/>certam doctrinam tradentis. Nunquam ergo
+          <lb ed="#P" n="22"/>responsio illa habuit vim legis toti Ecclesiae
+          <lb ed="#P" n="23"/>propositae, quia nec in ipsa hoc explicatum
+          <lb ed="#P" n="24"/>est, nec ita fuit recepta, aut recipi potuit. 
+          Di<lb break="no" ed="#P" n="25"/>ces etiam Innoc. Ill suum responsum 
+          protu<lb break="no" ed="#P" n="26"/>lisse per illa verba: Non credimus quod in illo
+          <lb ed="#P" n="27"/>castt, etc.; respondeo etiam ex vi verborum
+          <lb ed="#P" n="28"/>id non fuisse ab Ecclesia definitum, ut etiam
+          <lb ed="#P" n="29"/>Bellarm. sensit; postea vero lex illa firmata
+          <lb ed="#P" n="30"/>est per Greg. IX et usu ipso declarata, ac 
+          de<lb break="no" ed="#P" n="31"/>nique ut veritas fidei definita in Concilio 
+          Tri<lb break="no" ed="#P" n="32"/>dent., sess. 24, can. 5.
+        </p>
+        <p xml:id="szdleg-a98072-d1e976">
+          <lb ed="#P" n="33"/>13. Quid de Episcopis sentiendum. — 
+          Tan<lb break="no" ed="#P" n="34"/>dem circa haec duo puncta de sententia et
+          <lb ed="#P" n="35"/>epistola Pontificis dubitari potest an idem
+          <lb ed="#P" n="36"/>censendum sit de Ebpiscopis cum proportione
+          <lb ed="#P" n="37"/>pro suis episcopatibus. Nam canonistae 
+          com<lb break="no" ed="#P" n="38"/>muniter in hoc differentiam constituunt, ut
+          <lb ed="#P" n="39"/>patet ex Fel., dict. cap. In causis, num. S,
+          <lb ed="#P" n="40"/>et in rubr. de hescrip., et aliis quos allegat.
+          <lb ed="#P" n="41"/>Sed in hoc idem cum proportione sentio de
+          <lb ed="#P" n="42"/>Episcopis, quod dixi de magistratibus civilibus
+          <lb ed="#P" n="43"/>habentibus potestatem ad ferendas leges cum
+          <lb ed="#P" n="44"/>subordinatione ad aliquem superiorem regem,
+          <lb ed="#P" n="45"/>vel imperatorem. Ita enim Episcopi 
+          comparan<lb break="no" ed="#P" n="46"/>tur ad summum Pontificem et ad jus 
+          canoni<lb break="no" ed="#P" n="47"/>cum. Nam et leges ferre possunt pro suis 
+          epis<lb break="no" ed="#P" n="48"/>copatibus, et non possunt contra jus commune
+          <lb ed="#P" n="49"/>statuere, aut sententias dicere. Si ergo 
+          senten<lb break="no" ed="#P" n="50"/>tia vel responsum Episcopi sit contra jus 
+          com<lb break="no" ed="#P" n="51"/>mune, non solum non inducet legem, verum
+          <lb ed="#P" n="52"/>etiam nihil valebit ; si vero per sententiam 
+          in<lb break="no" ed="#P" n="53"/>terpretetur suum proprium jus, vim etiam
+          <lb ed="#P" n="54"/>proprii juris habere poterit sententia, quia
+          <lb ed="#P" n="55"/>quoad hoc habet eamdem potestatem, et idem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>est cum proportione de rescripto, dummodo
+          <lb ed="#P" n="57"/>aliae conditiones concurrant, scilicet, quod ex
+          <lb ed="#P" n="58"/>verbis et modo scribendi satis constet de 
+          ani<lb break="no" ed="#P" n="59"/>mo statuendi, et quod materia sit apta, et 
+          sen<lb break="no" ed="#P" n="60"/>tentia, vel decretum Episcopi sufficienter pro
+          <lb ed="#P" n="61"/>ratione suae dioecesis promulgetur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

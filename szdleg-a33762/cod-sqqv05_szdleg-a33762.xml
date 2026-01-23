@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 13</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 13</title>
+          <date when="2026-01-16">January 16, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv05">Paris 1856, v. 05</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="132"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-a33762"><!-- deleg-l2c13 -->
+        <head xml:id="szdleg-a33762-Hd1e101">Caput 13</head>
+        <head xml:id="szdleg-a33762-Hd1e103" type="question-title">Utrum praecepta legis natuiue de se et ab intrinseco immutabilia sint</head>
+        <p xml:id="szdleg-a33762-d1e106">
+          <lb ed="#P" n="42"/>CAPUT XIII.
+          <lb ed="#P" n="43"/>UTRUM PRAECEPTA LEGIS NATURAE DE SE ET AB
+          <lb ed="#P" n="44"/>INTRINSECO IMMUTABILIA SINT.
+        </p>
+        <p xml:id="szdleg-a33762-d1e115">
+          <lb ed="#P" n="45"/>1. Sensus questionis expenditur , et 
+          emple<lb break="no" ed="#P" n="46"/>catur de qua immutabilitate sit sermo.—
+          Hacte<lb break="no" ed="#P" n="47"/>nus substantiam et obligationem legis 
+          natu<lb break="no" ed="#P" n="48"/>ralis explicuimus ; reliquum est ut de illius
+          <lb ed="#P" n="49"/>firmitate vel immutabihtate dicamus. Duplex
+          <lb ed="#P" n="50"/>autem mutatio potest intelligi in aliqua lege,
+          <lb ed="#P" n="51"/>scilicet, vel per additionem, vel per 
+          ablatio<lb break="no" ed="#P" n="52"/>nem seu diminutionem. Hic autem non est
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>sermo de ea additione, quia illa non est 
+          muta<lb break="no" ed="#P" n="54"/>tio quando prior lex integra manet, sed est
+          <lb ed="#P" n="55"/>perfectio extensiva conferens ad utilitatem 
+          hu<lb break="no" ed="#P" n="56"/>manam, ut dixit D. Thomas, q. 94, art. 5, et
+          <lb ed="#P" n="57"/>sic Ulpianus, l. Jus civile, ft. de Just. et jure,
+          <lb ed="#P" n="58"/>ait jus civile constitui addendo aliqua juri 
+          na<lb break="no" ed="#P" n="59"/>turali : imo et jus divinum multa addidit juri
+          <lb ed="#P" n="60"/>naturae, et jus canonicum utrique. Nam, ut
+          <lb ed="#P" n="61"/>infra videbimus, humana jura multa 
+          determi<lb break="no" ed="#P" n="62"/>nant quae per jus naturae aut divinum 
+          determi<lb break="no" ed="#P" n="63"/>nata non sunt, nec convenienter determinari
+          <lb ed="#P" n="64"/>potuerunt. Tractamus ergo de propria 
+          muta<lb break="no" ed="#P" n="65"/>tione quae fit per ablationem legis, vel 
+          obliga<lb break="no" ed="#P" n="66"/>tionis ejus. Haec autem mutatio dupliciter 
+          so<lb break="no" ed="#P" n="67"/>let in rebus accidere, nimirum, vel per 
+          muta<lb break="no" ed="#P" n="68"/>tionem rei ab intrinseco deficientis, vel per
+          <lb ed="#P" n="69"/>extrinsecus factam virtute alicujus agentis 
+          ha<lb break="no" ed="#P" n="70"/>bentis potestatem. Et uterque modus potest ad
+          <lb ed="#P" n="71"/>legem applicari : nam interdum res per 
+          seip<lb break="no" ed="#P" n="72"/>sam deficit, quia ex utili fit noxia, vel ex 
+          ra<lb break="no" ed="#P" n="73"/>tionabili fit irrationabilis : aliquando vcro 
+          tol<lb break="no" ed="#P" n="74"/>litur per superiorem, ut in legibus positivis
+          <lb ed="#P" n="75"/>postea videbimus. Et utraque istarum 
+          muta<lb break="no" ed="#P" n="76"/>tionum contingit, vel absolute et universaliter
+          <lb ed="#P" n="77"/>in tota lege, et dicitur abrogatio legis : vel in
+          <lb ed="#P" n="78"/>particulari, et dicitur dispensatio vel 
+          particu<lb break="no" ed="#P" n="79"/>laris relaxatio. De his ergo omnibus modis
+          <lb ed="#P" n="80"/>mutationum potest inquiri circa legem 
+          natu<lb break="no" ed="#P" n="81"/>ralem : in hoc autem capite solum de 
+          muta<lb break="no" ed="#P" n="82"/>tione ab intrinseco dicemus: in sequentibus
+          <lb ed="#P" n="83"/>autem inquiremus de mutationibus ab 
+          extrin<lb break="no" ed="#P" n="84"/>secis agentibus.
+        </p>
+        <p xml:id="szdleg-a33762-d1e206">
+          <lb ed="#P" n="85"/>2. Resolutio.—Legem naturalem per seipsam
+          <lb ed="#P" n="86"/>nec deficere nec mutari posse, neque in 
+          unver<lb break="no" ed="#P" n="87"/>sali neque in particulari.—bico igitur, proprie
+          <lb ed="#P" n="88"/>loquendo, legem naturalem per seipsam 
+          desi<lb break="no" ed="#P" n="89"/>nere non posse vel mutari, neque in 
+          univer<lb break="no" ed="#P" n="90"/>sali neque in particulari, manente natura 
+          ra<lb break="no" ed="#P" n="91"/>tionali cum usu rationis et libertatis. Semper
+          <lb ed="#P" n="92"/>enim haec hypothesis praeintelligitur et 
+          suppo<lb break="no" ed="#P" n="93"/>nitur: nam cum lex naturalis sit veluti 
+          pro<lb break="no" ed="#P" n="94"/>prietas hujus naturae, si illa de medio 
+          tolle<lb break="no" ed="#P" n="95"/>retur , tolleretur etiam lex naturalis quoad
+          <lb ed="#P" n="96"/>existentiam suam, et maneret tantum 
+          secun<lb break="no" ed="#P" n="97"/>dum esse essentiae seu possibile objective in
+          <lb ed="#P" n="98"/>mente Dei, sicut et ipsa rationalis natura. Imo
+          <lb ed="#P" n="99"/>tunc etiam lex aeterna non haberet rationem
+          <lb ed="#P" n="100"/>propriae legis, quia non esset cui Deus 
+          praeci<lb break="no" ed="#P" n="101"/>peret : oportet ergo naturam rationalem 
+          sup<lb break="no" ed="#P" n="102"/>poni, et sic dicemus non posse legem 
+          natura<lb break="no" ed="#P" n="103"/>lem, vel in totum vel in parte per sese deficere
+          <lb ed="#P" n="104"/>aut mutari. Ita sumitur ex divo Thoma 1. 2,
+          <lb ed="#P" n="105"/>q. 94, art. 4 et 5, et q. 1006, art. 8, et 2.2,
+          <lb ed="#P" n="106"/>q. 66, art. 2, ad 4, et q. 104, art. 4, ad2;
+          <lb ed="#P" n="107"/>Vincentio in Specul. moral., lib. 1, part. 2,
+          <pb ed="#P" n="133"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dist. 3, et aliis quos capite sequenti et 15 
+          re<lb break="no" ed="#P" n="2"/>feram. Item ex Augustino, lib. 83 Quaestion.,
+          <lb ed="#P" n="3"/>q. 53, et lib. de vera Belig., cap. 31, et lib.1
+          <lb ed="#P" n="4"/>de lib. Arb., cap. 6. Item ex Lactantio, lib. 6
+          <lb ed="#P" n="5"/>de vero Cultu, c. 8, et ex Aristotele, 5 Ethicor.,
+          <lb ed="#P" n="6"/>cap. 7; Cicerone, lib. 4 et 2 de Lege, et 3 de
+          <lb ed="#P" n="7"/>Repub., et ex S Sedet, Instit. de Jur. natur.
+          <lb ed="#P" n="8"/>Probatur autem primo, quia hoc jus naturale
+          <lb ed="#P" n="9"/>vel consideratur in Deo vel in homine: prout
+          <lb ed="#P" n="10"/>est in homine mutari non potest, quia est 
+          in<lb break="no" ed="#P" n="11"/>trinseca proprietas necessario fluens ex tali
+          <lb ed="#P" n="12"/>natura, quia talis est, vel (ut alii volunt) est
+          <lb ed="#P" n="13"/>ipsa rationalis natura; ergo repugnat, 
+          ma<lb break="no" ed="#P" n="14"/>nente tali natura apta ad utendum ratione,
+          <lb ed="#P" n="15"/>auferri legem naturalem. Si vero consideretur
+          <lb ed="#P" n="16"/>haec lex ut est in Deo, supra ostensum est non
+          <lb ed="#P" n="17"/>posse auferri non solum a judicio divini 
+          in<lb break="no" ed="#P" n="18"/>tellectus, verum etiam neque a voluntate qua
+          <lb ed="#P" n="19"/>vult vel talia bona praecipere, vel talia mala
+          <lb ed="#P" n="20"/>vitare.
+        </p>
+        <p xml:id="szdleg-a33762-d1e307">
+          <lb ed="#P" n="21"/>3. Secundo, argumentor in hunc modum,
+          <lb ed="#P" n="22"/>quia nulla lex deficit per seipsam sine 
+          revo<lb break="no" ed="#P" n="23"/>catione legislatoris, nisi vel quia non erat 
+          per<lb break="no" ed="#P" n="24"/>petua, sed pro tempore certo, quo finito ipsa
+          <lb ed="#P" n="25"/>etiam finitur et desinit esse ; vel quia in 
+          ma<lb break="no" ed="#P" n="26"/>teria fit aliqua mutatio, ratione cujus lex sit
+          <lb ed="#P" n="27"/>irrationabihs et injusta, cum antea esset justa
+          <lb ed="#P" n="28"/>et prudens. Quia si lex indefinite ac sine 
+          ter<lb break="no" ed="#P" n="29"/>mino posita erat, et ex parte materiae non est
+          <lb ed="#P" n="30"/>facta mutatio, non potest intelligi quomodo
+          <lb ed="#P" n="31"/>per seipsam cesset lex, manente objecto et
+          <lb ed="#P" n="32"/>subjecto ejus, cum ex parte legislatoris non
+          <lb ed="#P" n="33"/>auferatur, ut supponimus. At neuter illorum
+          <lb ed="#P" n="34"/>modorum habet locum in jure naturali. De
+          <lb ed="#P" n="35"/>priori patet, quia leges ejus sunt necessariae et
+          <lb ed="#P" n="36"/>perpetuae veritatis : complectitur enim hoc jus
+          <lb ed="#P" n="37"/>(ut supra dixi) principia morum per se nota,
+          <lb ed="#P" n="38"/>et omnes ac solas conclusiones quae ex illis
+          <lb ed="#P" n="39"/>necessaria illatione inferuntur, sive proxime,
+          <lb ed="#P" n="40"/>sive per plures illationes : omnia autem haec
+          <lb ed="#P" n="41"/>perpetuae veritatis sunt; quia veritas 
+          principio<lb break="no" ed="#P" n="42"/>rum non subsistit sine veritate talium 
+          conclu<lb break="no" ed="#P" n="43"/>sionum, et principia ipsa ex terminis 
+          neces<lb break="no" ed="#P" n="44"/>saria sunt; ergo in omnibus his praeceptis est
+          <lb ed="#P" n="45"/>perpetuitas ; non ergo possunt desinere per
+          <lb ed="#P" n="46"/>solum lapsum temporis. Altera vero pars ex
+          <lb ed="#P" n="47"/>eodem principio facile ostenditur, quia 
+          judi<lb break="no" ed="#P" n="48"/>cium quod necessario colligitur ex principiis
+          <lb ed="#P" n="49"/>per se notis nunquam potest esse falsum; ergo
+          <lb ed="#P" n="50"/>nec potest esse irrationabile vcl imprudens:
+          <lb ed="#P" n="51"/>sed omne judicium legis naturalis tale est, ut
+          <lb ed="#P" n="52"/>vel sit de principiis per se notis, vel ex illis 
+          ne<lb break="no" ed="#P" n="53"/>cessario inferatur: ergo quantumvis rcs 
+          va<lb break="no" ed="#P" n="54"/>rientur, judicium legis naturalis variari non
+          <lb ed="#P" n="55"/>poterit.
+        </p>
+        <p xml:id="szdleg-a33762-d1e385">
+          <lb ed="#P" n="56"/>4. Tertio, fit alia inductio distinguendo in
+          <lb ed="#P" n="57"/>hoc jure praecepta affirmativa et negativa, et
+          <lb ed="#P" n="58"/>ostendendo neutrum genus talium 
+          praecepto<lb break="no" ed="#P" n="59"/>rum posse per se cessare, aut desinere 
+          obliga<lb break="no" ed="#P" n="60"/>re. Nam imprimis praecepta negativa 
+          prohi<lb break="no" ed="#P" n="61"/>bent res per se et intrinsece malas, et ideo
+          <lb ed="#P" n="62"/>obligant semper et pro semper; tum ratione
+          <lb ed="#P" n="63"/>suae formae, quia negatio omnia destruit, tum
+          <lb ed="#P" n="64"/>etiam quia quod per se malum est, semper et
+          <lb ed="#P" n="65"/>ubique vitandum est: eadem ergo ratione non
+          <lb ed="#P" n="66"/>possunt talia praecepta per se desinere, quia
+          <lb ed="#P" n="67"/>non potest res per se mala desinere esse mala.
+          <lb ed="#P" n="68"/>Affirmativa vero praecepta, licet semper 
+          obli<lb break="no" ed="#P" n="69"/>gent, non tamen pro semper; et ideo potest
+          <lb ed="#P" n="70"/>hujusmodi praeceptum, licet naturale sit, uno
+          <lb ed="#P" n="71"/>tempore obligare et non in alio, seu in una
+          <lb ed="#P" n="72"/>occasione et non in alia; non tamen propterea
+          <lb ed="#P" n="73"/>recipit mutationem, quia haec est illius natura,
+          <lb ed="#P" n="74"/>et (ut sic dicam) a principio fertur pro talibus
+          <lb ed="#P" n="75"/>occasionibus, vel sub talibus conditionibus, et
+          <lb ed="#P" n="76"/>non pro aliis. Nihilominus tamen semper 
+          re<lb break="no" ed="#P" n="77"/>tinet suam vim, semper obligat, licet non pro
+          <lb ed="#P" n="78"/>semper: sicut praeceptum confessionis, verbi
+          <lb ed="#P" n="79"/>gratia, licet pro hoc mense non obliget, et pro
+          <lb ed="#P" n="80"/>tempore Quadragesimae obliget, non ideo 
+          mu<lb break="no" ed="#P" n="81"/>tatur, sed de se idem semper permanet. Ft
+          <lb ed="#P" n="82"/>declaratur amplius ; nam praecepta affimativa
+          <lb ed="#P" n="83"/>legis naturalis solum obligant pro illis 
+          occasio<lb break="no" ed="#P" n="84"/>nibus, in quibus omissio talis actus esset per se
+          <lb ed="#P" n="85"/>et intrinsece mala: ergo sicut illa omissio non
+          <lb ed="#P" n="86"/>potest non esse mala: ita neque obligatio 
+          af<lb break="no" ed="#P" n="87"/>firmativi praecepti ad actum illi omissioni 
+          con<lb break="no" ed="#P" n="88"/>trarium potest per se desinere aut mutari:
+          <lb ed="#P" n="89"/>ergo tale praeceptum necessario semper obligat
+          <lb ed="#P" n="90"/>pro suo tempore, et consequenter semper etiam
+          <lb ed="#P" n="91"/>obligat ad non habendum contrarium 
+          propo<lb break="no" ed="#P" n="92"/>situm, seu ad odediendum saltem in animi
+          <lb ed="#P" n="93"/>praeparatione.
+        </p>
+        <p xml:id="szdleg-a33762-d1e470">
+          <lb ed="#P" n="94"/>5. Quarto, declaratur et confirmatur haec
+          <lb ed="#P" n="95"/>veritas expediendo objectionem quae hic fieri
+          <lb ed="#P" n="96"/>potest. Dicit enim Aristoteles, 5 Ethic., cap. 7,
+          <lb ed="#P" n="97"/>justum naturale, seu natura constans, non 
+          om<lb break="no" ed="#P" n="98"/>ne mutabile esse, aliquando vero posse esse
+          <lb ed="#P" n="99"/>mutationi obnoxium. Quod etiam tradit divus
+          <lb ed="#P" n="100"/>Thomas 1. 2, quaest. 94, art. 5, dicens legem
+          <lb ed="#P" n="101"/>naturae quoad prima principia omnino esse
+          <lb ed="#P" n="102"/>immutabilem , quoad conclusiones autem ut
+          <lb ed="#P" n="103"/>plurimum non mutari, in aliquo tamen casu,
+          <lb ed="#P" n="104"/>et in paucioribus mutari, propter particulares
+          <lb ed="#P" n="105"/>causas occurrentes. Confirmat hoc D. Thomas
+          <lb ed="#P" n="106"/>exemplo legis naturalis praecipientis depositum
+          <lb ed="#P" n="107"/>reddi suo domino petenti, quae non obligat in
+          <lb ed="#P" n="108"/>casu in quo depositum petitur ad 
+          damnifican<lb break="no" ed="#P" n="109"/>dam rempublicam. Et simile esse potest de
+          <lb ed="#P" n="110"/>praecepto naturali servandi secretum, quod
+          <pb ed="#P" n="134"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>negativum est, et tamen violari potest si ad
+          <lb ed="#P" n="2"/>defensionem reipublicae vel innocentis sit 
+          ne<lb break="no" ed="#P" n="3"/>cessarium. Praeceptum item Non occides 
+          natu<lb break="no" ed="#P" n="4"/>rale est, et tamen in propriam defensionem
+          <lb ed="#P" n="5"/>licitum est occidere. Difficilius exemplum esse
+          <lb ed="#P" n="6"/>potest de praecepto non contrahendi 
+          matrimo<lb break="no" ed="#P" n="7"/>nium cum sorore vel matre, quod naturale
+          <lb ed="#P" n="8"/>est. et tamen in casu necessitatis generationis
+          <lb ed="#P" n="9"/>humanae non obligat, ut de facto contigit in
+          <lb ed="#P" n="10"/>principio creationis, ut ex materia de 
+          Matri<lb break="no" ed="#P" n="11"/>monio constat. Ratione denique hoc 
+          confir<lb break="no" ed="#P" n="12"/>mat D. Thomas, quia certior est scientia 
+          spe<lb break="no" ed="#P" n="13"/>culativa et naturalis, quam moralis et 
+          prac<lb break="no" ed="#P" n="14"/>tica, et nihilominus in scientia physica et 
+          na<lb break="no" ed="#P" n="15"/>turali, licet universalia principia non deficiant,
+          <lb ed="#P" n="16"/>conclusiones etiam necessariae interdum 
+          defi<lb break="no" ed="#P" n="17"/>ciunt: ergo idem poterit accidere in moralibus,
+          <lb ed="#P" n="18"/>atque ita poterit jus naturale mutationem
+          <lb ed="#P" n="19"/>pati. Probatur consequentia a paritate 
+          ratio<lb break="no" ed="#P" n="20"/>nis, quia sicut materia physica est mutabilis,
+          <lb ed="#P" n="21"/>ita etiam res humanae, quae sunt materia juris
+          <lb ed="#P" n="22"/>naturalis, multo magis mutabiles sunt: ergo
+          <lb ed="#P" n="23"/>etiam ipsum jus mutabile est: nam sicut ex
+          <lb ed="#P" n="24"/>materia sumit speciem, ita illius conditionem
+          <lb ed="#P" n="25"/>imitatur et participat.
+        </p>
+        <p xml:id="szdleg-a33762-d1e568">
+          <lb ed="#P" n="26"/>6. Quomodo sit immutablilis haec naturalis,
+          <lb ed="#P" n="27"/>item in quo subire potest mutationem. — Maec
+          <lb ed="#P" n="28"/>vero omnia recte explicata potius confirmant
+          <lb ed="#P" n="29"/>assertionem. Est ergo considerandum ea quae
+          <lb ed="#P" n="30"/>consistunt in quadam adaequatione et quasi
+          <lb ed="#P" n="31"/>relatione, dupliciter posse mutari vel quasi
+          <lb ed="#P" n="32"/>mutari, seu desinere esse, scilicet, vel 
+          intrin<lb break="no" ed="#P" n="33"/>sece per mutationem sui, ut pater desinit esse
+          <lb ed="#P" n="34"/>pater si moriatur: vel extrinsece tantum per
+          <lb ed="#P" n="35"/>mutationem alterius, quomodo pater desinit
+          <lb ed="#P" n="36"/>esse pater per mortem filii, quae desitio in 
+          pa<lb break="no" ed="#P" n="37"/>tre non est mutatio, sed per modum 
+          mutatio<lb break="no" ed="#P" n="38"/>nis a nobis concipitur, vel significatur. In lege
+          <lb ed="#P" n="39"/>ergo positiva contingit mutatio priori modo,
+          <lb ed="#P" n="40"/>quia tolli potest: inlege autem naturali minime,
+          <lb ed="#P" n="41"/>sed solum secundo modo, per mutationem 
+          ma<lb break="no" ed="#P" n="42"/>teriae contingit, ut actio subtrahatur ab 
+          obh<lb break="no" ed="#P" n="43"/>gatione legis naturalis, non quia lex tollatur,
+          <lb ed="#P" n="44"/>vel minuatur : semper enim eo modo obligat
+          <lb ed="#P" n="45"/>et obligavit ; sed quia ipsa materia legis 
+          mu<lb break="no" ed="#P" n="46"/>tatur, ut statim patebit in exemplis adductis.
+          <lb ed="#P" n="47"/>Unde ulterius considerandum est legem 
+          natu<lb break="no" ed="#P" n="48"/>ralem, cum per se non sit scripta in tabulis vel
+          <lb ed="#P" n="49"/>membranis, sed in mentibus, non semper 
+          dic<lb break="no" ed="#P" n="50"/>tari in mente illis verbis generalibus, vel inde;
+          <lb ed="#P" n="51"/>finitis, quibus a nobis ore profertur vel 
+          scri<lb break="no" ed="#P" n="52"/>bitur; ut, verbi gratia, lex de reddendo 
+          depo<lb break="no" ed="#P" n="53"/>sito, quatenus naturalis, non ita simpliciter et
+          <lb ed="#P" n="54"/>absolute in mente judicatur, sed cum 
+          limita<lb break="no" ed="#P" n="55"/>Uone et circumspectione: dictat enim ratio
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>reddendum esse depositum jure et 
+          rationabi<lb break="no" ed="#P" n="57"/>liter petenti, vel nisi ratio cefensionis justae,
+          <lb ed="#P" n="58"/>vel reipublicae, vel propria, vel innocentis 
+          ob<lb break="no" ed="#P" n="59"/>stet. Communiter autem solet illa lex illis 
+          tan<lb break="no" ed="#P" n="60"/>tum verbis proferri: Neddendum est depositum,
+          <lb ed="#P" n="61"/>quia caetera subintelliguntur, nec m forma
+          <lb ed="#P" n="62"/>legis humano modo positae omnia declarari
+          <lb ed="#P" n="63"/>possunt.
+        </p>
+        <p xml:id="szdleg-a33762-d1e655">
+          <lb ed="#P" n="64"/>T. Explicantur D. Thomas et Aristoteles 
+          mu<lb break="no" ed="#P" n="65"/>tationem admittentes in praeeceptis naturae. —
+          <lb ed="#P" n="66"/>Quando ergo divus Thomas cum Aristotele ait
+          <lb ed="#P" n="67"/>aliqua praecepta legis naturalis mutari vel 
+          de<lb break="no" ed="#P" n="68"/>ficere, aut exceptionem pati in paucioribus,
+          <lb ed="#P" n="69"/>seu in casu, loquitur de mutatione impropria
+          <lb ed="#P" n="70"/>per solam denominationem extrinsecam 
+          ra<lb break="no" ed="#P" n="71"/>tione mutationis quae in materia fit, ut ex 
+          eo<lb break="no" ed="#P" n="72"/>dem sumitur dicta quaestione centesima, 
+          arti<lb break="no" ed="#P" n="73"/>culo octavo, et quoad hoc differentiam 
+          consti<lb break="no" ed="#P" n="74"/>tuit inter quaedam praecepta naturalia respectu
+          <lb ed="#P" n="75"/>aliorum, vel respectu principiorum 
+          universa<lb break="no" ed="#P" n="76"/>liorum. Nam quaedam versantur in materia,
+          <lb ed="#P" n="77"/>quae non recipit mutationem vel limitationem,
+          <lb ed="#P" n="78"/>ut est, vel generale principium, Non sunt 
+          fa<lb break="no" ed="#P" n="79"/>cienda mala, vel interdum particulare 
+          praece<lb break="no" ed="#P" n="80"/>ptum, ut, non est mentiendwn - alia vero sunt
+          <lb ed="#P" n="81"/>quae ex parte materiae mutationes recipere
+          <lb ed="#P" n="82"/>possunt, et ideo limitationem, vel quasi 
+          ex<lb break="no" ed="#P" n="83"/>ceptionem admittunt : unde saepe loquimur de
+          <lb ed="#P" n="84"/>his praeceptis ac si essent proposita per 
+          abso<lb break="no" ed="#P" n="85"/>luta verba, sub quibus patiuntur exceptionem,
+          <lb ed="#P" n="86"/>quia non satis declarant ipsum praeceptum
+          <lb ed="#P" n="87"/>naturale prout in se est. Sic enim praeceptum
+          <lb ed="#P" n="88"/>in se spectatum nullam excepticnem patitur,
+          <lb ed="#P" n="89"/>quia ratio ipsa naturalis dictat hoc debere fieri
+          <lb ed="#P" n="90"/>tali vel tali modo, et non aliter, vel 
+          concur<lb break="no" ed="#P" n="91"/>rentibus talibus circumstantis, et non absque
+          <lb ed="#P" n="92"/>illis. Imo, interdum mutatis circumstantiis,
+          <lb ed="#P" n="93"/>non solum non obligat naturale praeceptum
+          <lb ed="#P" n="94"/>ad faciendum aliquid, verbi gratia, ad 
+          red<lb break="no" ed="#P" n="95"/>dendum depositum, sed etiam obligat ad non
+          <lb ed="#P" n="96"/>faciendum.
+        </p>
+        <p xml:id="szdleg-a33762-d1e729">
+          <lb ed="#P" n="97"/>8. Et ita facile declaratur exemplum de 
+          de<lb break="no" ed="#P" n="98"/>posito : nam licet in hoc casu reddendum non
+          <lb ed="#P" n="99"/>sit, non propterea naturale praeceptum 
+          muta<lb break="no" ed="#P" n="100"/>tur: nam a principio non fuit positum pro illo
+          <lb ed="#P" n="101"/>casu, sed pro aliis quos recta ratio dictat; sicut
+          <lb ed="#P" n="102"/>qui non implet promissionem, quiares 
+          notabili<lb break="no" ed="#P" n="103"/>ter mutatae sunt, non mutatur ipse, nec lex 
+          fide<lb break="no" ed="#P" n="104"/>litatis servandae mutatur, sed mutata est 
+          ma<lb break="no" ed="#P" n="105"/>teria : tamen a principio illa mutatio fuit 
+          vir<lb break="no" ed="#P" n="106"/>tute excepta per conditionem in ipsa 
+          promis<lb break="no" ed="#P" n="107"/>sione subintellectam, et ita non est vera, vel
+          <lb ed="#P" n="108"/>intrinseca mutatio, sed apparens, et per 
+          ex<lb break="no" ed="#P" n="109"/>trinsecam denominationem. Idem ergo est de
+          <lb ed="#P" n="110"/>deposito, etiamsi deposito adjungatur promis-
+          <pb ed="#P" n="135"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sio reddendi illud, ut est apud Augustinum,
+          <lb ed="#P" n="2"/>Psalmo 5, et habetur in capite Ne quis, 22
+          <lb ed="#P" n="3"/>quaestione 2. Idemque cum proportione est de
+          <lb ed="#P" n="4"/>praecepto naturali servandi secretum : nam
+          <lb ed="#P" n="5"/>secretum est quasi depositum quod 
+          custodien<lb break="no" ed="#P" n="6"/>dum datur, et accipitur sub promissione 
+          ser<lb break="no" ed="#P" n="7"/>vandi sine damno et injuria tertii : nam haec
+          <lb ed="#P" n="8"/>conditio necessario subintelligitur, ut 
+          promis<lb break="no" ed="#P" n="9"/>sio licita sit. Loquimur autem de naturali 
+          se<lb break="no" ed="#P" n="10"/>creto : nam sigillum confessionis altiorem
+          <lb ed="#P" n="11"/>habet obligationem. Denique idem est de
+          <lb ed="#P" n="12"/>quinto praecepto Decalogi, Non occides, quod,
+          <lb ed="#P" n="13"/>ut naturale est, includit plures conditiones,
+          <lb ed="#P" n="14"/>scilicet, non occides propria auctoritate et 
+          ag<lb break="no" ed="#P" n="15"/>grediendo, de quibus in sua materia dicendum
+          <lb ed="#P" n="16"/>est, et capite decimo-quinto aliqua 
+          attinge<lb break="no" ed="#P" n="17"/>mus. De ultimo vero exemplo, quod obscurius
+          <lb ed="#P" n="18"/>est, dicam capite sequenti.
+        </p>
+        <p xml:id="szdleg-a33762-d1e806">
+          <lb ed="#P" n="19"/>9. Ad rationem respondeo admittendo 
+          simi<lb break="no" ed="#P" n="20"/>litudinem ex conclusionibus physicis sumptam
+          <lb ed="#P" n="21"/>cum proportione. Nam propositiones physicae,
+          <lb ed="#P" n="22"/>licet dicantur interdum deficere, tamen ut
+          <lb ed="#P" n="23"/>conclusiones scientificae sunt non deficiunt,
+          <lb ed="#P" n="24"/>quia ut sic non absolute inferuntur, sed cum
+          <lb ed="#P" n="25"/>limitatione, utique a talibus causis per se hoc
+          <lb ed="#P" n="26"/>provenire, nisi impediantur ; et sic etiam in
+          <lb ed="#P" n="27"/>praesenti naturale praeceptum (ut dixi) non
+          <lb ed="#P" n="28"/>absolute praecipit in tali materia, verbi gratia,
+          <lb ed="#P" n="29"/>reddendum est depositum, sed subintellectis
+          <lb ed="#P" n="30"/>debitis circumstantiis, ut satis explicatum est:
+          <lb ed="#P" n="31"/>solum enim hoc modo inferuntur tales 
+          conclu<lb break="no" ed="#P" n="32"/>siones necessario ex principiis naturalibus, et
+          <lb ed="#P" n="33"/>non aliter sunt naturalia praecepta, nisi ut ex
+          <lb ed="#P" n="34"/>illis principiis necessario colliguntur. Et ideo
+          <lb ed="#P" n="35"/>etiam non obstat quod materia sit mutabilis:
+          <lb ed="#P" n="36"/>nam lex naturalis discernit mutabilitatem in
+          <lb ed="#P" n="37"/>ipsa materia, et juxta illam accommodat 
+          prae<lb break="no" ed="#P" n="38"/>cepta: nam aliquid praecipit in illa materia
+          <lb ed="#P" n="39"/>pro uno statu, et aliud pro alio, et ita ipsa in
+          <lb ed="#P" n="40"/>se manet semper immutata, licet quoad 
+          nos<lb break="no" ed="#P" n="41"/>trum modum loquendi et per denominationem
+          <lb ed="#P" n="42"/>extrinsecam quasi mutari videatur.
+        </p>
+        <p xml:id="szdleg-a33762-d1e861">
+          <lb ed="#P" n="43"/>10. An lea naturae possit deleri a mentibus
+          <lb ed="#P" n="44"/>hominum, ac proinde ita mutationem subire.—
+          <lb ed="#P" n="45"/>Responsio. — Alia difficultas hic occurrebat,
+          <lb ed="#P" n="46"/>quia videtur lex naturae posse de mentibus
+          <lb ed="#P" n="47"/>hominum deleri, ac subinde esse mutabilis
+          <lb ed="#P" n="48"/>quasi per separationem a subjecto, sicut 
+          scien<lb break="no" ed="#P" n="49"/>tia, quae ex parte objecti immutabilis veritatis
+          <lb ed="#P" n="50"/>est, in subjecto corrumpi potest per errorem.
+          <lb ed="#P" n="51"/>Sed haec difficultas quantum ad rem attinet
+          <lb ed="#P" n="52"/>sufficienter tacta est supra capite octavo, ubi
+          <lb ed="#P" n="53"/>diximus de ignorantia quae in hanc legem
+          <lb ed="#P" n="54"/>cadere potest. Dicimus ergo breviter legem
+          <lb ed="#P" n="55"/>hanc non posse omnino deleri de mentibus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>hominum : quoad aliqua vero praecepta posse
+          <lb ed="#P" n="57"/>ignorari, et fortasse non ab omnibus 
+          homini<lb break="no" ed="#P" n="58"/>bus. Nam licet quaedam gentes errent circa
+          <lb ed="#P" n="59"/>unum praeceptum, aliae circa aliud; nullum
+          <lb ed="#P" n="60"/>tamen esse videtur, quod non aliquibus saltem
+          <lb ed="#P" n="61"/>hominibus per lumen naturale manifestetur,
+          <lb ed="#P" n="62"/>et hoc satis est ut simpliciter dici possit nullum
+          <lb ed="#P" n="63"/>praeceptum naturale totaliter deleri, etiam per
+          <lb ed="#P" n="64"/>ignorantiam. Addo vero per errorem vel 
+          igno<lb break="no" ed="#P" n="65"/>rantiam non mutari legem in se, sed occultari,
+          <lb ed="#P" n="66"/>seu nesciri, quod longe diversum est. Nam,
+          <lb ed="#P" n="67"/>licet omnia praecepta legis naturalis sint 
+          im<lb break="no" ed="#P" n="68"/>mutabilia, non tamen omnia sunt aeque nota,
+          <lb ed="#P" n="69"/>et ideo inconveniens non est ut aliqua ignorari
+          <lb ed="#P" n="70"/>possint. Alia difficultas hic occurrit de epiikia,
+          <lb ed="#P" n="71"/>quae gravior est, et propriam disputationem
+          <lb ed="#P" n="72"/>requirit, quam infra capite decimo-sexto 
+          tra<lb break="no" ed="#P" n="73"/>demus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
