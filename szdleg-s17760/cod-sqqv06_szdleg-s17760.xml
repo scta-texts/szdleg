@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 9</title>
+            <author ref="#FranciscoSuarez">Francisco Suarez</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 9</title>
+               <date when="2026-01-29">January 29, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2026-01-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="468"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="szdleg-s17760"><!-- l9c9 -->
+            <head xml:id="szdleg-s17760-Hd1e101">Caput 9</head>
+            <head xml:id="szdleg-s17760-Hd1e103" type="question-title">An lex vetus fuerit mutabilis, et quomodo cessare potuerit.</head>
+            <p xml:id="szdleg-s17760-d1e106">
+               <lb ed="#P" n="69"/>CAPUT IX.
+<lb ed="#P" n="70"/>AN LEX VETUS FUERIT MUTABILIS, ET QUOMODO
+<lb ed="#P" n="71"/>CESSARE POTUERIT.
+</p>
+            <p xml:id="szdleg-s17760-d1e115">
+               <lb ed="#P" n="72"/>1. Mutatio legis veteris. — Dubium. — 
+Ex<lb break="no" ed="#P" n="73"/>plicata tota ratione veteris legis, causis, 
+effec<lb break="no" ed="#P" n="74"/>tibus ac proprietatibus ejus, superest de illius
+<lb ed="#P" n="75"/>abrogatione dicendum, quod hujus libri 
+punc<lb break="no" ed="#P" n="76"/>tum praecipuum est. Prius vero quam ad illud
+<lb ed="#P" n="77"/>accedamus, operae pretium erit exponere an
+<lb ed="#P" n="78"/>modi alii mutationum, quos in lege positiva
+<lb ed="#P" n="79"/>humana explicuimus, in lege illa locum 
+ha<lb break="no" ed="#P" n="80"/>buerint, et, in universum, quomodo lex illa
+<lb ed="#P" n="81"/>mutablilis vel immutabilis fuerit. Ratio autem
+<lb ed="#P" n="82"/>dubitandi esse potest, quia lex illa nihil aliud
+<lb ed="#P" n="83"/>est quam divina voluntas; sed voluntas Dei
+<lb ed="#P" n="84"/>est immutabilis ; ergo et illa lex. 
+Consequen<lb break="no" ed="#P" n="85"/>tia videtur clara. Major autem patet, quia lex
+<lb ed="#P" n="86"/>illa propriissime divina fuit, ut ostendimus;
+<lb ed="#P" n="87"/>lex autem divina in Deo nihil aliud est quam
+<lb ed="#P" n="88"/>voluntas ejus, ut ex dictis in l. 1 constare 
+po<lb break="no" ed="#P" n="89"/>test; ergo. Unde haec ratio de omni lege 
+di<lb break="no" ed="#P" n="90"/>vina, quatenus talis est, aeque procedit; quia
+<lb ed="#P" n="91"/>omnis divina lex immediate a divina voluntate
+<lb ed="#P" n="92"/>pendet, non effective tantum, sed quasi 
+for<lb break="no" ed="#P" n="93"/>maliter, quia ab illa immediate accipit vim
+<lb ed="#P" n="94"/>obligandi, per quam in esse legis constituitur;
+<lb ed="#P" n="95"/>ergo necessarium videtur, ut sit aeque 
+immu<lb break="no" ed="#P" n="96"/>tabilis ac ipsa voluntas Dei.
+</p>
+            <p xml:id="szdleg-s17760-d1e172">
+               <lb ed="#P" n="97"/>2. Lex vetus a solo Deo mutabilis. — In
+<lb ed="#P" n="98"/>hoc puncto breviter dicendum est, primo,
+<lb ed="#P" n="99"/>legem veterem nullo modo mutari potuisse
+<lb ed="#P" n="100"/>ab alio quam a Deo, vel juxta decretum 
+ip<lb break="no" ed="#P" n="101"/>sius Dei. Probatur ratione facta, quia fuit
+<lb ed="#P" n="102"/>proprie lex divina, et omnis lex proprie 
+di<lb break="no" ed="#P" n="103"/>vina hoc modo immutabilis est, utique ab alio
+<lb ed="#P" n="104"/>quam a Deo, ut recte docet Bern. in l. de
+<lb ed="#P" n="105"/>Praecept. et disp., c. 5, satisque colligi potest
+<lb ed="#P" n="106"/>ex his qua, supra, de legis naturalis 
+indis<lb break="no" ed="#P" n="107"/>pensabilitate seu immutabilitate diximus, et
+<pb ed="#P" n="469"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tradit Lactant., lib. 6 Institution., cap. 8;
+<lb ed="#P" n="2"/>item ex his quae diximus de lege humana a
+<lb ed="#P" n="3"/>superiori lata, quaienus ab inferiori mutari
+<lb ed="#P" n="4"/>auít dispensari non potest. Ratio enim eadem
+<lb ed="#P" n="5"/>est, quia voluntas Dei suprema est, et omnis
+<lb ed="#P" n="6"/>alia est inferior et subdita ; ergo lex per 
+divi<lb break="no" ed="#P" n="7"/>nam voluntatem constituta, etiamsi positiva
+<lb ed="#P" n="8"/>sit, per nullam aliam voluntatem mutari 
+po<lb break="no" ed="#P" n="9"/>test ; ergo est immutabilis ab alio quam a Deo.
+</p>
+            <p xml:id="szdleg-s17760-d1e223">
+               <lb ed="#P" n="10"/>3. Abrogatio legis ad solum Deum 
+specta<lb break="no" ed="#P" n="11"/>bat.—Atque hinc sequitur, primo, legem 
+ve<lb break="no" ed="#P" n="12"/>terem a nullo alio quam a Deo, seu, quod
+<lb ed="#P" n="13"/>idem est, non nisi juxta praescriptum divinae
+<lb ed="#P" n="14"/>voluntatis potuisse abrogari, sive in totum,
+<lb ed="#P" n="15"/>sive in parte. Probatur facile, quia legis 
+abro<lb break="no" ed="#P" n="16"/>gatio quaedam ejus mutatio est; sed non 
+po<lb break="no" ed="#P" n="17"/>tuit illa lex ab alio quam a Deo mutari; ergo
+<lb ed="#P" n="18"/>nec abrogari. Unde in hoc etiam eadem ratio
+<lb ed="#P" n="19"/>est de qualibet parte legis quae de tota lege,
+<lb ed="#P" n="20"/>quia non minus pendet quaelibet pars talis
+<lb ed="#P" n="21"/>legis a divina voluntate, quam tota; sicut ergo
+<lb ed="#P" n="22"/>non potuit tota lex, nisi a Deo abrogari, ita
+<lb ed="#P" n="23"/>nec pars ejus.
+</p>
+            <p xml:id="szdleg-s17760-d1e256">
+               <lb ed="#P" n="24"/>4. Solus Deus dispensare potuit. — Atque
+<lb ed="#P" n="25"/>hinc ulterius sequitur non potuisse quempiam
+<lb ed="#P" n="26"/>praeter Deum ipsum in lege illa dispensare.
+<lb ed="#P" n="27"/>Ratio est eadem, quia dispensatio legis 
+quae<lb break="no" ed="#P" n="28"/>dam ejus partialis mutatio est. ftem quia par
+<lb ed="#P" n="29"/>in parem non habet potestatem, nedum 
+infe<lb break="no" ed="#P" n="30"/>rior. Atque hanc veritatem specialiter ac fuse
+<lb ed="#P" n="31"/>tradidit Salmer., tract. 61, in Acta, ubi illam
+<lb ed="#P" n="32"/>confirmat verbis Christi : Non veni solvere
+<lb ed="#P" n="33"/>legem, sed adimplere. Amen quippe dico vobis,
+<lb ed="#P" n="34"/>donec transeat colum et terra, iota umun aut
+<lb ed="#P" n="35"/>wnus aper non prateribit a lege, donec omnia
+<lb ed="#P" n="36"/>fiant, Matth. 5, et aliis Scripturae testimoniis,
+<lb ed="#P" n="37"/>quibus divina veritas et verbum Dei in 
+aeter<lb break="no" ed="#P" n="38"/>num manere dicitur, Psalm. 116. Quae 
+testi<lb break="no" ed="#P" n="39"/>monia potissime loquuntur de verbo Dei 
+ali<lb break="no" ed="#P" n="40"/>quid affirmantis, vel praedicentis; sic enim
+<lb ed="#P" n="41"/>nihil impedire potest quominus veritas ejus
+<lb ed="#P" n="42"/>subsistat, et impleatur. In quo sensu nec Deus
+<lb ed="#P" n="43"/>ipse facere potest ut verbum suum, in eo 
+sen<lb break="no" ed="#P" n="44"/>su in quo dictum est, deficiat, seu non veniat,
+<lb ed="#P" n="45"/>seu verum non sit. Nihilominus cum 
+propor<lb break="no" ed="#P" n="46"/>tione etiam probant illa testimonia de verbo
+<lb ed="#P" n="47"/>Dei praecipientis et obligantis; nemo enim
+<lb ed="#P" n="48"/>facere potest, ut verbum praeceptivum Dei non
+<lb ed="#P" n="49"/>obliget pro eo tempore et modo quo a Deo
+<lb ed="#P" n="50"/>prolatum est, alioqui tale verbum fieret suo
+<lb ed="#P" n="51"/>modo falsum et inefficax. Deinde adducit cap.
+<lb ed="#P" n="52"/>Super eo, de Usur., ubi Innoc. III supponit 
+in<lb break="no" ed="#P" n="53"/>dispensabile esse quod pagina utriusque 
+Tes<lb break="no" ed="#P" n="54"/>tamenti prohibitum est; ubi licet Pontifex 
+lo<lb break="no" ed="#P" n="55"/>quatur de usura, quae non est mala quia pro-
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>hibita, sed prohibita quia mala, nihilominus
+<lb ed="#P" n="57"/>si consideretur tantum vis divinae 
+prohibitio<lb break="no" ed="#P" n="58"/>nis, eamdem efficaciam habet in 
+quacum<lb break="no" ed="#P" n="59"/>que materia , quia nullus potest facere licitum
+<lb ed="#P" n="60"/>id quod Deus sua absoluta prohibitione facit
+<lb ed="#P" n="61"/>illicitum : unde etiam in hoc aequiparantur
+<lb ed="#P" n="62"/>pagina utriusque Testamenti; infra autem
+<lb ed="#P" n="63"/>ostendemus legem novam indispensabilem
+<lb ed="#P" n="64"/>esse, nisi a Deo; ergo idem dicendum est de
+<lb ed="#P" n="65"/>lege veteri.
+</p>
+            <p xml:id="szdleg-s17760-d1e352">
+               <lb ed="#P" n="66"/>5. Objectio.— Responsio. — Notandum 
+wlti<lb break="no" ed="#P" n="67"/>mo.—bices: Deus ipse potuit homini 
+conce<lb break="no" ed="#P" n="68"/>dere facultatem dispensandi in lege sua. 
+hRes<lb break="no" ed="#P" n="69"/>pondeo potuisse quidem, non tamen dedisse
+<lb ed="#P" n="70"/>in veteri Testamento, quia nullibi legitur talis
+<lb ed="#P" n="71"/>potestas data Pontificibus vel aliis in illa lege,
+<lb ed="#P" n="72"/>imo saepe absolute prohibentur aliquid addere
+<lb ed="#P" n="73"/>vel mutare de illa lege. Unde nec usus talis
+<lb ed="#P" n="74"/>potestatis in illa lege cernitur, vel alicubi
+<lb ed="#P" n="75"/>legitur, quia nec necessarius fuit, nec fuisset
+<lb ed="#P" n="76"/>conveniens, quia esset magis in destructionem
+<lb ed="#P" n="77"/>quam in aedificationem. Si tamen Deus alicui
+<lb ed="#P" n="78"/>homini talem potestatem dedisset, jam illa
+<lb ed="#P" n="79"/>dispensatio magis esset a Deo quam ab 
+homi<lb break="no" ed="#P" n="80"/>ne, quia Dei voluntate et concessione fieret,
+<lb ed="#P" n="81"/>nec voluntas Dei obligandi per talem legem,
+<lb ed="#P" n="82"/>fuisset omnino absoluta, sed haberet 
+subin<lb break="no" ed="#P" n="83"/>tellectam conditionem vel determinationem,
+<lb ed="#P" n="84"/>si ialis homo in ea non dispensaret; et ita
+<lb ed="#P" n="85"/>dispensatio non esset contra, vel praeter 
+de<lb break="no" ed="#P" n="86"/>cretum divinae voluntatis. Ultimo tamen, in
+<lb ed="#P" n="87"/>hoc puncto, adverto non consequenter loqui,
+<lb ed="#P" n="88"/>qui dicunt legem illam, quoad caeremonialia
+<lb ed="#P" n="89"/>et judicialia, non fuisse proprie divinam, et
+<lb ed="#P" n="90"/>nihilominus affirmant indispensabilem fuisse
+<lb ed="#P" n="91"/>per hominem; quia prior assertio destruit
+<lb ed="#P" n="92"/>fundamentum posterioris, ut ex dictis constat:
+<lb ed="#P" n="93"/>nos autem supponimns totam illam legem
+<lb ed="#P" n="94"/>fuisse propriissime divinam, et ideo fere 
+ea<lb break="no" ed="#P" n="95"/>dem certitudine concludimus, fuisse per 
+ho<lb break="no" ed="#P" n="96"/>minem indispensabilem ; loquor autem de
+<lb ed="#P" n="97"/>puro homine, nam Christus Dominus 
+potes<lb break="no" ed="#P" n="98"/>tatem habuit in illa dispensandi, eo quod sit
+<lb ed="#P" n="99"/>Deus, ut ipse significavit Matthaei 12, dicens:
+<lb ed="#P" n="100"/>Dominus est filius hominis etiam Sabbati.
+<lb ed="#P" n="101"/>Quamvis nunquam videatur usus illa 
+potes<lb break="no" ed="#P" n="102"/>tate, sed justa interpretatione, ut ex 
+sequen<lb break="no" ed="#P" n="103"/>tibus patebit, quia non venit solvere legem,
+<lb ed="#P" n="104"/>sed adimplere. :
+</p>
+            <p xml:id="szdleg-s17760-d1e439">
+               <lb ed="#P" n="105"/>6. Lex illa ab homine interpretari potuit.
+<lb ed="#P" n="106"/>— Ratio conclusionis. — Nihilominus tamen
+<lb ed="#P" n="107"/>addendum est potuisse legem illam recipere
+<lb ed="#P" n="108"/>interpretationem per hominem. In quo 
+om<lb break="no" ed="#P" n="109"/>nes convenire videntur, et patet primo ex
+<lb ed="#P" n="110"/>usu, 4 Regum, capite 21, ubi, per occurren-
+<pb ed="#P" n="470"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tem necessitatem, Achimelec dedit Davidi
+<lb ed="#P" n="2"/>panes propositionis, quibus vesci secundum
+<lb ed="#P" n="3"/>legem ei non licebat, quod tamen per 
+inter<lb break="no" ed="#P" n="4"/>pretationem legis licuisse Christus, Matth. 12,
+<lb ed="#P" n="5"/>aperte docet. Et eodem modo excusat 
+disci<lb break="no" ed="#P" n="6"/>pulos quos Pharisaei calumniabantur, eo quod
+<lb ed="#P" n="7"/>in sabbato spicas vellerent, fricarent et 
+come<lb break="no" ed="#P" n="8"/>derent, ut Jate exponit Abulens., libr. 1 Reg.,
+<lb ed="#P" n="9"/>quaestion. 8, 13 et 18. Quibus in locis hac
+<lb ed="#P" n="10"/>ratione legem illam veteris Testamenti 
+dis<lb break="no" ed="#P" n="11"/>pensabilem appellat ; loquitur tamen 
+impro<lb break="no" ed="#P" n="12"/>prie de dispensatione , prout de 
+interpreta<lb break="no" ed="#P" n="13"/>tione, et epiikia interdum dici solet, ut in
+<lb ed="#P" n="14"/>lib. 6 dictum est. Hac etiam interpretatione
+<lb ed="#P" n="15"/>usi sunt Machabaei ad bellandum in die 
+sab<lb break="no" ed="#P" n="16"/>bati, 1 Machabaeor. 2. Sic etiam Christus 
+Do<lb break="no" ed="#P" n="17"/>minus, Matth. 12, dicit se non violare legem
+<lb ed="#P" n="18"/>sabbati, opus misericordiae aut pietatis vel
+<lb ed="#P" n="19"/>religionis in illo exercendo, etiamsi 
+laborio<lb break="no" ed="#P" n="20"/>sum sit; sicut licebat Judaeo extrahere de 
+fo<lb break="no" ed="#P" n="21"/>vea in die sabbati ovem in illam cadentem;
+<lb ed="#P" n="22"/>unde ipse concludit licuisse sibi sanitatem
+<lb ed="#P" n="23"/>conferre in sabbato. Atque eodem modo,
+<lb ed="#P" n="24"/>Joannis cap. 5, ostendit licuisse homini, 
+sa<lb break="no" ed="#P" n="25"/>nato ab ipso, portare grabatum suum in 
+sab<lb break="no" ed="#P" n="26"/>bato, ex praecepto ejus, quia ad opus pietatis
+<lb ed="#P" n="27"/>et ostensionem miraculi id pertinebat. Ratio
+<lb ed="#P" n="28"/>autem est, quia interpretatio legis, praesertim
+<lb ed="#P" n="29"/>positivae, etiamsi divina sit, est necessaria ad
+<lb ed="#P" n="30"/>gubernationem humanam, propter varietatem
+<lb ed="#P" n="31"/>occasionum et necessitatum saepe 
+occurren<lb break="no" ed="#P" n="32"/>tium, in quibus contingit vel duo praecepta
+<lb ed="#P" n="33"/>sibi obviantia occurrere, ac propterea 
+neces<lb break="no" ed="#P" n="34"/>sarium esse exponere, alterum non obligare;
+<lb ed="#P" n="35"/>vel etiam contingit talem esse rerum 
+muta<lb break="no" ed="#P" n="36"/>tionem, ut prudenter praesumatur non fuisse
+<lb ed="#P" n="37"/>voluntatem legislatoris in tali casu obligare,
+<lb ed="#P" n="38"/>quae necessitas etiam potuit in usu illius legis
+<lb ed="#P" n="39"/>saepe occurrere.
+</p>
+            <p xml:id="szdleg-s17760-d1e543">
+               <lb ed="#P" n="40"/>7. Dubium. — Responsio. — Triples modus
+<lb ed="#P" n="41"/>interpretandi illam legem.—Cuod si 
+interroge<lb break="no" ed="#P" n="42"/>tur quomodo vel qua potestate licebat tunc
+<lb ed="#P" n="43"/>talem facere interpretationem circa 
+volunta<lb break="no" ed="#P" n="44"/>tem Dei, non enim videtur cuilibet licere 
+vo<lb break="no" ed="#P" n="45"/>luntatem superioris interpretari, sed 
+simpli<lb break="no" ed="#P" n="46"/>citer obedire: respondeo tribus modis hoc 
+li<lb break="no" ed="#P" n="47"/>cuisse, qui tum ratione, tum ex eadem lege
+<lb ed="#P" n="48"/>colliguntur. Unus est per potestatem a Deo
+<lb ed="#P" n="49"/>ipso datam, quae maxime pro casibus dubiis
+<lb ed="#P" n="50"/>necessaria erat; sicque dicitur Deuteron. 18:
+<lb ed="#P" n="51"/>Si quid difficile aut ambiguwn, etc. 
+Secun<lb break="no" ed="#P" n="52"/>do, ex concursu duarum legum, unam per
+<lb ed="#P" n="53"/>aliam interpretando ; sic Christus, Matth. 5,
+<lb ed="#P" n="54"/>exponit licuisse Judaeis circumcidere homines
+<lb ed="#P" n="55"/>in sabbato, ut non solveretur lex praecipiens
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>circumcidi infantem octavo die, Levitic. 12;
+<lb ed="#P" n="57"/>et codem modo ait Matth. 19: Non legistis,
+<lb ed="#P" n="58"/>quia sabbatis sacerdotes in templo sabbatum
+<lb ed="#P" n="59"/>violant, et sine crimine sunt. Violant (ait) in
+<lb ed="#P" n="60"/>exteriori specie, seu materiali opere, et 
+ta<lb break="no" ed="#P" n="61"/>men sine crimine sunt, quia illud opus erat
+<lb ed="#P" n="62"/>consentaneum alteri legi, Levit. 24. Ac 
+su<lb break="no" ed="#P" n="63"/>binde non erat opus servile, sed religionis,
+<lb ed="#P" n="64"/>ut bene exposuit Abulens., 1 heg. 21, q. 17.
+<lb ed="#P" n="65"/>Sic etiam circa tempus praescriptum ad 
+fa<lb break="no" ed="#P" n="66"/>ciendum Phase, Exod. 12, interpretatio facta
+<lb ed="#P" n="67"/>est per legem latam Num. 12. Neque ante
+<lb ed="#P" n="68"/>hanc posteriorem legem ausi sunt Moyses et
+<lb ed="#P" n="69"/>Aaron talem interpretationem facere 
+incon<lb break="no" ed="#P" n="70"/>sulto Domino, quia nondum videbatur illis
+<lb ed="#P" n="71"/>talis potestas commissa, nec ratio aut 
+neces<lb break="no" ed="#P" n="72"/>sitas per se cogebat. Tertio ergo modo 
+lice<lb break="no" ed="#P" n="73"/>bat haec interpretatio per evidentiam facti et
+<lb ed="#P" n="74"/>necessitatis, ut est per se manifestum in casu
+<lb ed="#P" n="75"/>Machabaeorum. Non oportebat autem semper
+<lb ed="#P" n="76"/>necessitatem fuisse extremam, ut videtur
+<lb ed="#P" n="77"/>fuisse in illo casu; sed sufficiebat esse 
+mora<lb break="no" ed="#P" n="78"/>lem et accommodatam praecepto, ut in casu
+<lb ed="#P" n="79"/>David late disputat Abulens. supra.
+</p>
+            <p xml:id="szdleg-s17760-d1e634">
+               <lb ed="#P" n="80"/>8. Lex vetus a Deo ipso mutabilis.—Nota
+<lb ed="#P" n="81"/>Dewn celle legem aliquam ferre, variis modis
+<lb ed="#P" n="82"/>intelli gi. — Dico secundo : lex vetus 
+muta<lb break="no" ed="#P" n="83"/>bilis fuit a Deo ipso. Haec assertio satis nota
+<lb ed="#P" n="84"/>est. Probari enim potest ex generalibus 
+prin<lb break="no" ed="#P" n="85"/>cipiis, quod quilibet legislator potest legem
+<lb ed="#P" n="86"/>suam muc:are, cum ab ejus voluntate pendeat.
+<lb ed="#P" n="87"/>Item ex illa Christi sententia, quia Dominus
+<lb ed="#P" n="88"/>est filius hominis etiam sabbati; sic enim
+<lb ed="#P" n="89"/>Deus est Dominus supremus totius legis, et
+<lb ed="#P" n="90"/>omnium actionum quae per eam 
+praecipiun<lb break="no" ed="#P" n="91"/>tur aut vetantur : ergo potest prout voluerit
+<lb ed="#P" n="92"/>illam mutare. Denique abrogare illam potuit,
+<lb ed="#P" n="93"/>ut de facto abrogasse statim dicemus : ergo,
+<lb ed="#P" n="94"/>a fortiori, in illa dispensare, et quamlibet
+<lb ed="#P" n="95"/>aliam mutationem facere potuit : nam omnis
+<lb ed="#P" n="96"/>illa minor est quam abrogatio. Ut autem 
+mo<lb break="no" ed="#P" n="97"/>dum possibilem abrogationis explicemus, 
+ad<lb break="no" ed="#P" n="98"/>vertere oportet variis modis intelligi posse,
+<lb ed="#P" n="99"/>velle Deum legem aliquam ferre. Primo, 
+ab<lb break="no" ed="#P" n="100"/>soluto decreto voluntatis suae, statuendo ut
+<lb ed="#P" n="101"/>talis lex perpetuo duret absolute, et 
+simplici<lb break="no" ed="#P" n="102"/>ter, ac sine limitatione ulla, sicut statuit, ut
+<lb ed="#P" n="103"/>praemium ultimum bonorum operum et poena
+<lb ed="#P" n="104"/>malorum aeterna sint; et talis lex semel sic
+<lb ed="#P" n="105"/>lata mutari seu abrogari non potest, etiam ab
+<lb ed="#P" n="106"/>ipso Deo, in sensu (ut aiunt) composito, quia
+<lb ed="#P" n="107"/>implicat contradictionem Deum ita 
+decrevis<lb break="no" ed="#P" n="108"/>se, et decretum non impleri aut impediri,
+<lb ed="#P" n="109"/>alioqui voluntas absoluta Dei aut mutabilis
+<lb ed="#P" n="110"/>esset aut inefficax.
+</p>
+            <p xml:id="szdleg-s17760-d1e705">
+               <pb ed="#P" n="471"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>9. Secundo, potuit Deus legem ferre pro
+<lb ed="#P" n="2"/>tali tempore, usque ad certum terminum seu
+<lb ed="#P" n="3"/>eventum. Vel, tertio, potuit velle 
+obligatio<lb break="no" ed="#P" n="4"/>nem talis legis durare sub tacita conditione,
+<lb ed="#P" n="5"/>nisi ipse aliud statueret, vel usque ad 
+benepla<lb break="no" ed="#P" n="6"/>citum suum. Et utroque modo potest lex 
+di<lb break="no" ed="#P" n="7"/>vina esse mutabilis, scilicet, quia, elapso 
+tem<lb break="no" ed="#P" n="8"/>pore pro quo lata est, seu adveniente termino
+<lb ed="#P" n="9"/>ejus, cessat sine alia revocatione, ut 
+contin<lb break="no" ed="#P" n="10"/>git in legibus humanis vel privilegiis. Et
+<lb ed="#P" n="11"/>ratio est clara, quia hac mutatio legis non
+<lb ed="#P" n="12"/>est per physicam et realem successionem in
+<lb ed="#P" n="13"/>ipsa lege, sed in tempore, pro quo obhgat,
+<lb ed="#P" n="14"/>unde est per modum desitionis relationis ad
+<lb ed="#P" n="15"/>desitionem termini. Nam lex est signum 
+vo<lb break="no" ed="#P" n="16"/>luntatis obligantis pro tali tempore; unde,
+<lb ed="#P" n="17"/>mutato tempore, jam non significat illam 
+vo<lb break="no" ed="#P" n="18"/>luntatem, et hoc modo abrogatur et desinit
+<lb ed="#P" n="19"/>obligare. Vel etiam potest lex auferri, quia
+<lb ed="#P" n="20"/>per contrariam legem seu voluntatem Dei 
+re<lb break="no" ed="#P" n="21"/>vocatur. Inter quos duos modos hoc differt,
+<lb ed="#P" n="22"/>quod in priori lex ipsa per se desinit, etiamsi,
+<lb ed="#P" n="23"/>nostro modo intelligendi, non sit in 
+volunta<lb break="no" ed="#P" n="24"/>te divina actus quo velit legem tollere ; sed
+<lb ed="#P" n="25"/>ex vi prioris actus lex cessat adveniente 
+ter<lb break="no" ed="#P" n="26"/>mino, quia divina voluntas ultra illum 
+obli<lb break="no" ed="#P" n="27"/>gare vel operari noluit, et sine actu divinae
+<lb ed="#P" n="28"/>voluntatis non est lex. In posteriori autem
+<lb ed="#P" n="29"/>modo intelligitur lex revocari per actum 
+vo<lb break="no" ed="#P" n="30"/>luntatis divinae ratione distinctum, quo Deus
+<lb ed="#P" n="31"/>vult vel legem tollere, vel aliam 
+repugnuan<lb break="no" ed="#P" n="32"/>tem introducere.
+</p>
+            <p xml:id="szdleg-s17760-d1e781">
+               <lb ed="#P" n="33"/>10. Respondetur ad rationem dubitandi. —
+<lb ed="#P" n="34"/>Unde tandem facillime satisfit rationi 
+dubi<lb break="no" ed="#P" n="35"/>tandi in principio positae, quae ex quadam
+<lb ed="#P" n="36"/>eequivocatione procedit ; lex enim vetus non
+<lb ed="#P" n="37"/>est lex ad intra (ut sic dicam) in Deo ipso
+<lb ed="#P" n="38"/>existens, sed est lex ad extra in lapidibus
+<lb ed="#P" n="39"/>aut membranis scripta. Unde non est 
+volun<lb break="no" ed="#P" n="40"/>tas Dei, sed signum quoddam externum 
+vo<lb break="no" ed="#P" n="41"/>luntatis Dei, et effectus ejus; et ideo licet 
+vo<lb break="no" ed="#P" n="42"/>lIuntas Dei sit immutabilis, lex dici potest esse
+<lb ed="#P" n="43"/>mutabilis , quia per temporum successionem
+<lb ed="#P" n="44"/>effectus divinae voluntatis mutari possunt,
+<lb ed="#P" n="45"/>non mutata divina voluntate, sicut potest
+<lb ed="#P" n="46"/>Deus Angelum in nihilum redigere, quae est
+<lb ed="#P" n="47"/>magna quaedam mutatio, late de mutatione
+<lb ed="#P" n="48"/>loquendo, prout nunc loquimur, licet divina
+<lb ed="#P" n="49"/>voluntas non mutetur. Et ratio est, quia 
+de<lb break="no" ed="#P" n="50"/>cretum Dei quo res fit aut conservatur, vel
+<lb ed="#P" n="51"/>lex fertur, potuit ex aeternitate ita constitui
+<lb ed="#P" n="52"/>pro tali tempore, et non ultra, vel negative
+<lb ed="#P" n="53"/>se habendo nostro modo intelligendi, vel 
+po<lb break="no" ed="#P" n="54"/>sitive volendo etiam ex aeternitate, ut pro
+<lb ed="#P" n="55"/>alio tempore res aliter se haberet, vel alia lex
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>constitueretur. Unde solum erit res seu lex
+<lb ed="#P" n="57"/>immutabilis ex vi divinae voluntatis, juxta
+<lb ed="#P" n="58"/>primum modum supra positum, quando Dei
+<lb ed="#P" n="59"/>voluntas positive vellet, et absolute, rem aut
+<lb ed="#P" n="60"/>legem pro tota aeternitate durare, quasi 
+po<lb break="no" ed="#P" n="61"/>sitivum habens decretum nunquam illam 
+de<lb break="no" ed="#P" n="62"/>struendi vel abrogandi. Solum ergo probat
+<lb ed="#P" n="63"/>ratio facta, legem divinam in sensu 
+compo<lb break="no" ed="#P" n="64"/>sito non posse abrogari pro illo eodem 
+tem<lb break="no" ed="#P" n="65"/>pore pro quo Deus voluit illam constituere :
+<lb ed="#P" n="66"/>nam hoc involvit contradictionem et 
+muta<lb break="no" ed="#P" n="67"/>tionem in ipsamet divina voluntate. Quod si
+<lb ed="#P" n="68"/>pro illo tempore dispensari potest ab ipso Deo,
+<lb ed="#P" n="69"/>ideo est quia decretum constituendi legem pro
+<lb ed="#P" n="70"/>aliquo tempore non includit decretum non
+<lb ed="#P" n="71"/>dispensandi in illa : nam si fingeremus cum
+<lb ed="#P" n="72"/>hac veluti reflexione esse positam, 
+consequen<lb break="no" ed="#P" n="73"/>ter esset talis lex pro eo tempore, et in sensu
+<lb ed="#P" n="74"/>composito, indispensabilis, et cum 
+proportio<lb break="no" ed="#P" n="75"/>ne potest fingi omnino immutabilis. Seclusa
+<lb ed="#P" n="76"/>autem tah suppositione et quasi reflexione,
+<lb ed="#P" n="77"/>ac simpliciter loquendo, lex etiam divina 
+mu<lb break="no" ed="#P" n="78"/>tabilis esse potest ac revocari.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 1</title>
+            <author ref="#FranciscoSuarez">Francisco Suarez</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 1</title>
+               <date when="2026-01-29">January 29, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2026-01-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="419"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="szdleg-s05337"><!-- l9c1 -->
+            <head xml:id="szdleg-s05337-Hd1e101">Caput 1</head>
+            <head xml:id="szdleg-s05337-Hd1e103" type="question-title">Utrum ante legem mnmoysi data fuerit hominibus aliqua lex positiva divina.</head>
+            <p xml:id="szdleg-s05337-d1e106">
+               <lb ed="#P" n="31"/>CAPUT I.
+<lb ed="#P" n="32"/>UTRUM ANTE LEGEM MNMOYSI DATA FUERIT 
+HOMI<lb break="no" ed="#P" n="33"/>NIBUS ALIQUA LEX POSITIVA DIVINA.
+</p>
+            <p xml:id="szdleg-s05337-d1e115">
+               <lb ed="#P" n="34"/>1. Ratio dubitandi. — Ratio dubitandi est
+<lb ed="#P" n="35"/>quia lex divina positiva non minus fuit 
+ne<lb break="no" ed="#P" n="36"/>cessaria vel utilis hominibus ante Moysis 
+tem<lb break="no" ed="#P" n="37"/>pora, quam post illa : sed Deus non tradit 
+ho<lb break="no" ed="#P" n="38"/>mini specialem legem ultra naturalem, nisi
+<lb ed="#P" n="39"/>propter illius necessitatem vel utilitatem; 
+er<lb break="no" ed="#P" n="40"/>go debuit dari talis lex, etiam ante Moysis
+<lb ed="#P" n="41"/>tempora. Et confirmatur: nam videmus Dcum
+<lb ed="#P" n="42"/>dedisse homini in statu innocentiae specialem
+<lb ed="#P" n="43"/>legem non comedendi de ligno scientiae boni
+<lb ed="#P" n="44"/>et mali, Genes. 2. Post peccatum autem 
+da<lb break="no" ed="#P" n="45"/>tum fuit hominibus praeceptum de usu 
+ali<lb break="no" ed="#P" n="46"/>cujus Sacramenti, quo possent non solum
+<lb ed="#P" n="47"/>adulti, sed etiam infantes a peccato 
+origi<lb break="no" ed="#P" n="48"/>nali purgari, ut videtur esse communis 
+theo<lb break="no" ed="#P" n="49"/>logorum doctrina. Deinde ante diluvium 
+le<lb break="no" ed="#P" n="50"/>gimus quaedam animalia reputata fuisse 
+mun<lb break="no" ed="#P" n="51"/>da, quadam vero immunda, Genes. 7; illa
+<lb ed="#P" n="52"/>autem diversitas non est ex lege naturae, ut
+<lb ed="#P" n="53"/>constat; erat ergo ex lege divina positiva. Et
+<lb ed="#P" n="54"/>inde sumi potest indicium fuisse tunc aliquas
+<lb ed="#P" n="55"/>leges sacrificiorum a Deo latas, quia munda
+<lb ed="#P" n="56"/>et immunda animalia non distinguebantur
+<lb ed="#P" n="57"/>nisi in ordine ad sacrificia; ergo fuerunt
+<lb ed="#P" n="58"/>ante diluvium plures leges divinae positivae.
+<lb ed="#P" n="59"/>Praeterea post diluvium legimus a Deo datum
+<lb ed="#P" n="60"/>praeceptum illud : Carnem cum sanguine non
+<lb ed="#P" n="61"/>comedetis, sanguinem enim animarum 
+vestra<lb break="no" ed="#P" n="62"/>rum requiram, etc., Genes. 9; hoc autem
+<lb ed="#P" n="63"/>praeceptum non est naturale, ut constat, unde
+<lb ed="#P" n="64"/>hodie non servatur. Denique lex 
+circumci<lb break="no" ed="#P" n="65"/>sionis multo ante Moysem data est ; nam ideo
+<lb ed="#P" n="66"/>dicitur Joan. 7 non fuisse ex Moyse, sed ex
+<lb ed="#P" n="67"/>Fatribus, quia nimirum data fuit Abrahae,
+<lb ed="#P" n="68"/>Genes. 17, ubi Deus dicit: Custodias pactum
+<lb ed="#P" n="69"/>meun, etc.; fuit ergo lex divina et positiva,
+<lb ed="#P" n="70"/>et prior lege Moysi. In contrarium vero est,
+<lb ed="#P" n="71"/>quia si datur aliqua lex Dei ante Moysem,
+<lb ed="#P" n="72"/>insufficiens est divisio legis divinae in duas
+<lb ed="#P" n="73"/>praedictas, et incompletus etiam erit 
+tracta<lb break="no" ed="#P" n="74"/>tus de legibus, de illis duabus tantum 
+disse<lb break="no" ed="#P" n="75"/>rendo.
+</p>
+            <p xml:id="szdleg-s05337-d1e209">
+               <lb ed="#P" n="76"/>2. Lex dupliciter. — Haec quaestio solum
+<lb ed="#P" n="77"/>proposita est ad complementum hujus 
+doc<lb break="no" ed="#P" n="78"/>trinae, et ut constet divisionem illam esse 
+sut<lb break="no" ed="#P" n="79"/>ficientem, nihilque aliud de divinis legibus
+<lb ed="#P" n="80"/>desideretur. Advertendum est ergo nomen
+<lb ed="#P" n="81"/>legis interdum sumi in vi nominis collectivi,
+<pb ed="#P" n="420"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>frequentius autem in vi termini communis.
+<lb ed="#P" n="2"/>Hoc ergo posteriori modo dicitur de singulis
+<lb ed="#P" n="3"/>particularibus legibus, prout illam fere tota
+<lb ed="#P" n="4"/>hac materia usurpavimus ; priori autem modo
+<lb ed="#P" n="5"/>significat multitudinem plurium legum, prout
+<lb ed="#P" n="6"/>ab uno legislatore traduntur in ordine ad 
+in<lb break="no" ed="#P" n="7"/>stituendam seu dirigendam aliquam 
+rempu<lb break="no" ed="#P" n="8"/>blicam, seu congregationem humanam 
+secun<lb break="no" ed="#P" n="9"/>dum aliquem peculiarem statum ; et hoc 
+mo<lb break="no" ed="#P" n="10"/>do accipitur saepe in Scriptura, ut Joan. 1:
+<lb ed="#P" n="11"/>Lex per Moysem data est, et soepissime apud
+<lb ed="#P" n="12"/>Paulum, praesertim in Epist. ad Rom. et ad
+<lb ed="#P" n="13"/>Galat.; et sic etiam lex gratiae appellatur /lez
+<lb ed="#P" n="14"/>spiritus vite, tanquam una lex, ad Rom. 8$.
+<lb ed="#P" n="15"/>Et similiter lex naturae tanquam una lex 
+si<lb break="no" ed="#P" n="16"/>gnificatur, utique per modum unius 
+collec<lb break="no" ed="#P" n="17"/>tionis. Ita ergo in praesenti de divina lege 
+lo<lb break="no" ed="#P" n="18"/>quimur, et explicata notione vocis, facilis est
+<lb ed="#P" n="19"/>quaestionis resolutio.
+</p>
+            <p xml:id="szdleg-s05337-d1e271">
+               <lb ed="#P" n="20"/>3. Ante Moysem non fuit data positiva lex
+<lb ed="#P" n="21"/>in sensu de quo agimus. — Dico ergo, 
+pri<lb break="no" ed="#P" n="22"/>mo, ante Moysem non fuisse a Deo datam
+<lb ed="#P" n="23"/>positivam legem plura divina praecepta 
+con<lb break="no" ed="#P" n="24"/>tinentem, per quam homines vel aliqua 
+ho<lb break="no" ed="#P" n="25"/>minum congregatio in peculiari statu a Deo
+<lb ed="#P" n="26"/>instituta, et peculiari modo ad aliquem finem
+<lb ed="#P" n="27"/>ordinata fuerit. Haec assertio certa est, et 
+suf<lb break="no" ed="#P" n="28"/>ficienter probatur, primo, ratione in 
+contra<lb break="no" ed="#P" n="29"/>rium facta, quia lex divina sumpta hoc modo
+<lb ed="#P" n="30"/>sufficienter dividitur in legem veterem et 
+no<lb break="no" ed="#P" n="31"/>vam, ex communi sententia theologorum, et
+<lb ed="#P" n="32"/>ex divina Scriptura, in qua non legimus nisi
+<lb ed="#P" n="33"/>aut legem veterem aut novam. Priorem 
+qui<lb break="no" ed="#P" n="34"/>dem in toto veteri Testamento contentam,
+<lb ed="#P" n="35"/>propter quod totum illud interdum solet 
+no<lb break="no" ed="#P" n="36"/>mine legis significari, teste Hieronymo, in
+<lb ed="#P" n="37"/>Epist. 150 ad Algasiam, quaest. 8, ubi late ex
+<lb ed="#P" n="38"/>Scriptura id probat : quo etiam modo Isidor.,
+<lb ed="#P" n="39"/>T. 1 Sentent., c. 28, legem divinam in tres
+<lb ed="#P" n="40"/>partes distinguit: in historiam, praecepta et
+<lb ed="#P" n="41"/>prophetias. Proprie vero sumitur pro 
+collec<lb break="no" ed="#P" n="42"/>tione praeceptorum, praecipue ubi dicitur lex
+<lb ed="#P" n="43"/>data per Moysem, et sic etiam dixit Christus,
+<lb ed="#P" n="44"/>Luc. 24: Hec sunt verba, eic., quae scripta
+<lb ed="#P" n="45"/>sunt in lege, et Prophetis, et Psalmis de me.
+<lb ed="#P" n="46"/>Alteram vero legem promisit Deus Jeremiae
+<lb ed="#P" n="47"/>21, dicens: Dabo legem meam in visceribus
+<lb ed="#P" n="48"/>eorum, de qua etiam praedixerant Isai., c. 2,
+<lb ed="#P" n="49"/>et Micheas, c. 4: De Sion exibit lem, et 
+ver<lb break="no" ed="#P" n="50"/>lum Dei de Jerusalem ; et haec est lex nova
+<lb ed="#P" n="51"/>quam Paulus vocat etiam legem fidei , ad
+<lb ed="#P" n="52"/>hom., 3, et gratiam, seu legem gratiae, ad
+<lb ed="#P" n="53"/>Galat., 5. Praeter has ergo duas leges nulla
+<lb ed="#P" n="54"/>est alia data a Deo; ergo ante Moysis 
+tem<lb break="no" ed="#P" n="55"/>pora nulla fuit lex divina.
+</p>
+            <p xml:id="szdleg-s05337-d1e352">
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>4. Ratio conclusionis. — Ratio autem est,
+<lb ed="#P" n="57"/>quia lex divina hoc modo significat jus 
+quod<lb break="no" ed="#P" n="58"/>dam integrum a Deo ipso positum continens
+<lb ed="#P" n="59"/>statum religiosum, in quo homines sub 
+pe<lb break="no" ed="#P" n="60"/>culiaribus signis seu sacramentis in ordine
+<lb ed="#P" n="61"/>ad divinum cultum in unum corpus 
+mysti<lb break="no" ed="#P" n="62"/>cum congregentur ; hoc autem modo non
+<lb ed="#P" n="63"/>fuerunt homines ante Moysem specialiter
+<lb ed="#P" n="64"/>instituti a Deo, aut specialiter congregati
+<lb ed="#P" n="65"/>in unam rempublicam ; ergo non 
+opor<lb break="no" ed="#P" n="66"/>tuit ante illud tempus dari specialem 
+le<lb break="no" ed="#P" n="67"/>gem divinam. Major satis declarata est. 
+Mi<lb break="no" ed="#P" n="68"/>nor vero constat ex discursu Scripturae sacrae,
+<lb ed="#P" n="69"/>et in materia de Sacramentis latius ostenditur
+<lb ed="#P" n="70"/>non fuisse in illo primo tempore datas a Deo
+<lb ed="#P" n="71"/>peculiares leges de sacrificiis aut 
+sacramen<lb break="no" ed="#P" n="72"/>tis ; et eadem ratio est de aliis particularibus
+<lb ed="#P" n="73"/>ritibus aut moribus. Et ideo totum illud 
+pri<lb break="no" ed="#P" n="74"/>mum tempus vocatur tempus legis naturae,
+<lb ed="#P" n="75"/>quia illa sola tunc vigebat; sub illa 
+compre<lb break="no" ed="#P" n="76"/>hendendo legem connaturalem gratiae, ut
+<lb ed="#P" n="77"/>supra, l. 1, cap. 3, declaravi. Ubi etiam 
+os<lb break="no" ed="#P" n="78"/>tendi necessitatem legis divina, hoc modo
+<lb ed="#P" n="79"/>sumptae, non fuisse necessitatem simpliciter,
+<lb ed="#P" n="80"/>sed ad melius esse, quod beneficium noluit
+<lb ed="#P" n="81"/>Deus conferre hominibus pro illo tempore.
+<lb ed="#P" n="82"/>Per quod solvitur ratio dubitandi in 
+princi<lb break="no" ed="#P" n="83"/>pio posita. Cur autem ita se gesserit Deus eo
+<lb ed="#P" n="84"/>tempore cum hominibus, licet possemus 
+di<lb break="no" ed="#P" n="85"/>cere id fecisse Deum pro arbitrio suo, 
+con<lb break="no" ed="#P" n="86"/>gruentiam aliquam inferius trademus , 
+cir<lb break="no" ed="#P" n="87"/>cumstantias legis veteris explicando.
+</p>
+            <p xml:id="szdleg-s05337-d1e426">
+               <lb ed="#P" n="88"/>5. Probabile est Deum dedisse ante legem
+<lb ed="#P" n="89"/>Mosi unum vel alterum praeceptum 
+opportu<lb break="no" ed="#P" n="90"/>nwun pro illo tempore. — Praeceptum Adae vera
+<lb ed="#P" n="91"/>lea fuit et perpetua de se. — Dico secundo:
+<lb ed="#P" n="92"/>ante legem Moysi, probabile est dedisse Deum
+<lb ed="#P" n="93"/>hominibus interdum unum vel aliud peculiare
+<lb ed="#P" n="94"/>praeceptum opportunum pro illo tempore
+<lb ed="#P" n="95"/>juxta consilium voluntatis et sapientiae suae.
+<lb ed="#P" n="96"/>Hoc probant alia exempla in argumentis 
+ad<lb break="no" ed="#P" n="97"/>ducta. Quanquam primum non multum ad
+<lb ed="#P" n="98"/>rem praesentem pertineat, agimus enim de
+<lb ed="#P" n="99"/>hominibus in statu naturae lapsae. Cum 
+au<lb break="no" ed="#P" n="100"/>tem innocentiae status fuerit adeo diversus,
+<lb ed="#P" n="101"/>mirum nonh est quod in illo fueri lex aliqua
+<lb ed="#P" n="102"/>a Deo posita illi statui accommodata. Deinde
+<lb ed="#P" n="103"/>vero dicimus etiam in illo statu non fuisse a
+<lb ed="#P" n="104"/>Deo datum jus integrum positivum, prout
+<lb ed="#P" n="105"/>illud explicuimus, sed tantum singulare
+<lb ed="#P" n="106"/>quoddam praeceptum quasi in signum 
+pecu<lb break="no" ed="#P" n="107"/>liaris subjectionis et obedientiae, et ad 
+humi<lb break="no" ed="#P" n="108"/>litatis et aliarum virtutum exercitium. Sic
+<lb ed="#P" n="109"/>enim probabile est etiam Angelis dedisse
+<lb ed="#P" n="110"/>Deum aliquod positivum praeceptum ob simi-
+<pb ed="#P" n="421"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>les causas, ut in propria materia latius 
+di<lb break="no" ed="#P" n="2"/>cemus. Imo sunt qui censeant praeceptum
+<lb ed="#P" n="3"/>illud datum primis hominibus non fuisse 
+pro<lb break="no" ed="#P" n="4"/>priam legem de se perpetuam, sed quasi 
+per<lb break="no" ed="#P" n="5"/>sonale mandatum solis primis parentibus pro
+<lb ed="#P" n="6"/>suis personis, non pro tota posteritate datum,
+<lb ed="#P" n="7"/>etiamsi in statu innocentia perseverarent.
+<lb ed="#P" n="8"/>Sed hoc ego non probo, imo censeo illam
+<lb ed="#P" n="9"/>fuisse veram legem, ac de se perpetuam;
+<lb ed="#P" n="10"/>tum quia eadem ratio erat in filiis quae in
+<lb ed="#P" n="11"/>parentibus , ut legem aliquam positivam a
+<lb ed="#P" n="12"/>Deo semper haberent; tum etiam quia illud
+<lb ed="#P" n="13"/>praeceptum fuit respectu Adae non tantum
+<lb ed="#P" n="14"/>personale, sed etiam (ut ita dicam) capitale;
+<lb ed="#P" n="15"/>quando enim illi dixit Deus: Ea omni ligno
+<lb ed="#P" n="16"/>paradisi comede, de ligno scientiae boni et mali
+<lb ed="#P" n="17"/>ne comedas, loquebatur cum illo ut capite, ac
+<lb ed="#P" n="18"/>subinde cum tota ejus posteritate, ut 
+osten<lb break="no" ed="#P" n="19"/>dunt sequentia verba : /n quocumque enim die
+<lb ed="#P" n="20"/>comederis ea eo, morte morieris. Ibi enim toti
+<lb ed="#P" n="21"/>posteritati mortem comminatus est. Et ideo,
+<lb ed="#P" n="22"/>teste Paulo, omnes in illo praeceptum illud
+<lb ed="#P" n="23"/>transgressi sumus, et mortem incurrimus;
+<lb ed="#P" n="24"/>ergo fuit lex illa pro tota posteritate lata.
+<lb ed="#P" n="25"/>Imo, eadem ratione censeo praeceptum illud
+<lb ed="#P" n="26"/>semel datum soli Adae (juxta simplicem 
+con<lb break="no" ed="#P" n="27"/>textum et ordinem cap. 2 Genes.) 
+comprehen<lb break="no" ed="#P" n="28"/>disse Evam, eo ipso quod illi per Adam fuit
+<lb ed="#P" n="29"/>praeceptum intimatum, juxta probabiliorem
+<lb ed="#P" n="30"/>sententiam Aug., 8 Genes. ad litteram, c. 17,
+<lb ed="#P" n="31"/>et aliorum, quia nimirum lex illa pro toto
+<lb ed="#P" n="32"/>genere humano posita erat, sicque vere dixit
+<lb ed="#P" n="33"/>Evya, Genes. 3: Precepit nobis Deus ne 
+co<lb break="no" ed="#P" n="34"/>mederemaus, eic.
+</p>
+            <p xml:id="szdleg-s05337-d1e556">
+               <lb ed="#P" n="35"/>6. Ad secundum exemplum. — Ad aliud
+<lb ed="#P" n="36"/>exemplumn. — De circumcisione. — Ad 
+secun<lb break="no" ed="#P" n="37"/>dum exemplum de praecepto utendi aliquo
+<lb ed="#P" n="38"/>sacramento, seu signo necessario ad 
+impe<lb break="no" ed="#P" n="39"/>trandam a Deo, mediante fide Christi, 
+re<lb break="no" ed="#P" n="40"/>missionem peccati originalis, fatemur semper
+<lb ed="#P" n="41"/>fuisse in humano genere hoc praeceptum 
+di<lb break="no" ed="#P" n="42"/>vinum, ut in t. 3 tertiae partis ostendimus.
+<lb ed="#P" n="43"/>Dicimus autem imprimis illud non fuisse 
+in<lb break="no" ed="#P" n="44"/>tegram legem in sensu superius declarato,
+<lb ed="#P" n="45"/>sed fuisse unum singulare mandatum ob 
+pe<lb break="no" ed="#P" n="46"/>culiarem necessitatem datum. Deinde dicimus
+<lb ed="#P" n="47"/>non fuisse omnino positivum, sed (prout a
+<lb ed="#P" n="48"/>Deo datum est) fuisse suo modo connaturale
+<lb ed="#P" n="49"/>fidei, secundum statum quem pro eo tempore
+<lb ed="#P" n="50"/>in hominibus habebat, et ideo generaliter
+<lb ed="#P" n="51"/>tantum positum fuit, et per legem vel 
+con<lb break="no" ed="#P" n="52"/>suetudinem humanam determinationem 
+ac<lb break="no" ed="#P" n="53"/>cipiebat, ut in citato loco ex professo 
+tracta<lb break="no" ed="#P" n="54"/>tum est. Ut tamen simul respondeamus ad
+<lb ed="#P" n="55"/>aliud exemplum de praecepto circumcisionis
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>(quod, juxta probabiliorem sententiam, fuit
+<lb ed="#P" n="57"/>quaedam determinatio praedicti generalis 
+prae<lb break="no" ed="#P" n="58"/>cepti, specialiter a Deo facta pro populo
+<lb ed="#P" n="59"/>Israel), addimus praeceptum illud fuisse 
+in<lb break="no" ed="#P" n="60"/>choationem quamdam legis veteris, quae a
+<lb ed="#P" n="61"/>Deo singulari ratione fuit anticipata per 
+ali<lb break="no" ed="#P" n="62"/>quod tempus sufficiens ad multiplicationem
+<lb ed="#P" n="63"/>populi, quem sibi peculiariter congregabat, et
+<lb ed="#P" n="64"/>cui postea lex danda erat, et ideo idem 
+prae<lb break="no" ed="#P" n="65"/>ceptum eademque circumcisio semper in ea
+<lb ed="#P" n="66"/>lege mansit, eratque janua et professio illius
+<lb ed="#P" n="67"/>obligationem inducens, teste Paulo ad 
+Ga<lb break="no" ed="#P" n="68"/>lat. 5.
+</p>
+            <p xml:id="szdleg-s05337-d1e634">
+               <lb ed="#P" n="69"/>7. Tertium exemplum. — Tertium 
+exem<lb break="no" ed="#P" n="70"/>plum erat de animalibus mundis et 
+immun<lb break="no" ed="#P" n="71"/>dis, quorum fit mentio Gen. 7, ad quod 
+re<lb break="no" ed="#P" n="72"/>spondemus nullum praeceptum divinum ibi
+<lb ed="#P" n="73"/>insinuari. Hhesponsio enim communis est
+<lb ed="#P" n="74"/>Moysem ibi esse locutum per anticipationem :
+<lb ed="#P" n="75"/>nam ea animalia, quae postea lex vetus in
+<lb ed="#P" n="76"/>munda et immunda discrevit, ideo sic 
+nomi<lb break="no" ed="#P" n="77"/>navit, quia ipse scripsit post legem latam,
+<lb ed="#P" n="78"/>quamvis tempore diluvii, de quo ipse 
+scribe<lb break="no" ed="#P" n="79"/>bat, nondum fuisset facta discretio ; ita Abul.
+<lb ed="#P" n="80"/>et alii. Sed hoc non caret difficultate; nam
+<lb ed="#P" n="81"/>quidquid sit de usu vocis, quem probabile
+<lb ed="#P" n="82"/>est per praeoccupationem fuisse, nihilominus
+<lb ed="#P" n="83"/>etiam in re ipsa videtur clare supponi 
+dis<lb break="no" ed="#P" n="84"/>cretio jam facta, quando Deus jussit 
+introdu<lb break="no" ed="#P" n="85"/>cere in arcam septena et septena ex mundis
+<lb ed="#P" n="86"/>animalibus, et bina et bina ex immundis,
+<lb ed="#P" n="87"/>quia nisi jam reputarentur diversae 
+conditio<lb break="no" ed="#P" n="88"/>nis, eestimationis, vel usus, non haberet 
+lo<lb break="no" ed="#P" n="89"/>cum ille diversus modus praecipiendi. Et ideo
+<lb ed="#P" n="90"/>Chrys., homil. 24 in Gen., probabile 
+existi<lb break="no" ed="#P" n="91"/>mat Deum, qui praeceptum dabat, manifestam
+<lb ed="#P" n="92"/>fecisse differentiam illam ipsi Noe, quod 
+po<lb break="no" ed="#P" n="93"/>tuit facere, etiamsi nulla lege tunc stabilita
+<lb ed="#P" n="94"/>fuisset.
+</p>
+            <p xml:id="szdleg-s05337-d1e693">
+               <lb ed="#P" n="95"/>8. Valde etiam probabile est quod ibidem
+<lb ed="#P" n="96"/>sentit Chrysostomus, ante diluvium factam esse
+<lb ed="#P" n="97"/>discretionem aliquam inter animalia, vel in
+<lb ed="#P" n="98"/>ordine tantum ad divina sacrificia (si ante 
+di<lb break="no" ed="#P" n="99"/>lugium non erat in usu esus carnium, ut
+<lb ed="#P" n="100"/>sentit Chrysostomus supra, Homil. 96, et 
+di<lb break="no" ed="#P" n="101"/>vus Thomas, 1. 2, q. 102, art. 6, et ad 2; et
+<lb ed="#P" n="102"/>Abulens., et alii Gen. 9), vel etiam in ordine
+<lb ed="#P" n="103"/>ad humanum cibum , si ad illum tunc 
+ani<lb break="no" ed="#P" n="104"/>malia sumebantur, ut voluit Soto, lib. 5 de
+<lb ed="#P" n="105"/>Justit., q. 1, a. 1. Non est autem necesse ut
+<lb ed="#P" n="106"/>illa discretio facta fuerit lege divina, sed 
+pru<lb break="no" ed="#P" n="107"/>dentia et consuetudine humana, ut idem
+<lb ed="#P" n="108"/>Chrysostomus priori loco declarat, dicens:
+<lb ed="#P" n="109"/>Ipsa scientia justo insita docebat quenam ad
+<lb ed="#P" n="110"/>cibum accommodata , et que immunda, non
+<pb ed="#P" n="422"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quod ita sint, sed quod pro immundis 
+habean<lb break="no" ed="#P" n="2"/>tur ; et inferius dicit scientium a Deo nolis
+<lb ed="#P" n="3"/>suppeditatam docere quedam quadrupedia apta
+<lb ed="#P" n="4"/>esse ad cibum, et non alia. Quod etiam late
+<lb ed="#P" n="5"/>ostendit Hieron., lib. 2 contra Jovinian.
+<lb ed="#P" n="6"/>col. 7; et Zachar. Papa, in epist. ad Bonifac.,
+<lb ed="#P" n="7"/>ait Gentiles ad Christum conversos 
+absti<lb break="no" ed="#P" n="8"/>nuisse interdum a quibusdam animalibus,
+<lb ed="#P" n="9"/>quae natura abhorrere solita est. Sic ergo,
+<lb ed="#P" n="10"/>ductu naturae, et consuetudine, ac traditione
+<lb ed="#P" n="11"/>suorum parentum, potuit Noe habere etiam
+<lb ed="#P" n="12"/>usum discernendi inter animalia, maxime in
+<lb ed="#P" n="13"/>ordine ad sacrificia, quam differentiam 
+anti<lb break="no" ed="#P" n="14"/>cipato nomine significavit Moyses per 
+diffe<lb break="no" ed="#P" n="15"/>rentiam mundorum et immundorum 
+anima<lb break="no" ed="#P" n="16"/>lium, quamvis talia non essent tunc ex ritu
+<lb ed="#P" n="17"/>legis; nec fortasse omnino eadem cum illa,
+<lb ed="#P" n="18"/>quam postea lex vetus induxit. Et ideo etiam
+<lb ed="#P" n="19"/>Sancti docent plura esse servata ex 
+anima<lb break="no" ed="#P" n="20"/>libus mundis, quia ex illis Deo sacrificandum
+<lb ed="#P" n="21"/>erat.
+</p>
+            <p xml:id="szdleg-s05337-d1e781">
+               <lb ed="#P" n="22"/>9. Ultimum exemplum de abstinentia a 
+san<lb break="no" ed="#P" n="23"/>guine explicatur. — Ultimum exemplum erat
+<lb ed="#P" n="24"/>de praecepto abstinendi a sanguine, dato a
+<lb ed="#P" n="25"/>Deo, Gen. 4; de quo praecepto aliqui sentiunt
+<lb ed="#P" n="26"/>per illud solum prohibitum fuisse carnes 
+cru<lb break="no" ed="#P" n="27"/>das comedere , quod sentit Soto supra; alii
+<lb ed="#P" n="28"/>vero dixerunt ibi solum prohiberi 
+homici<lb break="no" ed="#P" n="29"/>dium, quasi sub tropo et figura, ut sensit 
+Lu<lb break="no" ed="#P" n="30"/>gubinus. Et favet Cyprian., 1. 3 ad Quint.,
+<lb ed="#P" n="31"/>c. 119, qui in simili praecepto, Act. 15, legit,
+<lb ed="#P" n="32"/>a sangunis effusione, tacite sic exponendo
+<lb ed="#P" n="33"/>verba praecepti. Et videntur sequi Chrysost.
+<lb ed="#P" n="34"/>et Ded. ibi; Tertul., lib. de Pudicit., c. 12;
+<lb ed="#P" n="35"/>sequiturque Salmer., plura referens, tract. 43
+<lb ed="#P" n="36"/>in Acta, versus finem : unde, juxta utrumque
+<lb ed="#P" n="37"/>sensum, facile respondebitur illud praeceptum
+<lb ed="#P" n="38"/>divinum non fuisse positivum, sed naturale.
+<lb ed="#P" n="39"/>Utraque vero expositio, si excludat proprium
+<lb ed="#P" n="40"/>sensum de esu sanguinis et suffocati, 
+rejicien<lb break="no" ed="#P" n="41"/>da est ut allegorica nimis et contraria 
+since<lb break="no" ed="#P" n="42"/>ritati litterae, et simili legi latae ab 
+Aposto<lb break="no" ed="#P" n="43"/>lis, Act. 15, et communi Patrum expositioni
+<lb ed="#P" n="44"/>in utroque loco, Genesis et Actor.; et optime
+<lb ed="#P" n="45"/>declarat Ambr. ad Galat. 2, in principio; et
+<lb ed="#P" n="46"/>August, 32, contra Faust., c. 13. Concedo
+<lb ed="#P" n="47"/>ergo fuisse tunc illud speciale praeceptum 
+po<lb break="no" ed="#P" n="48"/>sitivum a Deo latum, fuisse tamen singulare,
+<lb ed="#P" n="49"/>et non plenam legem. Et ita Chrysost., dicta
+<lb ed="#P" n="50"/>Homil. 27, comparat illud cum praecepto
+<lb ed="#P" n="51"/>Adami, dicens : Sicut Adam dictum est ut de
+<lb ed="#P" n="52"/>uno ligno ex omnibus non ederet, ita hic 
+dic<lb break="no" ed="#P" n="53"/>Lu est, cum omnia ad esum valde licenter
+<lb ed="#P" n="54"/>pervissa essent, verumtamen carnem cum 
+san<lb break="no" ed="#P" n="55"/>gquine mnon conmcdatis : unde posset generalis
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>ratio praecepti utrique accommodari ; 
+particu<lb break="no" ed="#P" n="57"/>laris autem talis praecepti in tali materia 
+red<lb break="no" ed="#P" n="58"/>ditur ibidem ab eodem Chrysostomo dicente:
+<lb ed="#P" n="59"/>Hoc facit ut primas illis temporibus 
+compri<lb break="no" ed="#P" n="60"/>mat illorum impetum, et propensionem ad 
+ho<lb break="no" ed="#P" n="61"/>micidia ; quam rationem habet etiam 
+Augus<lb break="no" ed="#P" n="62"/>tinus, et juxta illam exponendi sunt Patres
+<lb ed="#P" n="63"/>prius allegati. Aliam vero rationem addit 
+Au<lb break="no" ed="#P" n="64"/>gustinus, dicens arcam Noe fuisse typum 
+Ec<lb break="no" ed="#P" n="65"/>clesiae, et ideo tunc latum etiam esse 
+praece<lb break="no" ed="#P" n="66"/>tum quod tacitam prophetiam contineret ,
+<lb ed="#P" n="67"/>quae coepta est impleri in Gentibus ad fidem
+<lb ed="#P" n="68"/>accedentibus , proptereaque praeceptum illud
+<lb ed="#P" n="69"/>ab Apostolis renovatum esse, de quo plura
+<lb ed="#P" n="70"/>dicemus infra tractando de cessatione 
+lega<lb break="no" ed="#P" n="71"/>lium.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 26</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 26</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="334"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q84175"><!-- l8c26 -->
+        <head xml:id="szdleg-q84175-Hd1e101">Caput 26</head>
+        <head xml:id="szdleg-q84175-Hd1e103" type="question-title">An udique possit quis licite suo privilegio uti,et prjesertim extra territorium concedentis.</head>
+        <p xml:id="szdleg-q84175-d1e106">
+          <lb ed="#P" n="77"/>CAPUT XXVI.
+          <lb ed="#P" n="78"/>AN UDIQUE POSSIT QUIS LICITE SUO PRIVILEGIO
+          <lb ed="#P" n="79"/>UTI,ET PRJESERTIM EXTRA TERRITORIUM 
+          CON<lb break="no" ed="#P" n="80"/>CEDENTIS.
+        </p>
+        <p xml:id="szdleg-q84175-d1e117">
+          <lb ed="#P" n="81"/>1. De circumstantia loci in privilegiis. —
+          <lb ed="#P" n="82"/>Duplex sensus quaestionis.— Pontifex concedit
+          <lb ed="#P" n="83"/>privilegium pro omni loco. — Diximus de 
+          cir<lb break="no" ed="#P" n="84"/>cumstantia temporis ; dicendum sequitur de
+          <lb ed="#P" n="85"/>circumstantia loci, quae in legum observatione
+          <lb ed="#P" n="86"/>maxime necessaria est. Potest autem locus 
+          du<lb break="no" ed="#P" n="87"/>pliciter ad privilegium seu ad illius usum
+          <lb ed="#P" n="88"/>comparari. Primo, ex parte objecti, seu actus
+          <lb ed="#P" n="89"/>concessi per privilegium ; secundo, ex parte
+          <lb ed="#P" n="90"/>personarum, vel concedentis, vel cui 
+          concedi<lb break="no" ed="#P" n="91"/>tur privilegium; et ita duplex esse potest 
+          sen<lb break="no" ed="#P" n="92"/>sus quaestionis. Prior est an, privilegio 
+          con<lb break="no" ed="#P" n="93"/>cesso pro uno loco, liceat in quolibet alio;
+          <lb ed="#P" n="94"/>alter est, an privilegiarius possit licite uti
+          <lb ed="#P" n="95"/>privilegio, sibi absolute concesso, extra 
+          territo<lb break="no" ed="#P" n="96"/>rium sui superioris concedentis privilegium.
+          <lb ed="#P" n="97"/>Et quidem quaestio, in priori sensu, in solo
+          <lb ed="#P" n="98"/>Pontifice et privilegiis ejus videtur habere 
+          lo<lb break="no" ed="#P" n="99"/>cum, quia solus ille habet ubique 
+          jurisdictio<lb break="no" ed="#P" n="100"/>nem ; et ideo solus ille potest per se, et ex
+          <lb ed="#P" n="101"/>parte objecti, ut sic dicam, concedere 
+          privi<lb break="no" ed="#P" n="102"/>legium pro omni loco ; potest tamen cum 
+          pro<lb break="no" ed="#P" n="103"/>portione quaestio tractari, et resolutio ejus 
+          ac<lb break="no" ed="#P" n="104"/>commodari ad Praelatos inferiores pro suis
+          <lb ed="#P" n="105"/>dioecesibus, et ad reges pro suis regnis, 
+          su<lb break="no" ed="#P" n="106"/>mendo particulam ubigue, cum proportione
+          <lb ed="#P" n="107"/>intra terminos uniuscujusque principatus. In
+          <pb ed="#P" n="335"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>posteriore autem sensu quaestio non habet 
+          lo<lb break="no" ed="#P" n="2"/>cum in privilegiis pontificiis, sed in aliis, quia
+          <lb ed="#P" n="3"/>Pontifex non habet limitatum territorium, sed
+          <lb ed="#P" n="4"/>totum orbem complectitur , ut Pontifex est.
+          <lb ed="#P" n="5"/>Potest tamen illi aliquo modo accommodari,
+          <lb ed="#P" n="6"/>et ideo priorem quaestionem resolvemus 
+          di<lb break="no" ed="#P" n="7"/>recte circa Pontificem, et per 
+          accommodatio<lb break="no" ed="#P" n="8"/>nem de aliis; in posteriori vero contrarium
+          <lb ed="#P" n="9"/>ordinem tenebimus.
+        </p>
+        <p xml:id="szdleg-q84175-d1e202">
+          <lb ed="#P" n="10"/>2. Privilegium a Pontifice concessum ubique
+          <lb ed="#P" n="11"/>valet, si absolute concedatur. — Circa priorem
+          <lb ed="#P" n="12"/>ergo quaestionem, dicendum est privilegium a
+          <lb ed="#P" n="13"/>Pontifice concessum simpliciter, et sine 
+          deter<lb break="no" ed="#P" n="14"/>minatione ad certum locum, ubique valere,
+          <lb ed="#P" n="15"/>et licitum esse ubique illo uti, nisi aliud 
+          con<lb break="no" ed="#P" n="16"/>stet de mente concedentis. Probatur assertio
+          <lb ed="#P" n="17"/>cum suis limitationibus. (Quia concessio 
+          inde<lb break="no" ed="#P" n="18"/>finita, procedens ab habente universalem 
+          po<lb break="no" ed="#P" n="19"/>testatem, universalis est, si ab ipso concedente
+          <lb ed="#P" n="20"/>non limitetur, vel determinetur ad aliquid
+          <lb ed="#P" n="21"/>particulare ; sed potestas Pontificis 
+          universa<lb break="no" ed="#P" n="22"/>lis est ad concedendum privilegium pro omni
+          <lb ed="#P" n="23"/>loco; ergo, si absolute concedit, et non limitat
+          <lb ed="#P" n="24"/>locum expresse nec ex circumstantiis, tale
+          <lb ed="#P" n="25"/>privilegium universale est ex parte locorum.
+          <lb ed="#P" n="26"/>Minor cum consequentia nota sunt. Major
+          <lb ed="#P" n="27"/>autem est quasi axioma, et receptum 
+          princi<lb break="no" ed="#P" n="28"/>pium juristarum, quod in legibus indefinita
+          <lb ed="#P" n="29"/>locutio aequivalet universali; tum quia est
+          <lb ed="#P" n="30"/>quasi doctrinalis, tum maxime quia alias esset
+          <lb ed="#P" n="31"/>ambigua et incerta, ac subinde inutilis, quia
+          <lb ed="#P" n="32"/>non esset major ratio determinandi 
+          dispositio<lb break="no" ed="#P" n="33"/>nem legis ad hoc particulare quam ad aliud, ut
+          <lb ed="#P" n="34"/>manifeste constat in praesenti; cur enim tale
+          <lb ed="#P" n="35"/>privilegium, indefinite loquens de locis, vel
+          <lb ed="#P" n="36"/>nullam mentionem de loco faciens, magis 
+          de<lb break="no" ed="#P" n="37"/>terminabitur ad hunc locum quam ad alium?
+          <lb ed="#P" n="38"/>Hinc enim etiam manavit vulgare 
+          pronuntia<lb break="no" ed="#P" n="39"/>tum, quod ubi lex non distinguit, nec nos 
+          dis<lb break="no" ed="#P" n="40"/>Unguere debemus, utique sine alia lege 
+          limi<lb break="no" ed="#P" n="41"/>tante, vel sine cogente ratione, utique quia 
+          in<lb break="no" ed="#P" n="42"/>distincta locutio legis de se uuiversalis est.
+          <lb ed="#P" n="43"/>Denique hac ratione privilegium concessum
+          <lb ed="#P" n="44"/>sine Iimitatione temporis censetur perpetuum,
+          <lb ed="#P" n="45"/>ut supra vidimus.
+        </p>
+        <p xml:id="szdleg-q84175-d1e284">
+          <lb ed="#P" n="46"/>3. Privilegium pro certo loco concessum pro
+          <lb ed="#P" n="47"/>illo solum valet. — Determinatio loci ev parte
+          <lb ed="#P" n="48"/>oljecti et ev parte subjecti notanda. — Prima
+          <lb ed="#P" n="49"/>vero limitatio, seu conditio, de se manifesta
+          <lb ed="#P" n="50"/>est : nam tenor privilegii servandus est; ergo
+          <lb ed="#P" n="51"/>si privilegium ex parte materiae et ohecti 
+          po<lb break="no" ed="#P" n="52"/>nit determinatum locum, pro illo solo potest
+          <lb ed="#P" n="53"/>valere, sicut ponens determinatum tempus
+          <lb ed="#P" n="54"/>pro illo tantum valet, et loquens in materia
+          <lb ed="#P" n="55"/>determinata circa illam tantum dat potesta-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tem. Et hac ratione, si Pontifex concedat 
+          pri<lb break="no" ed="#P" n="57"/>vilegium ad habendas duas praebendas in tali
+          <lb ed="#P" n="58"/>Ecclesia, non poterit quis, virtute talis 
+          pri<lb break="no" ed="#P" n="59"/>vilegii, habere duas similes in alia Ecclesia.
+          <lb ed="#P" n="60"/>Item, si alicui daretur privilegium ad 
+          audien<lb break="no" ed="#P" n="61"/>das Missas in suo episcopatu tempore 
+          inter<lb break="no" ed="#P" n="62"/>dicti, non posset illam audire in alio 
+          episco<lb break="no" ed="#P" n="63"/>patu interdicto. Sic privilegium Papae ad
+          <lb ed="#P" n="64"/>concedenda lacticinia et ova diebus 
+          prohi<lb break="no" ed="#P" n="65"/>bitis in Hispania, non extenditur ad Italiam,
+          <lb ed="#P" n="66"/>vel Galliam, et sic de aliis. Sicut enim 
+          privi<lb break="no" ed="#P" n="67"/>legium locale non extenditur ab uno loco ad
+          <lb ed="#P" n="68"/>alium, nec personale ab una persona ad
+          <lb ed="#P" n="69"/>aliam, ita nec privilegium persona datum
+          <lb ed="#P" n="70"/>pro certo loco, potest illi valere ad utendum
+          <lb ed="#P" n="71"/>eo in alio loco, quia tale privilegium est 
+          ve<lb break="no" ed="#P" n="72"/>luti locale simul et personale respective ;
+          <lb ed="#P" n="73"/>quia sicut non conceditur nisi pro tali 
+          per<lb break="no" ed="#P" n="74"/>sona, ita nec conceditur illi, nisi pro tali loco.
+          <lb ed="#P" n="75"/>Oportet autem diligenter advertere an 
+          deter<lb break="no" ed="#P" n="76"/>minatio loci ponatur ex parte objecti , vel ex
+          <lb ed="#P" n="77"/>parte sujecti; aliud est enim privilegium 
+          con<lb break="no" ed="#P" n="78"/>cedi tantum pro hominibus Hispania, aliud
+          <lb ed="#P" n="79"/>vero concedi pro usu Hispanise, seu in 
+          Hispa<lb break="no" ed="#P" n="80"/>nia; et in priori sensu non arctatur privilegii
+          <lb ed="#P" n="81"/>usus ad Hispaniam, sed solum ad Hispanos,
+          <lb ed="#P" n="82"/>qui ubique poterunt illo uti, nisi aliud 
+          ob<lb break="no" ed="#P" n="83"/>stet; quia, cum sit privilegium personale, cum
+          <lb ed="#P" n="84"/>persona incedit, et quia, cum determinatio
+          <lb ed="#P" n="85"/>loci non cadat in usum, quia non ponitur ex
+          <lb ed="#P" n="86"/>parte objecti, universalis est ex parte locorum
+          <lb ed="#P" n="87"/>juxta regulam positam. Dico autem nisi aliud
+          <lb ed="#P" n="88"/>obstet, propter limitationem sequentem.
+        </p>
+        <p xml:id="szdleg-q84175-d1e382">
+          <lb ed="#P" n="89"/>4. Mens concedentis etiam limitat 
+          privile<lb break="no" ed="#P" n="90"/>gium. — Regula ad oentem concedentis 
+          inda<lb break="no" ed="#P" n="91"/>gandam. — bulla Cruciatae quomodo dat 
+          His<lb break="no" ed="#P" n="92"/>panis licentiam comedendi lacticinia.—
+          Secun<lb break="no" ed="#P" n="93"/>da limitatio etiam vera est, quia privilegium
+          <lb ed="#P" n="94"/>non habet efficaciam, nisi ex mente et 
+          inten<lb break="no" ed="#P" n="95"/>tione concedentis; ergo si mens illius est non
+          <lb ed="#P" n="96"/>concedere usum privilegii, nisi pro certo
+          <lb ed="#P" n="97"/>loco, non est licitum illo uti extra talem 
+          lo<lb break="no" ed="#P" n="98"/>cum. Item, si haec limitatio esset expressa per
+          <lb ed="#P" n="99"/>verba superioris, non liceret aliter privilegio
+          <lb ed="#P" n="100"/>uti, juxta priorem limitationem ; ergo idem
+          <lb ed="#P" n="101"/>est, quacumque alia ratione constet de mente
+          <lb ed="#P" n="102"/>concedentis, quia mens conjecturata non 
+          mi<lb break="no" ed="#P" n="103"/>nus efficax est quam expressa, quando 
+          con<lb break="no" ed="#P" n="104"/>jectura moraliter sufficiens est. Est autem
+          <lb ed="#P" n="105"/>haec limitatio cognitu difficilior quam prior,
+          <lb ed="#P" n="106"/>quia non continetur in ipsis formalibus verbis
+          <lb ed="#P" n="107"/>concessionis, sicut prior, et ideo necessarium
+          <lb ed="#P" n="108"/>est hic uti regulis generalibus in sequentibus
+          <lb ed="#P" n="109"/>capitulis tradendis de interpretatione 
+          privile<lb break="no" ed="#P" n="110"/>giorum , et illas cum proportione ad locum
+          <pb ed="#P" n="336"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>accommodare, scilicet, ut considerentur 
+          sup<lb break="no" ed="#P" n="2"/>plicatio, et materia ejus, et connexio 
+          sequen<lb break="no" ed="#P" n="3"/>tium cum antecedentibus, ut inde conjiciatur
+          <lb ed="#P" n="4"/>an ad aliquem locum determinetur concessio.
+          <lb ed="#P" n="5"/>Praecipue vero spectandum est ad rationem
+          <lb ed="#P" n="6"/>principaliter moventem, ct dantem causam
+          <lb ed="#P" n="7"/>justam concessionis. Nam si illa sumpta est
+          <lb ed="#P" n="8"/>ex propria circumstantia talis loci, probabile
+          <lb ed="#P" n="9"/>valde est pro tali tantum loco privilegii usum
+          <lb ed="#P" n="10"/>concedi, etiamsi expresse non fiat in illo 
+          de<lb break="no" ed="#P" n="11"/>terminatio. Quod dubium moveri solet in 
+          Bul<lb break="no" ed="#P" n="12"/>la Cruciatae, quatenus dat Hispanis facultatem
+          <lb ed="#P" n="13"/>comedendi lacticinia; quamvis enim fortasse
+          <lb ed="#P" n="14"/>non ponat expresse illam determinationem
+          <lb ed="#P" n="15"/>ex parte actus, id est, quod in Hispania 
+          pos<lb break="no" ed="#P" n="16"/>sint illa comedere , nihilominus probabile est
+          <lb ed="#P" n="17"/>hanc esse mentem Pontificis, quia ratio talis
+          <lb ed="#P" n="18"/>concessionis ex peculiari circumstantia loci
+          <lb ed="#P" n="19"/>sumitur, scilicet, ex penuria piscium, qua
+          <lb ed="#P" n="20"/>illa provincia laborat ; sicut si daretur 
+          homi<lb break="no" ed="#P" n="21"/>nibus alicujus provincia privilegium 
+          confi<lb break="no" ed="#P" n="22"/>ciendi Sacramentum in solo pane propter 
+          pe<lb break="no" ed="#P" n="23"/>nuriam vini, eo ipso censeretur limitatum ad
+          <lb ed="#P" n="24"/>locum provinciae, potius quam ad personas,
+          <lb ed="#P" n="25"/>licet expresse id non dicerctur, quia causa
+          <lb ed="#P" n="26"/>ipsa limitat et determinat locum ; quod 
+          gra<lb break="no" ed="#P" n="27"/>lia tantum exempli dictum sit.
+        </p>
+        <p xml:id="szdleg-q84175-d1e495">
+          <lb ed="#P" n="28"/>5. Applicatio doctrine ad praelatos 
+          inferio<lb break="no" ed="#P" n="29"/>res. — Potestas imperatoris quomodo se 
+          exten<lb break="no" ed="#P" n="30"/>dat in privilegiis concedendis. — Tandem ex
+          <lb ed="#P" n="31"/>his facile est praesentem doctrinam ad 
+          infe<lb break="no" ed="#P" n="32"/>riores Praelatos aut principes applicare : nam
+          <lb ed="#P" n="33"/>universalis seu totalis locutio quoad loca in
+          <lb ed="#P" n="34"/>illis erit, quae comprehenderit totam 
+          unius<lb break="no" ed="#P" n="35"/>cujusque diaecesim, territorium, aut regnum,
+          <lb ed="#P" n="36"/>nec enim extra illa possunt directe operari,
+          <lb ed="#P" n="37"/>seu juridictionem suam per se exercere. Sic
+          <lb ed="#P" n="38"/>ergo uniuscujusque concessio indefinita quoad
+          <lb ed="#P" n="39"/>loca censenda erit universalis respective, cum
+          <lb ed="#P" n="40"/>eisdem declarationibus, et propter easdem
+          <lb ed="#P" n="41"/>rationes; est enim eadem consecutio 
+          doctri<lb break="no" ed="#P" n="42"/>nae, nec aliquid speciale occurrit, quia jus
+          <lb ed="#P" n="43"/>positivum nihil circa hoc statuit, et ex natura
+          <lb ed="#P" n="44"/>rei nulla diversitatis ratio invenitur. Solum
+          <lb ed="#P" n="45"/>potest adverti, in rege habente plura regna
+          <lb ed="#P" n="46"/>per se non unita, sed tantum ex accidente in
+          <lb ed="#P" n="47"/>una persona, an, cum concedit privilegium
+          <lb ed="#P" n="48"/>absolute, loquatur ut rex unius vel alterius
+          <lb ed="#P" n="49"/>regni : nam tunc concessio illa erit 
+          universa<lb break="no" ed="#P" n="50"/>lis pro regno illo, et non pro aliis. Quomodo
+          <lb ed="#P" n="51"/>autem loquatur ex tenore privilegii constabit.
+          <lb ed="#P" n="52"/>Idemque cum proportione adverti potest in
+          <lb ed="#P" n="53"/>inferioribus principibus vel dynastis 
+          haben<lb break="no" ed="#P" n="54"/>tibus plures provincias, vel dominia, seu 
+          titu<lb break="no" ed="#P" n="55"/>los comitum, marchionum, etc. ; item in Prae-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>lato Ecclesiae habente plures Episcopatus; in
+          <lb ed="#P" n="57"/>unoquoque enim spectandum est, sub qua
+          <lb ed="#P" n="58"/>ratione loquatur: nam tali etiam dominio
+          <lb ed="#P" n="59"/>vel juridictione utitur, et secundum illam 
+          de<lb break="no" ed="#P" n="60"/>terminandus erit locus. Secus vero erit in
+          <lb ed="#P" n="61"/>imperatore, ut imperator est; ille enim pro
+          <lb ed="#P" n="62"/>ditione habet totum imperium, et ad totum
+          <lb ed="#P" n="63"/>illud extendi poterit privilegium. De ipsa 
+          au<lb break="no" ed="#P" n="64"/>tem ditione imperii aliter hodie censendum
+          <lb ed="#P" n="65"/>erit, quam antea, quia multum hodie 
+          dimi<lb break="no" ed="#P" n="66"/>nutum est proprium territorium imperatori
+          <lb ed="#P" n="67"/>subjectum; semper tamen cum proportione
+          <lb ed="#P" n="68"/>intelligendum erit privilegium de terris 
+          sub<lb break="no" ed="#P" n="69"/>jectis imperio. Et quidpiam simile 
+          conside<lb break="no" ed="#P" n="70"/>rari potest in Archiepiscopo, vel Patriarcha :
+          <lb ed="#P" n="71"/>nam regulariter privilegia ab eis concessa
+          <lb ed="#P" n="72"/>non exeunt proprium episcopatum, quia extra
+          <lb ed="#P" n="73"/>illud non habent immediatam jurisdictionem.
+          <lb ed="#P" n="74"/>S1 tamen aliqua privilegia concedere possunt,
+          <lb ed="#P" n="75"/>ut Archiepiscopi, vel Patriarchae, ad 
+          sum<lb break="no" ed="#P" n="76"/>mum extendi poterunt intra fines 
+          archiepis<lb break="no" ed="#P" n="77"/>copatus, vel patriarchatus, et tunc oportebit
+          <lb ed="#P" n="78"/>ut satis declarent qua utantur potestate.
+        </p>
+        <p xml:id="szdleg-q84175-d1e610">
+          <lb ed="#P" n="79"/>6. De valore privilegit emtra territorium
+          <lb ed="#P" n="80"/>concedentis. — Status quastionis generalior
+          <lb ed="#P" n="81"/>aperitur. — Jam vero occurrit quaestio in 
+          al<lb break="no" ed="#P" n="82"/>tero sensu declarato, quem attigit Rebuff. in
+          <lb ed="#P" n="83"/>Concord., tit. Forma mandati, verb. 
+          Dispen<lb break="no" ed="#P" n="84"/>satione, ubi quaerit an dispensandus per 
+          lega<lb break="no" ed="#P" n="85"/>tum, ad obtinenda plura beneficia, possit ea
+          <lb ed="#P" n="86"/>obtinere extra territorium legationis, et refert
+          <lb ed="#P" n="87"/>Decium, col. 207, affirmantem. Ipse vero 
+          con<lb break="no" ed="#P" n="88"/>trarium docere videtur in principio; postea
+          <lb ed="#P" n="89"/>vero distinctione utitur, per quam cum Decio
+          <lb ed="#P" n="90"/>plane consentit, ut infra dicam. Eademque
+          <lb ed="#P" n="91"/>attingit Navar. in Consilus, t. de Privileg.,
+          <lb ed="#P" n="92"/>cons. 6, in posteriori editione, et 15, in 
+          pri<lb break="no" ed="#P" n="93"/>ma, non in generali de privilegiis, sed in 
+          spe<lb break="no" ed="#P" n="94"/>ciali de privilegio legendi libros vetitos, an
+          <lb ed="#P" n="95"/>valeat extra territcrium concedentis. Quam
+          <lb ed="#P" n="96"/>quaestionem ibi non resolvit, sed propositis
+          <lb ed="#P" n="97"/>hinc inde argumentis indecisam relinquit :
+          <lb ed="#P" n="98"/>tamen quia posteriori loco ponit argumenta
+          <lb ed="#P" n="99"/>suadentia valere, videri potest in hanc partem
+          <lb ed="#P" n="100"/>inclinasse. Auctor vero cujusdam Scholii 
+          ad<lb break="no" ed="#P" n="101"/>vertit consilium non inveniri integrum, et ita
+          <lb ed="#P" n="102"/>non posse pro alterultra parte allegari, ipse
+          <lb ed="#P" n="103"/>vero probabilius existimat non valere. Mihi
+          <lb ed="#P" n="104"/>tamen, generalius materiam tractando, 
+          dis<lb break="no" ed="#P" n="105"/>tinctione utendum occurrit. Actus enim pro
+          <lb ed="#P" n="106"/>quo datur privilegium potest esse prohibitus
+          <lb ed="#P" n="107"/>in alio episcopatu per proprium statutum,
+          <lb ed="#P" n="108"/>vel consuetudinem illius, aut saltem potest
+          <lb ed="#P" n="109"/>esse dependens a voluntate alterius Episcopi,
+          <lb ed="#P" n="110"/>ut ibi licite vel valide fiat ; vel potest esse in-
+          <pb ed="#P" n="337"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>differens, et independens ab alio praelato, et
+          <lb ed="#P" n="2"/>non prohibitus per particulare statutum 
+          al<lb break="no" ed="#P" n="3"/>terius dicecesis, nec per generale praeceptum
+          <lb ed="#P" n="4"/>Ecclesia, sive sit prohibitus particulari lege
+          <lb ed="#P" n="5"/>territorii, aut Episcopi concedentis, sive non;
+          <lb ed="#P" n="6"/>hoc enim nihil refert, nec variat 
+          resolutio<lb break="no" ed="#P" n="7"/>nem, ut videbimus. Aut denique actus est
+          <lb ed="#P" n="8"/>generaliter prohibitus lege communi 
+          Eccle<lb break="no" ed="#P" n="9"/>siae, cadens tamen ex justa causa sub 
+          dispen<lb break="no" ed="#P" n="10"/>sationem Episcopi, ut est opus servile facere
+          <lb ed="#P" n="11"/>in die festo, comedere carnes in die 
+          prohi<lb break="no" ed="#P" n="12"/>bito, et similes. Nam si actus non sit 
+          dispen<lb break="no" ed="#P" n="13"/>sabilis per Episcopum , non poterit 
+          privile<lb break="no" ed="#P" n="14"/>gium dare in tali materia , juxta doctrinam
+          <lb ed="#P" n="15"/>supra traditam, quia necesse est ut tale 
+          pri<lb break="no" ed="#P" n="16"/>vilegium dispensationem contineat.
+        </p>
+        <p xml:id="szdleg-q84175-d1e721">
+          <lb ed="#P" n="17"/>7. Fis privilegii ab uno Episcopo vel principe
+          <lb ed="#P" n="18"/>in alieno territorio. — Dico ergo primo : 
+          pri<lb break="no" ed="#P" n="19"/>vilegium datum ab uno Episcopo, et respective
+          <lb ed="#P" n="20"/>a quocumque particulari principe, dispensando
+          <lb ed="#P" n="21"/>in aliquo speciali jure sui territorii vel regni,
+          <lb ed="#P" n="22"/>non potest valere ad operandum in alieno 
+          ali<lb break="no" ed="#P" n="23"/>quid in eo prohibitum per simile speciale 
+          sta<lb break="no" ed="#P" n="24"/>tutum illius loci. Probatur, supponendo 
+          pere<lb break="no" ed="#P" n="25"/>grinos, dum versantur in alieno territorio, 
+          te<lb break="no" ed="#P" n="26"/>neri ad servandas proprias consuetudines et
+          <lb ed="#P" n="27"/>statuta illius territorii in quo adsunt, quando
+          <lb ed="#P" n="28"/>sunt communia toti populo, vel personis 
+          om<lb break="no" ed="#P" n="29"/>nibus ejusdem conditionis, vel status. Hinc
+          <lb ed="#P" n="30"/>enim fit ut, licet aliquis in proprio episcopatu
+          <lb ed="#P" n="31"/>privilegiatus sit ad similem actum ibi 
+          prohibi<lb break="no" ed="#P" n="32"/>tum per suum Episcopum, non possit uti illo
+          <lb ed="#P" n="33"/>privilegio in altero episcopatu. Probatur, quia
+          <lb ed="#P" n="34"/>privilegium unius Episcopi, non potest 
+          deroga<lb break="no" ed="#P" n="35"/>re praecepto alterius Episcopi vel jurisdictioni
+          <lb ed="#P" n="36"/>ejus: illa autem obligatio provenit ex alieno
+          <lb ed="#P" n="37"/>praecepto, et ex jurisdictione alterius Episcopi;
+          <lb ed="#P" n="38"/>ergo tale privilegium non potest praevalere
+          <lb ed="#P" n="39"/>contra illam. Deinde (et fere in idem redit)
+          <lb ed="#P" n="40"/>ille privilegiarius, dum versatur in alieno 
+          ter<lb break="no" ed="#P" n="41"/>ritorio, non se gerit ut incola sui episcopatus,
+          <lb ed="#P" n="42"/>nec ut subditus sui originarii Praelati ; ergo
+          <lb ed="#P" n="43"/>non potest se gerere ut privilegiatus a suo
+          <lb ed="#P" n="44"/>Episcopo, sed ut subditus pro tunc alteri ; ergo
+          <lb ed="#P" n="45"/>non potest uti privilegio contra legem 
+          territo<lb break="no" ed="#P" n="46"/>rii. Tandem confirmatur inductione : nam si
+          <lb ed="#P" n="47"/>quis, habens in Hispania privilegium ad 
+          feren<lb break="no" ed="#P" n="48"/>da arma prohibita per leges regni, vel 
+          sim<lb break="no" ed="#P" n="49"/>pliciter, vel in tali tempore, ut nocte, vel in
+          <lb ed="#P" n="50"/>tali loco, etc., vellet illo uti in Gallia, non 
+          per<lb break="no" ed="#P" n="51"/>mitteretur, sed armis privaretur, vel alias
+          <lb ed="#P" n="52"/>poenas incurreret, nisi talia privilegia sint per
+          <lb ed="#P" n="53"/>proprium principem territorii acceptata, ut
+          <lb ed="#P" n="54"/>ubique observari videmus, et merito: nam
+          <lb ed="#P" n="55"/>illi qui in proprio territorio, per se et sine
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>privilegio, non tenentur aliquid observare,
+          <lb ed="#P" n="57"/>quia ibi non est praeceptum aut prohibitum,
+          <lb ed="#P" n="58"/>alibi degentes tenentur loci statuta servare;
+          <lb ed="#P" n="59"/>ergo multo magis ille qui tantum ex privilegio
+          <lb ed="#P" n="60"/>liber est a simili obligatione in proprio 
+          terri<lb break="no" ed="#P" n="61"/>torio, obligatur propris statutis alterius 
+          terri<lb break="no" ed="#P" n="62"/>torii, dum in illo versatur, si in illo 
+          privile<lb break="no" ed="#P" n="63"/>gium non habet, nec quod alibi habet, ibi 
+          ac<lb break="no" ed="#P" n="64"/>ceptatum est a proprio superiore illius 
+          terri<lb break="no" ed="#P" n="65"/>torii.
+        </p>
+        <p xml:id="szdleg-q84175-d1e832">
+          <lb ed="#P" n="66"/>8. Infertur primo: libri prohibità quomodo
+          <lb ed="#P" n="67"/>legendi ea privilegio.—Ex quo infero, in casu
+          <lb ed="#P" n="68"/>illo particulari a Navar. proposito, non posse
+          <lb ed="#P" n="69"/>aliquem uti privilegio legendi libros 
+          prohibi<lb break="no" ed="#P" n="70"/>tos, sibi concesso a supremo senatu unius 
+          ter<lb break="no" ed="#P" n="71"/>ritorii, in alio territorio, ubi est speciale 
+          sta<lb break="no" ed="#P" n="72"/>tutum, circa prohibitionem librorum, latum a
+          <lb ed="#P" n="73"/>supremis judicibus illius territorii seu regni.
+          <lb ed="#P" n="74"/>Ut est clarum exemplum in Castella et 
+          Lusita<lb break="no" ed="#P" n="75"/>nia, quia habens tale privilegium speciale ab
+          <lb ed="#P" n="76"/>inquisitoribus Castellae non poterit uti illo in
+          <lb ed="#P" n="77"/>Lusitania, nec e converso, quia unumquodque
+          <lb ed="#P" n="78"/>statutum obligat in suo regno, nec aliquod
+          <lb ed="#P" n="79"/>illorum derogari potest pro tali loco, ab eo
+          <lb ed="#P" n="80"/>qui jurisdictionem ibi non habet. Item, est
+          <lb ed="#P" n="81"/>hoc manifestum quoad libros prohibitos, verbi
+          <lb ed="#P" n="82"/>gratia, in Lusitania, et non in Castella; 
+          quo<lb break="no" ed="#P" n="83"/>modo enim potest inquisitor Castellae dare
+          <lb ed="#P" n="84"/>facultatem ad legendum in Lusitania libros
+          <lb ed="#P" n="85"/>ibi specialiter prohibitos, cum ibi 
+          jurisdictio<lb break="no" ed="#P" n="86"/>nem non habeat? Ergo idem dicendum est
+          <lb ed="#P" n="87"/>etiamsi libri sint prohibiti per specialia 
+          sta<lb break="no" ed="#P" n="88"/>tuta utriusque regni. Probatur consequentia,
+          <lb ed="#P" n="89"/>quia persona quae versatur in Lusitania, pro
+          <lb ed="#P" n="90"/>tunc tenetur servare statuta et consuetudines
+          <lb ed="#P" n="91"/>loci, neque pro tunc in hoc subditur senatui
+          <lb ed="#P" n="92"/>alterius regni; ergo privilegium in alio regno
+          <lb ed="#P" n="93"/>obtentum non potest in alio valere, vel 
+          ali<lb break="no" ed="#P" n="94"/>quid operari. Tandem Lusitanus, dum in 
+          Cas<lb break="no" ed="#P" n="95"/>tella versatur, potest legere ibi libros 
+          prohi<lb break="no" ed="#P" n="96"/>bitos in suo regno, si ibi prohibiti non sint;
+          <lb ed="#P" n="97"/>et ibi prohibitos poterit legere de licentia 
+          se<lb break="no" ed="#P" n="98"/>natus illius regni; et idem, e contrario, 
+          di<lb break="no" ed="#P" n="99"/>cendum est de Castellano vel Gallo dum 
+          versa<lb break="no" ed="#P" n="100"/>tur in Lusitania ; ergo signum est tunc debere
+          <lb ed="#P" n="101"/>conformari moribus et statutis regni, et 
+          con<lb break="no" ed="#P" n="102"/>sequenter non posse ibi uti privilegiis 
+          specia<lb break="no" ed="#P" n="103"/>libus alterius territorii.
+        </p>
+        <p xml:id="szdleg-q84175-d1e918">
+          <lb ed="#P" n="104"/>9. Infertur secundo : actus pendentes a 
+          vo<lb break="no" ed="#P" n="105"/>luntate principis alienà territorii quomodo 
+          fa<lb break="no" ed="#P" n="106"/>ciendi.—sSecundo, infero idem dicendum esse
+          <lb ed="#P" n="107"/>de hujusmodi particulari privilegio quoad
+          <lb ed="#P" n="108"/>actus qui in alieno territorio pendent a 
+          volun<lb break="no" ed="#P" n="109"/>tate principis, ut licite fiant, etiamsi absolute
+          <lb ed="#P" n="110"/>prohibiti non sint, ut, licet clericus habeat
+          <pb ed="#P" n="338"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>privilegium faciendi sacrum, et ministrandi
+          <lb ed="#P" n="2"/>sacramenta in toto suo episcopatu, non poterit
+          <lb ed="#P" n="3"/>facere sacrum ir alieno episcopatu sine 
+          licen<lb break="no" ed="#P" n="4"/>tia Episcopi loci, vel qui ejus vicem gerat, et
+          <lb ed="#P" n="5"/>multo minus poterit ministrare sacramenta.
+          <lb ed="#P" n="6"/>Clarius exemplum est, quia religiosus in domo
+          <lb ed="#P" n="7"/>propria habens a proprio Praelato particulari
+          <lb ed="#P" n="8"/>talis monasterii privilegium domo exeundi
+          <lb ed="#P" n="9"/>sine licentia, non poterit illo uti, dum est 
+          hos<lb break="no" ed="#P" n="10"/>pes in alio monasterio, sine approbatione 
+          Prae<lb break="no" ed="#P" n="11"/>lati illius loci. Ratio est eadem, quia privata
+          <lb ed="#P" n="12"/>jurisdictio non extenditur ad alienum 
+          territo<lb break="no" ed="#P" n="13"/>rium ; item quia licet domo exire non sit 
+          sim<lb break="no" ed="#P" n="14"/>pliciter prohibitum, tamen exire sine licentia
+          <lb ed="#P" n="15"/>est prohibitum, et in unoquoque loco est illa
+          <lb ed="#P" n="16"/>prohibitio, quasi specialis respective ad 
+          Prae<lb break="no" ed="#P" n="17"/>latum talis loci: ergo privilegium particulare
+          <lb ed="#P" n="18"/>tollens illam prohibitionem, cum particulari
+          <lb ed="#P" n="19"/>respectu ad unum locum vel territorium, non
+          <lb ed="#P" n="20"/>potest in alio valere.
+        </p>
+        <p xml:id="szdleg-q84175-d1e983">
+          <lb ed="#P" n="21"/>10. Privilegio in alieno territorio uti, 
+          qugn<lb break="no" ed="#P" n="22"/>do sit licitum. — In quo sensu locum habet
+          <lb ed="#P" n="23"/>secunda conclusio. — Dico secundo: potest
+          <lb ed="#P" n="24"/>aliquis privilegio sibi concesso a suo 
+          particu<lb break="no" ed="#P" n="25"/>lari principe aut Praelato, licite uti in alieno
+          <lb ed="#P" n="26"/>territorio, quando actus de se est indifferens,
+          <lb ed="#P" n="27"/>et neque juri communi, neque particulari talis
+          <lb ed="#P" n="28"/>loci est prohibitus, nec pendens ab speciali
+          <lb ed="#P" n="29"/>licentia superioris talis loci. Haec assertio 
+          vide<lb break="no" ed="#P" n="30"/>tur adeo clara, ut appareat potius impertinens
+          <lb ed="#P" n="31"/>ad usum talis privilegii, quia si actus est de se
+          <lb ed="#P" n="32"/>indifferens, et per commune jus Ecclesiae vel
+          <lb ed="#P" n="33"/>proprium alterius territorii non est 
+          prohibi<lb break="no" ed="#P" n="34"/>tus, sine privilegio est ibi licitus, etiamsi in
+          <lb ed="#P" n="35"/>proprio territorio sit prohibitus et pro illo
+          <lb ed="#P" n="36"/>necessarium fuerit privilegium. Patet, quia
+          <lb ed="#P" n="37"/>statutum territorii non obligat incolam extra
+          <lb ed="#P" n="38"/>territorium peregrinantem : ergo ad non 
+          ser<lb break="no" ed="#P" n="39"/>vandum tale statutum non indiget privilegio:
+          <lb ed="#P" n="40"/>ergo non recte dicitur prodesse ibi tale 
+          privi<lb break="no" ed="#P" n="41"/>legium. Sed, licet hoc per se loquendo ita sit,
+          <lb ed="#P" n="42"/>nihilominus habere potest locum conclusio,
+          <lb ed="#P" n="43"/>vel in casu dubio, vel in casu in quo proprium
+          <lb ed="#P" n="44"/>praeceptum Praelati subdito impositum possit
+          <lb ed="#P" n="45"/>obligare illum extra territorium suum. 
+          Exem<lb break="no" ed="#P" n="46"/>pla esse possunt, primo, de privilegio eligendi
+          <lb ed="#P" n="47"/>confessorem : nam per illud a proprio Praelato
+          <lb ed="#P" n="48"/>concessum, potest quis ubique locorum 
+          con<lb break="no" ed="#P" n="49"/>fessorem eligere. Quia sine tali privilegio, vel
+          <lb ed="#P" n="50"/>est dubium cui possit et debeat confiteri, qui
+          <lb ed="#P" n="51"/>in alieno episcopatu versatur; vel est 
+          proba<lb break="no" ed="#P" n="52"/>bilius solum posse confiteri, jure communi,
+          <lb ed="#P" n="53"/>proprio parocho loci ad quem pervenit: at,
+          <lb ed="#P" n="54"/>per illud privilegium, eligere poterit 
+          sacerdo<lb break="no" ed="#P" n="55"/>tem quemcumque, juxta c. Placuit, de Poenit.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>distinct., 6, et quae ibi Navarr. notat. Quod 
+          in<lb break="no" ed="#P" n="57"/>telligendum nunc est, dummodo sacerdos sit
+          <lb ed="#P" n="58"/>approbatus juxta tenorem Concilii Trident.
+          <lb ed="#P" n="59"/>Similiter parochus habens licentiam ad non
+          <lb ed="#P" n="60"/>residendum a proprio Episcopo, potest illo
+          <lb ed="#P" n="61"/>privilegio uti et gaudere extra territorium,
+          <lb ed="#P" n="62"/>dummodo ibi studeat. Ratio est, quia 
+          privile<lb break="no" ed="#P" n="63"/>gium personale de se incedit cum persona,
+          <lb ed="#P" n="64"/>nam illi adhaeret; ergo ubique habet 
+          effec<lb break="no" ed="#P" n="65"/>tum, quatenus alibi neccssarium aut utile esse
+          <lb ed="#P" n="66"/>potest, si alienae jurisdictioni non sit 
+          contra<lb break="no" ed="#P" n="67"/>trium, ut contingit in casibus dictis, et 
+          uni<lb break="no" ed="#P" n="68"/>verse in omnibus in quibus actus non est 
+          ma<lb break="no" ed="#P" n="69"/>lus, nec specialiter prohibitus in tali loco.
+        </p>
+        <p xml:id="szdleg-q84175-d1e1094">
+          <lb ed="#P" n="70"/>11. Declaratur doctrina tradita. —Quomodo
+          <lb ed="#P" n="71"/>tradita assertio sit intelligenda. — Nec refert
+          <lb ed="#P" n="72"/>quod videatur jurisdictio exerceri in alieno
+          <lb ed="#P" n="73"/>territorio, quia exercetur in tal territorio
+          <lb ed="#P" n="74"/>materialiter (ut sic dicam) et per accidens, non
+          <lb ed="#P" n="75"/>formaliter, nec per se, quia existentia in tali
+          <lb ed="#P" n="76"/>vel tali loco impertinens est ad usum talis 
+          pri<lb break="no" ed="#P" n="77"/>vilegii. Vel alter illud non est inconveniens,
+          <lb ed="#P" n="78"/>quando usus jarisdictionis non est cum 
+          ex<lb break="no" ed="#P" n="79"/>terna solemnitate publica, et est circa 
+          perso<lb break="no" ed="#P" n="80"/>nam subditam quoad aliquid, in quo subdita
+          <lb ed="#P" n="81"/>manet, licet sit absens, et in actu qui nullo
+          <lb ed="#P" n="82"/>modo opponitur jurisdictioni Praelati alterius
+          <lb ed="#P" n="83"/>loci, et maxime quando simul est actus 
+          juris<lb break="no" ed="#P" n="84"/>dictionis voluntariae, ut est concessio privilegii,
+          <lb ed="#P" n="85"/>ut alibi latius diximus, tractando de 
+          absolu<lb break="no" ed="#P" n="86"/>tione a censura. Erit autem intelligenda haec
+          <lb ed="#P" n="87"/>assertio de privilegio, ut privilegium est, seu
+          <lb ed="#P" n="88"/>ut gratiam vel dispensationem subdito 
+          conce<lb break="no" ed="#P" n="89"/>dit, non ut lex est, quae alios valeat obligare
+          <lb ed="#P" n="90"/>ad permittendum privilegii usum, quia nemo
+          <lb ed="#P" n="91"/>potest sua lege obligare homines alterius 
+          terri<lb break="no" ed="#P" n="92"/>torii, qui subditi alteri sunt. Et ita licet quis
+          <lb ed="#P" n="93"/>possit uti suo privilegio in alieno territorio,
+          <lb ed="#P" n="94"/>superiores illius loci poterunt id non 
+          permitte<lb break="no" ed="#P" n="95"/>re, si justam causam habeant. Tunc tamen
+          <lb ed="#P" n="96"/>reducetur hic casus ad praecedentem 
+          assertio<lb break="no" ed="#P" n="97"/>nem, quia jam ille usus erit de re prohibita
+          <lb ed="#P" n="98"/>tali personae in tali loco, a qua prohibitione
+          <lb ed="#P" n="99"/>liberare non potest privilegium alieni 
+          princi<lb break="no" ed="#P" n="100"/>pis, ut dixi.
+        </p>
+        <p xml:id="szdleg-q84175-d1e1164">
+          <lb ed="#P" n="101"/>12. Dispensatus in actu jure communma 
+          pro<lb break="no" ed="#P" n="102"/>hibito, e non alia ratione, ubique gaudet 
+          privi<lb break="no" ed="#P" n="103"/>legio. —bico tertio : quando actus est 
+          pro<lb break="no" ed="#P" n="104"/>hibitus jure communi, et non particulari 
+          sta<lb break="no" ed="#P" n="105"/>tuto alterius territorii, dispensatus a suo 
+          Epis<lb break="no" ed="#P" n="106"/>copo circa talem actum, per particulare 
+          pri<lb break="no" ed="#P" n="107"/>vilegium, potest licite uti tali privilegio
+          <lb ed="#P" n="108"/>extra territorium, nisi ex speciali ratione
+          <lb ed="#P" n="109"/>contingat dispensationem ad locum limitari.
+          <lb ed="#P" n="110"/>Juxta hanc assertionem interpretor opinio-
+          <pb ed="#P" n="339"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nem Dec. supra citatam : nam habere plura
+          <lb ed="#P" n="2"/>beneficia jure communi prohibitum est. Unde
+          <lb ed="#P" n="3"/>clarum est non posse legatum concedere 
+          pri<lb break="no" ed="#P" n="4"/>vilegium, ad habendum illa, hominibus 
+          extra<lb break="no" ed="#P" n="5"/>neis a suo territorio, juxta cap. 2 de Constit.,
+          <lb ed="#P" n="6"/>in 6, et leg. ultim., ff. de Jurisdict. omr.
+          <lb ed="#P" n="7"/>judic., et alia quae Rebuff. supra adducit. 
+          Ni<lb break="no" ed="#P" n="8"/>hilominus tamen, si hominem sui territorii
+          <lb ed="#P" n="9"/>legatus habilitet ad plura beneficia, ubique
+          <lb ed="#P" n="10"/>illa obtinere poterit, quia habilitas illa cum
+          <lb ed="#P" n="11"/>persona incedit, et hoc includit Decius et 
+          ap<lb break="no" ed="#P" n="12"/>probat Probus in cap. Officii, de Offic. legat.,
+          <lb ed="#P" n="13"/>in 6, et tandem consentit Rebuftus. Simile
+          <lb ed="#P" n="14"/>exenplum est de marito qui erat impeditus
+          <lb ed="#P" n="15"/>ad petendum debitum propter votum 
+          castita<lb break="no" ed="#P" n="16"/>tis, vel propter aliquam affinitatem per 
+          illi<lb break="no" ed="#P" n="17"/>citam copulam contractam, et, dispensatus a
+          <lb ed="#P" n="18"/>suo Episcopo, ubique locorum potest petere
+          <lb ed="#P" n="19"/>debitum. Dispensatus etiam in irregularitate
+          <lb ed="#P" n="20"/>occulta a suo Episcopo, licite ministrat 
+          ubi<lb break="no" ed="#P" n="21"/>que. Sed in his casibus et similibus, ratio est
+          <lb ed="#P" n="22"/>facilis, quia per dispensationem sublatium
+          <lb ed="#P" n="23"/>fuit a persona impedimentum , et ideo pro
+          <lb ed="#P" n="24"/>quocumque loco libera manet. Unde videri
+          <lb ed="#P" n="25"/>potest non esse illum proprie usum privilegii
+          <lb ed="#P" n="26"/>in alieno territorio, quia privilegium seu 
+          dis<lb break="no" ed="#P" n="27"/>pensatio semel habuit effectum, et postea 
+          li<lb break="no" ed="#P" n="28"/>bera persona manet, et privilegium jam non
+          <lb ed="#P" n="29"/>operatur, nisi ut causa per accidens et 
+          re<lb break="no" ed="#P" n="30"/>mota, quae abstulit impedimentum ; sicut 
+          ab<lb break="no" ed="#P" n="31"/>solutus a censura ubique licite communicat
+          <lb ed="#P" n="32"/>vel ministrat, non quia absolutio ibi 
+          opere<lb break="no" ed="#P" n="33"/>tur, sed quia abstulit impedimentum. 
+          Nihi<lb break="no" ed="#P" n="34"/>lominus tamen, respectu radicis impedimenti
+          <lb ed="#P" n="35"/>quae manet, potest non incongrue dici tunc
+          <lb ed="#P" n="36"/>aliquem uti semper et ubique tali privilegio,
+          <lb ed="#P" n="37"/>quia votum manet, et nihilominus non 
+          impe<lb break="no" ed="#P" n="38"/>dit, ratione privilegu.
+        </p>
+        <p xml:id="szdleg-q84175-d1e1275">
+          <lb ed="#P" n="39"/>13. Difficultas de dispensatione in praecepto
+          <lb ed="#P" n="40"/>ecclesiastico. — Major difficultas est in 
+          privi<lb break="no" ed="#P" n="41"/>legiis per quae derogatur praecepto 
+          ecclesias<lb break="no" ed="#P" n="42"/>tico, quod de se semper obligat, ut est, verbi
+          <lb ed="#P" n="43"/>gratia, privilegium laborandi in die festo, 
+          co<lb break="no" ed="#P" n="44"/>medendi lacticinia in die prohibito, quando
+          <lb ed="#P" n="45"/>illud non a Pontifice, sed a privato Episcopo
+          <lb ed="#P" n="46"/>concessum est; nam tunc videtur non posse
+          <lb ed="#P" n="47"/>aliquem uti privilegio sui Episcopi in alieno
+          <lb ed="#P" n="48"/>territorio. Primo ex usu, quia licet in hoc
+          <lb ed="#P" n="49"/>episcopatu, ex licentia Episcopi, liceat 
+          come<lb break="no" ed="#P" n="50"/>dere lacticinia in diebus prohibitis, non 
+          po<lb break="no" ed="#P" n="51"/>terunt incolae hujus loci illo privilegio uti in
+          <lb ed="#P" n="52"/>alieno episcopatu, in quo talis licentia non
+          <lb ed="#P" n="53"/>conceditur, ut videtur habere usus et ratio
+          <lb ed="#P" n="54"/>postulat ; tum quia nemo potest uti privilegio
+          <lb ed="#P" n="55"/>sui Praelati in alieno territorio contra legem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>illius territorii, ut dictum est; ergo nec 
+          con<lb break="no" ed="#P" n="57"/>tra legem totius Ecclesiae ibi obligantem.
+          <lb ed="#P" n="58"/>Probatur consequentia, tum quia non est 
+          po<lb break="no" ed="#P" n="59"/>tentior privatus episcopus ad dispensandum
+          <lb ed="#P" n="60"/>in lege Ecclesiae in alieno territorio, quam ad
+          <lb ed="#P" n="61"/>dispensandum in propriis statutis alicujus
+          <lb ed="#P" n="62"/>territorii; tum etiam quia, sicut Praelatus 
+          al<lb break="no" ed="#P" n="63"/>terius dioecesis habet potestatem obligandi ibi
+          <lb ed="#P" n="64"/>suis statutis, non obstante concessione alieni
+          <lb ed="#P" n="65"/>pastoris, ita habet potestatem et curam 
+          obli<lb break="no" ed="#P" n="66"/>gandi ut ibi serventur communia Ecclesiae
+          <lb ed="#P" n="67"/>praecepta, et castigandi violatores eorum;
+          <lb ed="#P" n="68"/>ergo etiam in his non potest ibi valere aliena
+          <lb ed="#P" n="69"/>dispensatio; tum denique quia ratio ob quam
+          <lb ed="#P" n="70"/>peregrini obligantur ad servanda statuta et
+          <lb ed="#P" n="71"/>consuetudines loci, multo magis urget in 
+          le<lb break="no" ed="#P" n="72"/>gibus Ecclesiae communibus, quia in illis 
+          de<lb break="no" ed="#P" n="73"/>bet servari uniformitas , et turpior est pars
+          <lb ed="#P" n="74"/>quae in illa observantia discordat a toto, et
+          <lb ed="#P" n="75"/>de se majus scandalum est ibi non servare
+          <lb ed="#P" n="76"/>communes Eecclesiae leges; sed propter has
+          <lb ed="#P" n="77"/>rationes ita obhgatur peregrinus illis privatis
+          <lb ed="#P" n="78"/>statuüs, ut dispensatio sui Praelati non possit
+          <lb ed="#P" n="79"/>contra illa valere; ergo multo minus poterit
+          <lb ed="#P" n="80"/>adversus generalem prohibitionem Ecclesiae
+          <lb ed="#P" n="81"/>esse sufticiens pro alieno territorio.
+        </p>
+        <p xml:id="szdleg-q84175-d1e1373">
+          <lb ed="#P" n="82"/>14. Duplex modus concedendi privilegm.
+          <lb ed="#P" n="83"/>-dHasec argumenta videntur hanc partem 
+          fa<lb break="no" ed="#P" n="84"/>cere probabilem, nihilominus tamen 
+          distinc<lb break="no" ed="#P" n="85"/>tione quadam utendum videtur. Nam duobus
+          <lb ed="#P" n="86"/>modis contingere potest ut Praelatus det 
+          pri<lb break="no" ed="#P" n="87"/>vilegium contra jus commune per modum
+          <lb ed="#P" n="88"/>dispensationis; uno modo, per generalem
+          <lb ed="#P" n="89"/>concessionem factam pro toto episcopatu, vel
+          <lb ed="#P" n="90"/>pro aliquibus locis illius ex peculiari causa, a
+          <lb ed="#P" n="91"/>conditione seu necessitate speciali talis loci
+          <lb ed="#P" n="92"/>orta. Exemplum familiare est in concessione
+          <lb ed="#P" n="93"/>quae in aliquibus episcopatibus hujus regni
+          <lb ed="#P" n="94"/>fieri solet ad comedendum lacticinia in diebus
+          <lb ed="#P" n="95"/>prohibitis in quibusdam locis vel dioecesibus
+          <lb ed="#P" n="96"/>a mari disjuncüs. Alio modo, per specialem
+          <lb ed="#P" n="97"/>concessionem alicui persona factam ex 
+          pro<lb break="no" ed="#P" n="98"/>pria et personali causa ipsius. Quando 
+          privi<lb break="no" ed="#P" n="99"/>legium est prioris modi, dico non valere extra
+          <lb ed="#P" n="100"/>territorium concedentis, vel extra locum 
+          dioe<lb break="no" ed="#P" n="101"/>cesis pro quo conceditur, juxta dicta in
+          <lb ed="#P" n="102"/>puncto praecedenti ; quia privilegium illud
+          <lb ed="#P" n="103"/>non extenditur. Item ibi cessat ratio 
+          dispen<lb break="no" ed="#P" n="104"/>sationis, quae non incedit cum persona, sed
+          <lb ed="#P" n="105"/>loco quasi adhaeret ; ergo nec dispensatio 
+          ju<lb break="no" ed="#P" n="106"/>vat. Et hoc a fortiori confirmant rationes
+          <lb ed="#P" n="107"/>proxime factae. Ex quo declarata manet 
+          ul<lb break="no" ed="#P" n="108"/>tima pars et exceptio in assertione posita,
+          <lb ed="#P" n="109"/>nam propter hoc genus privilegii est posita.
+        </p>
+        <p xml:id="szdleg-q84175-d1e1437">
+          <lb ed="#P" n="110"/>15. Privilegium personale ob legitimam
+          <pb ed="#P" n="340"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>causam cum ipsa persona ubique incedit.—Tres
+          <lb ed="#P" n="2"/>rationes. — At vero quando dispensatio seu
+          <lb ed="#P" n="3"/>privilegium est posterioris rationis seu mere
+          <lb ed="#P" n="4"/>personale, et habet legitimam causam in ipsa
+          <lb ed="#P" n="5"/>persona, et cum ipsa persona semper incedit,
+          <lb ed="#P" n="6"/>videtur mihi valde probabile, posse sic 
+          privi<lb break="no" ed="#P" n="7"/>legiatum uti dispensatione sua extra 
+          territo<lb break="no" ed="#P" n="8"/>rium concedentis, ut, verbi gratia, comedere
+          <lb ed="#P" n="9"/>lacticinia in diebus prohibitis, si de hoc sit 
+          pri<lb break="no" ed="#P" n="10"/>vilegium propter specialem necessitatem 
+          per<lb break="no" ed="#P" n="11"/>sonalem subditi, et similia. Ratio est, primo,
+          <lb ed="#P" n="12"/>quia ita videtur usus interpretari hujusmodi
+          <lb ed="#P" n="13"/>dispensationem : nam religiosus habens 
+          ta<lb break="no" ed="#P" n="14"/>lem dispensationem a suo Praelato, vel 
+          Pro<lb break="no" ed="#P" n="15"/>vinciali, illa utitur ubicumque peregrinetur,
+          <lb ed="#P" n="16"/>non solum quia est exemptus, et forte caret
+          <lb ed="#P" n="17"/>superiore in alio loco, sed etiamsi ad aliam
+          <lb ed="#P" n="18"/>domum vel provinciam perveniat, ubi posset
+          <lb ed="#P" n="19"/>a Praelato proprio sui ordinis, cui pro tunc
+          <lb ed="#P" n="20"/>subest , dispensari. Secundo, quia illud jus
+          <lb ed="#P" n="21"/>commune non pendet ab hoc vel illo loco, et
+          <lb ed="#P" n="22"/>per dispensationem simpliciter sublatum est
+          <lb ed="#P" n="23"/>respectu talis personae; ergo non redit 
+          obliga<lb break="no" ed="#P" n="24"/>tio ejus propter loci mutationem ; ergo neque
+          <lb ed="#P" n="25"/>ibi est necessaria dispensatio nova; ergo licet
+          <lb ed="#P" n="26"/>uti priori, vel potius effectu ejus, qui fuit 
+          au<lb break="no" ed="#P" n="27"/>ferre ab hac persona obligationem talis 
+          prae<lb break="no" ed="#P" n="28"/>cepti. Unde, considerando hunc effectum,
+          <lb ed="#P" n="29"/>eequiparatur haec dispensatio cum aliis in
+          <lb ed="#P" n="30"/>exemplum adductis in prima probatione 
+          con<lb break="no" ed="#P" n="31"/>clusionis, de quibus nullum videtur esse posse
+          <lb ed="#P" n="32"/>dubium. Tertio, est optima congruentia 
+          mo<lb break="no" ed="#P" n="33"/>ralis, quia proprius Praelatus talis personae
+          <lb ed="#P" n="34"/>habet, vel habere praesumitur notitiam illius,
+          <lb ed="#P" n="35"/>et causarum particularium quae in ea sunt ad
+          <lb ed="#P" n="36"/>eximendum illam a tali obligatione. E 
+          con<lb break="no" ed="#P" n="37"/>trario vero arduum et molestum esset tali
+          <lb ed="#P" n="38"/>personae, ubicumque peregrinatur, Praelatum
+          <lb ed="#P" n="39"/>]oci et sibi alienum convenire, eique 
+          ra<lb break="no" ed="#P" n="40"/>tionem suam vel necessitatem aperire, vel
+          <lb ed="#P" n="41"/>( quod durius, et difficilius esset) persuadere
+          <lb ed="#P" n="42"/>et probare ut dispensationem pro illo loco 
+          ra<lb break="no" ed="#P" n="43"/>tam haberet ; ergo verisimile est talem 
+          dis<lb break="no" ed="#P" n="44"/>pensationem proprio Praelato ita esse 
+          commis<lb break="no" ed="#P" n="45"/>sam, ut ubique valeat. Unde tandem 
+          confir<lb break="no" ed="#P" n="46"/>matur, quia Praelatus particularis non 
+          dis<lb break="no" ed="#P" n="47"/>pensat in hoc jure, nisi ex voluntate et 
+          con<lb break="no" ed="#P" n="48"/>cessione Pontificis expressa vel tacita, cum
+          <lb ed="#P" n="49"/>jus sit ipsius Pontificis; sed si Pontifex 
+          dedis<lb break="no" ed="#P" n="50"/>set privilegium, ubique valeret : ergo et 
+          da<lb break="no" ed="#P" n="51"/>tum a proprio Praelato, qui subrogatus est,
+          <lb ed="#P" n="52"/>ut faciat id quod Pontifex faceret, si adesset.
+          <lb ed="#P" n="53"/>Et hanc conclusionem satis videtur supponere
+          <lb ed="#P" n="54"/>Navar. supra. Et eamdem confirmat primum
+          <lb ed="#P" n="55"/>exemplum de dispensatione legati ad plura
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>beneficia, nam illa immediate derogat 
+          prae<lb break="no" ed="#P" n="57"/>cepto, et ita personam habilitat.
+        </p>
+        <p xml:id="szdleg-q84175-d1e1572">
+          <lb ed="#P" n="58"/>16. Satisfit fundamentis oppositae sententic.
+          <lb ed="#P" n="59"/>—Objectio. — Responsio. — Neque contra hoc
+          <lb ed="#P" n="60"/>obstant rationes in contrarium factae : nam
+          <lb ed="#P" n="61"/>inductio quae affertur, pertinet ad priorem
+          <lb ed="#P" n="62"/>partem distinctionis positae, et illam 
+          confir<lb break="no" ed="#P" n="63"/>mat. Ad rationem autem negatur simplieiter
+          <lb ed="#P" n="64"/>consequentia, et ad primam probationem 
+          ne<lb break="no" ed="#P" n="65"/>gatur assumptum, et aequiparatio, quae ibi fit
+          <lb ed="#P" n="66"/>inter jus commune Ecclesiae, et privatum 
+          al<lb break="no" ed="#P" n="67"/>terius territorii, quia illud est generale, et 
+          su<lb break="no" ed="#P" n="68"/>perioris, qui pro aliquibus casibus et personis
+          <lb ed="#P" n="69"/>potuit committere dispensationem ejus alicui
+          <lb ed="#P" n="70"/>inferiori Praelato sibi subordinato; hoc vero
+          <lb ed="#P" n="71"/>est speciale et ab aequali Praelato latum, a quo
+          <lb ed="#P" n="72"/>nulla jurisdictio manavit vel communicata
+          <lb ed="#P" n="73"/>est alteri sibi aequali, et ita non est similis 
+          ra<lb break="no" ed="#P" n="74"/>tio. Dices videri absurdum quod possit quis uti
+          <lb ed="#P" n="75"/>privilegio sui Praelati ad non jejunandum in
+          <lb ed="#P" n="76"/>alieno territorio in die praecepto ab Ecclesia,
+          <lb ed="#P" n="77"/>et non in speciali die praecepto a Praelato loci.
+          <lb ed="#P" n="78"/>Respondeo, primo, non esse inconveniens,
+          <lb ed="#P" n="79"/>quia licet praeceptum Ecclesiae gravius sit, est
+          <lb ed="#P" n="80"/>aliquo modo commissum dispensationi 
+          unius<lb break="no" ed="#P" n="81"/>cujusque Praelati pro persona sibi subdita, non
+          <lb ed="#P" n="82"/>tamen ita est illi commissum praeceptum 
+          infe<lb break="no" ed="#P" n="83"/>rius, vel aequale. Addo, secundo, probabile
+          <lb ed="#P" n="84"/>esse, quando dispensatio data est ex legitima
+          <lb ed="#P" n="85"/>causa, et pro omnibus jejuniis, excusare etiam
+          <lb ed="#P" n="86"/>a simili praecepto loci, quia non est verisimile
+          <lb ed="#P" n="87"/>velle Praelatum loci obligare personam 
+          haben<lb break="no" ed="#P" n="88"/>tem legitimam causam excusationis jam 
+          pro<lb break="no" ed="#P" n="89"/>batam per propriam dispensationem sui 
+          Prae<lb break="no" ed="#P" n="90"/>lati, quin potius virtute censetur illam 
+          dispen<lb break="no" ed="#P" n="91"/>sationem acceptare. Et juxta hoc declaranda
+          <lb ed="#P" n="92"/>vel limitanda erit prior assertio, in qua est
+          <lb ed="#P" n="93"/>longe diversa ratio, quia privilegium contra
+          <lb ed="#P" n="94"/>jus proprium concedentis potest valere sine
+          <lb ed="#P" n="95"/>causa, vel sine legitima excusatione praecepti,
+          <lb ed="#P" n="96"/>propter alios respectus, et ita ibi nulla est 
+          ra<lb break="no" ed="#P" n="97"/>tio praesumendi consensum vel acceptationem
+          <lb ed="#P" n="98"/>Praelati. In praesenti autem est maxima, 
+          sal<lb break="no" ed="#P" n="99"/>tem quamdiu Praelatus loci aliud non indicat.
+        </p>
+        <p xml:id="szdleg-q84175-d1e1666">
+          <lb ed="#P" n="100"/>17. Addo enim ulterius, praesertim propter
+          <lb ed="#P" n="101"/>secundam probationem supra positam, posse
+          <lb ed="#P" n="102"/>Praelatum territorii prohibere ne aliquis 
+          ad<lb break="no" ed="#P" n="103"/>vena ibi utatur talibus dispensationibus sine
+          <lb ed="#P" n="104"/>sua notitia et ratihabitione, quando usus 
+          ea<lb break="no" ed="#P" n="105"/>rum est publicus, et in actibus et moribus
+          <lb ed="#P" n="106"/>communibus toti populo, quia hoc est valde
+          <lb ed="#P" n="107"/>consentaneum rationi, et, ad debitum ordinem
+          <lb ed="#P" n="108"/>et ad tollenda inconvenientia quae sequi 
+          pos<lb break="no" ed="#P" n="109"/>sent, esse potest necessarium. Tunc ergo non
+          <lb ed="#P" n="110"/>poterit quis uti tali dispensatione, sine assensu
+          <pb ed="#P" n="341"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Praelati loci, ipse autem tenebitur 
+          dispensatio<lb break="no" ed="#P" n="2"/>nem acceptare, nisi habeat legitimam causam
+          <lb ed="#P" n="3"/>praesumendi vel surreptionem vel causae 
+          mu<lb break="no" ed="#P" n="4"/>tationem. Et per hoc satisfit tertiae probationi,
+          <lb ed="#P" n="5"/>quia, interveniente legitima dispensatione,
+          <lb ed="#P" n="6"/>cessant rationes omnes quae per se pertinere
+          <lb ed="#P" n="7"/>possent ad talem obligationem ratione 
+          unifor<lb break="no" ed="#P" n="8"/>mitatis, vel consuetudinis. Ratio vero scandali
+          <lb ed="#P" n="9"/>accidentaria est, et illa semper habet locum
+          <lb ed="#P" n="10"/>in proprio territorio, ideoque semper 
+          praesup<lb break="no" ed="#P" n="11"/>ponimus hoc debere fieri sine scandalo.
+        </p>
+        <p xml:id="szdleg-q84175-d1e1721">
+          <lb ed="#P" n="12"/>18. Applicatio dictae doctrinae ad summum
+          <lb ed="#P" n="13"/>Pontificem, saltem aliquo modo. — Ultimo ex
+          <lb ed="#P" n="14"/>dictis constare facile potest quomodo haec 
+          re<lb break="no" ed="#P" n="15"/>solutio applicanda sit ad summum Pontificem,
+          <lb ed="#P" n="16"/>quatenus in eo aliquo modo locum habere 
+          po<lb break="no" ed="#P" n="17"/>test. Absolute enim ille non habet definitam
+          <lb ed="#P" n="18"/>dioecesim ut Pontifex est, sed totum 
+          univer<lb break="no" ed="#P" n="19"/>sum complectitur : non enim loquimur de illo
+          <lb ed="#P" n="20"/>ut specialiter est Episcopus Romanus habens
+          <lb ed="#P" n="21"/>propriam dioecesim, sed ut est universalis
+          <lb ed="#P" n="22"/>pastor. Unde privilegium ab eo, ut talis est,
+          <lb ed="#P" n="23"/>concessum, ubique valet, et ubique licitum est
+          <lb ed="#P" n="24"/>uti illo, quia semper talis usus est intra 
+          terri<lb break="no" ed="#P" n="25"/>torium concedentis. Imo videri potest 
+          ali<lb break="no" ed="#P" n="26"/>quando esse licitum illo uti extra territorium
+          <lb ed="#P" n="27"/>humanum, vel absolvendo jam defunctum a
+          <lb ed="#P" n="28"/>censura, vel utendo indulgentiis concessis pro
+          <lb ed="#P" n="29"/>defunctis ; sed revera nunquam usus talis 
+          pri<lb break="no" ed="#P" n="30"/>vilegii est extra territorium Papae: nam usus
+          <lb ed="#P" n="31"/>ille in terra fit, et hominibus viatoribus 
+          con<lb break="no" ed="#P" n="32"/>ceditur, ut illo, dum vivunt in terra, utantur,
+          <lb ed="#P" n="33"/>licet effectus aliquis illius usus communicetur
+          <lb ed="#P" n="34"/>defunctis, et acceptetur in coelis, quia totum
+          <lb ed="#P" n="35"/>hoc cadit sub territorium et potestatem 
+          Pon<lb break="no" ed="#P" n="36"/>üfici concessam. Et ita verum absolute est
+          <lb ed="#P" n="37"/>neminem posse uti privilegio Pontificis extra
+          <lb ed="#P" n="38"/>territorium ejus, et posse illo uti in 
+          quocum<lb break="no" ed="#P" n="39"/>que territorio alterius Praelati, vel principis.
+          <lb ed="#P" n="40"/>Solum oportet advertere quid contineatur sub
+          <lb ed="#P" n="41"/>concessione et intentione Pontificis: nam licet
+          <lb ed="#P" n="42"/>hoc totum possit, non semper facit quantum
+          <lb ed="#P" n="43"/>potest. Et ideo seepe non licet uti privilegio
+          <lb ed="#P" n="44"/>ejus, contra specialia statuta, vel 
+          consuetudi<lb break="no" ed="#P" n="45"/>nem episcopatus, non quia non possit 
+          Ponti<lb break="no" ed="#P" n="46"/>fex hoc concedere, sed quia non concedit, nisi
+          <lb ed="#P" n="47"/>exprimat per clausulam specialiter 
+          derogan<lb break="no" ed="#P" n="48"/>tem, quod secus est in jure communi, ut in
+          <lb ed="#P" n="49"/>superioribus explicatum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

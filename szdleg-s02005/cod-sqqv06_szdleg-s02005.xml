@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 37</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 37</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="405"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-s02005"><!-- l8c37 -->
+        <head xml:id="szdleg-s02005-Hd1e101">Caput 37</head>
+        <head xml:id="szdleg-s02005-Hd1e103" type="question-title">An privilegium semel concessum revocari possit a concedente, vel ab aliquo alio.</head>
+        <p xml:id="szdleg-s02005-d1e106">
+          <lb ed="#P" n="24"/>CAPUT XXXVII.
+          <lb ed="#P" n="25"/>AN PRIVILEGIUM SEMEL CONCESSUM REVOCARI
+          <lb ed="#P" n="26"/>POSSIT A CONCEDENTE, VEL AB ALIQUO ALIO.
+        </p>
+        <p xml:id="szdleg-s02005-d1e115">
+          <lb ed="#P" n="27"/>1. Revocatio, seu abrogatio privilegii. —
+          <lb ed="#P" n="28"/>Hic est ultimus modus perdendi privilegium,
+          <lb ed="#P" n="29"/>quem diximus proprie esse per actionem 
+          ex<lb break="no" ed="#P" n="30"/>trinsece agentis, a quo est revocatio seu 
+          abro<lb break="no" ed="#P" n="31"/>gatio privilegii, in quo ipso post specialem
+          <lb ed="#P" n="32"/>difficultatem prius necesse est de potestate
+          <lb ed="#P" n="33"/>dicere, et postea dicemus de actu. Est ergo
+          <lb ed="#P" n="34"/>peculiare dubium an possit privilegium 
+          revo<lb break="no" ed="#P" n="35"/>cari; et ratio dubitandi est, quia si posset,
+          <lb ed="#P" n="36"/>maxime a concedente ; sed ab illo non potest;
+          <lb ed="#P" n="37"/>ergo. Probo minorem, quia donatio semel
+          <lb ed="#P" n="38"/>facta non potest revocari a donante ; sed 
+          pri<lb break="no" ed="#P" n="39"/>vilegii concessio est quaedam donatio : ergo
+          <lb ed="#P" n="40"/>revocari non potest. In contrarium vero est
+          <lb ed="#P" n="41"/>consuetudo recepta, videmus enim quotidie
+          <lb ed="#P" n="42"/>revocari privilegia per leges pontificias, 
+          con<lb break="no" ed="#P" n="43"/>ciliares et regias.
+        </p>
+        <p xml:id="szdleg-s02005-d1e154">
+          <lb ed="#P" n="44"/>2. Distinctio praemittenda. — Prima 
+          asser<lb break="no" ed="#P" n="45"/>tio. — Privilegium concessum et acceptatum a
+          <lb ed="#P" n="46"/>non subdito irrevocabile. — ln hoc puncto,
+          <lb ed="#P" n="47"/>imprimis distinguunt doctores inter privilegia
+          <lb ed="#P" n="48"/>concessa non subdito, vel concessa subdito, et
+          <lb ed="#P" n="49"/>de illis duas assertiones consuütuunt. Prima
+          <lb ed="#P" n="50"/>est : privilegium concessum non subdito et
+          <lb ed="#P" n="51"/>ab eo acceptatum irrevocabile est a conce-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="52"/>dente. Ita docent communiter juris canonici
+          <lb ed="#P" n="53"/>interpretes in cap. Novit, de Judic.; Innoc.,
+          <lb ed="#P" n="54"/>verb. heodosius ; Panorm., n. 23 et 
+          sequen<lb break="no" ed="#P" n="55"/>tibus, ubi alios refert Decius, n. 14; et Felin.,
+          <lb ed="#P" n="56"/>n. 8 ac 10. Idem in cap. 1 de Constit., n. 19,
+          <lb ed="#P" n="57"/>verb. Alius casus est quando lem, etc., in cap.
+          <lb ed="#P" n="58"/>1 de Probat., n. 2, plurima referendo. Idem
+          <lb ed="#P" n="59"/>Hostiensis in Summa, titul. de Immunit. 
+          Ec<lb break="no" ed="#P" n="60"/>cles., S Sed nec ille ; Alvar. Pelag. , de
+          <lb ed="#P" n="61"/>planct. Ecclesiae, lib. 1, cap. 44, circa finem;
+          <lb ed="#P" n="62"/>Dried., lib. 1 de Libert. christiana, cap. 9;
+          <lb ed="#P" n="63"/>Matienz., lib. 5 Recopilat., tit. 10, I. 7, 
+          Glos<lb break="no" ed="#P" n="64"/>sa 1, n. A4; et plures refert Anton. Gabr.,
+          <lb ed="#P" n="65"/>lib. 3, tit. de Jur. quaesit. non tollendo, concl.
+          <lb ed="#P" n="66"/>6, n. 20. Ratio autem communis est, quia
+          <lb ed="#P" n="67"/>privilegium concessum non subdito et ab eo
+          <lb ed="#P" n="68"/>acceptatum transit in contractum ; ergo non
+          <lb ed="#P" n="69"/>potest fevocari. Probatur consequentia, quia
+          <lb ed="#P" n="70"/>nullus princeps habet jus privandi non 
+          sub<lb break="no" ed="#P" n="71"/>ditum rebus suis, et legitime acquisitis, 
+          unde<lb break="no" ed="#P" n="72"/>cumque ad illum pervenerint; et ideo licet
+          <lb ed="#P" n="73"/>aliquis illas receperit a principe non suo,
+          <lb ed="#P" n="74"/>postea perinde manet in illis non subditus, ac
+          <lb ed="#P" n="75"/>si aliunde illas obtinuisset; et haec ratio 
+          pro<lb break="no" ed="#P" n="76"/>bat non solum de principe respectu 
+          superio<lb break="no" ed="#P" n="77"/>ris, ut est rex respectu Papae, nec solum 
+          res<lb break="no" ed="#P" n="78"/>pectu aequalis, ut est rex respectu alterius
+          <lb ed="#P" n="79"/>regis, vel cujuscumque non recognoscentis
+          <lb ed="#P" n="80"/>superiorem in temporalibus (nam in hoc 
+          so<lb break="no" ed="#P" n="81"/>lum consideratur aequalitas), sed etiam de 
+          su<lb break="no" ed="#P" n="82"/>premo principe respectu alterius sibi non
+          <lb ed="#P" n="83"/>subditi, etiamsi alium superiorem habeat in
+          <lb ed="#P" n="84"/>temporalibus : nam hoc accidentarium est,
+          <lb ed="#P" n="85"/>et impertinens ad praedictam rationem , ob
+          <lb ed="#P" n="86"/>quam tale privilegium irrevocabile est.
+        </p>
+        <p xml:id="szdleg-s02005-d1e253">
+          <lb ed="#P" n="87"/>3. In quo sensu sit revocabile. — Dices hoc
+          <lb ed="#P" n="88"/>ad summum porocedere de ipsomet 
+          conce<lb break="no" ed="#P" n="89"/>dente, non vero de successoribus ejus, quia
+          <lb ed="#P" n="90"/>ipsi non contraxerunt, nec tenentur servare
+          <lb ed="#P" n="91"/>pacta suorum praedecessorum. Respondeo imo
+          <lb ed="#P" n="92"/>maxime teneri ad servanda pacta et 
+          conven<lb break="no" ed="#P" n="93"/>tiones justas; tum quia post pactum 
+          consum<lb break="no" ed="#P" n="94"/>matum jus est simpliciter acquisitum ei cui
+          <lb ed="#P" n="95"/>privilegrum concessum est, et ita aeque 
+          proce<lb break="no" ed="#P" n="96"/>dit ratio facta in successore, ac in ipso 
+          conce<lb break="no" ed="#P" n="97"/>dente; tum quia neque successor potest privare
+          <lb ed="#P" n="98"/>non subditum jure suo; tum etiam quia alias
+          <lb ed="#P" n="99"/>nulla pacta cum principibus supremis esse
+          <lb ed="#P" n="100"/>possent firma et perpetua, quod est contra jus
+          <lb ed="#P" n="101"/>gentium et contra rectam gubernationem et
+          <lb ed="#P" n="102"/>pacem generis humani. Quae ratio non minus
+          <lb ed="#P" n="103"/>procedit in alienatione jurisdictionis per 
+          privi<lb break="no" ed="#P" n="104"/>legium datum non subdito quam in aliis 
+          mate<lb break="no" ed="#P" n="105"/>riis, etiamsi Felinus et alii circa jurisdictionem
+          <lb ed="#P" n="106"/>hoc limitent. Est tamen circa haec privilegia
+          <pb ed="#P" n="406"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>generaliter spectandum an res concessa per
+          <lb ed="#P" n="2"/>privilegium non subdito talis sit, ut potuerit a
+          <lb ed="#P" n="3"/>principe alienari et dividi non solum a persona
+          <lb ed="#P" n="4"/>sua, sed etiam a corona seu sede sua; nam
+          <lb ed="#P" n="5"/>tunc irrevocabile manet privilegium respectu
+          <lb ed="#P" n="6"/>successorum, quia supponimus esse absolute
+          <lb ed="#P" n="7"/>et simpliciter concessum; tunc enim procedit
+          <lb ed="#P" n="8"/>ratio facta. At vero si privilegium datum esset
+          <lb ed="#P" n="9"/>de re notabiliter praejudicante successori et
+          <lb ed="#P" n="10"/>sedi, seu coronae ejus, ita ut ab eo non possit
+          <lb ed="#P" n="11"/>similiter alienari, tunc verum est privilegium
+          <lb ed="#P" n="12"/>esse revocabile, quia non est de se perpetuum,
+          <lb ed="#P" n="13"/>nec omnino absolutum, sed habet conditionem
+          <lb ed="#P" n="14"/>inclusam, si successor consenserit, vel saltem
+          <lb ed="#P" n="15"/>non revocaverit. Atque eadem ratione 
+          intelli<lb break="no" ed="#P" n="16"/>genda est assertio, rebus in eodem statu 
+          ma<lb break="no" ed="#P" n="17"/>nentibus, id est, non facta tanta rerum 
+          muta<lb break="no" ed="#P" n="18"/>üone, ut privilegium vergat in notabile 
+          detri<lb break="no" ed="#P" n="19"/>mentum regis, vel regni sui, ita ut, si a 
+          prin<lb break="no" ed="#P" n="20"/>cipio detrimentum illud intervenisset, 
+          privile<lb break="no" ed="#P" n="21"/>gium judicaretur injustum et iniquum; tunc
+          <lb ed="#P" n="22"/>enim etiam poterit princeps non servare 
+          pri<lb break="no" ed="#P" n="23"/>vilegium, quia conditio vel limitatio illa ex
+          <lb ed="#P" n="24"/>ratura rei intelligitur inclusa in prima 
+          con<lb break="no" ed="#P" n="25"/>cessione; quapropter, illa cessante, cessat 
+          obli<lb break="no" ed="#P" n="26"/>gatio servandi privilegium. Ideoque illa non
+          <lb ed="#P" n="27"/>tam erit revocatio quam declaratio quod prima
+          <lb ed="#P" n="28"/>concessio non fuerit ad illum eventum 
+          exten<lb break="no" ed="#P" n="29"/>sa, et in hoc includuntur variae limitationes
+          <lb ed="#P" n="30"/>quas juristae supra allegati adhibent praedictae
+          <lb ed="#P" n="31"/>regulae et modo praedicto intelligendae.
+        </p>
+        <p xml:id="szdleg-s02005-d1e370">
+          <lb ed="#P" n="32"/>4. Privilegium concessum subdito revocabile
+          <lb ed="#P" n="33"/>est. —Secunda assertio est privilegium 
+          conces<lb break="no" ed="#P" n="34"/>sum subdito revocabile esse a concedente. Ita
+          <lb ed="#P" n="35"/>tradunt doctores allegati, et praeterea Glossa
+          <lb ed="#P" n="36"/>in cap. Decet, de Regul. jur., in 6, ubi allegat
+          <lb ed="#P" n="37"/>multa jura canonica quae in praxi hoc 
+          osten<lb break="no" ed="#P" n="38"/>dunt; et alia allegat Glossa in Clementina
+          <lb ed="#P" n="39"/>Dudwn, de Sepultur., verbo Instante. Idem
+          <lb ed="#P" n="40"/>docet Abbas, lib. 2, cons. 3, n. 19, quaest. 19;
+          <lb ed="#P" n="41"/>Daldus, in lege Qui se patri, cod. Unde liberi;
+          <lb ed="#P" n="42"/>Paul. Castrens., in primo volumine 
+          Consilio<lb break="no" ed="#P" n="43"/>rum in 229, n. 4, et in 317, n. 3, et plures
+          <lb ed="#P" n="44"/>refert Anton. Gabr. supra, dicta conclus. 7, a
+          <lb ed="#P" n="45"/>principio. Quia vero assertio ita generatim
+          <lb ed="#P" n="46"/>posita varie limitatur a praedictis auctoribus,
+          <lb ed="#P" n="47"/>et quia in hac generalitate et confusione non
+          <lb ed="#P" n="48"/>potest propria et accommodata ratione 
+          pro<lb break="no" ed="#P" n="49"/>bari, ideo erit operae pretium singula fere
+          <lb ed="#P" n="50"/>ejus verba subdistinguere et declarare.
+        </p>
+        <p xml:id="szdleg-s02005-d1e414">
+          <lb ed="#P" n="51"/>5. Privilegium per contractum oneroswn seu
+          <lb ed="#P" n="52"/>lucrativum ; et privilegium gratuitum. — In
+          <lb ed="#P" n="53"/>quo sensu procedit doctrina tradita. — 
+          Privile<lb break="no" ed="#P" n="54"/>gium ergo imprimis distinguendum est in 
+          il<lb break="no" ed="#P" n="55"/>Iud quod datur per contractum onerosum seu
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>lucrativum, et illud quod gratis conceditur.
+          <lb ed="#P" n="57"/>Conclusio etiam, per se loquendo, non 
+          proce<lb break="no" ed="#P" n="58"/>dit in privilegio dato per contractum 
+          lucrati<lb break="no" ed="#P" n="59"/>vum , quia princeps tenetur servare pacta
+          <lb ed="#P" n="60"/>etiam cum subditis facta, quia haec obligatio
+          <lb ed="#P" n="61"/>nascitur ex naturali justitia, quae etiam 
+          prin<lb break="no" ed="#P" n="62"/>cipem obligat, ut est per se clarum. Multaque
+          <lb ed="#P" n="63"/>de hoc puncto congerit Antonius Gabriel 
+          su<lb break="no" ed="#P" n="64"/>pra, concl. 5 et 6. Dico autem per se loquendo,
+          <lb ed="#P" n="65"/>quia, in casu raro in quo posset princeps 
+          pri<lb break="no" ed="#P" n="66"/>vare subditum propriis rebus suis, etiam 
+          po<lb break="no" ed="#P" n="67"/>terit revocare privilegium, non obstante 
+          con<lb break="no" ed="#P" n="68"/>tractu, quia eadem est vel major ratio, ut
+          <lb ed="#P" n="69"/>constat. Ita tamen (ut supra in simili dixi) 
+          ma<lb break="no" ed="#P" n="70"/>gis est declaratio quam revocatio, quia a 
+          prin<lb break="no" ed="#P" n="71"/>cipio intelligitur illa conditio in privilegio 
+          in<lb break="no" ed="#P" n="72"/>clusa, etiamsi per modum contractus 
+          conces<lb break="no" ed="#P" n="73"/>sum sit, quia etiam alia bona subditorum 
+          in<lb break="no" ed="#P" n="74"/>telliguntur esse hoc modo, et pro talibus 
+          ca<lb break="no" ed="#P" n="75"/>sibus subjecta dispositioni principis. 
+          Adden<lb break="no" ed="#P" n="76"/>dum vero est in tali casu debere principem
+          <lb ed="#P" n="77"/>recompensationem facere subdito de privilegio
+          <lb ed="#P" n="78"/>ablato, quatenus commode possit. Ratio est,
+          <lb ed="#P" n="79"/>quia, licet princeps possit rescindere priorem
+          <lb ed="#P" n="80"/>contractum propter necessitatem publicam vel
+          <lb ed="#P" n="81"/>aliam urgentem causam, non tamen potest
+          <lb ed="#P" n="82"/>juste omnino privare subditum re sua sine
+          <lb ed="#P" n="83"/>ulla recompensatione, et cum hoc 
+          necessa<lb break="no" ed="#P" n="84"/>rium non sit ad commune bonum, et 
+          subdi<lb break="no" ed="#P" n="85"/>tus non teneatar gratis cedere juri suo,
+          <lb ed="#P" n="86"/>quando potest ei recompensatio fieri, cum
+          <lb ed="#P" n="87"/>princeps non sit absolutus dominus rerum
+          <lb ed="#P" n="88"/>subditi, ut egregie dicitur in l. 2, titulo 20,
+          <lb ed="#P" n="89"/>part. 2 legum Hispaniae. Ex qua lege optime
+          <lb ed="#P" n="90"/>haec veritas confirmatur, et ex 1. 31, tit. 18,
+          <lb ed="#P" n="91"/>part. 3; et Gregorius Lopez utroque loco. Et
+          <lb ed="#P" n="92"/>tradunt Paulus Castrensis, lib. 1, cons. 229,
+          <lb ed="#P" n="93"/>in fine, et Matienza supra, n. 13.
+        </p>
+        <p xml:id="szdleg-s02005-d1e512">
+          <lb ed="#P" n="94"/>6. Privilegium remunerativum irrevocabile.
+          <lb ed="#P" n="95"/>— Denique addunt fere omnes communiter
+          <lb ed="#P" n="96"/>privilegium remunerativum reduci ad illud
+          <lb ed="#P" n="97"/>quod per viam contractus obtinetur, et ideo
+          <lb ed="#P" n="98"/>esse aeque irrevocabile ; Felin. supra, n. 13;
+          <lb ed="#P" n="99"/>et Abb., d. cons. 3, versus finem, et in c. 
+          Per<lb break="no" ed="#P" n="100"/>venit, de Immunit. Ecclesiar., n. 24; Bart., in
+          <lb ed="#P" n="101"/>l. Qui semel, ff. de Decret. ab ordin. fac., in
+          <lb ed="#P" n="102"/>l. 1, c. de His qui sponte, etc., libro 10;
+          <lb ed="#P" n="103"/>Alexand., libro 2, cons. 216, in princ.; et 
+          Ol<lb break="no" ed="#P" n="104"/>drad., cons. 2606, n. 7; et late Tiraquel., in
+          <lb ed="#P" n="105"/>l. Si unqguam, verb. Donatione largitur, n. 13.
+          <lb ed="#P" n="106"/>Et ratio est, quia remuneratio continet 
+          uni<lb break="no" ed="#P" n="107"/>versale contractum; nam quod in 
+          remunera<lb break="no" ed="#P" n="108"/>tionem datur, non censetur gratis dari. Item
+          <lb ed="#P" n="109"/>quod datur cum onere et obligatione, in 
+          futu<lb break="no" ed="#P" n="110"/>rum revocari non potest, impleta conditione;
+          <pb ed="#P" n="407"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ergo idem est quando aliquid datur in 
+          remu<lb break="no" ed="#P" n="2"/>nerationem praeteriti laboris. Estque haec pars
+          <lb ed="#P" n="3"/>longe certior quando remuneratio est ex 
+          de<lb break="no" ed="#P" n="4"/>bito justitiae; quando vero est tantum ex 
+          gra<lb break="no" ed="#P" n="5"/>titudine, potest pati dubitationem, ut ex 
+          Ar<lb break="no" ed="#P" n="6"/>chid. notavit Felin., d. cap. Vocit, n. 8, in
+          <lb ed="#P" n="7"/>fine; quia sola ratio gratitudinis non sufficit
+          <lb ed="#P" n="8"/>ad proprium et rigorosum contractum. Quae
+          <lb ed="#P" n="9"/>ratio recte probat non esse tam irrevocabile
+          <lb ed="#P" n="10"/>privilegium datum ex gratitudine, sicut ex
+          <lb ed="#P" n="11"/>justitia, quia fortius est justitiae vinculum;
+          <lb ed="#P" n="12"/>unde in casu necessitatis, ac caeteris paribus,
+          <lb ed="#P" n="13"/>potius esset revocandum privilegium datum
+          <lb ed="#P" n="14"/>ex antidorali obligatione, quam datum ex
+          <lb ed="#P" n="15"/>commutativa justitia. Et si ex causa revocetur,
+          <lb ed="#P" n="16"/>forte non erit debita ex justitia recompensatio,
+          <lb ed="#P" n="17"/>sed tantum ex gratitudine , sicut fuit prior
+          <lb ed="#P" n="18"/>remuneratio. Nihilominus tamen privilegium
+          <lb ed="#P" n="19"/>remunerativum est per se irrevocabile, quia
+          <lb ed="#P" n="20"/>ipsa ratio remunerationis hoc includit, 
+          idem<lb break="no" ed="#P" n="21"/>que postulat ratio gratitudinis, nisi 
+          remunera<lb break="no" ed="#P" n="22"/>tio excessiva sit, ut in superioribus etiam est
+          <lb ed="#P" n="23"/>tactum.
+        </p>
+        <p xml:id="szdleg-s02005-d1e606">
+          <lb ed="#P" n="24"/>7. Privilegium gratuitum duplem. — Secunda
+          <lb ed="#P" n="25"/>conclusio in quo sensu procedat. —Superest 
+          di<lb break="no" ed="#P" n="26"/>cendum de privilegio gratis omnino subdito
+          <lb ed="#P" n="27"/>concesso. De quo ulterius subdistinguendum
+          <lb ed="#P" n="28"/>est. Nam quoddam consistit in absoluta 
+          dona<lb break="no" ed="#P" n="29"/>tione cum translatione dominii alicujus rei
+          <lb ed="#P" n="30"/>vel juris, ut cum conceditur castrum, vei
+          <lb ed="#P" n="31"/>jus vectigalium aut alterius tributi, aut 
+          servi<lb break="no" ed="#P" n="32"/>tutis. Aliud vero est privilegium, consistens
+          <lb ed="#P" n="33"/>tantum in facultate vel licentia operandi 
+          ali<lb break="no" ed="#P" n="34"/>quid praeter commune jus. Secunda igitur 
+          as<lb break="no" ed="#P" n="35"/>sertio posita non intelligitur procedere 
+          abso<lb break="no" ed="#P" n="36"/>lute in priori genere privilegiorum : nam illa
+          <lb ed="#P" n="37"/>etiam irrevocabilia esse censentur, per se 
+          lo<lb break="no" ed="#P" n="38"/>quendo, et sine legitima causa. Ita docent 
+          Pa<lb break="no" ed="#P" n="39"/>norm., Deci., Archid., Felin. et alii, in dicto
+          <lb ed="#P" n="40"/>cap. JVovit; et alii quos refert Anton. Gabr.,
+          <lb ed="#P" n="41"/>dicta concl. 7, n. 3 et 5. Ratio vero est, quia
+          <lb ed="#P" n="42"/>non potest princeps suo arbitrio et voluntate
+          <lb ed="#P" n="43"/>rem a subdito tollere, cujus verum 
+          domi<lb break="no" ed="#P" n="44"/>nium habet, seu jus in eam acquisitum, ut
+          <lb ed="#P" n="45"/>late per Anton. Gabr. supra, concl. 1; quia
+          <lb ed="#P" n="46"/>etiam princeps tenetur justitiam servare, ut
+          <lb ed="#P" n="47"/>non auferat rem invito domino rationabiliter.
+          <lb ed="#P" n="48"/>Et eadem ratione non potest princeps suo 
+          ar<lb break="no" ed="#P" n="49"/>bitrio revocare donationem subdito factam,
+          <lb ed="#P" n="50"/>per quam in illum dominium transtulit, alias
+          <lb ed="#P" n="51"/>non fuisset donatio, sed commodatio, vel 
+          con<lb break="no" ed="#P" n="52"/>cessio precario: certum est autem posse vere
+          <lb ed="#P" n="53"/>donare et transferre dominium in subditum:
+          <lb ed="#P" n="54"/>ergo, faeta donatione, succedit praedicta 
+          obli<lb break="no" ed="#P" n="55"/>gatio naturalis justitiae ; ergo idem in privile-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>gio, quando res per illud concessa in verum
+          <lb ed="#P" n="57"/>dominium subdit transivit.
+        </p>
+        <p xml:id="szdleg-s02005-d1e684">
+          <lb ed="#P" n="58"/>8. Donatio est quidam contractus. — 
+          Limi<lb break="no" ed="#P" n="59"/>tatio quorumdam doctorum non multum 
+          ne<lb break="no" ed="#P" n="60"/>cessaria. — Atque ita haec pars fere habet
+          <lb ed="#P" n="61"/>eamdem rationem quam praecedens, quia
+          <lb ed="#P" n="62"/>etiam donatio est quidam contractus qui, 
+          post<lb break="no" ed="#P" n="63"/>quam consummatus est, obligat jure gentium
+          <lb ed="#P" n="64"/>et naturali ad non violandum illum. Unde
+          <lb ed="#P" n="65"/>declarationes adhibitae in praecedenti puncto,
+          <lb ed="#P" n="66"/>in hoc etiam locum habent; quia non solum
+          <lb ed="#P" n="67"/>in concedente, sed etiam in successore haec
+          <lb ed="#P" n="68"/>assertio locum habet, quia de illo procedit
+          <lb ed="#P" n="69"/>eadem ratio, saltem ratione dominii acquisiti
+          <lb ed="#P" n="70"/>a subdito. Oportet autem supponere potuisse
+          <lb ed="#P" n="71"/>antecessorem absolutam donationem et 
+          per<lb break="no" ed="#P" n="72"/>petuam talis rei facere, ut supra declaratum
+          <lb ed="#P" n="73"/>est. Et hac observatione adhibita, non 
+          vide<lb break="no" ed="#P" n="74"/>tur multum necessaria limitatio quam 
+          ftre<lb break="no" ed="#P" n="75"/>quenter adhibent citati doctores, scilicet, ut
+          <lb ed="#P" n="76"/>assertio non procedat in concessione 
+          juris<lb break="no" ed="#P" n="77"/>dictionis per privilegium. Nam si jurisdictio
+          <lb ed="#P" n="78"/>absolute donari potest gratis, sicut per 
+          feu<lb break="no" ed="#P" n="79"/>dum vel alium similem contractum potest
+          <lb ed="#P" n="80"/>transferri, non erit admittenda exceptio 
+          quo<lb break="no" ed="#P" n="81"/>ad illum gradum et modum in quo jurisdictio
+          <lb ed="#P" n="82"/>potest alienari. Si vero sit sermo de suprema
+          <lb ed="#P" n="83"/>jurisdictione, quam a se non potest abdicare
+          <lb ed="#P" n="84"/>princeps respectu subditi, sic verum est quod
+          <lb ed="#P" n="85"/>per limitationem intenditur : illa vero non
+          <lb ed="#P" n="86"/>est propria limitatio, quia illa non est 
+          dona<lb break="no" ed="#P" n="87"/>tio, sed commissio tantum , seu delegatio
+          <lb ed="#P" n="88"/>jurisdictionis quae semper revocari potest.
+        </p>
+        <p xml:id="szdleg-s02005-d1e755">
+          <lb ed="#P" n="89"/>9. Ex causa legitima privilegium revocari
+          <lb ed="#P" n="90"/>potest. — Denique per hanc assertionem non
+          <lb ed="#P" n="91"/>excluditur quin ex legitima causa possit 
+          prin<lb break="no" ed="#P" n="92"/>ceps tale privilegium revocare, sicut etiam
+          <lb ed="#P" n="93"/>ex causa potest privare subditum jure 
+          ac<lb break="no" ed="#P" n="94"/>quisito, vel rei alicujus dominio. Oportet 
+          ta<lb break="no" ed="#P" n="95"/>men ut talis causa ad commune bonum 
+          per<lb break="no" ed="#P" n="96"/>tineat et moraliter necessaria sit; similis ergo
+          <lb ed="#P" n="97"/>in praesenti requiritur. Probabile autem mihi
+          <lb ed="#P" n="98"/>est in revocatione hujus privilegii gratuit
+          <lb ed="#P" n="99"/>ex causa legitima, non esse necessariam 
+          re<lb break="no" ed="#P" n="100"/>compensationem, et quoad hoc firmius esse
+          <lb ed="#P" n="101"/>privilegium ex contractu oneroso 
+          compara<lb break="no" ed="#P" n="102"/>tum, quam gratis receptum. Quia in oneroso
+          <lb ed="#P" n="103"/>obligat ad recompensationem res ipsa recepta
+          <lb ed="#P" n="104"/>a principe propter privilegium , in gratuito
+          <lb ed="#P" n="105"/>vero solum potest obligare donatio et 
+          volun<lb break="no" ed="#P" n="106"/>tas principis ; verisimile autem est, cum 
+          prin<lb break="no" ed="#P" n="107"/>ceps gratis donat privilegium, non se 
+          obli<lb break="no" ed="#P" n="108"/>gare ad non revocandum, etiam ex legitima
+          <lb ed="#P" n="109"/>causa, sine recompensatione, quia si talis 
+          cau<lb break="no" ed="#P" n="110"/>sa in principio extitisset, nec donasset, nec
+          <pb ed="#P" n="408"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rem aliam loco illius daret, quia non est hoc
+          <lb ed="#P" n="2"/>intrinsecum liberali donationi, sicut esse 
+          vi<lb break="no" ed="#P" n="3"/>detur contractui includenti commutationem
+          <lb ed="#P" n="4"/>rei ad rem, vel ad laborem, cum aliqua 
+          aequa<lb break="no" ed="#P" n="5"/>litate; et ideo in hoc non videntur servare
+          <lb ed="#P" n="6"/>similitudinem sicut in caeteris servant. Et hoc
+          <lb ed="#P" n="7"/>videtur sensisse Deci. in dicto cap. Novit,
+          <lb ed="#P" n="8"/>n. 1, verb. Quarto fallit, ubi alios refert et
+          <lb ed="#P" n="9"/>exponit.
+        </p>
+        <p xml:id="szdleg-s02005-d1e829">
+          <lb ed="#P" n="10"/>10. Privilegium gratuitum quomodo 
+          revo<lb break="no" ed="#P" n="11"/>cari potest. — Papa non potest dispensationem
+          <lb ed="#P" n="12"/>in voto revocare. — Secunda igitur assertio
+          <lb ed="#P" n="13"/>superius posita simpliciter procedit in 
+          privi<lb break="no" ed="#P" n="14"/>legio gratuito, manente in pura ratione 
+          pri<lb break="no" ed="#P" n="15"/>vilegii, id est, facultatis et licentiae praeter
+          <lb ed="#P" n="16"/>vel contra commune jus; nam hoc potest a
+          <lb ed="#P" n="17"/>concedente revocari omnino libere et sine
+          <lb ed="#P" n="18"/>causa, saltem cogente aut necessitatem 
+          in<lb break="no" ed="#P" n="19"/>ducente. Ita explicant omnes auctores citati,
+          <lb ed="#P" n="20"/>quos late congerit , et ita etiam explicat 
+          An<lb break="no" ed="#P" n="21"/>ton. Augustin., dicto cap. 7, n. 1. Et in hoc
+          <lb ed="#P" n="22"/>sensu probant assertionem consuetudo et 
+          om<lb break="no" ed="#P" n="23"/>nia jura allegata in dictis Glossis. Ratio vero
+          <lb ed="#P" n="24"/>est, quia hoc privilegium non transit in 
+          do<lb break="no" ed="#P" n="25"/>minium subditi, et ita semper pendet ex 
+          vo<lb break="no" ed="#P" n="26"/>luntate principis; per illam ergo potest 
+          revo<lb break="no" ed="#P" n="27"/>cari. Item quia licet superior auferat 
+          praece<lb break="no" ed="#P" n="28"/>ptum , potest iterum illud ponere, sicut, e
+          <lb ed="#P" n="29"/>converso, potest auferre praeceptum quod 
+          an<lb break="no" ed="#P" n="30"/>tea posuit ; ergo eadem ratione potest libere
+          <lb ed="#P" n="31"/>revocare hujusmodi privilegium, quia haec
+          <lb ed="#P" n="32"/>revocatio nihil aliud est quam iterata 
+          impo<lb break="no" ed="#P" n="33"/>sitio virtualis praecepti prius sublati, vel 
+          vir<lb break="no" ed="#P" n="34"/>tualis prohibitio ejus quod antea 
+          concedeba<lb break="no" ed="#P" n="35"/>tur: unde hoc modo potest etiam Papa 
+          re<lb break="no" ed="#P" n="36"/>vocare dispensationem, verbi gratia, in 
+          ma<lb break="no" ed="#P" n="37"/>trimonio priusquam matrimonium fiat, quia
+          <lb ed="#P" n="38"/>potest impedimentum sublatum restituere :
+          <lb ed="#P" n="39"/>non potest autem revocare dispensationem
+          <lb ed="#P" n="40"/>factam in voto, quia non potest vinculum
+          <lb ed="#P" n="41"/>voti reparare aut praecipere. Dices, si 
+          privi<lb break="no" ed="#P" n="42"/>legium hoc fuit legitime datum, contra 
+          ra<lb break="no" ed="#P" n="43"/>uonem videri illud revocare sine causa, 
+          idem<lb break="no" ed="#P" n="44"/>que est de dispensatione : ergo non potest
+          <lb ed="#P" n="45"/>absolute dici posse revocari sine causa. 
+          Res<lb break="no" ed="#P" n="46"/>pondeo, dupliciter intelligi valet illud posse;
+          <lb ed="#P" n="47"/>primo, ita ut revocatio valida fiat, et hoc est
+          <lb ed="#P" n="48"/>praecipue intentum, et convincitur rationibus
+          <lb ed="#P" n="49"/>factis : et quia talis revocatio non continet
+          <lb ed="#P" n="50"/>injuriam, saltem contra commutativam 
+          justi<lb break="no" ed="#P" n="51"/>tiam, et ita in hoc potissimum consistit 
+          diffe<lb break="no" ed="#P" n="52"/>rentia inter hoc punctum et praecedentia.
+          <lb ed="#P" n="53"/>Secundo, potest intelligi ut etiam licitc fiat,
+          <lb ed="#P" n="54"/>et sic necessaria quidem est aliqua honesta
+          <lb ed="#P" n="55"/>causa ut revocatio decenter fiat, quia non
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>decet principem revocare privilegium a se
+          <lb ed="#P" n="57"/>concessum, nulla nova insurgente causa, 
+          ar<lb break="no" ed="#P" n="58"/>gumento cap. Decet, de Regul. jur., in 6, et
+          <lb ed="#P" n="59"/>significatur in cap. Suggestum, de Decim.
+          <lb ed="#P" n="60"/>Unde si princeps id faciat, actus profecto
+          <lb ed="#P" n="61"/>non erit undique honestus, quia indecenter
+          <lb ed="#P" n="62"/>operari aliqua culpa esse videtur, saltem 
+          ve<lb break="no" ed="#P" n="63"/>nialis. Ex hoc vero solo capite nunquam erit
+          <lb ed="#P" n="64"/>mortalis : secus vero esse potest ratione 
+          scan<lb break="no" ed="#P" n="65"/>dali, aut odii, vel gravis nocumenti proximi,
+          <lb ed="#P" n="66"/>quod licet injuste non inferatur, contra 
+          cha<lb break="no" ed="#P" n="67"/>ritatem non vitatur, cum facile possit: in
+          <lb ed="#P" n="68"/>his enim casibus poterit esse culpa lethalis,
+          <lb ed="#P" n="69"/>extra illos vero ad summum erit venialis, et
+          <lb ed="#P" n="70"/>si quaelibet ratio honesta intercedat et 
+          in<lb break="no" ed="#P" n="71"/>tendatur, nullum erit peccatum.
+        </p>
+        <p xml:id="szdleg-s02005-d1e968">
+          <lb ed="#P" n="72"/>11. Circa concedentem notandwun.—Dubimn.
+          <lb ed="#P" n="73"/>—Atque ex his satis declarata est assertio
+          <lb ed="#P" n="74"/>quoad illos duos terminos, de privilegio 
+          revo<lb break="no" ed="#P" n="75"/>cabili. Circa ultimam vero de concedente, 
+          adno<lb break="no" ed="#P" n="76"/>tandum imprimis est designari concedentem
+          <lb ed="#P" n="77"/>ad excludendum omnem inferiorem, quia non
+          <lb ed="#P" n="78"/>potest inferior voluntatem superioris, vel 
+          de<lb break="no" ed="#P" n="79"/>cretum ejus revocare, ut per se notum 
+          vide<lb break="no" ed="#P" n="80"/>tur, licet Joan. Faber aliter sentiat, de quo
+          <lb ed="#P" n="81"/>vide Anton. Gabr., dicta conclus. 7, n. 8.
+          <lb ed="#P" n="82"/>Deinde adverto sub illo comprehendi 
+          succes<lb break="no" ed="#P" n="83"/>sorem, ut late notat Afflict., decis. 399, quia
+          <lb ed="#P" n="84"/>succedit in aequali potestate, imo moraliter
+          <lb ed="#P" n="85"/>est una et eadem, neque in ea potest persona
+          <lb ed="#P" n="86"/>praecedens succedenti praejudicare. Item est
+          <lb ed="#P" n="87"/>certum hoc maxime habere locum in 
+          conce<lb break="no" ed="#P" n="88"/>dente habente supremam potestatem in suo
+          <lb ed="#P" n="89"/>ordine, ut est Papa, rex, etc. De inferioribus
+          <lb ed="#P" n="90"/>vero habentibus superiorem, dubitari 
+          impri<lb break="no" ed="#P" n="91"/>mis potest an ipsemet concedens possit 
+          revo<lb break="no" ed="#P" n="92"/>care sine causa privilegium a se concessum.
+          <lb ed="#P" n="93"/>Aliqui enim negant, limitando in hoc 
+          conclu<lb break="no" ed="#P" n="94"/>sionem ut procedat in non recognoscentibus
+          <lb ed="#P" n="95"/>superiorem, non autem in aliis. Ita Joan. 
+          Fa<lb break="no" ed="#P" n="96"/>ber, in l. Jussio, c. de Judic.. Ruin., cons.
+          <lb ed="#P" n="97"/>230, n. 9, volum. 1, quos refert et sequitur
+          <lb ed="#P" n="98"/>Anton. Gabr. supra, n. 9.
+        </p>
+        <p xml:id="szdleg-s02005-d1e1029">
+          <lb ed="#P" n="99"/>12. Regula praedicta generaliter defendenda.
+          <lb ed="#P" n="100"/>—Hi vero auctores nullam rationem aut 
+          fun<lb break="no" ed="#P" n="101"/>damentum afferunt suae sententiae, neque ego
+          <lb ed="#P" n="102"/>illud reperio, nec ratjonem differentiae, si cum
+          <lb ed="#P" n="103"/>proportione fiat comparatio. Et ideo dico 
+          re<lb break="no" ed="#P" n="104"/>gulam datam, ut posita est de tali privilegio
+          <lb ed="#P" n="105"/>et intra illius limites sistendo, locum habere
+          <lb ed="#P" n="106"/>in quolibet concedente, etiamsi supremus
+          <lb ed="#P" n="107"/>princeps non sit, dummodo proportio 
+          serve<lb break="no" ed="#P" n="108"/>tur. Probatur, quia Praelatus vel Princeps 
+          in<lb break="no" ed="#P" n="109"/>ferior solum potest concedere privilegium in
+          <lb ed="#P" n="110"/>re quae a sua potestaie et voluntate pendeat,
+          <pb ed="#P" n="409"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et non deroget juri superioris, sed ad 
+          sum<lb break="no" ed="#P" n="2"/>mum solis legibus ipsiusmet inferioris 
+          conce<lb break="no" ed="#P" n="3"/>dentis, ut in superioribus ostensum est; ergo
+          <lb ed="#P" n="4"/>potest revocare privilegium suo arbitrio, sicut
+          <lb ed="#P" n="5"/>illud concedere potest sua voluntate.
+        </p>
+        <p xml:id="szdleg-s02005-d1e1073">
+          <lb ed="#P" n="6"/>13. Probatur consequentia, quia rationes
+          <lb ed="#P" n="7"/>factae de supremo principe cum proportione
+          <lb ed="#P" n="8"/>procedunt, quia tale privilegium etiam pendet
+          <lb ed="#P" n="9"/>ex voluntate concedentis, et quia ille potest
+          <lb ed="#P" n="10"/>iterum ponere praeceptum, vel prohibitionem
+          <lb ed="#P" n="11"/>quae abstulit : nam illius subsunt potestati.
+          <lb ed="#P" n="12"/>Dixi autem intra limites illius sistendo, quia
+          <lb ed="#P" n="13"/>tractamus de privilegio mere gratuito, et
+          <lb ed="#P" n="14"/>quod non transit in contractum vel 
+          donatio<lb break="no" ed="#P" n="15"/>nem transferentem dominium in alterum:
+          <lb ed="#P" n="16"/>nam hoc cum sit irrevocabile a principe 
+          su<lb break="no" ed="#P" n="17"/>premo, multo magis erit ab inferiori; imo in
+          <lb ed="#P" n="18"/>casu in quo potest revocari a supremo, saepius
+          <lb ed="#P" n="19"/>non poterit ab inferiori, quia non habet 
+          tan<lb break="no" ed="#P" n="20"/>tam potestatem inferior princeps ad 
+          tollen<lb break="no" ed="#P" n="21"/>dum dominium vel jus acquisitum subdito
+          <lb ed="#P" n="22"/>quantam habet supremus in casu publicae 
+          ne<lb break="no" ed="#P" n="23"/>cessitatis. Posui etiam eadem verba, ut 
+          sista<lb break="no" ed="#P" n="24"/>mus in puro privilegio inferioris : nam si 
+          il<lb break="no" ed="#P" n="25"/>Iud sit confirmatum a superiori, ratione 
+          con<lb break="no" ed="#P" n="26"/>firmationis et juxta modum ejus poterit fieri
+          <lb ed="#P" n="27"/>Iqrrevocabile ab inferiori, ut cum Hostiens.
+          <lb ed="#P" n="28"/>tradit Sylvest., verb. Privilegium, quaest. 10;
+          <lb ed="#P" n="29"/>antelligendum est autem juxta superius dicta
+          <lb ed="#P" n="30"/>de lege, 1. 6, cap. 18. Denique dixi servata
+          <lb ed="#P" n="31"/>proportione, ut comparatio fiat inter privilegia
+          <lb ed="#P" n="32"/>unicuique propria : nam si commutentur, erit
+          <lb ed="#P" n="33"/>dissimilitudo, ut statim explicabo.
+        </p>
+        <p xml:id="szdleg-s02005-d1e1136">
+          <lb ed="#P" n="34"/>14. Objectio. —Objici enim potest quia 
+          infe<lb break="no" ed="#P" n="35"/>rior Praelatus non semper potest revocare sine
+          <lb ed="#P" n="36"/>causa dispensationem a se datam, licet Papa
+          <lb ed="#P" n="37"/>semper id possit: ergo idem discrimen quoad
+          <lb ed="#P" n="38"/>privilegia constituendum est. Consequentia
+          <lb ed="#P" n="39"/>patet a paritate rationis. Antecedens vero
+          <lb ed="#P" n="40"/>quoad posteriorem partem de Papa tanquam
+          <lb ed="#P" n="41"/>certum supponitur, quoad alteram vero de
+          <lb ed="#P" n="42"/>inferiori Praelato sumitur ex Glossa in cap.
+          <lb ed="#P" n="43"/>Cwn ea eo, de Elect., in 6, verb. Septennium,
+          <lb ed="#P" n="44"/>dicente non posse Episcopum revocare 
+          licen<lb break="no" ed="#P" n="45"/>tiam datam parocho sibi subdito, ad non 
+          resi<lb break="no" ed="#P" n="46"/>dendum vel sacerdotii ordinem differendum
+          <lb ed="#P" n="47"/>per septennium. Quam Glossam ibi sequuntur
+          <lb ed="#P" n="48"/>Archid., Dom. et Franc., et Roman., singul.
+          <lb ed="#P" n="49"/>511. Respondeo differentiam esse inter 
+          dis<lb break="no" ed="#P" n="50"/>pensationem et privilegium inferioris, quia
+          <lb ed="#P" n="51"/>inferior solum potest concedere privilegium
+          <lb ed="#P" n="52"/>juri suo derogans, dispensare autem non 
+          so<lb break="no" ed="#P" n="53"/>lum potest in jure suo, sed etiam saepe in jure
+          <lb ed="#P" n="54"/>superioris. Si ergo antecedens intellgatur de
+          <lb ed="#P" n="55"/>dispensatione inferioris in jure proprio, fal-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sum est: nam potest ab illo sine causa 
+          revo<lb break="no" ed="#P" n="57"/>cari, et quia haec dispensatio servat 
+          proportio<lb break="no" ed="#P" n="58"/>nem ad privilegium, inde potest retorqueri
+          <lb ed="#P" n="59"/>argumentum, quia sicut haec dispensatio 
+          revo<lb break="no" ed="#P" n="60"/>cari potest, ita et privilegium. Si vero sit 
+          ser<lb break="no" ed="#P" n="61"/>mo de dispensatione in lege superioris, 
+          pro<lb break="no" ed="#P" n="62"/>babile quidem est antecedens; tamen illo dato
+          <lb ed="#P" n="63"/>negatur consequentia, quia inferior non 
+          con<lb break="no" ed="#P" n="64"/>cedit privilegium conitra legem superioris, et
+          <lb ed="#P" n="65"/>ita non servatur proportio, nec comparatio. Et
+          <lb ed="#P" n="66"/>ratio assignari potest, quia dispensatio data
+          <lb ed="#P" n="67"/>ab inferiori in lege superioris non ita pendet
+          <lb ed="#P" n="68"/>ex arbitrio ipsius inferioris, sicut dispensatio
+          <lb ed="#P" n="69"/>in lege propria, et idem est de privilegio; tum
+          <lb ed="#P" n="70"/>quia per dispensationem in lege superioris
+          <lb ed="#P" n="71"/>tollitur illa lex respectu dispensati, et non
+          <lb ed="#P" n="72"/>potest inferior legem superioris semel 
+          abla<lb break="no" ed="#P" n="73"/>tam iterum ponere, sicut potest facere in 
+          pro<lb break="no" ed="#P" n="74"/>pria ; tum etiam quia inferior non dispensat
+          <lb ed="#P" n="75"/>in lege superioris, nisi ex tacita vel expressa
+          <lb ed="#P" n="76"/>concessione superioris, quae concessio forte
+          <lb ed="#P" n="77"/>facta est ad dispensandum, non ad 
+          revocan<lb break="no" ed="#P" n="78"/>dam dispensationem ; et ideo semel facta non
+          <lb ed="#P" n="79"/>videtur ita pendere ex voluntate illius, sicut
+          <lb ed="#P" n="80"/>pendet dispensatio ant privilegium circa 
+          pro<lb break="no" ed="#P" n="81"/>priam legem.
+        </p>
+        <p xml:id="szdleg-s02005-d1e1246">
+          <lb ed="#P" n="82"/>15. De potestate inferioris ad revocandum
+          <lb ed="#P" n="83"/>privilegium vel dispensationem in lege 
+          supe<lb break="no" ed="#P" n="84"/>rioris. —Addo vero satis probabile esse posse
+          <lb ed="#P" n="85"/>inferiorem revocare suam dispensationem 
+          da<lb break="no" ed="#P" n="86"/>tam in lege superioris, ita ut sit valida 
+          revo<lb break="no" ed="#P" n="87"/>catio facta etiam sine causa, licet non bene
+          <lb ed="#P" n="88"/>fiat. Quia licet dispensando tollat legem 
+          supe<lb break="no" ed="#P" n="89"/>rioris, non tamen absolute, sed dependenter
+          <lb ed="#P" n="90"/>a sua voluntate, seu sub conditione tacita,
+          <lb ed="#P" n="91"/>nisi aliud jussero, vel nisi revocavero: nam
+          <lb ed="#P" n="92"/>haec conditio, licet non exprimatur, videtur
+          <lb ed="#P" n="93"/>intrinsece inclusa, quamdiu non excluditur.
+          <lb ed="#P" n="94"/>Quia revera est possibilis et non turpis, sed
+          <lb ed="#P" n="95"/>honesta, et ita pendet ex voluntate Praelati,
+          <lb ed="#P" n="96"/>quia nunquam praesumitur abdicare a se
+          <lb ed="#P" n="97"/>suam potestatem. Nec refert quod potestas sit
+          <lb ed="#P" n="98"/>concessa a superiore, nam saepe data est per
+          <lb ed="#P" n="99"/>ordinariam jurisdictionem , et ita eumdem
+          <lb ed="#P" n="100"/>habet usum quoad hanc dependentiam, et 
+          li<lb break="no" ed="#P" n="101"/>cet interdum sit delegata, pendet in usu et in
+          <lb ed="#P" n="102"/>modo illius ex libera voluntate habentis. Et
+          <lb ed="#P" n="103"/>ideo Hostiensis in Summa, lib. 3, tit. de Cleric.
+          <lb ed="#P" n="104"/>non resid., circa finem, attingens hoc 
+          punc<lb break="no" ed="#P" n="105"/>tum, solum dixit: JVon debet revocari, quod
+          <lb ed="#P" n="106"/>verbum non dicit impotentiam, sed 
+          indecen<lb break="no" ed="#P" n="107"/>tiam, et potius videtur supponere potestatem : -
+          <lb ed="#P" n="108"/>et forte Glossa et alii doctores non amplius
+          <lb ed="#P" n="109"/>voluerunt; non enim dicunt revocationem non
+          <lb ed="#P" n="110"/>fore validam, sed non posse fieri, utique juste
+          <pb ed="#P" n="410"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et bene. Qui sensus colligi potest ex his quae
+          <lb ed="#P" n="2"/>Glossa allegat, scilicet, regulam Decet, et cap.
+          <lb ed="#P" n="3"/>Hz tua, de Fil. Presbyt., ubi textus solum
+          <lb ed="#P" n="4"/>dicit: IVolumus irritari, et Glossa dicit non
+          <lb ed="#P" n="5"/>esse irritandam, et magis loquuntur de ipso
+          <lb ed="#P" n="6"/>Papa.
+        </p>
+        <p xml:id="szdleg-s02005-d1e1329">
+          <lb ed="#P" n="7"/>16. Alia explicatio.— Dispensatio data pro
+          <lb ed="#P" n="8"/>tempore definito quando potest revocari.—Vvel
+          <lb ed="#P" n="9"/>certe dici potest dispensationem datam ab
+          <lb ed="#P" n="10"/>inferiori in lege superioris cum tractu 
+          succes<lb break="no" ed="#P" n="11"/>sivo, et sine iemporis determinatione, posse
+          <lb ed="#P" n="12"/>revocari sine causa, quia tunc maxime 
+          proce<lb break="no" ed="#P" n="13"/>dit discursus factus : nam ipsamet 
+          indetermi<lb break="no" ed="#P" n="14"/>natio temporis suam trahit dependentiam a
+          <lb ed="#P" n="15"/>voluntate concedentis. At vero quando data
+          <lb ed="#P" n="16"/>est pro tempore definito, probabile est non
+          <lb ed="#P" n="17"/>posse valide revocari sine causa ante illud
+          <lb ed="#P" n="18"/>tempus ; in quo casu loquuntur dicti auctores
+          <lb ed="#P" n="19"/>et favet cap. unic. de Commodato, ubi dicitur
+          <lb ed="#P" n="20"/>rem ad certum usum vel tempus 
+          commoda<lb break="no" ed="#P" n="21"/>tam non posse antea repeti, et pro ratione
+          <lb ed="#P" n="22"/>redditur: Cum non deceat beneficio nos decipi,
+          <lb ed="#P" n="23"/>sed juvari ; quanquam haec verba magis 
+          pro<lb break="no" ed="#P" n="24"/>bent indecentiam quam impotentiam. Rhatio
+          <lb ed="#P" n="25"/>tamen pro altera parte facta in hoc casu 
+          ma<lb break="no" ed="#P" n="26"/>gis urget, quia dispensatio data pro definito
+          <lb ed="#P" n="27"/>tempore simul valuit pro toto illo, durante
+          <lb ed="#P" n="28"/>causa, et ita pro toto illo abstulit legem 
+          su<lb break="no" ed="#P" n="29"/>perioris, quam inferior postea restituere non
+          <lb ed="#P" n="30"/>potest, nec quod semel factum est infectum
+          <lb ed="#P" n="31"/>reddere. Sicut etiam non potest retractare
+          <lb ed="#P" n="32"/>dispensationem quae in momento habuit 
+          effec<lb break="no" ed="#P" n="33"/>tum, ut dispensando in impedimento ad 
+          pe<lb break="no" ed="#P" n="34"/>tendum debitum, vel quid simile, quia non
+          <lb ed="#P" n="35"/>potest iterum impedimentum tale reparare.
+        </p>
+        <p xml:id="szdleg-s02005-d1e1394">
+          <lb ed="#P" n="36"/>11. Privilegium concessum ab inferiori 
+          po<lb break="no" ed="#P" n="37"/>test à superiori revocari. — Requiritur justa
+          <lb ed="#P" n="38"/>causa. — Ultimo, eirca eamdem partem de
+          <lb ed="#P" n="39"/>revocatione privilegii a concedente, potest e
+          <lb ed="#P" n="40"/>contrario interrogari an privilegium 
+          conces<lb break="no" ed="#P" n="41"/>sum ab inferiori possit a superiori revocari.
+          <lb ed="#P" n="42"/>In quo certum est ex juxta causa posse et 
+          va<lb break="no" ed="#P" n="43"/>lide et licite, quia superior revocare potest
+          <lb ed="#P" n="44"/>legem inferioris, quia habet altiorem 
+          juris<lb break="no" ed="#P" n="45"/>dictionem, cui inferior subordinatur; ergo
+          <lb ed="#P" n="46"/>maxime id potest ex justa causa. Secundo,
+          <lb ed="#P" n="47"/>est certum id non recte fieri a superiore sine
+          <lb ed="#P" n="48"/>causa justa, quia est contra debitum ordinem,
+          <lb ed="#P" n="49"/>et non sine injuria inferioris Praelati, nec sine
+          <lb ed="#P" n="50"/>detrimento subditorum, per se loquendo ac
+          <lb ed="#P" n="51"/>regulariter. Dubitari ergo tantum potest an
+          <lb ed="#P" n="52"/>talis revocatio, sine justa causa facta, 
+          va<lb break="no" ed="#P" n="53"/>lida sit. In quo breviter dico, si revocatio fiat
+          <lb ed="#P" n="54"/>a Papa, esse validam, quia ab illo pendet 
+          om<lb break="no" ed="#P" n="55"/>nis jurisdictio inferiorum. Si autem fiat ab
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>inferiori Praelato, videtur probabile esse 
+          inva<lb break="no" ed="#P" n="57"/>lidam, quia talis superior non potest privare
+          <lb ed="#P" n="58"/>inferiorem sua ordinaria jurisdictione, sine
+          <lb ed="#P" n="59"/>causa justa et pro sua voluntate. Unde si id
+          <lb ed="#P" n="60"/>facere tentet, non habebit effectum, quia 
+          ex<lb break="no" ed="#P" n="61"/>cedit suam potestatem ; ergo idem est in 
+          pro<lb break="no" ed="#P" n="62"/>posito, quia privilegium conceditur ab 
+          infe<lb break="no" ed="#P" n="63"/>riori Praelato ex ordinaria potestate. Et ita in
+          <lb ed="#P" n="64"/>simili censui, quando injustitia est manifesta,
+          <lb ed="#P" n="65"/>in 4 tom., disput. 26, sect. 3, n. 1, et sequitur
+          <lb ed="#P" n="66"/>Sanci., cicta disput. 33, n. 7. Intelligendum
+          <lb ed="#P" n="67"/>autem est, nisi ubi ex peculiari instituto 
+          fue<lb break="no" ed="#P" n="68"/>rit major dependentia inferioris a superiori
+          <lb ed="#P" n="69"/>Praelato, juxta dicta supra de Legib., lib. 6,
+          <lb ed="#P" n="70"/>cap. 15.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

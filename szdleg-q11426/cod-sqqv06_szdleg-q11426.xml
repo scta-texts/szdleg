@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="46"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q11426"><!-- l6c10 -->
+        <head xml:id="szdleg-q11426-Hd1e101">Caput 10</head>
+        <head xml:id="szdleg-q11426-Hd1e103" type="question-title">Darine possit dispensatio in lege humana et quid illa sit.</head>
+        <p xml:id="szdleg-q11426-d1e106">
+          <lb ed="#P" n="40"/>CAPUT X.
+          <lb ed="#P" n="41"/>DARINE POSSIT DISPENSATIO IN LEGE HUMANA ET
+          <lb ed="#P" n="42"/>QUID ILLA SIT.
+        </p>
+        <p xml:id="szdleg-q11426-d1e115">
+          <lb ed="#P" n="43"/>1. Dispensatio, abrogatio. — Postquam de
+          <lb ed="#P" n="44"/>cessatione legis dictum est, sequitur dicendum
+          <lb ed="#P" n="45"/>de mutatione ejus seu ablatione per actionem
+          <lb ed="#P" n="46"/>extrinseci agentis habentis potestatem ad 
+          tol<lb break="no" ed="#P" n="47"/>lendam; quae duplex etiam esse potest, scilicet,
+          <lb ed="#P" n="48"/>partialis, quam nunc comprehendimus nomine
+          <lb ed="#P" n="49"/>dispensationis , et latius dici potest derogatio
+          <lb ed="#P" n="50"/>legis ; et totalis, quae dicitur legis abrogatio.
+          <lb ed="#P" n="51"/>De hac posteriori dicemus postea, hic vero de
+          <lb ed="#P" n="52"/>priori tractamus , et non de omni, quia non
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>omnis derogatio legis est propria dispensatio,
+          <lb ed="#P" n="54"/>ut explicabimus , sed de illa tantum quae 
+          pro<lb break="no" ed="#P" n="55"/>priam dispensationis rationem habeat , sub
+          <lb ed="#P" n="56"/>qua nunc commutationem comprehendimus;
+          <lb ed="#P" n="57"/>nam ad dispensationem reducitur , ut capite
+          <lb ed="#P" n="58"/>sequenti declarabo. Unde supponere oportet
+          <lb ed="#P" n="59"/>dispensationem de qua tractamus diversam
+          <lb ed="#P" n="60"/>omnino esse ab interpretatione quae per 
+          epii<lb break="no" ed="#P" n="61"/>kiam fit, sive in casu evidente aut probabili,
+          <lb ed="#P" n="62"/>sive in casu dubio, in quo auctoritas superioris
+          <lb ed="#P" n="63"/>postulatur. Licet enim haec nomina soleant
+          <lb ed="#P" n="64"/>confundi, distingui nihilominus debent, ut in
+          <lb ed="#P" n="65"/>discursu latius et commodius explicabo. 
+          Epii<lb break="no" ed="#P" n="66"/>kia enim non est actus jurisdictionis, sed 
+          doc<lb break="no" ed="#P" n="67"/>trinae et prudentiae, ut supra visum est : 
+          dis<lb break="no" ed="#P" n="68"/>pensatio autem de qua tractamus est actus 
+          ju<lb break="no" ed="#P" n="69"/>risdictionis, ut videbimus. Interpretatio autem
+          <lb ed="#P" n="70"/>in casu omnino dubio, licet praeter 
+          pruden<lb break="no" ed="#P" n="71"/>tiam jurisdictionem requirat , non supponit
+          <lb ed="#P" n="72"/>obligationem legis certam, sed potius in dubio
+          <lb ed="#P" n="73"/>declarat illam cessasse , non autem in rigore
+          <lb ed="#P" n="74"/>aufert illam. Dispensatio autem de qua 
+          tracta<lb break="no" ed="#P" n="75"/>mus supponit obligationem legis etiam certam,
+          <lb ed="#P" n="76"/>et fertur ad tollendam obligationem, etiamsi
+          <lb ed="#P" n="77"/>praexistat. Unde fit ut in lege divina habeat
+          <lb ed="#P" n="78"/>locum intcrpretatio hominis, etiam in casu
+          <lb ed="#P" n="79"/>dubio, non vero dispensatio, ut infra lib. 7 
+          di<lb break="no" ed="#P" n="80"/>cam; at vero in lege humana non 
+          inter<lb break="no" ed="#P" n="81"/>pretatio tantum in casu dubio, sed etiam 
+          pro<lb break="no" ed="#P" n="82"/>prissima dispensatio in casibus in quibus de
+          <lb ed="#P" n="83"/>praexistente legis obligatione nulla poterat
+          <lb ed="#P" n="84"/>esse dubitatio, concedi per hominem potest.
+          <lb ed="#P" n="85"/>9. Superior dispensare potest cum certa 
+          per<lb break="no" ed="#P" n="86"/>sona, lege obligante quoad alias. — Et quidem
+          <lb ed="#P" n="87"/>quod ad rem spectat, nullus dubitare potest
+          <lb ed="#P" n="88"/>quin obligatio legis humanae certo praexistens
+          <lb ed="#P" n="89"/>et ligans talem personam possit per 
+          superio<lb break="no" ed="#P" n="90"/>rem ex causa auferri, manente obligatione 
+          le<lb break="no" ed="#P" n="91"/>gis in reliqua communitate. Ita communiter
+          <lb ed="#P" n="92"/>doctores, et primum allegari possunt omnes
+          <lb ed="#P" n="93"/>qui de voto hoc asserunt, quos retuli lib. 6 de
+          <lb ed="#P" n="94"/>Voto, c. 9. Deinde de lege idem tradunt 
+          Du<lb break="no" ed="#P" n="95"/>rand. in 1, d. 41, q. 4, n. 6; hichard., in 4,
+          <lb ed="#P" n="96"/>d. 17, a. 2, q. 1; Scot., in 3, d. 37; et ibiGabr.,
+          <lb ed="#P" n="97"/>not. 3; Soto, lib. 1 de Justit., q. 7, art. 3;
+          <lb ed="#P" n="98"/>Ledesm., in 4, 2 d, q. 5, art. 6, et q. 17, art.
+          <lb ed="#P" n="99"/>3; optime Turrecremat., in c. Sicut quedam,
+          <lb ed="#P" n="100"/>d. 14, et in 8 isi rigor, post cap. Requiritis,
+          <lb ed="#P" n="101"/>1. q. 7; Rebuf. in Pract., p. 2, tit. de 
+          Dispen<lb break="no" ed="#P" n="102"/>sat., n. 1et 2, ubi alios canonistas refert ; 
+          Co<lb break="no" ed="#P" n="103"/>var. in 4, 2 p., cap. 6, S9, n. 42, ubi alios
+          <lb ed="#P" n="104"/>etiam refert, et idem supponit Navar. in Sum.,
+          <lb ed="#P" n="105"/>praelud. 9, n. 17. Et res est manifestissima tam
+          <lb ed="#P" n="106"/>in jure quam in usu. Hac enim ratione 
+          Augus<lb break="no" ed="#P" n="107"/>tinus, Epist. 50, dispensationem vocavit vulnus
+          <pb ed="#P" n="47"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>contra integritatem severitatis , et habetur in
+          <lb ed="#P" n="2"/>cap. Ipsa pietas , § Si inquirat, 93, q. A; et
+          <lb ed="#P" n="3"/>Gelas. Papa, in cap. Necessaria rerum 
+          dispen<lb break="no" ed="#P" n="4"/>satione, 1, q. i, vocat illam relaxationem, 
+          mo<lb break="no" ed="#P" n="5"/>derationem ac temperamentum canonum 
+          pa<lb break="no" ed="#P" n="6"/>ternorum, quae fieri potest diligenti 
+          considera<lb break="no" ed="#P" n="7"/>tione adhibita; sic etiam dixit Cyrillus in epist.
+          <lb ed="#P" n="8"/>ad Gennadi.: Dispensationes nomnunguamn 
+          co<lb break="no" ed="#P" n="9"/>gunt parum a debito exire ; et infra: 
+          Dispensa<lb break="no" ed="#P" n="10"/>Liomun modus nulli sapientum displicuit , cap.
+          <lb ed="#P" n="11"/>Dispensationes, 1, q. 1, prout in decreto 
+          grego<lb break="no" ed="#P" n="12"/>riano habetur ; et similia sumuntur ex cap.
+          <lb ed="#P" n="13"/>Tanía , et cap. Si qui, eademque et aperte
+          <lb ed="#P" n="14"/>ex cap. De multa, de Praebend., ubi post 
+          rigo<lb break="no" ed="#P" n="15"/>rosam prohibitionem de pluritate beneficiorum
+          <lb ed="#P" n="16"/>subditur : Circa sublimes tamen, et litteratas
+          <lb ed="#P" n="17"/>personas, qua majoribus sunt beneficiis 
+          bono<lb break="no" ed="#P" n="18"/>rande, cum ratio postulaverit, poterit per 
+          se<lb break="no" ed="#P" n="19"/>dem apostolicam dispensari.
+        </p>
+        <p xml:id="szdleg-q11426-d1e306">
+          <lb ed="#P" n="20"/>3. Unde etiam aperte hoc confirmat usus ;
+          <lb ed="#P" n="21"/>nam certe cum Papa dat licentiam alicui 
+          ha<lb break="no" ed="#P" n="22"/>bendi plura beneficia, non declarat in illo 
+          ces<lb break="no" ed="#P" n="23"/>sasse legem ex praexistente causa , idemque
+          <lb ed="#P" n="24"/>in lege jejunii, in modo observandi censuras,
+          <lb ed="#P" n="25"/>et in alis privilegiis evidenter quotidie fit.
+          <lb ed="#P" n="26"/>Unde incredibile est D. Thomam, 1. 2, q. 97,
+          <lb ed="#P" n="27"/>art. 4, intellexisse in legum relaxatione solum
+          <lb ed="#P" n="28"/>habere locum interpretationem in casu dubio,
+          <lb ed="#P" n="29"/>non vero rigorosam dispensationem per 
+          abla<lb break="no" ed="#P" n="30"/>tionem obligationis certo praexistentis, ut
+          <lb ed="#P" n="31"/>aliqui il imponunt; et in eamdem 
+          senten<lb break="no" ed="#P" n="32"/>tiam allegatur Cajetan. ibid., et Anton., 1p.,
+          <lb ed="#P" n="33"/>tit. 17, S 20; incredibile (inquam) est in re
+          <lb ed="#P" n="34"/>tam clara tales theologos, et praesertim D. 
+          Tho<lb break="no" ed="#P" n="35"/>mam hallucinasse. Unde D. Thomas, quodlib.
+          <lb ed="#P" n="36"/>19, art. 15, expresse dicit : Dispensatio 
+          hu<lb break="no" ed="#P" n="37"/>moana non aufert ligamen legis naturalis , sed
+          <lb ed="#P" n="38"/>positive. Auferre autem ligamen non est 
+          in<lb break="no" ed="#P" n="39"/>terpretari. Item hoc modo etiam potest 
+          inter<lb break="no" ed="#P" n="40"/>pretatio humana authentica auferre ligamen
+          <lb ed="#P" n="41"/>juris naturalis in casu dubio; et in dicta q. 96,
+          <lb ed="#P" n="42"/>art. 6, ad 3, negat cadere in jus divinun 
+          dis<lb break="no" ed="#P" n="43"/>pensationem, cum tamen id non posset de 
+          in<lb break="no" ed="#P" n="44"/>terpretatione negare. Idem latius quodlib. 4,
+          <lb ed="#P" n="45"/>art. 13. Denique in 4, dist. 38, quaest. 1, a. 4,
+          <lb ed="#P" n="46"/>expresse distinguit dispensationem per 
+          mo<lb break="no" ed="#P" n="47"/>dum relaxationis juris vel per modum 
+          decla<lb break="no" ed="#P" n="48"/>rationis, et primam etiam admittit in voto, et
+          <lb ed="#P" n="49"/>in dicto cap. 9 ostendi nunquam D. Thomam
+          <lb ed="#P" n="50"/>muiasse illam sententiam, et modum 
+          loquen<lb break="no" ed="#P" n="51"/>di ejus in illa materia declaravi. Idem ergo
+          <lb ed="#P" n="52"/>a fortiori sentit de lege, et ita etiam in dicto
+          <lb ed="#P" n="53"/>art. 6 exponendus est, ut magis staium 
+          expo<lb break="no" ed="#P" n="54"/>nam. Et Antonin. clare idem sentit. Nec 
+          Caje<lb break="no" ed="#P" n="55"/>tanus aliud docuit quam D. Thomas. Adde fa-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>teri Cajetanum dispensationem in lege humana
+          <lb ed="#P" n="57"/>sine causa datam esse validam; at illa non 
+          po<lb break="no" ed="#P" n="58"/>test fieri per declarationem, ut est per se 
+          evi<lb break="no" ed="#P" n="59"/>dens; ergo. Unde omnes qui idem tenent, quos
+          <lb ed="#P" n="60"/>infra referemus , hoc idem necessario 
+          sen<lb break="no" ed="#P" n="61"/>tiunt.
+        </p>
+        <p xml:id="szdleg-q11426-d1e403">
+          <lb ed="#P" n="62"/>4. Quod ergo ad rem spectat, certum est
+          <lb ed="#P" n="63"/>propriam dispensationem legis cadere in 
+          le<lb break="no" ed="#P" n="64"/>gem obligantem et tollere obligationem ejus
+          <lb ed="#P" n="65"/>in particulari casu vel persona; et ratio est
+          <lb ed="#P" n="66"/>clara, quia sicut lex humana a voluntate 
+          hu<lb break="no" ed="#P" n="67"/>mana orta est, ita per eamdem tolli potest, et
+          <lb ed="#P" n="68"/>quia ad humanam gubernationem erat haec
+          <lb ed="#P" n="69"/>potestas necessaria in hominibus, ut infra 
+          la<lb break="no" ed="#P" n="70"/>tius dicetur. Quod vero spectat ad nomen 
+          dis<lb break="no" ed="#P" n="71"/>pensationis, negari non potest quin late soleat
+          <lb ed="#P" n="72"/>etiam interpretationem significare : nam 
+          com<lb break="no" ed="#P" n="73"/>munis usus sapientum id observat, ut constat
+          <lb ed="#P" n="74"/>ex D. Thoma et Bonaventura A, d. 38; Scot.,
+          <lb ed="#P" n="75"/>Gabr., Duran., Anton. et aliis, et ex Specula.,
+          <lb ed="#P" n="76"/>tit. de Dispensatio., S 1, et fere ex communi
+          <lb ed="#P" n="77"/>usu canonistarum. Hoc autem nihil obstat
+          <lb ed="#P" n="78"/>propositae veritati quam de re ipsa 
+          explicui<lb break="no" ed="#P" n="79"/>mus.
+        </p>
+        <p xml:id="szdleg-q11426-d1e445">
+          <lb ed="#P" n="80"/>5. Ut autem haec resolutio et tota materia
+          <lb ed="#P" n="81"/>exactius declaretur, ratio propria 
+          dispensatio<lb break="no" ed="#P" n="82"/>nis accuratius declaranda est. Et imprimis
+          <lb ed="#P" n="83"/>supponimus dispensationis vocem ex primaria
+          <lb ed="#P" n="84"/>impositione distributionem seu 
+          administratio<lb break="no" ed="#P" n="85"/>nem significare; nam dispensator in latina
+          <lb ed="#P" n="86"/>proprietate administratorem domus vel 
+          fami<lb break="no" ed="#P" n="87"/>liae significat, cujus est dispensatio; quae 
+          si<lb break="no" ed="#P" n="88"/>gnificatio non solum in jure civili, l. 
+          Dispen<lb break="no" ed="#P" n="89"/>satori, ff. de Solut., et 1. Urbana, 166, de
+          <lb ed="#P" n="90"/>Verborum significatione ; sed etiam in 
+          Testa<lb break="no" ed="#P" n="91"/>mento veteri est valde usitata, Genes., 43,
+          <lb ed="#P" n="92"/>A44, et 3 Reg. 18. In novo autem Testamento
+          <lb ed="#P" n="93"/>translata est haec vox ad significandum 
+          spe<lb break="no" ed="#P" n="94"/>cialem et ecclesiaticum administratorem , ut
+          <lb ed="#P" n="95"/>Lucae cap. 19: Quis putas est fidelis 
+          dispensa<lb break="no" ed="#P" n="96"/>tor et prudens, quem constituit Dominus super
+          <lb ed="#P" n="97"/>familiam suam ; hoc est ergo munus 
+          dispen<lb break="no" ed="#P" n="98"/>satoris ; actus vero declaratur dum subditur:
+          <lb ed="#P" n="99"/>Ut det illis in tempore tritici mensuram - 
+          dis<lb break="no" ed="#P" n="100"/>tributio ergo munerum, actionum et 
+          bono<lb break="no" ed="#P" n="101"/>rum Domini inter eos qui sunt de familia,
+          <lb ed="#P" n="102"/>generaliter dici potest dispensatio. Et sic
+          <lb ed="#P" n="103"/>Apostoli et eorum successores dicuntur 
+          dis<lb break="no" ed="#P" n="104"/>pensatores mysteriorum Dei, 1 Corinth. 4, et
+          <lb ed="#P" n="105"/>1 Pet. 4; et actus respondens illi muneri 
+          dici<lb break="no" ed="#P" n="106"/>tur dispensatio, 1 Corinth.9 : Dispensatio miha
+          <lb ed="#P" n="107"/>credita est, in qua significatione etiam 
+          Evan<lb break="no" ed="#P" n="108"/>gelii praedicatio dispensauo dicitur, ut ex 
+          eo<lb break="no" ed="#P" n="109"/>dem loco constat, et ex Michaele Papa, in cap.
+          <lb ed="#P" n="110"/>Dispensatio, dist. 43; et sacramentorum minis-
+          <pb ed="#P" n="48"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tratio, et tota Ecclesiae gubernatio dici potest
+          <lb ed="#P" n="2"/>dispensatio multiformis gratiae Dei. Unde 
+          Pe<lb break="no" ed="#P" n="3"/>trus, postquam dixit : Socut boni dispensatores,
+          <lb ed="#P" n="4"/>subdit : Si quis loquitur quasi sermones Dei,
+          <lb ed="#P" n="5"/>si quis ministrat tanquam ex virtute, quam
+          <lb ed="#P" n="6"/>administrat Deus. Sic etiam iudulgentiarum
+          <lb ed="#P" n="7"/>distributio dicitur dispensatio thesauri in 
+          Ex<lb break="no" ed="#P" n="8"/>travagante Unigenitus, de Poenitentia et 
+          re<lb break="no" ed="#P" n="9"/>missione.
+        </p>
+        <p xml:id="szdleg-q11426-d1e539">
+          <lb ed="#P" n="10"/>6. Dispensatio est actus jwrisdictionis.—Ex
+          <lb ed="#P" n="11"/>hac ergo generalitate applicata est vox 
+          dispen<lb break="no" ed="#P" n="12"/>satio ad significandum actum quo quis ab 
+          obli<lb break="no" ed="#P" n="13"/>gatione legis eximitur, et quia unus modus
+          <lb ed="#P" n="14"/>esse potest per interpretationem, ideo potuit
+          <lb ed="#P" n="15"/>etiam in ea significatione usurpari. Tamen in
+          <lb ed="#P" n="16"/>hac etiam significatione sumpta non 
+          quam<lb break="no" ed="#P" n="17"/>cumque interpretationem legis, sed illam 
+          so<lb break="no" ed="#P" n="18"/>lam quae in casu dubio et per potestatem 
+          supe<lb break="no" ed="#P" n="19"/>rioris datur ad liberandum subditum ab 
+          obli<lb break="no" ed="#P" n="20"/>gatione legis, significat; quia haec tantum est
+          <lb ed="#P" n="21"/>actus administrationis et potestatis a Deo 
+          com<lb break="no" ed="#P" n="22"/>missae. Et illa tantum tollit aliquo modo onus
+          <lb ed="#P" n="23"/>legis, quod sine tali potestate auferri non 
+          pos<lb break="no" ed="#P" n="24"/>set. Unde merito dixit Rom., cons. 325, n. 12,
+          <lb ed="#P" n="25"/>dispensationem esse actum jurisdictionis, ubi
+          <lb ed="#P" n="26"/>in scholio hoc late confirmatur. Denicue multo
+          <lb ed="#P" n="27"/>magis certum est nomen dispensationis in jure
+          <lb ed="#P" n="28"/>tractum esse ad significandam ablationem 
+          vin<lb break="no" ed="#P" n="29"/>culi legis in aliquo particulari casu. Quin 
+          po<lb break="no" ed="#P" n="30"/>tius in materia legum et juris illa vox 
+          simph<lb break="no" ed="#P" n="31"/>citer dicta quasi per antonomasiam significat
+          <lb ed="#P" n="32"/>hujusmodi relationem. Et ita nos nunc illa 
+          uti<lb break="no" ed="#P" n="33"/>mur, nec timemus Latinorum reprehensionem,
+          <lb ed="#P" n="34"/>qui hanc vocem barbaram esse dicunt : nam
+          <lb ed="#P" n="35"/>unaquaeque ars habet facultatem instituendi
+          <lb ed="#P" n="36"/>propria vocabula quae suo usui deserviant. 
+          Ad<lb break="no" ed="#P" n="37"/>vertit autem Decius in c. At si clerici, S De
+          <lb ed="#P" n="38"/>adulteriis, de Judic., n. 3, hanc vocis 
+          usurpa<lb break="no" ed="#P" n="39"/>tionem jure canonico introductam esse ; nam
+          <lb ed="#P" n="40"/>An jure civili non invenitur, praeterquam in
+          <lb ed="#P" n="41"/>libro de Pace constant., in princ., ubi pro 
+          gra<lb break="no" ed="#P" n="42"/>tia aut remissione poenae sumitur, quae solet in
+          <lb ed="#P" n="43"/>jure civili indulgentia appellari, ut notavit
+          <lb ed="#P" n="44"/>Bald. in dicto c. At si clerici. Verumtamen ,
+          <lb ed="#P" n="45"/>quia nomen indulgentiae secundum 
+          ecclesiasti<lb break="no" ed="#P" n="46"/>cum usum jam habet aliam accommodationem,
+          <lb ed="#P" n="47"/>ut suo loco explicuimus, et liberatio a lege, quae
+          <lb ed="#P" n="48"/>per interpretationem puram fit, alia nomina
+          <lb ed="#P" n="49"/>habet aequitatis, epiikiae vel interpretationis,
+          <lb ed="#P" n="50"/>ideo merito nomen dispensationis in dicta 
+          si<lb break="no" ed="#P" n="51"/>gnificatione nunc usurpatur.
+        </p>
+        <p xml:id="szdleg-q11426-d1e633">
+          <lb ed="#P" n="52"/>1. Dispensationis definitio. — Atque hinc
+          <lb ed="#P" n="53"/>facile est definire dispensationem, de qua 
+          trac<lb break="no" ed="#P" n="54"/>tamus. Ex definitionibus autem quae 
+          circum<lb break="no" ed="#P" n="55"/>ferri solent haec videtur sufficiens ; Dispensatio
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>est legis humanae relawatio. Nam, licet 
+          dispen<lb break="no" ed="#P" n="57"/>satio latius pateat, tamen, ut de illa nunc 
+          trac<lb break="no" ed="#P" n="58"/>tamus, ad illam definitionem coarctanda est
+          <lb ed="#P" n="59"/>et per illam sufficienter explicatur. Quaedam
+          <lb ed="#P" n="60"/>vero Glossa addit, esse relaxationem juris 
+          com<lb break="no" ed="#P" n="61"/>munis factam cum causae cognitione ab eoqui
+          <lb ed="#P" n="62"/>jus habet dispensandi, in 8 Cum cause 
+          cogni<lb break="no" ed="#P" n="63"/>lione, esse de necessitate dispensationis, et 
+          po<lb break="no" ed="#P" n="64"/>test sumi ex Panorm. in c. 2 de Schismati.,
+          <lb ed="#P" n="65"/>cap. 4, et sentit Navar. in Sum., praelud. 9,
+          <lb ed="#P" n="66"/>n. 15, et alii quos late refert Sanci., lib. 8 de
+          <lb ed="#P" n="67"/>Matrim., disp. 1, n. 2. Sed absque dubio illa
+          <lb ed="#P" n="68"/>particula non est ponenda in definitione; nam
+          <lb ed="#P" n="69"/>datur vera dispensatio sine causae cognitione,
+          <lb ed="#P" n="70"/>ut postea dicemus, et tandem fatetur Panorm.
+          <lb ed="#P" n="71"/>supra, et ideo particulam illam abstulerunt
+          <lb ed="#P" n="72"/>Bart., cons. 18, volum. 2; Deci. in dicto S De
+          <lb ed="#P" n="73"/>adulteriis ; et Oldrad., cons. 327; et Freder.
+          <lb ed="#P" n="74"/>Sen., cons. 30, qui omnes absolute sic 
+          defi<lb break="no" ed="#P" n="75"/>niunt : Dispensatio est juris communis 
+          relaza<lb break="no" ed="#P" n="76"/>tio. Atque ita omittunt etiam causam 
+          efficien<lb break="no" ed="#P" n="77"/>tem, nec immerito, tum quia est intrinseca,
+          <lb ed="#P" n="78"/>tum etiam quia in relaxatione ipsa continetur:
+          <lb ed="#P" n="79"/>si enim non fit a potestatem habente, non erit
+          <lb ed="#P" n="80"/>relaxatio ; tum denique quia quaedam nugatio
+          <lb ed="#P" n="81"/>committitur, cum dispensatio definitur per
+          <lb ed="#P" n="82"/>potestatem dispensandi , et melius diceretur
+          <lb ed="#P" n="83"/>ab habente potestatem supra ipsum jus.
+        </p>
+        <p xml:id="szdleg-q11426-d1e707">
+          <lb ed="#P" n="84"/>8. Praeterea melius dici videtur juris 
+          hu<lb break="no" ed="#P" n="85"/>mani quam juris communis, quia dispensatio
+          <lb ed="#P" n="86"/>de qua tractamus etiam potest cadere in 
+          sta<lb break="no" ed="#P" n="87"/>tuta et quascumque alias leges, licet in jure
+          <lb ed="#P" n="88"/>communi non contineantur. Responderi 
+          au<lb break="no" ed="#P" n="89"/>tem potest ex Rebuft., tit. de Dispens., n. 20,
+          <lb ed="#P" n="90"/>dispensationem dari in jure communi, in 
+          sta<lb break="no" ed="#P" n="91"/>tutis vero et regulis dari indultum : per illud
+          <lb ed="#P" n="92"/>enim non dicitur jus solvi, imo saepe redditur
+          <lb ed="#P" n="93"/>ad commune jus. Sed non video rationem 
+          ho<lb break="no" ed="#P" n="94"/>rum verborum ; nam relaxatio statuti revera
+          <lb ed="#P" n="95"/>est dispensatio, et relaxatio juris communis
+          <lb ed="#P" n="96"/>dici potest indultum : nam hoc nomen 
+          gene<lb break="no" ed="#P" n="97"/>ricum est, ut infra de privilegiis dicemus. Et
+          <lb ed="#P" n="98"/>saepéSstatutum non est contra jus commune:
+          <lb ed="#P" n="99"/>unde per relaxationem ejus non redditur ad
+          <lb ed="#P" n="100"/>jus commune; item statutum simpliciter est
+          <lb ed="#P" n="101"/>jus pro tali communitate : ergo relaxatio est
+          <lb ed="#P" n="102"/>propria dispensatio. Imo, licet statutum sit
+          <lb ed="#P" n="103"/>contra jus commune, ejus relaxatio erit 
+          dis<lb break="no" ed="#P" n="104"/>pensatio respectu eorum qui ligantur stàátuto,
+          <lb ed="#P" n="105"/>licet sit dispensatio magis favorabilis quam
+          <lb ed="#P" n="106"/>aliae quae omni modo juri repugnant. Denique,
+          <lb ed="#P" n="107"/>quamvis dari possit dispensatio in votis, in 
+          ju<lb break="no" ed="#P" n="108"/>ramentis et in matrimonio rato, quae videntur
+          <lb ed="#P" n="109"/>attingere jus divinum, nihilominus illas 
+          dis<lb break="no" ed="#P" n="110"/>pensationes nunc excludimus, et omnes quae
+          <pb ed="#P" n="49"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in jus divinum vel naturale, sive a Deo, sive
+          <lb ed="#P" n="2"/>ab homine dari aut cogitari possunt, quia (ut
+          <lb ed="#P" n="3"/>dixi) de illis nunc non tractamus. In proposita
+          <lb ed="#P" n="4"/>ergo definitione relaxatio ponitur loco generis,
+          <lb ed="#P" n="5"/>quia dispensatio revera est solutio quaedam, et
+          <lb ed="#P" n="6"/>remissio ; quia vero aliae sunt species 
+          remissio<lb break="no" ed="#P" n="7"/>num, additur per modum differentiae particula
+          <lb ed="#P" n="8"/>juris humani, ad excludendas omnes alias 
+          re<lb break="no" ed="#P" n="9"/>laxationes, et per eamdem excluditur 
+          indulgen<lb break="no" ed="#P" n="10"/>tia ecclesiastica, quae licet sit relaxatio alicujus
+          <lb ed="#P" n="11"/>vinculi, et reatus, non est relaxatio juris 
+          hu<lb break="no" ed="#P" n="12"/>mani, sed est remissio cujusdam reatus, quae
+          <lb ed="#P" n="13"/>primo ac per se fit apud Deum , quamvis ex
+          <lb ed="#P" n="14"/>illa sequi possit ablatio alicujus praecepti positi
+          <lb ed="#P" n="15"/>ab homine injungentis poenitentiam, ut ex 
+          ma<lb break="no" ed="#P" n="16"/>teria de Indulgentiis constat.
+        </p>
+        <p xml:id="szdleg-q11426-d1e807">
+          <lb ed="#P" n="17"/>9. Distinguitur dispensatio ab absolutione.
+          <lb ed="#P" n="18"/>—Deinde (quod notandum est) per illam 
+          par<lb break="no" ed="#P" n="19"/>üculam distinguitur dispensatio ab absolutione
+          <lb ed="#P" n="20"/>a censuris, vel alia simili, quamvis aliqui 
+          in<lb break="no" ed="#P" n="21"/>terdum ita illas confundant et putent 
+          dispen<lb break="no" ed="#P" n="22"/>sationem esse absolutionem, et in rescriptis
+          <lb ed="#P" n="23"/>apostolicis sub illa comprehendi, quia absolutio
+          <lb ed="#P" n="24"/>a censura, verbi gratia, est relaxatio vinculi per
+          <lb ed="#P" n="25"/>legem humanam introducti et impositi. Haec
+          <lb ed="#P" n="26"/>vero sententia falsa est, quia in indultis 
+          pon<lb break="no" ed="#P" n="27"/>tificiis haec duo distinguuntur, et concessa 
+          po<lb break="no" ed="#P" n="28"/>testate absolvendi non censetur concessa 
+          po<lb break="no" ed="#P" n="29"/>testas dispensandi, nec e contrario: ergo illa
+          <lb ed="#P" n="30"/>duo longe differunt. Absolutio enim non datur
+          <lb ed="#P" n="31"/>contra jus, sed secundum jus, unde in illa
+          <lb ed="#P" n="32"/>nulla fit juris relaxatio: dispensatio autem
+          <lb ed="#P" n="33"/>datur conira jus, ut ex dictis constat. Recte
+          <lb ed="#P" n="34"/>ergo dicimus in definitione illa per 
+          posterio<lb break="no" ed="#P" n="35"/>rem particulam absolutionem excludi, quia
+          <lb ed="#P" n="36"/>non est relaxatio juris humani, sed alterius
+          <lb ed="#P" n="37"/>vinculi, quod licet saepe per jus humanum sit
+          <lb ed="#P" n="38"/>inductum vel impositum, per absolutionem
+          <lb ed="#P" n="39"/>non tollitur contra jus, sed secundum jus, et
+          <lb ed="#P" n="40"/>ita per absolutionem non relaxatur jus. Et hoc
+          <lb ed="#P" n="41"/>sensit Gloss. in cap. Cupientes, S Ceterum, de
+          <lb ed="#P" n="42"/>Elect.. in verb. Suspensos, dicens de 
+          absolu<lb break="no" ed="#P" n="43"/>tione a censura: Vere loquendo ibi pena non
+          <lb ed="#P" n="44"/>removetur (utique contra jus), sed quod jus
+          <lb ed="#P" n="45"/>statuit removetur, quamvis paulo superius 
+          ea<lb break="no" ed="#P" n="46"/>dem Glossa improprie utatur nomine 
+          absolu<lb break="no" ed="#P" n="47"/>Uonis pro remissione poenae ad certum 
+          tem<lb break="no" ed="#P" n="48"/>pus impositae, ante tempus impletum: nam illa
+          <lb ed="#P" n="49"/>revera potius est dispensatio. Et idem in re
+          <lb ed="#P" n="50"/>sentit Panorm. in c. Tam litteris, de Testibus,
+          <lb ed="#P" n="51"/>n. 3, licet voces non explicuerit.
+        </p>
+        <p xml:id="szdleg-q11426-d1e886">
+          <lb ed="#P" n="52"/>10. Potestque res ipsa facile declarari, quia
+          <lb ed="#P" n="53"/>absolutio sive a peccatis, sive a censuris, seu
+          <lb ed="#P" n="54"/>poenis, non datur nisi supposita dispositione
+          <lb ed="#P" n="55"/>ex parte poenitentis , et potestate ex parte
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>absolventis. Tunc autem nulla lex per talem
+          <lb ed="#P" n="57"/>actum relaxatur ; nam potius lex praecipit 
+          poe<lb break="no" ed="#P" n="58"/>nitentem absolvi in eo eventu, ut est 
+          manifes<lb break="no" ed="#P" n="59"/>tum in absolutione a peccatis. Idem autem
+          <lb ed="#P" n="60"/>cum proportione est in absolutione a censura,
+          <lb ed="#P" n="61"/>quia censura de se non est poena perpetua, vel
+          <lb ed="#P" n="62"/>ad definitum tempus, sed donec a contumacia
+          <lb ed="#P" n="63"/>recedatur, quia est poena medicinalis, et ideo
+          <lb ed="#P" n="64"/>in sua intrinseca ratione includit ut, ablata
+          <lb ed="#P" n="65"/>contumacia, ipsa etiam tollatur, et ita jura 
+          dis<lb break="no" ed="#P" n="66"/>ponunt ; illa ergo ablatio non est dispensatio
+          <lb ed="#P" n="67"/>in aliqua lege, sed potius legis executio. Ergo
+          <lb ed="#P" n="68"/>absolutio in hoc recte distinguitur a 
+          dispensa<lb break="no" ed="#P" n="69"/>tione, quod illa est sententia quaedam per quam
+          <lb ed="#P" n="70"/>(si clavis non erret) non vulneratur lex, nec
+          <lb ed="#P" n="71"/>minuitur jus, sed potius executioni mandatur:
+          <lb ed="#P" n="72"/>dispensatio vero non est sententia, sed actus
+          <lb ed="#P" n="73"/>quidam jurisdictionis voluntariae quo 
+          vulne<lb break="no" ed="#P" n="74"/>ratur lex, dum ex parte tollitur, ut optime
+          <lb ed="#P" n="75"/>docuit D. Thomas, in A, dist. 20, quaest. 14,
+          <lb ed="#P" n="76"/>art, 5, quaest. 4, ad 3: inde colligens aliam
+          <lb ed="#P" n="77"/>differentiam inter absolutionem et 
+          dispensa<lb break="no" ed="#P" n="78"/>tionem, quod idem non potest absolvere 
+          se<lb break="no" ed="#P" n="79"/>ipsum, potest tamen idem secum dispensare,
+          <lb ed="#P" n="80"/>ut infra dicetur; possumus etiam ex dictis
+          <lb ed="#P" n="81"/>aliam differentiam colligere inter 
+          dispensatio<lb break="no" ed="#P" n="82"/>nem et absolutionem, quodilla est stricti juris,
+          <lb ed="#P" n="83"/>ut infra dicetur, haec vero est juris favorabilis
+          <lb ed="#P" n="84"/>et ampliabilis, quia est secundum jus.
+        </p>
+        <p xml:id="szdleg-q11426-d1e962">
+          <lb ed="#P" n="85"/>11. Samplex licentia non potest dici 
+          dispen<lb break="no" ed="#P" n="86"/>satio.—Praeterea per eamdem particulam 
+          de<lb break="no" ed="#P" n="87"/>finitionis excluditur simplex licentia, quae non
+          <lb ed="#P" n="88"/>potest dici dispensatio, nec contra jus, sed
+          <lb ed="#P" n="89"/>secundum jus. Illam enim voco simplicem 
+          fa<lb break="no" ed="#P" n="90"/>cultatem per quam revera non aufertur 
+          obli<lb break="no" ed="#P" n="91"/>gatio legis, sed conceditur operatio ut fiat juxta
+          <lb ed="#P" n="92"/>modum a lege praescriptum. Quod etiam est
+          <lb ed="#P" n="93"/>necessarium advertere, quia in multis legibus
+          <lb ed="#P" n="94"/>potest aliquis facultatem concedere qui non
+          <lb ed="#P" n="95"/>potest dispensare, et valde diversa causa solet
+          <lb ed="#P" n="96"/>requiri ad similem facultatem concedendam,
+          <lb ed="#P" n="97"/>vel ad dispensandum. Exempla esse possunt,
+          <lb ed="#P" n="98"/>verbi gratia, in voto paupertatis: nam 
+          Praela<lb break="no" ed="#P" n="99"/>tus religionis potest dare licentiam ad aliquid
+          <lb ed="#P" n="100"/>donandum, non tamen potest dispensare in
+          <lb ed="#P" n="101"/>paupertate, c. Cum ad monasteriumn, de Statu
+          <lb ed="#P" n="102"/>Monach. Similiter Episcopus potest dare 
+          fa<lb break="no" ed="#P" n="103"/>cultatem ad ingrediendum monasterium 
+          mo<lb break="no" ed="#P" n="104"/>nialium ex legitima causa, non tamen potest
+          <lb ed="#P" n="105"/>dispensare, quia nihil in eo genere potest 
+          con<lb break="no" ed="#P" n="106"/>cedere nisi juxta tenorem et rigorem legis.
+          <lb ed="#P" n="107"/>Et similiter sunt multae leges vel statuta quae
+          <lb ed="#P" n="108"/>non prohibent aliquid simpliciter, sed ne fiant
+          <lb ed="#P" n="109"/>sine tali facultate tali modo concessa; tune
+          <lb ed="#P" n="110"/>ergo dare facultatem non est dispensare, sed
+          <pb ed="#P" n="50"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>servare et exequi legem. Et ideo etiam haec
+          <lb ed="#P" n="2"/>licentia non est tam stricti juris, sicut 
+          dispen<lb break="no" ed="#P" n="3"/>satio, debet tamen esse intentioni juris 
+          accom<lb break="no" ed="#P" n="4"/>modaía. Imo probahbile est per se non esse 
+          ac<lb break="no" ed="#P" n="5"/>tum jurisdictionis, sed dominii vel 
+          superiori<lb break="no" ed="#P" n="6"/>tatis cujusdam, et potest esse tantum conditio
+          <lb ed="#P" n="7"/>quaedam requisita ex voto, vel alio simili 
+          mo<lb break="no" ed="#P" n="8"/>do; longe ergo differt a dispensatione.
+        </p>
+        <p xml:id="szdleg-q11426-d1e1043">
+          <lb ed="#P" n="9"/>12. Adhuc tamen non videtur adaequata illa
+          <lb ed="#P" n="10"/>definitio, primo, quia convenit abrogationi
+          <lb ed="#P" n="11"/>legi humanae, quia illa est multo major 
+          re<lb break="no" ed="#P" n="12"/>laxatio humanae legis. Propter quod dicere
+          <lb ed="#P" n="13"/>aliquis potest melius definiri dispensationem
+          <lb ed="#P" n="14"/>ut sit derogatio humanae legis: nam per genus
+          <lb ed="#P" n="15"/>illud excluditur, ut non sit abrogatio: nam ut
+          <lb ed="#P" n="16"/>dicitur in 1. 102, ff. de Verbor. significat.: 
+          De<lb break="no" ed="#P" n="17"/>rogatur legi cum pars detrahitur : abrogatur
+          <lb ed="#P" n="18"/>legi cum prorsus tollitur. Unde etiam dixit
+          <lb ed="#P" n="19"/>Lactan., l. 6, cap. 8 de Lege naturali: Neque
+          <lb ed="#P" n="20"/>ex hac derogari aliquid licet, neque prorsus 
+          tol<lb break="no" ed="#P" n="21"/>li, ex Cic., 1. 3 de Repub.; sed hoc etiam potest
+          <lb ed="#P" n="22"/>impugnari , quia licet omnis dispensatio sit
+          <lb ed="#P" n="23"/>quaedam juris derogatio, non tamer e contrario
+          <lb ed="#P" n="24"/>omnis derogatio legis humanae videtur esse
+          <lb ed="#P" n="25"/>dispensatio: nam si pars aliqua legis pro tota
+          <lb ed="#P" n="26"/>communitate auferatur, est propria derogatio;
+          <lb ed="#P" n="27"/>et tamen non dicetur dispensatio, quia de 
+          ra<lb break="no" ed="#P" n="28"/>tione dispensationis legis esse videtur ut 
+          ea<lb break="no" ed="#P" n="29"/>dem lex, prout per dispensationem relaxatur,
+          <lb ed="#P" n="30"/>circa quosdam tollatur, in se vero maneat.
+          <lb ed="#P" n="31"/>Nomen autem relaxationis optime retineri
+          <lb ed="#P" n="32"/>potest, quia in ipsomet indicatur vinculum
+          <lb ed="#P" n="33"/>quod aufertur non auferri aut prorsus tolli,
+          <lb ed="#P" n="34"/>sed laxari tantum, et ideo abrogatio non 
+          di<lb break="no" ed="#P" n="35"/>cetur propria relaxatio, ideoque etiam ablatio
+          <lb ed="#P" n="36"/>ejus ex parte, licet si perpetua sit et pro tota
+          <lb ed="#P" n="37"/>communitate, non dicitur proprie dispensatio,
+          <lb ed="#P" n="38"/>sed derogatio ; e contrario vero si lex tota 
+          re<lb break="no" ed="#P" n="39"/>laxetur, etiam pro tota communitate, ad unum
+          <lb ed="#P" n="40"/>tantum actum vel ad certum tempus, illa 
+          pro<lb break="no" ed="#P" n="41"/>prie dicetur dispensatio, quia per illam non
+          <lb ed="#P" n="42"/>tollitur lex, sed suspenditur, et illa etiam est
+          <lb ed="#P" n="43"/>quaedam relaxatio.
+        </p>
+        <p xml:id="szdleg-q11426-d1e1121">
+          <lb ed="#P" n="44"/>13. Privilegium dici potest interdum 
+          dis<lb break="no" ed="#P" n="45"/>pensatio. — Altera objectio esse potest, quia
+          <lb ed="#P" n="46"/>privilegium etiam est relaxatio juris humani,
+          <lb ed="#P" n="47"/>et tamen non est dispensatio. Propter hoc 
+          ali<lb break="no" ed="#P" n="48"/>qui varias tradunt differentias inter 
+          privile<lb break="no" ed="#P" n="49"/>gium et dispensationem, sed melius illa 
+          com<lb break="no" ed="#P" n="50"/>paratio tractabitur in lib. S, ubi de privilegiis
+          <lb ed="#P" n="51"/>dicetur. Nunc ergo breviter dici potest 
+          privile<lb break="no" ed="#P" n="52"/>gium quod fuerit contra jus et illud 
+          relaxave<lb break="no" ed="#P" n="53"/>rit esse dispensationem ; illud autem 
+          privile<lb break="no" ed="#P" n="54"/>gium quod non fuerit contra jus non esse 
+          re<lb break="no" ed="#P" n="55"/>laxationem juris, ideoque nec dispensationem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>esse, et ita nihil contineri sub definitione,
+          <lb ed="#P" n="57"/>quod dispensatio non sit. Vel etiam dicere
+          <lb ed="#P" n="58"/>possumus dispensationem esse relaxationem
+          <lb ed="#P" n="59"/>juris per modum actus secundi, seu 
+          transeun<lb break="no" ed="#P" n="60"/>tis: privilegium autem concedere aliquod jus
+          <lb ed="#P" n="61"/>per modum actus primi et permanentis, et
+          <lb ed="#P" n="62"/>ideo non esse proprie ipsam relaxationem, sed
+          <lb ed="#P" n="63"/>esse jus utendi aliqua re vel facultate, 
+          suppo<lb break="no" ed="#P" n="64"/>sita relaxatione facta a principe, ideoque non
+          <lb ed="#P" n="65"/>tam esse quam supponere dispensationem. Sed
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="66"/>haec posterior responsio obscurior est, et de
+          <lb ed="#P" n="67"/>illa dicemus loco citato ; nunc prior nobis 
+          suf<lb break="no" ed="#P" n="68"/>ficit, quia nullum est inconveniens 
+          dispensa<lb break="no" ed="#P" n="69"/>tionem vocare privilegium, et aliquod 
+          privile<lb break="no" ed="#P" n="70"/>gium dispensationem, nec jura repugnant, nec
+          <lb ed="#P" n="71"/>communis modus loquendi.
+        </p>
+        <p xml:id="szdleg-q11426-d1e1189">
+          <lb ed="#P" n="72"/>14. Tandem objici potest, quia relaxatio
+          <lb ed="#P" n="73"/>non est dispensatio, sed dispensationis effectus;
+          <lb ed="#P" n="74"/>ergo non recte per illam definitur. Sicut lex
+          <lb ed="#P" n="75"/>non dicitur esse obligatio, quamvis haec sit 
+          le<lb break="no" ed="#P" n="76"/>gis effectus, nec votum etiam dicitur esse 
+          obli<lb break="no" ed="#P" n="77"/>gatio, sed promissio ex qua obligatio nascitur.
+          <lb ed="#P" n="78"/>Sed haec objectio parvi momenti est, quia sola
+          <lb ed="#P" n="79"/>vocis interpretatione dissolvitur : posita autem
+          <lb ed="#P" n="80"/>est ad explicandum magis actum in quo 
+          dis<lb break="no" ed="#P" n="81"/>pensatio consistit. Ad objectionem ergo 
+          res<lb break="no" ed="#P" n="82"/>pondetur rclaxationis nomine intelligi actum
+          <lb ed="#P" n="83"/>illum quo superior relaxat subdito legis 
+          obli<lb break="no" ed="#P" n="84"/>gationem et effectum, unde perinde est dicere
+          <lb ed="#P" n="85"/>dispensationem esse relaxationem ac dicere
+          <lb ed="#P" n="86"/>esse actum quo lex relaxatur. Potest etiam
+          <lb ed="#P" n="87"/>distingui relaxatio in activam et passivam, et
+          <lb ed="#P" n="88"/>responderi activam relaxationem esse ipsam
+          <lb ed="#P" n="89"/>dispensationem, passivam vero esse 
+          dispensa<lb break="no" ed="#P" n="90"/>tionis effectum. Et idem revolvitur : nam 
+          acti<lb break="no" ed="#P" n="91"/>va relaxatio nihil est aliud quam actus quo 
+          vin<lb break="no" ed="#P" n="92"/>culum legis sclvitur. Unde obiter intelligitur
+          <lb ed="#P" n="93"/>dispensationem quoad effectum suum tantum
+          <lb ed="#P" n="94"/>privative opponi effectui legis, quia non 
+          indu<lb break="no" ed="#P" n="95"/>cit positivum effectum, sed tollit vinculum. Et
+          <lb ed="#P" n="96"/>ideo statutum speciale vel privatum, derogans
+          <lb ed="#P" n="97"/>universali legi, licet dici possit relaxatio juris,
+          <lb ed="#P" n="98"/>non potest dici dispensatio, quia non est 
+          relaxa<lb break="no" ed="#P" n="99"/>tiopura (ut sic dicam) nec per se primo, sed 
+          qua<lb break="no" ed="#P" n="100"/>si consequens ad aliam obligationem: definitio
+          <lb ed="#P" n="101"/>autem debet intelligi in pura relaxatione, et
+          <lb ed="#P" n="102"/>per se primo intenta : talis enim est 
+          disputa<lb break="no" ed="#P" n="103"/>tio. At vero dispensatio ipsa positivum quid
+          <lb ed="#P" n="104"/>est, et contrarie opponitur legi; est enim actus
+          <lb ed="#P" n="105"/>legi contrarius, non integre, sed ex parte 
+          tol<lb break="no" ed="#P" n="106"/>lens effectum ejus. Ex quo poterat hic excitari
+          <lb ed="#P" n="107"/>quaestio, quisnam sit hic actus in quo 
+          dispen<lb break="no" ed="#P" n="108"/>satio consistit, et an sit rationis vel voluntatis
+          <lb ed="#P" n="109"/>actus : sed non oportet in hoc immorari, nam
+          <lb ed="#P" n="110"/>applicari possunt cum proportione dicta de le-
+          <pb ed="#P" n="51"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ge. Et hic multo clarius est dispensationem
+          <lb ed="#P" n="2"/>non esse nisi actum voluntatis principis quo
+          <lb ed="#P" n="3"/>vult liberum esse subditum a jugo legis suae,
+          <lb ed="#P" n="4"/>aliquo exteriori signo sufficienter 
+          manifesta<lb break="no" ed="#P" n="5"/>tum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

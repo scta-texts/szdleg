@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="237"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q59611"><!-- l8c4 -->
+        <head xml:id="szdleg-q59611-Hd1e101">Caput 4</head>
+        <head xml:id="szdleg-q59611-Hd1e103" type="question-title">De privilegio remunerativo et conventionali, an reale sit vel personale.</head>
+        <p xml:id="szdleg-q59611-d1e106">
+          <lb ed="#P" n="97"/>CAPUT IV.
+          <lb ed="#P" n="98"/>DE PRIVILEGIO REMUNERATIVO ET CONVENTIONALI,
+          <lb ed="#P" n="99"/>AN REALE SIT VEL PERSONALE.
+        </p>
+        <p xml:id="szdleg-q59611-d1e115">
+          <lb ed="#P" n="100"/>1. Privilegium gratiosum quid. — 
+          Privile<lb break="no" ed="#P" n="101"/>guum remunerativum quid. — Ex dictis in 
+          su<lb break="no" ed="#P" n="102"/>periori capite, intelligi potest qualia sint 
+          pri<lb break="no" ed="#P" n="103"/>vilegia remunerativa et conventionalia , et
+          <lb ed="#P" n="104"/>obiter explicantur duae aliae divisiones 
+          privile<lb break="no" ed="#P" n="105"/>gii. Secunda ergo divisio illius sit in gratiosum
+          <lb ed="#P" n="106"/>et remunerativum. Gratiosum dicitur quod
+          <lb ed="#P" n="107"/>gratis conceditur sine ullo respectu ad merita
+          <pb ed="#P" n="238"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>privilegiarii, vel parentum, aut aliorum, qui
+          <lb ed="#P" n="2"/>qualecumque illud meritorum jus in illum
+          <lb ed="#P" n="3"/>transtulerint. Remunerativum autem dicitur,
+          <lb ed="#P" n="4"/>quod propter merita propria, vel aliena alicui
+          <lb ed="#P" n="5"/>applicata conceditur. In quo oportet advertere
+          <lb ed="#P" n="6"/>non omne privilegium in quo merita 
+          recipien<lb break="no" ed="#P" n="7"/>tis considerantur esse remunerativum, sed 
+          so<lb break="no" ed="#P" n="8"/>lum quando tribuitur illi in praemium, et 
+          con<lb break="no" ed="#P" n="9"/>sequenter in commodum proprium. Aliquando
+          <lb ed="#P" n="10"/>enim conceditur privilegium alicui propter
+          <lb ed="#P" n="11"/>commune bonum, et nihilominus in eo 
+          consi<lb break="no" ed="#P" n="12"/>derantur bona merita ejus cui conceditur : non
+          <lb ed="#P" n="13"/>tamen ut merita, sed nt indicia virtutis, 
+          pru<lb break="no" ed="#P" n="14"/>dentise et industriae, quae in tali persona 
+          con<lb break="no" ed="#P" n="15"/>siderantur, ut ei tale ministerium vel tam 
+          am<lb break="no" ed="#P" n="16"/>pla potestas per tale privilegium committatur.
+          <lb ed="#P" n="17"/>Exemplum est in dicto c. Mandata, de 
+          Prae<lb break="no" ed="#P" n="18"/>sumpt. ubi Pontifex cuidam maximo Episcopo
+          <lb ed="#P" n="19"/>legationem totius Siciliae concedit, non quidem
+          <lb ed="#P" n="20"/>in remunerationem , sed quia, Mandata (
+          in<lb break="no" ed="#P" n="21"/>quit) celestia efficacius gerimus, si nostra cum
+          <lb ed="#P" n="22"/>fratribus onera partiamur ; qui respectus 
+          so<lb break="no" ed="#P" n="23"/>lum est boni communis, et nihilominus 
+          decla<lb break="no" ed="#P" n="24"/>rat hoc concedere personae, et pro ratione 
+          red<lb break="no" ed="#P" n="25"/>dit : Quia, ex transacta in te vita , didicimus
+          <lb ed="#P" n="26"/>quid de sequenti conversatione tua 
+          praesa<lb break="no" ed="#P" n="27"/>mus.
+        </p>
+        <p xml:id="szdleg-q59611-d1e198">
+          <lb ed="#P" n="28"/>2. Privilegium fundatum in meritis esse
+          <lb ed="#P" n="29"/>quasi intrinsece personale, sentiunt multi. —
+          <lb ed="#P" n="30"/>Utrumque autem ex his privilegiis esse potest,
+          <lb ed="#P" n="31"/>et contra commune jus, et solum ultra vel
+          <lb ed="#P" n="32"/>praeter illud , quia utrumque concedi potest
+          <lb ed="#P" n="33"/>intuitu meritorum , vel sine illis : et ad 
+          eum<lb break="no" ed="#P" n="34"/>dem modum omnis alia varietas privilegiorum
+          <lb ed="#P" n="35"/>potest in utroque illorum membrorum 
+          inve<lb break="no" ed="#P" n="36"/>niri , quia per se solum differunt in ratione
+          <lb ed="#P" n="37"/>praemii, et simplicis gratiae, seu in habitudine
+          <lb ed="#P" n="38"/>ad merita, aut carentia ejus. Solum de 
+          prae<lb break="no" ed="#P" n="39"/>cedenti divisione , et consequenter de 
+          perpe<lb break="no" ed="#P" n="40"/>tuitate privilegii solet dubitari an locum 
+          ha<lb break="no" ed="#P" n="41"/>beat in utroque ex illis membris. Nam de 
+          al<lb break="no" ed="#P" n="42"/>tero , scilicet, de privilegio liberali omnes 
+          fa<lb break="no" ed="#P" n="43"/>tentur, et personale, et reale esse posse, et 
+          dis<lb break="no" ed="#P" n="44"/>cernendum esse juxta principia posita, quia
+          <lb ed="#P" n="45"/>gratia potest fieri personae et rei, ut per se
+          <lb ed="#P" n="46"/>constat. At de privilegio remunerativo , licet
+          <lb ed="#P" n="47"/>constet esse posse personale, dubitari solet an
+          <lb ed="#P" n="48"/>semper ac necessario tale sit. vel possit etiam
+          <lb ed="#P" n="49"/>esse reale. Multi enim sentiunt privilegium
+          <lb ed="#P" n="50"/>fundatum in meritis quasi intrinsece esse 
+          per<lb break="no" ed="#P" n="51"/>sonale, nec posse judicari reale. Ita tenent
+          <lb ed="#P" n="52"/>Jason., Alciatus, Paulus de Castro, Aretinus,
+          <lb ed="#P" n="53"/>et alii quos refert et sequitur Barbosa supra,
+          <lb ed="#P" n="54"/>n. 6 et sequentibus. Fundatur praecipue in
+          <lb ed="#P" n="55"/>leg. 1. ff. de Constitut. principum, et in ra-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tione ejus. Dicit enim ibi Ulpianus, ex legibus
+          <lb ed="#P" n="57"/>quasdam esse personales, quae ad exemplum
+          <lb ed="#P" n="58"/>non trahuntur, et tales significat esse 
+          privile<lb break="no" ed="#P" n="59"/>gia remunerativa , sublit enim: Nam que
+          <lb ed="#P" n="60"/>princeps alicui ob merita indulsit , vel si quam
+          <lb ed="#P" n="61"/>panam irrogavit, vel si cui sine ecemplo 
+          subve<lb break="no" ed="#P" n="62"/>nit, personam non egreditur. Unde etiam 
+          sumi<lb break="no" ed="#P" n="63"/>tur fundamentalis ratio , quia causa 
+          principa<lb break="no" ed="#P" n="64"/>lis privilegii praecipue spectanda est ad 
+          judi<lb break="no" ed="#P" n="65"/>candum an sit personale ; sed merita sunt
+          <lb ed="#P" n="66"/>principalis causa talis privilegi, et sunt ita
+          <lb ed="#P" n="67"/>propria personae, ut illam nec egrediantur, nec
+          <lb ed="#P" n="68"/>ad alium pertineant, qui illa non haheat ;
+          <lb ed="#P" n="69"/>ergo tale privilegium necessario est personale,
+          <lb ed="#P" n="70"/>juxta regulam juris, ff. 69: Ubi personae 
+          con<lb break="no" ed="#P" n="71"/>ditio locum facit beneficio, ibi deficiente ea, 
+          be<lb break="no" ed="#P" n="72"/>neficium quoque deficit. Et confirmatur, quia
+          <lb ed="#P" n="73"/>privilegium, quod, simpliciter concessum, 
+          fuis<lb break="no" ed="#P" n="74"/>set reale; si in ipso declaretur dari propter
+          <lb ed="#P" n="75"/>merita , efficitur personale juxta dicta cap.
+          <lb ed="#P" n="76"/>Mandata, ubi sentit Panor., n. 1, et in cap.
+          <lb ed="#P" n="77"/>Quoniam Abbas, de Offic. deleg., et 
+          utro<lb break="no" ed="#P" n="78"/>bique Felin. et alii.
+        </p>
+        <p xml:id="szdleg-q59611-d1e314">
+          <lb ed="#P" n="79"/>3. Refutatur fundamentum praedictae 
+          senten<lb break="no" ed="#P" n="80"/>tie. —Sed, quidquid sit de veritate opinionis,
+          <lb ed="#P" n="81"/>male certe probatur ex leg. 2, ff. de Constitut.
+          <lb ed="#P" n="82"/>princip., et alia fundamenta levia sunt. Nam
+          <lb ed="#P" n="83"/>cum illa lex dicit, plane ex his (nimirum 
+          con<lb break="no" ed="#P" n="84"/>stitutionibus) queedam sunt personales , etc.,
+          <lb ed="#P" n="85"/>longe aliter accipit constitutionem 
+          persona<lb break="no" ed="#P" n="86"/>lem, quam nos loquamur de privilegio 
+          perso<lb break="no" ed="#P" n="87"/>nali. Distinguit enim ibi legem personalem a
+          <lb ed="#P" n="88"/>lege simpliciter, seu a lege communi, prout 
+          ex<lb break="no" ed="#P" n="89"/>pressius declaravit, consummando divisionem
+          <lb ed="#P" n="90"/>Imperator, in S S'ed et quod, Inst. de jur. nat.,
+          <lb ed="#P" n="91"/>etc., dicens in fine, alias esse generales , quae
+          <lb ed="#P" n="92"/>omnes obligant. Et ita, ut divisio sit integra,
+          <lb ed="#P" n="93"/>legem personalem ibi vocat legem privatam,
+          <lb ed="#P" n="94"/>quae intuitu privatae personae fit, non intuitu
+          <lb ed="#P" n="95"/>communitatis. Sic autem lex personalis, non
+          <lb ed="#P" n="96"/>tantum personale privilegium, sed etiam reale
+          <lb ed="#P" n="97"/>complectitur : quia etiam privilegium reale est
+          <lb ed="#P" n="98"/>lex privata, et conceditur intuitu privatae 
+          per<lb break="no" ed="#P" n="99"/>sonae. Nam (ut dixi) omne privilegium personae
+          <lb ed="#P" n="100"/>datur, licet aliquod super rem immediate 
+          con<lb break="no" ed="#P" n="101"/>stituatur, et hoc modo in omni privilegio 
+          in<lb break="no" ed="#P" n="102"/>tervenit persona ; id tamen non est satis, ut
+          <lb ed="#P" n="103"/>sit personale stricto modo, ut nunc loquimur,
+          <lb ed="#P" n="104"/>et sumitur ex dicta lege Juris gentium, S 
+          Pas<lb break="no" ed="#P" n="105"/>torum , ff. de Pact.; sufficit tamen ut talis lex
+          <lb ed="#P" n="106"/>dicatur personalis, id est, in favorem privatae
+          <lb ed="#P" n="107"/>personae edita ; et ita sine dubio loquitur illa
+          <lb ed="#P" n="108"/>lex prima, comprehenditque sub illa voce non
+          <lb ed="#P" n="109"/>tantum privilegium personale, sed etiam reale.
+          <lb ed="#P" n="110"/>Imo non solum lex privilegiativa, sed eiiam
+          <pb ed="#P" n="239"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>punitiva, si specialiter feratur, et in odium
+          <lb ed="#P" n="2"/>certae personae fiat, ut interdum ex justa causa
+          <lb ed="#P" n="3"/>fieri potest, sub illo membro legis personalis
+          <lb ed="#P" n="4"/>comprehenditur, quia non est lex publica et
+          <lb ed="#P" n="5"/>communis.
+        </p>
+        <p xml:id="szdleg-q59611-d1e401">
+          <lb ed="#P" n="6"/>4. Tota autem haec expositio ex exemplisa
+          <lb ed="#P" n="7"/>jurisconsulto adductis manifeste probari 
+          vide<lb break="no" ed="#P" n="8"/>tur. Nam primo ponit exemplum delege 
+          remu<lb break="no" ed="#P" n="9"/>nerativa, ibi : Que princeps ob merita alicui
+          <lb ed="#P" n="10"/>indulsit, ubi Glossa declarat, ut privilegium,
+          <lb ed="#P" n="11"/>nec se restrinxit ad personale. Secundo, de
+          <lb ed="#P" n="12"/>lege privatim puniente, S quam ponam 
+          irro<lb break="no" ed="#P" n="13"/>gavit, utique specialem, et praeter legem 
+          com<lb break="no" ed="#P" n="14"/>munem, quod significavit Glossa dicens : Non
+          <lb ed="#P" n="15"/>merenti tiantum. Tertio addit : Vel si cui sine
+          <lb ed="#P" n="16"/>exemplo subvenit, ubi Gloss., Vel quia pepercit
+          <lb ed="#P" n="17"/>panam merenti. Mihi autem videtur omne 
+          h<lb break="no" ed="#P" n="18"/>berale beneficium seu privilegium posse illis
+          <lb ed="#P" n="19"/>verbis comprehendi, sive illud consistat in 
+          re<lb break="no" ed="#P" n="20"/>missione poenae debitae, sive in concessione
+          <lb ed="#P" n="21"/>boni non debiti ullo modo. Et ita inspecta tota
+          <lb ed="#P" n="22"/>lege, lex personalis legem non tantum 
+          remu<lb break="no" ed="#P" n="23"/>nerativam complectitur, sed etiam punitivam,
+          <lb ed="#P" n="24"/>et liberaliter benefactivam. Et in omnibus his
+          <lb ed="#P" n="25"/>membris potest inveniri quid reale, et 
+          perso<lb break="no" ed="#P" n="26"/>nale stricte, ut nunc loquimur. Nam, 
+          incipien<lb break="no" ed="#P" n="27"/>do ab ultimo, non solum potest princeps 
+          sub<lb break="no" ed="#P" n="28"/>venire alicui gratis et sine exemplo 
+          remitten<lb break="no" ed="#P" n="29"/>do poenam personalem , sed etiam remittendo
+          <lb ed="#P" n="30"/>poenam realem, ut confiscationem bonorum,
+          <lb ed="#P" n="31"/>quae optime dici potest poena realis, quia rem
+          <lb ed="#P" n="32"/>afficit, et cum illa transit. Vel etiam potest 
+          sub<lb break="no" ed="#P" n="33"/>venire alicui sine exemplo, liberaliter 
+          conce<lb break="no" ed="#P" n="34"/>dendo rebus illius realem immunitatem ac 
+          per<lb break="no" ed="#P" n="35"/>petuam. Nam lex etiam sic lata personalis est,
+          <lb ed="#P" n="36"/>id est, particulari personae favens, licet favor
+          <lb ed="#P" n="37"/>consistat in rerum immunitate. Et similiter
+          <lb ed="#P" n="38"/>in secundo exemplo habet locum poena 
+          perso<lb break="no" ed="#P" n="39"/>nalis et realis extraordinaria, ut confiscando
+          <lb ed="#P" n="40"/>ejus bona, vel iributum aliquod ei imponendo
+          <lb ed="#P" n="41"/>ultra communem legem, sed speciali arbitrio
+          <lb ed="#P" n="42"/>principis. Idem ergo inveniri poterit in primo
+          <lb ed="#P" n="43"/>exemplo de privilegio remunerativo, ut statim
+          <lb ed="#P" n="44"/>declarabo.
+        </p>
+        <p xml:id="szdleg-q59611-d1e488">
+          <lb ed="#P" n="45"/>5. Objectio. — Neque contra hanc 
+          exposi<lb break="no" ed="#P" n="46"/>tionem obstant proprietates quae per verba
+          <lb ed="#P" n="47"/>istius legis tribuuntur constitutioni personali,
+          <lb ed="#P" n="48"/>scilicet : Quod ad eremplum non trahitur, 
+          per<lb break="no" ed="#P" n="49"/>sonam non egreditur. Nam si privilegium reale
+          <lb ed="#P" n="50"/>dici posset lex personalis, falsum esset absolute
+          <lb ed="#P" n="51"/>legem personalem personam non egredi ; haec
+          <lb ed="#P" n="52"/>enim indefinita aequivalet universal, quae 
+          fal<lb break="no" ed="#P" n="53"/>sa est ; nam privilegia realia personam 
+          egre<lb break="no" ed="#P" n="54"/>diuntur, ut supra dictum est. Sed haec objectio
+          <lb ed="#P" n="55"/>non obstat ; nam prior proprietas in univer-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sum vera est , et in reale privilegium optime
+          <lb ed="#P" n="57"/>cadit. Nam, licet praedia religionis, verbi 
+          gra<lb break="no" ed="#P" n="58"/>tia, siut exempta a tributis, vel decimis, per
+          <lb ed="#P" n="59"/>privilegia realia, non possunt trahi in 
+          exem<lb break="no" ed="#P" n="60"/>plum ut omnia talia praedia sint similiter
+          <lb ed="#P" n="61"/>exempta. Idemque est in omnibus aliis. 
+          Ita<lb break="no" ed="#P" n="62"/>que sensus est legem privatam non esse 
+          nor<lb break="no" ed="#P" n="63"/>mam , seu mensuram operationum 
+          communi<lb break="no" ed="#P" n="64"/>tatis, vel civium indifferenter, sed illius 
+          tan<lb break="no" ed="#P" n="65"/>tum cui concessum est privilegium, quem aliis
+          <lb ed="#P" n="66"/>imitari non licet. Et ita haec pars recte 
+          expli<lb break="no" ed="#P" n="67"/>catur per aliam regulam juris, Quae a communi
+          <lb ed="#P" n="68"/>jure exorbitant , nequaquam in consequentium
+          <lb ed="#P" n="69"/>sunt trahenda, quae est 28, in 6, ubi Glossa,
+          <lb ed="#P" n="70"/>allegando dictam l. 1, hunc sensum indicat.
+          <lb ed="#P" n="71"/>Expressius vero id patet ex Reg. jur. in 6, 74:
+          <lb ed="#P" n="72"/>Quod alicui gratiose conceditur, trahi non debet
+          <lb ed="#P" n="73"/>ab aliis in ememplum. Quod tam de privilegio
+          <lb ed="#P" n="74"/>reali, quam de personali verum est, et ita ibi
+          <lb ed="#P" n="75"/>Joann. And. inter alia exempla ponit 
+          privile<lb break="no" ed="#P" n="76"/>gium decimarum.
+        </p>
+        <p xml:id="szdleg-q59611-d1e562">
+          <lb ed="#P" n="77"/>6. In altera vero proprietate suboritur 
+          difti<lb break="no" ed="#P" n="78"/>cultas, quia privilegia realia personam 
+          egre<lb break="no" ed="#P" n="79"/>diuntur ; ergo illa negatio non potest vere 
+          ca<lb break="no" ed="#P" n="80"/>dere in privilegium, quia illa indefinita, cum
+          <lb ed="#P" n="81"/>doctrinalis sit, aequivalet universali. Sed hoc
+          <lb ed="#P" n="82"/>parum obstat, quia illa posterior pars fere
+          <lb ed="#P" n="83"/>eumdem sensum continet quem prior. Dicitur
+          <lb ed="#P" n="84"/>enim lex personalis personam non egredi, quia
+          <lb ed="#P" n="85"/>non possunt aliae personae illo jure uti quasi
+          <lb ed="#P" n="86"/>per imitationem, vel usurpationem, quo sensu
+          <lb ed="#P" n="87"/>dicuntur haec non esse trahenda in 
+          consequen<lb break="no" ed="#P" n="88"/>tiam in illo capite Que a jure, de Reg. jur.,
+          <lb ed="#P" n="89"/>in 6. Ubi Glossa declarat hoc per privilegia,
+          <lb ed="#P" n="90"/>quia per consequentiam non extenduntur ad
+          <lb ed="#P" n="91"/>alios, praeterquam ad expressos in illis, quod
+          <lb ed="#P" n="92"/>tam est verum in privilegiis realibus, quam in
+          <lb ed="#P" n="93"/>personalibus; neutra enim personam 
+          egre<lb break="no" ed="#P" n="94"/>diuntur hoc modo, scilicet, per consequentiam,
+          <lb ed="#P" n="95"/>vel exemplum. Huic ergo proprietati non 
+          ob<lb break="no" ed="#P" n="96"/>stat quod privilegium concessum Petro, et toti
+          <lb ed="#P" n="97"/>posteritati transeat ad haeredes, tum quia non
+          <lb ed="#P" n="98"/>transit per consequentiam, sed per 
+          formalita<lb break="no" ed="#P" n="99"/>tem (ut sic dicam); tum etiam (et fere in idem
+          <lb ed="#P" n="100"/>redit) quia, transeundo ad haeredes, non 
+          egre<lb break="no" ed="#P" n="101"/>ditur personam, quia illis etiam facta fuit
+          <lb ed="#P" n="102"/>concessio. Similiter, quod privilegium reale
+          <lb ed="#P" n="103"/>transeat ad alios, ad quos res transit, non
+          <lb ed="#P" n="104"/>transit per exemplum, vel consequentiam, nec
+          <lb ed="#P" n="105"/>egreditur limites concessionis, quia, in illa,
+          <lb ed="#P" n="106"/>virtute continetur, ut illa fruantur omnes ad
+          <lb ed="#P" n="107"/>quos talis res devenerit, et ita in rigore 
+          per<lb break="no" ed="#P" n="108"/>sonam non egreditur, personam scilicet, pro
+          <lb ed="#P" n="109"/>qua facta est privata lex, licet absolute egredi
+          <lb ed="#P" n="110"/>possit personam cui primo facta est gratia,
+          <pb ed="#P" n="240"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non per consequentiam, ut dixi, sed quia 
+          mo<lb break="no" ed="#P" n="2"/>dus concessionis totum hoc continere potest,
+          <lb ed="#P" n="3"/>ut declaravi : quamvis enim hoc in illa lege
+          <lb ed="#P" n="4"/>non explicetur, non tamen excluditur. Et plane
+          <lb ed="#P" n="5"/>ita exponitur a Glossa in S S'ed et quod, Instit.
+          <lb ed="#P" n="6"/>de Jur. natur., eic., verb. Non transgreditur,
+          <lb ed="#P" n="7"/>in ultima solutione dicens: Vel melius, licet
+          <lb ed="#P" n="8"/>egrediatur personam, non est tamen generale
+          <lb ed="#P" n="9"/>jus, nec videtur alius, etc.
+        </p>
+        <p xml:id="szdleg-q59611-d1e662">
+          <lb ed="#P" n="10"/>7. Atque ita etiam non urget ratio illius
+          <lb ed="#P" n="11"/>sententiae, quia licet merita possint esse 
+          moti<lb break="no" ed="#P" n="12"/>vum, et ratio dandi privilegium, non 
+          neces<lb break="no" ed="#P" n="13"/>sario sunt quasi fundamentum vel subjectum
+          <lb ed="#P" n="14"/>privilegii, ita ut ab illis pendeat in fieri et
+          <lb ed="#P" n="15"/>conservari ; et haec causa proxima est 
+          conside<lb break="no" ed="#P" n="16"/>randa tanquam principalis, ut privilegium sit
+          <lb ed="#P" n="17"/>reale, sicut explicavi. Declaratur amplius: nam
+          <lb ed="#P" n="18"/>propter merita transitoria et solius personae,
+          <lb ed="#P" n="19"/>potest illi concedi privilegium perpetuum, et
+          <lb ed="#P" n="20"/>propter merita unius progenitoris conceditur
+          <lb ed="#P" n="21"/>juste privilegium ipsi et posteritati, ut per se
+          <lb ed="#P" n="22"/>constat ; ergo potest concedi propter merita
+          <lb ed="#P" n="23"/>privilegium reale, ut quotidie fieri constat ;
+          <lb ed="#P" n="24"/>ergo, licet merita sint in sola persona, non
+          <lb ed="#P" n="25"/>recte infertur privilegium propter illa datum,
+          <lb ed="#P" n="26"/>etiam cum allegatione talis causae, esse 
+          perso<lb break="no" ed="#P" n="27"/>nale tantum. Neque contra hoc recte allegatur
+          <lb ed="#P" n="28"/>regula juris, quae loquitur de causa, seu 
+          con<lb break="no" ed="#P" n="29"/>ditione, cui inhaeret privilegium, ut supra 
+          de<lb break="no" ed="#P" n="30"/>claravi. Nihil etiam ad rem faciunt cap. 
+          Man<lb break="no" ed="#P" n="31"/>data, aut dicta Panormitan. et Felin., quia non
+          <lb ed="#P" n="32"/>loquuntur de privilegio remunerativo, sed de
+          <lb ed="#P" n="33"/>illo in quo merita personae considerantur 
+          tan<lb break="no" ed="#P" n="34"/>quam indicia personae aptae ad tale munus; de
+          <lb ed="#P" n="35"/>quo est longe diversa ratio, quia tunc 
+          indus<lb break="no" ed="#P" n="36"/>tria personae eligitur, et ideo personalis est
+          <lb ed="#P" n="37"/>concessio.
+        </p>
+        <p xml:id="szdleg-q59611-d1e725">
+          <lb ed="#P" n="38"/>8. Privilegium remunerativwm per se et ab
+          <lb ed="#P" n="39"/>intrinseco est indifferens quod sit personale vel
+          <lb ed="#P" n="40"/>reale.—bico ergo privilegium remunerativum
+          <lb ed="#P" n="41"/>per se et ab intrinseco non habere quod sit
+          <lb ed="#P" n="42"/>personale , sed de se indifferens esse ut sit
+          <lb ed="#P" n="43"/>etiam reale. Unde etiam non placet quod ali
+          <lb ed="#P" n="44"/>per contrarium extremum dixerunt, 
+          privile<lb break="no" ed="#P" n="45"/>gium datum propter merita esse reale, quos
+          <lb ed="#P" n="46"/>late refert Barbos. supra, n. 6; nulla enim 
+          ra<lb break="no" ed="#P" n="47"/>tione vel jure id fundari potest : nam meritum
+          <lb ed="#P" n="48"/>de se indifferens causa est, et non est 
+          determi<lb break="no" ed="#P" n="49"/>nata ad praemium perpetuum potius quam ad
+          <lb ed="#P" n="50"/>temporale, loquendo inter homines ; imo 
+          fre<lb break="no" ed="#P" n="51"/>quentius sufficienter fit remuneratio per 
+          pri<lb break="no" ed="#P" n="52"/>vilegium personale, seu vitale, et concedere
+          <lb ed="#P" n="53"/>diuturnius esset supra merita. Igitur neutrum
+          <lb ed="#P" n="54"/>colligi potest ex eo quod merita in privilegio
+          <lb ed="#P" n="55"/>exprimantur ; sed consideranda ulterius erunt
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>verba privilegii. Nam si cadant directe et
+          <lb ed="#P" n="57"/>proxime in rem, quamvis dicatur immunitas
+          <lb ed="#P" n="58"/>illius rei concedi propter merita petentis, seu
+          <lb ed="#P" n="59"/>possidentis talem rem, nihilominus 
+          privile<lb break="no" ed="#P" n="60"/>gium erit reale, ut tandem agnoscit Barbos.,
+          <lb ed="#P" n="61"/>n. 8. Si autem verba concessionis directe 
+          refe<lb break="no" ed="#P" n="62"/>rantur ad personam cujus merita remunerari
+          <lb ed="#P" n="63"/>dicuntur, erit privilegium personale. Quod si,
+          <lb ed="#P" n="64"/>omnibus pensatis, verba sint dubia, 
+          ponderan<lb break="no" ed="#P" n="65"/>da erit proportio meritorum ad privilegium, ut
+          <lb ed="#P" n="66"/>latior vel restrictior interpretatio fiat juxta 
+          exi<lb break="no" ed="#P" n="67"/>gentiam meritorum ; nam verisimile est 
+          con<lb break="no" ed="#P" n="68"/>cedentem voluisse praemium justum et 
+          adae<lb break="no" ed="#P" n="69"/>quatum conferre. Quod maxime locum 
+          habe<lb break="no" ed="#P" n="70"/>bit in beneficio principis, et in privilegio 
+          fa<lb break="no" ed="#P" n="71"/>vorabili. Unde obiter adverto, quoties 
+          privile<lb break="no" ed="#P" n="72"/>gii perpetuitas non cedit in commodum 
+          per<lb break="no" ed="#P" n="73"/>sonae, sed loci, vel sedis, seu dignitatis, non
+          <lb ed="#P" n="74"/>debere privilegium in casu dubio reale 
+          existi<lb break="no" ed="#P" n="75"/>mari propter solam excellentiam meritorum,
+          <lb ed="#P" n="76"/>si aliae circumstantiae non cogant, quia in tali
+          <lb ed="#P" n="77"/>casu, ex eo quod privilegium sit reale, non
+          <lb ed="#P" n="78"/>magis augetur praemium meritorum , et ita
+          <lb ed="#P" n="79"/>non videtur referre quod illa fuerint majora.
+          <lb ed="#P" n="80"/>Nisi fortasse privilegium sit impetratum ad
+          <lb ed="#P" n="81"/>petitionem talis personae, cupientis tale 
+          bene<lb break="no" ed="#P" n="82"/>ficium facere loco, vel dignitati ; tunc enim
+          <lb ed="#P" n="83"/>perpetuitas privilegii in illius satisfactionem
+          <lb ed="#P" n="84"/>et honorem redundaret.
+        </p>
+        <p xml:id="szdleg-q59611-d1e833">
+          <lb ed="#P" n="85"/>9. De privilegio conventionali et puro. —
+          <lb ed="#P" n="86"/>Baldus negat privilegium conventionale , sed
+          <lb ed="#P" n="87"/>est quaestio de nomine.—Tandem eadem fere
+          <lb ed="#P" n="88"/>ratione expeditur ex dictis similis quaestio de
+          <lb ed="#P" n="89"/>privilegio conventionali , et colligitur tertia
+          <lb ed="#P" n="90"/>divisio privilegii, in conventionale et purum,
+          <lb ed="#P" n="91"/>seu absque pacto. Regulariter enim privilegia
+          <lb ed="#P" n="92"/>conceduntur, nullo interveniente pacto, sed
+          <lb ed="#P" n="93"/>per absolutam gratiam et beneficentiam 
+          con<lb break="no" ed="#P" n="94"/>cedentis, et de his privilegiis sub hac ratione
+          <lb ed="#P" n="95"/>spectatis nihil superest dicendum, quia supra
+          <lb ed="#P" n="96"/>communem rationem privilegii nihil addunt,
+          <lb ed="#P" n="97"/>nisi negationem conventionis et 
+          recompensa<lb break="no" ed="#P" n="98"/>tionis ex parte recipientis privilegium., 
+          Ali<lb break="no" ed="#P" n="99"/>quando ergo conceditur privilegium 
+          interve<lb break="no" ed="#P" n="100"/>niente conventione, seu pacto, ratione cujus
+          <lb ed="#P" n="101"/>quodammodo censetur privilegiarius emere,
+          <lb ed="#P" n="102"/>vel recompensare privilegium, et ideo 
+          distinc<lb break="no" ed="#P" n="103"/>tio haec valde usitata est inter auctores, ut in
+          <lb ed="#P" n="104"/>discursu materiae videbimus. Baldus tamen, in
+          <lb ed="#P" n="105"/>l. ult., c. Unde liberi, num. 33 et 34, indicat
+          <lb ed="#P" n="106"/>nullum esse privilegium conventionale, quia
+          <lb ed="#P" n="107"/>eo ipso quod transit in pactum, desinit esse
+          <lb ed="#P" n="108"/>privilegium, et ita haec duo ibi condistinguit.
+          <lb ed="#P" n="109"/>Sed videtur esse de nomine contentio, et in
+          <lb ed="#P" n="110"/>rigore ratio pacti non repugnat cum ratione
+          <pb ed="#P" n="241"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>privilegii, quia non est de ratione privilegii ut
+          <lb ed="#P" n="2"/>liberaliter et gratiose concedatur; nullus enim
+          <lb ed="#P" n="3"/>hoc posuit in definitione privilegii, nec ex
+          <lb ed="#P" n="4"/>aliis principiis colligi potest. Potest ergo esse
+          <lb ed="#P" n="5"/>lex privata aliquid speciale concedens, vel
+          <lb ed="#P" n="6"/>contra, vel supra jus, non tamen omnino 
+          gra<lb break="no" ed="#P" n="7"/>tiose, sed cum aliqua obligatione justitiae, seu
+          <lb ed="#P" n="8"/>recompensatione recipientis , et hoc 
+          appella<lb break="no" ed="#P" n="9"/>mus privilegium conventionale.
+        </p>
+        <p xml:id="szdleg-q59611-d1e916">
+          <lb ed="#P" n="10"/>10. De hoc ergo dicunt aliqui esse 
+          privile<lb break="no" ed="#P" n="11"/>gium reale, eo ipso quod in pacto fundatur,
+          <lb ed="#P" n="12"/>quia inde habet quod sit perpetuum et 
+          trans<lb break="no" ed="#P" n="13"/>missibile ad haeredes. Quod patet, quia omnis
+          <lb ed="#P" n="14"/>contractus est transmissibilis ad haeredes, 1.
+          <lb ed="#P" n="15"/>Veteris, c. de Contrahend. stipulat., et l. 1, c.
+          <lb ed="#P" n="16"/>Ut actiones, etc. Sed privilegium 
+          conventio<lb break="no" ed="#P" n="17"/>nale includit pactum ; ergo est transmissibile
+          <lb ed="#P" n="18"/>ad haeredes ; ergo est reale. Et hanc 
+          senten<lb break="no" ed="#P" n="19"/>tiam indicat Socin., 1. 1 Consil., in 59, n. 9.
+          <lb ed="#P" n="20"/>Nam inde confirmat privilegium 
+          remunerati<lb break="no" ed="#P" n="21"/>vum esse reale et transmissibile; quia habet
+          <lb ed="#P" n="22"/>vim pacti: ergo multo magis ipsum 
+          privile<lb break="no" ed="#P" n="23"/>giufi conventionale, quod expressum pactum
+          <lb ed="#P" n="24"/>involvit, erit reale. Denique tale privilegium
+          <lb ed="#P" n="25"/>irrevocabile censetur, ut late docet Bald. in
+          <lb ed="#P" n="26"/>dicta l. ult., c. Unde liberi, num. trigesimo
+          <lb ed="#P" n="27"/>tertio et trigesimo quarto , et Panormitan. in
+          <lb ed="#P" n="28"/>cap. Pervenit, de Immun. Eccles., nimirum
+          <lb ed="#P" n="29"/>per solam voluntatem concedentis, quia cum
+          <lb ed="#P" n="30"/>ex vi pacti includat mutuam obligationem 
+          jus<lb break="no" ed="#P" n="31"/>titiae, non potest a concedente revocari ; ergo
+          <lb ed="#P" n="32"/>de se perpetuum est. Quod enim ex mutuo
+          <lb ed="#P" n="33"/>consensu possit retractari, non tollit moralem
+          <lb ed="#P" n="34"/>perpetuitatem, de qua tractamus ; sic enim
+          <lb ed="#P" n="35"/>nullum est privilegium ita perpetuum, quod
+          <lb ed="#P" n="36"/>non possit extingui ex voluntate alicujus; ut
+          <lb ed="#P" n="37"/>ergo privilegium sit de se perpctuum, satis est
+          <lb ed="#P" n="38"/>quod sit irrevocabile ab alio; ergo tale 
+          privi<lb break="no" ed="#P" n="39"/>legium est perpetuum, et consequenter etiam
+          <lb ed="#P" n="40"/>reale.
+        </p>
+        <p xml:id="szdleg-q59611-d1e986">
+          <lb ed="#P" n="41"/>11. Privilegium conventionale est per se 
+          in<lb break="no" ed="#P" n="42"/>differens ut possit esse personale etiam. — 
+          Ob<lb break="no" ed="#P" n="43"/>jectio. — Nihilominus dico privilegium reale
+          <lb ed="#P" n="44"/>non postulare per se et intrinsece ut sit 
+          con<lb break="no" ed="#P" n="45"/>ventionale , neque e converso conventionale
+          <lb ed="#P" n="46"/>postulare ut sit reale, sed de se indifferens esse
+          <lb ed="#P" n="47"/>ad personale et reale. Probatur primum, quia,
+          <lb ed="#P" n="48"/>sicut reale privilegium potest cum onere et
+          <lb ed="#P" n="49"/>pacto concedi, ita etiam potest liberaliter, et
+          <lb ed="#P" n="50"/>omnino gratiose donari. Cur enim uterque ex
+          <lb ed="#P" n="51"/>his modis locum habet in privilegio personali,
+          <lb ed="#P" n="52"/>et non in reali? Vel cur princeps poterit ex
+          <lb ed="#P" n="53"/>pacto alicui rei immunitatem concedere, et
+          <lb ed="#P" n="54"/>non ex liberali voluntate? Quin potius, 
+          libera<lb break="no" ed="#P" n="55"/>lis concessio privilegii etiam perpetui est ma-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>gis digna principe, quam venalis. Item est 
+          ma<lb break="no" ed="#P" n="57"/>gis conveniens communi bono, quia si 
+          privi<lb break="no" ed="#P" n="58"/>legia fiant venalia, facile multiplicantur, et
+          <lb ed="#P" n="59"/>hominibus indignis ac quaestuosis 
+          concedun<lb break="no" ed="#P" n="60"/>tur ; si autem ex prudenti dispensatione 
+          libe<lb break="no" ed="#P" n="61"/>raliter donentur, rarius et cum majori delectu
+          <lb ed="#P" n="62"/>conceduntur. Dices hinc recte probari 
+          privi<lb break="no" ed="#P" n="63"/>legium reale posse esse gratiosum, 
+          nihilomi<lb break="no" ed="#P" n="64"/>nus tamen privilegium non gratiosum semper
+          <lb ed="#P" n="65"/>esse reale. Respondeo eadem proportione posse
+          <lb ed="#P" n="66"/>alt'ram partem ostendi. Quia sicut 
+          privile<lb break="no" ed="#P" n="67"/>gium reale potest csse gratiosum, ita ctiam
+          <lb ed="#P" n="68"/>personale potest esse conventionale, quia bona
+          <lb ed="#P" n="69"/>etiam personalia, seu ad tempus, vel ad vitam
+          <lb ed="#P" n="70"/>solius personae concessa, possunt non gratis,
+          <lb ed="#P" n="71"/>sed ex pacto dari, ut usu ipso et experientia
+          <lb ed="#P" n="72"/>notum est ; ergo privilegium conventionale
+          <lb ed="#P" n="73"/>potest esse personale; ergo per se et intrinsece
+          <lb ed="#P" n="74"/>non postulat esse reale. Confirmatur primo,
+          <lb ed="#P" n="75"/>quia servitus, sive donetur, sive vendatur, 
+          po<lb break="no" ed="#P" n="76"/>test et soli personae ad tempus vel vitam 
+          con<lb break="no" ed="#P" n="77"/>cedi, et in perpetuum transigi; et e converso,
+          <lb ed="#P" n="78"/>neque unum est magis per se conjunctum cum
+          <lb ed="#P" n="79"/>ratione servitutis, quam aliud; ergo idem est
+          <lb ed="#P" n="80"/>in privilegio, est enim aequalis ratio, servata
+          <lb ed="#P" n="81"/>proportione. Confirmatur etiam retorquendo
+          <lb ed="#P" n="82"/>rationem supra factam, quia privilegium 
+          re<lb break="no" ed="#P" n="83"/>munerativum virtute est conventionale, et 
+          ni<lb break="no" ed="#P" n="84"/>hilominus de se non est reale magis quam
+          <lb ed="#P" n="85"/>personale ; ergo idem dicendum est de 
+          privi<lb break="no" ed="#P" n="86"/>legio conventionali.
+        </p>
+        <p xml:id="szdleg-q59611-d1e1090">
+          <lb ed="#P" n="87"/>12. Privilegium conventionale non semper
+          <lb ed="#P" n="88"/>transire ad heeredes, sed ponderanda esse 
+          pri<lb break="no" ed="#P" n="89"/>vilegii verba, juata dicta. — Privilegium 
+          con<lb break="no" ed="#P" n="90"/>cessum rei, dignitati aut officio, transit cum
+          <lb ed="#P" n="91"/>ilis ad heeredes modo quo illa. — Unde etiam
+          <lb ed="#P" n="92"/>infertur privilegium conventionale non 
+          sem<lb break="no" ed="#P" n="93"/>per transire ad haeredes, sed ponderanda esse
+          <lb ed="#P" n="94"/>verba privilegii juxta regulas positas capite
+          <lb ed="#P" n="95"/>praecedenti. Nam, formaliter loquendo (ut sic
+          <lb ed="#P" n="96"/>dicam), privilegium concessum personae, etiam
+          <lb ed="#P" n="97"/>ex pacto, non transit ad haeredes, nisi in ipso
+          <lb ed="#P" n="98"/>privilegio nominentur sub nomine haeredum,
+          <lb ed="#P" n="99"/>vel sub nomine posteritatis, vel alio 
+          aequiva<lb break="no" ed="#P" n="100"/>lenti; et ex proprietate ejusdem vocis 
+          colli<lb break="no" ed="#P" n="101"/>gendum erit an transeat ad haeredes sanguinis
+          <lb ed="#P" n="102"/>et quasi naturales, vel etiam ad voluntarios et
+          <lb ed="#P" n="103"/>extraneos. S1 autem privilegium concedatur
+          <lb ed="#P" n="104"/>rei, vel dignitati, aut officio, tunc in tantum
+          <lb ed="#P" n="105"/>poterit privilegium transire ad haeredes, in
+          <lb ed="#P" n="106"/>quantum res, vel dignitas, aut officium ad
+          <lb ed="#P" n="107"/>illos pervenerit : nam si contingat res illas
+          <lb ed="#P" n="108"/>pervenire ad alios non haeredes, privilegium
+          <lb ed="#P" n="109"/>etiam perveniet ad illos, quia cum ipsa re
+          <lb ed="#P" n="110"/>transit.
+        </p>
+        <p xml:id="szdleg-q59611-d1e1145">
+          <pb ed="#P" n="242"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>13. Leges dicentes contractus transire ad
+          <lb ed="#P" n="2"/>heeredes, generaliter sumptae, non dicunt actum,
+          <lb ed="#P" n="3"/>sed aptitudinem. — Longe diversum esse 
+          privi<lb break="no" ed="#P" n="4"/>legium esse perpetum, ac esse irrevocabile. —
+          <lb ed="#P" n="5"/>Ad illas vero leges quae dicunt contractus 
+          tran<lb break="no" ed="#P" n="6"/>sire ad haeredes, respondeo illa verba, 
+          gene<lb break="no" ed="#P" n="7"/>raliter sumpta, non dicere actum, sed 
+          aptitu<lb break="no" ed="#P" n="8"/>dinent, quia contractus de se potest ita fieri,
+          <lb ed="#P" n="9"/>ut transeat ad haeredes ; non tamen id semper
+          <lb ed="#P" n="10"/>esse necessarium, cum possit etiam per 
+          res<lb break="no" ed="#P" n="11"/>pectum ad solas contrahentium personas 
+          con<lb break="no" ed="#P" n="12"/>trahi, ut patet in matrimonio. Vel certe, si de
+          <lb ed="#P" n="13"/>actu sit sermo, intelligendum est contractum
+          <lb ed="#P" n="14"/>transire ad haeredes, nisi de voluntate 
+          contra<lb break="no" ed="#P" n="15"/>hentium constet fuisse limitatum ad personas,
+          <lb ed="#P" n="16"/>juxta l. Zdem, 25, ff. de Pactis. Denique eodem
+          <lb ed="#P" n="17"/>modo dicitur irrevocabile privilegium 
+          conven<lb break="no" ed="#P" n="18"/>tionale, scilicet, pro eo tempore pro quo 
+          da<lb break="no" ed="#P" n="19"/>tum et conventum est, et ita etiam 
+          privile<lb break="no" ed="#P" n="20"/>gium personale potest esse irrevocabile, ut per
+          <lb ed="#P" n="21"/>se notum est. Quomodo autem talia privilegia
+          <lb ed="#P" n="22"/>sint irrevocabilia, dicemus postea tractando
+          <lb ed="#P" n="23"/>de mutatione privilegiorum. Nunc solum 
+          no<lb break="no" ed="#P" n="24"/>tatur longe diversum esse quod privilegium
+          <lb ed="#P" n="25"/>sit perpetuum, vel quod sit irrevocabile, quia
+          <lb ed="#P" n="26"/>etiam temporalia possunt esse irrevocabilia
+          <lb ed="#P" n="27"/>pro temporibus suis, sicut votum temporale
+          <lb ed="#P" n="28"/>respective tam irrevocabile est quam 
+          perpe<lb break="no" ed="#P" n="29"/>tuum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

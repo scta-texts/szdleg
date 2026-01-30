@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="39"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q09705"><!-- l6c9 -->
+        <head xml:id="szdleg-q09705-Hd1e101">Caput 9</head>
+        <head xml:id="szdleg-q09705-Hd1e103" type="question-title">Utrum aliquando lex tota perb seipsam cesset, causa ejus cessante.</head>
+        <p xml:id="szdleg-q09705-d1e106">
+          <lb ed="#P" n="60"/>CAPUT IX.
+          <lb ed="#P" n="61"/>UTRUM ALIQUANDO LEX TOTA PERB SEIPSAM CESSET,
+          <lb ed="#P" n="62"/>CAUSA EJUS CESSANTE.
+        </p>
+        <p xml:id="szdleg-q09705-d1e115">
+          <lb ed="#P" n="63"/>1. Lex de se perpetua est, et pro communitate
+          <lb ed="#P" n="64"/>fertur. — Cum lex sit de se perpetua et pro
+          <lb ed="#P" n="65"/>communitate feratur, manifestum est non 
+          pos<lb break="no" ed="#P" n="66"/>se cessare ex defectu causae efficientis ; non
+          <lb ed="#P" n="67"/>enim finitur per mortem ferentis vel 
+          succes<lb break="no" ed="#P" n="68"/>soris, ut ex dictis in lib. 1 constat, et 
+          conse<lb break="no" ed="#P" n="69"/>quenter nec per solam temporis successionem
+          <lb ed="#P" n="70"/>tollitur, quia indefinite constitui debet. Quod
+          <lb ed="#P" n="71"/>si aliquando potest ad certum tempus ferri, 
+          il<lb break="no" ed="#P" n="72"/>lud extraordinarium est, et tunc in suamet
+          <lb ed="#P" n="73"/>constitutione habet talis lex quasi annexam
+          <lb ed="#P" n="74"/>revocationem pro tali tempore, quae pertinet
+          <lb ed="#P" n="75"/>ad alium modum ablationis legis infra 
+          trac<lb break="no" ed="#P" n="76"/>tandum. Praeterea non cessat lex ex defectu
+          <lb ed="#P" n="77"/>eorum pro quibus fertur; nam communitas
+          <lb ed="#P" n="78"/>civitatis aut populi de se perpetua est; nam
+          <lb ed="#P" n="79"/>per continuam successionem conservatur, et
+          <lb ed="#P" n="80"/>licet civitas vel populus omnino deleri possit,
+          <lb ed="#P" n="81"/>id rarum est et non habet moralem 
+          conside<lb break="no" ed="#P" n="82"/>rationem. Igitur solum potest lex cessare per
+          <lb ed="#P" n="83"/>mutationem objecti, circa quod versatur, quae
+          <lb ed="#P" n="84"/>(physice loquendo) potest multipliciter 
+          con<lb break="no" ed="#P" n="85"/>tingere; tamen in praesenti solum oportet 
+          con<lb break="no" ed="#P" n="86"/>siderare mutationem in materia legis, quoad
+          <lb ed="#P" n="87"/>rationem propriam ob quam sub obligastionem
+          <lb ed="#P" n="88"/>legis constituitur; nam si illa perseverat, non
+          <lb ed="#P" n="89"/>cessabit lex ex illo capite, ac subinde 
+          simplici<lb break="no" ed="#P" n="90"/>ter non cessabit nisi revocetur, quia non habet
+          <lb ed="#P" n="91"/>aliam causam mutabilem a qva in sua 
+          conser<lb break="no" ed="#P" n="92"/>vatione pendeat, ut declaratum est. Si autem
+          <lb ed="#P" n="93"/>in objecto sub ea ratione spectato fiat mutatio,
+          <lb ed="#P" n="94"/>undecumque illa mutatio proveniat, eadem
+          <lb ed="#P" n="95"/>est quaestio, an ex vi talis mutationis in 
+          mate<lb break="no" ed="#P" n="96"/>ria legis desinat ipsa lex; idem enim est 
+          quae<lb break="no" ed="#P" n="97"/>rere an, cessante omnino et totaliter ratione
+          <lb ed="#P" n="98"/>vel fine legis, cesset etiam lex ita ut omnino
+          <lb ed="#P" n="99"/>extinguatur et de medio tollatur. Dico autem
+          <lb ed="#P" n="100"/>cessante omnino et Lotaliter ratione legis: quia
+          <lb ed="#P" n="101"/>jam hic non consideratur cessatio in uno, velalio
+          <lb ed="#P" n="102"/>actu, nec alia similis mutatio partialis, quae
+          <lb ed="#P" n="103"/>solum contingit in una occasione vel in aliqua
+          <lb ed="#P" n="104"/>parte materiae legis pro aliquo tempore ; nam
+          <lb ed="#P" n="105"/>de hac partiali mutatione satis dictum est in
+          <lb ed="#P" n="106"/>capite praecedenti; quamvis aliter possit in
+          <lb ed="#P" n="107"/>prassenti considerari partialis mutatio, vel
+          <pb ed="#P" n="40"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>perpetua in aliqua notabili parte materiae 
+          le<lb break="no" ed="#P" n="2"/>gis, vel temporalis in tota materia, de quibus
+          <lb ed="#P" n="3"/>in fine dicam.
+        </p>
+        <p xml:id="szdleg-q09705-d1e226">
+          <lb ed="#P" n="4"/>2. Cessatio potest esse contraria aut 
+          nega<lb break="no" ed="#P" n="5"/>tiva. — Altera vero distinctio tradita capite
+          <lb ed="#P" n="6"/>praecedenti de duplici cessatione rationis vel
+          <lb ed="#P" n="7"/>finislegis, scilicet, contraria et negativa, hic
+          <lb ed="#P" n="8"/>etiam valde necessaria est, tum ut videamus
+          <lb ed="#P" n="9"/>an utraque locum habeat respectu integrae
+          <lb ed="#P" n="10"/>legis; tum ut explicemus per quam illarum
+          <lb ed="#P" n="11"/>desinat esse lex. Tunc ergo dicitur mutari 
+          con<lb break="no" ed="#P" n="12"/>trarie objectum legis, quando propter 
+          muta<lb break="no" ed="#P" n="13"/>tionem materiae, vel rerum seu 
+          circumstantia<lb break="no" ed="#P" n="14"/>rum, fit ut sit injustum vel quocumque modo
+          <lb ed="#P" n="15"/>turpe servare legem, vel si fiat impossibile,
+          <lb ed="#P" n="16"/>aut saltem ita difficile et arduum, ut 
+          mora<lb break="no" ed="#P" n="17"/>liter judicetur impossibile respectu totius 
+          com<lb break="no" ed="#P" n="18"/>munitatis, vel denique si fiat prorsus inutile
+          <lb ed="#P" n="19"/>et vanum respectu boni communis. Mutatio
+          <lb ed="#P" n="20"/>autem negativa erit, si in tota materia legis
+          <lb ed="#P" n="21"/>jam non inveniatur ratio, ob quam lex posita
+          <lb ed="#P" n="22"/>fuit, licet ea sublata, adhuc materia per se
+          <lb ed="#P" n="23"/>mala non sit, nec impossibilis, nec inutilis, aut
+          <lb ed="#P" n="24"/>injusta.
+        </p>
+        <p xml:id="szdleg-q09705-d1e275">
+          <lb ed="#P" n="25"/>3. Mutatio contrarie legis vigorem 
+          emtin<lb break="no" ed="#P" n="26"/>guit Augustinus.— Boidentia necessaria est ut
+          <lb ed="#P" n="27"/>lex vigorem suum perdat.—COuando ergo 
+          mu<lb break="no" ed="#P" n="28"/>tatio fit contrarie in tota materia legis, nulla
+          <lb ed="#P" n="29"/>est difficultas, nec controversia ; omnes enim
+          <lb ed="#P" n="30"/>fatentur tum legem ipso facto cessare, quia
+          <lb ed="#P" n="31"/>eo ipso incipit non esse justa ; ergo incipit non
+          <lb ed="#P" n="32"/>esse lex, quia, ut saepe ex Augustino diximus,
+          <lb ed="#P" n="33"/>lex injusta non est lex. Antecedens patet, quia
+          <lb ed="#P" n="34"/>lex de re iniqua, impossibili vel non 
+          confe<lb break="no" ed="#P" n="35"/>rente aliquid ad bonum commune est injusta
+          <lb ed="#P" n="36"/>et nulla, ut ex dictis in lib. 1 constat; sed per
+          <lb ed="#P" n="37"/>mutationem contrariam in objecto factam res
+          <lb ed="#P" n="38"/>praecepta incipit esse iniqua, impossibilis, vel
+          <lb ed="#P" n="39"/>inutilis, ut explicatum est; ergo si lex ulterius
+          <lb ed="#P" n="40"/>duraret, jam esset de re iniqua, ac subinde
+          <lb ed="#P" n="41"/>ipsa esset iniqua, aut esset injusta. Unde fit
+          <lb ed="#P" n="42"/>in hujusmodi eventu non esse necessarium ut
+          <lb ed="#P" n="43"/>princeps illam revocet ut licite possit non 
+          ser<lb break="no" ed="#P" n="44"/>vari, neque etiam ut consuetudine tollatur:
+          <lb ed="#P" n="45"/>nam priusquam consuetudo introducatur, juste
+          <lb ed="#P" n="46"/>incipiet non observari: et ideo dixi ipso facto
+          <lb ed="#P" n="47"/>cessare. Hoc autem per se notum est quando
+          <lb ed="#P" n="48"/>incipit esse iniqua ipsa observatio legis, quia
+          <lb ed="#P" n="49"/>repugnat durare obligationem ad aliquid 
+          ini<lb break="no" ed="#P" n="50"/>quum faciendum. Idem autem est si fiat 
+          im<lb break="no" ed="#P" n="51"/>possibilis, quia ad impossibile nemo obligatur,
+          <lb ed="#P" n="52"/>et respectu communitatis sufficit quod sit 
+          im<lb break="no" ed="#P" n="53"/>possibilitas moralis; ergo cessabit tunc lex
+          <lb ed="#P" n="54"/>ipso facto respectu communitatis; ergo etiam
+          <lb ed="#P" n="55"/>respectu singulorum. Eademque ratio est si fiat
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>materia inutilis et vana respectu boni 
+          commu<lb break="no" ed="#P" n="57"/>nis ; nam eo ipso fit incapax obligatiouis legis
+          <lb ed="#P" n="58"/>respectu communitatis, et consequenter etiam
+          <lb ed="#P" n="59"/>respectu singulorum. Oportebit autem ut talis
+          <lb ed="#P" n="60"/>mutatio universaliter facta in tota materia
+          <lb ed="#P" n="61"/>legis manifesta sit et evidens; nam in dubio
+          <lb ed="#P" n="62"/>semper lex retinet jus et quasi possessionem
+          <lb ed="#P" n="63"/>suam, semperque pro illius justitia 
+          praesumi<lb break="no" ed="#P" n="64"/>tur. Praesertim quia, quando mutatio non est
+          <lb ed="#P" n="65"/>evidens, et manifeste nota omnibus, signum
+          <lb ed="#P" n="66"/>est non esse tantam nec tam universalem, et
+          <lb ed="#P" n="67"/>ideo hic non videntur necessarise aliae 
+          distinc<lb break="no" ed="#P" n="68"/>tiones de majori vel minori dubio, sed 
+          simpli<lb break="no" ed="#P" n="69"/>citer exigenda est notitia certa; satis vero erit
+          <lb ed="#P" n="70"/>quod ex publica et constanti populi opinione
+          <lb ed="#P" n="71"/>consurgat.
+        </p>
+        <p xml:id="szdleg-q09705-d1e382">
+          <lb ed="#P" n="72"/>4. Solum ergo superest nonnulla difficultas
+          <lb ed="#P" n="73"/>quando ratio legis tantum negative cessat 
+          ge<lb break="no" ed="#P" n="74"/>neraliter, videtur enim id satis non esse ut tota
+          <lb ed="#P" n="75"/>lex cesset. Primo, quia eadem videtur esse 
+          ra<lb break="no" ed="#P" n="76"/>tio et proportio totius ad totum quae partis ad
+          <lb ed="#P" n="77"/>partem ; sed cessante illo modo ratione legis in
+          <lb ed="#P" n="78"/>particulari, non cessat obligatio legis: ergo
+          <lb ed="#P" n="79"/>nec cessante in generali, tota lex perit. 
+          Se<lb break="no" ed="#P" n="80"/>cundo, quia cessante negative ratione legis,
+          <lb ed="#P" n="81"/>non constat statim cessare voluntatem 
+          princi<lb break="no" ed="#P" n="82"/>pis: ergo non est necesse statim cessare legem.
+          <lb ed="#P" n="83"/>Patet consequentia, quia lex a voluntate 
+          prin<lb break="no" ed="#P" n="84"/>cipis habet suam efficacitatem ad obligandum.
+          <lb ed="#P" n="85"/>Antecedens autem supra probatum est, quia
+          <lb ed="#P" n="86"/>voluntas potest vel a principio pluribus 
+          ratio<lb break="no" ed="#P" n="87"/>nibus moveri, et princeps potest praecipuam
+          <lb ed="#P" n="88"/>vel notiorem exprimere, et non omnes, vel
+          <lb ed="#P" n="89"/>certe potest voluntas in principio una ratione
+          <lb ed="#P" n="90"/>moveri, et deinde alia continuari, ut supra de
+          <lb ed="#P" n="91"/>wibutis dicebamus. Tertio, quando ratio vel
+          <lb ed="#P" n="92"/>finis tantum negative desinit, adhuc potest lex
+          <lb ed="#P" n="93"/>sine peccato servari; ergo servanda est ex 
+          ea<lb break="no" ed="#P" n="94"/>dem obligatione donec revocetur. Antecedens
+          <lb ed="#P" n="95"/>ex declaratione terminorum supponitur. 
+          Con<lb break="no" ed="#P" n="96"/>sequentia vero probatur, quia tunc nullum est
+          <lb ed="#P" n="97"/>periculum in observatione legis, et potest esse
+          <lb ed="#P" n="98"/>magnum in illius transgressione, tum quia non
+          <lb ed="#P" n="99"/>potest esse statim certum voluntatem principis
+          <lb ed="#P" n="100"/>cessasse ; tum quia possunt sequi magna 
+          mora<lb break="no" ed="#P" n="101"/>lia incommoda, si tanta licentia populo 
+          tri<lb break="no" ed="#P" n="102"/>buatur. Denique pro hac sententia referri 
+          pos<lb break="no" ed="#P" n="103"/>sunt auctores dicentes legem non cessare, licet
+          <lb ed="#P" n="104"/>ejus ratio cesset, quos in principio capitis 
+          prae<lb break="no" ed="#P" n="105"/>cedentis retuli.
+        </p>
+        <p xml:id="szdleg-q09705-d1e458">
+          <lb ed="#P" n="106"/>5. Cessante ratione legis quando cessat les.
+          <lb ed="#P" n="107"/>— Nihilominus communis consensus est 
+          ces<lb break="no" ed="#P" n="108"/>sante ratione legis generaliter seu frequentius
+          <lb ed="#P" n="109"/>in tota communitate, legem cessare. Ita censent
+          <lb ed="#P" n="110"/>imprimis omnes qui affirmant cessante ratione
+          <pb ed="#P" n="41"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>legis in particulari, etiam negative tantum,
+          <lb ed="#P" n="2"/>cessare in ilio particulari obligationem legis;
+          <lb ed="#P" n="3"/>nam a fortiori coguntur id dicere in universali,
+          <lb ed="#P" n="4"/>et ita possunt pro hac sententia allegari 
+          Pa<lb break="no" ed="#P" n="5"/>norm., in cap. Quia plerique, de Immunit. 
+          Ec<lb break="no" ed="#P" n="6"/>clesiar. Ubi idem plane sentiunt Innoc., 
+          An<lb break="no" ed="#P" n="7"/>ton. et alii capite praecedenti allegati. Clarius
+          <lb ed="#P" n="8"/>vero hoc docent Ledesm., 2, p. quarti, q. 17,
+          <lb ed="#P" n="9"/>art. 2, dub. 3, ad 4, et quaest. 18, a dub. 12,
+          <lb ed="#P" n="10"/>post secundam conclusionem, et dub. 14 post
+          <lb ed="#P" n="11"/>3 conclus.; Covar., in 4, 2 p., S9, n. S, et in
+          <lb ed="#P" n="12"/>cap. Cum esses, de Testam., n. 9, ubi refert
+          <lb ed="#P" n="13"/>Fortun. de ultim. fin., illat. 15 et 16. Idem
+          <lb ed="#P" n="14"/>Castro, lib. 1 de Lege poenal., c. 5, docum. 3;
+          <lb ed="#P" n="15"/>Cajet. 2. 9. q. 147, art. 5, et in aliis locis supra
+          <lb ed="#P" n="16"/>citatis, et communiter expositores D. Thomae
+          <lb ed="#P" n="17"/>dicto art. 6, quaest. 96, in 1. 2, et Soto eodem
+          <lb ed="#P" n="18"/>modo loquitur; addit tamen limitationem
+          <lb ed="#P" n="19"/>quam expendere necesse est priusquam veram
+          <lb ed="#P" n="20"/>rationem et resolutionem ejus tradamus.
+        </p>
+        <p xml:id="szdleg-q09705-d1e519">
+          <lb ed="#P" n="21"/>6. Dubitari ergo potest an intelligendum sit
+          <lb ed="#P" n="22"/>cessante ratione legis in universali, cesset lex
+          <lb ed="#P" n="23"/>ipso facto, ita ut possit a subditis licite non
+          <lb ed="#P" n="24"/>servari, nulla expectata principis declaratione
+          <lb ed="#P" n="25"/>vel revocatione, vel solum dicatur cessare,
+          <lb ed="#P" n="26"/>quia deficiente causa tenetur princeps legem
+          <lb ed="#P" n="27"/>tollere. Reliqui enim auctores (Soto excepto),
+          <lb ed="#P" n="28"/>licet punctum expresse non attingant, plane
+          <lb ed="#P" n="29"/>loquuntur de cessatione ipso facto. Et potest
+          <lb ed="#P" n="30"/>hoc confirmari, quia alias non esset hic modus
+          <lb ed="#P" n="31"/>peculiaris desitionis legis distinctus ab illius
+          <lb ed="#P" n="32"/>revocatione, sed ad summum assignaretur per
+          <lb ed="#P" n="33"/>hoc quaedam legitima causa abrogandi legem;
+          <lb ed="#P" n="34"/>sicut possunt etiam aliae plures assignari. Item
+          <lb ed="#P" n="35"/>quia pro fundamento sumitur, cessante causa
+          <lb ed="#P" n="36"/>cessare effectum, quod intelligitur de 
+          cessa<lb break="no" ed="#P" n="37"/>tione ipso facto, ut sumitur ex c. Et si 
+          Chris<lb break="no" ed="#P" n="38"/>tus, de Jur. jur. Et ideo solet explicari de causa
+          <lb ed="#P" n="39"/>propria et adaequata a qua effectus in 
+          conser<lb break="no" ed="#P" n="40"/>vari pendeat, ut ibi Glossa sentit, et clarius
+          <lb ed="#P" n="41"/>Glos. in c. Post translationem, de Renuntiat.,
+          <lb ed="#P" n="42"/>verbo Cessante, et in S Sed sciendum, post cap.
+          <lb ed="#P" n="43"/>Statuimus, 61 d., verb. Causa, in fine, et in
+          <lb ed="#P" n="44"/>c. Quod pro remedio, 1, quaest. 17, per textum
+          <lb ed="#P" n="45"/>ipsum. Dum autem hic loquimur de cessatione
+          <lb ed="#P" n="46"/>causae, vel rationis, vel finis legis, de adaequata
+          <lb ed="#P" n="47"/>causa loquimur, alioqui non dicetur 
+          simplici<lb break="no" ed="#P" n="48"/>ter cessare causa : ergo illa cessante debet ipso
+          <lb ed="#P" n="49"/>facto cessare lex, quia ab illa pendet tam 
+          vo<lb break="no" ed="#P" n="50"/>luntas principis quam utilitas legis. Unde si
+          <lb ed="#P" n="51"/>talis ratio a principio non fuisset, non posset
+          <lb ed="#P" n="52"/>lex juste ferri: ergo nec potest sine illa juste
+          <lb ed="#P" n="53"/>conservari.
+        </p>
+        <p xml:id="szdleg-q09705-d1e593">
+          <lb ed="#P" n="54"/>7. Nihilominus Soto contrarium aperte 
+          sen<lb break="no" ed="#P" n="55"/>tit; nam in l. 1 de Justit., quaest. 6, art. 8, sic
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ait: S? in toto genere causa cessaverit, tunc et
+          <lb ed="#P" n="57"/>lex quoque cessare debet ; verumtamen antequam
+          <lb ed="#P" n="58"/>princeps vel consuetudo illam abroget , vim
+          <lb ed="#P" n="59"/>suam non amittit. Ubi loquitur clare de 
+          ces<lb break="no" ed="#P" n="60"/>satione causae negative ; nam ea interveniente
+          <lb ed="#P" n="61"/>in particulari, negat sufficere ut obligatio legis
+          <lb ed="#P" n="62"/>in particulari cesset. Idem fere repetit in l. 3,
+          <lb ed="#P" n="63"/>q. 4 art. 5, ad 1: Nam licet principi (inquit)
+          <lb ed="#P" n="64"/>incumbat illum mutare, tamen subditis non 
+          li<lb break="no" ed="#P" n="65"/>cet contra facere, dum jus naturae id permittit
+          <lb ed="#P" n="66"/>(utique quod erat per legem praeceptum), nisi
+          <lb ed="#P" n="67"/>iam esse inciperet contra ipsum. Waque, 
+          quam<lb break="no" ed="#P" n="68"/>diu ratio legis non ita cessat ut quod praecipit
+          <lb ed="#P" n="69"/>incipiat esse contra jus naturae, non putat 
+          ces<lb break="no" ed="#P" n="70"/>sare legem ipso facto, donec abrogetur. Non
+          <lb ed="#P" n="71"/>declarat autem Soto quo fundamento ductus
+          <lb ed="#P" n="72"/>fuerit, insinuat autem quamdiu materia legis
+          <lb ed="#P" n="73"/>est capax obligationis tamdiu durare legem,
+          <lb ed="#P" n="74"/>nisi revocetur. Per solam autem cessationem
+          <lb ed="#P" n="75"/>rationis etiam in universali non fit materia
+          <lb ed="#P" n="76"/>legis incapax obligationis, quia potest non esse
+          <lb ed="#P" n="77"/>mala, et esse utihs reipublicae, etiamsi fortasse
+          <lb ed="#P" n="78"/>non sit talis vel necessaria sicut antea ; hoc
+          <lb ed="#P" n="79"/>enim non est satis ut statim per se censeatur
+          <lb ed="#P" n="80"/>lex ablata. Confirmari hoc potest ab 
+          incom<lb break="no" ed="#P" n="81"/>modis, quia contra debitum ordinem est ut
+          <lb ed="#P" n="82"/>lex a superiori posita sine consensu illius non
+          <lb ed="#P" n="83"/>servetur, dum licite et facile servari potest;
+          <lb ed="#P" n="84"/>nam inde etiam scandala, et perturbationes
+          <lb ed="#P" n="85"/>vel fraudes in republica oriri possunt. Unde
+          <lb ed="#P" n="86"/>posset media via excogitari, nimirum, cessante
+          <lb ed="#P" n="87"/>causa vel ratione legis in universali, cessare
+          <lb ed="#P" n="88"/>quidem legem in se, ipso facto, nihilominus 
+          ta<lb break="no" ed="#P" n="89"/>men non posse subditos licite incipere agere
+          <lb ed="#P" n="90"/>contra il'am donec princeps declaraverit 
+          ces<lb break="no" ed="#P" n="91"/>sasse, quia ita expedit ad commune bonum, ad
+          <lb ed="#P" n="92"/>eum modum quo diximus in superiori libro
+          <lb ed="#P" n="93"/>poenam incurri saepe ipso facto, ante 
+          senten<lb break="no" ed="#P" n="94"/>tiam vero declaratoriam non obligare.
+        </p>
+        <p xml:id="szdleg-q09705-d1e687">
+          <lb ed="#P" n="95"/>8. Duplex materia legis humanae. — Ut
+          <lb ed="#P" n="96"/>meam sententiam explicem, suppono ex supra
+          <lb ed="#P" n="97"/>dictis duplicem esse matcriam legis humanae.
+          <lb ed="#P" n="98"/>Quaedam enim talis est ut, per se spectata, sit
+          <lb ed="#P" n="99"/>honesta et contineat actum virtutis, ut est 
+          prae<lb break="no" ed="#P" n="100"/>ceptum jejunii, orationis, etc.; alia est 
+          mate<lb break="no" ed="#P" n="101"/>ria per se indifferens, ut portare vel non 
+          por<lb break="no" ed="#P" n="102"/>tare arma, extrahere a loco has res vel illas,
+          <lb ed="#P" n="103"/>et similia. Et hinc oritur alia differentia inter
+          <lb ed="#P" n="104"/>ipsas leges; nam cum omnes leges humanae
+          <lb ed="#P" n="105"/>constituant actum vel omissionem in aliqua
+          <lb ed="#P" n="106"/>specie virtutis aut vitii, ut supra visum est,
+          <lb ed="#P" n="107"/>quando materia legis in se et per se habet 
+          ho<lb break="no" ed="#P" n="108"/>nestatem, per legem constituitur proxime in
+          <lb ed="#P" n="109"/>illa specie virtutis ad quam per se et intrinsece
+          <lb ed="#P" n="110"/>pertinet illa materia, ut jejunium ponitur in
+          <pb ed="#P" n="42"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>specie temperantiae, et omissio ejus 
+          intempe<lb break="no" ed="#P" n="2"/>rantia est, et sic de aliis. Et idem est quoties
+          <lb ed="#P" n="3"/>medium virtutis in tali materia potest per 
+          effi<lb break="no" ed="#P" n="4"/>caciam legis constitui, ut est in lege taxante
+          <lb ed="#P" n="5"/>pretium ; nam ante legem illud non erat 
+          me<lb break="no" ed="#P" n="6"/>dium justitiae, postquam vero lege definitum
+          <lb ed="#P" n="7"/>est. in illo consistit medium, et ideo actus 
+          il<lb break="no" ed="#P" n="8"/>lius legis in specie justitiae constituitur, et 
+          il<lb break="no" ed="#P" n="9"/>Itus violatio injustitia est. At vero quando 
+          ac<lb break="no" ed="#P" n="10"/>tus est indifferens de se, et a lege non 
+          praeci<lb break="no" ed="#P" n="11"/>pitur constituendo in illo intrinsecum medium
+          <lb ed="#P" n="12"/>virtutis, sed solum propter utilitatem ad 
+          ali<lb break="no" ed="#P" n="13"/>quem finem extrinsecum, lex illum praecipit
+          <lb ed="#P" n="14"/>aut prohibet, tunc tota honestas actus ex illo
+          <lb ed="#P" n="15"/>fine sumenda est, et sub illa accipit propriam
+          <lb ed="#P" n="16"/>obligationem et necessitatem ex vi legis. Unde
+          <lb ed="#P" n="17"/>tamen fit ut in prioribus legibus finis 
+          extrin<lb break="no" ed="#P" n="18"/>secus materiae praecepti nunquam sit 
+          adaequa<lb break="no" ed="#P" n="19"/>tus legi; nam semper intrinseca honestas et
+          <lb ed="#P" n="20"/>ratio virtutis habet rationem finis proximi et
+          <lb ed="#P" n="21"/>intrinseci ; imo hic finis est per se sufficiens
+          <lb ed="#P" n="22"/>licet omnis finis extrinsecus cesset; at vero
+          <lb ed="#P" n="23"/>in posterioribus legibus finis extrinsecus est
+          <lb ed="#P" n="24"/>adaequatus, quia materia per se et propter se non
+          <lb ed="#P" n="25"/>st capax praecepti, sed tantum propter 
+          utilita<lb break="no" ed="#P" n="26"/>tem in ordine ad aliquem finem extrinsecum.
+          <lb ed="#P" n="27"/>9. Lex praecipiens actum virtuosumn non 
+          ces<lb break="no" ed="#P" n="28"/>sat, deficiente quocumque fine eutrinseco. —Dico
+          <lb ed="#P" n="29"/>ergo primo: lex praecipiens actum de se 
+          bo<lb break="no" ed="#P" n="30"/>num, constituendo illum intrinsece in aliqua
+          <lb ed="#P" n="31"/>materia virtutis, non cessat deficiente 
+          univer<lb break="no" ed="#P" n="32"/>saliter quocumque fine extrinseco legis, 
+          etiam<lb break="no" ed="#P" n="33"/>si in illo genere fuerit adaequatus respectu 
+          in<lb break="no" ed="#P" n="34"/>tentionis legislatoris, et fortasse ita spectatus
+          <lb ed="#P" n="35"/>quod sine illo legem non tulisset. Probatur 
+          ra<lb break="no" ed="#P" n="36"/>tione facta proopinione Soto,quia cessante 
+          om<lb break="no" ed="#P" n="37"/>ni fine extrinseco materia talis legis manet per
+          <lb ed="#P" n="38"/>se honesta et capax legis propter solum 
+          intrin<lb break="no" ed="#P" n="39"/>secum finem, id est, propter honestatem talis
+          <lb ed="#P" n="40"/>actus, et hic finis intrinsecus semper est 
+          inten<lb break="no" ed="#P" n="41"/>tus a legislatore, quandoquidem in tali genere
+          <lb ed="#P" n="42"/>virtutis constituit necessitatem et medium 
+          il<lb break="no" ed="#P" n="43"/>lius actus : ergo cessante quocumque fine 
+          ex<lb break="no" ed="#P" n="44"/>trinseco habet lex illa unde sufficienter 
+          sub<lb break="no" ed="#P" n="45"/>sistat : ergo non evacuabitur. Et confirmatur,
+          <lb ed="#P" n="46"/>nam (si attente res consideretur) tunc non 
+          ces<lb break="no" ed="#P" n="47"/>sat causa adaequata legis, nam potissima causa,
+          <lb ed="#P" n="48"/>finis et ratio quasi proxima illius legis est 
+          ho<lb break="no" ed="#P" n="49"/>nestas actus; ergo non est cur cesset lex. 
+          Deni<lb break="no" ed="#P" n="50"/>que quamdiu durat materia praecepta cum sua
+          <lb ed="#P" n="51"/>ratione formali manet obligatio praecepti; quia
+          <lb ed="#P" n="52"/>(ut D. Thomas tradidit 1. 2, quaest. 100, art. 9,
+          <lb ed="#P" n="53"/>ad 2) aliud est quod legislator intendit 
+          praeci<lb break="no" ed="#P" n="54"/>pere, aliud ad quod intendit praecipere ; unde
+          <lb ed="#P" n="55"/>sicut praeceptum de se obligat ad primum et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>non ad secundum, ita e contrario quamdiu
+          <lb ed="#P" n="57"/>durat primum, si in eo perseverat ratio 
+          suffi<lb break="no" ed="#P" n="58"/>ciens praecepti, durat praeceptum licet finis
+          <lb ed="#P" n="59"/>extrinsecus cesset. Exemplis res declaratur;
+          <lb ed="#P" n="60"/>nam lex de jejunio, licet feratur propter 
+          mace<lb break="no" ed="#P" n="61"/>rationem carnis et fingatur communitas non
+          <lb ed="#P" n="62"/>indigens illo medio ad illum finem, quia 
+          ha<lb break="no" ed="#P" n="63"/>bet multa alia, vel quid simile , nihilominus
+          <lb ed="#P" n="64"/>lex jejunii obligabit, ut est certum ; at si actus
+          <lb ed="#P" n="65"/>desineret esse actus temperantiae , ut in casu
+          <lb ed="#P" n="66"/>necessitatus extremae, tunc cessaret lex. 
+          Simi<lb break="no" ed="#P" n="67"/>liter si lex taxaret pretium tritici, quamdiu in
+          <lb ed="#P" n="68"/>illo permanet aequitas justitiae ita ut non fiat
+          <lb ed="#P" n="69"/>evidenter inaequale , legis obligatio durat,
+          <lb ed="#P" n="70"/>etiamsi rationes omnes extrinsecae vel aliae 
+          uti<lb break="no" ed="#P" n="71"/>litates cessent. Si autem ita res mutaretur ut
+          <lb ed="#P" n="72"/>quantitas pretii evidenter esset iniqua, cessaret
+          <lb ed="#P" n="73"/>lex, et sic de aliis.
+        </p>
+        <p xml:id="szdleg-q09705-d1e890">
+          <lb ed="#P" n="74"/>10. Cessante adequato fine tam emxtrinseco
+          <lb ed="#P" n="75"/>quam intrinseco legis cessat lem. — Differentia
+          <lb ed="#P" n="76"/>inter legem et praecepta. — Unde infertur si in
+          <lb ed="#P" n="77"/>tali lege cesset adaequatus finis tam intrinsecus
+          <lb ed="#P" n="78"/>quam exitrinsecus tunc cessare legem ; si quis
+          <lb ed="#P" n="79"/>tamen advertat, tunc cessatio finis non est 
+          tan<lb break="no" ed="#P" n="80"/>tum negativa, sed transit in contrariam, quia
+          <lb ed="#P" n="81"/>materia jam non manet materia virtutis, sed
+          <lb ed="#P" n="82"/>fit vitiosa, et ideo non poterit esse materia 
+          le<lb break="no" ed="#P" n="83"/>gis obligantis. Et signum est quod tunc non
+          <lb ed="#P" n="84"/>solum in generali, sed etiam in particulari
+          <lb ed="#P" n="85"/>cessabit obligatio legis in tali actu, vel 
+          mate<lb break="no" ed="#P" n="86"/>ria ejus. Unde etiam fit ut tunc lex cesset ipso
+          <lb ed="#P" n="87"/>facto, sine alia revocatione vel declaratione,
+          <lb ed="#P" n="88"/>quia deest fundamentum ejus, nec potest ejus
+          <lb ed="#P" n="89"/>obligatio cadere in materiam inhabilem. Solet
+          <lb ed="#P" n="90"/>esse vulgare exemplum in lege imponente 
+          tri<lb break="no" ed="#P" n="91"/>butum ad certum opus vel finem, quo finito
+          <lb ed="#P" n="92"/>lex per se cessat, quia tunc non solum 
+          negati<lb break="no" ed="#P" n="93"/>ve, sed etiam contrarie cessat ratio legis, quia
+          <lb ed="#P" n="94"/>ex tunc incipit tributum illud esse injustum.
+          <lb ed="#P" n="95"/>Quando vero non cessat intrinsecus finis, licet
+          <lb ed="#P" n="96"/>extrinseci cessent, sicut non cessat lex ipso
+          <lb ed="#P" n="97"/>facto, ita neque necessarium est ut debeat per
+          <lb ed="#P" n="98"/>principem abrogari. Quia materiae honestas
+          <lb ed="#P" n="99"/>potest esse sufficiens ad sustentandam legem,
+          <lb ed="#P" n="100"/>nisi aliunde fieret lex nociva reipublicae 
+          velin<lb break="no" ed="#P" n="101"/>tolerabilis ; nam tunc ex alio capite posset esse
+          <lb ed="#P" n="102"/>obligatio revocandi legem, imo etiam posset
+          <lb ed="#P" n="103"/>lex per se cessare, si nocumentum vel 
+          grava<lb break="no" ed="#P" n="104"/>men esset generale, et nimium, quia tunc non
+          <lb ed="#P" n="105"/>esset cessatio negativa, sed contraria, ut 
+          con<lb break="no" ed="#P" n="106"/>stat. Ultimo tamen adverto circa hanc 
+          asser<lb break="no" ed="#P" n="107"/>tionem sermonem esse de propria lege ; nam
+          <lb ed="#P" n="108"/>si sit sermo de praecepto ab homine, et ex sola
+          <lb ed="#P" n="109"/>obedientia, sic fieri saepe potest ut, cessante
+          <lb ed="#P" n="110"/>fine vel causa praecepti, cesset obligatio ejus,
+          <pb ed="#P" n="43"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>etiamsi actus praeceptus sit alias intrinsece 
+          ho<lb break="no" ed="#P" n="2"/>nestus, ut jejunium vel oratio, ut si superior
+          <lb ed="#P" n="3"/>praecipiat jejunare semel in hebdomada hoc
+          <lb ed="#P" n="4"/>mense, si constat praeceptum imponi propter
+          <lb ed="#P" n="5"/>specialem necessitatem vel occasionem, et illa
+          <lb ed="#P" n="6"/>ante mensem finitur, intelligimus cessasse
+          <lb ed="#P" n="7"/>praeceptum. Quia respectu illius praecepti tota
+          <lb ed="#P" n="8"/>ratio praecipiendi est finis extrinsecus, non 
+          ex<lb break="no" ed="#P" n="9"/>trinseca honestas, licet haec supponatur; cujus
+          <lb ed="#P" n="10"/>signum est, quia transgressio talis praecepti
+          <lb ed="#P" n="11"/>non est intemperantia, verbi gratia, sed 
+          in<lb break="no" ed="#P" n="12"/>obedientia ; secus vero est in lege propria,
+          <lb ed="#P" n="13"/>per quam primo intenditur honestas virtutis
+          <lb ed="#P" n="14"/>sub qua actus quasi essentialiter 
+          constitui<lb break="no" ed="#P" n="15"/>tur.
+        </p>
+        <p xml:id="szdleg-q09705-d1e1010">
+          <lb ed="#P" n="16"/>11. Lex praecipiens actum indifferentem, ob
+          <lb ed="#P" n="17"/>finem, extrinsecum , cessante adequato fine,
+          <lb ed="#P" n="18"/>cessat. — Dico secundo: quando lex praecipit
+          <lb ed="#P" n="19"/>actum de se indifferentem, propter finem 
+          ex<lb break="no" ed="#P" n="20"/>trinsecum, tunc cessante in generali adaequato
+          <lb ed="#P" n="21"/>fine talis légis, per se etipso facto cessat talis
+          <lb ed="#P" n="22"/>lex et obligatio ejus. Ratio est, quia tunc 
+          ces<lb break="no" ed="#P" n="23"/>satio finis negativa transit in contrariam, quia
+          <lb ed="#P" n="24"/>facit materiam incapacem legis. Probatur, quia
+          <lb ed="#P" n="25"/>actus de se indifferens nunquam potest per se
+          <lb ed="#P" n="26"/>vel propter se praecipi, quia ut sic non est per
+          <lb ed="#P" n="27"/>se amabilis honeste, imo si ita fiat non honeste
+          <lb ed="#P" n="28"/>fiet, et, quod certius est, talis actus non est
+          <lb ed="#P" n="29"/>materia legis, nisi propter aliquam 
+          commu<lb break="no" ed="#P" n="30"/>nem utilitatem, ad quam possit prodesse vel
+          <lb ed="#P" n="31"/>esse necessarius, praecipiatur. At vero, cessante
+          <lb ed="#P" n="32"/>fine legis in generali, actus ille necessario 
+          in<lb break="no" ed="#P" n="33"/>cipit esse inutilis ad commune bonum ; ergo
+          <lb ed="#P" n="34"/>eo ipso fit incapax obligationis legis humanae,
+          <lb ed="#P" n="35"/>ac subinde cessat ipso facto lex. 
+          Consequen<lb break="no" ed="#P" n="36"/>tiae cum majori satis patent ex dictis. Minor
+          <lb ed="#P" n="37"/>autem est evidens ex hypothesi ; nam 
+          poni<lb break="no" ed="#P" n="38"/>mus cessare finem adaequatum propter quem
+          <lb ed="#P" n="39"/>praecipiebatur ille actus ; non potest autem
+          <lb ed="#P" n="40"/>cessare ille finis, nisi vel quia bonum proxime
+          <lb ed="#P" n="41"/>intentum per illum actum desinit esse 
+          com<lb break="no" ed="#P" n="42"/>modum ad commune bonum reipublicae, vel
+          <lb ed="#P" n="43"/>quia ipsemet actus desinit esse utilis ad tale
+          <lb ed="#P" n="44"/>commodum : utroque autem modo fit ille actus
+          <lb ed="#P" n="45"/>inutilis et otiosus respectu communis boni, et
+          <lb ed="#P" n="46"/>consequenter desinit esse materia legis. Dices
+          <lb ed="#P" n="47"/>fieri posse ut, licet actus sit inutilis ad inem a
+          <lb ed="#P" n="48"/>lege intentum, ad alios fines utilis sit. 
+          Res<lb break="no" ed="#P" n="49"/>pondeo illud esse per accidens et materiale,
+          <lb ed="#P" n="50"/>quia lex non consideravit in tali actu nisi 
+          ta<lb break="no" ed="#P" n="51"/>lem rationem commodi et publici boni, et
+          <lb ed="#P" n="52"/>ideo illa ablata non manet materia illius legis,
+          <lb ed="#P" n="53"/>et consequenter nec lex. Nam, licet actus 
+          pos<lb break="no" ed="#P" n="54"/>sit esse utilis sub alia consideratione, de illo
+          <lb ed="#P" n="55"/>non est lex data illo intuitu, et ita illa utilitas
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nondum censetur necessaria reipublicae donec
+          <lb ed="#P" n="57"/>de illo actu illo intuitu feratur lex.
+        </p>
+        <p xml:id="szdleg-q09705-d1e1106">
+          <lb ed="#P" n="58"/>12. Decretum principis non reguiritur ut 
+          ta<lb break="no" ed="#P" n="59"/>lis les desinat obligare. — Et hinc sequitur
+          <lb ed="#P" n="60"/>primo in hujusmodi eventu non esse 
+          necessa<lb break="no" ed="#P" n="61"/>rium decretum principis ut liceat non servare
+          <lb ed="#P" n="62"/>legem postquam sic cessavit, nam ipso facto
+          <lb ed="#P" n="63"/>desiit lex ; solum ergo est necessarium ut de
+          <lb ed="#P" n="64"/>tali cessatione publice et manifeste constet
+          <lb ed="#P" n="65"/>per evidentiam facti generaliter noti in tali
+          <lb ed="#P" n="66"/>republica seu communitate, quia eo ipso quod
+          <lb ed="#P" n="67"/>lex cessat dicto modo non est lex; ergo ex se
+          <lb ed="#P" n="68"/>non obligat ; ergo ut cesset cum effectu, 
+          res<lb break="no" ed="#P" n="69"/>pectu communitatis, satis est quod illi sit 
+          pu<lb break="no" ed="#P" n="70"/>blice nota. Nec datur sufficiens ratio cur 
+          ne<lb break="no" ed="#P" n="71"/>cesse sit expectare decretum principis, quia
+          <lb ed="#P" n="72"/>vel esset necessarium per modum 
+          revocatio<lb break="no" ed="#P" n="73"/>nis; et hoc non, quia lex per se desiit ; vel
+          <lb ed="#P" n="74"/>per modum authenticae declarationis, et hoc
+          <lb ed="#P" n="75"/>etiam dici non potest cum fundamento, quia
+          <lb ed="#P" n="76"/>nec ex natura rei hoc est necessarium, nec in 
+          ju<lb break="no" ed="#P" n="77"/>re positivo invenitur illud esse specialiter 
+          prae<lb break="no" ed="#P" n="78"/>ceptum. Neque in hoc debet cessatio legis cum
+          <lb ed="#P" n="79"/>poena comparari, quia poena est de se violenta
+          <lb ed="#P" n="80"/>et ab extrinseco illata, et ideo ex se requirit
+          <lb ed="#P" n="81"/>actionem et influxum judicis, nisi contrarium
+          <lb ed="#P" n="82"/>expresse per legem disponatur, et ideo non
+          <lb ed="#P" n="83"/>incurritur ipso facto nisi lex hoc declaret ; et
+          <lb ed="#P" n="84"/>licet incurratur ipso facto, non excluditur 
+          sen<lb break="no" ed="#P" n="85"/>tentia declaratoria delicti, nisi ubi lex illam
+          <lb ed="#P" n="86"/>excludit vel alias constat, quia semper est 
+          fa<lb break="no" ed="#P" n="87"/>vor rei, quod non sit obnoxius poenae donec
+          <lb ed="#P" n="88"/>condemnetur. At vero cessatio legis in illo
+          <lb ed="#P" n="89"/>casu non est violenta, imo per illam quasi
+          <lb ed="#P" n="90"/>restituitur respublica ad pristinum statum, et
+          <lb ed="#P" n="91"/>ad suam libertatem, et in favorem ejus cedit,
+          <lb ed="#P" n="92"/>et ideo nulla est necessitas talis decreti per
+          <lb ed="#P" n="93"/>modum sententiae declaratoriae. Dices esse 
+          ne<lb break="no" ed="#P" n="94"/>cessariam per modum promulgationis ; nam
+          <lb ed="#P" n="95"/>haec necessaria est in ablatione legis cum a
+          <lb ed="#P" n="96"/>principe revocatur. Respondeo esse diversam
+          <lb ed="#P" n="97"/>rationem ; nam revocatio pendet ex voluntate
+          <lb ed="#P" n="98"/>principis, quam oportet omnibus proponi: 
+          ces<lb break="no" ed="#P" n="99"/>satio autem legis, cessante causa ejus, non 
+          pen<lb break="no" ed="#P" n="100"/>det ex voluntate principis, sed ex facto ipso, et
+          <lb ed="#P" n="101"/>ideo satis est factum esse omnibus notum. Ut si
+          <lb ed="#P" n="102"/>per legem fuit impositum tributum ad 
+          aedifica<lb break="no" ed="#P" n="103"/>tionem pontis, et publice constat opus esse 
+          fini<lb break="no" ed="#P" n="104"/>tum et jam nihil in eo expendi, satis per hoc
+          <lb ed="#P" n="105"/>promulgatum est tributum cessasse, et sic de
+          <lb ed="#P" n="106"/>alus. Sufficit ergo publica notitia et satis certa
+          <lb ed="#P" n="107"/>de generali cessatione causae, et haec ad 
+          mini<lb break="no" ed="#P" n="108"/>mum necessaria est, nec existimo suflicere ut
+          <lb ed="#P" n="109"/>uni vel alteri in particulari sit nota, quia donec
+          <lb ed="#P" n="110"/>lex cesset respectu communitatis non cessat
+          <pb ed="#P" n="44"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>respectu particularium personarum, et ut 
+          ces<lb break="no" ed="#P" n="2"/>set pro communitate necessarium est causam
+          <lb ed="#P" n="3"/>ita cessasse ut hoc possit communitati 
+          consta<lb break="no" ed="#P" n="4"/>re, ac subinde ut res sit publice nota. Et hoc
+          <lb ed="#P" n="5"/>maxime locum habet quando observatio legis
+          <lb ed="#P" n="6"/>incipit esse injusta ; nam tunc evidentius 
+          con<lb break="no" ed="#P" n="7"/>stat de cessatione legis; potest autem dici 
+          in<lb break="no" ed="#P" n="8"/>justa, non solum quando confert speciale 
+          no<lb break="no" ed="#P" n="9"/>cumentum, sed etiam quando est omnino 
+          inu<lb break="no" ed="#P" n="10"/>tilis et sine ratione.
+        </p>
+        <p xml:id="szdleg-q09705-d1e1249">
+          <lb ed="#P" n="11"/>13. Juristarum distinctio ecaminatur. —
+          <lb ed="#P" n="12"/>Secundo, potest ex dictis intelligi quam 
+          proba<lb break="no" ed="#P" n="13"/>bilitatem habeat distinctio quam nonnulli 
+          ju<lb break="no" ed="#P" n="14"/>ristae tradiderunt inter legem quae fertur 
+          pro<lb break="no" ed="#P" n="15"/>pter tollenda inconvenientia quae ex aliquo
+          <lb ed="#P" n="16"/>facto frequenter sequuntur, et legem quae per
+          <lb ed="#P" n="17"/>se fertur propter aliquod bonum et utilitatem.
+          <lb ed="#P" n="18"/>Nam priorem dicunt cessare quoties 
+          inconve<lb break="no" ed="#P" n="19"/>nientia cessant; posteriorem autem minime
+          <lb ed="#P" n="20"/>cessare, licet cesset ratio utilitatis. Ita insinuat
+          <lb ed="#P" n="21"/>Gloss. in dicto cap. Si Christus, de Jurejur.,
+          <lb ed="#P" n="22"/>verb. Cessante, in principio, et priorem partem
+          <lb ed="#P" n="23"/>probat ex illo textu exemplo juramenti quod
+          <lb ed="#P" n="24"/>prohibetur tantum ratione periculi pejerandi;
+          <lb ed="#P" n="25"/>et ideo cessante periculo, licet. Alteram vero
+          <lb ed="#P" n="26"/>partem probat ex cap. Diait Dominus, 32,
+          <lb ed="#P" n="27"/>quaest. 1, et cap Tantum, 39, quaest. 7, quae
+          <lb ed="#P" n="28"/>jura nihil ad rem faciunt; nam loquuntur de
+          <lb ed="#P" n="29"/>matrimonio, quod est vinculum indissolubile,
+          <lb ed="#P" n="30"/>de quo alia est ratio. Eamdem distinctionem
+          <lb ed="#P" n="31"/>indicat Navarr. in Sum., c. 16, n. 36 et 31,
+          <lb ed="#P" n="32"/>ubi sentit cum Cajet. clandestinum 
+          matrimo<lb break="no" ed="#P" n="33"/>nium (saltem ante Tridentinum Concilium) 
+          po<lb break="no" ed="#P" n="34"/>tuisse licere cessantibus inconvenientibus 
+          pro<lb break="no" ed="#P" n="35"/>pter quae prohibetur; et nihilominus ait, 
+          ces<lb break="no" ed="#P" n="36"/>sante finelegis in particulari, non cessare legis
+          <lb ed="#P" n="37"/>obligationem, quando finis ille erat bonum
+          <lb ed="#P" n="38"/>aliquod acquirendum per medium a lege 
+          prae<lb break="no" ed="#P" n="39"/>scriptum. Unde ibi non solum loquitur de 
+          ces<lb break="no" ed="#P" n="40"/>satione legis in universali, sed etiam in 
+          parti<lb break="no" ed="#P" n="41"/>culari, ut supra notavi.
+        </p>
+        <p xml:id="szdleg-q09705-d1e1319">
+          <lb ed="#P" n="42"/>14. Distinctio diligenter notanda.—hAt certe
+          <lb ed="#P" n="43"/>formaliter loquendo nulla videtur esse 
+          diffe<lb break="no" ed="#P" n="44"/>rentia, quia si lex datur propter vitanda 
+          in<lb break="no" ed="#P" n="45"/>commoda, pro fine habet remotionem 
+          incom<lb break="no" ed="#P" n="46"/>modorum : ergo eadem est ratio de cessatione
+          <lb ed="#P" n="47"/>illius finis, et de aliis tam in universali quam
+          <lb ed="#P" n="48"/>in particulari. Solum ergo potest esse 
+          differen<lb break="no" ed="#P" n="49"/>tia quaedam quasi materialis; nam lex quae
+          <lb ed="#P" n="50"/>ponitur tantum propter incommoda vitanda
+          <lb ed="#P" n="51"/>non solet praecipere actum per se propter 
+          bo<lb break="no" ed="#P" n="52"/>nitatem ejus, vel prohibere propter malitiam,
+          <lb ed="#P" n="53"/>sed solum propter occasionem mali vitandam,
+          <lb ed="#P" n="54"/>et tunc cessante fine generaliter negative, 
+          ces<lb break="no" ed="#P" n="55"/>sat etiam contrarie, quia actus fit inutilis et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>incapax materiae legis. Sicut diximus alibi de
+          <lb ed="#P" n="57"/>voto facto non ingrediendi talem domum 
+          pro<lb break="no" ed="#P" n="58"/>ter vitandam occasionem, ablata inde 
+          occasio<lb break="no" ed="#P" n="59"/>ne jam non obligare votum, quia tunc non 
+          in<lb break="no" ed="#P" n="60"/>gredi talem domum est materia indifferens et
+          <lb ed="#P" n="61"/>impertinens ad religionem: ita ergo 
+          propor<lb break="no" ed="#P" n="62"/>tione servata erit in lege. At vero lex quae
+          <lb ed="#P" n="63"/>praecipit actum propter se et propter aliquem
+          <lb ed="#P" n="64"/>bonum finem non statim desinit cessante fine,
+          <lb ed="#P" n="65"/>quia in ipso-actu potest manere intrinseca 
+          ho<lb break="no" ed="#P" n="66"/>nestas propter quam praecipiatur ; si autem
+          <lb ed="#P" n="67"/>non reperiatur, sed sit actus de se indifferens,
+          <lb ed="#P" n="68"/>idem prorsus dicendum erit de lege quae illum
+          <lb ed="#P" n="69"/>praecipit propter bonum acquirendum quod de
+          <lb ed="#P" n="70"/>lege prohibente illum propter incommodum
+          <lb ed="#P" n="71"/>vitandum, ut ex dictis satis patet. Et e 
+          con<lb break="no" ed="#P" n="72"/>trario, si lex praecipiens vel prohibens aliquid
+          <lb ed="#P" n="73"/>propter vitandum incommodum habeat 
+          mate<lb break="no" ed="#P" n="74"/>riam per se honestam et convenientem ultra
+          <lb ed="#P" n="75"/>vitationem incommodi, tunc non cessaret lex,
+          <lb ed="#P" n="76"/>etiamsi necessitas vitandi incommodum 
+          cessa<lb break="no" ed="#P" n="77"/>ret, tunc enim procedunt omnia in prima 
+          as<lb break="no" ed="#P" n="78"/>sertione dicta. In quo etiam attente 
+          consideran<lb break="no" ed="#P" n="79"/>dum est an aliquid prohibeatur ratione 
+          peri<lb break="no" ed="#P" n="80"/>culi, vel tantum ratione futuri effectus ; nam
+          <lb ed="#P" n="81"/>ordinarie prohibitio fit propter periculum quod
+          <lb ed="#P" n="82"/>per se inest actui, et ideo licet certe constet
+          <lb ed="#P" n="83"/>non futurum effectum seu damnum, 
+          nihilomi<lb break="no" ed="#P" n="84"/>nus non cessabit obligatio legis et effectus ejus,
+          <lb ed="#P" n="85"/>quia semper actus est de se obnoxius illi 
+          in<lb break="no" ed="#P" n="86"/>commodo, ut in praeced. libro latius dixi c. 23.
+          <lb ed="#P" n="87"/>Unde non mihi probatur exemplum de 
+          clan<lb break="no" ed="#P" n="88"/>destino matrimonio quo Cajet. et Navar. 
+          utun<lb break="no" ed="#P" n="89"/>tur; nam illi actui ita est annexum periculum
+          <lb ed="#P" n="90"/>ut nec in universali nec in particulari possit
+          <lb ed="#P" n="91"/>ab eo separari, et ideo nunquam cessat 
+          obliga<lb break="no" ed="#P" n="92"/>tio ejus, eo quod certissimum sit omnia 
+          incom<lb break="no" ed="#P" n="93"/>moda esse praecavenda. Unde eo modo quod
+          <lb ed="#P" n="94"/>nunc matrimonium factum coram parocho et
+          <lb ed="#P" n="95"/>testibus potest esse clandestinum, ex defectu
+          <lb ed="#P" n="96"/>denuntiationis, juxta cap. ult., S 1 de 
+          Clan<lb break="no" ed="#P" n="97"/>destin. despons., non est licitum tale 
+          matrimo<lb break="no" ed="#P" n="98"/>nium etiamsi negative cesset finis praecepti,
+          <lb ed="#P" n="99"/>nisi aliae causae legitimae occurrant ob quas per
+          <lb ed="#P" n="100"/>epiikiam judicetur praeceptum hic et nunc de
+          <lb ed="#P" n="101"/>illa accidentali solemnitate non obligare. Et
+          <lb ed="#P" n="102"/>hoc modo videtur tandem explicare exemplum
+          <lb ed="#P" n="103"/>illud Navarrus ubi supra.
+        </p>
+        <p xml:id="szdleg-q09705-d1e1458">
+          <lb ed="#P" n="104"/>15. Quando obligatio fraternae correctionis
+          <lb ed="#P" n="105"/>cessat declaratur. — Tertio, hinc obiter 
+          expe<lb break="no" ed="#P" n="106"/>ditur difficultas in capite praecedenti huc 
+          re<lb break="no" ed="#P" n="107"/>missa de praecepto correctionis fraternae, 
+          cu<lb break="no" ed="#P" n="108"/>jus obligatio etiam in particulari cessat, 
+          ces<lb break="no" ed="#P" n="109"/>sante spe utilitatis correctionis, ac subinde
+          <lb ed="#P" n="110"/>per cessationem negativam rationis legis;
+          <pb ed="#P" n="45"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>unde, cum illa spes ut plurimum generaliter
+          <lb ed="#P" n="2"/>cesset, consequenter dicendum erit totum 
+          prae<lb break="no" ed="#P" n="3"/>ceptum cessare. Ad quod Medin., Ledes. et
+          <lb ed="#P" n="4"/>Covarr. supra respondent legem correctionis
+          <lb ed="#P" n="5"/>fraternae datam esse propter privatum bonum
+          <lb ed="#P" n="6"/>singulorum, et ideo in unoquoque posse 
+          ces<lb break="no" ed="#P" n="7"/>sare quoties in particulari cessaverit finis ejus,
+          <lb ed="#P" n="8"/>etiam negative tantum : secus vero esse in
+          <lb ed="#P" n="9"/>legibus, quarum finis communis est et 
+          univer<lb break="no" ed="#P" n="10"/>salis, ut sunt praeceptum jejunii, et similia.
+          <lb ed="#P" n="11"/>Sed, ut verum fatear, non satis intelligo 
+          dis<lb break="no" ed="#P" n="12"/>tinctionis sensum aut rationem; nam omnislex
+          <lb ed="#P" n="13"/>est propter commune bonum, licet illud non
+          <lb ed="#P" n="14"/>in communitate immediate, sed in singulis 
+          in<lb break="no" ed="#P" n="15"/>tendatur et acquirendum sit. Sic enim lex 
+          je<lb break="no" ed="#P" n="16"/>junii est propter Ecclesiae bonum; tamen 
+          utili<lb break="no" ed="#P" n="17"/>tas ejus exercetur in singulis. Ita vero etiam
+          <lb ed="#P" n="18"/>est commune praeceptum de correctione 
+          fra<lb break="no" ed="#P" n="19"/>terna, ejus autem fructus in singulis in 
+          parti<lb break="no" ed="#P" n="20"/>culari procuratur : nulla est ergo differentia.
+          <lb ed="#P" n="21"/>Facilius ergo respondetur , ut attigit etiam
+          <lb ed="#P" n="22"/>Ledesm. supra, in correctione fraterna non
+          <lb ed="#P" n="23"/>intervenire epiikiam nec cessationem 
+          obliga<lb break="no" ed="#P" n="24"/>tionis propter cessationem finis, quia est 
+          prae<lb break="no" ed="#P" n="25"/>ceptum affirmativum, quod non obligat pro
+          <lb ed="#P" n="26"/>semper ; nec etiam habet determinatum 
+          tem<lb break="no" ed="#P" n="27"/>pus pro quo obliget, sine qua determinatione,
+          <lb ed="#P" n="28"/>ut supra dixi, non habet locum epiikia. 
+          Quan<lb break="no" ed="#P" n="29"/>do ergo non est spes fructus, non cessat 
+          obli<lb break="no" ed="#P" n="30"/>gatio praecepti affirmativi corrigendi fratrem;
+          <lb ed="#P" n="31"/>sed solum illa obligatio, quae de se indefinita
+          <lb ed="#P" n="32"/>est, non coarctatur ad hoc tempus, quia recta
+          <lb ed="#P" n="33"/>ratio dictat pro tunc non obligare, quia non
+          <lb ed="#P" n="34"/>est tempus utile, neque subjectum est 
+          disposi<lb break="no" ed="#P" n="35"/>tum. Sicut praeceptum eleemosynae obligat ad
+          <lb ed="#P" n="36"/>subveniendum indigenti ; si tamen subventio
+          <lb ed="#P" n="37"/>futura esset nociva, vel si certo constaret 
+          in<lb break="no" ed="#P" n="38"/>digentem non usurum eleemosyna, non 
+          obli<lb break="no" ed="#P" n="39"/>garet praeceptum, non per cessationem aut
+          <lb ed="#P" n="40"/>epiikiam, sed quia non est talis occasio pro
+          <lb ed="#P" n="41"/>qua obliget illud praeceptum, quod naturale
+          <lb ed="#P" n="42"/>est, et non tantum positivum. Addo eo modo
+          <lb ed="#P" n="43"/>quo dici potest cessare ibi rationem praecepti,
+          <lb ed="#P" n="44"/>non cessare tantum negative, sed etiam 
+          con<lb break="no" ed="#P" n="45"/>trarie, quia tunc correctio non esset actus 
+          vir<lb break="no" ed="#P" n="46"/>tutis, sed otiosus et inutilis, et potest esse 
+          no<lb break="no" ed="#P" n="47"/>civus proximo potius quam utilis.
+        </p>
+        <p xml:id="szdleg-q09705-d1e1583">
+          <lb ed="#P" n="48"/>16. Differentia inter cessationem legis in
+          <lb ed="#P" n="49"/>universali et in particulari. — Tandem ex his
+          <lb ed="#P" n="50"/>facile est respondere ad rationes dubitandi in
+          <lb ed="#P" n="51"/>principio positas; in quarum prima petebatur
+          <lb ed="#P" n="52"/>difficultas, quia ex dictis videtur sequi non
+          <lb ed="#P" n="53"/>esse differentiam inter cessationem legis in
+          <lb ed="#P" n="54"/>universali vel in particulari, propter 
+          cessatio<lb break="no" ed="#P" n="55"/>nem finis tantum negative, cum proportione,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>scilicet, in universali vel particulari : hoc 
+          au<lb break="no" ed="#P" n="57"/>tem videtur esse contra communem 
+          senten<lb break="no" ed="#P" n="58"/>tiam supra relatam. Sequela patet, quia in
+          <lb ed="#P" n="59"/>universali nunquam cessat lex, cessante fine
+          <lb ed="#P" n="60"/>ejus pure negative, sed oportet ut cesset 
+          con<lb break="no" ed="#P" n="61"/>trarie saltem hoc modo, quod fiat actus 
+          inu<lb break="no" ed="#P" n="62"/>tilis, et consequenter incapax materiae legis:
+          <lb ed="#P" n="63"/>ac si hoc modo cesset in particulari, etiam
+          <lb ed="#P" n="64"/>cessabit obligatio legis : ergo. Respondeo 
+          dif<lb break="no" ed="#P" n="65"/>ferentiam in hoc consistere quod, cessante
+          <lb ed="#P" n="66"/>adaequato fine legis modo explicato, 
+          conse<lb break="no" ed="#P" n="67"/>quenter cesset absoluta ratio constituendi 
+          le<lb break="no" ed="#P" n="68"/>gem, quia cum illa cessatione finis est 
+          neces<lb break="no" ed="#P" n="69"/>sario conjunctum, ut materia reddatur inutilis
+          <lb ed="#P" n="70"/>ad legem. At vero si finis in universali 
+          subsis<lb break="no" ed="#P" n="71"/>tat, etiamsi in particulari actu cesset, manet
+          <lb ed="#P" n="72"/>ratio integra communis legis quae non respicit
+          <lb ed="#P" n="73"/>ad singula, sed ad id quod frequentius accidit:
+          <lb ed="#P" n="74"/>et ideo, licet in particulari cesset negative ille
+          <lb ed="#P" n="75"/>finis, non fit inutilis ille actus, nec in eo 
+          ces<lb break="no" ed="#P" n="76"/>sat contrarie ratio legis, quia semper ratio illa
+          <lb ed="#P" n="77"/>communis potest movere ad illum actum 
+          pro<lb break="no" ed="#P" n="78"/>pter commune bonum, et propter 
+          conformi<lb break="no" ed="#P" n="79"/>tatem ad legem, et ad totum corpus, ut 
+          ca<lb break="no" ed="#P" n="80"/>pite praecedenti explicatum est.
+        </p>
+        <p xml:id="szdleg-q09705-d1e1659">
+          <lb ed="#P" n="81"/>17. Ad secundam rationem de voluntate
+          <lb ed="#P" n="82"/>principis facile respondetur ex dictis, cum 
+          ces<lb break="no" ed="#P" n="83"/>sante ratione legis in general eo ipso fiat 
+          inu<lb break="no" ed="#P" n="84"/>tilis lex, et materia ejus fiat incapax 
+          obligatio<lb break="no" ed="#P" n="85"/>nis justae, consequenter necessarium esse ut
+          <lb ed="#P" n="86"/>cesset voluntas legislatoris ; tum quia solum
+          <lb ed="#P" n="87"/>voluit juste obligare et quantum licite posset,
+          <lb ed="#P" n="88"/>neque aliud prasumendum est ; tum etiam
+          <lb ed="#P" n="89"/>quia facta mutatione in materia legis non 
+          pos<lb break="no" ed="#P" n="90"/>set obligare, etiamsi vellet. Quod si fingatur
+          <lb ed="#P" n="91"/>(ut in eodem argumento additur) cessante
+          <lb ed="#P" n="92"/>priori ratione aliam succedere, ut in tributis
+          <lb ed="#P" n="93"/>dici solet, responsum est priorem legem 
+          ces<lb break="no" ed="#P" n="94"/>sasse et aliam non esse latam. Unde si veht
+          <lb ed="#P" n="95"/>princeps obligare ad eumdem actum propter
+          <lb ed="#P" n="96"/>novam rationem insurgentem, oportet ut 
+          de<lb break="no" ed="#P" n="97"/>nuo legem ferat, seu illam voluntatem 
+          pro<lb break="no" ed="#P" n="98"/>mulget, alias non poterunt subditi ex vi 
+          prio<lb break="no" ed="#P" n="99"/>ris legis obligari. Tertia vero ratio vel probat
+          <lb ed="#P" n="100"/>primam assertionem, si cessante fine 
+          extrinse<lb break="no" ed="#P" n="101"/>co legis adhuc materia ejus honesta sit, et
+          <lb ed="#P" n="102"/>propter se conferens ad bonum commune ; vel
+          <lb ed="#P" n="103"/>si ratio illa procedat quando omnino cessat
+          <lb ed="#P" n="104"/>finis legis, negatur tunc posse legem licite
+          <lb ed="#P" n="105"/>servari, quia esset actus vanus et otiosus, et
+          <lb ed="#P" n="106"/>licet illemet actus possit forte honeste fieri
+          <lb ed="#P" n="107"/>propter aliam commoditatem particularem 
+          in<lb break="no" ed="#P" n="108"/>tentam ab operante , illud est valde 
+          extrinse<lb break="no" ed="#P" n="109"/>cum et accidentarium, ut lex prior perseveret,
+          <lb ed="#P" n="110"/>quae non obligabat ad operandum illo modo
+          <pb ed="#P" n="46"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vel propter illum finem. Neque ex tali non 
+          ob<lb break="no" ed="#P" n="2"/>servatione legis quae jam evidenter et publice
+          <lb ed="#P" n="3"/>cessavit possunt sequi moralia incommoda,
+          <lb ed="#P" n="4"/>sicut non timentur ex eo quod lex evidenter
+          <lb ed="#P" n="5"/>et publice injusta non servetur, et majora ex
+          <lb ed="#P" n="6"/>contraria obligatione sequerentur.
+        </p>
+        <p xml:id="szdleg-q09705-d1e1744">
+          <lb ed="#P" n="7"/>18. Lex quoad unam partem potest reddi 
+          inu<lb break="no" ed="#P" n="8"/>lilis , non quoad aliam. — Quando lex dicitur
+          <lb ed="#P" n="9"/>suspendi, non extingui. — Denique, juxta haec
+          <lb ed="#P" n="10"/>quae diximus de totali cessatione legis, 
+          judica<lb break="no" ed="#P" n="11"/>ri poterit de cessatione alicujus partis legis
+          <lb ed="#P" n="12"/>non respectu personae vel casus particularis,
+          <lb ed="#P" n="13"/>sed respectu totius communitatis. Potest enim
+          <lb ed="#P" n="14"/>lex plura praecipere vel varia membra 
+          conti<lb break="no" ed="#P" n="15"/>nere, et quoad unum fieri inutilis, et non
+          <lb ed="#P" n="16"/>quoad alia. Et tunc idem judicium est de illa
+          <lb ed="#P" n="17"/>parte cujus ratio cessavit, quando est ab alia
+          <lb ed="#P" n="18"/>separabilis, quod de tota aliqua lege: nam est
+          <lb ed="#P" n="19"/>eadem ratio. Imo illa lex quae videtur una, in
+          <lb ed="#P" n="20"/>re est multiplex, et ita cessat una, licet non
+          <lb ed="#P" n="21"/>cessent aliae. Si vero lex ita contineret multa
+          <lb ed="#P" n="22"/>ut essent inseparabilia, et ita esset quasi 
+          indi<lb break="no" ed="#P" n="23"/>visibilis obligatio , quia bonum ex integra
+          <lb ed="#P" n="24"/>causa et malum ex quocumque defectu, attente
+          <lb ed="#P" n="25"/>considerandum est an propter defectum in una
+          <lb ed="#P" n="26"/>parte tota lex reddatur injusta vel inutilis, vel
+          <lb ed="#P" n="27"/>magis nociva quam proficua, et tunc cessabit
+          <lb ed="#P" n="28"/>tota lex : si vero non obstante illo defectu lex
+          <lb ed="#P" n="29"/>justa permaneat, et magis utilis quam nociva,
+          <lb ed="#P" n="30"/>non cessabit ipso facto, donec revocetur. Illud
+          <lb ed="#P" n="31"/>etiam est considerandum, ut lex simpliciter
+          <lb ed="#P" n="32"/>cesset, necessarium esse ut ejus ratio perpetuo
+          <lb ed="#P" n="33"/>cesset generaliter ; nam si ad tempus tantum
+          <lb ed="#P" n="34"/>sic cessare videatur , tunc potius suspendetur
+          <lb ed="#P" n="35"/>obligatio legis quam ipsa extinguatur ; quia
+          <lb ed="#P" n="36"/>non fit simpliciter inutilis vel injusta, sed 
+          tan<lb break="no" ed="#P" n="37"/>tum pro hoc tempore , et ideo limitata causa
+          <lb ed="#P" n="38"/>limitatum parit effectum ; ergo suspenditur
+          <lb ed="#P" n="39"/>lex, non extinguitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 16</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 16</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="194"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q48790"><!-- l7c16 -->
+        <head xml:id="szdleg-q48790-Hd1e101">Caput 16</head>
+        <head xml:id="szdleg-q48790-Hd1e103" type="question-title">De causis et effectibus legis non script £ per consuetudinem introducte.</head>
+        <p xml:id="szdleg-q48790-d1e106">
+          <lb ed="#P" n="42"/>CAPUT XVI.
+          <lb ed="#P" n="43"/>DE CAUSIS ET EFFECTIBUS LEGIS NON SCRIPT £ PER
+          <lb ed="#P" n="44"/>CONSUETUDINEM INTRODUCTE.
+        </p>
+        <p xml:id="szdleg-q48790-d1e115">
+          <lb ed="#P" n="45"/>1. Consuetudo de seipsa promulgatur, cum
+          <lb ed="#P" n="46"/>sit signum publicum. — Haec questio breviter
+          <lb ed="#P" n="47"/>definienda est ex principiis supra positis, de
+          <lb ed="#P" n="48"/>legibus humanis scriptis. Nam ex dictis 
+          intel<lb break="no" ed="#P" n="49"/>ligi potest, generatim loquendo, omnia quae
+          <lb ed="#P" n="50"/>dicta sunt de lege humana, quoad causas vel
+          <lb ed="#P" n="51"/>effectus ejus, convenire cum proportione in
+          <lb ed="#P" n="52"/>legem per consuetudinem introductam, his
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>exceptis quae ad formam materialem seu 
+          sen<lb break="no" ed="#P" n="54"/>sibilem, et promulgationem illius legis 
+          perti<lb break="no" ed="#P" n="55"/>nent. Hoc ultimum patet, quia haec lex 
+          con<lb break="no" ed="#P" n="56"/>suetudinis per se non differt ab illa, nisi in
+          <lb ed="#P" n="57"/>signo sensibili, quo explicatur voluntas 
+          legis<lb break="no" ed="#P" n="58"/>latoris (quod signum voco sensibilem formam
+          <lb ed="#P" n="59"/>legis) ; nam in lege stricte sumpta illud 
+          si<lb break="no" ed="#P" n="60"/>gnum est scriptura aliqua, vel saltem 
+          expres<lb break="no" ed="#P" n="61"/>sum verbum legislatoris : hic vero non est
+          <lb ed="#P" n="62"/>signum scriptum, nec ita expressum, sed sunt
+          <lb ed="#P" n="63"/>facta externa, ut declaratum est. Atque hinc
+          <lb ed="#P" n="64"/>sequitur ut in lege, praeter actum legislatoris,
+          <lb ed="#P" n="65"/>requiratur promulgatio, quia ille actus de se
+          <lb ed="#P" n="66"/>non est signum publicum, nisi promulgetur.
+          <lb ed="#P" n="67"/>Hic autem signum ipsum est publicum de se,
+          <lb ed="#P" n="68"/>et notorium populo servanti consuetudinem,
+          <lb ed="#P" n="69"/>et ideo non indiget alia promulgatione, quia
+          <lb ed="#P" n="70"/>(ut statim dicam) consuetudo tantum obligat
+          <lb ed="#P" n="71"/>populum servantem illam, et ideo alia 
+          promul<lb break="no" ed="#P" n="72"/>gatione vel divulgatione non indiget. Nam, ut
+          <lb ed="#P" n="73"/>ad alios populos extendatur, oportet ut illi 
+          ac<lb break="no" ed="#P" n="74"/>ceptent consuetudinem, et illam imitentur, et
+          <lb ed="#P" n="75"/>ita ipsa imitatio erit apud illos inductio similis
+          <lb ed="#P" n="76"/>consuetudinis, ejusque promulgatio. Si autem
+          <lb ed="#P" n="77"/>unus populus acceptet consuetudinem alterius,
+          <lb ed="#P" n="78"/>non per consuetudinem suam, sed per 
+          statu<lb break="no" ed="#P" n="79"/>tum praecipiens ibi servari quod alibi 
+          consue<lb break="no" ed="#P" n="80"/>tum est, tunc ibi non erit jus illud 
+          consuetudi<lb break="no" ed="#P" n="81"/>narium, sed scriptum, et eatenus propria 
+          for<lb break="no" ed="#P" n="82"/>ma et promulgatione indigehit. In caeteris vero
+          <lb ed="#P" n="83"/>causis non est differentia inter has leges, cum
+          <lb ed="#P" n="84"/>proportione de illis loquendo, quia de materia
+          <lb ed="#P" n="85"/>jam dictum est debere esse honestam, 
+          com<lb break="no" ed="#P" n="86"/>muni bono accommodatam, ac denique 
+          ratio<lb break="no" ed="#P" n="87"/>nabilem. Ac subinde rationem esse veluti 
+          ani<lb break="no" ed="#P" n="88"/>mam utriusque legis, et utramque etiam 
+          maxi<lb break="no" ed="#P" n="89"/>me pendere a voluntate principis habentis
+          <lb ed="#P" n="90"/>potestatem legislativam, quae est in utraque
+          <lb ed="#P" n="91"/>propria causa efficiens, et voluntas est quasi
+          <lb ed="#P" n="92"/>intrinseca forma.
+        </p>
+        <p xml:id="szdleg-q48790-d1e224">
+          <lb ed="#P" n="93"/>2. Effectus consuetudinis ea dictis colligendi.
+          <lb ed="#P" n="94"/>— Simili modo discurri potest per effectus.
+          <lb ed="#P" n="95"/>Nam etiam consuetudo obligat de se in 
+          con<lb break="no" ed="#P" n="96"/>scientia, cum sit vera lex, cap. n his, d. 11,
+          <lb ed="#P" n="97"/>et tradunt communiter doctores, ut videri 
+          po<lb break="no" ed="#P" n="98"/>test in Felin., cap. 1 de Spons. ; Rocho supra,
+          <lb ed="#P" n="99"/>sect. 1, n. 12 et 13, ubi alios allegat. Unde
+          <lb ed="#P" n="100"/>consequenter fit ut haec obligatio sit gravis
+          <lb ed="#P" n="101"/>vel levis, juxta materiae qualitatem, nisi de
+          <lb ed="#P" n="102"/>contraria intentione populi constet ; nam 
+          quo<lb break="no" ed="#P" n="103"/>ad hoc omnia dicta de obligatione legis 
+          huma<lb break="no" ed="#P" n="104"/>nae scriptae, possunt ad hanc legem 
+          accommo<lb break="no" ed="#P" n="105"/>dari ; nam eamdem rationem in illa habent,
+          <lb ed="#P" n="106"/>proportione servata.
+        </p>
+        <p xml:id="szdleg-q48790-d1e258">
+          <lb ed="#P" n="107"/>3. Consuetudo potest legem poenalem indu-
+          <pb ed="#P" n="195"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cere.—- Consuetudo inducere potest quasi legem
+          <lb ed="#P" n="2"/>pure penalem. — Potest autem hic inquiri an
+          <lb ed="#P" n="3"/>possit haeclex etiam obligare ad poenam, seu
+          <lb ed="#P" n="4"/>an consuetudo possit inducere legem 
+          poena<lb break="no" ed="#P" n="5"/>lem. In quo breviter dicendum est posse, quia
+          <lb ed="#P" n="6"/>ratio facta de lege absoluta procedit etiam in
+          <lb ed="#P" n="7"/>lege poenali. Quae etenim potest assignari 
+          repu<lb break="no" ed="#P" n="8"/>gnantia ut non possit consuetudo obligare ad
+          <lb ed="#P" n="9"/>poenam, sicut potest ad culpam? Imo eo ipso
+          <lb ed="#P" n="10"/>quod obligat ad poenam, facit transgressorem
+          <lb ed="#P" n="11"/>consuetudinis reum poena; nam hic reatus
+          <lb ed="#P" n="12"/>sequitur ex culpa; ergo, pari ratione, 
+          po<lb break="no" ed="#P" n="13"/>terit eadem consuetudine introduci 
+          determi<lb break="no" ed="#P" n="14"/>natio poenae, ut, scilicet, qui talem 
+          consue<lb break="no" ed="#P" n="15"/>tudinem violaverit , tali poena puniatur , et
+          <lb ed="#P" n="16"/>tunc justa erit poena quasi per legem 
+          con<lb break="no" ed="#P" n="17"/>suetudinis taxata. Exemplum accommodatum
+          <lb ed="#P" n="18"/>est in capite S^aper eo, de Cognat. spirit.,
+          <lb ed="#P" n="19"/>cum his quae ibi notant Innoc., Abb. et alii, de
+          <lb ed="#P" n="20"/>consuetudine servandi talem vel talem ritum
+          <lb ed="#P" n="21"/>accidentalem matrimonio , et separandi ad
+          <lb ed="#P" n="22"/>tempus eos qui aliter contraxerint, in poenam
+          <lb ed="#P" n="23"/>prioris consuetudinis violatae : nam quoad
+          <lb ed="#P" n="24"/>utrumque justa cersetur et servari debet. Item
+          <lb ed="#P" n="25"/>potest consuetudo taxare pretium alicujus rei,
+          <lb ed="#P" n="26"/>non minus quam lex scripta; ergo.et poenam
+          <lb ed="#P" n="27"/>delicti, et ita communiter auctores loquuntur
+          <lb ed="#P" n="28"/>de consuetudine poenali, ut est videre in 
+          Ro<lb break="no" ed="#P" n="29"/>cho, sect. 4, n. 20 et sequent., ubi plures 
+          alle<lb break="no" ed="#P" n="30"/>gat. Denique existimo consuetudine etiam 
+          in<lb break="no" ed="#P" n="31"/>duci posse quasi legem pure poenalem, 
+          ratio<lb break="no" ed="#P" n="32"/>ne cujus possit aliquis non observans illam in
+          <lb ed="#P" n="33"/>aliquo mulctari, etiamsi in eo non peccet, quia
+          <lb ed="#P" n="34"/>quoad hoc etiam est eadem ratio de 
+          con<lb break="no" ed="#P" n="35"/>suetudine, quae de lege scripta. Videtur tamen
+          <lb ed="#P" n="36"/>tunc illa consuetudo magis per modum 
+          cujus<lb break="no" ed="#P" n="37"/>dam praescriptionis, quam per modum legis,
+          <lb ed="#P" n="38"/>quia tunc videtur esse iliud veluti quoddam
+          <lb ed="#P" n="39"/>tributum, ad quod exigendum respublica vel
+          <lb ed="#P" n="40"/>princeps per consuetudinem acquisivit jus,
+          <lb ed="#P" n="41"/>tali vel tali conditione expleta, vel non 
+          ser<lb break="no" ed="#P" n="42"/>vata. Posset denique introduci consuetudine,
+          <lb ed="#P" n="43"/>ut qui consuetudinem non servat, aliquid 
+          de<lb break="no" ed="#P" n="44"/>beat in conscientia solvere, etiam non 
+          puni<lb break="no" ed="#P" n="45"/>tus, et tunc propria ratio consuetudinis 
+          lega<lb break="no" ed="#P" n="46"/>lis servaretur : hujusmodi autem 
+          consuetudi<lb break="no" ed="#P" n="47"/>nes rarae vel nullae sunt.
+        </p>
+        <p xml:id="szdleg-q48790-d1e369">
+          <lb ed="#P" n="48"/>4. Quid valet consuetudo circa contractus
+          <lb ed="#P" n="49"/>validitatem. — Sententia canonistarum refelli -
+          <lb ed="#P" n="50"/>tur. — Item solet quaeri an jus 
+          consuetudina<lb break="no" ed="#P" n="51"/>rium extendi possit ad effectum irritandi actus
+          <lb ed="#P" n="52"/>seu contractus, vel inhabilitandi personas ad
+          <lb ed="#P" n="53"/>illos. Sed hoc proprie tractari solet in materia
+          <lb ed="#P" n="54"/>de matrimonio, ut late per Sanci., libr. 7,
+          <lb ed="#P" n="55"/>disput. 4. Eadem vero ratio fere est de aliis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>contractibus, ut attigit Felin. in cap. 41 de
+          <lb ed="#P" n="57"/>Spons., n. 2 et 3. Dicendum ergo est 
+          consue<lb break="no" ed="#P" n="58"/>tudinem prohibentem aliquos actus, vel 
+          dan<lb break="no" ed="#P" n="59"/>tem formam illis posse ea mente et animo 
+          in<lb break="no" ed="#P" n="60"/>troduci, ut actus aliter factus non valeat, et
+          <lb ed="#P" n="61"/>talem consuetudinem rationabilem, et 
+          prae<lb break="no" ed="#P" n="62"/>scriptam, vel a principe expresse aut tacite
+          <lb ed="#P" n="63"/>approbatam, habere hunc effectum irritandi
+          <lb ed="#P" n="64"/>contrarium actum. lIta docent multi doctores,
+          <lb ed="#P" n="65"/>quos Felin. et Sanc. supra referunt, et 
+          sumi<lb break="no" ed="#P" n="66"/>tur ex cap. Super eo, de Cognat. spirit., ubi
+          <lb ed="#P" n="67"/>(juxta veriorem interpretationem et planum
+          <lb ed="#P" n="68"/>contextum) supponitur posse consuetudinem
+          <lb ed="#P" n="69"/>ecclesiasticam introducere impedimentum 
+          ir<lb break="no" ed="#P" n="70"/>ritans matrimonium, et tunc separandos 
+          om<lb break="no" ed="#P" n="71"/>nino esse qui contra consuetudinem 
+          contraxe<lb break="no" ed="#P" n="72"/>rint. Et idem colligitur ex cap. 1 ejusdem 
+          ti<lb break="no" ed="#P" n="73"/>tuli, ubi specialiter postulatur consuetudo qug
+          <lb ed="#P" n="74"/>scandalum generet, utique si violetur, quam
+          <lb ed="#P" n="75"/>additionem specialiter notant et requirunt 
+          ca<lb break="no" ed="#P" n="76"/>nonistae. Verumtamen, si consuetudo talis sit
+          <lb ed="#P" n="77"/>ut irritans impedimentum introducat, non 
+          po<lb break="no" ed="#P" n="78"/>test ejus transgressio non generare scandalum,
+          <lb ed="#P" n="79"/>et ita scandalum ponitur ut signum talis 
+          con<lb break="no" ed="#P" n="80"/>suetudinis. Unde non mihi placet quod aliqui
+          <lb ed="#P" n="81"/>canonistae dicunt, hunc effectum in casu illo
+          <lb ed="#P" n="82"/>et similibus , magis esse propter vitandum
+          <lb ed="#P" n="83"/>scandalum quam propter consuetudinem. Nam
+          <lb ed="#P" n="84"/>propter vitandum scandalum vera 
+          matrimo<lb break="no" ed="#P" n="85"/>nia non dissolvuntur, nec ratione scandali 
+          ir<lb break="no" ed="#P" n="86"/>ritari posset matrimonium nisi supponeretur
+          <lb ed="#P" n="87"/>impedimentum, seu lex irritans per 
+          consue<lb break="no" ed="#P" n="88"/>tudinem introducta.
+        </p>
+        <p xml:id="szdleg-q48790-d1e463">
+          <lb ed="#P" n="89"/>5. Simile colligi potest ex c. Olim, de Cleric.
+          <lb ed="#P" n="90"/>conjug. juncta Glossa, verb. Hepugnet, quae
+          <lb ed="#P" n="91"/>ex textu notat aliquem, alias habilem, propter
+          <lb ed="#P" n="92"/>consuetudinem fieri posse ineligibilem. Sic
+          <lb ed="#P" n="93"/>etiam dicit Glossa in Authent. Ut prapon.
+          <lb ed="#P" n="94"/>nom. Imper., c. 1, verb. Auctore, per textum
+          <lb ed="#P" n="95"/>illum, consuetudinem posse introducere 
+          for<lb break="no" ed="#P" n="96"/>mam substantialem contractus, ita ut omissio
+          <lb ed="#P" n="97"/>illius contractum irritet ; quam alii sequuntur,
+          <lb ed="#P" n="98"/>quos Felin. supra refert, et Rochus dicto cap.
+          <lb ed="#P" n="99"/>ult., sect. 1, n. 10; et aliarefert Anton.Gabr.,
+          <lb ed="#P" n="100"/>lib. 6, titul. de Consuetudin., concl. 3, 
+          pra<lb break="no" ed="#P" n="101"/>sertim a n. 4. Ratio denique est, quia 
+          consue<lb break="no" ed="#P" n="102"/>tudo rationabilis et praescripta habet caeteros
+          <lb ed="#P" n="103"/>effectus, quos lex humana habere potest; ergo
+          <lb ed="#P" n="104"/>et hunc, quia nulla ratio probabilis afferri 
+          po<lb break="no" ed="#P" n="105"/>test, quare ad hunc sit impotens magis quam
+          <lb ed="#P" n="106"/>ad alios. Nam, sicut voluntas principis 
+          ex<lb break="no" ed="#P" n="107"/>pressa per verba potest hunc effectum efficere,
+          <lb ed="#P" n="108"/>ita et tacita per consuetudinem declarata,
+          <lb ed="#P" n="109"/>juxta rationem legis De quibus, ff. de Legib.
+          <lb ed="#P" n="110"/>Et ita hic applicari possunt omnia jura gene-
+          <pb ed="#P" n="196"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>raliter loquentia de viribus consuetudinis, et
+          <lb ed="#P" n="2"/>eequiparantia illam cum lege scripta, et 
+          spe<lb break="no" ed="#P" n="3"/>cialiter facit cap. ult. de Consuetud., ut recte
+          <lb ed="#P" n="4"/>ex illo argumentatur Sanc. supra, apud quem
+          <lb ed="#P" n="5"/>plura de hoc puncto videri possunt. Neque 
+          oc<lb break="no" ed="#P" n="6"/>currit difficultas alicujus momenti cui 
+          satisfa<lb break="no" ed="#P" n="7"/>cere necesse sit.
+        </p>
+        <p xml:id="szdleg-q48790-d1e533">
+          <lb ed="#P" n="8"/>6. Quomodo consuetudo legi equiparatur.—
+          <lb ed="#P" n="9"/>Praeterea aequiparatur consuetudo legi in suo
+          <lb ed="#P" n="10"/>effectu quoad personas quas jure suo obligare
+          <lb ed="#P" n="11"/>potest ; nam, sicut lex obligat subditos, ita et
+          <lb ed="#P" n="12"/>consuetudo ; et sicut lex non obligat extra 
+          ter<lb break="no" ed="#P" n="13"/>ritorium pro quo fertur, ita nec consuetudo.
+          <lb ed="#P" n="14"/>Unde si consuetudo sit universalis totius 
+          Eccle<lb break="no" ed="#P" n="15"/>siae, omnes christianos indistincte obligat; si
+          <lb ed="#P" n="16"/>sit solius regni, vel dioecesis, omnes incolas;
+          <lb ed="#P" n="17"/>si solius civitatis, omnes ct solos cives; et sic
+          <lb ed="#P" n="18"/>cum proportione de caeteris communitatibus.
+          <lb ed="#P" n="19"/>Generalis enim regula est, ut consuetudo unius
+          <lb ed="#P" n="20"/>communitatis non obhgat aliam distinctam,
+          <lb ed="#P" n="21"/>quia nec una communitas habet potestatem
+          <lb ed="#P" n="22"/>dandi leges alteri, nec princeps suum 
+          consen<lb break="no" ed="#P" n="23"/>sum ad hoc praebet. Quod adeo verum est, ut
+          <lb ed="#P" n="24"/>etiam consuetudo civitatis aut episcopatus 
+          ro<lb break="no" ed="#P" n="25"/>mani per se spectati, ut particularis 
+          episcopa<lb break="no" ed="#P" n="26"/>tus est, non obliget alias Ecclesias, quia, ut sic,
+          <lb ed="#P" n="27"/>non se gerit ut superior illis, nisi Pontifex 
+          prae<lb break="no" ed="#P" n="28"/>cipiat talem consuetudinem alibi observari, ut
+          <lb ed="#P" n="29"/>constat etiam ex usu, et notavit Panorm. in
+          <lb ed="#P" n="30"/>c. ult. de Feriis, in fin. ; Turrecr, in c. Nolite,
+          <lb ed="#P" n="31"/>d. 11; Rochus supra, sect. 4, n. 18, ubi alia
+          <lb ed="#P" n="32"/>allegat.
+        </p>
+        <p xml:id="szdleg-q48790-d1e590">
+          <lb ed="#P" n="33"/>7. Objectio.—Objici vero potest capit. Super
+          <lb ed="#P" n="34"/>eo, de Cognat. spirit., ubi praecipitur cuidam
+          <lb ed="#P" n="35"/>Episcopo Consuetudinem sue metropoliiane
+          <lb ed="#P" n="36"/>Hocclesiee, vel aliarum circumpositarum 
+          inqui<lb break="no" ed="#P" n="37"/>vere, et diligentius imitari. Unde videtur 
+          col<lb break="no" ed="#P" n="38"/>ligi consuetudinem unius episcopatus obligare
+          <lb ed="#P" n="39"/>in alio, et praesertim consuetudinem Ecclesiae
+          <lb ed="#P" n="40"/>metropolitanae obligare suffraganeos; et ratio
+          <lb ed="#P" n="41"/>ibi redditur, quia grave est antiquam 
+          consue<lb break="no" ed="#P" n="42"/>tudinem circumjacentium Ecclesiarum 
+          con<lb break="no" ed="#P" n="43"/>temnere. hespondeo duo tangi in illo textu.
+          <lb ed="#P" n="44"/>Unum est de consuetudine metropolitanae 
+          Ec<lb break="no" ed="#P" n="45"/>clesiae, an sit servanda in dioecesi suffraganea.
+          <lb ed="#P" n="46"/>In quo imprimis est certum, si in episcopatu
+          <lb ed="#P" n="47"/>sit contraria consuetudo, illam praevalere, quod
+          <lb ed="#P" n="48"/>omnes fatentur, cum praevaleat etiam juri
+          <lb ed="#P" n="49"/>communi, ut capite sequenti dicetur. Si autem
+          <lb ed="#P" n="50"/>in speciali episcopatu non sit propria 
+          consue<lb break="no" ed="#P" n="51"/>tudo, tunc videtur ex illo textu colligi, 
+          ser<lb break="no" ed="#P" n="52"/>vandam esse consuetudinem metropolitanam.
+          <lb ed="#P" n="53"/>Et potest fundari in alio principio recepto a
+          <lb ed="#P" n="54"/>multis canonistis, consuetudinem civitatis 
+          obli<lb break="no" ed="#P" n="55"/>gare oppida subjecta, et intra districtum civi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tatis constituta, si propriam consuetudinem
+          <lb ed="#P" n="57"/>non habeant. Quod tradit Bartol. in 1. 2, cod.
+          <lb ed="#P" n="58"/>Quae sit longa consuctudo, quaest. 36, n. 4M;
+          <lb ed="#P" n="59"/>et Anton. in cap. ult. de Constit.: et ibi Roch.,
+          <lb ed="#P" n="60"/>referens inultos, sect. 4, n. 17.
+        </p>
+        <p xml:id="szdleg-q48790-d1e655">
+          <lb ed="#P" n="61"/>8. Sicut statuta propria Archiepiscopi non
+          <lb ed="#P" n="62"/>obligant suffraganeos, ita nec consuetudo. —
+          <lb ed="#P" n="63"/>Sed hoc fortasse procedet quando civitas, suis
+          <lb ed="#P" n="64"/>statutis municipalibus, potest obligare castra
+          <lb ed="#P" n="65"/>vicina suae jurisdictioni immediate supposita.
+          <lb ed="#P" n="66"/>At hocnon potest accommodari inter Ecclesiam
+          <lb ed="#P" n="67"/>metropolitanam et suffraganeam , quia non
+          <lb ed="#P" n="68"/>intervenit ibi illa subjectio et immediata 
+          juris<lb break="no" ed="#P" n="69"/>dictio. Unde, sicut statuta propria 
+          Archiepis<lb break="no" ed="#P" n="70"/>copi non obligant in episcopatibus suorum
+          <lb ed="#P" n="71"/>suffraganeorum, ita nec consuetudo. Existimo
+          <lb ed="#P" n="72"/>ergo illum textum esse intelligendum, 
+          quan<lb break="no" ed="#P" n="73"/>do consuetudo praevaluit in tota provincia, et
+          <lb ed="#P" n="74"/>in aliquo episcopatu ignoratur, quia fortasse
+          <lb ed="#P" n="75"/>non accidit casus in quo praxis conformis vel
+          <lb ed="#P" n="76"/>contraria consuetudini possit ostendi. Tunc
+          <lb ed="#P" n="77"/>enim ait Papa consulendos esse convicinos
+          <lb ed="#P" n="78"/>Episcopos, et maxime metropolitanum, et 
+          eo<lb break="no" ed="#P" n="79"/>rum consuetudinem esse sequendam, quando
+          <lb ed="#P" n="80"/>nimirum illam observant ut totius provinciae
+          <lb ed="#P" n="81"/>universalem , et non ut propriam suae 
+          dioe<lb break="no" ed="#P" n="82"/>cesis.
+        </p>
+        <p xml:id="szdleg-q48790-d1e706">
+          <lb ed="#P" n="83"/>9. Quas personas obligat consuetudo. — 
+          At<lb break="no" ed="#P" n="84"/>que hinc expediendae sunt omnes quaestiones
+          <lb ed="#P" n="85"/>quas Dartol., dicta 1. 2, quaestion. ultim., et
+          <lb ed="#P" n="86"/>Rochus, section. 8 et 9, late tractant, de 
+          per<lb break="no" ed="#P" n="87"/>sonis quas obligat consuetudo, ut, an obliget
+          <lb ed="#P" n="88"/>principem vel senatum supremum, et an 
+          con<lb break="no" ed="#P" n="89"/>suetudo civitatis vel territorii obliget forenses;
+          <lb ed="#P" n="90"/>item an obliget cives extra territorium. Sed in
+          <lb ed="#P" n="91"/>his et similibus eadem ratio est in 
+          consuetudi<lb break="no" ed="#P" n="92"/>nibus, quae in legibus vel statutis scriptis, 
+          pro<lb break="no" ed="#P" n="93"/>pter rationem fundamentalem positam, quod
+          <lb ed="#P" n="94"/>consuetudo, de qua tractamus, est vera lex,
+          <lb ed="#P" n="95"/>et ab eadem potestate et jurisdictione procedit,
+          <lb ed="#P" n="96"/>solumque differt in modo, qui non variat 
+          ra<lb break="no" ed="#P" n="97"/>tionem obligandi in omnibus illis casibus ; et
+          <lb ed="#P" n="98"/>ideo quae de lege humana diximus in omnibus
+          <lb ed="#P" n="99"/>illis quaestionibus, ad consuetudinem 
+          appiican<lb break="no" ed="#P" n="100"/>da sunt. Qui vero plura de illis quaestionibus
+          <lb ed="#P" n="101"/>desiderat , videat dictos auctores, et Gregor.
+          <lb ed="#P" n="102"/>Lopez in 1. 16, tit. 1, partit. 1, Gloss. 1, Ant.
+          <lb ed="#P" n="103"/>Gabr., lib. 6, titul. de Consuetudin., 
+          conclu<lb break="no" ed="#P" n="104"/>sione prima et secunda, et alios quos ipsi 
+          alle<lb break="no" ed="#P" n="105"/>gant et quae dixi tomo primo de Religione,
+          <lb ed="#P" n="106"/>tractatu secundo, libro 2, cap. 13 et 14.
+        </p>
+        <p xml:id="szdleg-q48790-d1e761">
+          <lb ed="#P" n="107"/>10. Consuetudo laicorum non obligat clericos.
+          <lb ed="#P" n="108"/>—Conswetudo minta obligat tam clericos quam
+          <lb ed="#P" n="109"/>laicos. — Solum de quaestione quadam ab 
+          om<lb break="no" ed="#P" n="110"/>nibus disputata, pauca notabo, an, scilicet,
+          <pb ed="#P" n="197"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>consuetudo laicorum obliget clericos. In qua
+          <lb ed="#P" n="2"/>variae sunt opiniones quas omitto. Communis
+          <lb ed="#P" n="3"/>et recepta a canonistis est, consuetudinem quae
+          <lb ed="#P" n="4"/>est tantum laicorum non obligare clericos,
+          <lb ed="#P" n="5"/>quia sunt veluti populi distincti, et inter eos
+          <lb ed="#P" n="6"/>est eminentior clericorum communitas. Ac 
+          de<lb break="no" ed="#P" n="7"/>nique quia clerici omnino exempti sunt a 
+          po<lb break="no" ed="#P" n="8"/>testate laicorum. At vero si consuetudo sit
+          <lb ed="#P" n="9"/>mixta laicorum et clericorum, tunc obligabit
+          <lb ed="#P" n="10"/>clericos, quia jam ipsi clerici consentiunt, et
+          <lb ed="#P" n="11"/>ita non ligantur consuetudine laicorum, sed
+          <lb ed="#P" n="12"/>propria. Ita tradit late Rochus dicto cap. ult.,
+          <lb ed="#P" n="13"/>sect. 8, n. b4 et 65, ubi varias ampliationes et
+          <lb ed="#P" n="14"/>limitationes congerit , et plura allegat quae in
+          <lb ed="#P" n="15"/>eo videri possunt, et in Felin., in c. Feclesie
+          <lb ed="#P" n="16"/>sancie Marie, de Constitution., n. 100 et 
+          se<lb break="no" ed="#P" n="17"/>quentibus, et in c. Ad nostram., de Probation.,
+          <lb ed="#P" n="18"/>n. 3, ubi etiam Abbas, notab. 3; Albericus,
+          <lb ed="#P" n="19"/>tractat. de Stat., 2 p.,q. 9.
+        </p>
+        <p xml:id="szdleg-q48790-d1e818">
+          <lb ed="#P" n="20"/>11. Notandum est qua voluntate consuetudo
+          <lb ed="#P" n="21"/>inducta est. — Notandum vero occurrit, cum
+          <lb ed="#P" n="22"/>consuetudo, ut est lex, non inducatur 
+          princi<lb break="no" ed="#P" n="23"/>paliter a populo illam introducente, sed a 
+          prin<lb break="no" ed="#P" n="24"/>cipe consentiente, potius considerandum esse
+          <lb ed="#P" n="25"/>qua potestate consuetudo confirmetur, et in
+          <lb ed="#P" n="26"/>ratione juris stabiliatur, quam statum 
+          perso<lb break="no" ed="#P" n="27"/>narum quae illam observaverunt. Nam 
+          volun<lb break="no" ed="#P" n="28"/>tas principis seu Praelati est causa per se; 
+          vo<lb break="no" ed="#P" n="29"/>lIuntas autem populi est causa motiva, et quasi
+          <lb ed="#P" n="30"/>occasio et petitio talis juris. Ita ergo resolutio
+          <lb ed="#P" n="31"/>quaestionis, an consuetudo liget clericos, 
+          mul<lb break="no" ed="#P" n="32"/>tum ex hoc pendet, an consensu Praelati 
+          eccle<lb break="no" ed="#P" n="33"/>siastici vel principis secularis firmata sit. Hae
+          <lb ed="#P" n="34"/>autem potestates per materiam et finem 
+          opti<lb break="no" ed="#P" n="35"/>me distinguuntur, ut supra dictum est, et ideo
+          <lb ed="#P" n="36"/>spectanda etiam est materia consuetudinis, an
+          <lb ed="#P" n="37"/>sit spiritualis vel temporalis, et an tendat ad
+          <lb ed="#P" n="38"/>salutem animae et cultum Dei, vel ad politicam
+          <lb ed="#P" n="39"/>gubernationem. Et ex his tribus principiis,
+          <lb ed="#P" n="40"/>potestate, materia et fine, pendere censeo 
+          re<lb break="no" ed="#P" n="41"/>solutionem praedictae quaestionis, magis quam
+          <lb ed="#P" n="42"/>ex personis consuetudine utentibus, quamvis
+          <lb ed="#P" n="43"/>hoc etiam juvare possit.
+        </p>
+        <p xml:id="szdleg-q48790-d1e873">
+          <lb ed="#P" n="44"/>12. Prima conclusio.—CQuando clericos 
+          obli<lb break="no" ed="#P" n="45"/>gat consuetudo. — Dico ergo, si consuetudo sit
+          <lb ed="#P" n="46"/>in materia civili et politica, et vim habeat ex
+          <lb ed="#P" n="47"/>consensu principis temporalis, non ligare 
+          cle<lb break="no" ed="#P" n="48"/>ricos per se loquendo, id est, nisi sit talis quae
+          <lb ed="#P" n="49"/>non sit contra libertatem ecclesiasticam, sed
+          <lb ed="#P" n="50"/>pertineat ad communem convictum civium,
+          <lb ed="#P" n="51"/>ut cives sunt; tunc enim de illa censendum
+          <lb ed="#P" n="52"/>erit, sicut supra de lege civili dictum est. Nam
+          <lb ed="#P" n="53"/>haec assertio ex dictis ibi pendet, quia 
+          consue<lb break="no" ed="#P" n="54"/>tudo illa civilis est, et jus civile introducit.
+          <lb ed="#P" n="55"/>Patet etiam prima pars, quia princeps laicus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>per expressam voluntatem non potest obligare
+          <lb ed="#P" n="57"/>clericos, ergo nec per tacitam, nec etiam ipsi
+          <lb ed="#P" n="58"/>clerici possunt consentire contra suam 
+          immu<lb break="no" ed="#P" n="59"/>nitatem, nec etiam Praelatus ecclesiasticus 
+          con<lb break="no" ed="#P" n="60"/>sentire censetur. Altera vero pars constat ex
+          <lb ed="#P" n="61"/>dictis supra de lege scripta; nam eadem est
+          <lb ed="#P" n="62"/>ratio de consuetudine, in qua clerici non 
+          con<lb break="no" ed="#P" n="63"/>siderantur ut clerici, sed tantum ut cives, et
+          <lb ed="#P" n="64"/>ita in eodem sensu accipienda est. Quod si
+          <lb ed="#P" n="65"/>materia etiam mixta sit, ut si pertineat ad
+          <lb ed="#P" n="66"/>politiam civilem et ecclesiasticam, et in 
+          utra<lb break="no" ed="#P" n="67"/>que servetur per communem utriusque 
+          popu<lb break="no" ed="#P" n="68"/>li seu status consuetudinem, tunc erunt veluti
+          <lb ed="#P" n="69"/>duae consuetudines, et revera duo jura, unum
+          <lb ed="#P" n="70"/>civile habens vim a consensu principis laici,
+          <lb ed="#P" n="71"/>et aliud ecclesiasticum, habens vim a consensu
+          <lb ed="#P" n="72"/>Praelati ecclesiastici, et unaquaeque obligabit
+          <lb ed="#P" n="73"/>suos subditos, et una poterit sine alia revocari.
+          <lb ed="#P" n="74"/>Denique, si maieria consuetudinis sit 
+          spiritua<lb break="no" ed="#P" n="75"/>lis, et ad bonum animae tendat, ut jejunium,
+          <lb ed="#P" n="76"/>etc., sic quidem una erit, et obligabit 
+          cle<lb break="no" ed="#P" n="77"/>cos et laicos, quia nitetur in potestate et 
+          con<lb break="no" ed="#P" n="78"/>sensu Praelati ecclesiastici tantum, et in ea non
+          <lb ed="#P" n="79"/>tam <sic>censiderantur</sic> subditi, ut laici vel clerici,
+          <lb ed="#P" n="80"/>quam omnes ut christiani.
+        </p>
+        <p xml:id="szdleg-q48790-d1e960">
+          <lb ed="#P" n="81"/>13. Tunc autem dubitari potest an, simili
+          <lb ed="#P" n="82"/>consuetudine spirituali (ut sic dicam), usus
+          <lb ed="#P" n="83"/>tantum laicorum possit introducere 
+          consuetu<lb break="no" ed="#P" n="84"/>dinem quae clericos etiam obliget. Nam, juxta
+          <lb ed="#P" n="85"/>regulam dictorum juristarum negandum est,
+          <lb ed="#P" n="86"/>et ex theologis negat etiam Palud. in 4, d. 15,
+          <lb ed="#P" n="87"/>quaest. 4, art. 3; tum quia clerici habent
+          <lb ed="#P" n="88"/>suum modum vivendi proprium, ut, verbi
+          <lb ed="#P" n="89"/>gratia, proprias abstinentias, etc.; tum etiam
+          <lb ed="#P" n="90"/>quia sunt veluti senatores, quos non obligant
+          <lb ed="#P" n="91"/>plebiscita, nisi consentiant ; tum denique quia
+          <lb ed="#P" n="92"/>monachi non obligantur consuetudinibus 
+          se<lb break="no" ed="#P" n="93"/>cularium clericorum, etiamsi religiosae sint et
+          <lb ed="#P" n="94"/>sanctae ; eadem autem est ratio et comparatio.
+          <lb ed="#P" n="95"/>Sed hae rationes me non cogunt, quia jus ex
+          <lb ed="#P" n="96"/>tali consuetudine resultans est episcopale, nam
+          <lb ed="#P" n="97"/>a Praelati tacito consensu vim habet, et 
+          ma<lb break="no" ed="#P" n="98"/>teria ejus de se communis est clericis et laicis:
+          <lb ed="#P" n="99"/>nam in jejuniis publicis vel festorum 
+          observa<lb break="no" ed="#P" n="100"/>tionibus, non habent clerici seculares speciales
+          <lb ed="#P" n="101"/>observantias ex lege, et ita cessat prima ratio.
+          <lb ed="#P" n="102"/>Atque etiam enervatur secunda, quia haec non
+          <lb ed="#P" n="103"/>recte comparantur plebiscitis, nam ista a 
+          po<lb break="no" ed="#P" n="104"/>pulo cum suo tribuno speciali 
+          proficisceban<lb break="no" ed="#P" n="105"/>tur : jura vero talium consuetudinum 
+          pro<lb break="no" ed="#P" n="106"/>deunt a Praelato communi clericis et laicis.
+          <lb ed="#P" n="107"/>Tertia etiam non procedit, quia clerici 
+          secu<lb break="no" ed="#P" n="108"/>lares non sunt exempti a jurisdictione 
+          episco<lb break="no" ed="#P" n="109"/>porum, sicut religiosi. De quibus etiam potest
+          <lb ed="#P" n="110"/>esse quaestio, quae, ut fundatur in exemptione,
+          <pb ed="#P" n="198"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>eamdem difficultatem habet in consuetudine,
+          <lb ed="#P" n="2"/>quae in praeceptis synodalibus, de quibus 
+          su<lb break="no" ed="#P" n="3"/>pra dictum est.
+        </p>
+        <p xml:id="szdleg-q48790-d1e1038">
+          <lb ed="#P" n="4"/>14. Secunda conclusio. — Dico ergo posse
+          <lb ed="#P" n="5"/>obligationem hujusmodi consuetudinis 
+          exten<lb break="no" ed="#P" n="6"/>di ad clericos, et de facto extendi si tacita vel
+          <lb ed="#P" n="7"/>expressa episcopi voluntas sit, jus episcopale
+          <lb ed="#P" n="8"/>inducere pro sua dioecesi, quod potest sine 
+          du<lb break="no" ed="#P" n="9"/>bio facere, et praesumetur ita facere quando
+          <lb ed="#P" n="10"/>materia consuetudiris de se communis est, et
+          <lb ed="#P" n="11"/>ita omnibus aeque utilis ac facilis, ut sine
+          <lb ed="#P" n="12"/>scandalo non possit obligatio quibusdam 
+          im<lb break="no" ed="#P" n="13"/>poni, et non aliis, et maxime quando totus
+          <lb ed="#P" n="14"/>populus laicorum conspirat, qui, respectu talis
+          <lb ed="#P" n="15"/>consuetudinis, ut dicebam, non considerantur
+          <lb ed="#P" n="16"/>ut laici, sed ut christiani, et ideo vincere 
+          pos<lb break="no" ed="#P" n="17"/>sunt clericos, et pro illis etiam consuetudinem
+          <lb ed="#P" n="18"/>introducere, consentiente Praelato. Aliquando
+          <lb ed="#P" n="19"/>vero potest esse consuetudo magis propria 
+          lai<lb break="no" ed="#P" n="20"/>corum, vel ex modo quo introducitur, verbi
+          <lb ed="#P" n="21"/>gratia, per speciale votum ipsorum, aut ex
+          <lb ed="#P" n="22"/>parte materiae quae illos decet magis quam 
+          cle<lb break="no" ed="#P" n="23"/>ricos, et tunc poterit facile illos obligare, et
+          <lb ed="#P" n="24"/>non clericos, et ita etiam approbari, quod ex
+          <lb ed="#P" n="25"/>ipso usu et circuinstantiis discernendum est.
+        </p>
+        <p xml:id="szdleg-q48790-d1e1089">
+          <lb ed="#P" n="26"/>15. De extensione consuetudinis ab uno casu
+          <lb ed="#P" n="27"/>ad alium similem.—Pertinet praetereat ad 
+          ef<lb break="no" ed="#P" n="28"/>fectus consuetudinis alia quaestio, quam dicti
+          <lb ed="#P" n="29"/>jurisperiti tractant, scilicet, an haec obligatio
+          <lb ed="#P" n="30"/>consuetudinis ab uno casu ad alium, propter
+          <lb ed="#P" n="31"/>similitudinem rationis , extendatur. Et fere
+          <lb ed="#P" n="32"/>communiter definiunt admittendam esse 
+          hu<lb break="no" ed="#P" n="33"/>jusmodi extensionem, licet postea varias 
+          de<lb break="no" ed="#P" n="34"/>clarationes et limitationes multiplicent, ut 
+          vi<lb break="no" ed="#P" n="35"/>dere licet in Rocho Curt. in dicta section. 4,
+          <lb ed="#P" n="36"/>fere a principio; Burgos de Paz in l. 1 Tauri,
+          <lb ed="#P" n="37"/>n. 51. Verumtamen haec extensio rara est, ut
+          <lb ed="#P" n="38"/>existimo ; nam imprimis non potest esse 
+          ma<lb break="no" ed="#P" n="39"/>jor extensio in jure consuetudinis quam possit
+          <lb ed="#P" n="40"/>esse in lege, quia non est major vis 
+          consuetu<lb break="no" ed="#P" n="41"/>dinis quam legis, quoad obligationem quam
+          <lb ed="#P" n="42"/>inducere possunt, proportione servata, ut ex
+          <lb ed="#P" n="43"/>dictis constat. Deinde addo difticilus fieri 
+          ex<lb break="no" ed="#P" n="44"/>tensionem in consuetudine quam in lege 
+          scri<lb break="no" ed="#P" n="45"/>pia. Primo, quia lex maxime solet extendi 
+          am<lb break="no" ed="#P" n="46"/>pliando verba, juxta significationem et usum
+          <lb ed="#P" n="47"/>quem, secundum jus, habent in tah vel tah
+          <lb ed="#P" n="48"/>materia ; unde cum in consuetudine desint
+          <lb ed="#P" n="49"/>verba, ille modus extensionis in ea locum non
+          <lb ed="#P" n="50"/>habet : ergo ex hac parte constat non aeque
+          <lb ed="#P" n="51"/>posse extendi consuetudinem ac scripta. 
+          Dein<lb break="no" ed="#P" n="52"/>de, in superioribus, etiam circa legem scriptam
+          <lb ed="#P" n="53"/>monui raro esse hanc extensionem 
+          admitten<lb break="no" ed="#P" n="54"/>dam, nisi habuerit magnum fundamentum in
+          <lb ed="#P" n="55"/>jure. Hic vero addo difficilius multo, ac sub-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>inde rarissime haberelocum in consuetudine.
+          <lb ed="#P" n="57"/>Nam obligatio legis ex vi solius consuetudinis
+          <lb ed="#P" n="58"/>difficillime cognoscitur in loco, et populo, et
+          <lb ed="#P" n="59"/>propria materia in qua versatur ; quomodo 
+          er<lb break="no" ed="#P" n="60"/>go poterit facile extendi ad alia, nisi a jure
+          <lb ed="#P" n="61"/>fiat extensio, vel nisi sint tam similia, ut 
+          mo<lb break="no" ed="#P" n="62"/>raliter idem reputentur , vel nisi unum in alio
+          <lb ed="#P" n="63"/>a fortiori contineri, vel tanquam pars in toto
+          <lb ed="#P" n="64"/>includi, rationabiliter judicetur? Et ideo in l.
+          <lb ed="#P" n="65"/>1, codic. Quae sit longa consuetudo, dicitur :
+          <lb ed="#P" n="66"/>Ut praeses provincie, probatis iis quae in 
+          oppi<lb break="no" ed="#P" n="67"/>do frequenter in eodem controversiurum genere
+          <lb ed="#P" n="68"/>servata sunt, causa cognita statuat, etc. 
+          Pon<lb break="no" ed="#P" n="69"/>dero enim illam particulam in eodem, 
+          identi<lb break="no" ed="#P" n="70"/>tatem enim significat, ct ideo dico tantam 
+          de<lb break="no" ed="#P" n="71"/>bere esse similitudinem, ut identitas moraliter
+          <lb ed="#P" n="72"/>reputetur. Caetera in praecedenti libro, capite
+          <lb ed="#P" n="73"/>secundo, videri possunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

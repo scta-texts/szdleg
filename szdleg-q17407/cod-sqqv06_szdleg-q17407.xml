@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 15</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 15</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="70"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q17407"><!-- l6c15 -->
+        <head xml:id="szdleg-q17407-Hd1e101">Caput 15</head>
+        <head xml:id="szdleg-q17407-Hd1e103" type="question-title">Nonnulla dubia circa potestatem inferiorum ad dispensandum in legibus superiorum explicantur</head>
+        <p xml:id="szdleg-q17407-d1e106">
+          <pb ed="#P" n="70"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT XV.
+          <lb ed="#P" n="2"/>NONNULLA DUBIA CIRCA POTESTATEM INFERIORUM
+          <lb ed="#P" n="3"/>AD DISPENSANDUM IN LEGIBUS SUPERIORUM 
+          EX<lb break="no" ed="#P" n="4"/>PLICANTUR.
+        </p>
+        <p xml:id="szdleg-q17407-d1e122">
+          <lb ed="#P" n="5"/>1. Potestas haec non delegata sed ordinaria
+          <lb ed="#P" n="6"/>dicenda est in Hpiscopis quando confertur a
+          <lb ed="#P" n="7"/>Papa ex vi muneris.—be potestate quam 
+          unus<lb break="no" ed="#P" n="8"/>quisque princeps vel Praelatus habet ad 
+          dispen<lb break="no" ed="#P" n="9"/>sandum in sua propria lege vel sui inferioris,
+          <lb ed="#P" n="10"/>nihil specialiter dubitandum, vel declarandum
+          <lb ed="#P" n="11"/>occurrit, praeter ea quae de causa dispensandi
+          <lb ed="#P" n="12"/>infra dicemus: circa potestatem vero 
+          inferio<lb break="no" ed="#P" n="13"/>ris ad dispensandum in lege superiori, nonnulla
+          <lb ed="#P" n="14"/>supersunt explicanda. Primum est, an haec 
+          po<lb break="no" ed="#P" n="15"/>testas dicenda sit ordinaria vel delegata; quia
+          <lb ed="#P" n="16"/>non est innata proprio muneri et jurisdictioni,
+          <lb ed="#P" n="17"/>sed per superioris voluntatem conceditur; ergo
+          <lb ed="#P" n="18"/>non est ordinaria potestas, nam haec solum est
+          <lb ed="#P" n="19"/>illa quae jure proprio habetur, erit ergo 
+          dele<lb break="no" ed="#P" n="20"/>gata. Sed hoc nullam controversiam habet aut
+          <lb ed="#P" n="21"/>difficultatem. Dicendum est enim hanc 
+          potes<lb break="no" ed="#P" n="22"/>tatem esse ordinariam in Episcopis, et idem est
+          <lb ed="#P" n="23"/>in similibus. Ratio est, quia, licet haec 
+          potes<lb break="no" ed="#P" n="24"/>tas commissa sit a superiore, ut a Papa, verbi
+          <lb ed="#P" n="25"/>gratia, confertur ex vi muneris, ita enim est
+          <lb ed="#P" n="26"/>illud munus institutum ut radicatam in se 
+          ha<lb break="no" ed="#P" n="27"/>beat totam illam jurisdictionem ex vi suae 
+          col<lb break="no" ed="#P" n="28"/>lationis et institutionis, sive haec institutio et
+          <lb ed="#P" n="29"/>concessio sit ex vi juris divini sive per 
+          Pon<lb break="no" ed="#P" n="30"/>tificem facta, vel consummata sit: hoc enim
+          <lb ed="#P" n="31"/>parum ad rem praesentem refert, ut constat,
+          <lb ed="#P" n="32"/>et videtur aperte declaratum in capite ultimo
+          <lb ed="#P" n="33"/>de Offic. ordinar., ubi Felin. in princ. id 
+          ad<lb break="no" ed="#P" n="34"/>vertit, dicens, licet dispensatio a jure concessa
+          <lb ed="#P" n="35"/>intelligatur solis Episcopis commissa, 
+          nihilo<lb break="no" ed="#P" n="36"/>minus posse Episcopum illam committere 
+          in<lb break="no" ed="#P" n="37"/>feriori, quia nimirum in illo jam est potestas
+          <lb ed="#P" n="38"/>ordinaria. Quod etiam dixit Dominic. in cap.
+          <lb ed="#P" n="39"/>Cum eo, de Elect., in 6, et Feder., consil. 36.
+          <lb ed="#P" n="40"/>Imo addit generaliter idem Felin., in c. Licet,
+          <lb ed="#P" n="41"/>de Offic. ordin., cum Bald. in l. 1, ff. deOffic.
+          <lb ed="#P" n="42"/>consul. quaest. 9, jurisdictionem in perpetuum
+          <lb ed="#P" n="43"/>commissam esse ordinariam. Et sic etiam dixit
+          <lb ed="#P" n="44"/>Glossa ultima in dicto capite ultimo, 
+          potesta<lb break="no" ed="#P" n="45"/>tem datam ex privilegio, si sit concessa ex 
+          pe<lb break="no" ed="#P" n="46"/>culiari institutione et tanquam perpetuo 
+          an<lb break="no" ed="#P" n="47"/>nexa dignitati, ordinariam censeri. Quae est
+          <lb ed="#P" n="48"/>sententia communis, ut referens plures tradit
+          <lb ed="#P" n="49"/>Covar., lib. 3 Variar., cap. 20, n. 6 et 10; et
+          <lb ed="#P" n="50"/>plures refert Sanc., l. 2 de Matrim., disp. 40,
+          <lb ed="#P" n="51"/>n. 14. Et est optima ratione fundatum, quia
+          <lb ed="#P" n="52"/>eo ipso quod jurisdictio perpetuo est concessa
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>et annexa dignitati, in illa manet radicata et
+          <lb ed="#P" n="54"/>cum illa confertur, et ideo ordinaria 
+          relinqui<lb break="no" ed="#P" n="55"/>tur, et qui illam habet, delegare eam potest.
+          <lb ed="#P" n="56"/>Et sic potestas quam habet Legatus a latere
+          <lb ed="#P" n="57"/>Papae ad dispensandum in legibus ordinaria
+          <lb ed="#P" n="58"/>est, sicut de votis alibi diximus, et tradunt
+          <lb ed="#P" n="59"/>Specul. in tit. de Dispensatione, S Consequatur ;
+          <lb ed="#P" n="60"/>Et Panormit. in cap. ult. de Transact., n. b.
+          <lb ed="#P" n="61"/>Quia Legatus est ordinarius in sua provincia,
+          <lb ed="#P" n="62"/>et major omnibus post Papam. Unde 
+          dispen<lb break="no" ed="#P" n="63"/>sare potest in omnibus quae non sunt Papae 
+          re<lb break="no" ed="#P" n="64"/>servata, ut sumitur ex cap. Quod translationes,
+          <lb ed="#P" n="65"/>de Offic. legati.
+        </p>
+        <p xml:id="szdleg-q17407-d1e259">
+          <lb ed="#P" n="66"/>2. Secundum dubium est, an Episcopus vel
+          <lb ed="#P" n="67"/>Archiepiscopus possit dispensare in legibus 
+          con<lb break="no" ed="#P" n="68"/>cilii provincialis tanquam in lege propria, vel
+          <lb ed="#P" n="69"/>tanquam in lege superioris, hoc enim multum
+          <lb ed="#P" n="70"/>interest, ut constabit ex infra dicendis de causa
+          <lb ed="#P" n="71"/>dispensationis. Et idem dubium cum 
+          propor<lb break="no" ed="#P" n="72"/>tione est de patriarchali seu nationali concilio
+          <lb ed="#P" n="73"/>respective. In quo imprimis supponendum est
+          <lb ed="#P" n="74"/>sermonem esse de Praelatis illius provinciae seu
+          <lb ed="#P" n="75"/>archiepiscopatus ubi concilium celebratum est:
+          <lb ed="#P" n="76"/>nam ibi tantum obligant ilius leges, et constat
+          <lb ed="#P" n="77"/>extraneos Praelatos non posse in illis 
+          dispen<lb break="no" ed="#P" n="78"/>sare ordinaria jurisdictione, quae extra 
+          terri<lb break="no" ed="#P" n="79"/>torium non extenditur. Deinde supponimus
+          <lb ed="#P" n="80"/>non solum Archiepiscopum sed etiam 
+          Episco<lb break="no" ed="#P" n="81"/>pos suffraganeos posse in talibus legibus 
+          dis<lb break="no" ed="#P" n="82"/>pensare, nisi specialiter sint alteri reservatae,
+          <lb ed="#P" n="83"/>quod intelligendum est respective, id est, ab
+          <lb ed="#P" n="84"/>unoquoque pro suis subditis, et pro sua 
+          dioece<lb break="no" ed="#P" n="85"/>si, quatenus in illa obligant tales leges. Neque
+          <lb ed="#P" n="86"/>Archiepiscopus jure ordinario amplius potest,
+          <lb ed="#P" n="87"/>sed cum proportione pro sua diocecesi : nam in
+          <lb ed="#P" n="88"/>dicecesibus suffraganeorum nihil immediate et
+          <lb ed="#P" n="89"/>ordinarie potest, sicut de dispensatione in 
+          vo<lb break="no" ed="#P" n="90"/>tis suo loco diximus. Quod autem hoc modo
+          <lb ed="#P" n="91"/>possint dispensare constabit ex dicendis.
+        </p>
+        <p xml:id="szdleg-q17407-d1e319">
+          <lb ed="#P" n="92"/>3. Dubitari ergo potest an unusquisque 
+          dis<lb break="no" ed="#P" n="93"/>penset in tali lege tanquam in sua propria, an
+          <lb ed="#P" n="94"/>vero tanquam in lege superioris. Videri enim
+          <lb ed="#P" n="95"/>potest illud prius, quia unusquisque solum 
+          dis<lb break="no" ed="#P" n="96"/>pensat in tali lege in sua dioecesi; ergo solum
+          <lb ed="#P" n="97"/>dispensat in ea tanquam a se lata; ergo 
+          tan<lb break="no" ed="#P" n="98"/>quam in sua, et non alicujus superioris. 
+          De<lb break="no" ed="#P" n="99"/>claratur, quia in Concilio provinciali non 
+          vi<lb break="no" ed="#P" n="100"/>detur esse specialis jurisdictio, quae sit una
+          <lb ed="#P" n="101"/>supra omnes dioeceses archiepiscopatus vel 
+          pro<lb break="no" ed="#P" n="102"/>vinciae. Quis enim illam contulit illi 
+          commu<lb break="no" ed="#P" n="103"/>nitati? Neque enim de jure divino est, nec de
+          <lb ed="#P" n="104"/>humano ostendi potest ; solum ergo videtur
+          <lb ed="#P" n="105"/>esse in tali concilio aggregatio jurisdictionum
+          <lb ed="#P" n="106"/>plurium Episcoporum quí in talibus legibus
+          <lb ed="#P" n="107"/>ferendis quasi communi pacto conveniunt, et
+          <pb ed="#P" n="71"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ita unusquisque Episcopus illas fert pro suo
+          <lb ed="#P" n="2"/>episcopatu, et omnes simul pro tota provincia;
+          <lb ed="#P" n="3"/>ergo postea unusquisque pro suo arbitrio in
+          <lb ed="#P" n="4"/>illis dispensat tanquam a se latis, et non 
+          tan<lb break="no" ed="#P" n="5"/>quam ab aliquo superiore.
+        </p>
+        <p xml:id="szdleg-q17407-d1e371">
+          <lb ed="#P" n="6"/>4. Leges provincialis Concilii tanquam leges
+          <lb ed="#P" n="7"/>superioris habentur respectu Episcoporum. —
+          <lb ed="#P" n="8"/>Nihilominus respectu singulorum Episcoporum
+          <lb ed="#P" n="9"/>certum est illas leges censeri leges a superiori
+          <lb ed="#P" n="10"/>latas, et ita solum posse in illis dispensare 
+          qua<lb break="no" ed="#P" n="11"/>tenus illis concessum est expresse, vel tacite
+          <lb ed="#P" n="12"/>aut consuetudine. Ratio est, quia revera in
+          <lb ed="#P" n="13"/>Concilio provinciali, ut est unum corpus 
+          mys<lb break="no" ed="#P" n="14"/>ticum, est vera jurisdictio quasi per se una
+          <lb ed="#P" n="15"/>moraliter (ut sic rem explicem), et non tantum
+          <lb ed="#P" n="16"/>est aggregatum jurisdictionum. Quod quidem
+          <lb ed="#P" n="17"/>tanquam certum supponimus ex materia de 
+          con<lb break="no" ed="#P" n="18"/>ciliis, quam, Deo dante, in tomo sexto 3 partis
+          <lb ed="#P" n="19"/>tractabimus, in illum enim locum totum 
+          ordi<lb break="no" ed="#P" n="20"/>nem ecclesiasticae hierarchiae explicandum 
+          re<lb break="no" ed="#P" n="21"/>servamus. Nunc id satis constat ex communi
+          <lb ed="#P" n="22"/>usu et perpetua Ecclesise traditione, quae 
+          con<lb break="no" ed="#P" n="23"/>stat ex dist. 18 per totam. Item ex 9, quaest. 3,
+          <lb ed="#P" n="24"/>cap. Salvo cum multis sequentibus, et ex cap.
+          <lb ed="#P" n="25"/>Grave nimis, de Praebend., et ex cap. Sicut
+          <lb ed="#P" n="26"/>olim, de Accusat., ubi supponitur hujusmodi
+          <lb ed="#P" n="27"/>concilium posse statuta condere quae Episcopi
+          <lb ed="#P" n="28"/>et servare debent, et facere ut serventur, 
+          idem<lb break="no" ed="#P" n="29"/>que renovat Concilium Tridentinum, sess. 24,
+          <lb ed="#P" n="30"/>cap. 2, ex quibus etiam constat posse 
+          hujus<lb break="no" ed="#P" n="31"/>modi concilium singulos Episcoporum 
+          judica<lb break="no" ed="#P" n="32"/>re, atque adeo habere in illos vim directivam
+          <lb ed="#P" n="33"/>et coactivam, quam habere non posset nisi
+          <lb ed="#P" n="34"/>haberet propriam jurisdictionem distinctam a
+          <lb ed="#P" n="35"/>jurisdictione singulorum Episcoporum, et 
+          su<lb break="no" ed="#P" n="36"/>periorem illis. Nam, licet plures Episcopi in
+          <lb ed="#P" n="37"/>unum aggregarentur, sine capite non facerent
+          <lb ed="#P" n="38"/>unum corpus, nec in illis simul sumptis 
+          dare<lb break="no" ed="#P" n="39"/>tur jurisdictio supra singulos. Longe ergo 
+          ali<lb break="no" ed="#P" n="40"/>ter judicandum est de Concilio provinciali.
+          <lb ed="#P" n="41"/>Hinc ergo coneluditur leges ab eo latas, esse
+          <lb ed="#P" n="42"/>leges superioris respectu singulorum 
+          Ebpisco<lb break="no" ed="#P" n="43"/>porum, et consequenter unumquemque 
+          Epis<lb break="no" ed="#P" n="44"/>copum tantum posse in illis legibus dispensare,
+          <lb ed="#P" n="45"/>quantum illi concessum est vel permissum,
+          <lb ed="#P" n="46"/>quod etiam a fortiori constabit ex his quae de
+          <lb ed="#P" n="47"/>Archiepiscopo dicemus. Denique inde etiam
+          <lb ed="#P" n="48"/>concluditur quod, licet Episcopus possit in tali
+          <lb ed="#P" n="49"/>lege dispensare in sua dioecesi, ncn tamen 
+          po<lb break="no" ed="#P" n="50"/>test illam abrogare, etiam pro sua dioecesi,
+          <lb ed="#P" n="51"/>quia est lex superioris, quae ab inferiori etiam
+          <lb ed="#P" n="52"/>ex parte abrogari non potest, ut infra 
+          di<lb break="no" ed="#P" n="53"/>cetur.
+        </p>
+        <p xml:id="szdleg-q17407-d1e478">
+          <lb ed="#P" n="54"/>5. Archiepiscopus non aliter dispensat in
+          <lb ed="#P" n="55"/>lege Concili provincialis, quam alii Bpiscopi.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>— An vero idem sit dicendum de 
+          Archiepis<lb break="no" ed="#P" n="57"/>copo videtur esse dubium, quia Archiepiscopus
+          <lb ed="#P" n="58"/>videtur esse supra tale concilium, sicut Papa
+          <lb ed="#P" n="59"/>est supra Concilium generale; nam est caput
+          <lb ed="#P" n="60"/>in ilo concilio, et ideo ipse cum concilio 
+          po<lb break="no" ed="#P" n="61"/>test punire Episcopos; concilium autem non
+          <lb ed="#P" n="62"/>potest punire Archiepiscopum, ut significatur
+          <lb ed="#P" n="63"/>in cap. Grave, de Praebend. Et in cap. Multis,
+          <lb ed="#P" n="64"/>dist. 17, significatur appellari a Concilio 
+          pro<lb break="no" ed="#P" n="65"/>vinciali ad Metropolitanum. Nihilominus 
+          di<lb break="no" ed="#P" n="66"/>cendum est Archiepiscopum non aliter posse
+          <lb ed="#P" n="67"/>dispensare in legibus Concilii provincialis quam
+          <lb ed="#P" n="68"/>caeteros Episcopos ; est enim etiam ipse 
+          infe<lb break="no" ed="#P" n="69"/>rior tali concilio, ut sentit Glossa ultim. in cap.
+          <lb ed="#P" n="70"/>Sicut, 9, quaest. 1. Et sumitur etiam ex Glossa
+          <lb ed="#P" n="71"/>ult. in cap. penult. de Appellat., in 6, 
+          quate<lb break="no" ed="#P" n="72"/>nus ait appellari a Metropolitano ad Concilium
+          <lb ed="#P" n="73"/>provinciale, quod est signum distinctae et 
+          su<lb break="no" ed="#P" n="74"/>perioris jurisdictionis in concilio. Id autem
+          <lb ed="#P" n="75"/>colligit ex dicto eap. Multis, nam prius ibi 
+          di<lb break="no" ed="#P" n="76"/>citur quod si Episcopi alicujus provinciae 
+          ali<lb break="no" ed="#P" n="77"/>quam inter se controversiam habeant, ad 
+          ma<lb break="no" ed="#P" n="78"/>Jorem sedem, id est metropolitanam, illam 
+          re<lb break="no" ed="#P" n="79"/>ferant; et subditur: 3 illic facile et juste non
+          <lb ed="#P" n="80"/>disceruuntur, ubi fuerit Synodus regulariter
+          <lb ed="#P" n="81"/>congregata, canonice et juste judicentur ; 
+          Sy<lb break="no" ed="#P" n="82"/>nodus (inquit), utique provincialis, quia nec
+          <lb ed="#P" n="83"/>episcopalis sufficit, nec generalis est 
+          necessa<lb break="no" ed="#P" n="84"/>ria; ergo clare ponitur recursus a 
+          metropoli<lb break="no" ed="#P" n="85"/>tana sede ad Concilium provinciale tanquam
+          <lb ed="#P" n="86"/>ad superius. Et ita etiam sentit Navarr. in
+          <lb ed="#P" n="87"/>cons. 6 de Majorit. et obed., cum Paulo de
+          <lb ed="#P" n="88"/>Eleazar. et Cardin. in Clement. 1,8 Quod etiam
+          <lb ed="#P" n="89"/>interdictis, de Sentent. excommun., ubi idem
+          <lb ed="#P" n="90"/>tenet Anchar., n. 5.
+        </p>
+        <p xml:id="szdleg-q17407-d1e563">
+          <lb ed="#P" n="91"/>6. Ratio autem est, quia jurisdictio illa quae
+          <lb ed="#P" n="92"/>est in Concilio provinciali non est eadem quae
+          <lb ed="#P" n="93"/>est in Archiepiscopo, neque etiam est ab illo;
+          <lb ed="#P" n="94"/>sed est altior et universalior quam illa. Quod
+          <lb ed="#P" n="95"/>patet, tum quia ad plures effectus extenditur,
+          <lb ed="#P" n="96"/>quia Archiepiscopus per suam jurisdictionem
+          <lb ed="#P" n="97"/>non posset de Episcopis suftraganeis judicare,
+          <lb ed="#P" n="98"/>vel eos punire, nec leges pro eorum 
+          dioecesi<lb break="no" ed="#P" n="99"/>bus ferre, cap. I:Nullus, cum alis, 9, quaest. 3,
+          <lb ed="#P" n="100"/>eanp. 1 de Offic. legat., quae tamen potest 
+          con<lb break="no" ed="#P" n="101"/>cilium; tum etiam quia talis est jurisdictio
+          <lb ed="#P" n="102"/>Concilii provincialis, ut actus ejus communi
+          <lb ed="#P" n="103"/>consensu, seu majoris partis fleri debeant, ut
+          <lb ed="#P" n="104"/>aperte eolligitur ex dicto cap. Nwilus, et ex
+          <lb ed="#P" n="105"/>usu et ordine talium Conciliorum, prout ex 
+          Isi<lb break="no" ed="#P" n="106"/>doro describitur in 4 tomo Conciliorum, ubi
+          <lb ed="#P" n="107"/>etiam dicitur constitutiones edi a toto Concilio,
+          <lb ed="#P" n="108"/>et ab omnibus debere subscribi. Neque posset
+          <lb ed="#P" n="109"/>Archiepiscopus, etiamsi id tentaret, tale jus
+          <lb ed="#P" n="110"/>sibi usurpare. Signum ergo evidens est juris-
+          <pb ed="#P" n="72"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dictionem concilii non esse illius, nec ab illo,
+          <lb ed="#P" n="2"/>sed esse superiorem illo. Et ita non sedet 
+          Ar<lb break="no" ed="#P" n="3"/>chiepiscopus in Concilio tanquam major 
+          juris<lb break="no" ed="#P" n="4"/>dictione toto concilio, sed tanquam praesidens,
+          <lb ed="#P" n="5"/>ut major dignitate et potestate, ut rectus ordo
+          <lb ed="#P" n="6"/>servetur. Unde autem concilium illud habeat
+          <lb ed="#P" n="7"/>jurisdictionem, an a jure divino quasi naturali
+          <lb ed="#P" n="8"/>gratia, vel a Pontifice summo, alterius 
+          consi<lb break="no" ed="#P" n="9"/>derationis est ; utrumque autem potest 
+          proba<lb break="no" ed="#P" n="10"/>biliter defendi.
+        </p>
+        <p xml:id="szdleg-q17407-d1e635">
+          <lb ed="#P" n="11"/>7. Archiepiscopus ligatur legibus Concilii
+          <lb ed="#P" n="12"/>provincialis tanquam membrum ejus. —Hinc
+          <lb ed="#P" n="13"/>ergo concluditur Archiepiscopum ligari 
+          legi<lb break="no" ed="#P" n="14"/>bus concilii provincialis tanquam unum ex
+          <lb ed="#P" n="15"/>membris ejus, et inferiorem illo. Unde 
+          conse<lb break="no" ed="#P" n="16"/>quens est ut non dispenset in illius legibus
+          <lb ed="#P" n="17"/>tanquam in suis, sed tanquam in legibus sui
+          <lb ed="#P" n="18"/>superioris. Atque ita quoad hoc eadem est 
+          ra<lb break="no" ed="#P" n="19"/>tio de Archiepiscopo quae de aliis. Omnes ergo
+          <lb ed="#P" n="20"/>eatenus possunt in talibus legibus dispensare,
+          <lb ed="#P" n="21"/>quatenus illis permissum est vel concessum.
+          <lb ed="#P" n="22"/>Unde, si Concilium reservasset suae legis 
+          dis<lb break="no" ed="#P" n="23"/>pensationem, nullus posset in ea dispensare
+          <lb ed="#P" n="24"/>sua auctoritate, nisi summus Pontifex, vel
+          <lb ed="#P" n="25"/>Concilium generale, vel idem provinciale 
+          ite<lb break="no" ed="#P" n="26"/>rum congregatum. Ordinarie vero cum non sit
+          <lb ed="#P" n="27"/>talis reservatio, intellieitur commissa 
+          Episco<lb break="no" ed="#P" n="28"/>pis potestas dispensandi, unicuique respective
+          <lb ed="#P" n="29"/>pro sua dioecesi, et Archiepiscopo etiam pro
+          <lb ed="#P" n="30"/>sua tantum, et non pro dicecesibus 
+          suftraga<lb break="no" ed="#P" n="31"/>neorum, quia (ut dixi) non habet ibi 
+          ordina<lb break="no" ed="#P" n="32"/>riam jurisdictionem immediatam, nisi quoad
+          <lb ed="#P" n="33"/>aliqua dum visitat. Colligitur autem dicta 
+          con<lb break="no" ed="#P" n="34"/>cessio, tum ex usu, tum quia est moraliter 
+          ne<lb break="no" ed="#P" n="35"/>cessaria ne oporteat vel summum Pontificem
+          <lb ed="#P" n="36"/>adire, vel aliud concilium expectare pro 
+          sin<lb break="no" ed="#P" n="37"/>gulis dispensationibus, quod esset grave 
+          in<lb break="no" ed="#P" n="38"/>commodum. Dices : potuit committi 
+          dispensa<lb break="no" ed="#P" n="39"/>tio talium legum Archiepiscopo. Respondeo
+          <lb ed="#P" n="40"/>potuisse quidem ab eodem Concilio committi,
+          <lb ed="#P" n="41"/>consentientibus omnibus Episcopis, vel a 
+          Pon<lb break="no" ed="#P" n="42"/>tifice, per commune jus; neutro autem modo
+          <lb ed="#P" n="43"/>ei committitur, quia neutrum ex usu constat,
+          <lb ed="#P" n="44"/>nec est verisimile Episcopos suffraganeos velle
+          <lb ed="#P" n="45"/>tantam potestatem Archiepiscopo concedere.
+          <lb ed="#P" n="46"/>Nec etiam jure communi vel pontificio fit illa
+          <lb ed="#P" n="47"/>commissio Archiepiscopo magis quam aliis;
+          <lb ed="#P" n="48"/>tum quia non potest ostendi tale jus, tum
+          <lb ed="#P" n="49"/>etiam quia esset in praejudicium Episcoporum,
+          <lb ed="#P" n="50"/>maxime quia statuta talium conciliorum solent
+          <lb ed="#P" n="51"/>esse de rebus ordinariis, et ad singularum 
+          dioe<lb break="no" ed="#P" n="52"/>cesum commune regimen pertinentibus. Adde
+          <lb ed="#P" n="53"/>quod dispensationes in jure communi vel in
+          <lb ed="#P" n="54"/>votis non committuntur Archiepiscopo pro
+          <lb ed="#P" n="55"/>dicecesibus suffraganeorum, ut ostendi libro 6
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>de Voto, cap. 10. Ergo nec dispensatio in 
+          le<lb break="no" ed="#P" n="57"/>gibus Concilii provincialis.
+        </p>
+        <p xml:id="szdleg-q17407-d1e742">
+          <lb ed="#P" n="58"/>8. Episcopus non est inferior respectu legum
+          <lb ed="#P" n="59"/>synodalium.—Tertium dubium, simile 
+          praece<lb break="no" ed="#P" n="60"/>denti, est de singulis Episcopis respectu 
+          con<lb break="no" ed="#P" n="61"/>stitutionum propriarum singulorum 
+          episcopa<lb break="no" ed="#P" n="62"/>tuum. Duplicia enim esse possunt hujusmodi
+          <lb ed="#P" n="63"/>statuta seu leges; quaedam conditae a solo 
+          Epis<lb break="no" ed="#P" n="64"/>copo, sua auctoritate et voluntate, et de his
+          <lb ed="#P" n="65"/>clarum est posse in illis dispensare ex 
+          intrin<lb break="no" ed="#P" n="66"/>seca potestate et voluntate a qua sola pendent.
+          <lb ed="#P" n="67"/>Aliae solent esse leges synodales, quae fiunt ab
+          <lb ed="#P" n="68"/>Episcopo cum synodo episcopali, et respectu
+          <lb ed="#P" n="69"/>talium legum videtur se habere Episcopus 
+          tan<lb break="no" ed="#P" n="70"/>quam inferior, sicut de Archiepiscopo diximus,
+          <lb ed="#P" n="71"/>quia istae leges sunt conciliares, et sic sunt a
+          <lb ed="#P" n="72"/>potestate superiori. Nihilominus tamen 
+          contra<lb break="no" ed="#P" n="73"/>rium verum est, quia, juxta veriorem 
+          senten<lb break="no" ed="#P" n="74"/>tiam, in episcopali synodo non est jurisdictio
+          <lb ed="#P" n="75"/>propria et legislativa distincta a jurisdictione
+          <lb ed="#P" n="76"/>Episcopi, quia inferiores, qui cum Episcopo in
+          <lb ed="#P" n="77"/>ea synodo conveniunt, non habent 
+          jurisdictio<lb break="no" ed="#P" n="78"/>nem propriam episcopalem aut legislativam,
+          <lb ed="#P" n="79"/>sicut habent Episcopi convenientes in Concilio
+          <lb ed="#P" n="80"/>provinciali, et ideo inferiores clerici cum 
+          Epis<lb break="no" ed="#P" n="81"/>copo convenientes ex se non habent 
+          potesta<lb break="no" ed="#P" n="82"/>tem conferendi illi synodo specialem 
+          jurisdic<lb break="no" ed="#P" n="83"/>tionem ab episcopali distinctam et illa 
+          supe<lb break="no" ed="#P" n="84"/>riorem, quasi ex natura reiresultantem in tali
+          <lb ed="#P" n="85"/>conventu ex consensione omnium. Quia hoc
+          <lb ed="#P" n="86"/>non habet fundamentum in supernaturali 
+          ju<lb break="no" ed="#P" n="87"/>risdictione singulorum, ut ex dictis constat.
+          <lb ed="#P" n="88"/>Nec etiam Christus immediate illam confert,
+          <lb ed="#P" n="89"/>neque etiam Pontifex, nullo enim jure aliquid
+          <lb ed="#P" n="90"/>istorum ostendi potest. Et ideo jurisdictio illius
+          <lb ed="#P" n="91"/>synodi non est alia nisi solius Episcopi, et 
+          sy<lb break="no" ed="#P" n="92"/>nodus tantum congregatur ut majori consilio
+          <lb ed="#P" n="93"/>et maturitate, ac suaviori modo res ordinentur.
+          <lb ed="#P" n="94"/>Quod significavit Bellarm. 1. 1 de Concil., cap.
+          <lb ed="#P" n="95"/>4, dicens diaecesanas synodos vix posse 
+          conci<lb break="no" ed="#P" n="96"/>lia appellari, cum in eis ordinarie nullus sit
+          <lb ed="#P" n="97"/>qui jurisdictionem habeat, praeter unum 
+          Epis<lb break="no" ed="#P" n="98"/>copum. Quapropter ita potest Episcopus 
+          dis<lb break="no" ed="#P" n="99"/>pensare in constitutione synodi sicut in sua
+          <lb ed="#P" n="100"/>propria, ut expresse docuit Navarrus in 
+          Sum<lb break="no" ed="#P" n="101"/>ma, cap. 25, n. 74, in fine, et in 
+          Commenta<lb break="no" ed="#P" n="102"/>rio de Simonia, n. 4; et sequitur Sanc., l. S,
+          <lb ed="#P" n="103"/>disput. 17, n. 34, ubi allegat quosdam 
+          moder<lb break="no" ed="#P" n="104"/>nos contrarium sentientes, quia supponunt
+          <lb ed="#P" n="105"/>synodum esse supra Episcopum, et 
+          escommu<lb break="no" ed="#P" n="106"/>nicationem latae sententiae latam in tali 
+          syno<lb break="no" ed="#P" n="107"/>do ligare etiam Episcopum. Sed hoc non sine
+          <lb ed="#P" n="108"/>dubio falsum est, et sine fundamento dicitur,
+          <lb ed="#P" n="109"/>quia per se loquendo in ea synodo non est
+          <lb ed="#P" n="110"/>alia potestas excommunicandi, nisi potestas
+          <pb ed="#P" n="73"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Episcopi, qui non potest ligare seipsum, et
+          <lb ed="#P" n="2"/>ideo leges in tali synodo factae, licet obligent
+          <lb ed="#P" n="3"/>Episcompum quod vim directivam, non tamen
+          <lb ed="#P" n="4"/>quoad coactam, in quo etiam different a lege
+          <lb ed="#P" n="5"/>gibus Con provincialis, ut sensit etiam 
+          Na<lb break="no" ed="#P" n="6"/>varrus 6, de Majorit. et obed., n. 5, in 
+          <lb ed="#P" n="7"/>fine Et ergo magna differentia, etiam quoad
+          <lb ed="#P" n="8"/>dispensationem ; nam Episcopus dispensat in
+          <lb ed="#P" n="9"/>lege Concilii provincialis tanquam in lege 
+          su<lb break="no" ed="#P" n="10"/>perioris, in synodali autem tanquam in sua, et
+          <lb ed="#P" n="11"/>ideo longe aliter requiritur justa causa in 
+          utra<lb break="no" ed="#P" n="12"/>que dispensatione, juxta doctrinam inferius
+          <lb ed="#P" n="13"/>tradendam.
+        </p>
+        <p xml:id="szdleg-q17407-d1e893">
+          <lb ed="#P" n="14"/>9. De potestate Episcopi in legibus 
+          canoni<lb break="no" ed="#P" n="15"/>cis.—Quartum dubium est, an Episcopus 
+          pos<lb break="no" ed="#P" n="16"/>sit solus in legibus canonicis dispensare, vel
+          <lb ed="#P" n="17"/>indigeat consensu vel consilio sui Capitul. 
+          Ali<lb break="no" ed="#P" n="18"/>qui enim canonistae dixerunt non posse 
+          Epis<lb break="no" ed="#P" n="19"/>copum dispensare in his legibus sine 
+          consen<lb break="no" ed="#P" n="20"/>su vel consilio Capituli. Videntur autem loqui
+          <lb ed="#P" n="21"/>tam de dispensatione in jure communi, seu
+          <lb ed="#P" n="22"/>pontificio, aut conciliari, quam etiam 
+          synoda<lb break="no" ed="#P" n="23"/>li : nam indefinite , imo et universaliter 
+          lo<lb break="no" ed="#P" n="24"/>quuntur, ut patet ex Gloss. ult., in cap. ult.,
+          <lb ed="#P" n="25"/>quaest. 5; et ex Glossa in cap, S qui sine, 81
+          <lb ed="#P" n="26"/>d., et in cap. Ex panitentibus , dist. 50. Ubi
+          <lb ed="#P" n="27"/>Turrecrem. sentit de jure veram esse hanc 
+          sen<lb break="no" ed="#P" n="28"/>tentiam, quam etiam tenet Archid. in cap.1
+          <lb ed="#P" n="29"/>de Filiis Presbyter., in 6; et Oldraldus, cons.
+          <lb ed="#P" n="30"/>326, n. 6. Fundamentum est, quia dispensatio
+          <lb ed="#P" n="31"/>est actus solemnis, et inter ardua et graviora
+          <lb ed="#P" n="32"/>negotia reputatur, ut dicitur in cap. Didici,
+          <lb ed="#P" n="33"/>in fine, 1, quaest. 7; hujusmodi autem 
+          nego<lb break="no" ed="#P" n="34"/>tia non potest Episcopus sine suo Capitulo 
+          ex<lb break="no" ed="#P" n="35"/>pedire, juxta c. penult. 15, q. 7, et cap. 
+          Quan<lb break="no" ed="#P" n="36"/>io, De iis quae fiunt a Prael. etc. Aliter vero
+          <lb ed="#P" n="37"/>Hostiens., in Summ., 1. 3, tit. de lis quae fiunt
+          <lb ed="#P" n="38"/>a Prael., n. 1, distinctione utitur: Nam in
+          <lb ed="#P" n="39"/>magnis (inquit) beneficiis dispensare non polest
+          <lb ed="#P" n="40"/>sine consensu Capituli, secus in minimis ; 
+          sequi<lb break="no" ed="#P" n="41"/>tur Sylvester,| verbo Dispensatio, q. 4, et 
+          re<lb break="no" ed="#P" n="42"/>fert plures, et Turrecrem. in dicto cap. $ qui
+          <lb ed="#P" n="43"/>sine.
+        </p>
+        <p xml:id="szdleg-q17407-d1e961">
+          <lb ed="#P" n="44"/>10. Episcopus in suis legibus et 
+          constitutio<lb break="no" ed="#P" n="45"/>nibus dispensare potest.—bDico vero, imprimis
+          <lb ed="#P" n="46"/>indubitatum videri posse Episcopum solum,
+          <lb ed="#P" n="47"/>et sine consensu Capituli, dispensare in suis
+          <lb ed="#P" n="48"/>legibus et constitutionibus. Probatur, tum quia
+          <lb ed="#P" n="49"/>talis dispensatio inter minores merito 
+          compu<lb break="no" ed="#P" n="50"/>tatur, tum etiam quia talis lex potest ferri ab
+          <lb ed="#P" n="51"/>Episcopo sine Capitulo, ut supra dixi; ergo
+          <lb ed="#P" n="52"/>multo magis dispensari. Deinde dico, saltem ex
+          <lb ed="#P" n="53"/>consuetudine posse Episcopum dispensare in
+          <lb ed="#P" n="54"/>quocumque casu sine suo Capitulo; ita fatetur
+          <lb ed="#P" n="55"/>etiam Turrecrem. supra cum Archid. in dicto
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cap. Ec penitentibus, et idem tenet Gloss. in
+          <lb ed="#P" n="57"/>c. Cum ex eo, de Elect., in 6, verbo Episcopi,
+          <lb ed="#P" n="58"/>cum Hostiens. in cap. Dilectus, de Tempor.
+          <lb ed="#P" n="59"/>ordin., nam de facto ita observant Episcopi.
+          <lb ed="#P" n="60"/>et consuetudo posset jus dare, etiam derogando
+          <lb ed="#P" n="61"/>juri. Dico vero ultimo, etiam de jure non 
+          ha<lb break="no" ed="#P" n="62"/>bere in hoc actu Episcopum dependentiam a
+          <lb ed="#P" n="63"/>Capitulo. Ita sentit dicta Gloss. in cap. Cum ex
+          <lb ed="#P" n="64"/>eo, quam alii ibi sequuntur, et Angel. verbo
+          <lb ed="#P" n="65"/>Dispensatio, n. 6. Ratio autem est, quia nec
+          <lb ed="#P" n="66"/>jure divino aut naturali est necessarius 
+          con<lb break="no" ed="#P" n="67"/>cursus Capituli cum Episcopo ad dispensandum,
+          <lb ed="#P" n="68"/>nec ex jure positivo Ecclesiae; ergo. 
+          Antece<lb break="no" ed="#P" n="69"/>dens quoad jus divinum patet, quia jurisdictio
+          <lb ed="#P" n="70"/>Episcoporum vel non est absolute de jure 
+          di<lb break="no" ed="#P" n="71"/>vino, et ita neque habet modum praescriptum
+          <lb ed="#P" n="72"/>ex divino jure, vel eo modo quo est de jure
+          <lb ed="#P" n="73"/>divino pertinet ad monarchicum regimen 
+          im<lb break="no" ed="#P" n="74"/>mediatum. Unde non est cur fingatur data cum
+          <lb ed="#P" n="75"/>illa imitatione, neque etiam in jure naturali
+          <lb ed="#P" n="76"/>id potest habere fundamentum.
+        </p>
+        <p xml:id="szdleg-q17407-d1e1037">
+          <lb ed="#P" n="77"/>11. De jure autem ecclesiastico probatur,
+          <lb ed="#P" n="78"/>quia ubicumque jura canonica committunt 
+          dis<lb break="no" ed="#P" n="79"/>pensationem Episcopo, de illo solo loquuntur,
+          <lb ed="#P" n="80"/>nulla facta mentione Capituli, cap. A7 si 
+          cle<lb break="no" ed="#P" n="81"/>rici, S de Adulteriis, et cap. Cum ev eo, cum
+          <lb ed="#P" n="82"/>similibus, quae ibi Glossa refert. Et eodem modo
+          <lb ed="#P" n="83"/>loquitur Concilium Tridentinum, sess. 14, c.7,
+          <lb ed="#P" n="84"/>sess. 24, c. 6, et frequenter. Quod vero dicunt
+          <lb ed="#P" n="85"/>aliqui, subintelligendam esse conditionem de
+          <lb ed="#P" n="86"/>concursu Capituli, gratis dicitur, cum id nullibi
+          <lb ed="#P" n="87"/>sit expressum. Et declaratur tandem, nam
+          <lb ed="#P" n="88"/>tribus modis potest intelligi concursus Capituli,
+          <lb ed="#P" n="89"/>scilicet, per solam praesentiam, per consensum,
+          <lb ed="#P" n="90"/>et per consilium; doctores enim allegati 
+          am<lb break="no" ed="#P" n="91"/>bigue nunc de uno, nunc de altero modo 
+          lo<lb break="no" ed="#P" n="92"/>quuntur. Primum significat Glossa quaedam,
+          <lb ed="#P" n="93"/>et alii dum dicunt requiri ad solemnitatem
+          <lb ed="#P" n="94"/>actus, et ut de illo possit sufficienter constare.
+          <lb ed="#P" n="95"/>Sed hoc frivolum est, quia nec dispensatio per
+          <lb ed="#P" n="96"/>se requirit tantam solemnitatem, nec ullo jure
+          <lb ed="#P" n="97"/>postulatur, et aliis modis potest sufficienter de
+          <lb ed="#P" n="98"/>dispensatione constare. Secundum vero 
+          ni<lb break="no" ed="#P" n="99"/>mium est, quia etiam in dicto capite Quanto,
+          <lb ed="#P" n="100"/>non dicitur cum consensu, sed cum consilio, et
+          <lb ed="#P" n="101"/>eodem modo loquitur cap. JVovit, de lis quae
+          <lb ed="#P" n="102"/>fiunt a Praelat., etc. Et ita non requiritur 
+          con<lb break="no" ed="#P" n="103"/>sensus nisi in casibus expressis, qui ordinarie
+          <lb ed="#P" n="104"/>spectant ad jus vel identitatem Ecclesiae seu
+          <lb ed="#P" n="105"/>Capituli. Tertium vero de consilio fortasse 
+          ha<lb break="no" ed="#P" n="106"/>bet aliquam probabilitatem de antiquo jure,
+          <lb ed="#P" n="107"/>et in rebus arduis. Sed jam non est necessaria
+          <lb ed="#P" n="108"/>talis forma, ut consuetudo et posteriora jura
+          <lb ed="#P" n="109"/>probant. Maxime quia dispensatio per se non
+          <lb ed="#P" n="110"/>reputatur ex rebus arduis quae requirunt con-
+          <pb ed="#P" n="74"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>silium Capituli, ut notat Frederic. de Senis,
+          <lb ed="#P" n="2"/>cons. 40, in fine, et indicat Sylvest. supra ; qui
+          <lb ed="#P" n="3"/>solum excipit dispensationes quae possent 
+          ce<lb break="no" ed="#P" n="4"/>dere in praejudicium Ecclesiae; quod 
+          intelli<lb break="no" ed="#P" n="5"/>gendum puto de praejudicio contra jus 
+          pro<lb break="no" ed="#P" n="6"/>prium Ecclesise vel Capituli. Unde non placet
+          <lb ed="#P" n="7"/>exemplum de dispensatione ad ordines quo
+          <lb ed="#P" n="8"/>utitur Sylvester, nam talis dispensatio per se
+          <lb ed="#P" n="9"/>nullum praejudicium affert.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="260"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q65294"><!-- l8c9 -->
+        <head xml:id="szdleg-q65294-Hd1e101">Caput 9</head>
+        <head xml:id="szdleg-q65294-Hd1e103" type="question-title">De materiali causa, seu subjecto phrivilegit, seu cui possit concedi.</head>
+        <p xml:id="szdleg-q65294-d1e106">
+          <lb ed="#P" n="23"/>CAPUT IX.
+          <lb ed="#P" n="24"/>DE MATERIALI CAUSA, SEU SUBJECTO PHRIVILEGIT,
+          <lb ed="#P" n="25"/>SEU CUI POSSIT CONCEDI.
+        </p>
+        <p xml:id="szdleg-q65294-d1e115">
+          <lb ed="#P" n="26"/>1. Prima conditio materie legis.— Secunda
+          <lb ed="#P" n="27"/>conditio. — Quia concedens privilegium, 
+          ali<lb break="no" ed="#P" n="28"/>quid et alicui concedit, ideo haec duo dici 
+          pos<lb break="no" ed="#P" n="29"/>sunt ad materiam privilegii pertinere; unum
+          <lb ed="#P" n="30"/>per modum materiae circa quam privilegium
+          <lb ed="#P" n="31"/>versatur, aliud per modum subjecti privilegii.
+          <lb ed="#P" n="32"/>Est enim privilegii concessio quaedam actio ad
+          <lb ed="#P" n="33"/>alterum, in qua illa duo ex parte materiae 
+          sem<lb break="no" ed="#P" n="34"/>per distinguimus, ut in materia poenitentise,
+          <lb ed="#P" n="35"/>religionis, et in universum in materia justitiae.
+          <lb ed="#P" n="36"/>Primum ergo, de materia proxima circa quam
+          <lb ed="#P" n="37"/>jversatur privilegium, tantum generaliter 
+          di<lb break="no" ed="#P" n="38"/>cere possumus debere esse materiam legis 
+          ca<lb break="no" ed="#P" n="39"/>pacem, et ex parte postulare generales 
+          condi<lb break="no" ed="#P" n="40"/>tiones legis, ut esse rem justam, rationabilem
+          <lb ed="#P" n="41"/>et honestam, juxta dicta libro 1, cap. 9, 
+          spe<lb break="no" ed="#P" n="42"/>cialiter vero addere possumus materiam 
+          pri<lb break="no" ed="#P" n="43"/>vilegii tria postulare. Unum est, ut sit 
+          favora<lb break="no" ed="#P" n="44"/>bilis, ut circa definitionem explicatum est. Et
+          <lb ed="#P" n="45"/>ita versari potest in omnibus humanis 
+          com<lb break="no" ed="#P" n="46"/>moditatibus, ut in honoribus, muneribus, 
+          pro<lb break="no" ed="#P" n="47"/>ventibus, et e converso in oneribus, tributis
+          <lb ed="#P" n="48"/>et aliis exemptionibus ; sicque materia haec
+          <lb ed="#P" n="49"/>infinitam habet varietatem, quae per accidens
+          <lb ed="#P" n="50"/>est, et ideo sub scientiam non cadit. Alia 
+          con<lb break="no" ed="#P" n="51"/>ditio hujus materiae assignari potest, ut sit
+          <lb ed="#P" n="52"/>specialis aliqua facultas ad aliquid agendum
+          <lb ed="#P" n="53"/>vel non agendum, recipiendum aut non reci-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>piendum. Non enim omnis materia favorabilis
+          <lb ed="#P" n="55"/>est materia privilegii, quia multi sunt 
+          favo<lb break="no" ed="#P" n="56"/>res, aut beneficia, vel liberales donationes,
+          <lb ed="#P" n="57"/>quae non sunt privilegia, quia solum in facto
+          <lb ed="#P" n="58"/>consistunt, et non concedunt aliquod jus, et
+          <lb ed="#P" n="59"/>ideo nullo modo participant rationem legis;
+          <lb ed="#P" n="60"/>privilegium autem permanentem aliquam 
+          fa<lb break="no" ed="#P" n="61"/>cultatem tribuit, non communem ; materia
+          <lb ed="#P" n="62"/>ergo privilegii hanc conditionem requirit.
+        </p>
+        <p xml:id="szdleg-q65294-d1e200">
+          <lb ed="#P" n="63"/>2. Tertia conditio. — Addi vero potest 
+          ne<lb break="no" ed="#P" n="64"/>cessarium etiam esse ut, secundum hanc 
+          spe<lb break="no" ed="#P" n="65"/>cialem rationem, participet conditionem 
+          jus<lb break="no" ed="#P" n="66"/>titiae et honestatis, quae debent esse veluti
+          <lb ed="#P" n="67"/>transcendentales, et inclusae in omni specie,
+          <lb ed="#P" n="68"/>seu differentia legis. Unde cum privilegium
+          <lb ed="#P" n="69"/>habeat duos respectus, unum ad eum cui 
+          gra<lb break="no" ed="#P" n="70"/>tia fit, alium ad eos respectu quorum fit, seu
+          <lb ed="#P" n="71"/>a quibus debet servari privilegium, sub 
+          utro<lb break="no" ed="#P" n="72"/>que respectu debet justitiam et honestatem
+          <lb ed="#P" n="73"/>servare: diverso tamen modo, nam respectu
+          <lb ed="#P" n="74"/>privilegiarii, satis est quod sit talis materia,
+          <lb ed="#P" n="75"/>ut ab ipso possit honeste et sine injuria 
+          alio<lb break="no" ed="#P" n="76"/>rum fieri vel omitti, saltem supposito 
+          privi<lb break="no" ed="#P" n="77"/>legio : respectu vero aliorum, oportet ut vel
+          <lb ed="#P" n="78"/>nullum vel moderatum gravamen contineat,
+          <lb ed="#P" n="79"/>ita ut secundum rectam rationem ad illud 
+          sus<lb break="no" ed="#P" n="80"/>tinendum obligari possint. Et juxta hanc 
+          ge<lb break="no" ed="#P" n="81"/>neralem regulam de singulis privilegiis 
+          judi<lb break="no" ed="#P" n="82"/>candum est : neque enim hic possumus magis
+          <lb ed="#P" n="83"/>in particulari ad illa descendere: infra vero,
+          <lb ed="#P" n="84"/>tractando de privilegiorum interpretatione,
+          <lb ed="#P" n="85"/>nonnullas regulas ad interpretanda privilegia,
+          <lb ed="#P" n="86"/>ex hac generali doctrina, colligemus.
+        </p>
+        <p xml:id="szdleg-q65294-d1e256">
+          <lb ed="#P" n="87"/>9. De persona cui conceditur privilegium.—
+          <lb ed="#P" n="88"/>superest dicendum de persona cui privilegium
+          <lb ed="#P" n="89"/>conceditur. De qua loqui possumus de 
+          possi<lb break="no" ed="#P" n="90"/>bili, vel de facto. Prior sensus pertinet ad 
+          ca<lb break="no" ed="#P" n="91"/>pacitatem privilegii ; posterior vero ad 
+          actua<lb break="no" ed="#P" n="92"/>lem concessionem passivam, seu 
+          participatio<lb break="no" ed="#P" n="93"/>nem privilegii. Dicendum ergo imprimis est
+          <lb ed="#P" n="94"/>omnem hominem alteri subditum, vel aliquo
+          <lb ed="#P" n="95"/>modo inferiorem, esse capacem privilegii, et
+          <lb ed="#P" n="96"/>nullum alium. Quae assertio tres habet partes.
+          <lb ed="#P" n="97"/>Prima est de personis subditis, sub quibus
+          <lb ed="#P" n="98"/>comprehendimus omnes habentes in terris 
+          su<lb break="no" ed="#P" n="99"/>periores ; nam sicut omnes illi, de se ac per
+          <lb ed="#P" n="100"/>se loquendo, sunt capaces legis sibi impositae
+          <lb ed="#P" n="101"/>a suo superiore, ita etiam sunt capaces 
+          privi<lb break="no" ed="#P" n="102"/>legii, quia quantum est ex se possunt eximi a
+          <lb ed="#P" n="103"/>lege, si aliae conditiones necessariae 
+          interce<lb break="no" ed="#P" n="104"/>dant. Item, dare et recipere quasi correlativa
+          <lb ed="#P" n="105"/>sunt, seu reciproca; sed omnes principes 
+          ha<lb break="no" ed="#P" n="106"/>bentes potestatem ferendi leges possunt 
+          pri<lb break="no" ed="#P" n="107"/>vilegia concedere, et consequenter maxime
+          <lb ed="#P" n="108"/>possunt illa suis subditis concedere ; ergo, e
+          <pb ed="#P" n="261"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>contrario, subditi sunt capaces privilegii. Imo
+          <lb ed="#P" n="2"/>hinc inferunt aliqui, solos subditos, ut tales
+          <lb ed="#P" n="3"/>sunt, esse privilegii capaces, quia princeps
+          <lb ed="#P" n="4"/>suis tantum subditis, et intra ditionem suam
+          <lb ed="#P" n="5"/>potest concedere privilegia, quia solis illis 
+          po<lb break="no" ed="#P" n="6"/>test imponere legem, et solos illos potest a
+          <lb ed="#P" n="7"/>lege solvere ; ergo etiam subditi a solis suis
+          <lb ed="#P" n="8"/>principibus possunt privilegia recipere; ergo
+          <lb ed="#P" n="9"/>tantum homines subditi, ut subditi sunt 
+          prin<lb break="no" ed="#P" n="10"/>cipi habenti talem potestatem, sunt capaces
+          <lb ed="#P" n="11"/>privilegii.
+        </p>
+        <p xml:id="szdleg-q65294-d1e334">
+          <lb ed="#P" n="12"/>4. Addidi vero secundam assertionis partem,
+          <lb ed="#P" n="13"/>quia non solus subditus videtur posse a suo
+          <lb ed="#P" n="14"/>superiore accipere privilegium, sed etiam ab
+          <lb ed="#P" n="15"/>alio. Nam etiam princeps non solum subditis,
+          <lb ed="#P" n="16"/>sed etiam non subditis potest concedere 
+          pri<lb break="no" ed="#P" n="17"/>vilegium. Verbi gratia, dux Florentie potest
+          <lb ed="#P" n="18"/>concedere Lusitanis privilegium, ut 
+          transeun<lb break="no" ed="#P" n="19"/>do per suam ditionem non solvant pedagia,
+          <lb ed="#P" n="20"/>vel quid simile. Atque hoc clarum supponunt
+          <lb ed="#P" n="21"/>Innocent., Panorm., Felin. et fere omnes alü
+          <lb ed="#P" n="22"/>in cap. Novit, de Judiciis, et in cap. 1 de
+          <lb ed="#P" n="23"/>Probat., constituentes differentiam inter 
+          privi<lb break="no" ed="#P" n="24"/>legium concessum suhbdito vel non subdito,
+          <lb ed="#P" n="25"/>quod illud revocabile est, hoc irrevocabile, de
+          <lb ed="#P" n="26"/>qua differentia postea videbimus; nunc solum
+          <lb ed="#P" n="27"/>ex illa sumimus non subditum esse capacem
+          <lb ed="#P" n="28"/>privilegii. Inductione etiam ostenditur : nam
+          <lb ed="#P" n="29"/>ümperator concedit privilegia judicibus 
+          eccle<lb break="no" ed="#P" n="30"/>siasticis, licet illi subditi non sint, ut quod, in
+          <lb ed="#P" n="31"/>aliquo casu, per viam appellationis possint
+          <lb ed="#P" n="32"/>directe de laicis in causis temporalibus 
+          judi<lb break="no" ed="#P" n="33"/>ceare, ut patet ex c. Quicumque, 11, q. 1. 
+          Simi<lb break="no" ed="#P" n="34"/>liter possunt seculares principes privilegium
+          <lb ed="#P" n="35"/>concedere clericis, licet illis non sint subditi,
+          <lb ed="#P" n="36"/>ut constat ex multis legibus, c. de Episc. et 
+          Cle<lb break="no" ed="#P" n="37"/>ric. et de Sacros. Eccles. (uin potius, cum sit
+          <lb ed="#P" n="38"/>certum legem civilem disponentem in specie
+          <lb ed="#P" n="39"/>circa clericos, nec illos obligare, nec ab illis
+          <lb ed="#P" n="40"/>servandam esse, ne videantur suo privilegio
+          <lb ed="#P" n="41"/>fori praejudicare, nihilominus si talis lex 
+          me<lb break="no" ed="#P" n="42"/>rum privilegium contineat, ab eis acceptari
+          <lb ed="#P" n="43"/>potest, ut cum Abbate docet Felin. in c. 
+          Ec<lb break="no" ed="#P" n="44"/>clesia Sanctae Marie, de Constit., n. 40, in
+          <lb ed="#P" n="45"/>fine; et rationem reddit, quia tunc cessat ratio
+          <lb ed="#P" n="46"/>superioritatis, cum non subditus possit 
+          privi<lb break="no" ed="#P" n="47"/>legiari, cap. Novit, de Judic. Ratio autem cur
+          <lb ed="#P" n="48"/>non subditus possit privilegiari est, quia 
+          pri<lb break="no" ed="#P" n="49"/>vilegium, ut sic, non requirit vim coactivam,
+          <lb ed="#P" n="50"/>nec vim directivam in privilegiarium, quia
+          <lb ed="#P" n="51"/>privilegium illum non obligat, nec ad poenam,
+          <lb ed="#P" n="52"/>nec sub culpa; ergo privilegium, ut sic, non
+          <lb ed="#P" n="53"/>requirit subjectionem.
+        </p>
+        <p xml:id="szdleg-q65294-d1e428">
+          <lb ed="#P" n="54"/>5. Propter hoc ergo dixi in secunda parte
+          <lb ed="#P" n="55"/>assertionis, Vel aliquo modo inferiorem, quia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in rigore non est necessaria propria subjectio
+          <lb ed="#P" n="57"/>in eo qui privilegium accepturus est, vel ut
+          <lb ed="#P" n="58"/>illius sit capax. Hoc autem maxime verum est
+          <lb ed="#P" n="59"/>de privilegio quod non continet 
+          dispensatio<lb break="no" ed="#P" n="60"/>nem aut exemptionem ab aliqua lege, quia si
+          <lb ed="#P" n="61"/>dispensationem contineat, eo ipso est actus 
+          ju<lb break="no" ed="#P" n="62"/>risdictionis voluntariae, et supponit 
+          jurisdic<lb break="no" ed="#P" n="63"/>tionem non voluntariam, scilicet, ad ferendum
+          <lb ed="#P" n="64"/>praeceptum obligans, a quo fit exemptio seu
+          <lb ed="#P" n="65"/>dispensatio, de quo privilegio loqui videntur
+          <lb ed="#P" n="66"/>qui subjectionem tanquam conditionem 
+          ne<lb break="no" ed="#P" n="67"/>cessariam in privilegio requirunt. Privilegium
+          <lb ed="#P" n="68"/>autem quod non derogat alicui legi, non 
+          re<lb break="no" ed="#P" n="69"/>quirit, formaliter loquendo, jurisdictionem
+          <lb ed="#P" n="70"/>respectu ejus cui tale privilegium conceditur,
+          <lb ed="#P" n="71"/>quia talis concessio non est actus 
+          jurisdictio<lb break="no" ed="#P" n="72"/>nis, ut per se patet, sed est actus liberalitatis,
+          <lb ed="#P" n="73"/>vel potest etiam esse pactum aliquod, ut infra
+          <lb ed="#P" n="74"/>dicemus; ergo tale privilegium non requirit
+          <lb ed="#P" n="75"/>subjectionem in eo cui conceditur. Unde 
+          con<lb break="no" ed="#P" n="76"/>cedi potest et aequali, et superiori, et alieno
+          <lb ed="#P" n="77"/>(ut sic dicam), vel peregrino, ut ex exemplis
+          <lb ed="#P" n="78"/>adductis constat.
+        </p>
+        <p xml:id="szdleg-q65294-d1e487">
+          <lb ed="#P" n="79"/>6. Recipiens privilegium semper supponitur
+          <lb ed="#P" n="80"/>inferior aliquo modo. —Obviatur objectioni.—
+          <lb ed="#P" n="81"/>Nihilominus tamen semper recipiens 
+          privile<lb break="no" ed="#P" n="82"/>gium supponitur aliquo modo inferior. Quod
+          <lb ed="#P" n="83"/>clarius cernitur quando privilegium datur a
+          <lb ed="#P" n="84"/>rege clericis suae reipublicae vel regni; nam,
+          <lb ed="#P" n="85"/>licet illi exempti sint a jurisdictione 
+          tempo<lb break="no" ed="#P" n="86"/>rali, nihilominus sunt vasalli, et tenentur
+          <lb ed="#P" n="87"/>suum principem recognoscere in his quae suae
+          <lb ed="#P" n="88"/>immunitati non sunt contraria, quia sunt
+          <lb ed="#P" n="89"/>membra communitatis cujus ille est caput.
+          <lb ed="#P" n="90"/>Idem cernitur in alienis qui, dum transeunt
+          <lb ed="#P" n="91"/>per terras alterius principis, ab illo recipiunt
+          <lb ed="#P" n="92"/>aliquod privilegium : nam illi dum ibi 
+          peregri<lb break="no" ed="#P" n="93"/>nantur aliquo modo sunt inferiores et subditi.
+          <lb ed="#P" n="94"/>Si vero unus rex alteri regi vel principi 
+          su<lb break="no" ed="#P" n="95"/>premo concedat privilegium, semper erit cum
+          <lb ed="#P" n="96"/>habitudine ad terras suas, respectu quarum
+          <lb ed="#P" n="97"/>alter est inferior et inaequalis, esto non sit
+          <lb ed="#P" n="98"/>subditus. Quomodo etiam Pontifex est capax
+          <lb ed="#P" n="99"/>privilegii recipiendi ab imperatore vel 
+          prin<lb break="no" ed="#P" n="100"/>cipe temporali, ut omnes dicti juristae 
+          suppo<lb break="no" ed="#P" n="101"/>nunt, ut patet de illo privilegio exercendi 
+          ju<lb break="no" ed="#P" n="102"/>risdictionem directam in aliquibus causis 
+          ci<lb break="no" ed="#P" n="103"/>vilibus, et idem est in privilegio extrahendi de
+          <lb ed="#P" n="104"/>regno alieno res prohibitas per leges illius
+          <lb ed="#P" n="105"/>regni, et similia. Dices : cum privilegium sit
+          <lb ed="#P" n="106"/>lex, quomodo potest concedi sine usu 
+          juris<lb break="no" ed="#P" n="107"/>dictionis? Respondeo, ideo dixi, me loqui 
+          for<lb break="no" ed="#P" n="108"/>maliter respectu ejus cui privilegium 
+          conce<lb break="no" ed="#P" n="109"/>ditur, quia ut sic non obligat illum, et ideo
+          <lb ed="#P" n="110"/>respectu illius non est necessaria jurisdictio:
+          <pb ed="#P" n="262"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quatenus vero in tali privilegio includitur 
+          ra<lb break="no" ed="#P" n="2"/>tio legis obligantis alios, sic requirit 
+          jurisdic<lb break="no" ed="#P" n="3"/>tionem in illos; et hinc est ut nullus princeps
+          <lb ed="#P" n="4"/>possit tale privilegium concedere, nisi intra
+          <lb ed="#P" n="5"/>ditionem suam, vel in ordine ad illam.
+        </p>
+        <p xml:id="szdleg-q65294-d1e574">
+          <lb ed="#P" n="6"/>7. Unde patet facile tertia pars assertionis,
+          <lb ed="#P" n="7"/>quae potius videri potest superflua, quia sub
+          <lb ed="#P" n="8"/>duobus primis membris comprehenduntur
+          <lb ed="#P" n="9"/>omnes homines subditi; quid ergo mirum
+          <lb ed="#P" n="10"/>quod extra illos nulli sint alii capaces 
+          privile<lb break="no" ed="#P" n="11"/>gii humani, nisi fortasse intelligantur ibi 
+          ex<lb break="no" ed="#P" n="12"/>clusi homines non viatores, quod vanum esset.
+          <lb ed="#P" n="13"/>Posita ergo est illa particula ad denotandum
+          <lb ed="#P" n="14"/>non posse unum principem concedere 
+          privile<lb break="no" ed="#P" n="15"/>gium alteri, ut aequalis illi est, in his rebus
+          <lb ed="#P" n="16"/>quas ipse in suo territorio cupit exercere;
+          <lb ed="#P" n="17"/>nam si per se non possit, nunquam poterit ex
+          <lb ed="#P" n="18"/>privilegio alterius principis, etiamsi in 
+          poten<lb break="no" ed="#P" n="19"/>tia et divitiis excedere videatur. Et ratio est
+          <lb ed="#P" n="20"/>clara, quia talis princeps nullam habet in 
+          alie<lb break="no" ed="#P" n="21"/>no territorio potestatem. Et eadem ratione
+          <lb ed="#P" n="22"/>non potest unus princeps privilegium 
+          conce<lb break="no" ed="#P" n="23"/>dere vasallo alterius sine aliqua dependentia
+          <lb ed="#P" n="24"/>ab ipso, per habitudinem aliquam ad terras
+          <lb ed="#P" n="25"/>suas, quia sine hac non potest intelligi 
+          quo<lb break="no" ed="#P" n="26"/>modo potestas principis se extendat ad alienos
+          <lb ed="#P" n="27"/>quoad privilegia. Nam, licet possit liberalem
+          <lb ed="#P" n="28"/>donationem alteri facere de rebus suis, illa
+          <lb ed="#P" n="29"/>tantum est purum donum in facto consistens,
+          <lb ed="#P" n="30"/>non privilegium de cujus ratione est, ut per
+          <lb ed="#P" n="31"/>modum juris specialis ac legis privatae 
+          consti<lb break="no" ed="#P" n="32"/>tuatur, quam nullus princeps potest 
+          constitue<lb break="no" ed="#P" n="33"/>re, dando alteri non subdito facultatem 
+          ali<lb break="no" ed="#P" n="34"/>quid agendi, vel non agendi, nisi in terris
+          <lb ed="#P" n="35"/>suis, vel ex illis, aut circa illas, aut cum 
+          ali<lb break="no" ed="#P" n="36"/>qua simili habitudine.
+        </p>
+        <p xml:id="szdleg-q65294-d1e644">
+          <lb ed="#P" n="37"/>8. An idem sibimet concedere possit 
+          privile<lb break="no" ed="#P" n="38"/>giu. — Sed quaeres an idem possit sibimet
+          <lb ed="#P" n="39"/>concedere privilegium, ut, verbi gzatia, 
+          Pon<lb break="no" ed="#P" n="40"/>tifex, et qui in quolibet ordine non habet 
+          su<lb break="no" ed="#P" n="41"/>periorem. Nam ille etiam potest indigere 
+          pri<lb break="no" ed="#P" n="42"/>vilegio quod aliis potest concedere, et ab alio
+          <lb ed="#P" n="43"/>non potest recipere; poterit ergo sibimet illud
+          <lb ed="#P" n="44"/>applicare, quia pejoris conditionis esse non
+          <lb ed="#P" n="45"/>debet. Et confirmatur : nam hac ratione 
+          dici<lb break="no" ed="#P" n="46"/>mus posse Pontificem sibi indulgentiam 
+          con<lb break="no" ed="#P" n="47"/>eedere, et secum in praeceptis ecclesiasticis
+          <lb ed="#P" n="48"/>vel in votis dispensare. Item, perinde est 
+          con<lb break="no" ed="#P" n="49"/>cedere privilegium domui suae vel rebus suis,
+          <lb ed="#P" n="50"/>atque sibi; sed imperator dat privilegia domui
+          <lb ed="#P" n="51"/>suae, et rebus suis, ut constat ex tit. c. de 
+          Pri<lb break="no" ed="#P" n="52"/>vileg. dom. Augustae, et de Privileg. eor. qui
+          <lb ed="#P" n="53"/>in sacr. pal. milit., lib. 12; ergo verisimile
+          <lb ed="#P" n="54"/>est posse principem statuere privilegium sibi
+          <lb ed="#P" n="55"/>servandum, quia, ut cedit in commodum Prin-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cipis, non est actus jurisdictionis; et ut est
+          <lb ed="#P" n="57"/>propria lex, circa subditos versatur, dirigendo
+          <lb ed="#P" n="58"/>actus eorum circa suum principem.
+        </p>
+        <p xml:id="szdleg-q65294-d1e697">
+          <lb ed="#P" n="59"/>9. Respondetur ad quaesitum negate, licet
+          <lb ed="#P" n="60"/>forte sit questio de nomine.—Nihilominus 
+          ta<lb break="no" ed="#P" n="61"/>men facile defendi potest haec non esse proprie
+          <lb ed="#P" n="62"/>privilegia ipsius Principis, licet forte ad 
+          mo<lb break="no" ed="#P" n="63"/>dum ioquendi hoc pertineat. Hoc autem in
+          <lb ed="#P" n="64"/>Pontifice (et idem est cum proportione de 
+          re<lb break="no" ed="#P" n="65"/>liquis) ita declaro, quia in his quae non sunt
+          <lb ed="#P" n="66"/>contra obligationem alicujus communis legis,
+          <lb ed="#P" n="67"/>aut voti, non potest inveniri materia 
+          privile<lb break="no" ed="#P" n="68"/>gii in Pontifice respectu sui ipsius, quia 
+          nul<lb break="no" ed="#P" n="69"/>lam specialem potestatem, aut gratiam alis
+          <lb ed="#P" n="70"/>concedit, quam ipse a Deo non habeat jure suo,
+          <lb ed="#P" n="71"/>et potestate ordinaria. Unde, licet aliquando
+          <lb ed="#P" n="72"/>videatur sibi speciale jus assumere, ut quando
+          <lb ed="#P" n="73"/>quaedam beneficia specialiter sibi afficit, vel
+          <lb ed="#P" n="74"/>specialem honorem sibi reservat, vel 
+          specia<lb break="no" ed="#P" n="75"/>lem modum electionis pro sua dignitate 
+          consti<lb break="no" ed="#P" n="76"/>tuit, in his et similibus, non tam privilegia sibi
+          <lb ed="#P" n="77"/>assumit, quam suo jure utitur, et jus divinum
+          <lb ed="#P" n="78"/>suae dignitatis vel declarat, vel determinat ,
+          <lb ed="#P" n="79"/>et de tali determinatione jus quoddam 
+          com<lb break="no" ed="#P" n="80"/>mune constituit. Quando autem personas vel
+          <lb ed="#P" n="81"/>communitates aliquas eximit a subjectione 
+          in<lb break="no" ed="#P" n="82"/>feriorum Praelatorum, et sibi subjicit 
+          imme<lb break="no" ed="#P" n="83"/>diate, vel sub sua potestate assumit, etc., aliis
+          <lb ed="#P" n="84"/>quidem privilegia concedit, quoad se vero
+          <lb ed="#P" n="85"/>quod suum est retinet, et participationem 
+          po<lb break="no" ed="#P" n="86"/>testatis quam aliis communicaverat, interdum
+          <lb ed="#P" n="87"/>revocat. Et idem est in similibus; ideoque ubi
+          <lb ed="#P" n="88"/>non intervenit indulgentiarum applicatio vel
+          <lb ed="#P" n="89"/>dispensatio in lege, non potest inveniri 
+          pro<lb break="no" ed="#P" n="90"/>prium privilegium, quod Papa sibi vel suae
+          <lb ed="#P" n="91"/>dignitati proprie concedat. Et declaratur 
+          am<lb break="no" ed="#P" n="92"/>plius, quia pontificia dignitas ex ipso divino
+          <lb ed="#P" n="93"/>jure singularis est et communis; singularis
+          <lb ed="#P" n="94"/>in excellentia et potestate, communis in 
+          effi<lb break="no" ed="#P" n="95"/>cacia et utilitate: et ideo praerogativae illius, si
+          <lb ed="#P" n="96"/>privilegia dicenda sunt, magis sunt de jure
+          <lb ed="#P" n="97"/>divino quam humano, ut est privilegium 
+          im<lb break="no" ed="#P" n="98"/>munitatis in omni foro, et in omni causa, tam
+          <lb ed="#P" n="99"/>civili quam criminali, et ab omni censura, et
+          <lb ed="#P" n="100"/>ecclesiastica poena, et similia: quod si aliquid
+          <lb ed="#P" n="101"/>interdum est ex institutione pontificia, est
+          <lb ed="#P" n="102"/>tanquam debitum jure naturae illi dignitati,
+          <lb ed="#P" n="103"/>ideoque (ut ita dicam) potius est determinatio
+          <lb ed="#P" n="104"/>quaedam juris divini, quam humanum 
+          privi<lb break="no" ed="#P" n="105"/>legium.
+        </p>
+        <p xml:id="szdleg-q65294-d1e801">
+          <lb ed="#P" n="106"/>10. Non solet indulgentia significari 
+          nomi<lb break="no" ed="#P" n="107"/>ne privilegii. — Pontifem sibi andulgentiam
+          <lb ed="#P" n="108"/>potest concedere.— Indulgentia vero habet 
+          spe<lb break="no" ed="#P" n="109"/>cimen quoddam privilegii, communi tamen
+          <lb ed="#P" n="110"/>usu non ita vocatur, nec solet comprehendi sub
+          <pb ed="#P" n="263"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nomine privilegiorum in generalibus 
+          rescri<lb break="no" ed="#P" n="2"/>ptis Pontificum, nisi mentio illius proprio 
+          no<lb break="no" ed="#P" n="3"/>mine fiat. Et ratio est, quia indulgentia est
+          <lb ed="#P" n="4"/>quaedam absolutio, et non est facultas aliquid
+          <lb ed="#P" n="5"/>agendi, vel non agendi, quam privilegium
+          <lb ed="#P" n="6"/>specialiter significat, ut dixi, vel certe 
+          indul<lb break="no" ed="#P" n="7"/>gentia est quaedam spiritualis eleemosyna de
+          <lb ed="#P" n="8"/>thesauro Christi per dispensatorem ejus facta;
+          <lb ed="#P" n="9"/>eleemosyna autem non est privilegium, sed
+          <lb ed="#P" n="10"/>purum beneficium alterius rationis. 
+          Quapro<lb break="no" ed="#P" n="11"/>pter, licet Pontifex possit sibi indulgentiam
+          <lb ed="#P" n="12"/>applicare, ut late dixi in 4 tom., disput. 52,
+          <lb ed="#P" n="13"/>sect. 1, non inde sequitur posse proprium
+          <lb ed="#P" n="14"/>privilegium sibifconcedere. De dispensatione
+          <lb ed="#P" n="15"/>item fatemur posse Pontificem secum in sua
+          <lb ed="#P" n="16"/>lege dispensare, ut eodem loco dixi, tamen
+          <lb ed="#P" n="17"/>ngn videtur facere per modum privilegii,
+          <lb ed="#P" n="18"/>quasi eximendo se a lege absolute, sed ex
+          <lb ed="#P" n="19"/>justa causa, et quantum causa postulaverit,
+          <lb ed="#P" n="20"/>factum potius exercendo, quam speciale jus
+          <lb ed="#P" n="21"/>circa se constituendo, ideoque talis 
+          dispensa<lb break="no" ed="#P" n="22"/>tio non habet rationem legis privata, nec
+          <lb ed="#P" n="23"/>privilegii. In voto autem potest secum 
+          dis<lb break="no" ed="#P" n="24"/>pensare, illud simpliciter auferendo si causa
+          <lb ed="#P" n="25"/>subsit ; haec autem dispensatio solum est 
+          re<lb break="no" ed="#P" n="26"/>missio quaedam debiti, non exemptio ab 
+          ali<lb break="no" ed="#P" n="27"/>qua lege, ut alibi dictum est, et ideo nec in
+          <lb ed="#P" n="28"/>Pontifice, nec in aliis habet propriam 
+          ratio<lb break="no" ed="#P" n="29"/>nem privilegii.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

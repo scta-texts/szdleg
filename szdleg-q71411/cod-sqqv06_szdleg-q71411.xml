@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 16</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 16</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="284"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q71411"><!-- l8c16 -->
+        <head xml:id="szdleg-q71411-Hd1e101">Caput 16</head>
+        <head xml:id="szdleg-q71411-Hd1e103" type="question-title">De communicatione privilegiorum, et eorum collatione cum privilegiis ad instar.</head>
+        <p xml:id="szdleg-q71411-d1e106">
+          <lb ed="#P" n="36"/>CAPUT XVI.
+          <lb ed="#P" n="37"/>DE COMMUNICATIONE PRIVILEGIORUM, ET EORUM
+          <lb ed="#P" n="38"/>COLLATIONE CUM PRIVILEGIIS AD INSTAR.
+        </p>
+        <p xml:id="szdleg-q71411-d1e115">
+          <lb ed="#P" n="39"/>1. Alia forma concedendi privilegium esse
+          <lb ed="#P" n="40"/>solet per communicationem privilegii alteri
+          <lb ed="#P" n="41"/>prius concessi, quae est valde usitata, 
+          praeser<lb break="no" ed="#P" n="42"/>tim in privilegiis religionum, ut constat ex
+          <lb ed="#P" n="43"/>compendiis eorum, et ex his quae late refert
+          <lb ed="#P" n="44"/>Emman. hRoder., 1 tom., q. 55, per totam.
+          <lb ed="#P" n="45"/>Circa quam formam concessionis imprimis
+          <lb ed="#P" n="46"/>clarum est efficaciam ejus in hoc consistere,
+          <lb ed="#P" n="47"/>quod jus uni concessum per aliquod 
+          privile<lb break="no" ed="#P" n="48"/>gium, alteri etiam conceditur per quamdam
+          <lb ed="#P" n="49"/>extensionem, vel certe per quamdam 
+          multi<lb break="no" ed="#P" n="50"/>plicationem talis privilegii , ut nomine 
+          com<lb break="no" ed="#P" n="51"/>municationis significari videtur. Ad 
+          intelli<lb break="no" ed="#P" n="52"/>gendum autem qualis et quanta sit haec com-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>municatio, verba indulti attente pensanda
+          <lb ed="#P" n="54"/>sunt, tum ex parte ejus cui communicatur,
+          <lb ed="#P" n="55"/>tum denique ex parte modi quo 
+          communica<lb break="no" ed="#P" n="56"/>tur, et in his omnibus fere observandae sunt
+          <lb ed="#P" n="57"/>generales regulae de interpretatione, 
+          amplia<lb break="no" ed="#P" n="58"/>tione, vel restrictione privilegiorum, quae in
+          <lb ed="#P" n="59"/>superioribus tactae sunt, et in sequentibus
+          <lb ed="#P" n="60"/>tradentur. Solet autem specialiter quaeri an
+          <lb ed="#P" n="61"/>communicatio privilegiorum quae 
+          religioni<lb break="no" ed="#P" n="62"/>bus aut religiosis concedi solent, intelligatur
+          <lb ed="#P" n="63"/>fieri de privilegiis concessis religionibus ipsis,
+          <lb ed="#P" n="64"/>vel de concessis etiam particularibus 
+          domi<lb break="no" ed="#P" n="65"/>bus, aut personis. Sed in hoc nihil certius dici
+          <lb ed="#P" n="66"/>potest, quam ponderanda esse verba 
+          commu<lb break="no" ed="#P" n="67"/>nicationis. Regulare autem est, ut 
+          communi<lb break="no" ed="#P" n="68"/>cari intelligantur privilegia concessa intuitu
+          <lb ed="#P" n="69"/>religionis, seu totius congregationis, juxta 
+          de<lb break="no" ed="#P" n="70"/>clarationem Leonis X, quae refertur in 
+          supple<lb break="no" ed="#P" n="71"/>mento Minorum. Aliqua vero sunt specialia
+          <lb ed="#P" n="72"/>privilegia quae concedunt communicationem
+          <lb ed="#P" n="73"/>in privilegiis, etiam specialium domorum, et
+          <lb ed="#P" n="74"/>haec ipsa specialia privilegia per alias 
+          gene<lb break="no" ed="#P" n="75"/>rales clausulas aliis communicantur, et iia
+          <lb ed="#P" n="76"/>poterunt cum proportione eodem favore 
+          gau<lb break="no" ed="#P" n="77"/>dere, ut latius exponit Emman. hoder., 1
+          <lb ed="#P" n="78"/>tom., quaest. 55, artic. 18.
+        </p>
+        <p xml:id="szdleg-q71411-d1e206">
+          <lb ed="#P" n="79"/>2. Sed explicare oportet an haec concessio
+          <lb ed="#P" n="80"/>privilegii per communicationem eadem sit
+          <lb ed="#P" n="81"/>cum concessione privilegii ad instar, soloque
+          <lb ed="#P" n="82"/>nomine differant, vel si majorem habent 
+          dif<lb break="no" ed="#P" n="83"/>ferentiam, quae illa sit. Aliqui enim hanc
+          <lb ed="#P" n="84"/>differentiam constituunt, quod, per 
+          privile<lb break="no" ed="#P" n="85"/>gium ad instar, non idem, sed distinctum 
+          pri<lb break="no" ed="#P" n="86"/>vilegium conceditur, licet simile : nam ipsa
+          <lb ed="#P" n="87"/>similitudo et relatio quam umportat particula
+          <lb ed="#P" n="88"/>ad instar, hanc distinctionem requirit, ut
+          <lb ed="#P" n="89"/>constat etiam ex Dialectica. At vero per 
+          com<lb break="no" ed="#P" n="90"/>municationem, non aliud, sed idem 
+          privile<lb break="no" ed="#P" n="91"/>gium conceditur ei cui communicatur ; nam
+          <lb ed="#P" n="92"/>communicatio privilegii non est ejus 
+          multi<lb break="no" ed="#P" n="93"/>plicatio, sed extensio, et quasi applicatio 
+          ejus<lb break="no" ed="#P" n="94"/>dem privilegii ad plura subjecta.
+        </p>
+        <p xml:id="szdleg-q71411-d1e244">
+          <lb ed="#P" n="95"/>3. Hanc differentiam late tractat Mandos.
+          <lb ed="#P" n="96"/>dicto tract. de Privilegis ad instar, quaest. 2,
+          <lb ed="#P" n="97"/>et illam non probat, ac merito; modus quo
+          <lb ed="#P" n="98"/>rem explicat, mihi non placet, quia 
+          identita<lb break="no" ed="#P" n="99"/>tem privilegii ponit in utroque extremorum,
+          <lb ed="#P" n="100"/>et negat similitudinem inter privilegia, licet
+          <lb ed="#P" n="101"/>illam ponat inter privilegiata. Imprimis ergo
+          <lb ed="#P" n="102"/>ait, per communicationem idem privilegium
+          <lb ed="#P" n="103"/>communicari , quia vis verbi communicandi
+          <lb ed="#P" n="104"/>hoc requirit, et quia tenor concessionis per
+          <lb ed="#P" n="105"/>communicationem est hic, Concedimus 
+          Mino<lb break="no" ed="#P" n="106"/>ribus, verbi gratia, communicationem 
+          privile<lb break="no" ed="#P" n="107"/>giorum que habent Preedicatores, in qua forma
+          <pb ed="#P" n="285"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>relativum qua, refert substantiam, non 
+          acci<lb break="no" ed="#P" n="2"/>dentia. Item quia leges, quae 
+          communicatio<lb break="no" ed="#P" n="3"/>nem privilegiorum concedunt , plerumque
+          <lb ed="#P" n="4"/>per relativum identitatis illa concedunt, ut ibi
+          <lb ed="#P" n="5"/>late refert. Addit vero idem esse in privilegio
+          <lb ed="#P" n="6"/>ad instar, et hoc quidem tollere 
+          similitudi<lb break="no" ed="#P" n="7"/>nem privilegiorum inter se, quia idem non
+          <lb ed="#P" n="8"/>est simile sibi, nihilominus tamen res 
+          privi<lb break="no" ed="#P" n="9"/>legiatas fieri similes inter se, quia subjecta
+          <lb ed="#P" n="10"/>eamdem qualitatem habentia similia sunt.
+          <lb ed="#P" n="11"/>Unde concludit illam identitatem nihil 
+          ob<lb break="no" ed="#P" n="12"/>stare, quominus privilegium communicatum
+          <lb ed="#P" n="13"/>sit privilegium ad instar, quia illud 
+          relati<lb break="no" ed="#P" n="14"/>vum ad instar non dicit similitudinem inter
+          <lb ed="#P" n="15"/>privilegia, sed inter privilegiata.
+        </p>
+        <p xml:id="szdleg-q71411-d1e312">
+          <lb ed="#P" n="16"/>4. Sed hoc non in jure est necessarium,
+          <lb ed="#P" n="17"/>nec per analogiam ad philosophiam sustineri
+          <lb ed="#P" n="18"/>potest. Interrogo enim quo sensu dicat, in
+          <lb ed="#P" n="19"/>communicatione privilegiorum, idem 
+          privile<lb break="no" ed="#P" n="20"/>gium praexistens in uno communicari alteri;
+          <lb ed="#P" n="21"/>aut enim loquitur de identitate specifica, vel
+          <lb ed="#P" n="22"/>numerica. De numerica dici non potest, tum
+          <lb ed="#P" n="23"/>quia idem numero privilegium non potest
+          <lb ed="#P" n="24"/>simul esse in diversis subjectis, et aeque 
+          pri<lb break="no" ed="#P" n="25"/>mo in singulis; privilegium autem 
+          commu<lb break="no" ed="#P" n="26"/>nicatum tam proprie et per se convenit ei cui
+          <lb ed="#P" n="27"/>communicatur, ac prius erat in altero, sicut
+          <lb ed="#P" n="28"/>dictum est de privilegio ad instar ; tum etiam
+          <lb ed="#P" n="29"/>quia tale privilegium durat in eo cui 
+          commu<lb break="no" ed="#P" n="30"/>nicatur, etiamsi in altero in quo prius erat,
+          <lb ed="#P" n="31"/>amittatur, ut statim dicemus; tum denique
+          <lb ed="#P" n="32"/>quia argumenta quae pro hac identitate fiunt,
+          <lb ed="#P" n="33"/>ad summum probant specificam identitatem.
+          <lb ed="#P" n="34"/>Si autem de hac tantum sit sermo, cum illa
+          <lb ed="#P" n="35"/>identitate stat perfecta similitudo non solum
+          <lb ed="#P" n="36"/>inter privilegiatos, sed etiam inter privilegia
+          <lb ed="#P" n="37"/>ipsa, ut constat de quacumque identitate 
+          spe<lb break="no" ed="#P" n="38"/>cifica inter qualitates, et ratione earum inter
+          <lb ed="#P" n="39"/>qualia, quatenus talia sunt. Ergo immerito
+          <lb ed="#P" n="40"/>dicit ille auctor, per communicationem et per
+          <lb ed="#P" n="41"/>privilegium ad instar, concedi eadem 
+          privi<lb break="no" ed="#P" n="42"/>legia, non autem similia : nam quae illo modo
+          <lb ed="#P" n="43"/>sunt eadem , etiam similia sunt; sicut ergo
+          <lb ed="#P" n="44"/>privilegium ad instar non excludit 
+          identita<lb break="no" ed="#P" n="45"/>tem, ita non excludit similitudinem.
+        </p>
+        <p xml:id="szdleg-q71411-d1e380">
+          <lb ed="#P" n="46"/>5. Particula ad instar semper referre 
+          privi<lb break="no" ed="#P" n="47"/>legia ipsa inter se, et non tantum personas
+          <lb ed="#P" n="48"/>privilegiutas.—Neque est verum particulam ad
+          <lb ed="#P" n="49"/>wnstar non semper referre privilegia inter se,
+          <lb ed="#P" n="50"/>sed tantum personas privilegiatas: nam 
+          po<lb break="no" ed="#P" n="51"/>tius privilegium ad instar dicitur tale propter
+          <lb ed="#P" n="52"/>habitudinem ad aliud privilegium, quod 
+          imi<lb break="no" ed="#P" n="53"/>tatur; ergo talia privilegia etiam sunt numero
+          <lb ed="#P" n="54"/>distincta, et unum est quasi exemplar 
+          alte<lb break="no" ed="#P" n="55"/>rius, et hoc est ad instar illius, ut ex supra
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dictis patet. Nec potest intelligi, quomodo 
+          pri<lb break="no" ed="#P" n="57"/>vilegium detur uni ad instar alterius rei, vel
+          <lb ed="#P" n="58"/>personae, nisi illa sumatur formaliter ut 
+          af<lb break="no" ed="#P" n="59"/>fecta tali privilegio, ut, in l. Omnia, c. de 
+          Sa<lb break="no" ed="#P" n="60"/>cros. Eccl., cum hospitalibus conceduntur 
+          pri<lb break="no" ed="#P" n="61"/>vilegia ad instar Ecclesiae primariae, sine 
+          du<lb break="no" ed="#P" n="62"/>bio intelligitur supponi Ecclesia ut talibus
+          <lb ed="#P" n="63"/>privilegiis affecta, et ita non solum hospitale
+          <lb ed="#P" n="64"/>fieri simile Ecclesiae, sed etiam privilegium
+          <lb ed="#P" n="65"/>hospitalis effici simile privilegio Ecclesiae; imo
+          <lb ed="#P" n="66"/>non aliter subjectum fit simile alteri, nisi
+          <lb ed="#P" n="67"/>efficiendo in eo tormam, quae sit similis 
+          for<lb break="no" ed="#P" n="68"/>mae alterius. Per hoc ergo nulla differentia
+          <lb ed="#P" n="69"/>inter haec privilegia explicatur.
+        </p>
+        <p xml:id="szdleg-q71411-d1e437">
+          <lb ed="#P" n="70"/>6. Privilegium ad instar dicere 
+          similitudi<lb break="no" ed="#P" n="71"/>nem non perfectam, sed ad imilationem ; 
+          com<lb break="no" ed="#P" n="72"/>unicationem autem privilegii dicere evactam,
+          <lb ed="#P" n="73"/>sentiunt aliqui. — Posset vero ulterius addi
+          <lb ed="#P" n="74"/>privilegium ad instar dicere similitudinem,
+          <lb ed="#P" n="75"/>non tamen perfectam et exactam, sed per
+          <lb ed="#P" n="76"/>quamdam imitationem ; communicationem
+          <lb ed="#P" n="77"/>autem privilegii dicere integram et totalem
+          <lb ed="#P" n="78"/>concessionem privilegii, et ideo dici potius
+          <lb ed="#P" n="79"/>identitatem, quam similitudinem, potestque
+          <lb ed="#P" n="80"/>haec differentia confirmari ex quadam formula
+          <lb ed="#P" n="81"/>concedendi hanc communicationem , quam
+          <lb ed="#P" n="82"/>specialiter invenio in quadam Bulla Pii V,
+          <lb ed="#P" n="83"/>Societati nostrae concessa, cujus verba sunt:
+          <lb ed="#P" n="84"/>Possint libere et licite uti, frui, potiri et 
+          gau<lb break="no" ed="#P" n="85"/>dere (scilicet, privilegiis aliarum religionum)
+          <lb ed="#P" n="86"/>in omnibus, et per omnia, non solum ad 
+          illo<lb break="no" ed="#P" n="87"/>rum anstar, sed pariformiter, et eque 
+          prin<lb break="no" ed="#P" n="88"/>cipaliter, absque ulla prorsus differentia, 
+          pro<lb break="no" ed="#P" n="89"/>inde ac si iSocietati, etc., nominatim, et 
+          spe<lb break="no" ed="#P" n="90"/>cialiter, ac generaliter concessa fuissent. Quae
+          <lb ed="#P" n="91"/>verba supponunt privilegium ad instar non
+          <lb ed="#P" n="92"/>esse pariforme suo exemplari, nec esse tam
+          <lb ed="#P" n="93"/>amplum, sicut privilegium per 
+          communica<lb break="no" ed="#P" n="94"/>tionem concessum, nec ejusdem rationis cum
+          <lb ed="#P" n="95"/>illo. Et confirmatur, quia privilegium 
+          com<lb break="no" ed="#P" n="96"/>municatum est verum privilegium ; 
+          privile<lb break="no" ed="#P" n="97"/>gium autem ad nstar, comparatione alterius,
+          <lb ed="#P" n="98"/>est quasi fictum fictione juris. Unde Bald. ait
+          <lb ed="#P" n="99"/>civem ad instar, seu ex privilegio, non esse
+          <lb ed="#P" n="100"/>legitimum et verum civem, sed 
+          similitudina<lb break="no" ed="#P" n="101"/>rium: Omnis autem similitudo (inquit) est 
+          quod<lb break="no" ed="#P" n="102"/>dam figmentum rei, et non proprietas ipsa;
+          <lb ed="#P" n="103"/>citat l. Sed si accepto, ft. de Jure fisci.
+        </p>
+        <p xml:id="szdleg-q71411-d1e513">
+          <lb ed="#P" n="104"/>7. Oppugnatur praedictus modus dicendi. —
+          <lb ed="#P" n="105"/>Verumtamen hic etiam modus dicendi non
+          <lb ed="#P" n="106"/>placet. Primo, quia dictum est privilegium ad
+          <lb ed="#P" n="107"/>instar, absolute concessum, extendi ad omnia
+          <lb ed="#P" n="108"/>ad quae suum exemplar extenditur, atque adeo
+          <lb ed="#P" n="109"/>de se dicere imitationem perfectam, et non
+          <lb ed="#P" n="110"/>iantum adumbratam, vel fictam, cujus oppo-
+          <pb ed="#P" n="286"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>situm in hac differentia supponitur sine 
+          suffi<lb break="no" ed="#P" n="2"/>cienti fundamento, ut patebit, cum tamen 
+          il<lb break="no" ed="#P" n="3"/>lud efficaciter videatur probatum ratione 
+          su<lb break="no" ed="#P" n="4"/>pra facta, quod alias incerta esset et fere 
+          inu<lb break="no" ed="#P" n="5"/>tilis concessio privilegii ad instar absolute et
+          <lb ed="#P" n="6"/>sine alia explicatione. Quod si dicatur 
+          privi<lb break="no" ed="#P" n="7"/>legium ad instar, licet interdum sit 
+          perfec<lb break="no" ed="#P" n="8"/>tum, posset interdum salvari cum imperfecta
+          <lb ed="#P" n="9"/>imitatione, contra hoc est, quia illud solum
+          <lb ed="#P" n="10"/>habet locum quando in privilegio explicatur.
+          <lb ed="#P" n="11"/>Hoc autem modo etiam communicatio potest
+          <lb ed="#P" n="12"/>esse imperfecta, et solum per quamdam 
+          parti<lb break="no" ed="#P" n="13"/>cipationem. Quod si communicatio privilegii
+          <lb ed="#P" n="14"/>absolute facta, et sine limitatione, intelligitur
+          <lb ed="#P" n="15"/>de adaequata communicatione totius 
+          privile<lb break="no" ed="#P" n="16"/>gii, etiamsi expresse haec adaequatio non 
+          ex<lb break="no" ed="#P" n="17"/>plicetur, quia non est ulla ratio addendi 
+          limi<lb break="no" ed="#P" n="18"/>tationem, quia si haec licentia daretur, tota
+          <lb ed="#P" n="19"/>concessio esset incerta et ambigua ; ita etiam
+          <lb ed="#P" n="20"/>dicendum est de privilegio ad instar, propter
+          <lb ed="#P" n="21"/>eamdem rationem ; ergo in hoc potius 
+          aequi<lb break="no" ed="#P" n="22"/>parantur quam differant : nam absolute facta
+          <lb ed="#P" n="23"/>utraque est perfecta concessio: per 
+          additio<lb break="no" ed="#P" n="24"/>nem vero et expressam concedentis 
+          volunta<lb break="no" ed="#P" n="25"/>tem utraque potest limitari, et tantum ex
+          <lb ed="#P" n="26"/>parte vel per imitationem imperfectam fieri.
+        </p>
+        <p xml:id="szdleg-q71411-d1e591">
+          <lb ed="#P" n="27"/>8. Unde etiam constat non recte adduci
+          <lb ed="#P" n="28"/>verba illa Pii V ad differentiam praedictam
+          <lb ed="#P" n="29"/>confirmandam. Nam sicut ex illis verbis 
+          vi<lb break="no" ed="#P" n="30"/>detur colligi privilegium ad instar posse esse
+          <lb ed="#P" n="31"/>inaequale, et secuncum quid, ita etiam colligi
+          <lb ed="#P" n="32"/>poterit communicationem privilegii non esse
+          <lb ed="#P" n="33"/>pariformem, neque aeque principalem, neque
+          <lb ed="#P" n="34"/>absque ulla differentia, nisi haec expresse 
+          de<lb break="no" ed="#P" n="35"/>claretur in privilegio, quia cum hae particulae
+          <lb ed="#P" n="36"/>expresse addantur, insinuatur sine illis non
+          <lb ed="#P" n="37"/>esse ita adaequatam communicationem. Quod
+          <lb ed="#P" n="38"/>si hoc falsum est, ut videtur probatum, 
+          di<lb break="no" ed="#P" n="39"/>cendum necessario erit illud non colligi ex
+          <lb ed="#P" n="40"/>additione illarum particularum , quia non
+          <lb ed="#P" n="41"/>semper adduntur propter novum effectum, sed
+          <lb ed="#P" n="42"/>propter majorem explicationem ejusdem 
+          effec<lb break="no" ed="#P" n="43"/>tus, et ad tollendam omnem 
+          tergiversatio<lb break="no" ed="#P" n="44"/>nem, et umbram eludendi privilegium. Imo
+          <lb ed="#P" n="45"/>etiam interdum multiplicantur hujusmodi
+          <lb ed="#P" n="46"/>verba ad explicandum magnum affectum
+          <lb ed="#P" n="47"/>concedentis, ut patet de illis, Uti, frui, 
+          po<lb break="no" ed="#P" n="48"/>tiri et gaudere, et in omnibus et per omnia.
+          <lb ed="#P" n="49"/>Idem autem dicendum erit de praedictis verbis
+          <lb ed="#P" n="50"/>respectu privilegii ad instar, ut exposuit 
+          Man<lb break="no" ed="#P" n="51"/>dos., dicta q. 2, n. 13, ubi ipse refert alias
+          <lb ed="#P" n="52"/>privilegiorum formulas quae habent, non ad
+          <lb ed="#P" n="53"/>instar, sed pariformiter, et miratur quomodo
+          <lb ed="#P" n="54"/>illa negatio cum adversativa conjunctione 
+          po<lb break="no" ed="#P" n="55"/>natur, ac si illud non esset privilegium ad
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>instar, vel ac si esse ad instar et esse 
+          parifor<lb break="no" ed="#P" n="57"/>miter essent opposita. In praedicta autem Bulla
+          <lb ed="#P" n="58"/>non legitur absolute non ad instar, sed non
+          <lb ed="#P" n="59"/>solum ad instar, quae verba faciorem habent
+          <lb ed="#P" n="60"/>explicationem : nam quia privilegium ad 
+          in<lb break="no" ed="#P" n="61"/>star latitudinem habere potest, et 
+          obscurita<lb break="no" ed="#P" n="62"/>tem, vel tergiversationem, si solum ponatur,
+          <lb ed="#P" n="63"/>ideo ait Pontifex, concedere se privilegia dicta
+          <lb ed="#P" n="64"/>non solum ad instar, sed etiam cum omni
+          <lb ed="#P" n="65"/>proprietate et exaggeratione, ut magis statim
+          <lb ed="#P" n="66"/>declarabimus.
+        </p>
+        <p xml:id="szdleg-q71411-d1e683">
+          <lb ed="#P" n="67"/>9. Notanda de privilegio ad instar et per
+          <lb ed="#P" n="68"/>cominunicationem.— Cuapropter tam de 
+          privi<lb break="no" ed="#P" n="69"/>legio ad instar quam de privilegio per 
+          commu<lb break="no" ed="#P" n="70"/>nicationem distinctio aliqua praemittenda est,
+          <lb ed="#P" n="71"/>ut proprie et univoce fiat comparatio. Primo,
+          <lb ed="#P" n="72"/>ergo duobus modis intelligi potest privilegium
+          <lb ed="#P" n="73"/>esse ad instar ; primo ad instar alterius 
+          con<lb break="no" ed="#P" n="74"/>ditionis, seu proprietatis, quae in exemplari
+          <lb ed="#P" n="75"/>non est ex privilegio, sed ex naturali origine,
+          <lb ed="#P" n="76"/>vel ex antiquo aut ordinario jure. Secundo,
+          <lb ed="#P" n="77"/>potest privilegium esse ad instar alterius 
+          pri<lb break="no" ed="#P" n="78"/>vilegii, vel privilegiati, quoad jus quod ex
+          <lb ed="#P" n="79"/>speciali privilegio habet. Priori modo est 
+          ve<lb break="no" ed="#P" n="80"/>rum, quod in quadam confirmatione supra
+          <lb ed="#P" n="81"/>sumebatur, privilegium ad instar non 
+          consti<lb break="no" ed="#P" n="82"/>tuere aliquid vere tale quale est suum 
+          exem<lb break="no" ed="#P" n="83"/>plar, sed fictione juris: sic enim privilegium
+          <lb ed="#P" n="84"/>legitimationis dici potest ad instar 
+          legitimo<lb break="no" ed="#P" n="85"/>rum filiorum, non tamen facit vere et realiter
+          <lb ed="#P" n="86"/>legitimum filium, sed fictione juris. Et sic
+          <lb ed="#P" n="87"/>etiam procedit quod dicebat Bald., civem ex
+          <lb ed="#P" n="88"/>privilegio non esse legitimum et naturalem
+          <lb ed="#P" n="89"/>civem, sed instar ejus, secundum quamdam
+          <lb ed="#P" n="90"/>similitudinariam rationem. Sicut etiam dicere
+          <lb ed="#P" n="91"/>solemus privilegium nobilis non facere vere
+          <lb ed="#P" n="92"/>et naturaliter nobilem, sed civiliter, fictione
+          <lb ed="#P" n="93"/>juris. Et cum eadem limitatione accipiendum
+          <lb ed="#P" n="94"/>est quod idem ait, omnem similitudinem esse
+          <lb ed="#P" n="95"/>figmentum rei, et non proprietatem: est enim
+          <lb ed="#P" n="96"/>verum de hac similitudine legal (ut sic dicam)
+          <lb ed="#P" n="97"/>respectu rei naturalis ; nam alioqui perftecta
+          <lb ed="#P" n="98"/>et naturalis similitudo in veritate et 
+          proprie<lb break="no" ed="#P" n="99"/>tate consistit; imo, si proprietas in utroque
+          <lb ed="#P" n="100"/>extremo legalis sit, potest similitudo esse 
+          om<lb break="no" ed="#P" n="101"/>nino propria, et non tantum analoga, ut jam
+          <lb ed="#P" n="102"/>dicam. Posteriori autem modo nos hactenus
+          <lb ed="#P" n="103"/>locuti sumus de privilegio ad instar, 
+          nimi<lb break="no" ed="#P" n="104"/>rum, quod datum est instar alterius 
+          privile<lb break="no" ed="#P" n="105"/>gii, seu, quod idem est, ad imitationem 
+          effec<lb break="no" ed="#P" n="106"/>tuum et proprietatum quae in alio sunt, etiam
+          <lb ed="#P" n="107"/>ex privilegio; nam hoc modo loquuntur jura
+          <lb ed="#P" n="108"/>de privilegio ad instar, et hic est communis
+          <lb ed="#P" n="109"/>usus talis vocis; nam prius non solet vocari
+          <lb ed="#P" n="110"/>privilegium ad instar, sed directum, et (ut ita
+          <pb ed="#P" n="287"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dicam) primarium , licet effectus ejus possit
+          <lb ed="#P" n="2"/>diei esse ad instar alterius effectus naturals,
+          <lb ed="#P" n="3"/>secundum analogiam et fictionem juris. Hoc
+          <lb ed="#P" n="4"/>ergo privilegium ad insiar non est fictum, sed
+          <lb ed="#P" n="5"/>verum, nec inducit aliquid per juris 
+          fictio<lb break="no" ed="#P" n="6"/>nem, sed vere et proprie concedit quidquid
+          <lb ed="#P" n="7"/>aliud privilegium, quod est veluti exemplar
+          <lb ed="#P" n="8"/>suum, concedit, et ita inducit similitudinem
+          <lb ed="#P" n="9"/>in privilegiis omnino propriam, et absque 
+          ali<lb break="no" ed="#P" n="10"/>quo figmento.
+        </p>
+        <p xml:id="szdleg-q71411-d1e807">
+          <lb ed="#P" n="11"/>10. Resolutio auctoris. — Juxta hanc ergo
+          <lb ed="#P" n="12"/>distinctionem, dicendum est privilegium 
+          pro<lb break="no" ed="#P" n="13"/>prie dictum ad instar, uüque alterius proprii
+          <lb ed="#P" n="14"/>privilegii, non distingui a propria 
+          communi<lb break="no" ed="#P" n="15"/>catione privilegii, et hoc recte probari 
+          ratio<lb break="no" ed="#P" n="16"/>nibus factis. Privilegium autem vocatum ad
+          <lb ed="#P" n="17"/>instar propter solam imitationem alterius juris
+          <lb ed="#P" n="18"/>ordinari et quasi connaturalis fundati in 
+          pro<lb break="no" ed="#P" n="19"/>prietate originaria, seu naturali, illud merito
+          <lb ed="#P" n="20"/>distingui a privilegio per communicationem,
+          <lb ed="#P" n="21"/>quia ibi non fit revera communicatio 
+          privile<lb break="no" ed="#P" n="22"/>gii, sed conceditur per privilegium quod 
+          al<lb break="no" ed="#P" n="23"/>teri convenit sine illo, vel si convenit ex 
+          pri<lb break="no" ed="#P" n="24"/>vilegio, illud est jam factum quasi connaturale
+          <lb ed="#P" n="25"/>propter antiquitatem originis, ut in nobilitate
+          <lb ed="#P" n="26"/>originaria, vel in jure civitatis ex antiquo 
+          do<lb break="no" ed="#P" n="27"/>micilio, et similibus. Et fortasse Pius V, in
+          <lb ed="#P" n="28"/>praedicta Bulla quae incipit Doum indefessm,
+          <lb ed="#P" n="29"/>ideo tam accurate declaravit illam 
+          communi<lb break="no" ed="#P" n="30"/>cationem privilegiorum ordinum 
+          Mendican<lb break="no" ed="#P" n="31"/>tium factam Societati, non esse tantum ad
+          <lb ed="#P" n="32"/>instar , quia in illa declaraverat religionem
+          <lb ed="#P" n="33"/>Societatis Jesu mendicantem esse; et ideo, ne
+          <lb ed="#P" n="34"/>quis putaret esse mendicantem solum ex 
+          pri<lb break="no" ed="#P" n="35"/>vilegio et fictione juris, et ideo concedi illi
+          <lb ed="#P" n="36"/>mendicantium privilegia, solum ad instar 
+          ve<lb break="no" ed="#P" n="37"/>rarum mendicantium religionum, ideo 
+          ex<lb break="no" ed="#P" n="38"/>pressit concedere se talia privilegia Societati
+          <lb ed="#P" n="39"/>pariformiter, et aeque principaliter, absque
+          <lb ed="#P" n="40"/>ulla prorsus differentia, quia nimirum inter
+          <lb ed="#P" n="41"/>verum, et fictum fictione juris, semper 
+          relin<lb break="no" ed="#P" n="42"/>quitur aliqua differentia ; Societas autem non
+          <lb ed="#P" n="43"/>fictione juris, sed vere religio mendicans est,
+          <lb ed="#P" n="44"/>et ideo aeque principahter et sine ulla 
+          diffe<lb break="no" ed="#P" n="45"/>rentia ili communicantur privilegia.
+        </p>
+        <p xml:id="szdleg-q71411-d1e885">
+          <lb ed="#P" n="46"/>11. Denique oportet alteram distinctionem
+          <lb ed="#P" n="47"/>adhibere ex parte communicationis 
+          privilegio<lb break="no" ed="#P" n="48"/>rum ; duobus enim modis fieri contingit.
+          <lb ed="#P" n="49"/>Primo, ut privilegium uni tantum per se et
+          <lb ed="#P" n="50"/>propter se concedatur, ab illo autem quasi 
+          re<lb break="no" ed="#P" n="51"/>dundet et derivetur ad alios, propter 
+          connexio<lb break="no" ed="#P" n="52"/>nem quam habent cum illo primo, ita ut non
+          <lb ed="#P" n="53"/>in propriis personis censeatur illis concessum
+          <lb ed="#P" n="54"/>privilegium, sed in alio. Sic privilegia 
+          reli<lb break="no" ed="#P" n="55"/>gionis alicujus interdum communicantur fa-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>miliaribus, non ratione sui, sed ratione 
+          reli<lb break="no" ed="#P" n="57"/>gionis, a qua omnino pendent in illorum usu
+          <lb ed="#P" n="58"/>et fructu. Secundo, privilegium uni corpori
+          <lb ed="#P" n="59"/>vel personae concessum communicatur alteri
+          <lb ed="#P" n="60"/>proprie et aequaliter, ita ut ex propria persona
+          <lb ed="#P" n="61"/>illo uti possit, non minus quam prior poterat,
+          <lb ed="#P" n="62"/>vel quam ipsa posset, si primo et per se 
+          fuis<lb break="no" ed="#P" n="63"/>set communicatum ei privilegium. Et hoc
+          <lb ed="#P" n="64"/>modo communicatio privilegiorum ordinarie
+          <lb ed="#P" n="65"/>fit inter religiones per indulta Pontificum, ut
+          <lb ed="#P" n="66"/>constat in Societate, et Bulla citata, et ex alia
+          <lb ed="#P" n="67"/>Gregor. XII Ascendente Domino ; ev idem est
+          <lb ed="#P" n="68"/>in aliis religionibus, ut constat ex compendius
+          <lb ed="#P" n="69"/>verbo Conmumunicatio , et refert late Emm.
+          <lb ed="#P" n="70"/>Rod., 4 tom., quaest. 55, praesertim art. 21,
+          <lb ed="#P" n="71"/>cum Cord. in addit. ad Compend. verb. 
+          Com<lb break="no" ed="#P" n="72"/>municatio, in fine.
+        </p>
+        <p xml:id="szdleg-q71411-d1e948">
+          <lb ed="#P" n="73"/>12. Privilegium ergo communicatum 
+          prio<lb break="no" ed="#P" n="74"/>ri modo alicui tanquam accessorio ratione
+          <lb ed="#P" n="75"/>principalis , non potest dici privilegium ad
+          <lb ed="#P" n="76"/>instar, proprie sumptum, ut de illo in 
+          supe<lb break="no" ed="#P" n="77"/>riori puncto locuti sumus : quia non est ibi
+          <lb ed="#P" n="78"/>concessio unius privilegii ad instar alterius,
+          <lb ed="#P" n="79"/>sed est extensio quaedam ejusdem privilegii.
+          <lb ed="#P" n="80"/>Unde ibi locum habet ratio tacta supra, quod
+          <lb ed="#P" n="81"/>ibi non est privilegiorum similitudo, nec 
+          re<lb break="no" ed="#P" n="82"/>latio, aut aequiparatio unius ad aliud, sed est
+          <lb ed="#P" n="83"/>idem privilegium non tantum specie, sed
+          <lb ed="#P" n="84"/>etiam numero, quod uni primo, et alteri, 
+          ra<lb break="no" ed="#P" n="85"/>tione illius primi, communicatur. Unde fit
+          <lb ed="#P" n="86"/>etiam ut inter ea duo membra quae illo 
+          pri<lb break="no" ed="#P" n="87"/>vilegio gaudent, non sit aequalitas ; nam 
+          sem<lb break="no" ed="#P" n="88"/>per accessorium pendet a principali, et si
+          <lb ed="#P" n="89"/>principale illud renuntiet, aut alio modo illud
+          <lb ed="#P" n="90"/>amittat, consequenter illud etiam perdet 
+          ac<lb break="no" ed="#P" n="91"/>cessorium. Ut si religio amittat privilegium,
+          <lb ed="#P" n="92"/>consequenter donati vel servientes intra 
+          do<lb break="no" ed="#P" n="93"/>mos viventes illorum fructt privantur, non
+          <lb ed="#P" n="94"/>vero e contrario : nam licet privilegium 
+          per<lb break="no" ed="#P" n="95"/>datur quoad accessorium seu familiares, non
+          <lb ed="#P" n="96"/>amittetur quoad religionem, quia accessorium
+          <lb ed="#P" n="97"/>sequitur principale, et ab eo pendet, none
+          <lb ed="#P" n="98"/>contrario. Et eadem ratione, licet illi quibus
+          <lb ed="#P" n="99"/>secundario communicatur privilegium, illo
+          <lb ed="#P" n="100"/>gaudeant, et uti possint contra alios, non
+          <lb ed="#P" n="101"/>vero contra illum ratione cujus illud 
+          parti<lb break="no" ed="#P" n="102"/>cipant, ne quod in favorem ipsorum 
+          reci<lb break="no" ed="#P" n="103"/>piunt, in eorum gravamen et odium 
+          conver<lb break="no" ed="#P" n="104"/>tatur, ut recte docent Cord. et Emman. 
+          Ro<lb break="no" ed="#P" n="105"/>der. supra, loquentes de privilegiis 
+          religio<lb break="no" ed="#P" n="106"/>num, quatenus servientibus communicantur.
+          <lb ed="#P" n="107"/>Et generalius idem docet Panorm. in c. Eax
+          <lb ed="#P" n="108"/>parte, 15, de For. compet., num. 14, dicens,
+          <lb ed="#P" n="109"/>qui privilegio utitur jure alterius, non posse
+          <lb ed="#P" n="110"/>illo uti contra eum ratione cujus illo gaudet;
+          <pb ed="#P" n="288"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quod etiam affirmat DBart. in l. Donationes,
+          <lb ed="#P" n="2"/>26, c. de Donat. inter vir. et uxor. ex l. Si
+          <lb ed="#P" n="3"/>judex, 14. ff. de Minor., quae non in propriis
+          <lb ed="#P" n="4"/>terminis, sed per quamdam particularem 
+          ra<lb break="no" ed="#P" n="5"/>tionem induci potest. Denique in hoc 
+          quo<lb break="no" ed="#P" n="6"/>dammodo aequiparatur privilegium sic 
+          com<lb break="no" ed="#P" n="7"/>municatum privilegio ad instar , improprie
+          <lb ed="#P" n="8"/>dicto, propter imitationem impropriam quam
+          <lb ed="#P" n="9"/>facit per fictionem juris : sic enim hoc 
+          privi<lb break="no" ed="#P" n="10"/>legium dum extenditur ad familiares 
+          religio<lb break="no" ed="#P" n="11"/>nis, verbi gratia, aestimare illos videtur 
+          tan<lb break="no" ed="#P" n="12"/>quam religiosos fictione juris, vel per 
+          quam<lb break="no" ed="#P" n="13"/>dam habitudinem et analogiam.
+        </p>
+        <p xml:id="szdleg-q71411-d1e1065">
+          <lb ed="#P" n="14"/>13. Illatio contra dicta. — Dicet vero 
+          ali<lb break="no" ed="#P" n="15"/>quis: ergo privilegia concessa religioni, ut
+          <lb ed="#P" n="16"/>sic, quatenus communicantur singulis 
+          reli<lb break="no" ed="#P" n="17"/>giosis divisim ac personaliter, erunt privilegia
+          <lb ed="#P" n="18"/>per communicationem, non per directam 
+          con<lb break="no" ed="#P" n="19"/>cessionem, quia non ratione sui, sed ratione
+          <lb ed="#P" n="20"/>totius corporis singula membra religiosa illis
+          <lb ed="#P" n="21"/>privilegiis gaudent, et in eis a corpore 
+          depen<lb break="no" ed="#P" n="22"/>dent ; nam si corpus religionis illis privetur,
+          <lb ed="#P" n="23"/>vel illa renuntiet, vel amittat, omnes et 
+          sin<lb break="no" ed="#P" n="24"/>guli religiosi illis carebunt ; non vero e 
+          con<lb break="no" ed="#P" n="25"/>trario. Religio etiam uti poterit tali 
+          privile<lb break="no" ed="#P" n="26"/>gio contra suum religiosum, non tamen e
+          <lb ed="#P" n="27"/>contrario; ergo est illud privilegium per 
+          com<lb break="no" ed="#P" n="28"/>municationem imperfectam et 
+          similitudina<lb break="no" ed="#P" n="29"/>riam, etiam respectu religiosorum : 
+          conse<lb break="no" ed="#P" n="30"/>quens autem videtur absurdum, et alienum a
+          <lb ed="#P" n="31"/>modo loquendi omnium de hujusmodi 
+          privi<lb break="no" ed="#P" n="32"/>legiis.
+        </p>
+        <p xml:id="szdleg-q71411-d1e1109">
+          <lb ed="#P" n="33"/>14. Responsio. — Respondeo talia privilegia
+          <lb ed="#P" n="34"/>respectu religiosorum, non esse per 
+          commu<lb break="no" ed="#P" n="35"/>nicationem proprie loquendo, sed per 
+          conces<lb break="no" ed="#P" n="36"/>sionem primariam et directam. Quia, quando
+          <lb ed="#P" n="37"/>privilegia religionis talia sunt ut pro singulis
+          <lb ed="#P" n="38"/>religiosis, et ad personalem usum 
+          conferan<lb break="no" ed="#P" n="39"/>tur, primo ac per se conceduntur ipsis 
+          perso<lb break="no" ed="#P" n="40"/>nis religiosis : nam licet videantur concedi
+          <lb ed="#P" n="41"/>singulis ratione totius, etiam conceduntur 
+          cor<lb break="no" ed="#P" n="42"/>pori mediantibus membris secundum diversa
+          <lb ed="#P" n="43"/>genera causarum. Nam si respiciamus 
+          ratio<lb break="no" ed="#P" n="44"/>nem motivam, illa videtur esse favor 
+          religio<lb break="no" ed="#P" n="45"/>nis, et hoc modo conceditur membris propter
+          <lb ed="#P" n="46"/>totum ; tamen si spectemus immediatum 
+          sub<lb break="no" ed="#P" n="47"/>jectum cui fit favor privilegii, illud est 
+          una<lb break="no" ed="#P" n="48"/>quaeque persona religiosa, nec conceditur 
+          cor<lb break="no" ed="#P" n="49"/>pori, nisi quatenus omnibus et singulis 
+          mem<lb break="no" ed="#P" n="50"/>bris datur, quia actiones vel effectus propter
+          <lb ed="#P" n="51"/>quos datur privilegium ad singulos spectant,
+          <lb ed="#P" n="52"/>non ad corpus ut tale est, ut supponimus. Et
+          <lb ed="#P" n="53"/>in hoc est magna differentia inter ipsos 
+          re<lb break="no" ed="#P" n="54"/>ligiosos, et alios qui quasi extrinsece 
+          adhae<lb break="no" ed="#P" n="55"/>rent religioni. Et ideo etiam non potest dici
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tale privilegium secundum hunc respectum
+          <lb ed="#P" n="57"/>esse ad instar, aut secundum fictionem 
+          ali<lb break="no" ed="#P" n="58"/>quam, neque secundum propriam 
+          dependen<lb break="no" ed="#P" n="59"/>tiam, nisi fortasse quatenus partes pendent
+          <lb ed="#P" n="60"/>aliquo modo a toto, et e contrario. Dixi autem
+          <lb ed="#P" n="61"/>respectu religiosorum, utique jam 
+          professo<lb break="no" ed="#P" n="62"/>rum, quia respectu novitiorum dici potest haec
+          <lb ed="#P" n="63"/>communicatio secundum aliquam fictionem
+          <lb ed="#P" n="64"/>et extensionem, et ideo ut talia privilegia
+          <lb ed="#P" n="65"/>conveniant religiosis, non est necessaria 
+          spe<lb break="no" ed="#P" n="66"/>cialis expressio aut declaratio, sed satis est
+          <lb ed="#P" n="67"/>quod religioni concedantur ; ut vero 
+          complec<lb break="no" ed="#P" n="68"/>tantur novitios, necessaria erit expressa 
+          ver<lb break="no" ed="#P" n="69"/>borum forma, et ita observat usus, et multo
+          <lb ed="#P" n="70"/>magis est necessaria, ut ad familares 
+          exten<lb break="no" ed="#P" n="71"/>datur. Unde etiam in his solent requiri 
+          spe<lb break="no" ed="#P" n="72"/>ciales conditiones, ut, verbi gratia, quod actu
+          <lb ed="#P" n="73"/>serviant, intra monasteria habeant, etc.; in 
+          re<lb break="no" ed="#P" n="74"/>ligiosis autem sola professio sufficit, ut notari
+          <lb ed="#P" n="75"/>potest in Trident., sess. 24, c. 11 de Reform.
+        </p>
+        <p xml:id="szdleg-q71411-d1e1208">
+          <lb ed="#P" n="76"/>15. Quodnam sit proprium privilegium per
+          <lb ed="#P" n="77"/>communicationem simpliciter ? In re mil 
+          dif<lb break="no" ed="#P" n="78"/>ferens a privilegio ad instar proprie sumpto.
+          <lb ed="#P" n="79"/>—At vero privilegium quod uni prius 
+          conces<lb break="no" ed="#P" n="80"/>sum est, et postea communicatur alteri in
+          <lb ed="#P" n="81"/>propria persona, ita ut fiat illus proprium,
+          <lb ed="#P" n="82"/>non minus quam si tali personae vel rei fuisset
+          <lb ed="#P" n="83"/>primario concessum, illud est proprium 
+          privi<lb break="no" ed="#P" n="84"/>legium per communicationem simphliciter, et
+          <lb ed="#P" n="85"/>in re nihil differt a privilegio ad instar, 
+          pro<lb break="no" ed="#P" n="86"/>prie sumpto, quale supra explicatum est. Ita
+          <lb ed="#P" n="87"/>tandem concludit Mand. supra, et idem 
+          sen<lb break="no" ed="#P" n="88"/>tiunt Cord. et Emman. Roder., licet terminis
+          <lb ed="#P" n="89"/>quaestionem non tractent. Et probabitur facile
+          <lb ed="#P" n="90"/>declarando vim et efficaciam hujus 
+          communi<lb break="no" ed="#P" n="91"/>cationis. Primo enim haec communicatio est
+          <lb ed="#P" n="92"/>veluti concessio privilegii, quia illi, cui 
+          privi<lb break="no" ed="#P" n="93"/>legium communicatur, novum privilegium
+          <lb ed="#P" n="94"/>conceditur, quod antea non habebat, et licet
+          <lb ed="#P" n="95"/>antea illud privilegium in specie esset in alio,
+          <lb ed="#P" n="96"/>non tamen erat in tali re vel persona; ergo
+          <lb ed="#P" n="97"/>quoad hanc individuationem, ut sic dicam,
+          <lb ed="#P" n="98"/>quasi de novo fit: unde communicatio illa
+          <lb ed="#P" n="99"/>etiam dici potest multiplicatio numerica 
+          ejus<lb break="no" ed="#P" n="100"/>dem privilegii, ut supra declaratum est. 
+          Dein<lb break="no" ed="#P" n="101"/>de, cum dicitur hoc privilegium communicari,
+          <lb ed="#P" n="102"/>nihil aliud per hoc significatur, nisi quod 
+          pri<lb break="no" ed="#P" n="103"/>vilegium, ut receptum in eo cui 
+          communica<lb break="no" ed="#P" n="104"/>tur, sit ejusdem rationis cum illo, quod 
+          com<lb break="no" ed="#P" n="105"/>municatur; hoc autem ideo est, quia fit ad
+          <lb ed="#P" n="106"/>instar et similitudinem illius; est ergo illud
+          <lb ed="#P" n="107"/>privilegium ad instar, et quod per hanc vocem
+          <lb ed="#P" n="108"/>significatur quasi in actu signato, per verbum
+          <lb ed="#P" n="109"/>communicationis significatur in actu 
+          exerci<lb break="no" ed="#P" n="110"/>to; res autem eadem est.
+        </p>
+        <p xml:id="szdleg-q71411-d1e1286">
+          <pb ed="#P" n="289"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>16. Proprietates supra declarate in 
+          privi<lb break="no" ed="#P" n="2"/>legio ad instar, locun habent in privilegiis
+          <lb ed="#P" n="3"/>communicatis absoluto et perfecto modo. —
+          <lb ed="#P" n="4"/>Praeterea (quod ad rem moralem praecipue 
+          spec<lb break="no" ed="#P" n="5"/>tat), hinc fit ut proprietates supra declaratae
+          <lb ed="#P" n="6"/>in privilegio ad instar, in privilegiis 
+          commu<lb break="no" ed="#P" n="7"/>nicatis absoluto et perfecto modo locum 
+          ha<lb break="no" ed="#P" n="8"/>beant. Nam per communicationem hanc ita
+          <lb ed="#P" n="9"/>fit proprium privilegium in eo cui 
+          communi<lb break="no" ed="#P" n="10"/>catur, ut mutatio in uno facta non necessario
+          <lb ed="#P" n="11"/>fiat in altero, nec e converso, sive illa sit per
+          <lb ed="#P" n="12"/>modum augmenti, sive per modum 
+          diminu<lb break="no" ed="#P" n="13"/>tionis aut corruptionis. Ratio est, quia 
+          com<lb break="no" ed="#P" n="14"/>municatio privilegii seu privilegiorum, si nihil
+          <lb ed="#P" n="15"/>aliud addatur, intelligitur fieri de privilegiis
+          <lb ed="#P" n="16"/>concessis, vel secundum mensuram 
+          concessio<lb break="no" ed="#P" n="17"/>nis jam factae, quia vel verbum communicandi
+          <lb ed="#P" n="18"/>regulariter cadit super verbum de praeterito,
+          <lb ed="#P" n="19"/>quod ad futurum de se non extenditur, ut 
+          di<lb break="no" ed="#P" n="20"/>cendo : Communicamus hntic hospitali 
+          privile<lb break="no" ed="#P" n="21"/>gia concessa tali hospitali :vel licet non 
+          adda<lb break="no" ed="#P" n="22"/>tur verbum concessa, sed simpliciter dicatur,
+          <lb ed="#P" n="23"/>tale hospitale gaudeat privilegiis talis Ecclesiae,
+          <lb ed="#P" n="24"/>intelligitur de concessis, quia non sunt eo 
+          tem<lb break="no" ed="#P" n="25"/>pore privilegia talis Ecclesie, nisi quae illi
+          <lb ed="#P" n="26"/>concessa sunt. Et ideo ubi princeps vult 
+          lar<lb break="no" ed="#P" n="27"/>giorem facere communicationem, addit 
+          spe<lb break="no" ed="#P" n="28"/>cialia verba quibus expresse declaret, non
+          <lb ed="#P" n="29"/>tantum communicare privilegia concessa, sed
+          <lb ed="#P" n="30"/>etiam concedenda, sicut fecit Pius V in dicta
+          <lb ed="#P" n="31"/>Bulla , et similes sunt plures in compendio,
+          <lb ed="#P" n="32"/>verb. Commnunicatio, et ita quoad hoc idem
+          <lb ed="#P" n="33"/>omnino sentiendum est de privilegio per 
+          com<lb break="no" ed="#P" n="34"/>municationem , et ad instar. Et ita sentit
+          <lb ed="#P" n="35"/>Mandos. dicto tract., Gloss. 14, ubi ita 
+          inter<lb break="no" ed="#P" n="36"/>pretatur quamdam privilegiorum 
+          communi<lb break="no" ed="#P" n="37"/>cationem Societati factam a Pio V, in Bulla
+          <lb ed="#P" n="38"/>quum reputamus, anni 1565; et ideo putat
+          <lb ed="#P" n="39"/>communicationem privilegiorum Societati 
+          fac<lb break="no" ed="#P" n="40"/>tam a Pio V non extendi ad privilegia 
+          conce<lb break="no" ed="#P" n="41"/>denda, nisi per aliam communicationem quasi
+          <lb ed="#P" n="42"/>reflexam, seu in quantum illi communicantur
+          <lb ed="#P" n="43"/>privilegia aliarum religionum in quibus illa
+          <lb ed="#P" n="44"/>extensio continetur. Sed licet hoc sit 
+          proba<lb break="no" ed="#P" n="45"/>bile, attento solo tenore illius Bullae, 
+          nihilo<lb break="no" ed="#P" n="46"/>minus est alia Bulla ejusdem Pii V Cum 
+          inde<lb break="no" ed="#P" n="47"/>fesse (quam ille auctor sine dubio non vidit,
+          <lb ed="#P" n="48"/>quia fortasse ante illam editam tractatum 
+          il<lb break="no" ed="#P" n="49"/>lum composuit, nam fuit post sex annos a 
+          su<lb break="no" ed="#P" n="50"/>periori edita), in qua expressis verbis 
+          commu<lb break="no" ed="#P" n="51"/>nicantur Societati privilegia concessa et 
+          con<lb break="no" ed="#P" n="52"/>cedenda. Haec ergo clausula, vel alia 
+          aequiva<lb break="no" ed="#P" n="53"/>lens necessaria est ad illam extensionem, quae
+          <lb ed="#P" n="54"/>solet etiam addi in privilegio ad instar, ut
+          <lb ed="#P" n="55"/>constat ex l. Omnia, c. de Episcop. et cler., et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ita in hoc non est differentia inter haec 
+          privi<lb break="no" ed="#P" n="57"/>legia.
+        </p>
+        <p xml:id="szdleg-q71411-d1e1419">
+          <lb ed="#P" n="58"/>17. Mutatio privilegii respectu ejus cui 
+          pri<lb break="no" ed="#P" n="59"/>mo fuit datum, non mutat respectu illius cui
+          <lb ed="#P" n="60"/>posterius. — Simili modo dicendum est de
+          <lb ed="#P" n="61"/>mutatione privilegii communicati quoad 
+          di<lb break="no" ed="#P" n="62"/>minutionem vel amissionem, quia licet 
+          privi<lb break="no" ed="#P" n="63"/>legium minuatur vel amittatur, sive per 
+          revo<lb break="no" ed="#P" n="64"/>cationem, sive per non usum, sive quocumque
+          <lb ed="#P" n="65"/>alio modo, in eo cui prius directe concessum
+          <lb ed="#P" n="66"/>fuit, inde nulla resultat mutatio in eo cui 
+          post<lb break="no" ed="#P" n="67"/>ea fuit communicatum quia haec posterior
+          <lb ed="#P" n="68"/>concessio non pendet a prima, quia non 
+          con<lb break="no" ed="#P" n="69"/>ceditur posteriori tanquam accessorio, seu
+          <lb ed="#P" n="70"/>connexo cum priori, sed per se ac directe, ex
+          <lb ed="#P" n="71"/>propria, et in propria persona, solumque est
+          <lb ed="#P" n="72"/>inter illas concessiones antecessio temporis, et
+          <lb ed="#P" n="73"/>quaedam multiplicatio ; ideoque mutatio in
+          <lb ed="#P" n="74"/>uno facta non potest alteri nocere. Atque ita
+          <lb ed="#P" n="75"/>tradit Panormitan. in cap. Cum accessissent,
+          <lb ed="#P" n="76"/>de Constit., et cum illo Sylvest., verb. 
+          Prici<lb break="no" ed="#P" n="77"/>gium, quaest. 11, in fin.; Mandos., supra, q. 6;
+          <lb ed="#P" n="78"/>Roder., tom. 1, quaest. 55, art. 19, ubi in hoc
+          <lb ed="#P" n="79"/>sensu ait per communicationem privilegii dari
+          <lb ed="#P" n="80"/>jus utendi illo, non tamen communicari usum
+          <lb ed="#P" n="81"/>vel non usum ejus cui prius tale privilegium
+          <lb ed="#P" n="82"/>datum est. Quod vere dictum est, et idem dici
+          <lb ed="#P" n="83"/>potest de quacumque renuntiatione privilegii,
+          <lb ed="#P" n="84"/>vel causa ab uno data ad illius amissionem ;
+          <lb ed="#P" n="85"/>nam in his non est facta communicatio. in
+          <lb ed="#P" n="86"/>his ergo non invenitur differentia inter 
+          pri<lb break="no" ed="#P" n="87"/>vilegium per communieationem et ad instar,
+          <lb ed="#P" n="88"/>nec etiam in aliis quae supra notata sunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

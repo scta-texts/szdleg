@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 19</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 19</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="90"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q22582"><!-- l6c19 -->
+        <head xml:id="szdleg-q22582-Hd1e101">Caput 19</head>
+        <head xml:id="szdleg-q22582-Hd1e103" type="question-title">Utrum dispensatio legis humana sine justa causa data valida sit.</head>
+        <p xml:id="szdleg-q22582-d1e106">
+          <lb ed="#P" n="40"/>CAPUT XIX.
+          <lb ed="#P" n="41"/>UTRUM DISPENSATIO LEGIS HUMANA SINE JUSTA
+          <lb ed="#P" n="42"/>CAUSA DATA VALIDA SIT.
+        </p>
+        <p xml:id="szdleg-q22582-d1e115">
+          <lb ed="#P" n="43"/>1. Inferior in lege superioris sine justa 
+          cau<lb break="no" ed="#P" n="44"/>sa non potest valide dispensare. — Distinguere
+          <lb ed="#P" n="45"/>imprimis oportet inter dispensationem datam
+          <lb ed="#P" n="46"/>a legislatore in lege sua, et datam ab inferiori
+          <lb ed="#P" n="47"/>in lege superioris. Nam de hac posteriori 
+          om<lb break="no" ed="#P" n="48"/>nes fatentur datam sine causa non solum esse
+          <lb ed="#P" n="49"/>illicitam, sed etiam esse invalidam, quia 
+          exce<lb break="no" ed="#P" n="50"/>dit potestatem dispensantis; non enim est 
+          efti<lb break="no" ed="#P" n="51"/>cax voluntas inferioris ad tollendum effectum
+          <lb ed="#P" n="52"/>per superiorem voluntatem constitutum, nisi
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>quatenus ab ipso superiore est concessum:
+          <lb ed="#P" n="54"/>non est autem verisimile esse concessum, ut
+          <lb ed="#P" n="55"/>hoc possit inferior sine causa. Et ideo tunc
+          <lb ed="#P" n="56"/>inferior excedit formam mandati, et operatur
+          <lb ed="#P" n="57"/>sine potestate, et ideo actum nullum facit.
+          <lb ed="#P" n="58"/>Quod latius probavi l. 6 de Voto, cap. 17, ubi
+          <lb ed="#P" n="59"/>sufficienter auctores allegavi, et omnes statim
+          <lb ed="#P" n="60"/>allegandi in hoc conveniunt, et ideo non est
+          <lb ed="#P" n="61"/>necesse in hoc immorari.
+        </p>
+        <p xml:id="szdleg-q22582-d1e161">
+          <lb ed="#P" n="62"/>2. Quae cognitio causae requiritur ad 
+          validi<lb break="no" ed="#P" n="63"/>tatem dispensationis. — Solum oportet 
+          adver<lb break="no" ed="#P" n="64"/>tere communiter jurisperitos docere 
+          necessa<lb break="no" ed="#P" n="65"/>rium esse, ad valorem dispensationis ab 
+          infe<lb break="no" ed="#P" n="66"/>riori datae, ut dispenset causa cognita. Sed hoc
+          <lb ed="#P" n="67"/>dupliciter potest intelligi. Primo, de cognitione
+          <lb ed="#P" n="68"/>judiciah causae, id est, ut secundum ordinem
+          <lb ed="#P" n="69"/>juris de illa inquiratur, et ea probetur. Alio
+          <lb ed="#P" n="70"/>modo potest intelligi de cognitione causae, quae
+          <lb ed="#P" n="71"/>in re sufficiens sit, quacumque via, seu 
+          diligen<lb break="no" ed="#P" n="72"/>tia adhibita. Quod igitur ad forum conscientiae
+          <lb ed="#P" n="73"/>spectat, censeo hanc posteriorem cognitionem
+          <lb ed="#P" n="74"/>sufficere, quia ex natura rei sufficit, et nullum
+          <lb ed="#P" n="75"/>est jus positivum annullans dispensationem
+          <lb ed="#P" n="76"/>datam non servata forma juridica in 
+          cogni<lb break="no" ed="#P" n="77"/>tione causae. Cujus signum est, quia non 
+          so<lb break="no" ed="#P" n="78"/>lum in dispensationibus inferiorum, sed in 
+          dis<lb break="no" ed="#P" n="79"/>pensatione supremi principis requiri solet
+          <lb ed="#P" n="80"/>cognitio causae, ut patet ex Tridentino, sess.
+          <lb ed="#P" n="81"/>25. cap. 8, et tamen constat apud omnes in
+          <lb ed="#P" n="82"/>dispensationibus pontificiis non requiri illam
+          <lb ed="#P" n="83"/>formam cognitionis causae ut validae sint. 
+          Igi<lb break="no" ed="#P" n="84"/>tur solum potest illa forma esse necessaria, ut
+          <lb ed="#P" n="85"/>in foro exteriori censeatur valida dispensatio,
+          <lb ed="#P" n="86"/>quia, ubi non praecedit illa causae cognitio,
+          <lb ed="#P" n="87"/>surreptitia praesumitur dispensatio, ut idem
+          <lb ed="#P" n="88"/>Tridentinum dixit; imo existimo posse hanc
+          <lb ed="#P" n="89"/>praesumptionem elidi in foro externo, si 
+          suffi<lb break="no" ed="#P" n="90"/>cienter probetur causam legitimam interfuisse,
+          <lb ed="#P" n="91"/>quia tunc per sufficientem probationem 
+          con<lb break="no" ed="#P" n="92"/>stabit in foro externo dispensationem esse 
+          va<lb break="no" ed="#P" n="93"/>lidam; ergo nulla ratio superest, cur possit
+          <lb ed="#P" n="94"/>nulla praesumi aut pronuntiari, neque etiam
+          <lb ed="#P" n="95"/>cur possit irritari, quia nullum est jus quod
+          <lb ed="#P" n="96"/>hoc praecipiat, vel quod talem poenam 
+          impo<lb break="no" ed="#P" n="97"/>nat.
+        </p>
+        <p xml:id="szdleg-q22582-d1e243">
+          <lb ed="#P" n="98"/>3. Hoc ergo supposito, difficultas est de 
+          dis<lb break="no" ed="#P" n="99"/>pensatione principis in lege sua, et eadem est
+          <lb ed="#P" n="100"/>de quocumque legislatore in sua lege, etiamsi
+          <lb ed="#P" n="101"/>supremus simpliciter non sit, quia eamdem
+          <lb ed="#P" n="102"/>proportionem servat ad legem suam. Videtur
+          <lb ed="#P" n="103"/>ergo talis dispensatio semper esse nulla. 
+          Pri<lb break="no" ed="#P" n="104"/>mo, quia semper est injusta, ut supra 
+          proba<lb break="no" ed="#P" n="105"/>tum est : ergo semper est nulla. Probatur
+          <lb ed="#P" n="106"/>consequentia, quia lex injusta non est lex:
+          <lb ed="#P" n="107"/>ergo nec dispensatio injusta est dispensatio,
+          <pb ed="#P" n="91"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>juxta dictum Bernardi l. 3 de Consid., c. 4.
+          <lb ed="#P" n="2"/>in fine, ubi, numeratis causis justae 
+          dispensa<lb break="no" ed="#P" n="3"/>tionis, ait : Cum nihil horum est, non plane
+          <lb ed="#P" n="4"/>dispensatio, sed crudelis dissipatio est. 
+          Secun<lb break="no" ed="#P" n="5"/>do, talis dispensatio etiam excedit potestatem
+          <lb ed="#P" n="6"/>dispensants : ergo est nulla, quia actus sine
+          <lb ed="#P" n="7"/>potestate factus nullus est. Antecedens patet
+          <lb ed="#P" n="8"/>ex supra dictis, quia superior dispensans
+          <lb ed="#P" n="9"/>etiam in lege sua non operatur ut dominus,
+          <lb ed="#P" n="10"/>sed ut dispensator fidelis et prudens : ergo
+          <lb ed="#P" n="11"/>operatur per potestatem a supremo rectore,
+          <lb ed="#P" n="12"/>ac legislatore Deo concessam; sed non minus
+          <lb ed="#P" n="13"/>Deus, imo multo magis, quam humanus 
+          prin<lb break="no" ed="#P" n="14"/>ceps, praesumitur dare suam potestatem 
+          ad<lb break="no" ed="#P" n="15"/>strictam legibus justitie , et illius formam
+          <lb ed="#P" n="16"/>postulare tanquam essentialem in actu talis
+          <lb ed="#P" n="17"/>potestatus, quia guae a Deo sunt, ordinata sunt ,
+          <lb ed="#P" n="18"/>multo certe magis quam ea quae sunt ab 
+          hu<lb break="no" ed="#P" n="19"/>mano principe, et ideo dicitur Deus ncn dare
+          <lb ed="#P" n="20"/>potestatem in destructionem, sed in 
+          aedifica<lb break="no" ed="#P" n="21"/>tionem, 1 Corinth. 10; ergo illa dispensatio,
+          <lb ed="#P" n="22"/>quae dissipatio est, et in destructionem, non
+          <lb ed="#P" n="23"/>est a potestate data a Deo, ac subinde est
+          <lb ed="#P" n="24"/>nulla.
+        </p>
+        <p xml:id="szdleg-q22582-d1e324">
+          <lb ed="#P" n="25"/>4. Tertio, illa dispensatio non reddit tutum
+          <lb ed="#P" n="26"/>dispensatum, si de defectu causae illi constet :
+          <lb ed="#P" n="27"/>ergo non est valida. Probatur consequentia,
+          <lb ed="#P" n="28"/>quia si esset valida, tolleret obligationem 
+          le<lb break="no" ed="#P" n="29"/>gis, et sic redderet subditum tutum in 
+          con<lb break="no" ed="#P" n="30"/>scientia, quia non violaret legem. Probatur
+          <lb ed="#P" n="31"/>autem antecedens, quia, non obstante tali
+          <lb ed="#P" n="32"/>dispensatione, peccat subditus utendo illa, ut
+          <lb ed="#P" n="33"/>fere omnes fatentur : ergo non est tutus. 
+          Res<lb break="no" ed="#P" n="34"/>pondet Cajetanus peccare quidem, non tamen
+          <lb ed="#P" n="35"/>contra obligationem legis positivae, quae per
+          <lb ed="#P" n="36"/>dispensationem ablata fuit, sed contra legem
+          <lb ed="#P" n="37"/>naturae praecipientis uniformitatem partis cum
+          <lb ed="#P" n="38"/>toto corpore. Sed contra: nam lex naturae non
+          <lb ed="#P" n="39"/>obligat ad uniformitatem in opere in quo non
+          <lb ed="#P" n="40"/>est uniformis obligatio ; sed posita 
+          dispensa<lb break="no" ed="#P" n="41"/>tione valida, jam non est uniformis obligatio
+          <lb ed="#P" n="42"/>respectu talis operis; ergo nec jus naturae
+          <lb ed="#P" n="43"/>obligabit ad servandam uniformitatem in illo,
+          <lb ed="#P" n="44"/>vel si obligat non obstante tali dispensatione,
+          <lb ed="#P" n="45"/>signum est non esse validam illam 
+          dispensa<lb break="no" ed="#P" n="46"/>tionem. Quarto, si princeps posset valide 
+          dis<lb break="no" ed="#P" n="47"/>pensare cum subdito sine causa, et pro sua
+          <lb ed="#P" n="48"/>voluntate : ergo multo magis secum, quia, 
+          si<lb break="no" ed="#P" n="49"/>cut voluntate sua posita est lex respectu 
+          alio<lb break="no" ed="#P" n="50"/>rum, ita et respectu sui: ergo eadem absoluta
+          <lb ed="#P" n="51"/>voluntate poterit a se obhgationem talis legis
+          <lb ed="#P" n="52"/>auferre, qua potest a sublito. At consequens
+          <lb ed="#P" n="53"/>est falsum, alias nunquam princeps 
+          obligare<lb break="no" ed="#P" n="54"/>tur illa lege, quia obligatio quae sine causa et
+          <lb ed="#P" n="55"/>propria voluntate tolli potest, nulla profecto
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>est, vel nullius momenti, ut supra 
+          argumen<lb break="no" ed="#P" n="57"/>tabar.
+        </p>
+        <p xml:id="szdleg-q22582-d1e400">
+          <lb ed="#P" n="58"/>5. Propter haec vel similia argumenta aliqui
+          <lb ed="#P" n="59"/>dixerunt dispensationem datam, etiam a Papa,
+          <lb ed="#P" n="60"/>in lege canonica, esse nullam, nullumque 
+          effec<lb break="no" ed="#P" n="61"/>tum habere, ac subinde aeque peccare 
+          subdi<lb break="no" ed="#P" n="62"/>tum non servando legem post illam 
+          dispensa<lb break="no" ed="#P" n="63"/>tionem ac si illam non haberet, et si lex irritet
+          <lb ed="#P" n="64"/>actum, etiam fore aeque irritum post 
+          dispen<lb break="no" ed="#P" n="65"/>sationem. Ita tenet Fortun. Garc. in l. Gallus,
+          <lb ed="#P" n="66"/>S Ft qui si tantum, ft. de Lib. et posthum.;
+          <lb ed="#P" n="67"/>sequitur Mendoz. de Pactis, lib. 1 quaest. 2,
+          <lb ed="#P" n="68"/>n. 35; et in foro conscientiae idem esse 
+          dicen<lb break="no" ed="#P" n="69"/>dum censuit Loazes de matrimon. Reg. 
+          An<lb break="no" ed="#P" n="70"/>gli., dub. 4, n. 14 et 15; et quando 
+          dispen<lb break="no" ed="#P" n="71"/>satio affert praejudicium tertio, idem censuit
+          <lb ed="#P" n="72"/>Mincha. lib. 1 Quaest. illustr., cap. 25, n. 16,
+          <lb ed="#P" n="73"/>et cap. 26, n. 6, de cujus sententia dicam 
+          sol<lb break="no" ed="#P" n="74"/>vendo argumenta. Ex theologis vero solus
+          <lb ed="#P" n="75"/>Vasq. inclinat in hanc sententiam, 1. 2, disp.
+          <lb ed="#P" n="76"/>178, cap. 4, quamvis in fine dicat alis 
+          judi<lb break="no" ed="#P" n="77"/>cium relinquere. hefert etiam pro hac 
+          sen<lb break="no" ed="#P" n="78"/>tentia Glossam, Jas. et alios asserentes talem
+          <lb ed="#P" n="79"/>dispensationem non reddere tutum in 
+          con<lb break="no" ed="#P" n="80"/>scientia eum cum quo dispensatur; sed illi in
+          <lb ed="#P" n="81"/>alio sensu locuti sunt, ut in solutionibus 
+          argu<lb break="no" ed="#P" n="82"/>mentorum dicam.
+        </p>
+        <p xml:id="szdleg-q22582-d1e457">
+          <lb ed="#P" n="83"/>6. Dispensatio in lege sua est valida sine
+          <lb ed="#P" n="84"/>causa justa.—Nihilominus dico talem 
+          dispen<lb break="no" ed="#P" n="85"/>sationem esse validam, ac subinde habere
+          <lb ed="#P" n="86"/>illum effectum ad quem datur. Hanc 
+          assertio<lb break="no" ed="#P" n="87"/>nem nunquam satis expressit D. Thomas; 
+          in<lb break="no" ed="#P" n="88"/>dicat tamen, in eo quod solum ubique dicit,
+          <lb ed="#P" n="89"/>peccare legislatorem sine causa dispensando,
+          <lb ed="#P" n="90"/>vel non debere dispensare sine causa, ut patet
+          <lb ed="#P" n="91"/>1. 2, quaest. 97, art. 4, et quodlib. 4, art. 13,
+          <lb ed="#P" n="92"/>et saepe alias. Alii vero theologi, qui 
+          quaestio<lb break="no" ed="#P" n="93"/>nem attigerunt, in hac assertione conveniunt,
+          <lb ed="#P" n="94"/>ut Cajetanus, dicta quaest. 96, art. 5; Soto,
+          <lb ed="#P" n="95"/>dicta quaest. 6, a. 3, et alii noviores theologi,
+          <lb ed="#P" n="96"/>tam generatim ad dictam quaest. 97 D. 
+          Tho<lb break="no" ed="#P" n="97"/>mae, art. 4. quam in particularibus locis quos
+          <lb ed="#P" n="98"/>congerit Sancius supra n. 24, ubi etiam 
+          re<lb break="no" ed="#P" n="99"/>fert Summistas et jurisperitos quamplures.
+          <lb ed="#P" n="100"/>Maxume vero tractari solet in c. Quia in 
+          HEc<lb break="no" ed="#P" n="101"/>clesiarun , de Constit., ubi videri possunt
+          <lb ed="#P" n="102"/>Deci., n. 17; et Felin., n. 15, et in S8 De 
+          adul<lb break="no" ed="#P" n="103"/>teriis, sub cap. At si clerici, de Judic., et in c.
+          <lb ed="#P" n="104"/>De multa, de Praebend., et in cap. Ad 
+          monas<lb break="no" ed="#P" n="105"/>teriwn, de Stat. monach., et in cap. Non est,
+          <lb ed="#P" n="106"/>de Voto. Quibus locis videri praecipue possunt
+          <lb ed="#P" n="107"/>Innocent. et Panormit., et alii allegati capite
+          <lb ed="#P" n="108"/>praecedenti in principio, et praesertim Covar.
+          <lb ed="#P" n="109"/>in 4, 2 p., cap. 6, S 9, n. 8 et sequent., et
+          <lb ed="#P" n="110"/>Gigas de Pension., quaest. 6, num. 9.
+          <pb ed="#P" n="92"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Dispensationis vis ab auctore legis pendet.—
+          <lb ed="#P" n="2"/>Fundamenum hujus assertionis est, quia lex
+          <lb ed="#P" n="3"/>pendet ex voluntate imponentis illam : ergo
+          <lb ed="#P" n="4"/>si ipsemet voluntate sua fert illam respectu
+          <lb ed="#P" n="5"/>alicujus, reipsa ablata manet, licet fortasse 
+          su<lb break="no" ed="#P" n="6"/>perior peccet auferendo. Nam, ut Glossa dicit
+          <lb ed="#P" n="7"/>in lege Helegatum, ff. de Poenis, ut lex non
+          <lb ed="#P" n="8"/>obliget, est in principe pro ratione voluntas,
+          <lb ed="#P" n="9"/>quia a voluntate ejus pendet lex, ut in fieri,
+          <lb ed="#P" n="10"/>ita et in conservari. Confirmatur : nam hac
+          <lb ed="#P" n="11"/>ratione, licet princeps, abrogando legem sine
+          <lb ed="#P" n="12"/>causa, peccet, nihilominus subditi jam non
+          <lb ed="#P" n="13"/>obligantur lege, quia in effectu pendet a 
+          vo<lb break="no" ed="#P" n="14"/>luntate legislatoris : ergo idem si ex parte
+          <lb ed="#P" n="15"/>tantum, respectu alicujus, tollat legem. 
+          Decla<lb break="no" ed="#P" n="16"/>ratur etiam, nam si dispensatio non esset cum
+          <lb ed="#P" n="17"/>una persona tantum, sed cum tota 
+          communi<lb break="no" ed="#P" n="18"/>tate, pro una vel altera vice, revera esset 
+          va<lb break="no" ed="#P" n="19"/>lida dispensatio, quia esset ablatio praecepti
+          <lb ed="#P" n="20"/>pro tali die : ergo idem est si sit ablatio 
+          prae<lb break="no" ed="#P" n="21"/>cepti pro tali persona. Item si a principio
+          <lb ed="#P" n="22"/>princeps tulisset legem, excipiendo ab illa 
+          Pe<lb break="no" ed="#P" n="23"/>trum vel Paulum, illi nunquam essent obligati
+          <lb ed="#P" n="24"/>lege, quia de facto illis nunquam est imposita,
+          <lb ed="#P" n="25"/>sive legislator cum ratione exceperit, sive non;
+          <lb ed="#P" n="26"/>ergo idem est si semel posita auferatur. 
+          Deni<lb break="no" ed="#P" n="27"/>que confirmatur, quia absolutio a censura 
+          da<lb break="no" ed="#P" n="28"/>ta injuste, et sine causa ab auctore censurae,
+          <lb ed="#P" n="29"/>valida est, cap. Venerabilis, S Sane. de 
+          Sen<lb break="no" ed="#P" n="30"/>tent. excommunic., in 6; ergo idem est de
+          <lb ed="#P" n="31"/>dispensatione : nam quoad hoc par est ratio.
+        </p>
+        <p xml:id="szdleg-q22582-d1e592">
+          <lb ed="#P" n="32"/>7. Ut autem hoc fundamentum solidius 
+          ap<lb break="no" ed="#P" n="33"/>pareat, objici contra illud potest, quia 
+          inter<lb break="no" ed="#P" n="34"/>dum est in potestate voluntatis habere vel non
+          <lb ed="#P" n="35"/>habere actum, et impedire effectum ejus, ut
+          <lb ed="#P" n="36"/>in voluntate mea est promittere vel non 
+          pro<lb break="no" ed="#P" n="37"/>mittere, non est autem in potestate mea 
+          pro<lb break="no" ed="#P" n="38"/>mittere, et non me obligare. Sic ergo, licet in
+          <lb ed="#P" n="39"/>voluntate legislatoris sit ponere vel auferre
+          <lb ed="#P" n="40"/>legem, tamen, si vult per legem obligare totam
+          <lb ed="#P" n="41"/>communitatem, non potest, etiamsi velit, 
+          exi<lb break="no" ed="#P" n="42"/>mere aliquem ab efficacia legis sine causa.
+          <lb ed="#P" n="43"/>Quia lex per se primo respicit communitatem,
+          <lb ed="#P" n="44"/>et ideo quandiu durat, necessario et quasi 
+          na<lb break="no" ed="#P" n="45"/>turaliter, seu ex vi juris naturae, obligat omnes
+          <lb ed="#P" n="46"/>qui sunt de communitate et uniformiter 
+          par<lb break="no" ed="#P" n="47"/>ticipant causam seu rationem legis: ergo 
+          ex<lb break="no" ed="#P" n="48"/>emptio ab illa obligatione jam non potest effici
+          <lb ed="#P" n="49"/>sola voluntate, sed per potestatem 
+          dispensati<lb break="no" ed="#P" n="50"/>vam, quae resplcit causam. Nam quodammodo
+          <lb ed="#P" n="51"/>laeditur jus naturale, sine causa diminuendo
+          <lb ed="#P" n="52"/>obligationem legis, perseverante lege. In quo
+          <lb ed="#P" n="53"/>cernitur clara differentia inter abrogationem
+          <lb ed="#P" n="54"/>et dispensationem legis: nam per abrogationem
+          <lb ed="#P" n="55"/>tollitur omnino lex, et ideo licet irrationabili-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ter fiat, valet, quia legem esse vel non esse
+          <lb ed="#P" n="57"/>absolute pendet a voluntate legislatoris : at
+          <lb ed="#P" n="58"/>vero per dispensationem non tollitur lex, sed,
+          <lb ed="#P" n="59"/>manente lege, per talem dispensationem fieri
+          <lb ed="#P" n="60"/>tentatur, ut obligatio legis non uniformiter
+          <lb ed="#P" n="61"/>descendat ad eos in quibus eadem causa et 
+          ra<lb break="no" ed="#P" n="62"/>tio reperitur, quod est contra legem naturalem,
+          <lb ed="#P" n="63"/>et ideo non ita pendet ex nuda voluntate 
+          le<lb break="no" ed="#P" n="64"/>gislatoris, etiam ut factum teneat, sed oportet
+          <lb ed="#P" n="65"/>ut inaequalitas vel disparitas sit in causa. Et
+          <lb ed="#P" n="66"/>hanc objectionem confirmant duae rationes in
+          <lb ed="#P" n="67"/>principio factae. Et per eamdem videntur facile
+          <lb ed="#P" n="68"/>dilui exempla pro assertione adducta. Nam de
+          <lb ed="#P" n="69"/>abrogatione jam dictum est non videri similem
+          <lb ed="#P" n="70"/>rationem. Idemque videtur de absolutione,
+          <lb ed="#P" n="71"/>quia non est actus qui versetur circa 
+          commu<lb break="no" ed="#P" n="72"/>nitatem, sed circa particularem personam. In
+          <lb ed="#P" n="73"/>alio vero exemplo poterit facile negari quod
+          <lb ed="#P" n="74"/>in eo supponitur.
+        </p>
+        <p xml:id="szdleg-q22582-d1e690">
+          <lb ed="#P" n="75"/>8. Lex non est regula indivisibilis, sed 
+          em<lb break="no" ed="#P" n="76"/>tensionem habet. — Haec vero objectio supponit
+          <lb ed="#P" n="77"/>legem esse aliquam indivisibilem regulam,
+          <lb ed="#P" n="78"/>quae, semel posita, necessario et quasi 
+          naturali<lb break="no" ed="#P" n="79"/>ter obliget omnes, ita ut non possit ab 
+          aliqui<lb break="no" ed="#P" n="80"/>bus auferri, etiamsi pro communitate 
+          perma<lb break="no" ed="#P" n="81"/>neat. Hoc autem falsum est: nam haec regula
+          <lb ed="#P" n="82"/>revera non est nisi voluntas legislatoris: nam
+          <lb ed="#P" n="83"/>illa eadem est ipsa lex, vel certe ab illa omnino
+          <lb ed="#P" n="84"/>pendet obligatio legis. Voluntas autem 
+          legis<lb break="no" ed="#P" n="85"/>latoris libera est, in obligando tam 
+          communi<lb break="no" ed="#P" n="86"/>tatem totam quam singulos de communitate,
+          <lb ed="#P" n="87"/>et ita ex parte objecti non est indivisibilis, sed
+          <lb ed="#P" n="88"/>extensionem habet, ratione cujus potest 
+          per<lb break="no" ed="#P" n="89"/>severare circa communitatem obligando illam,
+          <lb ed="#P" n="90"/>et mutari circa unum vel alium de 
+          commu<lb break="no" ed="#P" n="91"/>nitate, nolendo illum obligare. Quod manifeste
+          <lb ed="#P" n="92"/>patet, quia etiant dispensatio ex causa 
+          suppo<lb break="no" ed="#P" n="93"/>nit hanc extensionem ex parte objecti, et 
+          par<lb break="no" ed="#P" n="94"/>tialem diminutionem (ut sic dicam) ex parte
+          <lb ed="#P" n="95"/>voluntatis obligandi; ergo, quod attinet ad 
+          pos<lb break="no" ed="#P" n="96"/>sibilitatem, potest eodem modo mutari, seu 
+          di<lb break="no" ed="#P" n="97"/>minui voluntas legislatoris, etiam sine justa
+          <lb ed="#P" n="98"/>causa, solum cum hac differentia quod 
+          muta<lb break="no" ed="#P" n="99"/>tio ex justa causa est licita, sine causa autem
+          <lb ed="#P" n="100"/>erit illicita. Nihilominus tamen suum effectum
+          <lb ed="#P" n="101"/>habebit, quia voluntas superioris dispensantis
+          <lb ed="#P" n="102"/>absoluta est et efficax; vult autem tollere 
+          obli<lb break="no" ed="#P" n="103"/>gationem ab eo cum quo dispensat, ergo tollet
+          <lb ed="#P" n="104"/>illam. Probatur consequentia, quia nihil est
+          <lb ed="#P" n="105"/>quod irritam faciat illam voluntatem 
+          dispen<lb break="no" ed="#P" n="106"/>santis, quia nec datur jus positivum irritans
+          <lb ed="#P" n="107"/>illam, nullum enim assignari potest, maxime
+          <lb ed="#P" n="108"/>respectu supremi legislatoris : nec etiam jure
+          <lb ed="#P" n="109"/>naturae ostenditur irrita, ut patebit facile 
+          res<lb break="no" ed="#P" n="110"/>pondendo ad argumenta. Et declaratur optime
+          <pb ed="#P" n="93"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>argumento facto, si a principio feratur lex,
+          <lb ed="#P" n="2"/>excipiendo aliquem indebite a vinculo legis;
+          <lb ed="#P" n="3"/>tunc enim aut tota lex erit nulla, quod 
+          verisi<lb break="no" ed="#P" n="4"/>mile non est, aut exceptio erit valida, quia
+          <lb ed="#P" n="5"/>non minus fit per absolutam voluntatem 
+          legis<lb break="no" ed="#P" n="6"/>latoris, quam ipsamet lex. Et idem etiam 
+          con<lb break="no" ed="#P" n="7"/>firmat exemplum de abrogatione legis utilis
+          <lb ed="#P" n="8"/>sine causa facta : nam certe non est minus 
+          in<lb break="no" ed="#P" n="9"/>justa, imo magis quam dispensatio iniqua, et
+          <lb ed="#P" n="10"/>nihilominus facta tenet : ergo etiam 
+          dispensa<lb break="no" ed="#P" n="11"/>tio. Neque obstat differentia assignata, quia,
+          <lb ed="#P" n="12"/>licet facta dispensatione maneat lex, non 
+          ta<lb break="no" ed="#P" n="13"/>men aeque integra sicut antea, sed vulnerata.
+          <lb ed="#P" n="14"/>Quod si contrarium assumitur in differentia
+          <lb ed="#P" n="15"/>assignata, falsum est assumptum, et in illo
+          <lb ed="#P" n="16"/>petitur principium, quia, licet les maneat circa
+          <lb ed="#P" n="17"/>communitatem, non sequitur necessario 
+          mane<lb break="no" ed="#P" n="18"/>re circa singulos de communitate, in quibus 
+          ea<lb break="no" ed="#P" n="19"/>dem ratio reperitur, quia hoc pendet ex libera
+          <lb ed="#P" n="20"/>voluntate legislatoris, sive justa, sive injusta.
+        </p>
+        <p xml:id="szdleg-q22582-d1e819">
+          <lb ed="#P" n="21"/>9. Quomodo legislator tenetur licentiam datam
+          <lb ed="#P" n="22"/>auferre. — Unde ad primum argumentum 
+          con<lb break="no" ed="#P" n="23"/>cedo talem dispensationem esse injustam, et
+          <lb ed="#P" n="24"/>nego inde consequi esse nullam, quia multa 
+          in<lb break="no" ed="#P" n="25"/>juste fiunt quae nihilominus facta tenent, donec
+          <lb ed="#P" n="26"/>annulleutur. Quod maxime locum habet in his
+          <lb ed="#P" n="27"/>quae tantum sunt contra justitiam legalem (ut
+          <lb ed="#P" n="28"/>ostendit exemplum de iniqua abrogatione 
+          le<lb break="no" ed="#P" n="29"/>gis), vel contra solam distributivam, ut patet
+          <lb ed="#P" n="30"/>in electione digni, praetermisso digniori, quae
+          <lb ed="#P" n="31"/>valida est, licet sit injusta. Vel etiamsi actio
+          <lb ed="#P" n="32"/>sit contra justitiam commutativam, potest esse
+          <lb ed="#P" n="33"/>valida, si injustitia potest aliter tolli quam per
+          <lb ed="#P" n="34"/>actus nullitatem, ut patet in venditione rei 
+          in<lb break="no" ed="#P" n="35"/>justo pretio citra dimidiam. Haec autem omnia
+          <lb ed="#P" n="36"/>habent lucum in praesenti, quia dispensatio
+          <lb ed="#P" n="37"/>sine causa per se tantum est contra justitiam
+          <lb ed="#P" n="38"/>distributivam , vel remote contra legalem , et
+          <lb ed="#P" n="39"/>quatenus est contra obligationem justitiae 
+          com<lb break="no" ed="#P" n="40"/>mutativae ratione officii , debet retractari;
+          <lb ed="#P" n="41"/>quandiu vero non revocatur, valida permanet.
+          <lb ed="#P" n="42"/>Unde mihi valde probabile est quod, licet illa
+          <lb ed="#P" n="43"/>dispensatio sit valida, semper tenetur 
+          legisla<lb break="no" ed="#P" n="44"/>tor illam licentiam auferre, quia semper 
+          pen<lb break="no" ed="#P" n="45"/>det ab ejus voluntate, in qua perseverare 
+          inor<lb break="no" ed="#P" n="46"/>dinatum est, durante eodem defectu causae,
+          <lb ed="#P" n="47"/>quia semper repugnat communi bono et 
+          obli<lb break="no" ed="#P" n="48"/>gationi officii.
+        </p>
+        <p xml:id="szdleg-q22582-d1e882">
+          <lb ed="#P" n="49"/>10. Addo praeterea interdum ex tali 
+          dispen<lb break="no" ed="#P" n="50"/>satione sequi injustum nocumentum tertii
+          <lb ed="#P" n="51"/>repugnans commutativae justitiae, et tunc ex
+          <lb ed="#P" n="52"/>illo capite dispensationem posse esse 
+          inva<lb break="no" ed="#P" n="53"/>lidam , quia non potest dare licentiam ad 
+          ac<lb break="no" ed="#P" n="54"/>tum injustum, et quoad hoc tantum recte
+          <lb ed="#P" n="55"/>aquiparatur dispensatio injusta cum lege
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>etiam injusta. Oportet tamen advertere 
+          duo<lb break="no" ed="#P" n="57"/>bus modis posse nocumentum injustum tertii
+          <lb ed="#P" n="58"/>conjurgi cum dispensatione. Primo, per 
+          actio<lb break="no" ed="#P" n="59"/>nem ipsius principis, ut si princeps sine causa
+          <lb ed="#P" n="60"/>eximat aliquem a lege tributi, et nihilominus
+          <lb ed="#P" n="61"/>a communitate exigat eamdem pecuniae 
+          quan<lb break="no" ed="#P" n="62"/>titatem, plus justo onerans reliquos; et hoc
+          <lb ed="#P" n="63"/>non est satis ut dispensatio sit nulla, quia illa
+          <lb ed="#P" n="64"/>injustitia non fit a subdito dispensato , neque
+          <lb ed="#P" n="65"/>est intrinsece connexa cum dispensatione, sed
+          <lb ed="#P" n="66"/>fit ex injusta voluntate principis, et ab eodem
+          <lb ed="#P" n="67"/>debet resarciri, et non a subdito exempto, nisi
+          <lb ed="#P" n="68"/>ad talem injustitiam cooperatus fuerit. Alio
+          <lb ed="#P" n="69"/>modo potest fieri injustitia per actionem ipsius
+          <lb ed="#P" n="70"/>subditi obtinentis dispensationem, ut si 
+          ratio<lb break="no" ed="#P" n="71"/>ne illius vendat rem carius quam valeat 
+          secun<lb break="no" ed="#P" n="72"/>dum communem aestimationem , et tunc 
+          pro<lb break="no" ed="#P" n="73"/>cedit quod dictum est, dispensationem ex eo
+          <lb ed="#P" n="74"/>capite esse nullam.
+        </p>
+        <p xml:id="szdleg-q22582-d1e943">
+          <lb ed="#P" n="75"/>11. Duplex potestas in legislatore. — Ad 
+          se<lb break="no" ed="#P" n="76"/>cundum respondeo hanc dispensationem 
+          exce<lb break="no" ed="#P" n="77"/>dere potestatem juris (ut sic dicam), non facti.
+          <lb ed="#P" n="78"/>Distingui enim debet duplex potestas in 
+          legis<lb break="no" ed="#P" n="79"/>latore ; una est naturalis, volendi, vel nolendi,
+          <lb ed="#P" n="80"/>quam voco potestatem facti; alia superaddita,
+          <lb ed="#P" n="81"/>seu jurisdictionis ad obligandum alios. 
+          Dis<lb break="no" ed="#P" n="82"/>pensatio ergo sine causa data magis est a priori
+          <lb ed="#P" n="83"/>potestate , a qua habet substantiam et valorem
+          <lb ed="#P" n="84"/>suum, quia superior volens sic dispensare 
+          ope<lb break="no" ed="#P" n="85"/>ratur ut dominus suae voluntatis, et quoad hoc
+          <lb ed="#P" n="86"/>non operatur ultra suam potestatem , et hoc
+          <lb ed="#P" n="87"/>est satis ut sit validus actus, etiamsi non sit
+          <lb ed="#P" n="88"/>secundum usum doebitum alterius potestatis
+          <lb ed="#P" n="89"/>jurisdictionis suae. Nam si quis recte advertat,
+          <lb ed="#P" n="90"/>ille abusus talis jurisdictionis omissivus potius
+          <lb ed="#P" n="91"/>est quam activus (ut ita dicam) : nam qui vult
+          <lb ed="#P" n="92"/>dispensare, solum vult non obligare subditum
+          <lb ed="#P" n="93"/>sua lege, et ita potius vult non uti circa illum
+          <lb ed="#P" n="94"/>jurisdictione sua quam uti, et ideo talis actus
+          <lb ed="#P" n="95"/>validus est, etiamsi sit extra talem potestatem,
+          <lb ed="#P" n="96"/>id est, extra positivm usum ejus. Quia 
+          potes<lb break="no" ed="#P" n="97"/>tas jurisdictionis quoad usum essentialiter 
+          pen<lb break="no" ed="#P" n="98"/>det a voluntate habentis illam, et ideo ut non
+          <lb ed="#P" n="99"/>influat, vel non obliget, satis est ut superior
+          <lb ed="#P" n="100"/>nolit sua jurisdictione uti, etiamsi male faciat
+          <lb ed="#P" n="101"/>non utendo. Ita ergo se habet cum vult 
+          dis<lb break="no" ed="#P" n="102"/>pensare sine causa : nam, licet verbum 
+          dispen<lb break="no" ed="#P" n="103"/>sare significet per modum effectus positivi,
+          <lb ed="#P" n="104"/>revera est privativus, et ideo non tam proprie
+          <lb ed="#P" n="105"/>dicitur ille actus excedere potestatem 
+          jurisdic<lb break="no" ed="#P" n="106"/>tionis, quam deficere a debito usu ejus; actus
+          <lb ed="#P" n="107"/>autem Labens similem defectum validus est
+          <lb ed="#P" n="108"/>ex vi absolutae voluntatis, ut patet in 
+          abroga<lb break="no" ed="#P" n="109"/>tione legis, et idem est in remissione poenae
+          <lb ed="#P" n="110"/>sine causa facta, et similibus.
+        </p>
+        <p xml:id="szdleg-q22582-d1e1024">
+          <pb ed="#P" n="94"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>12. In tertio argumento petitur an liceat
+          <lb ed="#P" n="2"/>subdito uti tali dispensatione ; multi enim
+          <lb ed="#P" n="3"/>auctores negant, ut expresse Rebuftus in 
+          Prac<lb break="no" ed="#P" n="4"/>tic., titulo de Dispensatione ad plura beneficia,
+          <lb ed="#P" n="5"/>n. 55; ait enim nec Papam dispensantem sine
+          <lb ed="#P" n="6"/>causa esse tutum, nec dispensatum. Idem 
+          Co<lb break="no" ed="#P" n="7"/>varr. supra, ubi refert plures canonistas ex 
+          su<lb break="no" ed="#P" n="8"/>pra allegatis, indicatque dispensationem hanc
+          <lb ed="#P" n="9"/>solum esse validam quoad tollenda 
+          impedi<lb break="no" ed="#P" n="10"/>menta irritantia, vel inhabilitates legales, ita
+          <lb ed="#P" n="11"/>ut actus in virtute ejus factus teneat, et in 
+          fo<lb break="no" ed="#P" n="12"/>ro exteriori, et in re ipsa: non vero esse 
+          vali<lb break="no" ed="#P" n="13"/>dam talem dispensationem quoad tollendam
+          <lb ed="#P" n="14"/>obhgationem legis, et ideo non reddere tutam
+          <lb ed="#P" n="15"/>conscientiam dispensati. Existimo tamen 
+          Co<lb break="no" ed="#P" n="16"/>varr. non fuisse locutum in hoc sensu, sed in
+          <lb ed="#P" n="17"/>alio intento a Cajetano quem allegat. Itaque
+          <lb ed="#P" n="18"/>consequenter ad dicta, certum est 
+          dispensatio<lb break="no" ed="#P" n="19"/>nem hanc esse validam, etiam quoad 
+          tollen<lb break="no" ed="#P" n="20"/>dam obligationem legis, de qua conceditur, ut
+          <lb ed="#P" n="21"/>expresse declaravit Cajetanus d. q. 96, art. 5,
+          <lb ed="#P" n="22"/>in fine. Et patet ex dictis, tum quia non 
+          mi<lb break="no" ed="#P" n="23"/>nus pendet obligatio a voluntate legislatoris,
+          <lb ed="#P" n="24"/>quam alii effectuslegis humanae, quales sunt 
+          in<lb break="no" ed="#P" n="25"/>habilitates, vel irritationes actuum ; tum etiam
+          <lb ed="#P" n="26"/>quia nulla major repugnantia potest in uno
+          <lb ed="#P" n="27"/>ostendi quam in alio; tum praeterea quia 
+          mul<lb break="no" ed="#P" n="28"/>tae dispensationes conceduntur in legibus 
+          pro<lb break="no" ed="#P" n="29"/>hibentibus sine irritatione, vel in legibus pure
+          <lb ed="#P" n="30"/>directivis, et nihilominus eodem modo 
+          censen<lb break="no" ed="#P" n="31"/>tur validae, propter idem fundamentum quod
+          <lb ed="#P" n="32"/>pendent ex voluntate dispensantis.
+        </p>
+        <p xml:id="szdleg-q22582-d1e1100">
+          <lb ed="#P" n="33"/>13. Hinc ergo necessario sequitur subditum
+          <lb ed="#P" n="34"/>sic dispensatum non peccare contra legem, in
+          <lb ed="#P" n="35"/>qua cum illo dispensatum est ; quia ablata est
+          <lb ed="#P" n="36"/>illtus obhigatio, ut, si erat lex dejejunio, ablata
+          <lb ed="#P" n="37"/>fuit obligatio temperantiae, et ideo non 
+          jeju<lb break="no" ed="#P" n="38"/>nando non est intemperans. Neque etiam dici
+          <lb ed="#P" n="39"/>potest inobediens, cum non agat contra 
+          volun<lb break="no" ed="#P" n="40"/>tatem superioris. Quae ratio in universum 
+          pro<lb break="no" ed="#P" n="41"/>bat legem illam tunc non obligare, quia 
+          obli<lb break="no" ed="#P" n="42"/>gatio legis humanse nititur in illo principio:
+          <lb ed="#P" n="43"/>Obediendum est superioribus, quod non habet
+          <lb ed="#P" n="44"/>locum ubi voluntas superioris deest ; ergo nec
+          <lb ed="#P" n="45"/>obligatio legis, ergo nec peccatur contra illam:
+          <lb ed="#P" n="46"/>quoad hunc ergo effectum etiam est valida 
+          dis<lb break="no" ed="#P" n="47"/>pensatio. Nihilominus tamen Cajetanus putat
+          <lb ed="#P" n="48"/>subditum peccare, utenilo tali dispensatione,
+          <lb ed="#P" n="49"/>quia, licet non agat contra legem humanam
+          <lb ed="#P" n="50"/>relaxatam, agit contra principium illud 
+          natu<lb break="no" ed="#P" n="51"/>rale, quod pars non debet discordare a toto
+          <lb ed="#P" n="52"/>sine causa. Quia turpis est pars quae toti non
+          <lb ed="#P" n="53"/>convenit; est enim rationi dissonum ut aliquis
+          <lb ed="#P" n="54"/>in communitate vivat, et non utatur eodem
+          <lb ed="#P" n="55"/>jure cum aliis, sine justa excusatione. Atque
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in hoc sensu loqui videntur Covarr., Rebuffus
+          <lb ed="#P" n="57"/>et alii antiquiores canonistae, quos ipsi 
+          refe<lb break="no" ed="#P" n="58"/>runt, dicentes sic dispensatum non manere
+          <lb ed="#P" n="59"/>tutum in conscientia ; et idem sequitur 
+          Navar<lb break="no" ed="#P" n="60"/>rus in Summa, praelud. 9, n. 14, qui hoc 
+          tem<lb break="no" ed="#P" n="61"/>perat, ut intelligatur de obligatione sub culpa
+          <lb ed="#P" n="62"/>veniali, non mortali, quod placet multis 
+          moder<lb break="no" ed="#P" n="63"/>nis quos refert, et sequitur Sancius, d. disp. 19;
+          <lb ed="#P" n="64"/>n. 12 et 13, et est valde probabilis opinio.
+          <lb ed="#P" n="65"/>14. Mihi vero probabilius videtur in usu 
+          ta<lb break="no" ed="#P" n="66"/>lis dispensationis nullum esse peccatum, per
+          <lb ed="#P" n="67"/>se loquendo, ac secluso scandalo, prout tenet
+          <lb ed="#P" n="68"/>Angel., verb. Dispensatio, n. 3; et Sylvester,
+          <lb ed="#P" n="69"/>q. 3; Soto etiam, l. 1 de Justitia, q. 7, a. ult.,
+          <lb ed="#P" n="70"/>in fine, satis propensus est in eamdem 
+          senten<lb break="no" ed="#P" n="71"/>tiam : nam ejus ratio ad hoc tendit, quamvis
+          <lb ed="#P" n="72"/>postea solum concludat, cessante scandalo,
+          <lb ed="#P" n="73"/>non esse culpam pejorem quam venialem. 
+          Ab<lb break="no" ed="#P" n="74"/>solute vero non esse culpam dixit Navarrus in
+          <lb ed="#P" n="75"/>Summa, cap. 12, n. 571, citans Adrianum in 4,
+          <lb ed="#P" n="76"/>in materia de restitutione ; et sequitur Aragon.
+          <lb ed="#P" n="77"/>2. 2, q. 89, a. 9, in fine; et Medin., in 
+          Sum<lb break="no" ed="#P" n="78"/>ma, l. 1, cap. 14, S 10; Palacius, in 4, dist.
+          <lb ed="#P" n="79"/>15, disp. 8, col. 1, et dist. 38, disp. 2, col.2;
+          <lb ed="#P" n="80"/>Gigas de Pensio., q. 6, n. 13; et idem videtur
+          <lb ed="#P" n="81"/>sequi Felinus in c. Ad audientiam, 29 de 
+          Res<lb break="no" ed="#P" n="82"/>cript., n. 4, ubi ita intelligit Innocent., 
+          Car<lb break="no" ed="#P" n="83"/>din. Speculator. et alios simpliciter dicentes
+          <lb ed="#P" n="84"/>sic dispensatum manere tutum in conscientia.
+          <lb ed="#P" n="85"/>Ratio vero est, quia imprimis subditus utens
+          <lb ed="#P" n="86"/>tali dispensatione non cooperatur peccato 
+          dis<lb break="no" ed="#P" n="87"/>pensantis, sed utitur effectu talis 
+          dispensatio<lb break="no" ed="#P" n="88"/>nis, in quo effectu nulla est malitia ; imo, licet
+          <lb ed="#P" n="89"/>postea illa utatur, non prosequitur, vel quasi
+          <lb ed="#P" n="90"/>continuat prius peccatum, quod jam praeternt.
+          <lb ed="#P" n="91"/>In quo magnam invenio differentiam inter
+          <lb ed="#P" n="92"/>dispensantem, et dispensatum sine causa : nam
+          <lb ed="#P" n="93"/>qui dispensavit potest revocare dispensationem
+          <lb ed="#P" n="94"/>quoad usum futurum, et tenetur id facere, ut
+          <lb ed="#P" n="95"/>supra dixi; et ideo, quoties sciens et videns id
+          <lb ed="#P" n="96"/>non facit, quasi prosequitur prius peccatum,
+          <lb ed="#P" n="97"/>seu de novo illud repetit, sicut dici solet de
+          <lb ed="#P" n="98"/>illo qui furatus est, dum non restituit. At vero
+          <lb ed="#P" n="99"/>subditus, postquam obtinuit dispensationem,
+          <lb ed="#P" n="100"/>sive in eo peccaverit, sive non, postea non 
+          po<lb break="no" ed="#P" n="101"/>test illam revocare; imo neque illi potest 
+          renun<lb break="no" ed="#P" n="102"/>tiare semper, ut infra dicam; et quamvis 
+          pos<lb break="no" ed="#P" n="103"/>set, non tenetur, quia non spectat hoc ad 
+          offi<lb break="no" ed="#P" n="104"/>cium ejus, et ideo nullo modo perseverat 
+          mo<lb break="no" ed="#P" n="105"/>raliter in peccato, si quod fortasse commisit
+          <lb ed="#P" n="106"/>obtinendo talem dispensationem, etamsi illa
+          <lb ed="#P" n="107"/>utatur; imo cum tali usu stat vera poenitentia
+          <lb ed="#P" n="108"/>prioris peccati. Et ex hac parte est mihi 
+          cer<lb break="no" ed="#P" n="109"/>tum non esse deformitatem gravem in illo usu.
+          <lb ed="#P" n="110"/>Quod vero nec levis seu venialis sit per se et
+          <pb ed="#P" n="95"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ex objecto, probatur, quia tunc ille subditus
+          <lb ed="#P" n="2"/>non potest dici turpiter agere discordando a
+          <lb ed="#P" n="3"/>toto in tali opere, quia etiam est dispar in 
+          obli<lb break="no" ed="#P" n="4"/>gatione legis, neque apparet unde oriatur 
+          obli<lb break="no" ed="#P" n="5"/>gatio ad tantam uniformitatem inzopere, ubi
+          <lb ed="#P" n="6"/>est difformitas in obligatione legis. Ttem non
+          <lb ed="#P" n="7"/>apparet cujus speciei esse possit malitia illius
+          <lb ed="#P" n="8"/>culpae, quia non est contra justitiam, ut per se
+          <lb ed="#P" n="9"/>notum videtur, nec etiam contra charitatem,
+          <lb ed="#P" n="10"/>quia, secluso scandalo, nulla intervenit ratio
+          <lb ed="#P" n="11"/>talis obligationis. Est ergo verisimilius nihil
+          <lb ed="#P" n="12"/>peccare eum qui secrete et sine scandalo 
+          uti<lb break="no" ed="#P" n="13"/>tur sua dispensatione, quando alioqui ille usus
+          <lb ed="#P" n="14"/>seu actus utendi de se non est malus, et fit
+          <lb ed="#P" n="15"/>propter honestum finem, quia illud nec est 
+          no<lb break="no" ed="#P" n="16"/>vnm praejudicium legis, neque etiam bono
+          <lb ed="#P" n="17"/>communi praejudicat.
+        </p>
+        <p xml:id="szdleg-q22582-d1e1315">
+          <lb ed="#P" n="18"/>15. Licet subditus non peccet, peccat tamen
+          <lb ed="#P" n="19"/>legislator secum injuste dispensatione utendo.—
+          <lb ed="#P" n="20"/>Quartum argumentum petit an legislator ipse
+          <lb ed="#P" n="21"/>possit hoc modo secum dispensare valide in
+          <lb ed="#P" n="22"/>sua lege sine causa. In quo Cajetanus supra
+          <lb ed="#P" n="23"/>affirmat, et prorsus eodem modo censet de
+          <lb ed="#P" n="24"/>ipso legislatore ac de subdito dispensato; ait
+          <lb ed="#P" n="25"/>enim non peccare postea contra legem suam,
+          <lb ed="#P" n="26"/>peccare autem contra naturalem obligationem
+          <lb ed="#P" n="27"/>quam caput habet non discrepandi a corpore.
+          <lb ed="#P" n="28"/>Et quidem Cajetanus consequenter loquitur,
+          <lb ed="#P" n="29"/>supponendo legislatorem obligari sua lege 
+          pro<lb break="no" ed="#P" n="30"/>prie, et per se, seu immediata obligatione 
+          le<lb break="no" ed="#P" n="31"/>gis positivae humanae : nam tunc procedunt
+          <lb ed="#P" n="32"/>rationes supra factae, quod talis obligatio 
+          effi<lb break="no" ed="#P" n="33"/>caciter tollitur per absolutam voluntatem ejus
+          <lb ed="#P" n="34"/>qui illam posuit. Nihilominus tamen in usu
+          <lb ed="#P" n="35"/>talis dispensationis necessario est constituenda
+          <lb ed="#P" n="36"/>differentia inter legislatorem et subditum :
+          <lb ed="#P" n="37"/>nam in legislatore talis usus peccaminosus est,
+          <lb ed="#P" n="38"/>etiamsi in subdito possit esse sine peccato, vel,
+          <lb ed="#P" n="39"/>licet demus in subdito esse peccatum veniale,
+          <lb ed="#P" n="40"/>in legislatore est mortale ex suo gencre; et 
+          ra<lb break="no" ed="#P" n="41"/>to differentiae sumitur ex dictis, quia superior
+          <lb ed="#P" n="42"/>peccat graviter secum dispensando sine causa,
+          <lb ed="#P" n="43"/>ut supra ostendimus, et potest, 
+          consequenter<lb break="no" ed="#P" n="44"/>que tenetur, illam dispensationem revocare;
+          <lb ed="#P" n="45"/>et quoties voluntarie in ea permanet, 
+          pecca<lb break="no" ed="#P" n="46"/>tum illud prosequitur seu repetit, ut jam 
+          de<lb break="no" ed="#P" n="47"/>claratum est. Utendo autem tali dispensatione
+          <lb ed="#P" n="48"/>virtute illam confirmat, imo iterum illam sibi
+          <lb ed="#P" n="49"/>concedit ; ergo saltem hoc titulo peccat 
+          morta<lb break="no" ed="#P" n="50"/>liter in illo usu. Et in hoc est dispar ratio in
+          <lb ed="#P" n="51"/>subdito, ut declaravi. Neque est mirum quod in
+          <lb ed="#P" n="52"/>hoc sit majus gravamen principis quam 
+          subdi<lb break="no" ed="#P" n="53"/>ti, quia princeps tenetur ex officio, et ex 
+          justi<lb break="no" ed="#P" n="54"/>Ua distributiva, vitare illam improportionem
+          <lb ed="#P" n="55"/>quae est in tali dispensatione, qua obligatione
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>subditus non tenetur. Et confirmatur, quia
+          <lb ed="#P" n="57"/>alias vel nullius vel parvi momenti esset 
+          obli<lb break="no" ed="#P" n="58"/>gatio principis per suam legem, quia sola 
+          vo<lb break="no" ed="#P" n="59"/>luntate potest valide auferre a se obligationcm
+          <lb ed="#P" n="60"/>illam, et postea non peccaret, saltem graviter,
+          <lb ed="#P" n="61"/>illam legem non custodiendo. Consequens 
+          au<lb break="no" ed="#P" n="62"/>tem est contra superius dicta l. 3, cap. ult.
+          <lb ed="#P" n="63"/>Quamvis ergo dicatur illa dispensatio valida,
+          <lb ed="#P" n="64"/>quia dum durat aufert vinculum legis, juxta
+          <lb ed="#P" n="65"/>praedictam opinionem; nihilominus non 
+          tran<lb break="no" ed="#P" n="66"/>sit in factum (ut sic dicam) omnino 
+          praeteri<lb break="no" ed="#P" n="67"/>tum, sed semper pendet ex voluntate ipsius
+          <lb ed="#P" n="68"/>principis, qui potest et debet illam retractare,
+          <lb ed="#P" n="69"/>et ideo in usu illius non minus peccat quam in
+          <lb ed="#P" n="70"/>ejusdem dispensationis usurpatione. Et idem
+          <lb ed="#P" n="71"/>dicendum est juxta hanc sententiam, si 
+          prin<lb break="no" ed="#P" n="72"/>ceps a principio ferret legem animo obligandi
+          <lb ed="#P" n="73"/>alios et non seipsum: nam exceptio de facto
+          <lb ed="#P" n="74"/>valida esset; peccaret tamen graviter in illa
+          <lb ed="#P" n="75"/>voluntate, et semper teneretur eamdem 
+          re<lb break="no" ed="#P" n="76"/>tractare, et ob id semper graviter peccaret ,
+          <lb ed="#P" n="77"/>non contra ipsam legem positivam, sed contra
+          <lb ed="#P" n="78"/>naturalem.
+        </p>
+        <p xml:id="szdleg-q22582-d1e1453">
+          <lb ed="#P" n="79"/>16. Id vero quod haec sententia supponit,
+          <lb ed="#P" n="80"/>nimirum , obligari principem sua lege ex vi
+          <lb ed="#P" n="81"/>suae voluntatis, difficillimum creditu est, quia
+          <lb ed="#P" n="82"/>obligatio legis, quatenus fundatur in voluntate
+          <lb ed="#P" n="83"/>ferentis illam, est obligatio manans ab 
+          impe<lb break="no" ed="#P" n="84"/>rio. Unde est obhgatio subditi ad superiorem,
+          <lb ed="#P" n="85"/>haec enim relatio est intrinseca proprio 
+          impe<lb break="no" ed="#P" n="86"/>rio morali : unde , licet dicatur quis sibi ipsi
+          <lb ed="#P" n="87"/>imperare physice se movendo, seu impellendo,
+          <lb ed="#P" n="88"/>non tamen moraliter se obligando, sicut etiam
+          <lb ed="#P" n="89"/>promittendo, vel contrahendo non potest se
+          <lb ed="#P" n="90"/>obligare sibi, sed alteri : ergo etiam in 
+          prae<lb break="no" ed="#P" n="91"/>senti non potest illa obligatio legislatoris per
+          <lb ed="#P" n="92"/>legem suam a propria ejusdem voluntate 
+          ma<lb break="no" ed="#P" n="93"/>nare. Et confirmatur ; nam obligatio legis 
+          hu<lb break="no" ed="#P" n="94"/>manae, ut est ab humana voluntate, est 
+          obliga<lb break="no" ed="#P" n="95"/>tio obedientiae, vel saltem illam intrinsece 
+          in<lb break="no" ed="#P" n="96"/>cludit, seu in illa radicatur ; non potest autem
+          <lb ed="#P" n="97"/>ejusdem ad seipsum esse vera obedientia :
+          <lb ed="#P" n="98"/>ergo. Propter quod supra, libro 3, cap. ultim.,
+          <lb ed="#P" n="99"/>censui hanc obligationem legislatoris ad opus
+          <lb ed="#P" n="100"/>praeceptum per legem suam, suppos::a 
+          volun<lb break="no" ed="#P" n="101"/>tate ferendi talem legem, non pend r ex 
+          spe<lb break="no" ed="#P" n="102"/>ciali voluntate ejusdem legislatori- 
+          compre<lb break="no" ed="#P" n="103"/>hendendiseipsum sub tali lege, quia r scessario
+          <lb ed="#P" n="104"/>obhgatur, etiamsi nolit, ex vi legis naturae
+          <lb ed="#P" n="105"/>praecipientis illi ut observet illud mec;i m 
+          vir<lb break="no" ed="#P" n="106"/>tutis quod per legem suam stautui ;o tota
+          <lb ed="#P" n="107"/>communitate, quando materia legis 
+          mmu<lb break="no" ed="#P" n="108"/>nis est, et uniformitatem postulat in capite
+          <lb ed="#P" n="109"/>cum corpore, ubi nulla ratio justa exenptionis
+          <lb ed="#P" n="110"/>intervenit.
+        </p>
+        <p xml:id="szdleg-q22582-d1e1525">
+          <pb ed="#P" n="96"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>11. Dispensatio quam legislator sibi 
+          conce<lb break="no" ed="#P" n="2"/>dit sine justa causa , nulla est nullumque 
+          effec<lb break="no" ed="#P" n="3"/>tum habet. — Hoc igitur veriori principio 
+          sup<lb break="no" ed="#P" n="4"/>posito, consequenter dicendum est 
+          dispensa<lb break="no" ed="#P" n="5"/>tionem quam sibi legislator concedit in sua
+          <lb ed="#P" n="6"/>lege sine causa justa nullam esse, nullumque
+          <lb ed="#P" n="7"/>effectum in ipso jure habere. Probatur, quia
+          <lb ed="#P" n="8"/>per dispensationem datam sine causa non 
+          au<lb break="no" ed="#P" n="9"/>fertur obligatio legis naturalis; sed obligatio
+          <lb ed="#P" n="10"/>principis ad observantiam legis suae est de jure
+          <lb ed="#P" n="11"/>naturali, et non a voluntate humana : ergo
+          <lb ed="#P" n="12"/>non aufertur per illam dispensationem : ergo
+          <lb ed="#P" n="13"/>valida non est. Et confirmatur , nam 
+          dis<lb break="no" ed="#P" n="14"/>pensatio data ab inferiori in lege superioris
+          <lb ed="#P" n="15"/>sin» causa non est valida; sei quando 
+          prin<lb break="no" ed="#P" n="16"/>ceps secum dispensat circa observantiam seu
+          <lb ed="#P" n="17"/>executionem suae legis, non dispensat revera
+          <lb ed="#P" n="18"/>in lege sua, quia non obligatur per illam ut
+          <lb ed="#P" n="19"/>sua est, sed dispensat in superiori lege ; ergo
+          <lb ed="#P" n="20"/>nisi id faciat ex justa causa , non erit valida
+          <lb ed="#P" n="21"/>dispensatio. Dices: imo nec ex justa causa 
+          va<lb break="no" ed="#P" n="22"/>lebit, quia non potest princeps dispensare in 
+          ju<lb break="no" ed="#P" n="23"/>re naturali. Respondeo negando sequelam, quia
+          <lb ed="#P" n="24"/>ipsum jus naturale dictat principem debere
+          <lb ed="#P" n="25"/>suam legem servare, nisi ex justa causa secum
+          <lb ed="#P" n="26"/>dispenset, quia non debet in hoc esse pejoris
+          <lb ed="#P" n="27"/>conditionis, et magis ita servatur debita 
+          pro<lb break="no" ed="#P" n="28"/>portio. Et confirmatur secundo, quia si a 
+          princi<lb break="no" ed="#P" n="29"/>pio princeps legem ferat animo non se 
+          obligan<lb break="no" ed="#P" n="30"/>di, sine causa, sed sola voluntate, nihilominus
+          <lb ed="#P" n="31"/>manebit obligatus ex vi legis naturae, ut 
+          osten<lb break="no" ed="#P" n="32"/>sum est; si autem ex justa causa se eximeret,
+          <lb ed="#P" n="33"/>valeret exceptio; ergo idem in dispensatione.
+        </p>
+        <p xml:id="szdleg-q22582-d1e1603">
+          <lb ed="#P" n="34"/>18. Dispensatio sine causa in subdito valida
+          <lb ed="#P" n="35"/>est, non autem in legislatore. — Atque ita patet
+          <lb ed="#P" n="36"/>responsio ad quartum argumentum ; negatur
+          <lb ed="#P" n="37"/>enim sequela, nimirum, posse principem sine
+          <lb ed="#P" n="38"/>causa valide se eximere ab obligatione quam
+          <lb ed="#P" n="39"/>Abhabet servandi suam legem. Neque in hoc est
+          <lb ed="#P" n="40"/>aequiparandus cum subito : nam in subdito
+          <lb ed="#P" n="41"/>obligatio manat immediate, et per se, a lege et
+          <lb ed="#P" n="42"/>voluntate hominis, qui potest illam efficaciter
+          <lb ed="#P" n="43"/>mutare quacumque ex causa ; obligatio autem
+          <lb ed="#P" n="44"/>principis non est per se a lege sua, sed a 
+          ra<lb break="no" ed="#P" n="45"/>tione naturali ejusque auctore ; et ideo , nisi
+          <lb ed="#P" n="46"/>princeps auferat suam legem respectu 
+          commu<lb break="no" ed="#P" n="47"/>nitatis , non potest sola voluntate propria 
+          au<lb break="no" ed="#P" n="48"/>ferre a se obligationem quae in ipso naturaliter
+          <lb ed="#P" n="49"/>resultat posita tali lege. Neque mirum videri
+          <lb ed="#P" n="50"/>debet quod in hoc quodammodo sit durior 
+          con<lb break="no" ed="#P" n="51"/>ditio principis, quia etiam status ejus requirit
+          <lb ed="#P" n="52"/>altiorem obligationem, cum non possit directe
+          <lb ed="#P" n="53"/>per suum jus humanum obligari, et ideo in
+          <lb ed="#P" n="54"/>principe naturalis obligatio ad uniformitatem
+          <lb ed="#P" n="55"/>servandam in legis executione, ex parte illius
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>immediate fundatur in dignitate et officio suo,
+          <lb ed="#P" n="57"/>in subditis vero fundatur potius in obligatione
+          <lb ed="#P" n="58"/>legis positivae, ut supra declaravi: et ideo
+          <lb ed="#P" n="59"/>etiam est in principe longe gravior illa 
+          obhga<lb break="no" ed="#P" n="60"/>tio servandi conformitatem quam in subditis,
+          <lb ed="#P" n="61"/>quia et ad exemplum subditorum, et ad 
+          com<lb break="no" ed="#P" n="62"/>munem observantiam legis multo magis 
+          ne<lb break="no" ed="#P" n="63"/>cessaria est.
+        </p>
+        <p xml:id="szdleg-q22582-d1e1673">
+          <lb ed="#P" n="64"/>19. Solum superest in hac resolutione 
+          diffi<lb break="no" ed="#P" n="65"/>cultas de effectu legis humanae irritandi actus,
+          <lb ed="#P" n="66"/>seu, quod perinde est, inhabilitandi personam
+          <lb ed="#P" n="67"/>ad contractum, etc., nam sequitur ex dictis, si
+          <lb ed="#P" n="68"/>princeps secum dispenset in tali lege sine 
+          cau<lb break="no" ed="#P" n="69"/>sa, nihilominus actum ejus non esse validum,
+          <lb ed="#P" n="70"/>quod verisimile non est; constat enim 
+          contrac<lb break="no" ed="#P" n="71"/>tum irritum jure positivo, si scienter fiat a
+          <lb ed="#P" n="72"/>principe, validum esse, imo eo ipso dispensare
+          <lb ed="#P" n="73"/>cum alio secum contrahente, ut valide 
+          contra<lb break="no" ed="#P" n="74"/>hat, ut sumitur ex his quae tradit Navarr. in
+          <lb ed="#P" n="75"/>Summ., c. 23, n. 108; Covarr., in c Quamvis
+          <lb ed="#P" n="76"/>pactum, p. 1, S3, n. 5b. Respondetur ergo 
+          ne<lb break="no" ed="#P" n="77"/>gando sequelam, quia probabilius est legem
+          <lb ed="#P" n="78"/>humanam non habere hunc effectum circa 
+          vo<lb break="no" ed="#P" n="79"/>luntatem et personam ipsius legislatoris, quia
+          <lb ed="#P" n="80"/>ordinarie est poenalis ; vel quando talis non
+          <lb ed="#P" n="81"/>est, in hoc ei assimilatur, quod includit 
+          quam<lb break="no" ed="#P" n="82"/>dam veluti coactionem voluntatis, quatenus
+          <lb ed="#P" n="83"/>ejus consensus irritus fit, quod requirit 
+          effica<lb break="no" ed="#P" n="84"/>ciam superioris voluntatis, nec potest fieri ab
+          <lb ed="#P" n="85"/>aliquo circa seipsum. Nec naturalis obligatio
+          <lb ed="#P" n="86"/>servandi conformitatem extenditur ad hos 
+          ef<lb break="no" ed="#P" n="87"/>fectus, quasi coactos et violentos, sed solum
+          <lb ed="#P" n="88"/>versatur circa mores humanos, neque plus 
+          dic<lb break="no" ed="#P" n="89"/>tat naturalis ratio. Imo, licet quis contendat
+          <lb ed="#P" n="90"/>etiam personam principis esse inhabilem ,
+          <lb ed="#P" n="91"/>quando lex ejus inhabilitat subditos ad 
+          ali<lb break="no" ed="#P" n="92"/>quem contractum, nihilominus negare non
+          <lb ed="#P" n="93"/>possunt dispensando secum, etiam sine causa,
+          <lb ed="#P" n="94"/>tollere a se illam inhabilitatem, quia nunquam
+          <lb ed="#P" n="95"/>est immediate a lege naturali, sed a lege 
+          hu<lb break="no" ed="#P" n="96"/>mana; sicut si Papa dispenset sine causa in
+          <lb ed="#P" n="97"/>impedimento habente obligationem ex 
+          natu<lb break="no" ed="#P" n="98"/>rali lege, et irritationem ex humana, valebit
+          <lb ed="#P" n="99"/>dispensatio quoad tollendam irritationem, licet
+          <lb ed="#P" n="100"/>non valeat quoad obligationem auferendam.
+          <lb ed="#P" n="101"/>Exemnplum est, si Papa dispenset sine causa
+          <lb ed="#P" n="102"/>cum clerico in sacris ut uxorem ducat, validum
+          <lb ed="#P" n="103"/>esse matrimonium, quamvis peccet mortaliter
+          <lb ed="#P" n="104"/>contrahendo illud, quia obligatio voti auferri
+          <lb ed="#P" n="105"/>non potuit per talem dispensationem; 
+          impedi<lb break="no" ed="#P" n="106"/>mentum autem irritans, quod mere humanum
+          <lb ed="#P" n="107"/>est, valide ablatum fuit sine causa.
+        </p>
+        <p xml:id="szdleg-q22582-d1e1771">
+          <lb ed="#P" n="108"/>20. Quomodo superior in lege inferioris 
+          dis<lb break="no" ed="#P" n="109"/>pensare potest. — Atque ex his tandem 
+          conclu<lb break="no" ed="#P" n="110"/>ditur quid dicendum sit de dispensatione sine
+          <pb ed="#P" n="97"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>causa data a superiore in lege inferioris, an
+          <lb ed="#P" n="2"/>valeat, necne. Nam, licet ex majori potestate
+          <lb ed="#P" n="3"/>videatur necessario fore validam, aliunde ex
+          <lb ed="#P" n="4"/>diversitate voluntatum videtur hoc difficile,
+          <lb ed="#P" n="5"/>quia non tam facile mutat quis voluntatem 
+          al<lb break="no" ed="#P" n="6"/>terius, etiam inferioris, sicut suam. Dicendum
+          <lb ed="#P" n="7"/>vero est hoc pendere ex modo superioris 
+          po<lb break="no" ed="#P" n="8"/>testatis, quia si tantum sit potestas superior
+          <lb ed="#P" n="9"/>quasi remota, quia, videlicet, solum in gradu
+          <lb ed="#P" n="10"/>appellationis, vel supplicationis, aut alterius
+          <lb ed="#P" n="11"/>similis recursus potest versari circa subditos
+          <lb ed="#P" n="12"/>inferioris Praelati, tunc certe dispensatio non
+          <lb ed="#P" n="13"/>valebit data sine justa causa, quia tunc nulla
+          <lb ed="#P" n="14"/>est ratio recurrendi ad talem superiorem, et
+          <lb ed="#P" n="15"/>consequenter neque illius jurisdictio ibi locum
+          <lb ed="#P" n="16"/>habet. Et ita dispensatio, data ab 
+          Archiepisco<lb break="no" ed="#P" n="17"/>po in lege Episcopi sine causa, nulla erit. At
+          <lb ed="#P" n="18"/>vero si potestas superior se extendat 
+          immedia<lb break="no" ed="#P" n="19"/>te ad regimen subditi per modum causae 
+          uni<lb break="no" ed="#P" n="20"/>versalioris etiam immediate, tunc valida erit;
+          <lb ed="#P" n="21"/>talis dispensatio Papae in lege Episcopi, et 
+          dis<lb break="no" ed="#P" n="22"/>pensatio Generalis in praecepto Provincialis, et
+          <lb ed="#P" n="23"/>sic de similibus. Quia, licet superior proprie
+          <lb ed="#P" n="24"/>non mutet voluntatem inferioris, potest 
+          mu<lb break="no" ed="#P" n="25"/>tare seu tollere effectum ejus per 
+          jurisdictio<lb break="no" ed="#P" n="26"/>nem superiorem quae de se non pendet ab 
+          in<lb break="no" ed="#P" n="27"/>feriori. Sicut etiam potest talis Praelatus 
+          su<lb break="no" ed="#P" n="28"/>perior reservare sibi immediatum regimen
+          <lb ed="#P" n="29"/>talis subditi. Quod semper intelligendum est,
+          <lb ed="#P" n="30"/>nisi ejus potestas per aliquam legem hmitata
+          <lb ed="#P" n="31"/>sit, et tunc, ut dixi, solum valebit 
+          dispensa<lb break="no" ed="#P" n="32"/>tio juxta gradum et modum concessae 
+          potes<lb break="no" ed="#P" n="33"/>tatis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

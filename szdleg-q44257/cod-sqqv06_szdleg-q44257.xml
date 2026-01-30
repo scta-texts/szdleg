@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 11</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 11</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="176"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q44257"><!-- l7c11 -->
+        <head xml:id="szdleg-q44257-Hd1e101">Caput 11</head>
+        <head xml:id="szdleg-q44257-Hd1e103" type="question-title">Utrum ad consuetudinem juridica notitia. de actuum frequentia. necessaria sit.</head>
+        <p xml:id="szdleg-q44257-d1e106">
+          <lb ed="#P" n="67"/>CAPUT XI.
+          <lb ed="#P" n="68"/>UTRUM AD CONSUETUDINEM JURIDICA NOTITIA. DE
+          <lb ed="#P" n="69"/>ACTUUM FREQUENTIA. NECESSARIA SIT.
+        </p>
+        <p xml:id="szdleg-q44257-d1e115">
+          <lb ed="#P" n="70"/>1. Actus publici notorietate facti possunt 
+          con<lb break="no" ed="#P" n="71"/>suetudinem inducere. — Sensus quaestionis est
+          <lb ed="#P" n="72"/>an, ut consuetudo introducatur, necessarium
+          <lb ed="#P" n="73"/>sit frequentiam sufficientem actuum esse in
+          <lb ed="#P" n="74"/>judicio publica auctoritate defensam aut 
+          pro<lb break="no" ed="#P" n="75"/>batam. Aliqui affirmant oportere ut 
+          consuetu<lb break="no" ed="#P" n="76"/>do sit in contradictorio judicio probata. Ita 
+          do<lb break="no" ed="#P" n="77"/>cet Glossa in cap. ultim. de Consuetudine, et
+          <lb ed="#P" n="78"/>in cap. Frustra, distinct. S, in S Sine scripto,
+          <lb ed="#P" n="79"/>verb. Diuturni, Glossa etiam, in rubric., c.
+          <lb ed="#P" n="80"/>Quae sit long. consuetud. ; sequitur Anton., 1
+          <lb ed="#P" n="81"/>part., tit 16, S 4. Fundantur primo in 
+          capi<lb break="no" ed="#P" n="82"/>tulo Abbate, de Verborum signific., ubi 
+          quae<lb break="no" ed="#P" n="83"/>dam consuetudo allegatur insufficiens, quia
+          <lb ed="#P" n="84"/>non fuerat in contradictorio judicio introducta,
+          <lb ed="#P" n="85"/>ubi Glossa id notat, et confirmat exemplo
+          <lb ed="#P" n="86"/>praescriptionis, in qua requiritur protestatio,
+          <lb ed="#P" n="87"/>juxta legem Sic alia, S 2, Digest. 
+          Quemad<lb break="no" ed="#P" n="88"/>modum servitut. amitt.: Sic videtur (inquit
+          <lb ed="#P" n="89"/>Glossa) quod requiratur in consuetudine 
+          prae<lb break="no" ed="#P" n="90"/>scribenda. Secundo, allegatur l. Cum de 
+          consue<lb break="no" ed="#P" n="91"/>tudine, ff. de Legibus, quae dicit, cum aliquis
+          <lb ed="#P" n="92"/>allegat consuetudinem, primum omnium esse
+          <lb ed="#P" n="93"/>explorandum an etiam in contradictorio 
+          judi<lb break="no" ed="#P" n="94"/>cio consuetudo firmata sit. Tertio, favet lex
+          <lb ed="#P" n="95"/>Hispaniae, part. 1, tit. 2, l. 5, quae habet 
+          con<lb break="no" ed="#P" n="96"/>suetudinem decem aut viginti annorum, esse
+          <lb ed="#P" n="97"/>in posterum servandam, si hoc eodem tempore
+          <lb ed="#P" n="98"/>lis juxta eamdem consuetudinem judicata 
+          fue<lb break="no" ed="#P" n="99"/>rit. Quarto, addi potest conjectura, quia, 
+          do<lb break="no" ed="#P" n="100"/>nec ita sit consuetudo confirmata, non potest
+          <lb ed="#P" n="101"/>esse satis cognita, satisque publica, ita ut alios
+          <lb ed="#P" n="102"/>obliget ad illius observationem, vel securos
+          <lb ed="#P" n="103"/>reddat in conscientia illam imitantes. Quod si
+          <lb ed="#P" n="104"/>quaeras quot actus judiciarii necessarii sint,
+          <lb ed="#P" n="105"/>respondent Glossae geminatum judicium 
+          con<lb break="no" ed="#P" n="106"/>forme, et sine contradictione, esse necessa-
+          <pb ed="#P" n="177"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rium, quod solum probant ex dicta l. 3 de
+          <lb ed="#P" n="2"/>Episcop. aud.
+        </p>
+        <p xml:id="szdleg-q44257-d1e206">
+          <lb ed="#P" n="3"/>2. Actus judicialis non requiritur ad 
+          consue<lb break="no" ed="#P" n="4"/>tudinem inducendam.—MHaec vero sententia 
+          fal<lb break="no" ed="#P" n="5"/>sa est, et contraria est communis 
+          canonis<lb break="no" ed="#P" n="6"/>tarum et legistarum, ut dixit Abb. in dicto
+          <lb ed="#P" n="7"/>cap. ult., n. 16, et tradit Bart. in dicta l.2, et
+          <lb ed="#P" n="8"/>d. 1. De quibus, in repetit., quaest. 2, ubi etiam
+          <lb ed="#P" n="9"/>Jason., col. 12; et Roch., dicta sect. 4, n. 34,
+          <lb ed="#P" n="10"/>ubi refert alios; Gregor. Lop., dicta l. 5 
+          par<lb break="no" ed="#P" n="11"/>tit., et FPetr. de Salazar, l. 1 de Consuetud.,
+          <lb ed="#P" n="12"/>cap. 7. Et probatur primo, quia actus 
+          judicia<lb break="no" ed="#P" n="13"/>lis non est necessarius ex natura rei ad 
+          consue<lb break="no" ed="#P" n="14"/>tudinem, nec ex jure positivo; ergo non 
+          ha<lb break="no" ed="#P" n="15"/>bet unde sit necessarius. Consequentia est 
+          cla<lb break="no" ed="#P" n="16"/>ra, quia omnis conditio vel causa necessaria
+          <lb ed="#P" n="17"/>ad consuetudinem fundari debet in aliquo 
+          ju<lb break="no" ed="#P" n="18"/>re, alias gratis et sine fundamento asseritur.
+          <lb ed="#P" n="19"/>Major autem probatur, quia nulla est ratio
+          <lb ed="#P" n="20"/>naturalis quae illam necessitatem probet. Nam
+          <lb ed="#P" n="21"/>(ut ait Bart.) consensus communis populi vel
+          <lb ed="#P" n="22"/>majoris partis ejus sufficienter ostendit 
+          con<lb break="no" ed="#P" n="23"/>sensum populi, et usus ipse publicus per se 
+          po<lb break="no" ed="#P" n="24"/>test innotescere principi, ut censeatur tacite
+          <lb ed="#P" n="25"/>consentire ; ergo non est cur ex natura rei 
+          re<lb break="no" ed="#P" n="26"/>quiratur actus judicialis. Positiva autem jura,
+          <lb ed="#P" n="27"/>quae de hac consuetudine rationabili 
+          loquun<lb break="no" ed="#P" n="28"/>tur, nunquam requirunt hanc conditionem,
+          <lb ed="#P" n="29"/>sed solum ut sit praescripta, inveterata, 
+          anti<lb break="no" ed="#P" n="30"/>qua, et similia, ut patet ex dicto cap. ult., et
+          <lb ed="#P" n="31"/>ex l. De quibus, cum similibus.
+        </p>
+        <p xml:id="szdleg-q44257-d1e272">
+          <lb ed="#P" n="32"/>3. Deinde argumentor ratione, quia, ut 
+          in<lb break="no" ed="#P" n="33"/>terveniat ille actus judicialis, supponi debet
+          <lb ed="#P" n="34"/>contradictio in judicio ; quid ergo si nunquam
+          <lb ed="#P" n="35"/>talis contradictio facta est ? Nunquam ergo 
+          po<lb break="no" ed="#P" n="36"/>terit tunc introduci consuetudo, quod est 
+          con<lb break="no" ed="#P" n="37"/>tra omnem rationem, et contra omnia jura.
+          <lb ed="#P" n="38"/>Dici potest in decem vel viginti annis solis non
+          <lb ed="#P" n="39"/>confirmari consuetudinem , si contingat non
+          <lb ed="#P" n="40"/>deferri ad contradictorium judicium ; tamen,
+          <lb ed="#P" n="41"/>si majori tempore, ut per triginta annos, vel
+          <lb ed="#P" n="42"/>amplius durat, jam illa diuturnitate temporis
+          <lb ed="#P" n="43"/>suppleri illam necessitatem actuum 
+          judicia<lb break="no" ed="#P" n="44"/>lium. Atque ita, saltem secundum jus 
+          Hispa<lb break="no" ed="#P" n="45"/>niae, sensit Burgos de Paz, in l. Tauri, n. 247.
+          <lb ed="#P" n="46"/>At vero, in jure communi hoc subsistere non
+          <lb ed="#P" n="47"/>potest, quia consuetudo decem annorum 
+          lon<lb break="no" ed="#P" n="48"/>gaeva est secundum jus commune; et ut illa
+          <lb ed="#P" n="49"/>sit consummata et perfecta, non est necessaria
+          <lb ed="#P" n="50"/>illa conditio ex vi juris communis , ut 
+          pro<lb break="no" ed="#P" n="51"/>batum est. De jure autem Hispaniae statim 
+          di<lb break="no" ed="#P" n="52"/>cam.
+        </p>
+        <p xml:id="szdleg-q44257-d1e320">
+          <lb ed="#P" n="53"/>4. Tandem addenda est ratio insinuata a
+          <lb ed="#P" n="54"/>Panorm., quae mihi videtur optima. Nam 
+          in<lb break="no" ed="#P" n="55"/>yolvit haec conditio quamdam repugnantiam:
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>si enim requiritur sententia in contradictorio
+          <lb ed="#P" n="57"/>judicio, vel repugnat dari primam sententiam
+          <lb ed="#P" n="58"/>justam in favorem consuetudinis, et sic 
+          repu<lb break="no" ed="#P" n="59"/>gnabit introduci perfectam consuetudinem,
+          <lb ed="#P" n="60"/>cujus contrarium supponunt etiam auctores
+          <lb ed="#P" n="61"/>contraria opinionis, vel necesse est ut talis
+          <lb ed="#P" n="62"/>sententia supponat perfectam consuetudinem
+          <lb ed="#P" n="63"/>ante ipsam, et sic sententia non erit necessaria
+          <lb ed="#P" n="64"/>ad consuetudinem, sed ad summum notificabit
+          <lb ed="#P" n="65"/>illam. Prior pars probatur, quia, si sententia
+          <lb ed="#P" n="66"/>in favorem consuetudinis est necessaria ad
+          <lb ed="#P" n="67"/>firmitatem consuetudinis , ante primam 
+          sen<lb break="no" ed="#P" n="68"/>tentiam non potest esse consummata 
+          consue<lb break="no" ed="#P" n="69"/>tudo, cum deficiat illi necessaria conditio;
+          <lb ed="#P" n="70"/>ergo non potest per primam sententiam 
+          decla<lb break="no" ed="#P" n="71"/>rari consummata, nec quod sit validus aut 
+          li<lb break="no" ed="#P" n="72"/>citus actus factus in virtute illius, nec denique
+          <lb ed="#P" n="73"/>quod aliquam obligationem inducat, quia talis
+          <lb ed="#P" n="74"/>sententia continebit errorem contra veritatem,
+          <lb ed="#P" n="75"/>quia revera ante sententiam non erat talis illa
+          <lb ed="#P" n="76"/>consuetudo , juxta illam opinionem. Unde
+          <lb ed="#P" n="77"/>etiam per se patet altera pars : nam si per
+          <lb ed="#P" n="78"/>sententiam vere et juste consuetudo 
+          denun<lb break="no" ed="#P" n="79"/>tiatur perfecta, ergo absque sententia 
+          con<lb break="no" ed="#P" n="80"/>summata jam erat, nam sententia non 
+          con<lb break="no" ed="#P" n="81"/>summat illam, sed declarat qualis sit.
+        </p>
+        <p xml:id="szdleg-q44257-d1e388">
+          <lb ed="#P" n="82"/>5. Respondetur ad fundamenta contraricae
+          <lb ed="#P" n="83"/>sententie.—bd primum ergo ex cap. Aibate,
+          <lb ed="#P" n="84"/>respondetur imprimis ibi non esse sermonem
+          <lb ed="#P" n="85"/>de consuetudine juris, sed de praescriptione 
+          ju<lb break="no" ed="#P" n="86"/>ris eligendi, quae est res diversa, de qua esse
+          <lb ed="#P" n="87"/>potest alia quaestio, non tamen abilla licet ad
+          <lb ed="#P" n="88"/>praessentem argumentari. Secundo, verba illa
+          <lb ed="#P" n="89"/>non sunt in decisione, sed in allegatione 
+          par<lb break="no" ed="#P" n="90"/>tis contra quam causa definita est, ut ex textu
+          <lb ed="#P" n="91"/>constat. Tertio, ibi non interponuntur illa
+          <lb ed="#P" n="92"/>verba ad insinuandum, sententiam in 
+          contra<lb break="no" ed="#P" n="93"/>dictorio judicio esse necessariam ad 
+          praescri<lb break="no" ed="#P" n="94"/>ptionem, hoc enmm tam clare falsum est ut
+          <lb ed="#P" n="95"/>non si: verisimile fuisse allegatum, sed solum
+          <lb ed="#P" n="96"/>ad probandum talem consuetudinem non 
+          suffi<lb break="no" ed="#P" n="97"/>cienter probari ex his indiciis, quae pars 
+          ad<lb break="no" ed="#P" n="98"/>versa in illius probationem induxerat. Unde
+          <lb ed="#P" n="99"/>Panormitanus ibi, n. 13, dicit contrarium 
+          po<lb break="no" ed="#P" n="100"/>tius ex illo textu colligi. Exemplum autem
+          <lb ed="#P" n="101"/>quod Glossa adducit ex l. $ quis alia, nihil ad
+          <lb ed="#P" n="102"/>rem praesentem facit; tum quia ibi non est
+          <lb ed="#P" n="103"/>sermo de consuetudine juris, sed 
+          praescriptio<lb break="no" ed="#P" n="104"/>ne servitutis ; tum etiam quia non est simile;
+          <lb ed="#P" n="105"/>ibi enim non explicatur quomodo acquiratur
+          <lb ed="#P" n="106"/>servitus praescriptione, sed quomodo non 
+          amit<lb break="no" ed="#P" n="107"/>tatur , et dicitur non amitti per non usum,
+          <lb ed="#P" n="108"/>quando occasio ejus non occurrit, sed fuit mere
+          <lb ed="#P" n="109"/>negativus et non privativus, ut infra, 
+          tractan<lb break="no" ed="#P" n="110"/>do de privilegiorum amissione, latius explica-
+          <pb ed="#P" n="178"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bimus. Et quia haec occasio utendi aliquando
+          <lb ed="#P" n="2"/>non occurrit, nisi prius aliquid operetur, ideo
+          <lb ed="#P" n="3"/>ibi dicitur ante hanc occasionem non amitti
+          <lb ed="#P" n="4"/>servitutem propter solum non usum, quod
+          <lb ed="#P" n="5"/>maxime in servitutibus urbanis contingit, ut
+          <lb ed="#P" n="6"/>habetur ex l. Haec autem, ff. de Servit. urb.
+          <lb ed="#P" n="7"/>praed. ; inde ergo nihil colligi potest de 
+          neces<lb break="no" ed="#P" n="8"/>sitate contradictionis alterius, praesertim in
+          <lb ed="#P" n="9"/>judicio.
+        </p>
+        <p xml:id="szdleg-q44257-d1e477">
+          <lb ed="#P" n="10"/>6. Ad secundum.—Ad secundum, ex l. Cum
+          <lb ed="#P" n="11"/>de consuetudine, respondeo, ibi solum dici, ad
+          <lb ed="#P" n="12"/>explorandam et probandam consuetudinem,
+          <lb ed="#P" n="13"/>multum referre, si aliquando in contradictorio
+          <lb ed="#P" n="14"/>judicio firmata sit, et ideo hoc esse imprimis
+          <lb ed="#P" n="15"/>spectandum. Quod esse potest verum, non quia
+          <lb ed="#P" n="16"/>talis sententia sit necessaria ad veritatem et
+          <lb ed="#P" n="17"/>consummationem consuetudinis, sed quia ad
+          <lb ed="#P" n="18"/>illius probationem multum potest conferre.
+          <lb ed="#P" n="19"/>Omitto aliter legi textum illum negative, 
+          sci<lb break="no" ed="#P" n="20"/>licet, multum referre an contradictorio aliquo
+          <lb ed="#P" n="21"/>judicio consuetudo firmata sit, et sic est res 
+          cla<lb break="no" ed="#P" n="22"/>rior; nam haec negatio necessaria esse potest
+          <lb ed="#P" n="23"/>ad firmitatem consuetudinis : quia, per 
+          sen<lb break="no" ed="#P" n="24"/>tentiam datam contra consuetudinem , 
+          inter<lb break="no" ed="#P" n="25"/>rumpitur vel cessat praesumptio taciti 
+          consen<lb break="no" ed="#P" n="26"/>sus reipublicae, aut principis. Sed prior lectio
+          <lb ed="#P" n="27"/>censetur germana, quam aliis etiam modis 
+          ex<lb break="no" ed="#P" n="28"/>ponunt ibi Glossa et doctores, ut in eis videri
+          <lb ed="#P" n="29"/>potest.
+        </p>
+        <p xml:id="szdleg-q44257-d1e523">
+          <lb ed="#P" n="30"/>1. Ad tertium. — Duo distinguenda. — Ad
+          <lb ed="#P" n="31"/>tertium, ex lege Hispaniae, circa illam nostri
+          <lb ed="#P" n="32"/>interpretes laborant, et quidam conantur illam
+          <lb ed="#P" n="33"/>interpretari de praescriptione, sed male; tum
+          <lb ed="#P" n="34"/>quia aperte loquitur de consuetudine, ut 
+          con<lb break="no" ed="#P" n="35"/>sideranti patebit; tum etiam quia etiam in
+          <lb ed="#P" n="36"/>praescriptione id non est verum, vel habet
+          <lb ed="#P" n="37"/>eamdem diflficultatem. Alii vero fatentur ex
+          <lb ed="#P" n="38"/>jure speciali Hispaniae esse necessarias duas
+          <lb ed="#P" n="39"/>sententias in contradictorio judicio, ut 
+          con<lb break="no" ed="#P" n="40"/>suetudo firmetur. Ita Burgos de Paz, in l.1
+          <lb ed="#P" n="41"/>Tauri, num. 247. Sed, licet verba litterae 
+          fa<lb break="no" ed="#P" n="42"/>veant, sensus est tam absurdus, ut non 
+          videa<lb break="no" ed="#P" n="43"/>tur admittendus. Quia (ut supra ostendi) 
+          in<lb break="no" ed="#P" n="44"/>volvit repugnantiam haec conditio; quia, si
+          <lb ed="#P" n="45"/>illa esset necessaria, nunquam posset prima
+          <lb ed="#P" n="46"/>sententia juste proferri pro consuetudine, seu
+          <lb ed="#P" n="47"/>secundum iliam. Duo ergo in illa lege 
+          distin<lb break="no" ed="#P" n="48"/>guenda mihi videntur, unum est, quod 
+          con<lb break="no" ed="#P" n="49"/>suetudo sit plene introducta et suum effectum
+          <lb ed="#P" n="50"/>juris habeat; alterum est, quod talis 
+          consue<lb break="no" ed="#P" n="51"/>tudo sit irrevocabilis ex virtute et ordinatione
+          <lb ed="#P" n="52"/>illius legis. Ad primum ergo non postulatur
+          <lb ed="#P" n="53"/>duplex sententia, et hoc est quod ad nos 
+          spec<lb break="no" ed="#P" n="54"/>tat; ad secundum autem videtur postulari,
+          <lb ed="#P" n="55"/>et quoad hoc videtur peculiare illud jus His-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>paniae, quod an sit in usu, et quomodo 
+          intel<lb break="no" ed="#P" n="57"/>ligendum sit, ad nos nunc non pertinet. Hic
+          <lb ed="#P" n="58"/>autem sensus facile ex verbis legis colligetur,
+          <lb ed="#P" n="59"/>quae sic habent : S populus decem vel viginti
+          <lb ed="#P" n="60"/>annis aliquid fecerit, sciente domino, et non
+          <lb ed="#P" n="61"/>contradicente, poterunt deinde id libere facere.
+          <lb ed="#P" n="62"/>Haec est prima pars, in qua ad jus 
+          consuetudi<lb break="no" ed="#P" n="63"/>nis nihil aliud postulatur. Deinde vero 
+          addi<lb break="no" ed="#P" n="64"/>tur : Et talis consuetudo observanda in 
+          poste<lb break="no" ed="#P" n="65"/>rum est, si hoc eodem tempore juata praedictamn
+          <lb ed="#P" n="66"/>consuetudinem bis judicatum fuerit. Haec ergo
+          <lb ed="#P" n="67"/>est altera pars, in qua jam non dicitur libere
+          <lb ed="#P" n="68"/>posse id fieri, sed omnino observandum id esse,
+          <lb ed="#P" n="69"/>et ad hoc specialiter postulatur illa secunda
+          <lb ed="#P" n="70"/>conditio. Et hic sensus magis declarabitur ex
+          <lb ed="#P" n="71"/>dicendis tum in praesenti, tum in capite 
+          de<lb break="no" ed="#P" n="72"/>cimo sexto.
+        </p>
+        <p xml:id="szdleg-q44257-d1e621">
+          <lb ed="#P" n="73"/>8. Quid valet unius gravis doctoris assertio.
+          <lb ed="#P" n="74"/>— Ad quartum, ex ratione sumptum , 
+          res<lb break="no" ed="#P" n="75"/>pondetur ad summum probare, sententiam in
+          <lb ed="#P" n="76"/>contradictorio judicio conferre ad probationem
+          <lb ed="#P" n="77"/>consuetudinis et ad notitiam ejus, quod facile
+          <lb ed="#P" n="78"/>concedimus. Nihilominus tamen ante illam
+          <lb ed="#P" n="79"/>sententiam est vera consuetudo; imo dum 
+          con<lb break="no" ed="#P" n="80"/>suetudo est in fieri, non potest talis sententia
+          <lb ed="#P" n="81"/>habere locum ex vi consuetudinis, ut jam 
+          pro<lb break="no" ed="#P" n="82"/>bavi. Item, ante sententiam procedere debet
+          <lb ed="#P" n="83"/>probatio sufficiens ; ergo sine sententia potest
+          <lb ed="#P" n="84"/>esse moralis certitudo de qualitate et 
+          sufficien<lb break="no" ed="#P" n="85"/>tia consuetudinis introductae; imo, respectu
+          <lb ed="#P" n="86"/>eorum qui non possunt, per se, modum 
+          con<lb break="no" ed="#P" n="87"/>suetudinis expendere, sufficiet probabilis 
+          doc<lb break="no" ed="#P" n="88"/>torum opinio. Quin potius satis esse unius
+          <lb ed="#P" n="89"/>gravis doctoris assertionem censuit Bart. in d.
+          <lb ed="#P" n="90"/>l. De quibus, quaest. 4, et multi graves 
+          aucto<lb break="no" ed="#P" n="91"/>res secuti sunt, quos diligenter referunt 
+          Mas<lb break="no" ed="#P" n="92"/>card., de Probat., concl. 426, et Sanc., lib.7
+          <lb ed="#P" n="93"/>de Matrim., disput. 17, num. 8. Quod 
+          intelli<lb break="no" ed="#P" n="94"/>gendum est, dummodo alii non contradicant,
+          <lb ed="#P" n="95"/>et tunc etiam verius est requiri, ut vel plures
+          <lb ed="#P" n="96"/>et graves doctores in illa assertione 
+          conve<lb break="no" ed="#P" n="97"/>niant, vel dictum unius aliis gravibus 
+          conjec<lb break="no" ed="#P" n="98"/>turis adjuvetur. Et fortasse in hoc sensu voluit
+          <lb ed="#P" n="99"/>rex Alphonsus, in dicta l. 5, duas sententias
+          <lb ed="#P" n="100"/>concordes ad certitudinem et probationem 
+          ta<lb break="no" ed="#P" n="101"/>lis consuetudinis sufficere, ita ut contra illas
+          <lb ed="#P" n="102"/>amplius judicari non possit, nec major 
+          pro<lb break="no" ed="#P" n="103"/>batio pro consuetudine postulari. Quod potuit
+          <lb ed="#P" n="104"/>optime institui, licet in jure communi fundari
+          <lb ed="#P" n="105"/>non possit : nam l. 3, c. de Episc. aud., quam
+          <lb ed="#P" n="106"/>allegant dictae Glossae, non de hoc loquitur,
+          <lb ed="#P" n="107"/>sed de venia non facile concedenda ei qui
+          <lb ed="#P" n="108"/>iterato peccat, quod pertinet ad solum 
+          fac<lb break="no" ed="#P" n="109"/>tum, et ad impropriam consuetudinem 
+          in<lb break="no" ed="#P" n="110"/>choatam, seu assuefactionem, ut supra dixi.
+        </p>
+        <p xml:id="szdleg-q44257-d1e707">
+          <pb ed="#P" n="179"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>9. Addit vero Panormitan., ex opinione 
+          doc<lb break="no" ed="#P" n="2"/>torum utriusque juris, licet sententia judicis
+          <lb ed="#P" n="3"/>non sit necessaria ad consuetudinem, posse 
+          ta<lb break="no" ed="#P" n="4"/>men juvare ad iilam non solum probandam,
+          <lb ed="#P" n="5"/>sed etiam introducendam. Quia nimirum, si
+          <lb ed="#P" n="6"/>judex judicavit contra legem, populo sciente,
+          <lb ed="#P" n="7"/>et non contradicente, per hoc indicatur 
+          con<lb break="no" ed="#P" n="8"/>sensus populi de consuetudine introducenda.
+          <lb ed="#P" n="9"/>Sed certe si sententia fuit justa, supponere 
+          de<lb break="no" ed="#P" n="10"/>bet consuetudinem perfectam et derogantem
+          <lb ed="#P" n="11"/>legi. et ita non potest deservire ad 
+          introducen<lb break="no" ed="#P" n="12"/>dam consuetudinem, sed ad ostendendam et
+          <lb ed="#P" n="13"/>roborandam. Si autem fuit injusta, debilis est
+          <lb ed="#P" n="14"/>conjectura; quia non potest facile populus 
+          re<lb break="no" ed="#P" n="15"/>sistere judici, aut contradicere, et ideo inde
+          <lb ed="#P" n="16"/>non colligitur consensus ejus, sed tolerantia,
+          <lb ed="#P" n="17"/>quia obviare non potest. Et ideo Anton. et 
+          Ro<lb break="no" ed="#P" n="18"/>chus ibi multas addunt circumstantias, ut 
+          con<lb break="no" ed="#P" n="19"/>jectura vim aliquam habeat, quas omitto, quia,
+          <lb ed="#P" n="20"/>non obstante tali sententia, seu judicio, iidem
+          <lb ed="#P" n="21"/>actus necessarii sunt ad consuetudinem, 
+          idem<lb break="no" ed="#P" n="22"/>que tempus ad illius praescriptionem, quia
+          <lb ed="#P" n="23"/>sententia injusta non potest in hoc aliquid
+          <lb ed="#P" n="24"/>indulgere, neque oppositum in jure aliquo
+          <lb ed="#P" n="25"/>potest fundari.
+        </p>
+        <p xml:id="szdleg-q44257-d1e768">
+          <lb ed="#P" n="26"/>10. Aliter vero Sylvest., verb. Consuetudo,
+          <lb ed="#P" n="27"/>quaest. 4, dicit in actibus judicialibus 
+          senten<lb break="no" ed="#P" n="28"/>tiam conferre ad consuetudinem 
+          introducen<lb break="no" ed="#P" n="29"/>dam, ita ut, inquit, er duabus sententiis, 
+          in<lb break="no" ed="#P" n="30"/>Lterveniente lapsu temporis congruo, et accedente
+          <lb ed="#P" n="31"/>consensu populi a principio, vel ex post-facto,
+          <lb ed="#P" n="32"/>prasumatur consuetudo, quia habent 
+          aptitudi<lb break="no" ed="#P" n="33"/>nem ad consuetudinem inducendam, 1. Nam
+          <lb ed="#P" n="34"/>el his, ff. de Inoffic. test., et l. S quis, S Quod
+          <lb ed="#P" n="35"/>sub eodem ff. ad Sylan. Hoc vero 
+          declaratio<lb break="no" ed="#P" n="36"/>ne et examinatione indiget. Certum est enim
+          <lb ed="#P" n="37"/>quod, sicut per actus extrajudiciales 
+          contrac<lb break="no" ed="#P" n="38"/>tuum, testamentorum, et aliarum 
+          observantia<lb break="no" ed="#P" n="39"/>rum, potest induci jus consuetudinis circa 
+          si<lb break="no" ed="#P" n="40"/>miles actus, ita per actus judiciales potest 
+          in<lb break="no" ed="#P" n="41"/>duci consuetudo ad similes actus, quam supra
+          <lb ed="#P" n="42"/>diximus nomine styli significari, et ex ibi 
+          dic<lb break="no" ed="#P" n="43"/>tis, et a paritate rationis, vel certe a fortiori
+          <lb ed="#P" n="44"/>hoc constat. Unde ulterius addo, sicut ad 
+          con<lb break="no" ed="#P" n="45"/>suetudinem extrajudicialem non requiritur
+          <lb ed="#P" n="46"/>sententia, ita neque ad judicialem, seu quae ex
+          <lb ed="#P" n="47"/>actibus judicialibus consurgit. Quia etiam
+          <lb ed="#P" n="48"/>multi actus judiciales sunt distincti a 
+          senten<lb break="no" ed="#P" n="49"/>tia, et possunt multiplicari, et sufficienti 
+          tem<lb break="no" ed="#P" n="50"/>pore durare sine ulla sententia circa talem
+          <lb ed="#P" n="51"/>consuetudinem, vel secundum illam, aut 
+          con<lb break="no" ed="#P" n="52"/>tra illam. Tunc ergo introducitur consuetudo
+          <lb ed="#P" n="53"/>absque sententia: nam aeque procedunt omnes
+          <lb ed="#P" n="54"/>rationes factae in talibus actibus, et tali 
+          con<lb break="no" ed="#P" n="55"/>suetudine, ac in extrajudiciali. Imo, licet ac-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tus illi judiciales sint actus dicendi jus, seu 
+          li<lb break="no" ed="#P" n="57"/>cet sint sententiae multiplicatae, non erit 
+          un<lb break="no" ed="#P" n="58"/>quam necessaria sententia, quasi reflexive 
+          ju<lb break="no" ed="#P" n="59"/>dicans de consuetudine sic judicandi. Et ita
+          <lb ed="#P" n="60"/>ftormaliter, ac proprie loquendo, ad judicialem
+          <lb ed="#P" n="61"/>consuetudinem, ultra actus per quos inducitur
+          <lb ed="#P" n="62"/>in actu exercito, nunquam requiritur 
+          senten<lb break="no" ed="#P" n="63"/>ua in contradictorio judicio de ipsa 
+          consuetu<lb break="no" ed="#P" n="64"/>dine, vel de jure per ipsam introducto ; licet
+          <lb ed="#P" n="65"/>si consuetudo sit de judicando hoc vel illo
+          <lb ed="#P" n="66"/>modo, vel de pronuntiando sententiam per
+          <lb ed="#P" n="67"/>hunc vel illum, necessarium sit introduci per
+          <lb ed="#P" n="68"/>actus judicandi, et ita formaliter ac proprie
+          <lb ed="#P" n="69"/>nulla est differentia inter actus judiciales et
+          <lb ed="#P" n="70"/>extrajudiciales.
+        </p>
+        <p xml:id="szdleg-q44257-d1e870">
+          <lb ed="#P" n="71"/>11. Aliorum sententia. — Dicunt tamen multi
+          <lb ed="#P" n="72"/>in sententiis ferendis, imo in actibus 
+          judiciali<lb break="no" ed="#P" n="73"/>bus sufficere duos actus ad introducendam 
+          con<lb break="no" ed="#P" n="74"/>suetudinem, et hoc videtur intendere Sylvest.
+          <lb ed="#P" n="75"/>supra, et sentit Gloss. in d. 1. De quibus, verb.
+          <lb ed="#P" n="76"/>Inveterata, et Joan. And., in d. cap. Abbate,
+          <lb ed="#P" n="77"/>et Bart., in d. l. De quibus, in repetit., q. 4;
+          <lb ed="#P" n="78"/>et multi, loquentes de stylo, significant duos
+          <lb ed="#P" n="79"/>actus in judicio sufficere ad stylum 
+          inducen<lb break="no" ed="#P" n="80"/>dum ; stylus autem non est nisi consuetudo
+          <lb ed="#P" n="81"/>quaedam in illa materia, ut supra dixi. Ita vero
+          <lb ed="#P" n="82"/>de stylo sentire videtur Dec. in rubr. de 
+          Con<lb break="no" ed="#P" n="83"/>stit., n. 35, ubi dicit ad stylum non requiri
+          <lb ed="#P" n="84"/>temporis lapsum. Imo Rebuff., tract. de 
+          Con<lb break="no" ed="#P" n="85"/>suet., art. 2, Gloss. 13, n. 10 et 17, dicit ad
+          <lb ed="#P" n="86"/>stylum non requiri usus probationem , 
+          ac<lb break="no" ed="#P" n="87"/>tuumve pluralitatem, ubi alios refert. Et hanc
+          <lb ed="#P" n="88"/>sententiam probat Christoph. de Paz in rubric.
+          <lb ed="#P" n="89"/>legum styli, 1 part., n. 76 et sequentibus.
+          <lb ed="#P" n="90"/>Et citat Cynum in lege 2, c. Quae sit longa
+          <lb ed="#P" n="91"/>consuetudo, dicentem tantam esse styli aü
+          cto<lb break="no" ed="#P" n="92"/>ritatem, ut, etiamsi ab uno judice inductus
+          <lb ed="#P" n="93"/>sit, legis vim habeat, et loquitur de stylo 
+          in<lb break="no" ed="#P" n="94"/>ducto moribus sine lege scripta, ut idem Paz
+          <lb ed="#P" n="95"/>late declarat infra, n. 86 et sequentibus. Hoc
+          <lb ed="#P" n="96"/>etiam confirmare videntur multa, quae de 
+          ob<lb break="no" ed="#P" n="97"/>servantia tradit Anton., in dict. cap. ult., et ex
+          <lb ed="#P" n="98"/>illo Rochus ibi, in Praefat., n. 23, ubi dicunt
+          <lb ed="#P" n="99"/>non requirere tempus, sed duos, vel tres actus,
+          <lb ed="#P" n="100"/>et nihillominus in judiciis esse sequendam.
+          <lb ed="#P" n="101"/>Maxime si talis observantia sit declarativa, et
+          <lb ed="#P" n="102"/>interpretativa juris. Denique ad idem faciunt
+          <lb ed="#P" n="103"/>multa, quae de solito et consueto tradit idem
+          <lb ed="#P" n="104"/>Rochus, supra, q. 5, n. 34, contendens ad 
+          con<lb break="no" ed="#P" n="105"/>suetum duos actus sufficere, praecipue in 
+          judi<lb break="no" ed="#P" n="106"/>cialibus.
+        </p>
+        <p xml:id="szdleg-q44257-d1e951">
+          <lb ed="#P" n="107"/>12. Quid de actibus judicialibus dicendum.
+          <lb ed="#P" n="108"/>— Quea mora in actibus judicialibus requiritur.
+          <lb ed="#P" n="109"/>— Sed nihilominus, proprie et cum 
+          propor<lb break="no" ed="#P" n="110"/>tione loquendo, nihil speciale in hoc invenio
+          <pb ed="#P" n="180"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in actibus judicialibus, his seclusis in quibus
+          <lb ed="#P" n="2"/>intervenit persona et auctoritas supremi 
+          prin<lb break="no" ed="#P" n="3"/>cipis potentis condere legem; nam in eo est
+          <lb ed="#P" n="4"/>specialis ratio quoad aliqua, ut statim 
+          expo<lb break="no" ed="#P" n="5"/>nam. Itaque, licet verissimum sit, per stylum
+          <lb ed="#P" n="6"/>non scriptum , posse induci jus, ut docent
+          <lb ed="#P" n="7"/>omnes jurisperiti, in c. Ea litteris, de Constit.,
+          <lb ed="#P" n="8"/>et in dict. l. 2, c. Quae si longa consuetudo; et
+          <lb ed="#P" n="9"/>specialiter Bald. in l. S7 quis intra, c. de 
+          Bo<lb break="no" ed="#P" n="10"/>nis damnat., Jas., in l. Si domus, In pecunia,
+          <lb ed="#P" n="11"/>ft. de Legat., 1, n. 5, nihilominus, quod ad hoc
+          <lb ed="#P" n="12"/>jus inducendum sufficiant duo actus, vel 
+          cer<lb break="no" ed="#P" n="13"/>tus aliquis numerus, nullo jure invenio 
+          defini<lb break="no" ed="#P" n="14"/>tum, nec verisimili ratione probari posse, aut
+          <lb ed="#P" n="15"/>differentiam in hoc constitui inter stylum et
+          <lb ed="#P" n="16"/>alias consuetudines in aliis actuum generibus.
+          <lb ed="#P" n="17"/>Et ideo dico, etiam in actibus judicialibus,
+          <lb ed="#P" n="18"/>requiri frequentiam cum ea temporis mora,
+          <lb ed="#P" n="19"/>quae vel ad praescribendam consuetudinem
+          <lb ed="#P" n="20"/>sufticiat, vel ad sufficienter ostendendum 
+          com<lb break="no" ed="#P" n="21"/>munem populi et principis consensum.
+        </p>
+        <p xml:id="szdleg-q44257-d1e1012">
+          <lb ed="#P" n="22"/>13. Objectiones. — Solutio. — Et imprimis
+          <lb ed="#P" n="23"/>hoc significant jura, quae etiam in stylo seu
+          <lb ed="#P" n="24"/>actibus ejus absolute requirunt usum 
+          frequen<lb break="no" ed="#P" n="25"/>tem et morem, ut patet ex l. 1, c. Quae sit
+          <lb ed="#P" n="26"/>long. consuet. ibi: Probatis iis que 
+          frequen<lb break="no" ed="#P" n="27"/>ter in oppido in eodem controversiarum genere
+          <lb ed="#P" n="28"/>servata sunt. hem ex l. Nam et iis (quam
+          <lb ed="#P" n="29"/>Sylvest. citat), ff. de Inoffic. testament., ibi:
+          <lb ed="#P" n="30"/>Cwum obtinere assidue soleunt; nam particula
+          <lb ed="#P" n="31"/>assidue plus significat quam binos actus. Alia
+          <lb ed="#P" n="32"/>vero lex, ad Sylanian., quam Sylvest. allegat,
+          <lb ed="#P" n="33"/>nihil prorsus ad rem praesentem facit. Alia
+          <lb ed="#P" n="34"/>item jura, quae requirunt actuum frequentiam,
+          <lb ed="#P" n="35"/>generaliter et indifferenter loquuntur. 
+          Prae<lb break="no" ed="#P" n="36"/>terea hoc clare sentit Bart. in l. De quibus,
+          <lb ed="#P" n="37"/>n. 14, nam etiam in sententiis requirit 
+          decen<lb break="no" ed="#P" n="38"/>nium, et tacitum consensum populi. Idem 
+          ma<lb break="no" ed="#P" n="39"/>gis sensit Deci., dicto n. 35; ait enim in stylo
+          <lb ed="#P" n="40"/>ejus qui habet potestatem condendi leges, non
+          <lb ed="#P" n="41"/>requiri temporis lapsum, alioqui vero 
+          deside<lb break="no" ed="#P" n="42"/>rari ad styli introductionem; eadem ergo 
+          ra<lb break="no" ed="#P" n="43"/>tione requiritur actuum frequentia prudenti
+          <lb ed="#P" n="44"/>arbitrio definienda juxta supra dicta. Idem
+          <lb ed="#P" n="45"/>sensit Salicet., in d. lib. 2, c. Quae sit longa
+          <lb ed="#P" n="46"/>consuet., n. 23, dicens actus unius judicis
+          <lb ed="#P" n="47"/>plurificatos non inducere stylum, nisi summae
+          <lb ed="#P" n="48"/>potestatis magistratus sit. Quod probat Bald.
+          <lb ed="#P" n="49"/>in 1. 3 ejusdem tit., et Bart., in l. 
+          Jurisperi<lb break="no" ed="#P" n="50"/>tos, ff. de Excus. tut., circa finem ; et plura
+          <lb ed="#P" n="51"/>pro hac parte videri possunt in Burgensi in
+          <lb ed="#P" n="52"/>Prooem. legum Tauri, n. 220 et sequentibus;
+          <lb ed="#P" n="53"/>et in Christoph. de Paz, ubi supra. Ratio vero
+          <lb ed="#P" n="54"/>jam tacta est, quia neque in judice, neque in
+          <lb ed="#P" n="55"/>ministris ejus est potestas condendi jus, etiamsi
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>expresse velint; ergo nec possunt per duos vel
+          <lb ed="#P" n="57"/>tres actus illud inducere tacite, cum nulla ratio
+          <lb ed="#P" n="58"/>vel lex hoc eis concedat.
+        </p>
+        <p xml:id="szdleg-q44257-d1e1097">
+          <lb ed="#P" n="59"/>14. Dices : esto hoc verum sit in caeteris
+          <lb ed="#P" n="60"/>actibus judicialibus praeparatoriis (ut sic 
+          di<lb break="no" ed="#P" n="61"/>cam) ad sententiam, tamen in ipsa sententia
+          <lb ed="#P" n="62"/>esse specialem rationem, quia per illam 
+          dici<lb break="no" ed="#P" n="63"/>tur et explicatur jus, et ideo videtur habere
+          <lb ed="#P" n="64"/>vim statuendi jus, quia publica auctoritate
+          <lb ed="#P" n="65"/>fertur, et praesertim bis repetita, et communi
+          <lb ed="#P" n="66"/>consensu populi acceptata, quia tunc jam 
+          vi<lb break="no" ed="#P" n="67"/>detur esse jus communi consensu approbatum.
+          <lb ed="#P" n="68"/>Respondeo: si judex proferens sententiam non
+          <lb ed="#P" n="69"/>sit supremus princeps, et ita non habeat 
+          potes<lb break="no" ed="#P" n="70"/>tatem condendi legem, ejus sententiam, etiam
+          <lb ed="#P" n="71"/>iteratam, vel etiam a diversis judicibus 
+          ejus<lb break="no" ed="#P" n="72"/>dem ordinis repetitam, non facere jus propter
+          <lb ed="#P" n="73"/>solum numerum actuum. Quod potest sumi
+          <lb ed="#P" n="74"/>ex lL. Nam imperator, tt. de Leg., ibi: Aut
+          <lb ed="#P" n="75"/>rerum perpetuo simaliter judicatarum. Ratio
+          <lb ed="#P" n="76"/>vero est, quia illae sententiae non sufficiunt 
+          in<lb break="no" ed="#P" n="77"/>ducere jus per modum consuetudinis, propter
+          <lb ed="#P" n="78"/>rationem factam, nec per modum legis 
+          scri<lb break="no" ed="#P" n="79"/>ptae, quia non est potestas in judicante. In quo
+          <lb ed="#P" n="80"/>differt talis sententia ab ea quae est a supremo
+          <lb ed="#P" n="81"/>principe : nam illa inducere potest jus, non
+          <lb ed="#P" n="82"/>per modum consuetudinis, sed per modum
+          <lb ed="#P" n="83"/>legis scriptae, modo supra explicato in 1. 3et 4;
+          <lb ed="#P" n="84"/>et ideo tunc nec duo actus requiruntur, sed
+          <lb ed="#P" n="85"/>unus sufficit. In inferiori vero nec plures 
+          suf<lb break="no" ed="#P" n="86"/>ficiunt, ut expresse tradit imperator in leg.
+          <lb ed="#P" n="87"/>Nemo, c. de Sentent. et interloc. omni. judic.
+          <lb ed="#P" n="88"/>Ratione cujus dixit Gloss. in dicto cap. ult.,
+          <lb ed="#P" n="89"/>verb. Legitime, quod duae vices non sufticiunt,
+          <lb ed="#P" n="90"/>quia non exemplis, sed legibus judicandum est,
+          <lb ed="#P" n="91"/>ut in dicta l. dicitur. Habet ergo sententia
+          <lb ed="#P" n="92"/>privati judicis aliquam auctoritatem, et si sit
+          <lb ed="#P" n="93"/>senatus publici aut regii, multo majorem, 
+          au<lb break="no" ed="#P" n="94"/>geturque per iteratas sententias conformes,
+          <lb ed="#P" n="95"/>non tamen habent legis auctoritatem, sed 
+          gra<lb break="no" ed="#P" n="96"/>vis doctoris, vel etiam plurium doctorum, ut
+          <lb ed="#P" n="97"/>constat in decisionibus hotae. et similibus.
+          <lb ed="#P" n="98"/>Quod si in aliquo regno specialiter statutum
+          <lb ed="#P" n="99"/>sit, ut judices non recedant ab eo quod bis,
+          <lb ed="#P" n="100"/>vel pluries in senatu regio fuerit judicatum,
+          <lb ed="#P" n="101"/>id erit speciale in tali regno, et non in virtute
+          <lb ed="#P" n="102"/>consuetudinis, sed illius legis scriptae: seclusa
+          <lb ed="#P" n="103"/>autem lege, tacitus consensus populi aut 
+          prin<lb break="no" ed="#P" n="104"/>cipis non praesumitur, nisi diuturno tempore
+          <lb ed="#P" n="105"/>et per sufficientem actuum frequentiam de illo
+          <lb ed="#P" n="106"/>constet.
+        </p>
+        <p xml:id="szdleg-q44257-d1e1205">
+          <lb ed="#P" n="107"/>15. Duplex modus intelligendi siylum. —
+          <lb ed="#P" n="108"/>Ad ea vero quae de stylo in contrarium 
+          allega<lb break="no" ed="#P" n="109"/>bantur, respondeo duobus modis posse 
+          intelli<lb break="no" ed="#P" n="110"/>gi. Primo, de stylo habente vim legis, et sic
+          <pb ed="#P" n="181"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dico, non procedere nisi quando stylus, vel
+          <lb ed="#P" n="2"/>lege scripta probatus est, vel sufficienti 
+          con<lb break="no" ed="#P" n="3"/>suetudine praescriptus, vel certe ita est proprius
+          <lb ed="#P" n="4"/>supremi principis habentis auctoritatem 
+          con<lb break="no" ed="#P" n="5"/>dendi legem, ut sufficienter per illum 
+          decla<lb break="no" ed="#P" n="6"/>ret hanc esse suam voluntatem. Secundo, id
+          <lb ed="#P" n="7"/>potest intelligi de stylo non fundato in 
+          aucto<lb break="no" ed="#P" n="8"/>ritate principis aut legis, nec sufficienti 
+          con<lb break="no" ed="#P" n="9"/>suetudine introducto, sed per aliquos actus
+          <lb ed="#P" n="10"/>consueto, et tunc dico esse sequendum et 
+          imi<lb break="no" ed="#P" n="11"/>tandum, non ex legis obligatione, sed 
+          secun<lb break="no" ed="#P" n="12"/>dum prudentiam, et convenientem procedendi
+          <lb ed="#P" n="13"/>modum, nisi ratio in contrarium vehementer
+          <lb ed="#P" n="14"/>urgeat, vel alia gravissima necessitas cogat, et
+          <lb ed="#P" n="15"/>hoc modo credo esse locutos de observantia et
+          <lb ed="#P" n="16"/>de stylo facti, Antonium, Rochum, et plures
+          <lb ed="#P" n="17"/>alios ex auctoribus allegatis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

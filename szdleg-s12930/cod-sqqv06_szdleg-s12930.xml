@@ -1,0 +1,1267 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 6</title>
+            <author ref="#FranciscoSuarez">Francisco Suarez</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 6</title>
+               <date when="2026-01-29">January 29, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2026-01-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="449"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="szdleg-s12930"><!-- l9c6 -->
+            <head xml:id="szdleg-s12930-Hd1e101">Caput 6</head>
+            <head xml:id="szdleg-s12930-Hd1e103" type="question-title">De effectibus veteris legis.</head>
+            <p xml:id="szdleg-s12930-d1e106">
+               <lb ed="#P" n="59"/>CAPUT VI.
+<lb ed="#P" n="60"/>DE EFFECTIBUS VETERIS LEGIS.
+</p>
+            <p xml:id="szdleg-s12930-d1e113">
+               <lb ed="#P" n="61"/>1. Prima conclusio. —Duplex effectus legis
+<lb ed="#P" n="62"/>distingui potest ex dictis in superioribus:
+<lb ed="#P" n="63"/>unum per se et immediatus, qui per ipsam
+<lb ed="#P" n="64"/>legem moraliter fit ; alius remotus, qui 
+resul<lb break="no" ed="#P" n="65"/>tat ex opere quo lex impletur aut violatur:
+<lb ed="#P" n="66"/>sub priori membro continetur praecipue 
+obli<lb break="no" ed="#P" n="67"/>gatio in conscientia, sub qua, ut in 
+superiori<lb break="no" ed="#P" n="68"/>bus dixi, continentur quatuor effectus legis,
+<lb ed="#P" n="69"/>quos Isidorus numerat, praesertim duo primi,
+<lb ed="#P" n="70"/>qui sunt praecipere et prohibere: nam 
+ter<lb break="no" ed="#P" n="71"/>tius, qui est permittere, vel dicit potius 
+abla<lb break="no" ed="#P" n="72"/>tionem obligationis, vel, si dicat 
+exemptio<lb break="no" ed="#P" n="73"/>nem a poena, dicit consequenter obligationem
+<lb ed="#P" n="74"/>legis ad illam exemptionem servandam. Et
+<lb ed="#P" n="75"/>simili modo punitio, quae est quartus effectus,
+<lb ed="#P" n="76"/>quoad obligationem ejus, sub hoc membro
+<lb ed="#P" n="77"/>comprehendi potest. Sub altero vero membro
+<lb ed="#P" n="78"/>continetur imprimis opus ipsum lege 
+praece<lb break="no" ed="#P" n="79"/>ptum, vel omissio operis prohibiti, deinde
+<lb ed="#P" n="80"/>pona imposita transgressioni praecepti, ad
+<lb ed="#P" n="81"/>quam etiam praemium reducitur ; denique
+<lb ed="#P" n="82"/>huc etiam spectat ultimus effectus per legem
+<lb ed="#P" n="83"/>intentus, qui est facere bonum subditum 
+le<lb break="no" ed="#P" n="84"/>gis. Isti ergo omnes effectus in hac lege 
+di<lb break="no" ed="#P" n="85"/>vina veteri considerari possunt et debent:
+<lb ed="#P" n="86"/>unde dico primo legem illam habuisse illum
+<lb ed="#P" n="87"/>effectum legis, qui per se convenit legi, eo
+<lb ed="#P" n="88"/>ipso quod vera lex est, qualis est obligatio in
+<lb ed="#P" n="89"/>conscientia. Haec assertio videtur manifesta ex
+<lb ed="#P" n="90"/>dictis supra de lege in communi. Htem est
+<lb ed="#P" n="91"/>etiam certa ; nam per transgressionem illius
+<lb ed="#P" n="92"/>legis incurri poterat culpa et peccatum coram
+<lb ed="#P" n="93"/>Deo, atque etiam reatus mortis aeternae; ergo
+<lb ed="#P" n="94"/>lex ipsa in conscientia obligavit. Item Paulus,
+<lb ed="#P" n="95"/>ad Galat. 5, testificatur omni homini 
+cireum<lb break="no" ed="#P" n="96"/>cidenti se, quia debitor est universae legis 
+fa<lb break="no" ed="#P" n="97"/>ciendae; debitum autem illud potissime ad
+<lb ed="#P" n="98"/>conscientiam pertnet, ut per se notum est.
+<lb ed="#P" n="99"/>De hac autem obligatione dubitari potest,
+<lb ed="#P" n="100"/>quanta fuerit, id est, an fuerit sub mortali vel
+<lb ed="#P" n="101"/>veniali. Hoc vero non habet in praesenti 
+spe<lb break="no" ed="#P" n="102"/>cialem difficultatem. Nam de tota lege 
+collec<lb break="no" ed="#P" n="103"/>tive sumpta non potest una generalis regula
+<lb ed="#P" n="104"/>tradi: complectebatur enim plura praecepta,
+<lb ed="#P" n="105"/>quaedam graviora , et alia leviora, et ideose.
+<lb ed="#P" n="106"/>cundum diversa praecepta uno, vel alio modo
+<lb ed="#P" n="107"/>obligare poterat. Ad discernendam autem
+<pb ed="#P" n="450"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quantitatem, seu qualitatem obligationis, 
+ap<lb break="no" ed="#P" n="2"/>plicandae sunt regulae supra datae de lege 
+hu<lb break="no" ed="#P" n="3"/>mana. Nam licet lex divina ex dignitate 
+prae<lb break="no" ed="#P" n="4"/>cipientis majorem rationem obligandi habeat
+<lb ed="#P" n="5"/>secundum generalem rationem obedientiae ,
+<lb ed="#P" n="6"/>justitiae, aut charitatis ad Deum, nihilominus
+<lb ed="#P" n="7"/>lex etiam Dei, simphiciter lata in unaquaque
+<lb ed="#P" n="8"/>materia, obligat secundum specificam 
+ratio<lb break="no" ed="#P" n="9"/>nem, et gravitatem ejus, ut sumi potest ex
+<lb ed="#P" n="10"/>D. Thom., q. 100, art. 2, ubi de praeceptis
+<lb ed="#P" n="11"/>moralibus specialiter loquitur ; est autem 
+ea<lb break="no" ed="#P" n="12"/>dem, vel major ratio de caeteris. Unde etiam
+<lb ed="#P" n="13"/>sumitur ratio: nam in lege naturah, licet 
+di<lb break="no" ed="#P" n="14"/>vina sit, ita discernitur illa duplex quantitas
+<lb ed="#P" n="15"/>obligationis ; ergo idem est in lege divina 
+po<lb break="no" ed="#P" n="16"/>sitiva. In qua reperiuntur etiam specialia
+<lb ed="#P" n="17"/>verba et comminationes poenarum, quae 
+ex<lb break="no" ed="#P" n="18"/>pendi etiam possunt ad gravitatem 
+obligatio<lb break="no" ed="#P" n="19"/>nis discernendam.
+</p>
+            <p xml:id="szdleg-s12930-d1e263">
+               <lb ed="#P" n="20"/>2. Dubium. — Secundo vero, dubitari 
+po<lb break="no" ed="#P" n="21"/>test specialiter an lex illa, quatenus 
+conti<lb break="no" ed="#P" n="22"/>nebat praecepta moralia, induxerit novam
+<lb ed="#P" n="23"/>obligationem in conscientia. Et ratio 
+dubi<lb break="no" ed="#P" n="24"/>tandi est, quia illa praecepta solum in 
+mate<lb break="no" ed="#P" n="25"/>ria necessaria versabantur, id est, in qua lex
+<lb ed="#P" n="26"/>naturalis obligabat, ut supra visum est: ergo
+<lb ed="#P" n="27"/>non potuit lex divina novam obligationem
+<lb ed="#P" n="28"/>addere. Probatur consequentia, quia vel illa
+<lb ed="#P" n="29"/>obligatio esset distinctae speciei, vel ejusdem ;
+<lb ed="#P" n="30"/>non primum, quia lex divina positiva, 
+qua<lb break="no" ed="#P" n="31"/>tenus moralis fuit, praecipiebat morales actus
+<lb ed="#P" n="32"/>sub eisdem rationibus virtutum, sub quibus
+<lb ed="#P" n="33"/>naturalis lex eosdem praecipit, ut plane 
+sen<lb break="no" ed="#P" n="34"/>sit D. Thom., dict. art. 2, et videtur per se
+<lb ed="#P" n="35"/>manifestum ; ergo non potuit inducere 
+obli<lb break="no" ed="#P" n="36"/>gationem specie distinctam. Neque etiam solo
+<lb ed="#P" n="37"/>numero distinctam, quia sicut accidentia 
+nu<lb break="no" ed="#P" n="38"/>mero tantum distincta non multiplicantur
+<lb ed="#P" n="39"/>in eodem subjecto, ita neque obligationes
+<lb ed="#P" n="40"/>ejusdem rationis multiplicantur circa 
+eam<lb break="no" ed="#P" n="41"/>dem materiam subjectam, ut plura vota 
+cas<lb break="no" ed="#P" n="42"/>titatis in eadem persona non inducunt plures
+<lb ed="#P" n="43"/>obligationes. Et ita videtur haec pars posse
+<lb ed="#P" n="44"/>probabiliter defendi. Nam sicut in lege 
+hu<lb break="no" ed="#P" n="45"/>mana, ita et in lege divina positiva, 
+distin<lb break="no" ed="#P" n="46"/>gui potest duplex lex : una constitutiva, quae
+<lb ed="#P" n="47"/>obligationem inducit ; alia declarativa, quae
+<lb ed="#P" n="48"/>non ponit novam obhgationem, sed 
+praexis<lb break="no" ed="#P" n="49"/>tentem declarat, et ita lex vetus quoad 
+prae<lb break="no" ed="#P" n="50"/>cepta moralia dici potest fuisse declarativa,
+<lb ed="#P" n="51"/>non constitutiva.
+</p>
+            <p xml:id="szdleg-s12930-d1e336">
+               <lb ed="#P" n="52"/>3. Conclusio. —Nihilominus dicendum 
+cen<lb break="no" ed="#P" n="53"/>seo, etiam illa praecepta de se induxisse 
+obli<lb break="no" ed="#P" n="54"/>gationem in conscientia. Ratio est, quia illa
+<lb ed="#P" n="55"/>fuerunt vera praecepta et mandata ; imo illa
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>per antonomasiam solent praecepta vocari et
+<lb ed="#P" n="57"/>distingui a caeremoniis et judiciis, ut patet
+<lb ed="#P" n="58"/>Deuter. 4 et 5; ergo inducebant 
+obligatio<lb break="no" ed="#P" n="59"/>nem : nam haec necessario sequitur ex vi 
+prae<lb break="no" ed="#P" n="60"/>cepti et legis. Nam lex pure declarativa, si
+<lb ed="#P" n="61"/>de se obligationem non inducit, magis est
+<lb ed="#P" n="62"/>pura doctrina quam lex. Et ita lex 
+declara<lb break="no" ed="#P" n="63"/>tiva humana , quando non inducit novam
+<lb ed="#P" n="64"/>obligationem ad actum, saltem obligat ad 
+se<lb break="no" ed="#P" n="65"/>quendam illam declarationem, ut sit vera lex.
+<lb ed="#P" n="66"/>Lex autem illa divina non solum obligat per
+<lb ed="#P" n="67"/>modum doctrina, seu Scripturae sacrae, sed
+<lb ed="#P" n="68"/>etiam per modum praecepti et legis. Unde
+<lb ed="#P" n="69"/>etiam ex citatis locis manifeste ostenditur
+<lb ed="#P" n="70"/>haec obligatio, ut patet ex illis verbis : 
+Cus<lb break="no" ed="#P" n="71"/>todi igitur temetipsum el animam tuum 
+solli<lb break="no" ed="#P" n="72"/>cite, ne obliviscaris verborum que viderunt
+<lb ed="#P" n="73"/>oculi tui, etc. ; et cap. b : Quis det talem eos
+<lb ed="#P" n="74"/>habere mentem wt timeant me, et custodiant
+<lb ed="#P" n="75"/>universa mandata mea ? et infra: Custodite et
+<lb ed="#P" n="76"/>facite que praecepit Dominus ; et infra : Per
+<lb ed="#P" n="77"/>ciam quam pracepit Dominus Deus vester ,
+<lb ed="#P" n="78"/>ambulabitis, ut vivatis. Quae omnia potissime
+<lb ed="#P" n="79"/>ibi dicuntur ratione praeceptorum moralium.
+<lb ed="#P" n="80"/>Declarari praeterea hoc potest, quia praecepta
+<lb ed="#P" n="81"/>illa, solum quia erant praecepta illius legis,
+<lb ed="#P" n="82"/>obligarent quemcumque Israelitam, etiamsi
+<lb ed="#P" n="83"/>invincibiliter ignoraret aliquod illorum esse
+<lb ed="#P" n="84"/>de lege naturali, et e converso non 
+obliga<lb break="no" ed="#P" n="85"/>rent alienigenam, etiamsi sciret data essea
+<lb ed="#P" n="86"/>Deo illi populo, si alias eodem modo 
+ignora<lb break="no" ed="#P" n="87"/>ret omnia esse de jure naturali : nam etiam
+<lb ed="#P" n="88"/>nunc non desunt, qui aliqua ex illis vocent
+<lb ed="#P" n="89"/>de jure gentium, et non naturali : ergo 
+si<lb break="no" ed="#P" n="90"/>gnum est praecepta illa induxisse specialem
+<lb ed="#P" n="91"/>obligationem respectu illius populi. Tandem
+<lb ed="#P" n="92"/>idem confirmatur, quia Judaei violantes 
+il<lb break="no" ed="#P" n="93"/>lam legem gravius peccabant quam Gentiles,
+<lb ed="#P" n="94"/>qui solam legem naturalem violabant. Dices
+<lb ed="#P" n="95"/>illud esse verum, non ratione novae 
+obliga<lb break="no" ed="#P" n="96"/>tonis per illa praecepta impositae. sed quia
+<lb ed="#P" n="97"/>per legem data est cognitio peccati, ut 
+dici<lb break="no" ed="#P" n="98"/>tur ad Roman. 3, et ex majori cognitione 
+ag<lb break="no" ed="#P" n="99"/>gravatur peccatum : nam ita explicatur illud
+<lb ed="#P" n="100"/>peccatum ad Roman. 7. Sed licet hic modus
+<lb ed="#P" n="101"/>verus sit, non potest alius excludi; nam
+<lb ed="#P" n="102"/>etiam augetur peccatum, quando multa 
+prae<lb break="no" ed="#P" n="103"/>cepta etiam ejusdem rationis circa idem 
+mul<lb break="no" ed="#P" n="104"/>tiplicantur. Et ita communiter censent 
+doc<lb break="no" ed="#P" n="105"/>tores, quando lex canonica vel civilis, vel in
+<lb ed="#P" n="106"/>eadem materia multiplicatur vel aliquid 
+prae<lb break="no" ed="#P" n="107"/>cipit jure naturali mandatum, majorem oriri
+<lb ed="#P" n="108"/>obligationem , sive illa major obligatio sit
+<lb ed="#P" n="109"/>per aggregationem plurium obligationum,
+<lb ed="#P" n="110"/>sive per augmentum ejusdem, quod ad rem
+<pb ed="#P" n="451"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>moralem parum refert. Et ita respondetur 
+fa<lb break="no" ed="#P" n="2"/>cile ad rationem in contrarium; nam illa
+<lb ed="#P" n="3"/>praecepta de se possunt inducere obligationem,
+<lb ed="#P" n="4"/>etiamsi non praexisteret , et augere 
+praexi<lb break="no" ed="#P" n="5"/>stentem ; et ideo non repugnat in materia
+<lb ed="#P" n="6"/>alioqui necessaria ex jure naturali, dari 
+le<lb break="no" ed="#P" n="7"/>gem positivam obligantem, sive humanam,
+<lb ed="#P" n="8"/>sive divinam.
+</p>
+            <p xml:id="szdleg-s12930-d1e490">
+               <lb ed="#P" n="9"/>4. An praecepta judicialia in conscientia
+<lb ed="#P" n="10"/>obligabant.—Vertio, potest specialiter dubitari
+<lb ed="#P" n="11"/>circa praecepta judicialia, an illa etiam in
+<lb ed="#P" n="12"/>conscientia obligarent. Nam Joan. Gerson.,
+<lb ed="#P" n="13"/>in tract. de Vita spirit., lect. 2, in alph. 61,
+<lb ed="#P" n="14"/>sentit praecepta judicialia, quae ad civiles 
+mo<lb break="no" ed="#P" n="15"/>res instituendos ordinabantur, non obligasse
+<lb ed="#P" n="16"/>in conscientia, sed solum ad poenam 
+tempo<lb break="no" ed="#P" n="17"/>ralem, maxime quando illam expresse 
+impo<lb break="no" ed="#P" n="18"/>nunt. Fundamentum ejus esse potuit, vel quia
+<lb ed="#P" n="19"/>putat legem poenalem non obligare in 
+con<lb break="no" ed="#P" n="20"/>scientia, sed tantum sub reatu temporalis 
+poe<lb break="no" ed="#P" n="21"/>nee, vel potius quia existimavit legem 
+huma<lb break="no" ed="#P" n="22"/>nam, vel quae humanam in fine imitatur, non
+<lb ed="#P" n="23"/>obligare in conscientia. Voco autem 
+imitan<lb break="no" ed="#P" n="24"/>tem humanam, illam quae, licet a Deo lata
+<lb ed="#P" n="25"/>sit, propter humanum finem, id est, 
+guber<lb break="no" ed="#P" n="26"/>nationem humanae reipublicae posita est
+<lb ed="#P" n="27"/>unde ihidem sentit talia praecepta judicialia
+<lb ed="#P" n="28"/>non fuisse divina, non quia a Deo lata non
+<lb ed="#P" n="29"/>sint (hoc enim negare erroneum esset), sed
+<lb ed="#P" n="30"/>quia non sint data ut homines redderent 
+di<lb break="no" ed="#P" n="31"/>gnos vitae aeternae. Hanc enim particulam ille
+<lb ed="#P" n="32"/>auctor posuit in definitione legis divina ,
+<lb ed="#P" n="33"/>quam sic definit : Est signum diving rationis
+<lb ed="#P" n="34"/>voolentis obligare creaturam rationalem ad 
+ali<lb break="no" ed="#P" n="35"/>quid agendum, vel non agendum, ut digna 
+red<lb break="no" ed="#P" n="36"/>datur vita eterna.
+</p>
+            <p xml:id="szdleg-s12930-d1e553">
+               <lb ed="#P" n="37"/>5. Responsio affirmativa. — Fundamentum
+<lb ed="#P" n="38"/>contrarium improbabile. — Haec vero sententia
+<lb ed="#P" n="39"/>sine dubio falsa est : nam judicialia praecepta
+<lb ed="#P" n="40"/>non minus obligabant in conscientia, sive
+<lb ed="#P" n="41"/>poenam adderent, sive non adderent, quam
+<lb ed="#P" n="42"/>ceaetera. Hoc videtur manifestum ex verbis 
+le<lb break="no" ed="#P" n="43"/>gis ; tum quia eisdem verbis mandari 
+dicun<lb break="no" ed="#P" n="44"/>tur judicia, ac caetera, ut Deuter. 6 : Haec
+<lb ed="#P" n="45"/>sunt praecepta ei caremonia , atque judicia,
+<lb ed="#P" n="46"/>qua mandavit Dominus, etc.; tum etiam quia
+<lb ed="#P" n="47"/>observatio praeceptorum judicialium 
+aequah<lb break="no" ed="#P" n="48"/>ter exigitur, et eaedem comminationes fiunt
+<lb ed="#P" n="49"/>non observantibus illa, Deuter. 4, 28, et aliis
+<lb ed="#P" n="50"/>similibus locis. Probatur etiam manifesta 
+ra<lb break="no" ed="#P" n="51"/>tone, quia illa fuerunt propria praecepta et
+<lb ed="#P" n="52"/>leges divina, quantum ad formam 
+praeci<lb break="no" ed="#P" n="53"/>piendi; sed materia eorum etiam erat capax
+<lb ed="#P" n="54"/>obligationis in conscientia, quia erat materia
+<lb ed="#P" n="55"/>alicujus virtutis moralis, quae majori ex parte
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>erat virtus justitiae, licet interdum alia etiam
+<lb ed="#P" n="57"/>esse posset ; ergo nihil deerat illis praeceptis
+<lb ed="#P" n="58"/>ad obligandum in conscientia. Nam dicere
+<lb ed="#P" n="59"/>non habuisse Deum intentionem sic 
+obligan<lb break="no" ed="#P" n="60"/>di, voluntarium esset, et fictum contra vim
+<lb ed="#P" n="61"/>verborum Sceripturae. Unde fundamentum
+<lb ed="#P" n="62"/>conitrarie sententiae improbabile est : nam
+<lb ed="#P" n="63"/>lex humana etiam civilis in conscientia 
+obli<lb break="no" ed="#P" n="64"/>gat, etiamsi poenam adjiciat, nisi aliud 
+con<lb break="no" ed="#P" n="65"/>stet de mente legislatoris : ergo multo magis
+<lb ed="#P" n="66"/>lex a Deo data : unde potius ex gravitate 
+poe<lb break="no" ed="#P" n="67"/>nae temporalis addita in illa lege solet colligi
+<lb ed="#P" n="68"/>obligatio in conscientia sub mortali, ut de
+<lb ed="#P" n="69"/>poena mortis indicat Scot., in 3, dist. 40, et
+<lb ed="#P" n="70"/>docet Castr., lib. 2 de Leg., cap. 4, ut supra,
+<lb ed="#P" n="71"/>lib. 3, notavimus. Accedit quod non tantum
+<lb ed="#P" n="72"/>leges judiciales, sed etiam morales et 
+caeremo<lb break="no" ed="#P" n="73"/>niales similibus poenis sanciebantur, ut patet
+<lb ed="#P" n="74"/>Levit. 20 et sequent., et Deuter. 25, et in
+<lb ed="#P" n="75"/>28 fiunt generales comminationes 
+tempora<lb break="no" ed="#P" n="76"/>lium poenarum. Denique, quod ille leges 
+or<lb break="no" ed="#P" n="77"/>dinarentur ad convenientem illius reipublicae
+<lb ed="#P" n="78"/>gubernationem, non refert, quia etiam media
+<lb ed="#P" n="79"/>convenientia ad hunc finem possunt vere et
+<lb ed="#P" n="80"/>efficaciter praecipi sub obligatione 
+conscien<lb break="no" ed="#P" n="81"/>uae. Neque hic finis excludit ultimum vitae
+<lb ed="#P" n="82"/>aeternae, sed potius subordinatur illi : nam
+<lb ed="#P" n="83"/>servando externam justitiam et pacem 
+reipu<lb break="no" ed="#P" n="84"/>blicae, potest quis mereri vitam aeternam si
+<lb ed="#P" n="85"/>justus sit, ac subinde illa dignum se reddere,
+<lb ed="#P" n="86"/>Quamobrem negari non potest praecepta 
+judi<lb break="no" ed="#P" n="87"/>cialia fuisse divina, non solum ex auctore,
+<lb ed="#P" n="88"/>sed etiam ex fine ultimo per illa intento, ut
+<lb ed="#P" n="89"/>supra visum est. Ideoque superfluum est 
+ad<lb break="no" ed="#P" n="90"/>dere illam particulam in definitione legis 
+di<lb break="no" ed="#P" n="91"/>vina, quia nihil Deus homini praecipit, nisi
+<lb ed="#P" n="92"/>ut obediendo tandem fiat dignus vita aeterna,
+<lb ed="#P" n="93"/>quamvis alius proximior finis possit etiam per
+<lb ed="#P" n="94"/>talem legem intendi.
+</p>
+            <p xml:id="szdleg-s12930-d1e683">
+               <lb ed="#P" n="95"/>6. Dubium. — De praeceptis moralibus 
+di<lb break="no" ed="#P" n="96"/>cendum obligare sub quocumque periculo. —
+<lb ed="#P" n="97"/>Tandem inquiri potest an obligatio illius legis
+<lb ed="#P" n="98"/>tanta fuerit, ut ad sui observationem in 
+con<lb break="no" ed="#P" n="99"/>scientia cogeret, non obstante quocumque 
+pe<lb break="no" ed="#P" n="100"/>riculo mortis. Sed hoc dubium cum eadem
+<lb ed="#P" n="101"/>proportione expediendum est, quia simile 
+su<lb break="no" ed="#P" n="102"/>pra tractatum de lege humana. Itaque de
+<lb ed="#P" n="103"/>praeceptis moralibus certum est obligare cum
+<lb ed="#P" n="104"/>eo rigore, praesertim si negativa sint, quia 
+op<lb break="no" ed="#P" n="105"/>positum est intrinsece malum. Affirmativa
+<lb ed="#P" n="106"/>autem, quia non obligant pro semper, 
+pos<lb break="no" ed="#P" n="107"/>sunt interdum non obligare ratione periculi
+<lb ed="#P" n="108"/>mortis : unde idem a fortiori dicendum esse
+<lb ed="#P" n="109"/>constat de positivis praeceptis affirmativis 
+di<lb break="no" ed="#P" n="110"/>vinis, ut magis ex dicendis patebit. De nega-
+<pb ed="#P" n="452"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tivis autem praeceptis a Deo positis potest esse
+<lb ed="#P" n="2"/>nonnullum dubium, quia obligant pro 
+sem<lb break="no" ed="#P" n="3"/>per, et Deus potest ita obligare sine ulla 
+ex<lb break="no" ed="#P" n="4"/>ceptione propter summam auctoritatem quam
+<lb ed="#P" n="5"/>in praecipiendo habet : stante autem 
+obliga<lb break="no" ed="#P" n="6"/>tione a Deo posita, impossibile est ut liceat
+<lb ed="#P" n="7"/>contra illam agere.
+</p>
+            <p xml:id="szdleg-s12930-d1e740">
+               <lb ed="#P" n="8"/>7. Lex vetus positiva non obligabat cum 
+pe<lb break="no" ed="#P" n="9"/>riculo vitee. — Nihilominus tamen dicendum
+<lb ed="#P" n="10"/>est illam legem ut positivam, non obligasse
+<lb ed="#P" n="11"/>per negativa praecepta cum periculo vitae, nisi
+<lb ed="#P" n="12"/>ubi occurreret ratio vitandi contemptum 
+di<lb break="no" ed="#P" n="13"/>vini praecepti aut religionis. Ita docent omnes
+<lb ed="#P" n="14"/>auctores supra lib. 3 citati circa legem 
+hu<lb break="no" ed="#P" n="15"/>manam, et specialiter de lege divina in 
+ge<lb break="no" ed="#P" n="16"/>nere id docet Sot.. 1 de Justit., quaest. 1,
+<lb ed="#P" n="17"/>art. 6, in fine corporis; et Adrianus, quodl. 1,
+<lb ed="#P" n="18"/>art. 3 ad 5, et quodl. 6, art. 2 ad 2, etinA,
+<lb ed="#P" n="19"/>q. 3, de Clavib., except. 9. Ubi in exemplum
+<lb ed="#P" n="20"/>adducit legem Sabbati, quae non obligavit
+<lb ed="#P" n="21"/>Machabaeos ad non bellandum die Sabbati,
+<lb ed="#P" n="22"/>propter periculum vitae, ut sumitur ex 1 
+Ma<lb break="no" ed="#P" n="23"/>chab., 2. Ratio autem est, non quia liceret
+<lb ed="#P" n="24"/>tunc propter metum agere contra 
+obligatio<lb break="no" ed="#P" n="25"/>nem a Deo positam, sed quia pro tunc 
+ces<lb break="no" ed="#P" n="26"/>sabat obligatio ; nec refert quod praeceptum
+<lb ed="#P" n="27"/>negativum obliget pro semper, quia dum non
+<lb ed="#P" n="28"/>prohibet rem intrinsece malam, semper habet
+<lb ed="#P" n="29"/>subintellectam conditionem, nisi interveniat
+<lb ed="#P" n="30"/>sufficiens necessitas, seu periculum excusans.
+<lb ed="#P" n="31"/>Quae conditio etiam in divinis praeceptis 
+inclu<lb break="no" ed="#P" n="32"/>ditur, non quia non posset Deus aliter 
+praeci<lb break="no" ed="#P" n="33"/>pere, si absoluta potestate uti velit, sed quia
+<lb ed="#P" n="34"/>in ordinaria hominum gubernatione illa non
+<lb ed="#P" n="35"/>utitur per generalia praecepta, quae secundum
+<lb ed="#P" n="36"/>regulas prudentiae et convenienüs 
+gubernatio<lb break="no" ed="#P" n="37"/>nis tradi censentur. Et inde etiam facile 
+pro<lb break="no" ed="#P" n="38"/>batur exceptio posita in assertione, quia 
+age<lb break="no" ed="#P" n="39"/>re aliquid in contemptum Dei, vel religionis,
+<lb ed="#P" n="40"/>aut legis ejus, est intrinsece malum, et ideo
+<lb ed="#P" n="41"/>merito conditio illa non extenditur ad talem
+<lb ed="#P" n="42"/>eventum. Quod dictum etiam est de lege 
+hu<lb break="no" ed="#P" n="43"/>mana, multoque magis verum est de divina,
+<lb ed="#P" n="44"/>ut etiam confirmat aliorum Machabaeorum
+<lb ed="#P" n="45"/>exemplum, libro 2, cap. 7.
+</p>
+            <p xml:id="szdleg-s12930-d1e825">
+               <lb ed="#P" n="46"/>8. Secunda conclusio. — Dico secundo: 
+per<lb break="no" ed="#P" n="47"/>missiones aliquae fuerunt effectus illius legis,
+<lb ed="#P" n="48"/>non tamen per modum purae permissionis,
+<lb ed="#P" n="49"/>sed per modum dispensationis, vel potius per
+<lb ed="#P" n="50"/>modum concessionis et privilegii. Declarat r,
+<lb ed="#P" n="51"/>advertendo permissionem interdum late dici
+<lb ed="#P" n="52"/>de omni illo quod non prohibetur nec 
+praeci<lb break="no" ed="#P" n="53"/>pitur lege, et ita D. Thom., in 4, d. 33, q.2,
+<lb ed="#P" n="54"/>a. 2, quaestiune. 2, distinguit varios modos 
+per<lb break="no" ed="#P" n="55"/>missionis ; unus quo minus bonum permitti-
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>tur, relicto meliori ; sic matrimonium 
+permit<lb break="no" ed="#P" n="57"/>titur respectu virginitatis ; et de usu ejus ait
+<lb ed="#P" n="58"/>Paul. 1 ad Corinth. 7: Hoc autem dico 
+secun<lb break="no" ed="#P" n="59"/>dum indulgentiam, non secundum imperium.
+<lb ed="#P" n="60"/>Haec autem magis est approbatio quam 
+per<lb break="no" ed="#P" n="61"/>missio. Unde magis improprie appellatur 
+per<lb break="no" ed="#P" n="62"/>missio, concessio melioris boni non praecepti,
+<lb ed="#P" n="63"/>nam illud potius est consilium. Imo neque
+<lb ed="#P" n="64"/>licentia faciendi aliquid quod per se malum
+<lb ed="#P" n="65"/>non est, nec prohibitum, est propria 
+permis<lb break="no" ed="#P" n="66"/>sio, de qua nunc loquimur. Addit etiam divus
+<lb ed="#P" n="67"/>Thomas peccatum veniale permitti respectu
+<lb ed="#P" n="68"/>mortali, quia non prohibetur. Sed hoc etiam
+<lb ed="#P" n="69"/>improprie dicitur; nam peccatum veniale 
+re<lb break="no" ed="#P" n="70"/>vera est prohibitum, licet cum minori rigore
+<lb ed="#P" n="71"/>quam mortale.
+</p>
+            <p xml:id="szdleg-s12930-d1e887">
+               <lb ed="#P" n="72"/>9. Propria permissio. — Permissio fact
+<lb ed="#P" n="73"/>qua.—— Permissio juris qug. — In quo sensu
+<lb ed="#P" n="74"/>procedit assertio. — Alia subdistinctio 
+permis<lb break="no" ed="#P" n="75"/>sionis. — Propria ergo permissio dicitur de
+<lb ed="#P" n="76"/>quocumque malo vel prohibito, non respectu
+<lb ed="#P" n="77"/>majoris vel minoris mali, sed respectu 
+cohi<lb break="no" ed="#P" n="78"/>bitionis ejusdem mali permissi. Et sic 
+possu<lb break="no" ed="#P" n="79"/>mus distinguere duplicem permissionem ;
+<lb ed="#P" n="80"/>unam facti, alteram juris. Facti appello,
+<lb ed="#P" n="81"/>quando, sine jure aliquid statuente, de facto
+<lb ed="#P" n="82"/>peccatum voluntarie non cohibetur, et sic
+<lb ed="#P" n="83"/>Deus dicitur permittere peccata. Juris autem
+<lb ed="#P" n="84"/>permissionem appello, quando iex aliqua 
+per<lb break="no" ed="#P" n="85"/>mittit facere quod alias prohibitum erat, et
+<lb ed="#P" n="86"/>haec permissio dicitur proprie effectus legis,
+<lb ed="#P" n="87"/>quia per legem introducta est. De hac ergo
+<lb ed="#P" n="88"/>intelligitur assertio, quae ex locis statim 
+alle<lb break="no" ed="#P" n="89"/>gandis manifesta fiet. Ulterius enim 
+subdis<lb break="no" ed="#P" n="90"/>tingui potest haec permissio juris : nam 
+quae<lb break="no" ed="#P" n="91"/>dam est impunitatis tantum, quam lex talis
+<lb ed="#P" n="92"/>concedii ei cui permittit peccatum, et in 
+vir<lb break="no" ed="#P" n="93"/>tute solum jubet ne sic operans puniatur, ut
+<lb ed="#P" n="94"/>in l. 1 dixi. Alia vero est permissio concessiva
+<lb ed="#P" n="95"/>exemptionis tollentis prohibitionem , ut sine
+<lb ed="#P" n="96"/>culpa fieri possit quod antea non poterat, ut
+<lb ed="#P" n="97"/>per dispensationem aut privilegium fit. 
+Diei<lb break="no" ed="#P" n="98"/>mus ergo permissionem, quae est effectus 
+le<lb break="no" ed="#P" n="99"/>gis veteris, semper esse hujus ultimi ordinis.
+</p>
+            <p xml:id="szdleg-s12930-d1e950">
+               <lb ed="#P" n="100"/>10. Probatur assertio. — Probatur primo
+<lb ed="#P" n="101"/>inductione ex Scriptura , juxta expositiones
+<lb ed="#P" n="102"/>quae probabiliores nobis videntur: nam 
+im<lb break="no" ed="#P" n="103"/>primis pluralitas uxorem permissa fuit inlege
+<lb ed="#P" n="104"/>veteri, ut sumitur ex Deuteron. 21, ibi: S
+<lb ed="#P" n="105"/>habuerit homo uores duas, etc. Non enim 
+in<lb break="no" ed="#P" n="106"/>venitur lex quae dispositive, ut sic dicam,
+<lb ed="#P" n="107"/>hoc permittat, sed praesuppositive, ut ex 
+te<lb break="no" ed="#P" n="108"/>nore dictorum verborum constat. Fuit enim
+<lb ed="#P" n="109"/>illa permissio concessa Patribus, et traditione
+<lb ed="#P" n="110"/>ac more recepta in illo populo, et postea in
+<pb ed="#P" n="453"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>lege Moysi non fuit prohibita, ac subinde 
+ta<lb break="no" ed="#P" n="2"/>cite fuit approbata, ut illis etiam verbis 
+de<lb break="no" ed="#P" n="3"/>claratum est. Unde illa permissio dici potest
+<lb ed="#P" n="4"/>pon esse ex lege, sed ex Patribus, sicut 
+cir<lb break="no" ed="#P" n="5"/>cumcisio: tamen sicut circumcisio numeratur
+<lb ed="#P" n="6"/>inter sacramenta illius legis ita 
+permissio<lb break="no" ed="#P" n="7"/>nem hanc vocamus effectum illius legis, 
+sal<lb break="no" ed="#P" n="8"/>tem retentum, seu probatum. Talis ergo fuit
+<lb ed="#P" n="9"/>illa permissio in ita .ege quaiis fuit in 
+Pa<lb break="no" ed="#P" n="10"/>tribus: in illis autem fuit illa permissio 
+con<lb break="no" ed="#P" n="11"/>cessiva privilegii auferentis prohibitionem et
+<lb ed="#P" n="12"/>culpam: ergo et in illa lege. Minor traditur
+<lb ed="#P" n="13"/>ab Innocent. Ill in cap. Gaudemus, de 
+Privi<lb break="no" ed="#P" n="14"/>leg.. et est communis sententia Sanctorum et
+<lb ed="#P" n="15"/>expositorum Matth. 19, et Augustin., lib. 1
+<lb ed="#P" n="16"/>de Nupt. et concupiscent., c. 9; et videtur 
+in<lb break="no" ed="#P" n="17"/>dubitatum ex sanctitate antiquorum Patrum,
+<lb ed="#P" n="18"/>et familiaritate quam cum Deo habebant.
+</p>
+            <p xml:id="szdleg-s12930-d1e1020">
+               <lb ed="#P" n="19"/>11. Libellum repudii. — Alia permissio in
+<lb ed="#P" n="20"/>lege disposita fuit de libello repudii, Deuter.
+<lb ed="#P" n="21"/>24. quam multi expiicant de permissione 
+im<lb break="no" ed="#P" n="22"/>punitatis ; longe tamen verisimilius mihi 
+vi<lb break="no" ed="#P" n="23"/>detur esse intelligendum de permissione 
+dis<lb break="no" ed="#P" n="24"/>pensativa, seu concessiva, et excusante a 
+cul<lb break="no" ed="#P" n="25"/>pa, quod tenuit auctor imperfecti in Matth.,
+<lb ed="#P" n="26"/>homil. 17; et D. Thom. in 4, supra, id valde
+<lb ed="#P" n="27"/>probabile reputat, et videtur supponere 1.
+<lb ed="#P" n="28"/>2, quaest. 102, art. 5, ad 3; et sequuntur
+<lb ed="#P" n="29"/>quam plures scholastici in 4, distinct. 33, et
+<lb ed="#P" n="30"/>jurisperiti in dicto cap. Gaudemus ; et 
+Bellar<lb break="no" ed="#P" n="31"/>minus, lib. 1 de Matrimon., cap. 17, ad 14;
+<lb ed="#P" n="32"/>et Maldonat., Matth. 19, et plures alii quos
+<lb ed="#P" n="33"/>refert et sequitur Sancius, lib. 10 de 
+Matri<lb break="no" ed="#P" n="34"/>mon., disput. 1, n. 7. Ratio vero est, quia
+<lb ed="#P" n="35"/>lex illa simpliciter id concedit, et nullum 
+in<lb break="no" ed="#P" n="36"/>dicium praebet quod illud permittat licet sit
+<lb ed="#P" n="37"/>malum, sed absolute ut fieri possit, ut patet
+<lb ed="#P" n="38"/>ex citato loco, et ex Malach. 2, nam videtur
+<lb ed="#P" n="39"/>ibi approbari matrimonium ; ergo 
+incredibi<lb break="no" ed="#P" n="40"/>le est illam permissionem fuisse quoad solam
+<lb ed="#P" n="41"/>impunitatem respectu legis,quia hoc modo
+<lb ed="#P" n="42"/>constitueretur ille populus in magno periculo
+<lb ed="#P" n="43"/>peccandi, cum hoc ibi non exphlicaretur.
+</p>
+            <p xml:id="szdleg-s12930-d1e1077">
+               <lb ed="#P" n="44"/>12. Alia permissio fuit mutuandi cum usura
+<lb ed="#P" n="45"/>alienigenis, de qua eadem est disceptatio inter
+<lb ed="#P" n="46"/>doctores ; mihi tamen ob eamdem rationem
+<lb ed="#P" n="47"/>placet sententia, quae permissionem illam 
+ex<lb break="no" ed="#P" n="48"/>plicat de concessione excusante a culpa, saltem
+<lb ed="#P" n="49"/>propter donationem a Deo factam, vel quia jure
+<lb ed="#P" n="50"/>belli poterant Hebraei accipere bona 
+alieni<lb break="no" ed="#P" n="51"/>genarum vicinorum, respectu quorum illa
+<lb ed="#P" n="52"/>concessio intelligenda est. Et ita explicat 
+ex<lb break="no" ed="#P" n="53"/>presse Àmbrosius in libro de Tobia, cap. 15,
+<lb ed="#P" n="54"/>quem graves theologi et juristae sequuntur,
+<lb ed="#P" n="55"/>quos refert Covar.,lib. 3 Variar., cap. 1, n. 7.
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>Aliud exemplum esse potest ex lege Deuter.,
+<lb ed="#P" n="57"/>93 : <quote xml:id="szdleg-s12930-Qd1e1111">Ingressus vineam proximi tui, comede
+<lb ed="#P" n="58"/>uvas, quantum tibi placuerit, foras autem non
+<lb ed="#P" n="59"/>efferas tecum</quote>. Ubi priora verba non sunt 
+prae<lb break="no" ed="#P" n="60"/>ceptiva, sed permissiva, excusando non 
+so<lb break="no" ed="#P" n="61"/>lum culpam mortalem, sed etiam venialem,
+<lb ed="#P" n="62"/>et majorem licentiam dando quam solo jure
+<lb ed="#P" n="63"/>naturae videatur concessa : et ratio est 
+ea<lb break="no" ed="#P" n="64"/>dem quae supra est tacta. Nam potuit Deus
+<lb ed="#P" n="65"/>fructus alienae vineae communes facere quoad
+<lb ed="#P" n="66"/>illum usum, et per illam legem simpliciter
+<lb ed="#P" n="67"/>intellectam fecisse videtur. Idemque est de
+<lb ed="#P" n="68"/>alio exemplo de usu spicarum, quod ibibem
+<lb ed="#P" n="69"/>subjungitur. Denique afferri potest exemplum
+<lb ed="#P" n="70"/>de usu sacrificii zelotypiae, Num. 5, quam
+<lb ed="#P" n="71"/>inter permissiones ponit D. Thomas in 4, ubi
+<lb ed="#P" n="72"/>supra ; et significat fuisse tantum 
+permissio<lb break="no" ed="#P" n="73"/>nem minoris mali, quia tentare Deum per se
+<lb ed="#P" n="74"/>malum est. Sed sine dubio existimo etiam
+<lb ed="#P" n="75"/>permissionem illam fuisse concessivam; nam,
+<lb ed="#P" n="76"/>posita illa lege, uti illo sacrificio non erat
+<lb ed="#P" n="77"/>tentare Deum, quia signum quod a Deo ibi
+<lb ed="#P" n="78"/>postulabatur , ab ipso erat institutum cum
+<lb ed="#P" n="79"/>promissione effectus, et ita cessat divina 
+ten<lb break="no" ed="#P" n="80"/>tatio, juxta dicta 3 de Relig., l. 1, cap.2;
+<lb ed="#P" n="81"/>ergo etiam cessabat ratio culpae, quia, per se
+<lb ed="#P" n="82"/>loquendo, nulla alia malitia in illo actu 
+pote<lb break="no" ed="#P" n="83"/>rat inveniri.
+</p>
+            <p xml:id="szdleg-s12930-d1e1171">
+               <lb ed="#P" n="84"/>13. Hac dictis infertur assertio tradita. —
+<lb ed="#P" n="85"/>Ex his ergo satis probata relinquitur assertio,
+<lb ed="#P" n="86"/>quia nulla permissio occurrit in illa lege 
+fac<lb break="no" ed="#P" n="87"/>ta, quae sit de actu malo et prohibito, 
+perse<lb break="no" ed="#P" n="88"/>verante in sua mahtia post permissionem,
+<lb ed="#P" n="89"/>quia semper facta permissione cessabat 
+pro<lb break="no" ed="#P" n="90"/>hibitio, sive per propriam dispensationem,
+<lb ed="#P" n="91"/>sive per mutationem materiee, ut proprie 
+lo<lb break="no" ed="#P" n="92"/>quendo dicendum est. Nam hoc genus 
+per<lb break="no" ed="#P" n="93"/>missionis tantum habere potuit locum in 
+ali<lb break="no" ed="#P" n="94"/>quibus quae ex vi juris naturae non licerent,
+<lb ed="#P" n="95"/>seclusa tali permissione Dei : quod autem jure
+<lb ed="#P" n="96"/>naturae non licet, non fit licitum per propriam
+<lb ed="#P" n="97"/>dispensationem, sed per materia 
+mutatio<lb break="no" ed="#P" n="98"/>nem, ut supra, lib. 2, declaratum est; ergo
+<lb ed="#P" n="99"/>ita fieri etiam potuit in dictis permissionibus,
+<lb ed="#P" n="100"/>ut ex dictis etiam facile intelligi potest : unde
+<lb ed="#P" n="101"/>etiam sumitur optima congruentie ratio,
+<lb ed="#P" n="102"/>quia Deus potuit illam permissionem facere
+<lb ed="#P" n="103"/>cum immunitate a culpa, et verba 
+concessio<lb break="no" ed="#P" n="104"/>nis sunt absoluta; ergo interpretandum est
+<lb ed="#P" n="105"/>ita fecisse. Probatur consequentia ; tum quia
+<lb ed="#P" n="106"/>beneficia principis; et maxime summi, 
+latis<lb break="no" ed="#P" n="107"/>sime sunt interpretanda : illa autem 
+permis<lb break="no" ed="#P" n="108"/>sio in illius populi commodum a Deo 
+conce<lb break="no" ed="#P" n="109"/>debatur ; tum etiam quia ita magis 
+expedie<lb break="no" ed="#P" n="110"/>bat ad bonum regimen, quod Deus intende-
+<pb ed="#P" n="454"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>bat per illas leges majora mala vitare; tum
+<lb ed="#P" n="2"/>etiam quia hoc est maxime consentaneum 
+le<lb break="no" ed="#P" n="3"/>gi divina, etiam positivae, nimirum, ut 
+nul<lb break="no" ed="#P" n="4"/>Ium malum culpae permittat positive (ut sic
+<lb ed="#P" n="5"/>dicam), licet negative possit aliqua 
+permitte<lb break="no" ed="#P" n="6"/>re, non injungendo propter illa specialem
+<lb ed="#P" n="7"/>poenam hujus vitae. Et (si quis recte 
+conside<lb break="no" ed="#P" n="8"/>ret) ad hoc suadendum applicari facile potest
+<lb ed="#P" n="9"/>ratio quarta D. Thomae, qua probat 
+necessi<lb break="no" ed="#P" n="10"/>tatem legis divinae, 1. 2, quaest. 91, art. 4, et
+<lb ed="#P" n="11"/>qua probat legem divinam dari debuisse de
+<lb ed="#P" n="12"/>omnibus actibus moralibus bonis, quia 
+neces<lb break="no" ed="#P" n="13"/>sarii sunt ad divinam amicitiam, ut declarat
+<lb ed="#P" n="14"/>quaest. 99, art. 2, juncto art. 2, quaest. 100;
+<lb ed="#P" n="15"/>nam eadem ratione non debuit lex divina
+<lb ed="#P" n="16"/>per modum juris permittere malum aliquod,
+<lb ed="#P" n="17"/>in quo perseveret malitia divinae amicitiae
+<lb ed="#P" n="18"/>contraria : unde etiam concluditur non 
+so<lb break="no" ed="#P" n="19"/>lam permissionem, sed etiam opus ex illa
+<lb ed="#P" n="20"/>factum posse dici effectum talis legis, quia
+<lb ed="#P" n="21"/>erat opus bonum, et tale fiebat per 
+concessio<lb break="no" ed="#P" n="22"/>nem legis, sicut opus privilegio concessum est
+<lb ed="#P" n="23"/>effectus ejus. Neque contra hanc assertionem
+<lb ed="#P" n="24"/>occurrunt objectiones generales : il'a vero
+<lb ed="#P" n="25"/>quae circa particularia exempla adducta fieri
+<lb ed="#P" n="26"/>solent, et difficiles non sunt, et in propriis
+<lb ed="#P" n="27"/>materiis tractantur. Addendum vero est 
+inter<lb break="no" ed="#P" n="28"/>dum in illa lege expresse tantum dici, ut
+<lb ed="#P" n="29"/>hoc vel illud faciens non subjaceat poenae, ut
+<lb ed="#P" n="30"/>patet Exodi 94, etc.; et tunc clarum est solum
+<lb ed="#P" n="31"/>quoad impunitatem actum permitti.
+</p>
+            <p xml:id="szdleg-s12930-d1e1304">
+               <lb ed="#P" n="32"/>14. Lex vetus habet effectus panales. — 
+Di<lb break="no" ed="#P" n="33"/>co tertio : lex vetus habet etiam effectus 
+poe<lb break="no" ed="#P" n="34"/>nales, seu poenarum. Haec assertio per se 
+no<lb break="no" ed="#P" n="35"/>ta est, quia, magna ex parte, lex illa poenalis
+<lb ed="#P" n="36"/>erat; passim enim in ea legimus, Qui hoc 
+fe<lb break="no" ed="#P" n="37"/>cerit, morte moriatur, vel, delebitur de 
+popu<lb break="no" ed="#P" n="38"/>lo suo, vel, dentem pro dente, et similia ; erant
+<lb ed="#P" n="39"/>ergo illae leges poenales, non purae, sed mixtae,
+<lb ed="#P" n="40"/>seu habentes simul vim directivam, ut 
+dic<lb break="no" ed="#P" n="41"/>tum est. hatio autem propter quam 
+commi<lb break="no" ed="#P" n="42"/>nationes poenarum additae sunt in illa lege,
+<lb ed="#P" n="43"/>est illa communis, quod poena necessariae
+<lb ed="#P" n="44"/>sunt, praesertim propter illos qui sunt proni
+<lb ed="#P" n="45"/>ad malum, ut ait Aristot., 1l. 10 Ethic., cap.
+<lb ed="#P" n="46"/>ult. Ille autem populus erat valde 
+imperfec<lb break="no" ed="#P" n="47"/>tus, et pronus ad malum, et ideo maxime
+<lb ed="#P" n="48"/>induci debuit comminationibus poenarum.
+<lb ed="#P" n="49"/>Quae propter hanc causam fuerunt in illa lege,
+<lb ed="#P" n="50"/>et multiplices, et gravissimae, ac propterea
+<lb ed="#P" n="51"/>vocatur illa lex timoris et servitutis, quia per
+<lb ed="#P" n="52"/>comminationes poenarum, magis quam per
+<lb ed="#P" n="53"/>amorem inducebat ad sui observationem. 
+Un<lb break="no" ed="#P" n="54"/>de e converso in transgressoribus erat causa
+<lb ed="#P" n="55"/>punitionis : sic enim poena est effectus legis
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>poenalis, quamvis non semper eodem modo:
+<lb ed="#P" n="57"/>nam, ut in l. 4 diximus, lex interdum poenam
+<lb ed="#P" n="58"/>ipsam per se exequitur, et tunc dici potest
+<lb ed="#P" n="59"/>causa per se, et proxima ipsius poenae; 
+ali<lb break="no" ed="#P" n="60"/>quando vero solum taxat, et designat poenam
+<lb ed="#P" n="61"/>imponendam, et tunc immediate facit 
+ob<lb break="no" ed="#P" n="62"/>noxium poenae transgressorem legis: remote
+<lb ed="#P" n="63"/>autem, et quasi consequenter est causa 
+ip<lb break="no" ed="#P" n="64"/>siusmet poenae, quam judex vel executor 
+im<lb break="no" ed="#P" n="65"/>ponit, vel proxime efficit.
+</p>
+            <p xml:id="szdleg-s12930-d1e1383">
+               <lb ed="#P" n="66"/>15. Poenae pecuniariae. — Possumus ergo
+<lb ed="#P" n="67"/>haec duo genera legum poenalium in veteri
+<lb ed="#P" n="68"/>lege distinguere : nam quadam imponebant
+<lb ed="#P" n="69"/>poenam ferendam vel exequendam per 
+homi<lb break="no" ed="#P" n="70"/>nem ; aliae vero per sese illam faciebant, vel
+<lb ed="#P" n="71"/>imponebant. In priori ordine pono omnes 
+le<lb break="no" ed="#P" n="72"/>ges imponentes poenam corporalem : ignis,
+<lb ed="#P" n="73"/>Levit. 21; lapidationis, Levit. 24; verberum,
+<lb ed="#P" n="74"/>Deuter. 25; sive poena talionis, Exod. 21. 
+Cer<lb break="no" ed="#P" n="75"/>tum est enim has leges non obligare in 
+con<lb break="no" ed="#P" n="76"/>scientia ad poenae solutionem ante 
+condemna<lb break="no" ed="#P" n="77"/>tionem : nam, considerando verba legis, 
+vi<lb break="no" ed="#P" n="78"/>detur res clara, omnes illas poenas fuisse 
+im<lb break="no" ed="#P" n="79"/>positas in ordine ad sententias judicum, ut
+<lb ed="#P" n="80"/>patet Exod. 21, cum similibus. Item in his
+<lb ed="#P" n="81"/>corporalibus poenis idem est manifestum, vel
+<lb ed="#P" n="82"/>per se praesumptum, ubi aliud evidenter non
+<lb ed="#P" n="83"/>constiterit de voluntate et praecepto Dei, quod
+<lb ed="#P" n="84"/>in ila lege ostendi non potest. De pecuniaris
+<lb ed="#P" n="85"/>vero poenis posset quis dubitare, ut quando
+<lb ed="#P" n="86"/>lex praecipit restituere duplum, triplum, vel
+<lb ed="#P" n="87"/>quadruplum, ut Exod. 22, nam verbum 
+res<lb break="no" ed="#P" n="88"/>tituat, indicat obligationem in conscientia.
+<lb ed="#P" n="89"/>Sed nihilominus verius existimo quidquid ibi
+<lb ed="#P" n="90"/>habet rationem poenae, designari in ordine ad
+<lb ed="#P" n="91"/>sententiam judicis, et antea non obligare,
+<lb ed="#P" n="92"/>quia verba non habent majorem vim, et 
+mi<lb break="no" ed="#P" n="93"/>tiori modo explicanda sunt, et ita procedunt
+<lb ed="#P" n="94"/>rationes aliae factae de legibus humanis. Dico
+<lb ed="#P" n="95"/>autem, quidquid habet rationem pune, quia
+<lb ed="#P" n="96"/>id quod ad resti^ntionem rei ablatae, vel 
+re<lb break="no" ed="#P" n="97"/>compensationem damni facti pertinebat, ex
+<lb ed="#P" n="98"/>naturali obligatione, statim restituendum
+<lb ed="#P" n="99"/>erat, ut per se constat. Et, hac ratione, 
+pro<lb break="no" ed="#P" n="100"/>babile est legem Exod. 21, ut dominus, qui
+<lb ed="#P" n="101"/>servum vel ancillam percutiens oculum aut
+<lb ed="#P" n="102"/>dentes excluderet, illum liberum dimitteret,
+<lb ed="#P" n="103"/>obligasse in conscientia , nulla expectata
+<lb ed="#P" n="104"/>sententia, quod tenet Castr., lib. 2 de Lege
+<lb ed="#P" n="105"/>poenal., cap. 4, qui tamen id explicat, etiam
+<lb ed="#P" n="106"/>per modum propriae poenae, non vero satis id
+<lb ed="#P" n="107"/>probat; facilius vero intelligitur per modum
+<lb ed="#P" n="108"/>recompensationis damni illati, quam lex 
+di<lb break="no" ed="#P" n="109"/>vina illo modo taxabat et definiebat. Addi
+<lb ed="#P" n="110"/>etiam potest quaedam alia onera imposita
+<pb ed="#P" n="455"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>fuisse per illam legem committentibus aliqua
+<lb ed="#P" n="2"/>delicta, quae non tam videntur fuisse poenae,
+<lb ed="#P" n="3"/>in vindictam impositae, quam remedia vel
+<lb ed="#P" n="4"/>medicinae talium delictorum in ordine ad 
+di<lb break="no" ed="#P" n="5"/>vinum cultum illius legis, et de his verisimile
+<lb ed="#P" n="6"/>est obligasse in conscientia ante judicis 
+sen<lb break="no" ed="#P" n="7"/>tentiam; hujusmodi videntur fuisse leges 
+im<lb break="no" ed="#P" n="8"/>ponentes aliquas oblationes, vel sacrificia pro
+<lb ed="#P" n="9"/>aliquibus delictis, cum aliquo modo 
+confes<lb break="no" ed="#P" n="10"/>sionis delicti, vel sine illo, ut late 
+prosequi<lb break="no" ed="#P" n="11"/>tur Castro, cit. loco.
+</p>
+            <p xml:id="szdleg-s12930-d1e1511">
+               <lb ed="#P" n="12"/>16. Irregularitas. — Lex irritans aliquem
+<lb ed="#P" n="13"/>contractum ipso facto. — In alio ordine pono
+<lb ed="#P" n="14"/>irregularitates quasdam, quas lex illa ipso
+<lb ed="#P" n="15"/>facto inducebat circa personas, propter varias
+<lb ed="#P" n="16"/>occasiones, vel eventus, ut propter tactum
+<lb ed="#P" n="17"/>corporis mortui, Num. 19, et Levit. 11; vel
+<lb ed="#P" n="18"/>propter alias similes causas, ut videre licet
+<lb ed="#P" n="19"/>Levit. 12 et seq. Has autem inter poenas 
+nu<lb break="no" ed="#P" n="20"/>meramus, late loquendo, quia erant onera et
+<lb ed="#P" n="21"/>gravamina illius legis ; re tamen vera 
+ordina<lb break="no" ed="#P" n="22"/>rie non erant proprie poenae, quia sine culpa
+<lb ed="#P" n="23"/>inducebantur ad eum modum quo nunc 
+irre<lb break="no" ed="#P" n="24"/>gularitas saepe non est poena, sed indecentia
+<lb ed="#P" n="25"/>quaedam. Incurrebantur autem tunc tales 
+ir<lb break="no" ed="#P" n="26"/>regularitates ipso facto, et ex vilegis, et ideo
+<lb ed="#P" n="27"/>dicimus illum fuisse proximum et per se 
+ef<lb break="no" ed="#P" n="28"/>fcctum illius legis : nam ex vi, et efficacia et
+<lb ed="#P" n="29"/>institutione illius immediate fiebat. Atque in
+<lb ed="#P" n="30"/>hoc etiam ordine constitui possunt leges, quae
+<lb ed="#P" n="31"/>ipso facto irritabant aliquem contractum in
+<lb ed="#P" n="32"/>illa lege, quod maxime admittendum 
+vide<lb break="no" ed="#P" n="33"/>tur in legibus inducentibus impedimenta 
+ma<lb break="no" ed="#P" n="34"/>trimonii, Levit. 18; nam in hoc sensu 
+com<lb break="no" ed="#P" n="35"/>muniter ab expositoribus et theologis leges
+<lb ed="#P" n="36"/>illae intelliguntur. Et hoc indicant illa verba:
+<lb ed="#P" n="37"/>Turgntudinem patris , matris, sororis, etc.,
+<lb ed="#P" n="38"/>non revelabis : nam per haec directe 
+prohibe<lb break="no" ed="#P" n="39"/>tur, et fit illicitus usus talis matrimonii ; et
+<lb ed="#P" n="40"/>ideo necessarium est ut matrimonium ad 
+ta<lb break="no" ed="#P" n="41"/>lem usum ordinatum, non solum sit 
+prohi<lb break="no" ed="#P" n="42"/>bitum, sed etiam irritum, tanquam obligans
+<lb ed="#P" n="43"/>ad actum illicitum, quod fieri non potest. An
+<lb ed="#P" n="44"/>vero praeter haec praecepta fuerint alia in illa
+<lb ed="#P" n="45"/>lege ipso facto irritantia actus aliquos, vel
+<lb ed="#P" n="46"/>contractus, testamenta, vel quid simile, 
+defi<lb break="no" ed="#P" n="47"/>niendum existimo ex principiis supra positis,
+<lb ed="#P" n="48"/>et judicium esse ferendum juxta exigentiam
+<lb ed="#P" n="49"/>verborum ipsorum praeceptorum, quae 
+consi<lb break="no" ed="#P" n="50"/>deranda et expendenda sunt.
+</p>
+            <p xml:id="szdleg-s12930-d1e1598">
+               <lb ed="#P" n="51"/>17. Opus prannio digmun et ipsum 
+pre<lb break="no" ed="#P" n="52"/>miwn inter effectus hujus legis posse uunerari.
+<lb ed="#P" n="53"/>—Probatur wtraque pars assertionis.—bico
+<lb ed="#P" n="54"/>quarto : opus dignum aliquo pramio, et 
+prae<lb break="no" ed="#P" n="55"/>mium ipsum numerari potest inter effectus
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>illius legis. Hoc facile probatur, supponendo
+<lb ed="#P" n="57"/>legem illam induxisse ad sui observationem
+<lb ed="#P" n="58"/>per varias promissiones, ut constat ex libro
+<lb ed="#P" n="59"/>Exodi, cap. 19; et Deuteron. 4, 2 et 28; et
+<lb ed="#P" n="60"/>ex Prophetis, aliisque locis frequenter. Et 
+ra<lb break="no" ed="#P" n="61"/>tionem reddit D. Thomas, dicta q. 99, a. 6,
+<lb ed="#P" n="62"/>quia hoc generaliter pertinet ad perfectam
+<lb ed="#P" n="63"/>providentiam legislatoris humani : ergo multo
+<lb ed="#P" n="64"/>magis ad providentiam Dei, cui non est 
+simi<lb break="no" ed="#P" n="65"/>lis in legislatoribus: ergo, dando illam legem,
+<lb ed="#P" n="66"/>conveniens fuit ut simul promitteret praemia
+<lb ed="#P" n="67"/>observantibus illam. Et confirmatur, quia non
+<lb ed="#P" n="68"/>est Deus minus liberalis in promittendo, et
+<lb ed="#P" n="69"/>justus in praemiando , quam sit severus in
+<lb ed="#P" n="70"/>comminando, et justus in puniendo : sed Deus
+<lb ed="#P" n="71"/>sancivit illam legem per comminationem 
+plu<lb break="no" ed="#P" n="72"/>rium poenarum, ut dictum est ; ergo decuit ut
+<lb ed="#P" n="73"/>etiam per promissiones suas illam 
+confirma<lb break="no" ed="#P" n="74"/>ret. Et ideo solet lex illa in Scriptura 
+signifi<lb break="no" ed="#P" n="75"/>cari nomine pacti ac foederis, quia ita lata est
+<lb ed="#P" n="76"/>ad obligandos homines, ut per promissionem
+<lb ed="#P" n="77"/>adjunctam obligaverit etiam Deum ad 
+red<lb break="no" ed="#P" n="78"/>denda praemia servantibus illa. Ex hoc ergo
+<lb ed="#P" n="79"/>fundamento facile probatur utraque pars 
+as<lb break="no" ed="#P" n="80"/>sertionis: nam opus legis cum fit, effectus est
+<lb ed="#P" n="81"/>legis, licet non proximus , saltem remotus,
+<lb ed="#P" n="82"/>quia lex, quantum in se est, ad illud inducit
+<lb ed="#P" n="83"/>et movet. Deinde opus illud ex obligatione
+<lb ed="#P" n="84"/>legis factum sub promissione praemii , 
+quan<lb break="no" ed="#P" n="85"/>tum est ex se, dignum est tali praemio, sicut
+<lb ed="#P" n="86"/>mercenarius dignus est mercede sua; ergo
+<lb ed="#P" n="87"/>opus dignum mercede promissa in lege 
+effec<lb break="no" ed="#P" n="88"/>tus est ejusdem legis: unde, ulterius 
+proce<lb break="no" ed="#P" n="89"/>dendo , praemium ipsum effectus est operis
+<lb ed="#P" n="90"/>illo digni, cuique ex pacto et promissione 
+de<lb break="no" ed="#P" n="91"/>betur ; ergo lex quae est causa talis operis,
+<lb ed="#P" n="92"/>consequenter est etiam causa talis praemii; est
+<lb ed="#P" n="93"/>ergo effectus ejus, licet magis remotus. Neque
+<lb ed="#P" n="94"/>in hac assertione absolute sumpta superest
+<lb ed="#P" n="95"/>specialis difficultas.
+</p>
+            <p xml:id="szdleg-s12930-d1e1700">
+               <lb ed="#P" n="96"/>18. Commune dubium de promissionibus 
+le<lb break="no" ed="#P" n="97"/>gis veteris. — Occurrit tamen commune 
+du<lb break="no" ed="#P" n="98"/>bium, quales fuerint promissiones illius legis;
+<lb ed="#P" n="99"/>an temporales tantum, vel etiam spirituales
+<lb ed="#P" n="100"/>et aeternae. Et ratio dubii est, quia D. Thomas
+<lb ed="#P" n="101"/>dicto art. 6, significat promissa illius legis
+<lb ed="#P" n="102"/>fuisse tantum temporalia, et reddit rationem,
+<lb ed="#P" n="103"/>quia lex illa disponebat ad CHRISTUM sicut
+<lb ed="#P" n="104"/>imperfectum ad perfectum, et dabatur populo
+<lb ed="#P" n="105"/>adhuc imperfecto in comparatione 
+perfectio<lb break="no" ed="#P" n="106"/>nis quae erat futura per CHRISTUM: 
+imper<lb break="no" ed="#P" n="107"/>fectorum autem est, quod temporalia bona
+<lb ed="#P" n="108"/>desiderent, et ideo illa lex per temporalium
+<lb ed="#P" n="109"/>bonorum promissiones homines inducebat.
+<lb ed="#P" n="110"/>Nam qui vult (ait D. Thomas) inducere alium
+<pb ed="#P" n="456"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ad observantiam praecepti, ea debet 
+promit<lb break="no" ed="#P" n="2"/>tere quae magis sunt in ejus affectu; nam
+<lb ed="#P" n="3"/>sicut qui docet, incipere debet a facilioribus,
+<lb ed="#P" n="4"/>ita qui movere alium vult, ea proponere debet
+<lb ed="#P" n="5"/>quae facilius movere possint : unde ob eamdem
+<lb ed="#P" n="6"/>causam comminationes illius legis erant de
+<lb ed="#P" n="7"/>poenis temporalibus, quia earum timor magis
+<lb ed="#P" n="8"/>movere solet animales homines et 
+imperfec<lb break="no" ed="#P" n="9"/>tos. Confirmatque hoc D. Thomas ex Paulo ad
+<lb ed="#P" n="10"/>Gal. 3, comparante legem paedagogo, et 
+con<lb break="no" ed="#P" n="11"/>sequenter Israeliticum populum puero 
+exis<lb break="no" ed="#P" n="12"/>tenti sub paedagogo: nam sicut puer maxime
+<lb ed="#P" n="13"/>sensibilibus movetur, et ideo a paedagogo 
+in<lb break="no" ed="#P" n="14"/>terdum flagelhs terretur, aliquando vero 
+le<lb break="no" ed="#P" n="15"/>vibus munusculis et promissionibus inducitur,
+<lb ed="#P" n="16"/>ita lex illa populum sibi subjectum 
+induce<lb break="no" ed="#P" n="17"/>bat; quod etiam constat ex tenore legis Deut.,
+<lb ed="#P" n="18"/>27 et 98, et ex usu Prophetarum, Isai. 1: S
+<lb ed="#P" n="19"/>volueritis, et audieritis me, bona terre 
+come<lb break="no" ed="#P" n="20"/>detis, etc. Et seepe in aliis.
+</p>
+            <p xml:id="szdleg-s12930-d1e1783">
+               <lb ed="#P" n="21"/>19. Significat autem D. Thomas hoc esse
+<lb ed="#P" n="22"/>intelligendum exclusive, ita ut non solum
+<lb ed="#P" n="23"/>lex illa temporalia frequenter promiserit, quod
+<lb ed="#P" n="24"/>evidentissimum est, sed etiam quod nihil 
+ex<lb break="no" ed="#P" n="25"/>cellentius promiserit, ad hoc enim discursus
+<lb ed="#P" n="26"/>D. Thomae tendit. Unde promissio illa, quae
+<lb ed="#P" n="27"/>habetur Levit. 418, et Ezech. 20: Custodite
+<lb ed="#P" n="28"/>leges meas, atque judicia, quae faciens homo
+<lb ed="#P" n="29"/>vivel in eis, de vita corporali intelligit idem
+<lb ed="#P" n="30"/>divus Thomas, quaest. 100, art. 19, ad 2, ex
+<lb ed="#P" n="31"/>Paulo ad Galat. 3; ubi significat diversitatem
+<lb ed="#P" n="32"/>esse inter illas duas sententias, Justus ec
+<lb ed="#P" n="33"/>fide vivit, et, Qui fecerit ea, vivel in illis;
+<lb ed="#P" n="34"/>quod prior intelligitur de vita spirituali, 
+pos<lb break="no" ed="#P" n="35"/>terior autem minime, quia lex non est ex fide;
+<lb ed="#P" n="36"/>et ideo in priori sententia simpliciter dicitur
+<lb ed="#P" n="37"/>vivii, in posteriori autem non simpliciter,
+<lb ed="#P" n="38"/>sed cum addito vivet in illis, id est, in lege,
+<lb ed="#P" n="39"/>cujus poenas non incurret, vel in justitia legis,
+<lb ed="#P" n="40"/>ut exponere videtur idem Paulus ad Romanos
+<lb ed="#P" n="41"/>cap. 10, dicens: Mogses enim scripsit, 
+quo<lb break="no" ed="#P" n="42"/>niam justitiaom, qua ex lege est, qui fecerit
+<lb ed="#P" n="43"/>homo, vivet in ea. Praeterea idem Paulus, ad
+<lb ed="#P" n="44"/>Hebraeos scribens, hanc sententiam indicare
+<lb ed="#P" n="45"/>videtur. Nam cap. 7 dicit, novi Testamenti
+<lb ed="#P" n="46"/>meliorem esse spem, utique quia est de aeternis
+<lb ed="#P" n="47"/>bonis, per quae appromimamus ad Deum - ergo
+<lb ed="#P" n="48"/>haec non promittebantur in veteri 
+Testamen<lb break="no" ed="#P" n="49"/>to; et ideo, cap. 8, addidit novum 
+Testamen<lb break="no" ed="#P" n="50"/>tum melioribus promissionibus sancitum.
+<lb ed="#P" n="51"/>Hinc etiam sancti Patres multum huic 
+sen<lb break="no" ed="#P" n="52"/>tentiae favere videntur; nam D. Augustinu;,
+<lb ed="#P" n="53"/>lib. 18 de Civitat., cap. 11, dicit legem 
+appel<lb break="no" ed="#P" n="54"/>lari vetus Testamentum, quia promissiones
+<lb ed="#P" n="55"/>terrenas habet, et per Jesum Christum futu-
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>rum fuerat Testamentum novum, in quo 
+re<lb break="no" ed="#P" n="57"/>gnum coelorum promitteretur. Quae differenta
+<lb ed="#P" n="58"/>manifeste requirit ut promissio regni 
+coelo<lb break="no" ed="#P" n="59"/>rum in veteri Testamento facta non fuerit, et
+<lb ed="#P" n="60"/>subjungit rationem similem discursui divi
+<lb ed="#P" n="61"/>Thomae, dicens: Hunc enim ordinem servari
+<lb ed="#P" n="62"/>oportebat, sicut in unoquoque homine, qui in
+<lb ed="#P" n="63"/>Deun proficit, id agitur, quod ait Apostolus,
+<lb ed="#P" n="64"/>ut non sit prius quod spirituale est, sed quod
+<lb ed="#P" n="65"/>animale, postea spirituale; et ita in quaest. 92
+<lb ed="#P" n="66"/>in Exodum dicit, licet in veteri Testamento
+<lb ed="#P" n="67"/>praecepta ad bonos mores pertinentia 
+repe<lb break="no" ed="#P" n="68"/>riantur, promissiones tamen carnales atque
+<lb ed="#P" n="69"/>terrenas fuisse; et quaest. 33 in Numer., inter
+<lb ed="#P" n="70"/>alias differentias inter utrumque 
+Testamen<lb break="no" ed="#P" n="71"/>tum, hanc constituit, quod in veteri promissa
+<lb ed="#P" n="72"/>erant temporalia, in novo spiritualia, quod,
+<lb ed="#P" n="73"/>lib. 4 contra Faustum, et Epist. 120, et in
+<lb ed="#P" n="74"/>aliis locis, seepe repetit. Unde Bernardus, 
+ser<lb break="no" ed="#P" n="75"/>mon. 30 in Cantic., de Lege dixit, Grave
+<lb ed="#P" n="76"/>legis jugun, et vile premiwn, nam terra est
+<lb ed="#P" n="77"/>in promissione, cui statim opponit suave 
+ju<lb break="no" ed="#P" n="78"/>gum legis gratiae, quae promissionem habet
+<lb ed="#P" n="79"/>vitae quae nunc est pariter et futurae. Hince
+<lb ed="#P" n="80"/>denique Hieronymus, Dialog. 1 contra 
+Pela<lb break="no" ed="#P" n="81"/>gian., et Chysostomus in Matth., dixerunt
+<lb ed="#P" n="82"/>regnum coelorum coepisse praedicari in 
+Evan<lb break="no" ed="#P" n="83"/>gelio: Legens (inquit Chrysostomus) Legem,
+<lb ed="#P" n="84"/>legens Prophetas, legens Psalterium, nunquam
+<lb ed="#P" n="85"/>regnum calorum audivi, nisi in Evangelio.
+<lb ed="#P" n="86"/>Hieronymus autem reprehendit Pelagium, qui
+<lb ed="#P" n="87"/>dicebat regnum coelorum etiam in veteri
+<lb ed="#P" n="88"/>Testamento repromitti : Cum perspicuum (
+in<lb break="no" ed="#P" n="89"/>quit) sit, regnum calorum primun in 
+Evanuge<lb break="no" ed="#P" n="90"/>lio praedicari.
+</p>
+            <p xml:id="szdleg-s12930-d1e1939">
+               <lb ed="#P" n="91"/>20. Contraria pars suadetur. — In 
+contra<lb break="no" ed="#P" n="92"/>rium vero est, quia non videtur posse negari
+<lb ed="#P" n="93"/>quin antiqui observatores legis Moysi vitam
+<lb ed="#P" n="94"/>aeternam per eam sperarent; de hac enim 
+re<lb break="no" ed="#P" n="95"/>tributione loquitur David, Psalmo 118, cum
+<lb ed="#P" n="96"/>dicit : Znclinavi cor meum ad faciendas 
+justi<lb break="no" ed="#P" n="97"/>ficationes tuas in etermum, propter 
+retributio<lb break="no" ed="#P" n="98"/>nem , et clarius Tobias, cap. 2, filio dicebat:
+<lb ed="#P" n="99"/>Filii sanctorum sumus, et vitam illam 
+eapec<lb break="no" ed="#P" n="100"/>tamus, quam daturus est Deus dis qui fidem
+<lb ed="#P" n="101"/>suam non autant ab illo; et 2 Machab., T,
+<lb ed="#P" n="102"/>unus eorum dixit : Aex mundi defunctos nos
+<lb ed="#P" n="103"/>pro suis legibus in eterne vite resurrectione
+<lb ed="#P" n="104"/>suscitabit. Unde de illa vita intellexisse 
+vide<lb break="no" ed="#P" n="105"/>tur illam promissionem : Qui fecerit eas, vivet
+<lb ed="#P" n="106"/>in eis; de qua etiam loquitur Ezech. 18, cum
+<lb ed="#P" n="107"/>dicit : Qui custodierit praecepta mea, et fecerit
+<lb ed="#P" n="108"/>judicium, et justitiam, vita vivet; et similia
+<lb ed="#P" n="109"/>habet cap. 33, et vita aeterpa expresse 
+promit<lb break="no" ed="#P" n="110"/>iitur Daniel. 12, et Sap. b: Justi autem in per-
+<pb ed="#P" n="457"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>petuum vivent. Denique Isaias, cap. 64, aeterni
+<lb ed="#P" n="2"/>pramii dignitatem agnoscens et expectans,
+<lb ed="#P" n="3"/>ait : Oculus non vidit, Deus, absque te, quae
+<lb ed="#P" n="4"/>praparasti diligentibus te ; et cap. 13 describit
+<lb ed="#P" n="5"/>eeternum praemium virtutis. Non videtur ergo
+<lb ed="#P" n="6"/>dubium quin homines sub lege viventes 
+pro<lb break="no" ed="#P" n="7"/>missionem haberent vitae aeternae, et illam 
+spe<lb break="no" ed="#P" n="8"/>rarent, quod aperte confirmat Apostolus, ad
+<lb ed="#P" n="9"/>Hebr. 11, ubi, facta longa numeratione 
+justo<lb break="no" ed="#P" n="10"/>rum illius temporis, concludit : Et hi omnes
+<lb ed="#P" n="11"/>estamonio fidei probati non acceperunt 
+repro<lb break="no" ed="#P" n="12"/>missionem, quod necesse est intelligi de 
+repro<lb break="no" ed="#P" n="13"/>umissione aeterna : nam temporales 
+promissio<lb break="no" ed="#P" n="14"/>nes multi acceperunt, de quibus in principio
+<lb ed="#P" n="15"/>dixerat : Sancti per fidem vicerunt regua, 
+ope<lb break="no" ed="#P" n="16"/>rati sunt justitiam , adepti sunt 
+repromissio<lb break="no" ed="#P" n="17"/>nes. Denique non solum poena temporalis, sed
+<lb ed="#P" n="18"/>etiam aeterna cognoscebatur, et timenda 
+pro<lb break="no" ed="#P" n="19"/>ponebatur in illo tempore, ut constat ex 
+eis<lb break="no" ed="#P" n="20"/>dem locis : unde etiam tunc peccando 
+morta<lb break="no" ed="#P" n="21"/>lter reatus illius poenae incurrebatur, ut est
+<lb ed="#P" n="22"/>de fide certum; ergo necessarium est ut etiam
+<lb ed="#P" n="23"/>aternum praemium proponeretur : nam haec
+<lb ed="#P" n="24"/>duo connexa necessario sunt, et eadem est
+<lb ed="#P" n="25"/>utriusque ratio. Quod etiam aperte ostendit
+<lb ed="#P" n="26"/>princeps quidam Judaeorum, qui Christum 
+in<lb break="no" ed="#P" n="27"/>terrogavit : Quid faciens vitam ceternam 
+pos<lb break="no" ed="#P" n="28"/>sidebo , Luc., 18. Habebat ergo notitiam illius
+<lb ed="#P" n="29"/>et spem.
+</p>
+            <p xml:id="szdleg-s12930-d1e2053">
+               <lb ed="#P" n="30"/>21. Utraque pars bene intellecta amplectenda.
+<lb ed="#P" n="31"/>— Explicantur Patres praedicti. — Dicendum
+<lb ed="#P" n="32"/>vero est utramque partem recte intellectam 
+ve<lb break="no" ed="#P" n="33"/>ram esse; nam lex proprie sumpta non 
+promit<lb break="no" ed="#P" n="34"/>tebat praemia aeterna, sed temporalia, ut 
+prio<lb break="no" ed="#P" n="35"/>res Patres docent. Et ratio eorum suadet, et ex
+<lb ed="#P" n="36"/>testimoniis ex lege citatis colligitur, addendo,
+<lb ed="#P" n="37"/>nullum ex propria lege afferri testimonium,
+<lb ed="#P" n="38"/>in quo spirituales promissiones fiant. Et 
+nihi<lb break="no" ed="#P" n="39"/>lominus verissimum etiam est homines sub
+<lb ed="#P" n="40"/>lege constitutos habuisse promissionem vitae
+<lb ed="#P" n="41"/>aeternae, et spiritualium bonorum, et fidem ac
+<lb ed="#P" n="42"/>spem eorum, sine qua impossibile est 
+remis<lb break="no" ed="#P" n="43"/>sionem peccatorum obtinere: Accedentem ,
+<lb ed="#P" n="44"/>enim, ad Dewm oportet credere, quia est, et
+<lb ed="#P" n="45"/>inquirentibus se remunerator sit, ad Hebr. 11.
+<lb ed="#P" n="46"/>Neque hoc posterius cum priori repugnat,
+<lb ed="#P" n="47"/>quia hanc promissionem non habuerunt Judaei
+<lb ed="#P" n="48"/>ex lege, sed ex Patribus (ut sic dicam), utique
+<lb ed="#P" n="49"/>per traditionem eorum; nam a principio 
+Eccle<lb break="no" ed="#P" n="50"/>siae facta est hominibus fidelibus, et in eis per
+<lb ed="#P" n="51"/>traditionem permansit fides ejus, et in 
+Abra<lb break="no" ed="#P" n="52"/>ham revocata est, et expressior facta, unde est
+<lb ed="#P" n="53"/>illud Ecclesiae in Missis defunctorum: Signifer
+<lb ed="#P" n="54"/>sanctus Michael repraesentet eas in lucem 
+sanc<lb break="no" ed="#P" n="55"/>lum, quam olim Abrale promisisti, et semini
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>ejus. Sic ergo ad populum Israeliticum 
+perve<lb break="no" ed="#P" n="57"/>nit, et postea per Prophetas scripta est, non
+<lb ed="#P" n="58"/>tanquam nova, sed tanquam antiqua. Quod
+<lb ed="#P" n="59"/>totum satis probat testimonium Pauli ad 
+He<lb break="no" ed="#P" n="60"/>braeos. undecimo, ubi incipiens ab Abel, et
+<lb ed="#P" n="61"/>progrediens per Patriarchas usque ad 
+Pro<lb break="no" ed="#P" n="62"/>phetas, omnes dicit habuisse hanc 
+promissio<lb break="no" ed="#P" n="63"/>nem. Lex ergo nullam promissionem 
+spiritua<lb break="no" ed="#P" n="64"/>lem huic antiquae addidit, et in hoc sensu vere
+<lb ed="#P" n="65"/>dicitur taptum promisisse temporaha, scilicet,
+<lb ed="#P" n="66"/>quantum ad promissiones quas ipsa addidit.
+<lb ed="#P" n="67"/>Et in hoc sensu locutus est D. Thomas cum 
+Au<lb break="no" ed="#P" n="68"/>gustino. Et in eodem dixit Bernardus fuisse
+<lb ed="#P" n="69"/>vile praemium, scilicet, proprium illius legis,
+<lb ed="#P" n="70"/>comparatum ad onus etiam proprium quod lex
+<lb ed="#P" n="71"/>illa imponebat. Chrysostomus autem et 
+Hie<lb break="no" ed="#P" n="72"/>ronymus, quia non de sola lege, sed de toto
+<lb ed="#P" n="73"/>Testamento veteri loquuntur, exponendi sunt
+<lb ed="#P" n="74"/>ut loquantur de promissione vitae aeternae sub
+<lb ed="#P" n="75"/>expresso nomine regni coelorum. Vel si hoc
+<lb ed="#P" n="76"/>non probatur, quia Sapient. 5 vocatur regnum
+<lb ed="#P" n="77"/>decoris, et cap. 6 regnum perpetuuwm, et quia
+<lb ed="#P" n="78"/>verba Isaiae et alia sunt aequivalentia, 
+dicen<lb break="no" ed="#P" n="79"/>dum est ante Christum non fuisse promissum
+<lb ed="#P" n="80"/>regnum coelorum ut jam apertum, et 
+secun<lb break="no" ed="#P" n="81"/>dum illum statum assequendum, et hoc modo
+<lb ed="#P" n="82"/>incoeptum esse praedicari tempore legis 
+gra<lb break="no" ed="#P" n="83"/>tiee, et hoc intendisse illos Patres, ut ex 
+ante<lb break="no" ed="#P" n="84"/>cedentibus et consequentibus constare potest.
+<lb ed="#P" n="85"/>Vel certe regnum illud non fuisse promissum,
+<lb ed="#P" n="86"/>ut praemium operum legis, sed ut praemium
+<lb ed="#P" n="87"/>operum gratiae, et ut sic semper ad novum
+<lb ed="#P" n="88"/>Testamentum pertinuisse. Quae doctrina 
+ma<lb break="no" ed="#P" n="89"/>gis declarabitur ex capite sequenti.
+</p>
+            <p xml:id="szdleg-s12930-d1e2188">
+               <lb ed="#P" n="90"/>22. Aliud dubium.— Aliud dubium excitari
+<lb ed="#P" n="91"/>potest circa eamdem quartam assertionem,
+<lb ed="#P" n="92"/>scilicet, quomodo opera legis essent meritoria
+<lb ed="#P" n="93"/>illius praemii temporalis promissi per legem,
+<lb ed="#P" n="94"/>vel pramii aeterni promissi per fidem. Sed
+<lb ed="#P" n="95"/>de hoc posteriori puncto dicam in capite 
+se<lb break="no" ed="#P" n="96"/>quenti. De priori vero, dicendum est fuisse
+<lb ed="#P" n="97"/>illud meritum de condigno et de justitia,
+<lb ed="#P" n="98"/>quia et opera erant satis proportionata tal
+<lb ed="#P" n="99"/>praemio (cum Bernardus dixerit fuisse vile
+<lb ed="#P" n="100"/>praemium respectu tanti oneris), et fiebant ex
+<lb ed="#P" n="101"/>pacto cum Deo, et sub conditione talium 
+ope<lb break="no" ed="#P" n="102"/>rum. Oportebat autem tale opus esse saltem
+<lb ed="#P" n="103"/>moraliter bonum, quale de se erat quodlibet
+<lb ed="#P" n="104"/>opus divina legis, nisi ex parte operants
+<lb ed="#P" n="105"/>prave fieret ; tunc enim totum opus Deo 
+dis<lb break="no" ed="#P" n="106"/>pliceret, et ideo non posset esse meritorium
+<lb ed="#P" n="107"/>de condigno apud Deum, etiam praemii 
+tem<lb break="no" ed="#P" n="108"/>poralis, cum poenam potius mereatur. Et ita
+<lb ed="#P" n="109"/>est intelligenda conditio illius promissionis,
+<lb ed="#P" n="110"/>quod fiat opus ita implens aliquod praeceptum
+<pb ed="#P" n="458"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>legis, ut nullum aliud praeceptum Dei per illud
+<lb ed="#P" n="2"/>violetur. Imo addi potest ex divo Thoma,
+<lb ed="#P" n="3"/>dicto art. 6, ad 3, aliam etiam conditionem
+<lb ed="#P" n="4"/>fuisse necessariam ex parte personae 
+operan<lb break="no" ed="#P" n="5"/>üs, scilicet, ut operans non esset inimicus Dei.
+<lb ed="#P" n="6"/>Sic enim ait D. Thomas aliquos servantes 
+le<lb break="no" ed="#P" n="7"/>gem illam, non fuisse consecutos etiam 
+prae<lb break="no" ed="#P" n="8"/>mia temporalia illis promissa, quia cor totum
+<lb ed="#P" n="9"/>habebant in temporalibus defivum , et a Deo
+<lb ed="#P" n="10"/>elongatum. Nam in tali statu nemo potest
+<lb ed="#P" n="11"/>mereri apud Deum de justitia etiam 
+tempo<lb break="no" ed="#P" n="12"/>ralia promissa, cum illis etiam bonis sit 
+in<lb break="no" ed="#P" n="13"/>dignus. Unde licet fortasse gratia non esset
+<lb ed="#P" n="14"/>per se necessaria ad tale meritum, tanquam
+<lb ed="#P" n="15"/>principium per se ejus, potuit esse necessaria
+<lb ed="#P" n="16"/>conditio ad removendum impedimentum. Et
+<lb ed="#P" n="17"/>ideo, hoc non obstat quominus tale praemium
+<lb ed="#P" n="18"/>absolute dici possit effectus illius legis, quod
+<lb ed="#P" n="19"/>de praemio aeternae vitae simpliciter dici non
+<lb ed="#P" n="20"/>potest. ut capite sequenti constabit.
+</p>
+            <p xml:id="szdleg-s12930-d1e2284">
+               <lb ed="#P" n="21"/>23. Denique indicat D. Thomas, in dicta
+<lb ed="#P" n="22"/>solutione ad 3, non obstante dicta 
+promis<lb break="no" ed="#P" n="23"/>sione , non fuisse infallibile illud praemium
+<lb ed="#P" n="24"/>respectu singularum personarum , quia fieri
+<lb ed="#P" n="25"/>poterat ut aliquae personae particulares, etiam
+<lb ed="#P" n="26"/>Justitiam legis servantes, illa bona temporalia
+<lb ed="#P" n="27"/>non obtinerent, quia jam erant spirituales 
+ef<lb break="no" ed="#P" n="28"/>facti, ut per hoc magis ab affectu temporalium
+<lb ed="#P" n="29"/>abstraherentur, et eorum virius probata 
+redde<lb break="no" ed="#P" n="30"/>retur. Unde sentit D. Thomas promissionem
+<lb ed="#P" n="31"/>temporalium etiam tunc inclusisse 
+conditio<lb break="no" ed="#P" n="32"/>nem , dummodo spiritualibus non nocerent,
+<lb ed="#P" n="33"/>et sub illa fuisse infallibilem, ita ut ratione
+<lb ed="#P" n="34"/>illius talia bona obtinerentur, etiamsi ad 
+spi<lb break="no" ed="#P" n="35"/>ritualem salutem non essent necessaria, 
+sim<lb break="no" ed="#P" n="36"/>pliciter loquendo. Et ita intelliguntur 
+spe<lb break="no" ed="#P" n="37"/>cialiter tunc promissa bona temporalia , ut
+<lb ed="#P" n="38"/>talia sunt, id est, sine positivo respectu ad
+<lb ed="#P" n="39"/>spiritualia, quamvis noluerit Deus se obligare
+<lb ed="#P" n="40"/>ad illa tribuenda, etiam cum spirituali 
+nocu<lb break="no" ed="#P" n="41"/>mento.
+</p>
+            <p xml:id="szdleg-s12930-d1e2332">
+               <lb ed="#P" n="42"/>24. Multiplicatio peccatorum non fuit 
+effec<lb break="no" ed="#P" n="43"/>tus illius legis--Ultimo dicendum est, 
+quam<lb break="no" ed="#P" n="44"/>vis occasione illius iegis peccata multiplicata
+<lb ed="#P" n="45"/>fuerint, nihilominus dici non posse, 
+simplici<lb break="no" ed="#P" n="46"/>ter loquendo, multiplicationem peccatorum
+<lb ed="#P" n="47"/>fuisse effectum illius legis. Hanc assertionem
+<lb ed="#P" n="48"/>propono ad explicandas aliquas locutiones
+<lb ed="#P" n="49"/>Scripturae, praesertim D. Pauli, et 
+convenien<lb break="no" ed="#P" n="50"/>tem modum loquendi in hac materia. Prior
+<lb ed="#P" n="51"/>igitur pars expresse traditur ad Roman. 7, ubi
+<lb ed="#P" n="52"/>prius dicit: Cum. essemus in carne, passiones
+<lb ed="#P" n="53"/>peccatorum, quae per legem erant, operabantur
+<lb ed="#P" n="54"/>in membris nostris , ut fructificarent morti.
+<lb ed="#P" n="55"/>Deinde objicit: Quid ergo dicemus, lea pecca-
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>tum est? absit ; et infra: Nam peccatum 
+occa<lb break="no" ed="#P" n="57"/>sione accepta per mandatum seduxit me, et
+<lb ed="#P" n="58"/>per illud occidit ; igitur occasione legis, non
+<lb ed="#P" n="59"/>data ab ipsa, sed ab homine accepta, 
+multi<lb break="no" ed="#P" n="60"/>plicata sunt peccata. Ratio vero est, quia lex
+<lb ed="#P" n="61"/>ostendebat peccatum, et illud prohibebat, et
+<lb ed="#P" n="62"/>consequenter quodammodo augebat 
+appeti<lb break="no" ed="#P" n="63"/>tum rei prohibitae, quia cum aliquid 
+concu<lb break="no" ed="#P" n="64"/>piscitur, et postea prohibetur, concupiscentie
+<lb ed="#P" n="65"/>flamma magis attollitur, ut ait Chrysostomus,
+<lb ed="#P" n="66"/>homilia 12 in Epistol. ad Romanos, et 
+con<lb break="no" ed="#P" n="67"/>sentit Hieronymus, quaest. 8 ad Algas. Aliunde
+<lb ed="#P" n="68"/>vero lex illa vires non praebebat ad peccatum
+<lb ed="#P" n="69"/>vincendum, ut capite sequenti dicam. Altera
+<lb ed="#P" n="70"/>vero pars probatur ex eodem Paulo, quia lex
+<lb ed="#P" n="71"/>est bona, et opus Dei; ergo non potest esse
+<lb ed="#P" n="72"/>causa peccati. Probatur consequentia, quia
+<lb ed="#P" n="73"/>alias Deus ipse esset causa peccati, et ideo
+<lb ed="#P" n="74"/>Paulus eodem loco cautissime loquitur, dicens:
+<lb ed="#P" n="75"/>Quod ergo bonum est, mihi factum est mors?
+<lb ed="#P" n="76"/>absit , sed peccatum , ut appareat peccatum,
+<lb ed="#P" n="77"/>per bonum operatum est mihi mortem ; ubi
+<lb ed="#P" n="78"/>peccatum vocat fomitem peccati, et illi tribuit
+<lb ed="#P" n="79"/>causalitatem aliorum peccatorum, licet per
+<lb ed="#P" n="80"/>occasionem legis.
+</p>
+            <p xml:id="szdleg-s12930-d1e2421">
+               <lb ed="#P" n="81"/>25. Objectio.—Sed contra posteriorem 
+par<lb break="no" ed="#P" n="82"/>tem objici potest illud Pauli 2 ad Corinth., 3:
+<lb ed="#P" n="83"/>Littera occidit, spiritus autem vivificat, ub
+<lb ed="#P" n="84"/>Augustinus nomine (Uittere legem intelligit,
+<lb ed="#P" n="85"/>quae sic vocatur, vel quia in lapidibus scripta
+<lb ed="#P" n="86"/>fuit, vel quia per antonomasiam lex scripta
+<lb ed="#P" n="87"/>appellatur ; et consonat quod statim Paulus
+<lb ed="#P" n="88"/>subdit: Sài ministratio mortis litteris 
+defor<lb break="no" ed="#P" n="89"/>mata, in lapidibus, etc., ubi clare legem 
+de<lb break="no" ed="#P" n="90"/>scribit. Verbum autem occidit, de occisione
+<lb ed="#P" n="91"/>spirituali intelligitur, opponitur enim verbo
+<lb ed="#P" n="92"/>vivificandi, spiritui attributo, quod plane 
+in<lb break="no" ed="#P" n="93"/>telligitur de spirituali vita; ergo, juxta 
+Pau<lb break="no" ed="#P" n="94"/>Ium, lex spiritualiter occidit ; ergo peccatum,
+<lb ed="#P" n="95"/>quod est mors animae, est effectus illius legis.
+<lb ed="#P" n="96"/>Atque ita illum locum exponit Augustinus,
+<lb ed="#P" n="97"/>de Spirit. et litter., cap. 4 et sequentibus,
+<lb ed="#P" n="98"/>praesertim usque ad 14 et 15, contra 
+Faus<lb break="no" ed="#P" n="99"/>tum, cap. 8, et lib. 2 contra adversar. legis
+<lb ed="#P" n="100"/>et Proph., cap. 7; et idem fere tradit ib
+<lb ed="#P" n="101"/>Chrysostomus, homil. 6, sequunturque divus
+<lb ed="#P" n="102"/>Thomas, Anselm. et alii. Et simili modo, ad
+<lb ed="#P" n="103"/>Romanos 7, dicitur illa lex mortis, utique ab
+<lb ed="#P" n="104"/>effectu, quia occidendo, mortem animae infert,
+<lb ed="#P" n="105"/>mors autem animae est peccatum.
+</p>
+            <p xml:id="szdleg-s12930-d1e2478">
+               <lb ed="#P" n="106"/>26. Responsio. — Ad prius testimonium,
+<lb ed="#P" n="107"/>aliqui nomine litterae non legem tantum, sed
+<lb ed="#P" n="108"/>totam litteram veteris Testamenti intelligunt,
+<lb ed="#P" n="109"/>quam dicunt occidere, si juxta corticem 
+litte<lb break="no" ed="#P" n="110"/>rae intelligatur, vivificare autem, si in spiri-
+<pb ed="#P" n="459"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tuali sensu accipiatur. Ita Origenes, lib. 6
+<lb ed="#P" n="2"/>contra Celsum circa finem, et lib. 7, prope
+<lb ed="#P" n="3"/>medium. Quam sententiam non reprobat 
+Au<lb break="no" ed="#P" n="4"/>gustinus dicto lib. de Spirit. et litter., cap. 4,
+<lb ed="#P" n="5"/>sed potius admittit, dummodo alia non 
+rejicia<lb break="no" ed="#P" n="6"/>tur ; et ita illa utitur lib. 3 de Doctr. 
+Chris<lb break="no" ed="#P" n="7"/>tian., cap. 5. Et sententia quidem sano modo
+<lb ed="#P" n="8"/>intellecta in se vera est, non est autem 
+existi<lb break="no" ed="#P" n="9"/>mandum intelligentiam Scripturae secundum
+<lb ed="#P" n="10"/>proprium sensum verborum malam esse, vel
+<lb ed="#P" n="11"/>nocivam, hoc enim haereticum esset, ut per se
+<lb ed="#P" n="12"/>constat, sed sensus est nocivum esse, vel, cum
+<lb ed="#P" n="13"/>Scriptura figurate loquitur, adhaerere cortici
+<lb ed="#P" n="14"/>verborum, vel spiritualem sensum Scripturae
+<lb ed="#P" n="15"/>in universum abjicere; sic enim dixit Christus
+<lb ed="#P" n="16"/>Joann. 6: Spiritus est qui vivificat, verba
+<lb ed="#P" n="17"/>quae ego locutus sum ovobis, spiritus et vita
+<lb ed="#P" n="18"/>sunt. Sed licet haec sententia sic intellecta in
+<lb ed="#P" n="19"/>se vera sit, sine dubio non est intenta a Paulo
+<lb ed="#P" n="20"/>in illo loco; nam evidenter per litteram legem
+<lb ed="#P" n="21"/>intelligit, ut ex contextu constat. Dicunt 
+ta<lb break="no" ed="#P" n="22"/>men Chrysostomus et Graeci legi tribui quod
+<lb ed="#P" n="23"/>occideret corporaliter, quia poenam mortis
+<lb ed="#P" n="24"/>frequenter imponebat. Quod per se spectatum
+<lb ed="#P" n="25"/>sustineri posset, tamen non videtur intentum
+<lb ed="#P" n="26"/>a Paulo, ut ratio facta probat, et quia infra
+<lb ed="#P" n="27"/>vocat Paulus eamdem legem, ministrationem
+<lb ed="#P" n="28"/>damnationis. Et ideo Augustinus, supra, 
+ex<lb break="no" ed="#P" n="29"/>ponit, legem occidere, etiam spiritualiter,
+<lb ed="#P" n="30"/>non quidem per se et ut causa mortis 
+spiri<lb break="no" ed="#P" n="31"/>tualis, sed solum ut occasio, sicut in assertione
+<lb ed="#P" n="32"/>explicatum est. Quia vero illa non est occasio
+<lb ed="#P" n="33"/>data, sed accepta , ideo simpliciter illa locutio
+<lb ed="#P" n="34"/>propria non est, sed metaphorica, ad eum
+<lb ed="#P" n="35"/>modum quo dicitur Deus in Scriptura 
+praeci<lb break="no" ed="#P" n="36"/>pere quando solum permittit, ad indicandam
+<lb ed="#P" n="37"/>certitudinem eventus; ita enim in praesenti,
+<lb ed="#P" n="38"/>ut significaret Paulus, posita lege sine spiritu
+<lb ed="#P" n="39"/>gratiae infallibihter sequi lapsum hominis,
+<lb ed="#P" n="40"/>ideo dixit litteram occidere.
+</p>
+            <p xml:id="szdleg-s12930-d1e2583">
+               <lb ed="#P" n="41"/>27. Ad alium locum responsio. — Alia 
+expo<lb break="no" ed="#P" n="42"/>sitio. — Unde facile patet responsio ad alium
+<lb ed="#P" n="43"/>locum in quo illa dicitur lex mortis; potest
+<lb ed="#P" n="44"/>enim hoc intelligi de morte corporali juxta
+<lb ed="#P" n="45"/>expositionem Chrysostomi, quam etiam 
+indi<lb break="no" ed="#P" n="46"/>cat Gregor. II Moral. cap. 10, alias 21, ubi
+<lb ed="#P" n="47"/>per umbram mortis legem intelligit , quia
+<lb ed="#P" n="48"/>mortem frequenter in peenam imponebat. Et
+<lb ed="#P" n="49"/>in hoc sensu non procedit objectio, sed locus
+<lb ed="#P" n="50"/>ille probat tertiam assertionem, quia licet lex
+<lb ed="#P" n="51"/>per se et absolute non intenderet mortem,
+<lb ed="#P" n="52"/>etiam corporalem, et sub hac ratione dici 
+pos<lb break="no" ed="#P" n="53"/>sit non esse causam illius, quomodo etiam de
+<lb ed="#P" n="54"/>Deo dicitur quod mortem non fecit : 
+nibilo<lb break="no" ed="#P" n="55"/>minus in transgressores legis mortem per se
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>intendit, et facit, supposita transgressione,
+<lb ed="#P" n="57"/>quia sic bona est, quomodo dicitur Deus 
+fa<lb break="no" ed="#P" n="58"/>cere omne malum poenae. Dices ergo etiam
+<lb ed="#P" n="59"/>dici poterit lex illa lex vitae, quia sicut 
+com<lb break="no" ed="#P" n="60"/>minabatur mortem transgressoribus, ita 
+pro<lb break="no" ed="#P" n="61"/>mittebat vitam servantibus. Respondetur 
+de<lb break="no" ed="#P" n="62"/>nominationem illam non ex sola promissione
+<lb ed="#P" n="63"/>vel comminatione , sed ex effectu desumi :
+<lb ed="#P" n="64"/>mors autem proprie infertur ratione legis
+<lb ed="#P" n="65"/>transgredientibus ipsam: vita autem 
+corpo<lb break="no" ed="#P" n="66"/>ralis non datur proprie, sed solum non 
+aufer<lb break="no" ed="#P" n="67"/>tur, et ideo non est eadem ratio 
+denomina<lb break="no" ed="#P" n="68"/>tionis. Alio modo intelligi potest ille locus
+<lb ed="#P" n="69"/>de morte spirituali, juxta expositionem 
+Au<lb break="no" ed="#P" n="70"/>gustini supra datam; et satis consentaneum
+<lb ed="#P" n="71"/>discursui Pauli ; nam veluti explicans illam
+<lb ed="#P" n="72"/>denominationem subjungit : Incentum est
+<lb ed="#P" n="73"/>mihi mandatum, quod erat ad vitam, hoc esse
+<lb ed="#P" n="74"/>ad mortem -: nam peccatum occasione accepta
+<lb ed="#P" n="75"/>per mandatum seduait me, et per illud occidit.
+<lb ed="#P" n="76"/>Loquitur ergo de morte spirituali, et explicat
+<lb ed="#P" n="77"/>illam vocari legem mortis, non quia sit causa
+<lb ed="#P" n="78"/>ejus, sed quia occasione ejus secuta est, et
+<lb ed="#P" n="79"/>tacite explicat verbum occidendi, quod in alio
+<lb ed="#P" n="80"/>loco posuit, et ita eumdem habent sensum, et
+<lb ed="#P" n="81"/>unus per alium debet explicari,
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

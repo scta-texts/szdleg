@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 12</title>
+            <author ref="#FranciscoSuarez">Francisco Suarez</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 12</title>
+               <date when="2026-01-29">January 29, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2026-01-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="488"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="szdleg-s22860"><!-- l9c12 -->
+            <head xml:id="szdleg-s22860-Hd1e101">Caput 12</head>
+            <head xml:id="szdleg-s22860-Hd1e103" type="question-title">An lex vetus quoad obligationem mortua fuerit seu cessaverit ante christi domini mortem.</head>
+            <p xml:id="szdleg-s22860-d1e106">
+               <lb ed="#P" n="85"/>CAPUT XII.
+<lb ed="#P" n="86"/>AN LEX VETUS QUOAD OBLIGATIONEM MORTUA
+<lb ed="#P" n="87"/>FUERIT SEU CESSAVERIT ANTE CHRISTI DOMINI
+<lb ed="#P" n="88"/>MORTEM.
+</p>
+            <p xml:id="szdleg-s22860-d1e117">
+               <lb ed="#P" n="89"/>1. De tempore quo leg illa mortua. — Non
+<lb ed="#P" n="90"/>fuit mortua ante Christi adventum. — Triplea
+<lb ed="#P" n="91"/>lempus in dubium vocatur.— Hactenus solum
+<lb ed="#P" n="92"/>ostendimus nunc esse mortuam legem 
+vete<lb break="no" ed="#P" n="93"/>rem, nondum tamen declaratum est quando
+<lb ed="#P" n="94"/>primum abrogata fuit desiitque : nam, licet
+<lb ed="#P" n="95"/>ex probationibus adductis, satis etiam constet
+<lb ed="#P" n="96"/>multis retro temporibus et a principio 
+nascen<lb break="no" ed="#P" n="97"/>tis Ecclesiae Christi legem veterem mortuam
+<lb ed="#P" n="98"/>fuisse, nondum tamen explicatum est in quo
+<lb ed="#P" n="99"/>puncto, ac momento, vel tempore expiravit.
+<lb ed="#P" n="100"/>Supponimus vero ante Christi adventum in
+<lb ed="#P" n="101"/>carne non fuisse mortuam, quia data fuit donec
+<lb ed="#P" n="102"/>veniret semen : de tribus ergo temporibus restat
+<lb ed="#P" n="103"/>dubitatio, scilicet de tempore vitae Christi 
+Do<lb break="no" ed="#P" n="104"/>mini ante mortem ejus, de instanti mortis
+<lb ed="#P" n="105"/>ejus, et de aliquo tempore post mortem ejus;
+<lb ed="#P" n="106"/>ideoque de singulis dicendum est. Habet 
+au<lb break="no" ed="#P" n="107"/>tem locum haec questio solum respectu Judaeo-
+</p>
+            <p xml:id="szdleg-s22860-d1e161">
+               <pb ed="#P" n="489"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>rum, quibus lex illa data erat: nam respectu
+<lb ed="#P" n="2"/>Gentilium , quibus nunquam fuit imposita,
+<lb ed="#P" n="3"/>non oportet designare initium temporis in
+<lb ed="#P" n="4"/>quo illos non obligavit. quia nunquam eos
+<lb ed="#P" n="5"/>obligavit, nec ante incarnationem Christi, 
+ne<lb break="no" ed="#P" n="6"/>que post illam ante mortem ejus, neque etiam
+<lb ed="#P" n="7"/>i morte, vel post mortem ipsius, ut supra
+<lb ed="#P" n="8"/>probatum est; et ideo diximus respectu 
+Genti<lb break="no" ed="#P" n="9"/>lium non fuisse illam legem mortuam, sed
+<lb ed="#P" n="10"/>potius nunquam fuisse vivam, ut sic dicam,
+<lb ed="#P" n="11"/>quia, ex quo lata fuit, illos non obligavit. Tota
+<lb ed="#P" n="12"/>ergo quaestio circa obligationem Judaeorum
+<lb ed="#P" n="13"/>versatur.
+</p>
+            <p xml:id="szdleg-s22860-d1e197">
+               <lb ed="#P" n="14"/>2. Sententia affirmans circumcisionem 
+ces<lb break="no" ed="#P" n="15"/>sasse ante mortem Christi.—FPundamentum.—
+<lb ed="#P" n="16"/>His ergo positis, circa primum tempus est 
+pe<lb break="no" ed="#P" n="17"/>culiaris opinio aliquorum scholasticorum 
+ces<lb break="no" ed="#P" n="18"/>sasse circumcisionis praeceptum ante mortem
+<lb ed="#P" n="19"/>Christi, nimirum, quamprimum Baptismus
+<lb ed="#P" n="20"/>institutus est, et efficaciam coepit habere 
+con<lb break="no" ed="#P" n="21"/>ferendi gratiam. Ita tenet Scotus in 4, dist. 3,
+<lb ed="#P" n="22"/>quaest. 4, S Quantum ergo. Sequitur Gabr.,
+<lb ed="#P" n="23"/>Jist. 1, quaest. 4, art. 3. Fundamentum est,
+<lb ed="#P" n="24"/>quia ex quo Baptismus coepit esse utilis ad
+<lb ed="#P" n="25"/>justitiam , coepit esse sub consilio; ergo ex
+<lb ed="#P" n="26"/>tunc coepit circumcisio non esse sub praecepto;
+<lb ed="#P" n="27"/>Baptismus autem utilitatem habuit ante 
+mor<lb break="no" ed="#P" n="28"/>tem Christi paulo post initium Baptismi 
+Joan<lb break="no" ed="#P" n="29"/>nis, ut nunc supponimus; ergo. Prima 
+conse<lb break="no" ed="#P" n="30"/>quentia patet, tum quia consilium rei 
+perfec<lb break="no" ed="#P" n="31"/>tioris et utilioris tollit praeceptum inferioris
+<lb ed="#P" n="32"/>rei, et minus perfectae; tum etiam quia cum
+<lb ed="#P" n="33"/>circumcisio jam non esset necessaria ad 
+re<lb break="no" ed="#P" n="34"/>missionem peccati originalis, non erat cur sub
+<lb ed="#P" n="35"/>necessitate praecepti post Baptismi utilitatem
+<lb ed="#P" n="36"/>relinqueretur. Ex qua opinione sequitur totam
+<lb ed="#P" n="37"/>illam legem cessasse quoad obligationem, 
+re<lb break="no" ed="#P" n="38"/>spectu omnium puerorum qui post Baptismi
+<lb ed="#P" n="39"/>institutionem ex Hebraeis nascebantur. Quia
+<lb ed="#P" n="40"/>lex illa non obligabat nisi circumcisos, ideoque
+<lb ed="#P" n="41"/>circumcisio erat illus legis professio; ergo
+<lb ed="#P" n="42"/>qui non tenebantur ad circumcisionem, nec
+<lb ed="#P" n="43"/>ad totam legem obligabantur, simpliciter 
+lo<lb break="no" ed="#P" n="44"/>quendo. Haec tamen cessatio totius legis ex vi
+<lb ed="#P" n="45"/>hujus illationis non habet locum in 
+parenti<lb break="no" ed="#P" n="46"/>bus, seu hominibus illius populi qui jam erant
+<lb ed="#P" n="47"/>adulti et circumcisi tempore institutionis 
+Ba<lb break="no" ed="#P" n="48"/>ptismi ; imo nec in parvulis potuit ad praxim
+<lb ed="#P" n="49"/>reduci. Ratio prioris partis est, quia homines
+<lb ed="#P" n="50"/>jam circumcisi poterant quidem liberari a
+<lb ed="#P" n="51"/>praecepto (ut ita dicam) activo circumcisionis,
+<lb ed="#P" n="52"/>id est, ab obligatione circumcidendi suos filios;
+<lb ed="#P" n="53"/>non poterant autem eximi ab obligatione 
+pas<lb break="no" ed="#P" n="54"/>siva, id est, recipiendi circumcisionem, quia
+<lb ed="#P" n="55"/>jam erant circumcisi, et legem totam professi
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>fuerant, et ideo non liberabantur a toto onere
+<lb ed="#P" n="57"/>legis ex vi cessationis praecepti circumcisionis,
+<lb ed="#P" n="58"/>prout ad illos pertinebat. Alterius vero partis
+<lb ed="#P" n="59"/>ratio est, quia infantes nati in illo populo post
+<lb ed="#P" n="60"/>institutionem Baptismi non poterant pervenire
+<lb ed="#P" n="61"/>ad usum rationis ante mortem Christi, et ideo
+<lb ed="#P" n="62"/>non poterant proprie eximi ab onere legis per
+<lb ed="#P" n="63"/>carentiam circumcisionis, quia nondum erant
+<lb ed="#P" n="64"/>capaces obligationis ejus.
+</p>
+            <p xml:id="szdleg-s22860-d1e312">
+               <lb ed="#P" n="65"/>3. Probatur praedicta sententia. — Aliunde
+<lb ed="#P" n="66"/>vero probari potest universaliter totam illam
+<lb ed="#P" n="67"/>legem, quoad obligationem , cessasse ante
+<lb ed="#P" n="68"/>Christi mortem, primo ex illo Luc. 18: Lez et
+<lb ed="#P" n="69"/>Prophete usque ad Joannem : ergo saltem in
+<lb ed="#P" n="70"/>baptismate Joannis lex mortua est; secundo,
+<lb ed="#P" n="71"/>quia quoad aliqua saltem praecepta videtur
+<lb ed="#P" n="72"/>antea extincta, quia multa mysteria Christi
+<lb ed="#P" n="73"/>successu vitae ejus impleta fuerunt ante 
+mor<lb break="no" ed="#P" n="74"/>tem, quae tamen per plures caeremonias legis
+<lb ed="#P" n="75"/>figurabantur ut futura : ergo praecepta de 
+ta<lb break="no" ed="#P" n="76"/>libus caeremoniis ante mortem Christi 
+cessa<lb break="no" ed="#P" n="77"/>runt; alias vigerent praecepta de signis falsis
+<lb ed="#P" n="78"/>exhibendis, quod repugnat.
+</p>
+            <p xml:id="szdleg-s22860-d1e345">
+               <lb ed="#P" n="79"/>4. Lex vetus usque ad instans mortis Christi
+<lb ed="#P" n="80"/>obligabat. — Probatur primo. — Nihilominus
+<lb ed="#P" n="81"/>dicendum est ante Christi mortem legem 
+ve<lb break="no" ed="#P" n="82"/>terem non fuisse mortuam quoad 
+obligatio<lb break="no" ed="#P" n="83"/>nem, ac subinde usque ad instans mortis
+<lb ed="#P" n="84"/>Christi ad minimum obligasse. Est communis
+<lb ed="#P" n="85"/>sententia theologorum, D. Thom. 1. 2, q. 103,
+<lb ed="#P" n="86"/>art 23, ad 2; Bonavent. in A, dist. 3, 2 part.
+<lb ed="#P" n="87"/>ejus art. 2, quaest. 2; Major., quaest. 2; hich.,
+<lb ed="#P" n="88"/>dist. 4, art. 6, quaest. 4; Capr., quaest. 3, a. 3,
+<lb ed="#P" n="89"/>ad 1, contra 4 concl.; Palud., quaest. 6, a. 3;
+<lb ed="#P" n="90"/>Durand., quaest. 9, et aliorum quos infra 
+refe<lb break="no" ed="#P" n="91"/>remus; et in hoc videntur convenire 
+Hiero<lb break="no" ed="#P" n="92"/>nym., Augustin., Richard. de S. Victor, Bern.,
+<lb ed="#P" n="93"/>et alii qui materiam hanc disputarunt. 
+Potest<lb break="no" ed="#P" n="94"/>que ostendi primo, ex Evangelio, ubi saepe
+<lb ed="#P" n="95"/>legimus Christum servasse legem, tam in 
+in<lb break="no" ed="#P" n="96"/>fantia quam in discursu vitae usque ad 
+mor<lb break="no" ed="#P" n="97"/>tem ; paulo enim ante illam manducavit 
+Pas<lb break="no" ed="#P" n="98"/>cha; et ita semper consuevisse facere 
+osten<lb break="no" ed="#P" n="99"/>dunt verba discipulorum, dicentium : Ubi vis
+<lb ed="#P" n="100"/>paremus tibi comedere Pascha? Matth. 20.
+<lb ed="#P" n="101"/>Quamvis enim ipse non subjiceretur legi, 
+ta<lb break="no" ed="#P" n="102"/>men quia lex ipsa vigebat, et mysteria ejus
+<lb ed="#P" n="103"/>non erant completa, tum propter exemplum,
+<lb ed="#P" n="104"/>tum propter mysterium, illam servare voluit,
+<lb ed="#P" n="105"/>juxta id quod dixit Matth. 5: IVon veni solvere
+<lb ed="#P" n="106"/>legem, sed adimplere. Et ob camdem rationem
+<lb ed="#P" n="107"/>illos docebat illam servare, Matth. 23: Super
+<lb ed="#P" n="108"/>cathedram Mogysi sederunt scribe et pharise,
+<lb ed="#P" n="109"/>etc. ; quecumque diserint vobis, facite; quia
+<lb ed="#P" n="110"/>nimirum durabat legis virtus et potestas sa-
+<pb ed="#P" n="490"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>cerdotum. Sic etiam, Luc. 17, misit leprosos,
+<lb ed="#P" n="2"/>dicens : 7te, ostendite vos sacerdotibus ; et c. 5,
+<lb ed="#P" n="3"/>cum mundasscet leprosum, eum similiter misit
+<lb ed="#P" n="4"/>ut ostenderet se sacerdoti, et addidit : Ft offer
+<lb ed="#P" n="5"/>pro emundatione tua, sicut praecepit Mogses.
+</p>
+            <p xml:id="szdleg-s22860-d1e432">
+               <lb ed="#P" n="6"/>5. Secundo, probatur conclusio.— Secundo,
+<lb ed="#P" n="7"/>probatur clare assertio ex capit. 9 ad Hebr.,
+<lb ed="#P" n="8"/>ubi prius dicitur : 7n secundo (id est, in 
+Sanc<lb break="no" ed="#P" n="9"/>ta Sanctorum) semel in anno solus Pontifex
+<lb ed="#P" n="10"/>(scilicet ingrediebatur) non sine sanguine,
+<lb ed="#P" n="11"/>quem offert pro sua et populi ignorantia : hoc
+<lb ed="#P" n="12"/>significante Spritu Sancto nondum csse 
+pro<lb break="no" ed="#P" n="13"/>palatam Sanctorum viam, adhnc priori 
+taber<lb break="no" ed="#P" n="14"/>naculo habente statum. Unde e converso 
+colh<lb break="no" ed="#P" n="15"/>go, quamdiu non fuit propalata Sanctorum via
+<lb ed="#P" n="16"/>adhuc prius tabernaculum habuisse statum:
+<lb ed="#P" n="17"/>quamdiu autem tabernaculum iliud suum 
+sta<lb break="no" ed="#P" n="18"/>tum habuit, ctiam sacerdotium in suo statu
+<lb ed="#P" n="19"/>duravit, et sacrificia ac caeremonia 
+servaban<lb break="no" ed="#P" n="20"/>tur usque ad tempus correctionis ampositae, ut
+<lb ed="#P" n="21"/>ibidem dicitur, utique per legem ; ergo etiam
+<lb ed="#P" n="22"/>tota lex duravit quamdiu tabernaculum et 
+sa<lb break="no" ed="#P" n="23"/>cerdotium suum statum habuit: nam haec se
+<lb ed="#P" n="24"/>comitantur, juxta illud cap. 7: Translato 
+sa<lb break="no" ed="#P" n="25"/>cerdotio , mecesse est ut legis translatio fiat ;
+<lb ed="#P" n="26"/>nam etiam e converso verum est, translata
+<lb ed="#P" n="27"/>lege, sacerdotium trarsfe-ri, quia per legem
+<lb ed="#P" n="28"/>stabilitur : ergo ante propalatam Sanctorum
+<lb ed="#P" n="29"/>viam lex non fuit abrogata : Sanctorum 
+au<lb break="no" ed="#P" n="30"/>tem via non est propalata ante Christi 
+mor<lb break="no" ed="#P" n="31"/>tem, in cujus signum, Christo expirante, 
+ve<lb break="no" ed="#P" n="32"/>lum templi scissum est, ut Patres exponunt,
+<lb ed="#P" n="33"/>et alibi diximus: ergo, saltem usque ad 
+in<lb break="no" ed="#P" n="34"/>staus mortis Christi, non fuit mortua lex
+<lb ed="#P" n="35"/>vetus.
+</p>
+            <p xml:id="szdleg-s22860-d1e500">
+               <lb ed="#P" n="36"/>6. Unde subjungit Paulus, eodem loco, 
+no<lb break="no" ed="#P" n="37"/>vum Testamentum in morte Christi fuisse
+<lb ed="#P" n="38"/>confirmatum, quod declarat vim faciendo in
+<lb ed="#P" n="39"/>metaphora testamenti, dicens : Ubi enim 
+testa<lb break="no" ed="#P" n="40"/>mentum est, mors necesse est testatoris 
+anterce<lb break="no" ed="#P" n="41"/>dat - testamentum enim in mortuis confir mutum
+<lb ed="#P" n="42"/>est, alioqui nondum valet, dum vivit, qui 
+testa<lb break="no" ed="#P" n="43"/>tits est. Sicut ergo novum Testamentum non
+<lb ed="#P" n="44"/>fuit confirmatum nec validum usque ad 
+mor<lb break="no" ed="#P" n="45"/>tem Christi, ita nec primum fuit sublatum,
+<lb ed="#P" n="46"/>quia, ut dixerat c. 8: Dicendo novum veteravit
+<lb ed="#P" n="47"/>prius; etc. 10 subdit: Aufert primum, ut 
+se<lb break="no" ed="#P" n="48"/>cundwm statuat; et m eodem c., docet non 
+ces<lb break="no" ed="#P" n="49"/>sasse sacrificia vetera, donec Christus una 
+obla<lb break="no" ed="#P" n="50"/>tione consummavit sanctificatos. Quod 
+signifi<lb break="no" ed="#P" n="51"/>catum etiam est, quando Christus Dominus
+<lb ed="#P" n="52"/>in Cruce dixit : Consummatum est, ut 
+inter<lb break="no" ed="#P" n="53"/>pretatur D. Thomas, quaest. 103, art. 8, ad 2,
+<lb ed="#P" n="54"/>et 3 part., quaest. 47, art. 2, ad 1; 
+intelligen<lb break="no" ed="#P" n="55"/>dum est autem vel in sensu mystico, vel con-
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>secutione quadam ; significando enim 
+passio<lb break="no" ed="#P" n="57"/>nem suam esse consummatam et 
+redemptio<lb break="no" ed="#P" n="58"/>nem nostram fuisse impletam, consequenter
+<lb ed="#P" n="59"/>significavit legem veterem fuisse impletam :
+<lb ed="#P" n="60"/>ergo ante illud tempus non fuit soluta, quia
+<lb ed="#P" n="61"/>solvi non debuit prius quam esset plene 
+im<lb break="no" ed="#P" n="62"/>pleta : ratio autem conclusionis patebit ex
+<lb ed="#P" n="63"/>sequenti.
+</p>
+            <p xml:id="szdleg-s22860-d1e565">
+               <lb ed="#P" n="64"/>7. Omnia praecepta legis veteris usque ad
+<lb ed="#P" n="65"/>Christi mortem durarunt. — Dico secundo:
+<lb ed="#P" n="66"/>omnia praecepta veteris legis, sine ulla 
+excep<lb break="no" ed="#P" n="67"/>tione, ac subinde praeceptum circumcisionis,
+<lb ed="#P" n="68"/>usque ad Christi mortem durarunt, et 
+obliga<lb break="no" ed="#P" n="69"/>runt sine mutatione vel abrogatione. Haec 
+as<lb break="no" ed="#P" n="70"/>sertio est contra Scot.; generaliter autem
+<lb ed="#P" n="71"/>ponitur de omnibus praeceptis illius legis,
+<lb ed="#P" n="72"/>tum quia eadem est ratio de singulis, quae est
+<lb ed="#P" n="73"/>dc ipso corpore legis; tum quia testimonia
+<lb ed="#P" n="74"/>adducta absolute loquuntur, et non licet nobis
+<lb ed="#P" n="75"/>excipere sine fundamento ; tum denique quia
+<lb ed="#P" n="76"/>si in aliquo liceret exceptio, maxime in 
+cir<lb break="no" ed="#P" n="77"/>cumcisione, quia ejus praeceptum non fuit ex
+<lb ed="#P" n="78"/>lege, sed ante legem, licet cum lege et in lege
+<lb ed="#P" n="79"/>duraverit; sed praeceptum circumcisionis non
+<lb ed="#P" n="80"/>fuit ablatum ante Christi mortem ; ergo. 
+Pro<lb break="no" ed="#P" n="81"/>batur minor, primo ex communi sententia
+<lb ed="#P" n="82"/>theologorum quos retuli, qui etiam loquuntur
+<lb ed="#P" n="83"/>de circumcisione, et praesertim D. Thomas in
+<lb ed="#P" n="84"/>4. distinct. 3, a. 5, quaestiunc. 3; Soto, libr. 2
+<lb ed="#P" n="85"/>de Justit., quaest. 5, art. 4; et bene Major,
+<lb ed="#P" n="86"/>dict. quaest. 2, ubi allegat Glossam in Joan. 3,
+<lb ed="#P" n="87"/>et ad Hebr. 10. Secundo, probatur, quia 
+prae<lb break="no" ed="#P" n="88"/>ceptum circumcisionis vel fuit ablatum ante
+<lb ed="#P" n="89"/>passionem, per expressam revocationem, et
+<lb ed="#P" n="90"/>hoc non, quia nullibi invenitur, nec de illo nec
+<lb ed="#P" n="91"/>de tota lege; vel per cessationem puram, et
+<lb ed="#P" n="92"/>hoc etiam dici non potest, quia lex 
+circumci<lb break="no" ed="#P" n="93"/>sionis tam absolute lata est, sicut alia 
+prae<lb break="no" ed="#P" n="94"/>cepta legis, et non est aliquis terminus 
+dura<lb break="no" ed="#P" n="95"/>tionis designatus pro praecepto circumcisionis
+<lb ed="#P" n="96"/>distinctus a termino totius legis, et prior illo.
+<lb ed="#P" n="97"/>Ubi etiam talis termini fit mentio? Et ideo ad
+<lb ed="#P" n="98"/>hanc cessationem seu abrogationem 
+imperti<lb break="no" ed="#P" n="99"/>nens est, quod praeceptum circumcisionis ante
+<lb ed="#P" n="100"/>legem datum sit, quia datum est cum eodem
+<lb ed="#P" n="101"/>genere aeternitatis, ut sic dicam, seu longaevae
+<lb ed="#P" n="102"/>durationis ; item datum est ut inchoatio legis,
+<lb ed="#P" n="103"/>et ut permansurum cum illa, et 
+incorporan<lb break="no" ed="#P" n="104"/>dum illi, et ideo ut duraturum usque ad 
+eum<lb break="no" ed="#P" n="105"/>dem terminum totius legis.
+</p>
+            <p xml:id="szdleg-s22860-d1e660">
+               <lb ed="#P" n="106"/>8. Probatur conclusio. — Vel abrogatum
+<lb ed="#P" n="107"/>fuit illud praeceptum per aliud illi repugnans
+<lb ed="#P" n="108"/>vel illud excludens, et hoc etiam est falsum;
+<lb ed="#P" n="109"/>quia maxime per praeceptum Baptismi ; illud
+<lb ed="#P" n="110"/>autem nroa fuit impositum hominibus ante
+<pb ed="#P" n="491"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Christi mortem, ut nunc supponimus: ergo.
+<lb ed="#P" n="2"/>Dices fuisse datum consilium. Respondeo: esto
+<lb ed="#P" n="3"/>ita sit, poterat jllud consilium acceptari, et
+<lb ed="#P" n="4"/>executioni mandari, servato simul 
+circumci<lb break="no" ed="#P" n="5"/>sionis praecepto. Sicut enim Judaeus 
+cireum<lb break="no" ed="#P" n="6"/>cisus poterat ante Christi mortem baptizari ex
+<lb ed="#P" n="7"/>consilio, non obstante circumcisione prius 
+re<lb break="no" ed="#P" n="8"/>cepta, ita poterat simul circumcidere et 
+bapti<lb break="no" ed="#P" n="9"/>zare filium suum, ac subinde implere 
+praece<lb break="no" ed="#P" n="10"/>ptum et uti consilio. Quando autem consilium
+<lb ed="#P" n="11"/>et praeceptum talia sunt, ut simul servari 
+pos<lb break="no" ed="#P" n="12"/>sint, consilium non tollit praeceptum, sed
+<lb ed="#P" n="13"/>tunc solum quando utrumque simul exequi
+<lb ed="#P" n="14"/>repugnat, ut contingit in consilo castitatis et
+<lb ed="#P" n="15"/>matrimonio ; nam si castitas est in consilio,
+<lb ed="#P" n="16"/>recte colligimus matrimonium pro tunc non
+<lb ed="#P" n="17"/>esse in praecepto : secus vero est in praesenti.
+<lb ed="#P" n="18"/>mo si quis recte consideret, etiam tunc 
+con<lb break="no" ed="#P" n="19"/>silium non derogat praecepto, sed supponit
+<lb ed="#P" n="20"/>non esse tunc tale praeceptum, et ideo habet
+<lb ed="#P" n="21"/>locum consilium; nam si supponatur casus
+<lb ed="#P" n="22"/>in quo praeceptum obligat, nunquam poterit
+<lb ed="#P" n="23"/>per consilium auferri, quia non potest tale
+<lb ed="#P" n="24"/>consilium habere locum, nisi prius 
+suppona<lb break="no" ed="#P" n="25"/>tur materia cum talibus circumstantiis, cum
+<lb ed="#P" n="26"/>quibus praeceptum non obligat.
+</p>
+            <p xml:id="szdleg-s22860-d1e734">
+               <lb ed="#P" n="27"/>9. Prosequitur idem discursus. — Vel 
+deni<lb break="no" ed="#P" n="28"/>que cessasset praeceptum circumcisionis quasi
+<lb ed="#P" n="29"/>ex defectu materiae, quia jam cessabat 
+neces<lb break="no" ed="#P" n="30"/>sitas illius remedii, baptizando parvulum. Et
+<lb ed="#P" n="31"/>hoc etiam stare non potest; tum quia 
+praece<lb break="no" ed="#P" n="32"/>ptum circumcisionis non fundabatur in hac
+<lb ed="#P" n="33"/>necessitate ; unde Joannes Baptista, 
+sanctifica<lb break="no" ed="#P" n="34"/>tus in utero, ex praecepto est circumcisus, et
+<lb ed="#P" n="35"/>infans qui, propter periculum mortis, 
+reme<lb break="no" ed="#P" n="36"/>dio legis naturae sanctificari poterat ante 
+oc<lb break="no" ed="#P" n="37"/>tavum diem, nihilominus postea convalescens
+<lb ed="#P" n="38"/>circumcidendus erat ex necessitate praecepti.
+<lb ed="#P" n="39"/>Quia licet non indigeret illa ut remedio 
+pec<lb break="no" ed="#P" n="40"/>cati originalis, nihilominus necessaria erat ut
+<lb ed="#P" n="41"/>professio illius legis. Etenim circunicisio data
+<lb ed="#P" n="42"/>etiam est (et fortasse primario) ad 
+consignan<lb break="no" ed="#P" n="43"/>dum populum Dei, et professores legis ejus,
+<lb ed="#P" n="44"/>et hic finis semper habuit locum, quamdiu
+<lb ed="#P" n="45"/>synagoga et lex Moysi duravit. Item Judaeus
+<lb ed="#P" n="46"/>tenebatur suum filium primogenitum, verbi
+<lb ed="#P" n="47"/>gratia, in templo praesentare, et circa illum
+<lb ed="#P" n="48"/>reliquas legis Moysi caeremonias exercere,
+<lb ed="#P" n="49"/>quarum capax non erat nisi circumcisus; ergo
+<lb ed="#P" n="50"/>necessaria erat tunc circumcisio illius parvuli
+<lb ed="#P" n="51"/>tanquam janua illius legis, et veluti capacitas
+<lb ed="#P" n="52"/>ad sacramenta ejus et sacrificia : ergo haec
+<lb ed="#P" n="53"/>erat sufficiens ratio et necessitas durationis
+<lb ed="#P" n="54"/>talis praecepti.
+</p>
+            <p xml:id="szdleg-s22860-d1e797">
+               <lb ed="#P" n="55"/>10. Objectio. — Respondetur primo. — Solu-
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>tum manet Scoti fundamentum. — Dicet 
+ali<lb break="no" ed="#P" n="57"/>quis : si ante Christi mortem Gentilis in 
+Chris<lb break="no" ed="#P" n="58"/>tum credens filium suum infantem 
+baptizas<lb break="no" ed="#P" n="59"/>set, non teneretur postea applicare illi 
+sacra<lb break="no" ed="#P" n="60"/>mentum legis naturae : ergo neque Judaeus
+<lb ed="#P" n="61"/>fidelis obligabatur in simili casu applicare 
+sa<lb break="no" ed="#P" n="62"/>cramentum legis Moysi. Respondetur negando
+<lb ed="#P" n="63"/>consequentiam, quia in lege naturae non erat
+<lb ed="#P" n="64"/>determinat:o facta alicujus sacramenti, nec
+<lb ed="#P" n="65"/>peculiare praeceptum positum, praeter illud 
+ge<lb break="no" ed="#P" n="66"/>nerale subveniendi filiis per aliquod remedium
+<lb ed="#P" n="67"/>sufficiens, quale erat fidei applicatio, 
+quocum<lb break="no" ed="#P" n="68"/>que signo fieret, et ideo per Baptismum haec
+<lb ed="#P" n="69"/>obligatio sufficienter implebatur. Imo jam
+<lb ed="#P" n="70"/>non manebat parvulus capax novi sacramenti
+<lb ed="#P" n="71"/>legis naturae, quia, eo ipso quod non erat
+<lb ed="#P" n="72"/>primum, nullum erat. Secus vero est de 
+cir<lb break="no" ed="#P" n="73"/>cumcisione, quae in particulari erat praecepta,
+<lb ed="#P" n="74"/>non solum in remedium, sed etiam in 
+si<lb break="no" ed="#P" n="75"/>gnum, ut dixi, et dari poterat non obstante
+<lb ed="#P" n="76"/>priori sacramento, ut exemplis jam 
+declara<lb break="no" ed="#P" n="77"/>tum est. Atque ex hoc discursu solutum 
+ma<lb break="no" ed="#P" n="78"/>net fundamentum Scoti. Idemque discursus
+<lb ed="#P" n="79"/>facile applicari potest ad totam legem et ad
+<lb ed="#P" n="80"/>primam assertionem confirmandam ; quia
+<lb ed="#P" n="81"/>etiam illa tota non est expresse revocata ante
+<lb ed="#P" n="82"/>mortem Christi ; nec terminus, illi appositus,
+<lb ed="#P" n="83"/>fuit antea consummatus; nam cum dlicitur:
+<lb ed="#P" n="84"/>Donec veniret semen, intelligi debet de Christo
+<lb ed="#P" n="85"/>consummato in ratione redemptoris, ut sic
+<lb ed="#P" n="86"/>dicam ; neque etiam tunc nova lex lata fuerat
+<lb ed="#P" n="87"/>quae aliam excluderet.
+</p>
+            <p xml:id="szdleg-s22860-d1e873">
+               <lb ed="#P" n="88"/>11. Ad reliquas objectiones. — Unde facile
+<lb ed="#P" n="89"/>respondetur ad duas objectiones ultimas 
+ge<lb break="no" ed="#P" n="90"/>nerales, quarum prior sumebatur ex verbis
+<lb ed="#P" n="91"/>Christi Luc. 16: Lex et Prophete usque ad
+<lb ed="#P" n="92"/>Joannem, circa quae considerandum est legem
+<lb ed="#P" n="93"/>veterem simul fuisse legem obligantem , et
+<lb ed="#P" n="94"/>prophetiam futurorum, et pactum continens
+<lb ed="#P" n="95"/>promissiones temporales, et magistram 
+mo<lb break="no" ed="#P" n="96"/>rum. Ibi ergo non tractat Christus de lege ut
+<lb ed="#P" n="97"/>iex est obligans, sed sub aliis rationibus, et
+<lb ed="#P" n="98"/>praesertim ut docebat minus perfecta, et 
+pro<lb break="no" ed="#P" n="99"/>mittebat temporalia bona. Nam quia 
+Phari<lb break="no" ed="#P" n="100"/>saei Christum irridebant eo quod doceret 
+con<lb break="no" ed="#P" n="101"/>temptum divitiarum, et reprehenderet 
+ni<lb break="no" ed="#P" n="102"/>mium affectum lucrandi temporales divitias,
+<lb ed="#P" n="103"/>quia in hoc videbatnr a lege discordare 
+pro<lb break="no" ed="#P" n="104"/>mittente temporalia, ideo dixit, illam 
+doctri<lb break="no" ed="#P" n="105"/>nam legis et Prophetarum fuisse 
+accommo<lb break="no" ed="#P" n="106"/>datam prioribus temporibus usque ad 
+Joan<lb break="no" ed="#P" n="107"/>nem : Z eo cero (ait) regnum Dei 
+evangeliza<lb break="no" ed="#P" n="108"/>tur, etc. Ita fere Theophyl. ibi, quem sequitur
+<lb ed="#P" n="109"/>Jansen. cap. 95 Concord. ; et consonat Matth.
+<lb ed="#P" n="110"/>cap. 11, qui clarius dixit : Omnes Prophetae et
+<pb ed="#P" n="492"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>lex usque ad Joannem prophetaverunt. Nam
+<lb ed="#P" n="2"/>sub verbo prophetaverunt, tam praedictiones
+<lb ed="#P" n="3"/>futurorum quam promissiones, et tota 
+instruc<lb break="no" ed="#P" n="4"/>to legis intelligi possunt, et omnia ad 
+inten<lb break="no" ed="#P" n="5"/>tionem Christi sunt accommodata. Quia 
+sen<lb break="no" ed="#P" n="6"/>sus praecipuus est totam doctrinam legis et
+<lb ed="#P" n="7"/>Prophetarum ad tempus Messiae fuisse 
+ordi<lb break="no" ed="#P" n="8"/>natam, et in illo suum complementum 
+rece<lb break="no" ed="#P" n="9"/>pisse, et hoc a praedicatione Joannis maxime
+<lb ed="#P" n="10"/>sumpsisse initium. Licet in loco Matthaei 
+ma<lb break="no" ed="#P" n="11"/>gis videatur Christus Dominus loqui de lege
+<lb ed="#P" n="12"/>et Prophetis, ut praedicentibus futura, ut ibi
+<lb ed="#P" n="13"/>Hieronymus et Chrysostomus exponunt, vel ut
+<lb ed="#P" n="14"/>tradentibus moralem doctrinam infirmo 
+sta<lb break="no" ed="#P" n="15"/>tui accommodatam, ut etiam videntur sentire
+<lb ed="#P" n="16"/>Theophyl., Matth. 11, et Jansen., cap. 41
+<lb ed="#P" n="17"/>Concord. Ulterius vero addere possumus,
+<lb ed="#P" n="18"/>etiamsi verba illa de lege ut praecipiente 
+in<lb break="no" ed="#P" n="19"/>telligerentur, ex illis non colligi legem illam
+<lb ed="#P" n="20"/>fuisse mortuam a tempore Joannis; sed, quia
+<lb ed="#P" n="21"/>egrotare tunc coepit, non multo post 
+mor<lb break="no" ed="#P" n="22"/>tem Christi moritura, ideo usque ad Joannem
+<lb ed="#P" n="23"/>fuisse dicitur, ut dixit Maldonat., Matthaei
+<lb ed="#P" n="24"/>quinto, vers. decimo-septimo, in fine.
+</p>
+            <p xml:id="szdleg-s22860-d1e982">
+               <lb ed="#P" n="25"/>12. Ad posteriorem objectionem.—Ad 
+poste<lb break="no" ed="#P" n="26"/>riorem objectionem respondetur imprimis, si
+<lb ed="#P" n="27"/>alicujus esset momenti, non solum probare
+<lb ed="#P" n="28"/>legem fuisse mortuam, sed etiam mortiferam
+<lb ed="#P" n="29"/>ante Christi mortem, quia colere Deum falsis
+<lb ed="#P" n="30"/>signis intrinsece malum est. Unde necessario
+<lb ed="#P" n="31"/>dicendum est illa non fuisse signa falsa eo
+<lb ed="#P" n="32"/>tempore, quia vel non sumebantur ut signa
+<lb ed="#P" n="33"/>talium mysteriorum quae jam erant impleta,
+<lb ed="#P" n="34"/>sed secundum alias significationes veras, quae
+<lb ed="#P" n="35"/>nunquam deerant; nam circumcisio semper
+<lb ed="#P" n="36"/>significare potuit spiritualem circumcisionem,
+<lb ed="#P" n="37"/>vel resurrectionem , ut Cyprianus, epistola
+<lb ed="#P" n="38"/>quinquagesima-nona, dixit; vel non 
+sume<lb break="no" ed="#P" n="39"/>bantur ut significantia mysterium cum 
+habi<lb break="no" ed="#P" n="40"/>tudine ad tempus futurum, sed secundum se.
+<lb ed="#P" n="41"/>De qua re plura dicemus capitibus 
+decimo<lb break="no" ed="#P" n="42"/>quarto et decimo-sexto.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

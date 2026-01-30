@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#FranciscoSuarez">Francisco Suarez</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2026-01-29">January 29, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2026-01-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="419"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="szdleg-s05255"><!-- l9prooem -->
+            <head xml:id="szdleg-s05255-Hd1e101">Prooemium</head>
+            <p xml:id="szdleg-s05255-d1e103">
+               <pb ed="#P" n="419"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>LIBER NONUS.
+<lb ed="#P" n="2"/>DE LEGE DIVINA POSTTIVA
+<lb ed="#P" n="3"/>VETERI.
+</p>
+            <p xml:id="szdleg-s05255-d1e116">
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="4"/>Distinximus in superioribus legem 
+posi<lb break="no" ed="#P" n="5"/>divam in humanam, quae a voluntate humana
+<lb ed="#P" n="6"/>proxime vim habet obligandi ; et divinam
+<lb ed="#P" n="7"/>cujus proximus auctor et conditor est Deus,
+<lb ed="#P" n="8"/>a eujus voluntate vim habet et auctoritatem :
+<lb ed="#P" n="9"/>et de humana lege et speciebus ejus 
+hacte<lb break="no" ed="#P" n="10"/>nus disputavimus ; superest ergo dicendum de
+<lb ed="#P" n="11"/>lege divina positiva. Haec autem in veterem
+<lb ed="#P" n="12"/>et novam quasi in duas species seu membra
+<lb ed="#P" n="13"/>diversa distingui solet, et ideo de his duabus
+<lb ed="#P" n="14"/>legibus sigillatim dicendum est. Nam de 
+ra<lb break="no" ed="#P" n="15"/>tione legis divinae positivae communi utrique
+<lb ed="#P" n="16"/>nihil praemittere oportet; tum quia ex 
+supe<lb break="no" ed="#P" n="17"/>rioribus et ex notatione ipsius vocis satis 
+con<lb break="no" ed="#P" n="18"/>stat unde habeat aliqua lex quod divina sit,
+<lb ed="#P" n="19"/>curque positiva dicatur; in quo vero a 
+natu<lb break="no" ed="#P" n="20"/>ralt distinguatur in lib. 4. cap. 3, declaratum
+<lb ed="#P" n="21"/>est: proprietates autem vel effectus qui ad
+<lb ed="#P" n="22"/>hane communem rationem consequuntur ,
+<lb ed="#P" n="23"/>partim noti sunt ex dictis supra de lege in
+<lb ed="#P" n="24"/>communi, partim declarabuntur commodius
+<lb ed="#P" n="25"/>secundum specificas rationes, de singulis 
+le<lb break="no" ed="#P" n="26"/>gibus disserendo. In hoc ergo libro dicemus
+<lb ed="#P" n="27"/>de lege veteri, et in sequenti de nova, 
+ge<lb break="no" ed="#P" n="28"/>nerationis ordinem potius quam perfectionis
+<lb ed="#P" n="29"/>cum divo Thoma et alüs auctoribus 
+obser<lb break="no" ed="#P" n="30"/>vando.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

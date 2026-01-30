@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="8"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q01851"><!-- l6c2 -->
+        <head xml:id="szdleg-q01851-Hd1e101">Caput 2</head>
+        <head xml:id="szdleg-q01851-Hd1e103" type="question-title">Quando et quomodo habeat locum extensio in legibus humanis per earum intebrpretationem.</head>
+        <p xml:id="szdleg-q01851-d1e106">
+          <lb ed="#P" n="61"/>CAPUT II.
+          <lb ed="#P" n="62"/>QUANDO ET QUOMODO HABEAT LOCUM EXTENSIO IN
+          <lb ed="#P" n="63"/>LEGIBUS HUMANIS PER EARUM 
+          INTEBRPRETATIO<lb break="no" ed="#P" n="64"/>NEM.
+        </p>
+        <p xml:id="szdleg-q01851-d1e117">
+          <lb ed="#P" n="65"/>1. Legis interpretatio declaratur. — Legis
+          <lb ed="#P" n="66"/>interpretatio, si praecise ac secundum vocis 
+          ri<lb break="no" ed="#P" n="67"/>gorem sumatur, solum consistit in declaratione
+          <lb ed="#P" n="68"/>et intelligentia proprii et (ut sic dicam) 
+          im<lb break="no" ed="#P" n="69"/>mediati sensus ipsius legis, sistendo tantum in
+          <lb ed="#P" n="70"/>usitata et propria significatione verborum et in
+          <lb ed="#P" n="71"/>sensu legis ex illis sic intellectis resultante; et
+          <lb ed="#P" n="72"/>hanc interpretationem videtur vocasse 
+          decla<lb break="no" ed="#P" n="73"/>tivam Bart. in l. Omnes populi, ft. de Justit.
+          <lb ed="#P" n="74"/>et jure, quaest. 6, principali, et de illa tractat
+          <lb ed="#P" n="75"/>in quaest. 3; nobis vero nihil de illa dicendum
+          <lb ed="#P" n="76"/>superest praeter dicta in capite praecedenti.
+          <lb ed="#P" n="77"/>Alio ergo modo sumitur interpretatio prout
+          <lb ed="#P" n="78"/>aliquid specialiter operatur circa legem, quae
+          <lb ed="#P" n="79"/>multiplex est secundum varios effectus: unus
+          <lb ed="#P" n="80"/>est correctio vel abrogatio legis, de qua intra
+          <lb ed="#P" n="81"/>dicemus, quia specialiter fit per unam legem
+          <lb ed="#P" n="82"/>circa alias, vel per posteriores circa 
+          praeceden<lb break="no" ed="#P" n="83"/>tes ; alii vero sunt qui in unaquaque lege 
+          se<lb break="no" ed="#P" n="84"/>cundum se spectari possunt, ut sunt extensio,
+          <lb ed="#P" n="85"/>restrictio, exceptio, vel excusatio seu cessatio
+          <lb ed="#P" n="86"/>obligationis legis vel aliorum effectuum ejus;
+          <lb ed="#P" n="87"/>et de singulis aliquid dicendum est ut 
+          genera<lb break="no" ed="#P" n="88"/>les regulae habeantur ad decidendos casus ex
+          <lb ed="#P" n="89"/>legum intelligentia pendentes.
+        </p>
+        <p xml:id="szdleg-q01851-d1e174">
+          <lb ed="#P" n="90"/>2. Quadruples extensio legis—Primo igitur
+          <lb ed="#P" n="91"/>circa extensionem adverto quadruplicem 
+          ex<lb break="no" ed="#P" n="92"/>tensionem in lege posse cogitari. Una est intra
+          <lb ed="#P" n="93"/>verborum proprietatem secundum naturalem
+          <lb ed="#P" n="94"/>significationem; alia est ultra proprietatem
+          <lb ed="#P" n="95"/>naturalem et intra proprietatem civilem, sive
+          <lb ed="#P" n="96"/>per communis juris usum, sive per aliquam
+          <lb ed="#P" n="97"/>juris fictionem ; tertia esse potest ultra 
+          utram<lb break="no" ed="#P" n="98"/>que proprietatem per aliquam improprietatem,
+          <lb ed="#P" n="99"/>sive in significatione alicujus verbi aut 
+          nomi<lb break="no" ed="#P" n="100"/>nis, sive in connexione verborum, sive in 
+          sub<lb break="no" ed="#P" n="101"/>intelligenda vel supplenda aliqua particula non
+          <lb ed="#P" n="102"/>expressa in lege. Et ita in hoc tertio membro
+          <lb ed="#P" n="103"/>potest esse infinita varietas et inaequalitas per
+          <lb ed="#P" n="104"/>majorem vel minorem improprietatem. 
+          Quar<lb break="no" ed="#P" n="105"/>to, potest cogitari extensio ultra omnem 
+          signi<lb break="no" ed="#P" n="106"/>ficationem verborum etiam impropriam, 
+          so<lb break="no" ed="#P" n="107"/>lum propter rerum vel casuum similitudinem,
+          <pb ed="#P" n="9"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>aut identitatem formalem in ratione legis.
+          <lb ed="#P" n="2"/>Quinto, addi potest extensio ultra mentem 
+          le<lb break="no" ed="#P" n="3"/>gislatoris. Sed hanc non admittimus, ut infra
+          <lb ed="#P" n="4"/>dicemus, nec ultra dictos modos extensionis
+          <lb ed="#P" n="5"/>videtur alius possibilis per comparationem ad
+          <lb ed="#P" n="6"/>verba, vel rationem legis, quae est veluti 
+          ter<lb break="no" ed="#P" n="7"/>minus a quo procedit extensio. Potest autem
+          <lb ed="#P" n="8"/>extensio fieri ad personas, ad res, seu casus,
+          <lb ed="#P" n="9"/>ad loca, vel ad tempera, et ita ex parte termini
+          <lb ed="#P" n="10"/>ad quem (ut ita dicam) possunt etiam 
+          extensio<lb break="no" ed="#P" n="11"/>nes multiplicari.
+        </p>
+        <p xml:id="szdleg-q01851-d1e245">
+          <lb ed="#P" n="12"/>3. Quousque lea non odiosa extendenda est. —
+          <lb ed="#P" n="13"/>Dico ergo primo: omnis lex non odiosa per se
+          <lb ed="#P" n="14"/>loquendo extendenda est ad omnia quae 
+          ver<lb break="no" ed="#P" n="15"/>ba in significatione propria ac naturali 
+          com<lb break="no" ed="#P" n="16"/>prehendunt, non vero ultra illa, nisi alia 
+          spe<lb break="no" ed="#P" n="17"/>cialis ratio id requirat. Exempla sunt, si lex
+          <lb ed="#P" n="18"/>loquatur de filiis, ut filias etiam comprehendat,
+          <lb ed="#P" n="19"/>quia illa vox in significatione propria 
+          commu<lb break="no" ed="#P" n="20"/>nis est, non vero ita comprehendit nepotes ex
+          <lb ed="#P" n="21"/>vi significationis, nisi alia ratio cogat. Et ideo
+          <lb ed="#P" n="22"/>dixi per se loguendo ; nam ex accidenti 
+          pos<lb break="no" ed="#P" n="23"/>sunt verba intra illam significationem 
+          coarc<lb break="no" ed="#P" n="24"/>tari, ut si ex ampla intelligentia etiam 
+          pro<lb break="no" ed="#P" n="25"/>priissima sequatur aliquod absurdum, vel 
+          cor<lb break="no" ed="#P" n="26"/>rectio alterius legis, vel aliquid simile, ut in
+          <lb ed="#P" n="27"/>capite sequenti explicabimus. Sic ergo 
+          expli<lb break="no" ed="#P" n="28"/>cata assertio communis est in c. 1 de Constit.,
+          <lb ed="#P" n="29"/>ubi bene Dec., lect. 1, n. 23 et sequentibus;
+          <lb ed="#P" n="30"/>Panormit., n. 14, et sumitur ex Glossa in l.
+          <lb ed="#P" n="31"/>Non possunt, ff. de Legibus, in fine. Prior
+          <lb ed="#P" n="32"/>ergo pars affirmans patet, quia tunc nulla est
+          <lb ed="#P" n="33"/>ratio extendendi legem ultra naturalem 
+          pro<lb break="no" ed="#P" n="34"/>prietatem verborum; ergo non debet fieri, quia
+          <lb ed="#P" n="35"/>regulariter homines loquuntur secundum 
+          pro<lb break="no" ed="#P" n="36"/>prietatem verborum; et si absolute et 
+          indefi<lb break="no" ed="#P" n="37"/>nite loquuntur, de toto significato verborum
+          <lb ed="#P" n="38"/>loqui intelliguntur. Et hoc maxime habet 
+          lo<lb break="no" ed="#P" n="39"/>cum in legibus in quibus indefinitus sermo
+          <lb ed="#P" n="40"/>eequivalet universali, quia sunt regulae 
+          gene<lb break="no" ed="#P" n="41"/>rales et doctrinalem sermonem continent, ut
+          <lb ed="#P" n="42"/>optime probari potest ex lege Prospezit, ff.
+          <lb ed="#P" n="43"/>Qui et a quibus; et tradidit Bart. in l. 1, S S'ed
+          <lb ed="#P" n="44"/>et si, ff. de Ventr. in possess. mitten., n. 3,
+          <lb ed="#P" n="45"/>ubi in scholis multa referuntur. Et 
+          confirma<lb break="no" ed="#P" n="46"/>tur, quia lex quae non continet odium aut 
+          spe<lb break="no" ed="#P" n="47"/>ciale gravamen inter favores reputari potest,
+          <lb ed="#P" n="48"/>ut in principio libri praecedentis dixi; ergo
+          <lb ed="#P" n="49"/>inter praedictos saltem limites extendenda est.
+        </p>
+        <p xml:id="szdleg-q01851-d1e330">
+          <lb ed="#P" n="50"/>4. Altera vero pars negativa cum sua 
+          mode<lb break="no" ed="#P" n="51"/>ratione exceptiva etiam est clara, quia per se
+          <lb ed="#P" n="52"/>loquendo ac regulariter homines utuntur 
+          ver<lb break="no" ed="#P" n="53"/>bis in significatione maxime propria; multo
+          <lb ed="#P" n="54"/>ergo magis id est observandum in legibus. Et
+          <lb ed="#P" n="55"/>hoc etiam confirmant multa ex his qua in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>superiori capite adduximus, et nonnulla juris
+          <lb ed="#P" n="57"/>principia, ut quod Ubi lev non distinguit nec
+          <lb ed="#P" n="58"/>nos distinguere debemus, quod sumitur ex dicta
+          <lb ed="#P" n="59"/>l. Prospexit, et 1. 1, ft. de Legat. praest.; cui
+          <lb ed="#P" n="60"/>eequivalens est, ut Quod absolute dicitur, 
+          sim<lb break="no" ed="#P" n="61"/>pliciter et sine diminutione accipiatur, 1. de
+          <lb ed="#P" n="62"/>Pretio, ff. de Publicana, etc., cui consonat 1.
+          <lb ed="#P" n="63"/>Cum Prator, 110, ff. de Regul. jur.; juvat
+          <lb ed="#P" n="64"/>etiam quod Simplicibus legibus est amica,
+          <lb ed="#P" n="65"/>ut dicitur in S Ceterum, Instit. de Legitim.
+          <lb ed="#P" n="66"/>agnat. succ., et alia similia. Et haec assertio
+          <lb ed="#P" n="67"/>ex sequentibus magis declarabitur ; quando
+          <lb ed="#P" n="68"/>vero specialis ratio majorem extensionem 
+          pos<lb break="no" ed="#P" n="69"/>tulet, quando vero tantam non patiatur 
+          dice<lb break="no" ed="#P" n="70"/>mus capite sequenti.
+        </p>
+        <p xml:id="szdleg-q01851-d1e380">
+          <lb ed="#P" n="71"/>5. Lex favorabilis ad omnem proprietatem
+          <lb ed="#P" n="72"/>verborum est extendenda. — Dico secundo:
+          <lb ed="#P" n="73"/>quando lex est favorabilis, vel specialis aliqua
+          <lb ed="#P" n="74"/>ratio juris intercedit, extendenda est ad 
+          om<lb break="no" ed="#P" n="75"/>nem proprietatem verborum, non solum 
+          na<lb break="no" ed="#P" n="76"/>turalem, sed etiam civilem seu juridicam, non
+          <lb ed="#P" n="77"/>vero ultra illam , nisi major necessitas id
+          <lb ed="#P" n="78"/>postulet. Haec posterior pars latius 
+          tractabi<lb break="no" ed="#P" n="79"/>tur in assertione sequenti; nunc vero 
+          sufti<lb break="no" ed="#P" n="80"/>cienter constat ex dictis in capite praecedenti,
+          <lb ed="#P" n="81"/>quia verborum proprietas tenenda est, nisi
+          <lb ed="#P" n="82"/>necessitas cogat, quia alias nihil erit certum
+          <lb ed="#P" n="83"/>et constans in dispositione legum. Prior ergo
+          <lb ed="#P" n="84"/>pars assertionis, quae praecipue nunc intenta
+          <lb ed="#P" n="85"/>est, communis est et clara, et in communi 
+          sua<lb break="no" ed="#P" n="86"/>deri potest, quia unaquaeque ars utitur 
+          ver<lb break="no" ed="#P" n="87"/>bis sibi propriis et juxta propriam 
+          consuetu<lb break="no" ed="#P" n="88"/>tudinem vel institutionem ; ergo multo magis
+          <lb ed="#P" n="89"/>id servandum est in legibus. Nec enim 
+          cogen<lb break="no" ed="#P" n="90"/>dus est legislator ut, quoties loqui vult de filiis
+          <lb ed="#P" n="91"/>naturalibus et adoptivis, specifice id faciat, sed
+          <lb ed="#P" n="92"/>aliquando uti poterit voce communi ; ergo in
+          <lb ed="#P" n="93"/>legibus habere potest locum extensio 
+          secun<lb break="no" ed="#P" n="94"/>dum totam significationem propriam verborum
+          <lb ed="#P" n="95"/>non solum naturalem, sed etiam civilem ; ergo
+          <lb ed="#P" n="96"/>maxime ita sunt accipienda verba in 
+          favora<lb break="no" ed="#P" n="97"/>bilibus legibus, juxta vulgata principia juris.
+          <lb ed="#P" n="98"/>Quod tamen semper est intelligendum per
+          <lb ed="#P" n="99"/>se, et nisi aliud obstet, juxta alia principia
+          <lb ed="#P" n="100"/>et regulas quas proponemus. Idemque erit
+          <lb ed="#P" n="101"/>quando eadem omnino ratio in lege expressa
+          <lb ed="#P" n="102"/>in omnibus illis significationibus inventa 
+          fue<lb break="no" ed="#P" n="103"/>rit, tunc enim satis indicat eadem ratio 
+          in<lb break="no" ed="#P" n="104"/>tentionem legislatoris fuisse de omnibus illis
+          <lb ed="#P" n="105"/>loqui.
+        </p>
+        <p xml:id="szdleg-q01851-d1e458">
+          <lb ed="#P" n="106"/>6. Extensio admittenda in materia 
+          favora<lb break="no" ed="#P" n="107"/>bili, uon vero in odiosa. — Atque ad hanc 
+          re<lb break="no" ed="#P" n="108"/>gulam spectant variae quaestiones quae de hac
+          <lb ed="#P" n="109"/>extensione tractantur a doctoribus, quarum
+          <lb ed="#P" n="110"/>resolutio ab illa pendet et a posteriori, et quasi
+          <pb ed="#P" n="10"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>per inductionem illam confirmat. Una et satis
+          <lb ed="#P" n="2"/>celebris est an lex loquens verbis proprie 
+          si<lb break="no" ed="#P" n="3"/>gnificantibus casum verum extendatur etiam
+          <lb ed="#P" n="4"/>ad fictum, quem sub lata significatione verba
+          <lb ed="#P" n="5"/>comprehendere possunt modo explicato. Quam
+          <lb ed="#P" n="6"/>quaestionem tractant Bart. et alii legistae in l.
+          <lb ed="#P" n="7"/>Si is qui pro tempore, ft. de Usucap., et in
+          <lb ed="#P" n="8"/>l. Omnes populi, ff. de Justit. et jur., et in
+          <lb ed="#P" n="9"/>l. Cum ex oratione, ff. de Excusat. tutor., et in
+          <lb ed="#P" n="10"/>1. 3, 8 Haec verba, ff. de Negotiis gest., nam ex
+          <lb ed="#P" n="11"/>his et aliis juribus inter se collatis constat 
+          in<lb break="no" ed="#P" n="12"/>terdum legis verba extendi ad casum fictum,
+          <lb ed="#P" n="13"/>interdum vero non extendi. Unde ordinaria 
+          re<lb break="no" ed="#P" n="14"/>gula est, in materia stricta, id est, odiosa, 
+          cor<lb break="no" ed="#P" n="15"/>rectoria, et similibus non admitti extensionem
+          <lb ed="#P" n="16"/>illam ; in materia autem ampla, id est, 
+          favora<lb break="no" ed="#P" n="17"/>bili admitti. Ut cum lex loquitur in favorem 
+          fi<lb break="no" ed="#P" n="18"/>liorum, adoptivi etiam venire solent, ut docent
+          <lb ed="#P" n="19"/>Baldus et alii apud Menoch., l. 4, prasumpt.
+          <lb ed="#P" n="20"/>89, n. 36, et lex loquens de legitimis 
+          legitima<lb break="no" ed="#P" n="21"/>tos comprehendit, teste Bart. in dicta l. S is
+          <lb ed="#P" n="22"/>qui pro tempore, num. 30; et Menoch. supra,
+          <lb ed="#P" n="23"/>n. 22. Unde potest hic notari alia regula, 
+          sci<lb break="no" ed="#P" n="24"/>licet, quando lex omnino aquiparat fictum
+          <lb ed="#P" n="25"/>cum vero, tunc quoad dispositiones seu 
+          effec<lb break="no" ed="#P" n="26"/>tus ejusdem juris, ordinarie habere locum 
+          ex<lb break="no" ed="#P" n="27"/>tensionem legis secundum totam 
+          proprieta<lb break="no" ed="#P" n="28"/>tem civilem seu legalem, quia lex disponere
+          <lb ed="#P" n="29"/>censetur secundum ejusdem juris usum et 
+          in<lb break="no" ed="#P" n="30"/>stitutionem ; ut, verbi gratia, dicit lex 
+          legiti<lb break="no" ed="#P" n="31"/>matum nihil differre a legitimo, utique quoad
+          <lb ed="#P" n="32"/>dispositiones juris vel secundum jura factas,
+          <lb ed="#P" n="33"/>Authent. Quibus modis nat. effic. etc., cap. 1
+          <lb ed="#P" n="34"/>et 3. Inde ergo fit ut nomine legitimorum 
+          or<lb break="no" ed="#P" n="35"/>dinarie veniant etiam legitimati, nisi aliud
+          <lb ed="#P" n="36"/>constet aliunde de mente legis. In quo etiam
+          <lb ed="#P" n="37"/>considerandum occurrit hoc maxime habere
+          <lb ed="#P" n="38"/>locum quando effectus per legem inductus est
+          <lb ed="#P" n="39"/>quasi dispensatio in aliquo defectu non a 
+          natu<lb break="no" ed="#P" n="40"/>ra sed ab hominibus introducto, ut est 
+          ingenui<lb break="no" ed="#P" n="41"/>tas concessa contra servitutem ; nam servitus
+          <lb ed="#P" n="42"/>non est conditio naturae, et ideo servus factus
+          <lb ed="#P" n="43"/>ingenuus per legem simpliciter venire solet in
+          <lb ed="#P" n="44"/>legibus nomine ingenui, ut patet ex dicta l. Cuam
+          <lb ed="#P" n="45"/>ex oratione ; maxime vero in materia 
+          favorabi<lb break="no" ed="#P" n="46"/>li. Et alia exempla afferemus in sequentibus.
+          <lb ed="#P" n="47"/>1. Lez aliquando extenditur ultira 
+          proprie<lb break="no" ed="#P" n="48"/>tatem verborum tam naturalem quamn 
+          civi<lb break="no" ed="#P" n="49"/>lem. — Dico tertio: extensio legis per 
+          impro<lb break="no" ed="#P" n="50"/>prietatem, seu ultra proprietatem verborum
+          <lb ed="#P" n="51"/>tam naturalem quam civilem, raro locum 
+          ha<lb break="no" ed="#P" n="52"/>bet, admittenda vero est quando alias vel lex
+          <lb ed="#P" n="53"/>fieret illusoria et nullius momenti, vel 
+          injusti<lb break="no" ed="#P" n="54"/>tiam aut aliam absurditatem contineret. Hanc
+          <lb ed="#P" n="55"/>conclusionem in terminis posuit Abb. in c.1
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>de Constit., n. 14, et sequitur ibi Deci. et alii,
+          <lb ed="#P" n="57"/>et Felin. referens alios in cap. Translato, de
+          <lb ed="#P" n="58"/>Constit.. n. 14; Covar., 3 variar., c. 3, n.9;
+          <lb ed="#P" n="59"/>Navar. in sum., cap. 27, n. bB4, etinc. Pamna,
+          <lb ed="#P" n="60"/>de Poenit., dist. 1, n. 16 et 21, et sumitur ex
+          <lb ed="#P" n="61"/>Gloss. penult., in cap. 2 de Usur., in 6. Qui
+          <lb ed="#P" n="62"/>omnes praecipue loquuntur de posteriori parte
+          <lb ed="#P" n="63"/>assertionis. Nam prior, scilicet, quod haec 
+          li<lb break="no" ed="#P" n="64"/>centia extendendi legem ad improprium 
+          sen<lb break="no" ed="#P" n="65"/>sum per se non liceat, sed tantum necessitate
+          <lb ed="#P" n="66"/>cogente, per se nota est et ex dictis in capite
+          <lb ed="#P" n="67"/>praecedenti satis probatur. Quod vero propter
+          <lb ed="#P" n="68"/>dictam causam liceat, optime probatur ex l.
+          <lb ed="#P" n="69"/>Scire etiam, S Aliud, tf. de Excusat. tutor.,
+          <lb ed="#P" n="70"/>ubi propter vitandum absurdum lex ibi dicens:
+          <lb ed="#P" n="71"/>Vel inira centum milliaria,extenditur ut etiam
+          <lb ed="#P" n="72"/>intra quatuor centum locum habeat. Et a 
+          si<lb break="no" ed="#P" n="73"/>mili etiam sumitur ex l. Vam absurdum, ft. de
+          <lb ed="#P" n="74"/>Bon. libert., et optime in l. Si stipulatio, de
+          <lb ed="#P" n="75"/>Oper. liber. Et confirmari hoc potest ex c. S
+          <lb ed="#P" n="76"/>civitas, de Sententia excomm., in 6, ubi 
+          inter<lb break="no" ed="#P" n="77"/>dictum civitatis extenditur ad suburbia, ne 
+          vi<lb break="no" ed="#P" n="78"/>lipendi valeat sententia interdicti. Idem 
+          pro<lb break="no" ed="#P" n="79"/>batur ex c. Significavit, de Judaeis, ut illud
+          <lb ed="#P" n="80"/>bene expendit Navar. in Sum., c. 2, n. B1.
+          <lb ed="#P" n="81"/>Ratio autem est, quia est vulgaris regula 
+          om<lb break="no" ed="#P" n="82"/>nem dispositionem ita esse interpretandam ut
+          <lb ed="#P" n="83"/>valeat potius quam pereat; ergo multo magis
+          <lb ed="#P" n="84"/>lex quae magno consilio fit : at vero si 
+          injusti<lb break="no" ed="#P" n="85"/>tiam contineret non esset lex ; ergo ita est 
+          in<lb break="no" ed="#P" n="86"/>terpretanda ut et sit lex et non sit injusta,
+          <lb ed="#P" n="87"/>etiamsi ad hoc necessarium sit verba extendere
+          <lb ed="#P" n="88"/>usque ad improprietatem. Et eadem ratione
+          <lb ed="#P" n="89"/>vitanda est omnis absurditas a lege per ejus
+          <lb ed="#P" n="90"/>interpretationem , quia, si esset absurda, 
+          irra<lb break="no" ed="#P" n="91"/>tionabilis esset, et consequenter non esset lex.
+          <lb ed="#P" n="92"/>Idem denique erit si sit inutilis et nullius 
+          mo<lb break="no" ed="#P" n="93"/>menti, quia etiam hoc modo nihil ad commune
+          <lb ed="#P" n="94"/>bonum conferet, ac subinde non erit lex. Et
+          <lb ed="#P" n="95"/>praeterea cum lex auctoritate publica fiat, et
+          <lb ed="#P" n="96"/>magno consilio, non potest praesumi facta in
+          <lb ed="#P" n="97"/>eo sensu ut sit injusta, absurda vel inutilis.
+          <lb ed="#P" n="98"/>Unde etiam de statuto dixit Albert., cons. 20,
+          <lb ed="#P" n="99"/>n. 11, non esse ita interpretandum ut 
+          eluso<lb break="no" ed="#P" n="100"/>rium fiat, et sequitur Mascard. concl. 596,
+          <lb ed="#P" n="101"/>n. 2. Imo etiam in lege odiosa fit haec extensio
+          <lb ed="#P" n="102"/>ne fiat fraus legi et ita fiat inutilis, ut in 1l. 4
+          <lb ed="#P" n="103"/>ad Maced. sub mutuo comprehenditur venditio
+          <lb ed="#P" n="104"/>pecunia credita. Et ad id valet l. Cum quis,
+          <lb ed="#P" n="105"/>126, de Regul. jur., et Glossa ult. in capit. ult.
+          <lb ed="#P" n="106"/>de Usur., in 6, ubi nomen testamenti ad 
+          codi<lb break="no" ed="#P" n="107"/>cillum extendit in materia poenali, ne lex fiat
+          <lb ed="#P" n="108"/>illusoria, estque ibi communiter probata. Et
+          <lb ed="#P" n="109"/>plures alios in eamdem sententiam refert 
+          Ti<lb break="no" ed="#P" n="110"/>raq. in ll. conn. Gloss. 5, n. 114, et Sarm.,
+          <pb ed="#P" n="11"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>l. 1, select. cap. 12, n. 7. Atque in his 
+          assertio<lb break="no" ed="#P" n="2"/>nibus non videtur esse controversia inter 
+          auc<lb break="no" ed="#P" n="3"/>tores , nam in his generalibus regulis 
+          conve<lb break="no" ed="#P" n="4"/>niunt, licet alii plures, alii pauciores 
+          limita<lb break="no" ed="#P" n="5"/>tiones adhibeant, quas nunc non expendimus
+          <lb ed="#P" n="6"/>quia pendent magis ex particularibus materiis,
+          <lb ed="#P" n="7"/>seu ex applicatione generalis doctrinae ad illas,
+          <lb ed="#P" n="8"/>quam ex formali ratione interpretandi leges.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="242"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q60730"><!-- l8c5 -->
+        <head xml:id="szdleg-q60730-Hd1e101">Caput 5</head>
+        <head xml:id="szdleg-q60730-Hd1e103" type="question-title">De divisione privilegh in perpetuum et temporale.</head>
+        <p xml:id="szdleg-q60730-d1e106">
+          <lb ed="#P" n="30"/>CAPUT V.
+          <lb ed="#P" n="31"/>DE DIVISIONE PRIVILEGH IN PERPETUUM ET 
+          TEM<lb break="no" ed="#P" n="32"/>PORALE.
+        </p>
+        <p xml:id="szdleg-q60730-d1e115">
+          <lb ed="#P" n="33"/>1. Non dici privilegium perpetuwn quia finiri
+          <lb ed="#P" n="34"/>non potest, sed quod adlweret rei de se 
+          perpe<lb break="no" ed="#P" n="35"/>tuee, vel quod sine limitatione datur.— 
+          Tempo<lb break="no" ed="#P" n="36"/>vale diversimode dicitur.— Tertius modus 
+          pri<lb break="no" ed="#P" n="37"/>vilegii temporalis, quod sub conditione detur
+          <lb ed="#P" n="38"/>que lapsu temporis finitur. — Quarta divisio
+          <lb ed="#P" n="39"/>privilegii, in perpetuum et temporale, in 
+          prae<lb break="no" ed="#P" n="40"/>cedentibus saepe insinuata est; eam vero paulo
+          <lb ed="#P" n="41"/>exactius explicare oportet. In illa igitur 
+          im<lb break="no" ed="#P" n="42"/>primis advertendum est non dici privilegium
+          <lb ed="#P" n="43"/>perpetuum, quia finiri non possit ; semper
+          <lb ed="#P" n="44"/>enim amitti possunt privilegia, ut postea 
+          vide<lb break="no" ed="#P" n="45"/>bimus, sed dicitur perpetuum, quod vel 
+          adhae<lb break="no" ed="#P" n="46"/>ret rei de se perpetuae, vel sine limitatione
+          <lb ed="#P" n="47"/>temporis conceditur, durat enim de se, 
+          quam<lb break="no" ed="#P" n="48"/>diu revocatum non fuerit. Temporale autem
+          <lb ed="#P" n="49"/>multis modis contingit. Primo, quia ad 
+          defi<lb break="no" ed="#P" n="50"/>nitum tempus conceditur, quo elapso finitur,
+          <lb ed="#P" n="51"/>l. Quoties, c. de Precib. imperatort offer. 
+          Se<lb break="no" ed="#P" n="52"/>cundo, licet absolute et indefinite detur, 
+          ni<lb break="no" ed="#P" n="53"/>hilominus temporale erit, si soli personae con-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>cedatur, ita ut sit personale et singulare, ut
+          <lb ed="#P" n="55"/>supra declaratum est. Quamvis enim respective
+          <lb ed="#P" n="56"/>posset tale privilegium dici perpetuum, quia
+          <lb ed="#P" n="57"/>pro tota vita conceditur (quomodo dicitur 
+          exi<lb break="no" ed="#P" n="58"/>lium poena perpetua), vel ob eamdem causam
+          <lb ed="#P" n="59"/>vitale dici possit ; nihilominus simpliciter 
+          tem<lb break="no" ed="#P" n="60"/>porale est, sicut et vita, qua finita finitur, cap.
+          <lb ed="#P" n="61"/>Privileguum, 1 de Reg. jur., in 6, et leg. 
+          Pri<lb break="no" ed="#P" n="62"/>vilegia, et leg. In omnibus canusis, tf. eod.
+          <lb ed="#P" n="63"/>Nam corruptis nobis, corrumpuntur ea quae
+          <lb ed="#P" n="64"/>sunt in nobis: hoc autem privilegium 
+          conce<lb break="no" ed="#P" n="65"/>ditur personae, et illi soli adhaeret ; ergo cum
+          <lb ed="#P" n="66"/>illa perit, et neque ad haeredem, neque ad 
+          suc<lb break="no" ed="#P" n="67"/>cessorem transit. Vide Decium in c. Sane, de
+          <lb ed="#P" n="68"/>Privileg. Tertio, est privilegium temporale,
+          <lb ed="#P" n="69"/>quod sub conditione datur quae lapsu 
+          tempo<lb break="no" ed="#P" n="70"/>ris finitur, nam illa conditione impleta, cessat
+          <lb ed="#P" n="71"/>privilegium, quia voluntas concedentis ultra
+          <lb ed="#P" n="72"/>non extenditur. Et hoc modo potest etiam esse
+          <lb ed="#P" n="73"/>privilegium vitale ex parte concedentis. Nam
+          <lb ed="#P" n="74"/>licet, absolute loquendo, privilegium, ut sic,
+          <lb ed="#P" n="75"/>non finiatur per mortem concedentis, sicut nec
+          <lb ed="#P" n="76"/>gratia, nec favor, cap. Gratum, de Offic. 
+          de<lb break="no" ed="#P" n="77"/>leg., et c. Si super gratia, eod., in 6, 
+          nihilo<lb break="no" ed="#P" n="78"/>minus si concedens addat conditionem, donec
+          <lb ed="#P" n="79"/>decessero, finitur per mortem ejus, ut constat
+          <lb ed="#P" n="80"/>ex ratione facta, quia voluntas non ultra 
+          exten<lb break="no" ed="#P" n="81"/>ditur. Et eumdem sensum censentur habere
+          <lb ed="#P" n="82"/>illa verba, usque ad beneplacitum meum ; nam,
+          <lb ed="#P" n="83"/>licet ex vi illorum non cesset privilegium, 
+          vi<lb break="no" ed="#P" n="84"/>vente auctore ejus, nisi illud revocet, tamen
+          <lb ed="#P" n="85"/>per mortem ejus finietur, quia virtute includit
+          <lb ed="#P" n="86"/>conditionem, ut semper pendeat a voluntate
+          <lb ed="#P" n="87"/>personae concedentis; mortuo autem 
+          conce<lb break="no" ed="#P" n="88"/>dente jam non potest ab illius voluntate 
+          pen<lb break="no" ed="#P" n="89"/>dere, quae jam non est voluntas talis personae,
+          <lb ed="#P" n="90"/>et ideo cessat dependentia, et consequenter
+          <lb ed="#P" n="91"/>etiam privilegium. Secus autem erit si 
+          dica<lb break="no" ed="#P" n="92"/>tur, ad beneplacitum sedis, quia sedes 
+          perpe<lb break="no" ed="#P" n="93"/>tua est, et ita semper revocari potest, et ideo
+          <lb ed="#P" n="94"/>quamdiu non revocatur, durat. Et ita hae 
+          clau<lb break="no" ed="#P" n="95"/>sulae explicantur in c. S gratiose, de Rescr.,
+          <lb ed="#P" n="96"/>in 6, et infra, tractando de amissione 
+          privi<lb break="no" ed="#P" n="97"/>legii, plura de illis addemus.
+        </p>
+        <p xml:id="szdleg-q60730-d1e261">
+          <lb ed="#P" n="98"/>2. Ex quibus constat duo esse necessaria et
+          <lb ed="#P" n="99"/>sufficere ad perpetuitatem privilegii. Unum
+          <lb ed="#P" n="100"/>est, ut simpliciter et absolute concedatur, vel
+          <lb ed="#P" n="101"/>cum aliqua conditione perpetua, ut est 
+          proxi<lb break="no" ed="#P" n="102"/>me dicta, vel, donec revocetur, vel alia similis.
+          <lb ed="#P" n="103"/>Hae namque conditiones virtute includuntur
+          <lb ed="#P" n="104"/>in quocumque privilegio, ideoque licet 
+          expri<lb break="no" ed="#P" n="105"/>mantur, non mutant naturam ejus. Et ideo
+          <lb ed="#P" n="106"/>tale privilegium ex parte dantis perpetuum
+          <lb ed="#P" n="107"/>est, ut sumitur aperte ex c. S4 super gratia,
+          <lb ed="#P" n="108"/>de Offic. deleg., in 6; et ex c. Si cui uulla,
+          <pb ed="#P" n="243"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>de Praebend. in 6, quibus locis Gloss. et 
+          docto<lb break="no" ed="#P" n="2"/>res id notant. Sumitur etiam ex Glossa in cap.
+          <lb ed="#P" n="3"/>ult. de Offic. deleg., ubi Panorm. idem tenet;
+          <lb ed="#P" n="4"/>adhibet tamen limitationem, scilicet, ut non
+          <lb ed="#P" n="5"/>procedat in privilegio concesso ab Episcopo
+          <lb ed="#P" n="6"/>sine causae cognitione, cum praejudicio 
+          Eecle<lb break="no" ed="#P" n="7"/>siae parochialis, et ponit exemplum in licentia
+          <lb ed="#P" n="8"/>eligendi confessorem. Sed exemplum verum
+          <lb ed="#P" n="9"/>non est, ut dixi in tomo de Poenit., et ita non
+          <lb ed="#P" n="10"/>est necessaria limitatio, ut infra dicam. 
+          Syl<lb break="no" ed="#P" n="11"/>vester autem, verbo Confessor. 1, quaest. 1,
+          <lb ed="#P" n="12"/>sentit quod, si in privilegio dicatur wsque ad
+          <lb ed="#P" n="13"/>beneplacitum sedis, est perpetuum, etiamsi sit
+          <lb ed="#P" n="14"/>privilegium eligendi confessorem. non vero si
+          <lb ed="#P" n="15"/>absolute concedatur. Sed nulla ratione id 
+          pro<lb break="no" ed="#P" n="16"/>bat, nec est verisimile, ut recte docet Navarrus,
+          <lb ed="#P" n="17"/>qui regulam datam simpliciter approbat in d.
+          <lb ed="#P" n="18"/>cons. 1 de Privil., et in c. Placuit, de Poenit.,
+          <lb ed="#P" n="19"/>d. 6, n. 161, et consonat reg. jur.: Decet 
+          be<lb break="no" ed="#P" n="20"/>neftcium principis esse mansurum, ut dicitur
+          <lb ed="#P" n="21"/>in regula 16, in 6. Denique potestas in 
+          conce<lb break="no" ed="#P" n="22"/>dente supponitur, et voluntas non deest, quia
+          <lb ed="#P" n="23"/>absolute posita, virtute durat donec revocetur;
+          <lb ed="#P" n="24"/>sufficienter autem censetur absolute, et de se
+          <lb ed="#P" n="25"/>perpetuo posita, quando absoluta sunt verba,
+          <lb ed="#P" n="26"/>et aliam limitationem non declarant.
+        </p>
+        <p xml:id="szdleg-q60730-d1e349">
+          <lb ed="#P" n="27"/>3. Censetur privilegium perpetuum , quod
+          <lb ed="#P" n="28"/>conceditur religioni, vel rei imnobili, ut 
+          ccle<lb break="no" ed="#P" n="29"/>sie vel monasterio ; at his destructis 
+          extingui<lb break="no" ed="#P" n="30"/>tur privilegium. — Nec privilegium reale, nec
+          <lb ed="#P" n="31"/>personale esse curabilius suo fundamento. —
+          <lb ed="#P" n="32"/>Alia conditio 1ecessaria ad privilegium 
+          per<lb break="no" ed="#P" n="33"/>petuum, est 1 adhaereat rei perpetuae, quia
+          <lb ed="#P" n="34"/>alias cum illa i.1ietur, ut dictum est. Res 
+          au<lb break="no" ed="#P" n="35"/>tem humanae maxime sunt perpetuae per 
+          snc<lb break="no" ed="#P" n="36"/>cessionem quamdam. Et hoc modo est 
+          impri<lb break="no" ed="#P" n="37"/>mis perpetuum privilegium concessum 
+          reli<lb break="no" ed="#P" n="38"/>gioni, quia, licet personae finiantur, religio
+          <lb ed="#P" n="39"/>manet. ltem est perpetuum privilegium 
+          con<lb break="no" ed="#P" n="40"/>cessum dignitati, quia illa etiam semper durat
+          <lb ed="#P" n="41"/>per successionem personarum. Unde obiter
+          <lb ed="#P" n="42"/>notari potest privilegium perpetuum respectu
+          <lb ed="#P" n="43"/>unius, scilicet, dignitatis, vel loci, esse 
+          tempo<lb break="no" ed="#P" n="44"/>rale respectu personae, nam si perdat 
+          dignita<lb break="no" ed="#P" n="45"/>tem, vel mutet locum, amittit privilegium.
+          <lb ed="#P" n="46"/>Denique censetur perpetuum quod conceditur
+          <lb ed="#P" n="47"/>rei corporali immobili, ut Ecclesiae, vel 
+          mo<lb break="no" ed="#P" n="48"/>nasterio : quia res ipsa perpetua est, cap. Que
+          <lb ed="#P" n="49"/>semel, 19, quaest. 3. Tamen, quia contingit
+          <lb ed="#P" n="50"/>hunc ipsum locum destrui, si absolute id 
+          eve<lb break="no" ed="#P" n="51"/>niat, ita ut extinguatur, finietur etiam 
+          privi<lb break="no" ed="#P" n="52"/>legium, argumento capit. Et hoc disimus, 16,
+          <lb ed="#P" n="53"/>q. 7, ubi id notat Glossa. Idem Glossa ult., in
+          <lb ed="#P" n="54"/>capit. Abbate, de Verbor. significat.; et Glossa
+          <lb ed="#P" n="55"/>in regul. Privilegium, de Regul. jur., in 6;
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>item Glossa et Innoc. in cap. 2 de Nov. oper.
+          <lb ed="#P" n="57"/>nunc., ubi etiam Abb., n. 5, et Alex. de Nevo.,
+          <lb ed="#P" n="58"/>qui alios refert; et Sylvest. verb. Civitas,
+          <lb ed="#P" n="59"/>q. 2; et sumitur ex dicto cap. 2 de Nov. oper.
+          <lb ed="#P" n="60"/>nunc. Quia destructo principali destruuntur
+          <lb ed="#P" n="61"/>accessoria, et ablato fundamento cadit 
+          aedi<lb break="no" ed="#P" n="62"/>ficium. Denique ita se habet privilegium reale
+          <lb ed="#P" n="63"/>ad locum, sicut personale ad personam : 
+          neu<lb break="no" ed="#P" n="64"/>trum ergo potest esse durabilius suo 
+          funda<lb break="no" ed="#P" n="65"/>mento ; sicut ergo extinguitur privilegium
+          <lb ed="#P" n="66"/>personale extincta persona, ita etiam locale
+          <lb ed="#P" n="67"/>extincto loco.
+        </p>
+        <p xml:id="szdleg-q60730-d1e443">
+          <lb ed="#P" n="68"/>4. Difficultas oborta ea dictis. — Insurgit
+          <lb ed="#P" n="69"/>vero ex hac declaratione difficultas, quia, si
+          <lb ed="#P" n="70"/>valida est, absolute et sine limitatione 
+          con<lb break="no" ed="#P" n="71"/>cludit ; at vero Innocent., Glossa et doctores
+          <lb ed="#P" n="72"/>citati non absolute tradunt doctrinam , sed
+          <lb ed="#P" n="73"/>cum distinctione et limitatione. Volunt enim
+          <lb ed="#P" n="74"/>doctrinam illam procedere, quando locus 
+          de<lb break="no" ed="#P" n="75"/>struitur auctoritate superioris ; nam tunc 
+          om<lb break="no" ed="#P" n="76"/>nino amittit privilegia, imo et jura omnia et
+          <lb ed="#P" n="77"/>nomen, tam in se quam in personis ejus, ita
+          <lb ed="#P" n="78"/>ut non possint amplius ab illo loco nominari,
+          <lb ed="#P" n="79"/>ut, verbi gratia, dici non possint canonici talis
+          <lb ed="#P" n="80"/>Ecclesiae, vel cives aut membra talis civitatis
+          <lb ed="#P" n="81"/>vel universitatis; imo etiam addunt hoc debere
+          <lb ed="#P" n="82"/>intelligi, quando destructio loci fit a superiore
+          <lb ed="#P" n="83"/>sine spe refectionis, ut notat Felin. in c. Cum
+          <lb ed="#P" n="84"/>dilecta, de hescript., n. 25, ex Alex. in leg.
+          <lb ed="#P" n="85"/>Inter stipulantem, S S'acram rem, ff. de Verbor.
+          <lb ed="#P" n="86"/>obligat. Secus vero esse dicunt si locus sit
+          <lb ed="#P" n="87"/>destructus contra voluntatem superioris, ut ab
+          <lb ed="#P" n="88"/>hostibus, vel latronibus, etc. Nam tunc dicunt
+          <lb ed="#P" n="89"/>non amittere privilegia , sicut non amittit
+          <lb ed="#P" n="90"/>jura, nec nomen, aut denominationem 
+          perso<lb break="no" ed="#P" n="91"/>narum in ordine ad ipsum, juxta capit. 
+          Pas<lb break="no" ed="#P" n="92"/>toralis, 1, quaest. 1. Ilemque dicendum erit
+          <lb ed="#P" n="93"/>consequenter, etiamsi locus qnocumque casu
+          <lb ed="#P" n="94"/>contingente pereat, seu destruatur, 
+          argumen<lb break="no" ed="#P" n="95"/>to leg. Zde sacra, ff. de Contrah. empt., ubi
+          <lb ed="#P" n="96"/>dicitur, diruta aede sacra, locum non fieri 
+          pro<lb break="no" ed="#P" n="97"/>fanum, et ideo vendi non posse.
+        </p>
+        <p xml:id="szdleg-q60730-d1e511">
+          <lb ed="#P" n="98"/>5. Respondeo et doctrinam hance veram esse,
+          <lb ed="#P" n="99"/>et nihilominus priorem assertionem 
+          simplici<lb break="no" ed="#P" n="100"/>ter veram esse, recteque probari ratione facta.
+          <lb ed="#P" n="101"/>Nam in illis casibus, in quibus locus destruitur
+          <lb ed="#P" n="102"/>ex mandato superioris seu domini, ideo 
+          extin<lb break="no" ed="#P" n="103"/>guitur privilegium, quia omnino perit, et ideo
+          <lb ed="#P" n="104"/>recte additur quod debet res destrui sine spe
+          <lb ed="#P" n="105"/>refectionis. Idem autem erit si destructio 
+          na<lb break="no" ed="#P" n="106"/>turaliter contingat, etiamsi sine spe 
+          refectio<lb break="no" ed="#P" n="107"/>nis, quia militat ratio supra facta, ut recte
+          <lb ed="#P" n="108"/>notavit Felin. supra ex Bald. in leg. Von 
+          am<lb break="no" ed="#P" n="109"/>bigitur, ff. de Legib. et aliis. Secus vero est
+          <lb ed="#P" n="110"/>quando locus revera non simpliciter destrui-
+          <pb ed="#P" n="244"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tur, sed vel occupatur, vel captivitatur ab 
+          hos<lb break="no" ed="#P" n="2"/>tibus, qui est casus dicti cap. Pastoralis, vel
+          <lb ed="#P" n="3"/>destruitur, et ad tempus impeditur ne 
+          reaedi<lb break="no" ed="#P" n="4"/>ficari possit, tunc enim quamdiu ex parte 
+          su<lb break="no" ed="#P" n="5"/>perioris seu domini manet spes et jus ac 
+          vo<lb break="no" ed="#P" n="6"/>Iuntas recuperandi vel reparandi illum, non
+          <lb ed="#P" n="7"/>potest censeri simpliciter perditus, vel 
+          des<lb break="no" ed="#P" n="8"/>tructus, sed detentus, vel impeditus. Et ideo
+          <lb ed="#P" n="9"/>necessarium non est, ut regula data ad illum
+          <lb ed="#P" n="10"/>simpliciter applicetur, sed cum proportione.
+        </p>
+        <p xml:id="szdleg-q60730-d1e568">
+          <lb ed="#P" n="11"/>6. Quid dicendum , quando locus per hostes
+          <lb ed="#P" n="12"/>vel casu dirutus est cum spe refectionis. — In
+          <lb ed="#P" n="13"/>illo ergo casu, quando locus per vim hostium
+          <lb ed="#P" n="14"/>vel casu dirutus est aut combustus, cum spe
+          <lb ed="#P" n="15"/>refectionis, distinguenda mihi videntur 
+          privi<lb break="no" ed="#P" n="16"/>legia loci quae ipsi solo sine pavimento 
+          con<lb break="no" ed="#P" n="17"/>cessa sunt, eique nude sumpto adhaerere 
+          pos<lb break="no" ed="#P" n="18"/>sunt, ab his quae dti: ecte respiciunt aedificium,
+          <lb ed="#P" n="19"/>ut templum, vel quid simile. Priora enim sine
+          <lb ed="#P" n="20"/>dubio permanent, quia eorum fundamentum
+          <lb ed="#P" n="21"/>non est destructum. Et tale est quod dicitur in
+          <lb ed="#P" n="22"/>dict. 1. Zde sacra, quia consecratio aut 
+          bene<lb break="no" ed="#P" n="23"/>dictio solo adhaeret ; et ideo privilegia quae
+          <lb ed="#P" n="24"/>inde sequuntur, ut non esse locum venalem,
+          <lb ed="#P" n="25"/>non posse converti ad usus profanos, et si quae
+          <lb ed="#P" n="26"/>sunt similia, semper permanent. De 
+          posteriori<lb break="no" ed="#P" n="27"/>bus vero subdistinguendum est; nam quaedam
+          <lb ed="#P" n="28"/>sunt privilegia quorum usus esse potest extra
+          <lb ed="#P" n="29"/>illum locum, alia quae praecise requirunt ut
+          <lb ed="#P" n="30"/>intra talem locum vel templum aliquid fiat.
+          <lb ed="#P" n="31"/>Quae sunt prioris modi non solum non 
+          amit<lb break="no" ed="#P" n="32"/>tuntur omnino, verum etiam nec 
+          suspendun<lb break="no" ed="#P" n="33"/>tur pro illo tempore, quia per habitudinem ad
+          <lb ed="#P" n="34"/>locum manent in personis quae habent 
+          specia<lb break="no" ed="#P" n="35"/>lem relationem, seu morale jus illius, et tunc
+          <lb ed="#P" n="36"/>maxime procedunt quae dicti auctores dicunt,
+          <lb ed="#P" n="37"/>quod Episcopus vel canonicus talis loci retinet
+          <lb ed="#P" n="38"/>denominationem ab illo, et fruitur privilegiis
+          <lb ed="#P" n="39"/>sibi concessis ratione Episcopatus vel 
+          canoni<lb break="no" ed="#P" n="40"/>catus talis loci, et similia. Quia ille locus non
+          <lb ed="#P" n="41"/>est fundamentum directum, ut sic dicam, 
+          illo<lb break="no" ed="#P" n="42"/>rum privilegiorum, sed tantum in obliquo, id
+          <lb ed="#P" n="43"/>est, ut terminus illius habitudinis : potest 
+          au<lb break="no" ed="#P" n="44"/>tem esse talis terminus, etiamsi non subsistat
+          <lb ed="#P" n="45"/>in re, sed in spe et jure, licct nunc sit 
+          occu<lb break="no" ed="#P" n="46"/>patus ab hostibus vel haereticis, etc. Privilegia
+          <lb ed="#P" n="47"/>vero quae sunt posterioris modi, licet non 
+          amit<lb break="no" ed="#P" n="48"/>tantur omnino, pro illo tempore et statu 
+          ces<lb break="no" ed="#P" n="49"/>sant, et quasi suspenduntur. Sic dixi, in ult.
+          <lb ed="#P" n="50"/>sect. de Indulg., cessare indulgentiam templo
+          <lb ed="#P" n="51"/>concessam, si templum destruatur; et eadem
+          <lb ed="#P" n="52"/>ratione cessabit immunitas loci si censeatur
+          <lb ed="#P" n="53"/>primario concessa ratione aedificii, non arease.
+        </p>
+        <p xml:id="szdleg-q60730-d1e664">
+          <lb ed="#P" n="54"/>1. Privilegium restituitur restituto loco 
+          di<lb break="no" ed="#P" n="55"/>ruto, nisi dirutus fuerit eo instituto ab habente
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>jus et potestatem diruendi. — Disi autem non
+          <lb ed="#P" n="57"/>omnino amitti tunc privilegium, quando locus
+          <lb ed="#P" n="58"/>non est ex instituto dirutus ab habente jus et
+          <lb ed="#P" n="59"/>potestatem, quia quando ahter destruitur, 
+          per<lb break="no" ed="#P" n="60"/>manere censetur in jure et spe, et ideo si ad
+          <lb ed="#P" n="61"/>pristipum statum restituatur , privilegium
+          <lb ed="#P" n="62"/>etiam cum illo consurgit. Ad quod facit 1. 36,
+          <lb ed="#P" n="63"/>ff. de Rheligios. et sumpt. fun., quae sic habet:
+          <lb ed="#P" n="64"/>Cum loca capta sunt ab hostibus, omnia 
+          desi<lb break="no" ed="#P" n="65"/>nunt religiosa vel sacra esse (utique quoad
+          <lb ed="#P" n="66"/>usum, et quoad dicta privilegia pro illo 
+          tem<lb break="no" ed="#P" n="67"/>pore); quod si ab hac calamitate fuerint 
+          libe<lb break="no" ed="#P" n="68"/>rata, quasi quodam postliminio reversa, 
+          pri<lb break="no" ed="#P" n="69"/>stino statui restituuntur. Et idem sumitur ex
+          <lb ed="#P" n="70"/>cap. Quia monasterium, de Rehg. dom., et ex
+          <lb ed="#P" n="71"/>d. cap. Pastoralis, et dict. cap. Que semel. Ex
+          <lb ed="#P" n="72"/>quibus etiam sumitur ratio, quia in illis 
+          casi<lb break="no" ed="#P" n="73"/>bus semper mansit solum immobile, :n quo
+          <lb ed="#P" n="74"/>tanquam in semine et fundamento conservari
+          <lb ed="#P" n="75"/>potuit privilegium veluti quoad proprietatem,
+          <lb ed="#P" n="76"/>ut postea posset quoad usum consurgere. Et
+          <lb ed="#P" n="77"/>ita, formaliter loquendo (ut sic dicam), verum
+          <lb ed="#P" n="78"/>est haec privilegia perpetua seu realia eatenus
+          <lb ed="#P" n="79"/>durare, quatenus durat eorum fundamentum,
+          <lb ed="#P" n="80"/>vel hoc destructo cessare aut extingui, si illud
+          <lb ed="#P" n="81"/>omnino extinctum censeatur; nunquam 
+          au<lb break="no" ed="#P" n="82"/>tem censetur ita extinctum, nisi quando 
+          auc<lb break="no" ed="#P" n="83"/>toritate illius qui potestatem habet extiinctum
+          <lb ed="#P" n="84"/>est.
+        </p>
+        <p xml:id="szdleg-q60730-d1e736">
+          <lb ed="#P" n="85"/>8. Atque hinc etiam fit ut, si Ecclesia in
+          <lb ed="#P" n="86"/>uno loco destruatur, non ut destructa 
+          simpli<lb break="no" ed="#P" n="87"/>citer maneat, sed ut in alium locum 
+          transfe<lb break="no" ed="#P" n="88"/>ratur, non amittat privilegia, sed cum illa
+          <lb ed="#P" n="89"/>transferantur, quando non sunt concessa 
+          ra<lb break="no" ed="#P" n="90"/>tione situs, sed directe ipsi templo, et sub suo
+          <lb ed="#P" n="91"/>nomine. Tunc enim censetur templum 
+          com<lb break="no" ed="#P" n="92"/>parari personae quae secum defert privilegium
+          <lb ed="#P" n="93"/>personale; nam illa etiam Ecclesia una 
+          ru<lb break="no" ed="#P" n="94"/>mero censetrur, ut communiter docent juris 
+          in<lb break="no" ed="#P" n="95"/>terpretes cum Glossa in dict. reg. Privilegium,
+          <lb ed="#P" n="96"/>Alex., Bald. et Felin., ubi supra, et Anton.,
+          <lb ed="#P" n="97"/>1 part., tit. 19, cap. 1, S 2. Quid autem 
+          di<lb break="no" ed="#P" n="98"/>cendum sit quando unus locus vel Ecclesia
+          <lb ed="#P" n="99"/>alteri unitur, vide apud Gloss., Host. et 
+          Pa<lb break="no" ed="#P" n="100"/>norm. in c. 4, Ne sed. vacan. :
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

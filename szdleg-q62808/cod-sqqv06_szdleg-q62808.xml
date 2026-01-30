@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="250"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q62808"><!-- l8c7 -->
+        <head xml:id="szdleg-q62808-Hd1e101">Caput 7</head>
+        <head xml:id="szdleg-q62808-Hd1e103" type="question-title">Utrum sit aliquod privilegium per se non scriptum, nec expresse concessum, sed usu comparatum</head>
+        <p xml:id="szdleg-q62808-d1e106">
+          <lb ed="#P" n="48"/>CAPUT VII.
+          <lb ed="#P" n="49"/>UTRUM SIT ALIQUOD PRIVILEGIUM PER SE NON
+          <lb ed="#P" n="50"/>SCRIPTUM, NEC EXPRESSE CONCESSUM, SED USU
+          <lb ed="#P" n="51"/>COMPARATUM.
+        </p>
+        <p xml:id="szdleg-q62808-d1e117">
+          <lb ed="#P" n="52"/>1. Praeter divisiones superiori capite 
+          expli<lb break="no" ed="#P" n="53"/>catas potest addi alia de duplici privilegio,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>scripto videlicet, et non scripto; tamen quia,
+          <lb ed="#P" n="55"/>generatim sumpta, haec divisio nota fere est
+          <lb ed="#P" n="56"/>ex dictis in capite secundo, ubi explicando
+          <lb ed="#P" n="57"/>quahter scriptura sit ad privilegium 
+          necessa<lb break="no" ed="#P" n="58"/>ria, fere explicuimus quae ad scriptum 
+          privi<lb break="no" ed="#P" n="59"/>legium pertinere possunt, ideo tantum de
+          <lb ed="#P" n="60"/>non scripto hic superest dicendum. 
+          Supponi<lb break="no" ed="#P" n="61"/>mus ergo dari aliqua privilegia scripta, quia
+          <lb ed="#P" n="62"/>licet scriptura non sit de substantia privilegii,
+          <lb ed="#P" n="63"/>potesti multum referre quod privilegium 
+          scri<lb break="no" ed="#P" n="64"/>ptum sit. Quia scriptura est signum expressum
+          <lb ed="#P" n="65"/>et durabile, quod continere solet ac debet
+          <lb ed="#P" n="66"/>modum gratiae, et ideo utilissimum est 
+          privi<lb break="no" ed="#P" n="67"/>legium esse scriptum, ut de illo melius ac
+          <lb ed="#P" n="68"/>certius constare possit. Atque ita illud est
+          <lb ed="#P" n="69"/>maxime usitatum in privilegiis quae ab 
+          ho<lb break="no" ed="#P" n="70"/>mine conceduntur. Oportet autem ut 
+          scri<lb break="no" ed="#P" n="71"/>ptura sit authentica, ita ut faciat filem. Quod
+          <lb ed="#P" n="72"/>cum proportione applicandum est ad forum.
+          <lb ed="#P" n="73"/>conscientiae, et externum; nam ad forum 
+          con<lb break="no" ed="#P" n="74"/>scientiae satis est, quod faciat privatam fidem
+          <lb ed="#P" n="75"/>probabilem ; ad externum autem oportebit ut
+          <lb ed="#P" n="76"/>faciat fidem publicam , alias oportebit ut 
+          ve<lb break="no" ed="#P" n="77"/>ritas scripturae alio modo, per testes vel alia
+          <lb ed="#P" n="78"/>instrumenta, probetur. Solet autem scriptum
+          <lb ed="#P" n="79"/>subdividi in simplex et multiplex : nam illud
+          <lb ed="#P" n="80"/>continet tantum unam gratiam, hoc vero 
+          plu<lb break="no" ed="#P" n="81"/>res, ut in Bullis Pontificiis passim videbimus.
+          <lb ed="#P" n="82"/>Sed divisio valde materialis est, magisque
+          <lb ed="#P" n="83"/>datur de instrumentis privilegiorum quam de
+          <lb ed="#P" n="84"/>ipsis privilegiis : haec enim licet in uno
+          <lb ed="#P" n="85"/>scripto contineantur, et a continente dicantur
+          <lb ed="#P" n="86"/>esse unum privilegium, si tamen concedunt
+          <lb ed="#P" n="87"/>facultates aut gratias diversas, plura sunt, et
+          <lb ed="#P" n="88"/>tot sunt privilegia quot sunt hujusmodi 
+          clau<lb break="no" ed="#P" n="89"/>sulae in indulto.
+        </p>
+        <p xml:id="szdleg-q62808-d1e204">
+          <lb ed="#P" n="90"/>2. Scripti privilegii subdivisio.—Alio vero
+          <lb ed="#P" n="91"/>modo solet scriptum privilegium subdividi in
+          <lb ed="#P" n="92"/>illud quod in jure communi scriptum seu 
+          in<lb break="no" ed="#P" n="93"/>corporatum est, et illud quod est extra jus in
+          <lb ed="#P" n="94"/>privatis bullis vel aliis similibus instrumentis
+          <lb ed="#P" n="95"/>aut codicibus. Inter quae privilegia, quod 
+          atti<lb break="no" ed="#P" n="96"/>net ad substantiam et effectum, in re ipsa et
+          <lb ed="#P" n="97"/>coram Deo non est differentia, tum quia in
+          <lb ed="#P" n="98"/>utrisque intercedit eadem voluntas et potestas
+          <lb ed="#P" n="99"/>Pontificis, vel alterius principis, seu 
+          superio<lb break="no" ed="#P" n="100"/>ris respective; tum etiam quia supra dictum
+          <lb ed="#P" n="101"/>est scripturam non esse de substantia 
+          privile<lb break="no" ed="#P" n="102"/>gii ; multo ergo minus erit quod scriptura sit
+          <lb ed="#P" n="103"/>in tali vel tali libro contenta. Nihilominus
+          <lb ed="#P" n="104"/>tamen, quoad aliquos effectus humanos et
+          <lb ed="#P" n="105"/>morales poterit esse inter haec privilegia
+          <lb ed="#P" n="106"/>magna differentia. Primo, quoad rationem 
+          le<lb break="no" ed="#P" n="107"/>gis et obligationem ejus; quia privilegia 
+          in<lb break="no" ed="#P" n="108"/>serta in jure communi eo ipso sunt suflicienter
+          <pb ed="#P" n="251"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>promulgata , et de se obligant omnes ad 
+          illo<lb break="no" ed="#P" n="2"/>rum observationem ; privilegia autem 
+          con<lb break="no" ed="#P" n="3"/>tenta in privata scriptura non solent ita esse
+          <lb ed="#P" n="4"/>promulgata in speciali, unde facile poterunt
+          <lb ed="#P" n="5"/>ignorari , vel in dubium revocari. Secundo,
+          <lb ed="#P" n="6"/>quoad firmitatem et permanentiam. Nam illa
+          <lb ed="#P" n="7"/>privilegia quae sunt in jure communi inserta,
+          <lb ed="#P" n="8"/>difficilius revocantur, et specialibus indigent
+          <lb ed="#P" n="9"/>clausulis ut abrogentur, ex dispositione 
+          ejus<lb break="no" ed="#P" n="10"/>dem juris communis, ut infra videbimus.
+        </p>
+        <p xml:id="szdleg-q62808-d1e275">
+          <lb ed="#P" n="11"/>3. Dupliciter intelligi privilegium esse non
+          <lb ed="#P" n="12"/>scriptum. — Omisso ergo privilegio scripto,
+          <lb ed="#P" n="13"/>circa non scriptum est ulterius considerandum
+          <lb ed="#P" n="14"/>duplici modo posse intelligi privilegium non
+          <lb ed="#P" n="15"/>esse scriptum, scilicet, per accidens, vel per
+          <lb ed="#P" n="16"/>se. Per accidens voco non scriptum, iliud quod
+          <lb ed="#P" n="17"/>a principe expresse concessum est, et ore 
+          pro<lb break="no" ed="#P" n="18"/>latum, et (ut ita dicam) sufficienter dictatum
+          <lb ed="#P" n="19"/>ut scribi possit. Per accidens autem contigit,
+          <lb ed="#P" n="20"/>ut non scriberetur, vel certe non litteris 
+          au<lb break="no" ed="#P" n="21"/>thenticis. Et boc potest vocari privilegium ab
+          <lb ed="#P" n="22"/>homine concessum sine scriptura, et in 
+          Pen<lb break="no" ed="#P" n="23"/>tificis concessionibus solet hoc vocari vivae 
+          vo<lb break="no" ed="#P" n="24"/>cis oraculum, et cum proportione potest 
+          no<lb break="no" ed="#P" n="25"/>men accommodari ad gratias aliorum 
+          princi<lb break="no" ed="#P" n="26"/>pum. De hoc ergo privilegio procedunt 
+          maxi<lb break="no" ed="#P" n="27"/>me dicta in capit. 2, de valore privilegii non
+          <lb ed="#P" n="28"/>scripti, et de modo quo in foro conscientiae vel
+          <lb ed="#P" n="29"/>judiciah probari potest. Per se autem voco
+          <lb ed="#P" n="30"/>privilegium non scriptum, illud quod a 
+          ne<lb break="no" ed="#P" n="31"/>mine ita est expresse concessum ut scribi
+          <lb ed="#P" n="32"/>possit, sed usu quodam et tacita conniventia
+          <lb ed="#P" n="33"/>principis comparatum est; et hujusmodi erit
+          <lb ed="#P" n="34"/>privilegium consuetudine introductum, si vere
+          <lb ed="#P" n="35"/>introduci potest : et de hoc in praesenti 
+          dis<lb break="no" ed="#P" n="36"/>putaticnem instituimus.
+        </p>
+        <p xml:id="szdleg-q62808-d1e334">
+          <lb ed="#P" n="37"/>4. An sine expressa principis concessione
+          <lb ed="#P" n="38"/>possit privilegium consuetudine comparari. —
+          <lb ed="#P" n="39"/>Merito enim dubitari potest an sine expressa
+          <lb ed="#P" n="40"/>principis concessione possit privilegium 
+          con<lb break="no" ed="#P" n="41"/>suetudine comparari; ratio autem dubitandi
+          <lb ed="#P" n="42"/>est, quia nemo potest auctoritate sua se 
+          exi<lb break="no" ed="#P" n="43"/>mere a lege ; consuetudo autem operandi 
+          con<lb break="no" ed="#P" n="44"/>tra legem vel praeter legem propria 
+          auctori<lb break="no" ed="#P" n="45"/>tate subditi fit; consistit enim talis consuetudo
+          <lb ed="#P" n="46"/>in propriis actibus ipsius subditi; ergo. 
+          Con<lb break="no" ed="#P" n="47"/>firmatur, quia privilegium vel est quaedam 
+          ex<lb break="no" ed="#P" n="48"/>ceptio a lege, vel certe jus aliquod supra 
+          le<lb break="no" ed="#P" n="49"/>gem; exceptionem autem a lege solum potest
+          <lb ed="#P" n="50"/>facere auctor ejus, vel superior ; specialis item
+          <lb ed="#P" n="51"/>potestas operandi supra legem partücipatio
+          <lb ed="#P" n="52"/>quaedam est superioris potestatis, et ideo ab
+          <lb ed="#P" n="53"/>illa etiam manare debet; ergo non potest 
+          sub<lb break="no" ed="#P" n="54"/>ditus per solos actus sua voluntate factos illam
+          <lb ed="#P" n="55"/>usurpare. Dices ibi intervenire tacitam volun-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tatem principis. Sed contra, quia haec tacita
+          <lb ed="#P" n="57"/>voluntas non potest esse sine scientia; 
+          prin<lb break="no" ed="#P" n="58"/>ceps autem non praesumitur scire specialia
+          <lb ed="#P" n="59"/>facta vel consue:udines, sed ad summum 
+          uni<lb break="no" ed="#P" n="60"/>versales ; ergo specialis consuetudo non 
+          osten<lb break="no" ed="#P" n="61"/>dit vel inducit tacitam voluntatem principis.
+          <lb ed="#P" n="62"/>Et confirmatur hoc, nam hac ratione Gregor.
+          <lb ed="#P" n="63"/>Papa in cap. Contra mores, d. 100, sentire
+          <lb ed="#P" n="64"/>videtur consuetudinem specialem non 
+          praeva<lb break="no" ed="#P" n="65"/>lere contra generalem, nisi in privilegio 
+          scri<lb break="no" ed="#P" n="66"/>pto fundetur. Ideo enim scribit ad quemdam
+          <lb ed="#P" n="67"/>Episcopum, necessarium esse contra 
+          genera<lb break="no" ed="#P" n="68"/>lem consuetudinem scripto privilegio se tueri.
+          <lb ed="#P" n="69"/>Imo idem Episcopus non videtur fuisse ausus
+          <lb ed="#P" n="70"/>allegare consuetudinem specialem contra 
+          ge<lb break="no" ed="#P" n="71"/>neralem, nisi in virtute privilegii ab homine
+          <lb ed="#P" n="72"/>concessi; patet ex illis verbis : Preeceptum
+          <lb ed="#P" n="73"/>Joannis predecessoris nostri misistis 
+          anne<lb break="no" ed="#P" n="74"/>vtum, continens omnes consuetudines ex 
+          privile<lb break="no" ed="#P" n="75"/>gic praedecessorum nostrorum concessas, vobis
+          <lb ed="#P" n="76"/>Hcclesieque vestre deberi servari. Non ergo
+          <lb ed="#P" n="77"/>sufficit consuetudo quando illa est contra 
+          le<lb break="no" ed="#P" n="78"/>gem , nisi ipsa in privilegio fundetur, et ideo
+          <lb ed="#P" n="79"/>Greg. ibidem urget Episcopum ut privilegium
+          <lb ed="#P" n="80"/>ostendat, alioqui non posse obtinere contra
+          <lb ed="#P" n="81"/>generalem morem. Unde sic concludit : Restat
+          <lb ed="#P" n="82"/>postquam talia agere neque consuetudine 
+          ge<lb break="no" ed="#P" n="83"/>nerali, neque privilegio vindicas, ut usurpare
+          <lb ed="#P" n="84"/>le comprobes quod fecisti. Quae partitio 
+          insuf<lb break="no" ed="#P" n="85"/>ficiens esset, et collectio claudicaret, si 
+          con<lb break="no" ed="#P" n="86"/>suetudo specialis sufficere posset; talem ergo
+          <lb ed="#P" n="87"/>consuetudinem sentit esse usurpationem 
+          alie<lb break="no" ed="#P" n="88"/>ni juris, et ideo nihil posse conferre. Similis
+          <lb ed="#P" n="89"/>sententia habetur ex eodem Greg. in c. Zllud,
+          <lb ed="#P" n="90"/>93 d., quod ex eadem Epist. sumptum est, 1. 2,
+          <lb ed="#P" n="91"/>Epist. 51, c. 93.
+        </p>
+        <p xml:id="szdleg-q62808-d1e458">
+          <lb ed="#P" n="92"/>5. Consuetudinem sufficere ad privilegium
+          <lb ed="#P" n="93"/>conferendum commnunis sententia juristarum.—
+          <lb ed="#P" n="94"/>In contrarium vero est communis juristarum
+          <lb ed="#P" n="95"/>sententia dicentium, consuetudinem suffticere
+          <lb ed="#P" n="96"/>ad privilegium conferendum, vel sub aliis 
+          ver<lb break="no" ed="#P" n="97"/>bis consuetudinem privilegio aequiparari. Ita
+          <lb ed="#P" n="98"/>dicit Glossa in c. NVovit, de Jud., verbo 
+          Con<lb break="no" ed="#P" n="99"/>suetudinem, per textum illum dicentem : Nisi
+          <lb ed="#P" n="100"/>forte juri communi per speciale privilegium,
+          <lb ed="#P" n="101"/>vel contrariam consuetudinem aliquid sit 
+          de<lb break="no" ed="#P" n="102"/>iractum, ubi Inn. IlI illa duo aequiparat, in eo
+          <lb ed="#P" n="103"/>maxime quod ad rem praesentem facit, scilicet,
+          <lb ed="#P" n="104"/>in detrahendo aliquid juri communi. Glossa
+          <lb ed="#P" n="105"/>etiam in cap. Conquestus, 9, q. 3, expresse
+          <lb ed="#P" n="106"/>dicit, quod consuetudo dat privilegium. Idem
+          <lb ed="#P" n="107"/>habet Glos. in c. Super quibusdam, S 
+          Preeter<lb break="no" ed="#P" n="108"/>ea, verbo Non extat, de Verbor. significatione,
+          <lb ed="#P" n="109"/>et coneentiunt alii statim referendi. 
+          Probari<lb break="no" ed="#P" n="110"/>que videtur sufticienter ex dictis juribus, et
+          <pb ed="#P" n="252"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>c. duo Simul, de Offic. ordin. Ratione vero sic
+          <lb ed="#P" n="2"/>declarari potest, quia duplex est privilegium,
+          <lb ed="#P" n="3"/>unum rigorosum, quod ab omnibus censetur
+          <lb ed="#P" n="4"/>indubie privilegium, scilicet, quod est contra
+          <lb ed="#P" n="5"/>legem, seu aliquid speciale concedit juri 
+          com<lb break="no" ed="#P" n="6"/>muni contrarium; aliud largius, quod 
+          conce<lb break="no" ed="#P" n="7"/>dit aliquid speciale ultra commune jus, licet
+          <lb ed="#P" n="8"/>non sit contra illud ; «ed uterque istorum 
+          ef<lb break="no" ed="#P" n="9"/>fectuum potest consuetudine acquiri et fieri;
+          <lb ed="#P" n="10"/>ergo potest etiam privilegium consuetudine
+          <lb ed="#P" n="11"/>acquiri : nam privilegium non consistit in
+          <lb ed="#P" n="12"/>scriptura, vel instrumento, ut supra dixi, sed
+          <lb ed="#P" n="13"/>in speciali jure. Major constat ex dictis circa
+          <lb ed="#P" n="14"/>definitionem privilegii. Minor quoad primam
+          <lb ed="#P" n="15"/>partem probatur, quia consuetudo potest 
+          de<lb break="no" ed="#P" n="16"/>rogare legi, et in totum illam abrogare, ut
+          <lb ed="#P" n="17"/>lib. 6 ostendimus : ergo multo magis in parte
+          <lb ed="#P" n="18"/>contra illam praevalere, ac subinde licentiam
+          <lb ed="#P" n="19"/>specialem dare ad agendum contra jus, et hoc
+          <lb ed="#P" n="20"/>vocamus privilegium. Haec vero ratio solum
+          <lb ed="#P" n="21"/>probat quando consuetudo est alicujus 
+          com<lb break="no" ed="#P" n="22"/>munitatis, quae potest derogare legi; nam in
+          <lb ed="#P" n="23"/>privata persona hic modus consuetudinis non
+          <lb ed="#P" n="24"/>habet locum, ut lib. 6, cap. 5et 7 dictum est;
+          <lb ed="#P" n="25"/>et ideo neque hic modus privilegi, sed illud
+          <lb ed="#P" n="26"/>tantum quod per propriam praescriptionem
+          <lb ed="#P" n="27"/>acquiri potest, de quo procedit altera pars 
+          mi<lb break="no" ed="#P" n="28"/>noris. Quae probatur, quia per illam 
+          consuetu<lb break="no" ed="#P" n="29"/>dinem acquiruntur moralia jura etiam 
+          gra<lb break="no" ed="#P" n="30"/>viora; acquiritur enim jurisdictio, cap. Duo
+          <lb ed="#P" n="31"/>simul, de Offic. ordin., cap. Cum contingat, de
+          <lb ed="#P" n="32"/>Foro competente, ubi id notant Glossa et 
+          Pa<lb break="no" ed="#P" n="33"/>norm. utroque loco. Item acquiritur jus 
+          exi<lb break="no" ed="#P" n="34"/>gendi tributa ex dicto cap. Swper 
+          quibus<lb break="no" ed="#P" n="35"/>dam, et supra traditum est; ergo multo 
+          ma<lb break="no" ed="#P" n="36"/>gis potest consuetudo praebere hoc genus 
+          pri<lb break="no" ed="#P" n="37"/>vilegii.
+        </p>
+        <p xml:id="szdleg-q62808-d1e586">
+          <lb ed="#P" n="38"/>6. Haec ergo sententia absolute vera est, et
+          <lb ed="#P" n="39"/>efficaciter probatur : in modo vero explicandi,
+          <lb ed="#P" n="40"/>vel fortasse loquendi est aliqua varietas. 
+          Qui<lb break="no" ed="#P" n="41"/>dam enim volunt consuetudinem non dare
+          <lb ed="#P" n="42"/>verum privilegium, sed aequiparari privilegio
+          <lb ed="#P" n="43"/>quod significatur in quadam marginali Glossa,
+          <lb ed="#P" n="44"/>in d. c. Conquestus, et hoc videtur sensisse
+          <lb ed="#P" n="45"/>Socin., libro 2, cons. 260, dum ait hanc 
+          con<lb break="no" ed="#P" n="46"/>suetudinem quae inducere videtur effectum
+          <lb ed="#P" n="47"/>privilegii, non venire nomine privilegii in
+          <lb ed="#P" n="48"/>materia restricta : quod non videtur posse alia
+          <lb ed="#P" n="49"/>ratione fundari, nisi quia hoc non est verum
+          <lb ed="#P" n="50"/>privilegium. Idem sentiunt qui hoc appellant
+          <lb ed="#P" n="51"/>privilegium praesumptum, vel (ut ipsi 
+          loquun<lb break="no" ed="#P" n="52"/>tur) fictum, fictione juris. Ita loquitur Aimon
+          <lb ed="#P" n="53"/>Cravet., tract. de Antiq., part. 4, S Absolutis
+          <lb ed="#P" n="54"/>differentiis , quaest. 2, n. 10; et id colligit ex
+          <lb ed="#P" n="55"/>l. Hoc jure, S 4, verb. Ductus aquae, ft. de
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Aqua quotid. et aestiv., ubi sic dicitur : Ductus
+          <lb ed="#P" n="57"/>aque cujus origo memoriam eacesserit, jure
+          <lb ed="#P" n="58"/>constituti loco habetur. Expendit enim verbum
+          <lb ed="#P" n="59"/>habetur, quod denotat fictionem, teste Bartol.
+          <lb ed="#P" n="60"/>in l. S4 is qui pro emptore, ff. de Usucap.
+          <lb ed="#P" n="61"/>Unde ipse infert, corrigendo vel limitando
+          <lb ed="#P" n="62"/>sententiam Socini, tunc nomine privilegii 
+          ve<lb break="no" ed="#P" n="63"/>nire consuetudinem , quando licitum est 
+          ex<lb break="no" ed="#P" n="64"/>tendere verba a casu vero ad fictum ; non vero
+          <lb ed="#P" n="65"/>in materia adeo stricta ut id non permittat.
+          <lb ed="#P" n="66"/>Alii denique dicunt consuetudinem non dare
+          <lb ed="#P" n="67"/>privilegium, sed esse signum vel probationem
+          <lb ed="#P" n="68"/>ejus, et maxime quando est immemorialis,
+          <lb ed="#P" n="69"/>quae facit praesumptionem juris et de jure,
+          <lb ed="#P" n="70"/>contra quam non admittitur probatio , et
+          <lb ed="#P" n="71"/>eequipara:ur veritati.
+        </p>
+        <p xml:id="szdleg-q62808-d1e664">
+          <lb ed="#P" n="72"/>7. Mens auctoris.—Nihilominus dico, 
+          quan<lb break="no" ed="#P" n="73"/>do consuetudo talis est ut ratione illius liceat
+          <lb ed="#P" n="74"/>quod liceret per privilegium, tunc inducere
+          <lb ed="#P" n="75"/>verum et proprium privilegium, quod (ut rem
+          <lb ed="#P" n="76"/>declarem) est univoce privilegium cum 
+          privi<lb break="no" ed="#P" n="77"/>legio non scripto, et absoluta privilegii 
+          appel<lb break="no" ed="#P" n="78"/>latione comprehenditur. Probatur primo ab
+          <lb ed="#P" n="79"/>effectu; nam talis consuetudo, si sit contra 
+          le<lb break="no" ed="#P" n="80"/>gem, vere et non ficte vel prassumptive 
+          de<lb break="no" ed="#P" n="81"/>rogat illi, seu dispensat in illa, seu tollit in
+          <lb ed="#P" n="82"/>particulari obligationem ejus (haec enim fere
+          <lb ed="#P" n="83"/>eequipollentia sunt); si vero sit ultra legem,
+          <lb ed="#P" n="84"/>vere dat jus vel facultatem operandi, 
+          jurisdic<lb break="no" ed="#P" n="85"/>tionem, aut quid simile; sed in hoc consistit
+          <lb ed="#P" n="86"/>veritas et substantia privilegii, ut supra 
+          de<lb break="no" ed="#P" n="87"/>claratum est : ergo talis consuetudo dat 
+          ve<lb break="no" ed="#P" n="88"/>rum privilegium. Secundo, generalis 
+          consue<lb break="no" ed="#P" n="89"/>tudo obligans in conscientia, non constituit
+          <lb ed="#P" n="90"/>fictam vel praesumptam legem, sed veram et
+          <lb ed="#P" n="91"/>univoce legem, ut supra visum est; ergo 
+          con<lb break="no" ed="#P" n="92"/>suetudo, de qua nos loquimur, inducit legem
+          <lb ed="#P" n="93"/>privatam, quae privilegiato dat securitatem in
+          <lb ed="#P" n="94"/>conscientia, et alios obhgat ad servandum
+          <lb ed="#P" n="95"/>il jus consuetudine acquisitum : ergo dat
+          <lb ed="#P" n="96"/>verum privilegium. Patet consequentia, tum
+          <lb ed="#P" n="97"/>quia illi convenit simpliciter et vere definitio
+          <lb ed="#P" n="98"/>privilegii supra posita, tum etiam quia non
+          <lb ed="#P" n="99"/>datur alia species legis, sub qua jus illud 
+          con<lb break="no" ed="#P" n="100"/>tineatur. Tertio, dominium praescriptione 
+          ac<lb break="no" ed="#P" n="101"/>quisitum non est dominium fictum fictione
+          <lb ed="#P" n="102"/>juris, sed factum efficacia juris, quia 
+          domi<lb break="no" ed="#P" n="103"/>nium non est ex effectibus naturalibus, quos
+          <lb ed="#P" n="104"/>humana lex non potest vere efficere; et 
+          simi<lb break="no" ed="#P" n="105"/>liter jurisdictio quam introducit consuetudo
+          <lb ed="#P" n="106"/>non est ficta, sed vera, imo et ordinaria, ut ex
+          <lb ed="#P" n="107"/>juribus et doctoribus allegatis constat : ergo
+          <lb ed="#P" n="108"/>etiam privilegium consuetudine introductum
+          <lb ed="#P" n="109"/>est verum privilegium : nam verum 
+          privile<lb break="no" ed="#P" n="110"/>gium effectus moralis est, qui potest vere fieri
+          <pb ed="#P" n="253"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>per legem, vel per consuetudinem, cum 
+          ad<lb break="no" ed="#P" n="2"/>miniculo legis.
+        </p>
+        <p xml:id="szdleg-q62808-d1e760">
+          <lb ed="#P" n="3"/>8. Primum corollarium. —Ex qua 
+          resolu<lb break="no" ed="#P" n="4"/>tione infero, primo, cum dicitur 
+          consuetudi<lb break="no" ed="#P" n="5"/>nem aequiparari privileg:o, esse sermonem de
+          <lb ed="#P" n="6"/>privilegio scripto, et aequiparationem illam
+          <lb ed="#P" n="7"/>non esse per analogiam, vel imperfectam 
+          imi<lb break="no" ed="#P" n="8"/>tationem, sed per aequalitatem quoad 
+          verita<lb break="no" ed="#P" n="9"/>tem et essentiam privilegii, sicut etiam dici
+          <lb ed="#P" n="10"/>solet consuetudinem aequiparari legi, cum
+          <lb ed="#P" n="11"/>tamen sit vera lex. Vel certe (et in idem fere
+          <lb ed="#P" n="12"/>redit) dicitur consuetudo aequiparari 
+          privile<lb break="no" ed="#P" n="13"/>gio quoad instrumentum scriptum et 
+          proba<lb break="no" ed="#P" n="14"/>tionem ; nam sicut privilegium expresse 
+          con<lb break="no" ed="#P" n="15"/>cessum efficaciter ostenditur per 
+          instrumen<lb break="no" ed="#P" n="16"/>tum , ita privilegium tacite inductum non
+          <lb ed="#P" n="17"/>minus sufficienter probatur consuetudine ,
+          <lb ed="#P" n="18"/>quando de illa constat. Et quia jura loqui 
+          so<lb break="no" ed="#P" n="19"/>lent de privilegiis, quatenus de illis in foro
+          <lb ed="#P" n="20"/>Ecclesiae constare potest, ideo solent distincte
+          <lb ed="#P" n="21"/>loqui de privilegio et consuetudine, ut in d. c.
+          <lb ed="#P" n="22"/>Nocit, et cap. Super quibusdam, ct simihibus.
+        </p>
+        <p xml:id="szdleg-q62808-d1e807">
+          <lb ed="#P" n="23"/>9. Secundum corollarium. — Secundo, 
+          in<lb break="no" ed="#P" n="24"/>fero, absolute loquendo, non recte dici 
+          con<lb break="no" ed="#P" n="25"/>suetudinem esse privilegium fictione juris ;
+          <lb ed="#P" n="26"/>nam si sit sermo de instrumento privilegii,
+          <lb ed="#P" n="27"/>non recte dicitur consuetudo esse 
+          instrumen<lb break="no" ed="#P" n="28"/>tum fictione juris, sed melius dicitur, ex 
+          decla<lb break="no" ed="#P" n="29"/>ratione et auctoritate juris, facere tantam
+          <lb ed="#P" n="30"/>fidem, quantam facit instrumentum. Si vero
+          <lb ed="#P" n="31"/>sit sermo de jure privilegii, consuetudo non
+          <lb ed="#P" n="32"/>dat fictum, sed verum jus, et hic est verus
+          <lb ed="#P" n="33"/>sensus dictae 1l. Hoc jure, unde ibi quaedam
+          <lb ed="#P" n="34"/>Glossa dicit esse accurate notandum ipsam
+          <lb ed="#P" n="35"/>consuetudinem jus inducere et privilegium.
+          <lb ed="#P" n="36"/>Unde cum dicit lex : Jure constituti loco 
+          ha<lb break="no" ed="#P" n="37"/>betur, idem est, ac si diceret : Perinde est ac
+          <lb ed="#P" n="38"/>si ductus aque jure constitutus sit, ut etiam
+          <lb ed="#P" n="39"/>in margine notatur, inducendo et recte 
+          pon<lb break="no" ed="#P" n="40"/>derando verba legis primae, eodem vers. 
+          Ca<lb break="no" ed="#P" n="41"/>put aque, ibi Qualitercumque sit constitutum
+          <lb ed="#P" n="42"/>jus aquae, id est, sive usu, sive emptione, vel
+          <lb ed="#P" n="43"/>alio modo. Idem sensit Gloss. in d. cap. 
+          Con<lb break="no" ed="#P" n="44"/>questus, dum ex illo colligit quod diuturnitas
+          <lb ed="#P" n="45"/>constituit jus. Neque oportet ut verbum 
+          a<lb break="no" ed="#P" n="46"/>betur semper dicat fictionem, sed tunc ad
+          <lb ed="#P" n="47"/>summum, quando materia non est capax 
+          ve<lb break="no" ed="#P" n="48"/>ritatis; nam si sit capax ejus, superflue ad 
+          fic<lb break="no" ed="#P" n="49"/>tionem recurritur, cum verbum habetur 
+          pro<lb break="no" ed="#P" n="50"/>prissime significare soleat propriam 
+          existi<lb break="no" ed="#P" n="51"/>mationem rei, quae vere talis est.
+        </p>
+        <p xml:id="szdleg-q62808-d1e872">
+          <lb ed="#P" n="52"/>10. Tertium corollariwmn. — Tertio, infero
+          <lb ed="#P" n="53"/>nomine privilegii generatim sumpti posse 
+          ve<lb break="no" ed="#P" n="54"/>nire consuetudinem suftficientem ad dandum
+          <lb ed="#P" n="55"/>jus speciale, quia confert verum privilegium
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et univoce tale, ut ostensum est ; ergo recte
+          <lb ed="#P" n="57"/>comprehendetur sub communi nomine. Non
+          <lb ed="#P" n="58"/>dico tamen semper venire, sed posse, quia in
+          <lb ed="#P" n="59"/>usu vocum attendendus est mos juris : solent
+          <lb ed="#P" n="60"/>autem jura saepe uti voce de se communi pro
+          <lb ed="#P" n="61"/>aliquo membro magis usitato, ut, licet 
+          no<lb break="no" ed="#P" n="62"/>men /egis, etiam vere et proprie sumptum,
+          <lb ed="#P" n="63"/>commune sit legi scriptae et non scriptae, 
+          ni<lb break="no" ed="#P" n="64"/>hilominus frequenter accipi solet, praecipue
+          <lb ed="#P" n="65"/>in jure, pro lege scripta, ut in superioribus
+          <lb ed="#P" n="66"/>notatum est. Ita ergo, licet privilegium de se
+          <lb ed="#P" n="67"/>commune sit ad scriptum et non scriptum,
+          <lb ed="#P" n="68"/>nihilominus privilegii nomen saepius accipi
+          <lb ed="#P" n="69"/>solet pro scripto, seu pro illo qui regulariter
+          <lb ed="#P" n="70"/>scribi solet, seu quod ab homine expresse 
+          con<lb break="no" ed="#P" n="71"/>ceditur, et ita videtur accipi quando illi 
+          ad<lb break="no" ed="#P" n="72"/>jungitur consuetudo, et tanquam diversa 
+          nu<lb break="no" ed="#P" n="73"/>merantur. Unde fit ut, licet lex loquens de
+          <lb ed="#P" n="74"/>privilegio possit comprehendere illud quod
+          <lb ed="#P" n="75"/>sola consuetudine fundatur, nihilominus hoc
+          <lb ed="#P" n="76"/>non semper necessarium sit, sed aliquando
+          <lb ed="#P" n="77"/>restrictius sit sumendum nomen privilegii.
+          <lb ed="#P" n="78"/>Hoc autem non existimo fundari in hoc quod
+          <lb ed="#P" n="79"/>consuetudo habeat imperfectionem in ratione
+          <lb ed="#P" n="80"/>privilegii ; sed potius in hoc quod majorem
+          <lb ed="#P" n="81"/>quamdam vim habet, ratione cujus existimo,
+          <lb ed="#P" n="82"/>in his quae ad favorem et libertatem pertinent,
+          <lb ed="#P" n="83"/>nomen privilegii ad consuetudinem extendi;
+          <lb ed="#P" n="84"/>in his vero quae ad restrictionem vel 
+          revoca<lb break="no" ed="#P" n="85"/>tionem spectant, non comprehendi.
+        </p>
+        <p xml:id="szdleg-q62808-d1e950">
+          <lb ed="#P" n="86"/>11. Quaestio incidenter decisa. — Ad hoc 
+          au<lb break="no" ed="#P" n="87"/>tem magis declarandum et fundandum, 
+          inci<lb break="no" ed="#P" n="88"/>denter inquiro quod sit majus seu potentius
+          <lb ed="#P" n="89"/>privilegium, an illud quod est ab homine, an
+          <lb ed="#P" n="90"/>quod est a consuetudine, praesertim 
+          immemo<lb break="no" ed="#P" n="91"/>riali. Quod dubium tractt Decius in d. c.
+          <lb ed="#P" n="92"/>Novit, num. 12, et in summa dicit, secundum
+          <lb ed="#P" n="93"/>aliquid, esse potentius privilegium, et, 
+          secun<lb break="no" ed="#P" n="94"/>dum aliquid, esse potiorem consuetudinem.
+          <lb ed="#P" n="95"/>Priorem partem exponit, quia non quidquid
+          <lb ed="#P" n="96"/>potest privilegium, potest consuetudo, sed 
+          tan<lb break="no" ed="#P" n="97"/>tum supposita capacitate personae, ut dixit
+          <lb ed="#P" n="98"/>etiam Abbas in d. c. lVovit, num. 22, et incap.
+          <lb ed="#P" n="99"/>Super quibusdam, de Verborum significat.,
+          <lb ed="#P" n="100"/>num. S, in fine. Unde sentiunt hi auctores
+          <lb ed="#P" n="101"/>quod circa multitudinem effectuum potentius
+          <lb ed="#P" n="102"/>est privilegium, quia aliquam potestatem vel
+          <lb ed="#P" n="103"/>favorem potest Papa per privilegium 
+          conce<lb break="no" ed="#P" n="104"/>dere, quae per consuetudinem, etiam 
+          imme<lb break="no" ed="#P" n="105"/>morialem, acquiri non potest. Ad quod 
+          alle<lb break="no" ed="#P" n="106"/>gant dictum Joannis Andrea in cap. 2 de
+          <lb ed="#P" n="107"/>Praebend., in 6, per privilegium posse laico
+          <lb ed="#P" n="108"/>concedi, ut beneficia conferat, cap. Adrianus,
+          <lb ed="#P" n="109"/>63 d.; illam tamen facultatem non potest 
+          lai<lb break="no" ed="#P" n="110"/>cus per consuetudinem etiam immemorialem
+          <pb ed="#P" n="254"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>acquirere propter personae incapacitatem : et
+          <lb ed="#P" n="2"/>ita sentiunt privilegium posse auferre 
+          incapa<lb break="no" ed="#P" n="3"/>citatem personae, consuetudinem autem hoc
+          <lb ed="#P" n="4"/>non posse. Quod potest confirmari ex cap.
+          <lb ed="#P" n="5"/>Quanto, de Consuetudine. Unde sumitur 
+          cer<lb break="no" ed="#P" n="6"/>tius exemplu:n, quia facultas conferendi 
+          ordi<lb break="no" ed="#P" n="7"/>nes minores, vel sacramentum confirmationis,
+          <lb ed="#P" n="8"/>potest ex privilegio committi simplici 
+          Sacer<lb break="no" ed="#P" n="9"/>doti, non tamen potest consuetudine acquiri,
+          <lb ed="#P" n="10"/>ut in illo textu dicitur; et est clarum, quia est
+          <lb ed="#P" n="11"/>iniqua et juri divino contraria, et ideo 
+          prae<lb break="no" ed="#P" n="12"/>scribi non potest, ut ibi notat Glossa. Extra
+          <lb ed="#P" n="13"/>hos vero casus assignari solet regula generalis,
+          <lb ed="#P" n="14"/>consuetudinem posse conferre quidquid potest
+          <lb ed="#P" n="15"/>privilegium, ut patet ex eodem Panorm. in
+          <lb ed="#P" n="16"/>capit. Accedentes, de Praescript., num. 3, ubi
+          <lb ed="#P" n="17"/>etiam late Felinus, num. 6, varias fallentias et
+          <lb ed="#P" n="18"/>declarationes adhibet dictae regulae, quas 
+          re<lb break="no" ed="#P" n="19"/>petit in c. Cum contingat, de Foro compet.,
+          <lb ed="#P" n="20"/>n. 4, quam refert cum aliis et sequitur Nav.,
+          <lb ed="#P" n="21"/>Comm. de Spol., S 14, n. 7. Quod autem, e
+          <lb ed="#P" n="22"/>converso, quidquid potest consuetudine 
+          acqui<lb break="no" ed="#P" n="23"/>ri, possit etiam per privilegium obtineri, non
+          <lb ed="#P" n="24"/>declarant dicti auctores. Imo Decius 
+          contra<lb break="no" ed="#P" n="25"/>rium insinuat, dum ait ex illo textu non 
+          colli<lb break="no" ed="#P" n="26"/>gi, quod ubi valeret privilegium, valeret 
+          consue<lb break="no" ed="#P" n="27"/>tudo, vel e contra. Et ita videtur illa aequiparare
+          <lb ed="#P" n="28"/>in hoc quod se habeant, sicut excedens et 
+          ex<lb break="no" ed="#P" n="29"/>cessum. Sed nihilominus infra videtur sentire
+          <lb ed="#P" n="30"/>contrarium esse verum, etiamsi ex illo textu
+          <lb ed="#P" n="31"/>non colligatur, videlicet, quidquid 
+          consuetu<lb break="no" ed="#P" n="32"/>dine acquiri potest, posse etiam per 
+          privile<lb break="no" ed="#P" n="33"/>gium concedi, quia nullus est effectus, nullave
+          <lb ed="#P" n="34"/>exemptio, vel immunitas quam princeps 
+          pos<lb break="no" ed="#P" n="35"/>set tacite concedere, quam non posset facilius
+          <lb ed="#P" n="36"/>expresse donare, quia non est minus potens
+          <lb ed="#P" n="37"/>expressus consensus, quam tacitus ; sed 
+          con<lb break="no" ed="#P" n="38"/>suetudo semper operatur in vi talis consensus
+          <lb ed="#P" n="39"/>principis : ergo omne privilegium quod potest
+          <lb ed="#P" n="40"/>consuetudine acquiri, potest etiam sine illa
+          <lb ed="#P" n="41"/>concedi.
+        </p>
+        <p xml:id="szdleg-q62808-d1e1100">
+          <lb ed="#P" n="42"/>12. Objectio.— Responsio. — Dices: 
+          consue<lb break="no" ed="#P" n="43"/>tudine potest acquiri jurisdictio, et tolli ab alio,
+          <lb ed="#P" n="44"/>quod fortasse per absolutum privilegium fieri
+          <lb ed="#P" n="45"/>non posset: sicut consuetudine praescripta
+          <lb ed="#P" n="46"/>transfertur dominium ab uno ad alium, quod
+          <lb ed="#P" n="47"/>tamen princeps per solum privitegium facere
+          <lb ed="#P" n="48"/>non posset. Respondetur etiam in illis 
+          exem<lb break="no" ed="#P" n="49"/>plis potestatem non deesse, causam autem
+          <lb ed="#P" n="50"/>posse deesse, et inde sequi ut effectus fiat uno
+          <lb ed="#P" n="51"/>modo et non alio, non tamen sequi ut fieri non
+          <lb ed="#P" n="52"/>possit. Est enim advertendum, in omni 
+          privi<lb break="no" ed="#P" n="53"/>legio, tam hominis quam consuetudinis, 
+          re<lb break="no" ed="#P" n="54"/>quiri honestatem et aequitatem, ut justam
+          <lb ed="#P" n="55"/>causam, ut infra dicetur; sunt ergo aliqui
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>effectus qui in ipsa consuetudine habent 
+          legi<lb break="no" ed="#P" n="57"/>timam causam, quasi intrinsecam, et ideo per
+          <lb ed="#P" n="58"/>illam legitime fiunt, seu conceduntur, nulla
+          <lb ed="#P" n="59"/>alia causa expectata; ut est translatio 
+          domi<lb break="no" ed="#P" n="60"/>niorum per praescriptionem, ne dominia sint
+          <lb ed="#P" n="61"/>incerta ; acquisitio jurisdictionis, ut servetur
+          <lb ed="#P" n="62"/>pax et actus publici validi sint ; quae rationes
+          <lb ed="#P" n="63"/>in ipsa consuetudine et antiquitate 
+          includun<lb break="no" ed="#P" n="64"/>tur. Cessant autem in ordine ad privilegium
+          <lb ed="#P" n="65"/>scriptum, seu ad absolutam principis 
+          volunta<lb break="no" ed="#P" n="66"/>tem, et ideo non poterunt illi effectus sine alia
+          <lb ed="#P" n="67"/>causa justa et honesta fieri per absolutum 
+          pri<lb break="no" ed="#P" n="68"/>vilegium, et interdum etiam neque valide;
+          <lb ed="#P" n="69"/>nihilominus tamen ex causa fieri poterunt, et
+          <lb ed="#P" n="70"/>ita quoad potestatem non est potentior 
+          consue<lb break="no" ed="#P" n="71"/>tudo quam privilegium, etiam respectu 
+          mul<lb break="no" ed="#P" n="72"/>titudinis effectuum.
+        </p>
+        <p xml:id="szdleg-q62808-d1e1172">
+          <lb ed="#P" n="73"/>13. Objicitur secundo. — Respondetur. — 
+          Ur<lb break="no" ed="#P" n="74"/>gebis: quia simili modo dici potest in priori
+          <lb ed="#P" n="75"/>membro aliqua esse quae non fiunt per 
+          con<lb break="no" ed="#P" n="76"/>suetudinem, licet fiant per privilegium, quia
+          <lb ed="#P" n="77"/>expedit, vel quia non subest causa, non quia
+          <lb ed="#P" n="78"/>desit potestas, et ita erit aequalitas. Respondeo
+          <lb ed="#P" n="79"/>negando paritatem ; nam revera quaedam sunt
+          <lb ed="#P" n="80"/>quae non possunt fieri per consuetudinem,
+          <lb ed="#P" n="81"/>quia vel jure divino habent definitum modum
+          <lb ed="#P" n="82"/>quo fieri possunt, ut est in exemplo de 
+          com<lb break="no" ed="#P" n="83"/>missione actuum qui ad potestatem superioris
+          <lb ed="#P" n="84"/>consecrationis ordinarie pertinent, vel ex 
+          in<lb break="no" ed="#P" n="85"/>stitutione Ecclesiae babent certum effectionis
+          <lb ed="#P" n="86"/>modum, qui consuetudini repugnat ; certe sunt
+          <lb ed="#P" n="87"/>res speciali jure prohibitae, nec praescriptibiles
+          <lb ed="#P" n="88"/>sunt. Nam si loquamur de consuetudine 
+          prae<lb break="no" ed="#P" n="89"/>scriptionis, ea tantum praescribi possunt quae
+          <lb ed="#P" n="90"/>jure permittuntur. In quo etiam differt 
+          mul<lb break="no" ed="#P" n="91"/>tum inter privilegium et consuetudinem, quia
+          <lb ed="#P" n="92"/>jus non potest prohibere supremum principem
+          <lb ed="#P" n="93"/>ne det privilegium contra humanum jus, 
+          po<lb break="no" ed="#P" n="94"/>test autem prohibere ne tali vel in tali materia
+          <lb ed="#P" n="95"/>consuetudine praescribatur. Quod maxime 
+          ha<lb break="no" ed="#P" n="96"/>bet locum in consuetudine praescriptionis per
+          <lb ed="#P" n="97"/>quam ordinarie acquiruntur privilegia. 
+          Quan<lb break="no" ed="#P" n="98"/>do enim intercesserit consuetudo derogans
+          <lb ed="#P" n="99"/>legi, servanda est doctrina tradita lib. praec.,
+          <lb ed="#P" n="100"/>cap. 7, et sub priori ordine privilegiorum fere
+          <lb ed="#P" n="101"/>continentur exempla et exceptiones quas dicti
+          <lb ed="#P" n="102"/>auctores tradunt, quas nunc expendere aut
+          <lb ed="#P" n="103"/>latius prosequi non possumus ; illi enim de
+          <lb ed="#P" n="104"/>propria praescriptione ordinarie loquuntur.
+          <lb ed="#P" n="105"/>14. Resolutio sub distinctione. — Sic ergo,
+          <lb ed="#P" n="106"/>ut nostro modo loquamur, recte declaratur
+          <lb ed="#P" n="107"/>privilegium esse potentius consuetudine 
+          ex<lb break="no" ed="#P" n="108"/>tensive, seu in ordine ad pluralitatem 
+          effec<lb break="no" ed="#P" n="109"/>tuum ; nihilominus tamen addi potest 
+          con<lb break="no" ed="#P" n="110"/>suetudinem esse potentiorem intensive in or-
+          <pb ed="#P" n="255"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dine ad eosdem effectus. Quod sentit Decius,
+          <lb ed="#P" n="2"/>supra, cum ait in casibus in quibus 
+          consue<lb break="no" ed="#P" n="3"/>tudo valet, potentiorem esse consuetudinem
+          <lb ed="#P" n="4"/>privilegio. Quod probat dupliciter. Primo,
+          <lb ed="#P" n="5"/>quia facilius tollitur privilegium quam 
+          con<lb break="no" ed="#P" n="6"/>suetudo; secundo, quia consuetudo innititur
+          <lb ed="#P" n="7"/>in jure communi, juxta l. De quibus, ff. de
+          <lb ed="#P" n="8"/>Legibus, et fortius est jus commune quam
+          <lb ed="#P" n="9"/>privilegium, l. Ejus militis, S Militia missus,
+          <lb ed="#P" n="10"/>ft. de Testament. milit. Haec autem posterior
+          <lb ed="#P" n="11"/>ratio non videtur solida , quia privilegium
+          <lb ed="#P" n="12"/>consuetudine comparatum non potest dici jus
+          <lb ed="#P" n="13"/>commune non scriptum, sed singulare, ut
+          <lb ed="#P" n="14"/>per se constat, nec etiam immediate nititur
+          <lb ed="#P" n="15"/>in jure communi scripto, ut est etiam notum,
+          <lb ed="#P" n="16"/>sed mediate, quatenus jus commune approbat
+          <lb ed="#P" n="17"/>consuetudinem, et praecipit observari, ut 
+          con<lb break="no" ed="#P" n="18"/>stat ex l. citata. At vero hoc modo etiam 
+          pri<lb break="no" ed="#P" n="19"/>vilegium innititur in jure communi, interdum
+          <lb ed="#P" n="20"/>formaliter et immediate, ut quando 
+          privile<lb break="no" ed="#P" n="21"/>gium est insertum in corpore juris, et tunc jus
+          <lb ed="#P" n="22"/>commune reputaiur ; saepius autem et 
+          univer<lb break="no" ed="#P" n="23"/>saliter ac per se loquendo, mediate, quia
+          <lb ed="#P" n="24"/>etiam jus commune approbat privilegia et 
+          ser<lb break="no" ed="#P" n="25"/>vari statuit, l. Jus singulare, tt. de Legibus,
+          <lb ed="#P" n="26"/>et l. 1, ff. de Constit., princip. ibi: 
+          Constitu<lb break="no" ed="#P" n="27"/>tiones quedam sunt personales, eic. Et similia
+          <lb ed="#P" n="28"/>sunt multa jura; ergo jus commune de se
+          <lb ed="#P" n="29"/>eeque favet privilegio et consuetudini. Neque
+          <lb ed="#P" n="30"/>etiam contra hoc recte adducitur 1l. de Test.
+          <lb ed="#P" n="31"/>militari, quia ibi comparantur effectus qui 
+          im<lb break="no" ed="#P" n="32"/>mediate sunt a jure communi, vel speciali.
+          <lb ed="#P" n="33"/>Altera vero ratio videtur firmior, et deservit
+          <lb ed="#P" n="34"/>intentioni nostrae. ltaque, in ordine ad 
+          amis<lb break="no" ed="#P" n="35"/>siopem privilegii per contraventionem, 
+          faci<lb break="no" ed="#P" n="36"/>lius perditur privilegium quam mutetur jus
+          <lb ed="#P" n="37"/>consuetudinis, ut infra dicemus, et tractat 
+          In<lb break="no" ed="#P" n="38"/>noc. in cap. Accedentibus, a n. 6, alias in cap.
+          <lb ed="#P" n="39"/>Cum olim, 2, a n. 6de Privil. ; in ordine vero
+          <lb ed="#P" n="40"/>ad superiorem, videtur esse quaedam aequalitas,
+          <lb ed="#P" n="41"/>quia utrumque privilegium scriptum vel non
+          <lb ed="#P" n="42"/>scriptum potest superior revocare; 
+          nihilomi<lb break="no" ed="#P" n="43"/>nus facilius potest proprium privilegium 
+          re<lb break="no" ed="#P" n="44"/>vocare, quam consuetudinem abrogare, quia
+          <lb ed="#P" n="45"/>magna est vis consuetudinis, et ideo majorem
+          <lb ed="#P" n="46"/>causam requirit, ut infra dicam.
+        </p>
+        <p xml:id="szdleg-q62808-d1e1361">
+          <lb ed="#P" n="47"/>15. Hinc ergo probabiliter concludimus, in
+          <lb ed="#P" n="48"/>favorabilibus quae ad conservationem vel 
+          aug<lb break="no" ed="#P" n="49"/>mentum privilegiorum pertinent, 
+          consuetudi<lb break="no" ed="#P" n="50"/>nem dantem privilegium, sub generali 
+          clau<lb break="no" ed="#P" n="51"/>sula, et nomine privilegii comprehendi, quia
+          <lb ed="#P" n="52"/>est verum et proprium privilegium, ut 
+          osten<lb break="no" ed="#P" n="53"/>sum est, et quia favores sunt ampliandi, 
+          prae<lb break="no" ed="#P" n="54"/>sertim intra verborum proprietatem, et quia
+          <lb ed="#P" n="55"/>nulla est ratio distinguendi in hoc, vel sepa-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>randi privilegium non scriptum a communi
+          <lb ed="#P" n="57"/>ratione privilegii. At vero in his quae pertinent
+          <lb ed="#P" n="58"/>ad revocationem privilegiorum, et ad alia 
+          si<lb break="no" ed="#P" n="59"/>milia et odiosa, non videtur comprehendi 
+          con<lb break="no" ed="#P" n="60"/>suetudo sub privilegio, nisi illius fiat expressa
+          <lb ed="#P" n="61"/>mentio, propter rationem tactam, quod in hoc
+          <lb ed="#P" n="62"/>majores radices habet consuetudo, et ideo non
+          <lb ed="#P" n="63"/>censetur evelli cum privilegiis, nisi 
+          exprima<lb break="no" ed="#P" n="64"/>tur. Unde in canonibus utrumque distincte
+          <lb ed="#P" n="65"/>ponitur, quando utrumque revocandum est.
+          <lb ed="#P" n="66"/>Et ita, licet in hac posteriori parte cum supra
+          <lb ed="#P" n="67"/>citatis auctoribus convenire videamur, in 
+          di<lb break="no" ed="#P" n="68"/>verso tamen sensu, et ex diverso fundamento.
+          <lb ed="#P" n="69"/>Illi enim dicunt consuetudinem non 
+          compre<lb break="no" ed="#P" n="70"/>hendi semper sub privilegio ad coarctandam
+          <lb ed="#P" n="71"/>illam, quia putant non esse verum, sed 
+          fic<lb break="no" ed="#P" n="72"/>tum, vel prasumptum privilegium: nos autem
+          <lb ed="#P" n="73"/>dicimus non comprehendi, quia non solum est
+          <lb ed="#P" n="74"/>verum privilegium, sed etiam in aliquo 
+          poten<lb break="no" ed="#P" n="75"/>tius est et firmius, et quoad id non 
+          compre<lb break="no" ed="#P" n="76"/>henditur ; per quod non coarctatur, sed 
+          po<lb break="no" ed="#P" n="77"/>tius ampliatur ejus virtus. Nihilominus tamen
+          <lb ed="#P" n="78"/>etiam est verum nomine consuetudinis non
+          <lb ed="#P" n="79"/>venire privilegium, quando solae 
+          consuetudi<lb break="no" ed="#P" n="80"/>nes revocantur et tacentur privilegia. Sed id
+          <lb ed="#P" n="81"/>non est propter rationem majoris firmitatis,
+          <lb ed="#P" n="82"/>sed quia nomen consuetudinis de se non est
+          <lb ed="#P" n="83"/>ita commune, sicut nomen privilegii, et ideo
+          <lb ed="#P" n="84"/>in illo non fit extensio in odiosis. Alia etiam
+          <lb ed="#P" n="85"/>ratio esse potest, quia revocatio consuetudinis
+          <lb ed="#P" n="86"/>interdum est quaedam reprobatio ejus, vel 
+          sal<lb break="no" ed="#P" n="87"/>tem abrogatio propter aliquem abusum, quae
+          <lb ed="#P" n="88"/>rationes in privilegiis non militant; et ita 
+          sa<lb break="no" ed="#P" n="89"/>tis constat quomodo consuetudo, et 
+          privile<lb break="no" ed="#P" n="90"/>gium sit, et privilegio aequiparetur.
+        </p>
+        <p xml:id="szdleg-q62808-d1e1462">
+          <lb ed="#P" n="91"/>16. Quam antiqua consuetudo sufficiat ad
+          <lb ed="#P" n="92"/>conferendum privilegium.—Statim vero 
+          occur<lb break="no" ed="#P" n="93"/>rebat inquirendum quam antiqua consuetudo
+          <lb ed="#P" n="94"/>sufficiat ad conferendum privilegium. Aliqui
+          <lb ed="#P" n="95"/>enim ex dictis auctoribus tantum generaliter
+          <lb ed="#P" n="96"/>de consuetudine loquuntur, ut Innoc. in c.
+          <lb ed="#P" n="97"/>Cum contingat, de Foro compet., et ibi Abb.,
+          <lb ed="#P" n="98"/>n. 9 et sequentib. Idem Abb., cum Glossa in
+          <lb ed="#P" n="99"/>dicto cap. JVovit. Alii vero expresse loquuntur
+          <lb ed="#P" n="100"/>de consuetudine cujus initii non extet 
+          memo<lb break="no" ed="#P" n="101"/>ria, ut patet ex Glossa in dicto c. Super 
+          qui<lb break="no" ed="#P" n="102"/>busdam ; Dec., Cravet. et aliis, quos ipsi 
+          alle<lb break="no" ed="#P" n="103"/>gant. Quia vero de conditionibus requisitis ad
+          <lb ed="#P" n="104"/>consuetudinem ut jus inducat, vel auferat, in
+          <lb ed="#P" n="105"/>praeced. lib. satis dictum est, nunc breviter
+          <lb ed="#P" n="106"/>dicimus non in omni privilegio esse 
+          necessa<lb break="no" ed="#P" n="107"/>riam consuetudinem aeque diuturnam, sed pro
+          <lb ed="#P" n="108"/>quibusdam requiri longiorem quam pro alus,
+          <lb ed="#P" n="109"/>et ideo nunc tantum in genere dicimus requiri
+          <lb ed="#P" n="110"/>tempus legitimum, id est, vel lege definitum,
+          <pb ed="#P" n="256"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vel ipsa etiam consuetudine introductum ;
+          <lb ed="#P" n="2"/>nam ad hoc ipsum valere potest ipsa 
+          consue<lb break="no" ed="#P" n="3"/>tudo, quasi reflectens in seipsam, quia non est
+          <lb ed="#P" n="4"/>minor ratio in hoc jure quam in aliis. Addo
+          <lb ed="#P" n="5"/>distinguendum esse de privilegio contra jus,
+          <lb ed="#P" n="6"/>vel concedente tantum aliquid ultra seu 
+          prae<lb break="no" ed="#P" n="7"/>ter jus. Et de priori dicendum est illud 
+          tem<lb break="no" ed="#P" n="8"/>pus esse sufficiens et necessarium, quod fuerit
+          <lb ed="#P" n="9"/>tale ut consuetudo abroget legem, dummodo
+          <lb ed="#P" n="10"/>aliae conditiones necessariae ad praescriptionem
+          <lb ed="#P" n="11"/>seu consuetudinem concurrant. Quia illa 
+          con<lb break="no" ed="#P" n="12"/>suetudo, licet non abroget legem, ex parte
+          <lb ed="#P" n="13"/>tollit eam, seu illi derogat, et ideo idem 
+          tem<lb break="no" ed="#P" n="14"/>pus requirit, quia in hoc non variatur jus
+          <lb ed="#P" n="15"/>praescriptionis, ut supra dictum est. De 
+          poste<lb break="no" ed="#P" n="16"/>riori vero privilegio, dicendum est obtineri
+          <lb ed="#P" n="17"/>per modum praescriptionis, et ideo, juxta 
+          exi<lb break="no" ed="#P" n="18"/>gentiam materiae, majus vel minus tempus
+          <lb ed="#P" n="19"/>postulare; nam quaedam jura breviori tempore
+          <lb ed="#P" n="20"/>praescribuntur quam alia, et contra quasdam
+          <lb ed="#P" n="21"/>personas vel communitates citius quam 
+          con<lb break="no" ed="#P" n="22"/>tra alias, et ita applicandae hic sunt regulae
+          <lb ed="#P" n="23"/>communes praescriptionum, quas in praesenti
+          <lb ed="#P" n="24"/>prosequi non possumus, et ideo priores 
+          auc<lb break="no" ed="#P" n="25"/>tores generatim de consuetudine locuti sunt.
+          <lb ed="#P" n="26"/>Qui vero immemorialem commemorant, non
+          <lb ed="#P" n="27"/>id faciunt quia semper sit necessaria, sed vel
+          <lb ed="#P" n="28"/>quia loquuntur juxta jura quae explicant, vel
+          <lb ed="#P" n="29"/>quia immemorialis consuetudo et certior est,
+          <lb ed="#P" n="30"/>et quia generalis, et per se sola sufficit 
+          abs<lb break="no" ed="#P" n="31"/>que alio titulo, quando jus illi expresse non
+          <lb ed="#P" n="32"/>resistit, ut dicti auctores notant, et supra 
+          trac<lb break="no" ed="#P" n="33"/>tando de Tributis tactum est.
+        </p>
+        <p xml:id="szdleg-q62808-d1e1584">
+          <lb ed="#P" n="34"/>17. Respondetur ad rationes dubitandi. —
+          <lb ed="#P" n="35"/>Ad rationem ergo dubitandi in principio 
+          posi<lb break="no" ed="#P" n="36"/>tam, dicendum est consuetudinem, licet per
+          <lb ed="#P" n="37"/>actus privatorum paulatim introducatur, non
+          <lb ed="#P" n="38"/>dare privilegium virtute et efficacia talium
+          <lb ed="#P" n="39"/>actuum per se sumptorum, sed in virtute 
+          ta<lb break="no" ed="#P" n="40"/>citae voluntatis principis, aut virtute juris
+          <lb ed="#P" n="41"/>communis dantis consuetudini hanc 
+          efficaci<lb break="no" ed="#P" n="42"/>tatem. Per quod etiam ad confirmationem 
+          res<lb break="no" ed="#P" n="43"/>ponsum est. Ad replicam autem ibi factam de
+          <lb ed="#P" n="44"/>scientia principis, in libro praecedenti 
+          expli<lb break="no" ed="#P" n="45"/>catum est hanc conditionem non esse 
+          necessa<lb break="no" ed="#P" n="46"/>riam, ubicumque effectus ex vi consuetudinis
+          <lb ed="#P" n="47"/>praescriptae. Unde si consuetudo sit 
+          immemo<lb break="no" ed="#P" n="48"/>rialis, reputatur ut nota principi; sic dixit
+          <lb ed="#P" n="49"/>Bald., tit. Quae sint regalia, cap. 2. num. 3:
+          <lb ed="#P" n="50"/>In prescriptione longissimi temporis , non
+          <lb ed="#P" n="51"/>posse dici principem ignorare, cum sciat per
+          <lb ed="#P" n="52"/>se, vel alium, vel etiam in genere ; et num. A,
+          <lb ed="#P" n="53"/>addit talem consuetudinem comparari 
+          conces<lb break="no" ed="#P" n="54"/>sioni principis em certa scientia. Si vero sit
+          <lb ed="#P" n="55"/>praescriptio alterius temporis, dicendum est
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dispositionem et efficaciam juris communis in
+          <lb ed="#P" n="57"/>illa supplere quamcumque ignoraniiam. Nam
+          <lb ed="#P" n="58"/>per iilud jus declaravit auctor ejus se velle
+          <lb ed="#P" n="59"/>dare auctoritatem tali consuetudini absque
+          <lb ed="#P" n="60"/>alia ejus notitia.
+        </p>
+        <p xml:id="szdleg-q62808-d1e1647">
+          <lb ed="#P" n="61"/>18. Ad c. Contra mores, respondet tacite
+          <lb ed="#P" n="62"/>Felin. in c. Accedentes, n. 6, in princ., ibi
+          <lb ed="#P" n="63"/>contineri exceptionem a regula generali, quia
+          <lb ed="#P" n="64"/>usus pallii extra Missarum solemnia (de quo
+          <lb ed="#P" n="65"/>ibi agebatur) non est materia praescriptibihs,
+          <lb ed="#P" n="66"/>quia lex expresse vetat id fieri, nisi ex speciali
+          <lb ed="#P" n="67"/>privilegio. Et videtur sumpsisse ex Gloss. in
+          <lb ed="#P" n="68"/>c. Catholica, dist. 11, verb. Particularis. Non
+          <lb ed="#P" n="69"/>designant autem canonem in quo ante illud
+          <lb ed="#P" n="70"/>decretum statutum esset ut non posset ille
+          <lb ed="#P" n="71"/>honor vel facultas praescribi. Imo, neque usus
+          <lb ed="#P" n="72"/>pallii extra Missarum solemnia videtur fuisse
+          <lb ed="#P" n="73"/>tunc prohibitus canone scripto, sed sola 
+          gene<lb break="no" ed="#P" n="74"/>rali consuetudine; hanc enim ibi Gregorius
+          <lb ed="#P" n="75"/>allegat, et in illa sola fundatur. Dici vero 
+          po<lb break="no" ed="#P" n="76"/>test primo, consuetudinem illam generalem
+          <lb ed="#P" n="77"/>ita fuisse intellectam et explicatam a Gregorio,
+          <lb ed="#P" n="78"/>ut ipsamet prohiberet praescriptionem contra
+          <lb ed="#P" n="79"/>se per solam privatam consuetudinem ; nam
+          <lb ed="#P" n="80"/>si lex scripta potest hoc prohibere, etiam 
+          con<lb break="no" ed="#P" n="81"/>suetudo id poterit introducere. Secundo, dici
+          <lb ed="#P" n="82"/>potest materiam illam de se non fuisse 
+          prae<lb break="no" ed="#P" n="83"/>scriptibilem, quia talis consuetudo privata erat
+          <lb ed="#P" n="84"/>indecens, et contraria humilitati et modestiae
+          <lb ed="#P" n="85"/>Praelatorum, ut in ipsomet textu Gregorius
+          <lb ed="#P" n="86"/>satis significat: et hanc solutionem indicat ibi
+          <lb ed="#P" n="87"/>Turrecr., dum ait privilegium honoris non
+          <lb ed="#P" n="88"/>acquiri consuetudine, sed oneris. Quod non
+          <lb ed="#P" n="89"/>puto universaliter esse verum, sed tunc 
+          quan<lb break="no" ed="#P" n="90"/>do usurpatio honoris est indecens, aut 
+          mi<lb break="no" ed="#P" n="91"/>nuens divinum cultum, vel alio modo honestis
+          <lb ed="#P" n="92"/>moribus repugnans. Tertio, dici potest (et 
+          insi<lb break="no" ed="#P" n="93"/>nuat etiam Turrecrem.) Gregorium ibi non
+          <lb ed="#P" n="94"/>loqui universaliter, nec negare absolute in illa
+          <lb ed="#P" n="95"/>materia potuisse privilegium privata 
+          consue<lb break="no" ed="#P" n="96"/>tudine acquiri; nihil enim tale in illo textu
+          <lb ed="#P" n="97"/>reperio. Sed potius supponit Gregorius non
+          <lb ed="#P" n="98"/>tuisse introductam per se consuetudinem, sed
+          <lb ed="#P" n="99"/>usum illum, qui erat, titulo privilegii fuisse
+          <lb ed="#P" n="100"/>usurpatum ; nam hoc fuerat confessus ipsemet
+          <lb ed="#P" n="101"/>Archiepiscopus Ravennatis. Igitur ex hae 
+          sup<lb break="no" ed="#P" n="102"/>positione et quasi ex concessis recte 
+          argumen<lb break="no" ed="#P" n="103"/>tatur Gregorius, et ita facile reliqua 
+          expediun<lb break="no" ed="#P" n="104"/>tur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

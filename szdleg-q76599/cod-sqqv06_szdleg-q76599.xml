@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 20</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 20</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="304"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q76599"><!-- l8c20 -->
+        <head xml:id="szdleg-q76599-Hd1e101">Caput 20</head>
+        <head xml:id="szdleg-q76599-Hd1e103" type="question-title">An per innovationem privilegii confirmetur vel denuo gratia concedatur.</head>
+        <p xml:id="szdleg-q76599-d1e106">
+          <lb ed="#P" n="88"/>CAPUT XX.
+          <lb ed="#P" n="89"/>AN PER INNOVATIONEM PRIVILEGII CONFIRMETUR
+          <lb ed="#P" n="90"/>VEL DENUO GRATIA CONCEDATUR.
+        </p>
+        <p xml:id="szdleg-q76599-d1e115">
+          <lb ed="#P" n="91"/>1. Quid addat innovatio super 
+          confirmatio<lb break="no" ed="#P" n="92"/>nem. — Difficultates circa responsum. — 
+          So<lb break="no" ed="#P" n="93"/>lent Pontifices aliquando simpliciter privilegia
+          <lb ed="#P" n="94"/>confirmare, nihil amplius addendo; 
+          aliquan<lb break="no" ed="#P" n="95"/>do vero non contenti verbo confirmandi, 
+          ad<lb break="no" ed="#P" n="96"/>dunt : Confirmamus el innovamus, et 
+          inter<lb break="no" ed="#P" n="97"/>dum superaddunt, et de novo concedimus, sicut
+          <lb ed="#P" n="98"/>Paulus V in confirmatione Privilegiorum 
+          So<lb break="no" ed="#P" n="99"/>cietatis adjecit ; et saepe in confirmationibus
+          <lb ed="#P" n="100"/>Mendicantium invenitur, et refertur in 
+          Sup<lb break="no" ed="#P" n="101"/>plem., conces. 191, et in Monum. Min., 
+          con<lb break="no" ed="#P" n="102"/>ces. 343. Dubium ergo est quomodo verbum
+          <lb ed="#P" n="103"/>innovandi distinguatur a verbo confirmandi,
+          <lb ed="#P" n="104"/>et quid addat. Quod dubium proposuerunt
+          <lb ed="#P" n="105"/>fratres Minores Julio II, pro intelligentia 
+          cu<lb break="no" ed="#P" n="106"/>jusdam confirmationis suorum privilegiorum
+          <lb ed="#P" n="107"/>factae a Sixto IV, cum illa additione, et de no-
+          <pb ed="#P" n="305"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vo concedimus, interrogantes an per illa 
+          resti<lb break="no" ed="#P" n="2"/>tuerentur, seu de novo concederentur etiam
+          <lb ed="#P" n="3"/>privilegia prius revocata. hespondit autem
+          <lb ed="#P" n="4"/>dictus Papa Julius lI, per illa verba 
+          solummo<lb break="no" ed="#P" n="5"/>do esse confirmata privilegia dicto ordini
+          <lb ed="#P" n="6"/>concessa, et non alias revocata. Ita habetur
+          <lb ed="#P" n="7"/>in Bulla Julii H anni 150^; incipit: In 
+          milh<lb break="no" ed="#P" n="8"/>tantis Ecclesie agro, et habetur in l. 
+          Monu<lb break="no" ed="#P" n="9"/>ment. Minor., fol. 125 et 126, pag. 2, conces.
+          <lb ed="#P" n="10"/>211, in mmpressione Salmant., art. 1511; et
+          <lb ed="#P" n="11"/>refertur ab Emman. Roder. in 1 tom. 
+          Bulla<lb break="no" ed="#P" n="12"/>rum, p. 570. Habet autem difficultatem illa
+          <lb ed="#P" n="13"/>responsio, primo, quia videtur contra vim et
+          <lb ed="#P" n="14"/>proprietatem verborum, praecipue illorum, et
+          <lb ed="#P" n="15"/>de novo concedimus. Secundo, quia hoc modo
+          <lb ed="#P" n="16"/>Cvidentur frustra addi ; nam illud satis fuerat
+          <lb ed="#P" n="17"/>factum per puram confirmationem, non 
+          so<lb break="no" ed="#P" n="18"/>lum ex certa scientia, sed etiam in forma
+          <lb ed="#P" n="19"/>communi, ut ex dictis patet. Tertio, quia 
+          se<lb break="no" ed="#P" n="20"/>quitur minus concedi per illa verba quam per
+          <lb ed="#P" n="21"/>confirmationem ex certa scientia, quia per
+          <lb ed="#P" n="22"/>hanc reparantur et restituuntur privilegia
+          <lb ed="#P" n="23"/>revocata, ut dictum est, quod negatur fieri
+          <lb ed="#P" n="24"/>per verba praedicta.
+        </p>
+        <p xml:id="szdleg-q76599-d1e211">
+          <lb ed="#P" n="25"/>2. Innovationem in forma communi non
+          <lb ed="#P" n="26"/>restituere privilegia revocata, nec dare novum
+          <lb ed="#P" n="27"/>jus. sed solum innovare antiquum. — 
+          lespon<lb break="no" ed="#P" n="28"/>deo : sicut confirmatio distinguitur in eam
+          <lb ed="#P" n="29"/>quae est in forma communi, vel ex certa 
+          scien<lb break="no" ed="#P" n="30"/>tia, ita etiam posse innovationem distingui;
+          <lb ed="#P" n="31"/>nam videtur eadem ratio, quia est in 
+          potes<lb break="no" ed="#P" n="32"/>tate Pontificis utroque modo illam facere.
+          <lb ed="#P" n="33"/>Posita ergo tali distinctione, et illam 
+          appli<lb break="no" ed="#P" n="34"/>cando cum proportione ad confirmationem ,
+          <lb ed="#P" n="35"/>videtur imprimis dicendum, quando 
+          innova<lb break="no" ed="#P" n="36"/>tio est in forma communi, non restituere 
+          pri<lb break="no" ed="#P" n="37"/>vilegia revocata , vel quomodolibet amissa,
+          <lb ed="#P" n="38"/>nec dare novum jus, sed solum antiquum
+          <lb ed="#P" n="39"/>innovare. Ad hanc conclusionem probandam
+          <lb ed="#P" n="40"/>allegari solent sequentia jura: c. Ex parte,
+          <lb ed="#P" n="41"/>1 de Privileg., ubi dicitur: Privilegiwm, etc.,
+          <lb ed="#P" n="42"/>duaimus innovandum, ita tamen ut per 
+          anno<lb break="no" ed="#P" n="43"/>vationem ipsius, eidem Ecclesie non plus 
+          ju<lb break="no" ed="#P" n="44"/>ris accrescat. Sed ex his verbis posset quis in
+          <lb ed="#P" n="45"/>contrarium argumentari, quia nisi addidisset
+          <lb ed="#P" n="46"/>Pontifex, ita tamen, etc., innovando absolute,
+          <lb ed="#P" n="47"/>videretur jus novum concedere, licet constet
+          <lb ed="#P" n="48"/>ex textu illam innovationem non fuisse ex
+          <lb ed="#P" n="49"/>certa scientia. Sed huic evasioni obstat c.
+          <lb ed="#P" n="50"/>Quia intentionis, eod. tit., ubi expresse et 
+          ab<lb break="no" ed="#P" n="51"/>solute dicitur: Cum innovatio nec jus novum
+          <lb ed="#P" n="52"/>conferat, nec etiam tollat vetus. Quare in alio
+          <lb ed="#P" n="53"/>textu clausula illa, ita tamen, eic., non 
+          poni<lb break="no" ed="#P" n="54"/>tur ut necessaria ad limitandum verbum 
+          in<lb break="no" ed="#P" n="55"/>novandi, sed ad declarandum illud, vel etiam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ad reddendam rationem cur tam facile 
+          con<lb break="no" ed="#P" n="57"/>cessa fuerit illa innovatio, sicut aperte etiam
+          <lb ed="#P" n="58"/>fit in c. Cum dilecta, de Confirm. util., ubi
+          <lb ed="#P" n="59"/>additur per innovationem jus novum non 
+          ac<lb break="no" ed="#P" n="60"/>quiri, sed conservari antiquum. In his ergo
+          <lb ed="#P" n="61"/>locis frequens est haec sententia.
+        </p>
+        <p xml:id="szdleg-q76599-d1e297">
+          <lb ed="#P" n="62"/>3. Dupliciter sumi posse nomen privilegii.—
+          <lb ed="#P" n="63"/>Occurrit tamen circa haec jura 
+          consideran<lb break="no" ed="#P" n="64"/>dum, nomen privilegii aequivoce posse sumi,
+          <lb ed="#P" n="65"/>uno modo pro jure ipso vel gratia per 
+          princi<lb break="no" ed="#P" n="66"/>pem concessa, prout privilegium definivimus
+          <lb ed="#P" n="67"/>in principio hujus materiae, alio modo pro 
+          ins<lb break="no" ed="#P" n="68"/>trumento authentico, in quo talis concessio,
+          <lb ed="#P" n="69"/>et fides seu probatio ejus continetur, sicut
+          <lb ed="#P" n="70"/>etiam nomen contractus interdum significare
+          <lb ed="#P" n="71"/>solet pactum ipsum, interdum instrumentum
+          <lb ed="#P" n="72"/>authenticum ejus, ut late tradit Tiraq., 1.1
+          <lb ed="#P" n="73"/>de Retr., S 2, Gloss. 1, in princ. Nam ex usu
+          <lb ed="#P" n="74"/>non minus constat hoc in privilegio quam in
+          <lb ed="#P" n="75"/>contractu. Hinc ergo innovatio privilegii 
+          in<lb break="no" ed="#P" n="76"/>terdum refertur ad solum instrumentum, quia
+          <lb ed="#P" n="77"/>vetustate forte consumitur, et ideo innovatio
+          <lb ed="#P" n="78"/>ejus conceditur. Aliquando vero potest referri
+          <lb ed="#P" n="79"/>ad rem ipsam, ut jus antiquitus concessum
+          <lb ed="#P" n="80"/>postea innovatur. Priori modo, clarum est
+          <lb ed="#P" n="81"/>innovationem privilegii non conferre jus 
+          no<lb break="no" ed="#P" n="82"/>vum. Et plane hoc modo loquitur dictum cap.
+          <lb ed="#P" n="83"/>Cum dilecta, ut patet ex illis verbis: Preedicta
+          <lb ed="#P" n="84"/>privilegia quasi jam nimia vetustate 
+          consum<lb break="no" ed="#P" n="85"/>pta, cum fuerint non in pergameno, sed in
+          <lb ed="#P" n="86"/>papyro conscripta, dugimus innovanda. Et in
+          <lb ed="#P" n="87"/>eodem sensu loquuntur alia jura. Innovari
+          <lb ed="#P" n="88"/>ergo privilegium hoc modo, nihil aliud est
+          <lb ed="#P" n="89"/>quam novum instrumentum privilegii 
+          anti<lb break="no" ed="#P" n="90"/>qui ex veteri instrumento exemplari, quod
+          <lb ed="#P" n="91"/>ejusdem sit auctoritatis cum originali, quia
+          <lb ed="#P" n="92"/>principis auctoritate factum vel approbatum
+          <lb ed="#P" n="93"/>est, argumento cap. ult. de Fide instr. ; et
+          <lb ed="#P" n="94"/>ideo novum jus dare non potest, quia jus in
+          <lb ed="#P" n="95"/>multis instrumentis contentum nec est aliud
+          <lb ed="#P" n="96"/>et aliud, nec est majus. Imo (ut recte ait 
+          Pa<lb break="no" ed="#P" n="97"/>norm. in d. c. Cun dilecta), talis innovatio
+          <lb ed="#P" n="98"/>jus in privilegio contentum non confirmat,
+          <lb ed="#P" n="99"/>utique secundum se, quia illi robur aut 
+          valo<lb break="no" ed="#P" n="100"/>rem non addit, quoad nos vero quodammodo
+          <lb ed="#P" n="101"/>confirmat, quia facilior vel diuturnior fit 
+          pro<lb break="no" ed="#P" n="102"/>batio ejus, et hoc modo dicitur etiam haec 
+          in<lb break="no" ed="#P" n="103"/>novatio conservare privilegium, quia, 
+          per<lb break="no" ed="#P" n="104"/>dito vel consumpto instrumento, perditur jus
+          <lb ed="#P" n="105"/>quoad forum saltem externum, nisi loco illius
+          <lb ed="#P" n="106"/>succedat praescriptio, et ideo per 
+          renovatio<lb break="no" ed="#P" n="107"/>nem privilegii quodammodo conservatur jus
+          <lb ed="#P" n="108"/>in eo contentum.
+        </p>
+        <p xml:id="szdleg-q76599-d1e401">
+          <lb ed="#P" n="109"/>4. Potest renovari insirumentum non 
+          re<lb break="no" ed="#P" n="110"/>novato jure, et e converso. — Quocirca de
+          <pb ed="#P" n="306"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>hoc innovationis modo nulla nobis est 
+          difli<lb break="no" ed="#P" n="2"/>cultas, nec de illo principaliter loquimur, sed
+          <lb ed="#P" n="3"/>de alio modo, quando jus ipsum, et non 
+          in<lb break="no" ed="#P" n="4"/>strumentum continens illud, innovatur. De
+          <lb ed="#P" n="5"/>hoc enim modo innovationis videntur loqui
+          <lb ed="#P" n="6"/>Pontifices, quando dicunt innovare 
+          privile<lb break="no" ed="#P" n="7"/>gia ; tum quia eodem modo dicunt innovare,
+          <lb ed="#P" n="8"/>quo confirmare ; non confirmant autem 
+          in<lb break="no" ed="#P" n="9"/>strumenta, sed gratias in illis contentas ; ergo
+          <lb ed="#P" n="10"/>illas etiam innovant; tum etiam quia non
+          <lb ed="#P" n="11"/>concedunt licentiam renovandi aut 
+          exem<lb break="no" ed="#P" n="12"/>plandi denuo vetera instrumenta, nec 
+          tran<lb break="no" ed="#P" n="13"/>sumpta approbant, sed ipsamet formalia 
+          pri<lb break="no" ed="#P" n="14"/>vilegia (ut sic dicam) innovant; tum maxime
+          <lb ed="#P" n="15"/>quia saepe dicunt expresse, de novo privilegia
+          <lb ed="#P" n="16"/>talia concedere : concedere autem privilegium
+          <lb ed="#P" n="17"/>non est concedere instrumentum illius, sed
+          <lb ed="#P" n="18"/>est jus speciale donare. De hac autem 
+          inno<lb break="no" ed="#P" n="19"/>vatione non probatur sufficienter ex dictis
+          <lb ed="#P" n="20"/>juribus quod nullum jus conferat, quia haec
+          <lb ed="#P" n="21"/>innovatio non est talis quahs est illa de qua
+          <lb ed="#P" n="22"/>dicta jura loquuntur, sed diversa, ut constat
+          <lb ed="#P" n="23"/>ex dictis; a diversis autem non fit illatio,
+          <lb ed="#P" n="24"/>maxime quia neque necessario sunt 
+          con<lb break="no" ed="#P" n="25"/>juncta : optime enim potest innovari 
+          instru<lb break="no" ed="#P" n="26"/>mentum, non renovato jure, imo nec 
+          confir<lb break="no" ed="#P" n="27"/>mato, ut dictum est; et e converso posset 
+          in<lb break="no" ed="#P" n="28"/>novari jus ipsum, non concessa innovatione
+          <lb ed="#P" n="29"/>antiqui instrumenti. Aliunde vero innovatio
+          <lb ed="#P" n="30"/>idem esse videtur quod renovatio ; renovatio
+          <lb ed="#P" n="31"/>autem est restitutio rei jam destructae seu
+          <lb ed="#P" n="32"/>finitae, in quo a prorogatione differt, quae est
+          <lb ed="#P" n="33"/>continuatio seu dilatio rei quae adhuc durat,
+          <lb ed="#P" n="34"/>juxta 1. Sed etsi, tf. de Precario, et l. Dies,
+          <lb ed="#P" n="35"/>ff. de Damno inf., ubi Glossa et doctores, et
+          <lb ed="#P" n="36"/>late Tiraquel.. de utroque retract., 1. 29, S1,
+          <lb ed="#P" n="37"/>Gloss. 7, n. 24; ergo innovatio privilegii ex
+          <lb ed="#P" n="38"/>vi verborum reparatio est privilegii amissi;
+          <lb ed="#P" n="39"/>ergo semper habet hunc effectum, sive sit ex
+          <lb ed="#P" n="40"/>certa scientia, sive non, quia privilegium 
+          ope<lb break="no" ed="#P" n="41"/>ratur quantum sonat in proprietate verborum.
+        </p>
+        <p xml:id="szdleg-q76599-d1e501">
+          <lb ed="#P" n="42"/>5. Fere nunquam fit innovatio 
+          privilegio<lb break="no" ed="#P" n="43"/>rum sine confirmatione ea certa scientia ; at si
+          <lb ed="#P" n="44"/>fieret in forma communi, non daret novum
+          <lb ed="#P" n="45"/>jus.—Nihilominus, si contingat innovationem
+          <lb ed="#P" n="46"/>privilegii quoad jus ipsum et gratiam non fieri
+          <lb ed="#P" n="47"/>ex certa scientia, sed in forma communi, vera
+          <lb ed="#P" n="48"/>est et recepta assertio posita. Dico autem si
+          <lb ed="#P" n="49"/>contingat, quia non videtur illa innovatio in
+          <lb ed="#P" n="50"/>sensu explicato multum usitata. In Bullis
+          <lb ed="#P" n="51"/>enim pontificiis religionum, nunquam (quod
+          <lb ed="#P" n="52"/>ego viderim) fit innovatio privilegiorum sine
+          <lb ed="#P" n="53"/>confirmatione ex certa scientia, et 
+          consequen<lb break="no" ed="#P" n="54"/>ter ipsa etiam innovatio est ex certa scientia,
+          <lb ed="#P" n="55"/>et idem forte est in alus indultis; verumta-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>men de toto usu mihi constare non potest,
+          <lb ed="#P" n="57"/>nec etiam repugnat innovationem adjungi
+          <lb ed="#P" n="58"/>confirmationi datae tantum in forma 
+          com<lb break="no" ed="#P" n="59"/>muni, quia (ut dicebam) ex voluntate 
+          Ponti<lb break="no" ed="#P" n="60"/>ficis pendet. Hoc ergo posito, probatur 
+          asser<lb break="no" ed="#P" n="61"/>tio ex interpretatione Julii Il supra allegata,
+          <lb ed="#P" n="62"/>quae plane supponit solum verbum innovandi,
+          <lb ed="#P" n="63"/>vel, quod magis est, verbum concedendi de
+          <lb ed="#P" n="64"/>novo, non satis esse ad restituendum 
+          privile<lb break="no" ed="#P" n="65"/>gium revocatum, vel amissum ; ergo oportet
+          <lb ed="#P" n="66"/>ut in aliquo casu hoc possit in rigore verum
+          <lb ed="#P" n="67"/>esse; ergo maxime quando talis innovatio fit
+          <lb ed="#P" n="68"/>in forma communi et re non discussa, neque
+          <lb ed="#P" n="69"/>cognita. Secundo, id probari potest a paritate
+          <lb ed="#P" n="70"/>rationis, quia innovatio restituens privilegia
+          <lb ed="#P" n="71"/>revocata, vel amissa, aequivalet novae 
+          con<lb break="no" ed="#P" n="72"/>cessioni, ut supra in simili dictum est; sed 
+          in<lb break="no" ed="#P" n="73"/>credibile est Pontificem in general 
+          loquen<lb break="no" ed="#P" n="74"/>tem, et sine causae cognitione, intendere nova
+          <lb ed="#P" n="75"/>privilegia concedere ; ergo incredibile etiam
+          <lb ed="#P" n="76"/>est uti verbo innovandi in illo sensu, quando
+          <lb ed="#P" n="77"/>non procedit ex certa scientia, nec causa 
+          co<lb break="no" ed="#P" n="78"/>gnita; ergo talis innovatio in forma 
+          com<lb break="no" ed="#P" n="79"/>muni non restituit privilegia amissa, neque
+          <lb ed="#P" n="80"/>dat novum jus. Tertio, proprietas verbi 
+          inno<lb break="no" ed="#P" n="81"/>vandi, non cogit interpretandum, ex vi illius
+          <lb ed="#P" n="82"/>fieri novam concessionem privilegii, etiam
+          <lb ed="#P" n="83"/>prius invalidi, vel revocati, quia saepe 
+          reno<lb break="no" ed="#P" n="84"/>vari dicitur quod durat et nondum extinctum
+          <lb ed="#P" n="85"/>est, sicut patet non solum in arte factis, ut
+          <lb ed="#P" n="86"/>in domo et similibus, sed etiam in moralibus,
+          <lb ed="#P" n="87"/>ut in feudo, in emphyteusi, in promissione,
+          <lb ed="#P" n="88"/>in voto, etc., et ideo res renovata non semper
+          <lb ed="#P" n="89"/>est altera ab antiqua, sed est eadem in 
+          pristi<lb break="no" ed="#P" n="90"/>num statum restituta, vel ad meliorem 
+          for<lb break="no" ed="#P" n="91"/>mam redacta, ut constat, tam ex communi
+          <lb ed="#P" n="92"/>loquendi usu, quam ex latina proprietate; et
+          <lb ed="#P" n="93"/>tradidit Panormit., lib. 2, consil. 67, n. 3,
+          <lb ed="#P" n="94"/>dicens eum qui petit renovationem non 
+          sup<lb break="no" ed="#P" n="95"/>ponere caducitatem , sed potius supponere
+          <lb ed="#P" n="96"/>existentiam et valorem rei, petere autem 
+          re<lb break="no" ed="#P" n="97"/>novationem, ne vetustate pereat. Et probatur
+          <lb ed="#P" n="98"/>optime in cap. Longinguitate, 12, quaest. 2,
+          <lb ed="#P" n="99"/>et cap. 1 de Precariis, juncta Glossa ibi; ergo
+          <lb ed="#P" n="100"/>innovatio privilegii pura et communis non
+          <lb ed="#P" n="101"/>extenditur ad novam concessionem, sed solum
+          <lb ed="#P" n="102"/>ordinatur ad conservationem privilegii jam
+          <lb ed="#P" n="103"/>concessi et durantis. Probatur consequentia,
+          <lb ed="#P" n="104"/>quia haec renovatio, cum non sit facta cum
+          <lb ed="#P" n="105"/>cognitione causae, nec ex certa scientia, non
+          <lb ed="#P" n="106"/>est extendenda, sed potius restringenda,
+          <lb ed="#P" n="107"/>quantum proprietas verbi patitur, quia fieret
+          <lb ed="#P" n="108"/>periculosa et odiosa; ergo ex-vi talis formae
+          <lb ed="#P" n="109"/>non inducit novum valorem privilegii, sed
+          <lb ed="#P" n="110"/>solum renovat antiquum.
+        </p>
+        <p xml:id="szdleg-q76599-d1e655">
+          <pb ed="#P" n="307"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>6. De effectu praedictae innovationis. —Sed
+          <lb ed="#P" n="2"/>quaeres quem effectum habeat talis innovatio
+          <lb ed="#P" n="3"/>sic explicata, distinctum a confirmatione 
+          si<lb break="no" ed="#P" n="4"/>mili : nam si contingat cadere super 
+          privile<lb break="no" ed="#P" n="5"/>gium invalidum, vel revocatum, aut amissum
+          <lb ed="#P" n="6"/>per contrarium usum, vel alio modo, nihil
+          <lb ed="#P" n="7"/>confert, sicut nec confirmatio, quia deficit in
+          <lb ed="#P" n="8"/>fundamento. Si autem adjungatur privilegio
+          <lb ed="#P" n="9"/>valido, et adhuc permanenti in sua 
+          substan<lb break="no" ed="#P" n="10"/>tia, ad summum confert ad quoddam robur
+          <lb ed="#P" n="11"/>et firmitatem, eo modo quo dictum est de
+          <lb ed="#P" n="12"/>confirmatione in forma communi. Videtur
+          <lb ed="#P" n="13"/>ergo non distingui in effectu, sed geminari
+          <lb ed="#P" n="14"/>voces ad majorem exaggerationem et 
+          expres<lb break="no" ed="#P" n="15"/>sionem affectus concedentis. Alius vero 
+          effec<lb break="no" ed="#P" n="16"/>tus solet tribui huic innovationi, quod per
+          <lb ed="#P" n="17"/>illam censetur ipso facto renovatum 
+          privile<lb break="no" ed="#P" n="18"/>gium quoad probationem talis gratiae, ita ut
+          <lb ed="#P" n="19"/>illud novum indultum sit quasi prius 
+          privile<lb break="no" ed="#P" n="20"/>gium, seu instrumentum renovatum, quia
+          <lb ed="#P" n="21"/>princeps non praecipit, vel concedit ut 
+          reno<lb break="no" ed="#P" n="22"/>vetur instrumentum , sed ipsemet renovat.
+          <lb ed="#P" n="23"/>Sed hoc revera non ita est, nisi innovatio sit
+          <lb ed="#P" n="24"/>ex certa scientia, vel tenor prioris indulti in
+          <lb ed="#P" n="25"/>posteriori inseratur, quod perinde est. Quia
+          <lb ed="#P" n="26"/>si utrumque horum desit, generalia verba
+          <lb ed="#P" n="27"/>non sufficiunt , sine alia probatione 
+          authen<lb break="no" ed="#P" n="28"/>tica.
+        </p>
+        <p xml:id="szdleg-q76599-d1e723">
+          <lb ed="#P" n="29"/>7. Innovatio in forma communi non 
+          inter<lb break="no" ed="#P" n="30"/>rumpit praescriptionem contra privilegium.—
+          <lb ed="#P" n="31"/>Alium effectum indicat Emman. hoderic. ,
+          <lb ed="#P" n="32"/>dictía quaest. 8, art. 2, S ult., scilicet, per
+          <lb ed="#P" n="33"/>talem innovationem fieri ut, ad 
+          praescriben<lb break="no" ed="#P" n="34"/>dum contra tale privilegium, necessarium
+          <lb ed="#P" n="35"/>sit computari tempus a tempore talis 
+          reno<lb break="no" ed="#P" n="36"/>vationis, quia, licet per aliquot annos prius
+          <lb ed="#P" n="37"/>fuerit inchoata praescriptio contra aliud 
+          pri<lb break="no" ed="#P" n="38"/>vilegium, si non fuit consummata, postea non
+          <lb ed="#P" n="39"/>poterit computari ad revocationem privilegii
+          <lb ed="#P" n="40"/>consummandam, sed oportebit de novo 
+          in<lb break="no" ed="#P" n="41"/>choari, quia innovatio est quaedam restitutio
+          <lb ed="#P" n="42"/>rei ad pristinum statum; citat Cordub. in
+          <lb ed="#P" n="43"/>Compend. Min., verb. Absolutio quoad 
+          secu<lb break="no" ed="#P" n="44"/>lares, 9. S 15; sed ibi nihil inveni; in eodem
+          <lb ed="#P" n="45"/>autem verb. 1, S 19, ubi hoc attingit, 
+          loqui<lb break="no" ed="#P" n="46"/>tur de innovatione ex certa scientia. Et sic
+          <lb ed="#P" n="47"/>etiam confirmatio ex certa scientia per se 
+          suf<lb break="no" ed="#P" n="48"/>ficiet ad eumdem effectum juxta superius
+          <lb ed="#P" n="49"/>dicta. Et ideo non possum magis tribuere
+          <lb ed="#P" n="50"/>hunc effectum innovationi quam 
+          confirma<lb break="no" ed="#P" n="51"/>toni in forma communi ; tum quia nec jus
+          <lb ed="#P" n="52"/>nec auctoritatem sufficientem video ; tum
+          <lb ed="#P" n="53"/>quia etiam confirmatio communis est 
+          robo<lb break="no" ed="#P" n="54"/>ratio rei praexistentis, et consequenter aufert
+          <lb ed="#P" n="55"/>omnem infirmitatem ejus: illud autem tem-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>pus contrarium, quamdiu computari potest
+          <lb ed="#P" n="57"/>ad destruendum privilegium, multum 
+          debi<lb break="no" ed="#P" n="58"/>litat firmitatem ejus; ergo haec debilitas 
+          tol<lb break="no" ed="#P" n="59"/>letur per illam confirmationem. At vero 
+          nul<lb break="no" ed="#P" n="60"/>lus auctor quem ego viderim tribuit hunc 
+          ef<lb break="no" ed="#P" n="61"/>tectum confirmationi in forma communi, 
+          ne<lb break="no" ed="#P" n="62"/>que jura favent, quae de illa loquuntur. 
+          Ac<lb break="no" ed="#P" n="63"/>cedit quod si, non obstante tali innovatione,
+          <lb ed="#P" n="64"/>privilegiatus continue procedit in non usu,
+          <lb ed="#P" n="65"/>sine temporis interruptione, magis culpabilis
+          <lb ed="#P" n="66"/>est, et magis renuntiare videtur privilegio.
+          <lb ed="#P" n="67"/>Concludo igitur hanc innovationem parum
+          <lb ed="#P" n="68"/>prodesse, et fere nihil addere supra 
+          confir<lb break="no" ed="#P" n="69"/>mationem communem, et ideo (ut dixi) raro
+          <lb ed="#P" n="70"/>fieri in privilegiis.
+        </p>
+        <p xml:id="szdleg-q76599-d1e819">
+          <lb ed="#P" n="71"/>8. Secunda conclusio. — Discrimen inter
+          <lb ed="#P" n="72"/>prorogationem et renovationem , illa siguidem
+          <lb ed="#P" n="73"/>est rei durantis, hec praeterite. — Secundo,
+          <lb ed="#P" n="74"/>dicendum est innovationem ex certa scientia
+          <lb ed="#P" n="75"/>conferre jus novum de se, et aequivalere 
+          con<lb break="no" ed="#P" n="76"/>cessioni, ideoque restituere posse privilegium
+          <lb ed="#P" n="77"/>perditum, et a fortiori omnem vetustatem
+          <lb ed="#P" n="78"/>ejus tollere. Haec est sententia communis 
+          om<lb break="no" ed="#P" n="79"/>nium quos retuli in capite praecedenti. Et
+          <lb ed="#P" n="80"/>eamdem intendit Corduba loco proxime 
+          ci<lb break="no" ed="#P" n="81"/>tato, cum Joan. de Lignan. et Panorm., in
+          <lb ed="#P" n="82"/>c. Cum super, de Caus. posses. et propriet.
+          <lb ed="#P" n="83"/>Idem Panorm. et Felin. late in cap. Inter
+          <lb ed="#P" n="84"/>dilectos, de Fide instrument. ; et in 
+          Compen<lb break="no" ed="#P" n="85"/>dio Minorum, verb. Privilegia fratrum, S 15,
+          <lb ed="#P" n="86"/>refert collector hanc fuisse sententiam 
+          doctis<lb break="no" ed="#P" n="87"/>simorum virorum Salmanticensium. 
+          Eisdem<lb break="no" ed="#P" n="88"/>que rationibus probari potest, quibus similem
+          <lb ed="#P" n="89"/>assertionem de confirmatione ex certa 
+          scien<lb break="no" ed="#P" n="90"/>tia ostendimus ; nam fere sunt idem, et si in
+          <lb ed="#P" n="91"/>aliquo differunt, in rationis paritate 
+          conve<lb break="no" ed="#P" n="92"/>niunt, et declarari potest in hunc modum.
+          <lb ed="#P" n="93"/>Nam verbum renovandi, licet possit dici de re
+          <lb ed="#P" n="94"/>praexistente, tamen cum proprietate etiam
+          <lb ed="#P" n="95"/>potest cadere in rem quae jam pernt et 
+          ite<lb break="no" ed="#P" n="96"/>rum excitatur, sicut resurrectio dici potest
+          <lb ed="#P" n="97"/>quaedam renovatio. Et hoc modo interpretor
+          <lb ed="#P" n="98"/>differentiam illam, quam aliqui juristae 
+          assi<lb break="no" ed="#P" n="99"/>gnant inter prorogationem et renovationem,
+          <lb ed="#P" n="100"/>quod illa est rei durants, haec vero rei quae
+          <lb ed="#P" n="101"/>jam praeteriit; non credo enim esse verum
+          <lb ed="#P" n="102"/>discrimen, si utrumque membrum praecise,
+          <lb ed="#P" n="103"/>et aequaliter, seu exclusive intelligatur; sic
+          <lb ed="#P" n="104"/>enim falsum quod de renovatione dicitur, ut
+          <lb ed="#P" n="105"/>ex dictis patet. Poterit autem differentia 
+          sus<lb break="no" ed="#P" n="106"/>tineri, si primum membrum exclusive 
+          suma<lb break="no" ed="#P" n="107"/>tur, non vero secundum, ita ut sensus sit,
+          <lb ed="#P" n="108"/>prorogationem dici tantum de re nondum
+          <lb ed="#P" n="109"/>extincta, vel tempore nondum finito, quia est
+          <lb ed="#P" n="110"/>dilatio et continuatio quiedam, quae non ca-
+          <pb ed="#P" n="308"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dit in rem extinctam. At vero renovatio non
+          <lb ed="#P" n="2"/>ita limitatur, sed proprie dici potest de re
+          <lb ed="#P" n="3"/>jam extincta, si eadem restituatur, quamvis
+          <lb ed="#P" n="4"/>alio modo etiam de re praexistente, 
+          utrum<lb break="no" ed="#P" n="5"/>que enim probant jura supra citata, et usus,
+          <lb ed="#P" n="6"/>et ipsa vis vocis. Igitur quando privilegium
+          <lb ed="#P" n="7"/>dicitur renovari ex certa scientia, amplianda
+          <lb ed="#P" n="8"/>est renovatio ad omnem modum possibilem,
+          <lb ed="#P" n="9"/>qui sub propriam significationem talis verbi
+          <lb ed="#P" n="10"/>cadere possit. Probatur consequentia , quia
+          <lb ed="#P" n="11"/>talis renovatio, cum sit favor principis, et ab
+          <lb ed="#P" n="12"/>eo detur ex certa scientia, et consequenter
+          <lb ed="#P" n="13"/>ex plenitudine potestatis, ample 
+          interpretan<lb break="no" ed="#P" n="14"/>da est tam ex parte personae quam ex parte
+          <lb ed="#P" n="15"/>modi ; ergo de se habet vim concessionis 
+          no<lb break="no" ed="#P" n="16"/>vae, seu excitationis privilegii, si necessaria
+          <lb ed="#P" n="17"/>fuerit. Hoc autem magis indubitandum erit
+          <lb ed="#P" n="18"/>si verba concessionis sint, et de novo 
+          concedi<lb break="no" ed="#P" n="19"/>mus, quia nulla possunt esse clariora ; ergo si
+          <lb ed="#P" n="20"/>simul sint, ez certa scientia, nihil amplius
+          <lb ed="#P" n="21"/>desiderari potest ad hunc eflfectum 
+          intelli<lb break="no" ed="#P" n="22"/>gendum.
+        </p>
+        <p xml:id="szdleg-q76599-d1e961">
+          <lb ed="#P" n="23"/>9. Collector Mendicantiwn. — Responsio
+          <lb ed="#P" n="24"/>Julii II erat restringens propter defectum
+          <lb ed="#P" n="25"/>narrationis. — Ad declarationem autem 
+          Ju<lb break="no" ed="#P" n="26"/>lii II, respondet Collector Mendicantium ,
+          <lb ed="#P" n="27"/>dicto 8 15, fuisse datam absolute et 
+          gene<lb break="no" ed="#P" n="28"/>raliter propter defectum relationis, 
+          indi<lb break="no" ed="#P" n="29"/>cans , attenta rei veritate non fuisse 
+          legiti<lb break="no" ed="#P" n="30"/>mam ; ubi Corduba etiam consentit, et 
+          Ro<lb break="no" ed="#P" n="31"/>der., dict. quaest. 8, art. 2. Nec video quid
+          <lb ed="#P" n="32"/>aliud possit responderi, quia ex tenore indulti
+          <lb ed="#P" n="33"/>Sixti IV evidenter apparet fuisse ex certa
+          <lb ed="#P" n="34"/>scientia, et mera voluntate, et motu proprio,
+          <lb ed="#P" n="35"/>et pro potiori cautela ; omnes enim hae 
+          par<lb break="no" ed="#P" n="36"/>ticulae formaliter ibi inveniuntur, quae 
+          claris<lb break="no" ed="#P" n="37"/>sime explicant mentem Pontificis fuisse 
+          pri<lb break="no" ed="#P" n="38"/>vilegia illa valida constituere, in quocumque
+          <lb ed="#P" n="39"/>statu antea essent. In interrogatione autem
+          <lb ed="#P" n="40"/>quae fuit proposita Julio II, nulla mentio facta
+          <lb ed="#P" n="41"/>fuit concessionis de novo ex certa scientia,
+          <lb ed="#P" n="42"/>sed tantum quod Sixtus IV, confirmando 
+          pri<lb break="no" ed="#P" n="43"/>vilegia, de novo illa concessit, nullam aliam
+          <lb ed="#P" n="44"/>circumstantiam vel qualitatem renovationis
+          <lb ed="#P" n="45"/>declarando aut proponendo, ut aperte 
+          con<lb break="no" ed="#P" n="46"/>stat ex tenore indulti Julii Il in Monum. 
+          Mi<lb break="no" ed="#P" n="47"/>nor., fol. 125, pag. 2, in tertia supplicatione.
+          <lb ed="#P" n="48"/>Respondit ergo Julius juxta interrogata, 
+          re<lb break="no" ed="#P" n="49"/>stringens potius quam extendens 
+          renovatio<lb break="no" ed="#P" n="50"/>nem, et ita confirmat priorem conclusionem
+          <lb ed="#P" n="51"/>nostram, et non obstat huic secundae, quia
+          <lb ed="#P" n="52"/>responsio non cecidit in materiam ejus.
+        </p>
+        <p xml:id="szdleg-q76599-d1e1029">
+          <lb ed="#P" n="53"/>10. De clausula in indultis usitata, cur 
+          ad<lb break="no" ed="#P" n="54"/>datur .—Objectio cum responsione.—Sed 
+          quae<lb break="no" ed="#P" n="55"/>ret tandem aliquis : s1 tanta est vis renovatio-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nis privilegiorum ex certa scientia, quid 
+          ne<lb break="no" ed="#P" n="57"/>cesse est post illam addere clausulam quae 
+          fre<lb break="no" ed="#P" n="58"/>quenter in his indultis additur : Supplentes
+          <lb ed="#P" n="59"/>omnes juris et facti defectus, si qui forsitan
+          <lb ed="#P" n="60"/>intervenerit in eisdem. Nam, eo ipso quod per
+          <lb ed="#P" n="61"/>talem renovationem privilegia omnino 
+          instau<lb break="no" ed="#P" n="62"/>rantur, et de novo fiunt, si necesse sit, 
+          sup<lb break="no" ed="#P" n="63"/>plentur necessario omnes juris et facti 
+          defec<lb break="no" ed="#P" n="64"/>tus ; quae interrogatio etiam de confirmatione
+          <lb ed="#P" n="65"/>ex certa scientia fieri potest, nam etiam post
+          <lb ed="#P" n="66"/>illam addi solet praedicta clausula. Primo ergo
+          <lb ed="#P" n="67"/>generalem responsionem dare possumus, has
+          <lb ed="#P" n="68"/>clausulas non semper addi propter novos 
+          ef<lb break="no" ed="#P" n="69"/>fectus, sed ad majorem rei evidentiam, et ad
+          <lb ed="#P" n="70"/>tollenda omnia dubia et scrupulos. Secundo,
+          <lb ed="#P" n="71"/>dici potest haec posteriora verba extendi ad
+          <lb ed="#P" n="72"/>omnes defectus, sive sint contra valorem actus
+          <lb ed="#P" n="73"/>ipso facto, sive non invalident ipso jure 
+          privi<lb break="no" ed="#P" n="74"/>legium, dent tamen occasionem movendi lites
+          <lb ed="#P" n="75"/>contra illud, et procurandi irritationem illius:
+          <lb ed="#P" n="76"/>per solam autem renovationem, non constat
+          <lb ed="#P" n="77"/>satis omnes hos defectus esse suppletos, sed
+          <lb ed="#P" n="78"/>solum generatim, privilegium esse restitutum
+          <lb ed="#P" n="79"/>valide. Tertio, posset quis dicere per hanc
+          <lb ed="#P" n="80"/>clausulam supplentes, etc., non solum suppleri
+          <lb ed="#P" n="81"/>defectus commissos in prioribus 
+          concessioni<lb break="no" ed="#P" n="82"/>bus, sed etiam illos, si qui forsan commissi
+          <lb ed="#P" n="83"/>sunt in ipsa obtentione talis confirmationis
+          <lb ed="#P" n="84"/>seu renovationis, qui non fuissent suppleti, si
+          <lb ed="#P" n="85"/>simpliciter et sine tali clausula concessa 
+          fuis<lb break="no" ed="#P" n="86"/>set. Et quidem hoc posterius per se 
+          manifes<lb break="no" ed="#P" n="87"/>tum videtur. Illud vero prius ex generalitate
+          <lb ed="#P" n="88"/>verborum videtur fieri verisimile, et quia non
+          <lb ed="#P" n="89"/>repugnat illam concessionem esse simul quasi
+          <lb ed="#P" n="90"/>reflexivam in seipsam, nec est major ratio
+          <lb ed="#P" n="91"/>cur aliorum indultorum defectus suppleat
+          <lb ed="#P" n="92"/>quam suos. Sed huic expositioni obstat 
+          relati<lb break="no" ed="#P" n="93"/>vum illud in eisdem : nam prius 
+          commemo<lb break="no" ed="#P" n="94"/>rantur privilegia confirmata et renovata, et
+          <lb ed="#P" n="95"/>postea supplentur defectus ; et sicut hoc 
+          ulti<lb break="no" ed="#P" n="96"/>mum indultum confirmans praecedentia non
+          <lb ed="#P" n="97"/>confirmat seipsum , ita supplendo defectus
+          <lb ed="#P" n="98"/>praecedentium, non supplet suos, si qui forte
+          <lb ed="#P" n="99"/>in ipso committuntur. Dices non posse 
+          eftica<lb break="no" ed="#P" n="100"/>citer supplere defectus praecedentium , nisi
+          <lb ed="#P" n="101"/>suppleat suos. Respondeo ad praesentem 
+          con<lb break="no" ed="#P" n="102"/>cessionem non pertinere, supplere suos 
+          defec<lb break="no" ed="#P" n="103"/>tus , sed cavere illos ne interveniant , et hoc
+          <lb ed="#P" n="104"/>modo posse efficaciter supplere defectus 
+          prae<lb break="no" ed="#P" n="105"/>cedentium, cavendo suos. Imo non videntur
+          <lb ed="#P" n="106"/>posse suppleri defectus qui nondum sunt 
+          com<lb break="no" ed="#P" n="107"/>missi, licet possint tolli impedimenta, ut 
+          cen<lb break="no" ed="#P" n="108"/>surae, et similia, vel dispensari in aliquibus
+          <lb ed="#P" n="109"/>circumstantiis alioqui necessariis, ut ibi non
+          <lb ed="#P" n="110"/>requirantur, nec omissio earum sit defectus,
+          <pb ed="#P" n="309"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quod per alias clausulas fieri solet, et non
+          <lb ed="#P" n="2"/>per illam, et ita verius videtur illa verba 
+          so<lb break="no" ed="#P" n="3"/>Ium ad praecedentia privilegia referri.
+        </p>
+        <p xml:id="szdleg-q76599-d1e1170">
+          <lb ed="#P" n="4"/>11. De forma. et vi verborum clausule 
+          pre<lb break="no" ed="#P" n="5"/>dicta. — Ultimo, est in illa clausula 
+          conside<lb break="no" ed="#P" n="6"/>randa forma et vis verborum, ut ejus effectus
+          <lb ed="#P" n="7"/>antelligatur. Nam interdum adeo limitantur
+          <lb ed="#P" n="8"/>illa verba, ut non extendantur ad privilegia,
+          <lb ed="#P" n="9"/>ut in Bullis Gregorii XIII : Quando 
+          fructuo<lb break="no" ed="#P" n="10"/>sius, et Ascendente Domino, confirmationis
+          <lb ed="#P" n="11"/>instituti Societatis , cum prius nominasset
+          <lb ed="#P" n="12"/>constitutiones , statuta , privilegia, 
+          indul<lb break="no" ed="#P" n="13"/>ta, etc., eaque omnia confirmasset, postea 
+          li<lb break="no" ed="#P" n="14"/>mitate subdit : S'upplentes omnes juris et facti
+          <lb ed="#P" n="15"/>defectus, si qui intervenerint in praedictis 
+          con<lb break="no" ed="#P" n="16"/>stitutionibus et statutis. Ubi constat 
+          supple<lb break="no" ed="#P" n="17"/>mentum hoc non extendi ad privilegia. At
+          <lb ed="#P" n="18"/>Gregor. XIV generalius dixit : S qui 
+          inter<lb break="no" ed="#P" n="19"/>venerint in eisdem, plane referens omnia quae
+          <lb ed="#P" n="20"/>supra enarraverat. Et eodem modo locutus
+          <lb ed="#P" n="21"/>est S. D. N. Paulus V, et similia habentur in
+          <lb ed="#P" n="22"/>Bulla Pauli IV anni 1561, in qua privilegia
+          <lb ed="#P" n="23"/>Minorum confirmantur. Sixtus autem V, 
+          con<lb break="no" ed="#P" n="24"/>firmando privilegia Minorum, adjecit : 
+          Sup<lb break="no" ed="#P" n="25"/>plentes omnes et singulos defectus juris et
+          <lb ed="#P" n="26"/>facti, ac solemnitatum etiam, de juris 
+          necessi<lb break="no" ed="#P" n="27"/>tate aut alias quomodolibet reguisitarum, 
+          for<lb break="no" ed="#P" n="28"/>san omissarum, et alios quoscumque defectus,
+          <lb ed="#P" n="29"/>si qui forsitan intervenerint im eisdem. Quae
+          <lb ed="#P" n="30"/>verba specie tenus videntur majorem 
+          conces<lb break="no" ed="#P" n="31"/>sionem continere, re tamen vera in substantia
+          <lb ed="#P" n="32"/>non continent.
+        </p>
+        <p xml:id="szdleg-q76599-d1e1235">
+          <lb ed="#P" n="33"/>12. Defectus per surreptionem commaissi
+          <lb ed="#P" n="34"/>non supplentur. — Ab ordinario jwre et stylo
+          <lb ed="#P" n="35"/>non receditur sine majori specificatione. —
+          <lb ed="#P" n="36"/>Certum est enim, per omnia haec verba 
+          im<lb break="no" ed="#P" n="37"/>primis non suppleri naturales defectus ex
+          <lb ed="#P" n="38"/>jure naturae repugnantes valori actus, ut in
+          <lb ed="#P" n="39"/>simili tradit Hostiens., in c. 1 de Transact.,
+          <lb ed="#P" n="40"/>et Innoc., in c. Sciscitatis, de Rescript., ubi
+          <lb ed="#P" n="41"/>Felin., n. 4, plures refert. Et ratio est clara,
+          <lb ed="#P" n="42"/>quia talis defectus suppleri non potest; imo,
+          <lb ed="#P" n="43"/>licet de facto posset, si non juste possit, non
+          <lb ed="#P" n="44"/>est credendum suppleri, quia princeps 
+          cense<lb break="no" ed="#P" n="45"/>tur tantum ea concedere quae juste potest, ut
+          <lb ed="#P" n="46"/>recte Hostiens. supra. Quapropter etiam 
+          de<lb break="no" ed="#P" n="47"/>fectus per surreptionem commissi non 
+          sup<lb break="no" ed="#P" n="48"/>plentur, ut supra de confirmatione ex certa
+          <lb ed="#P" n="49"/>scientia dictum est. Nec denique substantialis
+          <lb ed="#P" n="50"/>defectus per dolum commissus, ut notavit
+          <lb ed="#P" n="51"/>Hostiens., dicto c. 1, et sumitur ex eodem
+          <lb ed="#P" n="52"/>textu ibi, incuria, vel imperitin, ev idem
+          <lb ed="#P" n="53"/>significant alii Pontifices cum confirmant
+          <lb ed="#P" n="54"/>privilegia, et addunt illam clausulam, 
+          sup<lb break="no" ed="#P" n="55"/>plentem defectus sub dubio et sub conditione,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>si fortasse intervenerunt. Unde neque per
+          <lb ed="#P" n="57"/>verba Sixti tales effectus supplentur ; tum
+          <lb ed="#P" n="58"/>quia forma verborum est eadem quoad 
+          mo<lb break="no" ed="#P" n="59"/>dum loquendi sub conditione et dubio de 
+          de<lb break="no" ed="#P" n="60"/>fectibus, si forsam intervenerunt, utique sine
+          <lb ed="#P" n="61"/>dolo, et surreptione; tum etiam quia similis
+          <lb ed="#P" n="62"/>clausula non supplet falsitatem, vel 
+          fraudu<lb break="no" ed="#P" n="63"/>lentam taciturnitatem, ut supra ex Panormit.
+          <lb ed="#P" n="64"/>et aliis vidimus, et plures refert in simili 
+          San<lb break="no" ed="#P" n="65"/>ci., lib. 8 de Matr., disp. 24, n. 6. Et in 
+          eo<lb break="no" ed="#P" n="66"/>dem sensu dixit Martin. Lauden., tract. de
+          <lb ed="#P" n="67"/>Privileg., quaest. 3, per hujusmodi verba 
+          sup<lb break="no" ed="#P" n="68"/>pleri ea quae sunt juris, non quae sunt facti,
+          <lb ed="#P" n="69"/>ex Specul., tit. de Legat., S Nunc 
+          ostenden<lb break="no" ed="#P" n="70"/>dun, verb. Decimo octavo; tum denique quia
+          <lb ed="#P" n="71"/>ab ordinario jure et stylo non receditur sine
+          <lb ed="#P" n="72"/>majori specificatione et declaratione. Unde
+          <lb ed="#P" n="73"/>non nego quin aliquando possint verba 
+          clau<lb break="no" ed="#P" n="74"/>sulae esse tam ampla, ut etiam defectus 
+          prae<lb break="no" ed="#P" n="75"/>dictos suppleant ; oportet tamen ut expresse
+          <lb ed="#P" n="76"/>id significent, ut supra de confirmatione 
+          dixi<lb break="no" ed="#P" n="77"/>mus, de qua refert mirabile exemplum 
+          Em<lb break="no" ed="#P" n="78"/>man. hRoder., dicta q. 8, a. 15, in fine, quod
+          <lb ed="#P" n="79"/>in eo videri potest.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 23</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 23</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="317"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q79741"><!-- l8c23 -->
+        <head xml:id="szdleg-q79741-Hd1e101">Caput 23</head>
+        <head xml:id="szdleg-q79741-Hd1e103" type="question-title">Quem efeectum possit habere privilegium, ut lex est.</head>
+        <p xml:id="szdleg-q79741-d1e106">
+          <lb ed="#P" n="21"/>CAPUT XXII.
+          <lb ed="#P" n="22"/>QUEM EFEECTUM POSSIT HABERE PRIVILEGIUM, UT
+          <lb ed="#P" n="23"/>LEX EST.
+        </p>
+        <p xml:id="szdleg-q79741-d1e115">
+          <lb ed="#P" n="24"/>1. Circa hunc privilegii effectum, unum
+          <lb ed="#P" n="25"/>possumus ex supra dictis supponere, et duo
+          <lb ed="#P" n="26"/>alia inquirere et explicare. Supponimus itaque
+          <lb ed="#P" n="27"/>privilegium, ut habet rationem legis, obligare
+          <lb ed="#P" n="28"/>alios ad quos id potest pertinere, ut 
+          privilegia<lb break="no" ed="#P" n="29"/>rio suum servent privilegium; nam sine hac
+          <lb ed="#P" n="30"/>obligatione inefficax esset et inutilis privilegii
+          <lb ed="#P" n="31"/>concessio. Ideoque fere in omnibus indultis
+          <lb ed="#P" n="32"/>privilegiorum solet hoc praeceptum imponi
+          <lb ed="#P" n="33"/>omnibus judicibus, vel aliis quibus incumbere
+          <lb ed="#P" n="34"/>potest observantia privilegii. Et quamvis non
+          <lb ed="#P" n="35"/>ita expresse poneretur, ex natura rei sequitur
+          <lb ed="#P" n="36"/>haec obligatio, supposita validitate privilegii,
+          <lb ed="#P" n="37"/>quia confert jus privilegiario; ratio autem
+          <lb ed="#P" n="38"/>justitiae postulat ut unicuique jus suum 
+          serve<lb break="no" ed="#P" n="39"/>tur.
+        </p>
+        <p xml:id="szdleg-q79741-d1e152">
+          <lb ed="#P" n="40"/>2. An gaudeat aliquis privilegio suo contra
+          <lb ed="#P" n="41"/>pariter privilegiatum.—Nota ad resolutionem.
+          <lb ed="#P" n="42"/>— Dubitari autem potest, primo, an haec 
+          obli<lb break="no" ed="#P" n="43"/>gatio etiam cadat in alium pariter 
+          privilegia<lb break="no" ed="#P" n="44"/>tum, quod alias quaeri solet, an gaudeat 
+          ali<lb break="no" ed="#P" n="45"/>quis privilegio suo contra pariter 
+          privilegia<lb break="no" ed="#P" n="46"/>tum : haec enim duo vel in idem coincidunt,
+          <lb ed="#P" n="47"/>vel se necessario consequuntur ; nam si 
+          privi<lb break="no" ed="#P" n="48"/>legium valet contra pariter privilegiatum ,
+          <lb ed="#P" n="49"/>obligat illum ad servandum alteri jus suum;
+          <lb ed="#P" n="50"/>si autem non valet contra illum, illum non
+          <lb ed="#P" n="51"/>obligabit. Ut ergo utrumque breviter 
+          resolva<lb break="no" ed="#P" n="52"/>mus, advertimus duobus modis posse duos dici
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>pariter privilegiatos : uno modo, propter 
+          so<lb break="no" ed="#P" n="54"/>lam similitudinem et aequalitatem 
+          privilegio<lb break="no" ed="#P" n="55"/>rum, ut si religio Minorum dicatur aeque 
+          pri<lb break="no" ed="#P" n="56"/>vilegiata religioni Praedicatorum, et e 
+          con<lb break="no" ed="#P" n="57"/>verso; vel duo nobiles quoad immunitates
+          <lb ed="#P" n="58"/>quae illis ratione nobilitatis conceduntur, et sic
+          <lb ed="#P" n="59"/>de aliis. Alio modo dici possunt aliqui pariter
+          <lb ed="#P" n="60"/>privilegiati, respective et cum oppositione
+          <lb ed="#P" n="61"/>mutua in ordine ad usum ejusdem privilegii,
+          <lb ed="#P" n="62"/>ut si unus habet privilegium ad exigendum,
+          <lb ed="#P" n="63"/>et alius ad non solvendum; vel si unus habet
+          <lb ed="#P" n="64"/>privilegium, ut propter delictum incarcerari
+          <lb ed="#P" n="65"/>aut torqueri non possit, et alius habet, ut 
+          qui<lb break="no" ed="#P" n="66"/>libet contra se delinquens incarceretur et 
+          tor<lb break="no" ed="#P" n="67"/>queatur; et haec posterior est propria et per
+          <lb ed="#P" n="68"/>se comparatio pariter privilegiatorum.
+        </p>
+        <p xml:id="szdleg-q79741-d1e221">
+          <lb ed="#P" n="69"/>3. Conclusio affirmativa. —Cum similitudo
+          <lb ed="#P" n="70"/>in privilegiis sit valde per accidens ad usum
+          <lb ed="#P" n="71"/>privilegii, ideo unus non potest impedire usum
+          <lb ed="#P" n="72"/>alterius. — Dico ergo primo : aequiparatio in
+          <lb ed="#P" n="73"/>privilegiis, propter solam similitudinem aut
+          <lb ed="#P" n="74"/>eequalitatem, non obstat quominus et 
+          privi<lb break="no" ed="#P" n="75"/>legiatus uti possit suo privilegio contra 
+          pari<lb break="no" ed="#P" n="76"/>ter privilegiatum, et hic teneatur illud 
+          ser<lb break="no" ed="#P" n="77"/>vare. Ita sumitur ex l. ultim., ff. Ex quibus
+          <lb ed="#P" n="78"/>caus. major., etc., ubi id notant Bartolus, et
+          <lb ed="#P" n="79"/>Baldus. Item Panormitanus, Felinus, et alii,
+          <lb ed="#P" n="80"/>quos refert et sequitur Covar. in regul. 
+          Pos<lb break="no" ed="#P" n="81"/>sessor, 2 p., S2, num. 4. Et exemplis 
+          decla<lb break="no" ed="#P" n="82"/>ratur. Nam, licet duae religiones aequales sint
+          <lb ed="#P" n="83"/>in privilegio, verbi gratia, non solvendi 
+          deci<lb break="no" ed="#P" n="84"/>mas, nihilominus una etiam contra aliam illo
+          <lb ed="#P" n="85"/>gaudebit, quia non tenebitur illas ei solvere;
+          <lb ed="#P" n="86"/>et e contrario haec tenebitur ab illa non 
+          exi<lb break="no" ed="#P" n="87"/>gere decimas, etiamsi contra alios habeat jus
+          <lb ed="#P" n="88"/>decimarum. Et similiter, licet aeque gaudeant
+          <lb ed="#P" n="89"/>privilegio, ut professus in tali religione non
+          <lb ed="#P" n="90"/>possit transire ad aliam, mutuo gaudent 
+          pri<lb break="no" ed="#P" n="91"/>vilegio contra se inyicem, et similiter 
+          tenen<lb break="no" ed="#P" n="92"/>tur sibi mutuo illud servare. Item, licet duo
+          <lb ed="#P" n="93"/>nobiles aeque gaudeant privilegio, ne propter
+          <lb ed="#P" n="94"/>debita incarcerentur, unus contra alium illo
+          <lb ed="#P" n="95"/>utetur, quia licet unus alteri sit debitor, non
+          <lb ed="#P" n="96"/>poterit incarcerari, nec ille qui est creditor
+          <lb ed="#P" n="97"/>posset juste id postulare, sed tenetur alteri
+          <lb ed="#P" n="98"/>privilegium servare. Sic etiam clericus 
+          obli<lb break="no" ed="#P" n="99"/>gatur servare privilegium canonis respectu
+          <lb ed="#P" n="100"/>clerici pariter privilegiati. Et alia exempla
+          <lb ed="#P" n="101"/>sumi possunt ex citatis auctoribus, et ex 
+          Ro<lb break="no" ed="#P" n="102"/>derico, 1 tom., quaestion. 9, art. 12. Ratio
+          <lb ed="#P" n="103"/>vero est, tum quia illa similitudo in 
+          privile<lb break="no" ed="#P" n="104"/>güs est valde per accidens ad usum privilegii,
+          <lb ed="#P" n="105"/>et ideo unum non potest impedire usum 
+          alte<lb break="no" ed="#P" n="106"/>rius, etiam circa similem privilegiatum, sicut
+          <lb ed="#P" n="107"/>eequalitas in potentia videndi non obstat quo-
+          <pb ed="#P" n="318"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>minus illam habens possit videre eum qui 
+          si<lb break="no" ed="#P" n="2"/>milem potentiam habet ; tum etiam quia 
+          pri<lb break="no" ed="#P" n="3"/>vilegium ad propriam immunitatem non 
+          ex<lb break="no" ed="#P" n="4"/>tenditur ad non servandam alteri 
+          immunita<lb break="no" ed="#P" n="5"/>tem, quia sunt res valde diversae, et a diversis
+          <lb ed="#P" n="6"/>non fit illatio; sic ergo privilegium ne 
+          pro<lb break="no" ed="#P" n="7"/>prius religiosus ad alium ordinem transeat,
+          <lb ed="#P" n="8"/>non est ad recipiendum religiosum alterius
+          <lb ed="#P" n="9"/>ordinis aequalis, et sic de aliis; tum denique
+          <lb ed="#P" n="10"/>quia hic usus privilegii non est contra 
+          pari<lb break="no" ed="#P" n="11"/>ter privilegiatum formaliter, sed tantum 
+          ma<lb break="no" ed="#P" n="12"/>terialiter, id est, contra personam habentem
+          <lb ed="#P" n="13"/>simile privilegium, non tamen quatenus illo
+          <lb ed="#P" n="14"/>uti potest, et ideo tale privilegium nihil 
+          con<lb break="no" ed="#P" n="15"/>fert ad usum alterius privilegii 
+          impedien<lb break="no" ed="#P" n="16"/>dum.
+        </p>
+        <p xml:id="szdleg-q79741-d1e347">
+          <lb ed="#P" n="17"/>4. Ampliatio conclusionis praedicte. — 
+          Am<lb break="no" ed="#P" n="18"/>pliatur haec assertio, ut locum habeat etiam in
+          <lb ed="#P" n="19"/>his qui gaudent privilegiis aliorum per 
+          com<lb break="no" ed="#P" n="20"/>municationem propriam seu per 
+          concessio<lb break="no" ed="#P" n="21"/>nem ad instar. Nam is qui per 
+          communicatio<lb break="no" ed="#P" n="22"/>nem privilegio fruitur, poterit illo uti etiam
+          <lb ed="#P" n="23"/>contra illum qui prius idem privilegium 
+          ha<lb break="no" ed="#P" n="24"/>buit, et fuit tanquam primum exemplar ejus.
+          <lb ed="#P" n="25"/>Ita observat Cordub. in Compend. Minor.,
+          <lb ed="#P" n="26"/>verb. Communicatio, in fine, et cum eo 
+          Ro<lb break="no" ed="#P" n="27"/>der., tom. 1, quaest. 55, a. 21. Et ratio est
+          <lb ed="#P" n="28"/>clara, quia illa communicatio est nova 
+          con<lb break="no" ed="#P" n="29"/>cessio ejusdem seu similis privilegi cum
+          <lb ed="#P" n="30"/>equalitate (ut supponimus); haec autem
+          <lb ed="#P" n="31"/>aequalitas non impedit usum privilegii contra
+          <lb ed="#P" n="32"/>alium aequalem, ut ostensum est; nec etiam
+          <lb ed="#P" n="33"/>obstare potest illa praerogativa (ut sic dicam)
+          <lb ed="#P" n="34"/>in antiquitate privilegii, seu in antecessione
+          <lb ed="#P" n="35"/>quoad primam obtentionem ejus. Nam per
+          <lb ed="#P" n="36"/>hoc nullum speciale jus acquiritur antiquiori
+          <lb ed="#P" n="37"/>privilegiario, nec datur exemptio qua possit
+          <lb ed="#P" n="38"/>non servare alteri privilegium illi 
+          commu<lb break="no" ed="#P" n="39"/>nicatum; ergo non minus ipse ad hoc 
+          obh<lb break="no" ed="#P" n="40"/>gatur alteri, quam e converso alter ipsi 
+          obh<lb break="no" ed="#P" n="41"/>getur.
+        </p>
+        <p xml:id="szdleg-q79741-d1e404">
+          <lb ed="#P" n="42"/>5. Secunda conclusio. — Major eaxplicatio
+          <lb ed="#P" n="43"/>pro modo loguendi. — Dico secundo : quando
+          <lb ed="#P" n="44"/>privilegiati concurrunt in privilegiis 
+          secun<lb break="no" ed="#P" n="45"/>dum oppositionem respectivam, tunc 
+          privile<lb break="no" ed="#P" n="46"/>giatus non gaudet suo privilegio contra 
+          pa<lb break="no" ed="#P" n="47"/>riter privilegiatum, et consequenter hic non
+          <lb ed="#P" n="48"/>tenetur alteri privilegium suum servare. In
+          <lb ed="#P" n="49"/>hoc sensu solet hoc pronuntiatum exponi, ut
+          <lb ed="#P" n="50"/>patet ex Covarr. supra, qui dicit esse 
+          com<lb break="no" ed="#P" n="51"/>mune axioma, et sumitur ex Auth. de Sanct.
+          <lb ed="#P" n="52"/>Episc.. S Sed haec praesenti, et ex lege Verum,
+          <lb ed="#P" n="53"/>S ultim., ex l. sequent., ff. de Minor.; et 
+          de<lb break="no" ed="#P" n="54"/>claratur exemplis supra positis, et similibus.
+          <lb ed="#P" n="55"/>Nam si quis habet privilegium ne intra tan-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tum tempus cogi possit, non poterit creditor
+          <lb ed="#P" n="57"/>contra talem debitorem suo privilegio uti, etc.
+          <lb ed="#P" n="58"/>hatio vero est, quia tunc concurrunt duo 
+          pri<lb break="no" ed="#P" n="59"/>vilegia, quorum unum alteri resistit, et ideo
+          <lb ed="#P" n="60"/>non potest sequi usus unius contra alium,
+          <lb ed="#P" n="61"/>sicut philosophi dicunt , ad proportionem
+          <lb ed="#P" n="62"/>eequalitatis non sequi actionem. Quamvis 
+          au<lb break="no" ed="#P" n="63"/>tem res intenta per hanc regulam sic 
+          expo<lb break="no" ed="#P" n="64"/>sitam vera sit, nihilominus in modo loquendi
+          <lb ed="#P" n="65"/>potest quis non immerito dubitare. Quia tunc
+          <lb ed="#P" n="66"/>revera non prohibetur quis uti suo privilegio
+          <lb ed="#P" n="67"/>contra pariier privilegiatum, sed contra magis
+          <lb ed="#P" n="68"/>privilegiatum, quia ibi concurrunt duo 
+          privi<lb break="no" ed="#P" n="69"/>legia quasi contraria, quia tuum, verbi 
+          gra<lb break="no" ed="#P" n="70"/>tia, est ad imponendum mihi onus, et meum
+          <lb ed="#P" n="71"/>ne imponi possit : ergo ut tu non possis uti
+          <lb ed="#P" n="72"/>privilegio tuo contra me, necesse est ut meum
+          <lb ed="#P" n="73"/>privilegium speciale deroget tuo generah:
+          <lb ed="#P" n="74"/>ergo respective, et secundum oppositionem,
+          <lb ed="#P" n="75"/>ego sum magis privilegiatus, et non tantum
+          <lb ed="#P" n="76"/>aequaliter. Et patet a contrario, quia tunc ego
+          <lb ed="#P" n="77"/>utor meo privilegio contra te, impediendo ne
+          <lb ed="#P" n="78"/>contra me tuo privilegio utaris; ergo vel tunc
+          <lb ed="#P" n="79"/>deficit regula quoad hanc partem, quia jam
+          <lb ed="#P" n="80"/>privilegiatus gaudet privilegio suo contra 
+          pa<lb break="no" ed="#P" n="81"/>riter privilegiatum, et sic a proportione 
+          aequa<lb break="no" ed="#P" n="82"/>Iitatis sequetur actio, vel certe hie non est
+          <lb ed="#P" n="83"/>tantum aequalis, sed superior in privilegio ; et
+          <lb ed="#P" n="84"/>consequenter alter non est pariter, sed minus
+          <lb ed="#P" n="85"/>privilegiatus.
+        </p>
+        <p xml:id="szdleg-q79741-d1e504">
+          <lb ed="#P" n="86"/>6. Quid si utriusque privilegium st 
+          gene<lb break="no" ed="#P" n="87"/>rale, et neutrum alteri empresse deroget. — At
+          <lb ed="#P" n="88"/>enim, quando de re constat, non est de modo
+          <lb ed="#P" n="89"/>loquendi contendendum, sed verus sensus 
+          lo<lb break="no" ed="#P" n="90"/>cutionis explicandus. Itaque verum quidem
+          <lb ed="#P" n="91"/>est in hujusmodi eventu concurrere duo 
+          pri<lb break="no" ed="#P" n="92"/>vilegia quasi contraria, vel in suis actibus vel
+          <lb ed="#P" n="93"/>quasi objectis contradictionem includentia, ut
+          <lb ed="#P" n="94"/>ex dictis satis constat. Unde necesse est ut
+          <lb ed="#P" n="95"/>unum praevaleat contra alterum, ut possit ejus
+          <lb ed="#P" n="96"/>actionem impedire, sive illud quod praevalet
+          <lb ed="#P" n="97"/>dicatur sub ea ratione majus, quatenus alteri
+          <lb ed="#P" n="98"/>derogat, sive dicatur par, quia non valet ad
+          <lb ed="#P" n="99"/>agendum in aliud, sed tantum ad 
+          resisten<lb break="no" ed="#P" n="100"/>dum. Ex quo etiam sequitur, ad usum illius
+          <lb ed="#P" n="101"/>regulae, necessarium esse conditiones 
+          privile<lb break="no" ed="#P" n="102"/>giorum spectare, ut constet, quod privilegium
+          <lb ed="#P" n="103"/>praevaleat contra alterum, vel possit illi 
+          resis<lb break="no" ed="#P" n="104"/>tere, quod infra circa mutationem 
+          privilegio<lb break="no" ed="#P" n="105"/>rum tractandum est. Ut, verbi gratia, si unum
+          <lb ed="#P" n="106"/>sit generale et aliud speciale, hoc praevalet,
+          <lb ed="#P" n="107"/>nisi ei sit per specialem clausulam 
+          deroga<lb break="no" ed="#P" n="108"/>tum', tunc enim erit quasi ablatum 
+          privile<lb break="no" ed="#P" n="109"/>gium. Si vero utrumque privilegium sit 
+          gene<lb break="no" ed="#P" n="110"/>rale, et neutrum alteri expresse deroget, opor-
+          <pb ed="#P" n="319"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tebit inspicere, quod sit antiquius et dignius,
+          <lb ed="#P" n="2"/>vel a majori potestate procedens; et idem
+          <lb ed="#P" n="3"/>cum proportione est si utrumque sit speciale,
+          <lb ed="#P" n="4"/>Juxta principia et regulas infra tractandas de
+          <lb ed="#P" n="5"/>privilegiis contrariis, quomodo componi 
+          pos<lb break="no" ed="#P" n="6"/>sint, aut quod debeat contra alterum 
+          praeva<lb break="no" ed="#P" n="7"/>lere. Unde illud axioma : Privilegiatus non
+          <lb ed="#P" n="8"/>gaudet privilegio suo contra pariter 
+          privile<lb break="no" ed="#P" n="9"/>giatum, hunc sensum habet, privilegium non
+          <lb ed="#P" n="10"/>habere effectum contra aliud privilegium per
+          <lb ed="#P" n="11"/>quod derogatur ; per quae verba clarius et
+          <lb ed="#P" n="12"/>proprius idem explicatur, et cum eadem 
+          pro<lb break="no" ed="#P" n="13"/>portione verum est, privilegium, ut habet 
+          ra<lb break="no" ed="#P" n="14"/>üonem legis, non obligare eum qui per aliud
+          <lb ed="#P" n="15"/>privilegium praevalens exemptus est, seu a
+          <lb ed="#P" n="16"/>tali obligatione exemptus, quae limitatio, seu
+          <lb ed="#P" n="17"/>exceptio non est in praesenti specialis, sed in
+          <lb ed="#P" n="18"/>omni lege humana cum proportione locum
+          <lb ed="#P" n="19"/>habet, ut per se constat.
+        </p>
+        <p xml:id="szdleg-q79741-d1e606">
+          <lb ed="#P" n="20"/>7. Duplex casus obligationis privilegiarii,
+          <lb ed="#P" n="21"/>attendi suo privilegio. — Aliud dubium circa
+          <lb ed="#P" n="22"/>hanc partem est, an privilegium, ut est lex,
+          <lb ed="#P" n="23"/>interdum obliget etiam ipsum privilegiarium.
+          <lb ed="#P" n="24"/>Nam quod nemo cogendus sit uti privilegio
+          <lb ed="#P" n="25"/>suo, in jure cautum videtur, c. Si de terra,
+          <lb ed="#P" n="26"/>de Priv.; et ratio reddi potest, quia quod 
+          ali<lb break="no" ed="#P" n="27"/>cui concessum est in favorem non debet in
+          <lb ed="#P" n="28"/>ejus grayamen verti, ut est regula juris in 6;
+          <lb ed="#P" n="29"/>magnum autem esset gravamen si cogeretur
+          <lb ed="#P" n="30"/>quis suo privilegio uti. Respondeo in duobus
+          <lb ed="#P" n="31"/>casibus obligari privilegiarium ad utendum
+          <lb ed="#P" n="32"/>privilegio, nunquam tamen, formaliter 
+          lo<lb break="no" ed="#P" n="33"/>quendo, obiigari suo privilegio, ut suum est,
+          <lb ed="#P" n="34"/>ad usum seu observantiam ejus. Probo 
+          sin<lb break="no" ed="#P" n="35"/>gula. d
+        </p>
+        <p xml:id="szdleg-q79741-d1e643">
+          <lb ed="#P" n="36"/>8. Primus enim casus hujus obligationis
+          <lb ed="#P" n="37"/>est. quando aliquis non potest renuntiare 
+          pri<lb break="no" ed="#P" n="38"/>vilegio suo, ut de privilegio fori clericorum,
+          <lb ed="#P" n="39"/>vel canonis, et similibus supra dictum est.
+          <lb ed="#P" n="40"/>Tunc enim si occurrat casus in quo vel 
+          ceden<lb break="no" ed="#P" n="41"/>dum sit privilegio, vel illo utendum, ut saepe
+          <lb ed="#P" n="42"/>occurrere potest, obligabitur quis uti 
+          privile<lb break="no" ed="#P" n="43"/>gio, ne illi cedat; imo cum non possit valide
+          <lb ed="#P" n="44"/>cedere, licet velit, cogitur illo uti, nec potest
+          <lb ed="#P" n="45"/>sine peccato consentire ut contra illud fiat, et
+          <lb ed="#P" n="46"/>hoc est obligari ad usum seu observantiam
+          <lb ed="#P" n="47"/>ejus. Alter casus hujus obligationis est, 
+          quo<lb break="no" ed="#P" n="48"/>ties per privilegium fit actus licitus qui antea
+          <lb ed="#P" n="49"/>non erat, vel tollitur obligatio quae antea erat;
+          <lb ed="#P" n="50"/>nam tunc superveniente alia lege praecipiente
+          <lb ed="#P" n="51"/>talem actum, poterit quis obligari ad actum
+          <lb ed="#P" n="52"/>per privilegium concessum. Exemplis patet:
+          <lb ed="#P" n="53"/>nam qui habet privilegium audiendi Missam
+          <lb ed="#P" n="54"/>tempore interdicti, obligabitur audire illam
+          <lb ed="#P" n="55"/>diebus festis, ex praecepto Ecclesise, a cujus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>observantia excusaretur si tale privilegium
+          <lb ed="#P" n="57"/>non haberet, quia non erat ille actus licitus;
+          <lb ed="#P" n="58"/>postquam vero per privilegium factus est 
+          lici<lb break="no" ed="#P" n="59"/>tus. cessat excusatio, ut dixi in tomo 3 de
+          <lb ed="#P" n="60"/>Sacrament., disput. 88, sect. 6. Item conjux
+          <lb ed="#P" n="61"/>habens votum castitatis tenetur reddere 
+          debi<lb break="no" ed="#P" n="62"/>tum alteri conjugi petenti, quia non esset
+          <lb ed="#P" n="63"/>ill licitum negare, nam contra justitiam
+          <lb ed="#P" n="64"/>ageret ; et nihilominus si petens adulter 
+          fue<lb break="no" ed="#P" n="65"/>rit, uxor habens votum non tenebitur reddere
+          <lb ed="#P" n="66"/>et consequen:er obligabitur non reddere, sed
+          <lb ed="#P" n="67"/>servare castitatem, quia, licet in casu adulterii
+          <lb ed="#P" n="68"/>sit privilegium innocentis ut non obligetur
+          <lb ed="#P" n="69"/>reddere debitum adultero petenti, posito tali
+          <lb ed="#P" n="70"/>privilegio, fit licita observatio voti castitatis,
+          <lb ed="#P" n="71"/>et ideo obligat praceptum servandi votum,
+          <lb ed="#P" n="72"/>ut optime docuit Sancius libro 9 de 
+          Matri<lb break="no" ed="#P" n="73"/>monio, disputatione sexta, numero 
+          decimo<lb break="no" ed="#P" n="74"/>quinto.
+        </p>
+        <p xml:id="szdleg-q79741-d1e733">
+          <lb ed="#P" n="75"/>9. Praeceptum latum a Capitulo obligat 
+          sin<lb break="no" ed="#P" n="76"/>gulos Capituli. — Ex his autem facile est 
+          pro<lb break="no" ed="#P" n="77"/>bare ultimam partem aesertionis. Nam in
+          <lb ed="#P" n="78"/>priori casu obligatio utendi privilegio est 
+          ra<lb break="no" ed="#P" n="79"/>tione totius communitatis, propter cujus 
+          com<lb break="no" ed="#P" n="80"/>mune bonum concessum est privilegium, et
+          <lb ed="#P" n="81"/>ita non tam cogitur quis servare privilegium
+          <lb ed="#P" n="82"/>suum, quam servare privilegium 
+          communita<lb break="no" ed="#P" n="83"/>tis, seu non laedere illam, prout graviter 
+          of<lb break="no" ed="#P" n="84"/>fenderetur, cedendo privilegio. Declaratur a
+          <lb ed="#P" n="85"/>simili. Nam praeceptum latum a Capitulo 
+          obli<lb break="no" ed="#P" n="86"/>gat singulos de Capitulo; ideoque quicumque
+          <lb ed="#P" n="87"/>illorum agens contra tale praeceptum peccat,
+          <lb ed="#P" n="88"/>non quia agit contra praeceptum suum, sed
+          <lb ed="#P" n="89"/>quia agit contra praeceptum communitatis. Ita
+          <lb ed="#P" n="90"/>ergo privilegium communitati concessum 
+          in<lb break="no" ed="#P" n="91"/>tuitu illius principaliter , communitatis est
+          <lb ed="#P" n="92"/>principaliter, et ideo, ut lex est, obligat 
+          sin<lb break="no" ed="#P" n="93"/>gulos de communitate, ut illo utantur, quando
+          <lb ed="#P" n="94"/>oportuerit, quia si contra illud agant, non
+          <lb ed="#P" n="95"/>suum tantum, sed communitatis privilegium
+          <lb ed="#P" n="96"/>violabunt. In posteriori vero casu obligatio ad
+          <lb ed="#P" n="97"/>actum per privilegium concessum non 
+          prove<lb break="no" ed="#P" n="98"/>nit ex lege privilegii, sed ex lege quae aliunde
+          <lb ed="#P" n="99"/>supponitur, ut ex praecepto Ecclesiae, aut voto;
+          <lb ed="#P" n="100"/>et ita formaliter loquendo subsistit semper
+          <lb ed="#P" n="101"/>regula, quod nemo cogitur uti privilegio suo,
+          <lb ed="#P" n="102"/>utique quatenus lex privata est ad suam 
+          pe<lb break="no" ed="#P" n="103"/>culiarem utilitatem spectans. Et nullum est
+          <lb ed="#P" n="104"/>inconveniens quod, supposito privilegio, possit
+          <lb ed="#P" n="105"/>aliunde supervenire alia obligatio, quia 
+          privi<lb break="no" ed="#P" n="106"/>legium facit quamdam mutationem in 
+          mate<lb break="no" ed="#P" n="107"/>ria, faciendo ut sit licitum quod antea non
+          <lb ed="#P" n="108"/>erat, qua mutatione facta, obligatio aliunde
+          <lb ed="#P" n="109"/>proveniens per accidens est, et non potest 
+          ra<lb break="no" ed="#P" n="110"/>tione privilegii impediri.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

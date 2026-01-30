@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 25</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 25</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="118"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q29706"><!-- l6c25 -->
+        <head xml:id="szdleg-q29706-Hd1e101">Caput 25</head>
+        <head xml:id="szdleg-q29706-Hd1e103" type="question-title">Quando et ex quibus causis possit lex abrogari.</head>
+        <p xml:id="szdleg-q29706-d1e106">
+          <lb ed="#P" n="44"/>CAPUT XXV.
+          <lb ed="#P" n="45"/>QUANDO ET EX QUIBUS CAUSIS POSSIT LEX 
+          ABRO<lb break="no" ed="#P" n="46"/>GARI.
+        </p>
+        <p xml:id="szdleg-q29706-d1e115">
+          <lb ed="#P" n="47"/>1. Declaravimus relaxationem legis, quae
+          <lb ed="#P" n="48"/>per dispensationem ex parte fit; solum 
+          super<lb break="no" ed="#P" n="49"/>est dicendum de mutatione, quae per 
+          abroga<lb break="no" ed="#P" n="50"/>Uonem fit: sic enim appellari solet in jure 
+          to<lb break="no" ed="#P" n="51"/>tius legis ablatio, l. Derogatur, tf. de Verbor.
+          <lb ed="#P" n="52"/>signific. Distinguunt autem aliqui inter abro-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>gationem et irritationem legis, ut irritatio sit,
+          <lb ed="#P" n="54"/>quando tota lex impeditur, ne vires obiigandi
+          <lb ed="#P" n="55"/>accipiat priusquam plene constituta sit; ut, si
+          <lb ed="#P" n="56"/>lex postulans confirmationem principis ut 
+          obli<lb break="no" ed="#P" n="57"/>gare possit, ab eo non confirmetur, vel si lex
+          <lb ed="#P" n="58"/>lata a principe, a populo non acceptetur, juxta
+          <lb ed="#P" n="59"/>opinionem existimantem acceptationem esse
+          <lb ed="#P" n="60"/>necessariam. Sed hoc posterius exemplum 
+          fal<lb break="no" ed="#P" n="61"/>sum supponit: nam lex principis ante 
+          accepta<lb break="no" ed="#P" n="62"/>tionem populi est vera lex, et illa mutaiio per
+          <lb ed="#P" n="63"/>resistentiam subditorum pertinet ad 
+          mutatio<lb break="no" ed="#P" n="64"/>nem seu abrogationem per consuetudinem, de
+          <lb ed="#P" n="65"/>qua in libro sequenti dicturi sumus. Altera 
+          ve<lb break="no" ed="#P" n="66"/>ro abjectio seu non admissio legis per 
+          resis<lb break="no" ed="#P" n="67"/>tentiam principis non est propria mutatio 
+          le<lb break="no" ed="#P" n="68"/>gis, quia non mutatur proprie nisi quod 
+          prae<lb break="no" ed="#P" n="69"/>existit, imo nec irritari proprie dicitur, nisi
+          <lb ed="#P" n="70"/>quod jam erat ratum et validum, sicut alas
+          <lb ed="#P" n="71"/>de voto diximus, et ita non acceptatio legis in
+          <lb ed="#P" n="72"/>illo casu non est legis mutatio; quod si 
+          dica<lb break="no" ed="#P" n="73"/>tur irritatio quasi antecedens, non est de voce
+          <lb ed="#P" n="74"/>contendendum, nec enim est inusitata illa 
+          si<lb break="no" ed="#P" n="75"/>gnificatio vocis, ut constat ex dictis de lege
+          <lb ed="#P" n="76"/>irritante. Nullam vero specialem 
+          explicatio<lb break="no" ed="#P" n="77"/>nem in praesenti requirit, quia solum est 
+          quae<lb break="no" ed="#P" n="78"/>dam negatio institutionis legis, quae erit valida
+          <lb ed="#P" n="79"/>si ex sufliciente potestate fiat, et justa si 
+          cau<lb break="no" ed="#P" n="80"/>sam habeat honestam, et ad bonum commune
+          <lb ed="#P" n="81"/>pertinentem. Solum ergo nunc agimus de 
+          pro<lb break="no" ed="#P" n="82"/>pria legis abrogatione. Advertimus autem, 
+          li<lb break="no" ed="#P" n="83"/>cet abrogatio proprie dicatur de integra legis
+          <lb ed="#P" n="84"/>ablatione, sub illa tamen nunc comprehendi
+          <lb ed="#P" n="85"/>illam diminutionem legis, per quam in 
+          perpe<lb break="no" ed="#P" n="86"/>tuum lex tollitur, et licet non in totum, sed
+          <lb ed="#P" n="87"/>quoad aliquam partem ; illa enim non est 
+          pro<lb break="no" ed="#P" n="88"/>prie dispensatio, ut in superioribus tetigi, sed
+          <lb ed="#P" n="89"/>dici solet derogatio. Verumtamen servata 
+          pro<lb break="no" ed="#P" n="90"/>portione eamdem habet rationem et doctrinam
+          <lb ed="#P" n="91"/>qnam integra legis ablatio, et ideo sub 
+          abro<lb break="no" ed="#P" n="92"/>gatione nunc comprehenditur.
+        </p>
+        <p xml:id="szdleg-q29706-d1e219">
+          <lb ed="#P" n="93"/>2. Conclusio: Lea debet esse justa, 
+          rationa<lb break="no" ed="#P" n="94"/>bilis, etc.—Optima ratio dubitandi.—Ex dictis
+          <lb ed="#P" n="95"/>ergo concluditur legem tunc abrogari quando
+          <lb ed="#P" n="96"/>supponitur esse vera lex, et permanens toto
+          <lb ed="#P" n="97"/>tempore, priusquam abrogetur, et 
+          consequen<lb break="no" ed="#P" n="98"/>ter debet etiam supponi justa, rationabilis et
+          <lb ed="#P" n="99"/>utilis: nam si prius fiat injusta, nociva, aut
+          <lb ed="#P" n="100"/>inutilis, prius per se desinet esse quam 
+          abro<lb break="no" ed="#P" n="101"/>getur et ita jam non habebit locum abrogatio,
+          <lb ed="#P" n="102"/>quia cessatio legis distinctus modus desitionis
+          <lb ed="#P" n="103"/>est, ut supra vidimus. Hinc ergo sumi potest
+          <lb ed="#P" n="104"/>ratio dubitandi quomodo sit possibilis valida
+          <lb ed="#P" n="105"/>et justa abrogatio legis : nam si lex quae 
+          sup<lb break="no" ed="#P" n="106"/>ponitur non est justa, nec utilis, ablatio ejus
+          <lb ed="#P" n="107"/>non erit abrogatio juris, sed facti, vel potius
+          <pb ed="#P" n="119"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>declaratio nullitatis legis; si vero sit justa,
+          <lb ed="#P" n="2"/>abrogatio erit iniqua. Quid enim magis 
+          ini<lb break="no" ed="#P" n="3"/>quum quam leger justam et utilem abolere?
+          <lb ed="#P" n="4"/>ergo consequenter etiam erit invalida: nam,
+          <lb ed="#P" n="5"/>sicut lex injusta non est lex, ita abrogatio 
+          in<lb break="no" ed="#P" n="6"/>justa nocere non debet communi bono, cum
+          <lb ed="#P" n="7"/>sit ex potestate data ad aedificationem, non ad
+          <lb ed="#P" n="8"/>destructionem. Dico vero potest ex D. Thoma,
+          <lb ed="#P" n="9"/>et aliis statim referendis, legem justam in uno
+          <lb ed="#P" n="10"/>tempore posse per temporum mutationem
+          <lb ed="#P" n="11"/>fieri injustam , et ideo illius abrogationem
+          <lb ed="#P" n="12"/>posse esse justam. Sed contra hoc est, quia, si
+          <lb ed="#P" n="13"/>mutatio temporis fecit legem injustam, jam
+          <lb ed="#P" n="14"/>non habebit locum abrogatio, sed per se 
+          desi<lb break="no" ed="#P" n="15"/>net lex, et ita nunquam erit ncecessaria, imo
+          <lb ed="#P" n="16"/>nec possibilis.
+        </p>
+        <p xml:id="szdleg-q29706-d1e294">
+          <lb ed="#P" n="17"/>3. Legem humanam valide et juste abrogari
+          <lb ed="#P" n="18"/>posse. — Nihilominus dicendum est primo,
+          <lb ed="#P" n="19"/>humanam legem interdum abrogari posse et
+          <lb ed="#P" n="20"/>valide et juste. Est certa et communis 
+          senten<lb break="no" ed="#P" n="21"/>tia, quam tradit D. Thomas 1. 2, quaest. 97,
+          <lb ed="#P" n="22"/>art. 1, et ibi omnes; et Sylvest., verb. Lez,
+          <lb ed="#P" n="23"/>quaest. 25; et ibi alii Summistae et juristae,
+          <lb ed="#P" n="24"/>quos refert et sequitur Covar. in cap. Alma
+          <lb ed="#P" n="25"/>mater . p. 2, in princip. Et sumitur ex 
+          Augus<lb break="no" ed="#P" n="26"/>tin., 1.1de Liber. arbitr., cap. 6, ubi hac 
+          ra<lb break="no" ed="#P" n="27"/>tione legem humanam vocat temporalem , quia,
+          <lb ed="#P" n="28"/>licet justa sit, pro temporum varietate mutari
+          <lb ed="#P" n="29"/>potest et debet. Sumitur etiam ex Aristotele,
+          <lb ed="#P" n="30"/>l. 2 Politic., cap. 6, ubi, agitata quaestione pro
+          <lb ed="#P" n="31"/>utraque parte, eam indecisam relinquere 
+          vi<lb break="no" ed="#P" n="32"/>detur ; nihilominus tamen absolute hoc sentit,
+          <lb ed="#P" n="33"/>licet indicare voluerit, hanc legum mutationem
+          <lb ed="#P" n="34"/>non debere esse frequentem. Idem tradit Plato,
+          <lb ed="#P" n="35"/>Dialog. 16, qui Civilis, seu de regno 
+          inscribi<lb break="no" ed="#P" n="36"/>tur, longe post medium, et Dialog. 6 de 
+          Legi<lb break="no" ed="#P" n="37"/>bus. Sumitur etiam ex utroque jure, l. unic.,
+          <lb ed="#P" n="38"/>c. de Caducis tollend., in princip., ubi fere
+          <lb ed="#P" n="39"/>omnes causae hujus mutationis attinguntur, et
+          <lb ed="#P" n="40"/>ex c.2, d. 14, et aliis qua statim afferemus.
+          <lb ed="#P" n="41"/>Denique sumitur ex Dei exemplo, qui legem
+          <lb ed="#P" n="42"/>suam abrogavit : si enim hoc potuit facere
+          <lb ed="#P" n="43"/>Deus immutabilis, propter hominum et 
+          tempo<lb break="no" ed="#P" n="44"/>rum mutationem, ut late expendit Augustinus
+          <lb ed="#P" n="45"/>contra Faust., multo magis id erit concessum
+          <lb ed="#P" n="46"/>hominibus. Atque hinc concluditur ratio 
+          asser<lb break="no" ed="#P" n="47"/>tionis : nam in lege humana inveniuntur 
+          om<lb break="no" ed="#P" n="48"/>nia principia mutationis; tum ex parte 
+          aucto<lb break="no" ed="#P" n="49"/>ris proximi, qui mutabilis est, et in intellectu,
+          <lb ed="#P" n="50"/>quia paulatim cognitionem acquirit, et in 
+          vo<lb break="no" ed="#P" n="51"/>luntate, quia finita et potentialis est ; tum ex
+          <lb ed="#P" n="52"/>parte actionum circa quas proxime versatur,
+          <lb ed="#P" n="53"/>quia nec sunt intrinsece malae, neque ita 
+          bo<lb break="no" ed="#P" n="54"/>nae, ut sint per se necessariae ad morum 
+          ho<lb break="no" ed="#P" n="55"/>nestatem ; et ideo lex humana non est hoc
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>capite immutabilis, sicut lex naturalis. Aliunde
+          <lb ed="#P" n="57"/>vero etiam quoad utilitatem, per mutationem
+          <lb ed="#P" n="58"/>temporum possunt hujusmodi actiones variari:
+          <lb ed="#P" n="59"/>nam quae uno tempore utiles sunt, vel 
+          expe<lb break="no" ed="#P" n="60"/>diunt, in alio fiunt inutiles aut nimis graves.
+          <lb ed="#P" n="61"/>Denique etiam ex parte subditorum, quibus
+          <lb ed="#P" n="62"/>leges humanae imponuntur, habet locum haec
+          <lb ed="#P" n="63"/>mutatio, quia etiam ipsi homines mutabiles
+          <lb ed="#P" n="64"/>sunt, et propter morum vel aliarum rerum
+          <lb ed="#P" n="65"/>mntationem illis nunc non expediunt leges,
+          <lb ed="#P" n="66"/>quae antea expediebant : constat ergo hanc
+          <lb ed="#P" n="67"/>mutationem possibilem esse.
+        </p>
+        <p xml:id="szdleg-q29706-d1e409">
+          <lb ed="#P" n="68"/>4. Ut abrogatio legis justa sit et hicita, causa,
+          <lb ed="#P" n="69"/>propter bonum commnune necessaria est. — Ut
+          <lb ed="#P" n="70"/>autem explicemus quomodo possit esse justa,
+          <lb ed="#P" n="71"/>dicendum est secundo : ut lex humana juste
+          <lb ed="#P" n="72"/>ac licite abrogetur, necessarium est ex justa
+          <lb ed="#P" n="73"/>causa, propter commune bonum abrogari. Ita
+          <lb ed="#P" n="74"/>D. Thom. supra, et omnes, et tradit bene 
+          Pla<lb break="no" ed="#P" n="75"/>to, Dialog. 7 de Legibus, parum a principio.
+          <lb ed="#P" n="76"/>Ubi pro fundamento sumit, mutationem 
+          om<lb break="no" ed="#P" n="77"/>nibus in rebus, praeterquam in malis, esse 
+          pe<lb break="no" ed="#P" n="78"/>riculosissimam, et inde concludit maxime hoc
+          <lb ed="#P" n="79"/>esse verum in mutatione legis, et ideo magnam
+          <lb ed="#P" n="80"/>considerationem ad illam requirit, sicut etiam
+          <lb ed="#P" n="81"/>in Dialog. 6 late docuerat. Sumitur etiam ex
+          <lb ed="#P" n="82"/>cap. JVon debet, de Consanguin. et affinit., et
+          <lb ed="#P" n="83"/>ex cap. Alma mater, de Sentent. Excommun.,
+          <lb ed="#P" n="84"/>in 6, et ex l. 2, ff. de Constit. Princip., ubi
+          <lb ed="#P" n="85"/>wrgens necessitas vel magna utilitas 
+          postula<lb break="no" ed="#P" n="86"/>tur. Ratio vero est primo, ne contemnantur
+          <lb ed="#P" n="87"/>leges frequenti mutatione. Secundo, ait divus
+          <lb ed="#P" n="88"/>Thomas, quia consuetudine firmantur, et ideo
+          <lb ed="#P" n="89"/>nisi ita durent ut earum observatio, et 
+          consue<lb break="no" ed="#P" n="90"/>tudo fiat, et quasi habitus acquiratur, nunquam
+          <lb ed="#P" n="91"/>pro dignitate servabuntur. Postquam autem
+          <lb ed="#P" n="92"/>consuetudine firmatae sunt, non facile est ab
+          <lb ed="#P" n="93"/>honesta consuetudine recedendum, praesertim
+          <lb ed="#P" n="94"/>cum leges humanae esse debeant moribus et
+          <lb ed="#P" n="95"/>consuetudinibus accommodatae. Tertio, quia,
+          <lb ed="#P" n="96"/>sicut lex non debet poni nisi propter commune
+          <lb ed="#P" n="97"/>bonum, ita nec auferri, nam uterque est actus
+          <lb ed="#P" n="98"/>publieae potestatis et jurisdictionis, quae ad
+          <lb ed="#P" n="99"/>commune bonum ordinatur. Unde ita 
+          conclu<lb break="no" ed="#P" n="100"/>ditur : nam vel lex posita erat rationabilis, et
+          <lb ed="#P" n="101"/>ad commune bonum utilis, et in eo statu 
+          per<lb break="no" ed="#P" n="102"/>severabat, vel non; si primum, irrationabiliter
+          <lb ed="#P" n="103"/>tollitur, quia contra bonum commune fit; si
+          <lb ed="#P" n="104"/>secundum, jam intercedit causa justa ad legem
+          <lb ed="#P" n="105"/>tollendam.
+        </p>
+        <p xml:id="szdleg-q29706-d1e494">
+          <lb ed="#P" n="106"/>5. Duplex modus mutandi legem. — Unde
+          <lb ed="#P" n="107"/>intelligitur dupliciter posse fieri hanc 
+          muta<lb break="no" ed="#P" n="108"/>tionem. Primo, solum propter mutationem 
+          le<lb break="no" ed="#P" n="109"/>gislatoris, quae potest esse vel in sola voluntate,
+          <lb ed="#P" n="110"/>vel in intellectu. Quando est tantum ex parte
+          <pb ed="#P" n="120"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>solius voluntatis, regulariter irrationabilis est,
+          <lb ed="#P" n="2"/>ut statim dicam, quia negotium publicum, ut
+          <lb ed="#P" n="3"/>juste administretur, non tam voluntate quam
+          <lb ed="#P" n="4"/>ratione gubernari debet. Unde, nisi constiterit
+          <lb ed="#P" n="5"/>priorem voluntatem fuisse irrationabilem, non
+          <lb ed="#P" n="6"/>fit honeste mutatio; quando vero etiam 
+          dicta<lb break="no" ed="#P" n="7"/>men rationis mutatum est, potest esse mutatio
+          <lb ed="#P" n="8"/>legis justa, etiamsi in rebus nulla facta sit.
+          <lb ed="#P" n="9"/>Supponit tantum humanum defectum saepe 
+          in<lb break="no" ed="#P" n="10"/>culpabilem, quia homo non statim nec semper
+          <lb ed="#P" n="11"/>assequitur veritatem, praesertim practicam et
+          <lb ed="#P" n="12"/>prudentiae. Et ita seepe experientia ostendit 
+          le<lb break="no" ed="#P" n="13"/>gem non fuisse convenientem, etiamsi fuerit 
+          la<lb break="no" ed="#P" n="14"/>ta sine culpa, vel quia, si fuit injusta, lex 
+          igno<lb break="no" ed="#P" n="15"/>rantia invincibil lata est; vel quia, licet fuerit
+          <lb ed="#P" n="16"/>justa et reputata conveniens, postea 
+          experien<lb break="no" ed="#P" n="17"/>tia compertum est aliam magis expedire. Sic
+          <lb ed="#P" n="18"/>Concilium Tridentinum, sess. 24, cap.2 et 4
+          <lb ed="#P" n="19"/>de Reform. Matrimon., ad mutandum leges
+          <lb ed="#P" n="20"/>aliquas circa impedimenta matrimonii, moveri
+          <lb ed="#P" n="21"/>se dicit, quia experientia ostendit aliqua 
+          gra<lb break="no" ed="#P" n="22"/>via incommoda, quae ex prioribus legibus 
+          se<lb break="no" ed="#P" n="23"/>quebantur, quamvis mala non essent. 
+          Ali<lb break="no" ed="#P" n="24"/>quando vero fit mutatio in lege, etiamsi suo
+          <lb ed="#P" n="25"/>tempore justa, optima et utilissima fuerit,
+          <lb ed="#P" n="26"/>quia in rebus ipsis facta est mutatio, ratione
+          <lb ed="#P" n="27"/>cujus jam non expedit; et tunc fit justissime,
+          <lb ed="#P" n="28"/>et sine propria seu formali mutatione, seu
+          <lb ed="#P" n="29"/>contrarietate in judicio rationis, quia 
+          pru<lb break="no" ed="#P" n="30"/>denter judicatur aliquid esse conveniens uno
+          <lb ed="#P" n="31"/>tempore, et esse disconveniens in alio, mutatis
+          <lb ed="#P" n="32"/>rebus.
+        </p>
+        <p xml:id="szdleg-q29706-d1e581">
+          <lb ed="#P" n="33"/>6. Quae mutatio sufficit ut lem sit abroganda.
+          <lb ed="#P" n="34"/>—Non est autem necessarium hanc rerum 
+          mu<lb break="no" ed="#P" n="35"/>tationem tantam esse, ut legem effecerit aut
+          <lb ed="#P" n="36"/>injustam aut prorsus inutilem, sed satis est ut
+          <lb ed="#P" n="37"/>vel nimis rigorosa, vel minus utilis esse 
+          videa<lb break="no" ed="#P" n="38"/>tur ; seu, quod major fructus ex ejus 
+          revoca<lb break="no" ed="#P" n="39"/>dtione speretur, vel quod majora pericula aut
+          <lb ed="#P" n="40"/>mala illo modo evitentur. Et ita solvitur 
+          fa<lb break="no" ed="#P" n="41"/>cile ratio dubitandi in principio posita. Nam,
+          <lb ed="#P" n="42"/>licet ad tollendam vel abrogandam legem 
+          cau<lb break="no" ed="#P" n="43"/>sa justa necessaria sit, nihilominus non est 
+          ne<lb break="no" ed="#P" n="44"/>cessaria tam urgens et gravis, ut propter illam
+          <lb ed="#P" n="45"/>lex ipsa statim cesset, sicut etiam ad 
+          dispen<lb break="no" ed="#P" n="46"/>sandum requiritur causa justa, quae per se 
+          so<lb break="no" ed="#P" n="47"/>lam legis obligationem auferre non valet. 
+          Ne<lb break="no" ed="#P" n="48"/>que repugnat abrogationem esse justam, licet
+          <lb ed="#P" n="49"/>lex non fuerit injusta, quia justum etiam 
+          po<lb break="no" ed="#P" n="50"/>test omitti vel mutari propter magis justum,
+          <lb ed="#P" n="51"/>sicut aliquid etiam omitti potest, quamvis non
+          <lb ed="#P" n="52"/>sit inutile, propter aliud utilius. Ac denique
+          <lb ed="#P" n="53"/>multa hujusmodi sunt quae ex humano 
+          arbi<lb break="no" ed="#P" n="54"/>trio pendent ita ut et juste statuantur, et, si
+          <lb ed="#P" n="55"/>derogentur, injustitia non fiat, quia prudenti
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>aliqua ratione abrogari possunt, ut Covar. 
+          ci<lb break="no" ed="#P" n="57"/>tato loco advertit.
+        </p>
+        <p xml:id="szdleg-q29706-d1e640">
+          <lb ed="#P" n="58"/>7. Peculiaris assistentia Spiritus Sancti in
+          <lb ed="#P" n="59"/>Ecclesia.—Ex hac vero assertione intulit Soto,
+          <lb ed="#P" n="60"/>lib. 1 de Justit., q. 71, a. 1, in fin., summum
+          <lb ed="#P" n="61"/>Pontificem non posse errare, in abrogandis 
+          le<lb break="no" ed="#P" n="62"/>gibus canonicis sine justa causa, quando leges
+          <lb ed="#P" n="63"/>ille necessarie sunt-populo christiano, quia
+          <lb ed="#P" n="64"/>non potest errare in his quae ad fidem et mores
+          <lb ed="#P" n="65"/>pertinent. Quod est pie et prudenter dictum
+          <lb ed="#P" n="66"/>quantum ad leges quasi fundamentales, et
+          <lb ed="#P" n="67"/>maxime necessarias, et quantum ad 
+          universa<lb break="no" ed="#P" n="68"/>lem abrogationem earum. Est autem sciendum
+          <lb ed="#P" n="69"/>Pontificem non posse errare in ferendis 
+          legi<lb break="no" ed="#P" n="70"/>bus, approbando, seu proponendo Eeclesise
+          <lb ed="#P" n="71"/>quod malum est, vel bonis moribus 
+          contra<lb break="no" ed="#P" n="72"/>rium. Et cum eadem proportione non potest
+          <lb ed="#P" n="73"/>errare abrogando legem, reprobando tanquam
+          <lb ed="#P" n="74"/>malum quod bonum est, vel bonis moribus
+          <lb ed="#P" n="75"/>utile. Potest tamen aliquando esse excessus in
+          <lb ed="#P" n="76"/>multitudine legum, quia hoc pendet ex 
+          pru<lb break="no" ed="#P" n="77"/>dentia humana in particulari judicante. Et 
+          ea<lb break="no" ed="#P" n="78"/>dem proportione possent leges nimium 
+          dimi<lb break="no" ed="#P" n="79"/>nui, vel aliqua abrogari eo tempore quo erat
+          <lb ed="#P" n="80"/>utilis, quia hoc etiam pendet in particulari ex
+          <lb ed="#P" n="81"/>arbitrio prudentiali. Nunquam tamen, ita 
+          pro<lb break="no" ed="#P" n="82"/>vidente Spiritu Sancto, id fiet cum notabih
+          <lb ed="#P" n="83"/>Ecclesiae detrimento.
+        </p>
+        <p xml:id="szdleg-q29706-d1e699">
+          <lb ed="#P" n="84"/>8. Atque ex his potest facile intelligi utrum
+          <lb ed="#P" n="85"/>legis mutatio, ut licita sit, debeat esse rara, et
+          <lb ed="#P" n="86"/>longo tempore post legem latam. Et ratio 
+          du<lb break="no" ed="#P" n="87"/>bitandi esse potest, quia lex non debet poni ut
+          <lb ed="#P" n="88"/>modico tempore duret, ut dixit D. Thomas 1.
+          <lb ed="#P" n="89"/>2. quaest. 96, art. 1; et patet, quia supra 
+          os<lb break="no" ed="#P" n="90"/>tensum est legem de se debere esse 
+          perpe<lb break="no" ed="#P" n="91"/>tuam ; ergo non debet intra breve tempus 
+          mu<lb break="no" ed="#P" n="92"/>tari. Item quia, ut supra dicebamus, 
+          consue<lb break="no" ed="#P" n="93"/>tudo est necessaria ad firmandam legem ; talis
+          <lb ed="#P" n="94"/>autem consuetudo requirit diuturnum tempus;
+          <lb ed="#P" n="95"/>ergo ratio postulat ut intra breve tempus 
+          mu<lb break="no" ed="#P" n="96"/>tatio legis non fiat. Praeterea haec mutatio legis
+          <lb ed="#P" n="97"/>tunc praecipue recte fit, quando experimento
+          <lb ed="#P" n="98"/>constat legem non expedire ; hoc autem 
+          expe<lb break="no" ed="#P" n="99"/>rimentum non nisi longo tempore sumitur.
+          <lb ed="#P" n="100"/>Denique, ob has et similes rationes frequens
+          <lb ed="#P" n="101"/>mutatio legum communiter perniciosa 
+          cense<lb break="no" ed="#P" n="102"/>tur ; ergo oportet ut leges non nisi post 
+          lon<lb break="no" ed="#P" n="103"/>gum tempus mutentur, ne hujusmodi mutatio
+          <lb ed="#P" n="104"/>frequenter contingat.
+        </p>
+        <p xml:id="szdleg-q29706-d1e748">
+          <lb ed="#P" n="105"/>9. Quoties justa causa contingit, justa erit
+          <lb ed="#P" n="106"/>mutatio.—breviter autem dicendum est in hoc
+          <lb ed="#P" n="107"/>non posse certam et universalem regulam 
+          con<lb break="no" ed="#P" n="108"/>stitui. Cum enim dictum sit legem ex justa
+          <lb ed="#P" n="109"/>causa juste mutari, quotiescumque causa justa
+          <lb ed="#P" n="110"/>contingat , justa erit mutatio, sive sit post
+          <pb ed="#P" n="121"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>breve,sive post longum tempusa lege condita:
+          <lb ed="#P" n="2"/>nam hoc accidentarium est, et utrumque sine
+          <lb ed="#P" n="3"/>dubio potest contingere. Regulariter vero 
+          lo<lb break="no" ed="#P" n="4"/>quendo, sicut est vitanda, ita etiam est 
+          diffe<lb break="no" ed="#P" n="5"/>renda mutatio, quantum fieri possit. Unde in
+          <lb ed="#P" n="6"/>casu dubio, vel tantum probabili, et quoties
+          <lb ed="#P" n="7"/>utrinque sit aequalitas, conservanda potius est
+          <lb ed="#P" n="8"/>lex quam mutanda, tum quia postquam est 
+          la<lb break="no" ed="#P" n="9"/>ta. quasi est in possessione, et in dubio melior
+          <lb ed="#P" n="10"/>est conditio possidentis; tum etiam quia 
+          sem<lb break="no" ed="#P" n="11"/>per praeponderat damnum mutationis, et hoc
+          <lb ed="#P" n="12"/>etiam suadent rationes factee. Nihilominus 
+          ta<lb break="no" ed="#P" n="13"/>men duabus ex causis fieri potest justa mutatio
+          <lb ed="#P" n="14"/>legis intra breve tempus. Primo, si ex aliquo
+          <lb ed="#P" n="15"/>errore , vel inconsideratione, sive culpabili,
+          <lb ed="#P" n="16"/>sive inculpabili lata sit; nam error, 
+          quocum<lb break="no" ed="#P" n="17"/>que tempore cognoscatur, emendandus est, et
+          <lb ed="#P" n="18"/>praesertim quando in commune incommodum
+          <lb ed="#P" n="19"/>redundare potest. Secundo , quando legum
+          <lb ed="#P" n="20"/>materia multum variabilis est, ut contingit in
+          <lb ed="#P" n="21"/>legibus taxantibus pretia rerum, quia valor
+          <lb ed="#P" n="22"/>earum ex copia vel inopia earum pendet, et in
+          <lb ed="#P" n="23"/>his solet esse frequens mutatio propter 
+          fre<lb break="no" ed="#P" n="24"/>quentem temporum varietatem. In his ergo
+          <lb ed="#P" n="25"/>legibus non erit injusig nec imprudens 
+          muta<lb break="no" ed="#P" n="26"/>tio, etiamsi frequenter fiat. Et ob eamdem
+          <lb ed="#P" n="27"/>causam potest mutatio fieri intra breve 
+          tem<lb break="no" ed="#P" n="28"/>pus, ut intra annum, propter accidentem 
+          ste<lb break="no" ed="#P" n="29"/>rilitatem , vel intra brevius tempus, si ex 
+          ali<lb break="no" ed="#P" n="30"/>quo casu contingente similis mutatio fiat.
+        </p>
+        <p xml:id="szdleg-q29706-d1e833">
+          <lb ed="#P" n="31"/>10. Ultimo, dicendum est abrogationem 
+          le<lb break="no" ed="#P" n="32"/>gis humansae, a supremo principe factam sine
+          <lb ed="#P" n="33"/>causa legitima, validam esse, licet injuste fiat.
+          <lb ed="#P" n="34"/>Dixi a supremo principe, quia, si fiat ab aliquo
+          <lb ed="#P" n="35"/>inferiori ex commissione ejus, invahda 
+          judi<lb break="no" ed="#P" n="36"/>canda erit talis abrogatio, propter supra dicta
+          <lb ed="#P" n="37"/>de dispensatione, quae hic evidentius 
+          proce<lb break="no" ed="#P" n="38"/>dunt, quia vel haec potestas non solet committi
+          <lb ed="#P" n="39"/>inferioribus, vel non nisi per modum 
+          dispen<lb break="no" ed="#P" n="40"/>sationis, vel ad summum per modum partialis
+          <lb ed="#P" n="41"/>revocationis, de qua eadem est ratio. Ideoque
+          <lb ed="#P" n="42"/>de solo principe solet ista conclusio statui,
+          <lb ed="#P" n="43"/>quae communis est, et ab illis etiam auctoribus
+          <lb ed="#P" n="44"/>admittitur , qui similem de dispensatione 
+          ne<lb break="no" ed="#P" n="45"/>gant. Ratio autem eadem est, quia legis 
+          obli<lb break="no" ed="#P" n="46"/>gatio pendet ex voluntate principis ; voluntas
+          <lb ed="#P" n="47"/>autem illa, licet mala sit, absoluta et efficax
+          <lb ed="#P" n="48"/>est ; ergo tollit imperium et obligationem. 
+          Di<lb break="no" ed="#P" n="49"/>ces: voluntas ponendi legem sine justa causa
+          <lb ed="#P" n="50"/>non facit legem validam, etiamsi ex parte 
+          le<lb break="no" ed="#P" n="51"/>gislatoris sit absoluta, quia non potest quidquid
+          <lb ed="#P" n="52"/>vult ; ergo idem est e contrario.
+        </p>
+        <p xml:id="szdleg-q29706-d1e883">
+          <lb ed="#P" n="53"/>11. Respondetur negando consequentiam,
+          <lb ed="#P" n="54"/>quia multo difficilius est imponere quam 
+          tol<lb break="no" ed="#P" n="55"/>lere leges. Nam, si impositio sit injusta, aut
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>erit de materia cui repugnet obligatio legis
+          <lb ed="#P" n="57"/>humanae, ut si sit de re iniqua; aut certe erit
+          <lb ed="#P" n="58"/>de materia quae excedat potestatem , sine qua
+          <lb ed="#P" n="59"/>voluntas nihil potest efficere. At vero, ad 
+          au<lb break="no" ed="#P" n="60"/>ferendam vel impediendam iegis obligationem
+          <lb ed="#P" n="61"/>(quod fit per abrogationem legis), non potest
+          <lb ed="#P" n="62"/>materia conferre, quia, quantumcumque sit
+          <lb ed="#P" n="63"/>bona et honesta, potest non adjungi illi 
+          obli<lb break="no" ed="#P" n="64"/>gatio humana ; vel, licet sit intrinsece mala,
+          <lb ed="#P" n="65"/>potest non a3di prohibitio humana. Et 
+          quan<lb break="no" ed="#P" n="66"/>tumvis contineatur sub potestate legislatoris,
+          <lb ed="#P" n="67"/>potest ipsa circa illam non operari , quia illa
+          <lb ed="#P" n="68"/>potestas non agit naturaliter , sed media 
+          vo<lb break="no" ed="#P" n="69"/>luntate. Si autem non operetur, non obligabit,
+          <lb ed="#P" n="70"/>etiamsl ipse peccet. Denique hinc etiam fit ut,
+          <lb ed="#P" n="71"/>ponendo legem injustam , peccet contra 
+          jus<lb break="no" ed="#P" n="72"/>titiam, et non tantum legalem, sed etiam 
+          com<lb break="no" ed="#P" n="73"/>mutativam ; tollendo autem legem justam, non
+          <lb ed="#P" n="74"/>facit contra justitiam commutativam 
+          singulo<lb break="no" ed="#P" n="75"/>rum subditorum, et ideo valida est obligatio,
+          <lb ed="#P" n="76"/>licet imprudens sit, et contra justitiam 
+          lega<lb break="no" ed="#P" n="77"/>lem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

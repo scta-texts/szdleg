@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 21</title>
+            <author ref="#FranciscoSuarez">Francisco Suarez</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 21</title>
+               <date when="2026-01-29">January 29, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2026-01-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="542"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="szdleg-s36523"><!-- l9c21 -->
+            <head xml:id="szdleg-s36523-Hd1e101">Caput 21</head>
+            <head xml:id="szdleg-s36523-Hd1e103" type="question-title">Quando lex vetus coeperit esse inutilis quoad effectus suos.</head>
+            <p xml:id="szdleg-s36523-d1e106">
+               <lb ed="#P" n="69"/>CAPUT XXI.
+<lb ed="#P" n="70"/>QUANDO LEX VETUS COEPERIT ESSE INUTILIS 
+QUO<lb break="no" ed="#P" n="71"/>AD EFFECTUS SUOS.
+</p>
+            <p xml:id="szdleg-s36523-d1e115">
+               <lb ed="#P" n="72"/>1. Circa tempus quo lea illa ceperit esse 
+inu<lb break="no" ed="#P" n="73"/>tilis. — Triples utilitas in illa lege 
+conside<lb break="no" ed="#P" n="74"/>randa. — Tria in illa lege in superioribus 
+dis<lb break="no" ed="#P" n="75"/>tinximus : unum est institutio talis 
+congrega<lb break="no" ed="#P" n="76"/>tionis cum omnibus pertinentibus ad divinum
+<lb ed="#P" n="77"/>cultum et ad reipublicae gubernationem; aliud
+<lb ed="#P" n="78"/>est obligatio legis ; tertium est utilitas seu 
+ef<lb break="no" ed="#P" n="79"/>fectus legis. Et de primo ac secundo 
+explicui<lb break="no" ed="#P" n="80"/>mus quando et quomodo cessaverint; superest
+<lb ed="#P" n="81"/>ergo ut de tertio pauca dicamus. Nam, licet ex
+<lb ed="#P" n="82"/>dictis aperte sequatur legem illam jam 
+perdi<lb break="no" ed="#P" n="83"/>disse omnem utilitatem, quia est prorsus 
+abro<lb break="no" ed="#P" n="84"/>gata et evacuata, lex autem ablata nullam
+<lb ed="#P" n="85"/>efficaciam legis habere potest , nihilominus
+<lb ed="#P" n="86"/>circa tempus in quo lex illa inutilis esse coepit,
+<lb ed="#P" n="87"/>aliquid superest explicandum. Seclusa autem
+<lb ed="#P" n="88"/>institutione et obligatione , triplex efficacia
+<lb ed="#P" n="89"/>seu utilitas in lege illa considerari potest. 
+Pri<lb break="no" ed="#P" n="90"/>ma est efficacia in poenis imponendis et 
+irri<lb break="no" ed="#P" n="91"/>tandis contractibus. Secunda est vis 
+permit<lb break="no" ed="#P" n="92"/>tendi , dispensando in aliquibus rebus 
+perti<lb break="no" ed="#P" n="93"/>nentibus ad naturalem legem. Tertia est 
+non<lb break="no" ed="#P" n="94"/>nulla utilitas ad justificationes legales, aut ad
+<lb ed="#P" n="95"/>justitiam coram Deo, vel ex opere eperaniis,
+<lb ed="#P" n="96"/>vel ultra illud.
+</p>
+            <p xml:id="szdleg-s36523-d1e172">
+               <lb ed="#P" n="97"/>2. Lex illa non amisit vim suam coactivam
+<lb ed="#P" n="98"/>et punitivam in morte Christi , nec ante diem
+<lb ed="#P" n="99"/>Penítecostes.— Primo ergo, ut a clarioribus 
+in<lb break="no" ed="#P" n="100"/>cipiamus, consequenter ad superius definita,
+<lb ed="#P" n="101"/>dicendum est legem illam non amisisse vim
+<lb ed="#P" n="102"/>suam coactivam et punitivam in morte Christ,
+<lb ed="#P" n="103"/>nec ante diem Pentecostes. Probatur primo,
+<lb ed="#P" n="104"/>quia praecepta poenalia illius legis non 
+fue<lb break="no" ed="#P" n="105"/>runt eo tempore mortua quoad vim directivam
+<lb ed="#P" n="106"/>obligandi in conscientia, ut supra ostensum est;
+<lb ed="#P" n="107"/>ergo nec quoad vim coactivam, perquam 
+in<lb break="no" ed="#P" n="108"/>ducebant reatum poenae in lege taxatae contra
+<pb ed="#P" n="543"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>transgressores. Probatur consequentia, quia
+<lb ed="#P" n="2"/>vis directiva ejusque obligatio est principale
+<lb ed="#P" n="3"/>quid in lege , poena vero e:t accessorium : ergo
+<lb ed="#P" n="4"/>durante principali, durat accessorium, nisi
+<lb ed="#P" n="5"/>aliunde constet directe et specialiter ablatum
+<lb ed="#P" n="6"/>esse seu remissum ab eo qui legem tulit, vel
+<lb ed="#P" n="7"/>alias breviorem terminum esse positum in lege
+<lb ed="#P" n="8"/>circa impositionem poenae, quam obligationis:
+<lb ed="#P" n="9"/>neutrum autem in praesenti invenitur, neque
+<lb ed="#P" n="10"/>cum fundamento fingi potest. Declaratur 
+prae<lb break="no" ed="#P" n="11"/>terea, quia vel talis poena fiebat per ipsammet
+<lb ed="#P" n="12"/>legem vel erat per judicem imponenda. Prior
+<lb ed="#P" n="13"/>fieri potuit per ipsam legem, quamdiu 
+abro<lb break="no" ed="#P" n="14"/>gata non fuit, propter rationem factam et quia
+<lb ed="#P" n="15"/>non est major ratio de obligatione ad culpam
+<lb ed="#P" n="16"/>quam de hoc effectu. Posterior autem poena
+<lb ed="#P" n="17"/>inducebatur per legem pro eo tempore, quoad
+<lb ed="#P" n="18"/>reatum seu debitum : eadem autem ratione
+<lb ed="#P" n="19"/>poterat executioni mandari per magistratus
+<lb ed="#P" n="20"/>illrus populi, per se et quantum erat ex vi 
+il<lb break="no" ed="#P" n="21"/>lius legis, quia non amiserant jurisdictionem
+<lb ed="#P" n="22"/>suam, nec illa respublica statum mutaverat, ut
+<lb ed="#P" n="23"/>ostensum est. Retinuit ergo illa lex suam vim
+<lb ed="#P" n="24"/>coactivam toto illo tempore.
+</p>
+            <p xml:id="szdleg-s36523-d1e258">
+               <lb ed="#P" n="25"/>3. Duo inferuntur. — Primo, quamdiu illa
+<lb ed="#P" n="26"/>precepta vim habebant. — Secundo, praeeptis
+<lb ed="#P" n="27"/>cessantibus quoad obligationem, cessabant 
+quo<lb break="no" ed="#P" n="28"/>ad alios effectus paenales et irritandi.—Ex quo
+<lb ed="#P" n="29"/>lieet duo inferre : unum est, praecepta illius
+<lb ed="#P" n="30"/>legis irritantia quaedam matrimonia vel 
+ali<lb break="no" ed="#P" n="31"/>quos contractus, irritasse illos etiam post 
+mor<lb break="no" ed="#P" n="32"/>tem Christi, si in gradibus in lege prohibitis,
+<lb ed="#P" n="33"/>vel cum aliis similibus impedimentis fierent,
+<lb ed="#P" n="34"/>quamdiu illa lex, quoad obligationem, 
+abro<lb break="no" ed="#P" n="35"/>gata non fuit. HRatio est , quia quamdiu
+<lb ed="#P" n="36"/>habuerunt vim ad obligandum vel 
+prohi<lb break="no" ed="#P" n="37"/>bendum , habuerunt etiam vim ad 
+irritan<lb break="no" ed="#P" n="38"/>dum, quia non est major ratio de uno quam
+<lb ed="#P" n="39"/>de altero, ut dictum est. Aliud corollarium
+<lb ed="#P" n="40"/>est, quamprimum illa praecepta cessarunt 
+quo<lb break="no" ed="#P" n="41"/>ad obligationem, cessasse etiam quoad omnes
+<lb ed="#P" n="42"/>effectus poenales et irritandi. Probatur ratione
+<lb ed="#P" n="43"/>proportionali, quia etiam in hoc est eadem 
+ra<lb break="no" ed="#P" n="44"/>tio utriusque effectus. Item tales leges, ut 
+poe<lb break="no" ed="#P" n="45"/>nales vel irritantes, sunt positivae et judiciales;
+<lb ed="#P" n="46"/>sed, abrogata illa lege, omnia praecepta 
+judi<lb break="no" ed="#P" n="47"/>cialia abrogata sunt : ergo etiam illae leges ut
+<lb ed="#P" n="48"/>poenales et irritantes abrogatae sunt, ac 
+sub<lb break="no" ed="#P" n="49"/>inde amiserunt vim efficiendi tales effectus.
+<lb ed="#P" n="50"/>Denique de effectu poenae est res clara, quia
+<lb ed="#P" n="51"/>cessante vi directiva, cessat etiam coactiva: et
+<lb ed="#P" n="52"/>praesertim in illis legibus poenalibus quae erant
+<lb ed="#P" n="53"/>mixtae; et ideo cessante principali, scilicet,
+<lb ed="#P" n="54"/>obligatione ad talem actum vel omissionem ,
+<lb ed="#P" n="55"/>cessat etiam accessorium, quod est poena. Quin
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>potius, licet actio, ob quam peena imronebatur
+<lb ed="#P" n="57"/>per talem legem, esset de se mala et jure 
+na<lb break="no" ed="#P" n="58"/>turae prohibita, nihilominus jam cessasset illa
+<lb ed="#P" n="59"/>poena, vel quia, licet in tali actu esset 
+pro<lb break="no" ed="#P" n="60"/>hibitio naturalis, cessat prohibitio illius legis,
+<lb ed="#P" n="61"/>etiam in conscientia, cui proxime 
+adjungeba<lb break="no" ed="#P" n="62"/>tur poena, vel quia, licet daremus legem illam
+<lb ed="#P" n="63"/>solum addidisse poenam obligationi naturali,
+<lb ed="#P" n="64"/>nihilominus illa additio erat positiva et 
+judi<lb break="no" ed="#P" n="65"/>cialis, et ideo, abrogatis illis legibus quoad
+<lb ed="#P" n="66"/>obligationem positivam in conscientia, etiam
+<lb ed="#P" n="67"/>abrogantur quoad obligationem sub reatu talis
+<lb ed="#P" n="68"/>poenae, ut recte sensit Castro, lib. 1 de Leg.
+<lb ed="#P" n="69"/>poenal., c. ult. Idemque est cum proportione
+<lb ed="#P" n="70"/>de promissionibus specialibus illius legis; 
+fie<lb break="no" ed="#P" n="71"/>bant enim operibus illius legis, ut erant illius
+<lb ed="#P" n="72"/>impletiva, et per modum pacti mutui, et
+<lb ed="#P" n="73"/>ideo cessante obligatione ex parte unius 
+ex<lb break="no" ed="#P" n="74"/>tremi, cessavit ex parte alterius. Item idem
+<lb ed="#P" n="75"/>est cum proportione de effectu irritandi ;
+<lb ed="#P" n="76"/>nam irritatio, si additur prohibitioni naturali,
+<lb ed="#P" n="77"/>est veluti quaedam poena, et in ea procedit 
+ra<lb break="no" ed="#P" n="78"/>tio facta; si vero sit addita prohibitioni 
+posi<lb break="no" ed="#P" n="79"/>tivae ejusdem legis, intrinsece supponit illam,
+<lb ed="#P" n="80"/>et ab illa pendet, ideoque illa cessante 
+neces<lb break="no" ed="#P" n="81"/>sario cessat.
+</p>
+            <p xml:id="szdleg-s36523-d1e386">
+               <lb ed="#P" n="82"/>4. Dubitatio. — Responsio. — Quaeri vero
+<lb ed="#P" n="83"/>consequenter potest, quando lex illa amiserit
+<lb ed="#P" n="84"/>virtutem quoad hos effectus, an, scilicet, in
+<lb ed="#P" n="85"/>initio promulgationis Evangelii, et per 
+succes<lb break="no" ed="#P" n="86"/>sionem et augmentum illius, vel solum post
+<lb ed="#P" n="87"/>consummatam promulgationem Evangelii.
+<lb ed="#P" n="88"/>Rhespondeo, consequenter ad dicta , 
+distin<lb break="no" ed="#P" n="89"/>guendum esse inter praecepta caeremonialia
+<lb ed="#P" n="90"/>et judicialia ; et de caeremonialibus dicendum
+<lb ed="#P" n="91"/>est a die Pentecostes incoepisse amittere hanc
+<lb ed="#P" n="92"/>efficaciam, et successu temporis illam omnino
+<lb ed="#P" n="93"/>amississe quoad locorum extensionem, sicut
+<lb ed="#P" n="94"/>diximus legem illam mortuam fuisse: nam
+<lb ed="#P" n="95"/>quoad hunc effectum eadem est proportio, ut
+<lb ed="#P" n="96"/>rationes factae probant ; at vero quoad 
+praece<lb break="no" ed="#P" n="97"/>pta judicialia non coepit illa lex amittere hanc
+<lb ed="#P" n="98"/>efficaciam donec synagoga extincta est post
+<lb ed="#P" n="99"/>consummatam Evangeli promulgationem.
+<lb ed="#P" n="100"/>Quia (ut supra dixi), quamdiu respublica 
+Ju<lb break="no" ed="#P" n="101"/>daeorum statum suum retinuit, et caeremonus
+<lb ed="#P" n="102"/>suis jure usa est, judicialia praecepta non 
+ami<lb break="no" ed="#P" n="103"/>serunt vim obligandi ; ergo nec puniendi vel
+<lb ed="#P" n="104"/>irritandi, etc., nam in hoc etiam eadem 
+ser<lb break="no" ed="#P" n="105"/>vatur proportio. Promulgato autem 
+Evange<lb break="no" ed="#P" n="106"/>lio quando lex illa coepit esse mortifera quoad
+<lb ed="#P" n="107"/>caeremonialia, coepit etiam esse mortua quoad
+<lb ed="#P" n="108"/>judicialia . et consequenter coepit etiam esse
+<lb ed="#P" n="109"/>inutilis ad praedictos effectus, ut rationes 
+fac<lb break="no" ed="#P" n="110"/>tae probant.
+</p>
+            <p xml:id="szdleg-s36523-d1e451">
+               <pb ed="#P" n="544"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>5. Matrimonia in gradibus prohibitis illa
+<lb ed="#P" n="2"/>lege nunc valere. — Unde obiter infertur , et
+<lb ed="#P" n="3"/>matrimonia nunc contracta inter Judaeos, in
+<lb ed="#P" n="4"/>gradibus illa lege prohibitis, valida et rata
+<lb ed="#P" n="5"/>nunc esse, exceptis primis gradibus qui de
+<lb ed="#P" n="6"/>jure naturae matrimonium irritant ; ratio est
+<lb ed="#P" n="7"/>clara ex supra dictis, quia illa etiam respectu
+<lb ed="#P" n="8"/>talium Judaeorum infidelium abrogata est
+<lb ed="#P" n="9"/>quoad obligationem; ergo etiam quoad 
+irrita<lb break="no" ed="#P" n="10"/>tionem, juxta ea quae proxime diximus. Neque
+<lb ed="#P" n="11"/>refert quod ipsi peccent ex conscientia 
+erro<lb break="no" ed="#P" n="12"/>nea, quia conscientia erronea circa jus non
+<lb ed="#P" n="13"/>sufficit ad irritationem actus, licet ad 
+peccan<lb break="no" ed="#P" n="14"/>dum sufhciat; et ita sentit in simili casu
+<lb ed="#P" n="15"/>Soto A, d. 39, art. 1, in fine; et sequitur 
+Na<lb break="no" ed="#P" n="16"/>var., cons. 2, de Conversione infidel., n. 4;
+<lb ed="#P" n="17"/>Sanci., lib. 7 de Matrim., disp. 7, num. 6;
+<lb ed="#P" n="18"/>contrarium vero sentit Henriq., lib. 12 de
+<lb ed="#P" n="19"/>Matrim., cap. 1, num. 5, ubi sensit talia 
+ma<lb break="no" ed="#P" n="20"/>trimonia contra legem contracta inter 
+infide<lb break="no" ed="#P" n="21"/>les Judaeos invalida esse, quia illa lege 
+guber<lb break="no" ed="#P" n="22"/>nantur ; et allegat Cov. in 4, 2 p., cap. 6, 86,
+<lb ed="#P" n="23"/>alias 10, num. 3, qui aliquo modo favet, dum
+<lb ed="#P" n="24"/>ait Judaeos infideles in contrahendis conjugiis,
+<lb ed="#P" n="25"/>suis legibus (utique latis Levit. 18) gubernari,
+<lb ed="#P" n="26"/>quod ex aliis jurisperitis allegat; non tamen
+<lb ed="#P" n="27"/>explicat an jure id intelligendum sit, vel 
+tan<lb break="no" ed="#P" n="28"/>tum facto, vel quis effectus inde sequatur.
+<lb ed="#P" n="29"/>Citat etiam D. Thomam in addit. quaest. 59,
+<lb ed="#P" n="30"/>art. 2, ad 3, alias in 4, dist. 39, art. 2, ad 3,
+<lb ed="#P" n="31"/>ubi nihil de Judaeis loquitur, sed in genere
+<lb ed="#P" n="32"/>dicit impedimentum disparitatis cultus non
+<lb ed="#P" n="33"/>esse de jure divino inter infideles, licet possit
+<lb ed="#P" n="34"/>jure humano per suas leges introduci. Citat
+<lb ed="#P" n="35"/>etiam Navar. in Sum., cap. 22, num. 48, qui
+<lb ed="#P" n="36"/>etiam solum de infidelibus generatim dicit
+<lb ed="#P" n="37"/>matrimonium inter eos non valere si sit 
+con<lb break="no" ed="#P" n="38"/>tra eorum leges: quod generatim verum est.
+<lb ed="#P" n="39"/>Tamen leges Levitici jam non possunt dici
+<lb ed="#P" n="40"/>leges Judaeorum infidelium; tum quia jam
+<lb ed="#P" n="41"/>non sunt leges; leges enim abrogatae, leges
+<lb ed="#P" n="42"/>non sunt; tum etiam quia non sunt latae pro
+<lb ed="#P" n="43"/>illis, sed pro republica fideli ecclesiastica 
+Ju<lb break="no" ed="#P" n="44"/>daeorum, quae jam non extat: unde parum
+<lb ed="#P" n="45"/>refert quod ipsi Judaei velint illis legibus 
+gu<lb break="no" ed="#P" n="46"/>bernari, quia solum est ex conscientia erronea,
+<lb ed="#P" n="47"/>ut dixi ; putant enim legem illam ut divinam
+<lb ed="#P" n="48"/>adhuc vigere. Quod si quis fingat Judaeos, non
+<lb ed="#P" n="49"/>obstante abrogatione, potuisse illas leges nunc
+<lb ed="#P" n="50"/>acceptare, respondemus id quidem potuisse
+<lb ed="#P" n="51"/>locum habere, si Judaei nunc haberent 
+pro<lb break="no" ed="#P" n="52"/>priam rempublicam, et in ea supremam 
+po<lb break="no" ed="#P" n="53"/>testatem, vel principem supremum in 
+tempo<lb break="no" ed="#P" n="54"/>ralibus, qui possit leges ferre. Nam in eo
+<lb ed="#P" n="55"/>casu leges illae habere possent efficaciam, tam
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>ad obligandum quam ad irritandum, non í
+a<lb break="no" ed="#P" n="57"/>men ut divinae, sed ut humanae: nam leges
+<lb ed="#P" n="58"/>judiciales possunt hoc modo acceptari. At
+<lb ed="#P" n="59"/>nunc Hebrai nulum habent principatum
+<lb ed="#P" n="60"/>nec rempublicam propriam et liberam, et
+<lb ed="#P" n="61"/>ideo, licet velint tales leges acceptare, vel
+<lb ed="#P" n="62"/>quasi restituere, non possunt, sicut nec 
+pos<lb break="no" ed="#P" n="63"/>sunt alias leges civiles sibi constituere; sed
+<lb ed="#P" n="64"/>legibus principum quibus subsunt, 
+gubernan<lb break="no" ed="#P" n="65"/>di sunt: nullo ergo modo potest illa opinio
+<lb ed="#P" n="66"/>sustineri.
+</p>
+            <p xml:id="szdleg-s36523-d1e603">
+               <lb ed="#P" n="67"/>6. Quam vim halwit usque ad diem 
+Pentecos<lb break="no" ed="#P" n="68"/>Ltes. — Secundo, dicendum est legem veterem
+<lb ed="#P" n="69"/>ante diem Pentecostes non amisisse vim suam
+<lb ed="#P" n="70"/>quoad effectum dispensandi, seu permittendi
+<lb ed="#P" n="71"/>ea quae contra jus naturae aliquo modo 
+per<lb break="no" ed="#P" n="72"/>mittebat. Haec assertio eodem modo quo 
+prae<lb break="no" ed="#P" n="73"/>cedens explicanda est ; ratio enim prioris 
+par<lb break="no" ed="#P" n="74"/>tis est, quia illa lex intacta mansit (ut sic 
+di<lb break="no" ed="#P" n="75"/>cam) toto illo tempore, nec magis quoad hunc
+<lb ed="#P" n="76"/>effectum quam quoad alios revocata est, quia
+<lb ed="#P" n="77"/>nihil de hoc effectu specialiter statutum est,
+<lb ed="#P" n="78"/>nec terminus durationis in illis praeceptis fuit
+<lb ed="#P" n="79"/>diversus, aut magis limitatus quam in alis.
+<lb ed="#P" n="80"/>Unde si, in triduo mortis Christi, vel in 
+dis<lb break="no" ed="#P" n="81"/>cursu dierum Paschalium usque ad 
+Pentecos<lb break="no" ed="#P" n="82"/>tem, Judaeus dimitteret uxorem juxta 
+permis<lb break="no" ed="#P" n="83"/>sum legis, matrimonium vere dissolveretur,
+<lb ed="#P" n="84"/>juxta probabiliorem sensum illius legis, quem
+<lb ed="#P" n="85"/>supra secuti sumus. Potest vero objici quia
+<lb ed="#P" n="86"/>Christus Dominus jam dixerat, et satis publice
+<lb ed="#P" n="87"/>praedicaverat : Ego autem dico volis, quia
+<lb ed="#P" n="88"/>omnis quà dipserit uvorem suam, eacepta 
+for<lb break="no" ed="#P" n="89"/>nicationis causa, mechatur ; et qui dimissam
+<lb ed="#P" n="90"/>duuerit, adulteratur, Matth. b et 19. 
+Respon<lb break="no" ed="#P" n="91"/>deo illis locis docere tantum voluisse, illam
+<lb ed="#P" n="92"/>legem Moysi fuisse ex quadam dispensatione
+<lb ed="#P" n="93"/>quae jam suo tempore cessatura erat, et ad
+<lb ed="#P" n="94"/>statum perfectiorem et legi naturali 
+consenta<lb break="no" ed="#P" n="95"/>neum reducenda. Non tamen tunc antiquam
+<lb ed="#P" n="96"/>legem, vel generaliter, vel illam in particulari
+<lb ed="#P" n="97"/>revocavit, sed tantum ad revocationem 
+futu<lb break="no" ed="#P" n="98"/>ram (ut sic dicam) viam et animos praeparavit,
+<lb ed="#P" n="99"/>per doctrinam et declarationem veritatis, non
+<lb ed="#P" n="100"/>per promulgationem alicujus novi praecepti.
+</p>
+            <p xml:id="szdleg-s36523-d1e679">
+               <lb ed="#P" n="101"/>7. Dubitatio. —Responsio. —Difflicultas vero
+<lb ed="#P" n="102"/>est an a die Pentecostes coeperit ille effectus
+<lb ed="#P" n="103"/>cessare. In quo breviter considerandum est
+<lb ed="#P" n="104"/>leges concedentes seu facientes hujusmodi
+<lb ed="#P" n="105"/>effectus judiciales fuisse, ut constat de lege
+<lb ed="#P" n="106"/>repudii, et similibus; ideoque verisimilius esse,
+<lb ed="#P" n="107"/>non fuisse mortuas usque ad integram 
+muta<lb break="no" ed="#P" n="108"/>tionem status synagogae, quae tunc facta est
+<lb ed="#P" n="109"/>quando, promulgato Evangelio, lex illa coepit
+<lb ed="#P" n="110"/>esse mortifera : ergo usque ad illud tempus
+<pb ed="#P" n="545"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>durare potuit hic effectus. Item pro illo 
+tem<lb break="no" ed="#P" n="2"/>re legitime duravit illius reipublicae status:
+<lb ed="#P" n="3"/>ergo liberum fuit illi uti legibus ad eumdem
+<lb ed="#P" n="4"/>statum pertinentibus; ergo etiam fuit liberum
+<lb ed="#P" n="5"/>uti privilegus et favoribus per illas leges sibi
+<lb ed="#P" n="6"/>concessis. Denique pro eo tempore durabant
+<lb ed="#P" n="7"/>onera et rigores legum judicialium: ergo et
+<lb ed="#P" n="8"/>favores; nam hi magis ampliandi sunt ; imo
+<lb ed="#P" n="9"/>beneficium principis durat quamdiu aperte
+<lb ed="#P" n="10"/>non revocatur. At vero post illud tempus, et
+<lb ed="#P" n="11"/>promulgato suficienter Evangelio, evacuata
+<lb ed="#P" n="12"/>est omnino ila lex quoad hos effectus, quia
+<lb ed="#P" n="13"/>ex tunc judicialia etiam praecepta fuerunt
+<lb ed="#P" n="14"/>omnino mortua et extincta. Item quia eadem
+<lb ed="#P" n="15"/>est ratio de hoc effectu et de obligatione, tum
+<lb ed="#P" n="16"/>quia tota illa les eumdem terminum 
+obligatio<lb break="no" ed="#P" n="17"/>nis, et concessionis habuit, et absolute 
+revo<lb break="no" ed="#P" n="18"/>cata est; tum etiam quia similis dispensatio
+<lb ed="#P" n="19"/>maxime pertinebat ad imperfectionem illius
+<lb ed="#P" n="20"/>legis, et ideo per legem Christi perfectam 
+re<lb break="no" ed="#P" n="21"/>vocata est; tum denique quia quibus 
+aufere<lb break="no" ed="#P" n="22"/>batur onus, debuit etiam auferri commodum,
+<lb ed="#P" n="23"/>praesertim adeo imperfectum et legi naturali
+<lb ed="#P" n="24"/>dissonum.
+</p>
+            <p xml:id="szdleg-s36523-d1e760">
+               <lb ed="#P" n="25"/>8. Unde fit consequens nunc inter Judaeos
+<lb ed="#P" n="26"/>infideles non dissolvi matrimonium virtute
+<lb ed="#P" n="27"/>illius legis. et consequenter matrimonium
+<lb ed="#P" n="28"/>contractum cum alia post tale repudium 
+nul<lb break="no" ed="#P" n="29"/>lum esse ; et si talis vir convertatur ad fidem,
+<lb ed="#P" n="30"/>separandum esse a secunda, et cogendum esse
+<lb ed="#P" n="31"/>reverti ad primam, si tamen illa converti
+<lb ed="#P" n="32"/>etiam velit. Nam si nolit, jam ex alio capite
+<lb ed="#P" n="33"/>dissolvetur prius matrimonium, et licebit viro
+<lb ed="#P" n="34"/>denuo ducere secundam Christianam,, si velit,
+<lb ed="#P" n="35"/>ut tradit Innoc. IlI, in cap. Gaudemus, de 
+Di<lb break="no" ed="#P" n="36"/>vort., ubi, licet non in specie de Judaeis, sed
+<lb ed="#P" n="37"/>generatim de infidelibus loquatur, tamen 
+Ju<lb break="no" ed="#P" n="38"/>daeos etiam comprehendit , quia Christus ita
+<lb ed="#P" n="39"/>statuit, et consequenter contrarias leges, sive
+<lb ed="#P" n="40"/>injustas sive justas, revocavit. Et ita docent
+<lb ed="#P" n="41"/>doctores ibi, theologi in 4, dist. 33, et 
+expo<lb break="no" ed="#P" n="42"/>sitores Matt. 5 et 19, ubi Abulens., quaest. 63,
+<lb ed="#P" n="43"/>et alii quos refert Sanc., lib. 10 de Matrim.,
+<lb ed="#P" n="44"/>disput. 1, n. 9 et 10. Et quod explicuimus in
+<lb ed="#P" n="45"/>permissione repudii applicandum cum 
+propor<lb break="no" ed="#P" n="46"/>tione est ad permissionem usurarum, et 
+si<lb break="no" ed="#P" n="47"/>miles.
+</p>
+            <p xml:id="szdleg-s36523-d1e813">
+               <lb ed="#P" n="48"/>9. Lex Moysi usque ad diem saltem 
+Pente<lb break="no" ed="#P" n="49"/>costes retinuit vim sanclificandi legaliter , 
+dc<lb break="no" ed="#P" n="50"/>nec lex facta sit mortifera.—Dico tertio: lex
+<lb ed="#P" n="51"/>Moysi usque ad diem saltem Pentecostes 
+reti<lb break="no" ed="#P" n="52"/>nuit vim sanctificandi legaliter seu 
+justifican<lb break="no" ed="#P" n="53"/>di carnaliter quam habebat, donec lex facta
+<lb ed="#P" n="54"/>fuit mortifera, ex tunc vero illam omnino
+<lb ed="#P" n="55"/>amisit. Haec assertio sequitur aperte ex dictis
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>supra de duratione institutionis illius legis.
+<lb ed="#P" n="57"/>Quia caeremoniae illius legis pro toto illo 
+tem<lb break="no" ed="#P" n="58"/>pore retinuerunt totam suam institutionem 
+se<lb break="no" ed="#P" n="59"/>clusa obligatione ; ergo retinuerunt vim 
+sanc<lb break="no" ed="#P" n="60"/>tificandi legaliter, quam ab institutione 
+habe<lb break="no" ed="#P" n="61"/>bant. Deinde probatur ex locis saepe citatis
+<lb ed="#P" n="62"/>Actor. 21 et 23, ubi Paulus dicitur se 
+purifi<lb break="no" ed="#P" n="63"/>casse; illa enim purificatio erat quaedam 
+lega<lb break="no" ed="#P" n="64"/>lis sanctificatio; ergo nondum erat illa lex
+<lb ed="#P" n="65"/>mortua quoad hunc effectum. Eademque ratio
+<lb ed="#P" n="66"/>est de omnibus sacrificiis, vel oblationibus,
+<lb ed="#P" n="67"/>aut variis baptismatibus ordinatis ad similes
+<lb ed="#P" n="68"/>sanctificationes et munditias carnis.
+</p>
+            <p xml:id="szdleg-s36523-d1e863">
+               <lb ed="#P" n="69"/>10. Objectio. — Responsio. — Dices: illa lex
+<lb ed="#P" n="70"/>erat mortua quoad irregularitates et 
+immun<lb break="no" ed="#P" n="71"/>ditias quas inducebat, ergo etiam quoad 
+sanc<lb break="no" ed="#P" n="72"/>tificationes legales. Patet consequentia, quia
+<lb ed="#P" n="73"/>illae irregularitates erant quasi materia talium
+<lb ed="#P" n="74"/>sanctificationum. Antecedens vero patet, quia
+<lb ed="#P" n="75"/>irregularitatum inductio ejusdem rationis est
+<lb ed="#P" n="76"/>cum impositione poenae, et ad vim coactivam
+<lb ed="#P" n="77"/>similiter pertinet ; ergo ita cessarunt 
+irregu<lb break="no" ed="#P" n="78"/>laritates sicut et poenae. Nam in utrisque 
+ver<lb break="no" ed="#P" n="79"/>satur eadem ratio, scilicet, quod talis effectus
+<lb ed="#P" n="80"/>pendet ab obligatione legis, et ideo cessat illa
+<lb ed="#P" n="81"/>cessante. espondetur negando antecedens, et
+<lb ed="#P" n="82"/>ad probationem dici potest etiam poenas non
+<lb ed="#P" n="83"/>cessasse donec iex fuit mortifera. Verumtamen
+<lb ed="#P" n="84"/>hoc non est universale; habet enim locum in
+<lb ed="#P" n="85"/>judicialibus, non in caeremonialibus, ut dixi.
+<lb ed="#P" n="86"/>Et ideo respondeo negando similitudinem,
+<lb ed="#P" n="87"/>quia irregularitates non pertinebant proprie
+<lb ed="#P" n="88"/>ad vim coactivam, quia non erant poenas; non
+<lb ed="#P" n="89"/>enim imponebantur propter transgressiones
+<lb ed="#P" n="90"/>aliquarum legum, sed ut illae caeremoniae 
+cer<lb break="no" ed="#P" n="91"/>to modo magis decenter fierent. Et non est 
+ea<lb break="no" ed="#P" n="92"/>dem ratio de illis quae de poenis; neque etiam
+<lb ed="#P" n="93"/>pendebant ex absoluta oblisatione legis quoad
+<lb ed="#P" n="94"/>exercitium, sed ex institutione, et ad summum
+<lb ed="#P" n="95"/>ex obligatione quoad specificationem quae tunc
+<lb ed="#P" n="96"/>durabat, ut supra declaravi. Pertinebant enim
+<lb ed="#P" n="97"/>hujusmodi irregu'aritates ad ritus illarum 
+cae<lb break="no" ed="#P" n="98"/>remoniarum, et ad modum exercendi illas per
+<lb ed="#P" n="99"/>legem institutum, et ideo durante institutione
+<lb ed="#P" n="100"/>durabat etiam obligatio non exercendi illas
+<lb ed="#P" n="101"/>cum tali indecentia legali, nisi praemissa 
+puri<lb break="no" ed="#P" n="102"/>ficatione, et ita durabat uterque effectus.
+</p>
+            <p xml:id="szdleg-s36523-d1e939">
+               <lb ed="#P" n="103"/>11. Ad quid valebant opera em illa lege facta
+<lb ed="#P" n="104"/>antequam mortifera fuerunt. — Dico quarto:
+<lb ed="#P" n="105"/>quamdiu lex non fuit mortifera, opera ejus
+<lb ed="#P" n="106"/>valere potuerunt ad spiritualem 
+sanctificatio<lb break="no" ed="#P" n="107"/>nem operantium, per modum meriti vel 
+satis<lb break="no" ed="#P" n="108"/>factionis ex opere operantis, si ex fide et 
+cha<lb break="no" ed="#P" n="109"/>ritate fierent. Quod enim Ezechiel. 20 dicitur
+<lb ed="#P" n="110"/>Dedi eis praecepta mea, quae faciens homo vivel
+<pb ed="#P" n="546"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>in eis, etiamsi de spirituali vita intelligatur,
+<lb ed="#P" n="2"/>verum habet pro toto illo tempore pro quo lex
+<lb ed="#P" n="3"/>non fuit mortifera. Ratio est, quia pro toto illo
+<lb ed="#P" n="4"/>tempore illa lex quoad institutionem duravit ;
+<lb ed="#P" n="5"/>ergo opera ejus erant opera honesta, religiosa
+<lb ed="#P" n="6"/>et Deo placita ; ergo, si ex fide et charitate
+<lb ed="#P" n="7"/>fierent erant meritoria vitae aeternae et 
+au<lb break="no" ed="#P" n="8"/>gmenti gratiae, et satisfactoria pro tem porali
+<lb ed="#P" n="9"/>poena. Nam haec omnia ex parte operis non
+<lb ed="#P" n="10"/>fundantur in obligatione legis, sed in 
+hones<lb break="no" ed="#P" n="11"/>tate operis, quam honestatem habere potest
+<lb ed="#P" n="12"/>opus in ordine ad legem ut instituentem, 
+etiam<lb break="no" ed="#P" n="13"/>si cessaverit ejus obligatio. Confirmatur, quia
+<lb ed="#P" n="14"/>opus factum ex conscientia erronea 
+invincibi<lb break="no" ed="#P" n="15"/>lis ignorantie, ac propterea honestum, est
+<lb ed="#P" n="16"/>meritorium apud Deum, si aliae conditiones
+<lb ed="#P" n="17"/>concurrant ; ergo multo magis opus factum
+<lb ed="#P" n="18"/>ad cultum Dei, secundum quamdam veram
+<lb ed="#P" n="19"/>institutionem ejus, est de se capax meriti, si
+<lb ed="#P" n="20"/>aliunde operans sit in gratia, et ex fide 
+ope<lb break="no" ed="#P" n="21"/>retur, eiiamsi non ex necessitate legis id faciat;
+<lb ed="#P" n="22"/>hoc enim non impedit meritum, ut patet in
+<lb ed="#P" n="23"/>operibus consiliorum, vel in eleemosyna ex
+<lb ed="#P" n="24"/>supererogatione facta. Eo vel maxime quod
+<lb ed="#P" n="25"/>multi Judaeorum conversi ad Christum ex
+<lb ed="#P" n="26"/>ignorantia invincibil potuerunt illa opera 
+fa<lb break="no" ed="#P" n="27"/>cere pro aliquo tempore, quasi necessaria ex
+<lb ed="#P" n="28"/>lege, quia sine culpa putabant obligationem
+<lb ed="#P" n="29"/>ejus non cessasse.
+</p>
+            <p xml:id="szdleg-s36523-d1e1026">
+               <lb ed="#P" n="30"/>19. Objectio. — Duae responsiones. —Dices:
+<lb ed="#P" n="31"/>cur dicitur illa les mortua pro illo tempore,
+<lb ed="#P" n="32"/>si opera ejus tam viva erant (ut sic dicam)
+<lb ed="#P" n="33"/>pro illo tempore, ut possent etiam 
+spiritua<lb break="no" ed="#P" n="34"/>liter justificare saltem quoad augmentum 
+jus<lb break="no" ed="#P" n="35"/>titie coram Deo. Respondetur primo opera
+<lb ed="#P" n="36"/>illa, ut supra dictum est, non habuisse 
+hu<lb break="no" ed="#P" n="37"/>jusmodi vitam ab ipsa lege, sed a fide viva,
+<lb ed="#P" n="38"/>seu a gratia et charitate, quam fides impetrat.
+<lb ed="#P" n="39"/>Est autem tanta vis gratiae et charitatis, ut
+<lb ed="#P" n="40"/>etiam opera legis mortua ita possit vivificare,
+<lb ed="#P" n="41"/>ut faciat illa meritoria apud Deum. Secundo,
+<lb ed="#P" n="42"/>dicitur legem illam non fuisse simpliciter
+<lb ed="#P" n="43"/>mortuam pro illo tempore quoad omnia, sed
+<lb ed="#P" n="44"/>quoad obligationem ; quia vero obligatio est
+<lb ed="#P" n="45"/>veluti primarius effectus legis, ideo in 
+com<lb break="no" ed="#P" n="46"/>muni modo loquendi inde denominata est
+<lb ed="#P" n="47"/>mortua. Re tamen vera mansit aliquo tempore
+<lb ed="#P" n="48"/>viva quoad institutionem, seu in ratione 
+cu<lb break="no" ed="#P" n="49"/>jusdam regulae operandi ea quae ad divinum
+<lb ed="#P" n="50"/>cultum pertinerent; inde enim fit ut opera
+<lb ed="#P" n="51"/>facta per conformitatem ad talem legem 
+ha<lb break="no" ed="#P" n="52"/>berent honestatem moralem religionis , ac
+<lb ed="#P" n="53"/>subinde ut facta ex fide et informata 
+chari<lb break="no" ed="#P" n="54"/>tate, essent meritoria et sanctificativa animae
+<lb ed="#P" n="55"/>ex opere operantis.
+</p>
+            <p xml:id="szdleg-s36523-d1e1085">
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>CAPUT XXII.
+<lb ed="#P" n="57"/>QUOMODO CIRCUMCISIO CESSAVERIT QUOAD 
+SANCTI<lb break="no" ed="#P" n="58"/>FICATIONEM INFANTIUM.
+</p>
+            <p xml:id="szdleg-s36523-d1e1096">
+               <lb ed="#P" n="59"/>1. Variae sententie proponuntur.—Superest
+<lb ed="#P" n="60"/>dicendum de sanctificatione extra vel ultra
+<lb ed="#P" n="61"/>meritum operantis vel recipientis, quod solum
+<lb ed="#P" n="62"/>habet locum in circumcisione parvulorum :
+<lb ed="#P" n="63"/>nam reliquae caeremoniae illius legis non 
+ha<lb break="no" ed="#P" n="64"/>bebant talem effectum, nec circumcisio ipsa
+<lb ed="#P" n="65"/>in adultis, ut nunc suppono ex supra dictis, et
+<lb ed="#P" n="66"/>ex materia de Sacramentis. In quo puncto
+<lb ed="#P" n="67"/>aliqui dicunt circumcisionem evacuatam fuisse
+<lb ed="#P" n="68"/>in die mortis Christi in ratione remedii 
+par<lb break="no" ed="#P" n="69"/>vulorum quoad originale peccatum ; alii in die
+<lb ed="#P" n="70"/>resurrectionis, vel Pentecostes. Alii vero 
+pu<lb break="no" ed="#P" n="71"/>tant fuisse utilem usque ad perfectam 
+Evan<lb break="no" ed="#P" n="72"/>gelii promulgationem , et ita neque in die
+<lb ed="#P" n="73"/>Pentecostes, neque per aliquot annos fuisse
+<lb ed="#P" n="74"/>evacuatam circumcisionem quoad fructum.
+<lb ed="#P" n="75"/>Sed hoc resolvendum censeo juxta principia
+<lb ed="#P" n="76"/>posita de cessatione illius legis quoad 
+obh<lb break="no" ed="#P" n="77"/>gationem, et cum eadem proportione. Et quia
+<lb ed="#P" n="78"/>eadem est ratio quoad hoc de circumcisione
+<lb ed="#P" n="79"/>pro Judaeis, et de sacramento legis naturae,
+<lb ed="#P" n="80"/>quo uti poterant fideles qui erant inter 
+Gen<lb break="no" ed="#P" n="81"/>tiles ante Christi adventum, ideo de utroque
+<lb ed="#P" n="82"/>simul dicam.
+</p>
+            <p xml:id="szdleg-s36523-d1e1152">
+               <lb ed="#P" n="83"/>2. Hujusmodi remedia non fuisse evacuata
+<lb ed="#P" n="84"/>in puncto mortis vel resurrectionis Christi, nec
+<lb ed="#P" n="85"/>usque ad diem Pentecostes euclusive. — Primo
+<lb ed="#P" n="86"/>ergo assero hujusmodi remedia non fuisse
+<lb ed="#P" n="87"/>evacuata in puncto mortis vel resurrectionis
+<lb ed="#P" n="88"/>Christi, neque utique ad diem Pentecostes 
+ex<lb break="no" ed="#P" n="89"/>clusive. Probatur, quia toto illo tempore 
+non<lb break="no" ed="#P" n="90"/>dum Baptismus erat necessarius ad salutem:
+<lb ed="#P" n="91"/>ergo adhuc priora remedia erant utilia: nam
+<lb ed="#P" n="92"/>si illa inutilia facta essent, tota virtus reducta
+<lb ed="#P" n="93"/>esset ad Baptismum, et consequenter jam
+<lb ed="#P" n="94"/>fuisset necessarius. Antecedens significatur
+<lb ed="#P" n="95"/>sufficienter a Concilio Tridentino, sess. 6, c. 4,
+<lb ed="#P" n="96"/>dicente a promulgatione Evangelii neminem
+<lb ed="#P" n="97"/>Justificari a peccato originali sine Baptismo,
+<lb ed="#P" n="98"/>in re, vel in voto. sentit ergo ante illud tempus
+<lb ed="#P" n="99"/>non incoepisse Baptismi necessitatem. hatio
+<lb ed="#P" n="100"/>etiam id convincit, quia ante Christi mortem
+<lb ed="#P" n="101"/>non erat talis necessitas, ut omnes fatentur,
+<lb ed="#P" n="102"/>et a morte usque ad adventum Spiritus Sancti
+<lb ed="#P" n="103"/>nulla nova promulgatio Baptismi facta est,
+<lb ed="#P" n="104"/>neque illi aliquid additum, ex quo illa 
+neces<lb break="no" ed="#P" n="105"/>sitas oriri potuerit. Unde merito D. Thomas,
+<lb ed="#P" n="106"/>3 p., q. 66, art. 2, docuit praeceptum Baptismi
+<lb ed="#P" n="107"/>non obligasse donec Christus, post resurrec-
+<pb ed="#P" n="547"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tionem, dixit Apostolis : <quote xml:id="szdleg-s36523-Qd1e1214">Euntes docete omnes
+<lb ed="#P" n="2"/>gentes, baptizantes eos</quote>. Ut autem ibi notavi
+<lb ed="#P" n="3"/>disp. 34, sect. 1, circa finem, non est 
+existi<lb break="no" ed="#P" n="4"/>mandum, eodem die et momento quo Christus
+<lb ed="#P" n="5"/>Dominus illa verba protulit coepisse 
+praece<lb break="no" ed="#P" n="6"/>ptum Baptismi obligare, sed quando Apostoli
+<lb ed="#P" n="7"/>executioni mandarunt quod tunc Christus
+<lb ed="#P" n="8"/>praecepit : Euntes docete omnes gentes, 
+bapti<lb break="no" ed="#P" n="9"/>zantes eos, etc., quod ante Pentecostem factum
+<lb ed="#P" n="10"/>non est. Et confirmatur, quia incredibile est
+<lb ed="#P" n="11"/>infantes omnes eo tempore mansisse sine 
+re<lb break="no" ed="#P" n="12"/>medio quod moraliter eis applicari posset:
+<lb ed="#P" n="13"/>hoc autem secutum fuisset, si utilitas 
+circum<lb break="no" ed="#P" n="14"/>cisionis antea sublata fuisset: ergo et illud
+<lb ed="#P" n="15"/>prius est incredibile. Consequentia cum 
+ma<lb break="no" ed="#P" n="16"/>jori notae sunt : minor autem probatur, quia
+<lb ed="#P" n="17"/>licet Baptismus esset institutus, non tamen
+<lb ed="#P" n="18"/>suffieienter propositus majori parti hominum:
+<lb ed="#P" n="19"/>ergo non poterat moraliter applicari et esse
+<lb ed="#P" n="20"/>utilis.
+</p>
+            <p xml:id="szdleg-s36523-d1e1259">
+               <lb ed="#P" n="21"/>3. Responsio aliquorum. — Refellitur 
+res<lb break="no" ed="#P" n="22"/>ponsio. — Responsio Soto. — Refellitur. —
+<lb ed="#P" n="23"/>Respondent aliqui non esse inconveniens illud
+<lb ed="#P" n="24"/>quod infertur, quia illa impotentia erat per
+<lb ed="#P" n="25"/>accidens ex ignorantia parentum ; nam 
+re<lb break="no" ed="#P" n="26"/>medium de se sufficiens jam erat datum, et
+<lb ed="#P" n="27"/>legislator optime potest revocare privilegium
+<lb ed="#P" n="28"/>vel irritare factum a die in quo condit aliam
+<lb ed="#P" n="29"/>legem, etiamsi ad notitiam subditorum non
+<lb ed="#P" n="30"/>pervenerit. Sed hoc profecto alienum est a
+<lb ed="#P" n="31"/>divina providentia (nam de potentia absoluta
+<lb ed="#P" n="32"/>non disputamus). Postquam enim Deus ex se
+<lb ed="#P" n="33"/>voluit omnes homines salvos facere, debuit
+<lb ed="#P" n="34"/>constituere remedium humano modo possibile
+<lb ed="#P" n="35"/>et utile: Baptismus autem institutus et non
+<lb ed="#P" n="36"/>sufficienter promulgatus non erat remedium
+<lb ed="#P" n="37"/>humano modo utile, nec pro toto mundo 
+pos<lb break="no" ed="#P" n="38"/>sibile. Praeterquam quod Christus Dominus
+<lb ed="#P" n="39"/>non statuit obligationem suae legis in puncto
+<lb ed="#P" n="40"/>passionis magis quam antea, et idem est de
+<lb ed="#P" n="41"/>puneto Resurrectionis, et quolibet alio usque
+<lb ed="#P" n="42"/>ad promulgationem illius, ut infra dicam. Et
+<lb ed="#P" n="43"/>incredibile etiam est passionem Christi statim
+<lb ed="#P" n="44"/>attulisse tam magnum nocumentum omnibus
+<lb ed="#P" n="45"/>infantibus, qui, pro illo tempore, sancto et 
+le<lb break="no" ed="#P" n="46"/>gitimo ritu circumcidebantur , et alias 
+bap<lb break="no" ed="#P" n="47"/>tizari moraliter non poterant, vel etiamsi 
+pos<lb break="no" ed="#P" n="48"/>sent, parentes eorum nondum eos baptizare
+<lb ed="#P" n="49"/>tenebantur. Aliter respondet Soto, supra, 
+cir<lb break="no" ed="#P" n="50"/>cumcisionem eo tempore fuisse utilem 
+se<lb break="no" ed="#P" n="51"/>cundum generalem rationem protestationis
+<lb ed="#P" n="52"/>fidei, non secundum specialem rationem 
+sa<lb break="no" ed="#P" n="53"/>cramenti legis veteris. Sed hoc habere posset
+<lb ed="#P" n="54"/>locum si circumcisio tunc fuisset mortua ;
+<lb ed="#P" n="55"/>cum tamen dictum sit illam tunc nondum
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>fuisse mortuam quoad obligationem , nec
+<lb ed="#P" n="57"/>quoad utilitatem esse potuit, et ita non habet
+<lb ed="#P" n="58"/>locum distinctio. Ut omittam fortasse 
+circum<lb break="no" ed="#P" n="59"/>cisionem nunquam aliter fuisse utilem quam
+<lb ed="#P" n="60"/>remedium legis naturae, sed tantum pro 
+ju<lb break="no" ed="#P" n="61"/>daico populo generale remedium 
+determina<lb break="no" ed="#P" n="62"/>tum fuisse ad talem caeremoniam: ergo sicut
+<lb ed="#P" n="63"/>remedium legis natura non cessavit ante
+<lb ed="#P" n="64"/>Daptismi necessitatem introductam, ita nec
+<lb ed="#P" n="65"/>cireumcisio pro illo populo; quia neutrum
+<lb ed="#P" n="66"/>remedium per se ablatum est, sed ad 
+intro<lb break="no" ed="#P" n="67"/>ductionem alterius perfectioris ac propositi
+<lb ed="#P" n="68"/>ut necessarii, nimirum Baptismi.
+</p>
+            <p xml:id="szdleg-s36523-d1e1368">
+               <lb ed="#P" n="69"/>4. Ita cessavit circumcisio in die Pentecostes
+<lb ed="#P" n="70"/>quoad fructum gratiae, sicut cepit Baptismus
+<lb ed="#P" n="71"/>esse ad salutem necessarius. — Unde infero
+<lb ed="#P" n="72"/>a die Pentecostes ita cessasse sacramentum
+<lb ed="#P" n="73"/>circumcisionis quoad fructum gratiae qui in
+<lb ed="#P" n="74"/>eo dabatur, sicut coepit Baptismus esse ad
+<lb ed="#P" n="75"/>salutem necessarius. Probatur, quia unum 
+re<lb break="no" ed="#P" n="76"/>medium quoad dictum effectum non fuit 
+ex<lb break="no" ed="#P" n="77"/>clusum nisi per necessitatem alterius, ut 
+os<lb break="no" ed="#P" n="78"/>tensum est. Confirmatur, quia remedium 
+le<lb break="no" ed="#P" n="79"/>gis naturae, quod durabat in gentibus 
+fideli<lb break="no" ed="#P" n="80"/>bus, non fuit antea neque alio modo 
+priva<lb break="no" ed="#P" n="81"/>tum sua utilitate, propter rationem factam,
+<lb ed="#P" n="82"/>et quia non fuisset alius conveniens 
+provi<lb break="no" ed="#P" n="83"/>dentie modus; ergo eadem proportione 
+ju<lb break="no" ed="#P" n="84"/>dicandum est de circumcisione quoad 
+infan<lb break="no" ed="#P" n="85"/>tes Judaeorum. Unde fit ut non simul facta
+<lb ed="#P" n="86"/>sint inutilia illa antiqua sacramenta pro toto
+<lb ed="#P" n="87"/>orbe, sed successive, sicut lex gratiae 
+intro<lb break="no" ed="#P" n="88"/>ducebatur et obligare incipiebat, quia eodem
+<lb ed="#P" n="89"/>modo incipiebat Baptismus esse necessarius,
+<lb ed="#P" n="90"/>et ita pari modo desinebant tam 
+circumci<lb break="no" ed="#P" n="91"/>sio quam sacramentum legis naturae esse
+<lb ed="#P" n="92"/>utilia.
+</p>
+            <p xml:id="szdleg-s36523-d1e1423">
+               <lb ed="#P" n="93"/>5. Objectio. — Responsiones due. — Dices
+<lb ed="#P" n="94"/>non esse in hoc parem rationem de populo
+<lb ed="#P" n="95"/>judaico et gentili. Nam quoad judaicum in
+<lb ed="#P" n="96"/>die Pentecostes fuit satis consummata 
+pro<lb break="no" ed="#P" n="97"/>mulgatio Baptismi, quia haec quodammodo
+<lb ed="#P" n="98"/>inchoata fuerat toto tempore praedicationis
+<lb ed="#P" n="99"/>Christi et Apostolorum, vivente ipso; non
+<lb ed="#P" n="100"/>vero gentibus, nam ipsemet Christus dixerat,
+<lb ed="#P" n="101"/>Matth. 10: 7n viam gentium ne abieritis; et
+<lb ed="#P" n="102"/>de se dicebat: IVon sum missus, nisi ad oves
+<lb ed="#P" n="103"/>quae perierunt domus Israel, Matth. 15, 
+qui<lb break="no" ed="#P" n="104"/>illis tantum tunc fiebat promulgatio. In di,
+<lb ed="#P" n="105"/>autem Pentecostes erant in Jerusalem 
+congre<lb break="no" ed="#P" n="106"/>gati Judaei ex omni natione quae sub coelo
+<lb ed="#P" n="107"/>est; ergo pro illis satis fuit tunc consummata
+<lb ed="#P" n="108"/>promulgatio ; ergo pro illis cessavit tunc tota
+<lb ed="#P" n="109"/>utilitas circumcisionis : ergo fuit evacuata
+<lb ed="#P" n="110"/>omnino, quia tantum pro illis utilis erat. Res-
+<pb ed="#P" n="548"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>
+               <!-- lien coord error -->
+               <lb ed="#P" n="2"/>pondetur imprimis, etiamsi antecedens 
+con<lb break="no" ed="#P" n="3"/>cederetur, habere tunc locum distinctionem
+<lb ed="#P" n="4"/>Soti, quia licet tunc circumcisio non esset
+<lb ed="#P" n="5"/>utilis ratione legis veteris, fuisset utilis 
+ra<lb break="no" ed="#P" n="6"/>tione remedii legis naturae, quia esset 
+pro<lb break="no" ed="#P" n="7"/>testatio fidei, cum nondum lex vetus esset
+<lb ed="#P" n="8"/>mortifera. Melius vero dicitur argumentum
+<lb ed="#P" n="9"/>probare intra brevius tempus cessasse 
+cir<lb break="no" ed="#P" n="10"/>cumcisionem pro Judaeis, quam remedium
+<lb ed="#P" n="11"/>legis naturae pro gentibus, non tamen quod
+<lb ed="#P" n="12"/>statim eo die pro omnibus Judaeis per 
+uni<lb break="no" ed="#P" n="13"/>versum orbem dispersis cessaverit 
+circumci<lb break="no" ed="#P" n="14"/>sio, quia licet fides Christi antea praedicari 
+coe<lb break="no" ed="#P" n="15"/>perit, tamen necessitas Baptismi non fuit ante
+<lb ed="#P" n="16"/>praedicata, et ideo in die Pentecostes coepit
+<lb ed="#P" n="17"/>ejus promulgatio, quae non poterat statim 
+dit<lb break="no" ed="#P" n="18"/>fundi humano more in omnes provincias in
+<lb ed="#P" n="19"/>quibus Judaei habitabant: et ideo etiam ad
+<lb ed="#P" n="20"/>hanc promulgationem sufficiens tempus 
+con<lb break="no" ed="#P" n="21"/>cedendum est, ne dicamus omnes illos 
+par<lb break="no" ed="#P" n="22"/>vulos fuisse privatos remedio ante 
+opportu<lb break="no" ed="#P" n="23"/>num tempus. ltem, quia lex circumcisionis
+<lb ed="#P" n="24"/>non prius nec alio modo mortua est, ut ex
+<lb ed="#P" n="25"/>supra dictis constat : et juxta hanc doctrinam
+<lb ed="#P" n="26"/>accommodanda et explicanda sunt quae dixi
+<lb ed="#P" n="27"/>3 tom. 3 partis, disp. 27, sect. 4.
+</p>
+            <p xml:id="szdleg-s36523-d1e1530">
+               <lb ed="#P" n="28"/>6. Responsio. — Dices: Judaei jam non 
+ap<lb break="no" ed="#P" n="29"/>plicabant illud remedium ex vera fide; ergo
+<lb ed="#P" n="30"/>non poterat esse utile. Patet consequentia,
+<lb ed="#P" n="31"/>quia non erat utile nisi quatenus applicabat
+<lb ed="#P" n="32"/>fidem. Antecedens autem patet, quia 
+applica<lb break="no" ed="#P" n="33"/>bant illud ex fide venturi Messia, et in 
+si<lb break="no" ed="#P" n="34"/>gnum ejus, quod falsum jam erat. 
+RHesponde<lb break="no" ed="#P" n="35"/>tur errorem illum quoad circumstantiam 
+tem<lb break="no" ed="#P" n="36"/>poris fuisse privatum, et fortasse in multis
+<lb ed="#P" n="37"/>per ignorantiam invincibilem excusatum. 
+Un<lb break="no" ed="#P" n="38"/>de non excludebat veram fidem de Messia
+<lb ed="#P" n="39"/>promisso, nec reddebat falsam significationem
+<lb ed="#P" n="40"/>ipsius sacramenti, ut supra declaravi, 
+ideo<lb break="no" ed="#P" n="41"/>que error ille non impediebat fructum. Sicut
+<lb ed="#P" n="42"/>nunc error privatus in ministro Baptismi, si
+<lb ed="#P" n="43"/>non excludat generalem intentionem sacra-
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="44"/>menti, non impedit effectum ejus. Et patet,
+<lb ed="#P" n="45"/>quia, vivente Christo Domino, poterat similis
+<lb ed="#P" n="46"/>error misceri in mysterio circumcisionis, et
+<lb ed="#P" n="47"/>tamen non propterea reddebatur inutile. Dici
+<lb ed="#P" n="48"/>etiam potest in illa existimatione 
+distinguen<lb break="no" ed="#P" n="49"/>dam esse fidem de substantia mysterii, 
+abstra<lb break="no" ed="#P" n="50"/>hendo a circumstantia temporis, ab errore
+<lb ed="#P" n="51"/>circa temporis differentiam, et priori modo
+<lb ed="#P" n="52"/>fuisse veram fidem, quia solum erat de 
+Chris<lb break="no" ed="#P" n="53"/>to in aliquo tempore venturo, abstrahendo
+<lb ed="#P" n="54"/>utrum jam venisset necne, et ut sic fuisse
+<lb ed="#P" n="55"/>utilem protestationem fidei factam sive per
+<lb ed="#P" n="56"/>circumcisionem, sive per sacramentum legis
+<lb ed="#P" n="57"/>naturae, non obstante falsa opinione privata
+<lb ed="#P" n="58"/>quae circa temporis differentiam misceri 
+po<lb break="no" ed="#P" n="59"/>terat.
+</p>
+            <p xml:id="szdleg-s36523-d1e1604">
+               <lb ed="#P" n="60"/>7. Objectio.— Responsio. — De remedio legis
+<lb ed="#P" n="61"/>natura quid dicendum. — Dupleg ignorantia
+<lb ed="#P" n="62"/>diligenter distinguenda.— Dices tandem : ergo
+<lb ed="#P" n="63"/>etiam nunc si inveniretur aliquis Judaeus 
+ha<lb break="no" ed="#P" n="64"/>bens ignorantiam invincibilem christianae 
+ve<lb break="no" ed="#P" n="65"/>ritatis, et bona fide circumcideret filium, illa
+<lb ed="#P" n="66"/>circumcisio esset utilis, nam videtur eadem
+<lb ed="#P" n="67"/>ratio. Respondetur esse longe dissimilem 
+ra<lb break="no" ed="#P" n="68"/>tionem, ideoque negari consequentiam. Quia
+<lb ed="#P" n="69"/>ex quo Daptismus necessarius esse coepit, 
+cir<lb break="no" ed="#P" n="70"/>cumcisio in se omnino inutilis facta est, et illa
+<lb ed="#P" n="71"/>ignorantia est per accidens, quae non dat 
+vir<lb break="no" ed="#P" n="72"/>tutem, nec restituit, ut sic dicam, utilitatem
+<lb ed="#P" n="73"/>illi operi; sicut etiam de remedio legis naturae
+<lb ed="#P" n="74"/>in universum dicendum nunc est, ut suppono
+<lb ed="#P" n="75"/>ex materia de Baptismo. Et ideo attente in hac
+<lb ed="#P" n="76"/>materia distinguendum est inter ignorantiam
+<lb ed="#P" n="77"/>provenientem ex defectu promulgationis, seu
+<lb ed="#P" n="78"/>temporis sufficientis ad illam, vel 
+provenien<lb break="no" ed="#P" n="79"/>tem ex aliis humanis impedimentis, non 
+ob<lb break="no" ed="#P" n="80"/>stante promulgatione jam facta. Nam prior
+<lb ed="#P" n="81"/>ignorantia est per se, ex impotentia 
+simplici<lb break="no" ed="#P" n="82"/>ter, ac proinde consideratur ex parte legis, ut
+<lb ed="#P" n="83"/>eo tempore necessitatem non inducat. Alia
+<lb ed="#P" n="84"/>vero ignorantia est per accidens, et non 
+con<lb break="no" ed="#P" n="85"/>sideratur.
+<lb ed="#P" n="86"/>FINIS LIBRI NONI.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

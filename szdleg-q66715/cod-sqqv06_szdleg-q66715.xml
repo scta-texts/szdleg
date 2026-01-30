@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 11</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 11</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="265"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q66715"><!-- l8c11 -->
+        <head xml:id="szdleg-q66715-Hd1e101">Caput 11</head>
+        <head xml:id="szdleg-q66715-Hd1e103" type="question-title">An privilegium extendatur ad conjuncta seu correlativa.</head>
+        <p xml:id="szdleg-q66715-d1e106">
+          <lb ed="#P" n="85"/>CAPUT XI.
+          <lb ed="#P" n="86"/>AN PRIVILEGIUM EXTENDATUR AD CONJUNCTA SEU
+          <lb ed="#P" n="87"/>CORRELATIVA.
+        </p>
+        <p xml:id="szdleg-q66715-d1e115">
+          <lb ed="#P" n="88"/>1. Hoc dubium petitur in posterioribus
+          <lb ed="#P" n="89"/>exemplis positis in capite superiori, et continet
+          <lb ed="#P" n="90"/>varias quaestiones de conjunctis, seu 
+          correlati<lb break="no" ed="#P" n="91"/>vis, an, scilicet, privilegium uni concessum
+          <lb ed="#P" n="92"/>censeatur consequenter alteri concessum ; ut,
+          <lb ed="#P" n="93"/>an privilegium concessum marito censeatur
+          <lb ed="#P" n="94"/>concessum uxori, vel datum patri 
+          communice<lb break="no" ed="#P" n="95"/>tur filiis, et datum avo transeat ad nepotes, vel
+          <lb ed="#P" n="96"/>datum domino communicetur familiaribus seu
+          <lb ed="#P" n="97"/>servientibus, vel datum uni sociorum alteri
+          <lb ed="#P" n="98"/>commune sit. De quibus quaestionibus, qui
+          <lb ed="#P" n="99"/>multa desiderat, legat Barbosam in l. Quia tale,
+          <lb ed="#P" n="100"/>ff. de Solut. matr., a num. 22: et Baptist. de
+          <lb ed="#P" n="101"/>S. Blas., tr. de Correlat., praesertim n. 23 et
+          <lb ed="#P" n="102"/>35. Solum ergo dicimus applicandam esse 
+          re<lb break="no" ed="#P" n="103"/>gulam generalem supra traditam cum suis
+          <lb ed="#P" n="104"/>moderationibus. Nimirum, privilegium 
+          con<lb break="no" ed="#P" n="105"/>cessum uni et propter rationem in illo solo
+          <lb ed="#P" n="106"/>existentem, non transire ad alios quantumvis
+          <lb ed="#P" n="107"/>correlativos, neque illis communicari ex vi
+          <pb ed="#P" n="266"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>conjunctionis seu correlationis quam inter se
+          <lb ed="#P" n="2"/>habent, nisi aliunde ex materia, usu, aut 
+          ver<lb break="no" ed="#P" n="3"/>bis privilegii, vel ex alia juris dispositione 
+          ta<lb break="no" ed="#P" n="4"/>lis extensio habeatur. Ratio regulae est, quia
+          <lb ed="#P" n="5"/>tale privilegium simpliciter est personale, et
+          <lb ed="#P" n="6"/>relatio vel connexio ad aliam personam non
+          <lb ed="#P" n="7"/>facit identitatem ; ergo si per se non spectat
+          <lb ed="#P" n="8"/>ad usum privilegii, nihil etiam deserviet ad
+          <lb ed="#P" n="9"/>communicationem ejus; ergo manet intra 
+          h<lb break="no" ed="#P" n="10"/>mites privilegii personalis, cujus natura est,
+          <lb ed="#P" n="11"/>ut intra personam maneat, adeo ut alteri 
+          do<lb break="no" ed="#P" n="12"/>nari vel in alium transferri non possit, etiam
+          <lb ed="#P" n="13"/>voluntarie cedente ipso privilegiario, ut 
+          Bar<lb break="no" ed="#P" n="14"/>bos. supra late ostendit. Non ergo 
+          communica<lb break="no" ed="#P" n="15"/>tur correlativo, nisi ex alio capite colligatur
+          <lb ed="#P" n="16"/>extensio. Quod per aliqua exempla circa 
+          par<lb break="no" ed="#P" n="17"/>ticularia membra numerata breviter 
+          expli<lb break="no" ed="#P" n="18"/>catur.
+        </p>
+        <p xml:id="szdleg-q66715-d1e204">
+          <lb ed="#P" n="19"/>2. Quando uxor gaudet vel non gaudet 
+          privile<lb break="no" ed="#P" n="20"/>gio mariti.—Nam imprimis uxor non gaudet
+          <lb ed="#P" n="21"/>privilegio mariti per sc loquendo et nihil 
+          am<lb break="no" ed="#P" n="22"/>plius addendo, propter rationem factam. Si 
+          ta<lb break="no" ed="#P" n="23"/>men privilegium concessum sit marito ratione
+          <lb ed="#P" n="24"/>nobilitatis innatae ex vi generis et stirpis, tale
+          <lb ed="#P" n="25"/>privilegium communicabitur uxori ex 
+          disposi<lb break="no" ed="#P" n="26"/>tone alterius juris, statuentis uxorem nobilis
+          <lb ed="#P" n="27"/>viri esse nobilem, etiamsi ex se ante 
+          matrimo<lb break="no" ed="#P" n="28"/>nium nobilis non esset, et ideo consequenter
+          <lb ed="#P" n="29"/>gaudet privilegio nobilitatis mariti. Et quia
+          <lb ed="#P" n="30"/>uxor,per matrimonium cum persona nobili, ita
+          <lb ed="#P" n="31"/>fit nobilis ut retineat nobilitatem mortuo 
+          ma<lb break="no" ed="#P" n="32"/>rito, ideo etiam in viduitate gaudet privilegio
+          <lb ed="#P" n="33"/>mariti. Aliquando vero maritus non est nobilis
+          <lb ed="#P" n="34"/>sanguine, fit autem nobilis ratione magistratus
+          <lb ed="#P" n="35"/>et officii, quae dici solet nobilitas accidentalis,
+          <lb ed="#P" n="36"/>et duobus modis acquiritur secundum jura.
+          <lb ed="#P" n="37"/>Uno modo ut separabilis, etiamsi 
+          magistra<lb break="no" ed="#P" n="38"/>tus aut dignitas relinquatur, ut senator fit 
+          no<lb break="no" ed="#P" n="39"/>bilis ex tali munere, et manet nobilis, 
+          etiam<lb break="no" ed="#P" n="40"/>si administrationem relinquat. Alio modo 
+          so<lb break="no" ed="#P" n="41"/>let conferre officium nobilitatem quamdiu
+          <lb ed="#P" n="42"/>geritur, illo vero deposito cessat nobilitas;
+          <lb ed="#P" n="43"/>uterque enim modus habetur in jure, et ex 
+          il<lb break="no" ed="#P" n="44"/>lius dispositione pendet.In utroque ergo modo
+          <lb ed="#P" n="45"/>uxor participat nobilitatem accidentalem 
+          ma<lb break="no" ed="#P" n="46"/>riti, et consequenter gaudet privilegiis ejus;
+          <lb ed="#P" n="47"/>aliter vero et aliter. Nam quando nobilitas 
+          ac<lb break="no" ed="#P" n="48"/>cidentalis est de se perpetua, seu separabilis
+          <lb ed="#P" n="49"/>ab administratione et munere, tunc uxor 
+          gau<lb break="no" ed="#P" n="50"/>det ejus privilegiis, non solum vivente 
+          mari<lb break="no" ed="#P" n="51"/>to, sed etiam mortuo, quia etiam tunc 
+          nobili<lb break="no" ed="#P" n="52"/>tate gaudet ; quando autem nobilitas 
+          acciden<lb break="no" ed="#P" n="53"/>taria pendet in esse et conservari a munere,
+          <lb ed="#P" n="54"/>tunc uxor gaudet privilegiis mariti illo 
+          viven<lb break="no" ed="#P" n="55"/>te; non autem mortuo, quia jam amisit nobili-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tatem. Imo idem erit, licet maritus non 
+          mo<lb break="no" ed="#P" n="57"/>riatur, si magistratum relinquat, quia eo ipso
+          <lb ed="#P" n="58"/>perdit nobilitatem, et consequenter privilegia.
+          <lb ed="#P" n="59"/>Unde addi potest quartum membrum, quando
+          <lb ed="#P" n="60"/>privilegium datur marito sine ullo respectu ad
+          <lb ed="#P" n="61"/>nobilitatem naturalem, vel accidentalem, 
+          se<lb break="no" ed="#P" n="62"/>parabilem vel inseparabilem ab officio, sed
+          <lb ed="#P" n="63"/>pure ratione officii vel administrationis : nam
+          <lb ed="#P" n="64"/>sic aliquando conceditur privilegium sine ulla
+          <lb ed="#P" n="65"/>nobilitate, et tunc uxor non gaudet privilegio
+          <lb ed="#P" n="66"/>mariti, etiam illo vivente. Quia officium non
+          <lb ed="#P" n="67"/>communicatur sicut nobilitas, nec invenitur
+          <lb ed="#P" n="68"/>dispositio juris in qua communicatio talis 
+          pri<lb break="no" ed="#P" n="69"/>vilegii possit fundari. Et ita applicatur optime
+          <lb ed="#P" n="70"/>regula data.
+        </p>
+        <p xml:id="szdleg-q66715-d1e322">
+          <lb ed="#P" n="71"/>3. Unde obiter colligitur decisio illius 
+          quaes<lb break="no" ed="#P" n="72"/>tionis, an uxor clerici conjugati gaudeat 
+          pri<lb break="no" ed="#P" n="73"/>vilegiis ejus, quam tractat Sanc., 1. 7 de Matr.,
+          <lb ed="#P" n="74"/>disp. 47, et recte definit non gaudere, 
+          sequi<lb break="no" ed="#P" n="75"/>turque ex regula posita. Nam illa privilegia
+          <lb ed="#P" n="76"/>conceduntur propter dignitatem et munus 
+          cle<lb break="no" ed="#P" n="77"/>rici, quod nullo modo communicatur uxori:
+          <lb ed="#P" n="78"/>nec est aliquod jus quod illam 
+          communicatio<lb break="no" ed="#P" n="79"/>nem talium privilegiorum faciat. Imo in ipso
+          <lb ed="#P" n="80"/>marito restringuntur ratione mairimoni, ut
+          <lb ed="#P" n="81"/>constat ex c. unic. de Cler. conjug., in6; et ex
+          <lb ed="#P" n="82"/>Trid., sess. 23, c. 6 de Refor. Et merito, quia
+          <lb ed="#P" n="83"/>per matrimonium detrahit multum illi 
+          tradi<lb break="no" ed="#P" n="84"/>tioni ad divinum obsequium, quae per 
+          ordina<lb break="no" ed="#P" n="85"/>tionem fit vel inchoatur; et est ratio talium
+          <lb ed="#P" n="86"/>privilegiorum, ut dixit Innoc. in c. 1 de 
+          Ma<lb break="no" ed="#P" n="87"/>jor. et obed. Solum in 1. 2, c. de Episcop. et
+          <lb ed="#P" n="88"/>Cleric., fit quaedam specialis concessio, quae
+          <lb ed="#P" n="89"/>regulam generalem positam confirmet. Quae
+          <lb ed="#P" n="90"/>regula potest similiter applicari ad bona 
+          ea<lb break="no" ed="#P" n="91"/>rumdem personarum. Nam privilegium mariti
+          <lb ed="#P" n="92"/>quoad immunitatem bonorum suorum, non
+          <lb ed="#P" n="93"/>communicatur uxori quoad propria bona, nisi
+          <lb ed="#P" n="94"/>forte illa immunitas bonorum concedatur 
+          me<lb break="no" ed="#P" n="95"/>dia nobilitate : tunc enim communicata 
+          nobi<lb break="no" ed="#P" n="96"/>litate,communicabitur etiam immunitas 
+          bono<lb break="no" ed="#P" n="97"/>rum ; ubi autem sine nobilitate conceditur illa
+          <lb ed="#P" n="98"/>immunitas ratione officii, non est talis 
+          commu<lb break="no" ed="#P" n="99"/>nicatio, nisi exprimatur. kt nihilominus 
+          ad<lb break="no" ed="#P" n="100"/>dendum est quod si, ratione matrimonii, bona
+          <lb ed="#P" n="101"/>uxoris et mariti fiant communia, et quasi 
+          indi<lb break="no" ed="#P" n="102"/>visa, tunc etiam uxor fovetur privilegio 
+          ma<lb break="no" ed="#P" n="103"/>riti quoad immunitatem bonorum, quia tunc
+          <lb ed="#P" n="104"/>usus privilegii ex parte mariti est connexus
+          <lb ed="#P" n="105"/>cum uxore, nec potest ab illa separari, et ideo
+          <lb ed="#P" n="106"/>oportet dicere aut maritum non posse uti 
+          pri<lb break="no" ed="#P" n="107"/>vilegio, quod dicendum non est, aut per 
+          quam<lb break="no" ed="#P" n="108"/>dam necessariam consecutionem communicari
+          <lb ed="#P" n="109"/>uxori, quod rationi consentaneum est. Et 
+          eo<lb break="no" ed="#P" n="110"/>dem modo philosophandum est de quocum-
+          <pb ed="#P" n="267"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>que privilegio mariti, quo ipse uti non possit
+          <lb ed="#P" n="2"/>sine consortio uxoris.
+        </p>
+        <p xml:id="szdleg-q66715-d1e420">
+          <lb ed="#P" n="3"/>4. Dicta de uxore et marito applicanda esse
+          <lb ed="#P" n="4"/>ad patrem et filios. — Praeterea, quae de uxore
+          <lb ed="#P" n="5"/>et marito diximus ad patrem et filios 
+          appli<lb break="no" ed="#P" n="6"/>canda sunt; nam fili in hoc aequiparantur
+          <lb ed="#P" n="7"/>matri, comparatione facta ad patrem, seu 
+          ma<lb break="no" ed="#P" n="8"/>ritum. Proceditque quando in privilegio 
+          pa<lb break="no" ed="#P" n="9"/>tris filii non nominantur, quia sunt personae
+          <lb ed="#P" n="10"/>diversae, et sola habitudo relationis non 
+          suffti<lb break="no" ed="#P" n="11"/>cit, ut in uxore declaratum est. Et ita de filiis
+          <lb ed="#P" n="12"/>docuit Gloss. in c. Zicet, de Censib., quae 
+          sim<lb break="no" ed="#P" n="13"/>pliciter negat filium privilegio gaudere patris.
+          <lb ed="#P" n="14"/>Sumitur etiam ex Gloss. inl. 2, c. de Episc. et
+          <lb ed="#P" n="15"/>Cleric., et ibi Bald., n. 5, et Alex. de Nevo,
+          <lb ed="#P" n="16"/>in cap. 2 de Foro comp., n. 22. Et ratio patet
+          <lb ed="#P" n="17"/>ex supra dictis, quia tale privilegium 
+          perso<lb break="no" ed="#P" n="18"/>nale est, quod non transit ad haeredes. Imo
+          <lb ed="#P" n="19"/>non solum non transit ad haeredes filios, 
+          mor<lb break="no" ed="#P" n="20"/>tuo patre, verum etiam nec communicatur 
+          fi<lb break="no" ed="#P" n="21"/>Iiis, vivente patre, quia non egreditur 
+          perso<lb break="no" ed="#P" n="22"/>nam. Hoc autem cum duplici limitatione 
+          acci<lb break="no" ed="#P" n="23"/>piendum est. Una est nisi aliunde, et ex vi 
+          al<lb break="no" ed="#P" n="24"/>terius juris fiat talis communicatio, vel 
+          trans<lb break="no" ed="#P" n="25"/>missio, ut contingit in privilegio concesso
+          <lb ed="#P" n="26"/>marito in dicta l. Maritum, nam extenditur
+          <lb ed="#P" n="27"/>ad filios, in l. Etiam, ff. Solut. matrim. Alia
+          <lb ed="#P" n="28"/>est de privilegio quod datur media 
+          nobilita<lb break="no" ed="#P" n="29"/>te: nam tunc filii gaudent privilegio patris,
+          <lb ed="#P" n="30"/>sive nobilitas sit naturalis, quia illam habent
+          <lb ed="#P" n="31"/>ex vi originis, et quasi naturali jure aut 
+          gen<lb break="no" ed="#P" n="32"/>tium, sive sit accidentalis, quia illam 
+          partici<lb break="no" ed="#P" n="33"/>pant ex vi juris civilis, ut patet ex l. Femina,
+          <lb ed="#P" n="34"/>ff. de Senat. et 1. 1, cod. de Dignit., lib. 12.
+          <lb ed="#P" n="35"/>Quod procedit cum proportione in nobilitate
+          <lb ed="#P" n="36"/>ex munere, separabili vel inseparabili ab illo:
+          <lb ed="#P" n="37"/>nam prior transit ad filios, etiam mortuo 
+          pa<lb break="no" ed="#P" n="38"/>tre; posterior autem tantum illo vivente, 
+          si<lb break="no" ed="#P" n="39"/>cut de uxore dictum est. Et ita in simili 
+          ex<lb break="no" ed="#P" n="40"/>ponit d. Glossa in l. 2, c. de Episc. et Cleric.,
+          <lb ed="#P" n="41"/>verb. Filii, et explicatur aperte in l. ult.,
+          <lb ed="#P" n="42"/>c. de Injur. Et juxta haec intelligenda sunt,
+          <lb ed="#P" n="43"/>quae de hoc puncto docuit Panorm. in dicto
+          <lb ed="#P" n="44"/>c. Licet, de Censib. in fine, cum Cyno in l. 2,
+          <lb ed="#P" n="45"/>c. de Episc. et Cleric., et Syiv., verb. 
+          Privi<lb break="no" ed="#P" n="46"/>legia, quaest. 5, et eodem modo intelligo quae
+          <lb ed="#P" n="47"/>Baldus tradit in citatis locis: loquitur enim de
+          <lb ed="#P" n="48"/>immunitatibus, vel privilegiis, quae 
+          concedun<lb break="no" ed="#P" n="49"/>tur patri ratione alicujus muneris, in quo filii
+          <lb ed="#P" n="50"/>participant vel nobilitatem, vel civitatis jus,
+          <lb ed="#P" n="51"/>et similia.
+        </p>
+        <p xml:id="szdleg-q66715-d1e529">
+          <lb ed="#P" n="52"/>5. At vero si privilegium expresse 
+          conti<lb break="no" ed="#P" n="53"/>neat vocationem filiorum, aut posteritatis ,
+          <lb ed="#P" n="54"/>tunc privilegium vel fit reale, ac perpetuum,
+          <lb ed="#P" n="55"/>et sit transit ad haeredes juxta dicta in supe-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>rioribus, vel certe directe conceditur omnibus
+          <lb ed="#P" n="57"/>nominatis. Solum est advertendum, quando
+          <lb ed="#P" n="58"/>privilegium conceditur patri et filiis, 
+          ambi<lb break="no" ed="#P" n="59"/>guum relinqui, an concedatur filiis tantum
+          <lb ed="#P" n="60"/>post mortem patris, vel tantum eo vivente,
+          <lb ed="#P" n="61"/>vel in utroque tempore. Verum tamen 
+          dicen<lb break="no" ed="#P" n="62"/>dum est, per se loquendo talem concessionem
+          <lb ed="#P" n="63"/>ita esse interpretandam, ut intelligatur facta
+          <lb ed="#P" n="64"/>filiis vivente patre. Ita Bart. in l. Gallus, S
+          <lb ed="#P" n="65"/>Quidam recte, ff. de Lib. et post. n. 11; Sylvest.
+          <lb ed="#P" n="66"/>dicta q. 5. Exemplum clarum est in 1. 2,
+          <lb ed="#P" n="67"/>c. de Episc. et Cler. in fine, ubi clericis, et
+          <lb ed="#P" n="68"/>filiis eorum (utique legitimis, et ante sacrum
+          <lb ed="#P" n="69"/>clericatum natis) privilegia conceduntur. 
+          De<lb break="no" ed="#P" n="70"/>bet autem hoc intelligi, quando privilegium
+          <lb ed="#P" n="71"/>tale est, ut a patre ac filiis simul et divisim
+          <lb ed="#P" n="72"/>obtineri possit, quia tunc non oportet 
+          consti<lb break="no" ed="#P" n="73"/>tuere ordinem inter patrem, et filios, nec est
+          <lb ed="#P" n="74"/>ullum fundamentum ad illum postulandum,
+          <lb ed="#P" n="75"/>vel ad differendum effectum privilegii in filiis
+          <lb ed="#P" n="76"/>usque ad mortem patris. Si autem privilegium
+          <lb ed="#P" n="77"/>tale est, ut censeatur adhaerere alicui 
+          conditio<lb break="no" ed="#P" n="78"/>ni, vel dignitati propriae patris quae non transit
+          <lb ed="#P" n="79"/>ad filium, nisi per mortem patris, tunc 
+          contra<lb break="no" ed="#P" n="80"/>rium est dicendum, ut constat : imo tunc non
+          <lb ed="#P" n="81"/>perveniret ad filium, nisi quatenus in tali 
+          con<lb break="no" ed="#P" n="82"/>ditione, vel dignitate succederet. Unde si non
+          <lb ed="#P" n="83"/>posset esse in multis personis simul, etiam
+          <lb ed="#P" n="84"/>privilegium non transiret ad filios in plurali
+          <lb ed="#P" n="85"/>simul, sed successive, prout in dignitate, vel
+          <lb ed="#P" n="86"/>majoratu succederent. lt consequenter si 
+          con<lb break="no" ed="#P" n="87"/>ditio illa, in qua fundatur privilegium, ita
+          <lb ed="#P" n="88"/>esset propria patris, ut filii in ea non 
+          succede<lb break="no" ed="#P" n="89"/>rent, censerentur filii gaudere tali privilegio
+          <lb ed="#P" n="90"/>solum vivente patre, juxta regulam positam
+          <lb ed="#P" n="91"/>a Bald. d. 1. 2. c. de Epis. et Cler., n. 5, et ab
+          <lb ed="#P" n="92"/>aliis probatam, et consentaneam juribus supra
+          <lb ed="#P" n="93"/>allegatis, et rationi, quia si fundamentum 
+          om<lb break="no" ed="#P" n="94"/>nino destruitur, et in successoribus non 
+          per<lb break="no" ed="#P" n="95"/>maneret ullo modo, quomodo potest 
+          privile<lb break="no" ed="#P" n="96"/>ligium in eis manere. Et idem cum 
+          propor<lb break="no" ed="#P" n="97"/>tione probatur ex dictis de uxore viduata. Et
+          <lb ed="#P" n="98"/>infra tractando de communicatione 
+          privilegio<lb break="no" ed="#P" n="99"/>rum magis constabit.
+        </p>
+        <p xml:id="szdleg-q66715-d1e638">
+          <lb ed="#P" n="100"/>6. De nepotibus. — Et juxta haec 
+          definien<lb break="no" ed="#P" n="101"/>dum est tertium exemplum de nepotibus,
+          <lb ed="#P" n="102"/>quod veniant nomine filiorum. Nam in 
+          privi<lb break="no" ed="#P" n="103"/>legiis simpliciter id negandum est, nisi verba
+          <lb ed="#P" n="104"/>ipsius privilegi satis clare nepotes 
+          compre<lb break="no" ed="#P" n="105"/>hendant, vel in speciali, vel saltem in generali
+          <lb ed="#P" n="106"/>nomine posteritatis aut descendentium , vel
+          <lb ed="#P" n="107"/>alio simili, vel etiam nomine haeredum, 
+          quan<lb break="no" ed="#P" n="108"/>do ipsi haeredes fuerint. Ratio est, quia talia
+          <lb ed="#P" n="109"/>privilegia, ut sic, sunt personalia, et ita non
+          <lb ed="#P" n="110"/>transcendunt personas ad quas diriguntur,
+          <pb ed="#P" n="268"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Nam de privilegiis realibus nulla est quaestio ;
+          <lb ed="#P" n="2"/>quia si contingat illa transire ad nepotes, non
+          <lb ed="#P" n="3"/>erit ex eo quod sub filiis intelliguntur, sed quia
+          <lb ed="#P" n="4"/>res, cui adhaeret privilegium, ad illos pervenit
+          <lb ed="#P" n="5"/>vel pertinet. Quo modo intelligendam puto 
+          Au<lb break="no" ed="#P" n="6"/>thent. S quid, c. Qui potiores, etc. Loquendo
+          <lb ed="#P" n="7"/>ergo de privilegiis personalibus, vera est 
+          reso<lb break="no" ed="#P" n="8"/>lutio, quod nepotes non comprehenduntur
+          <lb ed="#P" n="9"/>nomine filiorum nisi aliud exprimatur, quod
+          <lb ed="#P" n="10"/>maxime verum habet in privilegiis odiosis,
+          <lb ed="#P" n="11"/>tamen in rigore etiam procedit in 
+          favorabili<lb break="no" ed="#P" n="12"/>bus, quia non extenduntur ultra verborum
+          <lb ed="#P" n="13"/>proprietates, nisi fuerit jure expressum. Et ita
+          <lb ed="#P" n="14"/>sentit Barb., d. l. Maritum, n. 80, et sumitur
+          <lb ed="#P" n="15"/>in his quae tradit Reb. in l. Diberorum, 220,
+          <lb ed="#P" n="16"/>ff. de Verb. signif. Per quam exponenda est
+          <lb ed="#P" n="17"/>dicta l. Justa, eod., scilicet, saepe fihorum
+          <lb ed="#P" n="18"/>nomine venire nepotes ex benigna juris 
+          inter<lb break="no" ed="#P" n="19"/>pretatione ; hoc tamen non esse regulare, 
+          at<lb break="no" ed="#P" n="20"/>que ita non esse ad privilegia extendendum,
+          <lb ed="#P" n="21"/>nisi ubi de jure vel de mente concedentis alias
+          <lb ed="#P" n="22"/>constiterit.
+        </p>
+        <p xml:id="szdleg-q66715-d1e716">
+          <lb ed="#P" n="23"/>7. Non esse inconveniens ut sub principali
+          <lb ed="#P" n="24"/>veniat accessorium, quando finis ct ratio 
+          pri<lb break="no" ed="#P" n="25"/>vilegit illorum concomitantium requirit. —
+          <lb ed="#P" n="26"/>Posse recitari cum privilegiatio hora qua ipse
+          <lb ed="#P" n="27"/>privilegiatus. — Ad ultimum denique 
+          exem<lb break="no" ed="#P" n="28"/>plum, respondetur non esse inconveniens ut
+          <lb ed="#P" n="29"/>sub principali veniat accessorium, quando 
+          fi<lb break="no" ed="#P" n="30"/>nis et ratio privilegii illorum concomitantiam
+          <lb ed="#P" n="31"/>seu concursum requirit. Et ita est in casibus
+          <lb ed="#P" n="32"/>ibi insinuatis. Et ita pro regula traditur 
+          pri<lb break="no" ed="#P" n="33"/>vilegium eos comprehendere, sine quibus 
+          inu<lb break="no" ed="#P" n="34"/>tile esset privilegium ei cui principaliter 
+          con<lb break="no" ed="#P" n="35"/>ceditur. Ita Abbas, in c. Quam sit, de Jud., n. 1;
+          <lb ed="#P" n="36"/>sic ergo dicendum est de privilegio dicendi
+          <lb ed="#P" n="37"/>Missam tempore interdicti; nam inutile 
+          es<lb break="no" ed="#P" n="38"/>set si non posset minister aliquis illo 
+          gau<lb break="no" ed="#P" n="39"/>dere. Nec enim cogendus est sacerdos habens
+          <lb ed="#P" n="40"/>tale privilegium quaerere ministrum qui 
+          si<lb break="no" ed="#P" n="41"/>milem favorem habeat, ut ab eo juvari possit:
+          <lb ed="#P" n="42"/>hoc enim accidentarium est et ab eo non 
+          pen<lb break="no" ed="#P" n="43"/>det utilitas prioris privilegii; quod per se debet
+          <lb ed="#P" n="44"/>esse efficax. Neque tunc fit extensio privilegii,
+          <lb ed="#P" n="45"/>sed rigorosa et juridica interpretatio; nam qui
+          <lb ed="#P" n="46"/>facultatem vel potestatem aliquam concedit,
+          <lb ed="#P" n="47"/>omnia necessaria ad illius usum, quae ab ipso
+          <lb ed="#P" n="48"/>concedi possunt, intelligitur concedere, 
+          argu<lb break="no" ed="#P" n="49"/>mento textus in c. Praterea, de Offic. deleg.
+          <lb ed="#P" n="50"/>Dubitari autem potest an sit idem dicendum,
+          <lb ed="#P" n="51"/>quando non est tam necessaria connexio, sed
+          <lb ed="#P" n="52"/>ex quadam decentia vel morali commoditate.
+          <lb ed="#P" n="53"/>Exemplum in praxi contigit in Sacerdote 
+          quo<lb break="no" ed="#P" n="54"/>dam, qui a summo Pontifice privilegium 
+          ob<lb break="no" ed="#P" n="55"/>tinuit recitandi matutinum paulo post meri-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>diem, dubitatumque fuit an privilegium illud
+          <lb ed="#P" n="57"/>extenderetur ad socium, ita ut licet ille etiam
+          <lb ed="#P" n="58"/>esset Sacerdos, aut beneficiatus, vel religiosus,
+          <lb ed="#P" n="59"/>satisfaceret suo muneri simul cum alio 
+          privi<lb break="no" ed="#P" n="60"/>legiato eadem hora recitando. Ibi enim erat
+          <lb ed="#P" n="61"/>major dubitandi ratio, quia socius non est ita
+          <lb ed="#P" n="62"/>necessarius ad recitandum, sicut ad faciendum
+          <lb ed="#P" n="63"/>sacrum. Nihilominus tamen cuidam viro 
+          gra<lb break="no" ed="#P" n="64"/>vissimo et Apostolico Nuncio visum est, 
+          privi<lb break="no" ed="#P" n="65"/>legium illud etiam ad socium extendi. et ita
+          <lb ed="#P" n="66"/>observatum est. Potuit autem illa interpretatio
+          <lb ed="#P" n="67"/>fieri ab illo illustrissimo viro, vel ex speciali
+          <lb ed="#P" n="68"/>auctoritate, quam ut Apostolicus Legatus ad
+          <lb ed="#P" n="69"/>hoc habere poterat, vel certe ex probabili et
+          <lb ed="#P" n="70"/>juridica conjectura mentis concedentis, qui
+          <lb ed="#P" n="71"/>privilegium illud concessit ad juvandum 
+          se<lb break="no" ed="#P" n="72"/>nectutem et labores privilegiati; parum autem
+          <lb ed="#P" n="73"/>utile fuisset levamen, nisi ex vi ejusdem 
+          pri<lb break="no" ed="#P" n="74"/>vilegii daretur facultas recitandi cum socio,
+          <lb ed="#P" n="75"/>qui simul posset suae obligationi satisfacere.
+        </p>
+        <p xml:id="szdleg-q66715-d1e836">
+          <lb ed="#P" n="76"/>8. Accedit quod. licet recitare privatim cum
+          <lb ed="#P" n="77"/>socio non sit absolute necessarium, est tamen
+          <lb ed="#P" n="78"/>communiter in Ecclesia usitatum , et magis
+          <lb ed="#P" n="79"/>conforme choro ecclesiastico ; ergo credibilius
+          <lb ed="#P" n="80"/>est privilegium dari ad illum etiam recitandi
+          <lb ed="#P" n="81"/>modum. Denique favet c. Licet, de Privileg.
+          <lb ed="#P" n="82"/>in 6, ubi explicatur privilegium datum 
+          singu<lb break="no" ed="#P" n="83"/>lari personae ad celebrandum vel audiendum
+          <lb ed="#P" n="84"/>divina tempore interdicti, extendi ad 
+          familia<lb break="no" ed="#P" n="85"/>res et domesticos ejus, ut cum illa possint 
+          au<lb break="no" ed="#P" n="86"/>dire divina, vel ei assistere celebranti. Quae
+          <lb ed="#P" n="87"/>non videtur ibi tradi ut nova concessio, sed ut
+          <lb ed="#P" n="88"/>legitima interpretatio prioris, fundata vel in
+          <lb ed="#P" n="89"/>quadam decentia, quia persona illa solet esse
+          <lb ed="#P" n="90"/>illustris, vel gravis, et pro sui status 
+          conditio<lb break="no" ed="#P" n="91"/>ne solet familiares suos secum ad divina 
+          offi<lb break="no" ed="#P" n="92"/>cia ducere, vel cum eis comitatus incedere ; vel
+          <lb ed="#P" n="93"/>in morali quadam congruitate, quia patronus,
+          <lb ed="#P" n="94"/>habens curam familiae suae, non sui tantum,
+          <lb ed="#P" n="95"/>sed etiam familiae suae curam gerere debet ;
+          <lb ed="#P" n="96"/>et ideo mens Pontificis fuit illi omnibus modis
+          <lb ed="#P" n="97"/>providere. Per haec ergo de similibus 
+          privile<lb break="no" ed="#P" n="98"/>giis judicandum est; cavendum tamen est ne
+          <lb ed="#P" n="99"/>haec extensio ad socios vel familiares nimia
+          <lb ed="#P" n="100"/>facilitate, sed magna consideratione et 
+          matu<lb break="no" ed="#P" n="101"/>ritate fiat, juxta capacitatem et exigentiam
+          <lb ed="#P" n="102"/>materiae privilegiorum. Quaedam enim sunt
+          <lb ed="#P" n="103"/>tam odiosa et tam stricti juris, ut extendenda
+          <lb ed="#P" n="104"/>non sint ad socios, nisi quatenus in tenore
+          <lb ed="#P" n="105"/>privilegii expresse continentur. Et tale esse
+          <lb ed="#P" n="106"/>puto privilegium ingrediendi monasteria 
+          mo<lb break="no" ed="#P" n="107"/>nialium, et alia hujusmodi.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

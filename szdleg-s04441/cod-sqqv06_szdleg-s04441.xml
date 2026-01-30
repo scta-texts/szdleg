@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 40</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 40</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="414"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-s04441"><!-- l8c40 -->
+        <head xml:id="szdleg-s04441-Hd1e101">Caput 40</head>
+        <head xml:id="szdleg-s04441-Hd1e103" type="question-title">Quando incipiat revocatio privilegii suum effectum sortiri.</head>
+        <p xml:id="szdleg-s04441-d1e106">
+          <lb ed="#P" n="88"/>CAPUT XL.
+          <lb ed="#P" n="89"/>QUANDO INCIPIAT REVOCATIO PRIVILEGII SUUM
+          <lb ed="#P" n="90"/>EFFECTUM SORTIRI.
+        </p>
+        <p xml:id="szdleg-s04441-d1e115">
+          <lb ed="#P" n="91"/>1. De effectu revocationis. — Distinctio 
+          no<lb break="no" ed="#P" n="92"/>tanda. —Privilegia per publicam legem 
+          vevo<lb break="no" ed="#P" n="93"/>cata promulgationem sufficientem expectant.—
+          <lb ed="#P" n="94"/>Suppositis quae de legum irritatione. et 
+          abro<lb break="no" ed="#P" n="95"/>gatione, et de concessione privilegiorum in
+          <lb ed="#P" n="96"/>superioribus dicta sunt, breviter potest 
+          prae<lb break="no" ed="#P" n="97"/>sens quaestio expediri. Distinguendum ergo
+          <lb ed="#P" n="98"/>est inter generalem revocationem 
+          privilegio<lb break="no" ed="#P" n="99"/>rum factam per publicam legem, et privatam
+          <lb ed="#P" n="100"/>revocationem alicujus privilegii ; nam de illis
+          <lb ed="#P" n="101"/>diversimode censendum est, sicut de 
+          conces<lb break="no" ed="#P" n="102"/>sione privilegii diximus. Primo ergo 
+          dicen<lb break="no" ed="#P" n="103"/>dum est, si privilegia per publicam legem
+          <lb ed="#P" n="104"/>revocentur, illam revocationem non habere
+          <lb ed="#P" n="105"/>effectum donec lex illa sufficienter 
+          promul<lb break="no" ed="#P" n="106"/>gata sit. In hoc omnes statim allegandi 
+          con<lb break="no" ed="#P" n="107"/>veniunt, et est clarum, quia ante promulga-
+          <pb ed="#P" n="415"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tionem nondum est lex illa vere et 
+          sufficien<lb break="no" ed="#P" n="2"/>ter constituta in ratione legis, et ideo non
+          <lb ed="#P" n="3"/>habet alios effectus legis; ergo neque hunc
+          <lb ed="#P" n="4"/>habebit.
+        </p>
+        <p xml:id="szdleg-s04441-d1e167">
+          <lb ed="#P" n="5"/>9. Promulgatio in curia principis 
+          suffi<lb break="no" ed="#P" n="6"/>ciens. — Sententia Soti et Medine. — 
+          Se<lb break="no" ed="#P" n="7"/>cundo, addendum est unam promulgationem
+          <lb ed="#P" n="8"/>in curia prncipis vel in loco ad hoc 
+          consti<lb break="no" ed="#P" n="9"/>tuto sufficere ad hunc effectum revocationis
+          <lb ed="#P" n="10"/>privilegiorum, sicut sufficit ad alios effectus
+          <lb ed="#P" n="11"/>legis, quando aliud non exprimitur in ipsa
+          <lb ed="#P" n="12"/>lege. Ita etiam sentiunt frequentius auctores
+          <lb ed="#P" n="13"/>allegandi. Et ratio est, quia ex natura rei non
+          <lb ed="#P" n="14"/>sunt plures promulgationes necessariae ad
+          <lb ed="#P" n="15"/>hunc effectum quam ad alios, ut per se 
+          con<lb break="no" ed="#P" n="16"/>stat, nec etiam leges humanae aliquid circa
+          <lb ed="#P" n="17"/>hoc speciale disponunt; ergo. Dicunt vero
+          <lb ed="#P" n="18"/>aliqui in legibus canonicis revocantibus 
+          pri<lb break="no" ed="#P" n="19"/>vilegia , consuetudine introductum esse ut sit
+          <lb ed="#P" n="20"/>necessaria promulgatio in singulis 
+          dioecesi<lb break="no" ed="#P" n="21"/>bus, ut privilegia maneant cum effectu 
+          revo<lb break="no" ed="#P" n="22"/>cata. Quod tenet Soto, l. 14 de Justit., q. 1,
+          <lb ed="#P" n="23"/>art. 1; et Medin. 1. 2, quaest. 90, art. 4, post
+          <lb ed="#P" n="24"/>quintam conclusionem. Sed non constat de
+          <lb ed="#P" n="25"/>tali consuetudine, imo potius videmus 
+          quo<lb break="no" ed="#P" n="26"/>tidie fieri leges pontificias revocantes 
+          privi<lb break="no" ed="#P" n="27"/>legia, ut Pius V et Gregorius XIII revocarunt
+          <lb ed="#P" n="28"/>privilegia ingrediendi monasteria monialium,
+          <lb ed="#P" n="29"/>motibus propriis ad hoc specialiter editis, et
+          <lb ed="#P" n="30"/>Romae tantum promulgatis, nec jusserunt aut
+          <lb ed="#P" n="31"/>procurarunt alias promulgationes in singulis
+          <lb ed="#P" n="32"/>dicecesibus fieri. et similia exempla sunt 
+          fre<lb break="no" ed="#P" n="33"/>quentia ; ergo signum est non esse necessarias
+          <lb ed="#P" n="34"/>tales promulgationes. Item saepe fiunt aliae
+          <lb ed="#P" n="35"/>leges pontificiae directe ad alios effectus cum
+          <lb ed="#P" n="36"/>clausula, non obstantibus privilegiis, quae ad
+          <lb ed="#P" n="37"/>illorum derogationem sufficit ; et unica 
+          pro<lb break="no" ed="#P" n="38"/>mulgatio Romae facta censetur sufficere ad
+          <lb ed="#P" n="39"/>totam obligationem ejus et ad illius clausulae
+          <lb ed="#P" n="40"/>effectum ; ergo eadem promulgatio suffticit ad
+          <lb ed="#P" n="41"/>privilegiorum revocationem. llla ergo 
+          sen<lb break="no" ed="#P" n="42"/>tentia merito a posterioribus theologis 
+          rejici<lb break="no" ed="#P" n="43"/>tur, quia fundamentum non habet; sicut
+          <lb ed="#P" n="44"/>etiam de lege irritante diximus, quia est 
+          ea<lb break="no" ed="#P" n="45"/>dem vel major ratio.
+        </p>
+        <p xml:id="szdleg-s04441-d1e259">
+          <lb ed="#P" n="46"/>3. Lex revocans privilegia non statim 
+          ha<lb break="no" ed="#P" n="47"/>bet suwm effectum. — PFundamentum contra
+          <lb ed="#P" n="48"/>assertionem. — RSolvuntur fundamenta 
+          con<lb break="no" ed="#P" n="49"/>trarie sententie. — Tertio, dicendum est 
+          le<lb break="no" ed="#P" n="50"/>gem revocantem privilegia non statim habere
+          <lb ed="#P" n="51"/>hunc effectum a die promulgationis, sed post
+          <lb ed="#P" n="52"/>tempus necessarium ad illius obligationem,
+          <lb ed="#P" n="53"/>quod regulariter est duorum mensium, licet
+          <lb ed="#P" n="54"/>pro curia soleat esse brevius, et pro locis 
+          dis<lb break="no" ed="#P" n="55"/>tantioribus debeat promulgari, prout neces-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sarium fuerit al humanam pnotitiam, ut 
+          su<lb break="no" ed="#P" n="57"/>pra declaratum est. Et ita ctiam sentiunt
+          <lb ed="#P" n="58"/>Bart. et alii referendi. Ratio vero est, tum
+          <lb ed="#P" n="59"/>quia nihil speciale de hoc disponunt jura,
+          <lb ed="#P" n="60"/>nec ex natura rei cum fundamento cogitari
+          <lb ed="#P" n="61"/>potest ; tum etiam quia idem dictum est de
+          <lb ed="#P" n="62"/>lege irritante, qui effectus est valde similis
+          <lb ed="#P" n="63"/>revocationi privilegiorum; tum denique quia
+          <lb ed="#P" n="64"/>lex revocans privilegium simul obligat ad
+          <lb ed="#P" n="65"/>non utendum illo; igitur non prius revocat
+          <lb ed="#P" n="66"/>quam possit obligare, et consequenter idem
+          <lb ed="#P" n="67"/>tempus ad utrumque requirit. Probatur 
+          con<lb break="no" ed="#P" n="68"/>sequentia, quia, moraliter loquendo, non 
+          mi<lb break="no" ed="#P" n="69"/>nus conveniens ac necessaria est publica 
+          no<lb break="no" ed="#P" n="70"/>titia legis, ut revocatio privilegiorum 
+          con<lb break="no" ed="#P" n="71"/>venienter et sine publicis incommodis fiat,
+          <lb ed="#P" n="72"/>quam ut obligatio imponatur. Contra hanc
+          <lb ed="#P" n="73"/>vero assertionem sentit Franc. in c. E parte,
+          <lb ed="#P" n="74"/>de Concession. praebend.; putat enim a die
+          <lb ed="#P" n="75"/>publicae promulgationis manere privilegia 
+          re<lb break="no" ed="#P" n="76"/>vocata , quando lex directe fertur ad 
+          illo<lb break="no" ed="#P" n="77"/>rum abrogationem. Fundatur in 1. ult., c.
+          <lb ed="#P" n="78"/>de Decur., lib. 10, ibi: Omnibus anterioribus
+          <lb ed="#P" n="79"/>modis, quos non comprehendit praesens sanctio,
+          <lb ed="#P" n="80"/>ex presenti die antiquandis. Et ahqui hoc
+          <lb ed="#P" n="81"/>maxime affirmant de legibus pontificiis 
+          revo<lb break="no" ed="#P" n="82"/>catoriis privilegiorum, putant enim a die
+          <lb ed="#P" n="83"/>factae promulgationis Romae ita revocari 
+          pri<lb break="no" ed="#P" n="84"/>vilegia, ut actus eorum non valeant, etiamsi
+          <lb ed="#P" n="85"/>propter ignorantiam sine culpa fiant. Ratio
+          <lb ed="#P" n="86"/>reddi potest, quia plus requiritur ad 
+          obli<lb break="no" ed="#P" n="87"/>gationem quam ad revocationem privilegii;
+          <lb ed="#P" n="88"/>quia illa pendet ex conscientia , et 
+          conse<lb break="no" ed="#P" n="89"/>quenter ex notitia legis; revocatio autem fit
+          <lb ed="#P" n="90"/>ab extrinseco per voluntatem revocantis, et
+          <lb ed="#P" n="91"/>ideo ad illam non est tam necessaria 
+          tem<lb break="no" ed="#P" n="92"/>poris dilatio. Sed haec parum urgent : nam
+          <lb ed="#P" n="93"/>in illa lege particula illa, ex praesenti die,
+          <lb ed="#P" n="94"/>secundum jus et debitum ordinem 
+          intelli<lb break="no" ed="#P" n="95"/>genda est; alioqui etiam posset intelligi ex
+          <lb ed="#P" n="96"/>die conditae legis in regio consilio. Unde ad
+          <lb ed="#P" n="97"/>rationem dicitur, verum quidem esse notitiam
+          <lb ed="#P" n="98"/>legis magis ab intrinseco esse necessariam
+          <lb ed="#P" n="99"/>ad obligationem legis quam ad effectum 
+          re<lb break="no" ed="#P" n="100"/>vocandi, quia revera fit per extrinsecam 
+          vo<lb break="no" ed="#P" n="101"/>luntatem ; nihilominus tamen, ad 
+          conve<lb break="no" ed="#P" n="102"/>nientem ordinem et ad vitanda publica 
+          in<lb break="no" ed="#P" n="103"/>commoda, moraliter necessarium esse ut 
+          re<lb break="no" ed="#P" n="104"/>vocatio non fiat nisi tali modo, quo possit
+          <lb ed="#P" n="105"/>commode ad privilegiatorum notitiam 
+          per<lb break="no" ed="#P" n="106"/>venire, et idco, secundum jura et rectam 
+          ra<lb break="no" ed="#P" n="107"/>tionem aeque expectari tempus sufficiens ad
+          <lb ed="#P" n="108"/>divulgationem legis, ad revocationem 
+          privi<lb break="no" ed="#P" n="109"/>legiorum sicut ad legis obligationem.
+        </p>
+        <p xml:id="szdleg-s04441-d1e402">
+          <lb ed="#P" n="110"/>4. Lex sortitur effectum post debitum tem-
+          <pb ed="#P" n="416"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>pus, licet invincibiliter ignoretur. — Quarto,
+          <lb ed="#P" n="2"/>lex revocans privilegium effectum hunc 
+          sor<lb break="no" ed="#P" n="3"/>titur post promulgationem, statim ac elapsum
+          <lb ed="#P" n="4"/>est tempus sufficiens ad communiter 
+          obligan<lb break="no" ed="#P" n="5"/>dum, etiamsi in particulari invincibiliter 
+          igno<lb break="no" ed="#P" n="6"/>retur. Haec assertio non est quidem certa,
+          <lb ed="#P" n="7"/>videtur tamen probabilior et fere consequens
+          <lb ed="#P" n="8"/>ad dicta, quia hic effectus non pendet per se
+          <lb ed="#P" n="9"/>ex scientia subditi ; ergo ex natura rei 
+          sequi<lb break="no" ed="#P" n="10"/>tur ex lege perfecte promulgata et de se
+          <lb ed="#P" n="11"/>omnibus sufficienter proposita, et ex positivo
+          <lb ed="#P" n="12"/>jure non differtur ; ergo statim fit. 
+          Confirma<lb break="no" ed="#P" n="13"/>tur a simih de effectu irritandi actum qui
+          <lb ed="#P" n="14"/>non impeditur propter ignorantiam, ut 
+          snu<lb break="no" ed="#P" n="15"/>pra ostensum est; est autem maxima 
+          simili<lb break="no" ed="#P" n="16"/>tudo in revocatione privilegii, et nulla 
+          suffi<lb break="no" ed="#P" n="17"/>ciens ratio differentiae reddi potest. 
+          Confir<lb break="no" ed="#P" n="18"/>matur secundo, quia supra ostensum est 
+          pri<lb break="no" ed="#P" n="19"/>vilegium per legem concessum, post 
+          sufficien<lb break="no" ed="#P" n="20"/>tem promulgationem et evulgationem legis,
+          <lb ed="#P" n="21"/>non obstante ignorantia, habere suum 
+          effec<lb break="no" ed="#P" n="22"/>tum , qui ab actuali notitia privilegii non
+          <lb ed="#P" n="23"/>pendet; ergo idem , e contrario , dicendum
+          <lb ed="#P" n="24"/>est de lege revocante, cum revocatio a notitia
+          <lb ed="#P" n="25"/>privilegiati per se non pendeat. Tandem leges
+          <lb ed="#P" n="26"/>communes attendunt quod est per se et 
+          mo<lb break="no" ed="#P" n="27"/>rale, non vero ea quae sunt rara et per 
+          acci<lb break="no" ed="#P" n="28"/>dens, qualis in praesenti est illa ignorantia.
+        </p>
+        <p xml:id="szdleg-s04441-d1e472">
+          <lb ed="#P" n="29"/>5. Contra hanc vero assertionem allegari
+          <lb ed="#P" n="30"/>solent Panorm. in c. 1 de Const., n. 12, et
+          <lb ed="#P" n="31"/>Felin., n. 7; sed illi loquuntur de privilegio
+          <lb ed="#P" n="32"/>ipso, et dicunt non prodesse privilegiario 
+          do<lb break="no" ed="#P" n="33"/>nec habet notitiam ejus. Et illud vel solum
+          <lb ed="#P" n="34"/>habet verum in privilegiis privatim 
+          conces<lb break="no" ed="#P" n="35"/>sis, non communi lege, vel intelligendum est
+          <lb ed="#P" n="36"/>de usu privilegii, qui pendet ex notitia 
+          ha<lb break="no" ed="#P" n="37"/>bentis illud. In quo non est eadem ratio de
+          <lb ed="#P" n="38"/>revocatione. Allegari etiam possunt conira
+          <lb ed="#P" n="39"/>assertionem alii auctores qui indistincte 
+          di<lb break="no" ed="#P" n="40"/>cunt privilegium vel gratiam non expirare
+          <lb ed="#P" n="41"/>propter gratiae revocationem, donec de 
+          revo<lb break="no" ed="#P" n="42"/>catione certus fiat qui ilam habebat. Ita 
+          do<lb break="no" ed="#P" n="43"/>cet Sylv., verb. Gratia, n. 4, et verb. 
+          Indul<lb break="no" ed="#P" n="44"/>gentia, n. 11, cum Geminiano in c. 1 de 
+          Con<lb break="no" ed="#P" n="45"/>cession. praebend., in 6; et sequitur Armil.,
+          <lb ed="#P" n="46"/>verb. Gratia; n. 6, et idem sentit Cordub. in
+          <lb ed="#P" n="47"/>Quaest., 1. 4, quaest. 36, concl. 3; et possunt
+          <lb ed="#P" n="48"/>pro hac parte allegari omnes qui dicunt 
+          ju<lb break="no" ed="#P" n="49"/>risdictionem vicarii, vel delegati, non tolli
+          <lb ed="#P" n="50"/>per revocationem donec illi intimetur, quos
+          <lb ed="#P" n="51"/>refert late Sanci., lib. 3 de Matrimon., disp.
+          <lb ed="#P" n="52"/>30, n. 11. Dico tamen hos auctores loqui de
+          <lb ed="#P" n="53"/>revocatione facta ab homine, non a lege, et
+          <lb ed="#P" n="54"/>ita non procedere contra assertionem 
+          posi<lb break="no" ed="#P" n="55"/>tam : nam est longe diversa ratio, ut dicam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in sequenti puncto. Addo vero propter 
+          incom<lb break="no" ed="#P" n="57"/>moda vitanda, si contingat aliquem uti 
+          privi<lb break="no" ed="#P" n="58"/>legio, sic revocato, ex ignorantia publica et
+          <lb ed="#P" n="59"/>communi, et usum privilegii pertinere ad 
+          ju<lb break="no" ed="#P" n="60"/>risdictionem, vel ad aliud simile munus 
+          pu<lb break="no" ed="#P" n="61"/>blicum, tunc actum sustineri et esse validum
+          <lb ed="#P" n="62"/>non in vi solius privilegii, sed adminiculo
+          <lb ed="#P" n="63"/>juris sustinentis similes actus factos titulo 
+          pu<lb break="no" ed="#P" n="64"/>blice reputato ac tolerato, juxta l. Barbarius,
+          <lb ed="#P" n="65"/>ft. de Offic. praetor., et ita vitantur 
+          incom<lb break="no" ed="#P" n="66"/>moda publica ; privata vero minoris 
+          conside<lb break="no" ed="#P" n="67"/>rationis esse possunt, cum sint valde 
+          acci<lb break="no" ed="#P" n="68"/>dentaria, et casus justae ignorantia possit
+          <lb ed="#P" n="69"/>esse rarus, supposita tanti temporis 
+          promul<lb break="no" ed="#P" n="70"/>gatione.
+        </p>
+        <p xml:id="szdleg-s04441-d1e568">
+          <lb ed="#P" n="71"/>6. Revocatio ab homine seu privatim facia,
+          <lb ed="#P" n="72"/>quando sortitur effectum. — Differentia inter
+          <lb ed="#P" n="73"/>hanc et pracedentem conclusionem. — Ultimo,
+          <lb ed="#P" n="74"/>dicendum est revocationem privilegii ab 
+          ho<lb break="no" ed="#P" n="75"/>mine, seu privatim factam, non habere 
+          effec<lb break="no" ed="#P" n="76"/>tum antequam privilegiato specialiter 
+          intime<lb break="no" ed="#P" n="77"/>tur, seu ad ejus notitiam perveniat. Ita 
+          sumi<lb break="no" ed="#P" n="78"/>tur ex allegatis auctoribus, et ex aliis quos 
+          re<lb break="no" ed="#P" n="79"/>tuli et secutus sum in materia de Indulgent.,
+          <lb ed="#P" n="80"/>disp. ult. quarti tomi, sect. 2; et quamvis
+          <lb ed="#P" n="81"/>hoc non sit in jure declaratum et pendeat
+          <lb ed="#P" n="82"/>multum ex intentione revocantis, nihilominus
+          <lb ed="#P" n="83"/>communis usus et communis sensus doctorum
+          <lb ed="#P" n="84"/>ita interpretatus est mentem Pontificis vel
+          <lb ed="#P" n="85"/>principis revocantis privilegium. hatio vero
+          <lb ed="#P" n="86"/>reddi potest, quia, per se loquendo, 
+          necessa<lb break="no" ed="#P" n="87"/>rium est ad convenientem modum 
+          revocatio<lb break="no" ed="#P" n="88"/>nis privilegii ut fiat in ordine ad notitiam
+          <lb ed="#P" n="89"/>utentis privilegio, quia ex alio modo 
+          revoca<lb break="no" ed="#P" n="90"/>tionis plura sequerentur incommoda, et ideo
+          <lb ed="#P" n="91"/>non est verisimile esse intentum a principe.
+          <lb ed="#P" n="92"/>Sed in privata revocatione non est alius 
+          mo<lb break="no" ed="#P" n="93"/>dus per se ordinatus ad dictam notitiam, nisi
+          <lb ed="#P" n="94"/>propria et specialis intimatio; ergo sub hac
+          <lb ed="#P" n="95"/>conditione seu habitudine intelligenda est 
+          re<lb break="no" ed="#P" n="96"/>vocatio. Unde colligitur differentia inter hanc
+          <lb ed="#P" n="97"/>et praecedentem assertionem : nam revocatio
+          <lb ed="#P" n="98"/>privilegii facta per legem habet deftinitum
+          <lb ed="#P" n="99"/>modum quo per se possit ac debeat publicari
+          <lb ed="#P" n="100"/>et divulgari, ut in aliorum notitiam possit
+          <lb ed="#P" n="101"/>pervenire, et ideo illa notitia publica per se
+          <lb ed="#P" n="102"/>sufficit, et particularis ignorantia, quae per 
+          ac<lb break="no" ed="#P" n="103"/>cidens est, non consideratur. At vero 
+          revoca<lb break="no" ed="#P" n="104"/>tio privata non habet per se alium modum
+          <lb ed="#P" n="105"/>promulgationis, neque illum postulat, et ideo
+          <lb ed="#P" n="106"/>per se expectat singulorum intimationem. Et
+          <lb ed="#P" n="107"/>potest hoc confirmari ex dictis supra in simili
+          <lb ed="#P" n="108"/>de concessione privilegii; ubi simili disü
+          nc<lb break="no" ed="#P" n="109"/>tione usi sumus, et diximus privatim 
+          conces<lb break="no" ed="#P" n="110"/>sum non operari donec intimetur ei cui datur;
+          <pb ed="#P" n="417"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ergo idem de revocatione dicendum est: nam,
+          <lb ed="#P" n="2"/>licet ex ea parte qua non requirit 
+          acceptatio<lb break="no" ed="#P" n="3"/>nem, non sit tanta necessitas, tamen ex alia
+          <lb ed="#P" n="4"/>qua continet rigorem et periculum, videtur
+          <lb ed="#P" n="5"/>esse quodammodo major.
+        </p>
+        <p xml:id="szdleg-s04441-d1e672">
+          <lb ed="#P" n="6"/>1. Dubium. — Resolvitur dubium 
+          proposi<lb break="no" ed="#P" n="7"/>lum .—Sed quaeres an necesse sit revocationem
+          <lb ed="#P" n="8"/>notificari per nuntium ad hoc missum, vel
+          <lb ed="#P" n="9"/>rescriptum revocantis, vel sufficiat, quod 
+          noti<lb break="no" ed="#P" n="10"/>tia ad privilegiarium perveniat quacumque
+          <lb ed="#P" n="11"/>via. Quidam dicunt necessarium esse ut priori
+          <lb ed="#P" n="12"/>modo revocatio notificetur. Ita sumitur ex
+          <lb ed="#P" n="13"/>Sanci., dicta disp. 30, num. 13, et disp. 36,
+          <lb ed="#P" n="14"/>num. 9, qui non generaliter de privilegio,
+          <lb ed="#P" n="15"/>sed de revocatione jurisdictionis commissae
+          <lb ed="#P" n="16"/>seu delegatae loquitur, de qua forte est 
+          spe<lb break="no" ed="#P" n="17"/>cialis ratio, quam modo expendere non est
+          <lb ed="#P" n="18"/>necesse. Praesertim quod etiam in illa materia
+          <lb ed="#P" n="19"/>plures auctores, quos ibidem refert, contrarium
+          <lb ed="#P" n="20"/>docent, et non sine gravi fundamento in jure
+          <lb ed="#P" n="21"/>et ratione. Quidquid vero sit in speciali casu
+          <lb ed="#P" n="22"/>jurisdictionis vel commissionis muneris per
+          <lb ed="#P" n="23"/>se ordinati ad regimen communitatis seu 
+          rei<lb break="no" ed="#P" n="24"/>publicae, loquendo generaliter de privilegio,
+          <lb ed="#P" n="25"/>non video fundamentum illius limitationis.
+          <lb ed="#P" n="26"/>Et ideo censeo hoc pendere ex voluntate 
+          re<lb break="no" ed="#P" n="27"/>vocantis, qui potest uno et alio modo facere
+          <lb ed="#P" n="28"/>revocationem , scilicet, vel per nuntium vel
+          <lb ed="#P" n="29"/>epistolam intimandam, ita ut aliter non ha-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="30"/>beat effectum ; vel absolute, ut quacumque
+          <lb ed="#P" n="31"/>ratione perveniat ad notitiam privilegiati,
+          <lb ed="#P" n="32"/>effectum suum faciat. Quod si de priori modo
+          <lb ed="#P" n="33"/>non constiterit, et revocatio absolute facta
+          <lb ed="#P" n="34"/>innotescat , praesumendum censeo posteriori
+          <lb ed="#P" n="35"/>modo esse factam. hatio est, quia ad valorem
+          <lb ed="#P" n="36"/>revocationis non est necessaria acceptatio
+          <lb ed="#P" n="37"/>privilegiarii : nam eo invito potest 
+          privile<lb break="no" ed="#P" n="38"/>gium revocari; ergo notitia solum expectatur
+          <lb ed="#P" n="39"/>ad vitanda inconvenientia quae aliter sequi
+          <lb ed="#P" n="40"/>possunt. At vero ad hoc sufficit notitia 
+          qua<lb break="no" ed="#P" n="41"/>cumque via comparata ; ergo sine fundamento
+          <lb ed="#P" n="42"/>alius modus praescribitur, sine jure vel 
+          ra<lb break="no" ed="#P" n="43"/>tone cogente. Nam ratio illa, quod res per
+          <lb ed="#P" n="44"/>quas causas nascitur, per easdem tolli debet,
+          <lb ed="#P" n="45"/>non multum urget, quia facilius est destruere
+          <lb ed="#P" n="46"/>quam construere, et ad acquisitionem 
+          privi<lb break="no" ed="#P" n="47"/>legii per se requiritur acceptatio 
+          recipien<lb break="no" ed="#P" n="48"/>tis, ad revocationem vero sufficit voluntas
+          <lb ed="#P" n="49"/>revocantis. Ultimo poterat hoc loco tractari
+          <lb ed="#P" n="50"/>quibus modis impetratio privilegii nulla sit.
+          <lb ed="#P" n="51"/>Sed hoc sufficienter tractatum est in lib. 6,
+          <lb ed="#P" n="52"/>cap. 17, ubi de dispensatione disseruimus,
+          <lb ed="#P" n="53"/>et illius occasione de privilegio diximus, quia
+          <lb ed="#P" n="54"/>in hoc fere eadem est utriusque ratio. In
+          <lb ed="#P" n="55"/>superioribus etiam in hoc libro multa per
+          <lb ed="#P" n="56"/>occasionem tacta sunt, et ideo tam de 
+          privi<lb break="no" ed="#P" n="57"/>legiis quam de tota lege humana haec 
+          sufti<lb break="no" ed="#P" n="58"/>ciant.
+          <lb ed="#P" n="59"/>FINIS LIBRI OCTAVI.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="23"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q05632"><!-- l6c5 -->
+        <head xml:id="szdleg-q05632-Hd1e101">Caput 5</head>
+        <head xml:id="szdleg-q05632-Hd1e103" type="question-title">Quando et quomodo possit lex per interpretationem restbringi.</head>
+        <p xml:id="szdleg-q05632-d1e106">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="52"/>CAPUT V.
+          <lb ed="#P" n="53"/>QUANDO ET QUOMODO POSSIT LEX PER 
+          INTERPRETA<lb break="no" ed="#P" n="54"/>TIONEM RESTBRINGI.
+        </p>
+        <p xml:id="szdleg-q05632-d1e117">
+          <lb ed="#P" n="55"/>1. Restrictio quomodo accipienda.—
+          Restric<lb break="no" ed="#P" n="56"/>tio quo tendit.—Materia hujus capitis eadem
+          <lb ed="#P" n="57"/>fere est quae praecedentis ; nam cum restrictio
+          <lb ed="#P" n="58"/>opponatur extensioni, eamdem fere doctrinam
+          <lb ed="#P" n="59"/>cum proportione admittit; sic enim 
+          opposito<lb break="no" ed="#P" n="60"/>rum eadem solet esse ratio; nam quot modis
+          <lb ed="#P" n="61"/>unum dicitur, tot dicitur reliquum. Quia vero
+          <lb ed="#P" n="62"/>materia solet esse obscura et perplexa, ideo
+          <lb ed="#P" n="63"/>aliqua in particulari dicere necessarium visum
+          <lb ed="#P" n="64"/>est. Restrictio ergo, sicut extensio, accipi solet
+          <lb ed="#P" n="65"/>vel per comparationem ad verba, juxta varias
+          <lb ed="#P" n="66"/>eorum significationes supra positas, scilicet,
+          <lb ed="#P" n="67"/>aut propriam naturalem, aut propriam 
+          civi<lb break="no" ed="#P" n="68"/>lem, aut impropriam, vel per comparationem
+          <lb ed="#P" n="69"/>ad rationem legis : per comparationem autem
+          <lb ed="#P" n="70"/>ad mentem non potest dari restrictio, 
+          nimi<lb break="no" ed="#P" n="71"/>rum, quae aliquid eximat ab obligatione legis
+          <lb ed="#P" n="72"/>quod fuerit comprehensum sub mente 
+          legisla<lb break="no" ed="#P" n="73"/>toris; id enim repugnanuam involvit, stando
+          <lb ed="#P" n="74"/>in vi interpretationis, nisi intercedat 
+          dispensa<lb break="no" ed="#P" n="75"/>tio, quae superiorem potestatem requirit, ut 
+          in<lb break="no" ed="#P" n="76"/>fra dicetur. Nam mens legislatoris seu 
+          volun<lb break="no" ed="#P" n="77"/>tas est ipsa lex, seu unde habet lex vim 
+          obhl<lb break="no" ed="#P" n="78"/>gandi : ergo impossibile est per 
+          interpretatio<lb break="no" ed="#P" n="79"/>nem aliquid eximere a lege quod non eximatur
+          <lb ed="#P" n="80"/>a mente legislatoris. Igitur omnis restrictio
+          <lb ed="#P" n="81"/>legis eo tendit ut mentem ipsam legislatoris ad
+          <lb ed="#P" n="82"/>pauciora coarctet, quam verba vel ratio legis
+          <lb ed="#P" n="83"/>prae se ferre videantur. Ad majorem autem
+          <lb ed="#P" n="84"/>claritatem distinguere possumus , aliud esse
+          <lb ed="#P" n="85"/>non extendere legem, aliud restringere illam ;
+          <lb ed="#P" n="86"/>nam inter extensionem et restrictionem potest
+          <lb ed="#P" n="87"/>medium intelligi, per adaequationem ad verba
+          <lb ed="#P" n="88"/>secundum eorum proprietatem et rationem.
+          <lb ed="#P" n="89"/>Haec autem non potest habere locum ubi et
+          <lb ed="#P" n="90"/>verba legis non possunt nisi unam propriam
+          <lb ed="#P" n="91"/>significationem habere, naturalem vel civilem;
+          <lb ed="#P" n="92"/>nam si utramque habeant, eo ipso quod 
+          secun<lb break="no" ed="#P" n="93"/>dum alteram tantum intelliguntur est 
+          restric<lb break="no" ed="#P" n="94"/>tio, et si ad utramque amphientur est 
+          exten<lb break="no" ed="#P" n="95"/>sio, et ideo rara est haec adaequata 
+          interpreta<lb break="no" ed="#P" n="96"/>tio sine restrictione vel ampliatione, ideoque
+          <lb ed="#P" n="97"/>nihil de illa specialiter dicere oportet, quia in
+          <lb ed="#P" n="98"/>capitibus praecedentibus, explicando quo 
+          mo<lb break="no" ed="#P" n="99"/>do liceat extendere leges, simul declaravimus
+          <lb ed="#P" n="100"/>intra quos terminos contineri debeat quaelibet
+          <lb ed="#P" n="101"/>extensio, et consequenter declaravi quae 
+          exten<lb break="no" ed="#P" n="102"/>sio seu ampliatio non liceat.
+        </p>
+        <p xml:id="szdleg-q05632-d1e224">
+          <lb ed="#P" n="103"/>2. Aliquando non licet legem restringere. —
+          <pb ed="#P" n="24"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Atque hinc etiam facile explicari potest 
+          quan<lb break="no" ed="#P" n="2"/>do restrictio legis non liceat. Dum enim 
+          res<lb break="no" ed="#P" n="3"/>trictio extensioni contraria sit, quoties 
+          amplia<lb break="no" ed="#P" n="4"/>tio legis secundum regulas datas necessario
+          <lb ed="#P" n="5"/>facienda fuerit, tunc non licebit restringere
+          <lb ed="#P" n="6"/>legem utique secundum idem ; nam si 
+          amplia<lb break="no" ed="#P" n="7"/>tio fiat in uno et restrictio in alio, non erunt
+          <lb ed="#P" n="8"/>contraria, et sic non repugnabit simul fieri
+          <lb ed="#P" n="9"/>circa eamdem legem diversis respectibus. 
+          At<lb break="no" ed="#P" n="10"/>que eadem ratione, quoties non licet extendere
+          <lb ed="#P" n="11"/>legem ultra verborum proprietatem, tunc 
+          lici<lb break="no" ed="#P" n="12"/>ta est, imo et necessaria restrictio, quando 
+          ver<lb break="no" ed="#P" n="13"/>ba alia significata minus propria habere 
+          pos<lb break="no" ed="#P" n="14"/>sunt, quia tunc non extensio legis est illius
+          <lb ed="#P" n="15"/>restrictio. Nunc ergo pauca addenda supersunt
+          <lb ed="#P" n="16"/>in particulari ad majorem declarationem ,
+          <lb ed="#P" n="17"/>quamvis magna ex parte per proportionem ad
+          <lb ed="#P" n="18"/>extensionem accipienda sint.
+        </p>
+        <p xml:id="szdleg-q05632-d1e273">
+          <lb ed="#P" n="19"/>3. Restrictio fieri debet ad aliquod inconve -
+          <lb ed="#P" n="20"/>niens evitandum.—bico ergo primo: restrictio
+          <lb ed="#P" n="21"/>legis fieri potest ac debet ad vitandam 
+          injusti<lb break="no" ed="#P" n="22"/>tiam seu iniquitatem, vel aliam absurditatem
+          <lb ed="#P" n="23"/>in ipsa lege. Ita docent omnes, et est clarum
+          <lb ed="#P" n="24"/>ex eadem ratione facta in simili de extensione,
+          <lb ed="#P" n="25"/>quia ita debet lex intelligi ut sit justa et 
+          ho<lb break="no" ed="#P" n="26"/>nesta, et praesumi debet ex mente facta, quae
+          <lb ed="#P" n="27"/>nullam absurditatem complectatur; ergo 
+          quan<lb break="no" ed="#P" n="28"/>tum fieri possit, ita restringenda est ad vitanda
+          <lb ed="#P" n="29"/>similia incommoda, quando ad eum finem 
+          res<lb break="no" ed="#P" n="30"/>trictio necessaria fuerit. Quod optime probat
+          <lb ed="#P" n="31"/>ratio textus in c. Suggestum, de Appellat. ibi:
+          <lb ed="#P" n="32"/>Quia decretalem epistolam qua tales muniri 
+          vi<lb break="no" ed="#P" n="33"/>dentur, non ad deprimendam cujusque 
+          justi<lb break="no" ed="#P" n="34"/>Lium, sed ad removendum gravamen, nos fecisse
+          <lb ed="#P" n="35"/>cognoscas. Ubi Panor., n. 2, advertit legem
+          <lb ed="#P" n="36"/>posse restringi secundum rationem naturalem,
+          <lb ed="#P" n="37"/>etiamsi non sit in lege expressa. Et idem 
+          repe<lb break="no" ed="#P" n="38"/>tit in c. Proposuit, eodem, n. 4. Unde recte
+          <lb ed="#P" n="39"/>dixit Glossa in Authent.: Ut sine prohibitione,
+          <lb ed="#P" n="40"/>etc., verb. Ewistimamus, ineptum esse dicere,
+          <lb ed="#P" n="41"/>non fallere regulam, ubi equitas id suadet. Est
+          <lb ed="#P" n="42"/>autem hoc intelligendum de ratione naturali
+          <lb ed="#P" n="43"/>ostendente injustitiam vel absurditatem in 
+          le<lb break="no" ed="#P" n="44"/>ge, si absque restrictione intelligatur; nam si
+          <lb ed="#P" n="45"/>solum ostendat esse aequam vel rationi 
+          conso<lb break="no" ed="#P" n="46"/>nam restrictionem, posse tamen sine illa 
+          le<lb break="no" ed="#P" n="47"/>gem esse justam et rationalem, talis ratio non
+          <lb ed="#P" n="48"/>erit sufficiens ad restringendam legem contra
+          <lb ed="#P" n="49"/>proprietatem verborum ejus, ex alio principio
+          <lb ed="#P" n="50"/>in superioribus declarato, quod legis 
+          obliga<lb break="no" ed="#P" n="51"/>tio non cessat in particulari, licet ratio ejus 
+          ne<lb break="no" ed="#P" n="52"/>gative deficiat, si non deficit contrarie : nam
+          <lb ed="#P" n="53"/>eadem est ratio in praesenti. Dico autem hoc 
+          in<lb break="no" ed="#P" n="54"/>telligi de restrictione contra proprietatem 
+          ver<lb break="no" ed="#P" n="55"/>borum ; nam si in aliquo sensu proprio lex
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>possit talem restrictionem admittere, tunc 
+          ra<lb break="no" ed="#P" n="57"/>tio ostendens in restrictione aequitatem, licet
+          <lb ed="#P" n="58"/>non ostendat praecisam necessitatem, poterit
+          <lb ed="#P" n="59"/>sufficere ad restrictionem faciendam, si alioqui
+          <lb ed="#P" n="60"/>materia juvet et restrictio cedat in favorem et
+          <lb ed="#P" n="61"/>majorem benignitatem, juxta 1. Semper, ft.
+          <lb ed="#P" n="62"/>de Regul. jur.
+        </p>
+        <p xml:id="szdleg-q05632-d1e373">
+          <lb ed="#P" n="63"/>4. Atque ex hoc principio infertur 
+          disposi<lb break="no" ed="#P" n="64"/>tionem legis indistincte loquentis ita esse 
+          res<lb break="no" ed="#P" n="65"/>tringendam, ut non cedat in praejudicium 
+          in<lb break="no" ed="#P" n="66"/>nocentis; nam inferre innocenti nocumentum,
+          <lb ed="#P" n="67"/>alienum esse praesumitur ab intentione 
+          legis<lb break="no" ed="#P" n="68"/>latoris, quia injustitiam involvit, ut recte 
+          pro<lb break="no" ed="#P" n="69"/>batur ex 1. 2, c. de Noxalib. Et favet c. Super
+          <lb ed="#P" n="70"/>eo, de Offic. deleg., ibi: Non tamen est nosirae
+          <lb ed="#P" n="71"/>intentionis diecesano praudicium generare ;
+          <lb ed="#P" n="72"/>ubi sermo quidem est de delegatione, et Glossa
+          <lb ed="#P" n="73"/>ibi illud extendit ad omnia rescripta; tamen
+          <lb ed="#P" n="74"/>eadem ratio est in legibus, quia haec restrictio
+          <lb ed="#P" n="75"/>in naturali justitia fundata est. Et ita docet
+          <lb ed="#P" n="76"/>Alb. in c. Causam que, de Rescrip. Et idem
+          <lb ed="#P" n="77"/>solet dici de consuetudine, quae legi 
+          aequipara<lb break="no" ed="#P" n="78"/>tur, Fel. in c. Auditis, de Praescrip., verb.
+          <lb ed="#P" n="79"/>Quinta declaratio, et Inn. in c. Dilecto, de Offic.
+          <lb ed="#P" n="80"/>Arch., n.7.
+        </p>
+        <p xml:id="szdleg-q05632-d1e415">
+          <lb ed="#P" n="81"/>5. Quando ratio legis non est adeguata 
+          ver<lb break="no" ed="#P" n="82"/>bDis, restringenda est. — Dico secundo: quando
+          <lb ed="#P" n="83"/>ratio legis, non est adaequata verbis legis, 
+          res<lb break="no" ed="#P" n="84"/>tringenda est ad terminos suae rationis, et non
+          <lb ed="#P" n="85"/>est secundum totam verborum generalitatem
+          <lb ed="#P" n="86"/>intelligenda. Haec assertio satis communis est,
+          <lb ed="#P" n="87"/>ut constat ex allegatis in c. 2 et 3; nam quoad
+          <lb ed="#P" n="88"/>hoc idem cum proportione sentiunt de 
+          exten<lb break="no" ed="#P" n="89"/>sione et restrictione, et specialiter docet Abb.
+          <lb ed="#P" n="90"/>in c. Quia in insulis, de Regul., et in c. Post
+          <lb ed="#P" n="91"/>iranslationem, de Renun., et in c. Suggestum,
+          <lb ed="#P" n="92"/>de Appellat.; et ibi Deci., notab. 1 et 2; Ant.
+          <lb ed="#P" n="93"/>de Buir., in c. Post translationem, de Renunt.,
+          <lb ed="#P" n="94"/>n. 34; latissime Tiraq., referens multos in tr.
+          <lb ed="#P" n="95"/>Cessante causa, 1 p., n. 144, ubi multa repetit
+          <lb ed="#P" n="96"/>ex his qua etiam habet in dicta l. S2 unguam,
+          <lb ed="#P" n="97"/>S Libertis. Haec autem regula necessario 
+          intel<lb break="no" ed="#P" n="98"/>ligi debet de ratione expressa et scripta in lege;
+          <lb ed="#P" n="99"/>quia , ubi lex non exprimit rationem, nemo
+          <lb ed="#P" n="100"/>potest prudenter talem rationem legis 
+          excogi<lb break="no" ed="#P" n="101"/>tare quae non sit adaequata dispositioni legis,
+          <lb ed="#P" n="102"/>et ita nunquam potest lex restringi ex ratione
+          <lb ed="#P" n="103"/>tantum cogitata, vel praesumpta, 
+          quantum<lb break="no" ed="#P" n="104"/>cumque verisimilis appareat. Quia licet forte
+          <lb ed="#P" n="105"/>doctores aliam adaequatam rationem legis non
+          <lb ed="#P" n="106"/>inveniant, fortasse legislator illam habuit; 
+          sa<lb break="no" ed="#P" n="107"/>tisque est quod per verba legis significavit se
+          <lb ed="#P" n="108"/>ita generaliter voluisse, et quod nullum signum
+          <lb ed="#P" n="109"/>restrictionis ostenderit. Quia quod principi
+          <lb ed="#P" n="110"/>placuit, legis habet vigorem, l. 1, ff. de Const.
+          <pb ed="#P" n="25"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>princ., et fieri etiam potest ut lex illa sit ex
+          <lb ed="#P" n="2"/>his quarum ratio non potest inveniri, ut 
+          dici<lb break="no" ed="#P" n="3"/>tur in l. Non omnium, ff. de Legib.; nisi 
+          for<lb break="no" ed="#P" n="4"/>tasse lex inveniretur injusta si ultra talem 
+          ra<lb break="no" ed="#P" n="5"/>tionem, etiam cogitatam, obligaret : nam tunc
+          <lb ed="#P" n="6"/>incidemus in casum praecedentis assertionis.
+          <lb ed="#P" n="7"/>Haec ergo assertio de ratione expressa in lege
+          <lb ed="#P" n="8"/>necessario intelligenda est, et sic fundari potest,
+          <lb ed="#P" n="9"/>tum quia licet verba legis generalia sint, per
+          <lb ed="#P" n="10"/>adjunctam rationem limitantur : In civile 
+          au<lb break="no" ed="#P" n="11"/>Lem est, nisi tota lege perspecta, una aliqua 
+          par<lb break="no" ed="#P" n="12"/>Lticula ejus proposita, judicare, vel respondere,
+          <lb ed="#P" n="13"/>ut dicitur in l. 24, ff. de Legib. : ergo non est
+          <lb ed="#P" n="14"/>judicandum de tali lege ejusve obligatione ex
+          <lb ed="#P" n="15"/>solis verbis praeceptivis secundum se spectatis,
+          <lb ed="#P" n="16"/>sed ex illis ut limitatis per rationem quae est
+          <lb ed="#P" n="17"/>veluti anima ejus, ut in superioribus dictum
+          <lb ed="#P" n="18"/>est. Et confirmatur, quia voluntas principis
+          <lb ed="#P" n="19"/>rationabilis est : voluntas autem non vult 
+          ra<lb break="no" ed="#P" n="20"/>tionabiliter nisi quae sub ratione 
+          comprehen<lb break="no" ed="#P" n="21"/>duntur, praesertim quando illam habet et 
+          pro<lb break="no" ed="#P" n="22"/>ponit pro expresso motivo et fine adaequato.
+          <lb ed="#P" n="23"/>Tandem confirmatur, quia limitata causa 
+          limi<lb break="no" ed="#P" n="24"/>tatum parit effectum ; sed ratio est sola causa
+          <lb ed="#P" n="25"/>volendi; ergo voluntas limitatur juxta limites
+          <lb ed="#P" n="26"/>rationis, etiamsi verba plus sonare videantur.
+        </p>
+        <p xml:id="szdleg-q05632-d1e543">
+          <lb ed="#P" n="27"/>6. Aliquae leges, que dictis repugnare 
+          viden<lb break="no" ed="#P" n="28"/>lur eoplicantur. —Haec vero assertio 
+          difficulta<lb break="no" ed="#P" n="29"/>te non caret, quae imprimis sumitur ex Glossa
+          <lb ed="#P" n="30"/>in l. Non omnium, tt. de Legib., in fine, 
+          di<lb break="no" ed="#P" n="31"/>cente interdum legem obligare ubi non habet
+          <lb ed="#P" n="32"/>locum ejus ratio. Allegat 1. 1, ff. de Popular,
+          <lb ed="#P" n="33"/>Secundo loco, verb. Sexus. Sed illa lex parum
+          <lb ed="#P" n="34"/>cogit; nam ibi proponitur occasio legis 
+          parti<lb break="no" ed="#P" n="35"/>cularis , ratio autem universalis est. Magis
+          <lb ed="#P" n="36"/>ergo urget lex Prospezit, ff. Qui et a quibus,
+          <lb ed="#P" n="37"/>in qua expresse dici videtur, si verba legis
+          <lb ed="#P" n="38"/>universalia sunt, illis standum esse, etiamsi in
+          <lb ed="#P" n="39"/>aliquibus ratio legis non ita procedere 
+          videa<lb break="no" ed="#P" n="40"/>tur. Ut si lex prohibet mulieri de adulterio
+          <lb ed="#P" n="41"/>accusatae alienare servos, ne quaestioni 
+          subdu<lb break="no" ed="#P" n="42"/>cantur, dicitur comprehendere omnes, etiamsi
+          <lb ed="#P" n="43"/>sint extra ministerium domus in agro vel 
+          ali<lb break="no" ed="#P" n="44"/>bi, imo et postea comparatos, quia, licet ratio
+          <lb ed="#P" n="45"/>legis non videatur illos comprehendere, verba
+          <lb ed="#P" n="46"/>id faciunt : Quod (inquit) perquam durum est,
+          <lb ed="#P" n="47"/>sed ita scriptum est. Ratio autem reddi potest,
+          <lb ed="#P" n="48"/>quia ratio legis non est lex, imo nec proxima
+          <lb ed="#P" n="49"/>virtus legis, sed haec est volvntas legislatoris;
+          <lb ed="#P" n="50"/>haec autem non est semper adaequata rationi;
+          <lb ed="#P" n="51"/>nam saepe generalior est voluntas, nec 
+          propter<lb break="no" ed="#P" n="52"/>ea erit irrationabilis aut imprudens, quia ad
+          <lb ed="#P" n="53"/>majorem securitatem aut cautelam potest 
+          vo<lb break="no" ed="#P" n="54"/>luntas ultra rationem extendi. Et confirmatur,
+          <lb ed="#P" n="55"/>quia supra dictum est interdum posse volun-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tatem esse magis restrictam quam sit ratio, et
+          <lb ed="#P" n="57"/>ideo non semper extendi legem ad omnia ad
+          <lb ed="#P" n="58"/>quae extenditur ratio ; ergo pari ratione e 
+          con<lb break="no" ed="#P" n="59"/>trario potest voluntas esse generalior quam
+          <lb ed="#P" n="60"/>ratio; ergo non est lex restringenda ex 
+          ratio<lb break="no" ed="#P" n="61"/>ne, quia lex pro ratione indicat legislatoris
+          <lb ed="#P" n="62"/>voluntatem. Confirmatur tandem, quia alias
+          <lb ed="#P" n="63"/>cessante ratione legis in particulari cessaret
+          <lb ed="#P" n="64"/>obligatio legis; hoc autem non ita est, ut 
+          in<lb break="no" ed="#P" n="65"/>fra dicam; ergo.
+        </p>
+        <p xml:id="szdleg-q05632-d1e632">
+          <lb ed="#P" n="66"/>7. Declaratur in quo sensu dicta assertio sit
+          <lb ed="#P" n="67"/>intelligenda. —Respondeo breviter assertionem
+          <lb ed="#P" n="68"/>esse intelligendam de ratione legis adaequata et
+          <lb ed="#P" n="69"/>intrinseca, et (ut ita dicam) constitutiva 
+          pro<lb break="no" ed="#P" n="70"/>ximi objecti ejus, et hoc probare objectiones
+          <lb ed="#P" n="71"/>proxime factas, et ita intellecta assertione illas
+          <lb ed="#P" n="72"/>solvi. Itaque, sicut diximus non quamcumque
+          <lb ed="#P" n="73"/>identitatem rationis sufficere ad extensionem
+          <lb ed="#P" n="74"/>legis, sed oportere ut ratio sit adaequata; et ita
+          <lb ed="#P" n="75"/>intrinseca ut in illa connexionem habeant
+          <lb ed="#P" n="76"/>omnia comprehensa sub lege, quia per illam
+          <lb ed="#P" n="77"/>aliquo modo constituuntur sub tali objecto;
+          <lb ed="#P" n="78"/>ita cum proportionede restrictione censemus.
+          <lb ed="#P" n="79"/>Quia si ratio non sit adaequata, licet sit minus
+          <lb ed="#P" n="80"/>universalis quam verba, ex alia ratione vel
+          <lb ed="#P" n="81"/>aliquid rationi adjungendo, potest 
+          comprehen<lb break="no" ed="#P" n="82"/>dere sub lege omnia quae absolute significat.
+          <lb ed="#P" n="83"/>Deinde etiam necessarium est ut ratio sit 
+          qua<lb break="no" ed="#P" n="84"/>si constitutiva objecti legis, quia alias non 
+          po<lb break="no" ed="#P" n="85"/>test censeri adaequata, ut, licet Ecclesia 
+          prae<lb break="no" ed="#P" n="86"/>cipiat jejunium propter comprimenda vitia,
+          <lb ed="#P" n="87"/>non est illa ratio adaequata; unde, licet illa
+          <lb ed="#P" n="88"/>deficiat, ratio legis adaequata potest 
+          subsiste<lb break="no" ed="#P" n="89"/>re, quae est honestas temperantiae in tali actu
+          <lb ed="#P" n="90"/>seu materia. Quod si materia legis non sit
+          <lb ed="#P" n="91"/>propter se intenta, sed tantum propter aliud,
+          <lb ed="#P" n="92"/>tunc oportebit ut ratio contineat proximum
+          <lb ed="#P" n="93"/>et adaequatum finem legis, quia tunc 
+          censebi<lb break="no" ed="#P" n="94"/>tur tanquam intrinsecus. Ut in d. l. Prospezit
+          <lb ed="#P" n="95"/>ratio illis verbis contenta : IVe mancipia 
+          quaes<lb break="no" ed="#P" n="96"/>Ltioni subducantur, non fuit intrinseca et 
+          con<lb break="no" ed="#P" n="97"/>stitutiva objecti legis; nam materia ejus 
+          abso<lb break="no" ed="#P" n="98"/>lute fuit servorum alienatio seu distractio,
+          <lb ed="#P" n="99"/>quae materia in se non habebat rationem 
+          in<lb break="no" ed="#P" n="100"/>trinsecam ob quam prohiberetur; fuit ergo
+          <lb ed="#P" n="101"/>illa ratio finis extrinsecus prohibitionis, qui
+          <lb ed="#P" n="102"/>licet fuerit praecipuus, et ideo exprimatur, 
+          po<lb break="no" ed="#P" n="103"/>tuit non esse adaequatus ; nam potuit absoluta
+          <lb ed="#P" n="104"/>prohibitio fieri ad tollendas occasiones 
+          frau<lb break="no" ed="#P" n="105"/>dum et deceptionum, et ad comprehendendos
+          <lb ed="#P" n="106"/>casus omnes moraliter contingentes. Unde si
+          <lb ed="#P" n="107"/>velimus illam rationem interpretari, ut sit 
+          adae<lb break="no" ed="#P" n="108"/>quata legi universaliter loquenti, sumenda erit
+          <lb ed="#P" n="109"/>non tantum secundum actum, sed etiam 
+          secun<lb break="no" ed="#P" n="110"/>dum praesumptionem, et secundum potentiam
+          <pb ed="#P" n="26"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vel moralem contingentiam. Quamvis enim
+          <lb ed="#P" n="2"/>mancipia quae sunt in agro, vel postea 
+          emun<lb break="no" ed="#P" n="3"/>tur, ordinarie non possint esse testes in 
+          talicri<lb break="no" ed="#P" n="4"/>mine, nihilominus fit absoluta prohibitio ne
+          <lb ed="#P" n="5"/>illo colore subducantur qui possunt esse testes,
+          <lb ed="#P" n="6"/>fingendo fuisse in agro, vel absentes, vel postea
+          <lb ed="#P" n="7"/>emptos : nam qui ordinarie in agro habitant
+          <lb ed="#P" n="8"/>potuerunt inveniri in domo praesentes tempore
+          <lb ed="#P" n="9"/>delicti, et sic potest ratio ad omnes extendi.
+          <lb ed="#P" n="10"/>Quod cum proportione applicari potest ad alias
+          <lb ed="#P" n="11"/>leges, ut non facile absoluta earum verba ex
+          <lb ed="#P" n="12"/>ratione limitentur; hoc enim servandum esse,
+          <lb ed="#P" n="13"/>optime ex illa l. Prospexit probatur.
+        </p>
+        <p xml:id="szdleg-q05632-d1e765">
+          <lb ed="#P" n="14"/>8. Hoc etiam suadet ratio in objectione 
+          fac<lb break="no" ed="#P" n="15"/>ta : nam si ratio legis contineat intrinsecum
+          <lb ed="#P" n="16"/>motivum virtutis vel vitii cujus intuitu actus
+          <lb ed="#P" n="17"/>praecipitur aut prohibetur, sine dubio lex non
+          <lb ed="#P" n="18"/>comprehendet casum in quo talis ratio inventa
+          <lb ed="#P" n="19"/>non fuerit, quia est adaequata; constituit enim
+          <lb ed="#P" n="20"/>lex materiam legis, et non loquitur extra 
+          pro<lb break="no" ed="#P" n="21"/>priam materiam, et ita in illa ratio dici potest
+          <lb ed="#P" n="22"/>virtus legis, non per modum principii 
+          efficien<lb break="no" ed="#P" n="23"/>tis aut formae intrinsecae, sed per modum 
+          pro<lb break="no" ed="#P" n="24"/>prii objecti et materiae, quae in suo genere est
+          <lb ed="#P" n="25"/>causa legis et necessaria ad illam. Si vero ratio
+          <lb ed="#P" n="26"/>legis contineat finem extrinsecum, sic vel non
+          <lb ed="#P" n="27"/>erit adaequata ratio, et sic non procedet 
+          con<lb break="no" ed="#P" n="28"/>tra regulam, vel certe si accipiatur secundum
+          <lb ed="#P" n="29"/>omnem habitudinem quam participare potest
+          <lb ed="#P" n="30"/>in ordine ad majorem cautelam, securitatem
+          <lb ed="#P" n="31"/>vel utilitatem legis, sic non poterunt extendi
+          <lb ed="#P" n="32"/>verba legis ultra rationes in tota hac 
+          latitu<lb break="no" ed="#P" n="33"/>dine sumptas, quia jam volunias legis omni
+          <lb ed="#P" n="34"/>ratione careret, quod praesumi non potest. Et
+          <lb ed="#P" n="35"/>ita etiam patet facile responsio ad primam
+          <lb ed="#P" n="36"/>confirmationem ; concedo enim servari aliquo
+          <lb ed="#P" n="37"/>modo commutatam proportionem inter 
+          ex<lb break="no" ed="#P" n="38"/>tensionem et restrictionem per rationem legis,
+          <lb ed="#P" n="39"/>ut satis declaratum est. Tamen in hoc est 
+          ali<lb break="no" ed="#P" n="40"/>qua diversitas, quod voluntas potest etiam
+          <lb ed="#P" n="41"/>prudenter non velle omnia in quibus eadem
+          <lb ed="#P" n="42"/>ratio militat, quia non semper expedit quando
+          <lb ed="#P" n="43"/>alias non sunt necessario connexa ; non potest
+          <lb ed="#P" n="44"/>autem voluntas aliquid prudenter velle sine
+          <lb ed="#P" n="45"/>aliqua ratione, et ideo ubi constiterit rationem
+          <lb ed="#P" n="46"/>legis esse adaequatam, non est verisimile extra
+          <lb ed="#P" n="47"/>illam extendi mentem legislatoris.
+        </p>
+        <p xml:id="szdleg-q05632-d1e842">
+          <lb ed="#P" n="48"/>9. Ad ultimam confirmationem, Pan., in d.
+          <lb ed="#P" n="49"/>cap. Quia in insulis, sentit etiam esse legem
+          <lb ed="#P" n="50"/>restringendam pro omnibus casibus in quibus
+          <lb ed="#P" n="51"/>cessat ratio legis, prout in lege exprimitur; ut
+          <lb ed="#P" n="52"/>in illo textu, quia pro ratione redditur, Quia
+          <lb ed="#P" n="53"/>in insulis dura est congregatio monachorum,
+          <lb ed="#P" n="54"/>ait decisionem ejus non habere locum in 
+          insu<lb break="no" ed="#P" n="55"/>lis in quibus non fuerit dura congregatio mo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nachorum. Sed quidquid sit de illo textu 
+          par<lb break="no" ed="#P" n="57"/>ticulari (cujus decisio, ut credo, magis pendet
+          <lb ed="#P" n="58"/>ex significato illius vocis insule, quale sit),
+          <lb ed="#P" n="59"/>generaliter loquendo, non potest admitti 
+          doc<lb break="no" ed="#P" n="60"/>trina, nisi intelligatur de cessatione rationis
+          <lb ed="#P" n="61"/>contraria, et quae tollat objectum legis, ut infra
+          <lb ed="#P" n="62"/>dicetur. Respondeo igitur negando sequelam
+          <lb ed="#P" n="63"/>intellectam de cessatione rationis legis mere
+          <lb ed="#P" n="64"/>negative et in particulari. Et ratio est, quia,
+          <lb ed="#P" n="65"/>Iicet ratio sic cesset quasi in actu, nihilominus
+          <lb ed="#P" n="66"/>potuit movere ad prohibendum actum, quia de
+          <lb ed="#P" n="67"/>se erat obnoxius illi rationi, et ita ille actus
+          <lb ed="#P" n="68"/>fuit absolute comprehensus sub ratione legis
+          <lb ed="#P" n="69"/>etiamsi postea in illo cessaverit. Et si recte res
+          <lb ed="#P" n="70"/>consideratur, tunc non omnino cessat ratio
+          <lb ed="#P" n="71"/>legis. Quod in dicto capite magis exponemus.
+        </p>
+        <p xml:id="szdleg-q05632-d1e899">
+          <lb ed="#P" n="72"/>10. Lex ex subjecta materia aliquando 
+          res<lb break="no" ed="#P" n="73"/>tringenda. — Dico tertio, legem restringi 
+          ali<lb break="no" ed="#P" n="74"/>quando ex subjecta materia, praesertim per
+          <lb ed="#P" n="75"/>comparationem ad aliam legem. Sub hac 
+          as<lb break="no" ed="#P" n="76"/>sertione breviter comprehendo varios modos
+          <lb ed="#P" n="77"/>restringendi leges qui ab auctoribus traduntur.
+          <lb ed="#P" n="78"/>Unus ex subjecta materia, quia verba legis
+          <lb ed="#P" n="79"/>juxta subjectam materiam intelligenda sunt
+          <lb ed="#P" n="80"/>et ideo etiam secundum illam coarctari 
+          pos<lb break="no" ed="#P" n="81"/>sunt. Exemplum sumitur ex 1l. Adigere, ff. de
+          <lb ed="#P" n="82"/>Jur. patr., ubi prohibetur patronus ne 
+          liber<lb break="no" ed="#P" n="83"/>tum jurejurando cogat ne uxorem ducat ; et 
+          ni<lb break="no" ed="#P" n="84"/>hilominus dicitur inferius qui tale juramentum
+          <lb ed="#P" n="85"/>exigeret a liberto eunucho non peccaturum
+          <lb ed="#P" n="86"/>contra legem ; nam juxta materiam subjectam
+          <lb ed="#P" n="87"/>lex loquitur de libertis qui possint liberos 
+          pro<lb break="no" ed="#P" n="88"/>creare. Verum est optime posse restrictionem
+          <lb ed="#P" n="89"/>illam reduci ad rationem legis; quia fere 
+          sem<lb break="no" ed="#P" n="90"/>per haec restrictio ex materia est conjuncta
+          <lb ed="#P" n="91"/>cum ratione, et ideo nihil amplius de illa 
+          di<lb break="no" ed="#P" n="92"/>cere necesse est.
+        </p>
+        <p xml:id="szdleg-q05632-d1e947">
+          <lb ed="#P" n="93"/>11. Aliquando vero fit restrictio legis 
+          gene<lb break="no" ed="#P" n="94"/>raliter loquentis, ut locum non habeat in casu
+          <lb ed="#P" n="95"/>aliquo speciali, propter speciales 
+          circeumstan<lb break="no" ed="#P" n="96"/>tias vel praerogativas rerum aut personarum.
+          <lb ed="#P" n="97"/>Quia juxta generalem regulam juris, in 
+          gene<lb break="no" ed="#P" n="98"/>rali concessione non veniunt ea quae quis non
+          <lb ed="#P" n="99"/>esset in specie verisimiliter concessurus, 81,
+          <lb ed="#P" n="100"/>n. 6, et in c. Si Episcopis, de Poenit. et remis.,
+          <lb ed="#P" n="101"/>in 6. Eodem enim modo in praesenti dicere
+          <lb ed="#P" n="102"/>possumus, in generali prohibitione, vel 
+          prae<lb break="no" ed="#P" n="103"/>cepto legis non venire ea quae princeps non
+          <lb ed="#P" n="104"/>esset in specie verisimiler praecepturus ; quia
+          <lb ed="#P" n="105"/>sicut concessio, ita et lex ex voluntate pendet.
+          <lb ed="#P" n="106"/>Haec autem restrictio dupliciter fieri potest:
+          <lb ed="#P" n="107"/>uno modo ex speciali jure determinante ut 
+          ta<lb break="no" ed="#P" n="108"/>les personae non veniant sub generah 
+          clausu<lb break="no" ed="#P" n="109"/>la, ut in c. Quia periculosum, de Sent. excom.,
+          <lb ed="#P" n="110"/>in 0; et tunc est clara ratio et restricio, so-
+          <pb ed="#P" n="27"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Iumque verba legis specialis expendenda sunt
+          <lb ed="#P" n="2"/>et servanda. Contingere item hoc potest, quia
+          <lb ed="#P" n="3"/>in speciali casu est aliter per legem statutum
+          <lb ed="#P" n="4"/>aut privilegium dispositum, et generalis lex
+          <lb ed="#P" n="5"/>contraria, illis non derogat, juxta regulam 
+          ju<lb break="no" ed="#P" n="6"/>ris quod generi per speciem non derogatur. Et
+          <lb ed="#P" n="7"/>de hoc modo specialiter dicturi sumus 
+          tractan<lb break="no" ed="#P" n="8"/>do de legum correctione et derogatione.
+        </p>
+        <p xml:id="szdleg-q05632-d1e1010">
+          <lb ed="#P" n="9"/>12. Denique contingere potest illa restrictio
+          <lb ed="#P" n="10"/>sine speciali jure, solum ex conjecturata mente
+          <lb ed="#P" n="11"/>legislatoris, verisimiliter applicando regulam
+          <lb ed="#P" n="12"/>illorum canonum, non comprehendi sub 
+          gene<lb break="no" ed="#P" n="13"/>rali lege ea quae in specie non esset quis 
+          voli<lb break="no" ed="#P" n="14"/>turus ; et sic est difficilis restrictio et inter 
+          ju<lb break="no" ed="#P" n="15"/>risperitos multum controversa, ut videre licet
+          <lb ed="#P" n="16"/>in Ant. Gab., 1. 6, tit. de Leg., cons. 4, ubi 
+          re<lb break="no" ed="#P" n="17"/>fert contrarias opiniones et earum auctores.
+          <lb ed="#P" n="18"/>Illa tamen communior est quae affirmat etiam
+          <lb ed="#P" n="19"/>hoc modo posse hanc restrictionem fieri, quia
+          <lb ed="#P" n="20"/>generalis illa praesumptio, quod nemo in 
+          gene<lb break="no" ed="#P" n="21"/>rali sermone comprehendit id quod in specie
+          <lb ed="#P" n="22"/>non esset voliturus in jure fundata est et in 
+          ra<lb break="no" ed="#P" n="23"/>tione naturali, quia illa praesumptio fundatur
+          <lb ed="#P" n="24"/>in defectu voluntatis quae praesumitur ex 
+          inco<lb break="no" ed="#P" n="25"/>gitantia talium circumstantiarum. Sub hac 
+          au<lb break="no" ed="#P" n="26"/>tem regula fieri potest applicatio ad casum sub
+          <lb ed="#P" n="27"/>lege contentum, arbitrio prudentis de illo 
+          ju<lb break="no" ed="#P" n="28"/>dicando. Neque potest in hoc certior regula
+          <lb ed="#P" n="29"/>constitui, quia sine dubio usus hujus 
+          restric<lb break="no" ed="#P" n="30"/>tionis in particulari difficilis est. Unde Socin.,
+          <lb ed="#P" n="31"/>in Reg. juris 284, ponens regulam quod lex
+          <lb ed="#P" n="32"/>generaliter loquens generaliter est 
+          intelligen<lb break="no" ed="#P" n="33"/>da, 55 limitationes ponit quae ad hoc genus
+          <lb ed="#P" n="34"/>restrictionis pertinent, et in eo videri possunt,
+          <lb ed="#P" n="35"/>et in t. 2 Regular., verbo Lex. Hic vero statim
+          <lb ed="#P" n="36"/>occurrebat dicendum de casu dubio, de quo in
+          <lb ed="#P" n="37"/>capite sequenti tractabimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

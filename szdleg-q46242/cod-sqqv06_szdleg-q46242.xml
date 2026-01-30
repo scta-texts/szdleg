@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 13</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 13</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="184"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q46242"><!-- l7c13 -->
+        <head xml:id="szdleg-q46242-Hd1e101">Caput 13</head>
+        <head xml:id="szdleg-q46242-Hd1e103" type="question-title">Utrum consensus phincipis, et qualis necessarius sit, ut consuetudo jus introducat.</head>
+        <p xml:id="szdleg-q46242-d1e106">
+          <lb ed="#P" n="45"/>CAPUT XIII.
+          <lb ed="#P" n="46"/>UTRUM CONSENSUS PHINCIPIS, ET QUALIS 
+          NECESSA<lb break="no" ed="#P" n="47"/>RIUS SIT, UT CONSUETUDO JUS INTRODUCAT.
+        </p>
+        <p xml:id="szdleg-q46242-d1e115">
+          <lb ed="#P" n="48"/>1. Varii populorum gradus.— Primus 
+          gra<lb break="no" ed="#P" n="49"/>dus. — In hoc capite explicanda est praecipua
+          <lb ed="#P" n="50"/>causa efficiens consuetudinarii juris. In qua
+          <lb ed="#P" n="51"/>primum omnium statuendum est consensum
+          <lb ed="#P" n="52"/>principis in consuetudine introducenda neces-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>sarium esse. Hanc assertionem sumo ex 
+          com<lb break="no" ed="#P" n="54"/>muni sententia doctorum, paucis exceptis,
+          <lb ed="#P" n="55"/>quorum opinionem commodius infra referam.
+          <lb ed="#P" n="56"/>Distinguendi ergo sunt varii populorum 
+          gra<lb break="no" ed="#P" n="57"/>dus, ut certa ab incertis separentur : nam 
+          im<lb break="no" ed="#P" n="58"/>primis consuetudo esse potest a populo, qui
+          <lb ed="#P" n="59"/>habet supremam auctoritatem ad ferendas 
+          le<lb break="no" ed="#P" n="60"/>ges, quod solum contingit in legibus civilibus
+          <lb ed="#P" n="61"/>et in rebuspublicis , quae non recognoscunt
+          <lb ed="#P" n="62"/>superiorem in temporalibus. Et in hujusmodi
+          <lb ed="#P" n="63"/>populis videri potest non necessaria assertio,
+          <lb ed="#P" n="64"/>est tamen vera quatenus in illis habere potest
+          <lb ed="#P" n="65"/>locum : nam illie supremus princeps est tota
+          <lb ed="#P" n="66"/>respublica; ergo si populus ille consentit in
+          <lb ed="#P" n="67"/>consuetudinem, necesse est ut supremus 
+          prin<lb break="no" ed="#P" n="68"/>ceps consentiat, quia ibi non distinguitur a
+          <lb ed="#P" n="69"/>populi universitate. Ac de his populis clare 
+          lo<lb break="no" ed="#P" n="70"/>quitur lex De quibus, ff. de Legibus. Quod si
+          <lb ed="#P" n="71"/>suprema potestas translata sit in senatum, et
+          <lb ed="#P" n="72"/>in illo sit aliqua discordia, oportebit ut major
+          <lb ed="#P" n="73"/>pars ejus consuetudinem servet, alias non 
+          po<lb break="no" ed="#P" n="74"/>terit dici consuetudo illa observari a majori
+          <lb ed="#P" n="75"/>parte illius populi, prout habentis potestatem
+          <lb ed="#P" n="76"/>inducendi legem. Nec poterit dici senatus 
+          ta<lb break="no" ed="#P" n="77"/>cite consensum suum praestare, si major pars
+          <lb ed="#P" n="78"/>ejus consuetudinem non servet. Ita ergo in
+          <lb ed="#P" n="79"/>hujusmodi populis verificatur assertio, nec de
+          <lb ed="#P" n="80"/>illis aliquid addere necesse est.
+        </p>
+        <p xml:id="szdleg-q46242-d1e191">
+          <lb ed="#P" n="81"/>2. Secundus populorum gradus. — Deinde
+          <lb ed="#P" n="82"/>potest esse populus, recognoscens superiorem,
+          <lb ed="#P" n="83"/>habens ab iilo facultatem condendi leges, seu
+          <lb ed="#P" n="84"/>statuta muuicipalia, prout jure communi 
+          ha<lb break="no" ed="#P" n="85"/>bebant praecipue civitates, juxta l. Omnes 
+          po<lb break="no" ed="#P" n="86"/>puli, ff. de Justit. et jur. Et de his populis 
+          cer<lb break="no" ed="#P" n="87"/>tum est, sicut possunt condere leges scriptas,
+          <lb ed="#P" n="88"/>ita et consuetudine posse illas introducere,
+          <lb ed="#P" n="89"/>juxta dictam legem De quibus, cum 
+          sequenti<lb break="no" ed="#P" n="90"/>bus, ff. de Legibus. Unde sicut possunt legem
+          <lb ed="#P" n="91"/>condere sine novo consensu principis, ita et
+          <lb ed="#P" n="92"/>consuetudinem introducere. Nihilominus 
+          ta<lb break="no" ed="#P" n="93"/>men non omnino ibi deest consensus 
+          princi<lb break="no" ed="#P" n="94"/>pis, quia per dictam licentiam illum praestitit,
+          <lb ed="#P" n="95"/>et semper praebet, et ideo tunc necessarium
+          <lb ed="#P" n="96"/>non est ut princeps specialiter sciat 
+          consuetu<lb break="no" ed="#P" n="97"/>dinem denuo introductam in tali vel tali 
+          civi<lb break="no" ed="#P" n="98"/>tate, nam sine tali scientia potuit anticipatum
+          <lb ed="#P" n="99"/>consensum (ut ita dicam) praestare, et de facto
+          <lb ed="#P" n="100"/>praestitit, quando dedit licentiam, quasi sub
+          <lb ed="#P" n="101"/>conditione, si populus vellet speciale jus sibi
+          <lb ed="#P" n="102"/>condere, uno vel alio modo. Quapropter si 
+          li<lb break="no" ed="#P" n="103"/>centia esset limitata, et cum dependentia a
+          <lb ed="#P" n="104"/>futura confirmatione principis, ita ut ante
+          <lb ed="#P" n="105"/>illam obtentam lex non obliget, ut videtur
+          <lb ed="#P" n="106"/>esse in Hispania, tunc aliter dicendum esset
+          <lb ed="#P" n="107"/>de consuetudine, quia necessarium esset illam
+          <pb ed="#P" n="185"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>etiam confirmari a principe, et ideo etiam
+          <lb ed="#P" n="2"/>esset necessarius novus consensus illius, quia
+          <lb ed="#P" n="3"/>nova confirmatio non datur sine novo 
+          consen<lb break="no" ed="#P" n="4"/>su. Unde, quoad hoc, reputaretur talis 
+          popu<lb break="no" ed="#P" n="5"/>lus quasi non habens licentiam condendi 
+          le<lb break="no" ed="#P" n="6"/>gem sine principe, de quo statim dicemus,
+          <lb ed="#P" n="7"/>idem enim erit dicendum de tali 
+          confirmatio<lb break="no" ed="#P" n="8"/>ne, seu de modo illam obtinendi.
+        </p>
+        <p xml:id="szdleg-q46242-d1e275">
+          <lb ed="#P" n="9"/>3. Tertius populorum gradus. — Prima 
+          sen<lb break="no" ed="#P" n="10"/>tentia. — Praeterea sunt populi qui nullam
+          <lb ed="#P" n="11"/>habent facultatem statuendi, vel leges ferendi,
+          <lb ed="#P" n="12"/>etiam municipales, sed illas debent, vel a 
+          su<lb break="no" ed="#P" n="13"/>premo principe, vel saltem a propriis dominis,
+          <lb ed="#P" n="14"/>vel pastoribus accipere, et hoc modo 
+          compa<lb break="no" ed="#P" n="15"/>ratur universa Ecclesia ad summum 
+          Pontifi<lb break="no" ed="#P" n="16"/>cem, et omnes Ecclesiae particulares ad suos
+          <lb ed="#P" n="17"/>Pastores; quia ad leges canonicas ferendas
+          <lb ed="#P" n="18"/>nulla est potestas in populo, nec in ipso clero
+          <lb ed="#P" n="19"/>sine suo capite, et influxu ejus, servata 
+          sem<lb break="no" ed="#P" n="20"/>per proportione juxta varios modos legum et
+          <lb ed="#P" n="21"/>communitatum. Et similes sunt multi populi
+          <lb ed="#P" n="22"/>laici respectu suorum principum, ut per se
+          <lb ed="#P" n="23"/>constat. De his ergo dixerunt aliqui nunquam
+          <lb ed="#P" n="24"/>posse consuetudinem introduci sine tacita 
+          vo<lb break="no" ed="#P" n="25"/>luntate peculiari ipsius principis (quam 
+          vo<lb break="no" ed="#P" n="26"/>Iuntatem ego personalem voco), et ideo ad
+          <lb ed="#P" n="27"/>illam requirunt in principe scientiam 
+          consue<lb break="no" ed="#P" n="28"/>tudinis et patientiam. Ita docet Glossa in dicto
+          <lb ed="#P" n="29"/>cap. ult., quam multi sequuntur, ut ibi ait
+          <lb ed="#P" n="30"/>Panorm., et expresse tenet Innoc. in rubr. de
+          <lb ed="#P" n="31"/>Consuet., n. 4. Idem tenet Glossa in lib. 2, c.
+          <lb ed="#P" n="32"/>Quae sit longa consuet., citans Joan. et Azon.
+          <lb ed="#P" n="33"/>Idem Gregor. Lup., in l. 3, tit. 2, part. 1, in
+          <lb ed="#P" n="34"/>Gloss. 7, et videtur consentire D. Thomas 2. 2,
+          <lb ed="#P" n="35"/>quaest. 97, art. 3, ad 3, dicens in his populis,
+          <lb ed="#P" n="36"/>qui habent superiorem, in tantum posse 
+          con<lb break="no" ed="#P" n="37"/>suetudinem jus introducere, in quantum per
+          <lb ed="#P" n="38"/>eos toleratur, ad quos pertinet multitudini 
+          le<lb break="no" ed="#P" n="39"/>gem imponere - em hoc enim videntur approbare
+          <lb ed="#P" n="40"/>quod consuetudo introduait. Consentit Soto, 1.
+          <lb ed="#P" n="41"/>I1 de Jusi., quaest. 7, art. 9 et Sylv., verb.
+          <lb ed="#P" n="42"/>Consuetudo, q. 3; Dried., de Libert. Christ.,
+          <lb ed="#P" n="43"/>cap. 12; idemque videntur sentire Ang., verb.
+          <lb ed="#P" n="44"/>Consuetudo, n. 9, in princ., et Sylvest., q. 3.
+          <lb ed="#P" n="45"/>Sed revera multa ex his auctoribus intelligi
+          <lb ed="#P" n="46"/>facile possunt, juxta ea quae dicemus.
+        </p>
+        <p xml:id="szdleg-q46242-d1e360">
+          <lb ed="#P" n="47"/>4. Potestque haec sententia suaderi, primo,
+          <lb ed="#P" n="48"/>ex l. De quibus, ff. de Legibus, ubi tota ratio
+          <lb ed="#P" n="49"/>consuetudinis ponitur in consensu populi, qui
+          <lb ed="#P" n="50"/>potest legibus vim et efficaciam dare; ergo
+          <lb ed="#P" n="51"/>haec erat primaria vis consuetudinis in populo,
+          <lb ed="#P" n="52"/>quando habebat in se potestatem supremam;
+          <lb ed="#P" n="53"/>ergo postquam illam transtulit in principem,
+          <lb ed="#P" n="54"/>ab illius etiam consensu principaliter pendet
+          <lb ed="#P" n="55"/>vis consuetudinis, et consequenter necesse est
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ut praecedat scientia, sine qua non potest esse
+          <lb ed="#P" n="57"/>consensus. Secundo, probatur ex dicta l. 3,
+          <lb ed="#P" n="58"/>tit. 9, part. 1, ubi, inter conditiones ad 
+          con<lb break="no" ed="#P" n="59"/>suetudinem, ponitur ut fiat consentiente 
+          prin<lb break="no" ed="#P" n="60"/>cipe. Tertio, argumentor ratione, quia non
+          <lb ed="#P" n="61"/>minus est necessaria potestas legislativa ad
+          <lb ed="#P" n="62"/>inducendum jus non scriptum quam 
+          scri<lb break="no" ed="#P" n="63"/>ptum, ut constat ex dictis de legibus in 
+          com<lb break="no" ed="#P" n="64"/>muni ; sed in his populis non est potestas 
+          le<lb break="no" ed="#P" n="65"/>gislativa, ut supponimus, quia vel nunquam
+          <lb ed="#P" n="66"/>illam habuerunt, ut in legibus canonicis ; vel
+          <lb ed="#P" n="67"/>quia in principem illam transtulerunt, ut in
+          <lb ed="#P" n="68"/>civilibus; ergo necessarium est ut ille apud
+          <lb ed="#P" n="69"/>quem est suprema potestas det vires 
+          con<lb break="no" ed="#P" n="70"/>suetudini per suam voluntatem et 
+          consen<lb break="no" ed="#P" n="71"/>sum.
+        </p>
+        <p xml:id="szdleg-q46242-d1e419">
+          <lb ed="#P" n="72"/>5. Differentia inter potestatem ferendi 
+          le<lb break="no" ed="#P" n="73"/>ges ecclesiasticas et civiles. — Impugnatur 
+          dis<lb break="no" ed="#P" n="74"/>tinctio. — Aliqui vero doctores, licet pauci,
+          <lb ed="#P" n="75"/>praedictam sententiam in legibus canonicis 
+          ad<lb break="no" ed="#P" n="76"/>mittere videntur, et negare in civilibus. Et
+          <lb ed="#P" n="77"/>rationem differentiae reddunt, quia potestas
+          <lb ed="#P" n="78"/>ferendi leges canonicas nunquam fuit in 
+          po<lb break="no" ed="#P" n="79"/>pulo, sed in praelatis; potestas autem ferendi
+          <lb ed="#P" n="80"/>leges civiles primario fuit in populo. Ita sentit
+          <lb ed="#P" n="81"/>Anton., 1 p., tit. 16, S3; sequitur Covar. 1.
+          <lb ed="#P" n="82"/>2, quaest. 97, art. 3; et clarius Dried., lib. 1
+          <lb ed="#P" n="83"/>de Libert. Christian. Sed haec distinctio non
+          <lb ed="#P" n="84"/>placet, nec videtur posse subsistere : nam, licet
+          <lb ed="#P" n="85"/>potestas civilis primario fuerit in 
+          communi<lb break="no" ed="#P" n="86"/>tate, posquam illam transtulit in principem,
+          <lb ed="#P" n="87"/>jam non habet illam in se; ergo non minus a
+          <lb ed="#P" n="88"/>principe pendet, quam si nunquam illam 
+          ha<lb break="no" ed="#P" n="89"/>buisset. Fortasse dicent hi auctores, quando
+          <lb ed="#P" n="90"/>populus transtulit potestatem in principem,
+          <lb ed="#P" n="91"/>non omnino se illa privasse, sed solum in 
+          or<lb break="no" ed="#P" n="92"/>dine ad gubernationem expressam (ut sic 
+          di<lb break="no" ed="#P" n="93"/>cam) et in ordine ad leges scriptas, et verbalia
+          <lb ed="#P" n="94"/>praecepta, semper tamen sibi reservasse 
+          potes<lb break="no" ed="#P" n="95"/>tatem introducendi consuetudines. Sed hoc
+          <lb ed="#P" n="96"/>imprimis fundari non potest, quia nullo jure
+          <lb ed="#P" n="97"/>constat, nec consuetudine, aut aliquo alio
+          <lb ed="#P" n="98"/>signo ostendi potest in perfecta monarchia.
+          <lb ed="#P" n="99"/>Quamvis enim in aliquo regno possit esse 
+          po<lb break="no" ed="#P" n="100"/>testas regis illo vel alio simili modo limitata,
+          <lb ed="#P" n="101"/>ex tacita saltem conventione, scilicet, ubi
+          <lb ed="#P" n="102"/>monarchia perfecta non fuerit, sed mixta ex
+          <lb ed="#P" n="103"/>democratia, sicut supra diximus circa 
+          accepta<lb break="no" ed="#P" n="104"/>tionem legis; ordinarie tamen non ita est, et
+          <lb ed="#P" n="105"/>illa exceptio potius firmat regulam in 
+          contra<lb break="no" ed="#P" n="106"/>rium. Deinde non apparet id verisimile, quia
+          <lb ed="#P" n="107"/>rex temporalis potest revocare consuetudines
+          <lb ed="#P" n="108"/>privatas suorum populorum, et prohibere ne
+          <lb ed="#P" n="109"/>introducantur, si ratio subsit. Et eadem 
+          ratio<lb break="no" ed="#P" n="110"/>ne potest praecipere ut vim non habeant sine
+          <pb ed="#P" n="186"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>suo expresso consensu; ergo signum est 
+          to<lb break="no" ed="#P" n="2"/>tam potestatem legum ferendarum, 
+          quocum<lb break="no" ed="#P" n="3"/>que modo, fuisse in principem translatam.
+        </p>
+        <p xml:id="szdleg-q46242-d1e517">
+          <lb ed="#P" n="4"/>6. Principis consensum ad vim consuetudinis
+          <lb ed="#P" n="5"/>esse necessarium. —Est ergo tertia et vera 
+          sen<lb break="no" ed="#P" n="6"/>tentia, quae imprimis statuit generatim, 
+          prin<lb break="no" ed="#P" n="7"/>cipis consensum ad vim consuetudinis esse 
+          ne<lb break="no" ed="#P" n="8"/>cessarium. Hoc enim commune est apud 
+          doc<lb break="no" ed="#P" n="9"/>tores, ut dixi, et efficaciter probatur ratione
+          <lb ed="#P" n="10"/>facta in prima sententia. Deinde vero addit
+          <lb ed="#P" n="11"/>haec opinio, hunc consensum duobus modis
+          <lb ed="#P" n="12"/>posse intelligi : unum voco personalem, quia
+          <lb ed="#P" n="13"/>datur a persona principis, vel expresse 
+          con<lb break="no" ed="#P" n="14"/>sentientis, vel antecedenter dando licentiam
+          <lb ed="#P" n="15"/>ad introducendam consuetudinem, vel 
+          conse<lb break="no" ed="#P" n="16"/>quenter, aut concomitanter approbando illam,
+          <lb ed="#P" n="17"/>aut expresse, aut videndo et non impediendo.
+          <lb ed="#P" n="18"/>Alium vocare possumus consensum legalem,
+          <lb ed="#P" n="19"/>seu juridicum, quia non datur personaliter a
+          <lb ed="#P" n="20"/>principe, sed per ipsum jus. Quia si princeps
+          <lb ed="#P" n="21"/>statuit legem, ut consuetudo habens illas vel
+          <lb ed="#P" n="22"/>illas conditiones valeat, ex tunc consentit, et
+          <lb ed="#P" n="23"/>in particulari applicatur ille consensus ad 
+          si<lb break="no" ed="#P" n="24"/>miles consuetudines, quando introducuntur
+          <lb ed="#P" n="25"/>in virtute illius legis. Dicimus ergo non 
+          sem<lb break="no" ed="#P" n="26"/>per esse necessarium consensum priori modo
+          <lb ed="#P" n="27"/>praestitum a principe, sed posteriorem 
+          suffi<lb break="no" ed="#P" n="28"/>cere. Nam quod prior sufficiat, per se notum
+          <lb ed="#P" n="29"/>est ; quod autem non sit necessarius, sed 
+          se<lb break="no" ed="#P" n="30"/>cundus etiam sufficiat , probatur. Quia lex
+          <lb ed="#P" n="31"/>semper loquitur, et non minus efticax est 
+          vo<lb break="no" ed="#P" n="32"/>luntas principis per legem loquens, quam 
+          im<lb break="no" ed="#P" n="33"/>mediate per se volens, aut praecipiens. Quando
+          <lb ed="#P" n="34"/>autem unus vel alius consensus intercedat,
+          <lb ed="#P" n="35"/>sequentibus illationibus explicabo.
+        </p>
+        <p xml:id="szdleg-q46242-d1e589">
+          <lb ed="#P" n="36"/>7. Primo infertur non requiri consensum
+          <lb ed="#P" n="37"/>principis personalem. — Ex his enim infero,
+          <lb ed="#P" n="38"/>primo, quando consuetudo praescripta jus 
+          in<lb break="no" ed="#P" n="39"/>dueit, tunc non postulari consensum 
+          perso<lb break="no" ed="#P" n="40"/>nalem principis, ac subinde nec specialem
+          <lb ed="#P" n="41"/>scientiam ejus de tali consuetudine, sed ipso
+          <lb ed="#P" n="42"/>nihil de novo sciente, aut volente, tacite, vel
+          <lb ed="#P" n="43"/>expresse , consuetudinem efficaciter induci.
+          <lb ed="#P" n="44"/>Haec est communis sententia jurisperitorum,
+          <lb ed="#P" n="45"/>teste Pan. in dicto cap. ult., n. 13. Eam tenuit
+          <lb ed="#P" n="46"/>Gloss. ult. in S Leges, post c. In istis, dist. 4;
+          <lb ed="#P" n="47"/>item Gloss. in c. Frustra, dist. S, in ultimis
+          <lb ed="#P" n="48"/>verbis, si attente legatur, et ibi Card. Alex. in
+          <lb ed="#P" n="49"/>fine. Idem Anton., Barbat. et alii in dicto cap.
+          <lb ed="#P" n="50"/>ult., ubi Rochus Curt., sect. 4, n. 24, refert
+          <lb ed="#P" n="51"/>plures. Idem tenet Domin., dist. 11, in sum.,
+          <lb ed="#P" n="52"/>circa finem ; Angel. in sum., verb. Confessio,
+          <lb ed="#P" n="53"/>n. 9; Sylvest., q. 4; uterque enim supponit
+          <lb ed="#P" n="54"/>praescriptam consuetudinem suflticere, 
+          igno<lb break="no" ed="#P" n="55"/>rante Papa; Felin. in cap. Cum ea officii, de
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Praescript., n. 11, licet nonnullas limitationes
+          <lb ed="#P" n="57"/>addat de aliquibus casibus specialibus, qui ad
+          <lb ed="#P" n="58"/>alias materias spectant. Ex theologis autem
+          <lb ed="#P" n="59"/>tenent hanc sententiam Palud. 4, distinct. 42,
+          <lb ed="#P" n="60"/>quaest. 4, art. 1, n. 7; Supplem., quaest. 2,
+          <lb ed="#P" n="61"/>art. 2, conc. 3; Anton., 1 part., tit. 16, 82;
+          <lb ed="#P" n="62"/>Sanc. referens plures, lib. 7 de Matrim., 
+          dis<lb break="no" ed="#P" n="63"/>put. A4, n. 11 et 14, et disp. 82, n. 20.
+        </p>
+        <p xml:id="szdleg-q46242-d1e654">
+          <lb ed="#P" n="64"/>8. Fundamentum praecipuum hujus 
+          senten<lb break="no" ed="#P" n="65"/>tiae sumitur ex dicto cap. ult. de Consuetud.,
+          <lb ed="#P" n="66"/>ubi tantum duae conditiones ad 
+          consuetudi<lb break="no" ed="#P" n="67"/>nem requiruntur, scilicet, ut consuetudo sit
+          <lb ed="#P" n="68"/>rationalilis et praescripta ; ergo sine 
+          funda<lb break="no" ed="#P" n="69"/>mento juris, imo contra illud jus est, novam
+          <lb ed="#P" n="70"/>exigere, quae in illis non contineatur; at 
+          spe<lb break="no" ed="#P" n="71"/>cialis scientia principis est nova conditio in
+          <lb ed="#P" n="72"/>illis non inclusa ; ergo non est necessaria;
+          <lb ed="#P" n="73"/>ergo nec personalis consensus, qui sine illa
+          <lb ed="#P" n="74"/>scientia esse non potest. Confirmatur ac 
+          decla<lb break="no" ed="#P" n="75"/>ratur, quia princeps potuit generalem legem
+          <lb ed="#P" n="76"/>statuere, approbantem consuetudinem 
+          haben<lb break="no" ed="#P" n="77"/>tem tales conditiones ab ipso praescriptas, et
+          <lb ed="#P" n="78"/>ut vim habeat absque novo suo consensu, vel
+          <lb ed="#P" n="79"/>scientia ; sed id fecit in illo decreto; ergo.
+          <lb ed="#P" n="80"/>Major patet, quia hoc non excedit principis
+          <lb ed="#P" n="81"/>potestatem, et ille modus ostendendi suam 
+          vo<lb break="no" ed="#P" n="82"/>luntatem est sufficientissimus, ut deciaravi; est
+          <lb ed="#P" n="83"/>etiam convenientissimus, quia moraliter 
+          im<lb break="no" ed="#P" n="84"/>possibile est consuetudines omnes ad principis
+          <lb ed="#P" n="85"/>notitiam pervenire, juxta cap. 1 de Constitut.,
+          <lb ed="#P" n="86"/>in 6, et alioqui expediat consuetudines 
+          ratio<lb break="no" ed="#P" n="87"/>nabiles observari, et vim suam obtinere; ergo.
+          <lb ed="#P" n="88"/>Denique confirmari potest ex analogia ad 
+          pro<lb break="no" ed="#P" n="89"/>priam praescriptionem , ad cujus imitationem
+          <lb ed="#P" n="90"/>dicitur haec consuetudo praescripta ; nam in
+          <lb ed="#P" n="91"/>praescriptione non requiritur scientia ejus 
+          con<lb break="no" ed="#P" n="92"/>tra quem praescribitur ; consuetudo autem 
+          di<lb break="no" ed="#P" n="93"/>citur praescripta contra principem, eo modo
+          <lb ed="#P" n="94"/>quo praescribi potest ; ergo non postulat 
+          scien<lb break="no" ed="#P" n="95"/>tiam principis, ut praevaleat.
+        </p>
+        <p xml:id="szdleg-q46242-d1e727">
+          <lb ed="#P" n="96"/>9. Objectio. — Solutio. — Dices, hoc solum
+          <lb ed="#P" n="97"/>procedere in consuetudine abrogante legem,
+          <lb ed="#P" n="98"/>de qua loquitur caput illud, non vero de 
+          con<lb break="no" ed="#P" n="99"/>suetudine inducente legem, quia de illa 
+          nul<lb break="no" ed="#P" n="100"/>lum est tale jus. Item id ad summum procedet
+          <lb ed="#P" n="101"/>secundum jus canonicum, et in consuetudine
+          <lb ed="#P" n="102"/>canonica , nam in jure civili nihil tale 
+          reperi<lb break="no" ed="#P" n="103"/>tur definitum. Respondeo, ad priorem partem,
+          <lb ed="#P" n="104"/>a fortiori jus illud comprehendere 
+          consuetudi<lb break="no" ed="#P" n="105"/>nem inductivam legis non scriptae, quia, quoad
+          <lb ed="#P" n="106"/>potestatem , tanta requiritur ad abrogandam
+          <lb ed="#P" n="107"/>legem principis, sicut ad introducendum jus
+          <lb ed="#P" n="108"/>novum non contrarium antiquo. Aliunde vero
+          <lb ed="#P" n="109"/>magis necessarius videri poterat consensus
+          <lb ed="#P" n="110"/>principis ad permittendam revocationem suae
+          <pb ed="#P" n="187"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>legis, quam ad inducendum novum jus, quia
+          <lb ed="#P" n="2"/>maeis ejus voluntati et auctoritati derogare 
+          vi<lb break="no" ed="#P" n="3"/>debatur. Et ideo cum emphasi dicitur in illo
+          <lb ed="#P" n="4"/>textu : Licet non sit vilis longeve consuetudinis
+          <lb ed="#P" n="5"/>auctoritas, non tamen esse usque adeo 
+          valitu<lb break="no" ed="#P" n="6"/>ram, ut vel juri positivo debeat praejudicium
+          <lb ed="#P" n="7"/>generare, nisi, etc. : ergo cum hoc illi detur,
+          <lb ed="#P" n="8"/>si illas duas conditiones habeat, simpliciter
+          <lb ed="#P" n="9"/>approbatur quodlibet consuetudinarium jus
+          <lb ed="#P" n="10"/>illas duas conditiones habens.
+        </p>
+        <p xml:id="szdleg-q46242-d1e788">
+          <lb ed="#P" n="11"/>10. Ad alteram vero partem, dicitur 
+          impri<lb break="no" ed="#P" n="12"/>mis, esto jus civile non tam expresse id 
+          decla<lb break="no" ed="#P" n="13"/>raverit, non tamen repugnare quoad valorem
+          <lb ed="#P" n="14"/>consuetudinis habentis illas conditiones, 
+          quid<lb break="no" ed="#P" n="15"/>quid sit de effectibus ejus, de quibus postea
+          <lb ed="#P" n="16"/>dicemus. Imo in virtute idem in hac parte
+          <lb ed="#P" n="17"/>tradit civile jus, quod jus canonicum magis
+          <lb ed="#P" n="18"/>declaravit : nam in dicta l. De quibus, sic 
+          di<lb break="no" ed="#P" n="19"/>citur : Rectissime receptum est ut leges, non 
+          so<lb break="no" ed="#P" n="20"/>lum suffragio legislatoris, sed etiam tacito 
+          con<lb break="no" ed="#P" n="21"/>sensu omniwn , per dissuetudinem abrogentur ;
+          <lb ed="#P" n="22"/>ubi distinguitur populus a legislatore, et 
+          hu<lb break="no" ed="#P" n="23"/>jus suffragium non postulatur , et in legibus
+          <lb ed="#P" n="24"/>sequentibus, supposita rationabilitate 
+          consue<lb break="no" ed="#P" n="25"/>tudinis, nihil aliud postulatur, ut pro jure 
+          ha<lb break="no" ed="#P" n="26"/>beatur, nisi quod sit diuturna et longa , et per
+          <lb ed="#P" n="27"/>annos plurimos observata, 1. Diuturna, et 1.
+          <lb ed="#P" n="28"/>S ed et ea ; et in l. Nam additur imperatorem
+          <lb ed="#P" n="29"/>statuisse, perpetuam consuetudinem vim legis
+          <lb ed="#P" n="30"/>habere debere ; et ita intellexerunt jus civile
+          <lb ed="#P" n="31"/>ejus interpretes, ut secundum illud etiam 
+          con<lb break="no" ed="#P" n="32"/>suetudo praescripta sine nova scientia 
+          princi<lb break="no" ed="#P" n="33"/>pis sufficiat.
+        </p>
+        <p xml:id="szdleg-q46242-d1e840">
+          <lb ed="#P" n="34"/>11. Si consuetudo non praevaleat ex vi 
+          praes<lb break="no" ed="#P" n="35"/>criptionis, requiritur consensus personalis. —
+          <lb ed="#P" n="36"/>Secundo infero, quando consuetudo non 
+          prae<lb break="no" ed="#P" n="37"/>valet ex vi praescriptionis, tunc necessarium
+          <lb ed="#P" n="38"/>esse consensum principis personalem, saltem
+          <lb ed="#P" n="39"/>tacitum, ac subinde necessarium etiam esse
+          <lb ed="#P" n="40"/>ut scientiam consuetudinis habeat. Hoc damus
+          <lb ed="#P" n="41"/>auctoribus prioris sententiae , ex quibus D.
+          <lb ed="#P" n="42"/>Thomas generahter locutus est de consensu
+          <lb ed="#P" n="43"/>principis, et ita potest ad utrumque modum
+          <lb ed="#P" n="44"/>a nobis expositum accommodari, ut etiam
+          <lb ed="#P" n="45"/>Sylvest. et Anton. sensisse videntur, qui, licet
+          <lb ed="#P" n="46"/>sententiam et verba D. Thomae referant et 
+          se<lb break="no" ed="#P" n="47"/>quantur, nihilominus fatentur aliquando 
+          con<lb break="no" ed="#P" n="48"/>suetudinem praevalere , ignorante principe.
+          <lb ed="#P" n="49"/>Denique hoc etiam admittunt auctores in 
+          su<lb break="no" ed="#P" n="50"/>periori puncto allegati, et probatur a sufficienti
+          <lb ed="#P" n="51"/>partium enumeratione, quia consensus 
+          princi<lb break="no" ed="#P" n="52"/>pis est necessarius, et in hoc modo 
+          consuetu<lb break="no" ed="#P" n="53"/>dinis non datur virtute alicujus legis, nec lex
+          <lb ed="#P" n="54"/>aliqua definivit certum modum ejus; ergo 
+          ne<lb break="no" ed="#P" n="55"/>cesse est ut consensus sit personalis, ad quem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>scientia necessaria est, et hoc etiam 
+          confir<lb break="no" ed="#P" n="57"/>mant motiva primae opinionis.
+        </p>
+        <p xml:id="szdleg-q46242-d1e897">
+          <lb ed="#P" n="58"/>12. Qui consuetudo principis sit necessarius.
+          <lb ed="#P" n="59"/>— Sufficit tacitus consensus. — An vero hic
+          <lb ed="#P" n="60"/>consensuis principis debeat esse positivus et
+          <lb ed="#P" n="61"/>expressus, vel sufficiat interpretativus, quia
+          <lb ed="#P" n="62"/>scit et tolerat, vel non impedit, Anton. supra
+          <lb ed="#P" n="63"/>indicat necessarium esse expressum, 
+          praeser<lb break="no" ed="#P" n="64"/>tim in summo Pontifice. Et potest suaderi,
+          <lb ed="#P" n="65"/>quia tolerantia sola , supposita scientia, non
+          <lb ed="#P" n="66"/>indicat sufficienter consensum, quia multa per
+          <lb ed="#P" n="67"/>patientiam tolerantur, quae non approbantur,
+          <lb ed="#P" n="68"/>juxta cap. Cum jamdudum, de Praebend. 
+          Ni<lb break="no" ed="#P" n="69"/>hilominus D. Thomas, supra expresse docet
+          <lb ed="#P" n="70"/>sufficere tacitum consensum, et consentiunt
+          <lb ed="#P" n="71"/>caeteri, et usus probat, quia consensus tacitus
+          <lb ed="#P" n="72"/>aequiparatur expresso , ut in hac materia 
+          dici<lb break="no" ed="#P" n="73"/>tur in dicta l. De quibus. Solum oportet ut 
+          mo<lb break="no" ed="#P" n="74"/>raliter constet , tolerantiam uon esse tantum
+          <lb ed="#P" n="75"/>permissivam, sed operativam, seu 
+          approbati<lb break="no" ed="#P" n="76"/>vam, quod ex circumstantiis et usu facile 
+          con<lb break="no" ed="#P" n="77"/>stare poterit , maxime quando vel approbatio
+          <lb ed="#P" n="78"/>est rationabilis, vel per solam permissionem
+          <lb ed="#P" n="79"/>non suffhicienter providetur subditorum saluti
+          <lb ed="#P" n="80"/>et commodis , ut sequentibus capitibus 
+          expli<lb break="no" ed="#P" n="81"/>cabo. Nec in hoc oportet exceptionem facere
+          <lb ed="#P" n="82"/>de summo Pontifice, quia nulla est ratio,
+          <lb ed="#P" n="83"/>vel jus quod illam requirat. In aliquo autem
+          <lb ed="#P" n="84"/>special casu, erit fortasse necessarius ejus
+          <lb ed="#P" n="85"/>consensus expressus , quando ex rei gravitate
+          <lb ed="#P" n="86"/>vel aliquo speciali jure constiterit; hoc autem
+          <lb ed="#P" n="87"/>etiam in aliis principibus contingere potest,
+          <lb ed="#P" n="88"/>et ideo regula data pcr se loquendo generalis
+          <lb ed="#P" n="89"/>est.
+        </p>
+        <p xml:id="szdleg-q46242-d1e969">
+          <lb ed="#P" n="90"/>13. Respondetur ad fundamenta contrarie
+          <lb ed="#P" n="91"/>sententie. —Ad fundamentum contrariae 
+          sen<lb break="no" ed="#P" n="92"/>tentiae facilis est responsio; nam l. De quibus
+          <lb ed="#P" n="93"/>solum probat esse necessarium consensum 
+          il<lb break="no" ed="#P" n="94"/>lius qui habet supremam potestatem 
+          legislati<lb break="no" ed="#P" n="95"/>vam, non tamen probat hunc vel illum modum
+          <lb ed="#P" n="96"/>consensus , nec vetat quin per legem potuerit
+          <lb ed="#P" n="97"/>dari, imo id indicat, ut ponderavi. Lex item
+          <lb ed="#P" n="98"/>partitarum nihil amplius requirit, quam ut
+          <lb ed="#P" n="99"/>consuetudo firmetur, consentiente principe,
+          <lb ed="#P" n="100"/>quod et nos fatemur, non vero dicit esse 
+          sem<lb break="no" ed="#P" n="101"/>per necessariam scientiam, vel personalem
+          <lb ed="#P" n="102"/>consensum ; quod si ita statueret, esset 
+          pecu<lb break="no" ed="#P" n="103"/>liare jus Hispaniae, non ex natura rei 
+          neces<lb break="no" ed="#P" n="104"/>sarium, neque commune. hatio denique 
+          so<lb break="no" ed="#P" n="105"/>lum probat primam partem assertionis 
+          nos<lb break="no" ed="#P" n="106"/>trae, et confirmat ultimam, non tamen 
+          proce<lb break="no" ed="#P" n="107"/>dit contra secundam, cum etiam, secundum
+          <lb ed="#P" n="108"/>illam, auctoritas principis influat in 
+          consue<lb break="no" ed="#P" n="109"/>tudinem praescriptam, et illi virtutem tribuat,
+          <lb ed="#P" n="110"/>lege interveniente.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 15</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 15</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="190"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q47771"><!-- l7c15 -->
+        <head xml:id="szdleg-q47771-Hd1e101">Caput 15</head>
+        <head xml:id="szdleg-q47771-Hd1e103" type="question-title">Quanti temporis consuetudo ad indugendam legem sufficiat.</head>
+        <p xml:id="szdleg-q47771-d1e106">
+          <lb ed="#P" n="42"/>CAPUT XV.
+          <lb ed="#P" n="43"/>QUANTI TEMPORIS CONSUETUDO AD INDUGENDAM
+          <lb ed="#P" n="44"/>LEGEM SUFFICIAT.
+        </p>
+        <p xml:id="szdleg-q47771-d1e115">
+          <lb ed="#P" n="45"/>1. De tempore ad consuetudinem reguisito.—
+          <lb ed="#P" n="46"/>De numero seu frequentia actuum ad 
+          consue<lb break="no" ed="#P" n="47"/>tudinem suffhiciente, satis in superioribus 
+          dic<lb break="no" ed="#P" n="48"/>tum est; hic ergo solum dicendum superest de
+          <lb ed="#P" n="49"/>temporis diuturnitate. Nam, licet dixerimus
+          <lb ed="#P" n="50"/>quamdam esse consuetudinem praescriptam, et
+          <lb ed="#P" n="51"/>aliam non praescriptam, non tamen explicatum
+          <lb ed="#P" n="52"/>est quomodo illae ad jus introducendum sutti-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>ciant, nec quantum tempus requirant : hoc 
+          igi<lb break="no" ed="#P" n="54"/>tur in praesenti capite explicandum est.
+        </p>
+        <p xml:id="szdleg-q47771-d1e141">
+          <lb ed="#P" n="55"/>2. Praescripta consuetudo de se sufficiens est
+          <lb ed="#P" n="56"/>ad consuetudinem inducendam. — Prima 
+          sen<lb break="no" ed="#P" n="57"/>tentia.-— Secunda sententia.— Vera sententia,
+          <lb ed="#P" n="58"/>decem annos requiri et sufficere. — Et in 
+          pri<lb break="no" ed="#P" n="59"/>mis certum est praescriptam consuetudinem de
+          <lb ed="#P" n="60"/>se sufficere ad legem introducendam. Ita enim
+          <lb ed="#P" n="61"/>colligitur aperte ex cap. ult. de Consuet., ut
+          <lb ed="#P" n="62"/>superiori capite declaravi, et tradunt 
+          commu<lb break="no" ed="#P" n="63"/>niter doctores ibi allegati. Circa tempus autem
+          <lb ed="#P" n="64"/>necessarium ad hanc praescriptionem variae
+          <lb ed="#P" n="65"/>sunt opiniones. Aliqui enim antiqui 
+          immemo<lb break="no" ed="#P" n="66"/>riale tempus postulabant, tamen sine 
+          funda<lb break="no" ed="#P" n="67"/>mento ; et ita relicta et antiquata est illa 
+          sen<lb break="no" ed="#P" n="68"/>tentia. Alii in canonica consuetudine 
+          quadra<lb break="no" ed="#P" n="69"/>ginta annorum spatium requirunt, ut 
+          Hos<lb break="no" ed="#P" n="70"/>tiens. in Sum., tit. de Consuet., S Obtentum.
+          <lb ed="#P" n="71"/>Sed hoc habet locum in his quae sunt contra
+          <lb ed="#P" n="72"/>jus, non in his quae sunt praeter jus. Unde ad
+          <lb ed="#P" n="73"/>hanc consuetudinem, decem annorum tempus
+          <lb ed="#P" n="74"/>necessarium et sufficiens censetur, etiam in
+          <lb ed="#P" n="75"/>canonica materia. Ita tenent Glossae supra 
+          al<lb break="no" ed="#P" n="76"/>legatae, et Bart., Panorm., Rochus, et alii in
+          <lb ed="#P" n="77"/>locis saepe allegatis. Et illos ac alios referens,
+          <lb ed="#P" n="78"/>tradit Covarr., lib. 4 Variar., cap. 17, n. 8,
+          <lb ed="#P" n="79"/>S Quarto, et sentit Navar. in Sum., c. 13, n. 19.
+          <lb ed="#P" n="80"/>Ratio prioris partis est, quia jura dicunt 
+          lon<lb break="no" ed="#P" n="81"/>gaevam vel antiquam consuetudinem ad hunc
+          <lb ed="#P" n="82"/>effectum sufficere; sed ad antiquam seu longi
+          <lb ed="#P" n="83"/>temporis consuetudinem decem anni 
+          requi<lb break="no" ed="#P" n="84"/>runtur et sufficiunt; ergo. Quae ratio supra
+          <lb ed="#P" n="85"/>explicata est. Ratio autem alterius partis est,
+          <lb ed="#P" n="86"/>quia talis consuetudo non est contra jus, sed
+          <lb ed="#P" n="87"/>praeter jus, ut supponimus : ut autem constat
+          <lb ed="#P" n="88"/>ex materia de Praescriptionibus, in his quae non
+          <lb ed="#P" n="89"/>sunt contra jus, non requiritur majus tempus
+          <lb ed="#P" n="90"/>jure canonico quam civili ad 
+          praescriptio<lb break="no" ed="#P" n="91"/>nem, quam in hac temporis conditione 
+          consue<lb break="no" ed="#P" n="92"/>tudo praescripta imitatur, ut supra visum est;
+          <lb ed="#P" n="93"/>ergo.-
+        </p>
+        <p xml:id="szdleg-q47771-d1e229">
+          <lb ed="#P" n="94"/>3. Notandum.— Adverto autem, secundum
+          <lb ed="#P" n="95"/>jus,tempus longaevum non esse unum tantum,
+          <lb ed="#P" n="96"/>sed esse decem annorum inter praesentes, et
+          <lb ed="#P" n="97"/>viginti inter absentes, S 1 Instit. de Usucap.,
+          <lb ed="#P" n="98"/>et nihilominus doctores allegatos non facere
+          <lb ed="#P" n="99"/>distinctionem in hac consuetudine praescripta
+          <lb ed="#P" n="100"/>inter absentes vel praesentes, ut ad illam 
+          vi<lb break="no" ed="#P" n="101"/>ginti annos requirant, ad hanc vero decem,
+          <lb ed="#P" n="102"/>sed absolute tantum decem annos postulare.
+          <lb ed="#P" n="103"/>Imo Bart., in dicta repetit., 1. De quibus, n.
+          <lb ed="#P" n="104"/>14, expresse dicit in praesenti non esse 
+          facien<lb break="no" ed="#P" n="105"/>dam distinctionem, quia illud membrum (ait)
+          <lb ed="#P" n="106"/>inter absentes, hic non cadit, cum populus 
+          sem<lb break="no" ed="#P" n="107"/>per sit praesens, eliamsi aliqui de populo sint
+          <pb ed="#P" n="191"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>absentes. In quibus verbis rationem hanc 
+          in<lb break="no" ed="#P" n="2"/>dicat, quia haec consuetudo non praescribitur
+          <lb ed="#P" n="3"/>contra extraneos, sed inter ipsosmet cives 
+          in<lb break="no" ed="#P" n="4"/>ducitur, quos necesse est, saltem pro majori
+          <lb ed="#P" n="5"/>parte, esse praesentes, cum debeant esse 
+          con<lb break="no" ed="#P" n="6"/>scii consuetudinis, ut supra dictum est. 
+          Con<lb break="no" ed="#P" n="7"/>sentit Gregor. Lop., in l. 5, tit. 2, part. 1;
+          <lb ed="#P" n="8"/>Gloss. 4, et Burgos de Paz, in l. 1 Taur., n.
+          <lb ed="#P" n="9"/>207. Sed ratio illa non videtur satisfacere,
+          <lb ed="#P" n="10"/>quia supra dixi consuetudinem hanc suo modo
+          <lb ed="#P" n="11"/>praescribi contra principem, qui potest esse
+          <lb ed="#P" n="12"/>absens, vel praesens; et ideo, respectu illius,
+          <lb ed="#P" n="13"/>ad praescriptionem hujus consuetudinis debet
+          <lb ed="#P" n="14"/>requiri longum tempus cum proportione ad
+          <lb ed="#P" n="15"/>propriam praescriptionem ; ergo debet requiri
+          <lb ed="#P" n="16"/>tempus viginti annorum, quando princeps
+          <lb ed="#P" n="17"/>abest.
+        </p>
+        <p xml:id="szdleg-q47771-d1e303">
+          <lb ed="#P" n="18"/>4. An distinctione data utendum sit in 
+          prae<lb break="no" ed="#P" n="19"/>senti. — Propter hoc alii auctores censent 
+          dis<lb break="no" ed="#P" n="20"/>unctione illa esse utendum etiam in praesenti.
+          <lb ed="#P" n="21"/>Ita significat Sylvest., verb. Consuetudo, q. 2,
+          <lb ed="#P" n="22"/>et illius meminit Hostiens. in Sum., ubi supra,
+          <lb ed="#P" n="23"/>referens aliquos canonistas ita sensisse, et
+          <lb ed="#P" n="24"/>quoad civiles consuetudines multos legistas ita
+          <lb ed="#P" n="25"/>tenere, et refertur etiam Azo., in Sum. in
+          <lb ed="#P" n="26"/>rubr., c. Quae sit long. consuet. Et in dicta
+          <lb ed="#P" n="27"/>l. 5, tit. 2, part. 1, cum eadem distinctione
+          <lb ed="#P" n="28"/>dicitur consuetudinem a populo introduci per
+          <lb ed="#P" n="29"/>usum decem aut viginti annorum. Propter
+          <lb ed="#P" n="30"/>quam legem aliqui censent, saltem in 
+          Hispa<lb break="no" ed="#P" n="31"/>nia, ex speciali illo jure ita esse 
+          distinguen<lb break="no" ed="#P" n="32"/>dum. Quia illa distinctio non est inepta, nec
+          <lb ed="#P" n="33"/>odiosa, nec aliud potest operari, nisi ut decem
+          <lb ed="#P" n="34"/>anni pro praesentia, et viginti pro casu 
+          absen<lb break="no" ed="#P" n="35"/>tiae postulentur; estque haec sententia, quoad
+          <lb ed="#P" n="36"/>hanc partem, probabilis.
+        </p>
+        <p xml:id="szdleg-q47771-d1e347">
+          <lb ed="#P" n="37"/>5. Tempus decennii sufficiens ut consuetudo
+          <lb ed="#P" n="38"/>inducatur. — Nihilominus existimo sine ulla
+          <lb ed="#P" n="39"/>distinctione sufficere decennii tempus, ut 
+          con<lb break="no" ed="#P" n="40"/>suetudo inductiva legis et praescripta esse 
+          cen<lb break="no" ed="#P" n="41"/>seatur. Probatur primo ex communi sententia,
+          <lb ed="#P" n="42"/>quae non sine causa illam distinctionem 
+          omi<lb break="no" ed="#P" n="43"/>sit in praesenti materia, cum tamen in propria
+          <lb ed="#P" n="44"/>praescriptione passim illa utantur. Et idem 
+          ob<lb break="no" ed="#P" n="45"/>servo in nostro Molin., dict. disp. 77, tract. 2
+          <lb ed="#P" n="46"/>de Justit., conferendo illam, cum 
+          praecedenti<lb break="no" ed="#P" n="47"/>bus, de tempore requisito ad propriam 
+          prae<lb break="no" ed="#P" n="48"/>scriptionem in variis materiis. Secundo, quia
+          <lb ed="#P" n="49"/>consuetudine ita receptum est, ut ad 
+          praescri<lb break="no" ed="#P" n="50"/>bendum contra legem, nulla ratio praesentiae
+          <lb ed="#P" n="51"/>vel absentiae principis habeatur, ut omnes 
+          fa<lb break="no" ed="#P" n="52"/>tentur. Dico autem ad praescribencum, quia,
+          <lb ed="#P" n="53"/>ut infra dicam, ad alios effectus consuetudinis
+          <lb ed="#P" n="54"/>non praescriptae multum referre potest 
+          absen<lb break="no" ed="#P" n="55"/>tia, vel praesentia principis, non ratione sua,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sed ratione scientiae, quae facilior et certior
+          <lb ed="#P" n="57"/>praesumitur in praesentia quam in absentia.
+          <lb ed="#P" n="58"/>Tertio, hinc sumitur optima ratio, quia in hac
+          <lb ed="#P" n="59"/>consuetudine non postulatur quod sit 
+          praescri<lb break="no" ed="#P" n="60"/>pta respectu principis, nisi quatenus ignorat
+          <lb ed="#P" n="61"/>vel ignorare posse supponitur consuetudinem;
+          <lb ed="#P" n="62"/>ergo ad hanc consuetudinem, ut praescribatur
+          <lb ed="#P" n="63"/>tanto vel tanto tempore, nihil refert 
+          absen<lb break="no" ed="#P" n="64"/>tia vel praesentia principis; nam si ipse sciat
+          <lb ed="#P" n="65"/>consuetudinem, sive sit absens, sive praesens,
+          <lb ed="#P" n="66"/>non est necessaria praescriptio, ut infra dicam.
+          <lb ed="#P" n="67"/>Si autem ignoret, parum refert quod sit 
+          prae<lb break="no" ed="#P" n="68"/>sens, quia, licet corpore sit praesens, animo est
+          <lb ed="#P" n="69"/>absens, et ideo tam cito praescribitur contra
+          <lb ed="#P" n="70"/>absentem sicut contra ignorantem, quia 
+          uter<lb break="no" ed="#P" n="71"/>que est absens.
+        </p>
+        <p xml:id="szdleg-q47771-d1e428">
+          <lb ed="#P" n="72"/>6. Objectio. —Solutio. —Dices : de principe
+          <lb ed="#P" n="73"/>praesente praesumitur facilius posse scire, et ideo
+          <lb ed="#P" n="74"/>brevius tempus debuit pro illo sufficere. Item,
+          <lb ed="#P" n="75"/>si illa ratio valeret, potius dicendum esset 
+          sem<lb break="no" ed="#P" n="76"/>per requiri spatium viginti annorum, quia haec
+          <lb ed="#P" n="77"/>praescriptio semper est contra absentem 
+          for<lb break="no" ed="#P" n="78"/>maliter. id est, contra ignorantem. Respondeo
+          <lb ed="#P" n="79"/>ad priorem partem, in hoc genere 
+          praescriptio<lb break="no" ed="#P" n="80"/>nis non attendi facilitatem vel difficultatem
+          <lb ed="#P" n="81"/>sciendi ex parte principis, sed necessitatem
+          <lb ed="#P" n="82"/>boni communis, cui per hanc praescriptionem
+          <lb ed="#P" n="83"/>consulitur, quia multum expedit ut 
+          consuetu<lb break="no" ed="#P" n="84"/>dines rationabiles, et sufficienti usu firmatae,
+          <lb ed="#P" n="85"/>observentur, et ad hunc finem, 
+          convenientis<lb break="no" ed="#P" n="86"/>simum etiam est ut vim habeant obligandi ; et
+          <lb ed="#P" n="87"/>propter hunc etiam finem prudenter reputatur
+          <lb ed="#P" n="88"/>sufficiens tempus decem annorum, sive 
+          prin<lb break="no" ed="#P" n="89"/>ceps sit absens, sive praesens. Quia talis 
+          con<lb break="no" ed="#P" n="90"/>suetudo de se satis est roborata, et alioqui
+          <lb ed="#P" n="91"/>tempus illud est sufficiens ut princeps possit
+          <lb ed="#P" n="92"/>scire, si velit; major autem vel minor facilitas
+          <lb ed="#P" n="93"/>parum in praesenti referre videtur. Eo vel
+          <lb ed="#P" n="94"/>maxime quod, in praescriptione consuetudinis,
+          <lb ed="#P" n="95"/>non censetur esse involuntarius princeps, 
+          prae<lb break="no" ed="#P" n="96"/>cipue quoad hunc effectum inducendi 
+          obliga<lb break="no" ed="#P" n="97"/>tionem suo juri non contrariam, sicut esse 
+          so<lb break="no" ed="#P" n="98"/>let involuntarius dominus rei, contra quem illa
+          <lb ed="#P" n="99"/>praescribitur. Quia inductio illius obligationis
+          <lb ed="#P" n="100"/>non affert praejudicium principi, nec est 
+          con<lb break="no" ed="#P" n="101"/>tra jurisdictionem ejus, cum sit ex jure illius,
+          <lb ed="#P" n="102"/>et conveniens ad debitam gubernationem, et
+          <lb ed="#P" n="103"/>ideo non est eadem ratio de praescriptione 
+          alia<lb break="no" ed="#P" n="104"/>rum rerum, quae de hac consuetudine. Et ita
+          <lb ed="#P" n="105"/>respondetur ad posteriorem partem negando
+          <lb ed="#P" n="106"/>sequelam, quia cum jura nihil distinguant, sed
+          <lb ed="#P" n="107"/>solum requirant longam consuetudinem, intra
+          <lb ed="#P" n="108"/>latitudinem longi temporis minimum 
+          intelli<lb break="no" ed="#P" n="109"/>gitur ; tum quia hoc est favorabilius, et illud
+          <lb ed="#P" n="110"/>est eligendum cum agitur de communi bono;
+          <pb ed="#P" n="192"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tum etiam quia hic solum consideratur 
+          igno<lb break="no" ed="#P" n="2"/>rantia principis, sive in absentia, sive in 
+          prae<lb break="no" ed="#P" n="3"/>sentia habeatur, quod non est ita in 
+          praescri<lb break="no" ed="#P" n="4"/>ptione : nam idem tempus sufficit, caeteris 
+          pa<lb break="no" ed="#P" n="5"/>ribus, sive dominus rei sciat usum 
+          praescri<lb break="no" ed="#P" n="6"/>bentis, sive ignoret.
+        </p>
+        <p xml:id="szdleg-q47771-d1e532">
+          <lb ed="#P" n="7"/>7. Doctores in contrarium non obstant. —Dbe
+          <lb ed="#P" n="8"/>auctoribus autem qui in contrarium citantur
+          <lb ed="#P" n="9"/>non multum est curandum, quia pauci sunt
+          <lb ed="#P" n="10"/>respectu aliorum, et aliqui eorum fortasse non
+          <lb ed="#P" n="11"/>loquuntur de sola consuetudine legali, sed 
+          ge<lb break="no" ed="#P" n="12"/>neralius de consuetudine , ut comprehendit
+          <lb ed="#P" n="13"/>etiam illam quae in praescriptione rerum 
+          inter<lb break="no" ed="#P" n="14"/>venit : nam, ut dixi, hic fcre est usus 
+          commu<lb break="no" ed="#P" n="15"/>nis jurisperitorum. Et profecto Sylvest., in toto
+          <lb ed="#P" n="16"/>illo verb. Consuetudo ita procedit sicut et ali
+          <lb ed="#P" n="17"/>summistae et juristae, ut legenti facile patebit;
+          <lb ed="#P" n="18"/>unde sub illa disjunctione loquuntur, non quia
+          <lb ed="#P" n="19"/>amplianda sit ad omnes modos consuetudinum
+          <lb ed="#P" n="20"/>etiam moralium actionum. Et fortasse rex 
+          AI<lb break="no" ed="#P" n="21"/>phonsus ita etiam locutus est in illa lege 5,
+          <lb ed="#P" n="22"/>quae potest etiam habere alium sensum, ut 
+          ca<lb break="no" ed="#P" n="23"/>pite sequenti dicam ; vel, si novum jus 
+          intro<lb break="no" ed="#P" n="24"/>ducere voluit, et approbare opinionem Azonis,
+          <lb ed="#P" n="25"/>cujus opera dicuntur esse factae leges 
+          partita<lb break="no" ed="#P" n="26"/>rum, illud speciale jus etiam in Hispania 
+          con<lb break="no" ed="#P" n="27"/>suetudine receptum non est, ut existimo.
+        </p>
+        <p xml:id="szdleg-q47771-d1e580">
+          <lb ed="#P" n="28"/>8. Superest dicendum de consuetudine non
+          <lb ed="#P" n="29"/>praescripta. Nam interdum potest sufficere ad
+          <lb ed="#P" n="30"/>inducendam legem ; et consequenter in 
+          bre<lb break="no" ed="#P" n="31"/>viori tempore quam decennio illam inducere
+          <lb ed="#P" n="32"/>poterit, si scientia principis intercedat. Ita
+          <lb ed="#P" n="33"/>sentiunt Anton. in dicto cap. ult. de 
+          Consue<lb break="no" ed="#P" n="34"/>tud., et Antonin., Sylvest., Angel. et alii, qui
+          <lb ed="#P" n="35"/>illum sequuntur, ut in simili videbimus in 
+          ca<lb break="no" ed="#P" n="36"/>pite sequenti. Nam distinguunt inter principem
+          <lb ed="#P" n="37"/>scientem et ignorantem populi morem, et 
+          di<lb break="no" ed="#P" n="38"/>cunt brevius tempus requiri quando princeps
+          <lb ed="#P" n="39"/>scit consuetudinem, quam cum illam ignorat:
+          <lb ed="#P" n="40"/>sed consuetudo decem annorum suffticit ad 
+          in<lb break="no" ed="#P" n="41"/>ducendam legem, ignorante principe ; ergo
+          <lb ed="#P" n="42"/>brevius tempus suflficiet ad eumdem effectum,
+          <lb ed="#P" n="43"/>interveniente scientia principis. Àt in minori
+          <lb ed="#P" n="44"/>tempore quam decem annorum consuetudo
+          <lb ed="#P" n="45"/>non praescribitur ; ergo consuetudo non 
+          praes<lb break="no" ed="#P" n="46"/>cripta, cognita a principe, poterit inducere 
+          le<lb break="no" ed="#P" n="47"/>gem. Et ita patet quando requiratur 
+          praescri<lb break="no" ed="#P" n="48"/>pta, scilicet, quando princeps ignorat, et 
+          quan<lb break="no" ed="#P" n="49"/>do non sit necessaria, scilicet , quando scit
+          <lb ed="#P" n="50"/>illam ; ratio vero reddi potest, quia, licet jura
+          <lb ed="#P" n="51"/>dicant longam consuetudinem sufticere, 
+          nun<lb break="no" ed="#P" n="52"/>quam dicunt minorem non sufficere. Et 
+          alio<lb break="no" ed="#P" n="53"/>qui ex natura rei potest suflicere minor haec
+          <lb ed="#P" n="54"/>consuetudo, si princeps habeat scientiam ejus,
+          <lb ed="#P" n="55"/>quia potest suflicienter indicare consensum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ejus et populi, ut per se notum videtur; ergo
+          <lb ed="#P" n="57"/>illa consuetudo sufficiet, quia tantum est 
+          ne<lb break="no" ed="#P" n="58"/>cessaria ut sit sufficiens signum voluntatis 
+          le<lb break="no" ed="#P" n="59"/>gislatoris. Et haec est notanda differentia inter
+          <lb ed="#P" n="60"/>hos duos modos consuetudinum : nam 
+          consue<lb break="no" ed="#P" n="61"/>tudo praescripta non inducit legem ut signum
+          <lb ed="#P" n="62"/>novi consensus voluntatis principis, sed ut
+          <lb ed="#P" n="63"/>continens requisita per legem, in qua 
+          volun<lb break="no" ed="#P" n="64"/>tas antiqua principis continetur, et ideo nova
+          <lb ed="#P" n="65"/>ejus scientia non desideratur, nec consideratur
+          <lb ed="#P" n="66"/>potentia habendi istam. Consuetudo autem
+          <lb ed="#P" n="67"/>non praescripta operari tantum potest ut 
+          si<lb break="no" ed="#P" n="68"/>gnum voluntatis, et novi consensus principis,
+          <lb ed="#P" n="69"/>quod minori tempore sufficiens esse potest 
+          res<lb break="no" ed="#P" n="70"/>pectu prineipis scientis ; nam respectu 
+          igno<lb break="no" ed="#P" n="71"/>rantis nunquam potest esse hujusmodi 
+          si<lb break="no" ed="#P" n="72"/>gnum, ut per se notum est.
+        </p>
+        <p xml:id="szdleg-q47771-d1e683">
+          <lb ed="#P" n="73"/>9. Tempus infra decennium indefinitum. —
+          <lb ed="#P" n="74"/>Judicium consuetudinis. — Qua ratione 
+          senten<lb break="no" ed="#P" n="75"/>tia Soti locum habet. —Sed quaeres quantum
+          <lb ed="#P" n="76"/>temporis infra decennium ad hunc effectum
+          <lb ed="#P" n="77"/>sufficiat. Respondeo non posse certa ratione
+          <lb ed="#P" n="78"/>definiri, quia nec jure definitum est, nec 
+          com<lb break="no" ed="#P" n="79"/>mode potuit, quia hoc signum, cum in factis
+          <lb ed="#P" n="80"/>consistat, pendet ex conjecturis, quae non sunt
+          <lb ed="#P" n="81"/>eequales in omnibus consuetudinibus, et ita in
+          <lb ed="#P" n="82"/>quibusdam potest breviori tempore hoc 
+          si<lb break="no" ed="#P" n="83"/>gnum compleri quam in aliis. Nam quaedam
+          <lb ed="#P" n="84"/>sunt consuetudines quae frequentiorem usum
+          <lb ed="#P" n="85"/>habent, et magis communem, magisque 
+          pu<lb break="no" ed="#P" n="86"/>blicum quam aliae, et ita ex illis, caeteris 
+          pari<lb break="no" ed="#P" n="87"/>bus, brevius compleri poterit indicium scientiae
+          <lb ed="#P" n="88"/>in principe, e* consequenter signum taciti 
+          con<lb break="no" ed="#P" n="89"/>sensus per voluntariam tolerantiam. Item ad
+          <lb ed="#P" n="90"/>hoc multum referre potest absentia vel 
+          prae<lb break="no" ed="#P" n="91"/>sentia principis ; nam praesumitur nosse quae
+          <lb ed="#P" n="92"/>fiunt in loco ubi adest, et non quae fiunt ubi
+          <lb ed="#P" n="93"/>absens est, nisi aliae conjecturae accedant. 
+          Prae<lb break="no" ed="#P" n="94"/>terea, in hac consuetudine, et ad hoc 
+          conjec<lb break="no" ed="#P" n="95"/>tandum, locum habere potest consideratio 
+          su<lb break="no" ed="#P" n="96"/>pra tractata de actibus judicialibus. Praesertim
+          <lb ed="#P" n="97"/>vero sententia lata in favorem consuetudinis,
+          <lb ed="#P" n="98"/>si illa proferretur, vel confirmaretur a 
+          supre<lb break="no" ed="#P" n="99"/>mo principe, esset sufficiens signum voluntatis
+          <lb ed="#P" n="100"/>ejus. Imo, etiamsi sciretur data ab inferiori
+          <lb ed="#P" n="101"/>judice, et toleraretur, esset non modicum 
+          si<lb break="no" ed="#P" n="102"/>gnum. Item cujuscumque prudentis judicis sit
+          <lb ed="#P" n="103"/>sententia, per se conciliat auctoritatem 
+          consue<lb break="no" ed="#P" n="104"/>tudini, quia potest esse justa, ex consuetudine
+          <lb ed="#P" n="105"/>non praescripta. Quia cum non requirat certum
+          <lb ed="#P" n="106"/>tempus, sed pendeat ex conjecturis, fieri potest
+          <lb ed="#P" n="107"/>ut ex prudenti et probabiliori judicio detur
+          <lb ed="#P" n="108"/>sententia in favorem consuetudinis, quae, licet
+          <lb ed="#P" n="109"/>praescripta non sit, reputatur sufliciens, quia
+          <lb ed="#P" n="110"/>satis indicat voluntatem principis et populi.
+          <pb ed="#P" n="193"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Unde, quamvis talis sententia simpliciter 
+          ne<lb break="no" ed="#P" n="2"/>cessaria non sit ad suflicientiam talis 
+          consue<lb break="no" ed="#P" n="3"/>tudinis, quia hoc ipsum ad sententiam 
+          suppo<lb break="no" ed="#P" n="4"/>nitur, et per illam declaratur, ut supra in
+          <lb ed="#P" n="5"/>simili argumentabamur, nihilominus, si 
+          ali<lb break="no" ed="#P" n="6"/>quando lata est, multum confirmat 
+          conjectu<lb break="no" ed="#P" n="7"/>ram consuetudinis ; et si multiplicetur, poterit
+          <lb ed="#P" n="8"/>facere moralem certitudinem : nam et per 
+          tes<lb break="no" ed="#P" n="9"/>timonia virorum prudentum multum 
+          confir<lb break="no" ed="#P" n="10"/>mabitur. Denique in hac consuetudine locum
+          <lb ed="#P" n="11"/>habet opinio Soti, et aliorum dicentium 
+          tem<lb break="no" ed="#P" n="12"/>pus hoc determinandum esse prudenti arbitrio,
+          <lb ed="#P" n="13"/>nimirum, quando agitur de conjectanda mente
+          <lb ed="#P" n="14"/>principis et populi. Et ita possunt illi auctores
+          <lb ed="#P" n="15"/>pro hac parte citari; clare enim supponunt
+          <lb ed="#P" n="16"/>consuetudinem non praescriptam posse ad 
+          in<lb break="no" ed="#P" n="17"/>ducendam legem sufficere.
+        </p>
+        <p xml:id="szdleg-q47771-d1e809">
+          <lb ed="#P" n="18"/>10. Dubium. — Debet frequentia actus fieri
+          <lb ed="#P" n="19"/>em intentione inducendi jus. — Unum vero
+          <lb ed="#P" n="20"/>suboritur dubium ex dictis, quia nunquam
+          <lb ed="#P" n="21"/>videtur consuetudo facti esse sufficiens signum
+          <lb ed="#P" n="22"/>voluntatis principis et populi, quia dictum est
+          <lb ed="#P" n="23"/>consuetudinem debere esse ex intentione 
+          in<lb break="no" ed="#P" n="24"/>ducendi consuetudinem juris ; haec autem 
+          in<lb break="no" ed="#P" n="25"/>tentio nunquam potest ex sola frequentia 
+          ac<lb break="no" ed="#P" n="26"/>tuum sufficienter conjectari, nisi expresse 
+          de<lb break="no" ed="#P" n="27"/>claretur, quia sine illa possunt eodem modo
+          <lb ed="#P" n="28"/>actus frequentari. Accedit quod, ut notavi in
+          <lb ed="#P" n="29"/>citato tomo 1 de Relig., licet consuetudo ex
+          <lb ed="#P" n="30"/>devotione incipiat, postea facile mutatur 
+          in<lb break="no" ed="#P" n="31"/>tentio, et fiunt iidem actus ex intentione 
+          obli<lb break="no" ed="#P" n="32"/>gationis, etiamsi in ipsis nulla mutatio 
+          appa<lb break="no" ed="#P" n="33"/>reat. Haec difficultas practica est potius quam
+          <lb ed="#P" n="34"/>speculativa, et locum habet tam in 
+          consuetu<lb break="no" ed="#P" n="35"/>dine praescripta quam in non praescripta; 
+          nun<lb break="no" ed="#P" n="36"/>quam enim praescribitur consuetudo ad 
+          effec<lb break="no" ed="#P" n="37"/>tum inducendi legem, etiamsi per mille annos
+          <lb ed="#P" n="38"/>duret, nisi frequentia actuum facta sit ex 
+          in<lb break="no" ed="#P" n="39"/>tentione inducendi jus. Imo existimo 
+          necessa<lb break="no" ed="#P" n="40"/>rium in toto decennio tali intentione sint facti,
+          <lb ed="#P" n="41"/>quia aliter non possunt concurrere ut signum
+          <lb ed="#P" n="42"/>consensus populi necessarii ad consuetudinem
+          <lb ed="#P" n="43"/>praescriptam. Unde ergo talis intentio 
+          cognos<lb break="no" ed="#P" n="44"/>ci poterit ? :
+        </p>
+        <p xml:id="szdleg-q47771-d1e870">
+          <lb ed="#P" n="45"/>11. Dubitationem hanc attigit Angel., v. 
+          Con<lb break="no" ed="#P" n="46"/>suetudo, n. 4 et 5, et in summa solum dicit id
+          <lb ed="#P" n="47"/>esse conjectandum, vel ex frequentia et 
+          mul<lb break="no" ed="#P" n="48"/>titudine actuum, vel ut sunt publici et notorii,
+          <lb ed="#P" n="49"/>accedente populi consensu. Sed haec et similia
+          <lb ed="#P" n="50"/>non expediunt difficultatem, quia communia
+          <lb ed="#P" n="51"/>esse possunt ad simplicem consuetudinem ex
+          <lb ed="#P" n="52"/>devotione, seu ex mera voluntate libera, et ad
+          <lb ed="#P" n="53"/>intentionem inducendi jus obligans. Eamdem
+          <lb ed="#P" n="54"/>dubitationem proponit Rochus supra, sect. 4,
+          <lb ed="#P" n="55"/>in 7, requisit. consuet., n. 36. et remittit ad
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quaest. 6, post Gloss., quae habetur sect. 9,a
+          <lb ed="#P" n="57"/>n. 10, ubi n. 27 illam iterum distincte 
+          propo<lb break="no" ed="#P" n="58"/>nit, solumque dicit in dubio judicandum esse,
+          <lb ed="#P" n="59"/>unumquemque censeri operari animo 
+          indu<lb break="no" ed="#P" n="60"/>cendi consuetudinem, quando facit actum pro
+          <lb ed="#P" n="61"/>jure suo, id est, credens se jus habere ut in
+          <lb ed="#P" n="62"/>posterum id faciat. Quando autem quis 
+          ope<lb break="no" ed="#P" n="63"/>ratur tanquam utens jure suo, dicit ex natura
+          <lb ed="#P" n="64"/>actuum esse colligendum; ut, si sint actus qui
+          <lb ed="#P" n="65"/>solent fieri ex pura amicitia, ut prandere in
+          <lb ed="#P" n="66"/>domo amici, etiamsi multiplicentur, non 
+          cen<lb break="no" ed="#P" n="67"/>sentur fieri pro jure inducendo : secus vero si
+          <lb ed="#P" n="68"/>sint actus, qui solent jus postulare. Et ad hoc
+          <lb ed="#P" n="69"/>allegat plures doctores. Sed imprimis regula
+          <lb ed="#P" n="70"/>illa, conjectura et exempla magis videntur
+          <lb ed="#P" n="71"/>accommodari ad consuetudinem per quam res
+          <lb ed="#P" n="72"/>praescribuntur, quam ad consuetudinem 
+          lega<lb break="no" ed="#P" n="73"/>lem. Nam ibi utens praesumitur, in dubio, jus
+          <lb ed="#P" n="74"/>suum quaerere, vel exercere, quia hoc illi utile
+          <lb ed="#P" n="75"/>et favorabile est ; at hic cur praesumetur quis
+          <lb ed="#P" n="76"/>in dubio velle inducere jus consuetudinis, quod
+          <lb ed="#P" n="77"/>sibi est onerosum et grave? Item in praesenti
+          <lb ed="#P" n="78"/>materia non potest illa conjectura ex natura
+          <lb ed="#P" n="79"/>actuum sumi; nam iidem actus ex natura sua
+          <lb ed="#P" n="80"/>sunt apti, ut ex devotione seu consilio fiant,
+          <lb ed="#P" n="81"/>vel ex praecepto, ut patet de oblatione sacra in
+          <lb ed="#P" n="82"/>Ecclesia, de jejunio, et observatione diei festi,
+          <lb ed="#P" n="83"/>et similibus.
+        </p>
+        <p xml:id="szdleg-q47771-d1e959">
+          <lb ed="#P" n="84"/>12. Denique idem dubium proponit Petr.
+          <lb ed="#P" n="85"/>Raven., tract. de Consuet., n. 15, et solum
+          <lb ed="#P" n="86"/>respondet, remittendo se ad ea quae de 
+          prae<lb break="no" ed="#P" n="87"/>scriptione jurium incorporalium tradit Innoc.
+          <lb ed="#P" n="88"/>in cap. Ponc, de Postul. Praelat., et aliis locis
+          <lb ed="#P" n="89"/>cum Bart. et aliis. Qui omnes loquuntur de
+          <lb ed="#P" n="90"/>propria praescriptione, in qua multo facilius
+          <lb ed="#P" n="91"/>discernitur an usus sit juris, vel purae 
+          faculta<lb break="no" ed="#P" n="92"/>tis, et ex parte utentis semper praesumitur in
+          <lb ed="#P" n="93"/>dubio intentio habendi jus dominii vel 
+          servi<lb break="no" ed="#P" n="94"/>tutis, aut aliud simile in tali re, quod non ita
+          <lb ed="#P" n="95"/>est in praesenti, propter rationem factam 
+          Deiu<lb break="no" ed="#P" n="96"/>de auctores citati potissime tractant de 
+          proba<lb break="no" ed="#P" n="97"/>tione consuetudinis in foro externo; nos 
+          au<lb break="no" ed="#P" n="98"/>tem tractamus de foro conscientiae, in quo 
+          fa<lb break="no" ed="#P" n="99"/>cile est judicium in praescriptione et usu ejus,
+          <lb ed="#P" n="100"/>quia vel qui praescribit est persona privata, et
+          <lb ed="#P" n="101"/>tunc ipse erit testis suae intentionis; vel est
+          <lb ed="#P" n="102"/>aliqua communitas, et tunc judicium 
+          conscien<lb break="no" ed="#P" n="103"/>tiae non versatur circa communitatem, ut sic,
+          <lb ed="#P" n="104"/>sed circa singulos: singuli autem possunt et
+          <lb ed="#P" n="105"/>debent in conscientia pro communitate 
+          prae<lb break="no" ed="#P" n="106"/>sumere, propter rationem factam. At vero
+          <lb ed="#P" n="107"/>consuetudo semper pendet ex animo totius 
+          po<lb break="no" ed="#P" n="108"/>puli et singuli non tenentur praesumere 
+          ani<lb break="no" ed="#P" n="109"/>mum inducendi praeceptum, quia hoc non est
+          <lb ed="#P" n="110"/>favorabile communitati, sed onerosum.
+        </p>
+        <p xml:id="szdleg-q47771-d1e1020">
+          <pb ed="#P" n="194"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>13. In dubio potius dicendum consuetudinem
+          <lb ed="#P" n="2"/>esse devotionis vel honestatis quam obligationis.
+          <lb ed="#P" n="3"/>— Modus et animus quibus consuetudo inducta
+          <lb ed="#P" n="4"/>est judicio viri prudentis relinquuntur.—Unde
+          <lb ed="#P" n="5"/>dico non esse facue judicare de obligatione
+          <lb ed="#P" n="6"/>praecepti per consuetudinem inducta, et in
+          <lb ed="#P" n="7"/>dubio, ac caeteris paribus, potius esse 
+          inclinan<lb break="no" ed="#P" n="8"/>dum in eam partem, quod consuetudo sit 
+          de<lb break="no" ed="#P" n="9"/>votionis, vel honestatis, et ad melius esse 
+          po<lb break="no" ed="#P" n="10"/>tius quam obligationis : quia generalis est 
+          re<lb break="no" ed="#P" n="11"/>gula, quod in dubio nemo praesumitur velle
+          <lb ed="#P" n="12"/>obligari, ut in materia de Voto dixi. Neque
+          <lb ed="#P" n="13"/>expedit multiplicari praecepta , ubi moraliter
+          <lb ed="#P" n="14"/>certa non sunt, vel saltem probabiliora. 
+          Dein<lb break="no" ed="#P" n="15"/>de, dico judicium de modo consuetudinis, et
+          <lb ed="#P" n="16"/>animo quo introducta est, arbitrio prudentium
+          <lb ed="#P" n="17"/>esse relinquendum, nec certam aliam regulam
+          <lb ed="#P" n="18"/>posse assignari, quia jure definita non est, et
+          <lb ed="#P" n="19"/>ex se res est lubrica et ambigua, ut difficultas
+          <lb ed="#P" n="20"/>proposita ostendit. Ad judicandum autem de
+          <lb ed="#P" n="21"/>animo inducendi consuetudinem, possunt 
+          con<lb break="no" ed="#P" n="22"/>ferre hae conjecturae. Prima, si consuetudo sit
+          <lb ed="#P" n="23"/>longi temporis, et rei gravis ac difficilis, et
+          <lb ed="#P" n="24"/>communiter servatur a populo pro majori
+          <lb ed="#P" n="25"/>parte, quia non solet populus uniformiter 
+          con<lb break="no" ed="#P" n="26"/>venire in hujusmodi actibus, nisi quando ex
+          <lb ed="#P" n="27"/>obligatione sunt, et sic est magnum indicium
+          <lb ed="#P" n="28"/>tunc duci ex cogitatione obligationis, quae 
+          in<lb break="no" ed="#P" n="29"/>ducta jam est, vel inducitur. Secunda, si 
+          pru<lb break="no" ed="#P" n="30"/>dentes viri et timorati male sentiunt de his qui
+          <lb ed="#P" n="31"/>pon servant consuetudinem, vel communiter
+          <lb ed="#P" n="32"/>populus scandalizatur, etiam est grave signum
+          <lb ed="#P" n="33"/>talis animi. Tertia, si Praelati aut gubernatores
+          <lb ed="#P" n="34"/>reipublicae graviter reprehendunt, vel puniunt
+          <lb ed="#P" n="35"/>non servantes consuetudinem, etiam est non
+          <lb ed="#P" n="36"/>leve indicium. Quarta, si materia 
+          consuetudi<lb break="no" ed="#P" n="37"/>nis ex se multum conferat ad utilitatem 
+          reipu<lb break="no" ed="#P" n="38"/>blicae, ita ut obligatio ejus prudenter credatur
+          <lb ed="#P" n="39"/>esse valde expediens commuini bono ejus, in
+          <lb ed="#P" n="40"/>dubio praesumi poterit esse ex animo 
+          intro<lb break="no" ed="#P" n="41"/>ductam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

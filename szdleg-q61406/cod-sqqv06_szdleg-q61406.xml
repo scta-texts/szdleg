@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="244"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q61406"><!-- l8c6 -->
+        <head xml:id="szdleg-q61406-Hd1e101">Caput 6</head>
+        <head xml:id="szdleg-q61406-Hd1e103" type="question-title">De quatuor aliis privilegiorum divisionibus.</head>
+        <p xml:id="szdleg-q61406-d1e106">
+          <lb ed="#P" n="101"/>CAPUT VI.
+          <lb ed="#P" n="102"/>DE QUATUOR ALIIS PRIVILEGIORUM DIVISIONIBUS.
+        </p>
+        <p xml:id="szdleg-q61406-d1e113">
+          <lb ed="#P" n="103"/>1. Privilegium aliud ob bonum privatum ;
+          <lb ed="#P" n="104"/>aliud ob bonum commune. — Uhlra 
+          partitio<lb break="no" ed="#P" n="105"/>nes praedictas, sunt aliae quae, licet brevius
+          <lb ed="#P" n="106"/>expediri possint, necessariam doctrinam 
+          con<lb break="no" ed="#P" n="107"/>tinent. Quinta ergo divisio privilegii esse po-
+          <pb ed="#P" n="245"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>test in illud, quod per se primo datur propter
+          <lb ed="#P" n="2"/>privatum bonum, scilicet, alicujus personae.
+          <lb ed="#P" n="3"/>vel intuitu boni communis. Circa quam 
+          divi<lb break="no" ed="#P" n="4"/>sionem ante omnia oportet terminos explicare,
+          <lb ed="#P" n="5"/>distinguendo materiam privilegii a fine 
+          privi<lb break="no" ed="#P" n="6"/>legu, et intelligendo distinctionem de materia,
+          <lb ed="#P" n="7"/>non de fine. Omne enim privilegium ordinari
+          <lb ed="#P" n="8"/>potest et debet ad commune bonum tanquam
+          <lb ed="#P" n="9"/>ad finem, ut saepe in superioribus dictum est,
+          <lb ed="#P" n="10"/>quia hoc spectat ad justitiam ejus; bono enim
+          <lb ed="#P" n="11"/>communi expedit ut privata privilegia dignis
+          <lb ed="#P" n="12"/>vel indigentibus conferantur. Item quia 
+          privi<lb break="no" ed="#P" n="13"/>legium, licet uni vel alteri concedatur ut 
+          fa<lb break="no" ed="#P" n="14"/>vorem continet, tamen, ut continet praeceptum
+          <lb ed="#P" n="15"/>et habet rationem legis, obligat communitatem
+          <lb ed="#P" n="16"/>respectu privilegiati, utique ad servandum illi
+          <lb ed="#P" n="17"/>privilegium, quatenus hoc ad alios spectare
+          <lb ed="#P" n="18"/>potest ; ergo sub hac ratione respicere aliquo
+          <lb ed="#P" n="19"/>modo debet commune bonum. Tamen in 
+          ma<lb break="no" ed="#P" n="20"/>teria privilegii, ut favorem concedit, potest
+          <lb ed="#P" n="21"/>esse differentia : nam materia privilegii, seu
+          <lb ed="#P" n="22"/>finis proximus ejus est commodum illud quod
+          <lb ed="#P" n="23"/>praebet privilegiato. Hoc ergo commodum 
+          in<lb break="no" ed="#P" n="24"/>terdum est privatae et singularis personae; vel
+          <lb ed="#P" n="25"/>si ad plures extenditur, unamquamque per se
+          <lb ed="#P" n="26"/>respicit ut privatam personam, et non tantum
+          <lb ed="#P" n="27"/>ut partem alicujus communitats, et tunc 
+          di<lb break="no" ed="#P" n="28"/>citur dari propter privatum bonum 
+          singulo<lb break="no" ed="#P" n="29"/>rum. Aliquando vero privilegium per se primo
+          <lb ed="#P" n="30"/>respicit bonum ahcujus communitatis, et ideo
+          <lb ed="#P" n="31"/>dicitur per se primo respicere commune 
+          bo<lb break="no" ed="#P" n="32"/>num. Neque hoc excedit naturam privilegii,
+          <lb ed="#P" n="33"/>quae lex privata est, nam semper illa 
+          commu<lb break="no" ed="#P" n="34"/>nitas cui datur tale privilegium, 
+          considera<lb break="no" ed="#P" n="35"/>tur ut pars quaedam totius reipublicae, et jus
+          <lb ed="#P" n="36"/>illi concessum censetur speciale, et non 
+          com<lb break="no" ed="#P" n="37"/>mune, ideoque per privilegium concedi 
+          po<lb break="no" ed="#P" n="38"/>test.
+        </p>
+        <p xml:id="szdleg-q61406-d1e213">
+          <lb ed="#P" n="39"/>2. Sic ergo explicata divisio recte 
+          constitui<lb break="no" ed="#P" n="40"/>tur. Nam vere dantur illa duo membra : 
+          pri<lb break="no" ed="#P" n="41"/>vata enim privilegia frequentissima sunt, et
+          <lb ed="#P" n="42"/>communia etiam sunt in usu ; nam immunitas
+          <lb ed="#P" n="43"/>clericorum commune privilegium est; item
+          <lb ed="#P" n="44"/>privilegrum canonis et fori, et similia; et ex
+          <lb ed="#P" n="45"/>praedicta diversitate nascuntur diversi effectus
+          <lb ed="#P" n="46"/>morales, et ideo merito datur distinctio. Quam
+          <lb ed="#P" n="47"/>attigit Glossa in cap. 51 dilectum, de Foro
+          <lb ed="#P" n="48"/>compet.. et in leg. Jus publicum, ff. de Pactis,
+          <lb ed="#P" n="49"/>et in Auth. Ut sine prohibitione matres, etc.,
+          <lb ed="#P" n="50"/>verb. Senatusconsultum; estque solemne 
+          dis<lb break="no" ed="#P" n="51"/>crimen inter illa membra, quod priori speciali
+          <lb ed="#P" n="52"/>privilegio potest renuntiare privata persona,
+          <lb ed="#P" n="53"/>in cujus gratiam concessum est; non autem
+          <lb ed="#P" n="54"/>posteriori. Prior pars expressa est in multis
+          <lb ed="#P" n="55"/>juribus, c. Ad Apostolicam, de Hegularib.,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cap. S de terra, de Privil., leg. Si quis, c.
+          <lb ed="#P" n="57"/>de Pactis. Posterior etiam probatur in ^. cap.
+          <lb ed="#P" n="58"/>Si diligenti, et cap. Contingit, de Sentent.
+          <lb ed="#P" n="59"/>excomm., et in leg. Jus publicum, tf. de 
+          Pac<lb break="no" ed="#P" n="60"/>tis, ubi Jason late rem explicat et limitationes
+          <lb ed="#P" n="61"/>adducit. Ratio vero est, quia privatum jus et
+          <lb ed="#P" n="62"/>commodum est sub dominio uniuscujusque, et
+          <lb ed="#P" n="63"/>ideo potest illi cedere, per se loquendo, bonum
+          <lb ed="#P" n="64"/>autem commune non ita pendet ex 
+          uniuscu<lb break="no" ed="#P" n="65"/>jusque voluntate. Atque ita haec doctrina 
+          com<lb break="no" ed="#P" n="66"/>munis est, quam locupletant Panorm. in dicto
+          <lb ed="#P" n="67"/>cap. Si diligenti, n. 1, et latius ibi Felinus
+          <lb ed="#P" n="68"/>per totum, et ibi alii, et in dicta leg. Si quis,
+          <lb ed="#P" n="69"/>ubi praesertim Bartolus, Baldus et Jason.
+        </p>
+        <p xml:id="szdleg-q61406-d1e286">
+          <lb ed="#P" n="70"/>3. Non potest quis renuntiare privilegio dato
+          <lb ed="#P" n="71"/>ob bonum commaune, nisi posset separari suum
+          <lb ed="#P" n="72"/>bonum a communi.—Et guidem, quoad 
+          poste<lb break="no" ed="#P" n="73"/>rius membrum, fere non recipit illa regula 
+          li<lb break="no" ed="#P" n="74"/>mitationem, sed ampliationem, propter 
+          excel<lb break="no" ed="#P" n="75"/>lentiam boni communis; ideoque, licet tale
+          <lb ed="#P" n="76"/>privilegium redundet in commodum 
+          priva<lb break="no" ed="#P" n="77"/>tum, non potest quis illi commodo renuntiare,
+          <lb ed="#P" n="78"/>ne praejudicet bono communi. Quod procedit
+          <lb ed="#P" n="79"/>quando unum non est separabile ab alio, nam
+          <lb ed="#P" n="80"/>si quis posset privare se suo commodo sine
+          <lb ed="#P" n="81"/>praejudicio boni communis, tunc fieri posset,
+          <lb ed="#P" n="82"/>quia cessat impedimentum. Colligi potest ex
+          <lb ed="#P" n="83"/>leg. Si judex, tf. de Minorib. Censetur autem
+          <lb ed="#P" n="84"/>pertinere ad commune bonum, non solum id
+          <lb ed="#P" n="85"/>quod respicit temporalem utilitatem, sed etiam
+          <lb ed="#P" n="86"/>quod pertinet ad bonos mores, et ad 
+          conve<lb break="no" ed="#P" n="87"/>nientem modum operandi, qualis est ut actus
+          <lb ed="#P" n="88"/>cum perfecta libertate fiant. Et ideo addunt
+          <lb ed="#P" n="89"/>praedicti auctores, si ex renuntiatione 
+          privile<lb break="no" ed="#P" n="90"/>gii sequitur occasio aliqua pervertendi bonos
+          <lb ed="#P" n="91"/>mores, non posse renuntiari. Idem est si 
+          pri<lb break="no" ed="#P" n="92"/>vilegium sit datum propter imperfectionem
+          <lb ed="#P" n="93"/>judicii, vel libertatis, ut est de professione
+          <lb ed="#P" n="94"/>ante legitimam aetatem facta, quod non solum
+          <lb ed="#P" n="95"/>nulla sit, verum etiam nullam obligationem
+          <lb ed="#P" n="96"/>inducat, et similia, de quibus videri possunt
+          <lb ed="#P" n="97"/>Gloss. et doctores in dicta l. Si juder, et super
+          <lb ed="#P" n="98"/>alia jura citata.
+        </p>
+        <p xml:id="szdleg-q61406-d1e351">
+          <lb ed="#P" n="99"/>4. Quando non habet locum renuntiatio 
+          pri<lb break="no" ed="#P" n="100"/>vilegii ob bonum particulare concessum .—Circa
+          <lb ed="#P" n="101"/>aliud autem membrum limitationes 
+          adhiben<lb break="no" ed="#P" n="102"/>tur. Nam si privilegium concessum in 
+          priva<lb break="no" ed="#P" n="103"/>tum commodum unius personae respicit etiam
+          <lb ed="#P" n="104"/>commodum alterius , et unum ab altero non
+          <lb ed="#P" n="105"/>est separabile, non potest unus eorum 
+          renun<lb break="no" ed="#P" n="106"/>tiare juri suo sine consensu alterius, ut uxor
+          <lb ed="#P" n="107"/>cui datur privilegium Velleianum ne 
+          oblige<lb break="no" ed="#P" n="108"/>tur fidejussione, non potest illi renuntiare,
+          <lb ed="#P" n="109"/>saltem sine consensu mariti. Idem est si 
+          privi<lb break="no" ed="#P" n="110"/>legium cedens in commodum unius sit princi-
+          <pb ed="#P" n="246"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>paliter introductum in odium alterius, seu in
+          <lb ed="#P" n="2"/>vindicationem delicti; tunc enim non habet
+          <lb ed="#P" n="3"/>locum renuntiatio, ut dicti auctores aiunt,
+          <lb ed="#P" n="4"/>quia non potest privatus impedire principalem
+          <lb ed="#P" n="5"/>finem legis : unde hoc videtur reduci ad prius
+          <lb ed="#P" n="6"/>membrum de bono communi. Caetera de hac
+          <lb ed="#P" n="7"/>renuntiatione videri possunt in dictis 
+          auctori<lb break="no" ed="#P" n="8"/>bus. Unum vero adnotabo traditum a Bartol.,
+          <lb ed="#P" n="9"/>Panormitan. et aliis, dicentibus, posse 
+          homi<lb break="no" ed="#P" n="10"/>nem renuntiare juri gentium, ut dominio rei
+          <lb ed="#P" n="11"/>suae quod jure gentium introductum est, non
+          <lb ed="#P" n="12"/>tamen juri naturali, quia immutabile est. Hoc
+          <lb ed="#P" n="13"/>autem non probo, quia, si loquantur de jure,
+          <lb ed="#P" n="14"/>prout significat legem obligantem, sic nullus
+          <lb ed="#P" n="15"/>potest renuntiare juri gentium magis quam
+          <lb ed="#P" n="16"/>naturali, quia, licet jus gentium non sit ita
+          <lb ed="#P" n="17"/>immutabile, nihilominus respectu privatorum
+          <lb ed="#P" n="18"/>dici potest aeque immutabile, quia non magis
+          <lb ed="#P" n="19"/>potest quis privata auctoritate mutare jus
+          <lb ed="#P" n="20"/>gentium quam naturale. Si autem 
+          loquan<lb break="no" ed="#P" n="21"/>tur de jure, ut dicit dominium seu facultatem
+          <lb ed="#P" n="22"/>utendi, sicut potest homo renuntiare alicui
+          <lb ed="#P" n="23"/>juri acquisito per jus gentium, ita potest 
+          re<lb break="no" ed="#P" n="24"/>nuntiare juri a natura dato, sicut renuntiat
+          <lb ed="#P" n="25"/>homo libertati suae, quae de jure naturae est.
+          <lb ed="#P" n="26"/>Quae constat ex supra tractatis de illis juribus
+          <lb ed="#P" n="27"/>gentium et naturali, ev ideo de utroque 
+          ma<lb break="no" ed="#P" n="28"/>gis videtur probanda distinctio Glossae in 
+          dic<lb break="no" ed="#P" n="29"/>ta authent. Ut sine prohibit. mat., etc., quod
+          <lb ed="#P" n="30"/>juri praecipienti renuntiare nemo potest ; juri
+          <lb ed="#P" n="31"/>autem permittenti unusquisque potest per se
+          <lb ed="#P" n="32"/>loquendo; et sub jure permittente 
+          comprehen<lb break="no" ed="#P" n="33"/>do quidquid per haec jura ita conceditur, ut
+          <lb ed="#P" n="34"/>retineri aut conservari non praecipiatur.
+        </p>
+        <p xml:id="szdleg-q61406-d1e458">
+          <lb ed="#P" n="35"/>5. Privilegium aliud favorabile , odiosum
+          <lb ed="#P" n="36"/>aliud, quod, scilicet, ut alteri est fuvori, est 
+          al<lb break="no" ed="#P" n="37"/>teri incommodo.—Sexto, dividi potest 
+          privile<lb break="no" ed="#P" n="38"/>gium in favorabile et odiosum. Quae divisio 
+          vi<lb break="no" ed="#P" n="39"/>detur, prima facie, contra communem 
+          ratio<lb break="no" ed="#P" n="40"/>nem privilegii ; nam diximus supra de ratione
+          <lb ed="#P" n="41"/>privilegii esse ut speciale illud jus quod 
+          con<lb break="no" ed="#P" n="42"/>cedit, ad favorem spectet, et non ad odium;
+          <lb ed="#P" n="43"/>quomodo ergo potest privilegium in 
+          favora<lb break="no" ed="#P" n="44"/>bile et odiosum distingui ? Sed hoc expedietur
+          <lb ed="#P" n="45"/>facile, si advertamus relationes specie 
+          contra<lb break="no" ed="#P" n="46"/>rias, ut aequale et inaequale, respectu 
+          diverso<lb break="no" ed="#P" n="47"/>rum non esse oppositas. Sic ergo privilegium,
+          <lb ed="#P" n="48"/>si consideretur respectu ejus cui conceditur,
+          <lb ed="#P" n="49"/>favorem continet, et hoc modo supra locuti
+          <lb ed="#P" n="50"/>sumus ; respectu vero alterius tertii potest juri
+          <lb ed="#P" n="51"/>illius praejudicare, et sic esse odiosum. Igitur
+          <lb ed="#P" n="52"/>sensus divisionis est, privilegium quoddam
+          <lb ed="#P" n="53"/>esse favorabile, id est, pure favorabile, quia ita
+          <lb ed="#P" n="54"/>uni prodest ut nemini noceat ; aliud vero dici
+          <lb ed="#P" n="55"/>odiosum, quatenus ex favore uni concesso, al-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>teri sequitur incommodum. Eít ita exponitur
+          <lb ed="#P" n="57"/>divisio a Bald. in leg. ff. de Constit. princip.,
+          <lb ed="#P" n="58"/>n. 8, et sumitur ex Panormitan. in cap. Quia,
+          <lb ed="#P" n="59"/>de Privileg., et cap. Olim, de Verb. signif., et
+          <lb ed="#P" n="60"/>multis quos refert Tiraq. de utroque retract.,
+          <lb ed="#P" n="61"/>in praefat., n. 62. Maxime vero privilegia ad
+          <lb ed="#P" n="62"/>lites solent odiosa vocari, quia favor concessus
+          <lb ed="#P" n="63"/>actori, verbi gratia, premit reum, vel 
+          dimi<lb break="no" ed="#P" n="64"/>nuit judicis potestatem, et praesertim augetur
+          <lb ed="#P" n="65"/>odium, quando videtur privilegium coarctare
+          <lb ed="#P" n="66"/>jus naturale, ut cum datur, verbi gratia, cum
+          <lb ed="#P" n="67"/>clausula de appellatione remota, vel alia 
+          simi<lb break="no" ed="#P" n="68"/>li. item beneficium ambitiosum, quale 
+          reputa<lb break="no" ed="#P" n="69"/>tur beneficiale, odiosum censetur a Gloss. in c.
+          <lb ed="#P" n="70"/>Quoniam, de Praeb., n. 6, et a Pan., supra;
+          <lb ed="#P" n="71"/>tale etiam judicatur privilegium decimarum
+          <lb ed="#P" n="72"/>vel primogeniturae, licet de hoc ultimo res sit
+          <lb ed="#P" n="73"/>dubia. De quo videri potest Tiraq. de Primog.,
+          <lb ed="#P" n="74"/>q. 4; et Sarmi., l. 1 Select., c. 12.
+        </p>
+        <p xml:id="szdleg-q61406-d1e549">
+          <lb ed="#P" n="75"/>6. Dices: ergo erit privilegium, licet 
+          odio<lb break="no" ed="#P" n="76"/>sum, dispositio gravans aliquos, quando illud
+          <lb ed="#P" n="77"/>gravamen cedit in favorem aliorum, ut 
+          statu<lb break="no" ed="#P" n="78"/>tum excludens ducentes originem ex Hebraeis
+          <lb ed="#P" n="79"/>ab aliqua Ecclesia, dicitur privilegium illius
+          <lb ed="#P" n="80"/>Ecclesiae, quia cedit in honorem ejus; nam 
+          h<lb break="no" ed="#P" n="81"/>cet exclusis sit onerosus, non ideo non erit 
+          pri<lb break="no" ed="#P" n="82"/>vilegium, sed erit odiosum. Respondeo in hoc
+          <lb ed="#P" n="83"/>posse esse quaestionem de nomine; tamen, si
+          <lb ed="#P" n="84"/>proprie loquamur, illud ex vi materiae non est
+          <lb ed="#P" n="85"/>privilegium, sed statutum odiosum constituens
+          <lb ed="#P" n="86"/>quamdam irregularitatem vel inhabilitatem,
+          <lb ed="#P" n="87"/>quia ratio dispositionis ex fine primario et
+          <lb ed="#P" n="88"/>quasi intrinseco sumenda est, et inde accipit
+          <lb ed="#P" n="89"/>quasi speciem et nomen, et ideo non est 
+          pro<lb break="no" ed="#P" n="90"/>prie privilegium, quia, ut supra dixi, 
+          privile<lb break="no" ed="#P" n="91"/>gium per se dat favorem, unde non 
+          denomina<lb break="no" ed="#P" n="92"/>tur odiosum, nisi ex effectu per accidens 
+          re<lb break="no" ed="#P" n="93"/>sultante, qui debet supponere favorem. Fateor
+          <lb ed="#P" n="94"/>tamen illud statutum posse dici honorarium et
+          <lb ed="#P" n="95"/>favorabile tali Ecclesiae, quasi per 
+          resultan<lb break="no" ed="#P" n="96"/>tiam, et fortasse ex intenticne operantis.
+        </p>
+        <p xml:id="szdleg-q61406-d1e599">
+          <lb ed="#P" n="97"/>7. Difficultas.—Tunc vero insurgit contra
+          <lb ed="#P" n="98"/>divisionem altera objectio per contrarium 
+          ex<lb break="no" ed="#P" n="99"/>tremum, quia in hoc sensu nullum est 
+          privile<lb break="no" ed="#P" n="100"/>gium favorabile; nam, eo ipso quod nemini
+          <lb ed="#P" n="101"/>praejudicat, etiamsi beneficium conferat, 
+          de<lb break="no" ed="#P" n="102"/>sinit esse privilegium, et manet in communi
+          <lb ed="#P" n="103"/>ratione beneficii, ut testatur Sylvest., verb.
+          <lb ed="#P" n="104"/>Privilegium, in principio; et ibid. Angel. et
+          <lb ed="#P" n="105"/>Tabiens., n. 1, qui in hoc secuti sunt Panorm.
+          <lb ed="#P" n="106"/>in c. Olim, de Verb. signif. in fine. Sed 
+          res<lb break="no" ed="#P" n="107"/>pondemus negando assumptum: sicut enim
+          <lb ed="#P" n="108"/>supra diximus esse posse verum privilegium,
+          <lb ed="#P" n="109"/>scilicet, si juri communi non deroget, ita nunc
+          <lb ed="#P" n="110"/>dicimus non esse de ratione privilegii ut alicui
+          <pb ed="#P" n="247"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>praejudicet ; satis enim est ut alicui favorem
+          <lb ed="#P" n="2"/>extraordinarium conferat. Nam, licet hoc 
+          vi<lb break="no" ed="#P" n="3"/>deatur pertnere ad modum loquendi, tamen
+          <lb ed="#P" n="4"/>ad intelligenda jura et interpretanda privilegia
+          <lb ed="#P" n="5"/>potest conferre, ut postea videbimus. Quod
+          <lb ed="#P" n="6"/>autem id non sit de ratione privilegii, patet,
+          <lb ed="#P" n="7"/>quia nullo jure probatur. Sed potius indicant
+          <lb ed="#P" n="8"/>jura privilegium esse intelligendum sine 
+          prae<lb break="no" ed="#P" n="9"/>judicio tertii, qnoad fieri possit, quando aliud
+          <lb ed="#P" n="10"/>in ipso privilegio non exprimitur, c. Quamvis,
+          <lb ed="#P" n="11"/>de Rescript., in 6.
+        </p>
+        <p xml:id="szdleg-q61406-d1e660">
+          <lb ed="#P" n="12"/>8. Neque etiam id colligitur ex definitione
+          <lb ed="#P" n="13"/>privilegii communiter recepta, nec ex juribus
+          <lb ed="#P" n="14"/>ex quibus illam sumpsimus. Nec etiam ex
+          <lb ed="#P" n="15"/>communi modo loquendi; quin potius multa
+          <lb ed="#P" n="16"/>indulta quae favorem unius sine aliorum 
+          pra<lb break="no" ed="#P" n="17"/>judicio continent, communiter vocantur 
+          pri<lb break="no" ed="#P" n="18"/>vilegia; ut facultas audiendi Missam tempore
+          <lb ed="#P" n="19"/>interdicti, comedendi lacticinia in tempore
+          <lb ed="#P" n="20"/>quadragesimae, laborandi aut piscandi in die
+          <lb ed="#P" n="21"/>festo. Interdum etiam privilegium est 
+          recipro<lb break="no" ed="#P" n="22"/>cum, et commune illi cui posset nocere, et
+          <lb ed="#P" n="23"/>ideo non potest dici nocivum alicui, ut 
+          privi<lb break="no" ed="#P" n="24"/>legium feriandi in litibus temporibus lege
+          <lb ed="#P" n="25"/>praefinitis, vel faciendi testamentum sine juris
+          <lb ed="#P" n="26"/>solemnitate, et multa sunt privilegia quae 
+          se<lb break="no" ed="#P" n="27"/>cundum jus commune intelliguntur, ne alteri
+          <lb ed="#P" n="28"/>noceant, utlate prosequitur Felin. in capit. 1
+          <lb ed="#P" n="29"/>de Constitution., n. 4 et 9. Potest ergo 
+          inve<lb break="no" ed="#P" n="30"/>niri privilegium, nullum alis afferens 
+          praeju<lb break="no" ed="#P" n="31"/>dicium, et hoc est maxime favorabile 
+          privile<lb break="no" ed="#P" n="32"/>gium. Et ita subsistit divisio qua postea 
+          sae<lb break="no" ed="#P" n="33"/>pius utemur circa interpretationem privilegii,
+          <lb ed="#P" n="34"/>et inde magis constabit differentia inter 
+          mem<lb break="no" ed="#P" n="35"/>bra praedicta.
+        </p>
+        <p xml:id="szdleg-q61406-d1e716">
+          <lb ed="#P" n="36"/>9. De privilegio affirmativo et negativo.—
+          <lb ed="#P" n="37"/>Septima divisio esse potest privilegii in 
+          affir<lb break="no" ed="#P" n="38"/>mativum et negativum, quae minoris quidem
+          <lb ed="#P" n="39"/>momenti est, non est tamen omittenda 
+          pro<lb break="no" ed="#P" n="40"/>pter verborum usum. Dicitur enim 
+          affirmati<lb break="no" ed="#P" n="41"/>vum privilegium quod concedit facultatem
+          <lb ed="#P" n="42"/>agendi ; negativum vero quod dat licentiam
+          <lb ed="#P" n="43"/>aliquid omittendi, sicut alibi distinximus 
+          vo<lb break="no" ed="#P" n="44"/>tum in affirmativum et negativum. Nam, licet
+          <lb ed="#P" n="45"/>obligatio voti semper positiva sit, nihilominus
+          <lb ed="#P" n="46"/>ex parte materiae unum dicitur affirmativum,
+          <lb ed="#P" n="47"/>et aliud negativum ; sic ergo omne 
+          privile<lb break="no" ed="#P" n="48"/>gium positive (ut sic dicam) concedit favorem,
+          <lb ed="#P" n="49"/>tamen interdum est ad usum negativum, 
+          in<lb break="no" ed="#P" n="50"/>terdum ad affirmativum, et ideo duplicem 
+          il<lb break="no" ed="#P" n="51"/>lam denominationem recipit, ad instar etiam
+          <lb ed="#P" n="52"/>legis seu praecepti, quod eodem modo 
+          dividi<lb break="no" ed="#P" n="53"/>tur, et cum proportione explicanda est haec
+          <lb ed="#P" n="54"/>partitio. Duplex autem differentia potest 
+          no<lb break="no" ed="#P" n="55"/>tari inter illa duo membra: una est, quod pri-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>vilegium negativum semper est contra legem,
+          <lb ed="#P" n="57"/>affirmativum autem non semper, sed interdum
+          <lb ed="#P" n="58"/>est contra, interdum ultra seu praeter legem,
+          <lb ed="#P" n="59"/>ut supra de privilegio in genere dictum est.
+          <lb ed="#P" n="60"/>Et quando utrumque est contra legem, etiam
+          <lb ed="#P" n="61"/>differunt, quia privilegium negativum est 
+          con<lb break="no" ed="#P" n="62"/>tra praeceptum affirmativum, privilegium 
+          au<lb break="no" ed="#P" n="63"/>tem positivum est contra negativum 
+          praece<lb break="no" ed="#P" n="64"/>ptum.
+        </p>
+        <p xml:id="szdleg-q61406-d1e784">
+          <lb ed="#P" n="65"/>10. Privilegium negativum perdi non potest
+          <lb ed="#P" n="66"/>per non uswm; posse affirmativum sentiunt
+          <lb ed="#P" n="67"/>multi. — Ratio utriusque partis est, quia ad
+          <lb ed="#P" n="68"/>omittendum id quod non est praeceptum, non
+          <lb ed="#P" n="69"/>est necessarium privilegium , quia, ad non
+          <lb ed="#P" n="70"/>operandum, absolute non est necessaria 
+          spe<lb break="no" ed="#P" n="71"/>cialis potestas, sed voluntas sufficit, quia 
+          ser<lb break="no" ed="#P" n="72"/>mo est de omissionibus liberis; nec etiam ad
+          <lb ed="#P" n="73"/>omittendum licite ea quae praecepta non sunt,
+          <lb ed="#P" n="74"/>est necessaria specialis indulgentia, quia ipsa
+          <lb ed="#P" n="75"/>carentia legis praecipientis actum est sufficiens
+          <lb ed="#P" n="76"/>indulgentia : ergo tale privilegium necessario
+          <lb ed="#P" n="77"/>supponit affirmativum praeceptum; sub 
+          prae<lb break="no" ed="#P" n="78"/>cepto autem comprehendo quamcumque 
+          re<lb break="no" ed="#P" n="79"/>gulam quocumque modo obligantem , vel 
+          di<lb break="no" ed="#P" n="80"/>rigentem, ut cum proportione illi respondeat
+          <lb ed="#P" n="81"/>privilegium seu licentia. Comprehendo etiam
+          <lb ed="#P" n="82"/>praeceptum non solum certum, sed etiam 
+          du<lb break="no" ed="#P" n="83"/>bium, vel ita intellectum ut possit scrupulos
+          <lb ed="#P" n="84"/>generare, ut complectat etiam privilegia quae
+          <lb ed="#P" n="85"/>ad tollendos scripulos vel pacandas 
+          conscien<lb break="no" ed="#P" n="86"/>tias coiiceduntur; nam haec etiam negativa
+          <lb ed="#P" n="87"/>esse solent, ut constat. At vero actio positiva
+          <lb ed="#P" n="88"/>aliquando absolute non est in hominis 
+          facul<lb break="no" ed="#P" n="89"/>tate, quia illam valide facere non potest, 
+          ne<lb break="no" ed="#P" n="90"/>que licite, neque illicite, ut sacerdos simplex
+          <lb ed="#P" n="91"/>non potest absolvere sine jurisdictione, nec
+          <lb ed="#P" n="92"/>Presbyter non Episcopus potest confirmare ;
+          <lb ed="#P" n="93"/>aliquando vero, licet actio quoad substantiam
+          <lb ed="#P" n="94"/>sit in hominis facultate, non est illi licita,
+          <lb ed="#P" n="95"/>quod solum contingit quando est prohibita.
+          <lb ed="#P" n="96"/>Hinc ergo fit ut privilegium positivum, quod
+          <lb ed="#P" n="97"/>facultatem aliquam moralem ad agendum
+          <lb ed="#P" n="98"/>concedit, interdum det facultatem licite 
+          ope<lb break="no" ed="#P" n="99"/>randi, et tunc fit contrarium affirmativo 
+          prae<lb break="no" ed="#P" n="100"/>cepto ; aliquando vero dat absolutam 
+          faculta<lb break="no" ed="#P" n="101"/>tem operandi, et tunc esse posset sine 
+          deroga<lb break="no" ed="#P" n="102"/>tione alicujus praecepti per solam 
+          concessio<lb break="no" ed="#P" n="103"/>nem novaefacultatis, quam nullum praeceptum
+          <lb ed="#P" n="104"/>prohibet. Et hinc sequitur altera differentia,
+          <lb ed="#P" n="105"/>quia privilegium negativum perdi non potest
+          <lb ed="#P" n="106"/>per omissionem, seu per non usum, quia ejus
+          <lb ed="#P" n="107"/>usus in omissione consistit, et ideo qui omittit
+          <lb ed="#P" n="108"/>jam utitur privilegio, et ita ex vi omissionis
+          <lb ed="#P" n="109"/>non amittit illud : de affirmativo vero multi
+          <lb ed="#P" n="110"/>sentiunt posse amitti per nun usum. Sed quia
+          <pb ed="#P" n="248"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>id controversum est, in proprio loco infra
+          <lb ed="#P" n="2"/>tractabitur.
+        </p>
+        <p xml:id="szdleg-q61406-d1e895">
+          <lb ed="#P" n="3"/>11. Privilegium aliud datum pro foro 
+          ec<lb break="no" ed="#P" n="4"/>terno, aliud pro interno.—Octavo, notari potest
+          <lb ed="#P" n="5"/>alia divisio privilegii ad praxim utilis. Nam
+          <lb ed="#P" n="6"/>quoddam dicitur dari pro foro cxterno, aliud
+          <lb ed="#P" n="7"/>pro interno, ut constat ex dictis in c. 2, et ex
+          <lb ed="#P" n="8"/>communi usu. Haec autem duo membra ita
+          <lb ed="#P" n="9"/>sunt intelligenda, ut se habeant tanquam 
+          in<lb break="no" ed="#P" n="10"/>cludens et inclusum, non tanquam mutuo se
+          <lb ed="#P" n="11"/>excludentia. Nam privilegium pro interno
+          <lb ed="#P" n="12"/>foro exclusive sumitur, id est, pro illo quod
+          <lb ed="#P" n="13"/>in conscientia habet effectum, in foro autem
+          <lb ed="#P" n="14"/>exteriori nihil operatur; aliud vero, quod in
+          <lb ed="#P" n="15"/>foro exteriori valere dicitur, accumulative (ut
+          <lb ed="#P" n="16"/>sic dicam) accipiendum est, seu non ad 
+          ex<lb break="no" ed="#P" n="17"/>cludendum forum internum, sed ita ut sensus
+          <lb ed="#P" n="18"/>sit, non tantum in interno, sed etiam in 
+          ex<lb break="no" ed="#P" n="19"/>terno operari. Nam in hac materia, 
+          privile<lb break="no" ed="#P" n="20"/>gium quod in foro exteriori valet, etiam in
+          <lb ed="#P" n="21"/>interiori operatur, quia non in praesumptione
+          <lb ed="#P" n="22"/>fundatur hic valor, sed in veritate. Ut autem
+          <lb ed="#P" n="23"/>utrumque membrum mnelius intelligatur ,
+          <lb ed="#P" n="24"/>oportet advertere, duobus modis posse contin -
+          <lb ed="#P" n="25"/>gere ut privilegium valeat in foro interiori et
+          <lb ed="#P" n="26"/>non in exteriori, scilicet, per se et per accidens.
+          <lb ed="#P" n="27"/>Per se appello, quando, ex intentione dantis,
+          <lb ed="#P" n="28"/>cum illa limitatione datur, quae debet ex 
+          ver<lb break="no" ed="#P" n="29"/>bis privilegii constare , alioqui privilegium
+          <lb ed="#P" n="30"/>simpliciter concessum in utroque foro valere
+          <lb ed="#P" n="31"/>censendum est, nisi ex subjecta materia vel
+          <lb ed="#P" n="32"/>circumstantiis, adjuncto usu, aliud sufficienter
+          <lb ed="#P" n="33"/>constet ; per accidens autem contingere dico
+          <lb ed="#P" n="34"/>privilegium non valere in foro exteriori, quia
+          <lb ed="#P" n="35"/>ex solo defectu probationis vel instrumenti
+          <lb ed="#P" n="36"/>non admittitur : hoc enim accidentarium est
+          <lb ed="#P" n="37"/>et extrinsecum, ut constat ex dictis in cap. 2,
+          <lb ed="#P" n="38"/>et ideo non variat qualitatem privilegii 
+          se<lb break="no" ed="#P" n="39"/>cundum se, ideoque divisio proprie 
+          intelligi<lb break="no" ed="#P" n="40"/>tur de privilegio per se limitato ad forum 
+          in<lb break="no" ed="#P" n="41"/>ternum.
+        </p>
+        <p xml:id="szdleg-q61406-d1e982">
+          <lb ed="#P" n="42"/>12. Et hoc modo etiam dicimus non dari
+          <lb ed="#P" n="43"/>privilegrum limitatum ad solum forum 
+          exter<lb break="no" ed="#P" n="44"/>num, utique per se loquendo. Nam per 
+          acci<lb break="no" ed="#P" n="45"/>dens contingere etiam poterit ut aliquod 
+          pri<lb break="no" ed="#P" n="46"/>vilegium quod in conscientia non valet, quia
+          <lb ed="#P" n="47"/>revera habuit substantialem defcctum 
+          subre<lb break="no" ed="#P" n="48"/>ptionis, vel ahud simile, in foro exteriori 
+          va<lb break="no" ed="#P" n="49"/>leat, seu habeat effectum ex defectu 
+          probatio<lb break="no" ed="#P" n="50"/>nis tahs nullitatis. Quanquam si ipso jure sit
+          <lb ed="#P" n="51"/>nullum, revera non sit verum privilegium,
+          <lb ed="#P" n="52"/>etiam quoad forum externum, se tantum 
+          ap<lb break="no" ed="#P" n="53"/>parens, vel praesumptum, quia non probatur
+          <lb ed="#P" n="54"/>contrarium, et ideo quidquid in foro externo,
+          <lb ed="#P" n="55"/>ex vi talis privilegii fit, in conscientia non va-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>let, etiamsi in foro externo non possit 
+          impu<lb break="no" ed="#P" n="57"/>gnari vel irritari. Nos autem loquimur de 
+          pri<lb break="no" ed="#P" n="58"/>vilegio valido ac vero, et sic dicimus illud
+          <lb ed="#P" n="59"/>quod in externo foro admittitur et operatur,
+          <lb ed="#P" n="60"/>etiam in conscientia conferre securitatem,
+          <lb ed="#P" n="61"/>quia quidquid in virtute illius fit, vere ac 
+          so<lb break="no" ed="#P" n="62"/>lide factum est. Neque in hoc invenio 
+          excep<lb break="no" ed="#P" n="63"/>tionem, aut dubitandi rationem, praesertim in
+          <lb ed="#P" n="64"/>privilegiis canonicis, seu pontificiis, quae 
+          ma<lb break="no" ed="#P" n="65"/>gis consulunt conscientiis quam externis 
+          judi<lb break="no" ed="#P" n="66"/>ciis, et quando dantur de rebus pertinentibus
+          <lb ed="#P" n="67"/>ad haec judicia, ita dantur ut securas reddant
+          <lb ed="#P" n="68"/>conscientias in usu eorum, et in actibus per
+          <lb ed="#P" n="69"/>quos dantur. De civilibus autem seu 
+          tempora<lb break="no" ed="#P" n="70"/>libus privilegiis, videri potest interdum 
+          con<lb break="no" ed="#P" n="71"/>cedi solum quoad forum externum, ut si rex
+          <lb ed="#P" n="72"/>det ministro suo licentiam recipiendi impune
+          <lb ed="#P" n="73"/>contra legem vel statuta sui offici, vel 
+          quid<lb break="no" ed="#P" n="74"/>piam simile. Dico tamen hujusmodi privilegia,
+          <lb ed="#P" n="75"/>nisi talia sint et tam justa ut possint in 
+          con<lb break="no" ed="#P" n="76"/>scientia habere effectum honestandi talem 
+          ac<lb break="no" ed="#P" n="77"/>tum, tollendo revera prohibitionem ejus, 
+          ini<lb break="no" ed="#P" n="78"/>qua esse, et fortasse nulla, utpote contraria
+          <lb ed="#P" n="79"/>communi bono; vel certe licet aliqua talia
+          <lb ed="#P" n="80"/>possint cogitari valida, sunt tantum 
+          permis<lb break="no" ed="#P" n="81"/>siones quaedam in exteriori foro in ordine ad
+          <lb ed="#P" n="82"/>poenae remissionem, et ideo non merentur 
+          no<lb break="no" ed="#P" n="83"/>men privilegi.
+        </p>
+        <p xml:id="szdleg-q61406-d1e1078">
+          <lb ed="#P" n="84"/>13. Forum internum conscientie et 
+          pamni<lb break="no" ed="#P" n="85"/>lentie, secundum aliquos, non coincidere. —
+          <lb ed="#P" n="86"/>Ultimo, circa privilegium fori interni oportet
+          <lb ed="#P" n="87"/>advertere interdum forum illud vocari forum
+          <lb ed="#P" n="88"/>conscientiae, interdum vero forum poenitentiae,
+          <lb ed="#P" n="89"/>quae duo (juxta aliquorum opinionem) non
+          <lb ed="#P" n="90"/>convertuntur. Nam forum conscientiae 
+          gene<lb break="no" ed="#P" n="91"/>ralius est, et comprehendit forum poenitentiae:
+          <lb ed="#P" n="92"/>nam illud etiam est quoddam forum 
+          conscien<lb break="no" ed="#P" n="93"/>tiae, latius vero extenditur, quia multi sunt
+          <lb ed="#P" n="94"/>effectus pertinentes ad conscientiam, qui extra
+          <lb ed="#P" n="95"/>sacramentum poenitentiae fieri possunt, sicut
+          <lb ed="#P" n="96"/>est absolutio a censura, vel dispensatio ab
+          <lb ed="#P" n="97"/>irregularitate, vel concessio, aut lucratio 
+          in<lb break="no" ed="#P" n="98"/>dulgentiae, etc.; forum autem poenitentiae est
+          <lb ed="#P" n="99"/>forum sacramentalis judieii poenitentiae, quod
+          <lb ed="#P" n="100"/>magis limitatum est. Unde fit ut privilegia
+          <lb ed="#P" n="101"/>quorum usus conceditur in foro poenitentiae,
+          <lb ed="#P" n="102"/>non scolum tantum valeant pro foro 
+          conscien<lb break="no" ed="#P" n="103"/>tiae, sed etiam exerceri non possint nisi per
+          <lb ed="#P" n="104"/>sacerdotem audientem confessionem et 
+          judi<lb break="no" ed="#P" n="105"/>cantem in foro poenitentia; privilegia vero
+          <lb ed="#P" n="106"/>quae simpliciter conceduntur in foro 
+          conscien<lb break="no" ed="#P" n="107"/>tiae, etiam extra sacramentum poenitentiae, ad
+          <lb ed="#P" n="108"/>securitatem et fructum solius conscientiae 
+          ob<lb break="no" ed="#P" n="109"/>tineri possint, etiam per non sacerdotem,
+          <lb ed="#P" n="110"/>quamdiu per hominis ministerium applicanda
+          <pb ed="#P" n="249"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sunt, ut in absolutione a censura, etc. Ita 
+          sen<lb break="no" ed="#P" n="2"/>tit Emman. Roder., t. 1 quaestionum regul.,
+          <lb ed="#P" n="3"/>quaest. 61, art. 10. Pro qua sententia citat
+          <lb ed="#P" n="4"/>Praepositum in cap. Preterea, 2 de Sponsal.,
+          <lb ed="#P" n="5"/>distinguentem triplex forum, contentiosum,
+          <lb ed="#P" n="6"/>poenitentiale, et medium, scilicet, 
+          conscien<lb break="no" ed="#P" n="7"/>tiae. Citat etiam Ant., Sylv. et Navarr.; sed in
+          <lb ed="#P" n="8"/>his auctoribus nihil reperio quod ad 
+          praedic<lb break="no" ed="#P" n="9"/>tam divisionem pertineat, et non mmmerito
+          <lb ed="#P" n="10"/>possent in contrarium allegari. Nam imprimis
+          <lb ed="#P" n="11"/>Navarr., c. 21, n. A, ubi citatur, soum 
+          dis<lb break="no" ed="#P" n="12"/>tinguit forum conscientia et contentiosum,
+          <lb ed="#P" n="13"/>refertque opinionem dicentium absolutionem
+          <lb ed="#P" n="14"/>ab excommunicatione in foro contentioso 
+          pos<lb break="no" ed="#P" n="15"/>se dari a non sacerdote, in foro autem 
+          con<lb break="no" ed="#P" n="16"/>scientiae solum a sacerdote; et ipse limitat
+          <lb ed="#P" n="17"/>hanc posteriorem partem, dicens esse veram,
+          <lb ed="#P" n="18"/>quando absolutio a censura conjungitur cum
+          <lb ed="#P" n="19"/>absolutione a peccatis : non vero si sola 
+          de<lb break="no" ed="#P" n="20"/>tur, quia sic etiam in foro conscientiae potest
+          <lb ed="#P" n="21"/>dari a non saceraote: de foro autem 
+          poeniten<lb break="no" ed="#P" n="22"/>tiae nihil specialiter dicit, neque aftirmat 
+          so<lb break="no" ed="#P" n="23"/>lam illam absolut ionem, quae est 
+          sacramenta<lb break="no" ed="#P" n="24"/>lis, vel cum sacramentali datur, pertinere ad
+          <lb ed="#P" n="25"/>forum poenitentiae.
+        </p>
+        <p xml:id="szdleg-q61406-d1e1198">
+          <lb ed="#P" n="26"/>14. Forum paenitentiale et contentiosum 
+          quo<lb break="no" ed="#P" n="27"/>modo distinguunt aliqui. — Alii vero auctores
+          <lb ed="#P" n="28"/>longe aliter loquuntur de absolutione ap 
+          ex<lb break="no" ed="#P" n="29"/>communicatione in foro poenitentiae, seu 
+          poe<lb break="no" ed="#P" n="30"/>nitentiali, quod distinguunt ab externo foro
+          <lb ed="#P" n="31"/>seu contentioso ; nam poenitentiale vocant
+          <lb ed="#P" n="32"/>quoties absolutio datur in ordine ad 
+          conscien<lb break="no" ed="#P" n="33"/>tiam ; judiciale, quando datur in ordine ad
+          <lb ed="#P" n="34"/>Ecclesiam. Quia vero absolutio ab 
+          excommu<lb break="no" ed="#P" n="35"/>nicatione etiam in ordine ad conscientiam 
+          du<lb break="no" ed="#P" n="36"/>pliciter dari potest, scilicet, in forma canonis
+          <lb ed="#P" n="37"/>A nobis, 9 de Sentent. excommunic., vel 
+          sim<lb break="no" ed="#P" n="38"/>pliciter, ideo distinguunt illam in solemnem
+          <lb ed="#P" n="39"/>et non solemnem, et priorem aliqui vocant
+          <lb ed="#P" n="40"/>poenitentialem, quasi per aptonomasiam, non
+          <lb ed="#P" n="41"/>quia in sacramento poenitentiae datur; aperte
+          <lb ed="#P" n="42"/>enim dicunt id non esse necessarium, sed quia
+          <lb ed="#P" n="43"/>datur in forma solemnis poenitentiae, et cum
+          <lb ed="#P" n="44"/>Psalmo poenitentiali. Et hoc modo loquitur
+          <lb ed="#P" n="45"/>Rosel. verb. Absolutio, 2, n. 8, in fine, et 
+          af<lb break="no" ed="#P" n="46"/>firmat absolutionem poenitentialem , id est,
+          <lb ed="#P" n="47"/>solemnem a solo sacerdote posse dari, licet
+          <lb ed="#P" n="48"/>possit dari sine sacramento poenitentiae, et
+          <lb ed="#P" n="49"/>ita per forum poenitentiale non intelligit 
+          fo<lb break="no" ed="#P" n="50"/>rum sacramenti poenitentiae, sed forum 
+          so<lb break="no" ed="#P" n="51"/>lemnis poenitentiae, et in re idem tradit 
+          Syl<lb break="no" ed="#P" n="52"/>vest., verb. Absolutio, 1, licet latius sumat
+          <lb ed="#P" n="53"/>forum poenitentiale ut comprehendit 
+          abso<lb break="no" ed="#P" n="54"/>Iutionem solemnem et non solemnem. Unde
+          <lb ed="#P" n="55"/>videtur illud sumere pro foro conscientiae.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Priori etiam modo loquitur aperte de foro 
+          poe<lb break="no" ed="#P" n="57"/>nal Anton., 3 p., tit. 24, c. 11, in fine, ante
+          <lb ed="#P" n="58"/>S L, verb. Absolutio autem, etc. Docet tamen
+          <lb ed="#P" n="59"/>etiam non sacerdotem posse ex commissione
+          <lb ed="#P" n="60"/>absolvere in illo foro poenitentiali a censura,
+          <lb ed="#P" n="61"/>non absolvendo a culpa apud Deum. Et cum
+          <lb ed="#P" n="62"/>illo sentit Tabien. verb. Absolutio, 2, quaest.
+          <lb ed="#P" n="63"/>4, n. T. Ex his ergo potius colligitur, forum
+          <lb ed="#P" n="64"/>poenitentiale non limitari ad judicium 
+          sacra<lb break="no" ed="#P" n="65"/>mentalis poenitentiae, sed extendi ad omne 
+          ju<lb break="no" ed="#P" n="66"/>dicium, quod habere potest effectum suum in
+          <lb ed="#P" n="67"/>foro conscientiae, et exercetur cum forma 
+          ali<lb break="no" ed="#P" n="68"/>qua poenitentiae apud Deum.
+        </p>
+        <p xml:id="szdleg-q61406-d1e1297">
+          <lb ed="#P" n="69"/>15. Licet verba privilegii loquantur de foro
+          <lb ed="#P" n="70"/>panitentie, non sunt limitanda ad judicium
+          <lb ed="#P" n="71"/>sacramentale ponitentiee. — Hinc ergo infero,
+          <lb ed="#P" n="72"/>primo, quod, licet verba privilegii loquantur
+          <lb ed="#P" n="73"/>de foro poenitentiae, non sunt limitanda ad
+          <lb ed="#P" n="74"/>judicium sacramentale poenitentiae,. quia illa
+          <lb ed="#P" n="75"/>restrictio nec in proprietate verborum, nec
+          <lb ed="#P" n="76"/>in communi usu habet fundamentum, neque
+          <lb ed="#P" n="77"/>in re ipsa, quia poenitentia etiam ecclesiastica
+          <lb ed="#P" n="78"/>non est tantum sacramentalis, sed extra 
+          sa<lb break="no" ed="#P" n="79"/>cramentum aliquod judicium poenitentiale
+          <lb ed="#P" n="80"/>exerceri potest. Unde infero, secundo, inter
+          <lb ed="#P" n="81"/>forum conscientiae et poenitentiae solam hanc
+          <lb ed="#P" n="82"/>differentiam constituendam videri, quod 
+          fo<lb break="no" ed="#P" n="83"/>rum conscientiae per se non supponat culpam,
+          <lb ed="#P" n="84"/>nec ordinatur ad remittendum vel 
+          vindican<lb break="no" ed="#P" n="85"/>dum aliquem defectum, vel aliquod vinculum
+          <lb ed="#P" n="86"/>apud Deum ; multa enim conceduntur in foro
+          <lb ed="#P" n="87"/>conscientiae per se, propter bonum vel favorem
+          <lb ed="#P" n="88"/>concedendum, et non propter malum 
+          tollen<lb break="no" ed="#P" n="89"/>dum; forum autem poenitentiae dicitur in 
+          or<lb break="no" ed="#P" n="90"/>dine ad tollendum aliquod vinculum, vel 
+          ma<lb break="no" ed="#P" n="91"/>Ium apud Deum, sive illud tollatur per 
+          pro<lb break="no" ed="#P" n="92"/>prium sacramentum poenitentiae, sive per altos
+          <lb ed="#P" n="93"/>actus ostensivos, aut inflictivos poenitentiae.
+          <lb ed="#P" n="94"/>Haec enim differentia recte fundatur in 
+          pro<lb break="no" ed="#P" n="95"/>prietate verborum et in usu, et omnis alia non
+          <lb ed="#P" n="96"/>videtur habere fundamentum.
+        </p>
+        <p xml:id="szdleg-q61406-d1e1360">
+          <lb ed="#P" n="97"/>16. Privilegium concessum tantum in foro
+          <lb ed="#P" n="98"/>poenitentiae non eatendi ad forum contentiosum,
+          <lb ed="#P" n="99"/>intelligitur per illa verba.—Ex quibus infero,
+          <lb ed="#P" n="100"/>tertio, quando privilegium tantum conceditur
+          <lb ed="#P" n="101"/>in foro poenitentie, per illa verba significari
+          <lb ed="#P" n="102"/>non extendi ad forum contentiosum et 
+          exter<lb break="no" ed="#P" n="103"/>num, sed ad forum conscientiae limitari, quia
+          <lb ed="#P" n="104"/>est communis usus et sensus illorum 
+          verbo<lb break="no" ed="#P" n="105"/>rum. Significatur etiam tale privilegium dari
+          <lb ed="#P" n="106"/>ad tollendum aliquod malum, aut vinculum
+          <lb ed="#P" n="107"/>apud Deum, ut ex dictis patet. An vero illud
+          <lb ed="#P" n="108"/>vinculum per tale privilegium sit tollendum
+          <lb ed="#P" n="109"/>in ipso sacramento poenitentiae, necne, per illa
+          <lb ed="#P" n="110"/>verba non explicatur, sed juxta qualitatem
+          <pb ed="#P" n="250"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vinculi explicandum est. Nam si fuerit 
+          vincu<lb break="no" ed="#P" n="2"/>lum culpae, forum sacramenti requirit ; si 
+          au<lb break="no" ed="#P" n="3"/>tem fuerit vinculum poenae aut censurae, sine
+          <lb ed="#P" n="4"/>sacramento tolli pcterit, imponendo 
+          saluta<lb break="no" ed="#P" n="5"/>rem poenitentiam, quod est exercere aliquod
+          <lb ed="#P" n="6"/>poenitentiale judicium. Unde si indultum 
+          di<lb break="no" ed="#P" n="7"/>cat in foro conscientie, injuncta panatentia
+          <lb ed="#P" n="8"/>salutari (sicut loquitur Concilium 
+          Tridenti<lb break="no" ed="#P" n="9"/>num, sess. 24, cap. 6 de Reformat.), perinde
+          <lb ed="#P" n="10"/>est ac si diceretur in foro poenitentiae, aut 
+          poe<lb break="no" ed="#P" n="11"/>nitentiali. Quapropter censeo usum privilegii
+          <lb ed="#P" n="12"/>non esse limitaudum ad sacramentum 
+          poeni<lb break="no" ed="#P" n="13"/>tentiae, nisi ubi vel absolutio sacramentalis
+          <lb ed="#P" n="14"/>per se fuerit necessaria, ut in privilegio 
+          obti<lb break="no" ed="#P" n="15"/>nendi absolutionem a reservatis, vel ubi verba
+          <lb ed="#P" n="16"/>indulti id manifeste explicaverint. Neque satis
+          <lb ed="#P" n="17"/>erit quod executio indulti committatur 
+          sacer<lb break="no" ed="#P" n="18"/>doti, quia tunc, licet requiratur talis conditio
+          <lb ed="#P" n="19"/>in persona, et quoad illam servanda sit torma
+          <lb ed="#P" n="20"/>indulti, non tamen ideo requiritur quod 
+          mi<lb break="no" ed="#P" n="21"/>nistret actu tale sacramentum ; argumento
+          <lb ed="#P" n="22"/>cap. Canonica, de Sentent. excommunic., in
+          <lb ed="#P" n="23"/>fine, ibi: Qui presiyter esse debet, cum Gloss.
+          <lb ed="#P" n="24"/>ibi. Et est per se manifestum. Imo neque
+          <lb ed="#P" n="25"/>satis erit quod indultum dicat sacerdoti 
+          confes<lb break="no" ed="#P" n="26"/>sori, quia illud etiam est nomen officii et 
+          mu<lb break="no" ed="#P" n="27"/>neris, non actualis exercitii, et ita ex vi 
+          illo<lb break="no" ed="#P" n="28"/>rum verborum requiritur ut persona sit 
+          ap<lb break="no" ed="#P" n="29"/>probata, ita ut eligi possit in confessorem,
+          <lb ed="#P" n="30"/>non vero ut acitu confessionem audiat. Sicut,
+          <lb ed="#P" n="31"/>in illo privilegio Leonis X quod supra refert
+          <lb ed="#P" n="32"/>Emman. ex supplem. conces. 174, quo 
+          con<lb break="no" ed="#P" n="33"/>cessit minoribus, qui audiunt confessiones, ut
+          <lb ed="#P" n="34"/>possint absolvere a censura in foro 
+          conscien<lb break="no" ed="#P" n="35"/>tia sine forma solemni absolutionis ab 
+          ex<lb break="no" ed="#P" n="36"/>communicatione, verbum illud, Qui audiunt,
+          <lb ed="#P" n="37"/>non dicit actum, sed aptitudinem, id est, qui
+          <lb ed="#P" n="38"/>audire solent, vel ad hoc munus expositi sunt,
+          <lb ed="#P" n="39"/>et ita uti possunt illo privilegio etiam extra
+          <lb ed="#P" n="40"/>sacramentum confessionis. Ut ergo 
+          privile<lb break="no" ed="#P" n="41"/>gium limitetur ad sacramentum confessionis,
+          <lb ed="#P" n="42"/>quando materia illud per se non postulat, 
+          ne<lb break="no" ed="#P" n="43"/>cesse est ut expressis verbis et formalibus in eo
+          <lb ed="#P" n="44"/>exprimatur ; quae autem verba sufficiant in
+          <lb ed="#P" n="45"/>singulis bullis, vel indultis, prudenti 
+          considera<lb break="no" ed="#P" n="46"/>tione ex vi verborum, cum antecedentibus et
+          <lb ed="#P" n="47"/>subsequentibus, judicandum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="27"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q06610"><!-- l6c6 -->
+        <head xml:id="szdleg-q06610-Hd1e101">Caput 6</head>
+        <head xml:id="szdleg-q06610-Hd1e103" type="question-title">Utrum interdum cesset obligatio legis in particulari contra verba legis, etiamsi per pbincipem non tollatur.</head>
+        <p xml:id="szdleg-q06610-d1e106">
+          <lb ed="#P" n="38"/>CAPUT VI.
+          <lb ed="#P" n="39"/>UTRUM INTERDUM CESSET OBLIGATIO LEGIS IN
+          <lb ed="#P" n="40"/>PARTICULARI CONTRA VERBA LEGIS, ETIAMSI
+          <lb ed="#P" n="41"/>PER PBINCIPEM NON TOLLATUR.
+        </p>
+        <p xml:id="szdleg-q06610-d1e117">
+          <lb ed="#P" n="42"/>1. Duplex modus mutationis in lege. — Alia
+          <lb ed="#P" n="43"/>divisio mutationis legis. — Hactenus 
+          explicui<lb break="no" ed="#P" n="44"/>mus interpretationem legis humana quoad
+          <lb ed="#P" n="45"/>generalem sensum ejus, quo obligationem 
+          in<lb break="no" ed="#P" n="46"/>ducit; nunc dicendum est de mutationibus quae
+          <lb ed="#P" n="47"/>in ea contingunt, propter quas desinit obligare.
+          <lb ed="#P" n="48"/>Duplex autem modus mutationis potest in lege
+          <lb ed="#P" n="49"/>intelligi , unus veluti ex se et ab intrinseco ex
+          <lb ed="#P" n="50"/>defectu alicujus causae conservantis, vel 
+          alicu<lb break="no" ed="#P" n="51"/>jus conditionis necessariae ad obligationem
+          <lb ed="#P" n="52"/>ejus ; alius modus est ab extrinseco per actio-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>nem superioris agentis, facientis in lege 
+          muta<lb break="no" ed="#P" n="54"/>tionem. Nam sicut lex humana voluntate 
+          in<lb break="no" ed="#P" n="55"/>troducta est, ita per similem voluntatem potest
+          <lb ed="#P" n="56"/>mutari. Unde prior mutatio contingit quando,
+          <lb ed="#P" n="57"/>perseverante eadem principis voluntate, 
+          pro<lb break="no" ed="#P" n="58"/>pter mutationem aliarum rerum lex desinit
+          <lb ed="#P" n="59"/>esse vel obligare: posterior vero e contrario fit
+          <lb ed="#P" n="60"/>quando, stantibus omnibus aliis ad 
+          obligatio<lb break="no" ed="#P" n="61"/>nem legis requisitis, per voluntatem principis
+          <lb ed="#P" n="62"/>lex mutatur ; et prior generaliter dici potest 
+          ces<lb break="no" ed="#P" n="63"/>satio, posterior vero ablatio legis vocari potest.
+          <lb ed="#P" n="64"/>Et utraque mutatio potest dupliciter accidere,
+          <lb ed="#P" n="65"/>scilicet, vel partialiter in aliquo actu, vel 
+          oc<lb break="no" ed="#P" n="66"/>casione, aut tempore, vel persona particulari,
+          <lb ed="#P" n="67"/>perseverante lege in generali : vel totaliter
+          <lb ed="#P" n="68"/>per ablationem totius legis ; et ita quatuor 
+          re<lb break="no" ed="#P" n="69"/>sultant mutationes, scilicet, cessatio legis 
+          par<lb break="no" ed="#P" n="70"/>tialis, quae dici potest exceptio a lege; vel 
+          to<lb break="no" ed="#P" n="71"/>talis, et dicetur absolute et simpliciter 
+          cessa<lb break="no" ed="#P" n="72"/>tio; vel ablatio partialis, quae generalter
+          <lb ed="#P" n="73"/>comprehenditur nomine dispensationis, et 
+          so<lb break="no" ed="#P" n="74"/>let etiam dici derogatio ; et totalis ablatio, quae
+          <lb ed="#P" n="75"/>dicitur revocatio, seu abrogatio legis. De his
+          <lb ed="#P" n="76"/>ergo quatuor mutationum generibus 
+          sigilla<lb break="no" ed="#P" n="77"/>tim dicendum est; et prius de cessatione 
+          par<lb break="no" ed="#P" n="78"/>tiali, deinde de totali, postea vero eodem 
+          or<lb break="no" ed="#P" n="79"/>dine de utraque ablatione.
+        </p>
+        <p xml:id="szdleg-q06610-d1e204">
+          <lb ed="#P" n="80"/>2. Sensus questionis aperitur. —Primum
+          <lb ed="#P" n="81"/>igitur omnium quaeremus an contingat 
+          cessa<lb break="no" ed="#P" n="82"/>tio legis universalis in particulari eventu,
+          <lb ed="#P" n="83"/>etiamsi ab alio non auferatur ejus obligatio.
+          <lb ed="#P" n="84"/>Quae quaestio coincidit cum illa quam sub alio
+          <lb ed="#P" n="85"/>titulo proponit D. Thomas 1.2, q. 96, a. 6, 
+          sci<lb break="no" ed="#P" n="86"/>licet, an liceat subdito interdum contra verba
+          <lb ed="#P" n="87"/>legis agere : constat enim hoc non posse licere
+          <lb ed="#P" n="88"/>durante obligatione legis, quia tunc non 
+          po<lb break="no" ed="#P" n="89"/>test subditus ab ea discordare sua auctoritate,
+          <lb ed="#P" n="90"/>sed ei parere tenetur; ergo si interdum licet,
+          <lb ed="#P" n="91"/>est quia cessat obligatio ejus ; est ergo una et
+          <lb ed="#P" n="92"/>eadem illa quaestio. Et similiter est eadem cum
+          <lb ed="#P" n="93"/>quaestione tractata a D. Thoma 2. 2, q. 120,
+          <lb ed="#P" n="94"/>quando liceat uti epiikia in usu seu executione
+          <lb ed="#P" n="95"/>legum ; ut autem intelligatur sensus 
+          quaestio<lb break="no" ed="#P" n="96"/>nis, et distinguatur ab aliis quae in 
+          superiori<lb break="no" ed="#P" n="97"/>bus capitibus tractata sunt, et non confundatur
+          <lb ed="#P" n="98"/>epiikia cum generali interpretatione legum,
+          <lb ed="#P" n="99"/>adverto aliud esse inquirere de sensu 
+          verbo<lb break="no" ed="#P" n="100"/>rum an universalia sint, et hos vel illos casus
+          <lb ed="#P" n="101"/>comprehendant, seu an in hac vel illa 
+          signifi<lb break="no" ed="#P" n="102"/>catione accipiantur, et hoc pertinet ad 
+          genera<lb break="no" ed="#P" n="103"/>lem doctrinam datam capitibus 
+          praecedenti<lb break="no" ed="#P" n="104"/>bus, et magis ex professo ad jurisprudentiam.
+          <lb ed="#P" n="105"/>Non vero spectat hoc ad epiikiam, quia epikia
+          <lb ed="#P" n="106"/>(ut Aristoteles dixit) est emendatio legis 
+          pro<lb break="no" ed="#P" n="107"/>pter universale : ibi autem non agitur de
+          <pb ed="#P" n="28"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>emendatione legis, sed de ejus sensu; nec 
+          sup<lb break="no" ed="#P" n="2"/>ponitur universaltas legis, sed inquiritur 
+          qua<lb break="no" ed="#P" n="3"/>lis et quanta sit. Aliud ergo est, supposito sensu
+          <lb ed="#P" n="4"/>legis quoad verborum universalitatem, et quod
+          <lb ed="#P" n="5"/>ex vi suae significationis universalis, prout in
+          <lb ed="#P" n="6"/>lege usurpatur, hunc actum comprehendat ; 
+          ni<lb break="no" ed="#P" n="7"/>hilominus in particulari eventu propter 
+          cir<lb break="no" ed="#P" n="8"/>cumstantias occurrentes cesset obligatio legis
+          <lb ed="#P" n="9"/>circa talem actum, quia pro tunc non potuit
+          <lb ed="#P" n="10"/>cadere sub potestatem, vel non cecidit sub 
+          vo<lb break="no" ed="#P" n="11"/>Iuntatem legislatoris, sed ab illa excipitur ; et
+          <lb ed="#P" n="12"/>haec exceptio est emendatio legis quae per 
+          epii<lb break="no" ed="#P" n="13"/>kiam fieri dicitur, et in illo sensu tractatur
+          <lb ed="#P" n="14"/>praesens quaestio.
+        </p>
+        <p xml:id="szdleg-q06610-d1e303">
+          <lb ed="#P" n="15"/>3. Videtur ergo nunquam posse hoc modo
+          <lb ed="#P" n="16"/>cessare obligatio legis universalis in casu 
+          par<lb break="no" ed="#P" n="17"/>ticulari. Primo, quia si id posset accidere,
+          <lb ed="#P" n="18"/>maxime cessante ratione legis in aliquo 
+          parti<lb break="no" ed="#P" n="19"/>culari eventu ; sed tunc etiam non licet: ergo
+          <lb ed="#P" n="20"/>nunquam. Major patet, quia duo tantum sunt
+          <lb ed="#P" n="21"/>in lege, ex quibus tertium, id est, voluntatem
+          <lb ed="#P" n="22"/>legislatoris ac subinde obligationem legis vel
+          <lb ed="#P" n="23"/>ejus cessationem cognoscere valeamus, seilicet,
+          <lb ed="#P" n="24"/>verba et ratio, ut ex hactenus dictis constat ;
+          <lb ed="#P" n="25"/>sed verba de se non cessant in casu de quo
+          <lb ed="#P" n="26"/>tractamus, imo illum comprehendunt, alias
+          <lb ed="#P" n="27"/>non ageretur in illo contra verba legis: ergo
+          <lb ed="#P" n="28"/>solum superest ratio ut, ex ejus cessatione, legis
+          <lb ed="#P" n="29"/>cessatio in particulari oriatur : at hoc verum
+          <lb ed="#P" n="30"/>non est, quia, ut supra dixi, voluntas 
+          legislato<lb break="no" ed="#P" n="31"/>ris potest esse universalior quam ratio ejus,
+          <lb ed="#P" n="32"/>imo interdum quoad nos omnino cessat ratio,
+          <lb ed="#P" n="33"/>quia non cognoscitur, et nihilominus lex suam
+          <lb ed="#P" n="34"/>vim retinet: ergo. Secundo, argumentari 
+          pos<lb break="no" ed="#P" n="35"/>sumus quia alias posset subditus, sua 
+          auctori<lb break="no" ed="#P" n="36"/>tate interpretando legem, illam non servare,
+          <lb ed="#P" n="37"/>quod videtur esse contra legem 1, c. de Legib.,
+          <lb ed="#P" n="38"/>ubi dicitur ad solum principem pertinere 
+          de<lb break="no" ed="#P" n="39"/>clarare an in aliquo casu lex servanda non sit
+          <lb ed="#P" n="40"/>propter aequitatem, unde multi doctores hanc
+          <lb ed="#P" n="41"/>interpretationem dispensationem vocant; ergo
+          <lb ed="#P" n="42"/>sine illa lex nunquam per se cessat. Tertio,
+          <lb ed="#P" n="43"/>argumentor testimonio Glossarum et 
+          jurispe<lb break="no" ed="#P" n="44"/>ritorum qui ita sentire videntur. Nam Glossa,
+          <lb ed="#P" n="45"/>in cap. Post translationem , de Renuntiat.,
+          <lb ed="#P" n="46"/>verb. Cessante, dicit, si jus commune statuitur
+          <lb ed="#P" n="47"/>ex causa, non cessare licet cesset causa, nisi
+          <lb ed="#P" n="48"/>aliunde in ipso jure sit expressum. Idem 
+          sen<lb break="no" ed="#P" n="49"/>tit Glossa in l. Non dubium, c. de Legib., 
+          ver<lb break="no" ed="#P" n="50"/>bo Ampleaus, dicens non licere agere contra
+          <lb ed="#P" n="51"/>verba scripta legis propter mentem 
+          legislato<lb break="no" ed="#P" n="52"/>ris, nisi haec mens in alia lege sit in scriptis
+          <lb ed="#P" n="53"/>redacta, et citat Flacent. pro illa sententia, et
+          <lb ed="#P" n="54"/>l. Prospeait, tf. Qui et a quib., cum aliis 
+          simi<lb break="no" ed="#P" n="55"/>libus; et in eamdem sententiam quamplures
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>refert Tiraq. in tr. Cessante causa, n. 165 et
+          <lb ed="#P" n="57"/>sequentibus.
+        </p>
+        <p xml:id="szdleg-q06610-d1e401">
+          <lb ed="#P" n="58"/>4. Nihilominus res certa est interdum 
+          ces<lb break="no" ed="#P" n="59"/>sare obligationem legis in particulari, etiamsi
+          <lb ed="#P" n="60"/>verba legis illum casum comprehendere 
+          vi<lb break="no" ed="#P" n="61"/>deantur, et in nulla alia lege exceptus sit nec
+          <lb ed="#P" n="62"/>a principe sit in lege dispensatum. Ita docet
+          <lb ed="#P" n="63"/>D. Thomas, d. q. 96, art. 6, et 2. 2, q. 60,
+          <lb ed="#P" n="64"/>art. 5, ad 2, et quaest. 120, per totam; et his
+          <lb ed="#P" n="65"/>locis Cajet. et alii expositores, et Soto, 1. 1 de
+          <lb ed="#P" n="66"/>Just., quaest. 6, art. 8. Idem supponunt 
+          tan<lb break="no" ed="#P" n="67"/>quam manifestum theologi in 3, d. 37; Scot.,
+          <lb ed="#P" n="68"/>Gabr. et alii. Est etiam apud juristas 
+          receptis<lb break="no" ed="#P" n="69"/>simum, ut late refert supra Tiraq. a n. 130.
+          <lb ed="#P" n="70"/>Hanc enim veritatem tanquam evidentem 
+          lu<lb break="no" ed="#P" n="71"/>mine naturae tradit Arist., 5 Ethic., cap. 10,
+          <lb ed="#P" n="72"/>ubi hac ratione inter partes justitiae ponit
+          <lb ed="#P" n="73"/>equitatem, quam definit esse emendationem
+          <lb ed="#P" n="74"/>legis ea ev parte qua deficit propter unwersale.
+          <lb ed="#P" n="75"/>In quibus verbis comprehendit rationem 
+          nos<lb break="no" ed="#P" n="76"/>trae assertionis, quam paulo superius latius
+          <lb ed="#P" n="77"/>explicuerat, dicens necessarium esse ut lex
+          <lb ed="#P" n="78"/>humana interdum desinat obligare in 
+          particu<lb break="no" ed="#P" n="79"/>lari aliquo eventu, quia lex universaliter 
+          fer<lb break="no" ed="#P" n="80"/>tur, et fieri non potest ut universalis 
+          disposi<lb break="no" ed="#P" n="81"/>tio legis humanae in omnibus particularibus
+          <lb ed="#P" n="82"/>ita sit recta quin aliquando deficiat ; quia res
+          <lb ed="#P" n="83"/>humanae circa quas humanae leges versantur,
+          <lb ed="#P" n="84"/>innumeris subsunt mutationibus et casibus
+          <lb ed="#P" n="85"/>contingentibus quos nec legislator humanus
+          <lb ed="#P" n="86"/>semper praevidere potest, nec, si posset, illos
+          <lb ed="#P" n="87"/>omnes posset convenienter in particulari 
+          exci<lb break="no" ed="#P" n="88"/>pere, quia infinitam confusionem et 
+          prolixita<lb break="no" ed="#P" n="89"/>tem in legibus induceret, quod esset multo
+          <lb ed="#P" n="90"/>majus incommodum ; ergo necesse est ut lex
+          <lb ed="#P" n="91"/>humana generaliter lata in aliquibus casibus
+          <lb ed="#P" n="92"/>non obliget propter mutationem rerum in eis
+          <lb ed="#P" n="93"/>contingentem. Neque inde fit, ait Aristoteles,
+          <lb ed="#P" n="94"/>legem non esse rectam, quin potius recta non
+          <lb ed="#P" n="95"/>esset si in talibus casibus obligaret ; et ad ejus
+          <lb ed="#P" n="96"/>rectitudinem sufficit quod acceperit id quod
+          <lb ed="#P" n="97"/>plerumque accidit, ut dicitur etiam ff. de Leg.,
+          <lb ed="#P" n="98"/>l. 3, et seq.: Defectus ergo, ait idem 
+          philoso<lb break="no" ed="#P" n="99"/>phus, non est in lege neque in legislatore, sed
+          <lb ed="#P" n="100"/>in natura, id est, in materia mutabili, nec
+          <lb ed="#P" n="101"/>potuit legislator aut lex totam contingentem
+          <lb ed="#P" n="102"/>mutabilitatem distincte explicare propter 
+          ra<lb break="no" ed="#P" n="103"/>tionem explicatam. Et ideo ex natura rei in
+          <lb ed="#P" n="104"/>lege humana subintelligitur illa conditio, vel
+          <lb ed="#P" n="105"/>exceptio, licet non explicetur distincte, quia
+          <lb ed="#P" n="106"/>alias non esset lex justa et rationabilis. Ergo
+          <lb ed="#P" n="107"/>ex ipsa justitia legis humanae, considerata
+          <lb ed="#P" n="108"/>naturali conditione materiae in qua versatur,
+          <lb ed="#P" n="109"/>sequitur necessario ut ejus obligatio aliquando
+          <lb ed="#P" n="110"/>in particulari cesset, non per extrinsecam abla-
+          <pb ed="#P" n="29"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tionem, sed ex sola materiae seu rerum 
+          muta<lb break="no" ed="#P" n="2"/>tione.
+        </p>
+        <p xml:id="szdleg-q06610-d1e527">
+          <lb ed="#P" n="3"/>5. Epiikia. — Atque propter hanc legum
+          <lb ed="#P" n="4"/>humanarum contingentiam posuit Aristoteles
+          <lb ed="#P" n="5"/>supra specialem virtutem, seu partem justitiae
+          <lb ed="#P" n="6"/>quam epiikiam appellavit, et a multis Latinis
+          <lb ed="#P" n="7"/>vocatur aequitas ; nam, licet haec vox interdum
+          <lb ed="#P" n="8"/>pro justitia, interdum pro animi moderatione,
+          <lb ed="#P" n="9"/>et aliis etiam modis sumatur, tamen aliquando
+          <lb ed="#P" n="10"/>condistinguitur a jure utique scripto et 
+          rigo<lb break="no" ed="#P" n="11"/>roso, ut explicavi supra 1. 1, cap. 2, et sic idem
+          <lb ed="#P" n="12"/>est quod epiikia, vel parum ab illa differt; et
+          <lb ed="#P" n="13"/>ita etiam juristae saepe de aequitate loquuntur,
+          <lb ed="#P" n="14"/>quam Bartolus in l. 1, cod. de Leg. in fine, 
+          con<lb break="no" ed="#P" n="15"/>venientium quamdam, seu benignitatem juris,
+          <lb ed="#P" n="16"/>appellavit. Panor. vero, inc. ult. de Transact.,
+          <lb ed="#P" n="17"/>n. 6, cum Speculatore et Joan. Andr., dicit
+          <lb ed="#P" n="18"/>esse justitiam duicore misericordie 
+          tempera<lb break="no" ed="#P" n="19"/>tam. Est autem considerandum (ut hoc obiter
+          <lb ed="#P" n="20"/>explicemus), in hac aequitate praestanda, 
+          con<lb break="no" ed="#P" n="21"/>currere et judicium intellectus proferentis 
+          sen<lb break="no" ed="#P" n="22"/>tentiam, hic et nunc non obligare legem, 
+          etiam<lb break="no" ed="#P" n="23"/>si universaliter loquatur, et actum voluntatis
+          <lb ed="#P" n="24"/>parentis huic judicio, et operantis contra 
+          ver<lb break="no" ed="#P" n="25"/>ba legis. Uterque ergo in suo ordine est actus
+          <lb ed="#P" n="26"/>virtutis, probabiliterque existimo propter illos
+          <lb ed="#P" n="27"/>non multiplicari virtutes, seu non esse 
+          neces<lb break="no" ed="#P" n="28"/>sarium addere aliquam specialem virtutem.
+          <lb ed="#P" n="29"/>Nam prior actus, si sit in principe seu superiore
+          <lb ed="#P" n="30"/>interpretante legem, erit actus prudentiae 
+          re<lb break="no" ed="#P" n="31"/>galis, vel politicae ; si vero sit in ipsomet 
+          sub<lb break="no" ed="#P" n="32"/>dito, erit judicium communis prudentiae, 
+          prae<lb break="no" ed="#P" n="33"/>supponens regulariter generalia principia juris
+          <lb ed="#P" n="34"/>naturalis vel etiam humani, quatenus ab eis
+          <lb ed="#P" n="35"/>tale judicium in particulari pendet. Quod 
+          judi<lb break="no" ed="#P" n="36"/>cium in omni materia prudentia necessarium
+          <lb ed="#P" n="37"/>est, illudque (ut opinior) Arist., € Ethic., c. 11,
+          <lb ed="#P" n="38"/>sententiam appellavit, graece gnomi. Et in
+          <lb ed="#P" n="39"/>praesenti materia cum proportione invenitur,
+          <lb ed="#P" n="40"/>nec habet specialem difficultatem ve! rationem
+          <lb ed="#P" n="41"/>propter quam proprium habitum postulet, 
+          dis<lb break="no" ed="#P" n="42"/>tinctum ab eo quo in aliis materiis virtutum
+          <lb ed="#P" n="43"/>prudentia sententiam profert. An vero in 
+          qua<lb break="no" ed="#P" n="44"/>cumque prudentia judicium et imperium 
+          per<lb break="no" ed="#P" n="45"/>tineant ad eumdem vel ad diversos habitus,
+          <lb ed="#P" n="46"/>alterius considerationis est.
+        </p>
+        <p xml:id="szdleg-q06610-d1e625">
+          <lb ed="#P" n="47"/>6. Alius vero actus voluntatis qui ex tali
+          <lb ed="#P" n="48"/>judicio sequitur non semper ad unam virtutem
+          <lb ed="#P" n="49"/>pertinet, sed pro materiae capacitate, et motivi
+          <lb ed="#P" n="50"/>seu rationis operandi variari potest. Nam in
+          <lb ed="#P" n="51"/>principe, verbi gratia, ex illo judicio sequi 
+          po<lb break="no" ed="#P" n="52"/>test actus volendi ita interpretari legem, et hic
+          <lb ed="#P" n="53"/>potest pertinere ad justitiam legalem, quia per
+          <lb ed="#P" n="54"/>se ad commune bonum ordinatur. Potest etiam
+          <lb ed="#P" n="55"/>pertinere ad commutativam, si procedat ex
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>motivo non gravandi talem subditum contra
+          <lb ed="#P" n="57"/>aequitatem illi debitam. Et utroque modo 
+          po<lb break="no" ed="#P" n="58"/>test intelligi quod Aristoteles ait, epiikiam esse
+          <lb ed="#P" n="59"/>partem justitiae ; nam in fine capitis concludit
+          <lb ed="#P" n="60"/>esse justitiam et non alium quemquam 
+          habi<lb break="no" ed="#P" n="61"/>tum. Quod autem ibi praefert aequum justo 
+          le<lb break="no" ed="#P" n="62"/>gali, respective intelligendum est; intelligit
+          <lb ed="#P" n="63"/>enim per justum legale illud quod consistit in
+          <lb ed="#P" n="64"/>observatione vel impositione legis, et respectu
+          <lb ed="#P" n="65"/>illius praefertur in particulari casu id quod in
+          <lb ed="#P" n="66"/>illo aequum judicatur, quia in illo vel nimis
+          <lb ed="#P" n="67"/>rigorosum vel injustum esset obligationem 
+          le<lb break="no" ed="#P" n="68"/>gis imponere. Absolute vero non est minus
+          <lb ed="#P" n="69"/>justum, legem justam ferre absolute, quam
+          <lb ed="#P" n="70"/>excusationem ejus per epiikiam admittere. Imo
+          <lb ed="#P" n="71"/>illud majorem prudentiam requirit et 
+          univer<lb break="no" ed="#P" n="72"/>saliorem justitiam. At vero in subdito non 
+          po<lb break="no" ed="#P" n="73"/>test sequi ex illo actu intellectus proprius 
+          ac<lb break="no" ed="#P" n="74"/>tus justitiae in voluntate, quia non est 
+          neces<lb break="no" ed="#P" n="75"/>sarium ut ex carentia obligationis unius legis
+          <lb ed="#P" n="76"/>sequatur actus justitiae, sed sequi potest actus
+          <lb ed="#P" n="77"/>temperantiae, ut si per epiikiam quis comedat
+          <lb ed="#P" n="78"/>carnes in die jejunii, vel quid simile. Si autem
+          <lb ed="#P" n="79"/>epiikia versetur in materia justitiae, tunc actus
+          <lb ed="#P" n="80"/>ille poterit pertinere ad materiam justitiae, ut
+          <lb ed="#P" n="81"/>per se constat. Et in universum poterit ille
+          <lb ed="#P" n="82"/>actus deservire generali justitiae, et ex motivo
+          <lb ed="#P" n="83"/>illus fieri, si quis secundum epiikiam operetur
+          <lb ed="#P" n="84"/>quia per hoc non recedit a mente principis, nec
+          <lb ed="#P" n="85"/>ab eo quod aequum est : quomodo etiam 
+          obe<lb break="no" ed="#P" n="86"/>dientia potest ibi intercedere, vel operando
+          <lb ed="#P" n="87"/>secundum tacitam voluntatem superioris, vel
+          <lb ed="#P" n="88"/>saltem ita operando, quia tunc obedientia 
+          le<lb break="no" ed="#P" n="89"/>gis non laeditur, et alia honesta ratio operandi
+          <lb ed="#P" n="90"/>occurrit.
+        </p>
+        <p xml:id="szdleg-q06610-d1e725">
+          <lb ed="#P" n="91"/>1. Epiikia tam in praeceptis affirmativis
+          <lb ed="#P" n="92"/>quam negativis locum habet. — Sed quaeret 
+          ali<lb break="no" ed="#P" n="93"/>quis an haec excusatio seu cessatio obligationis
+          <lb ed="#P" n="94"/>et epiikia habeat locum in praeceptis tantum 
+          ne<lb break="no" ed="#P" n="95"/>gativis, vel etiam in affirmativis. Nam de 
+          ne<lb break="no" ed="#P" n="96"/>gativis non potest esse dubium, quia cum 
+          obli<lb break="no" ed="#P" n="97"/>gent semper et pro semper, in eis est maxime
+          <lb ed="#P" n="98"/>necessaria haec excusatio, et potest facile 
+          accide<lb break="no" ed="#P" n="99"/>re occasio non servandi praeceptum in tempore
+          <lb ed="#P" n="100"/>pro quo obligat, et ita propriissime erit 
+          excusa<lb break="no" ed="#P" n="101"/>tio, seu cessatio obligationis. At vero praecepta
+          <lb ed="#P" n="102"/>affirmativa non obligant pro semper, sed pro
+          <lb ed="#P" n="103"/>opportuno tempore; et ideo, licet pro aliquo
+          <lb ed="#P" n="104"/>tempore occurrat occasio in quo exequendum
+          <lb ed="#P" n="105"/>non sit affirmativum praeceptum, non erit vera
+          <lb ed="#P" n="106"/>excusatio ab obligatione praecepti, nec cessatio
+          <lb ed="#P" n="107"/>obligationis ejus, cum ipsum non obliget pro
+          <lb ed="#P" n="108"/>singulis temporibus ; sed dicetur potius dilatio
+          <lb ed="#P" n="109"/>obligationis, quia nondum occurrit occasio pro
+          <lb ed="#P" n="110"/>qua tale praeceptum obligat. Nihilominus ta-
+          <pb ed="#P" n="30"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>men aeque solet epiikia attribui praeceptis 
+          affir<lb break="no" ed="#P" n="2"/>mativis ac negativis, quod recte explicatum
+          <lb ed="#P" n="3"/>verum quidem est. Videtur autem mihi id 
+          pro<lb break="no" ed="#P" n="4"/>prius dici (nisi sit quaestio de modo loquendi)
+          <lb ed="#P" n="5"/>in praeceptis affirmativis quae babent certum
+          <lb ed="#P" n="6"/>tempus designatum pro quo impleri debent:
+          <lb ed="#P" n="7"/>nam si in eodem tempore veniat non cogitatum
+          <lb ed="#P" n="8"/>impedimentum, habet locum propriissime 
+          epii<lb break="no" ed="#P" n="9"/>kia. Idemque erit in quibusdam praeceptis 
+          af<lb break="no" ed="#P" n="10"/>firmativis quae, propter negationem quam 
+          in<lb break="no" ed="#P" n="11"/>volvunt vel in qua fundantur, obligant pro
+          <lb ed="#P" n="12"/>semper seu ad statim moraliter, ut est 
+          prae<lb break="no" ed="#P" n="13"/>ceptum restituendi et similia. In his enim 
+          quae<lb break="no" ed="#P" n="14"/>libet dilatio per occasionem justam dici potest
+          <lb ed="#P" n="15"/>excusatio et epiikia. Quando autem praeceptum
+          <lb ed="#P" n="16"/>affirmativum nec pro statim obligat, nec pro
+          <lb ed="#P" n="17"/>certo tempore, sed arbitrario, tunc non 
+          vide<lb break="no" ed="#P" n="18"/>tur in illa habere proprie locum excusatio vel
+          <lb ed="#P" n="19"/>epiikia, propter argumentum factum, quamvis
+          <lb ed="#P" n="20"/>lato modo interdum appelletur.
+        </p>
+        <p xml:id="szdleg-q06610-d1e819">
+          <lb ed="#P" n="21"/>Superest ad rationes in principio positas
+          <lb ed="#P" n="22"/>respondere; pendent autem ex quibusdam 
+          du<lb break="no" ed="#P" n="23"/>biis quae in capitibus sequentibus commodius
+          <lb ed="#P" n="24"/>expedientur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 24</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 24</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="320"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q80458"><!-- l8c24 -->
+        <head xml:id="szdleg-q80458-Hd1e101">Caput 24</head>
+        <head xml:id="szdleg-q80458-Hd1e103" type="question-title">Utrum ad privilegium, ut lex est, et ad effectus ejus, sit necessaria promulgatio, vel quae notitia sufficiat.</head>
+        <p xml:id="szdleg-q80458-d1e106">
+          <pb ed="#P" n="320"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT XXIV.
+          <lb ed="#P" n="2"/>UTRUM AD PRIVILEGIUM, UT LEX EST, ET AD 
+          EF<lb break="no" ed="#P" n="3"/>FECTUS EJUS, SIT NECESSARIA PROMULGATIO,
+          <lb ed="#P" n="4"/>VEL QUAE NOTITIA SUFFICIAT.
+        </p>
+        <p xml:id="szdleg-q80458-d1e122">
+          <lb ed="#P" n="5"/>1. Ratio dubitandi. — Explicata virtute
+          <lb ed="#P" n="6"/>agendi privilegii, oportet duas circumstantias
+          <lb ed="#P" n="7"/>ad operandum necessarias exponere, scilicet,
+          <lb ed="#P" n="8"/>tempus et locum, et de hac posteriori dicemus
+          <lb ed="#P" n="9"/>in seq. cap., de priori in praesenti. Solet autem
+          <lb ed="#P" n="10"/>lex exercere vim suam a tempore 
+          promulga<lb break="no" ed="#P" n="11"/>tionis consummatae, et non antea, et praeterea
+          <lb ed="#P" n="12"/>requirit notitiam, vel saltem carentiam 
+          invin<lb break="no" ed="#P" n="13"/>cibilis ignorantiae, ut cum effectu obliget, et
+          <lb ed="#P" n="14"/>ideo simul declarandum erit quomodo haec ad
+          <lb ed="#P" n="15"/>effectum privilegii requirantur; hac enim de
+          <lb ed="#P" n="16"/>causa (ut supra dixi) disputationem de 
+          pro<lb break="no" ed="#P" n="17"/>mulgatione, quae ad formam pertinere 
+          vide<lb break="no" ed="#P" n="18"/>batur, in hunc locum reservavi. Quia vero
+          <lb ed="#P" n="19"/>multa in titulo comprehenduntur, quae 
+          indis<lb break="no" ed="#P" n="20"/>tincte tractari solent, ideo erit operae pretium
+          <lb ed="#P" n="21"/>distinguere duplicem illam rationem , quam
+          <lb ed="#P" n="22"/>in privilegio saepe distinximus, scilicet, 
+          spe<lb break="no" ed="#P" n="23"/>cialis concessionis et legis, priusque dicemus
+          <lb ed="#P" n="24"/>de illo ut lex est, quoniam promulgatio ad 
+          le<lb break="no" ed="#P" n="25"/>gem, ut lex est, requiritur. Ex hoc ergo capite
+          <lb ed="#P" n="26"/>videri potest necessaria promulgatio ad 
+          per<lb break="no" ed="#P" n="27"/>fectam constitutionem privilegii, et ad 
+          effec<lb break="no" ed="#P" n="28"/>tum ejus ; quia privilegium est quaedam lex;
+          <lb ed="#P" n="29"/>sed promulgatio est necessaria ad legis 
+          consti<lb break="no" ed="#P" n="30"/>tutionem, ita ut ante illam nondum sit vera
+          <lb ed="#P" n="31"/>lex; at lex non potest operari antequam sit;
+          <lb ed="#P" n="32"/>ergo nec privilegium. Dices privilegium, 
+          qua<lb break="no" ed="#P" n="33"/>tenus lex est, non operari, id est, non obligare
+          <lb ed="#P" n="34"/>ante promulgationem, operari tamen, ut 
+          pri<lb break="no" ed="#P" n="35"/>vilegium, id est, favorem concedendo. Sed
+          <lb ed="#P" n="36"/>contra, quia privilegium non est prius 
+          privi<lb break="no" ed="#P" n="37"/>legium quam sit lex; tum quia de intrinseca
+          <lb ed="#P" n="38"/>ratione privilegii et quasi genus ejus est, quod
+          <lb ed="#P" n="39"/>sit lex : tum etiam quia non potest 
+          privile<lb break="no" ed="#P" n="40"/>gium uni concedere beneficium, quin obliget
+          <lb ed="#P" n="41"/>alios ad servandum privilegiario jus per 
+          pri<lb break="no" ed="#P" n="42"/>vilegium acquisitum.
+        </p>
+        <p xml:id="szdleg-q80458-d1e207">
+          <lb ed="#P" n="43"/>2. Obviatur.—In contrarium vero est, quia
+          <lb ed="#P" n="44"/>privilegium est lex tantum secundum quid,
+          <lb ed="#P" n="45"/>scilicet, lex privata, et ideo non est eadem 
+          ne<lb break="no" ed="#P" n="46"/>cessitas promulgationis in illo qua in lege
+          <lb ed="#P" n="47"/>communi et propria esse solet. Nam lex 
+          ge<lb break="no" ed="#P" n="48"/>neralis loquitur ad communitatem, et ideo per
+          <lb ed="#P" n="49"/>se requirit publicam notitiam, et propter banc
+          <lb ed="#P" n="50"/>necessaria est promulgatio. Haec autem 
+          neces<lb break="no" ed="#P" n="51"/>sitas cessat in lege privata, ut constat. 
+          Confir<lb break="no" ed="#P" n="52"/>matur ac declaratur, quia aliud est loqui de
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>notitia, aliud de promulgatione ; haec enim
+          <lb ed="#P" n="54"/>duo diversa sunt; nam potest ignorari lex
+          <lb ed="#P" n="55"/>promulgata, et sciri non promulgata. In 
+          pri<lb break="no" ed="#P" n="56"/>vilegio ergo necessaria esse poterit notitia, ut
+          <lb ed="#P" n="57"/>vim legis exerceat, obligando; illa vero 
+          suffi<lb break="no" ed="#P" n="58"/>ciet, etiamsi non praecesserit promulgatio, quia
+          <lb ed="#P" n="59"/>cum privilegium sit lex privata, sufficiet 
+          pri<lb break="no" ed="#P" n="60"/>vatim intimari illis qui virtute illius 
+          obli<lb break="no" ed="#P" n="61"/>gandi sunt, alii vero ignorantes non 
+          obliga<lb break="no" ed="#P" n="62"/>buntur, ratione ignorantiae, vel quia forte ad
+          <lb ed="#P" n="63"/>illos non dirigitur obligatio privilegii.
+        </p>
+        <p xml:id="szdleg-q80458-d1e258">
+          <lb ed="#P" n="64"/>3. In hoc puncto distinguere possumns 
+          du<lb break="no" ed="#P" n="65"/>plicia privilegia. Quaedam enim feruntur per
+          <lb ed="#P" n="66"/>universales leges, quarum exempla sumi 
+          pos<lb break="no" ed="#P" n="67"/>sunt ex c. Si quis suadente, Clement. Dudum,
+          <lb ed="#P" n="68"/>de Sepult. , Clement. unic. de Bapt., Clement.
+          <lb ed="#P" n="69"/>Dignum, de Celebr. Missar., Clement. 
+          Ar<lb break="no" ed="#P" n="70"/>chiepiscopo, de Priv. Alia vero sunt privilegia
+          <lb ed="#P" n="71"/>quae privatim conceduntur , per particularia
+          <lb ed="#P" n="72"/>indulta vel rescripta concessa particularibus
+          <lb ed="#P" n="73"/>personis, vel communitatibus, vel 
+          religioni<lb break="no" ed="#P" n="74"/>bus, universitatibus, vel etiam hospitalibus,
+          <lb ed="#P" n="75"/>in quibus prius solent poni concessiones, et
+          <lb ed="#P" n="76"/>postea adjungi praecepta, vel prohibitiones sub
+          <lb ed="#P" n="77"/>censuris, ut nemo talia indulta impediat, etc.
+          <lb ed="#P" n="78"/>In prioribus privilegiis affirmant doctores 
+          ne<lb break="no" ed="#P" n="79"/>cessariam esse promulgationem ; de 
+          posterio<lb break="no" ed="#P" n="80"/>ribus autem negant. Hanc distinctionem 
+          insi<lb break="no" ed="#P" n="81"/>nuat Fel. in c. Cognoscentes, de Const., n. T,
+          <lb ed="#P" n="82"/>limit. 3; licet enim primum membrum non
+          <lb ed="#P" n="83"/>ita clare exprimat sicut secundum, utrumque
+          <lb ed="#P" n="84"/>tamen intendit, ut ex discursu et ratione ejus
+          <lb ed="#P" n="85"/>constat. Et in eam sententiam citat Baldum et
+          <lb ed="#P" n="86"/>alios ; loquitur tamen indistincte de 
+          privile<lb break="no" ed="#P" n="87"/>gus, ut favores sunt, vel ut sunt leges. Clarius
+          <lb ed="#P" n="88"/>iradit distinctionem illam Glos. in Proem.
+          <lb ed="#P" n="89"/>Clement., verb. De cetero, et utrumque 
+          mem<lb break="no" ed="#P" n="90"/>brum amplectitur, estque sententia valde 
+          pro<lb break="no" ed="#P" n="91"/>babilis, si recte explicetur.
+        </p>
+        <p xml:id="szdleg-q80458-d1e321">
+          <lb ed="#P" n="92"/>4. Primum ergo membrum, de legibus
+          <lb ed="#P" n="93"/>communibus tribuentibus privilegia, 
+          proba<lb break="no" ed="#P" n="94"/>tur optime ex l. pen., c. de Decuri., 1. 10,
+          <lb ed="#P" n="95"/>in fin., ibi: Za die quo promulgata est. hatio
+          <lb ed="#P" n="96"/>vero est, quia ante promulgationem non 
+          ha<lb break="no" ed="#P" n="97"/>bent vim legis; ergo ante promulgationem
+          <lb ed="#P" n="98"/>nullam vim obligandi habere possunt, sive
+          <lb ed="#P" n="99"/>ad effectum privilegii, sive ad quemcumque
+          <lb ed="#P" n="100"/>alium. Confirmatur, quia in talibus legibus
+          <lb ed="#P" n="101"/>vel privilegium inseritur tanquam accessoc
+          <lb ed="#P" n="102"/>rium principali, vel ponitur ut principalis 
+          ef<lb break="no" ed="#P" n="103"/>fectus ipsius legis, propter quem 
+          stabilien<lb break="no" ed="#P" n="104"/>dum lex fertur. Si priori modo contineatur
+          <lb ed="#P" n="105"/>privilegium in lege, necesse est ut tanquam
+          <lb ed="#P" n="106"/>accessorium sequatur naturam principalis, et
+          <lb ed="#P" n="107"/>consequenter, sicut lex requirit promulgatio-
+          <pb ed="#P" n="321"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nem, ita etiam privilegium, quod est 
+          accesso<lb break="no" ed="#P" n="2"/>rium illius; ergo nondum constituto 
+          sufficien<lb break="no" ed="#P" n="3"/>ter principali, non poterit esse vel obligare
+          <lb ed="#P" n="4"/>accessorium. Exemplum sumi potest ab 
+          in<lb break="no" ed="#P" n="5"/>dulgentiarum concessione, in quibus habet
+          <lb ed="#P" n="6"/>etiam locum distinctio data ; nam 
+          frequen<lb break="no" ed="#P" n="7"/>tius quidem conceduntur privatim, aliquando
+          <lb ed="#P" n="8"/>vero dantur per legem publicam, seu 
+          com<lb break="no" ed="#P" n="9"/>mune jus, ut patet ex Extravag. 1, de Reliq.
+          <lb ed="#P" n="10"/>et vener. Sanct., inter communes, cum 
+          simi<lb break="no" ed="#P" n="11"/>libus. Quando ergo hoc posteriori modo 
+          dan<lb break="no" ed="#P" n="12"/>tur, non possunt habere efficaciam, donec lex
+          <lb ed="#P" n="13"/>ipsa promulgata sufficienter sit, propter 
+          ratio<lb break="no" ed="#P" n="14"/>nes factas; idem ergo est in praesenti. Et
+          <lb ed="#P" n="15"/>licet hoc exemplum principaliter videatur 
+          pro<lb break="no" ed="#P" n="16"/>cedere de privilegio, ut privilegium est, 
+          ni<lb break="no" ed="#P" n="17"/>hilominus inde a fortiori sequitur idem esse
+          <lb ed="#P" n="18"/>de illo dicendum, ut lex est. Nam si tale 
+          pri<lb break="no" ed="#P" n="19"/>vilegium in ratione privilegii non est efficax,
+          <lb ed="#P" n="20"/>imo nec subsistit apnte promulgationem, multo
+          <lb ed="#P" n="21"/>minus poterit obligare: et inde facile 
+          proba<lb break="no" ed="#P" n="22"/>tur aliud membrum, ubi lex tota 
+          principa<lb break="no" ed="#P" n="23"/>liter tendit ad constituendum privilegium, et
+          <lb ed="#P" n="24"/>illud habet quasi pro objecto et fine, ut 
+          vi<lb break="no" ed="#P" n="25"/>dere licet in canone S quis suadente, et in
+          <lb ed="#P" n="26"/>Clementinis allegatis ; tunc enim lex nondum
+          <lb ed="#P" n="27"/>promulgata non potest efficere suum 
+          princi<lb break="no" ed="#P" n="28"/>palem effectum ; ergo non potest obligare ad
+          <lb ed="#P" n="29"/>privilegium observandum, quia nondum 
+          suf<lb break="no" ed="#P" n="30"/>ficienter constitutum est.
+        </p>
+        <p xml:id="szdleg-q80458-d1e428">
+          <lb ed="#P" n="31"/>5. Privilegiatum non posse obligari ad 
+          ali<lb break="no" ed="#P" n="32"/>quid ratione privilegii, ante ejus 
+          promulga<lb break="no" ed="#P" n="33"/>tionem. — Ex quo obiter infero ipsum 
+          privi<lb break="no" ed="#P" n="34"/>legiatum non posse obligari ad aliquid 
+          ra<lb break="no" ed="#P" n="35"/>tione vel occasione sui privilegii ante 
+          pro<lb break="no" ed="#P" n="36"/>mulgationem privilegii, vel legis ex qua 
+          nasci<lb break="no" ed="#P" n="37"/>tur talis obligatio. Explicatur ex supra dictis ;
+          <lb ed="#P" n="38"/>nam vel illa oblgatio nascitur ex privilegio
+          <lb ed="#P" n="39"/>privato, seu in particularem commoditatem
+          <lb ed="#P" n="40"/>principaliter concesso, et tunc non est ipsum
+          <lb ed="#P" n="41"/>privilegium per se causa obligationis, sed per
+          <lb ed="#P" n="42"/>accidens, quasi removens, prohibens, et ideo
+          <lb ed="#P" n="43"/>in ipso privilegio non est necessaria 
+          promul<lb break="no" ed="#P" n="44"/>gatio, sed notitia, ut infra dicetur ; tamen in
+          <lb ed="#P" n="45"/>lege per se obligante necessario supponenda
+          <lb ed="#P" n="46"/>est promulgatio, ut per se constat. Vel 
+          obh<lb break="no" ed="#P" n="47"/>gatio nascitur ex privilegio concesso 
+          commu<lb break="no" ed="#P" n="48"/>nitati, principaliter intuitu illus, licet 
+          sin<lb break="no" ed="#P" n="49"/>gulis membris prosit; et tunc in tali 
+          privile<lb break="no" ed="#P" n="50"/>gio includitur necessario lex generalis 
+          obli<lb break="no" ed="#P" n="51"/>gans totam communitatem, et ideo necesse
+          <lb ed="#P" n="52"/>est ut respective sit sufficienter promulgata,
+          <lb ed="#P" n="53"/>et in ratione communis legis proposita, ut
+          <lb ed="#P" n="54"/>possit singulos de communitate obligare ad
+          <lb ed="#P" n="55"/>servandum, seu non violandum privilegium:
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ergo respectu privilegiarii, ut obligari possit
+          <lb ed="#P" n="57"/>privilegio, praesupponi debet promulgatio 
+          suf<lb break="no" ed="#P" n="58"/>ficiens juxta modum legis obligantis.
+        </p>
+        <p xml:id="szdleg-q80458-d1e493">
+          <lb ed="#P" n="59"/>6. De secundo membro sententie proposite.
+          <lb ed="#P" n="60"/>— Secundum membrum distinctionis et 
+          sen<lb break="no" ed="#P" n="61"/>tentiae propositae non caret aliqua difficultate.
+          <lb ed="#P" n="62"/>Nam licet privilegium dicatur lex privata
+          <lb ed="#P" n="63"/>quoad effectum per se intentum, scilicet, 
+          favo<lb break="no" ed="#P" n="64"/>rem privatum, et jus speciale quod constituit,
+          <lb ed="#P" n="65"/>nihilominus quatenus vim habet contra alios,
+          <lb ed="#P" n="66"/>respectu privilegiati, aliquod gravamen aut
+          <lb ed="#P" n="67"/>obligationem illis imponendo, sic habet 
+          ratio<lb break="no" ed="#P" n="68"/>nem legis communis, quia universaliter 
+          lo<lb break="no" ed="#P" n="69"/>quitur ad omnes, et omnes obligare potest ad
+          <lb ed="#P" n="70"/>quos materia privilegii pertinuerit: ergo ut
+          <lb ed="#P" n="71"/>tale privilegium sub hac ratione obliget, 
+          ne<lb break="no" ed="#P" n="72"/>cessaria est promulgatio propria, qualis in
+          <lb ed="#P" n="73"/>lege communi postulatur. Antecedens videtur
+          <lb ed="#P" n="74"/>notum ex terminis, et ex usitato tenore talium
+          <lb ed="#P" n="75"/>privilegiorum. Consequentia vero probatur,
+          <lb ed="#P" n="76"/>quia eadem necessitas et ratio promulgationis
+          <lb ed="#P" n="77"/>invenitur in tali privilegio sub dicta ratione
+          <lb ed="#P" n="78"/>spectato, ut ex discursu facto notum videtur.
+          <lb ed="#P" n="79"/>Et confirmatur, quia lex privilegii aliis non
+          <lb ed="#P" n="80"/>promulgata facile poterit ab eis ignorari, et
+          <lb ed="#P" n="81"/>ita poterunt ab observatione privilegii 
+          excu<lb break="no" ed="#P" n="82"/>sari, neque ob eam transgressionem merito
+          <lb ed="#P" n="83"/>puniri poterunt, quia, seclusa promulgatione,
+          <lb ed="#P" n="84"/>nemo tenetur legis scientiam inquirere.
+        </p>
+        <p xml:id="szdleg-q80458-d1e552">
+          <lb ed="#P" n="85"/>7. Conclusio. — Duplex titulus 
+          promulga<lb break="no" ed="#P" n="86"/>tionis. — Nihilominus dicendum est in 
+          hu<lb break="no" ed="#P" n="87"/>jusmodi privilegio non requiri propriam 
+          pro<lb break="no" ed="#P" n="88"/>mulgationem ad quamcumque obligationem
+          <lb ed="#P" n="89"/>quae, respectu aliorum, ex illo potest oriri.
+          <lb ed="#P" n="90"/>Probo primo ex usu, quia non solent ialia
+          <lb ed="#P" n="91"/>privilegia solemniter promulgari, et 
+          nihilomi<lb break="no" ed="#P" n="92"/>nus censentur obligare quantum possunt, si
+          <lb ed="#P" n="93"/>sufficienter probentur, et notificentur. 
+          Secun<lb break="no" ed="#P" n="94"/>do, declaratur ex re ipsa: nam haec 
+          obliga<lb break="no" ed="#P" n="95"/>tio dupliciter potest intelligi exoriri: primo,
+          <lb ed="#P" n="96"/>per naturalem resultantiam et consecutionem,
+          <lb ed="#P" n="97"/>sicut ex praescriptione sequitur obligatio non
+          <lb ed="#P" n="98"/>privandi alterum re legitime praescripta ; alio
+          <lb ed="#P" n="99"/>modo directe ratione praecepti impositi in ipso
+          <lb ed="#P" n="100"/>privilegio ab auctore illius, sicut, in bullis
+          <lb ed="#P" n="101"/>pontificiis quae in favorem religionum vel 
+          alio<lb break="no" ed="#P" n="102"/>rum expediuntur, fieri solet. Ad priorem 
+          igi<lb break="no" ed="#P" n="103"/>tur modum obligationis non est necessaria
+          <lb ed="#P" n="104"/>promulgatio privilegii, sed sufficit notitia 
+          mo<lb break="no" ed="#P" n="105"/>raliter certa de jure concesso alteri per 
+          privi<lb break="no" ed="#P" n="106"/>legium, quia statim ex naturali ratione 
+          justi<lb break="no" ed="#P" n="107"/>tiae oritur obligatio, facta in materia tali 
+          mu<lb break="no" ed="#P" n="108"/>tatione, sicut, facta donatione alicujus rei 
+          al<lb break="no" ed="#P" n="109"/>teri, statim resultat naturalis obligatio non
+          <lb ed="#P" n="110"/>privandi donatarium jure acquisito in talem
+          <pb ed="#P" n="322"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rem ; neque oportet donationem promulgari,
+          <lb ed="#P" n="2"/>sed satis est ut sit nota; sic enim concessio 
+          pri<lb break="no" ed="#P" n="3"/>vilegii est veluti donatio quaedam : unde hoc
+          <lb ed="#P" n="4"/>non procedit tantum in foro conscientiae, sed
+          <lb ed="#P" n="5"/>etiam in foro exteriori, si in illo privilegium
+          <lb ed="#P" n="6"/>sufficienter probetur, quod onus privilegiario
+          <lb ed="#P" n="7"/>incumbit ; et ita videmus in jure canonico
+          <lb ed="#P" n="8"/>juxta hujusmodi privilegia passim proferri
+          <lb ed="#P" n="9"/>sententiam, nec in illis requiri 
+          promulgatio<lb break="no" ed="#P" n="10"/>nem, sed probationem.
+        </p>
+        <p xml:id="szdleg-q80458-d1e637">
+          <lb ed="#P" n="11"/>8. Cura notificandi privilegium non spectat
+          <lb ed="#P" n="12"/>ad principem, sicut solet cura solemnis 
+          promul<lb break="no" ed="#P" n="13"/>gationis. — Neque etiam ad alium modum
+          <lb ed="#P" n="14"/>obligationis necessaria est solemnis 
+          promulga<lb break="no" ed="#P" n="15"/>tio, sed sufficiens praecepti intimatio per 
+          au<lb break="no" ed="#P" n="16"/>thentica instrumenta, vel aequivalentem 
+          pro<lb break="no" ed="#P" n="17"/>bationem , ut consuetudo etiam probat. Et
+          <lb ed="#P" n="18"/>ratio est, quia tale praeceptum non imponitur
+          <lb ed="#P" n="19"/>Ecclesiae, aut alicui communitati per se, 
+          pro<lb break="no" ed="#P" n="20"/>pter publicum bonum, vel gubernationem, sed
+          <lb ed="#P" n="21"/>ponitur ut particulare praeceptum aliis datum
+          <lb ed="#P" n="22"/>in favorem privilegiarii, solum ad effectum
+          <lb ed="#P" n="23"/>et observantiam privilegii, et ideo non est in
+          <lb ed="#P" n="24"/>illo necessaria solemnis promulgatio, sed 
+          par<lb break="no" ed="#P" n="25"/>ticularis notificatio accommodata fini talis
+          <lb ed="#P" n="26"/>praecepti. Confirmari hoc potest, quia in tali
+          <lb ed="#P" n="27"/>indulto privilegium ipsum est principale; 
+          prae<lb break="no" ed="#P" n="28"/>ceptum autem quasi accessorium ; et ideo 
+          se<lb break="no" ed="#P" n="29"/>quitur natnram principalis, ideoque ut lex 
+          pri<lb break="no" ed="#P" n="30"/>vata reputatur, ad quam solemnis promulgatio
+          <lb ed="#P" n="31"/>non requiritur. Denique ob eamdem causam
+          <lb ed="#P" n="32"/>cura notificandi privilegium non spectat ad
+          <lb ed="#P" n="33"/>principem, sicut pertinere solet cura solemnis
+          <lb ed="#P" n="34"/>promulgationis ubi est necessaria, sed spectat
+          <lb ed="#P" n="35"/>ad ipsum privilegiarium, qui poterit 
+          privile<lb break="no" ed="#P" n="36"/>gium suum intimare, aut notum facere, prout
+          <lb ed="#P" n="37"/>sibi utile fuerit. Atque hoc tam in foro 
+          con<lb break="no" ed="#P" n="38"/>scientiae quam in foro exteriori iocum habet,
+          <lb ed="#P" n="39"/>quia eadem est utriusque ratio, supposita 
+          suf<lb break="no" ed="#P" n="40"/>ficienti probatione. Unde si tale praeceptum
+          <lb ed="#P" n="41"/>privilegio insertum habeat annexam 
+          excom<lb break="no" ed="#P" n="42"/>municationem ipso facto, illam in conscientia
+          <lb ed="#P" n="43"/>incurrit, qui contumax fuerit contra tale 
+          prae<lb break="no" ed="#P" n="44"/>ceptum, si sufficienter intimatum ; et in 
+          judi<lb break="no" ed="#P" n="45"/>cio exteriori talis veniet declarandus, si ejus
+          <lb ed="#P" n="46"/>contumacia habita post sufficientem notitiam
+          <lb ed="#P" n="47"/>privilegii, et praecepti in eo impositi sub tali
+          <lb ed="#P" n="48"/>censura, legitime probetur.
+        </p>
+        <p xml:id="szdleg-q80458-d1e723">
+          <lb ed="#P" n="49"/>9. De notitia vel probatione requisita in
+          <lb ed="#P" n="50"/>privatis privilegiis. — Non sufficere 
+          assertio<lb break="no" ed="#P" n="51"/>nem dicentis se habere privilegium, licet sit
+          <lb ed="#P" n="52"/>persona bonae fame et fide digna ; sed 
+          requiri<lb break="no" ed="#P" n="53"/>tur aut ostensio privilegii, vel alia probatio
+          <lb ed="#P" n="54"/>qua prudenti arbitrio sufficiat. — Statim vero
+          <lb ed="#P" n="55"/>occurrit dubitatio, quae notitia vel probatio re-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quiratur in his privatis privilegiis, ut inferiores
+          <lb ed="#P" n="57"/>Praelati, aut judices, aut aliae personae ad quas
+          <lb ed="#P" n="58"/>pertinere potest, teneantur illis parere, vel eis
+          <lb ed="#P" n="59"/>non contravenire. Sed quia hoc magis ad 
+          fo<lb break="no" ed="#P" n="60"/>rum externum attinet quam ad internum,
+          <lb ed="#P" n="61"/>breviter illud expediam. Nam in foro 
+          con<lb break="no" ed="#P" n="62"/>scientiae sufficit notitia privilegii moraliter
+          <lb ed="#P" n="63"/>certa, de qua probabiliter dubitari non possit;
+          <lb ed="#P" n="64"/>tunc enim, quaesito aliquo falso colore, 
+          tergi<lb break="no" ed="#P" n="65"/>versari et voluntati superioris resistere, non
+          <lb ed="#P" n="66"/>potest in conscientia esse licitum. Ad hanc
+          <lb ed="#P" n="67"/>autem notitiam non sufficit assertio dicentis
+          <lb ed="#P" n="68"/>se habere privilegium, etiamsi sit persona
+          <lb ed="#P" n="69"/>bonae famae et fide digna, ut communiter cum
+          <lb ed="#P" n="70"/>Innoc. tradunt canonistae in cap. Ex parte, de
+          <lb ed="#P" n="71"/>Verbor. significat. Et ratio est, quia nemo est
+          <lb ed="#P" n="72"/>in propria causa testis omni exceptione major,
+          <lb ed="#P" n="73"/>et quia angelus satanae transfigurat se in 
+          an<lb break="no" ed="#P" n="74"/>gelum lucis, et multa mala committuntur sub
+          <lb ed="#P" n="75"/>dolosa specie sanctitatis, et ideo non solum
+          <lb ed="#P" n="76"/>non tenetur quis credere dicenti se habere
+          <lb ed="#P" n="77"/>privilegium, ad effectum admittendi usum
+          <lb ed="#P" n="78"/>ejus, verum etiam nec recte faciet tam facile
+          <lb ed="#P" n="79"/>credendo, regulariter loquendo, propter 
+          peri<lb break="no" ed="#P" n="80"/>cula et fraudes quae intervenire possunt. 
+          Ali<lb break="no" ed="#P" n="81"/>quando vero id fieri poterit ex urbanitate,
+          <lb ed="#P" n="82"/>quando non occurrit peculiaris causa 
+          suspicio<lb break="no" ed="#P" n="83"/>nis, non vero ex obligatione. Ad hanc ergo
+          <lb ed="#P" n="84"/>necessaria est vel ostensio privilegii, vel alia
+          <lb ed="#P" n="85"/>probatio quae prudenti arbitrio et bona fide
+          <lb ed="#P" n="86"/>procedendo, sufficiens existimetur in 
+          con<lb break="no" ed="#P" n="87"/>scientia.
+        </p>
+        <p xml:id="szdleg-q80458-d1e812">
+          <lb ed="#P" n="88"/>10. Multo vero magis in foro exteriori 
+          ne<lb break="no" ed="#P" n="89"/>cessaria est ostensio indulti per instrumentum
+          <lb ed="#P" n="90"/>authenticum, vel in se demonstratum, vei
+          <lb ed="#P" n="91"/>saltem per testes probatum, juxta superius
+          <lb ed="#P" n="92"/>dicta cap. 2, et tradita communiter a 
+          doctori<lb break="no" ed="#P" n="93"/>bus ibi citatis, et a Sylvest., verb. Exemptio,
+          <lb ed="#P" n="94"/>q. 5et 7, ex cap. Cum personce, de Privileg.,
+          <lb ed="#P" n="95"/>in 6, ubi Glossa, doctores, Panormit. in cap.
+          <lb ed="#P" n="96"/>Cum ordinem, de Rescript., Innocent., 
+          An<lb break="no" ed="#P" n="97"/>ton., Henr. et alii in dicto cap. Ex parte. Qui
+          <lb ed="#P" n="98"/>addunt limitationem, dicentes hoc esse 
+          neces<lb break="no" ed="#P" n="99"/>sarium, quando privilegium non est publice
+          <lb ed="#P" n="100"/>notorium : unde insinuant publicam notitiam
+          <lb ed="#P" n="101"/>esse sufficientem probationem, ut tunc 
+          osten<lb break="no" ed="#P" n="102"/>sio privilegii postulari non debeat, nec juste
+          <lb ed="#P" n="103"/>possit. Quod intelligendum esse existimo,
+          <lb ed="#P" n="104"/>quando publica notitia non tantum est per 
+          fa<lb break="no" ed="#P" n="105"/>mam (quae per se non facit sufticientem 
+          pro<lb break="no" ed="#P" n="106"/>bationem, sed ad summum semiplenam), sed
+          <lb ed="#P" n="107"/>etiam per usum privilegii communem et 
+          no<lb break="no" ed="#P" n="108"/>tum. Tunc enim ipse usus confirmat 
+          privile<lb break="no" ed="#P" n="109"/>gium, et confirmat jus : unde, si tantus sit ut
+          <lb ed="#P" n="110"/>notoriam praescriptionem legitime induxerit,
+          <pb ed="#P" n="323"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>illius probatio vel publica notitia sufficiet ; si
+          <lb ed="#P" n="2"/>vero nondum sit consummata praescriptio, vel
+          <lb ed="#P" n="3"/>non sii notoria, sufficiet ille usus, ut non 
+          pri<lb break="no" ed="#P" n="4"/>vetur quis possessione et usu sui privilegii,
+          <lb ed="#P" n="5"/>intra sufficiens tempus ad tollendum illud, ut
+          <lb ed="#P" n="6"/>latius Sylv., supra, quaest. 6, allegans plures,
+          <lb ed="#P" n="7"/>prosequitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

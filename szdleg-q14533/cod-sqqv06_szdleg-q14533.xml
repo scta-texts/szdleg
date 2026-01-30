@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 13</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 13</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="58"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q14533"><!-- l6c13 -->
+        <head xml:id="szdleg-q14533-Hd1e101">Caput 13</head>
+        <head xml:id="szdleg-q14533-Hd1e103" type="question-title">De forma dispensationis in lege humana.</head>
+        <p xml:id="szdleg-q14533-d1e106">
+          <lb ed="#P" n="63"/>CAPUT XIII.
+          <lb ed="#P" n="64"/>DE FORMA DISPENSATIONIS IN LEGE HUMANA.
+        </p>
+        <p xml:id="szdleg-q14533-d1e113">
+          <lb ed="#P" n="65"/>1. Dispensatio tacita et expressa. — Sermo
+          <lb ed="#P" n="66"/>est de forma externa et sensibili ; nam 
+          inte<lb break="no" ed="#P" n="67"/>rior actus non habet aliam formam 
+          insensibi<lb break="no" ed="#P" n="68"/>lem, sed ipse est quaedam forma spiritualis, de
+          <lb ed="#P" n="69"/>quo actu, quis vel qualis sit jam dictum est;
+          <lb ed="#P" n="70"/>quia vero exterius manifestari debet ut inter
+          <lb ed="#P" n="71"/>homines operari possit, ideo signum illud quo
+          <lb ed="#P" n="72"/>manifestatur exterius vocatur forma ejus, 
+          si<lb break="no" ed="#P" n="73"/>cut in lege ipsa diximus. De hoc ergo signo
+          <lb ed="#P" n="74"/>inquirimmus quale esse oporteat. Ad hoc autem
+          <lb ed="#P" n="75"/>explicandum praemittenda est alia divisio 
+          dis<lb break="no" ed="#P" n="76"/>pensationis in expressam et tacitam : expressa
+          <lb ed="#P" n="77"/>dicitur quae propriis et apertis verbis 
+          concedi<lb break="no" ed="#P" n="78"/>tur ; tacita vero quae aliis signis vel factis 
+          in<lb break="no" ed="#P" n="79"/>dicatur. Et explicando haec duo membra et
+          <lb ed="#P" n="80"/>sufficientiam illorum, nanc formam 
+          sufficien<lb break="no" ed="#P" n="81"/>ter explicabimus.
+        </p>
+        <p xml:id="szdleg-q14533-d1e152">
+          <lb ed="#P" n="82"/>2. Ad dispensationem expressam nulla 
+          de<lb break="no" ed="#P" n="83"/>terminata verba requiruntur. — Circa 
+          expres<lb break="no" ed="#P" n="84"/>sam dispensationem imprimis adverto, licet
+          <lb ed="#P" n="85"/>ad illam regulariter requirantur verba, nulla
+          <lb ed="#P" n="86"/>tamen esse determinata, vel ex natura rei,
+          <lb ed="#P" n="87"/>vel in jure, ad dispensationem concedendam,
+          <lb ed="#P" n="88"/>ac subinde illa sufficere qua, juxta 
+          com<lb break="no" ed="#P" n="89"/>munem usum, et dispensantis voluntatem et
+          <lb ed="#P" n="90"/>effectum dispensationis satis indicare valeant.
+          <lb ed="#P" n="91"/>Unde licet aliqui dicant illam esse expressam
+          <lb ed="#P" n="92"/>dispensationem quae per verbum dispensandi
+          <lb ed="#P" n="93"/>datur, ut patet ex Rebuffo in Pract., p. 2 t.
+          <lb ed="#P" n="94"/>de Dispen., n. 19, nihilominus non est 
+          intelli<lb break="no" ed="#P" n="95"/>gendum illam solam esse expressam, id enim
+          <lb ed="#P" n="96"/>nullo jure probatur, et sunt alia verba vel
+          <lb ed="#P" n="97"/>aequivalentia vel sufficientia, licet non sint
+          <lb ed="#P" n="98"/>tam clara, ut: Damus licentiam, indulgemus,
+          <lb ed="#P" n="99"/>et interdum posset sufficere verbum 
+          permitti<lb break="no" ed="#P" n="100"/>mus, cum ex materia constiterit, de quo 
+          ge<lb break="no" ed="#P" n="101"/>nere perniissionis fit sermo. Verbum ergo
+          <lb ed="#P" n="102"/>proprium dispensandi est regulariter usitatum
+          <lb ed="#P" n="103"/>in jure et rescriptis Pontificum, et ideo 
+          poni<lb break="no" ed="#P" n="104"/>tur quasi exemplar aliorum quae ad 
+          expres<lb break="no" ed="#P" n="105"/>sam dispensationem sufficiunt, non ut 
+          simpli<lb break="no" ed="#P" n="106"/>citer necessarium.
+        </p>
+        <p xml:id="szdleg-q14533-d1e210">
+          <lb ed="#P" n="107"/>9. In dispensatione requiritur ut materia
+          <pb ed="#P" n="59"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sufficienter exprimatur. — Deinde adverto ad
+          <lb ed="#P" n="2"/>hanc dispensationem expressam necessarium
+          <lb ed="#P" n="3"/>esse ut materia ejus sufficienter exprimatur,
+          <lb ed="#P" n="4"/>id est, de qua obligatione, lege, aut 
+          impedi<lb break="no" ed="#P" n="5"/>mento vel inhabilitate detur dispensatio, et
+          <lb ed="#P" n="6"/>cui detur. Quia alias verbum dispensandi non
+          <lb ed="#P" n="7"/>haberet satis determinatam et individuam 
+          si<lb break="no" ed="#P" n="8"/>gnificationem, et ita nihil posset operari. Non
+          <lb ed="#P" n="9"/>est autem necesse ut materia dispensationis
+          <lb ed="#P" n="10"/>specifice semper declaretur, sed potest 
+          suffi<lb break="no" ed="#P" n="11"/>cere generale verbum, ut; Dispenso tecum in
+          <lb ed="#P" n="12"/>quacumque irregularitate, vel in ampedimento,
+          <lb ed="#P" n="13"/>si quod habes, vel quid simile. Nam id quod in
+          <lb ed="#P" n="14"/>generali verborum significatione 
+          comprehen<lb break="no" ed="#P" n="15"/>ditur, censetur etiam expressum, licet non sit
+          <lb ed="#P" n="16"/>specificum, juxta Gloss. in l. Zucius, tf. de
+          <lb ed="#P" n="17"/>Vulgar., verb. Non ad matrem , ei notat late
+          <lb ed="#P" n="18"/>multa allegando Tiraq., post leges 
+          connubia<lb break="no" ed="#P" n="19"/>les, Glos. 7 n. 86, S71 et sequent. Et in 
+          pra<lb break="no" ed="#P" n="20"/>senti est manifestum, quia expressa 
+          dispensa<lb break="no" ed="#P" n="21"/>tio distinguitur contra tacitam seu 
+          praesum<lb break="no" ed="#P" n="22"/>ptam ; constat autem generalem concessionem
+          <lb ed="#P" n="23"/>verbis expressam non esse praesumptam aut
+          <lb ed="#P" n="24"/>tacitam respectu specierum sub generali 
+          signi<lb break="no" ed="#P" n="25"/>ficatione verborum indubie contentarum ; 
+          igi<lb break="no" ed="#P" n="26"/>tur ex parte materiae sufficit generalis 
+          expres<lb break="no" ed="#P" n="27"/>sio. Et idem erit cum proportione de persona
+          <lb ed="#P" n="28"/>cui fit concessio, si dispensatio simul 
+          conceda<lb break="no" ed="#P" n="29"/>tur multis: nam tunc expressa erit dispensatio
+          <lb ed="#P" n="30"/>pro singulis, si omnes uno generali verbo
+          <lb ed="#P" n="31"/>comprehendantur. Si autem dispensatio uni
+          <lb ed="#P" n="32"/>tantum concedatur, tunc oportebit ut persona
+          <lb ed="#P" n="33"/>illa in particulari designetur ad quam 
+          dirigi<lb break="no" ed="#P" n="34"/>tur dispensatio, sive id fiat nomine proprio,
+          <lb ed="#P" n="35"/>sive circumlocutione aliqua, sive pronomine
+          <lb ed="#P" n="36"/>demonstrativo, juxta varias scribendi aut 
+          lo<lb break="no" ed="#P" n="37"/>quendi formas.
+        </p>
+        <p xml:id="szdleg-q14533-d1e299">
+          <lb ed="#P" n="38"/>10. Ad valorem dispensationis non requiritur
+          <lb ed="#P" n="39"/>scriptura, nec ad substantiam illius. — Unde
+          <lb ed="#P" n="40"/>est tertio supponendum ad valorem et 
+          sub<lb break="no" ed="#P" n="41"/>stantiam dispensationis etiam expressae non 
+          re<lb break="no" ed="#P" n="42"/>quiri scripturam, sed verba ore prolata 
+          suf<lb break="no" ed="#P" n="43"/>ficere. Nam si in lege ipsa non est necessaria
+          <lb ed="#P" n="44"/>scriptura, multo minus erit necessaria in 
+          dis<lb break="no" ed="#P" n="45"/>pensatione legis. Item infra ostendemus 
+          scri<lb break="no" ed="#P" n="46"/>pturam non esse de substantia privilegii, ergo
+          <lb ed="#P" n="47"/>nec erit de necessitate dispensationis. Denique
+          <lb ed="#P" n="48"/>nullum est jus quod scripturam requirat , et
+          <lb ed="#P" n="49"/>vocale verbum non est signum minus 
+          expres<lb break="no" ed="#P" n="50"/>sum quam scriptum ; ergo. Dico autem non
+          <lb ed="#P" n="51"/>requiri scripturam ad substantiam 
+          dispensa<lb break="no" ed="#P" n="52"/>tionis, quia ad probationem pro foro externo
+          <lb ed="#P" n="53"/>poterit esse necessaria, et regulariter illa 
+          postu<lb break="no" ed="#P" n="54"/>latur; illa vero deficiente, aliae probationes 
+          po<lb break="no" ed="#P" n="55"/>terunt sufficere, nisi in aliquo casu plus in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>jure requiratur. Imo aliquando etiam potest
+          <lb ed="#P" n="57"/>esse necessaria dispensatio scripta, ut in 
+          con<lb break="no" ed="#P" n="58"/>scientia liceat illa uti; sed hoc non habet 
+          lo<lb break="no" ed="#P" n="59"/>cum nisi in casibus in jure expressis, de 
+          qui<lb break="no" ed="#P" n="60"/>bus videri potest Gloss. in c. 1, S Postquam,
+          <lb ed="#P" n="61"/>verb. In scriptis, de Censib , in 6. Idemque est
+          <lb ed="#P" n="62"/>quando Pontifices in aliquibus bullis reqnirunt
+          <lb ed="#P" n="63"/>licentiam in scriptis obtentam, ut habemus
+          <lb ed="#P" n="64"/>exemplum in Trid., sess. 25, c. 5 de Regul.;
+          <lb ed="#P" n="65"/>extra hos vero casus verba dispensantis 
+          sufhi<lb break="no" ed="#P" n="66"/>ciunt. Tunc ergo satis est designare personam
+          <lb ed="#P" n="67"/>cui fit dispensatio, per signa quaelibet 
+          deter<lb break="no" ed="#P" n="68"/>minativa et designativa individui, ut: 
+          Conce<lb break="no" ed="#P" n="69"/>demus Intic, tibi, etc. In scriptura vero 
+          ordina<lb break="no" ed="#P" n="70"/>rie necessarium est nominare personam, vel
+          <lb ed="#P" n="71"/>ad illam semel nominatam sufficientem facere
+          <lb ed="#P" n="72"/>relationem. Persona autem dispensans in 
+          for<lb break="no" ed="#P" n="73"/>ma scripta necessario est nominanda; in 
+          ver<lb break="no" ed="#P" n="74"/>bali autem concessione satis est quod ipsa 
+          lo<lb break="no" ed="#P" n="75"/>quatur et verbum de praesenti proferat, ut ex
+          <lb ed="#P" n="76"/>materia etiam de Sacramentis constat.
+        </p>
+        <p xml:id="szdleg-q14533-d1e388">
+          <lb ed="#P" n="77"/>5. Quarto, adverto nonnullos auctores 
+          dixis<lb break="no" ed="#P" n="78"/>se de necessitate hujus formae esse, ut a 
+          peti<lb break="no" ed="#P" n="79"/>tione dispensationis inchoetur, quia 
+          dispensa<lb break="no" ed="#P" n="80"/>tio non datur motu proprio, sed tantum 
+          pos<lb break="no" ed="#P" n="81"/>tulata. Quia, cum dispensatio sit juris relaxatio,
+          <lb ed="#P" n="82"/>non debet princeps proprio motu eam 
+          conce<lb break="no" ed="#P" n="83"/>dere, sed rogatus et quasi coactus, 
+          argumen<lb break="no" ed="#P" n="84"/>to l. 4, S 1, de Damn. infect. ; quod sentit
+          <lb ed="#P" n="85"/>Mendos. de Signatur. grat., tit. de dispens., et
+          <lb ed="#P" n="86"/>sequitur Roder., tomo 1, q. 22, a.3. Imo multi
+          <lb ed="#P" n="87"/>existimant ad valorem dispensationis 
+          necessa<lb break="no" ed="#P" n="88"/>rium esse ut vel ab ipso indigente petatur, vel
+          <lb ed="#P" n="89"/>ex ejus mandato, ac subinde esse nullam si ab
+          <lb ed="#P" n="90"/>aliquo tertio sine mandato impetretur. Ita 
+          Pa<lb break="no" ed="#P" n="91"/>norm. per illum textum in c. 7nnotwit, de
+          <lb ed="#P" n="92"/>Elect., n. 10; idem in c. Nonnulli, S Sunt et
+          <lb ed="#P" n="93"/>alii, de Rescript., ubi idem tenet Hostiens.
+          <lb ed="#P" n="94"/>Fundamentum sumitur ex dict. c. Innotuit,
+          <lb ed="#P" n="95"/>ubi negatur dispensatio quia fuit petita sine
+          <lb ed="#P" n="96"/>mandato.
+        </p>
+        <p xml:id="szdleg-q14533-d1e434">
+          <lb ed="#P" n="97"/>6. Dispensatio per amicum impetrata valet.
+          <lb ed="#P" n="98"/>—Utrumque autem censeo esse falsum. Assero
+          <lb ed="#P" n="99"/>itaque imprimis dispensationem impetratam
+          <lb ed="#P" n="100"/>ad petitionem amici sine mandato partis 
+          dis<lb break="no" ed="#P" n="101"/>pensandae ex se validam esse, et operari posse
+          <lb ed="#P" n="102"/>si ab eo cui concessa est acceptetur. Ratio est,
+          <lb ed="#P" n="103"/>quia nullum est jus quod pro forma valhdae
+          <lb ed="#P" n="104"/>dispensationis illam conditionem requirat ; 
+          si<lb break="no" ed="#P" n="105"/>ne jure autem est nullum fundamentum ad id
+          <lb ed="#P" n="106"/>asserendum , quia ex natura rei quodlibet
+          <lb ed="#P" n="107"/>donum, vel eleemosyna, vel gratia potest 
+          va<lb break="no" ed="#P" n="108"/>lide per amicum impetrari ei qui nihil 
+          procu<lb break="no" ed="#P" n="109"/>rabat. Consequentia est evidens. Antecedens
+          <lb ed="#P" n="110"/>autem patet quia in jure civili nihil est quod
+          <pb ed="#P" n="60"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>obstet, et potius in l. Universis, c. de Precibus
+          <lb ed="#P" n="2"/>imperatori offerendis, dicitur rescriptum per
+          <lb ed="#P" n="3"/>quemcumque impetratum valere; ergo etiamsi
+          <lb ed="#P" n="4"/>impetrator non sit procurator constitutus, 
+          va<lb break="no" ed="#P" n="5"/>lebit ex vi illius legis, quia absolute et sine
+          <lb ed="#P" n="6"/>ulla restrictione loquitur. In jure autem 
+          cano<lb break="no" ed="#P" n="7"/>nico, dictum c. Innotuit nihil probat, tum quia
+          <lb ed="#P" n="8"/>ibi non dicitur dispensationem futuram fuisse
+          <lb ed="#P" n="9"/>nullam si absque mandato fuisset concessa;
+          <lb ed="#P" n="10"/>sed solum dicitur Pontificem ob eam causam
+          <lb ed="#P" n="11"/>noluisse illam concedere, quod longe diversum
+          <lb ed="#P" n="12"/>est : tum etiam quia ibi non negatur 
+          dispensa<lb break="no" ed="#P" n="13"/>tio quia petebatur sine mandato personae 
+          dis<lb break="no" ed="#P" n="14"/>pensandae, sed quia petebatur sine mandato 
+          Ca<lb break="no" ed="#P" n="15"/>pituli, quod personam illam elegerat in 
+          Epis<lb break="no" ed="#P" n="16"/>copum ; et confirmationem, non 
+          dispensatio<lb break="no" ed="#P" n="17"/>nem petebat, et ideo utraque ei denegatur.
+          <lb ed="#P" n="18"/>Unde potius supponitur potuisse peti a 
+          Capi<lb break="no" ed="#P" n="19"/>tulo sine mandato ejus pro quo petebatur, et
+          <lb ed="#P" n="20"/>tunc fuisse concedendam, et futuram fuisse
+          <lb ed="#P" n="21"/>validam.
+        </p>
+        <p xml:id="szdleg-q14533-d1e517">
+          <lb ed="#P" n="22"/>7. Neque etiam obstat c. Nonnmulli, S unic.,
+          <lb ed="#P" n="23"/>de Rescrip., ubi annullatur rescriptum 
+          impe<lb break="no" ed="#P" n="24"/>tratum sine mandato, et impetrans punitur.
+          <lb ed="#P" n="25"/>Nam caput illud aperte loquitur de rescriptis
+          <lb ed="#P" n="26"/>justitiae, seu ad lites, non de rescriptis ad 
+          gra<lb break="no" ed="#P" n="27"/>tias, seu beneficia ; nam et verba textus et 
+          ra<lb break="no" ed="#P" n="28"/>tio ejus ad priora tantum rescripta 
+          accommo<lb break="no" ed="#P" n="29"/>dantur, ut ibi notat Glossa penult. in fin., et
+          <lb ed="#P" n="30"/>Felin. ibi, n. 10, referens alios. Qui etiam hoc
+          <lb ed="#P" n="31"/>extendit ad impetrationem privilegiorum et
+          <lb ed="#P" n="32"/>immunitatum, quod ex Glossis et doctoribus,
+          <lb ed="#P" n="33"/>et ex identitate rationis confirmat, quae sine
+          <lb ed="#P" n="34"/>dubio eadem est quae in dispensationibus. 
+          Prae<lb break="no" ed="#P" n="35"/>terea partem hanc aperte supponunt doctores
+          <lb ed="#P" n="36"/>qui docent privilegium per mandatarium 
+          ob<lb break="no" ed="#P" n="37"/>tentum statim esse validum, non vero si 
+          abs<lb break="no" ed="#P" n="38"/>que mandato obtineatur, in quo idem de 
+          dis<lb break="no" ed="#P" n="39"/>pensatione indicant, ut infra 1. 8 sufficienter
+          <lb ed="#P" n="40"/>videbimus. Denique consuetudo curiae hanc
+          <lb ed="#P" n="41"/>partem sufficienter confirmat, ut sumitur ex
+          <lb ed="#P" n="42"/>Rebuf. in Praxi, t. de Dispens., n. 23, juncto
+          <lb ed="#P" n="43"/>titulo de differentiis inter rescriptum gratiae et
+          <lb ed="#P" n="44"/>justitiae, et optime Navar., cons. 2 de hescript.
+          <lb ed="#P" n="45"/>et cons. 4, n. 4.
+        </p>
+        <p xml:id="szdleg-q14533-d1e572">
+          <lb ed="#P" n="46"/>8. Dispensatio potesl a praelato proprio motu
+          <lb ed="#P" n="47"/>concedi. —Deinde assero nullam petitionem vel
+          <lb ed="#P" n="48"/>supplicationem necessariam esse in rigore ad
+          <lb ed="#P" n="49"/>formam et valorem dispensationis, sed posse a
+          <lb ed="#P" n="50"/>Praelato proprio motu concedi. Hoc secuitur ex
+          <lb ed="#P" n="51"/>praecedenti, et ita potest eisdem doctoribus
+          <lb ed="#P" n="52"/>attribul; nam si tertia persona sine mandato
+          <lb ed="#P" n="53"/>potest amico dispensationem impetrare, cur
+          <lb ed="#P" n="54"/>non poterit Praelatus proprio motu, ex sua
+          <lb ed="#P" n="55"/>tantum providentia illam indigenti indulgere?
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Deinde ratio facta hic etiam procedit, quia 
+          ne<lb break="no" ed="#P" n="57"/>que natura sua hoc malum est, neque ullo jure
+          <lb ed="#P" n="58"/>prohibetur, non solum Pontifici aut principi,
+          <lb ed="#P" n="59"/>ut est per se notum, verum etiam nec 
+          Episco<lb break="no" ed="#P" n="60"/>po aut praetori. Neque lex illa 4 ad causam 
+          fa<lb break="no" ed="#P" n="61"/>cit, quia non de gratia vel dispensatione 
+          loqui<lb break="no" ed="#P" n="62"/>tur, sed de justitiae executione inter partes
+          <lb ed="#P" n="63"/>constituendae, quibus non solet providere judex,
+          <lb ed="#P" n="64"/>nisi altera postulante. Quanquam interdum ex
+          <lb ed="#P" n="65"/>officio possit judex subvenire quando aliquis
+          <lb ed="#P" n="66"/>damnum patitur, et impeditur ne possit 
+          pos<lb break="no" ed="#P" n="67"/>tulare, ut in eodem t. de Damno infect., 1. Hoc
+          <lb ed="#P" n="68"/>amplius, 9, dicitur. Multo autem facilius 
+          po<lb break="no" ed="#P" n="69"/>test hoc facere princeps aut Praelatus in 
+          con<lb break="no" ed="#P" n="70"/>cessionem dispensationis , quae est quaedam
+          <lb ed="#P" n="71"/>gratia quam potest sua sponte facere. Nec 
+          oh<lb break="no" ed="#P" n="72"/>stat quod relationem juris contineat : nam
+          <lb ed="#P" n="73"/>etiam privilegium illam continet, et 
+          nibilomi<lb break="no" ed="#P" n="74"/>nus saepe conceditur motu proprio. Item ipsa
+          <lb ed="#P" n="75"/>relatio potest esse in casu necessaria vel ad
+          <lb ed="#P" n="76"/>commune bonum, vel ad privatum 
+          particula<lb break="no" ed="#P" n="77"/>ris personae, cui potest superior ex officio 
+          pro<lb break="no" ed="#P" n="78"/>videre, si ipsa sit indigens. Imo non solum
+          <lb ed="#P" n="79"/>potest dispensare, sed etiam praecipere subdito
+          <lb ed="#P" n="80"/>ut dispensatione utatur, ut paulo antea dixi.
+          <lb ed="#P" n="81"/>9. Aliqua dispensatio postulat empressa 
+          ver<lb break="no" ed="#P" n="82"/>ba.—Ex his ergo notari potest quinto aliquam
+          <lb ed="#P" n="83"/>dispensationem expressam necessario 
+          postula<lb break="no" ed="#P" n="84"/>re expressa verba superioris, ut quando illam
+          <lb ed="#P" n="85"/>proprio motu concedit, juxta cap. Si motus, de
+          <lb ed="#P" n="86"/>Praeb., in 6; aliquam vero esse posse expressam
+          <lb ed="#P" n="87"/>etiam sine proprio verbo superioris, ut est illa
+          <lb ed="#P" n="88"/>quae fit ad petitionem alicujus. Hanc enim
+          <lb ed="#P" n="89"/>semper esse expressam sentit Rebuf., d. t. de
+          <lb ed="#P" n="90"/>Dispens., n. 19, et licet de illa quae est aperte
+          <lb ed="#P" n="91"/>postulata res sit clarior, tamen idem est si 
+          pe<lb break="no" ed="#P" n="92"/>tatur a quocunque alio intercessore seu 
+          postu<lb break="no" ed="#P" n="93"/>latore. Nam cap. 7Innotuit, quod allegat, 
+          po<lb break="no" ed="#P" n="94"/>tius loquitur de postulatione facta a tertio, ut
+          <lb ed="#P" n="95"/>supra notavi. Ratio autem est, quia cum 
+          pos<lb break="no" ed="#P" n="96"/>tulatio expressa dispensationis procedit, 
+          neces<lb break="no" ed="#P" n="97"/>sario concessio illi conjuncta facit expressam
+          <lb ed="#P" n="98"/>dispensationem. Unde, licet post subditi 
+          peti<lb break="no" ed="#P" n="99"/>tionem superior nihil scribat vel loquatur, sed
+          <lb ed="#P" n="100"/>nutibus tantum annuat, demonstrando 
+          consen<lb break="no" ed="#P" n="101"/>sum, est dispensatio satis expressa, quia 
+          supe<lb break="no" ed="#P" n="102"/>rior, suum consensum ostendendo, facit sua
+          <lb ed="#P" n="103"/>verba petentis, super quae cadit ; praeterquam
+          <lb ed="#P" n="104"/>quod nutibus solet consensus satis clare et 
+          ex<lb break="no" ed="#P" n="105"/>presse indicari. Sicut matrimonium satis 
+          ex<lb break="no" ed="#P" n="106"/>presse contrahitur quando procedit 
+          interroga<lb break="no" ed="#P" n="107"/>tio per verba, et nutibus explicatur consensus.
+          <lb ed="#P" n="108"/>Quando autem non praecedit expressa petitio,
+          <lb ed="#P" n="109"/>tunc non semper est dispensatio expressa, imo
+          <lb ed="#P" n="110"/>nec videtur esse posse per nutus aut alia signa
+          <pb ed="#P" n="61"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>praeter expressa verba ; ubi autem haec 
+          inter<lb break="no" ed="#P" n="2"/>cesserint, possunt sufficere, etiamsi postulatio
+          <lb ed="#P" n="3"/>non praecedat, ut ex dictis constat.
+        </p>
+        <p xml:id="szdleg-q14533-d1e729">
+          <lb ed="#P" n="4"/>10. Dispensatio regulariter conceditur ad 
+          pe<lb break="no" ed="#P" n="5"/>titionem alicujus. — Est autem ultimo 
+          obser<lb break="no" ed="#P" n="6"/>vandum regulariter dispensationem concedi
+          <lb ed="#P" n="7"/>ad postulationem alicujus, quia raro occurrit
+          <lb ed="#P" n="8"/>tanta necessitas dispensationis, ut etiam non
+          <lb ed="#P" n="9"/>petentibus offeratur, et quia mens concedentis
+          <lb ed="#P" n="10"/>ex postulatione optime intelligitur, ideo in
+          <lb ed="#P" n="11"/>ordinariis instrumentis dispensationum 
+          qua<lb break="no" ed="#P" n="12"/>si pro ordinaria forma servatur, ut praemissa
+          <lb ed="#P" n="13"/>postulatione subjungatur concessio. 
+          Aliquan<lb break="no" ed="#P" n="14"/>do vero non obstante postulatione dicitur 
+          con<lb break="no" ed="#P" n="15"/>cessio fieri motu proprio, quae duo quomodo
+          <lb ed="#P" n="16"/>cohaereant, et quam vim habeat illa clausula
+          <lb ed="#P" n="17"/>motu proprio, et quando subintelligenda sit,
+          <lb ed="#P" n="18"/>dicemus infra tractando de privilegiis, ubi
+          <lb ed="#P" n="19"/>etiam explicabimus fere aequivalentem 
+          clausu<lb break="no" ed="#P" n="20"/>Jam ez certa scientia, et alias similes, et varias
+          <lb ed="#P" n="21"/>etiam formas concedendi privilegia quae in 
+          dis<lb break="no" ed="#P" n="22"/>pensationibus possunt habere locum ; sed quia
+          <lb ed="#P" n="23"/>magis sunt propriae privilegiorum, in eum 
+          lo<lb break="no" ed="#P" n="24"/>cum eas reservamus.
+        </p>
+        <p xml:id="szdleg-q14533-d1e777">
+          <lb ed="#P" n="25"/>11. De dispensatione tacita. — Explicatur
+          <lb ed="#P" n="26"/>modus quo in supremo principe omnes admittunt
+          <lb ed="#P" n="27"/>Ltacitam dispensationem.—v enio ad illud 
+          mem<lb break="no" ed="#P" n="28"/>brum tacitae dispensationis, quae difficilior est
+          <lb ed="#P" n="29"/>ad explicandum, quia non consistit in aperta
+          <lb ed="#P" n="30"/>significatione voluntatis, sed tantum in 
+          prae<lb break="no" ed="#P" n="31"/>sumpta, quae obscurior est. Et ideo multi 
+          ju<lb break="no" ed="#P" n="32"/>risperiti non admittunt hanc tacitam 
+          dispensa<lb break="no" ed="#P" n="33"/>tionem, utex Calder. et Oldrald., refert Anton.
+          <lb ed="#P" n="34"/>Gabr.. dicto t. de Praesumpt., conclus. 8, n. 6et
+          <lb ed="#P" n="35"/>sequentibus, qui dicit secundum stylum curiae
+          <lb ed="#P" n="36"/>esse veriorem sententiam. Communiter vero
+          <lb ed="#P" n="37"/>fere omnes tanquam certum supponunt esse
+          <lb ed="#P" n="38"/>possibile et sufficiens hoc genus dispensationis.
+          <lb ed="#P" n="39"/>Sed in hoc est magna varietas ; nam in 
+          supre<lb break="no" ed="#P" n="40"/>mo principe omnes admittunt dispensationem
+          <lb ed="#P" n="41"/>tacitam in omnibus qua ad jus humanum
+          <lb ed="#P" n="42"/>pertinent, quia supremus princeps intra suam
+          <lb ed="#P" n="43"/>sphaeram est supra humanum jus, et potest in
+          <lb ed="#P" n="44"/>illo, ut voluerit, dispensare, saltem quoad 
+          va<lb break="no" ed="#P" n="45"/>lorem dispensationis. Secus vero docent de 
+          eo<lb break="no" ed="#P" n="46"/>dem ut dispensante in votis et aliis quae jus 
+          di<lb break="no" ed="#P" n="47"/>vinum attingunt : nam réspectu illorum ita se
+          <lb ed="#P" n="48"/>habet sicut inferiores in lege superioris, de
+          <lb ed="#P" n="49"/>quibus etiam sunt opiniones.
+        </p>
+        <p xml:id="szdleg-q14533-d1e834">
+          <lb ed="#P" n="50"/>12. Aliqui enim absolute negant inferiorem
+          <lb ed="#P" n="51"/>posse tacite dispensare in lege superioris, sed
+          <lb ed="#P" n="52"/>tantum expresse. Quod videtur sentire Innoc.
+          <lb ed="#P" n="53"/>in cap. Veniens, de Filus Presbyter., et 
+          Pa<lb break="no" ed="#P" n="54"/>normit. in cap. Diversis, de Cleric. conjug.,
+          <lb ed="#P" n="55"/>n. 4, et incap. Cum in cunctis, S Inferiora, de
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Elect., n. 8, cum Gloss. in cap. unic. de Atat.
+          <lb ed="#P" n="57"/>et qualitat., in 6 ; Rebuff., referens plures in
+          <lb ed="#P" n="58"/>pract., t. de Dispensat., n. 15 et 16, et plures
+          <lb ed="#P" n="59"/>refert Anton. Gabr., sup., et plures Menoch.,
+          <lb ed="#P" n="60"/>de Praes. 1. 2, praes. 20, n. 24 et 25, et plures
+          <lb ed="#P" n="61"/>alin ; Sanc., lib. 8 de Matrim., disp. 4, n. 15.
+          <lb ed="#P" n="62"/>Et rationem differentiae assignant, quia 
+          prin<lb break="no" ed="#P" n="63"/>ceps potest valide dispensare sine causae 
+          co<lb break="no" ed="#P" n="64"/>gnitione, non vero inferior ; in dispensatione
+          <lb ed="#P" n="65"/>autem tacita non intercedit causae cognitio, et
+          <lb ed="#P" n="66"/>ideo tunc non praesumitur voluntas, quia esset
+          <lb ed="#P" n="67"/>temeraria, et licet admitteretur non esset 
+          suf<lb break="no" ed="#P" n="68"/>ficiens. Quia vero dicta ratio universalis non
+          <lb ed="#P" n="69"/>est, ideo alii subdistinguunt in inferioribus
+          <lb ed="#P" n="70"/>dispensationibus : nam vel dispensant in 
+          pro<lb break="no" ed="#P" n="71"/>prio jure, vel in jure superioris. In priori casu,
+          <lb ed="#P" n="72"/>absolute possunt per tacitam dispensationem
+          <lb ed="#P" n="73"/>jus suum relaxare, quia eamdem 
+          proportio<lb break="no" ed="#P" n="74"/>nem ad illud habent quam princeps supremus
+          <lb ed="#P" n="75"/>ad commune jus, et eorum dispensatio valet
+          <lb ed="#P" n="76"/>etiam sine causa, ut infra dicemus. In 
+          poste<lb break="no" ed="#P" n="77"/>riori autem casu, aiunt non posse tacite 
+          dispen<lb break="no" ed="#P" n="78"/>sare propter rationem factam. Ita 
+          supplemen<lb break="no" ed="#P" n="79"/>tum Gabr., in 4 distinct. 38, quaest. 1, art. 5,
+          <lb ed="#P" n="80"/>dub. penult. ; et sequitur Navarr. in Summ.,
+          <lb ed="#P" n="81"/>praelud. 9, n. 15, et cap. 25, n. 74, ubi hoc
+          <lb ed="#P" n="82"/>limitat ut procedat in foro exteriori: Nam in
+          <lb ed="#P" n="83"/>foro conscientie aliud, inquit, fortasse verum
+          <lb ed="#P" n="84"/>est. Sequitur Azor., lib. 5, cap. 15, q. 10, in
+          <lb ed="#P" n="85"/>1 tom., extendens hoc ad forum conscientia.
+          <lb ed="#P" n="86"/>Alter Sylvest., verb. Dispensatio, quaest. ult.,
+          <lb ed="#P" n="87"/>indicat non repugnare dispensationem esse
+          <lb ed="#P" n="88"/>tantum tacitam et fieri cum causae cognitione,
+          <lb ed="#P" n="89"/>et ideo (inquit) si Episcopus procedat cum 
+          cau<lb break="no" ed="#P" n="90"/>sae cognitione dispensando tacite in lege 
+          supe<lb break="no" ed="#P" n="91"/>rioris, esse validam dispensationem. Qui ita
+          <lb ed="#P" n="92"/>videtur limitare et exponere superiorem 
+          com<lb break="no" ed="#P" n="93"/>munem opinionem. Et eamdem sententiam 
+          in<lb break="no" ed="#P" n="94"/>dicavit Cajetan. 2. 2, quaest. 104, a. 5, infine.
+        </p>
+        <p xml:id="szdleg-q14533-d1e936">
+          <lb ed="#P" n="95"/>13. Ali vero et plurimi auctores 
+          indifferen<lb break="no" ed="#P" n="96"/>ter dicunt dispensationem tacitam habere 
+          lo<lb break="no" ed="#P" n="97"/>cum in quocumque potente dispensare, sive in
+          <lb ed="#P" n="98"/>jure suo, sive in jure superioris dispenset. Et
+          <lb ed="#P" n="99"/>hanc opinionem ego tenui in tomo de Censur.,
+          <lb ed="#P" n="100"/>disp. 41, sect. 3, in fine, cum Palud., in 3,
+          <lb ed="#P" n="101"/>d. 38, q. 4, art. 4, concl. 2; Anton., 2 part.,
+          <lb ed="#P" n="102"/>tit. 11, c. 2, S 9. Et idem tenet Angel., verb.
+          <lb ed="#P" n="103"/>Dispensatio, n. 12; Medin. in Sum., 1 part.,
+          <lb ed="#P" n="104"/>cap. 11, S 12, dicens: Si Praelatus religionis
+          <lb ed="#P" n="105"/>det litteras dimissorias ad ordines suscipiendos
+          <lb ed="#P" n="106"/>subdito quem scit esse irregularem, eo ipso
+          <lb ed="#P" n="107"/>dispensare cum illo cum possit, ut 
+          supponi<lb break="no" ed="#P" n="108"/>tur. Idem Ludovic. Lop. in Instruct., 1 part.,
+          <lb ed="#P" n="109"/>cap. 4. Denique hoc late defendit Sanci. supra,
+          <lb ed="#P" n="110"/>referens plures auctores. Et sane consequenter
+          <pb ed="#P" n="62"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>loquendo ita dicendum est, si praecise sistamus
+          <lb ed="#P" n="2"/>in ratione tacitae dispensationis, quia in 
+          om<lb break="no" ed="#P" n="3"/>nibus est eadcm ratio; nam in omnibus 
+          suppo<lb break="no" ed="#P" n="4"/>nitur potestas dispensandi, et est eadem 
+          prae<lb break="no" ed="#P" n="5"/>sumptio voluntatis, et nulli Praelato est 
+          prae<lb break="no" ed="#P" n="6"/>scripta in jure certa forma dispensandi, neque
+          <lb ed="#P" n="7"/>etiam ut per verba expressa dispenset.
+        </p>
+        <p xml:id="szdleg-q14533-d1e993">
+          <lb ed="#P" n="8"/>14. Status quaestionis magis aperitur. — Ut
+          <lb ed="#P" n="9"/>autem haec ratio declaretur , advertendum est
+          <lb ed="#P" n="10"/>aliud esse tractare quo signo debeat voluntas
+          <lb ed="#P" n="11"/>dispensantis indicari ut ad dispensandum 
+          suffi<lb break="no" ed="#P" n="12"/>ciat, aliud vero quae conditiones debeant 
+          con<lb break="no" ed="#P" n="13"/>currere ut illa voluntas sit efficax : hic enim
+          <lb ed="#P" n="14"/>non hoc posterius agimus, sed illud tantum
+          <lb ed="#P" n="15"/>prius. Unde, licet verum sit ad dispensandum
+          <lb ed="#P" n="16"/>in jure superioris esse necessariam justam
+          <lb ed="#P" n="17"/>causam, et sine illa non esse validam 
+          dispen<lb break="no" ed="#P" n="18"/>sationem, ut infra trademus, tamen haec 
+          diffe<lb break="no" ed="#P" n="19"/>rentia impertinens est ad quaestionem de tacita
+          <lb ed="#P" n="20"/>dispensatione quam tractamus ; quia et tacita
+          <lb ed="#P" n="21"/>dispensatio potest fieri ex justa causa, tam in
+          <lb ed="#P" n="22"/>lege superioris quam in propria seu juris 
+          aequa<lb break="no" ed="#P" n="23"/>lis, ut sic dicam, et e converso expressa 
+          dis<lb break="no" ed="#P" n="24"/>pensatio potest dari sine justa causa, et tunc
+          <lb ed="#P" n="25"/>etiam erit nulla si ab inferiori detur in lege
+          <lb ed="#P" n="26"/>superioris. Et confirmatur, quia si dispensatio
+          <lb ed="#P" n="27"/>tacita non posset esse ex justa causa, 
+          nun<lb break="no" ed="#P" n="28"/>quam praesumeretur etiam in supremo 
+          princi<lb break="no" ed="#P" n="29"/>pe quia consequenter praesumeretur concedi
+          <lb ed="#P" n="30"/>sine justa causa, et sic in ea praesumeretur
+          <lb ed="#P" n="31"/>peccatum, quod admittendum non est, 
+          maxi<lb break="no" ed="#P" n="32"/>me quando non est necessarium ad vitandum
+          <lb ed="#P" n="33"/>majus peccatum, ut hic esse potest. Potest ergo
+          <lb ed="#P" n="34"/>dispensatio esse tacita et ex justa causa ; ergo
+          <lb ed="#P" n="35"/>potest esse in inferiori, etiam in lege 
+          superio<lb break="no" ed="#P" n="36"/>ris. Tunc enim optime procedit ratio facta,
+          <lb ed="#P" n="37"/>quod in eo non deest potestas ad 
+          dispensan<lb break="no" ed="#P" n="38"/>dum absolute, ut supponitur, et indicium 
+          ta<lb break="no" ed="#P" n="39"/>citae voluntatis esse potest idem vel aequale,
+          <lb ed="#P" n="40"/>nec praesumitur peccatum , quia potest talis
+          <lb ed="#P" n="41"/>dispensatio esse ex justa causa, et 
+          consequen<lb break="no" ed="#P" n="42"/>ter justa et valida quantum est ex parte causae.
+          <lb ed="#P" n="43"/>Nec etiam est invalida ex defectu formae, quia
+          <lb ed="#P" n="44"/>nulla cst praescripta in jure, etiam pro 
+          inferio<lb break="no" ed="#P" n="45"/>ribus dispensantibus ; nec etiam invenitur eis
+          <lb ed="#P" n="46"/>praeceptum ut per verba expressa dispensent,
+          <lb ed="#P" n="47"/>sed oppositum potius invenitur per 
+          argumen<lb break="no" ed="#P" n="48"/>tum a contrario sensu in cap. 2 de Bigam.
+        </p>
+        <p xml:id="szdleg-q14533-d1e1084">
+          <lb ed="#P" n="49"/>15. Dices, aliud esse dispensare ex justa
+          <lb ed="#P" n="50"/>causa, aliud dispensare cum cognitione causae,
+          <lb ed="#P" n="51"/>et illud prius posse optime simul esse cum 
+          dis<lb break="no" ed="#P" n="52"/>pensatione tacita, non vero hoc posterius.
+          <lb ed="#P" n="53"/>Quia cognitio causae requirit ut juridice 
+          inqui<lb break="no" ed="#P" n="54"/>ratur et constet intercedere sufficientem 
+          cau<lb break="no" ed="#P" n="55"/>sam ad dispensandum, cum decreto seu sen-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tentia de sufficientia causae. Quod videtur 
+          si<lb break="no" ed="#P" n="57"/>gnificasse Angel. verb. Dispensatio, n. 12,
+          <lb ed="#P" n="58"/>dum ait requiri causam esse notam Praelato
+          <lb ed="#P" n="59"/>tanquam judici. Quando autem haec cognitio
+          <lb ed="#P" n="60"/>praemittitur, satis expresse significatur 
+          volun<lb break="no" ed="#P" n="61"/>tas dispensandi, quae significatio consummari
+          <lb ed="#P" n="62"/>potest per aliquod factum postea subsecutum ;
+          <lb ed="#P" n="63"/>et ideo licet postea non interponatur verbum
+          <lb ed="#P" n="64"/>dispensandi , censebitur expressa dispensatio.
+          <lb ed="#P" n="65"/>In iuferioribus autem requiritur ut dispensent
+          <lb ed="#P" n="66"/>non solum ex justa causa, sed etiam ex causae
+          <lb ed="#P" n="67"/>cognitione, maxime quando dispensant in jure
+          <lb ed="#P" n="68"/>communi seu superioris, et ideo non possunt
+          <lb ed="#P" n="69"/>in eo nisi expresse dispensare.
+        </p>
+        <p xml:id="szdleg-q14533-d1e1135">
+          <lb ed="#P" n="70"/>16. Quae cognitio causae sufficit in foro 
+          ex<lb break="no" ed="#P" n="71"/>terno. — Sed hoc etiam non satisfacit ; nam
+          <lb ed="#P" n="72"/>imprimis in foro conscientiae non est 
+          necessa<lb break="no" ed="#P" n="73"/>ria illa juridica cognitio causae, sed satis est
+          <lb ed="#P" n="74"/>quod subsit justa causa quae dispensanti 
+          quo<lb break="no" ed="#P" n="75"/>modocumque nota sit. Imo subdito satis erit
+          <lb ed="#P" n="76"/>quod bona fide procedat, et praesumat 
+          supe<lb break="no" ed="#P" n="77"/>riorem suum juste procedere et habere justam
+          <lb ed="#P" n="78"/>causam, quando non habet fundamentum 
+          con<lb break="no" ed="#P" n="79"/>trarium existimandi : quin etiam in dubio 
+          po<lb break="no" ed="#P" n="80"/>test suam conscientiam deponere; secus vero
+          <lb ed="#P" n="81"/>esset si illi constaret nullam subesse justam
+          <lb ed="#P" n="82"/>causam, quod tamen totum aeque locum habet
+          <lb ed="#P" n="83"/>in expressa ac in tacita dispensatione. Deinde
+          <lb ed="#P" n="84"/>etiam quoad forum externum existimo satis
+          <lb ed="#P" n="85"/>esse causam esse notam Praelato, ut homini,
+          <lb ed="#P" n="86"/>ut asseruit Sylv., verbo Dispensatio, in fin.,
+          <lb ed="#P" n="87"/>cum Bart. in l. Barbarius, ff. de Offic. 
+          Prae<lb break="no" ed="#P" n="88"/>tor.. n. 8, quia nulla ratione probatur esse
+          <lb ed="#P" n="89"/>necessarium ad valorem dispensationis ut 
+          pro<lb break="no" ed="#P" n="90"/>cedat illa juridica examinatio et cognitio 
+          cau<lb break="no" ed="#P" n="91"/>sae. Quamvis enim verum sit in illo foro non
+          <lb ed="#P" n="92"/>fore admittendam talem dispensationem, nisi
+          <lb ed="#P" n="93"/>legitime probetur ex causa justa esse 
+          conces<lb break="no" ed="#P" n="94"/>sam, nihilominus si post factum hoc probetur,
+          <lb ed="#P" n="95"/>sufficiens esse videtur ut sit valida etiam in
+          <lb ed="#P" n="96"/>illo foro. Ergo, absolute loquendo, qui potest
+          <lb ed="#P" n="97"/>dispensare expresse, potest etiam tacite, si in
+          <lb ed="#P" n="98"/>reliquis necessaria concurrant.
+        </p>
+        <p xml:id="szdleg-q14533-d1e1200">
+          <lb ed="#P" n="99"/>17. Duplex modus quibus tacita dispensatio
+          <lb ed="#P" n="100"/>colligatur.—Jam vero explicandum superest
+          <lb ed="#P" n="101"/>(in quo major difficultas consistit) quibus 
+          mo<lb break="no" ed="#P" n="102"/>dis vel signis haec éacita dispensatio 
+          sufficien<lb break="no" ed="#P" n="103"/>ter praesumatur, ita ut conscientiae dispensati
+          <lb ed="#P" n="104"/>satisfacere possit, illam quietam et pacificam
+          <lb ed="#P" n="105"/>reddendo, et in foro etiam externo admittenda
+          <lb ed="#P" n="106"/>sit, si legitime probetur. In quo duo modi 
+          hu<lb break="no" ed="#P" n="107"/>jus tacitae dispensationis tradi solent. Unus est
+          <lb ed="#P" n="108"/>per scientiam et patientiam Praelati 
+          rationabi<lb break="no" ed="#P" n="109"/>lem (ut aliqui loquuntur). Hic ergo modus
+          <lb ed="#P" n="110"/>contingit quando Praelato vidente subditus
+          <pb ed="#P" n="63"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>contra legem operatur, verbi gratia, 
+          matri<lb break="no" ed="#P" n="2"/>monium contrahit impedimentum habens, vel
+          <lb ed="#P" n="3"/>quid simile, et superior non impedit nec 
+          con<lb break="no" ed="#P" n="4"/>tradicit, cum facile posset, sed tolerat; tunc
+          <lb ed="#P" n="5"/>enim consentire praesumitur dispensando. 
+          Ra<lb break="no" ed="#P" n="6"/>tio est, quia praesumitur id permittere sine
+          <lb ed="#P" n="7"/>peccato suo et subditi, quoad fieri possit; at
+          <lb ed="#P" n="8"/>si non taceret ex voluntate dispensandi, et
+          <lb ed="#P" n="9"/>subditus peccaret, ut constat, et ipse etiam
+          <lb ed="#P" n="10"/>peccaret contra officium suum, cum teneatur
+          <lb ed="#P" n="11"/>subditum corripere, ac impedire ne frangat
+          <lb ed="#P" n="12"/>legem; ergo illud est sufficiens signum tacitae
+          <lb ed="#P" n="13"/>dispensationis. Et confirmatur, quia illa 
+          taci<lb break="no" ed="#P" n="14"/>turnitas est quaedam ratihabitio de praesenti,
+          <lb ed="#P" n="15"/>quae mandato comparatur, ut dicitur in cap.
+          <lb ed="#P" n="16"/>Ratihabitio, de Regul. jur., in 6. Et ideo 
+          suffi<lb break="no" ed="#P" n="17"/>cit etiam ad delegandam jurisdictionem et ad
+          <lb ed="#P" n="18"/>alios similes actus, ut multi opinantur quos
+          <lb ed="#P" n="19"/>refert et sequitur Sanci., lib. 3 de Matrimon.,
+          <lb ed="#P" n="20"/>disp. 35, n. 20; ergo multo magis ad 
+          dispen<lb break="no" ed="#P" n="21"/>sandum sufficiet. Accedit etiam regula 43 juris
+          <lb ed="#P" n="22"/>in 6: Qui tacet consentire videtur ; nam habet
+          <lb ed="#P" n="23"/>locum in eo ad quem spectat ex officio non
+          <lb ed="#P" n="24"/>tacere, nisi consentiat et approbet factum ;
+          <lb ed="#P" n="25"/>ergo, etc. Atque hoc signum et genus tacitae
+          <lb ed="#P" n="26"/>dispensationis admittunt simpliciter et sine
+          <lb ed="#P" n="27"/>distinctione Palud. et Anton., et indicant Nav.
+          <lb ed="#P" n="28"/>et Azor.; et idem sumitur ex Panor. in c. Quia
+          <lb ed="#P" n="29"/>circa, de Consang. et affinit., in fine, ubi ex
+          <lb ed="#P" n="30"/>illo textu id colligit, quamvis possit etiam 
+          ali<lb break="no" ed="#P" n="31"/>ter exponi. Idem Panorm. lib. 2 Consilior.,
+          <lb ed="#P" n="32"/>cons. 55, n. 5, et Alex., l. 2 Consilior., in 1,
+          <lb ed="#P" n="33"/>in fine.
+        </p>
+        <p xml:id="szdleg-q14533-d1e1304">
+          <lb ed="#P" n="34"/>18. Nihilominus contrarium sentiunt 
+          com<lb break="no" ed="#P" n="35"/>muniter canonistae cum Innoc. et Hostiens. in
+          <lb ed="#P" n="36"/>c. leniens, de Filiis Presb., et Gloss. in 
+          Cle<lb break="no" ed="#P" n="37"/>ment. unic. de Sentent. excom., verb. 
+          Appro<lb break="no" ed="#P" n="38"/>bamus, quam communiter sequuntur his locis
+          <lb ed="#P" n="39"/>Panorm., Anton., Cardinal. et Imol., et fere
+          <lb ed="#P" n="40"/>alii, et Felin. in c. Gratum, de Offic. deleg.,
+          <lb ed="#P" n="41"/>n. 9, et in c. Praeterea, de Testib. cog., n.8;
+          <lb ed="#P" n="42"/>Card. in c. Olim, de Censib.; Anton. Gabr.,
+          <lb ed="#P" n="43"/>supra, n. 18; Selva, de Benef., p. 3, q. 8, n. A9,
+          <lb ed="#P" n="44"/>et q. 10, n. 25; Menoch., 1. 2, prassumpt. 20,
+          <lb ed="#P" n="45"/>n. 32; Sayrus, l. 7. Thes., c. 14, n. 18;et
+          <lb ed="#P" n="46"/>hanc sententiam in simili tenui in 4t., disp.
+          <lb ed="#P" n="47"/>26, sect. 1, a n. 13, licet illam non satis 
+          expli<lb break="no" ed="#P" n="48"/>cuerim. Et sumitur ex Glossa cum textu in c.
+          <lb ed="#P" n="49"/>Cum jamdudum, de Praeben., ibi, cum 
+          mul<lb break="no" ed="#P" n="50"/>ta per patientiam tolerentur , quae si deducta
+          <lb ed="#P" n="51"/>tuerint in judicium, exigente justitia non 
+          de<lb break="no" ed="#P" n="52"/>bent tolerari ; unde Glossa colligit patientiam
+          <lb ed="#P" n="53"/>Praelati scientis non esse signum consensus
+          <lb ed="#P" n="54"/>nec dispensationis. Facit etiam c. Super eo,
+          <lb ed="#P" n="55"/>de Cognat. spiritua., ibi: In Heclesia tua dis-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>simulare poteris, ita quod nec contradicere nec
+          <lb ed="#P" n="57"/>tuum videaris praestare assensum. Ex quibus
+          <lb ed="#P" n="58"/>colligitur fundamentum hujus sententiae, quia
+          <lb ed="#P" n="59"/>sola patientia non est sufficiens signum 
+          con<lb break="no" ed="#P" n="60"/>sensus. Nam, licet dicatur quis consentire 
+          in<lb break="no" ed="#P" n="61"/>directe quando tenetur impedire et non 
+          impe<lb break="no" ed="#P" n="62"/>dit, non tamen inde colligi potest directa 
+          vo<lb break="no" ed="#P" n="63"/>luntas qualis ad dispensandum requiritur, et
+          <lb ed="#P" n="64"/>hoc est quod canonistae aiunt, illa que 
+          tan<lb break="no" ed="#P" n="65"/>twn in patiendo consistunt, non esse sufficiens
+          <lb ed="#P" n="66"/>sigmun dispensationis quae actum positivum
+          <lb ed="#P" n="67"/>requirit.
+        </p>
+        <p xml:id="szdleg-q14533-d1e1382">
+          <lb ed="#P" n="68"/>19. Tertius ratihabitionis modus non est
+          <lb ed="#P" n="69"/>sufficiens.—lIn hoc puncto distingui solet 
+          tri<lb break="no" ed="#P" n="70"/>plex ratihabitio, de futuro, praeterito, et 
+          prae<lb break="no" ed="#P" n="71"/>senti. Prima est per solam praesumptam 
+          vo<lb break="no" ed="#P" n="72"/>luntatem seu dispensationem Praelati, ita ut,
+          <lb ed="#P" n="73"/>quando subditus contra legem operatur, 
+          Prae<lb break="no" ed="#P" n="74"/>latus nihil sciat aut velit, sed credatur postea
+          <lb ed="#P" n="75"/>consensurus cum sciverit, et quod, si nunc 
+          con<lb break="no" ed="#P" n="76"/>suli posset, dispensaret. De praesenti dicitur
+          <lb ed="#P" n="77"/>praesumptus consensus, vel ratihabitio, quando
+          <lb ed="#P" n="78"/>Praelatus est praesens actioni quae fit contra
+          <lb ed="#P" n="79"/>legem, et tacet. De praeterito autem erit si
+          <lb ed="#P" n="80"/>praecessit tacitus consensus in actum postea
+          <lb ed="#P" n="81"/>futurum, et retractatus non est. Verumtamen si
+          <lb ed="#P" n="82"/>quis recte attendat, hic tertius modus in 
+          prae<lb break="no" ed="#P" n="83"/>senti locum non habet, nisi prius de praesenti
+          <lb ed="#P" n="84"/>decesserit et liquerit dispensationem validam,
+          <lb ed="#P" n="85"/>etiam pro actibus futuris. Quia, licet scientia
+          <lb ed="#P" n="86"/>esse possit de actu praeterito, taciturnitas 
+          pro<lb break="no" ed="#P" n="87"/>prie non est nisi de actu praesenti, qui potest
+          <lb ed="#P" n="88"/>impediri : nam praeteritus actus non potest;
+          <lb ed="#P" n="89"/>sed ad summum potest non puniri, quod non
+          <lb ed="#P" n="90"/>est signum dispensationis in ordine ad futuros
+          <lb ed="#P" n="91"/>actus, ut per se notum est. Circa actum ergo
+          <lb ed="#P" n="92"/>praeteritum secundum se non est tolerantia
+          <lb ed="#P" n="93"/>voluntaria, sed necessaria, et ita non est 
+          si<lb break="no" ed="#P" n="94"/>gnum consensus, nec etiam talis actus 
+          secun<lb break="no" ed="#P" n="95"/>dum se dispensationis est capax: nam si fuit
+          <lb ed="#P" n="96"/>contra legem non potest non fuisse, poterit
+          <lb ed="#P" n="97"/>autem dispensari quoad poenam, et sic cadet
+          <lb ed="#P" n="98"/>dispensatio in aliquid praesens vel futurum;
+          <lb ed="#P" n="99"/>si vero dicatur ex taciturnitate in aliquo actu
+          <lb ed="#P" n="100"/>praeterito quando fuit praesens, induci 
+          dispen<lb break="no" ed="#P" n="101"/>sationem in ordine ad sequentes actus similes,
+          <lb ed="#P" n="102"/>et illa dicatur ratihabitio de praeterito, jam
+          <lb ed="#P" n="103"/>haec reducitur ad aliam de praesenti, et ideo ex
+          <lb ed="#P" n="104"/>illa pendet, ut videbimus.
+        </p>
+        <p xml:id="szdleg-q14533-d1e1465">
+          <lb ed="#P" n="105"/>20. Insufficientia primi ratibabitionis modi
+          <lb ed="#P" n="106"/>ostenditur.— Differentia inter simplicem 
+          fa<lb break="no" ed="#P" n="107"/>cultatem, et dispensationem. — Praeterea, de
+          <lb ed="#P" n="108"/>prima ratihabitione de futuro, certum existimo
+          <lb ed="#P" n="109"/>non sufticere ad propriam dispensationem, 
+          ne<lb break="no" ed="#P" n="110"/>que ad agendum licite contra legem, nisi quan-
+          <pb ed="#P" n="64"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>do talis est casus ut necessitas cogat,
+          censeatur<lb break="no" ed="#P" n="2"/>que locum habere epiikia. Ratio est quia 
+          quam<lb break="no" ed="#P" n="3"/>diu obligatio legis per se non cessat ratione
+          <lb ed="#P" n="4"/>occurrentis necessitatis vel occasionis, durat
+          <lb ed="#P" n="5"/>donec per voluntatem superioris auferatur ;
+          <lb ed="#P" n="6"/>per voluntatem autem praesumptam in 
+          futu<lb break="no" ed="#P" n="7"/>rum non aufertur de praesenti obligatio; ergo
+          <lb ed="#P" n="8"/>non satis est ad operandum contra legem. Qua
+          <lb ed="#P" n="9"/>ratione alibi dixi (et est communis 
+          senten<lb break="no" ed="#P" n="10"/>tia) hujusmodi ratihabitionem de futuro non 
+          es<lb break="no" ed="#P" n="11"/>se aatis ad actus jurisdictionis in praesenti 
+          exer<lb break="no" ed="#P" n="12"/>cendos. Sicut etiam e contrario, praeceptum
+          <lb ed="#P" n="13"/>prasumptum in futurum, vel sub conditione
+          <lb ed="#P" n="14"/>quod si superior adesset prohiberet, non satis
+          <lb ed="#P" n="15"/>est in rigore ad inducendam praecepti 
+          obligatio<lb break="no" ed="#P" n="16"/>nem. Unde in hoc invenio differentiam inter
+          <lb ed="#P" n="17"/>simplicem facultatem et propriam 
+          dispensatio<lb break="no" ed="#P" n="18"/>nem, quod in illa interdum sufficit voluntas
+          <lb ed="#P" n="19"/>praesumpta ad licite operandum ; quomodo
+          <lb ed="#P" n="20"/>dicunt communiter auctores non agere contra
+          <lb ed="#P" n="21"/>paupertatem religiosum dantem aliquid ex 
+          vo<lb break="no" ed="#P" n="22"/>luntate praesumpta superioris, quando non
+          <lb ed="#P" n="23"/>potest facile obtinere expressam, quod tamen
+          <lb ed="#P" n="24"/>in dispensatione non admittimus; et ratio
+          <lb ed="#P" n="25"/>differentiae est quia ibi actio non est 
+          simplici<lb break="no" ed="#P" n="26"/>ter probibita, sed solum ut non fiat absque
+          <lb ed="#P" n="27"/>superioris voluntate, quae conditio extenditur
+          <lb ed="#P" n="28"/>ad voluntatem praesumptam ex communi usu
+          <lb ed="#P" n="29"/>et prudenti ratione. Hic autem actio 
+          supponi<lb break="no" ed="#P" n="30"/>tur absolute prohibita, et ob eam rationem 
+          ma<lb break="no" ed="#P" n="31"/>la, et ideo de praesenti necessaria est aliqua
+          <lb ed="#P" n="32"/>voluntas quae prohibitionem et consequenter
+          <lb ed="#P" n="33"/>malitiam auferat.
+        </p>
+        <p xml:id="szdleg-q14533-d1e1556">
+          <lb ed="#P" n="34"/>21. Secunda sententia n foro emteriori 
+          pro<lb break="no" ed="#P" n="35"/>babilior.—lgitur opiniones propositae de 
+          rati<lb break="no" ed="#P" n="36"/>habitione seu tacito consensu, de praesenti 
+          lo<lb break="no" ed="#P" n="37"/>quuntur. Inter quas posterior videtur maxime
+          <lb ed="#P" n="38"/>procedere in foro exteriori, in quo majorem
+          <lb ed="#P" n="39"/>profecto videtur probabilitatem habere, et 
+          se<lb break="no" ed="#P" n="40"/>cundum eam omnino judicandum esse 
+          mora<lb break="no" ed="#P" n="41"/>liter ac regulariter loquendo; tum quia est
+          <lb ed="#P" n="42"/>valde communis inter graviores juris 
+          interpre<lb break="no" ed="#P" n="43"/>tes, quorum auctoritas in illo foro praeferenda
+          <lb ed="#P" n="44"/>est; tum etiam quia illa praesumptio in nullo
+          <lb ed="#P" n="45"/>jure fundata est, imo aliqua jura non parum
+          <lb ed="#P" n="46"/>illam diminuunt, ut ex allegatis constat, et ex
+          <lb ed="#P" n="47"/>Clement. ult. de Sentent. excommun. ; tum
+          <lb ed="#P" n="48"/>denique quia ipsum judicium taciturnitatis
+          <lb ed="#P" n="49"/>Praelati videntis factum est valde incertum, et
+          <lb ed="#P" n="50"/>de se solum indicat permissionem, non 
+          con<lb break="no" ed="#P" n="51"/>sensum. Et saepe potest illa permissio esse sine
+          <lb ed="#P" n="52"/>peccato Praelati, quia ita se gerit ad vitandum
+          <lb ed="#P" n="53"/>majus malum, vel propter indispositionem
+          <lb ed="#P" n="54"/>quam in subdito timet, vel propter scandalum
+          <lb ed="#P" n="55"/>aliorum, quando factum est publicum, vel quia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>aliud grave nocumentum timet. Saepe etiam
+          <lb ed="#P" n="57"/>potest esse illa permissio ex quadam 
+          negligen<lb break="no" ed="#P" n="58"/>tia et nimia conniventia Praelati, vel ex 
+          pusil<lb break="no" ed="#P" n="59"/>lanimitate nimia; et ideo licet superior non
+          <lb ed="#P" n="60"/>excusetur a culpa, non ideo praesumitur 
+          dis<lb break="no" ed="#P" n="61"/>pensatio, quia fortasse major esset culpa ita
+          <lb ed="#P" n="62"/>temere dispensare. Quod maxime habet locum
+          <lb ed="#P" n="63"/>quando dispensatio esse deberet in aliquo 
+          de<lb break="no" ed="#P" n="64"/>fectu permanente, ut in irregularitate, vel alio
+          <lb ed="#P" n="65"/>simili. Est enim incredibile, propterea quod
+          <lb ed="#P" n="66"/>Episcopus sciat subditum irregularem 
+          cele<lb break="no" ed="#P" n="67"/>brare et dissimulet, statim praesumi dispensare
+          <lb ed="#P" n="68"/>cum illo in irregularitate, etiamsi alias possit ;
+          <lb ed="#P" n="69"/>nisi ex aliis certioribus conjecturis de illius
+          <lb ed="#P" n="70"/>voluntate et justa causa dispensandi constet,
+          <lb ed="#P" n="71"/>quae conjectura in foro exteriori difficillime
+          <lb ed="#P" n="72"/>probari possunt, et fcrtasse non admittentur.
+        </p>
+        <p xml:id="szdleg-q14533-d1e1646">
+          <lb ed="#P" n="73"/>22. Prima sententia in foro interno cum
+          <lb ed="#P" n="74"/>moderamine non est rejcienda. —At vero in foro
+          <lb ed="#P" n="75"/>conscientiae non censeo esse omnino 
+          rejicien<lb break="no" ed="#P" n="76"/>dam priorem sententiam, dummodo prudenter
+          <lb ed="#P" n="77"/>limitetur. Nam sola taciturnitas dicta 
+          nun<lb break="no" ed="#P" n="78"/>quam videtur mihi sufficiens indicium 
+          volun<lb break="no" ed="#P" n="79"/>tatis positivae dispensandi propter discursum
+          <lb ed="#P" n="80"/>factum. Si tamen aliae circumstantiae 
+          adjunge<lb break="no" ed="#P" n="81"/>rentur, posset consummari praesumptio, ut si
+          <lb ed="#P" n="82"/>causa dispensandi tum subdito et superiori 
+          si<lb break="no" ed="#P" n="83"/>gillatim quam alteri de altero invicem nota
+          <lb ed="#P" n="84"/>esset, et intercederet aliqua occasio justa non
+          <lb ed="#P" n="85"/>petendi expressum consensum, et ex 
+          consue<lb break="no" ed="#P" n="86"/>tudine inter subditum et superiorem praesumi
+          <lb ed="#P" n="87"/>prudenter possit talis voluntas superioris. In
+          <lb ed="#P" n="88"/>quo est maxime advertendum pro conscientiae
+          <lb ed="#P" n="89"/>foro, ut subditus in eo casu honeste operetur,
+          <lb ed="#P" n="90"/>necessarium esse ut ante factum praesumat 
+          se<lb break="no" ed="#P" n="91"/>cum esse dispensatum ; nemo enim potest 
+          ho<lb break="no" ed="#P" n="92"/>neste operari contra legem spe futurae 
+          dispen<lb break="no" ed="#P" n="93"/>sationis, sed necessarium est ut praecedat 
+          no<lb break="no" ed="#P" n="94"/>titia dispensationis , ut infra in materia de
+          <lb ed="#P" n="95"/>Privileg. latius dicemus. Ergo impossibile est
+          <lb ed="#P" n="96"/>quod haec dispensatio tacita fundetur in 
+          scien<lb break="no" ed="#P" n="97"/>tia et patientia operis jam facti, alioqui jam
+          <lb ed="#P" n="98"/>esset factum opus ante dispensationem ; ergo
+          <lb ed="#P" n="99"/>cum peccato esset factum ; ergo ex illo nulla
+          <lb ed="#P" n="100"/>conjectura sumi potest dispensationis ; oportet
+          <lb ed="#P" n="101"/>ergo ut antequam subditus inchoet opus habeat
+          <lb ed="#P" n="102"/>rationes alias praesumendi Praelatum 
+          praesen<lb break="no" ed="#P" n="103"/>tem esse contentum , et tacite secum 
+          dispen<lb break="no" ed="#P" n="104"/>sare ut tale opus faciat. Unde etiam colligo
+          <lb ed="#P" n="105"/>hanc praesumptionem non esse extendendam
+          <lb ed="#P" n="106"/>ultra opus illud quod fit coram Praelato ; nam,
+          <lb ed="#P" n="107"/>licet in illo censeatur dispensare, non ideo 
+          cen<lb break="no" ed="#P" n="108"/>setur tacite dispensare ad similia, nisi forte
+          <lb ed="#P" n="109"/>tanta sit consuetudo ut intelligatur concessa
+          <lb ed="#P" n="110"/>perpetua dispensatio et quasi privilegium, ut
+          <pb ed="#P" n="65"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>infra suo loco dicetur. Quocirca si talis esset
+          <lb ed="#P" n="2"/>dispensatio ut non posset dari pro actu 
+          prae<lb break="no" ed="#P" n="3"/>senti, nisi habilitando personam in futurum ad
+          <lb ed="#P" n="4"/>similes actus , ut de irregularitate dixi, tunc
+          <lb ed="#P" n="5"/>difficilior erit praesumptio , et vix potest dari
+          <lb ed="#P" n="6"/>Heentia utendi postea tali dispensatione tacita,
+          <lb ed="#P" n="7"/>non requirendo expressam declarationem 
+          vo<lb break="no" ed="#P" n="8"/>luntatis Praelati, cum possit facile fieri.
+        </p>
+        <p xml:id="szdleg-q14533-d1e1753">
+          <lb ed="#P" n="9"/>23. Secundus modus tacitae dispensationis.
+          <lb ed="#P" n="10"/>——Alius modus tacitae dispensationis est, 
+          quan<lb break="no" ed="#P" n="11"/>do superior ex certa scientia aliquid praecipit
+          <lb ed="#P" n="12"/>vel concedit subdito, quod sine dispensatione
+          <lb ed="#P" n="13"/>Reri aut valere non potest; ut si Pontifex det
+          <lb ed="#P" n="14"/>beneficium alicui quem scit esse irregularem,
+          <lb ed="#P" n="15"/>vel si praecipiat comedere carnes die 
+          prohibi<lb break="no" ed="#P" n="16"/>to. Ita docent Innocent., Hostiens., Panormit.
+          <lb ed="#P" n="17"/>et alii in locis citatis, et hunc solum modum
+          <lb ed="#P" n="18"/>posuit Rebufft. in dicto titul. Dispensat.. a n. 5,
+          <lb ed="#P" n="19"/>ubi alios allegat; et Anton. Gabr. et alii 
+          su<lb break="no" ed="#P" n="20"/>pra allegati. Et colligitur ex leg. Quidam, ft.
+          <lb ed="#P" n="21"/>de Re judic., ibi: Princeps enim qui illi 
+          digni<lb break="no" ed="#P" n="22"/>tatem dedit, omnia genere decrevit. Idem in l.
+          <lb ed="#P" n="23"/>Barbarius, ff. de Offic. Praetor. Ratio est, quia
+          <lb ed="#P" n="24"/>princeps non praecipit repugnantia, nec 
+          praesu<lb break="no" ed="#P" n="25"/>mitur praecipere iniquitatem vel facere actum
+          <lb ed="#P" n="26"/>inyalidum; ergo intelligitur concedendo aut
+          <lb ed="#P" n="27"/>praecipiendo tollere impedimentum. Et ita haec
+          <lb ed="#P" n="28"/>conjectura est multo efficacior quam 
+          praece<lb break="no" ed="#P" n="29"/>dens, quia haec requirit actum positivum qui
+          <lb ed="#P" n="30"/>virtute includit alium: nam qui introducit
+          <lb ed="#P" n="31"/>formam censetur praemittere dispositiones, et
+          <lb ed="#P" n="32"/>qui dat potestatem dat omnia necessaria ad
+          <lb ed="#P" n="33"/>illam ; unde ita est haec dispensatio tacita ut
+          <lb ed="#P" n="34"/>possit dici virtualis, quod non ita est in 
+          prae<lb break="no" ed="#P" n="35"/>cedenti indicio. Et hae rationes procedunt de
+          <lb ed="#P" n="36"/>quolibet Praelato potente dispensare, sicut de
+          <lb ed="#P" n="37"/>supremo principe, neque invenitur in hac
+          <lb ed="#P" n="38"/>parte specialis prohibitio, et ideo necessarium
+          <lb ed="#P" n="39"/>non est inter eos distinguere, ut supra dixi.
+        </p>
+        <p xml:id="szdleg-q14533-d1e1823">
+          <lb ed="#P" n="40"/>24. Oportet autem Praelatum procedere in
+          <lb ed="#P" n="41"/>eo actu ex certa scientia defectus seu vinculi
+          <lb ed="#P" n="42"/>in quo tacite dispensat, quia si illud ignoret
+          <lb ed="#P" n="43"/>non poterit voluntas ad illud tollendum 
+          exten<lb break="no" ed="#P" n="44"/>di, quia voluntas non fertur in incognitum, et
+          <lb ed="#P" n="45"/>ita etiam cessabit dispensatio, quae sine 
+          vo<lb break="no" ed="#P" n="46"/>luntate esse non posset. Dubitant autem 
+          doc<lb break="no" ed="#P" n="47"/>tores quomodo constare debeat de hac scientia
+          <lb ed="#P" n="48"/>principis dispensantis. Verumtamen quod 
+          atti<lb break="no" ed="#P" n="49"/>net ad conscientiae forum, satis est quod 
+          qua<lb break="no" ed="#P" n="50"/>cumque ratione constet ipsi dispensato, ut quia
+          <lb ed="#P" n="51"/>ipsemet defectum aperuit Praelato, vel quia
+          <lb ed="#P" n="52"/>certo sciebat illi esse notum. Quia in foro 
+          con<lb break="no" ed="#P" n="53"/>scientiae veritas attenditur, non praesumptio,
+          <lb ed="#P" n="54"/>nec requiritur scriptura vel aliquid simile. In
+          <lb ed="#P" n="55"/>oro autem exteriori incumbet ei qui dispen-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sationem tacitam allegat probare Praelatum ex
+          <lb ed="#P" n="57"/>certa scientia processisse, quia est scientia facti
+          <lb ed="#P" n="58"/>quae ordinarie non praesumitur, ut docet Felin.
+          <lb ed="#P" n="59"/>in cap. Praterea, de Testibus cogen., n. 9,
+          <lb ed="#P" n="60"/>cum aliis. Quod maxime verum censeo de 
+          prin<lb break="no" ed="#P" n="61"/>cipe, qui nec tenetur nec potest facta 
+          subdito<lb break="no" ed="#P" n="62"/>rum nosse, juxta cap. 1 de Constitut., in 6. In
+          <lb ed="#P" n="63"/>Episcopo autem aut Praelatis particularibus,
+          <lb ed="#P" n="64"/>qui ex officio tenentur scire vitam subditorum,
+          <lb ed="#P" n="65"/>contrarium fortasse dicendum esset, quia in
+          <lb ed="#P" n="66"/>facto alieno quod quis indagare tenetur 
+          prae<lb break="no" ed="#P" n="67"/>sumitur scientia, ut tradit Abb. in c. Innotuit,
+          <lb ed="#P" n="68"/>de Elect., n. 9, quod ex textu ibi, et Gloss.
+          <lb ed="#P" n="69"/>colligit, et ex c. penult. extra de Regul. juris,
+          <lb ed="#P" n="70"/>ubi dicitur: Non potest esse pastoris excusatio,
+          <lb ed="#P" n="71"/>si lupus oves comedit, pastor nescit. Sed censeo
+          <lb ed="#P" n="72"/>verum respectu ipsius pastoris ; nam si ipse se
+          <lb ed="#P" n="73"/>excuset, tenebitur probare ignorantiam 
+          incul<lb break="no" ed="#P" n="74"/>pabilem, alias praesumitur in eo scientia vel
+          <lb ed="#P" n="75"/>saltem negligentia. Unde non est cur 
+          praesu<lb break="no" ed="#P" n="76"/>matur scientia in Praelato respectu subditi 
+          al<lb break="no" ed="#P" n="77"/>legantis dispensationem, quia simpliciter est
+          <lb ed="#P" n="78"/>res facti quae facile ignoratur, sive absque
+          <lb ed="#P" n="79"/>culpa sive cum illa, parum enim id in praesenti
+          <lb ed="#P" n="80"/>refert. Maxime quia dispensatio odiosa est et
+          <lb ed="#P" n="81"/>restringenda, et ideo etiam non praesumitur,
+          <lb ed="#P" n="82"/>nisi probetur, ut Panorm. etiam tradit in dicto
+          <lb ed="#P" n="83"/>cap. Praeterea.
+        </p>
+        <p xml:id="szdleg-q14533-d1e1923">
+          <lb ed="#P" n="84"/>25. Dubitant autem ulterius juristae de modo
+          <lb ed="#P" n="85"/>probationis hujus scientiae, an, scilicet, 
+          neces<lb break="no" ed="#P" n="86"/>sarium sit ut de illa constet ex narratis in ipso
+          <lb ed="#P" n="87"/>indulto dispensationis, vel ex clausula Ea certa
+          <lb ed="#P" n="88"/>scientia in illo posita, vel admittatur aliud
+          <lb ed="#P" n="89"/>genus probationis, si haec deficiant. De quo
+          <lb ed="#P" n="90"/>dubio, quia ad nos non spectat, videri possunt
+          <lb ed="#P" n="91"/>auctores allegati in principio hujus puncti.
+          <lb ed="#P" n="92"/>Mihi tamen videtur non esse necessarium ut
+          <lb ed="#P" n="93"/>ex instrumento dispensationis constet, sed 
+          suf<lb break="no" ed="#P" n="94"/>ficere ut alia ratione sufficienter probetur per
+          <lb ed="#P" n="95"/>testes, vel alio modo, quae est etiam 
+          commu<lb break="no" ed="#P" n="96"/>nior sententia ; et ratio est, quia nullum est
+          <lb ed="#P" n="97"/>jus quod restringat probationem ad scripturam
+          <lb ed="#P" n="98"/>indulti seu dispensationis. Imo infra de 
+          privi<lb break="no" ed="#P" n="99"/>legio dicemus totum privilegium posse probari
+          <lb ed="#P" n="100"/>per testes, si scriptura sit amissa ; ergo idem
+          <lb ed="#P" n="101"/>est in dispensatione. Nec etiam haec conditio
+          <lb ed="#P" n="102"/>scientiae in principe est tam occulta ut non
+          <lb ed="#P" n="103"/>possit per testes, vel ex rei notorietate probari.
+          <lb ed="#P" n="104"/>Plura de hoc puncto videri possunt in Sancio
+          <lb ed="#P" n="105"/>supra ; nam accurate illud disputat.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

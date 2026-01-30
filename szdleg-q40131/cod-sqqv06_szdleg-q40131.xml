@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="160"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q40131"><!-- l7c7 -->
+        <head xml:id="szdleg-q40131-Hd1e101">Caput 7</head>
+        <head xml:id="szdleg-q40131-Hd1e103" type="question-title">Quae consuetudo sit vel non sit in jure reprobata.</head>
+        <p xml:id="szdleg-q40131-d1e106">
+          <lb ed="#P" n="42"/>CAPUT VII.
+          <lb ed="#P" n="43"/>QUAE CONSUETUDO SIT VEL NON SIT IN JURE 
+          RE<lb break="no" ed="#P" n="44"/>PROBATA.
+        </p>
+        <p xml:id="szdleg-q40131-d1e115">
+          <lb ed="#P" n="45"/>1. Consuetudo per legem declarari debet vel
+          <lb ed="#P" n="46"/>prohiberi sub tali titulo quod irrationabilis sit.
+          <lb ed="#P" n="47"/>— Explicanda sequitur alia divisio 
+          consuetu<lb break="no" ed="#P" n="48"/>dinis in reprobatam in jure, vel permissam,
+          <lb ed="#P" n="49"/>quae, licet affinis sit praecedentibus, distincta
+          <lb ed="#P" n="50"/>est, ut videbimus. Titulus autem quaestionis
+          <lb ed="#P" n="51"/>intelligitur de jure positivo humano; nam de
+          <lb ed="#P" n="52"/>jure naturali sufficiunt quae in superiori capite
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>dicta sunt. Quia illa consuetudo, quae prudenti
+          <lb ed="#P" n="54"/>arbitrio secundum rectam rationem naturalem
+          <lb ed="#P" n="55"/>judicata fuerit irrationabilis, erit etiam 
+          repro<lb break="no" ed="#P" n="56"/>bata in jure naturali, et quae secundum rectam
+          <lb ed="#P" n="57"/>rationem non apparuerit irrationabilis, non
+          <lb ed="#P" n="58"/>erit reprobata in eodem jure. Jus autem 
+          divi<lb break="no" ed="#P" n="59"/>num de hoc nihil disponit, ut constat. Tgitur,
+          <lb ed="#P" n="60"/>de jure positivo, imprimis videndum est quae
+          <lb ed="#P" n="61"/>consuetudo censenda sit reprobata in jure.
+          <lb ed="#P" n="62"/>Aliqui enim censent omnem consuetudinem
+          <lb ed="#P" n="63"/>expresse, ac in specie abrogatam per legem,
+          <lb ed="#P" n="64"/>esse in jure reprobatam. Alii addunt hoc non
+          <lb ed="#P" n="65"/>sufficere, sed necessarium esse ut consuetudo
+          <lb ed="#P" n="66"/>per legem prohibeatur. Alii vero existimant
+          <lb ed="#P" n="67"/>etiam hoc non sufficere, sed oportere ut 
+          con<lb break="no" ed="#P" n="68"/>suetudo per legem declaretur irrationabilis,
+          <lb ed="#P" n="69"/>vel prohibeatur specialiter sub hoc titulo, seu
+          <lb ed="#P" n="70"/>propter hanc causam, quod irrationabilis sit.
+          <lb ed="#P" n="71"/>Et haec ultima sententia vera est, et magis 
+          re<lb break="no" ed="#P" n="72"/>cepta, eamque tenent aperte Navarrus loco
+          <lb ed="#P" n="73"/>supra citato, et Covarr., et alii statim citandi:
+          <lb ed="#P" n="74"/>illam autem exponere et probare necesse est.
+        </p>
+        <p xml:id="szdleg-q40131-d1e185">
+          <lb ed="#P" n="75"/>2. Prima conclusio. — Axioma illud, non
+          <lb ed="#P" n="76"/>obstante quacumque consuetudine, quomodo 
+          in<lb break="no" ed="#P" n="77"/>telligendwm sit. — Dico ergo, legem 
+          huma<lb break="no" ed="#P" n="78"/>nam interdum abrogare consuctudinem, 
+          inter<lb break="no" ed="#P" n="79"/>dum etiam prohibere, aliquando vero 
+          repro<lb break="no" ed="#P" n="80"/>bare, et haec tria esse diversa. Hoc non 
+          in<lb break="no" ed="#P" n="81"/>venio ita expresse declaratum in auctoribus,
+          <lb ed="#P" n="82"/>imo reperio saepe confundere terminos : re 
+          ta<lb break="no" ed="#P" n="83"/>men vera illa tria distincta sunt, et ita ex
+          <lb ed="#P" n="84"/>communi doctrina colligitur : imo posset addi
+          <lb ed="#P" n="85"/>quartum membrum, scilicet, resistere 
+          simpli<lb break="no" ed="#P" n="86"/>citer consuetudini , sed hoc, licet aliquo modo
+          <lb ed="#P" n="87"/>sit diversum , cum tertio coincidere videtur.
+          <lb ed="#P" n="88"/>Probo igitur singula. Et primo, de abrogatione,
+          <lb ed="#P" n="89"/>seu revocatione, dico solum auferre 
+          praexis<lb break="no" ed="#P" n="90"/>tentem consuetudinem. Nam verbum 
+          derogan<lb break="no" ed="#P" n="91"/>di aut revocandi, vel (quod perinde est) 
+          clau<lb break="no" ed="#P" n="92"/>sula revocatoria absolute proposita in 
+          proprie<lb break="no" ed="#P" n="93"/>tate sermonis solum cadit in praeteritum 
+          fac<lb break="no" ed="#P" n="94"/>tum : ergo lex abrogans consuetudinem solum
+          <lb ed="#P" n="95"/>cadit in consuetudinem praexistentem , sicut
+          <lb ed="#P" n="96"/>lex revocans legem contrariam, in 
+          praexisten<lb break="no" ed="#P" n="97"/>tem legem cadit : nam si nulla praexsteret,
+          <lb ed="#P" n="98"/>non esset necessaria, imo vana esset revocatio,
+          <lb ed="#P" n="99"/>nec fieri posset, nisi ex deceptione, vel sub 
+          con<lb break="no" ed="#P" n="100"/>ditione, si talis lex sit, et ita etiam semper 
+          re<lb break="no" ed="#P" n="101"/>fertur ad praexistentem legem : idem ergo de
+          <lb ed="#P" n="102"/>lege revocante consuetudinem. Unde fit ut,
+          <lb ed="#P" n="103"/>quando in lege tantum additur clausula, JVon
+          <lb ed="#P" n="104"/>obstante quacumque consuetudine, utin Clement.
+          <lb ed="#P" n="105"/>Statutum, de Elect., et similibus, per illam
+          <lb ed="#P" n="106"/>solum abrogetur praexistens consuetudo, non
+          <lb ed="#P" n="107"/>tamen prohibeatur consuetudo in futurum,
+          <pb ed="#P" n="161"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quia clausula illa non respicit futurum 
+          tem<lb break="no" ed="#P" n="2"/>pus. sed tantum praeteritum. Quia consuetudo,
+          <lb ed="#P" n="3"/>quae in futuro tempore esse potest, et nondum
+          <lb ed="#P" n="4"/>est, non potest resistere legi, quae nunc fit:
+          <lb ed="#P" n="5"/>illa autem clausula solum tollit consuetudinem
+          <lb ed="#P" n="6"/>quae tali legi resistere possit : cadit ergo in
+          <lb ed="#P" n="7"/>praexistentem, et non extenditur ad futuram.
+          <lb ed="#P" n="8"/>Et idem est de quibuscumque verbis 
+          revocan<lb break="no" ed="#P" n="9"/>tibus consuetudinem, nisi in eis aliquid 
+          adda<lb break="no" ed="#P" n="10"/>tur ; et ratio juvat, quia talis effectus odiosus
+          <lb ed="#P" n="11"/>est, et ideo verba extendi non debent ultra
+          <lb ed="#P" n="12"/>vim et rigorem suum. Confirmat hoc etiam
+          <lb ed="#P" n="13"/>usus ; nam, quando legislator amplius vult 
+          ef<lb break="no" ed="#P" n="14"/>ficere, id declarat, ut statim dicemus.
+        </p>
+        <p xml:id="szdleg-q40131-d1e295">
+          <lb ed="#P" n="15"/>3. Pura consuetudinis abrogatio non est illaus
+          <lb ed="#P" n="16"/>reprobatio.—Et ob easdem fere rationes pura
+          <lb ed="#P" n="17"/>consuetudinis abrogatio non est illius 
+          reproba<lb break="no" ed="#P" n="18"/>tio, quia potest abrogari consuetudo, non quia
+          <lb ed="#P" n="19"/>irrationabilis, sed solum quia ita placet 
+          legisla<lb break="no" ed="#P" n="20"/>tori, quia judicat ita nunc magis expedire.
+          <lb ed="#P" n="21"/>Potest autem consuetudo aliqua nunc minus
+          <lb ed="#P" n="22"/>expedire, etiamsi de se non sit mala nec 
+          irra<lb break="no" ed="#P" n="23"/>tionabilis, quod videtur per se notum, 
+          suppo<lb break="no" ed="#P" n="24"/>sita declaratione consuetudinis malae et 
+          irra<lb break="no" ed="#P" n="25"/>tionabilis in superioribus data. Ergo quando
+          <lb ed="#P" n="26"/>lex revocat consuetudinem pure et sine alia
+          <lb ed="#P" n="27"/>declaratione , non prassumitur illam damnare
+          <lb ed="#P" n="28"/>ut irrationabilem. Sicut quando lex posterior
+          <lb ed="#P" n="29"/>revocat priorem, non ideo praesumitur illam
+          <lb ed="#P" n="30"/>reprobare ut malam, vel irrationabilem. Et
+          <lb ed="#P" n="31"/>generatim loquendo, secundum jus, quod non
+          <lb ed="#P" n="32"/>probatur esse pravum, nec ut tale reprobatur,
+          <lb ed="#P" n="33"/>non praesumitur malum, sed potius bonum,
+          <lb ed="#P" n="34"/>etiamsi aliud ibi praeferatur, quia potest esse
+          <lb ed="#P" n="35"/>melius, vel hic et nunc magis expediens 
+          repu<lb break="no" ed="#P" n="36"/>tari. Denique sumitur hoc satis clare ex c. 1
+          <lb ed="#P" n="37"/>de Constit., in 6 ; dicitur enim ibi legem non
+          <lb ed="#P" n="38"/>abrogare cousuetudinem rationabilem , nisi 
+          ez<lb break="no" ed="#P" n="39"/>presse caveatur in ipsa : ergo supponit 
+          inter<lb break="no" ed="#P" n="40"/>dum legem revocare consuetudinem 
+          rationa<lb break="no" ed="#P" n="41"/>bilem; ergo ex sola revocatione non colligitur
+          <lb ed="#P" n="42"/>consuetudinem esse irrationabilem, aut 
+          repro<lb break="no" ed="#P" n="43"/>batam. Et haec doctrina quoad utramque 
+          par<lb break="no" ed="#P" n="44"/>tem communis est, ex Glossa in Clem. 
+          Statu<lb break="no" ed="#P" n="45"/>tum, v. Consuetudine, de Elect.; et ibi Imol. et
+          <lb ed="#P" n="46"/>Domin. in c. Zicet, de Constit., in 6; Angel.,
+          <lb ed="#P" n="47"/>verb. Consuetudo , n. 9; Sylvest., q. 6, n. 10,
+          <lb ed="#P" n="48"/>licet prius videatur repugnare, de quo statim
+          <lb ed="#P" n="49"/>dicam ; et idem tenent Anchar., Abb., cum
+          <lb ed="#P" n="50"/>aliis, in cap. ultim. de Constit.; Felin. in cap.
+          <lb ed="#P" n="51"/>2 de Probat. , n. 11, ubi refert Bart., Bald., et
+          <lb ed="#P" n="52"/>alios. Idem tenet Navarr. supra, et Covarr.
+          <lb ed="#P" n="53"/>lib. 3 Variar., cap. 13, n. 4, concl. 4, licet in
+          <lb ed="#P" n="54"/>sccunda aliter loquatur cum Anton., de quo
+          <lb ed="#P" n="55"/>jam dicam.
+        </p>
+        <p xml:id="szdleg-q40131-d1e386">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>4. Contra priorem enim partem videtur 
+          sen<lb break="no" ed="#P" n="57"/>tire Anton., 1 p., tit. 46, S 6, citans Archid. et
+          <lb ed="#P" n="58"/>Joan. Andr. in c. 1 de Const., in 6. Dicit enim,
+          <lb ed="#P" n="59"/>licet lex non improbet consuetudinem 
+          contra<lb break="no" ed="#P" n="60"/>riam, si absolute et simpliciter illam tollat,
+          <lb ed="#P" n="61"/>intelligi de consuetudine inducta et inducenda.
+          <lb ed="#P" n="62"/>Et idem videntur dicere Angel. supra, et 
+          Syl<lb break="no" ed="#P" n="63"/>vest., n. 9, quando lex addit clausulam 
+          dero<lb break="no" ed="#P" n="64"/>gatoriam consuetudinis, et in eam sententiam
+          <lb ed="#P" n="65"/>citant Bart. et Anton., sumpseruntque ex 
+          Pa<lb break="no" ed="#P" n="66"/>normit. in c. 2 de Probat, n. 8, et Felin.,
+          <lb ed="#P" n="67"/>num. 11. Et videntur intelligere, etiamsi lex
+          <lb ed="#P" n="68"/>expresse non prohibeat pro tempore futuro.
+          <lb ed="#P" n="69"/>Nam eo tendit ratio eorum, scilicet, quia lex
+          <lb ed="#P" n="70"/>semper loquitur ; ergo si semel expresse 
+          dero<lb break="no" ed="#P" n="71"/>gat consuetudini, semper derogat, et illi 
+          resis<lb break="no" ed="#P" n="72"/>tit. Et posset pro eadem sententia referri
+          <lb ed="#P" n="73"/>Covarr. supra, in secunda conclusione. 
+          Ve<lb break="no" ed="#P" n="74"/>rumtamen ille utitur verbo reprobandi, de quo
+          <lb ed="#P" n="75"/>alia est ratio, ut statim dicam. Alii vero 
+          auc<lb break="no" ed="#P" n="76"/>tores, ne sibi sint contrarii, non loquuntur de
+          <lb ed="#P" n="77"/>lege tantum revocante consuetudinem, sed de
+          <lb ed="#P" n="78"/>resistente simpliciter consuetudini , de qua
+          <lb ed="#P" n="79"/>etiam alia est ratio, ut statim explicabo, 
+          indi<lb break="no" ed="#P" n="80"/>cando verba quibus fiat a lege talis resistentia,
+          <lb ed="#P" n="81"/>et quem effectum habeat. Et ita ratio adducta
+          <lb ed="#P" n="82"/>ad summum potest habere aliquam vim in
+          <lb ed="#P" n="83"/>lege simpliciter resistente consuetudini, contra
+          <lb ed="#P" n="84"/>doctrinam autem datam non urget. Nam lex
+          <lb ed="#P" n="85"/>disponens circa actum praeteritum tantum ,
+          <lb ed="#P" n="86"/>semper quidem loquitur contra illum, 
+          nun<lb break="no" ed="#P" n="87"/>quam tamen loqui potest contra futurum,
+          <lb ed="#P" n="88"/>quod non erat factum quando lex illa fuit
+          <lb ed="#P" n="89"/>condita.
+        </p>
+        <p xml:id="szdleg-q40131-d1e464">
+          <lb ed="#P" n="90"/>5. Legem prohibentem sibi contrariam 
+          con<lb break="no" ed="#P" n="91"/>suetudinem , tam prateritum quam futuram
+          <lb ed="#P" n="92"/>complecti. — Secundo, de prohibitione 
+          dicen<lb break="no" ed="#P" n="93"/>dum est legem prohibentem sibi contrariam
+          <lb ed="#P" n="94"/>consuetudinem, non iantum praeteritam 
+          con<lb break="no" ed="#P" n="95"/>suetudinem, sed etiam futuram tollere, seu
+          <lb ed="#P" n="96"/>potius impedire aut praevenire ne 
+          introduca<lb break="no" ed="#P" n="97"/>tur, non tamen propierea reprobare talem
+          <lb ed="#P" n="98"/>consuetudinem. Prior pars supponit interdum
+          <lb ed="#P" n="99"/>legem prohibere futuram consuetudinem, quod
+          <lb ed="#P" n="100"/>est commune, et in exemplum adduci solet,
+          <lb ed="#P" n="101"/>1.3, S Dicus, ff. de Sepulcr. viol., quae de 
+          sta<lb break="no" ed="#P" n="102"/>tuto municipali loquitur, per aequiparationem
+          <lb ed="#P" n="103"/>tamen adducitur. Et ita Tiraquel. in Praefat.
+          <lb ed="#P" n="104"/>ad Retract., n. 17, infine, ex illa colligit: Cum
+          <lb ed="#P" n="105"/>lea damnat (1d est, prohibet) consuetudinem 
+          fu<lb break="no" ed="#P" n="106"/>turam, id nuncupatim euprimere. Priorem ergo
+          <lb ed="#P" n="107"/>partem intendunt auctores proxime allegati,
+          <lb ed="#P" n="108"/>Anton., Angel., Sylvest. Et eamdem 
+          expres<lb break="no" ed="#P" n="109"/>sius posuit Navar. et Soto libr. 1 de Justit.,
+          <lb ed="#P" n="110"/>quaest. 7, art. 2. Et ratio est clara, quia prohi-
+          <pb ed="#P" n="162"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bitio respicit futura : nam praeterita prohiberi
+          <lb ed="#P" n="2"/>non possunt, imo neque praesentia, ut jam facta
+          <lb ed="#P" n="3"/>sunt, sed ut in futurum durare possunt, quia ut
+          <lb ed="#P" n="4"/>sic solum sunt libera, ut prohiberi possint;
+          <lb ed="#P" n="5"/>ergo, si lex prohibet consuetudinem, resistit
+          <lb ed="#P" n="6"/>non tantum jam inductae, sed etiam 
+          inducen<lb break="no" ed="#P" n="7"/>dae, et quantum est ex se impedit ne 
+          introdu<lb break="no" ed="#P" n="8"/>catur. Intelligitur autem prohibere 
+          consuetu<lb break="no" ed="#P" n="9"/>dinem, primo, si expresse vetet ne contra
+          <lb ed="#P" n="10"/>talem legem consuetudo aliqua introduci 
+          per<lb break="no" ed="#P" n="11"/>mittatur, vel quando jubet ne inducatur, ut
+          <lb ed="#P" n="12"/>Navarrus ait. Deinde idem est probabile, 
+          quan<lb break="no" ed="#P" n="13"/>do absolute prohibet omnem consuetudinem
+          <lb ed="#P" n="14"/>contrariam, etiamsi de futuro tempore vel de
+          <lb ed="#P" n="15"/>introductione illius expressam mentionem non
+          <lb ed="#P" n="16"/>faciat, ut si dicat : IVolumus contra hanc legem
+          <lb ed="#P" n="17"/>aliquam consuetudinem valere, vel quid simile,
+          <lb ed="#P" n="18"/>videtur comprehendere tam introductam quam
+          <lb ed="#P" n="19"/>omnem quae introduci posset, et omnibus 
+          re<lb break="no" ed="#P" n="20"/>sistere, quia verba sunt valde absoluta, et 
+          uni<lb break="no" ed="#P" n="21"/>versalia, et indifferentia ad praeterita et 
+          futu<lb break="no" ed="#P" n="22"/>ra, et ideo non est cur restringantur. Et 
+          simi<lb break="no" ed="#P" n="23"/>lia verba videntur intelligere auctores , per
+          <lb ed="#P" n="24"/>clausulam derogatoriam simpliciter 
+          consuetu<lb break="no" ed="#P" n="25"/>dinis contrariae. Et in eodem sensu dicit 
+          An<lb break="no" ed="#P" n="26"/>ton. per talem legem tolli simpliciter 
+          consue<lb break="no" ed="#P" n="27"/>tudinem, et colligi potest hic sensus ex 
+          exem<lb break="no" ed="#P" n="28"/>plo quod adducit ex l. Fos, c. de Censib., ubi
+          <lb ed="#P" n="29"/>in S Super sic dicitur: JNec liceat judici 
+          me<lb break="no" ed="#P" n="30"/>moratam augere tavationem occasione 
+          consue<lb break="no" ed="#P" n="31"/>tudinis in regione obtinenlis. Quae verba non
+          <lb ed="#P" n="32"/>videntur tantum revocatoria praexistentis 
+          con<lb break="no" ed="#P" n="33"/>suetudinis, sed simpliciter resistentia 
+          consue<lb break="no" ed="#P" n="34"/>tudini, etiam futurae, quia non tantum 
+          revo<lb break="no" ed="#P" n="35"/>cationem, sed etiam prohibitionem continent;
+          <lb ed="#P" n="36"/>ut patet ex illis verbis, nec liceat judici : nam
+          <lb ed="#P" n="37"/>verbum 20on liceat prohibitivum est, unde non
+          <lb ed="#P" n="38"/>dirigitur ad solos judices tunc existentes, sed
+          <lb ed="#P" n="39"/>ad omnes futuros, et consequenter etiam 
+          lo<lb break="no" ed="#P" n="40"/>quitur de consuetudine futura tempore 
+          cujus<lb break="no" ed="#P" n="41"/>cumque judicis. Et quoad hoc recte applicatur
+          <lb ed="#P" n="42"/>ratio supra facta, quod lex semper loquitur.
+          <lb ed="#P" n="43"/>At vero Dart. ibi solum ex illa lege colligit
+          <lb ed="#P" n="44"/>legem revocare praeteritam consuetudinem.
+          <lb ed="#P" n="45"/>Sed nihilominus quod ad illam legem attinet,
+          <lb ed="#P" n="46"/>major videtur esse vis illorum verborum ; ex
+          <lb ed="#P" n="47"/>sententia tamen Bartol, colligo verba non esse
+          <lb ed="#P" n="48"/>facile extendenda ad futuras consuetudines,
+          <lb ed="#P" n="49"/>sed solum quando proprietas verborum id 
+          pos<lb break="no" ed="#P" n="50"/>tulaverit.
+        </p>
+        <p xml:id="szdleg-q40131-d1e625">
+          <lb ed="#P" n="51"/>6. Lex prohibens futuram consuetudinem non
+          <lb ed="#P" n="52"/>ideo eam reprobat. — Posteriorem partem, 
+          sci<lb break="no" ed="#P" n="53"/>licet , legem etiam prohibentem simpliciter
+          <lb ed="#P" n="54"/>futuram consuetudinem non ideo reprobare
+          <lb ed="#P" n="55"/>illam, docuit expressius quam caeteri doctores,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Navar. in loco citato. Ait enim 
+          consuetudi<lb break="no" ed="#P" n="57"/>nem non esse irrationabilem eo qnod jus ei 
+          re<lb break="no" ed="#P" n="58"/>sistat, tollendo illam et jubendo ne inducatur,
+          <lb ed="#P" n="59"/>nisi etiam declaret eam esse irrationabilem,
+          <lb ed="#P" n="60"/>vel esse corruptelam. Potestque sumi ex Bart.
+          <lb ed="#P" n="61"/>in dicta repetit. l. De quibus, post opposit. 10,
+          <lb ed="#P" n="62"/>num. 5; distinguit enim inter reprobationem
+          <lb ed="#P" n="63"/>consuetudinis, et prohibitionem ejus, etiam
+          <lb ed="#P" n="64"/>expressam, et in futurum. Et potest probari
+          <lb ed="#P" n="65"/>fere rationibus factis in priori membro de lege
+          <lb ed="#P" n="66"/>revocante. Praesertim illa, quod, sicut lex 
+          po<lb break="no" ed="#P" n="67"/>test revocare praexistentem consuetudinem,
+          <lb ed="#P" n="68"/>non quia irrationabilis sit, sed propter alias
+          <lb ed="#P" n="69"/>causas, ita etiam potest prohibere ne in 
+          futu<lb break="no" ed="#P" n="70"/>rum inducatur, non quia sit irrationabilis, sed
+          <lb ed="#P" n="71"/>quia propter alias causas ita legislatori videtur
+          <lb ed="#P" n="72"/>expedire, vel quia praesumit rationes quae ad
+          <lb ed="#P" n="73"/>revocationem movent, perseveraturas semper,
+          <lb ed="#P" n="74"/>et ideo eisdem movetur ad prohibitionem, vel
+          <lb ed="#P" n="75"/>denique addit fortasse illam prohibitionem, ut
+          <lb ed="#P" n="76"/>magis moveat et cogat ad legis observationem:
+          <lb ed="#P" n="77"/>ergo ex sola prohibitione in futurum, non potest
+          <lb ed="#P" n="78"/>colligi, nec praesumi quod lex sit 
+          irrationabi<lb break="no" ed="#P" n="79"/>lis, vel quod ut talis reprobetur. Quem autem
+          <lb ed="#P" n="80"/>effectum habeat haec prohibitio consuetudinis
+          <lb ed="#P" n="81"/>quae introduci potest, in sequentibus videbimus.
+        </p>
+        <p xml:id="szdleg-q40131-d1e697">
+          <lb ed="#P" n="82"/>7. Tunc consuetudo reprobatur cum per 
+          ec<lb break="no" ed="#P" n="83"/>pressa verba irrationalilis declaratur. —
+          Ve<lb break="no" ed="#P" n="84"/>nio igitur al membrum, de consuetudine jure
+          <lb ed="#P" n="85"/>reprobata ; concluditur enim ex dictis, tunc
+          <lb ed="#P" n="86"/>esse consuetudinem reprobatam in jure, 
+          quan<lb break="no" ed="#P" n="87"/>do non solum revocatur aut prohibetur, sed
+          <lb ed="#P" n="88"/>etiam per expressa verba irrationabilis 
+          decla<lb break="no" ed="#P" n="89"/>ratur. Quod variis modis fit in jure; ut in cap.
+          <lb ed="#P" n="90"/>unic. de Cleric. non resident., in 6, per illa
+          <lb ed="#P" n="91"/>verba , Consuetudinem illam penitus 
+          improban<lb break="no" ed="#P" n="92"/>tes ; in cap. 2 de Probat. : Talem 
+          consuetudi<lb break="no" ed="#P" n="93"/>nem reprobumus ; capit. Cum inter, de 
+          Consue<lb break="no" ed="#P" n="94"/>tud., quaedam consuctudo irritatur, eo quod
+          <lb ed="#P" n="95"/>ex illa disrumperetur nervus ecclesiastice 
+          dis<lb break="no" ed="#P" n="96"/>ciplina; et cap. Ad nostram, eod., tollitur 
+          con<lb break="no" ed="#P" n="97"/>suetudo, eo quod minus rationabilis habeatur ;
+          <lb ed="#P" n="98"/>et cap. Cum venerabilis, eod., Cun hec non
+          <lb ed="#P" n="99"/>tam consuetudo quam corruptela merito sit 
+          cen<lb break="no" ed="#P" n="100"/>senda ; cap. E« freguentibus, de Instit., 
+          Consue<lb break="no" ed="#P" n="101"/>tudinem pravam ; et infra declaratur, Contra
+          <lb ed="#P" n="102"/>decentium , contra honestatem , et contra 
+          cano<lb break="no" ed="#P" n="103"/>nica instituta ; et perinde valere censeo 
+          quan<lb break="no" ed="#P" n="104"/>do consuetudo appellatur abusus, et ideo non
+          <lb ed="#P" n="105"/>obligare declaratur, ut in cap. penultim. de
+          <lb ed="#P" n="106"/>Consuet. Quando ergo aliquo simili modo 
+          re<lb break="no" ed="#P" n="107"/>probatur consuetudo, tunc lex non solnm 
+          ha<lb break="no" ed="#P" n="108"/>bet vim prohibentis , sed etiam declarantis
+          <lb ed="#P" n="109"/>talem consuetudinem esse iniquam, ut sensit
+          <lb ed="#P" n="110"/>Covarr. supra in dicto cap. 2; et ideo illam
+          <pb ed="#P" n="163"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>specialiter revocare dicitur. Et ob eamdem
+          <lb ed="#P" n="2"/>causam necessaria sunt ejusmodi verba, quia
+          <lb ed="#P" n="3"/>sine illis lex non declarat qualis fuerit vel sit
+          <lb ed="#P" n="4"/>consuetudo, sed solum illam vetat.
+        </p>
+        <p xml:id="szdleg-q40131-d1e775">
+          <lb ed="#P" n="5"/>5. Et hinc est ut, licet lex retractet 
+          consue<lb break="no" ed="#P" n="6"/>dinem praeteritam, si pro ratione addat quod
+          <lb ed="#P" n="7"/>sit corruptela vel irrationabilis, eo ipso etiam
+          <lb ed="#P" n="8"/>in futurum illam prohibeat et reprobet, 
+          stan<lb break="no" ed="#P" n="9"/>tibus eisdem circumstantis, ut dixit Panorm.
+          <lb ed="#P" n="10"/>in cap. 2 de Probat., num. 7 et S; et Tiraquel.,
+          <lb ed="#P" n="11"/>referens plures in praefat. ad Retractat., n. 18
+          <lb ed="#P" n="12"/>et 19; et ratio est, quia consuetudo 
+          irrationa<lb break="no" ed="#P" n="13"/>bilis omni jure et pro omni tempore est 
+          pro<lb break="no" ed="#P" n="14"/>hibita, juxta cap. ult. de Consuetud. cum 
+          si<lb break="no" ed="#P" n="15"/>milibus. Atque ita sensit etiam Navarr., et ita
+          <lb ed="#P" n="16"/>intelligitur Glossa in capit. ult. de Consuetud.,
+          <lb ed="#P" n="17"/>verbo Aationabilis, dicens illam esse 
+          consuetu<lb break="no" ed="#P" n="18"/>dinem rationabilem, quam non improbant jura ;
+          <lb ed="#P" n="19"/>nam verbum improbandi in sua proprietate
+          <lb ed="#P" n="20"/>sumendum est, et in eodem sensu accipiendum
+          <lb ed="#P" n="21"/>est, quo, in fine, dicit illam esse rationabilem
+          <lb ed="#P" n="22"/>que non obviat canonicis institutis, a quibus,
+          <lb ed="#P" n="23"/>scilicet, reprobatur, ut Navarrus exposuit. 
+          Un<lb break="no" ed="#P" n="24"/>de statim subdit eadem Clossa, illam esse 
+          irra<lb break="no" ed="#P" n="25"/>tionabilem consuetudinem, quae a jure 
+          impro<lb break="no" ed="#P" n="26"/>Latur, et ex omnibus juribus, quae allegat, 
+          con<lb break="no" ed="#P" n="27"/>stat, uti verbo improbandi in omni proprietate.
+          <lb ed="#P" n="28"/>Acdenique ita intelligendi sunt auctores, 
+          quan<lb break="no" ed="#P" n="29"/>do dicunt consuetudinem jure reprobatam
+          <lb ed="#P" n="30"/>amplius valere non posse, et, licet interdum
+          <lb ed="#P" n="31"/>ntantur nomine derogationis, nossunt pie ita
+          <lb ed="#P" n="32"/>interpretari : quomodo autem hoc limitandum
+          <lb ed="#P" n="33"/>sit, et quae differentia in hoc sit inter 
+          consue<lb break="no" ed="#P" n="34"/>tudinem prohibitam et reprobatam , dicam
+          <lb ed="#P" n="35"/>infra capit. 16.
+        </p>
+        <p xml:id="szdleg-q40131-d1e846">
+          <lb ed="#P" n="36"/>9. Dupliciter consuetudinis reprobatio fieri
+          <lb ed="#P" n="37"/>potest.—Superest vero circa hanc 
+          consuetudi<lb break="no" ed="#P" n="38"/>nis reprobationem advertere, dupliciter 
+          intel<lb break="no" ed="#P" n="39"/>ligi posse per jus fieri, uno modo per modum
+          <lb ed="#P" n="40"/>purae declarationis, alio per modum etiam 
+          dis<lb break="no" ed="#P" n="41"/>positionis. Prior modus solum contingit 
+          quan<lb break="no" ed="#P" n="42"/>do consuetudo vel est clare turpis, utpote 
+          con<lb break="no" ed="#P" n="43"/>tra jus naturale aut divinum, vel quando 
+          evi<lb break="no" ed="#P" n="44"/>denter est inutilis, et communi bono inimica,
+          <lb ed="#P" n="45"/>et nociva. Posterior autem modus videtur 
+          in<lb break="no" ed="#P" n="46"/>tercedere, quando, ex solis principiis 
+          natura<lb break="no" ed="#P" n="47"/>libus vel divinis, non statim apparet 
+          consue<lb break="no" ed="#P" n="48"/>tudo irrationabilis , et nihilominus propter
+          <lb ed="#P" n="49"/>majorem decentiam, vel religionem, vel 
+          dis<lb break="no" ed="#P" n="50"/>ciplinae severitatem, disponit lex ut talis 
+          con<lb break="no" ed="#P" n="51"/>suetudo pro irrationabili habeatur : nam sine
+          <lb ed="#P" n="52"/>dubio potest hoc efficere lex humana, et 
+          prae<lb break="no" ed="#P" n="53"/>sertim canonica, cum ad honestatem morum
+          <lb ed="#P" n="54"/>possit esse maxime conveniens. Et videntur hi
+          <lb ed="#P" n="55"/>diversi modi insinuari in jure. Nam interdum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>reprobatur consuetudo per verbum 
+          declara<lb break="no" ed="#P" n="57"/>mus , ut in cap. Ev parte, de Consuetudin.;
+          <lb ed="#P" n="58"/>aliquando vero per verbum irritandi, ut in
+          <lb ed="#P" n="59"/>cap. Cum inter, eod., ubi dicitur : Talem 
+          con<lb break="no" ed="#P" n="60"/>suetudinemn duamus irritandam. Quae verba,
+          <lb ed="#P" n="61"/>in rigore, indicant talem consuetudinem antea
+          <lb ed="#P" n="62"/>et de se non fuisse nullam, ac proinde nec per
+          <lb ed="#P" n="63"/>se esse irrationabilem, sed per illud jus 
+          izri<lb break="no" ed="#P" n="64"/>tatam fuisse. Quod bene ponderavit Molin.
+          <lb ed="#P" n="65"/>tractat. secundo de Justit., disputat. 79. 
+          Exis<lb break="no" ed="#P" n="66"/>umo tamen, per illam irritationem , similem
+          <lb ed="#P" n="67"/>consuetudinem mansisse in perpetuum ipso
+          <lb ed="#P" n="68"/>jure reprobatam, quia illa irritatio non fuit
+          <lb ed="#P" n="69"/>tantum facti particularis, et transitoria (ut sic
+          <lb ed="#P" n="70"/>dicam), sed fuit juris constitutiva, et ideo 
+          uni<lb break="no" ed="#P" n="71"/>versalis ac perpetua, et ideo semper loquitur,
+          <lb ed="#P" n="72"/>semperque resistit tali consuetudini tanquam
+          <lb ed="#P" n="73"/>irrationabili. Et declaratur amplius, quia illa
+          <lb ed="#P" n="74"/>irritatio non fuit poena, neque enim lata est
+          <lb ed="#P" n="75"/>propter culpam, sed quia, si talis consuetudo
+          <lb ed="#P" n="76"/>teneret, disrumperetur nervus ecclesiastica 
+          dis<lb break="no" ed="#P" n="77"/>cipline - ergo est ita lata, ut obvians per se
+          <lb ed="#P" n="78"/>tali consuetudini, ne introduci valeat, et 
+          nun<lb break="no" ed="#P" n="79"/>quam disrumpere possit nervum ecclesiasticae
+          <lb ed="#P" n="80"/>disciplinae. Quia vero qualitas et modus 
+          disci<lb break="no" ed="#P" n="81"/>plinae non est ex sola rei natura, sed ex juris
+          <lb ed="#P" n="82"/>dispositione, ideo dicimus illam reprobationem
+          <lb ed="#P" n="83"/>talis consuetudinis non esse pure declarativam,
+          <lb ed="#P" n="84"/>sed ex dispositione juris pendere.
+        </p>
+        <p xml:id="szdleg-q40131-d1e957">
+          <lb ed="#P" n="85"/>10. Et in hoc sensu intelligenda videntur
+          <lb ed="#P" n="86"/>multa jura reprobantia aliquas consuetudines,
+          <lb ed="#P" n="87"/>aut praescriptiones quae ex sola rei natura non
+          <lb ed="#P" n="88"/>statim apparent irrationabiles : eodemque 
+          mo<lb break="no" ed="#P" n="89"/>do aliqua decreta reprobant consuetudines quae
+          <lb ed="#P" n="90"/>instituta canonica convellunt aut diminuunt
+          <lb ed="#P" n="91"/>contra rigorem, scilicet, ab eis intentum. 
+          Prae<lb break="no" ed="#P" n="92"/>terea, sic etiam potest intelligi Glossa supra,
+          <lb ed="#P" n="93"/>dicens illam consuetudinem esse 
+          irrationabi<lb break="no" ed="#P" n="94"/>lem quae a jure improbatur. Quod exclusive
+          <lb ed="#P" n="95"/>videtur intellexisse Bald., cons. 401, volum. 5
+          <lb ed="#P" n="96"/>dicens, ut consuetudo dicatur rationabilis, 
+          sa<lb break="no" ed="#P" n="97"/>tis esse quod non sit improbata. Quod tamen
+          <lb ed="#P" n="98"/>in rigore non videtur verum, quia potest esse
+          <lb ed="#P" n="99"/>aliqua consuetudo per se, et natura sua 
+          irra<lb break="no" ed="#P" n="100"/>tionabilis. licet in jure non improbetur. Unde
+          <lb ed="#P" n="101"/>fortasse illi loquuntur solum in ordine ad 
+          fo<lb break="no" ed="#P" n="102"/>rum externum : vel certe potest illa sententia
+          <lb ed="#P" n="103"/>intelligi de improbatione a jure, vel in 
+          parti<lb break="no" ed="#P" n="104"/>culari, vel saltem in principiis generalibus, ut
+          <lb ed="#P" n="105"/>quia dissolvit nervum disciplinae, vel quia 
+          de<lb break="no" ed="#P" n="106"/>rogat ecclesiasticae libertati, vel quippiam 
+          si<lb break="no" ed="#P" n="107"/>mile. Denique notari potest differentia inter
+          <lb ed="#P" n="108"/>hos duos modos reprobationis : nam ille qui
+          <lb ed="#P" n="109"/>est pure declarativus videtur immutabilior,
+          <lb ed="#P" n="110"/>utpote in sola ratione naturali vel jure divino
+          <pb ed="#P" n="164"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>fundatus ; alter vero, qui est positivus, cum
+          <lb ed="#P" n="2"/>sit ex humano jure, potest mutationem 
+          reci<lb break="no" ed="#P" n="3"/>pere, vel per novum jus , vel interdum per
+          <lb ed="#P" n="4"/>ipsarum rerum mutationem, ut sensit 
+          Panor<lb break="no" ed="#P" n="5"/>mitan. dicto cap. 2 de Probat., n. 8, et in capit.
+          <lb ed="#P" n="6"/>ult. de Consuet., n. 12, et infra in cap. 16 
+          ma<lb break="no" ed="#P" n="7"/>gis explicabitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

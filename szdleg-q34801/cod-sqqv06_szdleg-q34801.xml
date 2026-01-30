@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="139"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q34801"><!-- l7c2 -->
+        <head xml:id="szdleg-q34801-Hd1e101">Caput 2</head>
+        <head xml:id="szdleg-q34801-Hd1e103" type="question-title">An consuetudo semper inducat jus non scrhiptum, et definitio data integraa sit.</head>
+        <p xml:id="szdleg-q34801-d1e106">
+          <lb ed="#P" n="50"/>CAPUT II.
+          <lb ed="#P" n="51"/>AN CONSUETUDO SEMPER INDUCAT JUS NON 
+          SCRHI<lb break="no" ed="#P" n="52"/>PTUM, ET DEFINITIO DATA INTEGRAA SIT.
+        </p>
+        <p xml:id="szdleg-q34801-d1e115">
+          <lb ed="#P" n="53"/>1. Ratio dubitandi est, quia Isidorus, in de-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>finitione data, solum addit particulam illam,
+          <lb ed="#P" n="55"/>cunm deficit lex, vel ad explicandum 
+          consuetu<lb break="no" ed="#P" n="56"/>dinem debere esse jus non scriptum, vel etiam
+          <lb ed="#P" n="57"/>ad indicandum non debere supponere legem
+          <lb ed="#P" n="58"/>scriptam. Utrumque vero videtur habere 
+          du<lb break="no" ed="#P" n="59"/>bium. Primum, quia saepe contingit leges 
+          con<lb break="no" ed="#P" n="60"/>suetudinis esse scriptas, quales censentur esse
+          <lb ed="#P" n="61"/>leges feudorum, et in nostra Hispania leges
+          <lb ed="#P" n="62"/>fori; ergo esse non scriptum non est de 
+          ratio<lb break="no" ed="#P" n="63"/>ne consuetudinarii juris. De secundo etiam
+          <lb ed="#P" n="64"/>dubitari potest, quia saepe consuetudo derogat
+          <lb ed="#P" n="65"/>legi praexistenti, ut infra dicetur ; ergo falsum
+          <lb ed="#P" n="66"/>est quod consuetudo non supponat legem. Unde
+          <lb ed="#P" n="67"/>potest addi tertium dubium circa priorem 
+          par<lb break="no" ed="#P" n="68"/>ticulam , quod pro lege suscipitur , quia saepe
+          <lb ed="#P" n="69"/>consuetudo non suscipitur pro lege, sed potius
+          <lb ed="#P" n="70"/>tollit legem : unde non obligat ad aliquid 
+          agen<lb break="no" ed="#P" n="71"/>dum, sed ad summum permittit. Quarta item
+          <lb ed="#P" n="72"/>difficultas addi potest, quia in tota illa 
+          defini<lb break="no" ed="#P" n="73"/>tione non explicatur id quod maxime est 
+          sub<lb break="no" ed="#P" n="74"/>stantiale et essentiale consuetudini, scilicet, ut
+          <lb ed="#P" n="75"/>sit communi populi consensu recepta.
+        </p>
+        <p xml:id="szdleg-q34801-d1e170">
+          <lb ed="#P" n="76"/>2. Germana interpretatio illius particule,
+          <lb ed="#P" n="77"/>cum deficit lev. — Respondeo imprimis, 
+          pro<lb break="no" ed="#P" n="78"/>prium sensum illius particulae, cum deficit lem,
+          <lb ed="#P" n="79"/>et rationem ejus esse, jus consuetudinis solere
+          <lb ed="#P" n="80"/>introduci in defectum legis : nam ubi jus
+          <lb ed="#P" n="81"/>scriptum supponitur, non est necessaria 
+          con<lb break="no" ed="#P" n="82"/>suetudo quae jus introducat, quia lex sufficit.
+          <lb ed="#P" n="83"/>Imo nec videtur moraliter possibilis talis 
+          con<lb break="no" ed="#P" n="84"/>suetudo, quia de ratione consuetudinis est ut
+          <lb ed="#P" n="85"/>ex tacito et non expresso consensu 
+          introduca<lb break="no" ed="#P" n="86"/>tur, l. De quibus, tf. de Legib., ubi hoc notat
+          <lb ed="#P" n="87"/>Bart. in Repetition., num. 7, et idem sumitur
+          <lb ed="#P" n="88"/>clare ex S Non scripto, Institut. de Jur. 
+          na<lb break="no" ed="#P" n="89"/>tur., etc. Unde si consuetudo orta est ex vi
+          <lb ed="#P" n="90"/>legis, eo ipso non potest habere vim 
+          introdu<lb break="no" ed="#P" n="91"/>cendi legem, quia non eo animo inchoatur,
+          <lb ed="#P" n="92"/>vel continuatur, ut homines per illam 
+          obligen<lb break="no" ed="#P" n="93"/>tur, sed potius ut obediant legi praexistenti.
+          <lb ed="#P" n="94"/>Nec refert quod, interdum, dicitur consuetudo
+          <lb ed="#P" n="95"/>induci post legem: nam hoc intelligitur vel 
+          so<lb break="no" ed="#P" n="96"/>lum de consuetudine facti, quae legem tantum
+          <lb ed="#P" n="97"/>confirmat, vel de consuetudine limitante aut
+          <lb ed="#P" n="98"/>interpretante legem, quae quoad hoc potest 
+          no<lb break="no" ed="#P" n="99"/>vum jus inducere, ut infra dicetur, tamen quoad
+          <lb ed="#P" n="100"/>id non supponit legem, sed aliquid illi 
+          adjun<lb break="no" ed="#P" n="101"/>git. Sic ergo verissime dicitur, consuetudinem
+          <lb ed="#P" n="102"/>esse jus non scriptum, et ita habetur inl. 7o,
+          <lb ed="#P" n="103"/>ft. de Legib., et inl. Jus civile, ff. de Just. et
+          <lb ed="#P" n="104"/>jur.. et in S Constat, S Non scripto, Instit. de
+          <lb ed="#P" n="105"/>Jur. natur.; et ratio est, quia nec per se 
+          scri<lb break="no" ed="#P" n="106"/>pturam requirit , nec etiam manat ex jure .
+          <lb ed="#P" n="107"/>scripto, imo nec ex proprio et expresso 
+          prae<lb break="no" ed="#P" n="108"/>cepto superioris , sed usu ipso introducitur ,
+          <pb ed="#P" n="140"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>usus enim non scripturis, aut verbis, sed in
+          <lb ed="#P" n="2"/>factis consistit. Et hoc docent theologi de 
+          ali<lb break="no" ed="#P" n="3"/>quibus legibus ecclesiasticis , quae traditione
+          <lb ed="#P" n="4"/>habentur, de quibus in duobus sequentibus 
+          ca<lb break="no" ed="#P" n="5"/>pitibus aliquid dicemus.
+        </p>
+        <p xml:id="szdleg-q34801-d1e260">
+          <lb ed="#P" n="6"/>3. Disputant autem jurisperiti an scriptura
+          <lb ed="#P" n="7"/>ita repugnet consuetudini, ut, si in scripta 
+          re<lb break="no" ed="#P" n="8"/>digatur, eo ipso desinat esse consuetudo seu jus
+          <lb ed="#P" n="9"/>consuetudinarium, et incipiat esse lex alterius
+          <lb ed="#P" n="10"/>rationis. Aliqui enim id affirmarunt, ut Dart.
+          <lb ed="#P" n="11"/>supra refert, et indicat Gratian., S Cum 
+          ita<lb break="no" ed="#P" n="12"/>que, post c. 5,d. 1, ubi dicit consuetudinem in
+          <lb ed="#P" n="13"/>scripta redactam constitutionem esse, non 
+          scri<lb break="no" ed="#P" n="14"/>ptam autem consuetudinem appellari, et 
+          se<lb break="no" ed="#P" n="15"/>quitur Rochus Curt., tract. de Consuetud., in
+          <lb ed="#P" n="16"/>Praet., n. 5 et 6, cum Bald., in dicta l. De 
+          qui<lb break="no" ed="#P" n="17"/>Dus, et Jas., in l. 2, ff. de Vulg. et pupill., 
+          di<lb break="no" ed="#P" n="18"/>cente consuetudinem redactam in scripta per
+          <lb ed="#P" n="19"/>eum qui non habet potestatem condendi 
+          le<lb break="no" ed="#P" n="20"/>ges, manere nihilominus in vi consuetudinis,
+          <lb ed="#P" n="21"/>quod est clarum, quia illa scriptura non est
+          <lb ed="#P" n="22"/>lex, sed potius deservire ad memoriam, vel
+          <lb ed="#P" n="23"/>probationem, sicut nos probamus traditiones
+          <lb ed="#P" n="24"/>non scriptas, ex Patribus; at vero, si 
+          consue<lb break="no" ed="#P" n="25"/>tudo redigatur in scriptum ab habente 
+          aucto<lb break="no" ed="#P" n="26"/>ritatem condendi legem, eo ipso desinere esse
+          <lb ed="#P" n="27"/>consuetudinem, quia jam non est jus non 
+          scri<lb break="no" ed="#P" n="28"/>ptum, nec ex consensu tacito, sed expresso.
+          <lb ed="#P" n="29"/>Addi etiam potest quod, licet consuetudo
+          <lb ed="#P" n="30"/>scribatur per modum legis ab habente 
+          auctori<lb break="no" ed="#P" n="31"/>tatem condendi leges, si tamen per scripturam
+          <lb ed="#P" n="32"/>non intendat novam vim addere consuetudini,
+          <lb ed="#P" n="33"/>nec authentice declarare vel affirmare illam
+          <lb ed="#P" n="34"/>esse consuetudinem sufhicientem, semper illa
+          <lb ed="#P" n="35"/>maneat in vi consuetudinis, quomodo multi
+          <lb ed="#P" n="36"/>censent de legibus fori : si vero per veram
+          <lb ed="#P" n="37"/>legem scriptam ab habente auctoritatem, et
+          <lb ed="#P" n="38"/>per verba obligantia, consuetudo stabiliatur,
+          <lb ed="#P" n="39"/>jam tunc non esse consuetudinem, sed scriptam
+          <lb ed="#P" n="40"/>legem.
+        </p>
+        <p xml:id="szdleg-q34801-d1e338">
+          <lb ed="#P" n="41"/>4. Mihi autem videtur, etiam in hoc ultimo
+          <lb ed="#P" n="42"/>casu, perseverare consuetudinem in sua vi et
+          <lb ed="#P" n="43"/>in propria ratione consuetudinis, nisi per 
+          le<lb break="no" ed="#P" n="44"/>gem denuo scriptam auferatur. Et ita sentit
+          <lb ed="#P" n="45"/>Bart. in dicta 1. De quibus, q. 4, n. 1, et 
+          lo<lb break="no" ed="#P" n="46"/>quuntur frequentius juristae ibi, et in dicta
+          <lb ed="#P" n="47"/>1. 2 de Vulgat. et pupil.; et Anton. extra de
+          <lb ed="#P" n="48"/>consuetud. in Rubr., et alii quos refert Rochus
+          <lb ed="#P" n="49"/>supra. Et potest probari ex c. 2 de Praebend.,
+          <lb ed="#P" n="50"/>in 6, ibi : Hujusmodi consuetudinem 
+          auctori<lb break="no" ed="#P" n="51"/>tate apostolica approbantes, ac nibilominus 
+          vo<lb break="no" ed="#P" n="52"/>lentes eam inviolabiliter observari. Wa ergo lex
+          <lb ed="#P" n="53"/>scripta non destruit consuetudinem quam 
+          ser<lb break="no" ed="#P" n="54"/>vari praecipit, sed illi addit novum robur, et,
+          <lb ed="#P" n="55"/>ut Glossa ibi inquit, de speciali consuetudine
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>fit jus commune. Ratio est, quia non repugnat
+          <lb ed="#P" n="57"/>illa duo vincula simul permanere, scilicet, 
+          con<lb break="no" ed="#P" n="58"/>suetudinis et legis scriptae, sicut possunt esse
+          <lb ed="#P" n="59"/>simul duae leges scriptae de eadem re, simulque
+          <lb ed="#P" n="60"/>obligare. Et ita ipsamet jura scripta saepe 
+          alle<lb break="no" ed="#P" n="61"/>gant consuetudinem et jus scriplum, tanquam
+          <lb ed="#P" n="62"/>simul corroborantia rei honestatem vel 
+          obli<lb break="no" ed="#P" n="63"/>gationem, ut constat ex c. Videtur, Qui matr.
+          <lb ed="#P" n="64"/>accus. pos., ibi: tam antiqua consuetudine
+          <lb ed="#P" n="65"/>quam legibus approbatur. Neque est inutilis
+          <lb ed="#P" n="66"/>perseverantia consuetudinis et obligationis
+          <lb ed="#P" n="67"/>ejus, non obstante lege scripta, quia, si 
+          con<lb break="no" ed="#P" n="68"/>suetudo sit specialis, et lex superveniens 
+          scri<lb break="no" ed="#P" n="69"/>pta sit jus commune, ut in c. Cum inhilitio,
+          <lb ed="#P" n="70"/>de Clandest. despons., et contingat per 
+          privi<lb break="no" ed="#P" n="71"/>legium derogari talem legem, nihilominus ubi
+          <lb ed="#P" n="72"/>antiquior viguit consuetudo, non censetur per
+          <lb ed="#P" n="73"/>illud privilegium derogata, nisi expresse etiam
+          <lb ed="#P" n="74"/>consuetudini deroget. Et ideo non est quaestio
+          <lb ed="#P" n="75"/>de solo modo loquendi, sed de re, quia ad 
+          mo<lb break="no" ed="#P" n="76"/>rales effectus multum referre potest quod 
+          con<lb break="no" ed="#P" n="77"/>suetudo, quae incipit sine lege, currat cum 
+          le<lb break="no" ed="#P" n="78"/>ge, et suam vim retineat, secundum quam
+          <lb ed="#P" n="79"/>semper erit non scriptum jus : nam sola 
+          con<lb break="no" ed="#P" n="80"/>comitantia legis scriptae non tollit quin aliud
+          <lb ed="#P" n="81"/>jus in sua vi et formalitate sit non scriptum.
+          <lb ed="#P" n="82"/>Oportet autem ut ante legem scriptam 
+          consue<lb break="no" ed="#P" n="83"/>tudo sit consummata, et sufficienter 
+          introduc<lb break="no" ed="#P" n="84"/>ta; nam si tantum sit inchoata, et per legem
+          <lb ed="#P" n="85"/>scriptam quasi anticipetur et introducatur
+          <lb ed="#P" n="86"/>obligatio, manebit purum jus scriptum, ut
+          <lb ed="#P" n="87"/>constat.
+        </p>
+        <p xml:id="szdleg-q34801-d1e445">
+          <lb ed="#P" n="88"/>5. Quomodo consuetudo legem supponere 
+          de<lb break="no" ed="#P" n="89"/>Det.—Ad secundam objectionem de 
+          consuetu<lb break="no" ed="#P" n="90"/>dine legi contraria, quae legem supponere 
+          vi<lb break="no" ed="#P" n="91"/>detur, respondetur facile non esse contra 
+          ra<lb break="no" ed="#P" n="92"/>tionem consuetudinis, ut supponat 
+          quamcum<lb break="no" ed="#P" n="93"/>que legem, sed solum ut supponat legem
+          <lb ed="#P" n="94"/>scriptam statuentem illud ipsum, quod 
+          consue<lb break="no" ed="#P" n="95"/>tudine introducendum est : illam vero 
+          consue<lb break="no" ed="#P" n="96"/>tudinem, quae derogat legi, non supponere
+          <lb ed="#P" n="97"/>legem circa idem, sed potius circa oppositum:
+          <lb ed="#P" n="98"/>nam potius consuetudo facit ut hoc liceat:
+          <lb ed="#P" n="99"/>lex autem faciebat ut non liceret, vel e 
+          con<lb break="no" ed="#P" n="100"/>verso. Aliter vero explicat Bart. supra, n. 6,
+          <lb ed="#P" n="101"/>illam particulam cum dejficit lev, quod, 
+          scili<lb break="no" ed="#P" n="102"/>cet, per illam denotetur consuetudinem non
+          <lb ed="#P" n="103"/>debere esse reprobatam per legem, quia si
+          <lb ed="#P" n="104"/>consuetudo non est contra legem, ibi clare 
+          de<lb break="no" ed="#P" n="105"/>ficit lex : si vero sit contra legem, oportet ut
+          <lb ed="#P" n="106"/>consuetudine lex vincatur, et sic deficiat ut
+          <lb ed="#P" n="107"/>possit consuetudo subsistere : nam si 
+          consue<lb break="no" ed="#P" n="108"/>tudo facti sit contra legem, et illam non 
+          au<lb break="no" ed="#P" n="109"/>ferat, nunquam poterit jus aliquod 
+          introduce<lb break="no" ed="#P" n="110"/>re. Quae doctrina vera est, et ingeniose cogi-
+          <pb ed="#P" n="141"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tata, non credo autem fuisse ab Isidoro
+          <lb ed="#P" n="2"/>intentam, sed in sensu simpliciori fuisse 
+          locu<lb break="no" ed="#P" n="3"/>tum, ut supra explicavi. Neque oportebat id
+          <lb ed="#P" n="4"/>specialiter in definitione explicare, quia per
+          <lb ed="#P" n="5"/>se clarum est non posse consuetudinem jus 
+          in<lb break="no" ed="#P" n="6"/>troducere contrarium praexistenti, nisi illud
+          <lb ed="#P" n="7"/>auferat, cum repugnet circa idem simul esse
+          <lb ed="#P" n="8"/>duo jura contraria.
+        </p>
+        <p xml:id="szdleg-q34801-d1e519">
+          <lb ed="#P" n="9"/>6. Sed tunc urget tertia objectio, quia 
+          con<lb break="no" ed="#P" n="10"/>suetudo derogans priori legi est vera 
+          consue<lb break="no" ed="#P" n="11"/>tudo, et non est jus. Ad hoc vero respondeo
+          <lb ed="#P" n="12"/>primo, in his rebus moralibus sub habitu 
+          pri<lb break="no" ed="#P" n="13"/>vationem intelligi, sicut peccatum definitur ab
+          <lb ed="#P" n="14"/>Aug., esse dictum vel factum, etc., sub quibus
+          <lb ed="#P" n="15"/>actibus intelliguntur omissiones eorum legi
+          <lb ed="#P" n="16"/>contrariae : ita ergo cum consuetudo dicitur
+          <lb ed="#P" n="17"/>esse jus, ibi intelligitur vel revocatio juris.
+          <lb ed="#P" n="18"/>Nam lex revocans aliam vera lex est, licet 
+          op<lb break="no" ed="#P" n="19"/>positum non praecipiat. Ita ergo consuetudo
+          <lb ed="#P" n="20"/>revocans legem dicitur jus non scriptum, quia
+          <lb ed="#P" n="21"/>pro lege revocante suscipitur. Unde dicitur
+          <lb ed="#P" n="22"/>secundo, quod, sicut permissio ponitur inter
+          <lb ed="#P" n="23"/>effectus legis, et lex permittens vere lex 
+          cen<lb break="no" ed="#P" n="24"/>setur, quia, licet non praecipiat actum 
+          permis<lb break="no" ed="#P" n="25"/>sum, praecipit permissionem, ita consuetudo
+          <lb ed="#P" n="26"/>legi derogans jus inducit, non quidem 
+          praeci<lb break="no" ed="#P" n="27"/>piens actum priori legi contrarium, sed 
+          per<lb break="no" ed="#P" n="28"/>mittens tantum. Consequenter autem praecipit
+          <lb ed="#P" n="29"/>permissionem, seu prohibet ne quis cogatur ad
+          <lb ed="#P" n="30"/>legem derogatam servandam, vel ne propter
+          <lb ed="#P" n="31"/>illam non observantiam puniri possit.
+        </p>
+        <p xml:id="szdleg-q34801-d1e571">
+          <lb ed="#P" n="32"/>7. Approbatur definitio I'sidori initio 
+          propo<lb break="no" ed="#P" n="33"/>posita. — Quartam objectionem posui propter
+          <lb ed="#P" n="34"/>aliquos qui reprehendunt definitionem Isidori
+          <lb ed="#P" n="35"/>ut diminutam, quia in ea deficit illa particula,
+          <lb ed="#P" n="36"/>populi consensu, vel, communi consensu, vel
+          <lb ed="#P" n="37"/>saltem particula, populi ; ita quod non 
+          dicere<lb break="no" ed="#P" n="38"/>tur tantum moribus institutum, ut ait Isidorus,
+          <lb ed="#P" n="39"/>sed moribus populi institutum. Atque ita sentit
+          <lb ed="#P" n="40"/>Bart. in d. l. De quibus, in lectur., n. 6. Imo
+          <lb ed="#P" n="41"/>ibi etiam magis approbat aliam definitionem
+          <lb ed="#P" n="42"/>prolixiorem, per plures particulas explicantem
+          <lb ed="#P" n="43"/>conditiones ad consuetudinem requisitas. Alii
+          <lb ed="#P" n="44"/>etiam canonistae dictam definitionem 
+          brevita<lb break="no" ed="#P" n="45"/>tis reprehendunt, et plures alias multiplicant
+          <lb ed="#P" n="46"/>quas referre supervacaneum est, quia non 
+          ha<lb break="no" ed="#P" n="47"/>bent utilitatem, et videri possunt in Host., in
+          <lb ed="#P" n="48"/>Sum., tit. de Consuet.; et Rocho ubi supra, et
+          <lb ed="#P" n="49"/>in ipso Bart., in d. Repet., n. 4, ubi priorem
+          <lb ed="#P" n="50"/>sententiam reprobat , et in sola definitione
+          <lb ed="#P" n="51"/>Isidori persistit. Dico ergo nullam ex illis 
+          par<lb break="no" ed="#P" n="52"/>ticulis esse necessariam, nec afferre claritatem,
+          <lb ed="#P" n="53"/>sed dubitationem. Nam si in definitione 
+          pona<lb break="no" ed="#P" n="54"/>tur populi consensus, statim oritur quaestio
+          <lb ed="#P" n="55"/>cujus populi, et an, verbi gratia, capituli con-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sensus sufficiat, et idem est de similibus. Cum
+          <lb ed="#P" n="57"/>ergo dicitur aoribus institwtwm, satis ibi 
+          inclu<lb break="no" ed="#P" n="58"/>ditur consensus, quia mores voluntarii sunt,
+          <lb ed="#P" n="59"/>ut supra dixi. Subintelligitur autem mores
+          <lb ed="#P" n="60"/>debere esse tales, qui ad jus introducendum
+          <lb ed="#P" n="61"/>sufficiant. Quas autem conditiones ad hoc 
+          ha<lb break="no" ed="#P" n="62"/>bere debeant, vel quorum consensu niti 
+          de<lb break="no" ed="#P" n="63"/>beant, non oportuit, nec debuit in definitione
+          <lb ed="#P" n="64"/>explicari ; nec enim est necesse ut omnes 
+          cau<lb break="no" ed="#P" n="65"/>sae rei in definitione ponantur, sed tantum 
+          in<lb break="no" ed="#P" n="66"/>trinseca ratio formalis ejus; reliqua vero in
+          <lb ed="#P" n="67"/>discursu materiae explicanda sunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

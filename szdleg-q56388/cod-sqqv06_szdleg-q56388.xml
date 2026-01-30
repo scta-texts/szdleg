@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prooemium</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Prooemium</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="225"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q56388"><!-- l8prooem -->
+        <head xml:id="szdleg-q56388-Hd1e101">Prooemium</head>
+        <p xml:id="szdleg-q56388-d1e103">
+          <pb ed="#P" n="225"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER OCTAVUS.
+          <lb ed="#P" n="2"/>DE
+          <lb ed="#P" n="3"/>LEGE HUMANA FAVORABILI
+          <lb ed="#P" n="4"/>SEU PRIVILEGIUM CONCEDENTE.
+        </p>
+        <p xml:id="szdleg-q56388-d1e119">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="5"/>Quibus in locis agatur fuse de lege 
+          favora<lb break="no" ed="#P" n="6"/>bili. —Distinximus in cap. 2 libri quinti legem
+          <lb ed="#P" n="7"/>humanam in odiosam et favorabilem, et in fine
+          <lb ed="#P" n="8"/>ejusdem capitis insinuavimus dupliciter dici
+          <lb ed="#P" n="9"/>posse legem favorabilem, generaliter, scilicet,
+          <lb ed="#P" n="10"/>et specialiter. Priori modo dicitur lex 
+          favorabi<lb break="no" ed="#P" n="11"/>lis, quaecumque lex justa quae speciale 
+          grava<lb break="no" ed="#P" n="12"/>men non imponit, neque aliquod odium 
+          con<lb break="no" ed="#P" n="13"/>tinet : nam his semotis, lex de se magna 
+          bene<lb break="no" ed="#P" n="14"/>ficia confert ; nam illuminat, dirigit, et in 
+          ot<lb break="no" ed="#P" n="15"/>ficio continet ; ideoque favorabilis censenda
+          <lb ed="#P" n="16"/>est, generali tamen appellatione, quia ex 
+          gene<lb break="no" ed="#P" n="17"/>rali ratione justae legis hoc habet, supposita
+          <lb ed="#P" n="18"/>praedicta negatione ; et ideo de lege favorabili
+          <lb ed="#P" n="19"/>sub hac generali ratione nihil dicendum 
+          su<lb break="no" ed="#P" n="20"/>perest, nisi quod hic favor potest esse major et
+          <lb ed="#P" n="21"/>minor in diversis legibus pro materiarium et
+          <lb ed="#P" n="22"/>finium illarum diversitate. Sic enim leges 
+          di<lb break="no" ed="#P" n="23"/>recte intendentes commune bonum 
+          praeferun<lb break="no" ed="#P" n="24"/>tur legibus quae commoditates siugulorum 
+          pri<lb break="no" ed="#P" n="25"/>vatorum continent; et quae religionem fovent,
+          <lb ed="#P" n="26"/>his quae de temporalibus disponunt, et sic de
+          <lb ed="#P" n="27"/>caeteris. Quomodo autem haec proprietas , seu
+          <lb ed="#P" n="28"/>favor legis ad ejus interpretationem conferat,
+          <lb ed="#P" n="29"/>in lib. 5 dictum est. Posteriori seu speciali
+          <lb ed="#P" n="30"/>modo dicitur lex favorabilis, quae specialem
+          <lb ed="#P" n="31"/>favorem aliquibus concedit, quae nomine 
+          pri<lb break="no" ed="#P" n="32"/>vilegii significari solet, quae particularem 
+          re<lb break="no" ed="#P" n="33"/>quirit considerationem in hoc libro iradendam,
+          <lb ed="#P" n="34"/>quia habet proprium quemdam effectum legis
+          <lb ed="#P" n="35"/>non communem aliis, ratione cujus peculiaris
+          <lb ed="#P" n="36"/>species legis censetur, et aliquas habet 
+          proprie<lb break="no" ed="#P" n="37"/>tates quas explicare necesse est. Sunt autem
+          <lb ed="#P" n="38"/>de hac lege tituli de privilegiis in omnibus
+          <lb ed="#P" n="39"/>tomis juris canonici, ubi interpretes multa de
+          <lb ed="#P" n="40"/>hac materia disputant ; in jure autem civih
+          <lb ed="#P" n="41"/>non invenio absolutu:n titulum de privilegiis,
+          <lb ed="#P" n="42"/>sed cum aliqua additione de privilegus credi-
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="43"/>torum, et de privilegiis veteranorum, in Digest.
+          <lb ed="#P" n="44"/>novo. Et de privilegio fisci, vel dotis, vel 
+          va<lb break="no" ed="#P" n="45"/>riarum personarum, aut communitatum, in
+          <lb ed="#P" n="46"/>libris Codicis, quibus locis, et aliis multis, juris
+          <lb ed="#P" n="47"/>etiam civilis interpretes de hac materia 
+          trac<lb break="no" ed="#P" n="48"/>tant ; et summistae verb. Privilegium, et verb.
+          <lb ed="#P" n="49"/>Gratia. Theologi vero de illis ex professo non
+          <lb ed="#P" n="50"/>disputant, sed pauca per occasionem et 
+          suc<lb break="no" ed="#P" n="51"/>cincte attingunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

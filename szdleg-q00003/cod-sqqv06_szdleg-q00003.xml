@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prooemium</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Prooemium</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q00003"><!-- l6-prooem -->
+        <head xml:id="szdleg-q00003-Hd1e101">Prooemium</head>
+        <p xml:id="szdleg-q00003-d1e103">
+          <pb ed="#P" n="1"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER SEXTUS.
+          <lb ed="#P" n="2"/>DE
+          <lb ed="#P" n="3"/>INTERPRETATIONE, CESSATIONE
+          <lb ed="#P" n="4"/>ET MUTATIONE HUMANARUM LEGUM.
+        </p>
+        <p xml:id="szdleg-q00003-d1e119">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="5"/>Diximus in tribus libris proxime 
+          praeceden<lb break="no" ed="#P" n="6"/>tibus de omnibus quae spectant ad rationem et
+          <lb ed="#P" n="7"/>efficaciam legis, tam civilis quam canonicae,
+          <lb ed="#P" n="8"/>et ad quasdam earum generales species quae
+          <lb ed="#P" n="9"/>omnes mutationem admittunt; et ideo 
+          prius<lb break="no" ed="#P" n="10"/>quam de jure humano non scripto vel de 
+          pri<lb break="no" ed="#P" n="11"/>vato dicamus, de mutatione legis humanae 
+          scri<lb break="no" ed="#P" n="12"/>ptae dicendum est, simulque canonicam et 
+          ci<lb break="no" ed="#P" n="13"/>vilem comprehendemus , quoniam utraque
+          <lb ed="#P" n="14"/>mutationem admittit, et doctrina quoad hanc
+          <lb ed="#P" n="15"/>partem communis est ac fere uniformis. 
+          Dis<lb break="no" ed="#P" n="16"/>tinguendae autem sunt variae mutationes quae
+          <lb ed="#P" n="17"/>in humana lege fieri possunt; potest enim
+          <lb ed="#P" n="18"/>mutari interdum quasi ab intrinseco et de se,
+          <lb ed="#P" n="19"/>aliquando vero ab extrinseco agente; et 
+          utra<lb break="no" ed="#P" n="20"/>que mutatio accidere potest vel in parte solum
+          <lb ed="#P" n="21"/>vel in tota lege. Dico autem legem mutari ex
+          <lb ed="#P" n="22"/>se et ab intrinseco, quando ex defectu materiae,
+          <lb ed="#P" n="23"/>vel finis, aut rationis ejus obligatio cessat. Et
+          <lb ed="#P" n="24"/>quando hoc contingit tantum in parte, seu in
+          <lb ed="#P" n="25"/>particulari occasione, dicitur legis 
+          interpreta<lb break="no" ed="#P" n="26"/>tio, seu aequitas, aut epiikia; quando vero 
+          in<lb break="no" ed="#P" n="27"/>tegra mutatio accidit, cessatio dici potest, et
+          <lb ed="#P" n="28"/>ita a nobis appellatur. Ab extrinseco autem
+          <lb ed="#P" n="29"/>mutatur lex quando per contrariam actionem
+          <lb ed="#P" n="30"/>aufertur ejus obligatio, et si quidem id fiat ex
+          <lb ed="#P" n="31"/>parte, vocatur dispensatio, sub qua 
+          commuta<lb break="no" ed="#P" n="32"/>tionem comprehendo; si autem fiat in tota
+          <lb ed="#P" n="33"/>lege, vocatur abrogatio, seu irritatio, aut 
+          ab<lb break="no" ed="#P" n="34"/>latio legis. Ex quibus quatuor membris 
+          con<lb break="no" ed="#P" n="35"/>surgunt sigillatim pertractanda, interpretatio,
+          <lb ed="#P" n="36"/>cessatio. dispensatio et abrogatio legis, quibus
+          <lb ed="#P" n="37"/>addi solet mutatio legis per additionem, ut
+          <lb ed="#P" n="38"/>constat ex D. Thoma, quaest. 97, art. 4. 
+          Verum<lb break="no" ed="#P" n="39"/>tamen si additio legis fiat sine diminutione vel
+          <lb ed="#P" n="40"/>abrogatione praexistentium legum, magis per-
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="41"/>tinet ad introductionem novae legis quam ad
+          <lb ed="#P" n="42"/>mutationem de qua tractamus, et ideo nihil
+          <lb ed="#P" n="43"/>de mutatione illa nobis dicendum superest. Si
+          <lb ed="#P" n="44"/>autem lex nova antiquioribus deroget, jam non
+          <lb ed="#P" n="45"/>est pura additio, sed mutatio quae sub 
+          abroga<lb break="no" ed="#P" n="46"/>tione comprehenditur, et ita quatuor membra
+          <lb ed="#P" n="47"/>sufficiunt. Et quod ad primum spectat, licet
+          <lb ed="#P" n="48"/>sola interpretatio, per quam lex declaratur in
+          <lb ed="#P" n="49"/>speciali casu non obligare per epiikiam, ad 
+          le<lb break="no" ed="#P" n="50"/>gis mutationem pertinere videatur, 
+          nihilomi<lb break="no" ed="#P" n="51"/>nus, ut illa melius intelligatur et propter 
+          ma<lb break="no" ed="#P" n="52"/>teriae complementum, operae pretium erit 
+          ali<lb break="no" ed="#P" n="53"/>quid de interpretatione humanarum legum
+          <lb ed="#P" n="54"/>generaliter praemittere.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

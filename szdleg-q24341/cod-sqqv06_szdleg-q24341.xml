@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 20</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 20</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="97"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q24341"><!-- l6c20 -->
+        <head xml:id="szdleg-q24341-Hd1e101">Caput 20</head>
+        <head xml:id="szdleg-q24341-Hd1e103" type="question-title">Utrum cessante causa dispensationis cesset dispensatio, vel aliter interdum amittatur.</head>
+        <p xml:id="szdleg-q24341-d1e106">
+          <lb ed="#P" n="34"/>CAPUT XX.
+          <lb ed="#P" n="35"/>UTRUM CESSANTE CAUSA DISPENSATIONIS CESSET
+          <lb ed="#P" n="36"/>DISPENSATIO, VEL ALITER INTERDUM 
+          AMITTA<lb break="no" ed="#P" n="37"/>TUR.
+        </p>
+        <p xml:id="szdleg-q24341-d1e117">
+          <lb ed="#P" n="38"/>1. Distinctio inter indulta, breves, et 
+          facul<lb break="no" ed="#P" n="39"/>tates, eic., notanda. — Quoniam in 
+          praecedenti<lb break="no" ed="#P" n="40"/>bus capitibus diximus causam esse 
+          necessa<lb break="no" ed="#P" n="41"/>riam ut dispensatio justa, vel etiam interdum
+          <lb ed="#P" n="42"/>valida sit, consequenter oportet exponere an
+          <lb ed="#P" n="43"/>hujusmodi causa adeo sit necessaria ut, illa
+          <lb ed="#P" n="44"/>cessante, cesset dispensatio quae est effectus
+          <lb ed="#P" n="45"/>ejus, secundum regulam : Cessante causa, 
+          ces<lb break="no" ed="#P" n="46"/>sat effectus, c. Cum cessante, de Appell., cum 
+          si<lb break="no" ed="#P" n="47"/>milibus. Et hac occasione simul dicemus de 
+          om<lb break="no" ed="#P" n="48"/>nibus modis quibus potest dispensatio amitü:
+          <lb ed="#P" n="49"/>quam materiam (quae latissima est) in hoc 
+          ca<lb break="no" ed="#P" n="50"/>pite quasi remissive perstringemus, ne 
+          om<lb break="no" ed="#P" n="51"/>nino praetermitti videatur ; nam plenam 
+          dis<lb break="no" ed="#P" n="52"/>putationem in l. 8 reservamus, ubi commodius
+          <lb ed="#P" n="53"/>de privilegio generaliter tractabitur, et ita po-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>terit facile ad dispensationem applicari, quae
+          <lb ed="#P" n="55"/>parum a privilegio differt, et lato modo sub illo
+          <lb ed="#P" n="56"/>comprehendi potest. Oportet autem imprimis
+          <lb ed="#P" n="57"/>prae oculis habere distinctionem supra datam
+          <lb ed="#P" n="58"/>inter indulta, breves, facultates, aut mandatum
+          <lb ed="#P" n="59"/>dispensandi , sive absolute, sive sub illa 
+          con<lb break="no" ed="#P" n="60"/>ditione: S preces veritati iunitantur, vel alia
+          <lb ed="#P" n="61"/>similia, et di-pensationem ipsam. Nam illud
+          <lb ed="#P" n="62"/>indultum, licet vulgo dispensatio appelletur,
+          <lb ed="#P" n="63"/>revera non est dispensatio, ut supra dixi, quia
+          <lb ed="#P" n="64"/>non relaxat legem, nec tollit vinculum per 
+          se<lb break="no" ed="#P" n="65"/>ipsum, seu ipso facto, sed requirit actionem
+          <lb ed="#P" n="66"/>hominis per quam fit dispensatio. Deinde in
+          <lb ed="#P" n="67"/>dispensatione ipsa oportet distinguere duos
+          <lb ed="#P" n="68"/>effectus supra relatos, unum immediatum, et
+          <lb ed="#P" n="69"/>per se, qui est relaxatio legis, auferendo 
+          vincu<lb break="no" ed="#P" n="70"/>lum vel effectum ejus, ut inhabilitatem, 
+          irrita<lb break="no" ed="#P" n="71"/>tionem, etc.; alium remotum, et quasi per 
+          acci<lb break="no" ed="#P" n="72"/>dens respectu dispensationis, quia est executio
+          <lb ed="#P" n="73"/>ejus, ut est contrahere, jejunare, vel alium 
+          ac<lb break="no" ed="#P" n="74"/>tum efficere per dispensationem concessam.
+        </p>
+        <p xml:id="szdleg-q24341-d1e202">
+          <lb ed="#P" n="75"/>2. Ex quibus consurgit triplex status, in
+          <lb ed="#P" n="76"/>quo potest dispensatio existere, sub illa 
+          indul<lb break="no" ed="#P" n="77"/>tum dispensandi comprehendendo. Primus est,
+          <lb ed="#P" n="78"/>quando jam indultum dispensandi est 
+          conces<lb break="no" ed="#P" n="79"/>sum, nondum tamen est dispensatio facta.
+          <lb ed="#P" n="80"/>Secundus est, quando dispensatio est jam 
+          fac<lb break="no" ed="#P" n="81"/>ta, et habuit suum proximum effectum, 
+          non<lb break="no" ed="#P" n="82"/>dum tamen habuit remotum, neque est 
+          exe<lb break="no" ed="#P" n="83"/>cutioni mandata. Tertius, quando jam est
+          <lb ed="#P" n="84"/>executioni mandata, suumque ultimum 
+          effec<lb break="no" ed="#P" n="85"/>tum habuit. Quando ergo dispensatio ad hunc
+          <lb ed="#P" n="86"/>statum ultimum pervenit, nec cessare potest,
+          <lb ed="#P" n="87"/>cessante causa, neque etiam potest amitti 
+          quo<lb break="no" ed="#P" n="88"/>cumque modo. Utrumque potest facile probari
+          <lb ed="#P" n="89"/>inductione, quia, si dispensatio data est in
+          <lb ed="#P" n="90"/>gradu consanguinitatis ad contrahendum 
+          ma<lb break="no" ed="#P" n="91"/>trimonium, et matrimonium jam est 
+          contrac<lb break="no" ed="#P" n="92"/>tum, clarum est non posse cessare aut revocari
+          <lb ed="#P" n="93"/>dispensationem ; et idem est in dispensatione
+          <lb ed="#P" n="94"/>circa jejunia, vel similes actus, imo etiam in
+          <lb ed="#P" n="95"/>dispensationibus votorum. Intelligendum 
+          ta<lb break="no" ed="#P" n="96"/>men semper est de dispensatione, quatenus ad
+          <lb ed="#P" n="97"/>illum statum tertium pervenerit: nam 
+          con<lb break="no" ed="#P" n="98"/>tingit dispensationem habere tractum 
+          succes<lb break="no" ed="#P" n="99"/>sivum, seu habere posse plures effectus, vel
+          <lb ed="#P" n="100"/>actus, et quoad aliquos esse executioni 
+          manda<lb break="no" ed="#P" n="101"/>tam, non vero quoad alios, et tunc partim est
+          <lb ed="#P" n="102"/>in tertio statu, partim in secundo, vel primo,
+          <lb ed="#P" n="103"/>et ideo solum ex ea parte qua pervenit ad 
+          ter<lb break="no" ed="#P" n="104"/>tium statum comprehenditur sub praedicta 
+          re<lb break="no" ed="#P" n="105"/>gula ; quoad alteram vero, quae respicit 
+          futu<lb break="no" ed="#P" n="106"/>rum, comprehendetur sub sequentibus. Et sic
+          <lb ed="#P" n="107"/>est facilis ratio assertionis, quia si dispensatio
+          <lb ed="#P" n="108"/>jam habuit consummatum effectum , ille non
+          <pb ed="#P" n="98"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>potest esse non licite factus, vel valide, juxta
+          <lb ed="#P" n="2"/>exigentiam dispensationis, quia ad praeteritum
+          <lb ed="#P" n="3"/>non est potentia ; ergo dispensatio quoad illum
+          <lb ed="#P" n="4"/>effectum nec cessare potest, nec amitti.
+        </p>
+        <p xml:id="szdleg-q24341-d1e292">
+          <lb ed="#P" n="5"/>3. Potestque hoc inductione simul et ratione
+          <lb ed="#P" n="6"/>ostendi. Nam si actus fuit mere transiens, et
+          <lb ed="#P" n="7"/>nullum relinquens effectum, non potest 
+          am<lb break="no" ed="#P" n="8"/>plius sub legem cadere, neque indigere 
+          dis<lb break="no" ed="#P" n="9"/>pensatione. Item si fuit actus reliquens 
+          effec<lb break="no" ed="#P" n="10"/>tum permanentem et irrevocabilem, ut est 
+          ma<lb break="no" ed="#P" n="11"/>trimonium, religiosa professio et ordinis 
+          sus<lb break="no" ed="#P" n="12"/>ceptio, constat retractari non posse, non solum
+          <lb ed="#P" n="13"/>quoad vinculum, seu ordinem, verum etiam
+          <lb ed="#P" n="14"/>nec quoad usum ejus respective, quantum est
+          <lb ed="#P" n="15"/>ex parte dispensationis, quia actus fuit 
+          legiti<lb break="no" ed="#P" n="16"/>me factus, et jus plene acquisitum. Denique
+          <lb ed="#P" n="17"/>idem est etiamsi sit effectus permanens, et de
+          <lb ed="#P" n="18"/>se revocabilis, ut est alienatio rei, vel alii 
+          con<lb break="no" ed="#P" n="19"/>tractus : nam semel factus legitime in virtute
+          <lb ed="#P" n="20"/>dispensationis, de se perpetuo manet, nec 
+          po<lb break="no" ed="#P" n="21"/>test cessare propter defectum, vel cessationem
+          <lb ed="#P" n="22"/>causae, aut retractationem dispensationis, quae
+          <lb ed="#P" n="23"/>jam praeteriit , et suum effectum 
+          consumma<lb break="no" ed="#P" n="24"/>tum reliquit : supponimus enim 
+          dispensatio<lb break="no" ed="#P" n="25"/>nem fuisse simpliciter factam ad talem actum
+          <lb ed="#P" n="26"/>absolute praestandum: nam si solum fuisset
+          <lb ed="#P" n="27"/>data ad alienandum, verbi gratia, cum tali
+          <lb ed="#P" n="28"/>conditione, vel durante tali causa, tunc 
+          ces<lb break="no" ed="#P" n="29"/>sare posset effectus, cessante causa, non quia
+          <lb ed="#P" n="30"/>ex eo capite cesset dispensatio, sed quia a
+          <lb ed="#P" n="31"/>principio non fuit dispensatio aliter concessa.
+          <lb ed="#P" n="32"/>Hoc autem ordinarie non fit, quia esset valde
+          <lb ed="#P" n="33"/>onerosum et periculosum, et ideo nunquam
+          <lb ed="#P" n="34"/>est praesumendum. nisi sit adeo expressum ut
+          <lb ed="#P" n="35"/>nullam aliam interpretationem admittat. Et in
+          <lb ed="#P" n="36"/>hoc sensu dicunt juris interpretes, postquam
+          <lb ed="#P" n="37"/>effectus est consummatus, cessante causa, non
+          <lb ed="#P" n="38"/>cessare effectum, ut videre licet in Dec., inc.
+          <lb ed="#P" n="39"/>Qua in Hcclesiarum, de Constit. ; et Bart., et
+          <lb ed="#P" n="40"/>aliis quos ipse allegat; et plures referunt 
+          Ti<lb break="no" ed="#P" n="41"/>raq., tract. Cessante causa, limit. 129, et 
+          Me<lb break="no" ed="#P" n="42"/>noch., lib. 4, praesump. 189, n. 197.
+        </p>
+        <p xml:id="szdleg-q24341-d1e377">
+          <lb ed="#P" n="43"/>4. Quot modis cessat dispensatio. — 
+          Difficul<lb break="no" ed="#P" n="44"/>tas ergo est de aliis statibus, ad quam 
+          expli<lb break="no" ed="#P" n="45"/>candam suppono variis modis posse intelligi
+          <lb ed="#P" n="46"/>dispensationem vim suam amittere, sicut etiam
+          <lb ed="#P" n="47"/>de lege et de privilegio infra dicemus : quatuor
+          <lb ed="#P" n="48"/>autem modi nunc nobis sufficiunt, ad quos
+          <lb ed="#P" n="49"/>possunt alii revocari. Primo, per defectum
+          <lb ed="#P" n="50"/>causae efficientis, id est, per mortem 
+          conce<lb break="no" ed="#P" n="51"/>dentis; secundo, per revocationem ejusdem ;
+          <lb ed="#P" n="52"/>tertio, per renuntiationem dispensati ; 
+          quar<lb break="no" ed="#P" n="53"/>to, per defectum causae finalis ; de quo 
+          praeci<lb break="no" ed="#P" n="54"/>pue tractamus, et ideo alios modos breviter
+          <lb ed="#P" n="55"/>expediemus. Et quidem, circa primum modum,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>manifestum est, si dispensatio pervenit ad 
+          se<lb break="no" ed="#P" n="57"/>cundum statum, non amitti propter mortem
+          <lb ed="#P" n="58"/>concedentis, quia jam gratia est perfecta et
+          <lb ed="#P" n="59"/>consummata ; jam enim dispensans fecit 
+          quid<lb break="no" ed="#P" n="60"/>quid ad ipsum pertinebat: nam usus 
+          dispensa<lb break="no" ed="#P" n="61"/>tionis, non ad dispensantem, sed ad liberam
+          <lb ed="#P" n="62"/>voluntatem dispensati pertinet, et ideo ille
+          <lb ed="#P" n="63"/>usus non requiritur ut gratia sit consummata;
+          <lb ed="#P" n="64"/>constat autem gratiam perfectam non expirare
+          <lb ed="#P" n="65"/>per mortem concedentis, ut est vulgatum 
+          prin<lb break="no" ed="#P" n="66"/>cipium juris. De primo autem statu, grave 
+          du<lb break="no" ed="#P" n="67"/>bium est an dispensatio in eo statu persistens
+          <lb ed="#P" n="68"/>extinguatur per mortem concedentis ; illud
+          <lb ed="#P" n="69"/>vero remitto in c. 21, l. 8, quia connexum est
+          <lb ed="#P" n="70"/>cum simili dubio de privilegio.
+        </p>
+        <p xml:id="szdleg-q24341-d1e442">
+          <lb ed="#P" n="71"/>5. Circa secundum modum amissionis 
+          dis<lb break="no" ed="#P" n="72"/>pensationis per revocationem concedentis,
+          <lb ed="#P" n="73"/>nulla est difficultas, sive dispensatio sit in 
+          pri<lb break="no" ed="#P" n="74"/>mo, sive in secundo statu: nam in utroque
+          <lb ed="#P" n="75"/>revocari potest per voluntatem concedents, a
+          <lb ed="#P" n="76"/>qua semper pendet, quamdiu non habuit 
+          ulu<lb break="no" ed="#P" n="77"/>mum et consummatum effectum. Quod 
+          qui<lb break="no" ed="#P" n="78"/>dem est clarius in primo statu; nam in illo, ut
+          <lb ed="#P" n="79"/>dixi, non est facta dispensatio, sed est delegata
+          <lb ed="#P" n="80"/>potestas dispensandi, vel ad summum est 
+          con<lb break="no" ed="#P" n="81"/>cessa dispensatio sub conditione: potest 
+          au<lb break="no" ed="#P" n="82"/>tem delegans jurisdictionem suam tollere et
+          <lb ed="#P" n="83"/>delegationem revocare, et qui consensum 
+          tan<lb break="no" ed="#P" n="84"/>tum conditionatum tribuit, dum non est 
+          im<lb break="no" ed="#P" n="85"/>pleta conditio, illum revocare potest. Unde fit
+          <lb ed="#P" n="86"/>ut haec revocatio in eo statu valida sit, sive fiat
+          <lb ed="#P" n="87"/>ex nova causa, sive ex solo arbitrio 
+          conceden<lb break="no" ed="#P" n="88"/>tis, et sive licite fiat, sive non, quia jurisdictio
+          <lb ed="#P" n="89"/>delegata semper pendet ex absoluta voluntate
+          <lb ed="#P" n="90"/>concedentis, moraliter saltem permanente, id
+          <lb ed="#P" n="91"/>est, non retractata.
+        </p>
+        <p xml:id="szdleg-q24341-d1e490">
+          <lb ed="#P" n="92"/>6. De secundo vero statu non est res tam
+          <lb ed="#P" n="93"/>clara, quia talis dispensatio videtur esse tunc
+          <lb ed="#P" n="94"/>quasi donatio consummata. Nihilominus tamen
+          <lb ed="#P" n="95"/>satis certum est posse principem revocare 
+          dis<lb break="no" ed="#P" n="96"/>pensationem, etiam in secundo statu 
+          constitu<lb break="no" ed="#P" n="97"/>tam et concessam, sicut potest privilegium
+          <lb ed="#P" n="98"/>revocare ante consummatum ultimum 
+          effec<lb break="no" ed="#P" n="99"/>tum ; et ratio est, quia per talem 
+          dispensatio<lb break="no" ed="#P" n="100"/>nem nullum speciale jus subditus acquisivit,
+          <lb ed="#P" n="101"/>sed solum liberatus est a vinculo legis : potest
+          <lb ed="#P" n="102"/>autem princeps iterum illum legi subjicere,
+          <lb ed="#P" n="103"/>seu legem ad pristinum statum restituere, ut
+          <lb ed="#P" n="104"/>omnes indifferenter obliget ; potest ergo etiam
+          <lb ed="#P" n="105"/>dispensationem revocare. Et quidem si justa
+          <lb ed="#P" n="106"/>causa interveniat, non solum valide, sed etiam
+          <lb ed="#P" n="107"/>licite fieri potest, quia princeps utitur jure
+          <lb ed="#P" n="108"/>suo, nullique infert injuriam, et ex justa causa
+          <lb ed="#P" n="109"/>honestatur mutatio. Si autem id fiat sine 
+          ra<lb break="no" ed="#P" n="110"/>tionabili causa, non erit quidem actus lauda-
+          <pb ed="#P" n="99"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bilis, inducet autem suum effectum; quia 
+          po<lb break="no" ed="#P" n="2"/>testati et voluntati principis nihil tunc est quod
+          <lb ed="#P" n="3"/>resistat. Àn vero haec resolutio aliquam 
+          limita<lb break="no" ed="#P" n="4"/>tonem vel declarationem recipiat, circa 
+          privi<lb break="no" ed="#P" n="5"/>legia dicemus.
+        </p>
+        <p xml:id="szdleg-q24341-d1e549">
+          <lb ed="#P" n="6"/>7. De tertio modo amissionis per 
+          renuntia<lb break="no" ed="#P" n="7"/>tionem, brevis etiam resclutio est, posse 
+          unum<lb break="no" ed="#P" n="8"/>quemque renuntiare dispensationi sibi 
+          con<lb break="no" ed="#P" n="9"/>cessae, per se loquendo, quia est gratia, et favor
+          <lb ed="#P" n="10"/>privatus seu proprius talis personae : 
+          hujusmo<lb break="no" ed="#P" n="11"/>di autem favori unusquisque renuntiare 
+          po<lb break="no" ed="#P" n="12"/>test, juxta c. Ad apostolicam, de Regul., cum
+          <lb ed="#P" n="13"/>similibus; ergo. Atque haec ratio probat de
+          <lb ed="#P" n="14"/>dispensatione, tam in primo quam in secundo
+          <lb ed="#P" n="15"/>statu. Duobus autem modis potest intelligi haec
+          <lb ed="#P" n="16"/>renuntiatio. Primo, quoad solum usum; 
+          se<lb break="no" ed="#P" n="17"/>cundo, etiam quoad potestatem utendi 
+          dispen<lb break="no" ed="#P" n="18"/>satione. Prior modus nulla indiget 
+          declara<lb break="no" ed="#P" n="19"/>tione, quia consistit tantum in facto, vel potius
+          <lb ed="#P" n="20"/>in libero non usu. Et ita constat positum esse
+          <lb ed="#P" n="21"/>in libertate ejus, qui a Pontifice impetravit
+          <lb ed="#P" n="22"/>Iitteras dispensationis, id est, continentes 
+          man<lb break="no" ed="#P" n="23"/>datum ut cum eo dispensetur, verbi gratia,
+          <lb ed="#P" n="24"/>in impedimento matrimonii, non uti illis 
+          lit<lb break="no" ed="#P" n="25"/>teris, et ita renuntiare per non usum fructui
+          <lb ed="#P" n="26"/>illarum : nam per hoc fiet ut semper maneat
+          <lb ed="#P" n="27"/>ligatus et impeditus, quia de facto non fuit
+          <lb ed="#P" n="28"/>dispensatus. Et similiter qui ad secundum 
+          sta<lb break="no" ed="#P" n="29"/>tum pervenit, et actualem dispensationem 
+          ob<lb break="no" ed="#P" n="30"/>tinuit, licet jam possit licite matrimonium
+          <lb ed="#P" n="31"/>contrahere, pro sua libertate potest nunquam
+          <lb ed="#P" n="32"/>illud contrahere, quod est renuntiare 
+          dispen<lb break="no" ed="#P" n="33"/>sationi quoad ejus usum, quae satis improprie
+          <lb ed="#P" n="34"/>renuntiatio dicitur ; nam illa proprie fit, 
+          quan<lb break="no" ed="#P" n="35"/>do aliquis ita a se abdicat jus dispensationis,
+          <lb ed="#P" n="36"/>ut jam ei amplius non liceat illo uti. Et hic
+          <lb ed="#P" n="37"/>modus renuntiationis difficilius explicatur.
+        </p>
+        <p xml:id="szdleg-q24341-d1e621">
+          <lb ed="#P" n="38"/>8. Dico autem breviter duobus modis id fieri
+          <lb ed="#P" n="39"/>posse, scilicet, expresse et tacite. Expressa 
+          re<lb break="no" ed="#P" n="40"/>nuntiatio, praeter voluntatem renuntiandi, 
+          re<lb break="no" ed="#P" n="41"/>qirit verba quibus illa voluntas sufficienter
+          <lb ed="#P" n="42"/>explicetur ; existimoque necessarium esse ut
+          <lb ed="#P" n="43"/>talis renuntiatio ipsi dispensanti fiat nota, et
+          <lb ed="#P" n="44"/>quod ab illo acceptetur : nam quamdiu 
+          accepta<lb break="no" ed="#P" n="45"/>ta non fuerit, poterit prior voluntas non utendi
+          <lb ed="#P" n="46"/>dispensatione a tali persona retractari, et 
+          con<lb break="no" ed="#P" n="47"/>sequenter semper erit illi integrum sua 
+          dis<lb break="no" ed="#P" n="48"/>pensatione uti, sicut de privilegio latius 
+          dice<lb break="no" ed="#P" n="49"/>mus: nam, ut saepe dixi, intercedit eadem 
+          ra<lb break="no" ed="#P" n="50"/>tio. Implicata renuntiatio censetur fieri per
+          <lb ed="#P" n="51"/>aliquod factum indicans voluntatem 
+          renun<lb break="no" ed="#P" n="52"/>tiandi, quale esse censetur in privilegiis non
+          <lb ed="#P" n="53"/>usus, vel usus contrarius, ut infra suo loco
+          <lb ed="#P" n="54"/>tractabitur. Hic autem censeo solum non usum
+          <lb ed="#P" n="55"/>nunquam esse sufficiens signum voluntatis re-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nuntiandi potestati utendi dispensatione, quia
+          <lb ed="#P" n="57"/>nec per se et ex natura rei datur talis 
+          signifi<lb break="no" ed="#P" n="58"/>catio, cum possit aliquis velle retinere 
+          potes<lb break="no" ed="#P" n="59"/>tatem, licet illa non utatur, neque etiam 
+          inve<lb break="no" ed="#P" n="60"/>nitur jus in quo talis praesumptio fundetur,
+          <lb ed="#P" n="61"/>quia nec de privilegio generaliter invenitur, sed
+          <lb ed="#P" n="62"/>ad summum de specialibus casibus, qui etiam
+          <lb ed="#P" n="63"/>in propria dispensatione locum non habent,
+          <lb ed="#P" n="64"/>ut infra dicam. Imo etiam in actibus positivis
+          <lb ed="#P" n="65"/>vix potest actus ita continere usum contrarium
+          <lb ed="#P" n="66"/>dispensationi , ut sufficienter indicet animum
+          <lb ed="#P" n="67"/>abdicandi illam et potestatem ejus omnino,
+          <lb ed="#P" n="68"/>quod patebit, discurrendo breviter per aliqua
+          <lb ed="#P" n="69"/>exempla quae adduci solent.
+        </p>
+        <p xml:id="szdleg-q24341-d1e696">
+          <lb ed="#P" n="70"/>9. Per secundam dispensationem aliquando
+          <lb ed="#P" n="71"/>prima invalidatur. —Primo, dicunt aliqui quod
+          <lb ed="#P" n="72"/>si quis, habens dispensationem circa jejunium,
+          <lb ed="#P" n="73"/>verbi gratia , postulet secundam circa idem,
+          <lb ed="#P" n="74"/>quia forte de prima dubitavit, eo ipso censeri
+          <lb ed="#P" n="75"/>renuntiare primae, adeo ut obtenta secunda
+          <lb ed="#P" n="76"/>non possit redire ad priorem, etiamsi fortasse
+          <lb ed="#P" n="77"/>ila magis ampla et favorabilor sit; imo, si
+          <lb ed="#P" n="78"/>contingat posteriorem esse invalidam propter
+          <lb ed="#P" n="79"/>aliquam surreptionem, putant etiam primam
+          <lb ed="#P" n="80"/>amitti propter animum renuntiandi in 
+          mani<lb break="no" ed="#P" n="81"/>bus Papae, qui maxime sufficit ad gratiam
+          <lb ed="#P" n="82"/>amittendam , ut sumitur ex cap. Veniens, de
+          <lb ed="#P" n="83"/>Praescr. Sed mihi haec sententia non placet:
+          <lb ed="#P" n="84"/>nam imprimis si secunda dispensatio non fuit
+          <lb ed="#P" n="85"/>valida, prior dispensatio non potuit per 
+          renun<lb break="no" ed="#P" n="86"/>tiationem amitti, quia non potest praesumi
+          <lb ed="#P" n="87"/>animus absolute renuntiandi, sed ad summum
+          <lb ed="#P" n="88"/>sub conditione, si secunda obtineatur valide;
+          <lb ed="#P" n="89"/>et ideo, non impleta conditione, non potest
+          <lb ed="#P" n="90"/>sequi effectus, ut recte notavit Bald. in d. c.
+          <lb ed="#P" n="91"/>Veniens, n. 19, ex l. Si jure, tf. de Legat. 3.
+          <lb ed="#P" n="92"/>Deinde, absolute loquendo, petitio secundae
+          <lb ed="#P" n="93"/>dispensationis non indicat animum 
+          renuntian<lb break="no" ed="#P" n="94"/>di primae, sed obtinendi aliam magis certam,
+          <lb ed="#P" n="95"/>vel magis favorabilem : unde, si talis non 
+          ob<lb break="no" ed="#P" n="96"/>tineatur, non amittetur prior, nec 
+          consum<lb break="no" ed="#P" n="97"/>mabitur renuntiatio propter rationem proxime
+          <lb ed="#P" n="98"/>factam : nam 1ibi etiam includitur conditio
+          <lb ed="#P" n="99"/>melioris dispensationis, quae non impletur.
+          <lb ed="#P" n="100"/>Quod si aliquando contingat posteriorem et
+          <lb ed="#P" n="101"/>validam esse et favorabiliorem (de quo dicam
+          <lb ed="#P" n="102"/>in capite sequenti), tunc probabile est per 
+          se<lb break="no" ed="#P" n="103"/>cundam dispensationem destrui priorem, sive
+          <lb ed="#P" n="104"/>hoc sit propter animum renuntiandi, sive (quod
+          <lb ed="#P" n="105"/>magis credo) quia non videtur esse animus 
+          dis<lb break="no" ed="#P" n="106"/>pensantis duas dispensationes circa idem 
+          con<lb break="no" ed="#P" n="107"/>cedere. Et idem est si quis, post primam 
+          dis<lb break="no" ed="#P" n="108"/>pensationem, impetret aliam repugnantem
+          <lb ed="#P" n="109"/>priori; ut, si prius quis postulet 
+          dispensatio<lb break="no" ed="#P" n="110"/>nem ad ducendam unam consanguineam, no-
+          <pb ed="#P" n="100"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>litque ea uti, et ideo obtineat dispensationem
+          <lb ed="#P" n="2"/>ad ducendam alium, tunc enim probabile est
+          <lb ed="#P" n="3"/>non posse reverti ad priorem ; nam per 
+          poste<lb break="no" ed="#P" n="4"/>riorem extincta fuit, ut bene docet Sanc., lib. 8,
+          <lb ed="#P" n="5"/>disp. 22, n. 19.
+        </p>
+        <p xml:id="szdleg-q24341-d1e803">
+          <lb ed="#P" n="6"/>10. Secundum indicium renuntiationis 
+          im<lb break="no" ed="#P" n="7"/>pugnatur. —Aliud exemplum est, si is qui 
+          dis<lb break="no" ed="#P" n="8"/>pensationem obtinuit faciat actum 
+          incompos<lb break="no" ed="#P" n="9"/>sibilem cum usu talis dispensationis, vel 
+          vali<lb break="no" ed="#P" n="10"/>do, vcl licito; ut si quis, postquam obtinuit
+          <lb ed="#P" n="11"/>dispensationem ad ducendam consanguineam,
+          <lb ed="#P" n="12"/>ducat aliam, tacite censetur renuntiare priori
+          <lb ed="#P" n="13"/>dispensationi : nam usus ejus non potest esse
+          <lb ed="#P" n="14"/>licitus, aut validus, subsistente alio 
+          matrimo<lb break="no" ed="#P" n="15"/>nio. ftem, si quis post talem dispensationem
+          <lb ed="#P" n="16"/>circa matrimonium faciat votum castitatis, eo
+          <lb ed="#P" n="17"/>ipso censetur renuntiare dispensationi, cum
+          <lb ed="#P" n="18"/>non possit ea licite uti, stante tali voto. Sed
+          <lb ed="#P" n="19"/>neque sententia, neque exempla placent. Quia,
+          <lb ed="#P" n="20"/>licet actus sit incompossibilis cum usu 
+          dispen<lb break="no" ed="#P" n="21"/>sationis, non est tamen incompossibilis cum
+          <lb ed="#P" n="22"/>ipsa dispensatione, nec cum proximo ac per se
+          <lb ed="#P" n="23"/>effectu ejus, qui est ablatio impedimenti. Ut in
+          <lb ed="#P" n="24"/>priori exemplo, licet dispensatus ad 
+          contrahen<lb break="no" ed="#P" n="25"/>dum cum consanguinea contrahat cum alia,
+          <lb ed="#P" n="26"/>ista mortua, poterit consanguineam ducere cum
+          <lb ed="#P" n="27"/>qua fuerat dispensatus, quia jam fuit 
+          impedi<lb break="no" ed="#P" n="28"/>mentum ablatum, et non rediit propter prius
+          <lb ed="#P" n="29"/>matrimonium, quia nulla ratio talis reditus ,
+          <lb ed="#P" n="30"/>nec causa ejus assignari potest, quia 
+          impedi<lb break="no" ed="#P" n="31"/>mentum semel ablatum a solo superiori 
+          ha<lb break="no" ed="#P" n="32"/>bente potestatem iterum potest imponi. Imo,
+          <lb ed="#P" n="33"/>licet dispensatio non pervenisset ad secundum
+          <lb ed="#P" n="34"/>statum, etiam mandatum dispensandi non 
+          pe<lb break="no" ed="#P" n="35"/>riisset propter prius mmatrimonium, sed posset
+          <lb ed="#P" n="36"/>qui indultum obtinuit illo uti post mortem 
+          pri<lb break="no" ed="#P" n="37"/>mae uxoris, quia delegatio per illud facta non
+          <lb ed="#P" n="38"/>fuit revocata, nec facta fuit sub tali conditione,
+          <lb ed="#P" n="39"/>aaut temporis limitatione, ut supponimus. 
+          Si<lb break="no" ed="#P" n="40"/>militer, in alio exemplo de voto, non est 
+          re<lb break="no" ed="#P" n="41"/>pugnantia intrinseca inter votum et 
+          dispensa<lb break="no" ed="#P" n="42"/>tionem obtentam, seu effectum per se ejus:
+          <lb ed="#P" n="43"/>nam votum non restituit impedimentum quod
+          <lb ed="#P" n="44"/>dispensatio abstulerat; ergo quoad hoc non
+          <lb ed="#P" n="45"/>videtur habere locum renuntiatio tacita. Et
+          <lb ed="#P" n="46"/>idem cum proportione est de mandato 
+          dispen<lb break="no" ed="#P" n="47"/>sandi, etiamsi in primo statu perseveret, 
+          quan<lb break="no" ed="#P" n="48"/>tum est ex parte renuntiationis. Nam aliunde
+          <lb ed="#P" n="49"/>probabile est in eo casu non posse delegatum
+          <lb ed="#P" n="50"/>dispensationem concedere, propter 
+          mutatio<lb break="no" ed="#P" n="51"/>nem in rebus factam , ratione cujus jam esset
+          <lb ed="#P" n="52"/>subreptitia dispensatio, juxta dicenda capite
+          <lb ed="#P" n="53"/>sequenti. Unde in hoc differentiam aliquam
+          <lb ed="#P" n="54"/>invenio pro illo casu inter primum et 
+          secun<lb break="no" ed="#P" n="55"/>dum statum dispensationis ; quando enim jam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>est concessa dispensatio , facta permanet,
+          <lb ed="#P" n="57"/>etiamsi votum superveniat, unde, si quis voti
+          <lb ed="#P" n="58"/>dispensationem obtineat, licite uti poterit
+          <lb ed="#P" n="59"/>priori dispensatione matrimonii; imo, licet 
+          si<lb break="no" ed="#P" n="60"/>ne dispensatione voti contrahat matrimonium,
+          <lb ed="#P" n="61"/>et in hoc peccet, nihilominus matrimonium
+          <lb ed="#P" n="62"/>validum erit, quia impedimentum irritans fuit
+          <lb ed="#P" n="63"/>sublatum, et non rediit, ut diximus. At vero,
+          <lb ed="#P" n="64"/>si commissarius nondum dispensavit, nec 
+          li<lb break="no" ed="#P" n="65"/>cite, nec valide poterit dispensare, quia excedit
+          <lb ed="#P" n="66"/>terminos sui mandati, et aget contra 
+          intentio<lb break="no" ed="#P" n="67"/>nem mandantis, existentibus rebus in illo 
+          sta<lb break="no" ed="#P" n="68"/>tu. Non tamen ideo existimandum est tunc
+          <lb ed="#P" n="69"/>fuisse per votum extinctam dispensationem,
+          <lb ed="#P" n="70"/>aut revocatam commissionem, sed impeditam:
+          <lb ed="#P" n="71"/>nam, obtenta dispensatione voti, licite et 
+          va<lb break="no" ed="#P" n="72"/>lide posset commissarius sua potestate uti, quia
+          <lb ed="#P" n="73"/>jam esset res ad priorem statum restituta, et
+          <lb ed="#P" n="74"/>ablatum impedimentum quod illam posset 
+          sub<lb break="no" ed="#P" n="75"/>reptitiam facere. Ergo per hujusmodi actus
+          <lb ed="#P" n="76"/>non satis ostenditur tacita renuntiatio 
+          dispen<lb break="no" ed="#P" n="77"/>sationis , sicut infra etiam ostendam, unum
+          <lb ed="#P" n="78"/>actum contrarium usui privilegii non esse 
+          suf<lb break="no" ed="#P" n="79"/>ficiens indicium tacitae renuntiationis totius
+          <lb ed="#P" n="80"/>privilegii, neque id ex jure probari; ubi alia
+          <lb ed="#P" n="81"/>jura exponam. Nunc vero non obstat dictum
+          <lb ed="#P" n="82"/>c. leniens, tum quia in eo non est sermo de
+          <lb ed="#P" n="83"/>renuntiatione dispensationis , seu privilegi,
+          <lb ed="#P" n="84"/>sed praeseriptionis, tum etiam quia actus 
+          pe<lb break="no" ed="#P" n="85"/>tendi privilegium et utendi illo, de quo ille
+          <lb ed="#P" n="86"/>textus loquitur, erat contrarius non solum usui
+          <lb ed="#P" n="87"/>praesci iptionis, sed etiam ipsimet titulo 
+          prae<lb break="no" ed="#P" n="88"/>scriptionis, et ideo multo major erat 
+          praesum<lb break="no" ed="#P" n="89"/>ptio renuntiationis, praesertim in foro externo,
+          <lb ed="#P" n="90"/>de quo ibi est sermo.
+        </p>
+        <p xml:id="szdleg-q24341-d1e992">
+          <lb ed="#P" n="91"/>11. Tertium indiciun venuntiationis 
+          dis<lb break="no" ed="#P" n="92"/>pensationis in foro tantum externo locun habere.
+          <lb ed="#P" n="93"/>—Tertium indicium renuntiationis tacitae esse
+          <lb ed="#P" n="94"/>solet, scindere instrumentum, seu indultum
+          <lb ed="#P" n="95"/>dispensationem continens. (uod quidem quoad
+          <lb ed="#P" n="96"/>forum externum erit magnum indicium 
+          vo<lb break="no" ed="#P" n="97"/>luntatis nolendi talem dispensationem , ac
+          <lb ed="#P" n="98"/>subinde renuntiandi jus illius, quia cum 
+          dis<lb break="no" ed="#P" n="99"/>pensatio non possit esse utilis in foro externo
+          <lb ed="#P" n="100"/>sine litteris authenticis, profecto qui illas 
+          vo<lb break="no" ed="#P" n="101"/>luntarie rumpit satis indicat animum 
+          renun<lb break="no" ed="#P" n="102"/>tiandi. Nihilominus tamen in foro conscientiae
+          <lb ed="#P" n="103"/>duo sunt attendenda, tam in hoc casu quam
+          <lb ed="#P" n="104"/>in caeteris. Unum est, an actio illa externa
+          <lb ed="#P" n="105"/>vere procedat ex animo renuntiandi : nam si
+          <lb ed="#P" n="106"/>desit hic animus, nunquam in conscientia
+          <lb ed="#P" n="107"/>amittitur dispensatio, propter quamcumque 
+          ex<lb break="no" ed="#P" n="108"/>ternam praesumptionem, quia veritas, quae in
+          <lb ed="#P" n="109"/>conscientia attenditur, illi non consonat, et
+          <lb ed="#P" n="110"/>specialiter in praedicto casu, quia scriptura non
+          <pb ed="#P" n="101"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est de substantia gratiae, ut in l. 8 ostendam.
+          <lb ed="#P" n="2"/>Aliud est, non sufficere animum cum signo
+          <lb ed="#P" n="3"/>externo ex parte renuntiantis, nisi accedat 
+          ac<lb break="no" ed="#P" n="4"/>ceptatio principis dispensantis, quia solus ille
+          <lb ed="#P" n="5"/>potest vel superimponere vinculum legis per
+          <lb ed="#P" n="6"/>dispensationem ablatae, vel revocare 
+          delega<lb break="no" ed="#P" n="7"/>tionem a se factam; tum etiam propter alia
+          <lb ed="#P" n="8"/>multa, quae infra de privilegiis adducam. Haec
+          <lb ed="#P" n="9"/>autem acceptatio debet ab homine fieri (ut sic
+          <lb ed="#P" n="10"/>dicam), quia non invenitur aliter in jure 
+          de<lb break="no" ed="#P" n="11"/>clarata,,ut aliquando censeri possit ipso jure
+          <lb ed="#P" n="12"/>facta. Propter quae omnia censeo hanc tacitam
+          <lb ed="#P" n="13"/>renuntiationem moraliter loquendo non habere
+          <lb ed="#P" n="14"/>locum in dispensationibus, quia ut 
+          consum<lb break="no" ed="#P" n="15"/>metur renuntiatio, oportebit ut factum 
+          indi<lb break="no" ed="#P" n="16"/>cans animum renuntiandi sit notum principi,
+          <lb ed="#P" n="17"/>et judicatum sufficiens signum voluntatis 
+          re<lb break="no" ed="#P" n="18"/>nuntiandi, et ut tale acceptatum, quae omnia
+          <lb ed="#P" n="19"/>vix possunt moraliter concurrere. Et ob hanc
+          <lb ed="#P" n="20"/>etiam causam, licet rumpantur htterae 
+          dispen<lb break="no" ed="#P" n="21"/>sationis ex animo renunuiandi, quamdiu a
+          <lb ed="#P" n="22"/>principe non est acceptata renuntiatio, potest
+          <lb ed="#P" n="23"/>dispensatum poenitere sui facti, et uti 
+          dispen<lb break="no" ed="#P" n="24"/>satione in foro interno, vel pro externo 
+          obti<lb break="no" ed="#P" n="25"/>nere novas litteras, ac si priores fuissent 
+          in<lb break="no" ed="#P" n="26"/>voluntarie amissae, et illae sufficient sine nova
+          <lb ed="#P" n="27"/>gratiae concessione, quia renuntiatio, ut dixi,
+          <lb ed="#P" n="28"/>effectum non habuit.
+        </p>
+        <p xml:id="szdleg-q24341-d1e1103">
+          <lb ed="#P" n="29"/>12. Venio ad cessationem dispensationis
+          <lb ed="#P" n="30"/>propter cessationem causae. Et, ut omittamus
+          <lb ed="#P" n="31"/>vulgarem distinctionem de causa finali et 
+          mo<lb break="no" ed="#P" n="32"/>tiva, vel de causa principali aut secundaria,
+          <lb ed="#P" n="33"/>suppono sermonem esse de causa justificante
+          <lb ed="#P" n="34"/>(ut sic dicam) dispensationem, quia, illa non
+          <lb ed="#P" n="35"/>existente, dispensatio, etiam a principe data,
+          <lb ed="#P" n="36"/>non esset justa, et ab inferiori concessa non
+          <lb ed="#P" n="37"/>esset valida. Et ideo merito dubitatur an, 
+          ces<lb break="no" ed="#P" n="38"/>sante tali causa, cesset dispensatio, etiamsi
+          <lb ed="#P" n="39"/>concessa sit dum causa durabat. Nam videtur
+          <lb ed="#P" n="40"/>esse eadem ratio de concessione et de 
+          dura<lb break="no" ed="#P" n="41"/>tione, quia dispensatio debet esse justa, non
+          <lb ed="#P" n="42"/>solum cum fit, sed etiam quamdiu durat; ergo
+          <lb ed="#P" n="43"/>non potest durare nisi quamdiu durat causa
+          <lb ed="#P" n="44"/>justa ; ergo ista cessante illa cessat. 
+          Nihilomi<lb break="no" ed="#P" n="45"/>nus aliter respondendum censeo, si 
+          dispensa<lb break="no" ed="#P" n="46"/>tio solum existit in primo statu: aliter vero si
+          <lb ed="#P" n="47"/>ad secundum transiit, etiamsi ad tertium non
+          <lb ed="#P" n="48"/>pervenerit.
+        </p>
+        <p xml:id="szdleg-q24341-d1e1149">
+          <lb ed="#P" n="49"/>13. Facultas dispensandi em justa cuusa, 
+          ces<lb break="no" ed="#P" n="50"/>sante causa ante obtentam dispensationem, 
+          ces<lb break="no" ed="#P" n="51"/>sat; et redeunte causa, redit.—bico ergo primo:
+          <lb ed="#P" n="52"/>quamvis mandatum, seu facultas dispensandi
+          <lb ed="#P" n="53"/>concessa fuerit ex legitima causa tunc 
+          existen<lb break="no" ed="#P" n="54"/>te, si causa interim cessavit ante concessam
+          <lb ed="#P" n="55"/>dispensationem, cessat etiam usus talis faculta-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tis, nec potest, ex vi illius, actualis dispensatio
+          <lb ed="#P" n="57"/>juste aut valide fieri; si tamen causa rediret,
+          <lb ed="#P" n="58"/>etiam dispensatio posset concedi. Ratio prioris
+          <lb ed="#P" n="59"/>ac praecipuae partis est, quia talis dispensatio
+          <lb ed="#P" n="60"/>in eo casu non esset justa; ergo esset contra
+          <lb ed="#P" n="61"/>intentionem principis dispensantis, seu 
+          dele<lb break="no" ed="#P" n="62"/>gantis; ergo etiam esset invalida. Haec posterior
+          <lb ed="#P" n="63"/>consequentia clara est, quia talis dispensatio
+          <lb ed="#P" n="64"/>excederet facultatem et formam mandati, et
+          <lb ed="#P" n="65"/>consequenter esset nulla ex defectu potestatis.
+          <lb ed="#P" n="66"/>Prior item consequentia clara videtur, quia
+          <lb ed="#P" n="67"/>praesumi non potest principem velle concedere
+          <lb ed="#P" n="68"/>dispensationem injustam, aut ad hoc dare 
+          fa<lb break="no" ed="#P" n="69"/>cultatem. Item quia ipse non vult dare tale
+          <lb ed="#P" n="70"/>mandatum, nisi supposita causa justa; ergo
+          <lb ed="#P" n="71"/>multo minus vult ut concedatur dispensatio
+          <lb ed="#P" n="72"/>deficiente causa justa. Atque hinc facile 
+          pro<lb break="no" ed="#P" n="73"/>batur primum antecedens, quia per mandatum
+          <lb ed="#P" n="74"/>dispensandi non est facta dispensatio, ut saepe
+          <lb ed="#P" n="75"/>dictum est ; ergo si postea fiat jam non 
+          exi<lb break="no" ed="#P" n="76"/>stente causa justa, fit indebito modo, et sine
+          <lb ed="#P" n="77"/>legitima causa ; ergo erit injusta. Confirmatur
+          <lb ed="#P" n="78"/>et declaratur, quia, si princeps ipse, rebus 
+          exi<lb break="no" ed="#P" n="79"/>stentibus in illo statu, dispensationem 
+          conce<lb break="no" ed="#P" n="80"/>deret, male faceret; ergo etiam commissarius
+          <lb ed="#P" n="81"/>ejus injustam dispensationem concederet, et
+          <lb ed="#P" n="82"/>consequenter nullam, ut dixi. Quocirca, 
+          quan<lb break="no" ed="#P" n="83"/>do in hujusmodi mandatis apponitur vel 
+          sub<lb break="no" ed="#P" n="84"/>intelligitur conditio, Si preces veritate 
+          nitan<lb break="no" ed="#P" n="85"/>tur, non solum refertur ad tempus in quo 
+          dis<lb break="no" ed="#P" n="86"/>pensatio petitur et facultas conceditur (quod
+          <lb ed="#P" n="87"/>est manifestum), sed etiam ad tempus in quo
+          <lb ed="#P" n="88"/>dispensatio conceditur seu concedenda est, quia
+          <lb ed="#P" n="89"/>ut justum sit mandatum hoc totum 
+          necessa<lb break="no" ed="#P" n="90"/>rium est.
+        </p>
+        <p xml:id="szdleg-q24341-d1e1245">
+          <lb ed="#P" n="91"/>14. Altera vero pars assertionis ex dictis
+          <lb ed="#P" n="92"/>facile probatur, quia si cessatio causae non fuit
+          <lb ed="#P" n="93"/>perpetua, et iterum redeat, jam tunc 
+          dispen<lb break="no" ed="#P" n="94"/>satio etiam erit justa, ut contrario discursu
+          <lb ed="#P" n="95"/>facile probari potest ; ergo nihil est propter
+          <lb ed="#P" n="96"/>quod non possit tunc esse hicitus et validus
+          <lb ed="#P" n="97"/>usus prioris facultatis, et consequenter poterit
+          <lb ed="#P" n="98"/>esse valida dispensatio. Unde colligitur per
+          <lb ed="#P" n="99"/>talem cessationem causae temporalem non
+          <lb ed="#P" n="100"/>omnino extingui mandatum illud, seu 
+          com<lb break="no" ed="#P" n="101"/>missionem quae per talem dispensationem fit,
+          <lb ed="#P" n="102"/>sed suspendi, ut exerceri non possit quamdiu
+          <lb ed="#P" n="103"/>causa cessat, quandoquidem, ut dixi, redeunte
+          <lb ed="#P" n="104"/>causa, dispensatio potest consummari, quod
+          <lb ed="#P" n="105"/>fieri non posset, si jurisdictio fuisset omnino
+          <lb ed="#P" n="106"/>sublata. Et confirmari hoc potest, quia 
+          defi<lb break="no" ed="#P" n="107"/>ciente causa, non possunt tempore 
+          dispensa<lb break="no" ed="#P" n="108"/>tionis verificari verba rescripti et conditio in
+          <lb ed="#P" n="109"/>eis contenta; redeunte autem causa, vera 
+          in<lb break="no" ed="#P" n="110"/>veniuntur; ergo, licet in priori tempore non
+          <pb ed="#P" n="102"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>possit concedi dispensatio, poterit in posteriori
+          <lb ed="#P" n="2"/>ex vi ejusdem indulti, quia in eo non 
+          postu<lb break="no" ed="#P" n="3"/>latur ut causa illa toto tempore duret, sed 
+          so<lb break="no" ed="#P" n="4"/>lum ut subsistat, quando datur dispensatio,
+          <lb ed="#P" n="5"/>quia illud sufficit ad justitiam dispensationis.
+          <lb ed="#P" n="6"/>Dices: ergo, licet in principio, quando fuit
+          <lb ed="#P" n="7"/>postulata et obtenta commissio dispensationis,
+          <lb ed="#P" n="8"/>causa non extitisset, si postea, cum de facto
+          <lb ed="#P" n="9"/>datur dispensatio, causa existat, id satis esset
+          <lb ed="#P" n="10"/>ut dispensatio esset valida. Respondeo 
+          negan<lb break="no" ed="#P" n="11"/>do sequelam, quia si in principio causa non
+          <lb ed="#P" n="12"/>existeret, dispensatio fuisset subreptitia, ac
+          <lb ed="#P" n="13"/>subinde invalida quoad ipsam delegationem,
+          <lb ed="#P" n="14"/>juxta dicenda in capite sequenti; et 
+          conse<lb break="no" ed="#P" n="15"/>quenter dispensatio postea subsecuta non 
+          pos<lb break="no" ed="#P" n="16"/>set esse valida, ob defectum potestatis in 
+          proxi<lb break="no" ed="#P" n="17"/>mo dispensante, seu commissario. Secus vero
+          <lb ed="#P" n="18"/>est quando narratio in principio fuit vera:
+          <lb ed="#P" n="19"/>nam tunc delegatio valida fuit, et postea 
+          ces<lb break="no" ed="#P" n="20"/>sante causa non extinguitur omnino, nisi 
+          cau<lb break="no" ed="#P" n="21"/>sa etiam perpetuo cesset. Et haec doctrina
+          <lb ed="#P" n="22"/>circa hanc conclusionem explicata, ut censeo,
+          <lb ed="#P" n="23"/>est communis doctorum quos statim referam.
+          <lb ed="#P" n="24"/>15. Ad quem statum dispensatio percenire
+          <lb ed="#P" n="25"/>debet ut licite possit emerceri.—bico secundo:
+          <lb ed="#P" n="26"/>si dispensatio ad secundum statum pervenit
+          <lb ed="#P" n="27"/>in quo vinculum legis simpliciter sublatum
+          <lb ed="#P" n="28"/>est, etiamsi causa cesset ante tertium statum,
+          <lb ed="#P" n="29"/>id est, ante executionem dispensationis, non
+          <lb ed="#P" n="30"/>eessat neque tollitur dispensatio, sed licitum
+          <lb ed="#P" n="31"/>est ea uti. Probatur, quia gratia dispensationis
+          <lb ed="#P" n="32"/>consummatur et perficitur in relaxatione 
+          le<lb break="no" ed="#P" n="33"/>gis, seu ablatione vinculi, aut impedimenti
+          <lb ed="#P" n="34"/>per legem introducti ; ergo non revocatur
+          <lb ed="#P" n="35"/>propter cessationem causae. Probatur 
+          conse<lb break="no" ed="#P" n="36"/>quentia, quia, licet causa postea cesset, 
+          nihilo<lb break="no" ed="#P" n="37"/>minus dispensatio manet justa et valida; ergo
+          <lb ed="#P" n="38"/>et effectus ejus permanet, quia ille effectus
+          <lb ed="#P" n="39"/>non pendet in suo esse a tali causa. Et 
+          confir<lb break="no" ed="#P" n="40"/>matur ac declaratur exemplis. Nam 
+          irregula<lb break="no" ed="#P" n="41"/>ris dispensatus ad ordines propter paupertatem
+          <lb ed="#P" n="42"/>propriam, vel parentum, vel propter 
+          indigen<lb break="no" ed="#P" n="43"/>tiam ministrorum Ecclesiae, licet postea cesset
+          <lb ed="#P" n="44"/>illa causa ante susceptos ordines, nihilominus
+          <lb ed="#P" n="45"/>potest licite ordinari ex vi illius dispensationis,
+          <lb ed="#P" n="46"/>quia per illam fuit irregularitas simpliciter et
+          <lb ed="#P" n="47"/>absolute sublata, neque est unde redire valeat
+          <lb ed="#P" n="48"/>propter solam cessationem causae, quia nec ab
+          <lb ed="#P" n="49"/>aliqua lege vel homine fit, nec est verisimile
+          <lb ed="#P" n="50"/>solum fuisse sutlatam quasi sub conditione,
+          <lb ed="#P" n="51"/>si causa illa duraret usque ad ordinum 
+          susce<lb break="no" ed="#P" n="52"/>ptionem. Talis enim restrictio ex forma 
+          dis<lb break="no" ed="#P" n="53"/>pensationis colligi non potest, nam absolute
+          <lb ed="#P" n="54"/>conceditur: neque est necessaria ad justitiam
+          <lb ed="#P" n="55"/>dispensationis, quia non tenetur dispensans
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>praevenire effectus contingentes et 
+          accidenta<lb break="no" ed="#P" n="57"/>rios; sed satis est quod eo tempore quo fit 
+          dis<lb break="no" ed="#P" n="58"/>pensatio habeat justam causam. Nam.
+          dispen<lb break="no" ed="#P" n="59"/>sator legis, sicut et legislator, non tenetur 
+          con<lb break="no" ed="#P" n="60"/>siderare rarum et contingentem eventum, sed
+          <lb ed="#P" n="61"/>ea quae in plurimum accidunt ; et ideo illa 
+          res<lb break="no" ed="#P" n="62"/>trictio est nimis dura et scrupulosa: ergo 
+          ad<lb break="no" ed="#P" n="63"/>mittenda non est.
+        </p>
+        <p xml:id="szdleg-q24341-d1e1435">
+          <lb ed="#P" n="64"/>16. Alioqui eadem proportione dici posset
+          <lb ed="#P" n="65"/>in eodem exemplo, illum irregularem sic 
+          dis<lb break="no" ed="#P" n="66"/>pensatum, et jam ordinatum, cessante causa
+          <lb ed="#P" n="67"/>dispensationis, debere cessare ab usu ordinum,
+          <lb ed="#P" n="68"/>quod nemo dicet. Et sequela patet, quia etiam
+          <lb ed="#P" n="69"/>ille usus ordinum est effectus dispensationis, et
+          <lb ed="#P" n="70"/>quoad illum nondum fuerat consummata 
+          dis<lb break="no" ed="#P" n="71"/>pensatio usque ad tertium statum. Quod si 
+          di<lb break="no" ed="#P" n="72"/>cas esse effectum remotum, et quasi per 
+          acci<lb break="no" ed="#P" n="73"/>dens, idem dici potest de ipsa ordinis 
+          susce<lb break="no" ed="#P" n="74"/>ptione; parum enim refert quod in ordine
+          <lb ed="#P" n="75"/>executionis propinquior sit ordinis susceptio
+          <lb ed="#P" n="76"/>quam usus ejus, quia in ordine intentionis
+          <lb ed="#P" n="77"/>usus est prior, et maxime intentus per 
+          dispen<lb break="no" ed="#P" n="78"/>sationem; ergo si talis usus absolute 
+          concedi<lb break="no" ed="#P" n="79"/>tur virtute dispensationis prius factae, sive 
+          cau<lb break="no" ed="#P" n="80"/>sa cessaverit, sive non, etiam potuit juste 
+          con<lb break="no" ed="#P" n="81"/>cedi absoluta facultas ad ordines, seu ablatio
+          <lb ed="#P" n="82"/>irregularitatis, quae duret quoad omnem suum
+          <lb ed="#P" n="83"/>effectum, sive causa dispensationis duret, sive
+          <lb ed="#P" n="84"/>non. Quod si potest ita juste fieri, sine dubio
+          <lb ed="#P" n="85"/>ita fit, cum hoc sit magis conforme verbis 
+          dis<lb break="no" ed="#P" n="86"/>pensationum, ut dixi, et ad previdentiam 
+          ma<lb break="no" ed="#P" n="87"/>gis benignam et suavem pertinere videatur,
+          <lb ed="#P" n="88"/>ut dixi. Simile exemplum esse potest in 
+          dis<lb break="no" ed="#P" n="89"/>pensatione neophyti, verbi gratia, ut sit capax
+          <lb ed="#P" n="90"/>alicujus dignitatis aut beneficii intuitu virtutis
+          <lb ed="#P" n="91"/>seu honestorum morum quos revera habebat
+          <lb ed="#P" n="92"/>cum dispensatus fuit : nam, licet postea 
+          mu<lb break="no" ed="#P" n="93"/>tet mores et graviter peccet, non amittet 
+          dis<lb break="no" ed="#P" n="94"/>pensationem. Quis enim hoc dicat? Ergo 
+          ces<lb break="no" ed="#P" n="95"/>sante illa causa, etiamsi sola illa 
+          dispensatio<lb break="no" ed="#P" n="96"/>nem justificaverit, non cessat dispensatio. Quod
+          <lb ed="#P" n="97"/>si dicas praexistentia merita potuisse justam
+          <lb ed="#P" n="98"/>causam conferre ad absolutam et 
+          permanen<lb break="no" ed="#P" n="99"/>tem dispensationem tribuendam, idem merito
+          <lb ed="#P" n="100"/>dici poterit quoties causa praesens prudenter
+          <lb ed="#P" n="101"/>judicatur sufficiens ad concedendam 
+          dispensa<lb break="no" ed="#P" n="102"/>tionem simpliciter et absolute, prout de facto
+          <lb ed="#P" n="103"/>concedi solet in impedimentis matrimonn et
+          <lb ed="#P" n="104"/>in votis. Ex quibus possunt plura exempla et
+          <lb ed="#P" n="105"/>argumenta desumi ad hanc assertionem 
+          con<lb break="no" ed="#P" n="106"/>firmandam, quae latius prosequar infra libro8,
+          <lb ed="#P" n="107"/>ubi similis quaestio de privilegio occurret.
+        </p>
+        <p xml:id="szdleg-q24341-d1e1533">
+          <lb ed="#P" n="108"/>17. Atque hanc sententiam videtur tenere
+          <lb ed="#P" n="109"/>Glossa in regul. In argumentum , de Regul.
+          <lb ed="#P" n="110"/>jur., in 6; et clarius Glos. in c. Ex tua, de Fil.
+          <pb ed="#P" n="103"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Presbyt., verb. 7rritare, quatenus dicit 
+          dispen<lb break="no" ed="#P" n="2"/>sationem semel concessam non esse 
+          revocan<lb break="no" ed="#P" n="3"/>dam superveniente facto; ergo multo minus
+          <lb ed="#P" n="4"/>per se cessabit. Et idem sequitur Federic. 78;
+          <lb ed="#P" n="5"/>etAngel.. verb. Dispensatio, n. 14, qui expresse
+          <lb ed="#P" n="6"/>àd declarat de dispensatione data quae nondum
+          <lb ed="#P" n="7"/>pervenit ad ultimum effectum ; et idem habet
+          <lb ed="#P" n="8"/>Syhvest., verb. Dispensatio, q. 6, n. 11. 
+          Prae<lb break="no" ed="#P" n="9"/>terea idem sentit Panor. in c. Post 
+          translatio<lb break="no" ed="#P" n="10"/>men;, de Renunt., n. 17, ait enim post jus 
+          ac<lb break="no" ed="#P" n="11"/>quisitum non cessare dispensationem, etiamsi
+          <lb ed="#P" n="12"/>causa cesset : est autem jus acquisitum per
+          <lb ed="#P" n="13"/>dispensationem, quae jam contulit suum 
+          proxi<lb break="no" ed="#P" n="14"/>mum et per se effectum, ut explicat, et 
+          sequi<lb break="no" ed="#P" n="15"/>tur Tiraq. in d. tr. Cessante causa, n. 92 et 94;
+          <lb ed="#P" n="16"/>et Gut., l. 1 Canon. qq., c. 15, n. 22, et 1. 2,
+          <lb ed="#P" n="17"/>c. 15, n. 30 et n. 32; et plures pro hac 
+          sen<lb break="no" ed="#P" n="18"/>tentia refert Sanc., l. 8 de Matrim., disp. 30,
+          <lb ed="#P" n="19"/>n. 13. Nihilominus vero ipse n. 14 contrariam
+          <lb ed="#P" n="20"/>opinionem sequitur, multos etiam referens; et
+          <lb ed="#P" n="21"/>varia fundamenta adducit quae magis ad 
+          pri<lb break="no" ed="#P" n="22"/>vilegium spectant, et ideo in loco citato 
+          ex<lb break="no" ed="#P" n="23"/>pendentur. In praesenti vero, praecipuum 
+          fun<lb break="no" ed="#P" n="24"/>damentum esse videtur , quia dispensatio, ut
+          <lb ed="#P" n="25"/>sit justa, necessario includit hanc conditionem,
+          <lb ed="#P" n="26"/>si causa perseveret , quando executioni 
+          man<lb break="no" ed="#P" n="27"/>danda est; alias iniquus esset dispensans, dans
+          <lb ed="#P" n="28"/>licentiam ad operandum contra legem, etiam
+          <lb ed="#P" n="29"/>sine causa. Et maxime hoc declaratur 
+          exem<lb break="no" ed="#P" n="30"/>plo : nam dispensatio concessa alicui ad 
+          co<lb break="no" ed="#P" n="31"/>medendum carnes in Quadragesima, propter
+          <lb ed="#P" n="32"/>specialem aegritudinem , cessabit 
+          quotiescum<lb break="no" ed="#P" n="33"/>que in Quadragesima talis aegritudo cessaverit,
+          <lb ed="#P" n="34"/>quia aliter non esset justa dispensatio; ergo
+          <lb ed="#P" n="35"/>idem dicendum est in omni dispensatione.
+        </p>
+        <p xml:id="szdleg-q24341-d1e1622">
+          <lb ed="#P" n="36"/>18. Dispensatio respectu totius 
+          Quadragesi<lb break="no" ed="#P" n="37"/>me non tota simul, sed successive est 
+          intelli<lb break="no" ed="#P" n="38"/>genda. — Sed , licet haec sententia probabilis
+          <lb ed="#P" n="39"/>sit, assertio posita videtur satis secura, et 
+          sim<lb break="no" ed="#P" n="40"/>plieiter probabilior, quia fundamentum 
+          posi<lb break="no" ed="#P" n="41"/>tum parum cogit : negamus enim 
+          dispensa<lb break="no" ed="#P" n="42"/>tionem simpliciter et absolute concessam, et
+          <lb ed="#P" n="43"/>statim habentem suum proximum et per se
+          <lb ed="#P" n="44"/>eftectum, includere illam conditionem, seu 
+          li<lb break="no" ed="#P" n="45"/>mitationem, ut effectus non duret non durante
+          <lb ed="#P" n="46"/>causa ; oppcsitum enim ostensum est. Unde
+          <lb ed="#P" n="47"/>etiam negamus dispensationem fore injustam
+          <lb ed="#P" n="48"/>nisi illam conditionem includat, ut etiam 
+          pro<lb break="no" ed="#P" n="49"/>bavimus, quia causa praesens potest esse 
+          suffi<lb break="no" ed="#P" n="50"/>ciens ad tollendum vinculum vel 
+          impedimen<lb break="no" ed="#P" n="51"/>tum, ita ut semel ablatum non redeat, etiamsi
+          <lb ed="#P" n="52"/>contingere possit in rebus fieri aliquam 
+          muta<lb break="no" ed="#P" n="53"/>tionem. Ad exemplum vero, respondeo 
+          dispen<lb break="no" ed="#P" n="54"/>sationem illam non esse talem quae simul et in
+          <lb ed="#P" n="55"/>praesenti tota fiat, quia materia ejus non est
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>indivisibilis, sed successionem habet. Nam lex
+          <lb ed="#P" n="57"/>jejunii quadragesimahs, licet per modum unius
+          <lb ed="#P" n="58"/>concipiatur, revera virtute est multiplex, et
+          <lb ed="#P" n="59"/>singulis diebus quasi novam obligationem 
+          im<lb break="no" ed="#P" n="60"/>ponit ; et ideo dispensatio in illa lege non fit
+          <lb ed="#P" n="61"/>absolute tota simul, et virtute est multiplex
+          <lb ed="#P" n="62"/>dispensatio , et pro singulis diebus veluti 
+          sin<lb break="no" ed="#P" n="63"/>gulae dispensationes conceduntur, et 
+          unaquae<lb break="no" ed="#P" n="64"/>que propriam causam pro suo tempore seu die
+          <lb ed="#P" n="65"/>requirit. Atque ita, quamvis in eo casu 
+          videa<lb break="no" ed="#P" n="66"/>tur dari simul pro tota Quadragesima, non ita
+          <lb ed="#P" n="67"/>datur ut statim auferat totum vincutum legis
+          <lb ed="#P" n="68"/>pro tota Quadragesima, sed ut successive illud
+          <lb ed="#P" n="69"/>auferat, prout successive obligaverit, si eadem
+          <lb ed="#P" n="70"/>ratio excusationis perseveret. Neque in illa
+          <lb ed="#P" n="71"/>materia potest aliter considerari causa 
+          justifi<lb break="no" ed="#P" n="72"/>cans dispensationem, nisi ut habens tractum
+          <lb ed="#P" n="73"/>successivum cum ipsa lege, et ideo in talibus
+          <lb ed="#P" n="74"/>dispensationibus regulariter solet explicari illa
+          <lb ed="#P" n="75"/>conditio; quod si interdum non exprimitur,
+          <lb ed="#P" n="76"/>ideo est quia vel duratio causae tanquam 
+          mo<lb break="no" ed="#P" n="77"/>raliter certa supponitur, vel quia ex qualitate
+          <lb ed="#P" n="78"/>materiae tanquam nota relinquitur. Et idem est
+          <lb ed="#P" n="79"/>in similibus praeceptis habentibus tractum 
+          suc<lb break="no" ed="#P" n="80"/>cessivum : secus vero est in dispensatione quae
+          <lb ed="#P" n="81"/>statim tota simul conceditur, et habet quasi
+          <lb ed="#P" n="82"/>indivisibilem effectum, tollendo inhabilitatem
+          <lb ed="#P" n="83"/>et impedimentum, aut votum ; nam illa simul
+          <lb ed="#P" n="84"/>habet totum effectum , et simul etiam habere
+          <lb ed="#P" n="85"/>potest causam propter quam absolute 
+          conce<lb break="no" ed="#P" n="86"/>datur.
+        </p>
+        <p xml:id="szdleg-q24341-d1e1737">
+          <lb ed="#P" n="87"/>19. Aliae quaestiones hic tractari poterant,
+          <lb ed="#P" n="88"/>nimirum , quando liceat uti dispensatione ,
+          <lb ed="#P" n="89"/>scilicet : an ante vel post notitiam ejus, et
+          <lb ed="#P" n="90"/>an ad illam vel illius usum requiratur 
+          accepta<lb break="no" ed="#P" n="91"/>tio; item an extinguatur per primum usum
+          <lb ed="#P" n="92"/>ejus ; item an liceat illa uti extra territorium
+          <lb ed="#P" n="93"/>concedentis. Sed hae et similes quaestiones 
+          trac<lb break="no" ed="#P" n="94"/>tabuntur commodius de privilegiis ; nam 
+          com<lb break="no" ed="#P" n="95"/>munem habent doctrinam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

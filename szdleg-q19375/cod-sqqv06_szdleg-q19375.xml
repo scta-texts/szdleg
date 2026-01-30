@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 17</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 17</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="77"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q19375"><!-- l6c17 -->
+        <head xml:id="szdleg-q19375-Hd1e101">Caput 17</head>
+        <head xml:id="szdleg-q19375-Hd1e103" type="question-title">De potestate delegata ad dispensandum in legibus humanis.</head>
+        <p xml:id="szdleg-q19375-d1e106">
+          <lb ed="#P" n="80"/>CAPUT XVII.
+          <lb ed="#P" n="81"/>DE POTESTATE DELEGATA AD DISPENSANDUM IN
+          <lb ed="#P" n="82"/>LEGIBUS HUMANIS.
+        </p>
+        <p xml:id="szdleg-q19375-d1e115">
+          <lb ed="#P" n="83"/>1. Ex dictis in duobus praecedentibus 
+          capi<lb break="no" ed="#P" n="84"/>tibus, duo ut clara supponimus. Unum est, 
+          po<lb break="no" ed="#P" n="85"/>testatem dispensandi in legibus humanis posse
+          <lb ed="#P" n="86"/>per delegationem committi, quia dispensatio
+          <lb ed="#P" n="87"/>ex genere suo est actus jurisdictionis satis
+          <lb ed="#P" n="88"/>communis, et frequenter necessarius, et nihil
+          <lb ed="#P" n="89"/>habet speciale quod illius delegationem 
+          impe<lb break="no" ed="#P" n="90"/>diat. Unde in votis etiam delegatur; ergo a
+          <lb ed="#P" n="91"/>fortiori in legibus. Alterum est, hanc 
+          delega<lb break="no" ed="#P" n="92"/>tionem non fieri per legem, sed per hominem,
+          <lb ed="#P" n="93"/>quia commissio jurisdictionis per legem facta
+          <lb ed="#P" n="94"/>non est propria delegatio, sed transit in 
+          insti<lb break="no" ed="#P" n="95"/>tutionem ordinariae jurisdictionis, quia 
+          perpe<lb break="no" ed="#P" n="96"/>tua de se est, sicut et lex est perpetua; ergo
+          <lb ed="#P" n="97"/>delegatio hujus potestatis semper est ab 
+          homi<lb break="no" ed="#P" n="98"/>ne. Unde fit ex parte delegantis supponendam
+          <lb ed="#P" n="99"/>esse potestatem ordinariam ; nam ab illa per
+          <lb ed="#P" n="100"/>se loquendo procedit delegatio, l. More, ff. de
+          <lb ed="#P" n="101"/>Jurisdict. omn. judic. Sub ordinaria autem
+          <lb ed="#P" n="102"/>comprehendimus aequivalentem ordinariae, ut
+          <lb ed="#P" n="103"/>solet esse commissio universalis causarum ,
+          <lb ed="#P" n="104"/>juxta 1. 1, 8 4b eo, ff. Quis et a quo ; 
+          compre<lb break="no" ed="#P" n="105"/>henditur etiam potestas delegati habentis 
+          spe<lb break="no" ed="#P" n="106"/>cialitatem in subdelegando, ut est in delegato
+          <lb ed="#P" n="107"/>Papae seu principis, juxta cap. ultim. de Offic.
+          <lb ed="#P" n="108"/>deleg., vel habentis specialem extensionem
+          <pb ed="#P" n="78"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>suae delegationis ad subdelegandum, juxta 
+          sen<lb break="no" ed="#P" n="2"/>tentiam communiter receptam, et l. on 
+          dis<lb break="no" ed="#P" n="3"/>tinguemus, S ultim., ff. de Recept. arb. Praeter
+          <lb ed="#P" n="4"/>potestatem autem necessaria est voluntas 
+          ejus<lb break="no" ed="#P" n="5"/>dem superioris, ut delegatio in actu fiat, quae
+          <lb ed="#P" n="6"/>voluntas signo aliquo externo manifestari 
+          de<lb break="no" ed="#P" n="7"/>bet, ut constat, et ordinarie fit per rescriptum
+          <lb ed="#P" n="8"/>principis. Quod moraliter necessarium est in
+          <lb ed="#P" n="9"/>ordine ad forum externum, ut possit de 
+          dele<lb break="no" ed="#P" n="10"/>gatione et de qualitate ejus constare, de quo
+          <lb ed="#P" n="11"/>videri potest Panormit. in cap.2 de Schismat.,
+          <lb ed="#P" n="12"/>n. 29; et Gloss. 1, in cap. Si quis, 81d. 
+          Sim<lb break="no" ed="#P" n="13"/>pliciter autem et in foro conscientiae non est
+          <lb ed="#P" n="14"/>necessaria scriptura, quia nullo jure 
+          praescri<lb break="no" ed="#P" n="15"/>bitur ; et secluso speciali jure, quidquid fit per
+          <lb ed="#P" n="16"/>scriptum potest fieri verbo, sicut infra 
+          trac<lb break="no" ed="#P" n="17"/>tando de Privilegio latius dicemus.
+        </p>
+        <p xml:id="szdleg-q19375-d1e215">
+          <lb ed="#P" n="18"/>2. Hinc ergo praecipuum dubium, circa hanc
+          <lb ed="#P" n="19"/>potestatem delegatam ad dispensandum, est,
+          <lb ed="#P" n="20"/>an scriptum seu verba per quae illa conceditur
+          <lb ed="#P" n="21"/>sint stricti juris, vel favorabilis: et ratio 
+          dubi<lb break="no" ed="#P" n="22"/>tandi est, quia haec potestas duplici titulo 
+          odio<lb break="no" ed="#P" n="23"/>sa est, et ideo restringenda. Primo, ratione
+          <lb ed="#P" n="24"/>generis, quia delegata est: nam eo ipso 
+          dero<lb break="no" ed="#P" n="25"/>gat ordinaria; ergo consequenter est odiosa,
+          <lb ed="#P" n="26"/>juxta Gloss. in cap. 4 de Rescript., in 6, verb.
+          <lb ed="#P" n="27"/>Processus, et in cap. Solet, de Sententia 
+          ex<lb break="no" ed="#P" n="28"/>comm., in 6, verb. Per superiorem, quae dicit
+          <lb ed="#P" n="29"/>potestatem delegatam esse stricti juris. Quam
+          <lb ed="#P" n="30"/>sequitur Gemini. in cap. Presentium, de 
+          Testi<lb break="no" ed="#P" n="31"/>bus, et Angel., Sylv. et plures Summistae, verb.
+          <lb ed="#P" n="32"/>el:gatus. Secundo, ratione differentie seu
+          <lb ed="#P" n="33"/>speciei, quia dispensatio est stricti juris, ut
+          <lb ed="#P" n="34"/>diximus; ergo et potestas data ad 
+          dispensan<lb break="no" ed="#P" n="35"/>dum, quia talis est potestas qualis est actus,
+          <lb ed="#P" n="36"/>cum ab illa speciem sumat, et quia si actus est
+          <lb ed="#P" n="37"/>odiosus, non potest potestas non esse odiosa,
+          <lb ed="#P" n="38"/>quia virtute continet actum, et quia, ampliata
+          <lb ed="#P" n="39"/>potentia, necesse est actum ampliari, quia ad
+          <lb ed="#P" n="40"/>plura vel plures actus extendetur. Et ita sentit
+          <lb ed="#P" n="41"/>Anton. de Rosel., tract. de Legitimat., lib. 2
+          <lb ed="#P" n="42"/>de Causa materiali, n. 10. In contrarium vero
+          <lb ed="#P" n="43"/>est, quia potestas delegata ad dispensandum
+          <lb ed="#P" n="44"/>non est juri contraria, et est beneficium 
+          prin<lb break="no" ed="#P" n="45"/>cipis ; ergo est favorabilis; ergo non est stricti
+          <lb ed="#P" n="46"/>juris, sed extendenda.
+        </p>
+        <p xml:id="szdleg-q19375-d1e281">
+          <lb ed="#P" n="47"/>3. Duplex distinctio notanda.—In hoc 
+          pune<lb break="no" ed="#P" n="48"/>to eadem fere doctrina quae in dispensatione
+          <lb ed="#P" n="49"/>votorum data est lib. 6 de Voto, cap. 16, in
+          <lb ed="#P" n="50"/>dispensatione legum locum habet, et infra de
+          <lb ed="#P" n="51"/>privilegiis fere in simili ex professo tractanda
+          <lb ed="#P" n="52"/>est, et ideo brevissime est hoc loco 
+          expedien<lb break="no" ed="#P" n="53"/>da. Duplex ergo distinctio praemittenda est 
+          cir<lb break="no" ed="#P" n="54"/>ca hujusmodi delegationem, et varios modos
+          <lb ed="#P" n="55"/>quibus fieri potest. Una est, quia interdum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>immediate datur directa jurisdictio ipsi 
+          dele<lb break="no" ed="#P" n="57"/>gato; aliquando vero datur facultas ei qui 
+          dis<lb break="no" ed="#P" n="58"/>pensandus est, ut eligat personam a qua possit
+          <lb ed="#P" n="59"/>dispensari, ut in delegatione jurisdictionis pro
+          <lb ed="#P" n="60"/>sacramento confessionis et dispensatione 
+          vo<lb break="no" ed="#P" n="61"/>torum diximus ; eadem enim est ratio in 
+          prae<lb break="no" ed="#P" n="62"/>senti, ut per se constat, et frequens usus 
+          con<lb break="no" ed="#P" n="63"/>firmat. Nam hoc modo conceduntur quotidie
+          <lb ed="#P" n="64"/>dispensationes irregularitatum , 
+          impedimen<lb break="no" ed="#P" n="65"/>torum matrimonii, et similes. Non enim 
+          ordi<lb break="no" ed="#P" n="66"/>narie Papa ipse dispensat, sed dispensationem
+          <lb ed="#P" n="67"/>committit, et quando tantum conceditur in
+          <lb ed="#P" n="68"/>foro conscientiae, solet ordinarie indifferenter
+          <lb ed="#P" n="69"/>committi personae hujus vel illius qualitatis
+          <lb ed="#P" n="70"/>quam dispensandus elegerit. Unde inter haec
+          <lb ed="#P" n="71"/>duo genera delegationum haec est differentia,
+          <lb ed="#P" n="72"/>quod illa quae fit ex parte supplicantis, dando
+          <lb ed="#P" n="73"/>illi facultatem eligendi, est favor illius, non
+          <lb ed="#P" n="74"/>personae delegatae. At vero quando commissio
+          <lb ed="#P" n="75"/>fit immediate ipsi delegato, non semper est
+          <lb ed="#P" n="76"/>favor dispensati, sed distinctione opus est.
+        </p>
+        <p xml:id="szdleg-q19375-d1e351">
+          <lb ed="#P" n="77"/>4. Secunda distinctio notanda. — Unde est
+          <lb ed="#P" n="78"/>secunda distinctio. Nam haec delegatio 
+          ali<lb break="no" ed="#P" n="79"/>quando fit ad dispensandum in hae vel illa lege
+          <lb ed="#P" n="80"/>cum determinata persona; interdum vero 
+          ab<lb break="no" ed="#P" n="81"/>solute delegatur facultas dispensandi in tali
+          <lb ed="#P" n="82"/>lege, nulla nominata persona cum qua possit
+          <lb ed="#P" n="83"/>dispensari, sed indifferenter; et prior modus
+          <lb ed="#P" n="84"/>regulariter fit ad petitionem partis; posterior
+          <lb ed="#P" n="85"/>vero minime, sed vel ad petitionem 
+          commis<lb break="no" ed="#P" n="86"/>sarii, vel motu proprio delegantis. Et ideo
+          <lb ed="#P" n="87"/>quando priori modo conceditur delegatio, non
+          <lb ed="#P" n="88"/>censetur favor delegati, sed ejus propter quem
+          <lb ed="#P" n="89"/>delegatio fit et cui concedenda est dispensatio ;
+          <lb ed="#P" n="90"/>tum quia ad petitionem ejus censetur concedi,
+          <lb ed="#P" n="91"/>tum quia ad illum dirigitur principalis 
+          inten<lb break="no" ed="#P" n="92"/>tio, quae in his rescriptis imprimis 
+          consideran<lb break="no" ed="#P" n="93"/>da est, juxta supra dicta de interpretatione
+          <lb ed="#P" n="94"/>legum, et infra dicenda de interpretatione 
+          pri<lb break="no" ed="#P" n="95"/>vilegiorum. At vero delegatio facta posteriori
+          <lb ed="#P" n="96"/>modo censetur favor ejus cui fit delegatio, ut
+          <lb ed="#P" n="97"/>religiosis conceduntur similes facultates in 
+          eo<lb break="no" ed="#P" n="98"/>rum favorem. Hoc autem limitandum est, nisi
+          <lb ed="#P" n="99"/>ex indulto constet intentionem delegantis 
+          di<lb break="no" ed="#P" n="100"/>rigi principaliter ad favorem eorum qui 
+          dis<lb break="no" ed="#P" n="101"/>pensandi sunt: nam tunc illorum principaliter
+          <lb ed="#P" n="102"/>censetur esse gratia, etiamsi in particulari non
+          <lb ed="#P" n="103"/>determinentur, ut patet in bullis Cruciatae, et
+          <lb ed="#P" n="104"/>in Jubileis similes gratias continentibus.
+        </p>
+        <p xml:id="szdleg-q19375-d1e414">
+          <lb ed="#P" n="105"/>5. Facultas alicui supplicanti concessa ut
+          <lb ed="#P" n="106"/>eligat personam quae secum dispenset odiosa est.
+          <lb ed="#P" n="107"/>—Lbicendum ergo est primo delegationem 
+          dis<lb break="no" ed="#P" n="108"/>pensationis quae fit media facultate data alicui
+          <lb ed="#P" n="109"/>supplicanti ad eligendam personam quae secum
+          <lb ed="#P" n="110"/>dispenset, esse odiosam, ac subinde stricte in-
+          <pb ed="#P" n="79"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>terpretandam. Hanc assertionem posui in dicto
+          <lb ed="#P" n="2"/>T. 6 de Voto, cap. 16, et eam a fortiori tenent
+          <lb ed="#P" n="3"/>auctores omnes citandi in assertione sequenti.
+          <lb ed="#P" n="4"/>Ratio assertionis est, quia illa facultas, 
+          quan<lb break="no" ed="#P" n="5"/>tum est ex parte Pontificis seu principis, est
+          <lb ed="#P" n="6"/>concessio dispensationis; sed dispensatio est
+          <lb ed="#P" n="7"/>stricti juris et odiosa, ut supra ostensum est et
+          <lb ed="#P" n="8"/>de Privilegiis dicetur; ergo. Dices: revera illa
+          <lb ed="#P" n="9"/>facultas non est dispensatio, haec enim postea
+          <lb ed="#P" n="10"/>concedenda est a commissario postquam 
+          elec<lb break="no" ed="#P" n="11"/>tus fuerit, et ideo actus antea factus non erit
+          <lb ed="#P" n="12"/>licitus aut validus si ejus valor ex dispensatione
+          <lb ed="#P" n="13"/>pendeat, ut si dispensatio sit futura in 
+          impe<lb break="no" ed="#P" n="14"/>dimento irritante; ergo non est cur 
+          restringa<lb break="no" ed="#P" n="15"/>tur illa facultas seu mandatum sicut 
+          dispensa<lb break="no" ed="#P" n="16"/>tio. Antecedens cértum est, ut recte admonet
+          <lb ed="#P" n="17"/>Nay. in Summ., c. 12, n. 79, 8 Duodecimo, et
+          <lb ed="#P" n="18"/>additio ad Rotam, tr. de Fil. Presb., decis. 2, in
+          <lb ed="#P" n="19"/>novis, et latius Covar., in 4, 2 p., cap. 6, 89,
+          <lb ed="#P" n="20"/>in fin., ubi refert Praepositum contrarium 
+          sen<lb break="no" ed="#P" n="21"/>tientem in cap. Qui circa, de Consang., n. 20.
+          <lb ed="#P" n="22"/>Respondeo concedendo assumptum, quod adeo
+          <lb ed="#P" n="23"/>est certum, ut Navarrus supra dixerit solum
+          <lb ed="#P" n="24"/>aliquos simplices in eo esse errore. Praepositus
+          <lb ed="#P" n="25"/>autem solum dixit, mandatum illud habere
+          <lb ed="#P" n="26"/>vim dispensationis, utique quantum est ex
+          <lb ed="#P" n="27"/>parte Pontificis. Unde videtur dici posse quasi
+          <lb ed="#P" n="28"/>conditionata dispensatio, quae suspensa quidem
+          <lb ed="#P" n="29"/>est, et non habet effectum, donec conditio 
+          im<lb break="no" ed="#P" n="30"/>pleatur, ac subinde donec commissarius 
+          dis<lb break="no" ed="#P" n="31"/>penset, quia illa fuit conditio in mandato 
+          po<lb break="no" ed="#P" n="32"/>sita. Et quidquid sit de sensu Praepositi et de
+          <lb ed="#P" n="33"/>modo loquendi, in re verum est quod illa 
+          con<lb break="no" ed="#P" n="34"/>cessio Pontificis est quasi dispensatio in fieri,
+          <lb ed="#P" n="35"/>jam enim ab illo procedit tanquam approbata
+          <lb ed="#P" n="36"/>in se, et in causa proposita, si tamen causa vera
+          <lb ed="#P" n="37"/>est, quod alteri examinandum committit. Et
+          <lb ed="#P" n="38"/>juxta hoc respondetur ad objectionem negando
+          <lb ed="#P" n="39"/>consequentiam, quia, licet illa non sit 
+          consum<lb break="no" ed="#P" n="40"/>mata dispensatio et formalis, est inchoata, et
+          <lb ed="#P" n="41"/>virtualis, ut sic dicam, ideoque aeque odiosa
+          <lb ed="#P" n="42"/>censetur ac propria dispensatio.
+        </p>
+        <p xml:id="szdleg-q19375-d1e525">
+          <lb ed="#P" n="43"/>6. Dispensatio concessa ad postulationem
+          <lb ed="#P" n="44"/>supplicantis, moraliter loguendo, non datur per
+          <lb ed="#P" n="45"/>modum liberae facultatis, sed nmecessarii 
+          man<lb break="no" ed="#P" n="46"/>dati. — Sed instabis: nam, licet hoc sit valde
+          <lb ed="#P" n="47"/>apparens et probabile in commissione quae fit
+          <lb ed="#P" n="48"/>per mandatum, non tamen in illa quae 
+          tan<lb break="no" ed="#P" n="49"/>tum per modum facultatis datur. Nam in priori
+          <lb ed="#P" n="50"/>procedunt omnia dicta, et ideo illa dici solet
+          <lb ed="#P" n="51"/>dispensatio necessaria, guia ita est a Pontifice
+          <lb ed="#P" n="52"/>concessa sub illa conditione, S preces veritate
+          <lb ed="#P" n="53"/>nitantur, ut post exploratam et inventam 
+          ve<lb break="no" ed="#P" n="54"/>ritatem non possit dispensatio negari, et ideo
+          <lb ed="#P" n="55"/>non immerito de tali modo concessionis et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>mandati, perinde ac de dispensatione 
+          judica<lb break="no" ed="#P" n="57"/>catur quoad restrictionem vel odium. At vero
+          <lb ed="#P" n="58"/>in posteriori fit commissio libera, ita ut 
+          sim<lb break="no" ed="#P" n="59"/>pliciter relinquatur dispensatio in arbitrio
+          <lb ed="#P" n="60"/>commissarii, propter quod talis dispensatio
+          <lb ed="#P" n="61"/>voluntaria appellari solet. Illa ergo non est cur
+          <lb ed="#P" n="62"/>eequiparetur dispensationi, quia nec absoluta
+          <lb ed="#P" n="63"/>dispensatio est, nec conditionata, nec ex 
+          ne<lb break="no" ed="#P" n="64"/>cessitate dispensationem infert, etiam 
+          verifica<lb break="no" ed="#P" n="65"/>ta narratione ; non est ergo cur aequiparetur
+          <lb ed="#P" n="66"/>dispensationi, sed tanquam sola potestas 
+          dis<lb break="no" ed="#P" n="67"/>pensandi judicanda est, juxta communem 
+          doc<lb break="no" ed="#P" n="68"/>trinam distinguentem in hoc inter 
+          dispensa<lb break="no" ed="#P" n="69"/>tionem et potestatem dispensandi. Respondeo,
+          <lb ed="#P" n="70"/>argumentuüm convincere, non esse tam certam
+          <lb ed="#P" n="71"/>assertionem in hoc secundo membro sicut in
+          <lb ed="#P" n="72"/>priori. Dico tamen imprimis, moraliter ac 
+          re<lb break="no" ed="#P" n="73"/>gulariter loquendo, dispensationem concessam
+          <lb ed="#P" n="74"/>ad postulationem supplicantis nunquam dari
+          <lb ed="#P" n="75"/>per modum liberae facultatis respectu 
+          commis<lb break="no" ed="#P" n="76"/>sarii, sed per modum necessarii mandati, sive
+          <lb ed="#P" n="77"/>commissio fiat determinatae personae sub 
+          pro<lb break="no" ed="#P" n="78"/>prio nomine, sive nomine alicujus dignitatis
+          <lb ed="#P" n="79"/>vel officii; sive optio personae ipsi supplicanti
+          <lb ed="#P" n="80"/>conceditur, ut ex usu constat; et ita eodem
+          <lb ed="#P" n="81"/>modo procedit conclusio, et moraliter 
+          verifica<lb break="no" ed="#P" n="82"/>tur juxta prius membrum declaratum. Si 
+          au<lb break="no" ed="#P" n="83"/>tem contingat secundo modo fieri 
+          concessio<lb break="no" ed="#P" n="84"/>nem ad petitionem supplicantis, etiam censeo
+          <lb ed="#P" n="85"/>assertionem in illa esse veram; ratio vero ejus
+          <lb ed="#P" n="86"/>aliter ungenda est juxta dicenda in puncto 
+          se<lb break="no" ed="#P" n="87"/>quenti.
+        </p>
+        <p xml:id="szdleg-q19375-d1e627">
+          <lb ed="#P" n="88"/>7. Facultas data ad dispensendum pro 
+          per<lb break="no" ed="#P" n="89"/>sona, certa vel personis non est favorabilis, sed
+          <lb ed="#P" n="90"/>stricti juris. — Limitari assertionem ut 
+          proce<lb break="no" ed="#P" n="91"/>dat quando facultas concessa est in fuvorem 
+          per<lb break="no" ed="#P" n="92"/>sona dispensanda, non vero dispensantis, juata
+          <lb ed="#P" n="93"/>quosdam. — Dico ergo secundo : quoties 
+          con<lb break="no" ed="#P" n="94"/>ceditur facultas ad dispensandum cum aliquo
+          <lb ed="#P" n="95"/>in particulari, sive fiat delegatio ad petitionem
+          <lb ed="#P" n="96"/>partis, sive ad petitionem delegati, et sive fiat
+          <lb ed="#P" n="97"/>determinata persona, sive electio personae
+          <lb ed="#P" n="98"/>committatur dispensando, stricti juris est 
+          con<lb break="no" ed="#P" n="99"/>cessio, seu delegatio, aut dispensatio. Haec 
+          vi<lb break="no" ed="#P" n="100"/>detur esse communis sententia doctorum in c.
+          <lb ed="#P" n="101"/>At si clerici, S De adulteriis, de Judic., et in
+          <lb ed="#P" n="102"/>c. ult. de Simon., aiunt enim potestatem 
+          dis<lb break="no" ed="#P" n="103"/>pensandi cum certis personis expressis esse
+          <lb ed="#P" n="104"/>stricte interpretandam. Idem Angel., verb.
+          <lb ed="#P" n="105"/>Dispensatio, n. 9; Sylvest., q. 5, n. 9; et idem
+          <lb ed="#P" n="106"/>sensit Gambara, de Auctorit. legati, lib. 10,
+          <lb ed="#P" n="107"/>n. 200; Franc., in c. 75qui, de Filiis Presbyt.,
+          <lb ed="#P" n="108"/>in 6, dicens, quando potestas dispensandi 
+          de<lb break="no" ed="#P" n="109"/>rivatur in aliquem, utique in particulari, non
+          <lb ed="#P" n="110"/>esse late interpretandam. Quod etiam sequitur
+          <pb ed="#P" n="80"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Tabien., verb. Beneficiun, 9, n. 16, et Sayrus,
+          <lb ed="#P" n="2"/>tom. 1 Thesauri, c. 11, n. S, in fine. Et solet
+          <lb ed="#P" n="3"/>probari haec assertio ex c. Si cui nulla, de 
+          Prae<lb break="no" ed="#P" n="4"/>bend., in 6, quia ibi dicitur gratiam concessam
+          <lb ed="#P" n="5"/>ad providendum de beneficiis, nulla facta 
+          per<lb break="no" ed="#P" n="6"/>sonarum expressione, non expirare per 
+          mor<lb break="no" ed="#P" n="7"/>tem concedentis, etiam re integra ; 
+          facul<lb break="no" ed="#P" n="8"/>tatem autem gratiose concessam alicui, super
+          <lb ed="#P" n="9"/>provisione certae personae facienda, expirare
+          <lb ed="#P" n="10"/>per mortem concedentis, si res sit integra.
+          <lb ed="#P" n="11"/>Hinc ergo colligitur communiter hanc 
+          faculta<lb break="no" ed="#P" n="12"/>tem ad dispensandum datam pro certa persona
+          <lb ed="#P" n="13"/>vel personis non esse favorabilem, sed stricti
+          <lb ed="#P" n="14"/>juris, quo argumento in materia de voto usus
+          <lb ed="#P" n="15"/>sum. Unde, quia in illo textu non absolute, sed
+          <lb ed="#P" n="16"/>cum limitatione id dicitur, scilicet, si non ob
+          <lb ed="#P" n="17"/>suum, id est, ejus cui facultas datur, sed ejus
+          <lb ed="#P" n="18"/>cui provideri mandatur, gratiam, vel favorem;
+          <lb ed="#P" n="19"/>ideo etiam solet limitari assertio nostra, ut
+          <lb ed="#P" n="20"/>procedat quando commissio dispensationis 
+          fac<lb break="no" ed="#P" n="21"/>ta est in gratiam personae dispensandae : secus
+          <lb ed="#P" n="22"/>vero esse, si in gratiam personae dispensantis,
+          <lb ed="#P" n="23"/>seu dispensaturae, quia in dicto textu hic casus
+          <lb ed="#P" n="24"/>non excipitur, sed potius per argumentum a
+          <lb ed="#P" n="25"/>contrario conceditur, ut etiam tum gratia non
+          <lb ed="#P" n="26"/>expiret, vel etiam quia exceptio particularis
+          <lb ed="#P" n="27"/>firmat regulam in contrarium: ergo, etiam in
+          <lb ed="#P" n="28"/>praesenti, licet in facultate dispensandi 
+          expri<lb break="no" ed="#P" n="29"/>matur persona cui danda est dispensatio , si
+          <lb ed="#P" n="30"/>tamen data est in favorem ejus cui conceditur,
+          <lb ed="#P" n="31"/>erit favor ampliandus. Atque ita referendo 
+          ali<lb break="no" ed="#P" n="32"/>quos tenet Sanci., dicto lib. 8, disp. 2, n. 6.
+          <lb ed="#P" n="33"/>Censetur autem dari facultas in gratiam 
+          dis<lb break="no" ed="#P" n="34"/>pensaturi, quando non obtinetur ad 
+          petitio<lb break="no" ed="#P" n="35"/>nem dispensandi, sed ipsiusmet commissarii,
+          <lb ed="#P" n="36"/>vel quando ex aliis verbis concessionis id
+          <lb ed="#P" n="37"/>sufficienter colligitur. Alioqui in casu dubio
+          <lb ed="#P" n="38"/>quoties facultas datur pro personis nominatis,
+          <lb ed="#P" n="39"/>praesumitur favor earum, et ideo 
+          restringen<lb break="no" ed="#P" n="40"/>dus.
+        </p>
+        <p xml:id="szdleg-q19375-d1e770">
+          <lb ed="#P" n="41"/>8. Sed, ut verum fatear, non satis capio 
+          ra<lb break="no" ed="#P" n="42"/>tionem hujus distinctionis. Cur enim eadem
+          <lb ed="#P" n="43"/>facultas dispensandi data in favorem 
+          dispen<lb break="no" ed="#P" n="44"/>saturi favorabilis est et amplianda, et data in
+          <lb ed="#P" n="45"/>favorem ejus cui concedenda est dispensatio
+          <lb ed="#P" n="46"/>non est favorabilis, sed odiosa, et 
+          restringen<lb break="no" ed="#P" n="47"/>da? Nam illa facultas in se eadem est, et 
+          sem<lb break="no" ed="#P" n="48"/>per habet illos duos respectus, et fieri potest
+          <lb ed="#P" n="49"/>ut persona indigens dispensatione non sit 
+          mi<lb break="no" ed="#P" n="50"/>nus digna illo favore quam persona volens 
+          dis<lb break="no" ed="#P" n="51"/>pensare. Imo, petitio illius facultatis ex parte
+          <lb ed="#P" n="52"/>personae indigentis dispensatione videtur 
+          ma<lb break="no" ed="#P" n="53"/>gis favorabilis, quia est personae indigentis, et
+          <lb ed="#P" n="54"/>sub ea ratione miserabilis, et humiliantis se,
+          <lb ed="#P" n="55"/>ac confitentis fortasse defectum suum. Petitio
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>vero activae dispensationis facta ab ipso qui
+          <lb ed="#P" n="57"/>dispensaturus est videtur magis ambitiosa, nisi
+          <lb ed="#P" n="58"/>principaliter fiat in gratiam ejus cui subvenire
+          <lb ed="#P" n="59"/>desiderat , et tunc etiam censeri potest gratia
+          <lb ed="#P" n="60"/>principaliter facta illi cum quo dispensandum
+          <lb ed="#P" n="61"/>est. Vel certe , licet fiat ipsi delegato, non 
+          ap<lb break="no" ed="#P" n="62"/>paret cur sit magis favorabilis quam facta 
+          in<lb break="no" ed="#P" n="63"/>digenti dispensatione, praesertim quando 
+          utro<lb break="no" ed="#P" n="64"/>que modo facultas conceditur ad usum 
+          volun<lb break="no" ed="#P" n="65"/>tarium ipsi commissario. Nam tunc talis 
+          facul<lb break="no" ed="#P" n="66"/>tas data ex intentione conferentis propter 
+          com<lb break="no" ed="#P" n="67"/>modum dispensandi, non magis continet 
+          vir<lb break="no" ed="#P" n="68"/>tualem dispensationem quam data in 
+          favo<lb break="no" ed="#P" n="69"/>rem dispensantis ; ergo vel utroque modo
+          <lb ed="#P" n="70"/>restringenda est, si reputatur virtualis 
+          dispen<lb break="no" ed="#P" n="71"/>satio, vel utroque modo est amplianda, si talis
+          <lb ed="#P" n="72"/>non existimetur , sed solummodo potestas 
+          dis<lb break="no" ed="#P" n="73"/>pensandi.
+        </p>
+        <p xml:id="szdleg-q19375-d1e847">
+          <lb ed="#P" n="74"/>9. Secundo, dictum caput S2 cui nulla non
+          <lb ed="#P" n="75"/>videtur recte in contrarium induci, quia longe
+          <lb ed="#P" n="76"/>aliud est gratiam esse mansuram, vel non esse
+          <lb ed="#P" n="77"/>mansuram mortuo concedente , re integra;
+          <lb ed="#P" n="78"/>aliud vero esse favorabilem, aut restringendam
+          <lb ed="#P" n="79"/>in aliis quae ad durationem non pertinent; a
+          <lb ed="#P" n="80"/>diversis autem non recte fit illatio, maxime
+          <lb ed="#P" n="81"/>quando neque sunt necessario connexa, neque
+          <lb ed="#P" n="82"/>ex eisdem principiis oriuntur. Talia autem
+          <lb ed="#P" n="83"/>sunt illa duo : nam mandatum dispensandi
+          <lb ed="#P" n="84"/>cum tali supplicatione necessaria (ut vocant)
+          <lb ed="#P" n="85"/>permanet mortuo mandante, etiam re 
+          in<lb break="no" ed="#P" n="86"/>tegra, ut probabilior opinio fert, quam late
+          <lb ed="#P" n="87"/>defendit Sanc. , dicto libro 8, disputat. 28,
+          <lb ed="#P" n="88"/>n. 12; et nihilominus stricti juris est, ut in
+          <lb ed="#P" n="89"/>prima assertione ostendi , et fatetur idem
+          <lb ed="#P" n="90"/>Sanc. supra cum aliis; ergo illae duae 
+          proprie<lb break="no" ed="#P" n="91"/>tates, scilicet, indultum durabile esse post 
+          mor<lb break="no" ed="#P" n="92"/>tem concedentis, et esse favorabile , vel e 
+          con<lb break="no" ed="#P" n="93"/>trario expirare per mortem, et esse 
+          restrin<lb break="no" ed="#P" n="94"/>gendum, non sunt connexae, per se loquendo;
+          <lb ed="#P" n="95"/>ergo, licet facultas dispensandi cum persona
+          <lb ed="#P" n="96"/>expressa, data in gratiam delegati, sit 
+          perman<lb break="no" ed="#P" n="97"/>sura, non sequitur esse late interpretandum:
+          <lb ed="#P" n="98"/>et e contrario , licet eadem facultas, data in
+          <lb ed="#P" n="99"/>gratiam ejus cum quo est dispensandum, non
+          <lb ed="#P" n="100"/>sit permansura, non sequitur ex vi illius 
+          pro<lb break="no" ed="#P" n="101"/>prietatis esse restringendam : etratio est, quia
+          <lb ed="#P" n="102"/>illa duo possunt oriri ex diversis principiis ;
+          <lb ed="#P" n="103"/>nam gratia habet quod non expiret , ex eo
+          <lb ed="#P" n="104"/>quod est plene facta ante mortem concedentis;
+          <lb ed="#P" n="105"/>unde, sive sit favorabilis, sive exorbitans, 
+          per<lb break="no" ed="#P" n="106"/>manebit , si plene fuit concessa : e contrario
+          <lb ed="#P" n="107"/>vero, quando gratia est in fieri, et non plene
+          <lb ed="#P" n="108"/>facta ante mortem concedentis, censetur 
+          expi<lb break="no" ed="#P" n="109"/>rare, si re integra concedens moriatur, quod
+          <pb ed="#P" n="81"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>stat de mandato conferendi alicui, et in 
+          fa<lb break="no" ed="#P" n="2"/>vorem ejus, beneficium, vel gratiam 
+          quantum<lb break="no" ed="#P" n="3"/>vis favorabilem ex parte materiae, et aliarum
+          <lb ed="#P" n="4"/>circumstantiarum ; nihilominus tamen 
+          expi<lb break="no" ed="#P" n="5"/>rabit per mortem concedentis, re integra,
+          <lb ed="#P" n="6"/>juxia dictum cap. S3 cui nulla. Ergo, licet ex
+          <lb ed="#P" n="7"/>illo textu colligatur mandatum providendi tali
+          <lb ed="#P" n="8"/>personae, vel dispensandi cum illa, factum in
+          <lb ed="#P" n="9"/>favorem executoris non expirare, non sequitur
+          <lb ed="#P" n="10"/>esse late interpretandum in aliis; et e 
+          contra<lb break="no" ed="#P" n="11"/>rio licet factum in gratiam providendi expiret
+          <lb ed="#P" n="12"/>in dicto casu, non sequitur esse restringendum
+          <lb ed="#P" n="13"/>in aliis, nec in se odiosum esse, nisi aliunde
+          <lb ed="#P" n="14"/>id ostendatur.
+        </p>
+        <p xml:id="szdleg-q19375-d1e962">
+          <lb ed="#P" n="15"/>10. Cur facultas dispensandi cum certa 
+          per<lb break="no" ed="#P" n="16"/>sona sit stricti juris. — Ratio ergo ob quam
+          <lb ed="#P" n="17"/>facultas dispensandi cum persona in 
+          particula<lb break="no" ed="#P" n="18"/>ri expressa stricti juris censetur, non est quia
+          <lb ed="#P" n="19"/>facultas illa datur in gratiam indigentis 
+          dis<lb break="no" ed="#P" n="20"/>pensatione , vel in favorem delegati, sed quia
+          <lb ed="#P" n="21"/>moraliter perinde repütatur ac ipsa 
+          dispensa<lb break="no" ed="#P" n="22"/>tio : nam quod est ex parte superioris jam fit
+          <lb ed="#P" n="23"/>dispensatio, licet executio et modus alteri 
+          com<lb break="no" ed="#P" n="24"/>mittatur ; quod autem haec commissio fiat in
+          <lb ed="#P" n="25"/>favorem commissarii vel alterius, non mutat
+          <lb ed="#P" n="26"/>naturam actus, nec moralem illam 
+          aequivalen<lb break="no" ed="#P" n="27"/>tiam seu aestimationem. Nec etiam multum
+          <lb ed="#P" n="28"/>refert quod illa commissio fiat cum mandato
+          <lb ed="#P" n="29"/>dispensandi, vel cum libera facultate, quia
+          <lb ed="#P" n="30"/>respectu legis idem odium continet talis 
+          com<lb break="no" ed="#P" n="31"/>missio : nam eodem modo illi derogatur, licet
+          <lb ed="#P" n="32"/>intercedente mandato rigoroso ex parte 
+          su<lb break="no" ed="#P" n="33"/>perioris efficacius fieri videatur. Atque ita
+          <lb ed="#P" n="34"/>Felin., dicto cap. ult. de Simon., n, S, 
+          limi<lb break="no" ed="#P" n="35"/>tat. 3, generaliter docens esse dispositionem
+          <lb ed="#P" n="36"/>ediosam, quoties persona cum qua est 
+          dispen<lb break="no" ed="#P" n="37"/>sandum nominatur ; rationem reddit, quia
+          <lb ed="#P" n="38"/>Tunc non est una simplex facultas dispensandi,
+          <lb ed="#P" n="39"/>sed quasi dispensatio in esse producta , solam
+          <lb ed="#P" n="40"/>executionem spectans. Et haec ratio ex dicendis
+          <lb ed="#P" n="41"/>in sequenti assertione magis declarabitur.
+        </p>
+        <p xml:id="szdleg-q19375-d1e1023">
+          <lb ed="#P" n="42"/>11. Potestas dispensandi in aliqua lege 
+          gene<lb break="no" ed="#P" n="43"/>ralis sine empressione personarum favorabilis
+          <lb ed="#P" n="44"/>est. — Dico tertio : delegatio potestatis 
+          dispen<lb break="no" ed="#P" n="45"/>sandi in aliqua lege generahter facta quoad
+          <lb ed="#P" n="46"/>personas sine illarum expressione favorabilis
+          <lb ed="#P" n="47"/>est, et late interpretanda. Haec est communis
+          <lb ed="#P" n="48"/>sententia juris canonici interpretum in eisdem
+          <lb ed="#P" n="49"/>locis, scilicet, dicto S de Adulteriis, et dicto c.
+          <lb ed="#P" n="50"/>ult. de Simon., et doctorum juris civilis in leg.
+          <lb ed="#P" n="51"/>Gallus, S Et quid si tantum, ff. de Lib. et
+          <lb ed="#P" n="52"/>post., et in leg. 2, ff. de Verb. ;et
+          <lb ed="#P" n="53"/>alia referunt Coyarrus in 4, p.2, capite 8,
+          <lb ed="#P" n="54"/>S 8, numero 6 et sequentibus; et Sanci., libro
+          <lb ed="#P" n="55"/>8, disput. 2, num 1. Solet etiam haec assertio
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>probari ex cap. ult. de Simon., et cap. Per 
+          ve<lb break="no" ed="#P" n="57"/>nerabilem, Qui fihi sint legit. ; sed in his locis
+          <lb ed="#P" n="58"/>non videtur esse sermo de potestate delegata,
+          <lb ed="#P" n="59"/>sed de potestate ordinaria , maxime in c. Per
+          <lb ed="#P" n="60"/>venerabilem ; nam de alo potest esse 
+          contro<lb break="no" ed="#P" n="61"/>versia, quam omitto, quia haec assertio mag
+          <lb ed="#P" n="62"/>nititur ratione et communi sensu doctorum
+          <lb ed="#P" n="63"/>prudenter judicantium hanc potestatem sic
+          <lb ed="#P" n="64"/>concessam esse favorabilem. Possumus vero
+          <lb ed="#P" n="65"/>ex illis textibus sic argumentari, quia potestas
+          <lb ed="#P" n="66"/>ordinaria ad dispensandum in lege non 
+          cense<lb break="no" ed="#P" n="67"/>tur odiosa, sed favorabilis et amplianda; ergo
+          <lb ed="#P" n="68"/>etiam potestas concessa dignitati ex privilegio,
+          <lb ed="#P" n="69"/>vel per legem juris communis, est favorabilis,
+          <lb ed="#P" n="70"/>quia jam est ordinaria, ut supra dixi ; ergo
+          <lb ed="#P" n="71"/>etiam potestas delegata generaliter ad 
+          dispen<lb break="no" ed="#P" n="72"/>sandum est favorabilis. Probatur consequentia,
+          <lb ed="#P" n="73"/>primo, quia modus concessionis per 
+          delegatio<lb break="no" ed="#P" n="74"/>nem, vel per legem, aut viam ordinariam, non
+          <lb ed="#P" n="75"/>variat rationem potestatis, sed solum pluribus
+          <lb ed="#P" n="76"/>conceditur, et pluribus modis ; hoc autem non
+          <lb ed="#P" n="77"/>facit illam odiosam, si secundum se 
+          favorabi<lb break="no" ed="#P" n="78"/>lis est. Secundo, quia ideo illa potestas 
+          ordi<lb break="no" ed="#P" n="79"/>naria favorabilis est , quia non est contra jus,
+          <lb ed="#P" n="80"/>sed potius secundum jus , nec per se potest
+          <lb ed="#P" n="81"/>censeri odiosa aut nociva, cum sit simpliciter
+          <lb ed="#P" n="82"/>necessaria ad commune regimen, et ad 
+          conve<lb break="no" ed="#P" n="83"/>nientem usum legum : sed potestas etiam 
+          de<lb break="no" ed="#P" n="84"/>legata generaliter non est contra jus, nec 
+          ali<lb break="no" ed="#P" n="85"/>cui nocet, sed ad commune etiam commodum
+          <lb ed="#P" n="86"/>ordinatur ; ergo similiter est favorabilis. 
+          Ter<lb break="no" ed="#P" n="87"/>tio, per hanc potestatem sic concessam per se
+          <lb ed="#P" n="88"/>primo solum intenditur favor communitatis, et
+          <lb ed="#P" n="89"/>illius cui talis potestas communicatur, quod 
+          to<lb break="no" ed="#P" n="90"/>tum est beneficium principis; ergo est late 
+          inter<lb break="no" ed="#P" n="91"/>pretandum. Et hinc etiam intelligitur 
+          differen<lb break="no" ed="#P" n="92"/>tia inter potestatem generatim concessam, vel
+          <lb ed="#P" n="93"/>per respectum ad expressam personam ; nam
+          <lb ed="#P" n="94"/>prior non respicit bonum privatum, sed 
+          coni<lb break="no" ed="#P" n="95"/>mune, posterior vero necessario respicit 
+          priva<lb break="no" ed="#P" n="96"/>tum commodum cum exceptione a communi
+          <lb ed="#P" n="97"/>jure, et ideo haec posterior ex se est invidiosa
+          <lb ed="#P" n="98"/>et restringenda, prior vero minime.
+        </p>
+        <p xml:id="szdleg-q19375-d1e1151">
+          <lb ed="#P" n="99"/>12. Differentia inter potestatem generatim
+          <lb ed="#P" n="100"/>concessuam et per respectum ad privatam 
+          perso<lb break="no" ed="#P" n="101"/>nam.—Jam vero occurrebat hic explicandum
+          <lb ed="#P" n="102"/>quomodo haec restrictio vel extensio facienda
+          <lb ed="#P" n="103"/>sit in rescriptis has delegationes continentibus.
+          <lb ed="#P" n="104"/>Sed haec materia coincidit cum simili de 
+          pri<lb break="no" ed="#P" n="105"/>vilegiis, et ideo libro 8 ex professo 
+          tractabi<lb break="no" ed="#P" n="106"/>tur. Nunc solum dico, in hac ultima assertione
+          <lb ed="#P" n="107"/>extensionem potissimum faciendam esse 
+          con<lb break="no" ed="#P" n="108"/>tra delegantem ; nam si contingat 
+          delegatio<lb break="no" ed="#P" n="109"/>nem esse in praejudicium tertii, aut minuere
+          <lb ed="#P" n="110"/>aliquo modo jurisdictionem ordinarii Praelati,
+          <pb ed="#P" n="82"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quando delegatio fit a superiori et remoto,
+          <lb ed="#P" n="2"/>tunc ex hac parte poterit restringi concessio:
+          <lb ed="#P" n="3"/>et ita docent auctores omnes citati. In reliquis
+          <lb ed="#P" n="4"/>vero constat, verborum proprietatem 
+          retinen<lb break="no" ed="#P" n="5"/>dam esse, et intra illam tantum esse 
+          amplia<lb break="no" ed="#P" n="6"/>tionem faciendam , juxta principia posita in
+          <lb ed="#P" n="7"/>cap. 2 et 3, quae in praesenti etiam applicari
+          <lb ed="#P" n="8"/>possunt. Tandem in usu hujus potestatis 
+          ser<lb break="no" ed="#P" n="9"/>vanda est forma rescripti, ut, si persona sit 
+          eli<lb break="no" ed="#P" n="10"/>genda, habeat omnes qualitates quae in 
+          res<lb break="no" ed="#P" n="11"/>cripto postulantur; si vero jam est electa, vel
+          <lb ed="#P" n="12"/>in rescripto est determinata, ipsa servet in
+          <lb ed="#P" n="13"/>dispensando formam in rescripto traditam :
+          <lb ed="#P" n="14"/>nam si excedat fines mandati, nihil faciet, juxta
+          <lb ed="#P" n="15"/>dicta supra in lib. 5, quae latius ad materiam
+          <lb ed="#P" n="16"/>de Privilegiis in libro 8 applicabimus. Et 
+          mul<lb break="no" ed="#P" n="17"/>ta etiam dixi in libro 6 de Voto, capite 16.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

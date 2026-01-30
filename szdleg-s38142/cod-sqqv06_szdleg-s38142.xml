@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#FranciscoSuarez">Francisco Suarez</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2026-01-29">January 29, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2026-01-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="549"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="szdleg-s38142"><!-- l10prooem -->
+            <head xml:id="szdleg-s38142-Hd1e101">Prooemium</head>
+            <p xml:id="szdleg-s38142-d1e103">
+               <cb ed="#P" n="d"/>
+               <lb ed="#P" n="17"/>LIBER DECIMUS.
+<lb ed="#P" n="18"/>DE LEGE NOVA DIVINA.
+</p>
+            <p xml:id="szdleg-s38142-d1e112">
+               <cb ed="#P" n="e"/>
+               <lb ed="#P" n="19"/>Distinximus in superioribus divinam legem
+<lb ed="#P" n="20"/>in veterem et novam, ideoque post tractatum
+<lb ed="#P" n="21"/>de lege veteri solum superest dicendum de
+<lb ed="#P" n="22"/>nova, quae in Scriptura Sacra variis 
+nomini<lb break="no" ed="#P" n="23"/>bus appellatur. Nam a Paulo interdum 
+ap<lb break="no" ed="#P" n="24"/>pellatur Lex fidei, ad Rom. 3; vocatur etiam
+<lb ed="#P" n="25"/>Ler Spiritus vite, ad Roman. 8; unde 
+com<lb break="no" ed="#P" n="26"/>muniter appellatur Lex gratiae : nam gratia
+<lb ed="#P" n="27"/>est spiritus nostrae vitae, vel etiam vita 
+nos<lb break="no" ed="#P" n="28"/>tri spiritus. Imo solet interdum gratia 
+sim<lb break="no" ed="#P" n="29"/>pliciter appellari, juxta illud Joan. 1: Lez
+<lb ed="#P" n="30"/>per Moysem data est, gratia et veritas per
+<lb ed="#P" n="31"/>Jesum Christum fuacta est; et ideo Paulus ad
+<lb ed="#P" n="32"/>Galat. 5 dixit : Non estis sub lege, sed sub
+<lb ed="#P" n="33"/>gratia. Propter quod etiam vocatur haec Lex
+<lb ed="#P" n="34"/>amoris, juxta illud Pauli ad Romanos 
+octa<lb break="no" ed="#P" n="35"/>vo: lVon accepistis spiritum servitutis iterum
+<lb ed="#P" n="36"/>n timore, sed accepistis spiritum adoptionis
+<lb ed="#P" n="37"/>filiorun, in quo clamamus Abba Pater, qui
+<cb ed="#P" n="f"/>
+               <lb ed="#P" n="38"/>est spiritus dilectionis, ut idem Paulus dicit
+<lb ed="#P" n="39"/>ep. 2 ad Timoth., cap. primo: et inde etiam
+<lb ed="#P" n="40"/>vocatur interdum Lex libertatis, Jacobi 1,
+<lb ed="#P" n="41"/>quia ubi spiritus Domini, ibi libertas, 2 ad
+<lb ed="#P" n="42"/>Corinth. 3; et ob eamdem causam dicitur
+<lb ed="#P" n="43"/>Lea scripta in corde, Jerem. trigesimo-tertio,
+<lb ed="#P" n="44"/>et ad Hebr., octavo et decimo, quia divina
+<lb ed="#P" n="45"/>gratia et amor menti infunduntur. Denique
+<lb ed="#P" n="46"/>appellatur Lem nova, vel quia totum hominem
+<lb ed="#P" n="47"/>per gratiam renovat, ut sumitur ex 
+Augus<lb break="no" ed="#P" n="48"/>tin., tract. 65 in Joann., vel quia est ultima
+<lb ed="#P" n="49"/>lex a Deo data, quae priorem antiquavit, ut
+<lb ed="#P" n="50"/>sensit Cyrillus, lib. nono in Joann., cap. 
+vi<lb break="no" ed="#P" n="51"/>gesimo-tertio, explicans verba illa Christi
+<lb ed="#P" n="52"/>Joan. 13: Mandatum novum do vobis; quae,
+<lb ed="#P" n="53"/>licet de mandato amoris specialiter dicta 
+fue<lb break="no" ed="#P" n="54"/>rint, merito ad totam legem amoris, quae in
+<lb ed="#P" n="55"/>praecepto amandi virtute continetur, et ab
+<lb ed="#P" n="56"/>eodem Christo data est, accommodantur, ac
+<pb ed="#P" n="550"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>propterea etiam haec lex ab auctore suo Lex
+<lb ed="#P" n="2"/>Christi appellatur. His ergo variis 
+nomini<lb break="no" ed="#P" n="3"/>bus excellentia hujus legis, et ejus causae,
+<lb ed="#P" n="4"/>effectus, et proprietates insinuantur, quae a
+<lb ed="#P" n="5"/>nobis sigillatim tractandae sunt, eodem 
+or<lb break="no" ed="#P" n="6"/>dine quo de caeteris legibus disputavimus.
+<lb ed="#P" n="7"/>Et quamvis ex divisione superius data, et ex
+<lb ed="#P" n="8"/>tot Scripturae testimoniis, supponamus 
+da<lb break="no" ed="#P" n="9"/>tam esse a Deo hujusmodi legem, 
+nihilomi<lb break="no" ed="#P" n="10"/>nus propter haereticorum importunitatem ,
+<lb ed="#P" n="11"/>pauca de hujus legis veritate et proprietate
+<lb ed="#P" n="12"/>praemittenda sunt.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

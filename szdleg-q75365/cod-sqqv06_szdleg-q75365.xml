@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 19</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 19</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="299"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q75365"><!-- l8c19 -->
+        <head xml:id="szdleg-q75365-Hd1e101">Caput 19</head>
+        <head xml:id="szdleg-q75365-Hd1e103" type="question-title">Nonnulla. dubia circa confirmationem privilegiorum expediuntur.</head>
+        <p xml:id="szdleg-q75365-d1e106">
+          <lb ed="#P" n="104"/>CAPUT XIX.
+          <lb ed="#P" n="105"/>NONNULLA. DUBIA CIRCA CONFIRMATIONEM 
+          PRIVILE<lb break="no" ed="#P" n="106"/>GIORUM EXPEDIUNTUR.
+        </p>
+        <p xml:id="szdleg-q75365-d1e115">
+          <lb ed="#P" n="107"/>1. Primum dubium.—Nonnulla vero 
+          super<lb break="no" ed="#P" n="108"/>sunt explicanda dubia circa hanc confirmatio-
+          <pb ed="#P" n="300"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nem. Primum est, utrum simpliciter et sine
+          <lb ed="#P" n="2"/>restrictione data ex certa scientia, habeat vim
+          <lb ed="#P" n="3"/>restituendi etiam privilegia revocata. Videtur
+          <lb ed="#P" n="4"/>enim ex dictis sequi consequenter pars 
+          affir<lb break="no" ed="#P" n="5"/>mans, quia confirmatio ex certa scientia 
+          resti<lb break="no" ed="#P" n="6"/>tuit privilegium amissum per non usum, vel
+          <lb ed="#P" n="7"/>per usum contrarium, quando contraria 
+          limi<lb break="no" ed="#P" n="8"/>tatio non adhibetur; ergo etiam restituet 
+          pri<lb break="no" ed="#P" n="9"/>vilegium revocatum ab homine, quicumque
+          <lb ed="#P" n="10"/>ille sit. Item habet potestatem haec concessio
+          <lb ed="#P" n="11"/>revalidandi quod a principio fuit nullum; ergo
+          <lb ed="#P" n="12"/>multo magis quod fuit validum, licet fuerit
+          <lb ed="#P" n="13"/>revocatum. Denique haec confirmatio aequivalet
+          <lb ed="#P" n="14"/>novae concessioni, ergo. Et ita tenet aperte
+          <lb ed="#P" n="15"/>Rosel., verb. Absolutio, n. 1293, inde 
+          conclu<lb break="no" ed="#P" n="16"/>dens per similem confirmationem restitutum
+          <lb ed="#P" n="17"/>esse Minoribus privilegium exemptionis a 
+          so<lb break="no" ed="#P" n="18"/>lutione quartae canonicae portionis, quod 
+          fue<lb break="no" ed="#P" n="19"/>rat revocatum in Clemen. Dudum, de Sepulc.,
+          <lb ed="#P" n="20"/>et sequitur Roder., dicta quaest. 8, art. 3; citat
+          <lb ed="#P" n="21"/>Gloss. in cap. Cum accessissent, de Constitut.,
+          <lb ed="#P" n="22"/>verb. Confirmatum, et Panormit. in cap. Cum
+          <lb ed="#P" n="23"/>super, de Caus. possess., n. 4; sed ibi 
+          genera<lb break="no" ed="#P" n="24"/>Iitter loquuntur, non specialiter de privilegiis
+          <lb ed="#P" n="25"/>revocatis.
+        </p>
+        <p xml:id="szdleg-q75365-d1e180">
+          <lb ed="#P" n="26"/>2. Potest ergo in contrarium objici, quia,
+          <lb ed="#P" n="27"/>ut lex revocet privilegium, non satis est quod
+          <lb ed="#P" n="28"/>contra illud disponat, nisi expresse illud 
+          de<lb break="no" ed="#P" n="29"/>roget, ut dicitur; ergo eadem ratione, ut 
+          con<lb break="no" ed="#P" n="30"/>firmatio restituat privilegium, non satis est
+          <lb ed="#P" n="31"/>quod illud confirmet ex certa scientia, nisi
+          <lb ed="#P" n="32"/>expresse dicat confirmare illud, non obstante
+          <lb ed="#P" n="33"/>revocatione ; imo nisi hoc dicat, non videtur
+          <lb ed="#P" n="34"/>esse confirmatio ex certa scientia quoad hunc
+          <lb ed="#P" n="35"/>effectum. Et confirmatur, quia alias, si nunc
+          <lb ed="#P" n="36"/>confirmentur omnia privilegia alicujus 
+          reli<lb break="no" ed="#P" n="37"/>gionis ex certa scientia, non addita illa 
+          limi<lb break="no" ed="#P" n="38"/>tatione, dummodo Concilio Tridentino non sint
+          <lb ed="#P" n="39"/>contraria, manebunt confirmata et restituta
+          <lb ed="#P" n="40"/>omnia, etiamsi contraria sint. Quod difficile
+          <lb ed="#P" n="41"/>creditu est; alias, per confirmationem 
+          privile<lb break="no" ed="#P" n="42"/>giorum Societatis, in qua non ponitur illa 
+          li<lb break="no" ed="#P" n="43"/>mitatio, ut ex compendio constat, omnia illius
+          <lb ed="#P" n="44"/>privilegia revocata,per concilium essent 
+          resti<lb break="no" ed="#P" n="45"/>tuta. Unde idem Emman., d. art. 1, videns
+          <lb ed="#P" n="46"/>fortasse vim illationis, ad vitandum illud 
+          con<lb break="no" ed="#P" n="47"/>sequens, conjectat clausulam illam, quae qeest
+          <lb ed="#P" n="48"/>in nostro compendio, esse in originali, quia
+          <lb ed="#P" n="49"/>post Pium V non vidit Pontificem aliquem
+          <lb ed="#P" n="50"/>confirmasse absolute, et sine illa restrictione,
+          <lb ed="#P" n="51"/>privilegia ; sed revera illa limiiatio non est in
+          <lb ed="#P" n="52"/>originalibus; nam Gregorius XIII, in Bulla
+          <lb ed="#P" n="53"/>Quanto frauctuosius, et in Bulla Ascendente
+          <lb ed="#P" n="54"/>Domino, et Gregorius XIV et Paulus V in suis
+          <lb ed="#P" n="55"/>Bullis confirmatoriis, absolute et sine illa re-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>strictione privilegia Societatis confirmant, ex
+          <lb ed="#P" n="57"/>certa scientia et potestatis plenitudine; ergo
+          <lb ed="#P" n="58"/>erunt restituta omnia quae per Concilium
+          <lb ed="#P" n="59"/>Tridentinum fuerant revocata ; quod tamen
+          <lb ed="#P" n="60"/>etiam ipsa Societas non agnoscit ex vi talium
+          <lb ed="#P" n="61"/>confirmationum.
+        </p>
+        <p xml:id="szdleg-q75365-d1e264">
+          <lb ed="#P" n="62"/>3. Igitur pro resolutione, advertendum est
+          <lb ed="#P" n="63"/>aliud esse privilegium fuisse a principio 
+          fal<lb break="no" ed="#P" n="64"/>sum, subreptitium, aut alia ratione nullum,
+          <lb ed="#P" n="65"/>aliud vero fuisse validum, et postea 
+          revoca<lb break="no" ed="#P" n="66"/>tum: nam prius privilegium non conceditur
+          <lb ed="#P" n="67"/>de novo per confirmationem, etiam ex certa
+          <lb ed="#P" n="68"/>scientia, nisi expresse dicatur, non obstante
+          <lb ed="#P" n="69"/>falsitate aut surreptione. Ita sumitur ex hRot.,
+          <lb ed="#P" n="70"/>tit. de Confirmat. util., decis. 2, in novis;
+          <lb ed="#P" n="71"/>Panorm., in cap. 7nter dilectos, de Fide 
+          in<lb break="no" ed="#P" n="72"/>strum., n. 8, ubi late Felin., n. 6, et in cap.2
+          <lb ed="#P" n="73"/>de Rescript., n. 42, ubi alios allegat ; et ratio
+          <lb ed="#P" n="74"/>prioris partis est, tum quia privilegium 
+          fal<lb break="no" ed="#P" n="75"/>sum vel subreptitium nunquam fuit 
+          conces<lb break="no" ed="#P" n="76"/>sum revera, quia nec princeps illud concessit;
+          <lb ed="#P" n="77"/>sed confirmatio est de privilegiis concessis:
+          <lb ed="#P" n="78"/>ergo non cadit in illud ; tum etiam quia tahs
+          <lb ed="#P" n="79"/>confirmatio, non facta narratione talis 
+          defec<lb break="no" ed="#P" n="80"/>tus, subreptitia est. Unde patet ratio secundae
+          <lb ed="#P" n="81"/>partis; nam Papa potest de novo dare 
+          privi<lb break="no" ed="#P" n="82"/>legium, etiamsi fuerit falsum ; ergo si id satis
+          <lb ed="#P" n="83"/>declaret, sufficit. Privilegium autem semel
+          <lb ed="#P" n="84"/>validum vere fuit concessum, et ideo in illud
+          <lb ed="#P" n="85"/>potest cadere confirmatio, etiamsi revocatum
+          <lb ed="#P" n="86"/>sit: inquirimus autem an cadat ex vi 
+          confir<lb break="no" ed="#P" n="87"/>mationis ex certa scientia.
+        </p>
+        <p xml:id="szdleg-q75365-d1e323">
+          <lb ed="#P" n="88"/>A. Distinctio de revocatione privilegii 
+          pri<lb break="no" ed="#P" n="89"/>vata et ab homine, et de illa quae facta est jure
+          <lb ed="#P" n="90"/>commnuni et ordinario. — In quo ulterius 
+          dis<lb break="no" ed="#P" n="91"/>tinguendum censeo de revocatione privilegii
+          <lb ed="#P" n="92"/>privata et ab homine, vel de illa quae facta est
+          <lb ed="#P" n="93"/>jure communi et ordinario. Et de priori dico
+          <lb ed="#P" n="94"/>confirmationem privilegii ad illam extendi,
+          <lb ed="#P" n="95"/>quando particula ex certa scientia, vel de 
+          ple<lb break="no" ed="#P" n="96"/>nitudine potestatis, expresse ac formaliter 
+          po<lb break="no" ed="#P" n="97"/>nitur, quia tunc recte procedunt rationes 
+          fac<lb break="no" ed="#P" n="98"/>tae. At vero si certa scientia non expresse 
+          po<lb break="no" ed="#P" n="99"/>nitur, sed colligenda est ex narratis in indulto,
+          <lb ed="#P" n="100"/>non satis erit narrari formam privilegii 
+          con<lb break="no" ed="#P" n="101"/>firmati, nisi fiat ment.o revocationis ejus, vel
+          <lb ed="#P" n="102"/>addatur clausula non obstantibus, vel 
+          genera<lb break="no" ed="#P" n="103"/>lis de omnibus, etc., vel specialis de tali 
+          re<lb break="no" ed="#P" n="104"/>vocatione ; quia alias non erit confirmatio ex
+          <lb ed="#P" n="105"/>certa scientia quoad talem circumstantiam,
+          <lb ed="#P" n="106"/>seu revocationem ; quia cum sit privata, 
+          per<lb break="no" ed="#P" n="107"/>tinet ad factum, vel privatum jus, quod 
+          prin<lb break="no" ed="#P" n="108"/>ceps praesumitur ignorare, juxta cap. 1 de
+          <lb ed="#P" n="109"/>Constitut., in 6; ergo est necessaria scientia
+          <lb ed="#P" n="110"/>talis revocationis, ut, ea non obstante, privi-
+          <pb ed="#P" n="301"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>legium restitui videatur. At vero quando certa
+          <lb ed="#P" n="2"/>scientia non exprimitur, sed ex narratis 
+          colli<lb break="no" ed="#P" n="3"/>genda est, non extenditur ultra illud quod ex
+          <lb ed="#P" n="4"/>narratis colligi potest; ille autem defectus 
+          re<lb break="no" ed="#P" n="5"/>vocationis non colligitur ex narratis, nisi 
+          il<lb break="no" ed="#P" n="6"/>lius fiat mentio; vel nisi addatur clausula non
+          <lb ed="#P" n="7"/>obstante, quae hoc suppleat ; ergo neque tunc
+          <lb ed="#P" n="8"/>extendetur confirmatio ex certa scientia ad
+          <lb ed="#P" n="9"/>hunc effectum. Quod eadem ratione procedit,
+          <lb ed="#P" n="10"/>sive revocatio sit facta a superiore, sive per
+          <lb ed="#P" n="11"/>renuntiationem expressam vel tacitam.
+        </p>
+        <p xml:id="szdleg-q75365-d1e404">
+          <lb ed="#P" n="12"/>5. Si princeps confirmat ex certa scientia
+          <lb ed="#P" n="13"/>privilegium revocatum jure communi, censetur
+          <lb ed="#P" n="14"/>illud restituere, quia praesumitur non ignorare
+          <lb ed="#P" n="15"/>jus commune. — Species potius derogat 
+          ge<lb break="no" ed="#P" n="16"/>neri, quam e contra. — Secus vero videtur esse
+          <lb ed="#P" n="17"/>quando revocatio facta est jure communi, ex
+          <lb ed="#P" n="18"/>contrario fundamento, quod princeps 
+          praesu<lb break="no" ed="#P" n="19"/>mitur non ignorare jus commune, d. cap. 1;
+          <lb ed="#P" n="20"/>et ideo, si confirmat ex certa scientia 
+          privile<lb break="no" ed="#P" n="21"/>gium revocatum jure communi, censetur 
+          il<lb break="no" ed="#P" n="22"/>lud restituere. Solet autem in hoc addi 
+          re<lb break="no" ed="#P" n="23"/>strictio, distinguendo inter jus commune 
+          ordi<lb break="no" ed="#P" n="24"/>narium, vel jus Concilii generalis, ut in priori
+          <lb ed="#P" n="25"/>servari debeat regula data; in posteriori 
+          au<lb break="no" ed="#P" n="26"/>tem necessarium erit ut fiat specialis mentio
+          <lb ed="#P" n="27"/>per clausulam non obstante revocatione talis
+          <lb ed="#P" n="28"/>Concilii, vel saltem, generalis Concilii in 
+          com<lb break="no" ed="#P" n="29"/>muni ; quia Concilio generali non derogatur
+          <lb ed="#P" n="30"/>nisi per expressam clausulam, ut est regula
+          <lb ed="#P" n="31"/>jurisperitorum communis, quos supra 1.6
+          <lb ed="#P" n="32"/>retuli. Sed, ut ibi dixi, illa sententia 
+          genera<lb break="no" ed="#P" n="33"/>liter incerta est, et specialiter in privilegiis
+          <lb ed="#P" n="34"/>contrarium tradit ibi Felin. in regul. 1, n.2
+          <lb ed="#P" n="35"/>et 3; et infra n. 11, in 2 fallentia. 
+          Nihilomi<lb break="no" ed="#P" n="36"/>nus tamen, quidquid sit de aliis casibus aut
+          <lb ed="#P" n="37"/>rescriptis in terminis in quibus nunc 
+          loqui<lb break="no" ed="#P" n="38"/>mur, videtur omnino vera, scilicet, quando
+          <lb ed="#P" n="39"/>privilegia in generali tantum confirmantur ex
+          <lb ed="#P" n="40"/>certa scientia ; quia non est verisimile quod,
+          <lb ed="#P" n="41"/>per confirmationem adeo confusam et 
+          com<lb break="no" ed="#P" n="42"/>munem, derogetur speciali dispositioni Concili
+          <lb ed="#P" n="43"/>generalis revocantis in particulari aliqua ex
+          <lb ed="#P" n="44"/>dictis privilegiis. Nam regula est, ut species
+          <lb ed="#P" n="45"/>deroget generi potius quam e contrario ; ergo
+          <lb ed="#P" n="46"/>maxime servanda est quando auctoritas 
+          Con<lb break="no" ed="#P" n="47"/>cilii generalis intervenit. Et ideo censeo quod
+          <lb ed="#P" n="48"/>licet Gregor. XIII et Sixtus V non addidissent
+          <lb ed="#P" n="49"/>illam exceptionem de privilegiis contrariis
+          <lb ed="#P" n="50"/>Concilio Trident., nihilominus non essent 
+          re<lb break="no" ed="#P" n="51"/>vocata per generalem confirmationcm. Quod
+          <lb ed="#P" n="52"/>tandem agnoscit Emman. Roder., d. quaest. 8,
+          <lb ed="#P" n="53"/>art. 10. Non video tamen quomodo cum hac
+          <lb ed="#P" n="54"/>doctrina possit subsistere alia, quam ipse 
+          ac<lb break="no" ed="#P" n="55"/>ceptat cum Summa Rosel., quod per similem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>confirmationem generalem privilegiorum 
+          Mi<lb break="no" ed="#P" n="57"/>norum ex certa scientia revocata sit Clement.
+          <lb ed="#P" n="58"/>Dudwn, de Sepulch., quoad quartam 
+          funera<lb break="no" ed="#P" n="59"/>lem, cum illa constitutio etiam sit Concilii 
+          ge<lb break="no" ed="#P" n="60"/>neralis, et directe resistat tali privilegio, et
+          <lb ed="#P" n="61"/>non fuerit in speciali revocata. Contrarium
+          <lb ed="#P" n="62"/>ergo censeo verum, nisi aliunde constet de.
+          <lb ed="#P" n="63"/>speciali revocatione Concilii, ut magis ex 
+          ul<lb break="no" ed="#P" n="64"/>timo puncto hujus capitis constabit.
+        </p>
+        <p xml:id="szdleg-q75365-d1e524">
+          <lb ed="#P" n="65"/>6. De exceptione addita per Gregorium XIII
+          <lb ed="#P" n="66"/>et Sixtum V.—Sed quaeret aliquis cur 
+          Grego<lb break="no" ed="#P" n="67"/>rius XIII et Sixtus V addiderunt illam 
+          excep<lb break="no" ed="#P" n="68"/>tionem, si absque illa intelligenda foret. 
+          Res<lb break="no" ed="#P" n="69"/>pondet Roder., dicto artic. 10, additam esse
+          <lb ed="#P" n="70"/>ad firmandam regulam in contrarium, id est,
+          <lb ed="#P" n="71"/>ut intelligerentur confirmata omnia alia 
+          pri<lb break="no" ed="#P" n="72"/>vilegia aliis conciliis generalibus contraria.
+          <lb ed="#P" n="73"/>Sic enim alias dicimus, quod, licet in generali
+          <lb ed="#P" n="74"/>concessione potestatis ad absolvendum, non
+          <lb ed="#P" n="75"/>veniant casus reservati, si tamen in illa 
+          gene<lb break="no" ed="#P" n="76"/>rali concessione addatur exceptio unius casus
+          <lb ed="#P" n="77"/>reservati, intelliguntur alii concessi. Et, licet
+          <lb ed="#P" n="78"/>supra dixerimus, per confirmationem in forma
+          <lb ed="#P" n="79"/>communi non ratificari privilegia nulla, 
+          ni<lb break="no" ed="#P" n="80"/>hilominus si in tali confirmatione addatur 
+          ex<lb break="no" ed="#P" n="81"/>ceptio unius privilegii alias irriti vel revocati,
+          <lb ed="#P" n="82"/>eo ipso intelligitur, mentem confirmantis esse
+          <lb ed="#P" n="83"/>confirmare omnia alia, etiamsi essent amissa
+          <lb ed="#P" n="84"/>vel irrita, ut tradit Bald. in Feud., titul. Per
+          <lb ed="#P" n="85"/>quos fiat investitura, cap. 1, n. 2, et sumitur
+          <lb ed="#P" n="86"/>a simili ex eodem in l. 1, S S'ed excipiuntur, ft.
+          <lb ed="#P" n="87"/>de Fer. Ubi rationem adducit, quia exceptie
+          <lb ed="#P" n="88"/>firmat regulam in contrarium, l. Tribunus, S
+          <lb ed="#P" n="89"/>ultim., ff. de Milit. testamen., quem allegat
+          <lb ed="#P" n="90"/>et sequitur Jason in l. ultim., ff. Quod 
+          quis<lb break="no" ed="#P" n="91"/>que juris. Verumtamen valde etiam de hac 
+          de<lb break="no" ed="#P" n="92"/>claratione dubito ; nam ex illa sequitur, illam
+          <lb ed="#P" n="93"/>exceptionem additam esse ad ampliationem
+          <lb ed="#P" n="94"/>confirmationis, non ad restrictionem; atque
+          <lb ed="#P" n="95"/>adeo majorem esse confirmationem ab eodem
+          <lb ed="#P" n="96"/>Gregorio XIII factam cum tali exceptione,
+          <lb ed="#P" n="97"/>quam sine illa, quia cum illa solum excipit
+          <lb ed="#P" n="98"/>Concilium Tridentinum et concedit alia, sine
+          <lb ed="#P" n="99"/>illa vero omnia intelliguntur excepta ; 
+          conse<lb break="no" ed="#P" n="100"/>quens autem videtur plane absurdum, et 
+          con<lb break="no" ed="#P" n="101"/>tra mentem Pontificum , ut idem hoderi.
+          <lb ed="#P" n="102"/>aperte etiam sentit in eadem quaest. 8, art. 1.
+        </p>
+        <p xml:id="szdleg-q75365-d1e609">
+          <lb ed="#P" n="103"/>7. Vera explicatio cur supra dicta clausula
+          <lb ed="#P" n="104"/>addita fuerit. — Dico ergo illam exceptionem
+          <lb ed="#P" n="105"/>additam esse a Pontifice, quia voluit esse 
+          ma<lb break="no" ed="#P" n="106"/>gis certam, et nón relinqui sub generalibus
+          <lb ed="#P" n="107"/>regulis quae incertae sunt, et infinitis 
+          interpre<lb break="no" ed="#P" n="108"/>tationibus et opinionibus sunt subjectae. Item
+          <lb ed="#P" n="109"/>voluit Pontifex specialiter ostendere 
+          volunta<lb break="no" ed="#P" n="110"/>tem suam circa firmitatem Decretorum Concil.
+          <pb ed="#P" n="302"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Tridentin., ut non solum generaliter sicut alia,
+          <lb ed="#P" n="2"/>sed etiam speciali modo videantur excepta ;
+          <lb ed="#P" n="3"/>hoc enim usitatum esse in jure sentit Glossa
+          <lb ed="#P" n="4"/>per textum ibi, in l. ultim., ff. Quod quisque
+          <lb ed="#P" n="5"/>juris. Et optimum exemplum ac indicium 
+          su<lb break="no" ed="#P" n="6"/>mitur ex quadam confirmatione privilegiorum
+          <lb ed="#P" n="7"/>ab eodem Gregorio XIII concessa clericis 
+          re<lb break="no" ed="#P" n="8"/>gularibus Ministris infirmorum, ubi prius dicit
+          <lb ed="#P" n="9"/>confirmare privilegia quae non sunt sub ullis
+          <lb ed="#P" n="10"/>revocationibus comprehensa, et nihilominus
+          <lb ed="#P" n="11"/>addit, nec decretis Concilii Tridentinti sunt
+          <lb ed="#P" n="12"/>contraria ; ubi manifestum est per priora 
+          ge<lb break="no" ed="#P" n="13"/>neralia verba excipi etiam privilegia revocata
+          <lb ed="#P" n="14"/>in Concilio Tridentino, et nihilominus additur
+          <lb ed="#P" n="15"/>specialis exceptio Concilii Tridentini ad 
+          deno<lb break="no" ed="#P" n="16"/>tandam specialitatem ejus, et singularem 
+          ob<lb break="no" ed="#P" n="17"/>servantiam. Confirmari potest haec resolutio
+          <lb ed="#P" n="18"/>ex doctrina canonistarum satis recepta, quod,
+          <lb ed="#P" n="19"/>licet exceptio firmet regulam in contrarium,
+          <lb ed="#P" n="20"/>non tamen anpliat illam ad ea quae alio jure
+          <lb ed="#P" n="21"/>aequali fuerant excepta. Quam tradit 
+          Panor<lb break="no" ed="#P" n="22"/>mitanus in cap. 7n nostra, de Sepulchr., in
+          <lb ed="#P" n="23"/>principio, per eumdem textum. Et Anchar.,
+          <lb ed="#P" n="24"/>in cap. 2 de Offic. vicar., in 6, et in rubric. de
+          <lb ed="#P" n="25"/>Regul. jur., quaest. 4, circa finem; late Felin.
+          <lb ed="#P" n="26"/>in cap. Quoniam frequenter, Ut lite non 
+          con<lb break="no" ed="#P" n="27"/>test., n. 2, qui Bart., Bald., Oldr., et plures
+          <lb ed="#P" n="28"/>alios refert. Et licet forte haec etiam doctrina
+          <lb ed="#P" n="29"/>non sit certa et infallibilis, quia totum pendet
+          <lb ed="#P" n="30"/>ex conjecturata mente concedentis, 
+          confir<lb break="no" ed="#P" n="31"/>mantis, seu disponentis; nihilominus ex 
+          na<lb break="no" ed="#P" n="32"/>tura exceptionis puto esse verum non ampliare
+          <lb ed="#P" n="33"/>dispositionem ad id quod alias exceptum erat
+          <lb ed="#P" n="34"/>a talibus verbis, vel de jure, vel ex natura rei,
+          <lb ed="#P" n="35"/>quia non ad hoc ponitur, sed ad limitandam
+          <lb ed="#P" n="36"/>expresse dispositionem. Unde si aliquando 
+          vi<lb break="no" ed="#P" n="37"/>detur plus operari, est vel quia verba sunt per
+          <lb ed="#P" n="38"/>se universalia et in rigore suflicientia ad
+          <lb ed="#P" n="39"/>comprehendenda omnia, quae per exceptionem
+          <lb ed="#P" n="40"/>firmantur magis, vel quia ex usu et 
+          circum<lb break="no" ed="#P" n="41"/>stantiis constat talem esse intentionem 
+          dispo<lb break="no" ed="#P" n="42"/>nentis ; neutrum autem in praesenti casu 
+          in<lb break="no" ed="#P" n="43"/>venio, et alioqui res est gravissima, ideoque
+          <lb ed="#P" n="44"/>credibile mihi non est tam generalem 
+          exten<lb break="no" ed="#P" n="45"/>sionem fieri illo indirecto modo per solam 
+          ad<lb break="no" ed="#P" n="46"/>ditionem exceptionis Concilii Tridentini, cum
+          <lb ed="#P" n="47"/>alia sufficiens ratio illius expressionis 
+          assigne<lb break="no" ed="#P" n="48"/>tur.
+        </p>
+        <p xml:id="szdleg-q75365-d1e737">
+          <lb ed="#P" n="49"/>S. De confirmatione data uni, an 
+          intelliga<lb break="no" ed="#P" n="50"/>tur et data aliis locis, vel religionibus.—Ratio
+          <lb ed="#P" n="51"/>dubitandi.— Duples sensus quaestionis.— 
+          Se<lb break="no" ed="#P" n="52"/>cundum dubium esse potest, an confirmatio
+          <lb ed="#P" n="53"/>privilegiorum ex certa scientia uni religioni,
+          <lb ed="#P" n="54"/>vel loco data, communicetur alis locis, vel
+          <lb ed="#P" n="55"/>religionibus quae cum priori in privilegiis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>communicant, et consequenter an, 
+          confirma<lb break="no" ed="#P" n="57"/>tis privilegiis Societatis, verbi gratia, 
+          confir<lb break="no" ed="#P" n="58"/>mentur privilegia omnium aliarum 
+          religio<lb break="no" ed="#P" n="59"/>num quae habent communicationem 
+          privile<lb break="no" ed="#P" n="60"/>giorum Societatis. Et ratio dubitandi est, quia
+          <lb ed="#P" n="61"/>supra dictum est, aucto privilegio ad cujus
+          <lb ed="#P" n="62"/>instar aliud concessum est, non augeri 
+          privi<lb break="no" ed="#P" n="63"/>legium ad instar, ergo similiter, confirmato
+          <lb ed="#P" n="64"/>uno, non confirmatur aliud : nam est eadem
+          <lb ed="#P" n="65"/>ratio. Ergo| facta confirmatione in privilegiis
+          <lb ed="#P" n="66"/>in primo fonte concessionis (ut sic dicam) non
+          <lb ed="#P" n="67"/>sequitur fleri in aliis qui cum illo 
+          communi<lb break="no" ed="#P" n="68"/>cant: nam in hoc etiam videtur esse eadem
+          <lb ed="#P" n="69"/>ratio. In contrarium vero est, quia haec 
+          con<lb break="no" ed="#P" n="70"/>firmatio est quaedam gratia; ergo facta uni,
+          <lb ed="#P" n="71"/>communicatur aliis quibus gratiae illius 
+          com<lb break="no" ed="#P" n="72"/>municantur. Respondeo duplicem esse posse
+          <lb ed="#P" n="73"/>sensum dubitationis. Unus est, an confirmatis
+          <lb ed="#P" n="74"/>privilegiis respectu religionis cui primo 
+          fue<lb break="no" ed="#P" n="75"/>runt concessa, eo ipso illa eadem censeantur
+          <lb ed="#P" n="76"/>confirmata pro omnibus religionibus quibus
+          <lb ed="#P" n="77"/>ante confirmationem et post concessionem 
+          fue<lb break="no" ed="#P" n="78"/>runt communicata. Alius sensus est, an 
+          con<lb break="no" ed="#P" n="79"/>firmatio concessa uni religioni quoad sua 
+          pri<lb break="no" ed="#P" n="80"/>vilegia, eo ipso censeatur facta alteri quoad
+          <lb ed="#P" n="81"/>sua, etiamsi distincta sint, ratione 
+          communi<lb break="no" ed="#P" n="82"/>cationis generalis in privilegiis, quam alias
+          <lb ed="#P" n="83"/>habent tales rehgiones.
+        </p>
+        <p xml:id="szdleg-q75365-d1e819">
+          <lb ed="#P" n="84"/>9. De primo sensu. —Circa priorem sensum
+          <lb ed="#P" n="85"/>oportet considerare an communicatio 
+          privile<lb break="no" ed="#P" n="86"/>giorum fuerit de concessis tantum, an vero de
+          <lb ed="#P" n="87"/>concessis et concedendis. Nam si fuit prioris
+          <lb ed="#P" n="88"/>modi, negative respondendum est; hoc enim
+          <lb ed="#P" n="89"/>probat ratio dubitandi posita : nam formalter
+          <lb ed="#P" n="90"/>ac per se loquendo, confirmato privilegio
+          <lb ed="#P" n="91"/>exemplari non confirmatur privilegium ad
+          <lb ed="#P" n="92"/>instar , quia non fuit exemplar ut 
+          confirma<lb break="no" ed="#P" n="93"/>tum, sed tantum ut concessum; nec 
+          privile<lb break="no" ed="#P" n="94"/>gium ad instar per se respicit futurum statum,
+          <lb ed="#P" n="95"/>sed illum quem habet exemplar, quando aliud
+          <lb ed="#P" n="96"/>ad instar illius conceditur : unde etiam e 
+          con<lb break="no" ed="#P" n="97"/>trario, licet privilegium ad instar 
+          confirme<lb break="no" ed="#P" n="98"/>tur, non redundabit confirmatio in exemplar.
+          <lb ed="#P" n="99"/>Et hoc censeo verum, sive confirmatio sit ex
+          <lb ed="#P" n="100"/>certa scientia , sive in forma communi, quia
+          <lb ed="#P" n="101"/>ratio aeque in utroque procedit. Et eadem 
+          ra<lb break="no" ed="#P" n="102"/>tione, si communicatio facta est tantum de
+          <lb ed="#P" n="103"/>privilegio concesso, non extenditur ad 
+          confir<lb break="no" ed="#P" n="104"/>mationem postea factam, quia haec nondum
+          <lb ed="#P" n="105"/>erat quando communicatio facta est, et illa
+          <lb ed="#P" n="106"/>non est facta de futuris, ut supponitur.
+        </p>
+        <p xml:id="szdleg-q75365-d1e871">
+          <lb ed="#P" n="107"/>10. De communicatione concessorum et 
+          con<lb break="no" ed="#P" n="108"/>cedendorum ea certa scientia.—nBt vero si 
+          com<lb break="no" ed="#P" n="109"/>municatio fuit de concessis et concedendis, et
+          <lb ed="#P" n="110"/>fuit ex certa scientia, plane derivatur ac re-
+          <pb ed="#P" n="303"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dundat in omnes quibus talis communicatio
+          <lb ed="#P" n="2"/>facta est. Quia illa confirmatio aequivalet 
+          con<lb break="no" ed="#P" n="3"/>cessioni privilegii, ut dictum est, unde censeri
+          <lb ed="#P" n="4"/>potest privilegium quoddam, et nova gratia;
+          <lb ed="#P" n="5"/>sed per illam communicationem etiam futura
+          <lb ed="#P" n="6"/>et concedenda communicantur, ut supponitur;
+          <lb ed="#P" n="7"/>ergo etiam haec confirmatio communicatur
+          <lb ed="#P" n="8"/>quoad usum et fructum illorum 
+          privilegio<lb break="no" ed="#P" n="9"/>rum quae confirmantur. Atque ita ex praedicto
+          <lb ed="#P" n="10"/>fundamento resolvit Mandos., d. tract. de
+          <lb ed="#P" n="11"/>Priv. ad inst., quaest. 7. Qui tamen non 
+          vide<lb break="no" ed="#P" n="12"/>tur hoc admittere in confirmatione in forma
+          <lb ed="#P" n="13"/>communi : nam de illa simpliciter negat 
+          com<lb break="no" ed="#P" n="14"/>municari, sive communicatio fuerit de 
+          con<lb break="no" ed="#P" n="15"/>cessis, sive etiam de concedendis. Movetur 
+          so<lb break="no" ed="#P" n="16"/>lum illa ratione, quod, revocato privilegio
+          <lb ed="#P" n="17"/>exemplari , non revocatur privilegium ad 
+          ins<lb break="no" ed="#P" n="18"/>tar ; ergo nec illo confirmato confirmatur:
+          <lb ed="#P" n="19"/>sed haec ratio procedit tantum in priori sensu,
+          <lb ed="#P" n="20"/>seilicet, per se et nulla alia interveniente
+          <lb ed="#P" n="21"/>communicatione. Ideo apparentius fundari
+          <lb ed="#P" n="22"/>potest, quia illa communicatio in forma 
+          com<lb break="no" ed="#P" n="23"/>muni non habet vim concessionis, et ideo non
+          <lb ed="#P" n="24"/>reputatur privilegium, ac subinde non 
+          com<lb break="no" ed="#P" n="25"/>municatur per communicationem 
+          privilegio<lb break="no" ed="#P" n="26"/>rum, etiam concedendorum. Sed neque haec
+          <lb ed="#P" n="27"/>ratio convincit, et ideo probabilius puto talem
+          <lb ed="#P" n="28"/>communicationem extendi etiam ad 
+          confirma<lb break="no" ed="#P" n="29"/>tionem in forma communi, maxime quando
+          <lb ed="#P" n="30"/>communicatio non solum est in privilegiis, sed
+          <lb ed="#P" n="31"/>etiam in omnibus favoribus, gratiis et 
+          indul<lb break="no" ed="#P" n="32"/>gentiis (ut communiter fieri solet in indultis
+          <lb ed="#P" n="33"/>mendicantium, et in nostris bullis, et aliis
+          <lb ed="#P" n="34"/>quae late refert Roder., quaest. 55). Quia 
+          con<lb break="no" ed="#P" n="35"/>firmatio etiam data in forma communi est 
+          fa<lb break="no" ed="#P" n="36"/>vor, et indultum quoddam, et beneficium, et
+          <lb ed="#P" n="37"/>consequenter est gratia ; ergo ad illam 
+          exten<lb break="no" ed="#P" n="38"/>ditur communicatio de concedendis favoribus.
+          <lb ed="#P" n="39"/>Imo, licet fuerit facta solum nomine 
+          privile<lb break="no" ed="#P" n="40"/>giorum concessorum et concedendorum, 
+          vide<lb break="no" ed="#P" n="41"/>tur mihi communicari, vel quia omnis gratia
+          <lb ed="#P" n="42"/>et beneficium principis potest dici privilegium
+          <lb ed="#P" n="43"/>saltem lato modo, ut in principio dixi, et 
+          tra<lb break="no" ed="#P" n="44"/>dit Bald. in Prolog. feud., n. 18, cum Joann.
+          <lb ed="#P" n="45"/>Andr., in cap. Olim, de Verb. signif.; et plures
+          <lb ed="#P" n="46"/>alii quos refert Mandos. supra; privilegium
+          <lb ed="#P" n="47"/>autem principis late est interpretandum. Vel
+          <lb ed="#P" n="48"/>quia confirmatio non per se stat, ut sic dicam,
+          <lb ed="#P" n="49"/>sed adhaeret privilegio jam concesso, et reddit
+          <lb ed="#P" n="50"/>illud firmius et stabilius, quantum potest; sed,
+          <lb ed="#P" n="51"/>per communicationem privilegiorum , quae
+          <lb ed="#P" n="52"/>non tantum ad concessa, sed etiam ad 
+          conce<lb break="no" ed="#P" n="53"/>denda extenditur , communicatur illud 
+          privi<lb break="no" ed="#P" n="54"/>legium non tantum secundum statum quem
+          <lb ed="#P" n="55"/>habet tempore communicationis factae, sed
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>etiam quem habere potest per novam 
+          confir<lb break="no" ed="#P" n="57"/>mationem ; ergo iila etiam communicatur
+          <lb ed="#P" n="58"/>postea, etiamsi tantum sit in forma communi.
+        </p>
+        <p xml:id="szdleg-q75365-d1e1014">
+          <lb ed="#P" n="59"/>11. Superest dicendum de alio sensu dubii
+          <lb ed="#P" n="60"/>supra posito, quem attingit Mandos. supra,
+          <lb ed="#P" n="61"/>quaest. 8, et absolute affirmat, confirmatis 
+          pri<lb break="no" ed="#P" n="62"/>vilegiis unius religionis, confirmari etiam 
+          pro<lb break="no" ed="#P" n="63"/>pria privilegia alterius religionis habentis 
+          com<lb break="no" ed="#P" n="64"/>municationem privilegiorum cum priori. 
+          Ha<lb break="no" ed="#P" n="65"/>tio ejus est, quia alias non manerent illae duae
+          <lb ed="#P" n="66"/>religiones aequales in privilegiis, quod est
+          <lb ed="#P" n="67"/>contra mentem Pontificis concedentis illam
+          <lb ed="#P" n="68"/>communicationem. Confirmari hoc potest,
+          <lb ed="#P" n="69"/>primo, quia haec confirmatio, praesertim ex
+          <lb ed="#P" n="70"/>certa scientia, est quoddam privilegium ; ergo
+          <lb ed="#P" n="71"/>data uni religioni transit ad aliam per 
+          com<lb break="no" ed="#P" n="72"/>municationem ; ergo transit cum proportione,
+          <lb ed="#P" n="73"/>id est, ad confirmanda privilegia propria illius
+          <lb ed="#P" n="74"/>religionis cui fit communicatio , etiamsi 
+          di<lb break="no" ed="#P" n="75"/>versa sint. Probatur haec consequentia ex 
+          su<lb break="no" ed="#P" n="76"/>pra dictis ex quadam declaratione pontificia,
+          <lb ed="#P" n="77"/>quod privilegium datum uni rehgioni, et 
+          com<lb break="no" ed="#P" n="78"/>municatum alteri, debet cum proportione, et
+          <lb ed="#P" n="79"/>non secundum identitatem, applicari. Nam si
+          <lb ed="#P" n="80"/>privilegium concedit favorem pro tali 
+          festivi<lb break="no" ed="#P" n="81"/>tate vel sancto religionis prioris, ad aliam
+          <lb ed="#P" n="82"/>religionem debet applicari pro alio festo vel
+          <lb ed="#P" n="83"/>sancto suo, et sic de aliis; ergo etiam in 
+          pro<lb break="no" ed="#P" n="84"/>posito, si uni religioni confertur confirmatio
+          <lb ed="#P" n="85"/>privilegiorum suorum ex certa scientia, et haec
+          <lb ed="#P" n="86"/>communicatur alteri, intelligitur cum 
+          propor<lb break="no" ed="#P" n="87"/>tione applicari ad sua privilegia.
+        </p>
+        <p xml:id="szdleg-q75365-d1e1079">
+          <lb ed="#P" n="88"/>12. Praedicta sententia probabilis, opposita
+          <lb ed="#P" n="89"/>probabilior. — Haec sententia fortasse 
+          probabi<lb break="no" ed="#P" n="90"/>lis est, mihi tamen contraria videtur in 
+          ri<lb break="no" ed="#P" n="91"/>gore vera. Et imprimis si una religio 
+          com<lb break="no" ed="#P" n="92"/>municet cum alia in privilegiis concessis, non
+          <lb ed="#P" n="93"/>autem in concedendis, clarum est, 
+          confirma<lb break="no" ed="#P" n="94"/>tionem postea subsecutam non communicari,
+          <lb ed="#P" n="95"/>quia non habet rationem privilegii concessi,
+          <lb ed="#P" n="96"/>sed concedendi, et a fortiori constat ex dictis
+          <lb ed="#P" n="97"/>in superiori puncto. Neque hoc negaret 
+          prae<lb break="no" ed="#P" n="98"/>dictus auctor (ut existimo), quamvis in illa
+          <lb ed="#P" n="99"/>quaestione magis indistincte loquatur quam
+          <lb ed="#P" n="100"/>in proxime praecedente. Deinde, etiamsi 
+          com<lb break="no" ed="#P" n="101"/>municatio extendatur ad privilegia 
+          conceden<lb break="no" ed="#P" n="102"/>da, existimo non extendi illo modo, quia
+          <lb ed="#P" n="103"/>Papa non intendit confirmare nisi privilegia,
+          <lb ed="#P" n="104"/>verbi gratia, Minorum; ergo non confirmat
+          <lb ed="#P" n="105"/>privilegia propria Dominicanorum, alias 
+          plu<lb break="no" ed="#P" n="106"/>ra confirmaret quam intenderet. Maximeque
+          <lb ed="#P" n="107"/>urget haec ratio in confirmatione ex certa
+          <lb ed="#P" n="108"/>scientia, quia Papa non habet vel praesumitur
+          <lb ed="#P" n="109"/>habere scientiam aliorum privilegiorum, sed
+          <lb ed="#P" n="110"/>eorum tantum quae directe ac expresse ex tali
+          <pb ed="#P" n="304"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>scientia confirmat ; ergo illa confirmatio non
+          <lb ed="#P" n="2"/>potest per communicationem transire ad alia
+          <lb ed="#P" n="3"/>privilegia dissimilia. Neque est simile 
+          exem<lb break="no" ed="#P" n="4"/>plum ex quo argumentum in contrarium 
+          su<lb break="no" ed="#P" n="5"/>mebatur, quia in illo exemplo proportio 
+          con<lb break="no" ed="#P" n="6"/>sideratur ex parte materiae in usu 
+          privilegio<lb break="no" ed="#P" n="7"/>rum, et non est extensio communicationis,
+          <lb ed="#P" n="8"/>sed interpretatio circa modum quo debet 
+          ap<lb break="no" ed="#P" n="9"/>plicari ad materiam et usum ejusdem 
+          privi<lb break="no" ed="#P" n="10"/>legii, quae interpretatio sumpta est ex 
+          decla<lb break="no" ed="#P" n="11"/>ratione ipsius Pontificis , et ex materia ipsa
+          <lb ed="#P" n="12"/>et circumstantiis constare posset, quia idem
+          <lb ed="#P" n="13"/>privilegium applicatum ad diversos debet 
+          uni<lb break="no" ed="#P" n="14"/>cuique adaptari juxta modum suum, alioqui
+          <lb ed="#P" n="15"/>esset inutile, et improportionatum utrique
+          <lb ed="#P" n="16"/>vel alteri eorum; et ad hoc tantum 
+          confir<lb break="no" ed="#P" n="17"/>mandum faciunt omnia quae Mand. supra 
+          al<lb break="no" ed="#P" n="18"/>legat. At vero in nostro casu non fieret sola
+          <lb ed="#P" n="19"/>interpretatio, sed extensio confirmationis 
+          pon<lb break="no" ed="#P" n="20"/>tificiae ad plura privilegia, quam cadant sub
+          <lb ed="#P" n="21"/>intentionem aut mentionem ejus.
+        </p>
+        <p xml:id="szdleg-q75365-d1e1181">
+          <lb ed="#P" n="22"/>13. Neque dici potest, supposita 
+          communi<lb break="no" ed="#P" n="23"/>catione, Pontificem confirmantem habere
+          <lb ed="#P" n="24"/>hanc intentionem virtualem, vel certe 
+          exten<lb break="no" ed="#P" n="25"/>sionem sequi ex intentione et efficacia prioris
+          <lb ed="#P" n="26"/>Pontificis qui communicationem concessit.
+          <lb ed="#P" n="27"/>Hoc (inquam) dici non potest, quia sine tali
+          <lb ed="#P" n="28"/>extensione habet integrum effectum concessio
+          <lb ed="#P" n="29"/>utriusque Pontificis. Quod explico in hunc
+          <lb ed="#P" n="30"/>modum, quia quando Pontifex confirmat 
+          pri<lb break="no" ed="#P" n="31"/>vilegia, verbi gratia, Minorum, illa 
+          confirma<lb break="no" ed="#P" n="32"/>tio formaliter (ut sic dicam) communicatur
+          <lb ed="#P" n="33"/>Praedicatoribus, id est, ut versatur circa 
+          ipsa<lb break="no" ed="#P" n="34"/>met privilegia Minorum, quia illamet 
+          com<lb break="no" ed="#P" n="35"/>municantur Praedicatoribus, non solum ut 
+          an<lb break="no" ed="#P" n="36"/>tea erant, sed etiam ut sunt confirmata, ut
+          <lb ed="#P" n="37"/>per se constat ex dictis; quia illa privilegia
+          <lb ed="#P" n="38"/>per communicationem sunt facta tanquam
+          <lb ed="#P" n="39"/>propria illius religionis, et confirmatio 
+          illo<lb break="no" ed="#P" n="40"/>rum etiam est privilegium quod 
+          communica<lb break="no" ed="#P" n="41"/>tur illi; ergo non potest illa communicatio
+          <lb ed="#P" n="42"/>habere etiam alium effectum confirmandi 
+          pro<lb break="no" ed="#P" n="43"/>pria privilegia Praedicatorum; tum quia per
+          <lb ed="#P" n="44"/>priorem effectum satisfactum est menti 
+          utrius<lb break="no" ed="#P" n="45"/>que Pontificis, neque alter eorum alium 
+          ex<lb break="no" ed="#P" n="46"/>plicavit, aut voluit; tum etiam quia alias bis
+          <lb ed="#P" n="47"/>communicaretur illa confirmatio tali 
+          religio<lb break="no" ed="#P" n="48"/>ni, semel circa privilegia prius communicata,
+          <lb ed="#P" n="49"/>et iterum circa propria, quod est alienum a
+          <lb ed="#P" n="50"/>ratione, et sine ullo fundamento in 
+          volunta<lb break="no" ed="#P" n="51"/>te Pontificum. Secus vero est in alio exemplo
+          <lb ed="#P" n="52"/>adducto; nam quando communicatur 
+          privile<lb break="no" ed="#P" n="53"/>gium festivitatis alicujus sancti proprii, ita
+          <lb ed="#P" n="54"/>applicatur uni religioni ad sanctum ejusdem
+          <lb ed="#P" n="55"/>ordinis, ut non communicetur quoad sanctum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>alterius ordinis, et ita salvatur unica, et, ut
+          <lb ed="#P" n="57"/>sic dicam, formalis communicatio, licet in
+          <lb ed="#P" n="58"/>materia servetur tantum proportio.
+        </p>
+        <p xml:id="szdleg-q75365-d1e1266">
+          <lb ed="#P" n="59"/>14. Quando confirmantur omnia privilegia
+          <lb ed="#P" n="60"/>alicujus religionis sive propria, sive 
+          communi<lb break="no" ed="#P" n="61"/>cata, tunc consequenter confirmantur 
+          privile<lb break="no" ed="#P" n="62"/>gia alterius religionis ut per communicationem
+          <lb ed="#P" n="63"/>facta communia. — Neque etiam, propter 
+          ser<lb break="no" ed="#P" n="64"/>vandam aequalitatem inter illas religiones,
+          <lb ed="#P" n="65"/>necessarius est ille effectus, quia satis per hoc
+          <lb ed="#P" n="66"/>servatur, quod, sicut illa privilegia manent
+          <lb ed="#P" n="67"/>confirmata pro una religione, ita etiam pro
+          <lb ed="#P" n="68"/>alia; et e converso, sicut propria privilegia,
+          <lb ed="#P" n="69"/>verbi gratia, Praedicatorum non manent 
+          con<lb break="no" ed="#P" n="70"/>firmata ex vi confirmationis datae Minoribus,
+          <lb ed="#P" n="71"/>ita etiam non communicabuntur Minoribus
+          <lb ed="#P" n="72"/>illa privilegia Praedicatorum ut confirmata,
+          <lb ed="#P" n="73"/>sed prout antea erant et communicabantur.
+          <lb ed="#P" n="74"/>Hinc vero potest limitari haec nostra 
+          senten<lb break="no" ed="#P" n="75"/>tia, ut non procedat, quando per indultum
+          <lb ed="#P" n="76"/>confirmantur omnia privilegia religionis 
+          ali<lb break="no" ed="#P" n="77"/>cujus sive propria, sive communicata : nam
+          <lb ed="#P" n="78"/>tunc consequenter confirmantur privilegia
+          <lb ed="#P" n="79"/>alterius religionis, non tamen ut illius, sed ut
+          <lb ed="#P" n="80"/>per communicationem facta sunt alterius.
+          <lb ed="#P" n="81"/>Quia illa prior religio etiam habet 
+          communi<lb break="no" ed="#P" n="82"/>cationem cum altera quoad futuras gratias,
+          <lb ed="#P" n="83"/>ut supponimus ; ergo per communicationem
+          <lb ed="#P" n="84"/>habebit sua privilegia confirmata ex 
+          redun<lb break="no" ed="#P" n="85"/>dantia (ut sic dicam) generalis confirmationis
+          <lb ed="#P" n="86"/>concessae alteri religioni, ut consideranti 
+          fa<lb break="no" ed="#P" n="87"/>cile patebit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

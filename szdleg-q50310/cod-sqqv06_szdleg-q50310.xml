@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 18</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 18</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="200"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q50310"><!-- l7c18 -->
+        <head xml:id="szdleg-q50310-Hd1e101">Caput 18</head>
+        <head xml:id="szdleg-q50310-Hd1e103" type="question-title">Utrum consuetudo possit legem humanam abrogare.</head>
+        <p xml:id="szdleg-q50310-d1e106">
+          <lb ed="#P" n="32"/>CAPUT XVIII.
+          <lb ed="#P" n="33"/>UTRUM CONSUETUDO POSSIT LEGEM HUMANAM
+          <lb ed="#P" n="34"/>ABROGARE.
+        </p>
+        <p xml:id="szdleg-q50310-d1e115">
+          <lb ed="#P" n="35"/>1. De abrogatione legis per consuetudinem.
+          <lb ed="#P" n="36"/>- Ratio dubitandi quoad jus civile sumitur
+          <lb ed="#P" n="37"/>ex l. 3, 8 Divus, ff. de Sepul. violat., ubi 
+          di<lb break="no" ed="#P" n="38"/>citur statutum municipale factum post legem
+          <lb ed="#P" n="39"/>civilem, et contrarium illi, non derogare illi;
+          <lb ed="#P" n="40"/>ergo idem dicendum est de consuetudine, quia
+          <lb ed="#P" n="41"/>ad paria judicantur. Secundo, argumentor ex
+          <lb ed="#P" n="42"/>l. 2, cod. Quae sit longa expresse 
+          di<lb break="no" ed="#P" n="43"/>cente, quamvis magna sit consuetudinis 
+          auc<lb break="no" ed="#P" n="44"/>toritas, non tamen esse tantam ut aut 
+          ratic<lb break="no" ed="#P" n="45"/>nem vincat, aut legem. Ubi necesse est 
+          juris<lb break="no" ed="#P" n="46"/>consultum loqui de lege humana : nam lex
+          <lb ed="#P" n="47"/>naturalis ad prius membrum pertinet, in quo
+          <lb ed="#P" n="48"/>dicitur consuetudo non vincere rationem, et
+          <lb ed="#P" n="49"/>habetur etiam in cap. Consuetudinis, dist. 11,
+          <lb ed="#P" n="50"/>ubi multa alia decreta sunt similia, et 
+          concor<lb break="no" ed="#P" n="51"/>dat cap. Cum causa, de Re judic., ubi etiam
+          <lb ed="#P" n="52"/>dicitur : Zicet usus vel consuetudinis non 
+          mini<lb break="no" ed="#P" n="53"/>ma sit auctoritas, nunquan tamen veritati, aut
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>legi praejudicat. Tertia et praecipua ratio 
+          du<lb break="no" ed="#P" n="55"/>bitandi esse potest, quia consuetudo non potest
+          <lb ed="#P" n="56"/>aliquid valere, nisi sit rationabilis, ut habetur
+          <lb ed="#P" n="57"/>in c. ult. de Consuet., et supra ostensum est;
+          <lb ed="#P" n="58"/>sed consuetudo contra legem non potest esse
+          <lb ed="#P" n="59"/>rationabilis, tum quia eo ipso quod est contra
+          <lb ed="#P" n="60"/>legem, est contra rationem; tum quia actus
+          <lb ed="#P" n="61"/>ejus sunt pravi, qui non possunt peccantibus
+          <lb ed="#P" n="62"/>prodesse, nec eos a jugo legis liberare. Propter
+          <lb ed="#P" n="63"/>haec Hostiens., in cap. 1 de Treug. et pace.,
+          <lb ed="#P" n="64"/>sensit propriam legem praeceptivam non posse
+          <lb ed="#P" n="65"/>dissuetudine abrogari. Sed est opinio 
+          singuia<lb break="no" ed="#P" n="66"/>ris, in qua etiam ipse non fuit constans.
+        </p>
+        <p xml:id="szdleg-q50310-d1e189">
+          <lb ed="#P" n="67"/>2. Lex humana, sive canonica, sive civilis,
+          <lb ed="#P" n="68"/>potest per consuetudinem abrogari. — lgitur,
+          <lb ed="#P" n="69"/>his non obstantibus, regula certa est legem
+          <lb ed="#P" n="70"/>humanam sive canonicam, sive civilem, posse
+          <lb ed="#P" n="71"/>consuetudine abrogari. In hoc omnes doctores
+          <lb ed="#P" n="72"/>conveniunt; theologi, cum D. Thoma, 1. 2,
+          <lb ed="#P" n="73"/>quaest. 97, art. 3; canonistae, in cap. ult. de
+          <lb ed="#P" n="74"/>Consuetud., ubi etiam Hostiensis in summa;
+          <lb ed="#P" n="75"/>legistae, in lege De quibus, ff. de Legibus, et
+          <lb ed="#P" n="76"/>in l. 1 et 2, cod. Quae sit longa consuetudo;
+          <lb ed="#P" n="77"/>summistae, verb. Consuetudo. Ex quantum ad
+          <lb ed="#P" n="78"/>jus canonicum, habetur expresse in dicto 
+          ca<lb break="no" ed="#P" n="79"/>pite ultimo de Consuetudinibus ; praeter alia
+          <lb ed="#P" n="80"/>quae generatim docent, antiquam 
+          consuetudi<lb break="no" ed="#P" n="81"/>nem esse servandam, quae vapite praecedenti
+          <lb ed="#P" n="82"/>citavi. Item in jure civili est expressa l. De
+          <lb ed="#P" n="83"/>quibus, ff. de Legibus, in fine dicens: 
+          Hectis<lb break="no" ed="#P" n="84"/>sime receptum est ut leges non solum suffragio
+          <lb ed="#P" n="85"/>legislatoris, sed etiam tacito consensu omnwm
+          <lb ed="#P" n="86"/>per dissuetudinem atrogentur. pm habetur
+          <lb ed="#P" n="87"/>in nostro regno, in l. 3 et 5, tit. 2, partit. 1.
+        </p>
+        <p xml:id="szdleg-q50310-d1e238">
+          <lb ed="#P" n="88"/>Ratione autem probanda est haec assertio, eo
+          <lb ed="#P" n="89"/>modo quo similem in capite praecedenti 
+          pro<lb break="no" ed="#P" n="90"/>bavimus, quia ad hunc effectum non deest 
+          po<lb break="no" ed="#P" n="91"/>testas in populo, si convenienter explicetur, et
+          <lb ed="#P" n="92"/>voluntas per ipsam consuetudinem suffticienter
+          <lb ed="#P" n="93"/>ostenditur : ergo nihil deest quominus per 
+          con<lb break="no" ed="#P" n="94"/>suetudinem talis effectus fiat.
+        </p>
+        <p xml:id="szdleg-q50310-d1e256">
+          <lb ed="#P" n="95"/>3. Duplex modus respondendi. — Et 
+          impri<lb break="no" ed="#P" n="96"/>mis, quod ad potestatem attinet, res est clara
+          <lb ed="#P" n="97"/>quoad leges civiles in populis liberis non 
+          reco<lb break="no" ed="#P" n="98"/>gnoscentibus superiorem, ut constat ex dictis 
+          <lb ed="#P" n="99"/>in capite 16; nam eadem hie est ratio. 
+          Diffi<lb break="no" ed="#P" n="100"/>cultas vero est quoad leges civiles supremorum
+          <lb ed="#P" n="101"/>principum, et quoad leges canonicas. Quae
+          <lb ed="#P" n="102"/>duobus modis expediri potest. Primo, dicendo,.
+          <lb ed="#P" n="103"/>has leges non ferri absolute, sed s ub 
+          condi<lb break="no" ed="#P" n="104"/>tione tacita, si populus eas retinere velit, sive
+          <lb ed="#P" n="105"/>talis conditio apposita intelligatur, quia non
+          <lb ed="#P" n="106"/>potest princeps magis cogere populos suos suis
+          <lb ed="#P" n="107"/>legibus, ut aliqui existimant, saltem de 
+          legis<lb break="no" ed="#P" n="108"/>latoribus civilibus ; sive ex benignitate, quia
+          <pb ed="#P" n="201"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non vult illos obligare, nisi sub illa limitatione,
+          <lb ed="#P" n="2"/>ut multi etiam de canonicis legibus sentiunt. Et
+          <lb ed="#P" n="3"/>juxta hunc modum consequenter dicendum
+          <lb ed="#P" n="4"/>erit non esse necessarium novum consensum
+          <lb ed="#P" n="5"/>tacitum principis ad hanc abrogationem, sed
+          <lb ed="#P" n="6"/>in ipso modo ferendi legem includi. Sed hunc
+          <lb ed="#P" n="7"/>dicendi modum rejecimus supra, 1. 3, c. 18, et
+          <lb ed="#P" n="8"/>l. 4, cap. 16, quia revera nec potestas 
+          obli<lb break="no" ed="#P" n="9"/>gandi absolute deest, etiam in temporalibus
+          <lb ed="#P" n="10"/>regibus, nec voluntas, etiam in Praelatis 
+          eccle<lb break="no" ed="#P" n="11"/>siasticis. Quod ex ratione et usu ibi ostendimus
+          <lb ed="#P" n="12"/>quoad legis acceptationem ; est autem multo
+          <lb ed="#P" n="13"/>certius in ordine ad abrogandam legem jam
+          <lb ed="#P" n="14"/>acceptatam et usu confirmatam, alioqui 
+          sem<lb break="no" ed="#P" n="15"/>per esset in populi arbitrio a se legem 
+          superio<lb break="no" ed="#P" n="16"/>rem abjicere sine culpa, quia haec potestas illi
+          <lb ed="#P" n="17"/>datur per conditionem illam, si in lege est 
+          in<lb break="no" ed="#P" n="18"/>clusa. Unde etiam posset populus subditus,
+          <lb ed="#P" n="19"/>ex presse et definito consilio, legem sui 
+          princi<lb break="no" ed="#P" n="20"/>pis aut Praelati revocare, quae sunt absurda.
+          <lb ed="#P" n="21"/>Sit ergo certum hanc potestatem esse 
+          expli<lb break="no" ed="#P" n="22"/>tandam per conjunctionem plebis cum suo
+          <lb ed="#P" n="23"/>principe et legislatore. Quia in plebe est 
+          potes<lb break="no" ed="#P" n="24"/>tas facti potius quam juris ad abjiciendam
+          <lb ed="#P" n="25"/>illam legem, quantum in se est, et ex parte
+          <lb ed="#P" n="26"/>principis est etiam potestas ad connivendum
+          <lb ed="#P" n="27"/>et consentiendum voluntati populi, et ita 
+          com<lb break="no" ed="#P" n="28"/>pletur potestas ad auferendam legem, quia in
+          <lb ed="#P" n="29"/>effectu qui eam tulit, idemmet illam aufert,
+          <lb ed="#P" n="30"/>quod facere potest, ut praecedenti libro 
+          osten<lb break="no" ed="#P" n="31"/>sum est.
+        </p>
+        <p xml:id="szdleg-q50310-d1e360">
+          <lb ed="#P" n="32"/>4. Quae potestas in populo requiratur ut 
+          con<lb break="no" ed="#P" n="33"/>sueludo introducatur. — Atque hinc constat in
+          <lb ed="#P" n="34"/>hoc effectu maxime habere locum quod supra
+          <lb ed="#P" n="35"/>diximus, non esse necessarium ut in ipso 
+          po<lb break="no" ed="#P" n="36"/>pulo per se spectato sit potestas activa 
+          ponen<lb break="no" ed="#P" n="37"/>di, vel tollendi legem, sed sufficere capacitatem
+          <lb ed="#P" n="38"/>legis, et quod consuetudo introducatur ab illis
+          <lb ed="#P" n="39"/>ad quos lex loquitur. Quia hic actus 
+          repu<lb break="no" ed="#P" n="40"/>gnandi legi per consuetudinem non est actus
+          <lb ed="#P" n="41"/>jurisdictionis, vel publicae potestatis, sed est
+          <lb ed="#P" n="42"/>potius eorum qui parere deberent legi, quia
+          <lb ed="#P" n="43"/>sunt actus quasi contrarii, et ideo versantur
+          <lb ed="#P" n="44"/>circa idem, et ita in populo laico est potestas
+          <lb ed="#P" n="45"/>introducendi consuetudinem abrogantem 
+          le<lb break="no" ed="#P" n="46"/>gem ecclesiasticam ; imo etiam in feminis esse
+          <lb ed="#P" n="47"/>potest, si ad illas solas dirigatur lex, ut de
+          <lb ed="#P" n="48"/>praecepto lato de clausura monialium, ut in
+          <lb ed="#P" n="49"/>capite unico de Stat. regul., in 6, auctores
+          <lb ed="#P" n="50"/>docent. Et ratio est, quia consuetudo haec, ut
+          <lb ed="#P" n="51"/>est ex parte subditorum, non tollit legem
+          <lb ed="#P" n="52"/>quasi active, sed suo modo exigit et obtinet a
+          <lb ed="#P" n="53"/>superiore ut illam auferat : superior autem 
+          po<lb break="no" ed="#P" n="54"/>testatem habet, ut dixi. Voluntas ergo tantum
+          <lb ed="#P" n="55"/>superest explicanda.
+        </p>
+        <p xml:id="szdleg-q50310-d1e415">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>5. Duplex voluntas requisita ad 
+          consueludi<lb break="no" ed="#P" n="57"/>nem inducendam. — Duplex autem voluntas
+          <lb ed="#P" n="58"/>desideratur, una populi, altera principis. Prior
+          <lb ed="#P" n="59"/>satis constat; nam consuetudo est signum 
+          vo<lb break="no" ed="#P" n="60"/>luntarii consensus. Supponitur autem, ex 
+          su<lb break="no" ed="#P" n="61"/>pra dictis, hanc consuetudinem debere esse
+          <lb ed="#P" n="62"/>publicam, et a majori parte popult 
+          introduc<lb break="no" ed="#P" n="63"/>tam vel acceptatam : ergo est sufficiens signum
+          <lb ed="#P" n="64"/>voluntarii consensus, juxta dicta superins. Imo
+          <lb ed="#P" n="65"/>hic major ratio invenitur, quia voluntas quae
+          <lb ed="#P" n="66"/>indicatur non est voluntas se obligandi, vel
+          <lb ed="#P" n="67"/>assumendi onus, sed tollendi. Unde in 
+          prae<lb break="no" ed="#P" n="68"/>senti non est necessaria intentio inducendi
+          <lb ed="#P" n="69"/>novam consuetudinem juris, sed solum non
+          <lb ed="#P" n="70"/>habendi talem legem, et retinendi vel 
+          recu<lb break="no" ed="#P" n="71"/>perandi statum antiquum, habendi libertatem
+          <lb ed="#P" n="72"/>ab obligationc legis in tali materia, quae 
+          in<lb break="no" ed="#P" n="73"/>tentio ex ipsa actuum frequentia et ex 
+          consen<lb break="no" ed="#P" n="74"/>sione, ac pertinacia populi in talibus actibus,
+          <lb ed="#P" n="75"/>satis cognoscitur.
+        </p>
+        <p xml:id="szdleg-q50310-d1e463">
+          <lb ed="#P" n="76"/>6. Dubium. — Responsio. — Solum video
+          <lb ed="#P" n="77"/>posse dubitari de legibus ecclesiasticis latis
+          <lb ed="#P" n="78"/>pro tota Ecclesia : erit enim necessarium ut
+          <lb ed="#P" n="79"/>consuetudo sufficiens ad derogandum tali legi
+          <lb ed="#P" n="80"/>sit introducta, et acceptata a majori parte 
+          Ec<lb break="no" ed="#P" n="81"/>clesiae; hcc autem expectare difficillimum est,
+          <lb ed="#P" n="82"/>et vix potest Ecclesiae constare de tali consensu.
+          <lb ed="#P" n="83"/>Respondetur : si lex universalis pro tota 
+          Eccle<lb break="no" ed="#P" n="84"/>sia abroganda sit, ad minus requiri 
+          consuetu<lb break="no" ed="#P" n="85"/>dinem dicto modo universalem, quia alias non
+          <lb ed="#P" n="86"/>interveniret in eo consensus Ecclesiae absolute
+          <lb ed="#P" n="87"/>loquendo. Et ideo hic modus abrogationis 
+          ra<lb break="no" ed="#P" n="88"/>rus est, non est tamen impossibilis, quia per
+          <lb ed="#P" n="89"/>sufficientem famam, et publicam 
+          communica<lb break="no" ed="#P" n="90"/>tionem per litteras et nuntios, potest haec 
+          no<lb break="no" ed="#P" n="91"/>titia intra quadraginta annos divulgari. Addo
+          <lb ed="#P" n="92"/>tamen, juxta morem Ecclesiae et canonica 
+          in<lb break="no" ed="#P" n="93"/>stituta, non expectari ut haec abrogatio simul
+          <lb ed="#P" n="94"/>pro tota Ecclesia universali, et universaliter
+          <lb ed="#P" n="95"/>fiat, sed fieri per partes in provinciis, 
+          episco<lb break="no" ed="#P" n="96"/>patibus, et aliis communitatibus quae per leges
+          <lb ed="#P" n="97"/>proprias gubernari possunt. Nam si in aliqua
+          <lb ed="#P" n="98"/>ex his communitatibus pravaleat in majori
+          <lb ed="#P" n="99"/>parte consuetudo contra legem communem,
+          <lb ed="#P" n="100"/>pro illa communitate derogatur, etiamsi pro
+          <lb ed="#P" n="101"/>aliis iutegra maneat, et ita cessat omnis 
+          diffi<lb break="no" ed="#P" n="102"/>cultas. Et cum proportione potest haec doctrina
+          <lb ed="#P" n="103"/>ad alias leges communes sive canonicas, sive
+          <lb ed="#P" n="104"/>civiles applicari. Et illam tradit expresse 
+          Glos<lb break="no" ed="#P" n="105"/>sa in S Sine scripto, Instit. de Jur. nat., 
+          ver<lb break="no" ed="#P" n="106"/>bo Imitantur.
+        </p>
+        <p xml:id="szdleg-q50310-d1e533">
+          <lb ed="#P" n="107"/>7. Ad hunc effectum sufficit consuetudo 
+          pri<lb break="no" ed="#P" n="108"/>valiva. — Atque hinc etiam fit ut ad hunc 
+          ef<lb break="no" ed="#P" n="109"/>fectum non sit semper necessaria consuetudo
+          <lb ed="#P" n="110"/>propria facti, scilicet, positiva, quae ex fre-
+          <pb ed="#P" n="202"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quentia actuum consurgit, sed sufficiat 
+          priva<lb break="no" ed="#P" n="2"/>tiva, que dissuetudo dicitur, et in frequentia
+          <lb ed="#P" n="3"/>omissionis consistit, et per se sufficit contra
+          <lb ed="#P" n="4"/>praecepta affirmativa ,quia ipsa omissio repetita
+          <lb ed="#P" n="5"/>satis indicat voluntatem non habendi tale
+          <lb ed="#P" n="6"/>praeceptum. Necessarium vero est ut omissio
+          <lb ed="#P" n="7"/>sit propria, id est, obligationi legis opposita,
+          <lb ed="#P" n="8"/>ac proinde pro eo tempore pro quo praeceptum
+          <lb ed="#P" n="9"/>obligabat ; quia negatio actus pro tempore non
+          <lb ed="#P" n="10"/>debito, nullum indicium est voluntatis non
+          <lb ed="#P" n="11"/>parendi legi, aut non habendi illam, ut per se
+          <lb ed="#P" n="12"/>notum est, et tradit Pan. in cap. Joannes, de
+          <lb ed="#P" n="13"/>Cler. conjug. ; Sylv. supra, q. 8; et copiosius
+          <lb ed="#P" n="14"/>Roch. in dicto c. ult., sect, 4, n. 76 et sequent.;
+          <lb ed="#P" n="15"/>Nav., cons. 2 de Consuet., et dicemus latius
+          <lb ed="#P" n="16"/>tractando de amissione privilegii per non
+          <lb ed="#P" n="17"/>usum, in. 8.
+        </p>
+        <p xml:id="szdleg-q50310-d1e586">
+          <lb ed="#P" n="18"/>8. Ut desuetudo sit, requiritur ut 
+          peccamai<lb break="no" ed="#P" n="19"/>nosa, sit in principio. — Ex quo ulterius 
+          con<lb break="no" ed="#P" n="20"/>cluditur necessarium esse ut tales omissiones
+          <lb ed="#P" n="21"/>sint peccaminosae, saltem in principio, quia si
+          <lb ed="#P" n="22"/>provenirent ex aliqua rationabili excusatione,
+          <lb ed="#P" n="23"/>non possent ostendere voluntatem legi 
+          contra<lb break="no" ed="#P" n="24"/>riam, ut si occurreret necessitas excusans.
+          <lb ed="#P" n="25"/>Tunc enim non esset desuetudo, sed purus
+          <lb ed="#P" n="26"/>non usus, qui non sufhcit, ex omnium 
+          senten<lb break="no" ed="#P" n="27"/>tia. Idemque esset si interveniret ignorantia
+          <lb ed="#P" n="28"/>legis, vel metus gravis, ob eamdem rationem;
+          <lb ed="#P" n="29"/>imo licet metus non esset sufficiens ad 
+          excu<lb break="no" ed="#P" n="30"/>sandum a culpa, nihilominus esse potest 
+          suffi<lb break="no" ed="#P" n="31"/>ciens ad impediendam propriam 
+          consuetudi<lb break="no" ed="#P" n="32"/>nem, seu desuetudinem. Quia non tam est ex
+          <lb ed="#P" n="33"/>voluntate quam ex necessitate, et ideo non
+          <lb ed="#P" n="34"/>satis indicat animum contra legem, nec 
+          vo<lb break="no" ed="#P" n="35"/>luntatem absolutam abjiciendi illam, sed 
+          so<lb break="no" ed="#P" n="36"/>lum quamdiu imminet talis metus, ideoque
+          <lb ed="#P" n="37"/>videtur satis probabile tunc non simpliciter
+          <lb ed="#P" n="38"/>abrogari legem, sed ad summum derogari
+          <lb ed="#P" n="39"/>illi, ne cum tanto gravamine et imminente
+          <lb ed="#P" n="40"/>simili periculo obliget. Quod est valde 
+          no<lb break="no" ed="#P" n="41"/>tandum; nam saepe potest induci consuetudo
+          <lb ed="#P" n="42"/>non servandi legem in tali occasione, vel 
+          ne<lb break="no" ed="#P" n="43"/>cessitate , quae per se non erat sufticiens ad
+          <lb ed="#P" n="44"/>excusandum ab obligatione legis ; et propter
+          <lb ed="#P" n="45"/>consuetudinem, si alias conditiones requisitas
+          <lb ed="#P" n="46"/>habeat, non obligabit lex in similibus 
+          occasio<lb break="no" ed="#P" n="47"/>nibus, et nihilominus non erit lex simpliciter
+          <lb ed="#P" n="48"/>derogata. Exempla possunt esse facilia in 
+          fes<lb break="no" ed="#P" n="49"/>torum observatione, jejuniis, et similibus.
+        </p>
+        <p xml:id="szdleg-q50310-d1e658">
+          <lb ed="#P" n="50"/>9. Voluntas principis requisita duplea. —
+          <lb ed="#P" n="51"/>Duo addenda.—Primam.—V enio ad principis
+          <lb ed="#P" n="52"/>voluntatem, ad quam omnino applicanda est
+          <lb ed="#P" n="53"/>doctrina capitis praecedentis. Nam hic etiam
+          <lb ed="#P" n="54"/>consensus principis intelligi potest, aut a lege
+          <lb ed="#P" n="55"/>ipsa datus, aut personalis, et quasi de novo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>datus, licet tacite, et uterque modus verus est.
+          <lb ed="#P" n="57"/>De primo est sermo in dicto cap. ult. de 
+          Con<lb break="no" ed="#P" n="58"/>suet. Et duae conditiones consuetudinis ad 
+          il<lb break="no" ed="#P" n="59"/>lum postulantur, scilicet, ut sit rationabilis, et
+          <lb ed="#P" n="60"/>praescripta, quae ponuntur etiam in dicta 1.
+          <lb ed="#P" n="61"/>part., et cum aliae non postulentur, illae 
+          suffi<lb break="no" ed="#P" n="62"/>ciunt, alioqui jus illud imperfectum esset et
+          <lb ed="#P" n="63"/>insuflficiens. Necessarium autem est illas 
+          ex<lb break="no" ed="#P" n="64"/>ponere, et inde etiam ratio illarum constabit.
+          <lb ed="#P" n="65"/>De priori multa dicta sunt in cap. 6 et 7, ubi
+          <lb ed="#P" n="66"/>explicuimus quae consuetudo irrationabilis 
+          di<lb break="no" ed="#P" n="67"/>catur. Hic vero specialiter addenda sunt duo;
+          <lb ed="#P" n="68"/>unum est, ad hunc effectum multo minorem
+          <lb ed="#P" n="69"/>rationem requiri in consuetudine, quam ad
+          <lb ed="#P" n="70"/>effectum inducendi legem; quia minus est 
+          tol<lb break="no" ed="#P" n="71"/>lere legem quam inducere. Nam ut tollatur
+          <lb ed="#P" n="72"/>lex non est necessaria specialis utilitas, vel
+          <lb ed="#P" n="73"/>honestas in ipsa materia, sed satis est quod
+          <lb ed="#P" n="74"/>ablatio talis obligationis non sit contra 
+          utili<lb break="no" ed="#P" n="75"/>tatem publicam, quia licet aliquam tollat,
+          <lb ed="#P" n="76"/>aliunde compensatur, vel tollendo occasionem
+          <lb ed="#P" n="77"/>majoris mali, vel conciliando animos 
+          subdito<lb break="no" ed="#P" n="78"/>rum, ut suavius gubernentur.
+        </p>
+        <p xml:id="szdleg-q50310-d1e726">
+          <lb ed="#P" n="79"/>10. Secundum .— Unde addo secundo, 
+          nihi<lb break="no" ed="#P" n="80"/>lominus necessarium esse ut aliquo modo illa
+          <lb ed="#P" n="81"/>consuetudo, vel potius abrogaiio legis ratione
+          <lb ed="#P" n="82"/>illius, aliqua ratione fulciatur. Quia abrogatio
+          <lb ed="#P" n="83"/>justae legis expressa non potest fieri sine aliqua
+          <lb ed="#P" n="84"/>honesta causa, ut libro praecedenti ostensum
+          <lb ed="#P" n="85"/>est; ergo nec tacita, quae per consuetudinem
+          <lb ed="#P" n="86"/>fit; ergo, ut consuetudo sit rationabilis, non
+          <lb ed="#P" n="87"/>satis est quod non sit contra rationem 
+          natu<lb break="no" ed="#P" n="88"/>ralem, nec contra jus divinum, nec quod non
+          <lb ed="#P" n="89"/>sit jure reprobata, sed necessarium est, ut
+          <lb ed="#P" n="90"/>voluntas carendi tali lege aliqua ratione 
+          ho<lb break="no" ed="#P" n="91"/>nestari possit in subditis, quae honestet etiam
+          <lb ed="#P" n="92"/>in principe consensum abrogandi illam. Et
+          <lb ed="#P" n="93"/>haec est ratio, et necessitas hujus conditionis,
+          <lb ed="#P" n="94"/>quia nisi consuetudo sit aliquo modo 
+          rationa<lb break="no" ed="#P" n="95"/>bilis, non praesumitur princeps condescendere
+          <lb ed="#P" n="96"/>subditis, quia non praesumitur velle sine ulla
+          <lb ed="#P" n="97"/>justa causa, seu sufficienti ratione tollere 
+          le<lb break="no" ed="#P" n="98"/>gem, cum id licite faere non possit, nec 
+          de<lb break="no" ed="#P" n="99"/>beat. Neque de hac conditione plura videntur
+          <lb ed="#P" n="100"/>necessaria; respondendo autem ad secundam
+          <lb ed="#P" n="101"/>rationem dubitandi, aliquid addemus.
+        </p>
+        <p xml:id="szdleg-q50310-d1e778">
+          <lb ed="#P" n="102"/>11. Secunda conditio. — Distinctio inter 
+          le<lb break="no" ed="#P" n="103"/>ges canonicas et civiles notanda. — In legibus
+          <lb ed="#P" n="104"/>civilibus, decennium sufficit ad legem 
+          inducen<lb break="no" ed="#P" n="105"/>dam et abrogandam —Secunda etiam conditio,
+          <lb ed="#P" n="106"/>scilicet, ut consuetudo sit praescripta, in 
+          supe<lb break="no" ed="#P" n="107"/>rioribus explicata est ; hic solum, de tempore
+          <lb ed="#P" n="108"/>requisito ad hanc praescriptionem, supponimus
+          <lb ed="#P" n="109"/>non esse necessarium immemoriale tempus,
+          <lb ed="#P" n="110"/>ut quidam dixerunt sine fundamento, ut ca-
+          <pb ed="#P" n="203"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>pite praecedenti dixi. Certum ergo sit requiri
+          <lb ed="#P" n="2"/>definitum tempus. Est tamen notanda 
+          distinc<lb break="no" ed="#P" n="3"/>tio inter leges canonicas cas et civiles, quam 
+          om<lb break="no" ed="#P" n="4"/>nes auctores supra citati tradunt : nam in 
+          ci<lb break="no" ed="#P" n="5"/>vilibus idem tempus sufficit ad legem 
+          abro<lb break="no" ed="#P" n="6"/>gandam quod ad introducendam , scilicet ,
+          <lb ed="#P" n="7"/>decem annorum. hatio est, quia jus civile in
+          <lb ed="#P" n="8"/>hoc distinctionem non Beit sed ad utrumque
+          <lb ed="#P" n="9"/>indefinite requirit tempus longaevum, ut patet
+          <lb ed="#P" n="10"/>in dicta l. De quibus ; tempus autem longaevum
+          <lb ed="#P" n="11"/>in eodem jure est tempus decem annorum, ut
+          <lb ed="#P" n="12"/>supra dictum est, et expressius habetur in $1
+          <lb ed="#P" n="13"/>Inst. , de Usucap. Neque hic fit distinctio de
+          <lb ed="#P" n="14"/>tempore inter absentes et praesentes (quidquid
+          <lb ed="#P" n="15"/>Sylvest. et alii sentiant), propter rationem
+          <lb ed="#P" n="16"/>supra tractatam, quod ad necessitatem hujus
+          <lb ed="#P" n="17"/>praescriptionis semper supponitur ignorantia
+          <lb ed="#P" n="18"/>principis ; nam si princeps sciat, non est 
+          ne<lb break="no" ed="#P" n="19"/>cessaria praescriptio ad praesentem effectum,
+          <lb ed="#P" n="20"/>ut statim dicam. Respectu vero principis 
+          igno<lb break="no" ed="#P" n="21"/>rantis, impertinens est absentia vel praesentia,
+          <lb ed="#P" n="22"/>et ideo idem tempus indistincte postulatur.
+          <lb ed="#P" n="23"/>Ponitur autem ab auctoribus potius decem
+          <lb ed="#P" n="24"/>quam viginti annorum, quamvis hoc jura non
+          <lb ed="#P" n="25"/>definiant et ignorantia principis videatur esse
+          <lb ed="#P" n="26"/>quaedam absentia, propter rationes supra 
+          fac<lb break="no" ed="#P" n="27"/>tas. Item quia in hoc jure intervenit favor ex
+          <lb ed="#P" n="28"/>parte principis, et ille ampliatur, dum brevius
+          <lb ed="#P" n="29"/>tempus eligitur; et intervenit onus ex parte
+          <lb ed="#P" n="30"/>subditorum, quatenus revocatio legis per 
+          lon<lb break="no" ed="#P" n="31"/>gum tempus ditfertur, et hoc minuitur, 
+          bre<lb break="no" ed="#P" n="32"/>vius etiam tempus eligendo. Et ita utrumque
+          <lb ed="#P" n="33"/>est juri conforme. Et consonat etiam alia 
+          re<lb break="no" ed="#P" n="34"/>gula juris, quod in obscuris minimaunm est 
+          se<lb break="no" ed="#P" n="35"/>quendum.
+        </p>
+        <p xml:id="szdleg-q50310-d1e880">
+          <lb ed="#P" n="36"/>12. De ecclesiastica lege carietas.— Ut 
+          con<lb break="no" ed="#P" n="37"/>suetudo contra leges canonicas prescribatur,
+          <lb ed="#P" n="38"/>requiritur spatium quadraginta aunorum.—
+          <lb ed="#P" n="39"/>At vero in legibus ecclesiasticis est diversitas
+          <lb ed="#P" n="40"/>opinionum. Nam quidam existimant sufficere
+          <lb ed="#P" n="41"/>idem tempus decem annorum, quod in 
+          civili<lb break="no" ed="#P" n="42"/>bus sufticit. Refertur Azo, in Summ., tit. de
+          <lb ed="#P" n="43"/>Consuet. ; Calder. et alii, in cap. 1 de Treug.
+          <lb ed="#P" n="44"/>et pace. Sed hi loquuntur de lege nondum 
+          ac<lb break="no" ed="#P" n="45"/>ceptata, de qua supra lib. 3 et 4 dictum est:
+          <lb ed="#P" n="46"/>quanquam fortasse nulla sit differentia in 
+          or<lb break="no" ed="#P" n="47"/>dine ad praescriptionem, cum in utroque casu
+          <lb ed="#P" n="48"/>consuetudo sit contra jus canonicum. Vera
+          <lb ed="#P" n="49"/>ergo et communis sententia est, in legibus 
+          ca<lb break="no" ed="#P" n="50"/>nonicis requiri | tempus quadraginta annorum,
+          <lb ed="#P" n="51"/>ut consuetudo contra illas censeatur 
+          praescri<lb break="no" ed="#P" n="52"/>pta. Ita Innoc. in c. Cum dilectus, de Consuet. ;
+          <lb ed="#P" n="53"/>Panormit., dicto cap. ult., n. 11; et in cap.1
+          <lb ed="#P" n="54"/>de Treug. et pace, num. 4. et ibi late Felin.,
+          <lb ed="#P" n="55"/>n. 13; Rochus supra, sect. 3, n. 35; Turre-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>crem., in cap. Consuetudo, q. 2, et in c. Mos,
+          <lb ed="#P" n="57"/>quaest. 4, d. 1; Bart. in repetit. l. De quibus,
+          <lb ed="#P" n="58"/>quaest. 2, princip. quaest. 3, n. 14, ubi in
+          <lb ed="#P" n="59"/>schol. alii allegantur. Item Jason ibi, col. i1;
+          <lb ed="#P" n="60"/>Anton., 1 part., tit. 16, S 4; Sylvester, verbo
+          <lb ed="#P" n="61"/>Consuetudo, quaest. 4; Angel., n. 8, et ibi alii
+          <lb ed="#P" n="62"/>summistae ; Navarr., cons. 2 de Consuet. ; 
+          Cor<lb break="no" ed="#P" n="63"/>dub., lib. 1, quaest. 12, ad 4; et Gregor. Lop.,
+          <lb ed="#P" n="64"/>in dicta leg. 5, Gloss. 4. Probari autem haec
+          <lb ed="#P" n="65"/>sententia solet ex dicto c. ult. de Consuetud.,
+          <lb ed="#P" n="66"/>quatenus requirit consuetudinem legitime 
+          prae<lb break="no" ed="#P" n="67"/>scriptam, quia, in jure canonico, non dicitur
+          <lb ed="#P" n="68"/>consuetudo legitime praescripta, nisi sit 
+          qua<lb break="no" ed="#P" n="69"/>draginta annorum. Ita Rochus supra, sect. 3,
+          <lb ed="#P" n="70"/>n. 4, ex Glossa cum textu in c. Cum de 
+          beneft<lb break="no" ed="#P" n="71"/>cio, de Praebend., in 6. Sed non existimo hoc
+          <lb ed="#P" n="72"/>sufficere, quia appellatio legitimae 
+          praescriptio<lb break="no" ed="#P" n="73"/>nis de se indifferens est, solumque significat
+          <lb ed="#P" n="74"/>cousuetudinem durantem tempore, et cum
+          <lb ed="#P" n="75"/>conditionibus lege praescriptis ; unde, juxta
+          <lb ed="#P" n="76"/>materiae capacitatem , applicari poterit ad
+          <lb ed="#P" n="77"/>praescriptionem quadragenariam, vel ad 
+          de<lb break="no" ed="#P" n="78"/>cennalem. Nam etiam dici potest consuetudo
+          <lb ed="#P" n="79"/>legitime praescripta necessaria esse ad 
+          indu<lb break="no" ed="#P" n="80"/>cendam legem, praeter, et non contra 
+          com<lb break="no" ed="#P" n="81"/>mune jus, inscio principe. Addunt ergo 
+          prae<lb break="no" ed="#P" n="82"/>dicti auctores praescriptionem legitimam 
+          con<lb break="no" ed="#P" n="83"/>tra Ecclesiam requirere tempus quadraginta
+          <lb ed="#P" n="84"/>annorum, juxta c. De quarta, c. Ad aures,
+          <lb ed="#P" n="85"/>cum aliis, de praescriptionibus ; consuetudo
+          <lb ed="#P" n="86"/>autem contra canones dici merito potest 
+          con<lb break="no" ed="#P" n="87"/>tra Ecclesiam, cum sit contra ecclesiastica 
+          ju<lb break="no" ed="#P" n="88"/>ra, et ideo legitima praescriptio in illa, 
+          quadra<lb break="no" ed="#P" n="89"/>genaria esse debet.
+        </p>
+        <p xml:id="szdleg-q50310-d1e1002">
+          <lb ed="#P" n="90"/>13. Imo addunt aliqui auctores non solum
+          <lb ed="#P" n="91"/>requiri hoc tempus, quando consuetudo est
+          <lb ed="#P" n="92"/>contra canones, sed etiam quando est contra
+          <lb ed="#P" n="93"/>rationem canonis, ut notat Glossa in cap. Ut
+          <lb ed="#P" n="94"/>litigantes, de Offic. ord., in 6, verbo 
+          Statui<lb break="no" ed="#P" n="95"/>mus, et ibi Geminian., et sequitur Pet. 
+          Ra<lb break="no" ed="#P" n="96"/>ven., tract. de Consuet., sect. 1, n. 20. Idem
+          <lb ed="#P" n="97"/>Felin., in cap. Tua nos, de Jur.jur., n. 3, et in
+          <lb ed="#P" n="98"/>c. Statuimus, de Majorit. et obed., n. 3, ubi 
+          de<lb break="no" ed="#P" n="99"/>clarat hoc esse intelligendum, quando 
+          consue<lb break="no" ed="#P" n="100"/>tudo est contra rationem expressam in lege.
+          <lb ed="#P" n="101"/>Ego vero addo etiam requiri, ut ratio sit adeo
+          <lb ed="#P" n="102"/>intrinseca et essentialis, ut, illa cessante, lex
+          <lb ed="#P" n="103"/>etiam cessare censeatur, et tunc optima 
+          ra<lb break="no" ed="#P" n="104"/>tione fundatur haec sententia, quia consuetudo
+          <lb ed="#P" n="105"/>contra rationem legis, virtualiter est contra
+          <lb ed="#P" n="106"/>legem, et illi consequenter derogat. Si autem
+          <lb ed="#P" n="107"/>ratio talis non sit, sed potius, illa sublata, 
+          ad<lb break="no" ed="#P" n="108"/>huc possit vigere lex, non video cur 
+          consue<lb break="no" ed="#P" n="109"/>tudo contra solam rationem legis, censeri 
+          de<lb break="no" ed="#P" n="110"/>beat contra jus, aut tantum tempus postulare,
+          <pb ed="#P" n="204"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Denique addunt dicti auctores, ex parte 
+          ma<lb break="no" ed="#P" n="2"/>teriae posse requiri consuetudinem 
+          immemo<lb break="no" ed="#P" n="3"/>rialem, ut si sit contra specialia jura principis,
+          <lb ed="#P" n="4"/>sicut etiam, in consuetudine praeter canones,
+          <lb ed="#P" n="5"/>possunt requiri quadraginta anni, si deroget
+          <lb ed="#P" n="6"/>juri alicujus Ecclesiae. Sed haec, licet vera sint,
+          <lb ed="#P" n="7"/>non habent proprie locum in consuetudine 
+          le<lb break="no" ed="#P" n="8"/>gali, de qua tractamus, sed quatenus miscetur
+          <lb ed="#P" n="9"/>cum praescriptione propria alicujus rei, quae
+          <lb ed="#P" n="10"/>longiorem durationem requirat.
+        </p>
+        <p xml:id="szdleg-q50310-d1e1077">
+          <lb ed="#P" n="11"/>14. Consuetudo aliquando legem abrogat 
+          igno<lb break="no" ed="#P" n="12"/>rante principe. —Atque hinc colligitur 
+          consue<lb break="no" ed="#P" n="13"/>tudinem habentem has duas conditiones, si sit
+          <lb ed="#P" n="14"/>legi contraria, illam abrogare, etiamsi ad 
+          no<lb break="no" ed="#P" n="15"/>titiam principis talis consuetudo non 
+          devene<lb break="no" ed="#P" n="16"/>rit. Ita docent fere doctores allegati, et Covar.
+          <lb ed="#P" n="17"/>in 4 Decret., 2 part., cap. 6, $10, n, 18 et 19;
+          <lb ed="#P" n="18"/>Dominic., bene in S Leges, post cap. In istis,
+          <lb ed="#P" n="19"/>dist. 4, cum Glossa et Archid., ibi, et aliis quos
+          <lb ed="#P" n="20"/>etiam refert Felin. supra, et omnes quos, in
+          <lb ed="#P" n="21"/>simili puncto, allegavi in capite praecedenti.
+        </p>
+        <p xml:id="szdleg-q50310-d1e1103">
+          <lb ed="#P" n="22"/>15. Nam est eadem ratio, quia, supposita
+          <lb ed="#P" n="23"/>lege concedente hanc efficaciam consuetudini
+          <lb ed="#P" n="24"/>rationabili et praescriptae, ex vi illius habetur
+          <lb ed="#P" n="25"/>sufficiens consensus principis abrogantis illam
+          <lb ed="#P" n="26"/>per tacitam voluntatem legalem, ut sic dicam,
+          <lb ed="#P" n="27"/>ad quam non est necessaria nova notitia 
+          con<lb break="no" ed="#P" n="28"/>suetudinis, sicut ad personalem voluntatem,
+          <lb ed="#P" n="29"/>nec nos possumus illam conditionem addere
+          <lb ed="#P" n="30"/>contra praedictum jus. Quia in effectibus 
+          juri<lb break="no" ed="#P" n="31"/>dicis non debent plura postulari quam jura
+          <lb ed="#P" n="32"/>requirant: lex autem ponit illas duas 
+          condi<lb break="no" ed="#P" n="33"/>Uones ut sufficientes ad effectum, et utraque
+          <lb ed="#P" n="34"/>esse potest sine scientia principis. De priori est
+          <lb ed="#P" n="35"/>per se notum, quia consuetudo non est 
+          ratio<lb break="no" ed="#P" n="36"/>nabilis, quia scitur a principe: nam quaelibet
+          <lb ed="#P" n="37"/>alia aeque sciri potest, vel ignorari, et 
+          rationa<lb break="no" ed="#P" n="38"/>bilis talis poni debet, ut vere possit talis 
+          co<lb break="no" ed="#P" n="39"/>gnosci. De secundo etiam constat, quia 
+          prae<lb break="no" ed="#P" n="40"/>scriptio non requirit scientiam in eo contra
+          <lb ed="#P" n="41"/>quem praescribitur, ut est notum. Praeterea
+          <lb ed="#P" n="42"/>ratio humanae legis hoc quodammodo postulat,
+          <lb ed="#P" n="43"/>debet enim esse humanis moribus 
+          accommo<lb break="no" ed="#P" n="44"/>data, et ideo valde expedit ut, quando populus
+          <lb ed="#P" n="45"/>tanto tempore, obstinato animo, perseverat in
+          <lb ed="#P" n="46"/>moribus contra legem, princeps non insistat,
+          <lb ed="#P" n="47"/>sed desistat ab imponenda talis legis 
+          obliga<lb break="no" ed="#P" n="48"/>tione; merito ergo institutum est ut, sive sciat,
+          <lb ed="#P" n="49"/>sive nesciat princeps, consuetudo praescripta
+          <lb ed="#P" n="50"/>legem tollat. Neque in hoc occurrit nova 
+          dif<lb break="no" ed="#P" n="51"/>ficultas.
+        </p>
+        <p xml:id="szdleg-q50310-d1e1171">
+          <lb ed="#P" n="52"/>16. Consuetudo non prescripta quam vim
+          <lb ed="#P" n="53"/>habeat.—Potest tamen e contrario dubitari an
+          <lb ed="#P" n="54"/>interdum consuetudo non praescripta possit
+          <lb ed="#P" n="55"/>sufficere ad effectum revocandi legem, saltem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>interveniente scientia principis. Nam Panorm.
+          <lb ed="#P" n="57"/>in cap. ult., n. 13, aperte sentit non sufficere
+          <lb ed="#P" n="58"/>scientiam principis ut lex derogetur in minori
+          <lb ed="#P" n="59"/>tempore, quam sit ad praescriptionem 
+          neces<lb break="no" ed="#P" n="60"/>sarium. Fundari potest primo in eodem cap.
+          <lb ed="#P" n="61"/>ult., quod absolute requirit illas duas 
+          condi<lb break="no" ed="#P" n="62"/>tiones ad hunc effectum; ergo, quacumque
+          <lb ed="#P" n="63"/>deficiente, non fiet effectus, etiamsi princeps
+          <lb ed="#P" n="64"/>sciat. Et confirmatur : nam si consuetudo
+          <lb ed="#P" n="65"/>non sit rationabilis, etiamsi si princeps 
+          il<lb break="no" ed="#P" n="66"/>lam sciat, non sufficiet ad tollendam legem,
+          <lb ed="#P" n="67"/>ut est communissima sententia; ergo si non
+          <lb ed="#P" n="68"/>sit praescripta, non sufficiet, etiamsi 
+          interve<lb break="no" ed="#P" n="69"/>niat scientia principis. Patet consequentia,
+          <lb ed="#P" n="70"/>quia illae duae conditiones ut aeque necessariae
+          <lb ed="#P" n="71"/>ponuntur. Confirmat hoc, secundo, 
+          Panormi<lb break="no" ed="#P" n="72"/>tanus, quia ex scientia principis ad summum
+          <lb ed="#P" n="73"/>colligitur tolerantia, haec autem non inducit
+          <lb ed="#P" n="74"/>consensum juxta cap. Jaumdudum, de Praeb.,
+          <lb ed="#P" n="75"/>unde addit ipse quod, si princeps non solum
+          <lb ed="#P" n="76"/>sciret consuetudinem, sed etiam illa uteretur,
+          <lb ed="#P" n="77"/>tunc censeretur tollere legem, qu:a videretur
+          <lb ed="#P" n="78"/>quasi expresse consentire. Tandem 
+          argumen<lb break="no" ed="#P" n="79"/>tor, quia consuetudo haec valet per modum
+          <lb ed="#P" n="80"/>cujusdam praescriptionis; sed tempus 
+          praescri<lb break="no" ed="#P" n="81"/>ptionis non minuitur propter scientiam ejus
+          <lb ed="#P" n="82"/>contra quem praescribitur; ergo.
+        </p>
+        <p xml:id="szdleg-q50310-d1e1243">
+          <lb ed="#P" n="83"/>17. Consuetudinem non praescriptam 
+          ali<lb break="no" ed="#P" n="84"/>quando sufficere ad legem abrogandam.—
+          Nihi<lb break="no" ed="#P" n="85"/>lominus contrarium censeo verum. Dico ergo
+          <lb ed="#P" n="86"/>consuetudinem non praescriptam aliquando
+          <lb ed="#P" n="87"/>sufficere ad derogandam legem, si princeps
+          <lb ed="#P" n="88"/>sciat consuetudinem, et ipsa talis ac tanta sit
+          <lb ed="#P" n="89"/>ut moraliter sufficiat ad indicandum principis
+          <lb ed="#P" n="90"/>consensum. Hoc mihi videtur sensisse D. 
+          Tho<lb break="no" ed="#P" n="91"/>mas 1. 2, quaest. 97, art. 3, ubi non requirit
+          <lb ed="#P" n="92"/>ad hunc effectum praescriptionem 
+          consuetudi<lb break="no" ed="#P" n="93"/>nis, sed sufficientem significationem 
+          consen<lb break="no" ed="#P" n="94"/>sus principis ; et idem sentiunt Soto, l. 1 de
+          <lb ed="#P" n="95"/>Justit., quaest. 1, a. 2, et Medin. ibi; Gerson.,
+          <lb ed="#P" n="96"/>dicto tract. de Vita spirit.; et videtur fuisse
+          <lb ed="#P" n="97"/>opinio Antonii, dicto cap. ult., qui dixit, si
+          <lb ed="#P" n="98"/>Papa sciat consuetudinem contra legem, 
+          suffi<lb break="no" ed="#P" n="99"/>cere tempus decem annorum. Quod dictum
+          <lb ed="#P" n="100"/>approbat Sylvest., dicta quaest. 4; et Angel.,
+          <lb ed="#P" n="101"/>dicto num. 8; et idem sentiunt canonistae
+          <lb ed="#P" n="102"/>communiter, quando consuetudo resistit legi
+          <lb ed="#P" n="103"/>canonica nondum acceptatae, ut late refert
+          <lb ed="#P" n="104"/>Felin. ubi supra. De qua, ut dixi, est eadem
+          <lb ed="#P" n="105"/>ratio, tum quia etiam ilia consuetudo est 
+          con<lb break="no" ed="#P" n="106"/>tra Ecclesiam et contra jus illius; tum etiam
+          <lb ed="#P" n="107"/>quia observantia legis pro aliquo tempore non
+          <lb ed="#P" n="108"/>auget jus, ut supra dixi, sed solum facto 
+          dici<lb break="no" ed="#P" n="109"/>tur illam confirmare; ergo, stando in vi juris,
+          <lb ed="#P" n="110"/>eadem est ratio de utraque. Praeterea non vi-
+          <pb ed="#P" n="205"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>detur esse major ratio de jure introducendo
+          <lb ed="#P" n="2"/>quam de abrogando; sed consuetudo non 
+          prae<lb break="no" ed="#P" n="3"/>scripta, sciente principe potest indücere jus,
+          <lb ed="#P" n="4"/>ut ostendimus ; ergo et abrogare. Major cum
+          <lb ed="#P" n="5"/>consequentia probatur, quia tota ratio 
+          utrius<lb break="no" ed="#P" n="6"/>que effectus consistit in tacita voluntate 
+          prin<lb break="no" ed="#P" n="7"/>cipis ; sed haec voluntas particularis, et quasi
+          <lb ed="#P" n="8"/>personalis, non minus potest innotescere ex
+          <lb ed="#P" n="9"/>consuetudine legi contraria non praescripta,
+          <lb ed="#P" n="10"/>sed seita et tolerata a principe, quam ex 
+          con<lb break="no" ed="#P" n="11"/>suetudine praeter legem: ergo non minus illa
+          <lb ed="#P" n="12"/>sufficiet ad derogandum legi, quam haec ad
+          <lb ed="#P" n="13"/>introducendam illam. Imo, in casu praesenti,
+          <lb ed="#P" n="14"/>magis debet praesumi talis voluntas, tum quia
+          <lb ed="#P" n="15"/>est magis necessaria ad tollendum a subditis
+          <lb ed="#P" n="16"/>occasionem peccandi contra perseverantem
+          <lb ed="#P" n="17"/>legem ; tum etiam quia ipsamet consuetudo
+          <lb ed="#P" n="18"/>causat talem mutationem in subditis, ut 
+          quo<lb break="no" ed="#P" n="19"/>dammodo per illam fiant inepti ad talem 
+          le<lb break="no" ed="#P" n="20"/>gem, quia debet esse facilis, et moribus 
+          con<lb break="no" ed="#P" n="21"/>formis. Denique hanc sententiam confirmat
+          <lb ed="#P" n="22"/>usus ; quia multae leges ecclesiasticae 
+          censen<lb break="no" ed="#P" n="23"/>tur breviori tempore derogatae, quia Pontifices
+          <lb ed="#P" n="24"/>non ignorant et dissimulant.
+        </p>
+        <p xml:id="szdleg-q50310-d1e1363">
+          <lb ed="#P" n="25"/>18. De tempore ad legem abrogandam per
+          <lb ed="#P" n="26"/>consuetudinem, ignorante principe.— Hoc 
+          tem<lb break="no" ed="#P" n="27"/>pus judicio prudentis est relinguendum. — De
+          <lb ed="#P" n="28"/>tempore autem requisito ad hunc effectum,
+          <lb ed="#P" n="29"/>quando scientia principis non intervenit, licet
+          <lb ed="#P" n="30"/>Antonius et alii cum illo designent tempus
+          <lb ed="#P" n="31"/>decem annorum, non videtur mihi cum 
+          fun<lb break="no" ed="#P" n="32"/>damento dictum. Nam in legibus civilibus non
+          <lb ed="#P" n="33"/>potest id babere locum, quia, ctiam ignorante
+          <lb ed="#P" n="34"/>principe, majus tempus non requiritur, ut
+          <lb ed="#P" n="35"/>dictum est ; assertio autem posita etiam in illis
+          <lb ed="#P" n="36"/>locum habet, quod, interveniente scientia
+          <lb ed="#P" n="37"/>principis, praescriptio civilis, quae est decem
+          <lb ed="#P" n="38"/>annorum, non est necessaria. Quod si illi
+          <lb ed="#P" n="39"/>de solis canonicis legibus loquuntur, oportet
+          <lb ed="#P" n="40"/>ut cum proportione tempus pro civilipus 
+          assi<lb break="no" ed="#P" n="41"/>gnent : at in illis non possunt cum 
+          fundamen<lb break="no" ed="#P" n="42"/>to assignare certum tempus requisitum ; ergo
+          <lb ed="#P" n="43"/>neque in canonicis illa determinatio decem
+          <lb ed="#P" n="44"/>annorum habet fundamentum. Praeterea est
+          <lb ed="#P" n="45"/>generalis ratio, quia illud tempus nullo jure
+          <lb ed="#P" n="46"/>determinatum est pro tali modo consuetudinis;
+          <lb ed="#P" n="47"/>ergo sine fundamento praescribitur. Et 
+          expli<lb break="no" ed="#P" n="48"/>catur amplius quia, eo ipso quod non est 
+          ne<lb break="no" ed="#P" n="49"/>cessaria consuetudo praescripta, non operatur
+          <lb ed="#P" n="50"/>ex vi juris, sed ex vi naturalis significationis,
+          <lb ed="#P" n="51"/>et indicii voluntatis Principis; at vero ad hoc
+          <lb ed="#P" n="52"/>judicium nullum est tempus determinatum in
+          <lb ed="#P" n="53"/>jure, neque ex natura rei, quia potest 
+          secun<lb break="no" ed="#P" n="54"/>dum circumstantias variari, ut supra 
+          decla<lb break="no" ed="#P" n="55"/>ravi; ergo frustra designaretur illud tempus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>decem annorum. Idem ergo in hoc puncto
+          <lb ed="#P" n="57"/>dicendum est quod in simili de introductione
+          <lb ed="#P" n="58"/>legis, arbitrio prudentum relinquendum esse,
+          <lb ed="#P" n="59"/>et ita senserunt Soto, Medin. et alii.
+        </p>
+        <p xml:id="szdleg-q50310-d1e1444">
+          <lb ed="#P" n="60"/>19. Imo hinc intulerunt aliqui canonistae,
+          <lb ed="#P" n="61"/>quando tota civitas vel communitas operatur
+          <lb ed="#P" n="62"/>contra statutum a se editum, unum actum
+          <lb ed="#P" n="63"/>contrarium sufficere ad revocandum statutum.
+          <lb ed="#P" n="64"/>Quia ibi per unum actum significatur 
+          suffi<lb break="no" ed="#P" n="65"/>cienter voluntas statuentis de revocando 
+          sta<lb break="no" ed="#P" n="66"/>tuto, cum sit idem qui contra illam operatur,
+          <lb ed="#P" n="67"/>quod secus est respectu legis principis. Ita 
+          do<lb break="no" ed="#P" n="68"/>cet Abb. in c. Ad audientiam, de Cleric. non
+          <lb ed="#P" n="69"/>resid., cum Joann. Andr., ex c. Pro illorum,
+          <lb ed="#P" n="70"/>de Praebend., et c. Cum accessissent, de 
+          Con<lb break="no" ed="#P" n="71"/>stit., ubi alii hoc notant. Sed de hoc puncto et
+          <lb ed="#P" n="72"/>de illorum textuum intelligentia, dicemus 
+          trac<lb break="no" ed="#P" n="73"/>tando de privilegiis ; nam de illis est ibi 
+          ser<lb break="no" ed="#P" n="74"/>mo. Et in propriis statutis non credo esse illud
+          <lb ed="#P" n="75"/>signum sufficiens, nisi ex aliis circumstantiis
+          <lb ed="#P" n="76"/>constet communitatem non fecisse talem 
+          ac<lb break="no" ed="#P" n="77"/>tum dispensando in statuto pro illa vice, sed
+          <lb ed="#P" n="78"/>illud abrogando. Adde etiam, in statutis 
+          con<lb break="no" ed="#P" n="79"/>firmatis a principe necessariam esse 
+          consue<lb break="no" ed="#P" n="80"/>tudinem, ut dixi.
+        </p>
+        <p xml:id="szdleg-q50310-d1e1493">
+          <lb ed="#P" n="81"/>20. Ad cap. ult. de Consuet., respondeo ibi
+          <lb ed="#P" n="82"/>esse sermonem de consuetudine, quae 
+          indepen<lb break="no" ed="#P" n="83"/>denter a scientia principis potest legem 
+          abro<lb break="no" ed="#P" n="84"/>gare, seu de consuetudine, quae, sub propria
+          <lb ed="#P" n="85"/>ratione sua, et per propriam vim et.efficaciam
+          <lb ed="#P" n="86"/>quam a lege habet, potest legem abrogare,
+          <lb ed="#P" n="87"/>non vero excludere consuetudinem, quae 
+          so<lb break="no" ed="#P" n="88"/>Ium deservit per modum signi et indicii 
+          vo<lb break="no" ed="#P" n="89"/>luntatis principis. Nam hoc modo non solum
+          <lb ed="#P" n="90"/>consuetudo, sed etiam quodlibet factum 
+          prin<lb break="no" ed="#P" n="91"/>cipis quod sufficienter ostendat voluntatem
+          <lb ed="#P" n="92"/>ejus, potest abrogare legem, ut sumitur a 
+          si<lb break="no" ed="#P" n="93"/>mili ex dicta l. De quibus, et est per se 
+          evi<lb break="no" ed="#P" n="94"/>dens, quia vis est in voluntate, et diversitas
+          <lb ed="#P" n="95"/>in materiali signo est accidentalis. Ad primam
+          <lb ed="#P" n="96"/>confirmationem negatur imprimis 
+          aequipara<lb break="no" ed="#P" n="97"/>tio, quia conditio quod consuetudo sit 
+          ratio<lb break="no" ed="#P" n="98"/>nabilis, ex natura rei necessaria est; conditio
+          <lb ed="#P" n="99"/>autem praescriptionis solum ex lege, et ideo
+          <lb ed="#P" n="100"/>prior conditio magis necessaria est, et in 
+          om<lb break="no" ed="#P" n="101"/>ni eventu, quia semper voluntas principis esse
+          <lb ed="#P" n="102"/>debet ac praesumi rationabilis, sive 
+          particula<lb break="no" ed="#P" n="103"/>ris sit, sive generalis per legcm. Deinde dicitur
+          <lb ed="#P" n="104"/>quod si de voluntate principis sufficienter
+          <lb ed="#P" n="105"/>constaret, etiamsi consuetudo careret ratione,
+          <lb ed="#P" n="106"/>dummodo non esset contra rationem, nec 
+          ali<lb break="no" ed="#P" n="107"/>quid turpe includeret, abrogatio esset valida,
+          <lb ed="#P" n="108"/>licet fortasse illicite fieret, sieut supra dictum
+          <lb ed="#P" n="109"/>est de abrogatione expressa ; idem enim est
+          <lb ed="#P" n="110"/>de tacita, si supponatur. At vero rarissime
+          <pb ed="#P" n="206"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>aut nunquam admittenda est, quando 
+          consue<lb break="no" ed="#P" n="2"/>tudo ita caret ratione ut sit illicitum illi 
+          con<lb break="no" ed="#P" n="3"/>descendere et propter illam legem abrogare,
+          <lb ed="#P" n="4"/>etiamsi sit cognita, quia non est praesumenda
+          <lb ed="#P" n="5"/>prava voluntas in principe. Secus vero esset
+          <lb ed="#P" n="6"/>si ex ipsa duritia populi, licet irrationabili,
+          <lb ed="#P" n="7"/>resultaret respectu principis moralis causa et
+          <lb ed="#P" n="8"/>ratio ut possit judicari prudens revocatio 
+          le<lb break="no" ed="#P" n="9"/>gis; tunc enim, etiamsi princeps sciat 
+          con<lb break="no" ed="#P" n="10"/>suetudinem non esse rationabilem ex parte
+          <lb ed="#P" n="11"/>populi, potest praesumi conniventia et 
+          abro<lb break="no" ed="#P" n="12"/>gatio ex parte principis tacentis et 
+          toleran<lb break="no" ed="#P" n="13"/>tis, quia tunc jam abrogatio justa est. Unde
+          <lb ed="#P" n="14"/>ad secundam confirmationem jam supra 
+          res<lb break="no" ed="#P" n="15"/>ponsum est, tolerantiam per se non sufficere,
+          <lb ed="#P" n="16"/>adjunctis vero circumstantiis posse esse 
+          pru<lb break="no" ed="#P" n="17"/>dens et morale signum. Et in praesenti erit
+          <lb ed="#P" n="18"/>optimum signum, quando, in principe sciente
+          <lb ed="#P" n="19"/>populi resistentiam, permissio illius, stante
+          <lb ed="#P" n="20"/>lege, esset irrationabilis, et nociva populo;
+          <lb ed="#P" n="21"/>nam tunc praesumendum est oriri ex animo
+          <lb ed="#P" n="22"/>abrogandi legem, nisi contrarium constet.
+          <lb ed="#P" n="23"/>Idemque erit quoties res ad eum statum 
+          deve<lb break="no" ed="#P" n="24"/>nerit, ut prudens censeatur abrogatio; tunc
+          <lb ed="#P" n="25"/>enim merito praesumitur consensus in 
+          prin<lb break="no" ed="#P" n="26"/>cipe, sciente et patiente talem 
+          consuetudi<lb break="no" ed="#P" n="27"/>nem. Ad ultimam confirmationem negatur 
+          as<lb break="no" ed="#P" n="28"/>sumptum, jam enim ostensum est in illo casu
+          <lb ed="#P" n="29"/>consuetudinem non occurrere in modum 
+          prae<lb break="no" ed="#P" n="30"/>scriptionis, sed tanquam signum, adjuncta
+          <lb ed="#P" n="31"/>scientia et tolerantia sufficiente, ut 
+          explica<lb break="no" ed="#P" n="32"/>tum est.
+        </p>
+        <p xml:id="szdleg-q50310-d1e1634">
+          <lb ed="#P" n="33"/>21. Ad primam difficultatem. — Ad 
+          pri<lb break="no" ed="#P" n="34"/>mam difficultatem in principio positam, et
+          <lb ed="#P" n="35"/>sumptam ex S Divus, respondeo textum 
+          il<lb break="no" ed="#P" n="36"/>lum plures habere intellectus, quos hic 
+          ex<lb break="no" ed="#P" n="37"/>pendere non possumus; multi autem illum
+          <lb ed="#P" n="38"/>intelligunt quando statutum vel consuetudo
+          <lb ed="#P" n="39"/>praecessit, et lex subsequitur, et ita non 
+          per<lb break="no" ed="#P" n="40"/>tinet ad hunc locum, sed ad quaestionem
+          <lb ed="#P" n="41"/>tractandam in cap. 20. Alii intelligunt 
+          quan<lb break="no" ed="#P" n="42"/>do lex generalis praecessit, et statutum 
+          munici<lb break="no" ed="#P" n="43"/>pale sequitur : et videtur hoc magis 
+          signifi<lb break="no" ed="#P" n="44"/>cari in littera, et negari statutum praevalere
+          <lb ed="#P" n="45"/>contra legem, quod mihi est verisimillimum.
+          <lb ed="#P" n="46"/>Nam licet Panorm., cap. ult. de Consuet. in
+          <lb ed="#P" n="47"/>hoc constituat differentiam inter statuta 
+          laico<lb break="no" ed="#P" n="48"/>rum et clericorum, quod particulares Ecclesiae
+          <lb ed="#P" n="49"/>non possunt statuere contra canones, 
+          particu<lb break="no" ed="#P" n="50"/>lares autem civitates possunt statuere contra
+          <lb ed="#P" n="51"/>jus commune, ego non video fundamentum
+          <lb ed="#P" n="52"/>hujus differentiae ; nam lex Omnes populi, ft.
+          <lb ed="#P" n="53"/>de Justit. et jur., nihil probat, et contrarium
+          <lb ed="#P" n="54"/>probatur ex dicto 8 Divus, ct constat ex supra
+          <lb ed="#P" n="55"/>tractatis lib. 3. de Potestate ad leges civiles
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>condendas. Unde quoad hoc nego esse 
+          eam<lb break="no" ed="#P" n="57"/>dem rationem de statuto et consuetudine, 
+          si<lb break="no" ed="#P" n="58"/>cut idem Panormit. in clericis fatetur. Ratio
+          <lb ed="#P" n="59"/>autem (licet variae tradantur a canonistis. ut
+          <lb ed="#P" n="60"/>per Abbatem supra, et latius per Roch. sect.
+          <lb ed="#P" n="61"/>3, a n. 7) esse videtur, quia leges humana
+          <lb ed="#P" n="62"/>debent esse accommodatae moribus eorum pro
+          <lb ed="#P" n="63"/>quibus feruntur, et ideo legislatores in hoc 
+          de<lb break="no" ed="#P" n="64"/>ferre debent rationabili consuetudini suorum
+          <lb ed="#P" n="65"/>subditorum. Quae ratio et necessitas cessat in
+          <lb ed="#P" n="66"/>statutis municipalibus; nam illa fiunt per 
+          in<lb break="no" ed="#P" n="67"/>feriores potestates, quas oportet esse 
+          subordi<lb break="no" ed="#P" n="68"/>natas superioribus, et ideo statuere non 
+          pos<lb break="no" ed="#P" n="69"/>sunt contra leges eorum jure ordinario, nisi
+          <lb ed="#P" n="70"/>ex speciali concessione.
+        </p>
+        <p xml:id="szdleg-q50310-d1e1721">
+          <lb ed="#P" n="71"/>22. Ad secundam. — Ad secundam 
+          difficul<lb break="no" ed="#P" n="72"/>tatem, sumptam ex 1. 2, cod. Quae sit long.
+          <lb ed="#P" n="73"/>consuet., dico etiam legem illam varie 
+          expo<lb break="no" ed="#P" n="74"/>ni, ut refert Gloss. in cap. Consuetudinis, dist.
+          <lb ed="#P" n="75"/>11; communis tamen et probabilis responsio
+          <lb ed="#P" n="76"/>est, illam esse intelligendam de consuetudine
+          <lb ed="#P" n="77"/>non habente conditiones positas in d. cap. ult.
+          <lb ed="#P" n="78"/>de Consuet. Ita Jas., in addit. ad Gloss. in
+          <lb ed="#P" n="79"/>S Sine scripto, de Jur. natur., verb. Imitatur,
+          <lb ed="#P" n="80"/>ubi Glossa aliter exponit. Re tamen vera 
+          sen<lb break="no" ed="#P" n="81"/>sus est, consuetudinem non esse tantae 
+          aucto<lb break="no" ed="#P" n="82"/>ritatis, ut contra principis voluntatem possit
+          <lb ed="#P" n="83"/>valere, quod in eadem lege significatur : Non
+          <lb ed="#P" n="84"/>usque adeo sui valitura momento, id est, sua
+          <lb ed="#P" n="85"/>vi et potestate. Cum hoc autem optime stat,
+          <lb ed="#P" n="86"/>ut possit esse talis quae ostendat voluntatem
+          <lb ed="#P" n="87"/>principis fuisse mutatam, vel tanquam 
+          suffi<lb break="no" ed="#P" n="88"/>ciens signum ejus, vel in virtute alicujus 
+          le<lb break="no" ed="#P" n="89"/>gis.
+        </p>
+        <p xml:id="szdleg-q50310-d1e1765">
+          <lb ed="#P" n="90"/>23. Ad tertiam respondet divus Thomas,
+          <lb ed="#P" n="91"/>d. a. 3, ad 2, posse consuetudinem contra 
+          le<lb break="no" ed="#P" n="92"/>gem per bonos actus introduci, ac subinde esse
+          <lb ed="#P" n="93"/>rationabilem, quia lex humana, occurrente
+          <lb ed="#P" n="94"/>necessitate in particulari, sine culpa non 
+          ser<lb break="no" ed="#P" n="95"/>vatur. Unde si illa occasio saepius occurrat,
+          <lb ed="#P" n="96"/>per actus illos legi contrarios inducitur 
+          quae<lb break="no" ed="#P" n="97"/>dam consuetudo, quae ostendit legem non esse
+          <lb ed="#P" n="98"/>utilem, et consequenter abrogat illam. Quam
+          <lb ed="#P" n="99"/>responsionem attigit etiam Panorm. in d. c. 1,
+          <lb ed="#P" n="100"/>de Treug. et pace, ex Archidiac., in cap. unic.
+          <lb ed="#P" n="101"/>de Treug. et pace. Sed non satisfacit, tum quia
+          <lb ed="#P" n="102"/>illi actus non licent nisi propter necessitatem
+          <lb ed="#P" n="103"/>per modum epiikiae; hi autem non inducunt
+          <lb ed="#P" n="104"/>consuetudinem contra legem, cum non sint
+          <lb ed="#P" n="105"/>illi contrarii, neque ostendunt animum populi
+          <lb ed="#P" n="106"/>legi contrarium, ut supra declaratum est, 
+          ne<lb break="no" ed="#P" n="107"/>que ex vi consuetudinis ex illis solis 
+          resurgen<lb break="no" ed="#P" n="108"/>tis potest esse licitus actus, nisi in simili 
+          occa<lb break="no" ed="#P" n="109"/>sione, in qua epiikia per se semper sufficit.
+          <lb ed="#P" n="110"/>Quod si tam frequentes sint illae occasiones, ut
+          <pb ed="#P" n="207"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ostendant legem esse inutilem, non 
+          abrogabi<lb break="no" ed="#P" n="2"/>tur propter consuetudinem, sed quia in se
+          <lb ed="#P" n="3"/>ostenditur iniqua et nulla, vel cessabit, quia
+          <lb ed="#P" n="4"/>finis ejus in generali cessat. Et ita idemmet
+          <lb ed="#P" n="5"/>D. Thomas dixit: Talem consuetudinem 
+          mani<lb break="no" ed="#P" n="6"/>festare, quod lex ulterius non est ulilis. 
+          Secun<lb break="no" ed="#P" n="7"/>do, respondet D. Thomas removeri legem per
+          <lb ed="#P" n="8"/>consuetudinem, quando tam firmata est 
+          con<lb break="no" ed="#P" n="9"/>suetudo, ut jam lex non videatur possibilis
+          <lb ed="#P" n="10"/>secundum consuetudinem patria. 
+          Verumta<lb break="no" ed="#P" n="11"/>men, quando res ad hunc statum deveniret,
+          <lb ed="#P" n="12"/>etiam non esset propria abrogatio legis, sed
+          <lb ed="#P" n="13"/>cessatio per materiae mutationem ; at vero non
+          <lb ed="#P" n="14"/>semper necessarium est ad abrogationem legis
+          <lb ed="#P" n="15"/>ut tanta rerum mutatio fiat; quia saepe 
+          abro<lb break="no" ed="#P" n="16"/>gatur, si circumstantiae supra positae 
+          concur<lb break="no" ed="#P" n="17"/>rant, etiamsi alioqui possit juste obligare, si
+          <lb ed="#P" n="18"/>voluntas principis tacita non interveniret 
+          ali<lb break="no" ed="#P" n="19"/>quo ex modis supradictis. Unde D. Thomas,
+          <lb ed="#P" n="20"/>in illa solutione, solum videtur voluisse 
+          ex<lb break="no" ed="#P" n="21"/>plicare modos quibus potest contingere, ut ex
+          <lb ed="#P" n="22"/>consnetudine resultet cessatio legis absque
+          <lb ed="#P" n="23"/>ordine ad consensum principis, sed quasi ex
+          <lb ed="#P" n="24"/>natura rei, quae non est propria abrogatio,
+          <lb ed="#P" n="25"/>sed cessatio legis. In solutione autem ad 3
+          <lb ed="#P" n="26"/>magis explicat modum abrogationis.
+        </p>
+        <p xml:id="szdleg-q50310-d1e1874">
+          <lb ed="#P" n="27"/>24. Consuetudo incipiens per actus malos,
+          <lb ed="#P" n="28"/>quia prohilitos, potest legi derogare. — 
+          Res<lb break="no" ed="#P" n="29"/>pondeo igitur, ex dictis in cap. A4, recte fieri
+          <lb ed="#P" n="30"/>posse ut consuetudo incipiat per actus malos,
+          <lb ed="#P" n="31"/>quia prohibitos per legem, et nihilominus 
+          in<lb break="no" ed="#P" n="32"/>ducat consuetudinem derogantem legi. Ita 
+          fa<lb break="no" ed="#P" n="33"/>tetur Cajetanus dicta solutione ad 2, et 
+          om<lb break="no" ed="#P" n="34"/>nes; imo ex dictis constat ad hanc 
+          abrogatio<lb break="no" ed="#P" n="35"/>nen necessarium esse ut, in principio, actus
+          <lb ed="#P" n="36"/>sint tales, quia debent esse contra legem 
+          obli<lb break="no" ed="#P" n="37"/>gantem, sine excusatione, vel ignorantia. 
+          Ra<lb break="no" ed="#P" n="38"/>tio vero ob quam suffticiunt est, quia imprimis
+          <lb ed="#P" n="39"/>non concurrunt ut causa, sed ut indicium 
+          vo<lb break="no" ed="#P" n="40"/>luntatis principis, aut legis ; possunt autem
+          <lb ed="#P" n="41"/>s esse se indicium talis voluntatis, etiamsi mal
+          <lb ed="#P" n="42"/>sint. Et deinde id quod tandem resultat ex
+          <lb ed="#P" n="43"/>tali consuetudine non est malum, scilicet, ut
+          <lb ed="#P" n="44"/>similes actus sine malitia fiant, ablata lege, et
+          <lb ed="#P" n="45"/>in hoc censetur consentire princeps abrogando
+          <lb ed="#P" n="46"/>legem. Atque hoc modo consuetudo illa, licet
+          <lb ed="#P" n="47"/>in modo vel in fieri sit irratio nabilis, non 
+          ta<lb break="no" ed="#P" n="48"/>men in substantia, (quia actus illi possunt 
+          li<lb break="no" ed="#P" n="49"/>cite fieri) nec in termino, nec in effectu, quia
+          <lb ed="#P" n="50"/>et princeps potest propter talem 
+          consuetudi<lb break="no" ed="#P" n="51"/>nem prudenter ac rationabiliter legem 
+          abro<lb break="no" ed="#P" n="52"/>gare, et completa consuetudine actus postea
+          <lb ed="#P" n="53"/>licite fiunt, et jus ad eos libere faciendos 
+          jus<lb break="no" ed="#P" n="54"/>tum est; nam potius est quaedam carentia
+          <lb ed="#P" n="55"/>juris, seu prohibitionis, quae rauonahiliter au-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ferri potuit. Addit vero Cajetanus supra, et
+          <lb ed="#P" n="57"/>idem dicit Panormitanus, licet in principio
+          <lb ed="#P" n="58"/>agentes contra legem peccent, tamen eorum
+          <lb ed="#P" n="59"/>successores posse praesumere ex aliqua 
+          ratio<lb break="no" ed="#P" n="60"/>nabili causa legem illam fuisse non servatam.
+          <lb ed="#P" n="61"/>quod quidem regulariter verisimile est, 
+          prae<lb break="no" ed="#P" n="62"/>cipue quando abrogatio fit per longam 
+          prae<lb break="no" ed="#P" n="63"/>scriptionem. Dico autem id non esse 
+          necessa<lb break="no" ed="#P" n="64"/>rium; nam, licet omnes actus facti contra
+          <lb ed="#P" n="65"/>legem ante completum tempus praescripiionis,
+          <lb ed="#P" n="66"/>vel ante sufficienter praesumptam voluntatem
+          <lb ed="#P" n="67"/>tacitam principis fuissent mali, nihilominus
+          <lb ed="#P" n="68"/>tandem completo tempore vel indicio, 
+          abroga<lb break="no" ed="#P" n="69"/>retur lex vi juris, vel tacitae voluntatis 
+          prin<lb break="no" ed="#P" n="70"/>cipis, quae justa est, licet actus subditorum
+          <lb ed="#P" n="71"/>mali fuerint, ut declaratum est. Neque in hoc
+          <lb ed="#P" n="72"/>eequiparatur haec consuetudo praescriptioni, ut
+          <lb ed="#P" n="73"/>in cap. 1 declaravi.
+        </p>
+        <p xml:id="szdleg-q50310-d1e1981">
+          <lb ed="#P" n="74"/>25. Objectio. — Solutio. — Urgebit vero
+          <lb ed="#P" n="75"/>aliquis, quia lex erat rationabilis (nam hoc est
+          <lb ed="#P" n="76"/>de ratione legis, et ibi supponitur vera et 
+          va<lb break="no" ed="#P" n="77"/>lida lex); ergo consuetudo contraria erit 
+          irra<lb break="no" ed="#P" n="78"/>uonabilis, non solum quia per malos actus 
+          in<lb break="no" ed="#P" n="79"/>troducta fuit, sed etiam quia tendebat ad 
+          tol<lb break="no" ed="#P" n="80"/>lendam legem rationabilem ; hoc enim contra
+          <lb ed="#P" n="81"/>rationem videtur, et cum illa sint directe 
+          con<lb break="no" ed="#P" n="82"/>traria, si unum rationabile est, aliud erit 
+          irra<lb break="no" ed="#P" n="83"/>tionabile. Respondeo idem argumentum supra
+          <lb ed="#P" n="84"/>esse factum de abrogatione legis expressa, de
+          <lb ed="#P" n="85"/>qua constat posse esse rationabilem et jusiam,
+          <lb ed="#P" n="86"/>et eodem modo hic esse solvendum. Dico ergo
+          <lb ed="#P" n="87"/>legem non esse rationabilem tanquam 
+          neces<lb break="no" ed="#P" n="88"/>sariam sed tanquam convenientem propter
+          <lb ed="#P" n="89"/>aliquos effectus, quibus non obstantibus, 
+          abla<lb break="no" ed="#P" n="90"/>tio legis et consuetudo ad illam tollendam 
+          po<lb break="no" ed="#P" n="91"/>test esse rationabilis sub aliis respectibus 
+          ho<lb break="no" ed="#P" n="92"/>nestis et convenientibus, sicut duo contraria
+          <lb ed="#P" n="93"/>possunt esse probabilia; et, quod in altera parte
+          <lb ed="#P" n="94"/>sit aliquis excessus, non facit alteram esse 
+          ir<lb break="no" ed="#P" n="95"/>rationabilem, praesertim quia haec 
+          compara<lb break="no" ed="#P" n="96"/>tio ordinarie dubia est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

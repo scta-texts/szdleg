@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q00137"><!-- l6c1 -->
+        <head xml:id="szdleg-q00137-Hd1e101">Caput 1</head>
+        <head xml:id="szdleg-q00137-Hd1e103" type="question-title">De ratione recte interpretandi legem humanam quoad legitimum sensum ejus.</head>
+        <p xml:id="szdleg-q00137-d1e106">
+          <lb ed="#P" n="55"/>CAPUT I.
+          <lb ed="#P" n="56"/>DE RATIONE RECTE INTERPRETANDI LEGEM 
+          HUMA<lb break="no" ed="#P" n="57"/>NAM QUOAD LEGITIMUM SENSUM EJUS.
+        </p>
+        <p xml:id="szdleg-q00137-d1e115">
+          <lb ed="#P" n="58"/>1. Triplicem legis interpretationem 
+          distin<lb break="no" ed="#P" n="59"/>guere possumus ex Glossa in l. S de 
+          interpre<lb break="no" ed="#P" n="60"/>tatione, ft. de Legibus, et Panorm. et Deci. in
+          <lb ed="#P" n="61"/>cap. 1 de Postul. Prael.; Sylvest., verbo 
+          nter<lb break="no" ed="#P" n="62"/>pretatio, scilicet, authenticam, usualem et 
+          doc<lb break="no" ed="#P" n="63"/>trinalem. Authenticam voco quae fit auctoritate
+          <lb ed="#P" n="64"/>illius qui potest legem condere, usualem quae
+          <lb ed="#P" n="65"/>consuetudine et ipso usu fit, et doctrinalem
+          <lb ed="#P" n="66"/>quae fit per doctrinam, et auctoritate 
+          interpre<lb break="no" ed="#P" n="67"/>tum ; hic de hac tertia praecipue loquimur, et
+          <lb ed="#P" n="68"/>ideo breviter alias duas expediemus. Dicta
+          <lb ed="#P" n="69"/>vero Glossa aliud membrum addit illius 
+          inter<lb break="no" ed="#P" n="70"/>pretationis, quae fit per sententiam judicis. Sed
+          <lb ed="#P" n="71"/>haec sub consuetudine includitur, ut patebit
+          <lb ed="#P" n="72"/>inferius loco suo.
+        </p>
+        <p xml:id="szdleg-q00137-d1e150">
+          <lb ed="#P" n="73"/>2. Dari posse interpretationem quae legis
+          <pb ed="#P" n="2"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>auctoritatem habeat.—Primo ergo certum est
+          <lb ed="#P" n="2"/>dari posse interpretationem aliquam legis quae
+          <lb ed="#P" n="3"/>auctoritatem legis habeat, hanc vero fieri non
+          <lb ed="#P" n="4"/>posse nisi vel ab ipsomet legislatore, vel 
+          suc<lb break="no" ed="#P" n="5"/>cessore, vel superiorem jurisdictionem 
+          ha<lb break="no" ed="#P" n="6"/>bente. Tota assertio facile probatur, quia 
+          in<lb break="no" ed="#P" n="7"/>terpretatio haec saepe est necessaria ad bonum
+          <lb ed="#P" n="8"/>commune, et non excedit potestatem 
+          legislato<lb break="no" ed="#P" n="9"/>ris; potest ergo cum auctoritate legis ab eo
+          <lb ed="#P" n="10"/>fieri, non vero ab inferiori qui legem ferendi
+          <lb ed="#P" n="11"/>non habet potestatem, vel non talem ut cadat
+          <lb ed="#P" n="12"/>in actum superioris. Et hoc est quod dicitur in
+          <lb ed="#P" n="13"/>l. ult., c. de Leg., omnem legis 
+          interpretatio<lb break="no" ed="#P" n="14"/>nem ab imperatore datam ratam et indubitatamn
+          <lb ed="#P" n="15"/>habendaan esse. Et reddit rationem, quia si leges
+          <lb ed="#P" n="16"/>condere soli imperatori concessum est, etiam
+          <lb ed="#P" n="17"/>leges interpretari solo digmum nperio esse
+          <lb ed="#P" n="18"/>oportet. Quod necesse est intelligi de hac 
+          inter<lb break="no" ed="#P" n="19"/>pretatione quam authenticam vocamus, de qua
+          <lb ed="#P" n="20"/>etiam dicitur in cap. Znter alia, de Sentent.
+          <lb ed="#P" n="21"/>excom.: Ut unde jus prodat interpretatio 
+          quo<lb break="no" ed="#P" n="22"/>que procedat. Estque optimum et novum 
+          exem<lb break="no" ed="#P" n="23"/>plum in motibus propriis Sixti V de illegitimis ;
+          <lb ed="#P" n="24"/>nam per priorem de illis disposuit, per 
+          poste<lb break="no" ed="#P" n="25"/>riorem vero priorem interpretatus est, et 
+          uter<lb break="no" ed="#P" n="26"/>que eamdem legis auctoritatem habet. Est 
+          au<lb break="no" ed="#P" n="27"/>tem advertendum non tantum eamdem 
+          perso<lb break="no" ed="#P" n="28"/>nam posse hoc modo legem suam interpretari,
+          <lb ed="#P" n="29"/>sed etiam eamdem sedem, ut ita dicam, seu
+          <lb ed="#P" n="30"/>successorem in eadem potestete, ut clare 
+          pro<lb break="no" ed="#P" n="31"/>batur in dicto cap. Znter alia. Et ratio est, quia
+          <lb ed="#P" n="32"/>lex non procedit a persona nisi ut habente
+          <lb ed="#P" n="33"/>potestatem, et lex semper pendet ab eadem
+          <lb ed="#P" n="34"/>potestate, in quacumque persona sit; ergo qui
+          <lb ed="#P" n="35"/>in eadem potestate succedit semper potest
+          <lb ed="#P" n="36"/>praedecessorum leges interpretari. Verum 
+          qui<lb break="no" ed="#P" n="37"/>dem est eumdem hominem posse certius 
+          expli<lb break="no" ed="#P" n="38"/>care suam mentem et sensum quem revera
+          <lb ed="#P" n="39"/>Ahabuit quando legem condidit, quia solus ipse
+          <lb ed="#P" n="40"/>voluntatem suam certo cognoscit; successor
+          <lb ed="#P" n="41"/>vero solum potest illam conjectare. 
+          Nihilomi<lb break="no" ed="#P" n="42"/>nus tamen potest successor interpretari sensum
+          <lb ed="#P" n="43"/>in quo lex recipienda est et observanda, et hoc
+          <lb ed="#P" n="44"/>modo dicitur haec authentica interpretatio.
+          <lb ed="#P" n="45"/>Unde etiam manifestum est posse superiorem
+          <lb ed="#P" n="46"/>hoc modo legem inferioris interpretari, quia
+          <lb ed="#P" n="47"/>non est necesse ut attingere certo possit 
+          perso<lb break="no" ed="#P" n="48"/>nalem (ut sicdicam) sensum et mentem ejus,
+          <lb ed="#P" n="49"/>quia hoc neque in successore est necessarium;
+          <lb ed="#P" n="50"/>sed satis est ut possit definire ac statuere 
+          quo<lb break="no" ed="#P" n="51"/>modo talis lex accipienda sit et custodienda,
+          <lb ed="#P" n="52"/>quod melius potest facere per jurisdictionem
+          <lb ed="#P" n="53"/>superiorem quam per aequalem, ut constat.
+          <lb ed="#P" n="54"/>Superiorem enim voco non tantum in 
+          digni<lb break="no" ed="#P" n="55"/>tate vel extrinseca perfectione, sed in subordi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>natione et praelatione; quo modo jurisdictio
+          <lb ed="#P" n="57"/>regis est superior jurisdictione praefecti aut
+          <lb ed="#P" n="58"/>proregis , et jurisdictio Papae jurisdictione
+          <lb ed="#P" n="59"/>Episcopi ; non vero ita comparatur 
+          Archiepis<lb break="no" ed="#P" n="60"/>copus ad Episcopum, unde non potest sic 
+          in<lb break="no" ed="#P" n="61"/>terpretari legem ejus.
+        </p>
+        <p xml:id="szdleg-q00137-d1e294">
+          <lb ed="#P" n="62"/>3. Hanc interpretationem mon solum esse 
+          uu<lb break="no" ed="#P" n="63"/>dam declarationem, sed aliquando mutationem.
+          <lb ed="#P" n="64"/>— Quae requiruntur ut interpretatio dicatur
+          <lb ed="#P" n="65"/>authentica.— Unde etiam intelligitur 
+          frequen<lb break="no" ed="#P" n="66"/>ter contingere ut haec interpretatio non sit
+          <lb ed="#P" n="67"/>nuda declaratio sensus prioris legis, sed 
+          muta<lb break="no" ed="#P" n="68"/>tio etiam aliqua, vel addendo vel minuendo,
+          <lb ed="#P" n="69"/>quia totum hoc cadit sub potestatem ejus cujus
+          <lb ed="#P" n="70"/>auctoritate fit talis interpretatio, et potest esse
+          <lb ed="#P" n="71"/>ad commune bonum necessarium. Unde licet
+          <lb ed="#P" n="72"/>contingat interpretationem non videri omnino
+          <lb ed="#P" n="73"/>adaequatam proprietati verborum legis, non
+          <lb ed="#P" n="74"/>est dubitandum de auctoritate et efficacia 
+          in<lb break="no" ed="#P" n="75"/>terpretationis, quia cum auctor ejus possit 
+          ali<lb break="no" ed="#P" n="76"/>quam mutationem facere, saepe cum 
+          interpre<lb break="no" ed="#P" n="77"/>tatione illam miscet sub eodem 
+          interpretatio<lb break="no" ed="#P" n="78"/>nis nomine illam comprehendendo, fortasse
+          <lb ed="#P" n="79"/>per modestiam et comitatem, ut videre licet
+          <lb ed="#P" n="80"/>in cap. 4 de Juram. calum., et cap. unic. de
+          <lb ed="#P" n="81"/>Cleric. conjug., in 6, cum similibus. Denique
+          <lb ed="#P" n="82"/>observare oportet haec omnia intelligenda esse
+          <lb ed="#P" n="83"/>de lege quae directe fit ad interpretandum
+          <lb ed="#P" n="84"/>priorem. Saepe enim unam legem per aliam
+          <lb ed="#P" n="85"/>interpretamur, licet neutra ad hunc finem
+          <lb ed="#P" n="86"/>condita sit, sed ex certo sensu unius veriorem
+          <lb ed="#P" n="87"/>alterius sensum colligimus, aut conjectamus,
+          <lb ed="#P" n="88"/>vel propter consonantiam, vel propter 
+          verbo<lb break="no" ed="#P" n="89"/>rum usum, vel propter similitudinem rationis,
+          <lb ed="#P" n="90"/>aut aliquid simile: tunc autem interpretatio
+          <lb ed="#P" n="91"/>non est authentica, sed sub doctrinali 
+          com<lb break="no" ed="#P" n="92"/>prehenditur, quia non habet legisauctoritatem,
+          <lb ed="#P" n="93"/>ut per se constat. Ut ergo authentica sit 
+          inter<lb break="no" ed="#P" n="94"/>pretatio, oportet ut habeat omnes legis 
+          huma<lb break="no" ed="#P" n="95"/>nae conditiones, atque adeo ut sit justa, 
+          proce<lb break="no" ed="#P" n="96"/>dens a legitima potestate, sufficienter 
+          promul<lb break="no" ed="#P" n="97"/>gata, etc. Unde consequenter fit ut haec ipsamet
+          <lb ed="#P" n="98"/>lex humana interpretativa alterius exposita sit
+          <lb ed="#P" n="99"/>dubiis et obscuritatibus, ac subinde ut etiam
+          <lb ed="#P" n="100"/>propter illam aliae interpretationes necessariae
+          <lb ed="#P" n="101"/>sint. Ideoque observant doctores quod 
+          consti<lb break="no" ed="#P" n="102"/>tutio declarans aliam, in his quae non exprimit
+          <lb ed="#P" n="103"/>recipit omnes interpretationes quas constitutio
+          <lb ed="#P" n="104"/>declarata, ut sumitur ex Glossa in Clemen.
+          <lb ed="#P" n="105"/>Statun, verbo Consuetudo, de Electione, et in
+          <lb ed="#P" n="106"/>cap. Zs qui, verb. Vel electi, de Elect., in 6, et
+          <lb ed="#P" n="107"/>habetur expresse in Authentica de Filiis ante
+          <lb ed="#P" n="108"/>dotalia instrumenta natis, in fin., collat. 3,
+          <lb ed="#P" n="109"/>ubi id notant Glcss.-et Bart., et alii quos 
+          refe<lb break="no" ed="#P" n="110"/>runt Matienz. lib. 5 Recopil., t. 4, 1. 2, Glos.
+          <pb ed="#P" n="3"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>6, num. 10; Burg. de Paz., lib. 1 Tauri,
+          <lb ed="#P" n="2"/>num. 2388.
+        </p>
+        <p xml:id="szdleg-q00137-d1e411">
+          <lb ed="#P" n="3"/>4. Interpretationem ex usu sumptam 
+          inter<lb break="no" ed="#P" n="4"/>dum posse esse authenticam. — Secundo, 
+          di<lb break="no" ed="#P" n="5"/>cendum est multum valere interpretationem
+          <lb ed="#P" n="6"/>ex usu desumptam ad legis obligationem 
+          prae<lb break="no" ed="#P" n="7"/>scribendam, et interdum talem esse posse ut
+          <lb ed="#P" n="8"/>authentica sit et pro lege habenda. Haec 
+          asser<lb break="no" ed="#P" n="9"/>tio communis doctorum est, ut sumitur ex
+          <lb ed="#P" n="10"/>cap. Cum dilectus, de Consuetudine, quatenus
+          <lb ed="#P" n="11"/>in eo dicitur consuetudinem esse optimam 
+          le<lb break="no" ed="#P" n="12"/>gum interpretem, quod etiam habetur in 1.
+          <lb ed="#P" n="13"/>Si de interpretatione, ff. de Legibus. Pertinet
+          <lb ed="#P" n="14"/>antem ad materiam de consuetudine, et ideo
+          <lb ed="#P" n="15"/>illam prosequemur in cap. 7 libri sequentis ad
+          <lb ed="#P" n="16"/>finem.
+        </p>
+        <p xml:id="szdleg-q00137-d1e444">
+          <lb ed="#P" n="17"/>5. Aliquando necessaria est doctrinalis 
+          inter<lb break="no" ed="#P" n="18"/>pretatio in legibus humanis. — Tertio, 
+          dicen<lb break="no" ed="#P" n="19"/>dum est leges humanas etiam admittere 
+          doc<lb break="no" ed="#P" n="20"/>irinalem interpretationem, quae, licet per se
+          <lb ed="#P" n="21"/>non inducat obligationem quia non habet 
+          po<lb break="no" ed="#P" n="22"/>testatem introducendi legem, habet tamen
+          <lb ed="#P" n="23"/>suum auctoritatis gradum, qui potest 
+          inter<lb break="no" ed="#P" n="24"/>dum esse tam certus ut inducat necessitatem.
+          <lb ed="#P" n="25"/>Hoc totum adeo notum est ut probatione non
+          <lb ed="#P" n="26"/>indigeat; nam haec est humana conditio ut
+          <lb ed="#P" n="27"/>vix possit homo tam perspicuis verbis sensum
+          <lb ed="#P" n="28"/>suum explicare, quin ambiguitates et dubia
+          <lb ed="#P" n="29"/>nascantur, praesertim quia lex humana 
+          loqui<lb break="no" ed="#P" n="30"/>tur breviter et in generali, et in applicatione
+          <lb ed="#P" n="31"/>ejus ad varios casus in particulari oriuntur 
+          fre<lb break="no" ed="#P" n="32"/>quenter dubia, propter quae judicium 
+          pruden<lb break="no" ed="#P" n="33"/>tum et declaratio doctrinalis necessaria est.
+          <lb ed="#P" n="34"/>Denique ex hac necessitate orta est juris 
+          civi<lb break="no" ed="#P" n="35"/>lis peritia, cujus praecipuus finis est verum
+          <lb ed="#P" n="36"/>sensum veramque interpretationem legum
+          <lb ed="#P" n="37"/>humanarum tradere. Quod munus 
+          commen<lb break="no" ed="#P" n="38"/>datur in l. unic., cap. de Professoribus qui
+          <lb ed="#P" n="39"/>Constantin. lib. 12, quatenus honorari jubet
+          <lb ed="#P" n="40"/>eos qui illo munere probe utuntur.
+        </p>
+        <p xml:id="szdleg-q00137-d1e499">
+          <lb ed="#P" n="41"/>6. Convenientia interpretum magnam habet
+          <lb ed="#P" n="42"/>auctoritatem.—DbDe hac igitur interpretatione
+          <lb ed="#P" n="43"/>certum est non habere vim legis, quia non
+          <lb ed="#P" n="44"/>procedit a potestate jurisdictionis, sed a 
+          scien<lb break="no" ed="#P" n="45"/>tia et judicio prudentum, et ideo dicimus per
+          <lb ed="#P" n="46"/>se non inducere obligationem. Quia vero in
+          <lb ed="#P" n="47"/>omni arte judicium peritorum in illa magnam
+          <lb ed="#P" n="48"/>inducit probabilitatem, ideo etiam in hac 
+          le<lb break="no" ed="#P" n="49"/>gum humanarum interpretatione haec 
+          doctri<lb break="no" ed="#P" n="50"/>nalis interpretatio magnum habet auctoritatis
+          <lb ed="#P" n="51"/>pondus. In quo varii gradus esse possunt; nam
+          <lb ed="#P" n="52"/>Si in alicujus legis intelligentia omnes 
+          inter<lb break="no" ed="#P" n="53"/>pretes conveniant, faciunt humanam 
+          certitu<lb break="no" ed="#P" n="54"/>dinem, et regulariter loquendo etiam inducent
+          <lb ed="#P" n="55"/>obligationem servandi legem, et utendi illa in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>praxi juxta talem interpretationem ; tum quia
+          <lb ed="#P" n="57"/>tanta consensio doctorum indieat communem
+          <lb ed="#P" n="58"/>acceptationem et observantiam legis in illo
+          <lb ed="#P" n="59"/>sensu; tum etiam quia vix potest accidere ut
+          <lb ed="#P" n="60"/>contra communem omnium doctorum 
+          inter<lb break="no" ed="#P" n="61"/>pretationem tam efficax ratio occurrat, ut in
+          <lb ed="#P" n="62"/>conscientia reddat securam contrariam 
+          intel<lb break="no" ed="#P" n="63"/>ligentiam. At vero ubi variae sunt doctorum
+          <lb ed="#P" n="64"/>in terpretationes, juxta pondus rationum et
+          <lb ed="#P" n="65"/>doctorum auctoritatem judicandum est; 
+          oc<lb break="no" ed="#P" n="66"/>currebat hic disputatio de electione 
+          opinio<lb break="no" ed="#P" n="67"/>num , illa vero ad materiam de conscientia
+          <lb ed="#P" n="68"/>spectat.
+        </p>
+        <p xml:id="szdleg-q00137-d1e564">
+          <lb ed="#P" n="69"/>7. Tria notanda ut verius sensus legis 
+          colli<lb break="no" ed="#P" n="70"/>gatur. — Sed circa hanc interpretationem 
+          in<lb break="no" ed="#P" n="71"/>terrogari potest quibus principiis seu regulis
+          <lb ed="#P" n="72"/>utendum sit ad verum sensum et obligationem
+          <lb ed="#P" n="73"/>legis colligendam. In quo puncto latissime
+          <lb ed="#P" n="74"/>scribunt juris interpretes, quia proprie ad illos
+          <lb ed="#P" n="75"/>spectat ; quia vero etiam theologis aliqua 
+          di<lb break="no" ed="#P" n="76"/>rectio in legum ac canonum intelligentia 
+          ne<lb break="no" ed="#P" n="77"/>cessaria est, eam breviter comprehendemus.
+          <lb ed="#P" n="78"/>Tria igitur capita observanda sunt, quae supra
+          <lb ed="#P" n="79"/>tractando de forma legis distinximus, scilicet,
+          <lb ed="#P" n="80"/>verba legis quatenus significativa sunt, mens
+          <lb ed="#P" n="81"/>legislatoris, et ratio, et de singulis aliquid est
+          <lb ed="#P" n="82"/>dicendum, quoniam ex his omnibus pendet
+          <lb ed="#P" n="83"/>vera interpretatio legis. Circa verba dicendum
+          <lb ed="#P" n="84"/>est in omni lege humana primum omnium
+          <lb ed="#P" n="85"/>spectandam esse verborum proprietatem, id
+          <lb ed="#P" n="86"/>est, propriam significationem : nam ex illa
+          <lb ed="#P" n="87"/>maxime sumenda est vera interpretatio legis,
+          <lb ed="#P" n="88"/>semperque est praeferenda nisi aliquid obstet.
+          <lb ed="#P" n="89"/>Sic enim de testatore dicitur inl. Non aliter,
+          <lb ed="#P" n="90"/>ff. de Legat., non aliter a significatione 
+          ver<lb break="no" ed="#P" n="91"/>borum ejus recedi, quam cum manifestum est
+          <lb ed="#P" n="92"/>aliud ipsum sensisse ; ergo multo magis de
+          <lb ed="#P" n="93"/>verbis legislatoris idem asserendum est. Unde
+          <lb ed="#P" n="94"/>in 1. 4, 8 Si is quà navem, tf. de Exercitoria
+          <lb ed="#P" n="95"/>actione, dicitur in dubiis non esse recedendum
+          <lb ed="#P" n="96"/>a verlis edicti; et inl. Prospexit, ff. Qui eta
+          <lb ed="#P" n="97"/>quibus, verbis inhaerendum esse etiamsi res
+          <lb ed="#P" n="98"/>gravis esse videatur. Quod quidem (ait) perguam
+          <lb ed="#P" n="99"/>durum, est, sed ita lea scripta est. Hinc etiam
+          <lb ed="#P" n="100"/>in cap. 2, 8 Sed neque, de Translat. Episcop.,
+          <lb ed="#P" n="101"/>concessa cessione episcopatus non censetur
+          <lb ed="#P" n="102"/>concessa translatio. Et ratio redditur, nan si
+          <lb ed="#P" n="103"/>circa translutionem idem fieri voluasset quod de
+          <lb ed="#P" n="104"/>cessione diwerat, et de translatione poterat 
+          ex<lb break="no" ed="#P" n="105"/>pressisse; significans non esse recedendum a
+          <lb ed="#P" n="106"/>proprietate verborum, quoad fieri possit; 
+          si<lb break="no" ed="#P" n="107"/>milia habentur in cap. Ad audientiam, de
+          <lb ed="#P" n="108"/>Decim.
+        </p>
+        <p xml:id="szdleg-q00137-d1e653">
+          <lb ed="#P" n="109"/>8. Ratio vero clara est, quia verba in 
+          com<lb break="no" ed="#P" n="110"/>muni sermone usurpantur in propria signifi-
+          <pb ed="#P" n="4"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>catione; nam idcirco illam recipiunt ; ergo
+          <lb ed="#P" n="2"/>multo magis hoc intelligendum est servari in
+          <lb ed="#P" n="3"/>legibus, quia debent esse clarae et non 
+          exposi<lb break="no" ed="#P" n="4"/>tae circumventionibus et falsis 
+          interpretationi<lb break="no" ed="#P" n="5"/>bus; ut supra diximus. Unde confirmatur ab
+          <lb ed="#P" n="6"/>incommodo, quia alias nihil esset certum in
+          <lb ed="#P" n="7"/>legibus, neque per illas possent regulari 
+          actio<lb break="no" ed="#P" n="8"/>nes hominum, quia unusquisque posset suo
+          <lb ed="#P" n="9"/>arbitrio ad improprios sensus illas derivare.
+          <lb ed="#P" n="10"/>Confirmatur secundo, quia propter hanc 
+          regu<lb break="no" ed="#P" n="11"/>lam docent Patres verba Scripturae in proprio
+          <lb ed="#P" n="12"/>sensu esse accipienda, nisi ex circumstantiis
+          <lb ed="#P" n="13"/>vel aliis locis aliud constet, quod maxime 
+          ob<lb break="no" ed="#P" n="14"/>servandum est ubi dogmata fidei aut morum
+          <lb ed="#P" n="15"/>traduntur ; idem ergo est cum proportione in
+          <lb ed="#P" n="16"/>lege, quae est regula morum. Denique etiam
+          <lb ed="#P" n="17"/>dialectici dicunt analogum simpliciter 
+          sump<lb break="no" ed="#P" n="18"/>tum accipi pro principali significato ; verba
+          <lb ed="#P" n="19"/>autem, si praeter sensum proprium habere 
+          pos<lb break="no" ed="#P" n="20"/>sunt improprium, sunt quasi analoga, et in eis
+          <lb ed="#P" n="21"/>sensus proprius est quasi principale 
+          analoga<lb break="no" ed="#P" n="22"/>tum ; ergo absolute posita in lege accipienda
+          <lb ed="#P" n="23"/>sunt in proprio ac principali statu. Atque hanc
+          <lb ed="#P" n="24"/>regulam tradunt jurisperiti communiter , ut
+          <lb ed="#P" n="25"/>late refert Tiraquel. in l. Si unquam, S 
+          Li<lb break="no" ed="#P" n="26"/>bertis, num. 45 et sequentibus, et attingit
+          <lb ed="#P" n="27"/>breviter Constant. Rog., tract. de Jur. 
+          in<lb break="no" ed="#P" n="28"/>terpr., quaest. 2, num. 20. Quando autem vel
+          <lb ed="#P" n="29"/>quomodo haec regula deficiat, ex dicendis 
+          pa<lb break="no" ed="#P" n="30"/>tebit.
+        </p>
+        <p xml:id="szdleg-q00137-d1e730">
+          <lb ed="#P" n="31"/>9. Duplex verborum proprietas. — 
+          Signi<lb break="no" ed="#P" n="32"/>ficatio usualis ad naturalem vel civilem 
+          redu<lb break="no" ed="#P" n="33"/>cenda. est. — Observandum est autem in hoc
+          <lb ed="#P" n="34"/>puncto in verbis juris seu legum duplicem 
+          pro<lb break="no" ed="#P" n="35"/>prietatem solere distingui : unam naturalem
+          <lb ed="#P" n="36"/>vocant, aliam civilem. Prior non sic 
+          appella<lb break="no" ed="#P" n="37"/>tur quia significatio aliqua verborum legis fit
+          <lb ed="#P" n="38"/>a natura, constat enim omnia verba 
+          humana<lb break="no" ed="#P" n="39"/>rum legum ad placitum et ex impositione 
+          si<lb break="no" ed="#P" n="40"/>gnificare, sed quia quaedam significatio est ex
+          <lb ed="#P" n="41"/>simplici et primaeva verborum impositione, et
+          <lb ed="#P" n="42"/>in ea solent significari res prout vere ac 
+          na<lb break="no" ed="#P" n="43"/>turaliter sunt, sicut dictio mors significat 
+          na<lb break="no" ed="#P" n="44"/>turalem mortem. Significatio autem civilis 
+          di<lb break="no" ed="#P" n="45"/>citur quae est per extensionem, parificationem,
+          <lb ed="#P" n="46"/>vel fictionem juris, ut dictio mors significare
+          <lb ed="#P" n="47"/>solet civilem, qualis fit per religiosam 
+          profes<lb break="no" ed="#P" n="48"/>sionem, et filius adoptatus dicitur filius, et sic
+          <lb ed="#P" n="49"/>de aliis. Quibus addi posset tertia significatio,
+          <lb ed="#P" n="50"/>quae vocari potest usualis, quia est ab usu et
+          <lb ed="#P" n="51"/>consuetudine loquendi, quae magnam vim 
+          ha<lb break="no" ed="#P" n="52"/>bere solet in significatione vocum 
+          intepretan<lb break="no" ed="#P" n="53"/>da, adeo ut in legum expositione proprietati
+          <lb ed="#P" n="54"/>etiam verborum usus praeferendus sit, ut 
+          ju<lb break="no" ed="#P" n="55"/>risperiti cum Bart. docent n l. Non dubium,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>c. de Legibus, in l. Labeo, ft. de Suppellectile
+          <lb ed="#P" n="57"/>legata, et in l. 1, ff. de Suis et legitimis 
+          haere<lb break="no" ed="#P" n="58"/>dibus; Panormit. in Proocem. Decret., ubi 
+          la<lb break="no" ed="#P" n="59"/>tissime Felin. plurima congerit. Ne vero tot
+          <lb ed="#P" n="60"/>membra multiplicemus, hanc significationem
+          <lb ed="#P" n="61"/>ad duas praecedentes revocamus : nam si usus
+          <lb ed="#P" n="62"/>verbi sit communis totius populi in vulgari
+          <lb ed="#P" n="63"/>modo loquendi, jam illa significatio est facta
+          <lb ed="#P" n="64"/>magis propria magisque naturalis quam 
+          pri<lb break="no" ed="#P" n="65"/>maeva, quia usus habet vim derogandi 
+          institu<lb break="no" ed="#P" n="66"/>tionem et mutandi impositionem humanam.
+          <lb ed="#P" n="67"/>Si autem usus sit solius juris, talis significatio
+          <lb ed="#P" n="68"/>sub civili continetur.
+        </p>
+        <p xml:id="szdleg-q00137-d1e817">
+          <lb ed="#P" n="69"/>10. Quomodo regula tradita sit intelligenda.
+          <lb ed="#P" n="70"/>—Ahegula ergo proposita de priori proprietate
+          <lb ed="#P" n="71"/>est intelligenda per se loquendo, et nisi 
+          cir<lb break="no" ed="#P" n="72"/>cumstantiae occurrentes vel alia jura cogant
+          <lb ed="#P" n="73"/>extensionem vel limitationem facere,ut in 
+          se<lb break="no" ed="#P" n="74"/>quentibus prosequemur. Atque ita sumitur ex
+          <lb ed="#P" n="75"/>l. ult. cod. de His qui veniam aetatis, etc., ubi
+          <lb ed="#P" n="76"/>perfecta vel legitima aetas simpliciter dicta 
+          ac<lb break="no" ed="#P" n="77"/>cipi dicitur pro naturali, non pro illa que 
+          im<lb break="no" ed="#P" n="78"/>periali beneficio suppletur. Idem sumitur ex
+          <lb ed="#P" n="79"/>cap. Susceptum, de Rescript.. in 6, ubi id 
+          no<lb break="no" ed="#P" n="80"/>tat Glossa, verb. Non morte, citans alia jura,
+          <lb ed="#P" n="81"/>et latius Tiraq,, dicta l. Sà unguam, verb. 
+          Sus<lb break="no" ed="#P" n="82"/>ceperit, n. 11. Sed observandum circa hoc est
+          <lb ed="#P" n="83"/>regulam hanc potissimum habere locum in
+          <lb ed="#P" n="84"/>vocibus usualibus, ut sic dicam, quas leges
+          <lb ed="#P" n="85"/>seu jura accipiunt ex communi lege hominum;
+          <lb ed="#P" n="86"/>sunt vero aliae voces quae sunt propriae ipsius
+          <lb ed="#P" n="87"/>juris et ab ipso inventae, sicut unaquaeque ars
+          <lb ed="#P" n="88"/>propria habet vocabula quibus utitur, ut in
+          <lb ed="#P" n="89"/>jure canonico tales sunt vox censura, 
+          eacom<lb break="no" ed="#P" n="90"/>municatio, et similes; et in jure civili 
+          uwsuca<lb break="no" ed="#P" n="91"/>pio, praescriptio, et similes; in his ergo 
+          voci<lb break="no" ed="#P" n="92"/>bus significatio civilis seu secundum jus est
+          <lb ed="#P" n="93"/>significatio naturalis illarum ; nam est ex 
+          pri<lb break="no" ed="#P" n="94"/>maeva impositione, et res per talem vocem
+          <lb ed="#P" n="95"/>significata non habet aliam naturam nisi quam
+          <lb ed="#P" n="96"/>habet ex institutione juris, et ideo secundum
+          <lb ed="#P" n="97"/>eam significationem sunt tales voces in legibus
+          <lb ed="#P" n="98"/>accipiendae, et proprietas illarum ex jure 
+          su<lb break="no" ed="#P" n="99"/>menda est.
+        </p>
+        <p xml:id="szdleg-q00137-d1e887">
+          <lb ed="#P" n="100"/>11. Quando vox habeat plures significationes
+          <lb ed="#P" n="101"/>quid faciendum.—Sed quid si vox habeat 
+          plu<lb break="no" ed="#P" n="102"/>res significationes proprias in naturali 
+          proprie<lb break="no" ed="#P" n="103"/>tate ? Respondeo tunc utendum esse regula
+          <lb ed="#P" n="104"/>quae in omnibus sermonibus ambiguis seu
+          <lb ed="#P" n="105"/>aequivocis prudenter observari solet, videlicet,
+          <lb ed="#P" n="106"/>ut legis materia aliaeque circumstantiae attente
+          <lb ed="#P" n="107"/>ponderentur ; nam ex illis determinabitur 
+          fa<lb break="no" ed="#P" n="108"/>cile verborum significatio. Maxime vero legis
+          <lb ed="#P" n="109"/>initium considerare et cum illo sequentia 
+          con<lb break="no" ed="#P" n="110"/>jungere necesse est, quia ad illud debent trahi
+          <pb ed="#P" n="5"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sequentia, nisi aliquid obstet. Nam in 
+          prooe<lb break="no" ed="#P" n="2"/>mio constistutionis solet causa finalis et 
+          prin<lb break="no" ed="#P" n="3"/>cipaliter movens contineri, et ideo illud 
+          maxi<lb break="no" ed="#P" n="4"/>me spectandum est ad legis intelligentiam, ut
+          <lb ed="#P" n="5"/>communiter tradunt jurisperiti quos late 
+          re<lb break="no" ed="#P" n="6"/>fert Tiraq. in tract. Cessante causa, limitat. 1,
+          <lb ed="#P" n="7"/>n. 64 et 65; et Molina l. 1 de Primogen., c. 5,
+          <lb ed="#P" n="8"/>a n. 3; et Gutier. in Practicis, 1. 3, quaest. 17,
+          <lb ed="#P" n="9"/>n. 90. Unde etiam in contractibus initium et
+          <lb ed="#P" n="10"/>causa spectantur, l. Si procuratorem, in princ.,
+          <lb ed="#P" n="11"/>ff. Mandati; ergo multo magis in legibus 
+          obser<lb break="no" ed="#P" n="12"/>vandum est initium ut ad illud caetera 
+          accom<lb break="no" ed="#P" n="13"/>modentur. Quin potius additur in1.24, ff. 
+          deLe<lb break="no" ed="#P" n="14"/>gibus, incivile esse, nisi tota lege perspecta, una
+          <lb ed="#P" n="15"/>aliqua ejus particula proposita, judicare. 
+          Tta<lb break="no" ed="#P" n="16"/>que ex antecedentibus et consequentibus cum
+          <lb ed="#P" n="17"/>materia et aliis circumstantiis determinanda
+          <lb ed="#P" n="18"/>est aequivoca verbi significatio. Quod si verba
+          <lb ed="#P" n="19"/>legis adeo essent aequivoca ut neque ex 
+          ante<lb break="no" ed="#P" n="20"/>cedentibus, neque ex subsequentibus, nec ex
+          <lb ed="#P" n="21"/>materia aut ratione legis constare posset 
+          defi<lb break="no" ed="#P" n="22"/>nitus sensus ejus, illa non esset lex, quia non
+          <lb ed="#P" n="23"/>solum non esset clara, verum etiam neque
+          <lb ed="#P" n="24"/>mentem legislatoris satis significaret. Vix 
+          au<lb break="no" ed="#P" n="25"/>tem fieri potest quin altera significatio sit rei
+          <lb ed="#P" n="26"/>de qua tractatur magis accommodata, et illa
+          <lb ed="#P" n="27"/>ferenda est juxta regulam legis 68, ff. de
+          <lb ed="#P" n="28"/>Regulis juris : Quoties idem sermo duas 
+          sen<lb break="no" ed="#P" n="29"/>Ltentias exprimit , ea potissimum accipietur
+          <lb ed="#P" n="30"/>quae rei gerende aptior est. Idem a simili 
+          su<lb break="no" ed="#P" n="31"/>mitur ex l. S servcus pluriwm, S ult., ff. de 
+          Le<lb break="no" ed="#P" n="32"/>gat. 1.
+        </p>
+        <p xml:id="szdleg-q00137-d1e987">
+          <lb ed="#P" n="33"/>12. Quid circa intentionem considerandum
+          <lb ed="#P" n="34"/>legislatoris. — Circa intentionem seu mentem
+          <lb ed="#P" n="35"/>legislatoris considerandum est ab illa 
+          potissi<lb break="no" ed="#P" n="36"/>mum pendere tam substantiam quam 
+          effica<lb break="no" ed="#P" n="37"/>ciam legis, quia, ut probatum est in l. 3, mens
+          <lb ed="#P" n="38"/>legislatoris est anima legis, unde sicut in 
+          vi<lb break="no" ed="#P" n="39"/>vente substantia et operatio vitae ab anima
+          <lb ed="#P" n="40"/>maxime pendet, ita in lege a mente 
+          legislato<lb break="no" ed="#P" n="41"/>ris. Illa est ergo vera interpretatio legis per
+          <lb ed="#P" n="42"/>quam mentem et voluntatem legislatoris 
+          asse<lb break="no" ed="#P" n="43"/>quimur, et ideo quacumque ratione de mente
+          <lb ed="#P" n="44"/>legislatoris constare possit, secundum illam
+          <lb ed="#P" n="45"/>maxime erit lex interpretanda. Quod potest
+          <lb ed="#P" n="46"/>confirmari ex principio generali, quod ex Greg.
+          <lb ed="#P" n="47"/>traditur in cap. Humanae aures, 22, q. 5: Non
+          <lb ed="#P" n="48"/>debet aliquis verba considerare, utique nuda,
+          <lb ed="#P" n="49"/>sed intentionem et voluntatem, quia non debet
+          <lb ed="#P" n="50"/>intentio verbis deservire, sed verba intentioni.
+          <lb ed="#P" n="51"/>Quae verba non inveniuntur in Gregor., sed
+          <lb ed="#P" n="52"/>sunt Coelestini, ut infra videbimus. Denique
+          <lb ed="#P" n="53"/>confirmatur ex usu jurium, considerantium
+          <lb ed="#P" n="54"/>utique mentes legislatorum, cap. S postquam,
+          <lb ed="#P" n="55"/>de Electione, in 6, ibi : Ea sui mente eci-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>git, etc., et in c. Secundo requiris, de Appel.,
+          <lb ed="#P" n="57"/>ex intentione legislatoris verba extenduntur,
+          <lb ed="#P" n="58"/>quia verba intentioni deserviunt, ut ibi 
+          allega<lb break="no" ed="#P" n="59"/>tur. Sic etiam inl. Cum mulier, ff. Solut. matr.,
+          <lb ed="#P" n="60"/>ex mente legis negatur marito propter 
+          lenoci<lb break="no" ed="#P" n="61"/>nium accusatio uxoris de adulterio. Idem 
+          pro<lb break="no" ed="#P" n="62"/>batur optime ex l. Scire etiam, S Aliud, ff. de
+          <lb ed="#P" n="63"/>Excusat. tutorum, ibi: Sed etsi mawime verba
+          <lb ed="#P" n="64"/>legis hunc habebant intellectum, tamen mens
+          <lb ed="#P" n="65"/>legislatoris aliud vult. Simile etiam de 
+          Testa<lb break="no" ed="#P" n="66"/>mentis dicitur in l. Non aliter, in princ., ff. de
+          <lb ed="#P" n="67"/>Leg. 3.
+        </p>
+        <p xml:id="szdleg-q00137-d1e1068">
+          <lb ed="#P" n="68"/>13. Quaeret vero aliquis qui possit fieri ut
+          <lb ed="#P" n="69"/>mens praeter verba aliquid conterat ad legem
+          <lb ed="#P" n="70"/>interpretandam, quia homines non possunt
+          <lb ed="#P" n="71"/>mentem alterius hominis percipere, nisi ex
+          <lb ed="#P" n="72"/>verbis ejus ; nam, ut Gregorius dicit, 26 Moral.
+          <lb ed="#P" n="73"/>et infertur in dict. cap. Humana aures, initio:
+          <lb ed="#P" n="74"/>Apud homines cor verbis, apud Dewm vero 
+          ver<lb break="no" ed="#P" n="75"/>ba pensantur ex corde; hic autem agimus de
+          <lb ed="#P" n="76"/>humano judicio et intelligentia, quomodo ergo
+          <lb ed="#P" n="77"/>potest sensus legis, quae in verbis consistit, ex
+          <lb ed="#P" n="78"/>mente sumi, cum ipsa mens per verba tantum
+          <lb ed="#P" n="79"/>nobis possit innotescere ? Et confirmatur :
+          <lb ed="#P" n="80"/>nam si legislator per verba legis suam 
+          men<lb break="no" ed="#P" n="81"/>tem non declaret, non constitueretur lex, nec
+          <lb ed="#P" n="82"/>oriretur obligatio, etiamsi ex aliis conjecturis
+          <lb ed="#P" n="83"/>possemus aliquo modo voluntatem legislatoris
+          <lb ed="#P" n="84"/>cognoscere, quia (ut supra dictum est) lex non
+          <lb ed="#P" n="85"/>constituitur voluntate principis, nisi per verba
+          <lb ed="#P" n="86"/>legis sufficienter extet expressa, quia voluntas
+          <lb ed="#P" n="87"/>sola non sufficit per se ad obligandum, nec
+          <lb ed="#P" n="88"/>etiam est satis quod aliunde privatim 
+          innotes<lb break="no" ed="#P" n="89"/>cat, sed necesse est ut in ipsa lege sufficienter
+          <lb ed="#P" n="90"/>contineatur : ergo non possumus e contrario
+          <lb ed="#P" n="91"/>per voluntatem cognoscere verborum sensum.
+        </p>
+        <p xml:id="szdleg-q00137-d1e1123">
+          <lb ed="#P" n="92"/>14. Quomodo mens legislatoris potest esse 
+          ve<lb break="no" ed="#P" n="93"/>gula interpretandi.—Ad interrogationem 
+          res<lb break="no" ed="#P" n="94"/>pondetur, cum dicimus mentem legislatoris
+          <lb ed="#P" n="95"/>deservire ad interpretandam legem, non esse
+          <lb ed="#P" n="96"/>sensum, ipsam voluntatem legislatoris mere
+          <lb ed="#P" n="97"/>internam vel secundum se spectatam esse
+          <lb ed="#P" n="98"/>posse regulam interpretandi legem; contra
+          <lb ed="#P" n="99"/>hunc enim sensum recte procedunt objectiones
+          <lb ed="#P" n="100"/>factae ; sed sensus est verba nude sumpta saepe
+          <lb ed="#P" n="101"/>esse ambigua et ex variis intentionibus ac 
+          vo<lb break="no" ed="#P" n="102"/>Iuntatibus posse procedere, et ideo ex 
+          adjunc<lb break="no" ed="#P" n="103"/>tis, id est, ex materia aut circumstantiis 
+          pru<lb break="no" ed="#P" n="104"/>denter pensandum esse ex qua voluntate et 
+          in<lb break="no" ed="#P" n="105"/>tentione processerint, et tunc ad intentionem
+          <lb ed="#P" n="106"/>legislatoris accommodandam esse verborum
+          <lb ed="#P" n="107"/>significationem et interpretationem. Ita 
+          sumi<lb break="no" ed="#P" n="108"/>tur ex sententia Hilarii, l. 4 de Trinitat., 
+          di<lb break="no" ed="#P" n="109"/>cente : Zntelligentia dictorum eu causis est 
+          as<lb break="no" ed="#P" n="110"/>sumenda dicendi, quia non sermoni res, sed ei
+          <pb ed="#P" n="6"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est sermo subjectus, cap. Intelligentia, de Verb.
+          <lb ed="#P" n="2"/>significat. Verum est igitur homines judicare
+          <lb ed="#P" n="3"/>de mente loquentis ex verbis, non tamen ex illis
+          <lb ed="#P" n="4"/>nude et abstracte sumptis, sed ut conjunctis
+          <lb ed="#P" n="5"/>omnibus circumstantiis a quibus determinari
+          <lb ed="#P" n="6"/>possunt ad hanc intentionem potius quam
+          <lb ed="#P" n="7"/>aliam indicandam : unde ad confirmationem
+          <lb ed="#P" n="8"/>fatemur legem non constitui per internam 
+          vo<lb break="no" ed="#P" n="9"/>luntatem, nisi in lege ipsa sufficienter 
+          manifes<lb break="no" ed="#P" n="10"/>tetur, ut probat ratio facta. Nihilominus 
+          ta<lb break="no" ed="#P" n="11"/>men, ut verba legis sufficienter indicent 
+          inten<lb break="no" ed="#P" n="12"/>tionem et voluntatem legislatoris , non est
+          <lb ed="#P" n="13"/>necesse ut abstracte et nude sumpta illam 
+          in<lb break="no" ed="#P" n="14"/>dicent, sed possunt ac debent ex omnibus 
+          ad<lb break="no" ed="#P" n="15"/>junctis determinari.
+        </p>
+        <p xml:id="szdleg-q00137-d1e1205">
+          <lb ed="#P" n="16"/>15. Secundo, interrogari hic potest an mens
+          <lb ed="#P" n="17"/>legislatoris plus conferat ad veram 
+          interpreta<lb break="no" ed="#P" n="18"/>tionem legis quam verba, vel e converso. Nam
+          <lb ed="#P" n="19"/>ex dictis videtur sequi plus menti esse 
+          tribuen<lb break="no" ed="#P" n="20"/>dum quam verbis, quia mens est praecipuum
+          <lb ed="#P" n="21"/>in lege, nam est vita ejus. Item, propter quod
+          <lb ed="#P" n="22"/>unumquodque tale, et illud magis; sed verba
+          <lb ed="#P" n="23"/>sunt propter mentem, et non e contrario; 
+          er<lb break="no" ed="#P" n="24"/>go praeferenda est mens verbis. Unde in cap.
+          <lb ed="#P" n="25"/>In his, de Verb. significat., dicitur : Non 
+          de<lb break="no" ed="#P" n="26"/>bet aliquis considerare verba sed voluntatem,
+          <lb ed="#P" n="27"/>cum non intentio verbis, sed verba intentioni 
+          de<lb break="no" ed="#P" n="28"/>beant deservire. In contrarium vero facit, quia,
+          <lb ed="#P" n="29"/>licet ordine intentionis mens sit prior verbis,
+          <lb ed="#P" n="30"/>sic enim dicuntur verba esse propter mentem,
+          <lb ed="#P" n="31"/>quia ad illam indicandam instituta sunt, 
+          nihi<lb break="no" ed="#P" n="32"/>lominus ordine executionis seu in genere 
+          cau<lb break="no" ed="#P" n="33"/>sae instrumentalis priora sunt verba ; nam per
+          <lb ed="#P" n="34"/>illa devenimusin cognitionem ments et 
+          volun<lb break="no" ed="#P" n="35"/>tatis legislatoris; ergo praeferenda est 
+          verbo<lb break="no" ed="#P" n="36"/>rum vis in legis interpretatione. Et 
+          confirma<lb break="no" ed="#P" n="37"/>tur; nam illud est praeferendum quod certius
+          <lb ed="#P" n="38"/>est; sed verborum proprietas est certa et clara:
+          <lb ed="#P" n="39"/>mens autem legislatoris solum per conjecturas
+          <lb ed="#P" n="40"/>cognoscitur, in quibus saepe homines 
+          fallun<lb break="no" ed="#P" n="41"/>tur ; ergo praeferenda sunt verba per se 
+          lo<lb break="no" ed="#P" n="42"/>quendo, vel saltem regulariter. Quod 
+          vide<lb break="no" ed="#P" n="43"/>tur sentire Tiraquel. in dict. l. Si unquam,
+          <lb ed="#P" n="44"/>verb. Libertis, n. 23 cum Bald., in cap. Licet,
+          <lb ed="#P" n="45"/>de Elect.
+        </p>
+        <p xml:id="szdleg-q00137-d1e1273">
+          <lb ed="#P" n="46"/>16. Quo sensu verba sunt signa voluntatis
+          <lb ed="#P" n="47"/>Iggislatoris. — Interdum proprietas verborum
+          <lb ed="#P" n="48"/>relinquenda, ut mens legislatoris investigetur.
+          <lb ed="#P" n="49"/>— Respondeo hanc comparationem non posse
+          <lb ed="#P" n="50"/>fieri inter verba legis et voluntatem 
+          legislato<lb break="no" ed="#P" n="51"/>ris, ut in se est mere interna, cum voluntas non
+          <lb ed="#P" n="52"/>hoc modo cognoscatur, neque ut sic deservire
+          <lb ed="#P" n="53"/>possit ad intelligendam legem. Potest ergo fieri
+          <lb ed="#P" n="54"/>comparatio vel inter verba ex una parte, et
+          <lb ed="#P" n="55"/>alias conjecturas quibus mentem legislatoris
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>indagamus ex alia, vel inter vim et 
+          proprieta<lb break="no" ed="#P" n="57"/>tem verborum, et mentem legislatoris 
+          sufficien<lb break="no" ed="#P" n="58"/>ter conjectatam per varia signa simul sumpta.
+          <lb ed="#P" n="59"/>Priori ergo modo dicendum videtur verba per
+          <lb ed="#P" n="60"/>se loquendo esse potissimum signum voluntatis
+          <lb ed="#P" n="61"/>legislatoris, et illo maxime ntendum esse ad
+          <lb ed="#P" n="62"/>mentem legis perspiciendam, non tamen illo
+          <lb ed="#P" n="63"/>solo, sed simul cum aliis a quibus interdum
+          <lb ed="#P" n="64"/>vinci ac superari potest. Primum horum 
+          in<lb break="no" ed="#P" n="65"/>tendunt doctores allegati, et constat, quia 
+          signi<lb break="no" ed="#P" n="66"/>ficatio verborum est magis expressa et certa,
+          <lb ed="#P" n="67"/>item quia verba sunt quae ex intentione 
+          legis<lb break="no" ed="#P" n="68"/>latoris potissimum assumuntur ad 
+          declaran<lb break="no" ed="#P" n="69"/>dam voluntatem suam ; ergo illa etiam primo
+          <lb ed="#P" n="70"/>ac principaliter consuli debent ad eamdem 
+          vo<lb break="no" ed="#P" n="71"/>luntatem cognoscendam. Altera vero pars 
+          suf<lb break="no" ed="#P" n="72"/>ficienter probata est in principal regula et in
+          <lb ed="#P" n="73"/>declaratione praecedentis dubitationis. Unde
+          <lb ed="#P" n="74"/>constat, in secundo sensu comparationis, 
+          men<lb break="no" ed="#P" n="75"/>tem legis, utcumque sufficienter cognita sit,
+          <lb ed="#P" n="76"/>esse verbis praeferendam, quod satis probant
+          <lb ed="#P" n="77"/>rationes priori loco factae. Probatur etiam ex
+          <lb ed="#P" n="78"/>l. Von dubiwmn, c. de Legibus, dicente contra
+          <lb ed="#P" n="79"/>legem agere quà per occasionem verborum contra,
+          <lb ed="#P" n="80"/>legis nititur voluntatem ; est ergo voluntas 
+          ver<lb break="no" ed="#P" n="81"/>bis praeferenda. Item in 1. Nominis, de Verb.
+          <lb ed="#P" n="82"/>signific., dicitur ex lege esse, tum quod est ex
+          <lb ed="#P" n="83"/>sententia legis quam quod exm verbis, ubi Gloss.
+          <lb ed="#P" n="84"/>exponit: Tam quod est ex sententia preter verba
+          <lb ed="#P" n="85"/>quam quod est ex verlis et sententia ; nam quod
+          <lb ed="#P" n="86"/>est ex verbis sine sententia non est lex, ut 
+          vi<lb break="no" ed="#P" n="87"/>sum est. Hoc denique modo dicitur in dict. 1.
+          <lb ed="#P" n="88"/>Non aliter, ff. de Legat. 3, a verbis legis 
+          re<lb break="no" ed="#P" n="89"/>cedi, ubi de mente legislatoris constat. Dicimur
+          <lb ed="#P" n="90"/>autem a verbis legis recedere, quando illa 
+          ex<lb break="no" ed="#P" n="91"/>tendimus, vel restringimus, vel multo magis
+          <lb ed="#P" n="92"/>quando a proprietate verborum aliquantulum
+          <lb ed="#P" n="93"/>recedimus, quod etiam facere licet, quando
+          <lb ed="#P" n="94"/>necessarium est ut a mente legislatoris non
+          <lb ed="#P" n="95"/>recedamus, quia tunc verba revera non 
+          signi<lb break="no" ed="#P" n="96"/>ficant voluntatem legislatoris secundum suam
+          <lb ed="#P" n="97"/>proprietatem, sed secundum aliquam 
+          transla<lb break="no" ed="#P" n="98"/>tionem ; unde est illud Gregor. in cap. 
+          Pre<lb break="no" ed="#P" n="99"/>terea, de Verb. signific.: Plerumque dum 
+          pro<lb break="no" ed="#P" n="100"/>prietas verborum alttenditur, sensus veritatis
+          <lb ed="#P" n="101"/>amttitur.
+        </p>
+        <p xml:id="szdleg-q00137-d1e1399">
+          <lb ed="#P" n="102"/>17. Quibus modis mens legislatoris 
+          inda<lb break="no" ed="#P" n="103"/>ganda. — Tandem vero interrogari potest 
+          qui<lb break="no" ed="#P" n="104"/>bus modis vel conjecturis utendum sit ad
+          <lb ed="#P" n="105"/>mentem legislatoris indagandam praeter 
+          nu<lb break="no" ed="#P" n="106"/>dam vim verborum. Respondeo multa assignari
+          <lb ed="#P" n="107"/>a jurisperitis ; praecipua vero capita sunt haec:
+          <lb ed="#P" n="108"/>Primo, materia legis; nam illi maxime debent
+          <lb ed="#P" n="109"/>verba deservire, juxta sententiam Gregorii 
+          su<lb break="no" ed="#P" n="110"/>pra citatam. Sic in cap. 2 de Translat. Episc.,
+          <pb ed="#P" n="7"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>§ Sed neque, exponitur Ecclesiam dici 
+          vidua<lb break="no" ed="#P" n="2"/>tam, etiamsi habeat Episcopum non 
+          consecra<lb break="no" ed="#P" n="3"/>tum vel inutilem, quia materia talem sensum
+          <lb ed="#P" n="4"/>postulabat. Sic etiam in l. S vere, ff. Locati,
+          <lb ed="#P" n="5"/>verbum donationis per verbum translationis
+          <lb ed="#P" n="6"/>exponitur, materia exigente. Secundo, quoties
+          <lb ed="#P" n="7"/>verborum proprietas induceret injustitiam, vel
+          <lb ed="#P" n="8"/>similem absurditatem circa mentem 
+          legisla<lb break="no" ed="#P" n="9"/>toris, trahenda sunt verba ad sensum etiam
+          <lb ed="#P" n="10"/>improprium in quo lex sit justa et 
+          rationabi<lb break="no" ed="#P" n="11"/>lis, quia haec praesumitur esse mens 
+          legislato<lb break="no" ed="#P" n="12"/>ris, ut multis juribus declaratum est in tit. de
+          <lb ed="#P" n="13"/>Legib., ff. Et in eis ratio ostenditur. Nam in
+          <lb ed="#P" n="14"/>l. 18 dicitur : Benignius leges interpretandae
+          <lb ed="#P" n="15"/>sunt, quo voluntas earum conservetur. Ergo si
+          <lb ed="#P" n="16"/>necessaria sit etiam impropria interpretatio
+          <lb ed="#P" n="17"/>ut voluntas sit vel praesumatur justa, in eo
+          <lb ed="#P" n="18"/>sensu accipienda est lex, quia alias non 
+          con<lb break="no" ed="#P" n="19"/>servabitur voluntas legislatoris, cum lex 
+          in<lb break="no" ed="#P" n="20"/>justa non sit lex. Et in l. 19 additur: /n 
+          am<lb break="no" ed="#P" n="21"/>bigua voce legis ea potius accipienda est 
+          signi<lb break="no" ed="#P" n="22"/>ficatio, quae vitio caret, presertim cum voluntas
+          <lb ed="#P" n="23"/>legis em hoc colligi possit; quia nimirum sine
+          <lb ed="#P" n="24"/>vitio esse praesumenda est. Quod habet verum
+          <lb ed="#P" n="25"/>etiamsi illa ambiguitas sit per analogiam vel
+          <lb ed="#P" n="26"/>improprietatem, et idem sumitur ex l. Nulla
+          <lb ed="#P" n="27"/>Juris ratio, eodem.
+        </p>
+        <p xml:id="szdleg-q00137-d1e1484">
+          <lb ed="#P" n="28"/>15. Semper aliqua proprietas verborum 
+          ser<lb break="no" ed="#P" n="29"/>canda.— Tertio, ex comparatione ad alia jura
+          <lb ed="#P" n="30"/>potest indagari mens legislatoris in aliqua lege,
+          <lb ed="#P" n="31"/>etiam praeter vim et proprietatem verborum
+          <lb ed="#P" n="32"/>ejus, idque dupliciter : primo, ex 
+          repugnan<lb break="no" ed="#P" n="33"/>tia et contrarietate aliarum legum quae 
+          orire<lb break="no" ed="#P" n="34"/>tur in uno verborum sensu, et vitatur in alio;
+          <lb ed="#P" n="35"/>tunc enim interpretamur mentem legislatoris
+          <lb ed="#P" n="36"/>non fuisse derogare superioribus legibus aut
+          <lb ed="#P" n="37"/>illas corrigcre, et ideo usum fuisse verbis in ea
+          <lb ed="#P" n="38"/>significatione quae cum aliis juribus stare 
+          pos<lb break="no" ed="#P" n="39"/>sit; quia non receditur a jure antiquo, nisi
+          <lb ed="#P" n="40"/>quatenus in novo exprimitur, 1. Precipimus,
+          <lb ed="#P" n="41"/>in fin., c. de Appellat., et notat Gloss. in cap.
+          <lb ed="#P" n="42"/>Cupientes, S Quod si, verb. Petere, de Elect.,
+          <lb ed="#P" n="43"/>in 6; correctio enim et mutatio legis odiosa
+          <lb ed="#P" n="44"/>est et de se non admittitur, nisi ubi omnino
+          <lb ed="#P" n="45"/>vitari non potest. Unde addunt jurisperiti 
+          vi<lb break="no" ed="#P" n="46"/>tandam esse etiamsi opus sit verba posterioris
+          <lb ed="#P" n="47"/>legis minus proprie interpretari. (Vide Gutier.
+          <lb ed="#P" n="48"/>in Pract., l. 3, q. 15, a. 24 et 25). Ka docent
+          <lb ed="#P" n="49"/>Anton. de Butr. in cap. Cum dilectus, de 
+          Con<lb break="no" ed="#P" n="50"/>suet., n. 15, et ibi Imol., n. 12; et Felin. in
+          <lb ed="#P" n="51"/>cap. Non potest, de Re judic., n. 8, S Limita
+          <lb ed="#P" n="52"/>dupliciter, cum Panorm. in cap. Cum olim, de
+          <lb ed="#P" n="53"/>Re judic., in fin., qui ad hoc etiam inducit
+          <lb ed="#P" n="54"/>Gloss. ult. interpretantem illum textum juxta
+          <lb ed="#P" n="55"/>hanc regulam. Nam cum textus ille requirat
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>concordiam eligentium, et concordia in rigore
+          <lb ed="#P" n="57"/>significare videatur ut nullus discrepet, 
+          nihi<lb break="no" ed="#P" n="58"/>lominus sufficere censet ut fiat majori parte
+          <lb ed="#P" n="59"/>consentiente ; nam haec est concordia juridica
+          <lb ed="#P" n="60"/>de qua intelligenda est illa lex, cum non 
+          de<lb break="no" ed="#P" n="61"/>claret se velle communi juri derogare. Unde
+          <lb ed="#P" n="62"/>colligo ita licere ob eam causam verba legis
+          <lb ed="#P" n="63"/>improprie interpretari, ut tamen servetur 
+          ali<lb break="no" ed="#P" n="64"/>qua proprietas verborum , saltem secundum
+          <lb ed="#P" n="65"/>consuetudinem juris, ut in exemplo adducto
+          <lb ed="#P" n="66"/>constat, et idem invenitur in aliis quae afferri
+          <lb ed="#P" n="67"/>solent. Estque valde consentaneum rationi,
+          <lb ed="#P" n="68"/>quia esto non semper legislatores loquantur
+          <lb ed="#P" n="69"/>juxta naturalem proprietatem verborum, 
+          sem<lb break="no" ed="#P" n="70"/>per tamen videntur loqui saltem secundum
+          <lb ed="#P" n="71"/>aliquam juris proprietatem aut 
+          consuetudi<lb break="no" ed="#P" n="72"/>nem, quando materia aliud non postulat. 
+          Ne<lb break="no" ed="#P" n="73"/>que major extensio videtur admittenda, ne
+          <lb ed="#P" n="74"/>detur occasio et licentia corrumpendi jura,
+          <lb ed="#P" n="75"/>quod est majus incommodum quam admittere
+          <lb ed="#P" n="76"/>aliquam juris correctionem. Altera via 
+          colli<lb break="no" ed="#P" n="77"/>gendi mentem legislatoris per comparationem
+          <lb ed="#P" n="78"/>ad alia jura est per concordiam. Ubi enim
+          <lb ed="#P" n="79"/>conveniens sensus legislatoris sumi non potest
+          <lb ed="#P" n="80"/>ex verbis in rigore ac naturali proprietate
+          <lb ed="#P" n="81"/>sumptis, et alia significatio suppetit in qua
+          <lb ed="#P" n="82"/>sensum accommodatum reddunt, multum 
+          ju<lb break="no" ed="#P" n="83"/>vabit si talis significatio verborum 
+          consenta<lb break="no" ed="#P" n="84"/>nea sit aliis juribus, in quibus similia verba in
+          <lb ed="#P" n="85"/>illo sensu accipiuntur vel aequiparantur: tunc
+          <lb ed="#P" n="86"/>enim valde probabilis fit talis interpretatio ex
+          <lb ed="#P" n="87"/>mente legislatoris, quia secundum jus loqui
+          <lb ed="#P" n="88"/>praesumitur. Et hoc maxime habet locum
+          <lb ed="#P" n="89"/>quando talis interpretatio benigna est et 
+          nul<lb break="no" ed="#P" n="90"/>lum aliud habet incommodum; nam 
+          beni<lb break="no" ed="#P" n="91"/>gna interpretatio legis, caeteris paribus, 
+          prae<lb break="no" ed="#P" n="92"/>ferenda est, juxta leg. Benignius, ff. de 
+          Legi<lb break="no" ed="#P" n="93"/>bus.
+        </p>
+        <p xml:id="szdleg-q00137-d1e1632">
+          <lb ed="#P" n="94"/>19. BHatio legis valde conducit ad mentem 
+          le<lb break="no" ed="#P" n="95"/>gislatoris indagandam. — Ultimo circa 
+          ratio<lb break="no" ed="#P" n="96"/>nem legis addendum est illam quidem non
+          <lb ed="#P" n="97"/>sufficienter continere mentem legislatoris ; si
+          <lb ed="#P" n="98"/>tamen de illa constet multum valere ad 
+          eam<lb break="no" ed="#P" n="99"/>dem mentem legislatoris investigandam. lIta
+          <lb ed="#P" n="100"/>docuit Bald. in cap. Zicet , de Elect., et Decius
+          <lb ed="#P" n="101"/>in cap. Secundo requiris, de Appell., et plures
+          <lb ed="#P" n="102"/>alii apud Tiraq., in dict. 1. Si unguam, § 
+          Li<lb break="no" ed="#P" n="103"/>bertis, n. 23, et prior pars constat , tum quia
+          <lb ed="#P" n="104"/>ratiolegis non est textus legis, tum etiam quia
+          <lb ed="#P" n="105"/>multa per legem humanam statuuntur arbitrio
+          <lb ed="#P" n="106"/>potius quam certa ratione:, et ideo non omnium
+          <lb ed="#P" n="107"/>quae per leges statuumtur, vatio reddi potest, ut
+          <lb ed="#P" n="108"/>dicitur in l. Non omuium, de Legibus. 
+          Quam<lb break="no" ed="#P" n="109"/>vis enim lex semper sit rationi consentanea,
+          <lb ed="#P" n="110"/>nihilominus electio inter ea quae rationabilia
+          <pb ed="#P" n="8"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sunt saepe non habet rationem, et ideo non
+          <lb ed="#P" n="2"/>semper est investiganda, ut dicitur in l. Ft
+          <lb ed="#P" n="3"/>ideo, ff. eodem ; ergo sola ratio legis non 
+          con<lb break="no" ed="#P" n="4"/>tinet legislatoris voluntatem, quia pro suo 
+          ar<lb break="no" ed="#P" n="5"/>bitrio potuit non in omnibus illi conformari,
+          <lb ed="#P" n="6"/>sed solum quatenus voluit et suis verbis 
+          expli<lb break="no" ed="#P" n="7"/>cavit. Unde intulit Bald. supra, majoris 
+          mo<lb break="no" ed="#P" n="8"/>menti esse verba quam rationem, etiam 
+          magis<lb break="no" ed="#P" n="9"/>tralem, ut ipse loquitur, quia verba sunt quasi
+          <lb ed="#P" n="10"/>legis substantia et immediate continent 
+          volun<lb break="no" ed="#P" n="11"/>tatem legislatoris ; ratio autem solum remote
+          <lb ed="#P" n="12"/>illam indicat.
+        </p>
+        <p xml:id="szdleg-q00137-d1e1702">
+          <lb ed="#P" n="13"/>20. Ratio legis in ipsa contenta magnaum
+          <lb ed="#P" n="14"/>indicium mentis est legislatoris.—Nihilominus
+          <lb ed="#P" n="15"/>tamen posterior etiam pars verissima est. 
+          Opor<lb break="no" ed="#P" n="16"/>tet tamen circa illam advertere duplicem esse
+          <lb ed="#P" n="17"/>posse rationem legis, unam in lege non 
+          ex<lb break="no" ed="#P" n="18"/>pressam, sed ab interpretibus excogitatam;
+          <lb ed="#P" n="19"/>aliam in lege ipsa explicatam. Prior ergo 
+          ra<lb break="no" ed="#P" n="20"/>tio, licet aliquid conferat ad assequendam 
+          le<lb break="no" ed="#P" n="21"/>gislatoris mentem, non est tamen certum 
+          in<lb break="no" ed="#P" n="22"/>dicium, sed probabilis tantum conjectura ; tum
+          <lb ed="#P" n="23"/>quia saepe ratio non est certa, sed in opinione
+          <lb ed="#P" n="24"/>doctorum posita est, tum etiam quia multo
+          <lb ed="#P" n="25"/>minus certum est illam fuisse rationem quae
+          <lb ed="#P" n="26"/>movit ipsum legislatorem, cum possint esse
+          <lb ed="#P" n="27"/>aliae a quibus moveri potuerit, et 
+          consequen<lb break="no" ed="#P" n="28"/>ter est incertum ad quam rationem magis 
+          ac<lb break="no" ed="#P" n="29"/>commodandus sit sensus legis. At vero quando
+          <lb ed="#P" n="30"/>ratio legis in ipsa lege continetur, magnum
+          <lb ed="#P" n="31"/>indicium esse potest mentis legislatoris, et post
+          <lb ed="#P" n="32"/>verba ipsa videtur secundum certitudinis 
+          lo<lb break="no" ed="#P" n="33"/>cum obtinere, quia tunc ratio legis est aliquo
+          <lb ed="#P" n="34"/>modo pars ejus; nam in ea continetur, ut 
+          sup<lb break="no" ed="#P" n="35"/>ponitur. Unde necesse est ut praeceptum et
+          <lb ed="#P" n="36"/>voluntas legislatoris sit rationi suae 
+          accommo<lb break="no" ed="#P" n="37"/>data, et consequenter ut verba significantia 
+          ac<lb break="no" ed="#P" n="38"/>tum praeceptum, si ambigua sint, ex ratione
+          <lb ed="#P" n="39"/>ibi expressa determinationem accipiant ; ergo
+          <lb ed="#P" n="40"/>ex tali ratione efficaciter probatur mens 
+          legis<lb break="no" ed="#P" n="41"/>latoris. Quod ideo manifestum visum est 
+          Bar<lb break="no" ed="#P" n="42"/>tolo et multis alüs jurisperitis, ut saepe non
+          <lb ed="#P" n="43"/>distinguant inter hanc rationem et mentem
+          <lb ed="#P" n="44"/>legislatoris, et utramque pariter vocant 
+          ani<lb break="no" ed="#P" n="45"/>mam legis ut supra l. 3 dixi, et attigit Deci.
+          <lb ed="#P" n="46"/>loco proxime citato. Verumtamen, licet illa
+          <lb ed="#P" n="47"/>duo sint valde propinqua, in rigore sunt 
+          dis<lb break="no" ed="#P" n="48"/>tincta ut ibi probavi, et ideo ratio est medium
+          <lb ed="#P" n="49"/>ad indagandam mentem, et moraliter certum
+          <lb ed="#P" n="50"/>quando est in lege expressa, non tamen ita
+          <lb ed="#P" n="51"/>infallibile quin aliae etiam circumstantiae 
+          pon<lb break="no" ed="#P" n="52"/>derandae sint, quia etiam ipsius rationis sensus
+          <lb ed="#P" n="53"/>potest esse ambiguus, et ex aliis circumstantiis
+          <lb ed="#P" n="54"/>certior redditur. Et contingere etiam potest ut
+          <lb ed="#P" n="55"/>ex eadem ratione voluntas variis modis, et ad
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>diversa moveatur, et ideo ad plane 
+          cognoscen<lb break="no" ed="#P" n="57"/>dam legislatoris voluntatem quae est propria
+          <lb ed="#P" n="58"/>mens ejus non sufficit sola ratio etiam in lege
+          <lb ed="#P" n="59"/>expressa, sed omnia expendenda sunt et attente
+          <lb ed="#P" n="60"/>consideranda.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

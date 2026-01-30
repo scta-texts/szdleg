@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prooemium</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Prooemium</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="135"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q33728"><!-- l7prooem -->
+        <head xml:id="szdleg-q33728-Hd1e101">Prooemium</head>
+        <p xml:id="szdleg-q33728-d1e103">
+          <pb ed="#P" n="135"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER SEPTIMUS.
+          <lb ed="#P" n="2"/>DE LEGE NON SCRIPTA
+          <lb ed="#P" n="3"/>QUAE CONSUETUDO APPELLATUR.
+        </p>
+        <p xml:id="szdleg-q33728-d1e116">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="4"/>Ordo procedendi in hoc libro septimo. —
+          Wac<lb break="no" ed="#P" n="5"/>tenus de legibus scriptis praecipue 
+          disputavi<lb break="no" ed="#P" n="6"/>mus; nunc vero de consuetudine, quatenus
+          <lb ed="#P" n="7"/>jus continet, vel inducit, ex professo dicendum
+          <lb ed="#P" n="8"/>est. Quem ordinem servavit Gregorius IX in
+          <lb ed="#P" n="9"/>lib. 1 Decretalium, prius de constitutionibus
+          <lb ed="#P" n="10"/>et rescriptis, et postea de consuetudine titulos
+          <lb ed="#P" n="11"/>instituendo. Nam, licet consuetudo antiquior
+          <lb ed="#P" n="12"/>fuerit jure scripto, nihilominus jus scriptum
+          <lb ed="#P" n="13"/>certius est et notius, et ideo prius de illo 
+          trac<lb break="no" ed="#P" n="14"/>tari debuit. Accedit quod inter humana jura
+          <lb ed="#P" n="15"/>scriptum antiquius est quam non scriptum,
+          <lb ed="#P" n="16"/>etiamsi multi juristae, quos sequitur Rochus
+          <lb ed="#P" n="17"/>Curt., tract. de Consuet., in principio, pro 
+          cer<lb break="no" ed="#P" n="18"/>to supponant jus consuetudinis esse antiquius.
+          <lb ed="#P" n="19"/>Nam licet prius homines coeperint sine legibus
+          <lb ed="#P" n="20"/>in communi vivere quam leges scriberentur,
+          <lb ed="#P" n="21"/>nt clare dicitur in lib. 2, ff. de Orig. jur., 
+          in<lb break="no" ed="#P" n="22"/>de non fit consuetudinem habuisse pro lege,
+          <lb ed="#P" n="23"/>sed regis imperium personale, quod non est
+          <lb ed="#P" n="24"/>lex nec consuetudo, et ita insinuatur in dicta
+          <lb ed="#P" n="25"/>1. 2; ex S autem Sine scripto, Instit. de Jure
+          <lb ed="#P" n="26"/>natur., etc., colligi potest jus consuetudinis
+          <lb ed="#P" n="27"/>fuisse antiquius apud Lacedaemones quam jus
+          <lb ed="#P" n="28"/>scriptum apud Athenienses, a quibus jus civile
+          <lb ed="#P" n="29"/>duxit originem. Quidquid vero de hoc sit,
+          <lb ed="#P" n="30"/>nunc constat consuetudinem saepe esse 
+          anti<lb break="no" ed="#P" n="31"/>quiorem jure scripto, et saepe noviorem, et
+          <lb ed="#P" n="32"/>aliunde scriptum esse praecipuum, et ab illo
+          <lb ed="#P" n="33"/>magna ex parte pendere vim consuetudinis et
+          <lb ed="#P" n="34"/>intelligentiam ejus, juxita cap. ult. de Cons.,
+          <lb ed="#P" n="35"/>et quae ibi notantur, et ideo merito liber post
+          <lb ed="#P" n="36"/>praecedentes sequitur. In quo consuetum 
+          ordi<lb break="no" ed="#P" n="37"/>nem observavimus. Nam prius quid sit 
+          con<lb break="no" ed="#P" n="38"/>suetudo explicabimus, conditiones ad illam
+          <lb ed="#P" n="39"/>requisitas et causas ejus aperiendo; postea de
+          <lb ed="#P" n="40"/>effectibus, tandem de iilius abrogatione seu
+          <lb ed="#P" n="41"/>mutatione dicemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

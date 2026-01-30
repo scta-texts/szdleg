@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 5</title>
+            <author ref="#FranciscoSuarez">Francisco Suarez</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 5</title>
+               <date when="2026-01-29">January 29, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2026-01-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="444"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="szdleg-s11559"><!-- l9c5 -->
+            <head xml:id="szdleg-s11559-Hd1e101">Caput 5</head>
+            <head xml:id="szdleg-s11559-Hd1e103" type="question-title">Utrum lex vetus convenienti modo, tempore et alihs circumstantiis data fuerit.</head>
+            <p xml:id="szdleg-s11559-d1e106">
+               <lb ed="#P" n="13"/>CAPUT V.
+<lb ed="#P" n="14"/>UTRUM LEX VETUS CONVENIENTI MODO, TEMPORE
+<lb ed="#P" n="15"/>ET ALIHS CIRCUMSTANTIIS DATA FUERIT.
+</p>
+            <p xml:id="szdleg-s11559-d1e115">
+               <lb ed="#P" n="16"/>1. De aliis circunstantiis legis veteris. —
+<lb ed="#P" n="17"/>Explicatis caeteris causis illius legis, superest
+<lb ed="#P" n="18"/>dicendum de forma servata in illa lege 
+tra<lb break="no" ed="#P" n="19"/>denda, quae res, quantum ad scholasticum
+<lb ed="#P" n="20"/>negotium spectat, facilis est. Quia forma legis
+<lb ed="#P" n="21"/>(ut saepe in hoc opere notatum est) dicitur
+<lb ed="#P" n="22"/>externum signum, quo voluntas seu mens 
+le<lb break="no" ed="#P" n="23"/>gislatoris manifestatur. Unde hic non agimus
+<lb ed="#P" n="24"/>de actu ipso interno in Deo existente, qui
+<lb ed="#P" n="25"/>est veluti substantialis lex, et quasi forma et
+<lb ed="#P" n="26"/>anima signi externi: nam de illo actu eadem
+<lb ed="#P" n="27"/>est ratio in hac lege, quae in omni alia, 
+ser<lb break="no" ed="#P" n="28"/>vata proportione, ideoque applicanda est 
+doc<lb break="no" ed="#P" n="29"/>trina tradita in lib. 1 de Lege in communi.
+<lb ed="#P" n="30"/>Agimus ergo de lege externa et sensibili, per
+<lb ed="#P" n="31"/>quam populo Israelitico innotuit interna mens
+<lb ed="#P" n="32"/>et voluntas Dei. Diximus autem in 
+superiori<lb break="no" ed="#P" n="33"/>bus duo principaliter requiri in hac forma
+<lb ed="#P" n="34"/>legis, scilicet, significationem externam 
+ali<lb break="no" ed="#P" n="35"/>quo sensibili signo factam, et publicam 
+pro<lb break="no" ed="#P" n="36"/>mulgationem cum convenienti solemnitate
+<lb ed="#P" n="37"/>toti communitati factam; utrumque ergo in
+<lb ed="#P" n="38"/>forma illius legis servatum est ; nam hlcet
+<lb ed="#P" n="39"/>esset divina ex parte auctoris, dici potest 
+hu<lb break="no" ed="#P" n="40"/>mana ex parte recipientium, et ideo humano
+<lb ed="#P" n="41"/>modo, seu hominibus accommodato, dari 
+ne<lb break="no" ed="#P" n="42"/>cessarium fuit; et ideo utrumque a nobis
+<lb ed="#P" n="43"/>explicandum est, simulque circumstantias in
+<lb ed="#P" n="44"/>illa lege tradenda servatas, quatenus ad 
+so<lb break="no" ed="#P" n="45"/>lemnitatem illius formae pertinent, 
+declarabi<lb break="no" ed="#P" n="46"/>mus. :
+</p>
+            <p xml:id="szdleg-s11559-d1e185">
+               <lb ed="#P" n="47"/>2. Forma illius legis que.—Circa primum,
+<lb ed="#P" n="48"/>dicendum est formam illius legis fuisse 
+ver<lb break="no" ed="#P" n="49"/>bum sensibile ipsiusmet Dei, hominibus 
+suffi<lb break="no" ed="#P" n="50"/>cienter significans ipsius voluntatem. Hoc
+<lb ed="#P" n="51"/>constat Exodi 20: Locutusque Dominus est
+<lb ed="#P" n="52"/>cunctos sermones hos; et infra: Cunctus au-
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="53"/>tem populus videbat voces. Ubi verbum 
+vi<lb break="no" ed="#P" n="54"/>dendi, ut notat Augustinus, quaestion. 72 in
+<lb ed="#P" n="55"/>Exod., generaliter sumitur prout de 
+quocum<lb break="no" ed="#P" n="56"/>que sensu dici solet, vel etiam prout ad 
+men<lb break="no" ed="#P" n="57"/>tem et intelligentiam traducitur ; et ita 
+sen<lb break="no" ed="#P" n="58"/>sus erat, videbat voces, id est, intelligebat
+<lb ed="#P" n="59"/>quid per vocem Dei significaretur. tllud 
+au<lb break="no" ed="#P" n="60"/>tem dictum est de lege quoad Decalogum, de
+<lb ed="#P" n="61"/>caeteris vero praeceptis subditur: Dizit 
+pre<lb break="no" ed="#P" n="62"/>terea Dominus ad Mogysem ; et saepe 
+repetun<lb break="no" ed="#P" n="63"/>tur illa verba: Locutus est Dominus ad 
+Mog<lb break="no" ed="#P" n="64"/>sem. Neque refert quod illa verba effective
+<lb ed="#P" n="65"/>formarentur immediate ab Angelo in aere,
+<lb ed="#P" n="66"/>vel in Moysi sensibus, quia nihilominus verba
+<lb ed="#P" n="67"/>illa erant dictata a Deo ipsi Angelo, et ita
+<lb ed="#P" n="68"/>erant a Deo, ut a propria causa principal.
+<lb ed="#P" n="69"/>Et eadem ratione non solum data est illa lex
+<lb ed="#P" n="70"/>Moysi per proprium Dei verbum, sed etiam
+<lb ed="#P" n="71"/>ab ipso Moyse data est populo, ipsomet Deo
+<lb ed="#P" n="72"/>verba legis dictante : sicut enim Moyses illam
+<lb ed="#P" n="73"/>scripsit, ita etiam verba protulit ; scripsit 
+au<lb break="no" ed="#P" n="74"/>tem illam legem ut canonicus scriptor, 
+dic<lb break="no" ed="#P" n="75"/>tante Spiritu sancto, ut de fide constat; ita
+<lb ed="#P" n="76"/>ergo illam etiam protulit. Unde Exod. 24 
+di<lb break="no" ed="#P" n="77"/>citur: Fenit ergo Moyses, et narravit populo
+<lb ed="#P" n="78"/>omnia verba Domini, atque judicia, 
+respondit<lb break="no" ed="#P" n="79"/>que omnis populus una voce. Omnia verba
+<lb ed="#P" n="80"/>Domini, que locutus est, faciemus; et statim
+<lb ed="#P" n="81"/>additur : Sceripsit autem Moyses universos
+<lb ed="#P" n="82"/>sermones Domini; ubi significatur, prius
+<lb ed="#P" n="83"/>dixisse, et postea scripsisse legem, fortasse
+<lb ed="#P" n="84"/>tamen illud prius per anticipationem dictum
+<lb ed="#P" n="85"/>est: nam paulo post subditur: Assumensque
+<lb ed="#P" n="86"/>volumen fuederis, legit audiente populo , qui
+<lb ed="#P" n="87"/>diaerunt: omnia que locutus est Dominus,
+<lb ed="#P" n="88"/>faciemus. Et Paulus ad Hebr., 9, dixit: Lecto
+<lb ed="#P" n="89"/>enim omni mandato legis a Mogse universo
+<lb ed="#P" n="90"/>populo, accipiens sangwinem, etc., ubi Biber.
+<lb ed="#P" n="91"/>merito reprehendit Erasm., quod pro dictione
+<lb ed="#P" n="92"/>lecto posuerit dicto: nam licet revera dixerit,
+<lb ed="#P" n="93"/>tamen ex libro dixit, ut verba Exodi 
+osten<lb break="no" ed="#P" n="94"/>dunt. Fieri autem potuit ut prius verbo retult
+<lb ed="#P" n="95"/>quae acceperat, et postea ea scripserit, ac deinde
+<lb ed="#P" n="96"/>iterum legerit audiente populo, quod 
+incer<lb break="no" ed="#P" n="97"/>tum est ; et verisimilius apparet, prius legem
+<lb ed="#P" n="98"/>scripsisse, et postea ex scripto legisse. 
+Utcum<lb break="no" ed="#P" n="99"/>que tamen sit, semper verbis Dei et Spiritus
+<lb ed="#P" n="100"/>sancti dictatis locutus est. :
+</p>
+            <p xml:id="szdleg-s11559-d1e308">
+               <lb ed="#P" n="101"/>3. Objectio. — Dices: Quid ergo est quod
+<lb ed="#P" n="102"/>Paulus, ad Hebr. 2, legem illam minus 
+per<lb break="no" ed="#P" n="103"/>fectam esse ostendit, eo quod sit sermo per
+<lb ed="#P" n="104"/>Angelos dictus : nam si sermo ille erat sermo
+<lb ed="#P" n="105"/>ipsiusmet Dei, non variat neque minuit 
+di<lb break="no" ed="#P" n="106"/>gnitatem verbi, quod per Angelum vel 
+bomi<lb break="no" ed="#P" n="107"/>nem, sive etiam per ipsum Deum proferatur,
+<pb ed="#P" n="445"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ut in simili dixit Gregorius, lib. 1 Moral.,
+<lb ed="#P" n="2"/>cap. 1. Respondetur, quoad verbi 
+certitudi<lb break="no" ed="#P" n="3"/>nem et infallibilitatem, et quoad legis 
+aucto<lb break="no" ed="#P" n="4"/>ritatem, non referre quod per hunc vel illum
+<lb ed="#P" n="5"/>ministrum proferatur ; et in hoc sensu 
+perti<lb break="no" ed="#P" n="6"/>nere ad magnam illius legis dignitatem, quod
+<lb ed="#P" n="7"/>per verbum Dei suam voluntatem 
+manifes<lb break="no" ed="#P" n="8"/>tantis formaliter (ut sic dicam) constituta sit.
+<lb ed="#P" n="9"/>Nihilominus tamen, ad majorem quamdam
+<lb ed="#P" n="10"/>sermonis excellentiam accidentalem 
+perti<lb break="no" ed="#P" n="11"/>nere potest persona ministri immediate 
+lo<lb break="no" ed="#P" n="12"/>quentis, vel quia ex proxima habitudine ad
+<lb ed="#P" n="13"/>illum habet quamdam dignitatem moralem,
+<lb ed="#P" n="14"/>propter quam majorem reverentiam meretur,
+<lb ed="#P" n="15"/>quomodo Evangelii verba a CHRISTO prolata
+<lb ed="#P" n="16"/>majori reverentia audiuntur; vel quia solet
+<lb ed="#P" n="17"/>rex graviores leges per ministros majoris 
+auc<lb break="no" ed="#P" n="18"/>toritatis proponere; et hoc modo lex vetus,
+<lb ed="#P" n="19"/>icet fuerit verbum Dei, in hoc ipso minorem
+<lb ed="#P" n="20"/>dignitatem habet quam lex gratiae, ut postea
+<lb ed="#P" n="21"/>videbimus.
+</p>
+            <p xml:id="szdleg-s11559-d1e376">
+               <lb ed="#P" n="22"/>4. Differentia inter precepta Decalogi et
+<lb ed="#P" n="23"/>alia.—Interrogabis ulterius quale fuerit illud
+<lb ed="#P" n="24"/>verbum Dei, an prolatum, vel scriptum. 
+Res<lb break="no" ed="#P" n="25"/>pondeo jam ex dictis constare utrumque 
+inter<lb break="no" ed="#P" n="26"/>venisse ; nam lex Decalogi prius voce prolata
+<lb ed="#P" n="27"/>est, Exodi 20; et postea digito Dei scripta est
+<lb ed="#P" n="28"/>in tabulis, Exodi 24. 31 et 32; de caeteris 
+au<lb break="no" ed="#P" n="29"/>tem praeceptis jam declaratum est: unde, si
+<lb ed="#P" n="30"/>quaeratur an utrumque signum, vel alterum
+<lb ed="#P" n="31"/>tantum, fuerit de substantia illius legis, 
+res<lb break="no" ed="#P" n="32"/>pondeo breviter quodlibet illorum per se 
+fuis<lb break="no" ed="#P" n="33"/>se sufficiens, concurrentibus aliis requisitis,
+<lb ed="#P" n="34"/>et attenta communi ratione legis supra 
+tradi<lb break="no" ed="#P" n="35"/>ta. Ex dispositione autem divina videtur fuisse
+<lb ed="#P" n="36"/>necessaria scriptura ad substantiam et 
+obliga<lb break="no" ed="#P" n="37"/>tonem illius legis, saltem ut duratura erat
+<lb ed="#P" n="38"/>in tota posteritate illius populi, donec 
+veni<lb break="no" ed="#P" n="39"/>ret semen, ut Paulus ait: nam ille populus
+<lb ed="#P" n="40"/>non tenebatur leges alias observare ut 
+divi<lb break="no" ed="#P" n="41"/>nas, et a Deo expresse traditas , nisi quae
+<lb ed="#P" n="42"/>scriptae erant, juxta illud Deuter., 4: Non 
+ad<lb break="no" ed="#P" n="43"/>delis ad verbum quod vobis loguor, neque 
+au<lb break="no" ed="#P" n="44"/>feretis exm eo : custodite mandata Domini Dei
+<lb ed="#P" n="45"/>vestri ; et ideo saepe Deus praecipit legem 
+il<lb break="no" ed="#P" n="46"/>lam scribi, Exodi 34, et Deuteron. 27, 28;
+<lb ed="#P" n="47"/>et per antonomasiam lex scripta vocatur,
+<lb ed="#P" n="48"/>ut sumitur ex Deuter. 30 et 31. 
+Nihilomi<lb break="no" ed="#P" n="49"/>nus tamen fieri potuit ut populus ille, qui
+<lb ed="#P" n="50"/>aderat editioni legis, statim illa obligaretur
+<lb ed="#P" n="51"/>ante scripturam, sicut obligabantur lege 
+cir<lb break="no" ed="#P" n="52"/>cumcisionis ante scripturam ejus. In quo 
+po<lb break="no" ed="#P" n="53"/>test notari differentia inter praecepta 
+Deca<lb break="no" ed="#P" n="54"/>logi et alia : nam Decalogus, priusquam
+<lb ed="#P" n="55"/>scriberetur , voce Dei sufficienter propositus
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>est, et ideo sine dubio statim obligavit, non
+<lb ed="#P" n="57"/>tantum ut erat lex naturalis ratione 
+funda<lb break="no" ed="#P" n="58"/>ta, sed etiam ut erat lex specialiter a Deo
+<lb ed="#P" n="59"/>data, quae, hoc solo titulo, obligaret etiam
+<lb ed="#P" n="60"/>eos qui rationem talium praeceptcrum 
+igno<lb break="no" ed="#P" n="61"/>rarent. Alia vero praecepta , licet Moysi per
+<lb ed="#P" n="62"/>sermonem tradita fuerint, populo non fuere
+<lb ed="#P" n="63"/>proposita , nisi ex scripto, ut diximus; et
+<lb ed="#P" n="64"/>ideo, antequam scriberentur, non habuerunt
+<lb ed="#P" n="65"/>plenam et consummatam rationem legis.
+</p>
+            <p xml:id="szdleg-s11559-d1e476">
+               <lb ed="#P" n="66"/>5. De ordine et numero Decalogi in tabulis
+<lb ed="#P" n="67"/>scripti.— Prima sententia. — Secunda opinio
+<lb ed="#P" n="68"/>praeferenda. — Denique circa hanc formam,
+<lb ed="#P" n="69"/>quatenus per voces edita est, nihil 
+adnotan<lb break="no" ed="#P" n="70"/>dum occurrit, praeter superius dicta de 
+minis<lb break="no" ed="#P" n="71"/>terio hominis vel Angeli in illis verbis 
+for<lb break="no" ed="#P" n="72"/>mandis. Quatenus vero scripta est, sufficit
+<lb ed="#P" n="73"/>etiam dicere consulendam esse veterem 
+scri<lb break="no" ed="#P" n="74"/>pturam, praesertim in Exodo, Levit. et 
+Deu<lb break="no" ed="#P" n="75"/>ter.; nam in illis tota forma illius legis et
+<lb ed="#P" n="76"/>singulorum praeceptorum ejus latissime 
+de<lb break="no" ed="#P" n="77"/>scribitur, praesertim quae ad caeremonialia et
+<lb ed="#P" n="78"/>judicialia spectant , et ideo solum oportet
+<lb ed="#P" n="79"/>verba Scriptura expendere: nam illius 
+sen<lb break="no" ed="#P" n="80"/>su substantia ilhus legis consistit. Quoniam
+<lb ed="#P" n="81"/>vero de praeceptis Decalogi specialiter dicitur
+<lb ed="#P" n="82"/>fuisse in duabus tabulis lapideis scripta, et
+<lb ed="#P" n="83"/>Scriptura non declaret quomodo fuerint 
+dis<lb break="no" ed="#P" n="84"/>tributa, ideo aliquid de hoc dicere 
+necessa<lb break="no" ed="#P" n="85"/>rium est ; nam ad formam illius legis 
+ali<lb break="no" ed="#P" n="86"/>quo modo spectat. Aliqui ergo dixerunt
+<lb ed="#P" n="87"/>in singulis earum fuisse quinque praecepta
+<lb ed="#P" n="88"/>scripta. Quod tradit Joseph., 3 Antiquit., c. 6,
+<lb ed="#P" n="89"/>et Philo, lib. Decalog., et Hugo Cardinal.,
+<lb ed="#P" n="90"/>Exod. 20, et sequitur Sot., lib. 2 de Justit.,
+<lb ed="#P" n="91"/>quaest. 3, art. 4. Alii vero putant in una 
+tabu<lb break="no" ed="#P" n="92"/>la fuisse tantum praecepta pertinentia ad
+<lb ed="#P" n="93"/>Deum, in alia vero pertinentia ad proximum.
+<lb ed="#P" n="94"/>Quod sentit Augustinus, quaest. 11 in Exod.,
+<lb ed="#P" n="95"/>et quaest. 1 in lib. Quaest. utriusque 
+testa<lb break="no" ed="#P" n="96"/>menti, et lib. de Decem chordis, cap. 6; et
+<lb ed="#P" n="97"/>hoc sequitur Abulens. in cap. 20 Exod. q.
+<lb ed="#P" n="98"/>2; et Burgen., in cap. 32 Exodi, addit. A4.
+<lb ed="#P" n="99"/>Inter quas sententias difficile est ferre 
+ju<lb break="no" ed="#P" n="100"/>dicium, quia auctores harum opinionum
+<lb ed="#P" n="101"/>non viderunt tabulas scriptas, ut possint de
+<lb ed="#P" n="102"/>illis ferre testimonium. Et scriptnra non 
+ex<lb break="no" ed="#P" n="103"/>plicat modum partitionis, nec firma ratione
+<lb ed="#P" n="104"/>aut traditione certa ostendi potest. Si tamen
+<lb ed="#P" n="105"/>conjectura utendum est, posterior est 
+praefe<lb break="no" ed="#P" n="106"/>renda, quia decuit ut praecepta ad Deum 
+per<lb break="no" ed="#P" n="107"/>tnentia separatim et in prima tabula 
+tra<lb break="no" ed="#P" n="108"/>derentur ; et ita usus obtinuit ut illa 
+di<lb break="no" ed="#P" n="109"/>cantur praecepta primae tabulee, et alia 
+se<lb break="no" ed="#P" n="110"/>cundas, ut patet ex D. Thoma, quaest. 100,
+<pb ed="#P" n="446"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>art. 4 et 5; Magist. cum doctoribus in 3, 
+dis<lb break="no" ed="#P" n="2"/>tinct. 37, et aliis communiter.
+</p>
+            <p xml:id="szdleg-s11559-d1e585">
+               <lb ed="#P" n="3"/>6. Circa promulgationem legis veteris 
+dis<lb break="no" ed="#P" n="4"/>tinguendum. — Circa alteram partem illius
+<lb ed="#P" n="5"/>formae, quae est promulgatio, distinguere 
+opor<lb break="no" ed="#P" n="6"/>tet Decalogum a reliqua parte legis: nam
+<lb ed="#P" n="7"/>solemnis promulgatio Decalogi sufficienter 
+de<lb break="no" ed="#P" n="8"/>scribitur Exod. 20, cum magnis signis 
+terro<lb break="no" ed="#P" n="9"/>ris et majestatis. quibus ille populus tunc 
+in<lb break="no" ed="#P" n="10"/>digebat, et accommodata erant illi legi, quae
+<lb ed="#P" n="11"/>timoris erat. Et quia tunc praesens aderat 
+to<lb break="no" ed="#P" n="12"/>tus populus pro quo tradebatur, et vox talis
+<lb ed="#P" n="13"/>erat, ut a cunctis audiri posset, ideo ita fuit
+<lb ed="#P" n="14"/>promulgatio sufficiens, ut nulla divulgatio vel
+<lb ed="#P" n="15"/>temporis successio necessaria fuerit: atque ita
+<lb ed="#P" n="16"/>lex illa simul edita et promulgata est. Unde
+<lb ed="#P" n="17"/>recte scripsit Augustinus, lib. 10 de Civit.,
+<lb ed="#P" n="18"/>cap. 13: Cum oporteret Dei legem àn edictis
+<lb ed="#P" n="19"/>Angelorum terribilater dari, non uni homini
+<lb ed="#P" n="20"/>paucisve sapientibus, sed universe genti, et
+<lb ed="#P" n="21"/>populo ingenti , corum eodem populo magna
+<lb ed="#P" n="22"/>facta sunt in monte, ubi les per unum 
+daba<lb break="no" ed="#P" n="23"/>lur, conspiciente multitudine metuenda ac 
+tre<lb break="no" ed="#P" n="24"/>menda quae fiebunt. Non enim populus Israel
+<lb ed="#P" n="25"/>sic Moysi credidit, quemadmodum suo 
+Lycur<lb break="no" ed="#P" n="26"/>go Lacedemonii, quod a Jove, seu Apolline
+<lb ed="#P" n="27"/>leges quas condidit, accepisset. Cum enim lea
+<lb ed="#P" n="28"/>dabatur populo, qua coli unus julebatur Deus,
+<lb ed="#P" n="29"/>in conspectu ipsius populi in quantum 
+suffi<lb break="no" ed="#P" n="30"/>cere divina providentia judicabat, miralilibus
+<lb ed="#P" n="31"/>rerum signis ac motibus appurebat, ad 
+eam<lb break="no" ed="#P" n="32"/>dem legem dandam docentem creatori servire
+<lb ed="#P" n="33"/>creaturam. Ex quibus verbis unusquisque 
+fa<lb break="no" ed="#P" n="34"/>cile colligere potest, circumstantias omnes
+<lb ed="#P" n="35"/>necessarias ad sufficientem promulgationem
+<lb ed="#P" n="36"/>ibi intervenisse, definitas juxta consilium 
+di<lb break="no" ed="#P" n="37"/>vinae sapientiae et voluntatis ejus, cum 
+ratio<lb break="no" ed="#P" n="38"/>nibus seu congruentiis ejusdem voluntatis.
+<lb ed="#P" n="39"/>Qui vero plura de illis signis in particulari
+<lb ed="#P" n="40"/>desiderat, legat Abulensem in cap. 20 Exod.,
+<lb ed="#P" n="41"/>quaest. 36 et sequentibus. Post illam vero 
+De<lb break="no" ed="#P" n="42"/>calogi promulgationem, ad illius 
+perpetuita<lb break="no" ed="#P" n="43"/>tem voluit Deus praecepta illa in lapidibus
+<lb ed="#P" n="44"/>describi ministerio Angelorum, ad majorem
+<lb ed="#P" n="45"/>illorum praeceptorum commendationem, ut
+<lb ed="#P" n="46"/>plane colligitur ex 31 Exod., et Deuteron., 4
+<lb ed="#P" n="47"/>et 9. Postea vero Moyses iratus contra 
+po<lb break="no" ed="#P" n="48"/>pulum, propter vitulum conflatilem, 
+confre<lb break="no" ed="#P" n="49"/>git eas; deinceps vero ipse Moyses, jussu Dei,
+<lb ed="#P" n="50"/>eadem praecepta in aliis duabus tabulis 
+scri<lb break="no" ed="#P" n="51"/>psit, Exod. 34. Ac tandem tabulas illas intra
+<lb ed="#P" n="52"/>arcam Dei posuit, ut majori veneratione 
+prae<lb break="no" ed="#P" n="53"/>cepta illa haberentur, ut constat ex 3 heg.,
+<lb ed="#P" n="54"/>8; 2 Paralipomenon., 5; ad Hebr., 9. 
+Reli<lb break="no" ed="#P" n="55"/>qua vero omnia praecepta legis promulgavit
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>Moyses, ea publice legendo coram populo, ut
+<lb ed="#P" n="57"/>supra dictum est, et illa vero Dei scripta non
+<lb ed="#P" n="58"/>quidem in arca, neque intra Sancta 
+sancto<lb break="no" ed="#P" n="59"/>rum, sed extra illa servari voluit. In quo
+<lb ed="#P" n="60"/>significatum quidem est, praecepta Decalogi
+<lb ed="#P" n="61"/>esse graviora, et magis necessaria, non 
+ta<lb break="no" ed="#P" n="62"/>men alia minutiora et parvi momenti, ut 
+qui<lb break="no" ed="#P" n="63"/>dam incaute loquuntur.
+</p>
+            <p xml:id="szdleg-s11559-d1e722">
+               <lb ed="#P" n="64"/>7. Lex vetus cui populo data. — Atque ex
+<lb ed="#P" n="65"/>dicta legis promulgatione et forma ejus 
+col<lb break="no" ed="#P" n="66"/>ligi potest, primo, legem illam non esse 
+da<lb break="no" ed="#P" n="67"/>tam pro universo mundo, sed pro solo 
+po<lb break="no" ed="#P" n="68"/>pulo Israel, ut tradit D. Thomas, q. 98, art. 4,
+<lb ed="#P" n="69"/>et sumitur aperte ex forma ejusdem legis,
+<lb ed="#P" n="70"/>Exodi 19, 20 et sequentibus, ubi ad illum
+<lb ed="#P" n="71"/>populum solum sermo legis dirigitur ; et
+<lb ed="#P" n="72"/>Deuteron. 1: Hac sunt verba quae locutus est
+<lb ed="#P" n="73"/>Mogses ad omnem Israel ; et cap. 5: Audi,
+<lb ed="#P" n="74"/>Israel, etc.; et infra: Dominus Deus noster
+<lb ed="#P" n="75"/>pepigit nobiscum fadus in Horeb. Deinde lex
+<lb ed="#P" n="76"/>illa soli illi populo promulgata est, 
+tantum<lb break="no" ed="#P" n="77"/>que praecipiebat eis quibus dabatur, ut eam
+<lb ed="#P" n="78"/>docerent filios suos ac nepotes, ut dicitur
+<lb ed="#P" n="79"/>Deuteron. 4. Denique pactum circumcisionis,
+<lb ed="#P" n="80"/>et praeceptum ejus cum solo Abraham initum
+<lb ed="#P" n="81"/>est, et pro illius posteritate traditum, Genes.
+<lb ed="#P" n="82"/>17; illa autem lex circumcisionem 
+suppone<lb break="no" ed="#P" n="83"/>bat, ut constat ex 12 Exodi, ubi sermo 
+spe<lb break="no" ed="#P" n="84"/>cialiter est de religione Phase: eadem autem
+<lb ed="#P" n="85"/>ratio est de tota lege, ut constat ex Paulo ad
+<lb ed="#P" n="86"/>Galat., 5. Unde idem ad Roman., 3, 
+interro<lb break="no" ed="#P" n="87"/>gans : Quae utilitas circumcisionis ? respondet,
+<lb ed="#P" n="88"/>multum per omnem modumn, quia credita sunt
+<lb ed="#P" n="89"/>illis eloguia Dei. Ac denique ad Roman., 9,
+<lb ed="#P" n="90"/>inter praerogativas Judaeorum ponit, quod 
+eo<lb break="no" ed="#P" n="91"/>rum fuit legislatio. Ratio autem ob quam
+<lb ed="#P" n="92"/>lex illa data est particulari populo, et non
+<lb ed="#P" n="93"/>omnibus hominibus, reddi potest, primo,
+<lb ed="#P" n="94"/>quia illa non est data ut simpliciter necessaria
+<lb ed="#P" n="95"/>ad salutem; nam sine illa potuerunt homines
+<lb ed="#P" n="96"/>salvari ante illam, et Gentiles illa durante,
+<lb ed="#P" n="97"/>et licet posset esse utilis, non cogitur Deus
+<lb ed="#P" n="98"/>eadem media utilia omnibus conferre, ei
+<lb ed="#P" n="99"/>multo minus eadem praecepta omnibus 
+ira<lb break="no" ed="#P" n="100"/>dere.
+</p>
+            <p xml:id="szdleg-s11559-d1e805">
+               <lb ed="#P" n="101"/>8. Cur illi populo data lez vetus. — Deinde
+<lb ed="#P" n="102"/>data est illi populo potius quam alis, non
+<lb ed="#P" n="103"/>propter justitias ejus: Cum populus esset dure
+<lb ed="#P" n="104"/>cervicis, ut dicitur Deuteron., 9, sed ex 
+di<lb break="no" ed="#P" n="105"/>vina electione, juxta illud Psalm. 149: Quia
+<lb ed="#P" n="106"/>beneplacitum est Domino in populo suo; e
+<lb ed="#P" n="107"/>illud Psalm. 147: Non fecit taliter omni 
+na<lb break="no" ed="#P" n="108"/>tioni, et judicia sum non manifestavit eis;
+<lb ed="#P" n="109"/>idemque late sumitur ex Deuteron., 4, et
+<lb ed="#P" n="110"/>Exod. 19: S audieritis vocem meam, et cus-
+<pb ed="#P" n="447"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>todieritis pactum meum, eritis mihi in 
+pecu<lb break="no" ed="#P" n="2"/>lium de cunctis populis, mea est enim ommnis
+<lb ed="#P" n="3"/>terra. Quae verba supponunt electionem et
+<lb ed="#P" n="4"/>vocationem gratuitam, et ad executionem seu
+<lb ed="#P" n="5"/>durationem effectus conditionem requirunt.
+<lb ed="#P" n="6"/>Ratio autem inde sumi potest, quia ex illo 
+po<lb break="no" ed="#P" n="7"/>pulo erat CHRISTUS nasciturus, in cujus 
+ho<lb break="no" ed="#P" n="8"/>norem Deus voluit specialiter disponere illum
+<lb ed="#P" n="9"/>populum, mediante lege, ut supra dictum est,
+<lb ed="#P" n="10"/>et ita electio ad illam legem supponit aliam
+<lb ed="#P" n="11"/>electiconem Abrahae, ut esset CHRISTI 
+pro<lb break="no" ed="#P" n="12"/>genitor, quae gratuita fuit, et non ex meritis
+<lb ed="#P" n="13"/>ejus, licet, illa electione supposita, et gratis
+<lb ed="#P" n="14"/>recepta prima vocatione ad fidem, per illam
+<lb ed="#P" n="15"/>potuerit mereri de congruo, ut CHRISTUS ex
+<lb ed="#P" n="16"/>se nasceretur, et consequenter dispositionem
+<lb ed="#P" n="17"/>suae posteritatis convenientem ad illum finem
+<lb ed="#P" n="18"/>ex ordine divina providentia , juxta illud
+<lb ed="#P" n="19"/>Genes. 29: Quia fecisti rem hanc, etc. 
+Bene<lb break="no" ed="#P" n="20"/>dicam tibi, et multiplicabo semen tum sicut
+<lb ed="#P" n="21"/>stellas celi, etc.; de quo videri possunt dicta
+<lb ed="#P" n="22"/>in 1 tom. 3 parit., disp. 10, sect. 6.
+</p>
+            <p xml:id="szdleg-s11559-d1e882">
+               <lb ed="#P" n="23"/>9. Dupliciter gentes potuerunt legem allam
+<lb ed="#P" n="24"/>acceptare. — Advertendum est autem, licet
+<lb ed="#P" n="25"/>lex illa non fuerit gentibus imposita , 
+nihi<lb break="no" ed="#P" n="26"/>lominus voluntarie potuisse illam amplecti,
+<lb ed="#P" n="27"/>idque duobus modis. Primo, per imitationem,
+<lb ed="#P" n="28"/>acceptando, verbi gratia, in suis regnis vel
+<lb ed="#P" n="29"/>rebuspublicis, et in eis similes leges 
+statuen<lb break="no" ed="#P" n="30"/>do; hoc enim nec per se malum erat, nec 
+pro<lb break="no" ed="#P" n="31"/>hibitum. Tunc autem leges illae in talibus 
+po<lb break="no" ed="#P" n="32"/>pulis humanae essent, non divina, quia ibi
+<lb ed="#P" n="33"/>non obhlgarent ex vi divinae legislationis, sed
+<lb ed="#P" n="34"/>ex voluntate alicujus principis humani, 
+si<lb break="no" ed="#P" n="35"/>cut nunc lex solvendi decimas in Ecclesia
+<lb ed="#P" n="36"/>quoad quotam humana est, licet in populo
+<lb ed="#P" n="37"/>Israel fuerit divina. Secundo, poterant 
+gen<lb break="no" ed="#P" n="38"/>tes legem illam voluntarie profiteri, assumpta
+<lb ed="#P" n="39"/>prius circumcisione, ut constat Exodi 12; tunc
+<lb ed="#P" n="40"/>autem licet legis professio esset voluntaria,
+<lb ed="#P" n="41"/>postea observatio esset necessaria, juxta illud
+<lb ed="#P" n="42"/>Pauli ad Galat., 5: Testificor omni homini
+<lb ed="#P" n="43"/>circumcidenti se, quod debitor est universae 
+le<lb break="no" ed="#P" n="44"/>]gis faciende. Et ideo CHRISTUS Dominus,
+<lb ed="#P" n="45"/>Matth.. 23, reprehendit Pharisaeos, qui 
+sum<lb break="no" ed="#P" n="46"/>ma diligentia proselytos facere procurabant,
+<lb ed="#P" n="47"/>et postea illos faciebant filios gehennae. Ubi
+<lb ed="#P" n="48"/>non reprehendit priorem sollicitudinem (sed
+<lb ed="#P" n="49"/>potius supponit esse de se bonam et 
+confor<lb break="no" ed="#P" n="50"/>men legi), sed reprehendit secundum, quia
+<lb ed="#P" n="51"/>Gentiles factos proselytos ad observationem
+<lb ed="#P" n="52"/>legis non juvabant, sed potius suis 
+traditio<lb break="no" ed="#P" n="53"/>nibus et pravis exemplis corrumpebant.
+</p>
+            <p xml:id="szdleg-s11559-d1e952">
+               <lb ed="#P" n="54"/>10. De loco promulgationis. — Prima 
+opi<lb break="no" ed="#P" n="55"/>nio. — Secunda opinio. — Ultimo, circa hanc
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>legis promulgationem, duae circumstantiae 
+ad<lb break="no" ed="#P" n="57"/>vertendae sunt, scilicet , locus et tempus :
+<lb ed="#P" n="58"/>nam quoad locum videtur esse aliqua 
+diversi<lb break="no" ed="#P" n="59"/>tas in Scriptura : nam in Exodo seepe 
+signi<lb break="no" ed="#P" n="60"/>ficatur datam esse in monte Sina, ut patet ex
+<lb ed="#P" n="61"/>cap. 3, 19 et sequent., et Actor. 7; in 
+Deute<lb break="no" ed="#P" n="62"/>ron. autem, cap. 1, 5 et alus, et 3 Reg., 8,
+<lb ed="#P" n="63"/>et saepe alias, dicitur lex data in monte 
+Ho<lb break="no" ed="#P" n="64"/>reb, qui etiam dicitur mons Dei, 3 Reg., 19,
+<lb ed="#P" n="65"/>fortasse quia Deus illum elegit ad 
+ostenden<lb break="no" ed="#P" n="66"/>dam majestatem suam, et tanquam curiam
+<lb ed="#P" n="67"/>regni sui peculiaris ad legem suam 
+promul<lb break="no" ed="#P" n="68"/>gandam. In hoc tres invenio sententias. 
+Pri<lb break="no" ed="#P" n="69"/>ma dicit illos fuisse duos montes juxtapositos
+<lb ed="#P" n="70"/>in deserto Arabiae. Ita tenet Euseb. in locis
+<lb ed="#P" n="71"/>hebraicis a Hieronym. translatis. Et aliqui
+<lb ed="#P" n="72"/>addunt illos montes radicibus esse 
+cohaeren<lb break="no" ed="#P" n="73"/>tes, et Sina esse longe altiorem, quod in 
+Eu<lb break="no" ed="#P" n="74"/>seb. non invenio explicatum, nec ab aliis 
+pro<lb break="no" ed="#P" n="75"/>batum ; et praeterea nullus eorum explicat
+<lb ed="#P" n="76"/>quomodo lex in utroque monte lata dicatur:
+<lb ed="#P" n="77"/>nam licet essent propinqui, non potest dici
+<lb ed="#P" n="78"/>simul fuisse datam legem in utroque loco:
+<lb ed="#P" n="79"/>neque etiam propinquitas sola sufficit, ut
+<lb ed="#P" n="80"/>quod in uno fit, dicatur fieri in altero, neque
+<lb ed="#P" n="81"/>ut nomen unius alteri tribuatur. Et ideo est
+<lb ed="#P" n="82"/>secunda sententia Cajetani, Exod. 3, montem
+<lb ed="#P" n="83"/>Sinai fuisse montem praecipuum, et montem
+<lb ed="#P" n="84"/>vocatum Heloim : Horeb autem fuisse partem
+<lb ed="#P" n="85"/>ejus, et habuisse formam cujusdam parvi
+<lb ed="#P" n="86"/>montis, ubi apparuit Deus Moysi in flamma
+<lb ed="#P" n="87"/>rubi. Suae autem assertionis nullam 
+proba<lb break="no" ed="#P" n="88"/>tionem adducit Cajetanus. Et aliunde habet
+<lb ed="#P" n="89"/>difficultatem, quia ipse dicit ibi dictum esse
+<lb ed="#P" n="90"/>Ad montem Dei Horeb, ad designandam 
+par<lb break="no" ed="#P" n="91"/>tem montis Sinai, in qua apparuit Dominus
+<lb ed="#P" n="92"/>Moysi ; ergo similiter cum Malachiae 4 
+dici<lb break="no" ed="#P" n="93"/>tur : Mementote legis Moysi seroi mei, quam
+<lb ed="#P" n="94"/>mandavi ei in Horeb, et cum dicitur 
+Deu<lb break="no" ed="#P" n="95"/>ter. 4: Docebis eam filios ac nepotes tuos a
+<lb ed="#P" n="96"/>die in quo stetisti coram Domino Deo tuo in
+<lb ed="#P" n="97"/>Horeb, quando Dominus locutus est mihi, etc.;
+<lb ed="#P" n="98"/>in his, inquam, et similibus locis, Horeb 
+de<lb break="no" ed="#P" n="99"/>signat partem montis Sinai in qua data est
+<lb ed="#P" n="100"/>lex : ergo non poterat esse pars illa in forma
+<lb ed="#P" n="101"/>montis parvi, quia pars illa montis Sinai in
+<lb ed="#P" n="102"/>qua Deus apparuit ad dandam legem erat 
+ca<lb break="no" ed="#P" n="103"/>cumen seu vertex totius montis, ut constat
+<lb ed="#P" n="104"/>Exod. 19, et significatur Deuter. 4, ubi etiam
+<lb ed="#P" n="105"/>indicatur partem illam fuisse 
+eminentissi<lb break="no" ed="#P" n="106"/>mam. Propter quod alii eamdem opinionem
+<lb ed="#P" n="107"/>quoad prius membrum sequentes, scilicet,
+<lb ed="#P" n="108"/>Horeb fuisse partem montis Sinai, dixerunt
+<lb ed="#P" n="109"/>Horeb esse velut jugum quoddam eminens
+<lb ed="#P" n="110"/>super impositum montis Sina. Ita refert Pe-
+<pb ed="#P" n="448"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>reir., Exod. 3, disput. 3. Non tamen affert
+<lb ed="#P" n="2"/>probationem, et praeterea habet hoc 
+difficulta<lb break="no" ed="#P" n="3"/>tem toti huic sententiae et sequenti 
+commu<lb break="no" ed="#P" n="4"/>nem, quam statim proponam.
+</p>
+            <p xml:id="szdleg-s11559-d1e1093">
+               <lb ed="#P" n="5"/>11. Tertia opinio.—Hieronymi sententia 
+ap<lb break="no" ed="#P" n="6"/>probandi.—Omnia in concordiam rediguntur.
+<lb ed="#P" n="7"/>—bst ergo tertia sententia D. Hieronymi, in
+<lb ed="#P" n="8"/>dicto lib. de Locis hebraicis, sub verbo 
+Ho<lb break="no" ed="#P" n="9"/>reb, ubi, relicta sententia Eusebii, sic inquit:
+<lb ed="#P" n="10"/>Ailh autem videtur quod duplici nomine idem
+<lb ed="#P" n="11"/>mons, nunc Sina, wunc Horeb, cocetur; et
+<lb ed="#P" n="12"/>idem sentit Joseph., lib. 2 Antiquit., cap.
+<lb ed="#P" n="13"/>quinto, alias 12, ubi referens apparitionem
+<lb ed="#P" n="14"/>Dei in rubo , quam Scriptura dicit factam
+<lb ed="#P" n="15"/>esse in monte Horeb, dicit factam esse in
+<lb ed="#P" n="16"/>monte Sina, quem celsissimum esse 
+afftir<lb break="no" ed="#P" n="17"/>mat. Et ita haec opinio videtur fieri 
+val<lb break="no" ed="#P" n="18"/>de probabilis. Habet tamen difficultatem, si
+<lb ed="#P" n="19"/>cap. 17 et 19 Exodi inter se conferantur :
+<lb ed="#P" n="20"/>nam in 17 cap. dicitur Populum Israel, 
+pro<lb break="no" ed="#P" n="21"/>factum de deserto Sim, castrametatum esse
+<lb ed="#P" n="22"/>in Rhaphidim : et subdit Deus infra: En ego
+<lb ed="#P" n="23"/>stabo ibi coram te supra petram Horeb, 
+per<lb break="no" ed="#P" n="24"/>cutiamque petram, etc. Unde Hierony mus, in
+<lb ed="#P" n="25"/>Locis hebraicis, dicit Raphidim fuisse locum
+<lb ed="#P" n="26"/>in deserto juxta montem Horeb; et ita inter
+<lb ed="#P" n="27"/>mirabilia facta ejusdem montis poni solent et
+<lb ed="#P" n="28"/>apparitio in rubo, et fluxus aquarum ex 
+pe<lb break="no" ed="#P" n="29"/>tra. At vero in cap. 19 additur quod filii
+<lb ed="#P" n="30"/>Israel, profecti de Raphidim, pervenerunt in
+<lb ed="#P" n="31"/>desertum Sinai e regione montis qui 
+sta<lb break="no" ed="#P" n="32"/>tim vocatur mons Sina, in quo lex fuit
+<lb ed="#P" n="33"/>data. Ergo necesse est illos montes esse
+<lb ed="#P" n="34"/>distinctos , imo etiam esse satis distantes,
+<lb ed="#P" n="35"/>quandoquidem ab uno ad alium profectus
+<lb ed="#P" n="36"/>est populus. Quae ratio recte mihi probat
+<lb ed="#P" n="37"/>Horeb non posse esse solum jugum eminens
+<lb ed="#P" n="38"/>montis Sina. Non tamen videtur urgere 
+con<lb break="no" ed="#P" n="39"/>tra sententiam Hieronymi, quia licet Horeb
+<lb ed="#P" n="40"/>fuerit idem mons qui Sina , nihilominus
+<lb ed="#P" n="41"/>potuit mons ille protrahi per magnam 
+ma<lb break="no" ed="#P" n="42"/>gnitudinem deserti, et ita potuit populus per
+<lb ed="#P" n="43"/>radices montis varias mansiones efticere, ut
+<lb ed="#P" n="44"/>idem Hieronymus declarat in Epistol. 127
+<lb ed="#P" n="45"/>ad Fabiolam, mansi. 8 et sequentibus. 
+So<lb break="no" ed="#P" n="46"/>lum ergo probat mihi illa ratio , petram
+<lb ed="#P" n="47"/>Horeb, de qua fluxerunt aquae, Exod. 1T,
+<lb ed="#P" n="48"/>non fuisse in eadem parte ejusdem montis
+<lb ed="#P" n="49"/>in qua data est lex. Et forte illa pars erat in
+<lb ed="#P" n="50"/>formam parvi montis, de qua potest verificari
+<lb ed="#P" n="51"/>opinio Cajetani. Nihilominus tamen verum
+<lb ed="#P" n="52"/>censeo etiam illam partem montis in qua data
+<lb ed="#P" n="53"/>est lex, fuisse vocatam Horeb, quia hoc plane
+<lb ed="#P" n="54"/>significat Scriptura, quoties dicit legem 
+da<lb break="no" ed="#P" n="55"/>tam esse in Horeb. Neque est verisimile loqui
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>de eodem monte secundum diversas partes
+<lb ed="#P" n="57"/>ejus, quando eamdem legis promulgationem,
+<lb ed="#P" n="58"/>et omnia signa qua in ea acciderunt, 
+in<lb break="no" ed="#P" n="59"/>differenter describit sub nomine Horeb et
+<lb ed="#P" n="60"/>Sina. Recte ergo Hieronymus dixit haec fuisse
+<lb ed="#P" n="61"/>duo nomina ejusdem montis. Verisimileque
+<lb ed="#P" n="62"/>est montem Sinai fuisse quasi nomen 
+appel<lb break="no" ed="#P" n="63"/>lativum seu denominativum a vicino deserto,
+<lb ed="#P" n="64"/>quod vocabatur solitudo Sinai, Exod. 19; 
+no<lb break="no" ed="#P" n="65"/>men autem Horeb fuisse proprium, et 
+praeci<lb break="no" ed="#P" n="66"/>puam ac excelsiorem partem ejus 
+significas<lb break="no" ed="#P" n="67"/>se, et ab illa montem totum, montem 
+Ho<lb break="no" ed="#P" n="68"/>reb et montem Dei esse appellatum. Et hoc
+<lb ed="#P" n="69"/>modo facile omnia in concordiam redigi
+<lb ed="#P" n="70"/>possunt.
+</p>
+            <p xml:id="szdleg-s11559-d1e1241">
+               <lb ed="#P" n="71"/>12. Circa tempus promulgationis legis 
+ve<lb break="no" ed="#P" n="72"/>teris, primum certum. — Altera circumstantia
+<lb ed="#P" n="73"/>promulgationis est tempus, quod certum 
+im<lb break="no" ed="#P" n="74"/>primis est, fuisse post multos annos a 
+crea<lb break="no" ed="#P" n="75"/>tione mundi et lapsum primi hominis : nam
+<lb ed="#P" n="76"/>id in Scriptura evidens est. Cujus rationem
+<lb ed="#P" n="77"/>investigat D. Thom., quaest. 98, art. 6. Haec
+<lb ed="#P" n="78"/>vero quaestio fere similis est alteri quae de 
+in<lb break="no" ed="#P" n="79"/>carnatione tractatur 3 part., quaest. 1, cur,
+<lb ed="#P" n="80"/>videlicet, tanto tempore post lapsum hominis
+<lb ed="#P" n="81"/>dilata sit. Sicut enim lex intuitu CHRISTI et
+<lb ed="#P" n="82"/>incarnationis ejus data est, ita ad illam 
+fe<lb break="no" ed="#P" n="83"/>rendam tempus illud divina sapientia 
+elec<lb break="no" ed="#P" n="84"/>tum est, quod respectu temporis futurae 
+in<lb break="no" ed="#P" n="85"/>carnationis magis esset accommodatum. 
+De<lb break="no" ed="#P" n="86"/>buit ergo esse medium, seu interpositum inter
+<lb ed="#P" n="87"/>tempus creationis et incarnationis : nam post
+<lb ed="#P" n="88"/>peccatum hominis per multum tempus dilata
+<lb ed="#P" n="89"/>est lex, ut homines lapsi fragilitatem naturae
+<lb ed="#P" n="90"/>suae et indigentiam sui status magis 
+agnosce<lb break="no" ed="#P" n="91"/>rent; et quia de sua scientia et ratione 
+prae<lb break="no" ed="#P" n="92"/>sumebant, sine lege relicti sunt, ut 
+agnosce<lb break="no" ed="#P" n="93"/>rent rationem naturalem sibi non posse 
+suffi<lb break="no" ed="#P" n="94"/>cere; nam sibi relicta plurimum obscurata
+<lb ed="#P" n="95"/>est, et in varios errores lapsa. Postea vero,
+<lb ed="#P" n="96"/>ne hoc malum nimium cresceret, ev omnes
+<lb ed="#P" n="97"/>hominum nationes prorsus occuparet, 
+oppor<lb break="no" ed="#P" n="98"/>tuno tempore data est lex, et ad illam electa
+<lb ed="#P" n="99"/>est illa gens ex qua Christus erat nasciturus,
+<lb ed="#P" n="100"/>et ita quodammodo inchoata est tempore
+<lb ed="#P" n="101"/>Abrahae, cui data est circumcisio, quia tunc
+<lb ed="#P" n="102"/>fere omnes homines idolatriae dediti erant.
+<lb ed="#P" n="103"/>Et hanc rationem illius dilationis tradit
+<lb ed="#P" n="104"/>Paul., in Epist. ad Rom., a principio, ubi hae
+<lb ed="#P" n="105"/>ratione dicit per legem datam esse peccati 
+co<lb break="no" ed="#P" n="106"/>gnitionem, et similia.
+</p>
+            <p xml:id="szdleg-s11559-d1e1322">
+               <lb ed="#P" n="107"/>13. Lex vetus multo tempore ante Christi
+<lb ed="#P" n="108"/>adventumn data. — Lec velus data anno 2513
+<lb ed="#P" n="109"/>a creatione mundi.—beinde data est etiam 
+il<lb break="no" ed="#P" n="110"/>la lex multo tempore ante Christi adventum,
+<pb ed="#P" n="449"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ut ab illo populo peculiari fide et spe 
+credere<lb break="no" ed="#P" n="2"/>tur et speraretur, et majori affectu 
+desiderare<lb break="no" ed="#P" n="3"/>tur ac peteretur, ac denique ut Christi 
+proge<lb break="no" ed="#P" n="4"/>nitores multo ante adventum ejus specialiter
+<lb ed="#P" n="5"/>essent cultores Dei cum tota sua progenie,
+<lb ed="#P" n="6"/>seu natione ; quia vero non solum de scientia,
+<lb ed="#P" n="7"/>sed etiam de viribus suis homines 
+gloriaban<lb break="no" ed="#P" n="8"/>tur, data est etiam illa lex, quae praeciperet,
+<lb ed="#P" n="9"/>et non juvaret, ut homines magis 
+necessita<lb break="no" ed="#P" n="10"/>tem divinae gratiae et Christi, auctoris ejus,
+<lb ed="#P" n="11"/>agnoscerent, ut Paulus in eadem Epist. ad
+<lb ed="#P" n="12"/>Rom. et ad Gal. prosequitur. Non est autem
+<lb ed="#P" n="13"/>illa lex data simul cum circumcisione, quia
+<lb ed="#P" n="14"/>nondum erat sufficienter multiplicatus 
+popu<lb break="no" ed="#P" n="15"/>lus cui lex illa danda erat, ut in superioribus
+<lb ed="#P" n="16"/>tactum est. Quod si quis inquirat quo tempore
+<lb ed="#P" n="17"/>vel anno a creatione mundi data fuerit lex, 
+res<lb break="no" ed="#P" n="18"/>pondeo breviter verisimile esse datam esse 
+an<lb break="no" ed="#P" n="19"/>no 29513 a creatione mundi, ut colligimus ex
+<lb ed="#P" n="20"/>computatione, quam ad incarnationis tempus
+<lb ed="#P" n="21"/>declarandum fecimus in 1 t. 3 part., disp. 6,
+<lb ed="#P" n="22"/>sect. 1; data enim fuit 400 anno a 
+circumci<lb break="no" ed="#P" n="23"/>sione data Abrahae, ut testatur Stephan., 
+Ac<lb break="no" ed="#P" n="24"/>tor. 7, vel (quod idem est) 430 annis post 
+vo<lb break="no" ed="#P" n="25"/>cationem Abrahae et egressum ejus de terra
+<lb ed="#P" n="26"/>sua, Genes. 12, ut sumitur ex Paul., ad Gal.
+<lb ed="#P" n="27"/>3; ita enim duo illa loca conciliantur. 
+Deni<lb break="no" ed="#P" n="28"/>que data est quinquaginta diebus post exitum
+<lb ed="#P" n="29"/>populi de Agypto, ut supputat Hieronym.
+<lb ed="#P" n="30"/>dict. Epistol. 127, mansi. 12; et de hoc puncto
+<lb ed="#P" n="31"/>seu tempore videri potest August., lib. 18 de
+<lb ed="#P" n="32"/>Civit., cap. 11, et 4cont. Faust., cap. 2; 
+di<lb break="no" ed="#P" n="33"/>vus Thom., quaest. 98, art. 6; et Pereir., in
+<lb ed="#P" n="34"/>cap. 12 Exodi, disput. 19.
+</p>
+            <p xml:id="szdleg-s11559-d1e1411">
+               <lb ed="#P" n="35"/>14. Ultimo tandem advertendum est ea quae
+<lb ed="#P" n="36"/>de his circumstantiis diximus, 
+intelligen<lb break="no" ed="#P" n="37"/>da esse de illa lege, quoad praecipuam
+<lb ed="#P" n="38"/>ejus fere partem, vel (ut ita dicam) quoad
+<lb ed="#P" n="39"/>totum corpus illius, non vero quoad omnia
+<lb ed="#P" n="40"/>et singula praecepta ejus; sic enim non 
+fue<lb break="no" ed="#P" n="41"/>runt omnia ejus praecepta in eodem loco, nec
+<lb ed="#P" n="42"/>in eodem tempore data : nam de praecepto
+<lb ed="#P" n="43"/>circumcisionis jam dictum est multo tempore
+<lb ed="#P" n="44"/>fuisse datum ante legem, et, quia datum est,
+<lb ed="#P" n="45"/>ut perpetuo in illo populo duraret, Genes. 17,
+<lb ed="#P" n="46"/>necessarium fuit veteri legi adjungi, ut etiam
+<lb ed="#P" n="47"/>ante illam latam, Exod. 12, significatum est,
+<lb ed="#P" n="48"/>licet postea etiam clarius traditum sit Levit.
+<lb ed="#P" n="49"/>12. Item, dicto loco Exod. 12, promissum est
+<lb ed="#P" n="50"/>praeceptum de celebratione Paschatis et 
+Azy<lb break="no" ed="#P" n="51"/>morum, et cap. 16 additum est praeceptum
+<lb ed="#P" n="52"/>de observatione sabbati. Post legem vero 
+da<lb break="no" ed="#P" n="53"/>tam in monte, addita sunt ei aliqua praecepta,
+<lb ed="#P" n="54"/>ut constat Num. 27, de modo succedendi filu
+<lb ed="#P" n="55"/>baeredis in haereditate patris, deficiente filio,
+<cb ed="#P" n="b"/>
+               <lb ed="#P" n="56"/>etc.; et in sequentibus eapitibus adduntur
+<lb ed="#P" n="57"/>aliae leges, quae videntur post legem et in
+<lb ed="#P" n="58"/>diversis locis latae.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="19"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q04577"><!-- l6c4 -->
+        <head xml:id="szdleg-q04577-Hd1e101">Caput 4</head>
+        <head xml:id="szdleg-q04577-Hd1e103" type="question-title">Expediuntur nonnulla dubia circa extensionem legis ob identitatem rationis, vel alis modis.</head>
+        <p xml:id="szdleg-q04577-d1e106">
+          <lb ed="#P" n="36"/>CAPUT IV.
+          <lb ed="#P" n="37"/>EXPEDIUNTUR NONNULLA DUBIA CIRCA 
+          EXTENSIO<lb break="no" ed="#P" n="38"/>NEM LEGIS OB IDENTITATEM RATIONIS, VEL
+          <lb ed="#P" n="39"/>ALIS MODIS.
+        </p>
+        <p xml:id="szdleg-q04577-d1e117">
+          <lb ed="#P" n="40"/>1. Circa superiorem doctrinam nonnulla
+          <lb ed="#P" n="41"/>dubia supersunt, quae breviter expedienda
+          <lb ed="#P" n="42"/>sunt. Primum est in quibus legibus locum 
+          ha<lb break="no" ed="#P" n="43"/>beat praedicta extensio ; multi enim doctores
+          <lb ed="#P" n="44"/>dicunt hanc extensionem per identitatem 
+          ra<lb break="no" ed="#P" n="45"/>tionis habere locum in lege favorabili, et 
+          maxi<lb break="no" ed="#P" n="46"/>me si cedat in salutem animae. Quod tradit
+          <lb ed="#P" n="47"/>Panormitan. in cap. Ezx tenore, Qui filii sint
+          <lb ed="#P" n="48"/>legit., et ibi Joan. Andr., Host. et omnes. Item
+          <lb ed="#P" n="49"/>Felin. et alii in cap. Translato, de Constitut.,
+          <lb ed="#P" n="50"/>et in capit. ultim. de praescript. ; Bartol. 
+          Au<lb break="no" ed="#P" n="51"/>thent. Sacramenta puberum , cod. Si advers.
+          <lb ed="#P" n="52"/>vendit., ubi in scholio multi alii referuntur, et
+          <lb ed="#P" n="53"/>alios refert Covar. in 4, 2 p., c. 6, n. 12;
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>Flami., de Resignat. beneficior, lib. 11, q.2,
+          <lb ed="#P" n="55"/>n. 17. Potest ieo hoc intelligi , vel quando
+          <lb ed="#P" n="56"/>extensio fit ex vi solius rationis propter 
+          neces<lb break="no" ed="#P" n="57"/>sariam connexionem aliorum casuum cum
+          <lb ed="#P" n="58"/>illa, seu propter injustitiam aliquam, vel 
+          ab<lb break="no" ed="#P" n="59"/>surditatem legis vitandam, vel quando fit non
+          <lb ed="#P" n="60"/>ex necessitate, sed ex congruitate, quia verba
+          <lb ed="#P" n="61"/>facile illam extensionem complectuntur. In
+          <lb ed="#P" n="62"/>priori sensu non est illud proprium legis 
+          favo<lb break="no" ed="#P" n="63"/>rabilis, sed amplius extenditur, ut jam dicam.
+          <lb ed="#P" n="64"/>Unde non est exclusive id accipiendum, sed
+          <lb ed="#P" n="65"/>tanquam magis certum et facilius 
+          admitten<lb break="no" ed="#P" n="66"/>dum ; idemque dicendum erit de lege 
+          favora<lb break="no" ed="#P" n="67"/>bili animae comparata ad alias favorabiles. In
+          <lb ed="#P" n="68"/>posteriori autem sensu est hoc proprium legis
+          <lb ed="#P" n="69"/>favorabilis, quia generatim et quasi per 
+          an<lb break="no" ed="#P" n="70"/>tonomasiam convenit ei quae animae favorem
+          <lb ed="#P" n="71"/>continet. Est autem intelligendum de 
+          exten<lb break="no" ed="#P" n="72"/>sione intra aliquam proprietatem verborum,
+          <lb ed="#P" n="73"/>ut jam declaratum est.
+        </p>
+        <p xml:id="szdleg-q04577-d1e195">
+          <lb ed="#P" n="74"/>2. Extensio comprehensiva ob rationis 
+          iden<lb break="no" ed="#P" n="75"/>titaiem etiam ad legem penualem eatenditur. —
+          <lb ed="#P" n="76"/>Limitatur regula. — Unde infero eo modo quo
+          <lb ed="#P" n="77"/>lex recipit extensionem comprehensivam ex
+          <lb ed="#P" n="78"/>sola identitate rationis, non solum habere 
+          lo<lb break="no" ed="#P" n="79"/>cum in lege favorabili aut non poenali, sed
+          <lb ed="#P" n="80"/>euam in poenali. Ita docent plures ex citatis
+          <lb ed="#P" n="81"/>auctoribus , praesertim Sylv. et Angel., Imol.
+          <lb ed="#P" n="82"/>et Gemin. in dicto cap. de Tempor. ordin., in
+          <lb ed="#P" n="83"/>6, et in dicto cap. S postquam ; Panormit.
+          <lb ed="#P" n="84"/>frequenter, cap. ult. de Rescript. n. 10 et 11,
+          <lb ed="#P" n="85"/>et in cap. JViil, de Election., n. 9, ubi etiam
+          <lb ed="#P" n="86"/>de correctoriis loquitur, et in Clem. 1, de 
+          Res<lb break="no" ed="#P" n="87"/>cript., n. 2, et in Clement. 1, de Elect. n. 8,
+          <lb ed="#P" n="88"/>quibus locis varia in utramque partem 
+          addu<lb break="no" ed="#P" n="89"/>cit ; ipse autem non solum est constans in illa
+          <lb ed="#P" n="90"/>sententia, sed etiam valde illam extendit. Idem
+          <lb ed="#P" n="91"/>tenet alios referens Rochus Curt. de Cons. sect.
+          <lb ed="#P" n="92"/>4, num. 23. Item Navarrus in capite Pene,
+          <lb ed="#P" n="93"/>de Poenitentia disp. 1, ubi pluribus modis
+          <lb ed="#P" n="94"/>hoc extendit. Item Covarrus in capite Auma,
+          <lb ed="#P" n="95"/>2 p., S 4, num. 7; Anton. Gom., 1 Variar.,
+          <lb ed="#P" n="96"/>cap. 5, n. 1, et cap. 11, n. 22; Gutier., lib. 1
+          <lb ed="#P" n="97"/>Canonic. quaest., cap. 10, n. 13. Debet autem
+          <lb ed="#P" n="98"/>hoc intelEgi non de extensione solius poenae,
+          <lb ed="#P" n="99"/>haec enim nunquam fieri potest, ut dixi, nec
+          <lb ed="#P" n="100"/>in illa potest inveniri identitas rationis, cum
+          <lb ed="#P" n="101"/>magis pendeat ex voluntate quoad 
+          determina<lb break="no" ed="#P" n="102"/>tionem seu qualitatem poenae. Nec etiam debet
+          <lb ed="#P" n="103"/>intelligi de extensione quoad solam 
+          obligatio<lb break="no" ed="#P" n="104"/>nem praecepti (ut aliqui ex dictis auctoribus
+          <lb ed="#P" n="105"/>sentirevidentur), quia, si obligatio extenditur,
+          <lb ed="#P" n="106"/>consequenter extendetur poena, quia absolute
+          <lb ed="#P" n="107"/>ponitur contra legis transgressores, et quia est
+          <lb ed="#P" n="108"/>accessorium quod sequitur suum principale,
+          <pb ed="#P" n="20"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nisi ipsa lege expresse restringatur ad 
+          cer<lb break="no" ed="#P" n="2"/>tum peccandi modum. Tunc enim ex defectu
+          <lb ed="#P" n="3"/>illius poterit non incurri poena, ut in materia
+          <lb ed="#P" n="4"/>de Censuris saepe dictum est. Et ideo cum 
+          pro<lb break="no" ed="#P" n="5"/>portione intelligitur assertio de tota lege etiam
+          <lb ed="#P" n="6"/>poenali. Praeterea debet intelligi quando talis
+          <lb ed="#P" n="7"/>comprehensio ex vi rationis necessaria est ut
+          <lb ed="#P" n="8"/>vere et integre impleatur ratio legis, vel ut sit
+          <lb ed="#P" n="9"/>justa et rationabilis, ut explicatum est, tunc
+          <lb ed="#P" n="10"/>enim est evidens necessitas , quia non minus
+          <lb ed="#P" n="11"/>efficax et justa ac rationabilis debet esse lex
+          <lb ed="#P" n="12"/>poenalis quam quaelibet alia.
+        </p>
+        <p xml:id="szdleg-q04577-d1e305">
+          <lb ed="#P" n="13"/>3. Objectio refellitur. —Extensio 
+          comprehen<lb break="no" ed="#P" n="14"/>siva duples. — Vera interpretatio reguarum
+          <lb ed="#P" n="15"/>de ponis. — Et hinc facile solvuntur 
+          contra<lb break="no" ed="#P" n="16"/>ria quae objici possunt ex illis regulis, quod
+          <lb ed="#P" n="17"/>poenae sunt restringendae, et leniendae, et 
+          beni<lb break="no" ed="#P" n="18"/>gne interpretandae. Haec enim omnia de 
+          exten<lb break="no" ed="#P" n="19"/>siva interpretatione intelligi possunt, ut 
+          Ge<lb break="no" ed="#P" n="20"/>min., Imol., Sylvest. et alii volunt. Sed non
+          <lb ed="#P" n="21"/>placet expositio, quia etiam in non poenalibus
+          <lb ed="#P" n="22"/>illa interpretatio locum non habet , saltem
+          <lb ed="#P" n="23"/>quoad propriam legis obligationem de qua nos
+          <lb ed="#P" n="24"/>praecipue tractamus. Dico ergo extensionem
+          <lb ed="#P" n="25"/>comprehensivam duplicem distingui, unam
+          <lb ed="#P" n="26"/>necessitatis, aliam congruitatis ; sicut enim
+          <lb ed="#P" n="27"/>praesumptio duplex distinguitur a juristis, una
+          <lb ed="#P" n="28"/>necessaria, alia probabilis, seu voluntatis ; ita
+          <lb ed="#P" n="29"/>etiam extensio comprehensiva ex vi rationis
+          <lb ed="#P" n="30"/>duplex esse potest, una omnino necessaria ad
+          <lb ed="#P" n="31"/>justitiam vel rectitudinem, et in gratiam 
+          ob<lb break="no" ed="#P" n="32"/>servantium leges ; alia non necessaria, seu 
+          vo<lb break="no" ed="#P" n="33"/>luntaria, quia, licet in uno sensu possit lex
+          <lb ed="#P" n="34"/>multa comprehendere juste et sine 
+          inconve<lb break="no" ed="#P" n="35"/>niente, alia minor comprehensio sufficit ad
+          <lb ed="#P" n="36"/>justitiam legis et proprietatem verborum cum
+          <lb ed="#P" n="37"/>ratione etiam legis servandam. Dico ergo 
+          ge<lb break="no" ed="#P" n="38"/>nerales illas regulas de non ampliandis 
+          legi<lb break="no" ed="#P" n="39"/>bus poenalibus intelligi de interpretatione (ut
+          <lb ed="#P" n="40"/>ita dicam) voluntaria, id est, sine qua potest
+          <lb ed="#P" n="41"/>conservari prudens dispositio et justitia legis,
+          <lb ed="#P" n="42"/>quia infra hanc latitudinem benigne semper
+          <lb ed="#P" n="43"/>est interpretanda lex poenalis. Quando vero
+          <lb ed="#P" n="44"/>extensio est necessaria ad justitiam legis, 
+          se<lb break="no" ed="#P" n="45"/>cus est, et ita intelligenda est Glossa in 
+          Cle<lb break="no" ed="#P" n="46"/>mentin. 2, de ZEtat. et qualitat., verb. 7n his,
+          <lb ed="#P" n="47"/>ideoque merito dicunt multi ex dictis 
+          auctori<lb break="no" ed="#P" n="48"/>bus hanc comprehensivam non esse propriam
+          <lb ed="#P" n="49"/>extensionem, sed adaequatam legis 
+          interpreta<lb break="no" ed="#P" n="50"/>tionem, quae in poenalibus etiam servanda est.
+          <lb ed="#P" n="51"/>Propter quod etiam supra dicebamus per se
+          <lb ed="#P" n="52"/>loquendo debere poenalem legem ampliari ad
+          <lb ed="#P" n="53"/>omnia comprehensa sub aliqua propria 
+          signi<lb break="no" ed="#P" n="54"/>ficatione verborum, licet amplectenda sit 
+          mi<lb break="no" ed="#P" n="55"/>nus ampla, dummodo propria sit.
+        </p>
+        <p xml:id="szdleg-q04577-d1e401">
+          <lb ed="#P" n="56"/>4. Quid in lege correctoria dicendum. — 
+          At<lb break="no" ed="#P" n="57"/>que ex praedicto fundamento sequitur idem
+          <lb ed="#P" n="58"/>esse dicendum etiam in lege correctoria, ut
+          <lb ed="#P" n="59"/>aperte dicunt Panormitan., Rochus, et alii 
+          su<lb break="no" ed="#P" n="60"/>pra allegati, et Firaq. cum multis dicto S 
+          Zi<lb break="no" ed="#P" n="61"/>Dertis, n. 45, et sumitur ex Gloss. in Clem. 1,
+          <lb ed="#P" n="62"/>de Elect., verb. Eligatur. Imo idem sequitur
+          <lb ed="#P" n="63"/>etiamsi simul poenalis sive odiosa et 
+          correcto<lb break="no" ed="#P" n="64"/>ria sit, ut ex eisdem sumitur, et ex aliis quos
+          <lb ed="#P" n="65"/>refert Matienz. lib, 5 Recopil., tit. 11, lib. 19,
+          <lb ed="#P" n="66"/>Gloss. 2, n. 5; Gutier., de Juram., 3 p., c. 2,
+          <lb ed="#P" n="67"/>n. 8. Et delege exorbitante generaliter idem
+          <lb ed="#P" n="68"/>tradit Bart. in leg. 6 constante, ft. Solut.
+          <lb ed="#P" n="69"/>matrimon., n. 44; Jason., n. 13; Menoch.,
+          <lb ed="#P" n="70"/>lib. 4, praesumpt. 89, n. 37; Tiraq. in dicta
+          <lb ed="#P" n="71"/>leg. Si unquam, S Libertis, n. 44 et 61; 
+          de<lb break="no" ed="#P" n="72"/>nique in quacumque lege, quantumvis gravis
+          <lb ed="#P" n="73"/>cogitetur, dummodo aequitatem legis retineat,
+          <lb ed="#P" n="74"/>ratio facta procedit, recte applicata et 
+          expli<lb break="no" ed="#P" n="75"/>cata rationis identitate, eritque semper multo
+          <lb ed="#P" n="76"/>facilior extensio si verba in aliqua 
+          significa<lb break="no" ed="#P" n="77"/>tione, licet latissima, possint casum 
+          compre<lb break="no" ed="#P" n="78"/>hendere, ut per varia exempla exponit Roch.
+          <lb ed="#P" n="79"/>dict. sect. 4, n. 12.
+        </p>
+        <p xml:id="szdleg-q04577-d1e456">
+          <lb ed="#P" n="80"/>5. Quorumdam limitatio. — Quidam autem
+          <lb ed="#P" n="81"/>hoc limitare videntur dum dicunt hanc 
+          exten<lb break="no" ed="#P" n="82"/>sionem in poenalibus, correctoriis et 
+          exorbi<lb break="no" ed="#P" n="83"/>tantibus habere locum, quando alioqui sunt
+          <lb ed="#P" n="84"/>favorabiles, ut dicit Tiraq. supra dicto n. 61,
+          <lb ed="#P" n="85"/>vel quando sunt propter utilitatem animae, ut
+          <lb ed="#P" n="86"/>ait Felin. in c. Z7vanslato, n. 13 de Constit.,
+          <lb ed="#P" n="87"/>vel in favorem Ecclesiae, ut dixit Glossa in c.
+          <lb ed="#P" n="88"/>Sciant cuncti, de Elect. in 6; vel in favorem
+          <lb ed="#P" n="89"/>boni publici, ut ait idem Felin. infra, n. 15;
+          <lb ed="#P" n="90"/>et Navar. in dicto cap. Pone, et sentiunt alii
+          <lb ed="#P" n="91"/>quos refert Rochus dicta sect. 4, n. 20. Haec
+          <lb ed="#P" n="92"/>vero et similia vel dicta sunt de extensione
+          <lb ed="#P" n="93"/>non necessaria, vel non exclusive seu 
+          restric<lb break="no" ed="#P" n="94"/>tive intelligenda sunt, sed quasi per 
+          antono<lb break="no" ed="#P" n="95"/>masiam et ob majorem certitudinem, sicut in
+          <lb ed="#P" n="96"/>simili paulo ante explicavi. Nam si extensio est
+          <lb ed="#P" n="97"/>comprehensiva et necessaria ad justitiam et
+          <lb ed="#P" n="98"/>plenam observantiam legis juxta vim rationis
+          <lb ed="#P" n="99"/>ejus, tunc generaliter servanda est regula in
+          <lb ed="#P" n="100"/>quacumque lege quomodocumque exorbitante,
+          <lb ed="#P" n="101"/>dummodo vera lex sit; si vera ratio non 
+          co<lb break="no" ed="#P" n="102"/>gat similiter ad talem extensionem tantamque
+          <lb ed="#P" n="103"/>comprehensionem, tunc, licet in aliis 
+          poenali<lb break="no" ed="#P" n="104"/>bus vitanda sit extensio, in his privilegiatis
+          <lb ed="#P" n="105"/>(ut ita dicam) admitti potest et interdum 
+          de<lb break="no" ed="#P" n="106"/>bet, quia (ut supra dixi), licet lex poenalis sit
+          <lb ed="#P" n="107"/>vel odiosa ex uno capite, potest ex alio tantum
+          <lb ed="#P" n="108"/>continere favorem, tantique momenti, ut in ea
+          <lb ed="#P" n="109"/>servanda sint principia legis favorabilis potius
+          <lb ed="#P" n="110"/>quam odiosae. Et juxta haec possunt non diffi-
+          <pb ed="#P" n="21"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cile varia dicta doctorum conciliari, quae in
+          <lb ed="#P" n="2"/>specie verborum non solum diversa, sed etiam
+          <lb ed="#P" n="3"/>contraria seepe videbuntur, non tamen sunt,
+          <lb ed="#P" n="4"/>quia de diversa extensione et de diversa 
+          ratio<lb break="no" ed="#P" n="5"/>nis unitate, seu similitudine aut identitate 
+          lo<lb break="no" ed="#P" n="6"/>quuntur, licet haec omnia pauci distinguant.
+        </p>
+        <p xml:id="szdleg-q04577-d1e543">
+          <lb ed="#P" n="7"/>6. Ratio subintellecta quem effectum habet.
+          <lb ed="#P" n="8"/>—Quaerunt vero dicti auctores an haec 
+          intelli<lb break="no" ed="#P" n="9"/>genda sint tantum de ratione expressa in lege
+          <lb ed="#P" n="10"/>vel etiam de non expressa, sed ab 
+          interpreti<lb break="no" ed="#P" n="11"/>bus excogitata. Saepe enim auctores videntur
+          <lb ed="#P" n="12"/>doctrinam datam restringere ad rationem in
+          <lb ed="#P" n="13"/>lege expressam. Ita Panorm. in cap. 1 de 
+          Ju<lb break="no" ed="#P" n="14"/>rament. calum., n. 8, etinc. JVilil, de Elect.,
+          <lb ed="#P" n="15"/>n. 9, et idem sentit Bart. in dicta Authent.
+          <lb ed="#P" n="16"/>Quas actiones, et alii ibi, praesertim ubi 
+          exten<lb break="no" ed="#P" n="17"/>sio fit in materia non favorabili, ut poenali vel
+          <lb ed="#P" n="18"/>correctoria. Et ad hoc induci potest lex Pater,
+          <lb ed="#P" n="19"/>S Julius, ft. de Legat. 3, ibi: Cum hoc nudum
+          <lb ed="#P" n="20"/>praeceptum esset, et indicat ibi Gloss. ; 
+          nihilo<lb break="no" ed="#P" n="21"/>minus contrarium docent muli;, videlicet, 
+          suf<lb break="no" ed="#P" n="22"/>ficere rationem subintellectam, licet expressa
+          <lb ed="#P" n="23"/>non sit, dummodo satis certo constet illam et
+          <lb ed="#P" n="24"/>non aliam potuisse esse rationem legis. Ita 
+          sen<lb break="no" ed="#P" n="25"/>tit Bart. in l. /tem queritur, S Qui impleto, ff.
+          <lb ed="#P" n="26"/>Locati., n. 10; et Bald. in l. Magimum, c. de
+          <lb ed="#P" n="27"/>Lib. praeter., n. 4; et Cyn. in l. Non dubium,
+          <lb ed="#P" n="28"/>c. de leg., et Panor. in Clemen. 1 de 
+          hescrip<lb break="no" ed="#P" n="29"/>tis, cum Glossa ibi; idem in c. fin. de Rescrip.;
+          <lb ed="#P" n="30"/>Felin. inc. Translato, de Const. ultimo notab.;
+          <lb ed="#P" n="31"/>Angel., Verb. Lez, n. 8; Sylv., q. 18; Anton.
+          <lb ed="#P" n="32"/>Gom., variar. c. 11, n. 12. Fundamentum est,
+          <lb ed="#P" n="33"/>quia potest sufficienter constare de ratione 
+          le<lb break="no" ed="#P" n="34"/>gis, etiamsi scripta non sit; ergo idem 
+          opera<lb break="no" ed="#P" n="35"/>bitur. Probatur consequentia, quia non habet
+          <lb ed="#P" n="36"/>dictum effectum, quia scripta est, sed quia in
+          <lb ed="#P" n="37"/>se talis est, Nihilominus tamen, quia, quando
+          <lb ed="#P" n="38"/>est scripta, pars est legis, et de illa certissime
+          <lb ed="#P" n="39"/>constat, et per contextum constare etiam potest
+          <lb ed="#P" n="40"/>quomodo determinet alia verba legis, ideo 
+          re<lb break="no" ed="#P" n="41"/>gulariter vix habet locum cum obligatione haec
+          <lb ed="#P" n="42"/>extensio ex vi rationis, nisi scripta sit. Quando
+          <lb ed="#P" n="43"/>vero non est scripta, juxta legis qualitatem et
+          <lb ed="#P" n="44"/>materiam poterit extensio fieri cum majori vel
+          <lb ed="#P" n="45"/>minori certitudine praesumptionis, et interdum
+          <lb ed="#P" n="46"/>poterit esse tam evidens vel communiter 
+          re<lb break="no" ed="#P" n="47"/>cepta, ut ad obligationem legis sufficiat.
+        </p>
+        <p xml:id="szdleg-q04577-d1e634">
+          <lb ed="#P" n="48"/>7. Ad supradictos modos emtensionis omnes alii
+          <lb ed="#P" n="49"/>modi reducuntwr .— Ulterius inquiri potest an
+          <lb ed="#P" n="50"/>praeter dictos modos extensionis legis alii dari
+          <lb ed="#P" n="51"/>possint ; solent enim recenseri alii peculiares
+          <lb ed="#P" n="52"/>modi extendendi leges, etiam poenales et 
+          onero<lb break="no" ed="#P" n="53"/>sas,qui attinguntur a Navar.,in d.c. Pene, ex
+          <lb ed="#P" n="54"/>Franc. et Dominic., in c. 1 de Tempor. ordin.
+          <lb ed="#P" n="55"/>Sed si recte spectentur, omnes ad superiores
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>reducuntur, et juxta illos intelligi debent ut
+          <lb ed="#P" n="57"/>veri sint; quod breviter declaro attingendo
+          <lb ed="#P" n="58"/>praecipuos. Unus est ut fiat extensio legis ad
+          <lb ed="#P" n="59"/>correlativa ex Glossa, Bart. et Bald. quos ibi
+          <lb ed="#P" n="60"/>citat Nav. supra, et idem dicit in Sum., c. 22,
+          <lb ed="#P" n="61"/>n. 72; et Rochus dicta sect. 4, n. 13 et 16, et
+          <lb ed="#P" n="62"/>Ripa in l. Ait praetor, S Si judez, ft. de 
+          Reju<lb break="no" ed="#P" n="63"/>dic., ubi alii. Intelligendum autem hoc est 
+          im<lb break="no" ed="#P" n="64"/>primis de correlativis, ut talia sunt, ut 
+          mari<lb break="no" ed="#P" n="65"/>tus et uxor, pater et filius, mensura et 
+          mensu<lb break="no" ed="#P" n="66"/>ratum, ut se respiciunt : nam si materialiter
+          <lb ed="#P" n="67"/>spectentur non habent connexionem. Deinde
+          <lb ed="#P" n="68"/>necessarium est ut eadem ratio in eis vigeat,
+          <lb ed="#P" n="69"/>ita ut non possit in uno procedere nisi 
+          attin<lb break="no" ed="#P" n="70"/>gat aliud, vel certe ut ratio justitiae postulet ut
+          <lb ed="#P" n="71"/>dispositum de uno habeat locum in alio; 
+          alio<lb break="no" ed="#P" n="72"/>qui relatio parum refert ad extensionem.
+          <lb ed="#P" n="73"/>Exempla varia in dictis auctoribus videri 
+          pos<lb break="no" ed="#P" n="74"/>sunt.
+        </p>
+        <p xml:id="szdleg-q04577-d1e697">
+          <lb ed="#P" n="75"/>8. Alius modus extensionis est per 
+          radicatio<lb break="no" ed="#P" n="76"/>nem plurium casuum in eodem principio seu
+          <lb ed="#P" n="77"/>radice ; nam una etiam lege prohibentur, 
+          jux<lb break="no" ed="#P" n="78"/>ta illud Justiniani imperatorisin l. uk., cap.de
+          <lb ed="#P" n="79"/>Nuptiis : Cum ex una radice vitium nascitur,
+          <lb ed="#P" n="80"/>consequens est ut eadem lege tollatur. Qui 
+          mo<lb break="no" ed="#P" n="81"/>dus etiam debet intelligi quando ratio et radix
+          <lb ed="#P" n="82"/>prohibitionis una et eadem est in utroque 
+          ca<lb break="no" ed="#P" n="83"/>su, ut exposuit Glossa in c. Fraternitatis, de
+          <lb ed="#P" n="84"/>Testib., verb. Novis. Item explicandus est de
+          <lb ed="#P" n="85"/>identitate rationis eo modo quo illam 
+          declara<lb break="no" ed="#P" n="86"/>vimus. Erit autem res evidentior, si radix ipsa
+          <lb ed="#P" n="87"/>sit materia legis: nam si lex excludat radicem,
+          <lb ed="#P" n="88"/>quidquid ex ea oritur, videtur exclusum, ut
+          <lb ed="#P" n="89"/>dixit Bald. in dicta l. Masgimum, c. de Lib.
+          <lb ed="#P" n="90"/>praeter., n. 4. Similis modus extensionis est
+          <lb ed="#P" n="91"/>inter ea quae se consequuntur seu connexa
+          <lb ed="#P" n="92"/>sunt, quem modum posuit Anton. de Butr. in
+          <lb ed="#P" n="93"/>c. ult. de Consuet., limitat. 4, et late Rochus
+          <lb ed="#P" n="94"/>ibi sect. 4, n. 16, et attingit Nav. dicto c. 
+          Pa<lb break="no" ed="#P" n="95"/>nc, n. 11 et 12 ex Glossis quas allegat. Et 
+          va<lb break="no" ed="#P" n="96"/>ria exempla adducunt quae majori indigebant
+          <lb ed="#P" n="97"/>examine, sed non possumus ad singula 
+          descen<lb break="no" ed="#P" n="98"/>dere. Existimo igitur, secundum eadem 
+          princi<lb break="no" ed="#P" n="99"/>pia posita, esse de extensione judicandum, 
+          sci<lb break="no" ed="#P" n="100"/>licet, ut connexio tanta sit ut non possit, verbi
+          <lb ed="#P" n="101"/>gratia, unum prudenter vel juste prohiberi
+          <lb ed="#P" n="102"/>quin prohibeatur aliud, sicut de correlativis
+          <lb ed="#P" n="103"/>dictum est. Contingere etiam poterit ut unum
+          <lb ed="#P" n="104"/>sub alio contineatur, tanquam imperfectum
+          <lb ed="#P" n="105"/>sub perfecto ejusdem rationis, ut affinitas sub
+          <lb ed="#P" n="106"/>consanguinitate, vel tanquam pars sub toto,
+          <lb ed="#P" n="107"/>vel commutatio sub dispensatione, et tunc
+          <lb ed="#P" n="108"/>procedit regula a minori, non e contrario; et
+          <lb ed="#P" n="109"/>sic intelligit Panorm. in cap. Dilecti fili, de
+          <lb ed="#P" n="110"/>Arb., n. 4et 5, etcolligitur ex illo textu. Item
+          <pb ed="#P" n="22"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>potest fieri ut ratione connexionis unum 
+          com<lb break="no" ed="#P" n="2"/>prehendi censeatur sub alio secundum 
+          commu<lb break="no" ed="#P" n="3"/>nem usum, et tunc non fiet extensio ex vi 
+          so<lb break="no" ed="#P" n="4"/>lius rationis, sed etiam propter significationem
+          <lb ed="#P" n="5"/>verborum, in qua plurimum valet communis
+          <lb ed="#P" n="6"/>usus, ut late Fel. in Proocm. Decret., n. 3et
+          <lb ed="#P" n="7"/>sequentibus.
+        </p>
+        <p xml:id="szdleg-q04577-d1e798">
+          <lb ed="#P" n="8"/>9. Alius modus quomodo intelligendus. —
+          <lb ed="#P" n="9"/>Alius praeterea modus extensionis est per 
+          aequi<lb break="no" ed="#P" n="10"/>parationem casuum per aliam legem prius
+          <lb ed="#P" n="11"/>factam; nam tunc dispositum in uno per aliam
+          <lb ed="#P" n="12"/>legem consequenter censetur dispositum in
+          <lb ed="#P" n="13"/>alia, juxta Glossam et doctores in l. Si quis
+          <lb ed="#P" n="14"/>servo, c. de Furtis, et Bart. et alios in l. Ut
+          <lb ed="#P" n="15"/>tantum, ff. de Serv. corr., et notat Abb. alia
+          <lb ed="#P" n="16"/>referens in cap. De multa, de Praeben., n. 18;
+          <lb ed="#P" n="17"/>Roch., dicta sect. 4, n. 14; Jas. inl. 
+          Tvransi<lb break="no" ed="#P" n="18"/>gere , c. de Trans.; Nav., dict. c. Pene, n. 14,
+          <lb ed="#P" n="19"/>et idem fere n. 15. Hic vero modus extensionis
+          <lb ed="#P" n="20"/>si in sola ratione legis fundetur, juxta praedicta
+          <lb ed="#P" n="21"/>moderandus est; si autem fundatur in 
+          dispo<lb break="no" ed="#P" n="22"/>sitione alterius legis, tunc ponderanda sunt
+          <lb ed="#P" n="23"/>verba legis facientis aequiparationem, et in eo
+          <lb ed="#P" n="24"/>servanda est regula in quo facta est 
+          aequipara<lb break="no" ed="#P" n="25"/>tio, et non ultra, ut attingit Sylv. verbo Pene,
+          <lb ed="#P" n="26"/>quaest. 4, et ibi Ang., et latius Crottus in l. S
+          <lb ed="#P" n="27"/>constante, 9 lect., ff. Solut. matrim., et Bern.
+          <lb ed="#P" n="28"/>Diaz, reg. 429. Et tunc proprie non fit extensio
+          <lb ed="#P" n="29"/>n eadem lege, sed una extendit effectum 
+          alte<lb break="no" ed="#P" n="30"/>rius, et ideo solet haec extensio vocari a juristis
+          <lb ed="#P" n="31"/>passiva et non activa, ut videre licet in Bart.
+          <lb ed="#P" n="32"/>supra, et Rocho., n. 9.
+        </p>
+        <p xml:id="szdleg-q04577-d1e855">
+          <lb ed="#P" n="33"/>10. Identitas ea motivo colligenda. — Abhus
+          <lb ed="#P" n="34"/>item modus addi potest, quando lex loquitur
+          <lb ed="#P" n="35"/>in determinato casu gratia exempli; nam tunc
+          <lb ed="#P" n="36"/>extendenda est ad casus similes. Quem modum
+          <lb ed="#P" n="37"/>ponunt Sylvest. verbo Lex, quaest. 20, verbo
+          <lb ed="#P" n="38"/>Quarto, et Ang. ibi, n. 7. Sed hic etiam modus
+          <lb ed="#P" n="39"/>locum habet juxta distinctionem datam de
+          <lb ed="#P" n="40"/>identitate vel similitudine rationis; nam sola
+          <lb ed="#P" n="41"/>similitudo, nisi sit etiam in identitate specifica,
+          <lb ed="#P" n="42"/>non suffticit; cum hac vero identitate sufficit,
+          <lb ed="#P" n="43"/>ut patet ex multis decisionibus canonum, et
+          <lb ed="#P" n="44"/>in legibus quae ferri possunt per sententiam
+          <lb ed="#P" n="45"/>principis in particulari casu, ut supra dictum
+          <lb ed="#P" n="46"/>est, et nihilominus intelliguntur esse generales
+          <lb ed="#P" n="47"/>leges. Identitas autem illa optime explicatur
+          <lb ed="#P" n="48"/>per motivum et rationem virtutis sub qua talis
+          <lb ed="#P" n="49"/>actus prohibetur vel praecipitur; nam si fuerit
+          <lb ed="#P" n="50"/>lex lata in tali casu intuitu religionis 
+          obser<lb break="no" ed="#P" n="51"/>vandse, vel sacrilegii vitandi, ubi in simili casu
+          <lb ed="#P" n="52"/>eadem specifica ratio religionis vel sacrilegii
+          <lb ed="#P" n="53"/>intervenerit, lex extendetur, et idem est de
+          <lb ed="#P" n="54"/>ratione justitiae. Et hoc declaratur bene ex l. 1,
+          <lb ed="#P" n="55"/>ft. Ut poss., juncto S IVam interdictum praetoris;
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>loquens de possessione domus, extenditur ad
+          <lb ed="#P" n="57"/>possidentem agrum, vel quamcumque rem 
+          si<lb break="no" ed="#P" n="58"/>milem, quia nimirum eadem est ratio justitiae
+          <lb ed="#P" n="59"/>in illis omnibus cujus intuitu interdictum 
+          la<lb break="no" ed="#P" n="60"/>tum est. Et ita ex materia, vel ex ratione legis,
+          <lb ed="#P" n="61"/>vel ex alia lege, vel ex naturali ratione, non
+          <lb ed="#P" n="62"/>erit difficile intelligere quando lex loquatur in
+          <lb ed="#P" n="63"/>particulari casu gratia exempli, vel per aliam
+          <lb ed="#P" n="64"/>occasionem. Et sic etiam procedit alia frequens
+          <lb ed="#P" n="65"/>regula quod lex loquens in speciali casu, quia
+          <lb ed="#P" n="66"/>frequentius accidit, extenditur etiam ad 
+          simi<lb break="no" ed="#P" n="67"/>les, licet rariores sint, dummodo ejusdem 
+          ra<lb break="no" ed="#P" n="68"/>tionis sint, in ratione virtutis aut vitii, ad quam
+          <lb ed="#P" n="69"/>respexit lex. Quod notavit Glos. in l. 1, c. de
+          <lb ed="#P" n="70"/>His qui ad Eccles., verbo Judei, et in unic.
+          <lb ed="#P" n="71"/>c. de Rapt. virg., verb. Sponsam. Idem Rebuff.
+          <lb ed="#P" n="72"/>in tract. Nomin., quaest. 5, n. 25; Ugol., de
+          <lb ed="#P" n="73"/>Excom., tab. 2, cap. 23, S 6, n. 6. Et eadem
+          <lb ed="#P" n="74"/>regula usus sum in 5 tomo, disp. 15, sect. 4,
+          <lb ed="#P" n="75"/>circa fin., explicando c. Quoniam multos, 11,
+          <lb ed="#P" n="76"/>quaest. 3. Omnia vero fundantur in identitate
+          <lb ed="#P" n="77"/>rationis, quae attente et secundum omnes 
+          cir<lb break="no" ed="#P" n="78"/>cumstantias positas spectanda est, ut explicavi.
+        </p>
+        <p xml:id="szdleg-q04577-d1e959">
+          <lb ed="#P" n="79"/>11. Ultimo inquiri potest an hujusmodi 
+          ex<lb break="no" ed="#P" n="80"/>tensio locum habeat non solum in casibus seu
+          <lb ed="#P" n="81"/>actionibus, sed etiam in personis, locis ac
+          <lb ed="#P" n="82"/>temporibus, etc. Ad quod potest generaliter
+          <lb ed="#P" n="83"/>responderi affirmando, si ratio aut verba legis,
+          <lb ed="#P" n="84"/>servata proportione, talem extensionem vel
+          <lb ed="#P" n="85"/>ampliationem requirant. Addo tamen proprie
+          <lb ed="#P" n="86"/>et immediate hanc extensionem fieri ad casus
+          <lb ed="#P" n="87"/>seu actiones, quia illa sunt proxima materia
+          <lb ed="#P" n="88"/>legum, et ideo de his praesertim locuti sumus,
+          <lb ed="#P" n="89"/>consequenter vero etiam fieri ad poenas, 
+          qua<lb break="no" ed="#P" n="90"/>tenus fieri potest ad maleficia seu delicta. Addo
+          <lb ed="#P" n="91"/>etiam propriissime fieri ad personas, tum quia
+          <lb ed="#P" n="92"/>etiam lex loquitur ad personas et illas obligat;
+          <lb ed="#P" n="93"/>tum etiam quia actiones per respectum ad
+          <lb ed="#P" n="94"/>personam variari possunt. Et ideo etiam de hac
+          <lb ed="#P" n="95"/>ampliatione legis frequentissime loquuntur
+          <lb ed="#P" n="96"/>auctores, et varia ejus exempla videri possunt
+          <lb ed="#P" n="97"/>in Rocho, supra dict. sect. 4, n. 12; Tiraq. in
+          <lb ed="#P" n="98"/>dicto S ibertis, n. 28 et sequent. ; Anton.,
+          <lb ed="#P" n="99"/>Gabr., 1. 6, t. de Verbor. signific., fere per
+          <lb ed="#P" n="100"/>totum.
+        </p>
+        <p xml:id="szdleg-q04577-d1e1009">
+          <lb ed="#P" n="101"/>12. Ad loca vero potest quidem fieri 
+          exten<lb break="no" ed="#P" n="102"/>sio intra latam vocis significationem, quando
+          <lb ed="#P" n="103"/>saltem sub illa potest nomen loci in lege 
+          posi<lb break="no" ed="#P" n="104"/>tum extendi ad alia loca, vel quia nomen est
+          <lb ed="#P" n="105"/>ambiguum et ex frequentiori usu, vel ex 
+          ma<lb break="no" ed="#P" n="106"/>teria aut ratione legis determinatur, vel quia
+          <lb ed="#P" n="107"/>per connexionem unus locus sub alio 
+          contine<lb break="no" ed="#P" n="108"/>tur, ut suburbia nomine populi, vel populi
+          <lb ed="#P" n="109"/>subjecti sub nomine civitatis, juxta l. Qui ex
+          <lb ed="#P" n="110"/>vico, ft. ad Municip., et quae insimul docent
+          <pb ed="#P" n="23"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Bart. in l. 2, c. Quae sit long. consuet., q. 31;
+          <lb ed="#P" n="2"/>Roch. , dict. sect. 4, n. 17; seclusis autem 
+          om<lb break="no" ed="#P" n="3"/>nino verbis, aut nunquam aut rarissime potest
+          <lb ed="#P" n="4"/>fieri talis extensio. Et ratio in generali reddi
+          <lb ed="#P" n="5"/>potest. quia si locus sit extra territorium 
+          legis<lb break="no" ed="#P" n="6"/>latoris, clarum est non posse ad illum fieri
+          <lb ed="#P" n="7"/>extensionem legis quoad obligationem ejus,
+          <lb ed="#P" n="8"/>juxta regulam cap. 2 de Constit. , in 6; sed ad
+          <lb ed="#P" n="9"/>summum per imitationem poterit ad unum
+          <lb ed="#P" n="10"/>locum appiicari lex alterius, per modum 
+          exem<lb break="no" ed="#P" n="11"/>ph vel auctoritatis. Si autem extensio fiat ad
+          <lb ed="#P" n="12"/>alium locum contentum in territorio, non vero
+          <lb ed="#P" n="13"/>comprehensum ullo modo sub loco pro quo
+          <lb ed="#P" n="14"/>legislator expresse voluit legem ferre, non
+          <lb ed="#P" n="15"/>poterit esse extensio comprehensiva, cum 
+          in<lb break="no" ed="#P" n="16"/>tentio legislatoris satis limitetur per definiti
+          <lb ed="#P" n="17"/>loci expressionem, ut supra attigi cap. 1 de
+          <lb ed="#P" n="18"/>Tempor. ordin., in 6; nam ratio ibi adducta
+          <lb ed="#P" n="19"/>videtur generaliter procedere, moraliter 
+          lo<lb break="no" ed="#P" n="20"/>quendo.
+        </p>
+        <p xml:id="szdleg-q04577-d1e1081">
+          <lb ed="#P" n="21"/>13. At vero extensio legis ad tempus fieri
+          <lb ed="#P" n="22"/>non potest nisi ad praeteritum vel futurum;
+          <lb ed="#P" n="23"/>nam de praesenti semper lex loquitur, ut 
+          con<lb break="no" ed="#P" n="24"/>stat, et non sunt plures temporis differentiae.
+          <lb ed="#P" n="25"/>De extensione autem ad praeteritum dictum
+          <lb ed="#P" n="26"/>est l. 3, c. 14, tractando quomodo lex feratur
+          <lb ed="#P" n="27"/>circa praeterita, declarando, non disponendo,
+          <lb ed="#P" n="28"/>et ideo talis extensio recte fit per vim rationis
+          <lb ed="#P" n="29"/>in lege expressae, quando ex illa colligi potest
+          <lb ed="#P" n="30"/>legem esse declarativam et non tantum 
+          consti<lb break="no" ed="#P" n="31"/>tutivam : idemque erit quoties ex quolibet alio
+          <lb ed="#P" n="32"/>verbo vel ex materia id constare potuerit, nec
+          <lb ed="#P" n="33"/>aliter fit illa extensio. Respectu autem futuri
+          <lb ed="#P" n="34"/>temporis non est vera extensio; nam haec est
+          <lb ed="#P" n="35"/>propria legis natura ut ad futura feratur, juxta
+          <lb ed="#P" n="36"/>l. Leges et constitutiones, c. de Legib., et ideo
+          <lb ed="#P" n="37"/>potius regula erit legem de se comprehendere
+          <lb ed="#P" n="38"/>futurum tempus nisi restringatur, quia lex
+          <lb ed="#P" n="39"/>semper loquitur; et ideo, licet de praesenti 
+          lo<lb break="no" ed="#P" n="40"/>quatur, semper in quolibet futuro tempore,
+          <lb ed="#P" n="41"/>quando est praesens, idem disponit. Addit vero
+          <lb ed="#P" n="42"/>Panor. in cap. 2 de Const., n. 2, quod si lex
+          <lb ed="#P" n="43"/>remittat delictum, tunc non extenditur ad 
+          fu<lb break="no" ed="#P" n="44"/>tura, ne det materiam delinquendi. Plus vero
+          <lb ed="#P" n="45"/>dicitur in l. Cum lex, tt. de Legib., videlicet,
+          <lb ed="#P" n="46"/>cum leo in praeteritum quid indulget , iw 
+          futu<lb break="no" ed="#P" n="47"/>rum vctare, utique ex mente legis; et ita ibi fit
+          <lb ed="#P" n="48"/>quaedam extensio ad futura, quia indulgendo
+          <lb ed="#P" n="49"/>praeterita supponit illa esse mala vel prohibita,
+          <lb ed="#P" n="50"/>quam prohibitionem non revocat indulgendo
+          <lb ed="#P" n="51"/>praeterita, sed potius tacite confirmat.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

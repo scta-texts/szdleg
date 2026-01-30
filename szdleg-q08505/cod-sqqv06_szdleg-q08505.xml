@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="34"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q08505"><!-- l6c8 -->
+        <head xml:id="szdleg-q08505-Hd1e101">Caput 8</head>
+        <head xml:id="szdleg-q08505-Hd1e103" type="question-title">Quomodo de excusatione occurrente constare debeat ut epiikia uti et legem non servare ligeat sine recursu ad principem.</head>
+        <p xml:id="szdleg-q08505-d1e106">
+          <lb ed="#P" n="90"/>CAPUT VIII.
+          <lb ed="#P" n="91"/>QUOMODO DE EXCUSATIONE OCCURRENTE CONSTARE
+          <lb ed="#P" n="92"/>DEBEAT UT EPIIKIA UTI ET LEGEM NON SERVARE
+          <lb ed="#P" n="93"/>LIGEAT SINE RECURSU AD PRINCIPEM.
+        </p>
+        <p xml:id="szdleg-q08505-d1e117">
+          <lb ed="#P" n="94"/>1. Si les ea aliqua circumstantia sit aniqua,
+          <lb ed="#P" n="95"/>cessat obligatio sine recursu ad principem. —
+          <lb ed="#P" n="96"/>Haec omnia postulantur in posteriori ratione
+          <lb ed="#P" n="97"/>dubitandi cap. 5 proposita, et inter se sunt
+          <lb ed="#P" n="98"/>connexa, ideoque simul tractanda ac 
+          definien<lb break="no" ed="#P" n="99"/>da sunt. Variis ergo modis occurrere potest
+          <lb ed="#P" n="100"/>casus excusationis, scilicet, cum evidentia et
+          <lb ed="#P" n="101"/>certitudine quod tunc malum sit et iniquum
+          <lb ed="#P" n="102"/>servare legem ; secundo cum simili certitudine
+          <lb ed="#P" n="103"/>quod lex non obliget licet servari possit sine
+          <lb ed="#P" n="104"/>peccato. Potest autem contingere ut hoc 
+          se<lb break="no" ed="#P" n="105"/>cundum non sit aeque certum, sed tantum 
+          pro<lb break="no" ed="#P" n="106"/>babile, vel etiam dubium. Tertio, potest esse
+          <lb ed="#P" n="107"/>casus tantum probabilis in utroque ; quarto,
+          <lb ed="#P" n="108"/>dubius in utroque ; quinto, potest esse certum
+          <pb ed="#P" n="35"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in observatione legis nullum esse peccatum,
+          <lb ed="#P" n="2"/>excusationem autem ejus esse tantum 
+          proba<lb break="no" ed="#P" n="3"/>bilem aut dubiam. Primo ergo dicendum est,
+          <lb ed="#P" n="4"/>quando certo constet materiam legis ex 
+          acci<lb break="no" ed="#P" n="5"/>denti eventu vel circumstantia factam esse
+          <lb ed="#P" n="6"/>iniquam, seu contrariam alteri praecepto aut
+          <lb ed="#P" n="7"/>virtuti magis obliganti, tunc cessare 
+          obligatio<lb break="no" ed="#P" n="8"/>nem legis, et propria auctoritate posse omitti
+          <lb ed="#P" n="9"/>sine recursu ad principem. Sumitur ex D. 
+          Tho<lb break="no" ed="#P" n="10"/>ma, d. quaest. 120, art. 1, ad 3, dicente: /n
+          <lb ed="#P" n="11"/>manifestis non est opus interpretatione, sed
+          <lb ed="#P" n="12"/>excusatione. Idem fere habet dicta quaest. 96,
+          <lb ed="#P" n="13"/>art. 6, ad 2, ubi etiam Cajetanus et omnes. Et
+          <lb ed="#P" n="14"/>ratio est, quia ibi superioris auctoritas nullum
+          <lb ed="#P" n="15"/>effectum habere potest ; nam etiamsi, post 
+          re<lb break="no" ed="#P" n="16"/>cursum ad illum, vellet ut subditus legem 
+          ser<lb break="no" ed="#P" n="17"/>varet, non posset illi obedire, quia obediendum
+          <lb ed="#P" n="18"/>est Deo magis quam hominibus; ergo 
+          imper<lb break="no" ed="#P" n="19"/>tinens est in eo casu licentiam postulare. 
+          Di<lb break="no" ed="#P" n="20"/>ces: interdum propter bonum ordinem 
+          servan<lb break="no" ed="#P" n="21"/>dum necessaria est licentia petita, etiamsi non
+          <lb ed="#P" n="22"/>sit necessaria obtenta; ergo saltem ob hanc
+          <lb ed="#P" n="23"/>causam erit consulendus princeps in 
+          hujusmo<lb break="no" ed="#P" n="24"/>di casu, quando periculum non imminet, et 
+          da<lb break="no" ed="#P" n="25"/>tur locus ac tempus ad id praestandum. 
+          Respon<lb break="no" ed="#P" n="26"/>deo, ex communi sententia, etiam hoc non esse
+          <lb ed="#P" n="27"/>necessarium in tal casu, quia nulla est lex quae
+          <lb ed="#P" n="28"/>obliget ad illam facultatem petendam, nec ex
+          <lb ed="#P" n="29"/>natura rei est necessaria, quia subordinatio
+          <lb ed="#P" n="30"/>subditi ad legislatorem per se illam non 
+          pos<lb break="no" ed="#P" n="31"/>tulat. Si autem in aliquo casu publico id 
+          judi<lb break="no" ed="#P" n="32"/>cetur necessarium ad vitandum scandalum,
+          <lb ed="#P" n="33"/>vel propter aliam similem causam, id est 
+          acci<lb break="no" ed="#P" n="34"/>dentarium.
+        </p>
+        <p xml:id="szdleg-q08505-d1e230">
+          <lb ed="#P" n="35"/>9. Certitudo legis non obligantis tollit 
+          recur<lb break="no" ed="#P" n="36"/>sum ad principem. —Secundo dicendum est:
+          <lb ed="#P" n="37"/>quando certo constat legem non obligare,
+          <lb ed="#P" n="38"/>etiamsi possit sine peccato servari, subditus
+          <lb ed="#P" n="39"/>propria auctoritate potest illam non servare.
+          <lb ed="#P" n="40"/>Probatur eadem ratione, et ita doctores de his
+          <lb ed="#P" n="41"/>duobus casibus indistincte loquuntur ; solum
+          <lb ed="#P" n="42"/>ergo illos distinguo ut notem differentiam,
+          <lb ed="#P" n="43"/>quia in priori casu non solum potest subditus,
+          <lb ed="#P" n="44"/>sed etiam tenetur legem non servare, sive 
+          pe<lb break="no" ed="#P" n="45"/>tat licentiam a superiore, sive non petat; at
+          <lb ed="#P" n="46"/>vero in hoc posteriori casu, licet possit agere
+          <lb ed="#P" n="47"/>contra verba legis,ad hoc non obligatur 
+          quan<lb break="no" ed="#P" n="48"/>do certus est in observantia legis non committi
+          <lb ed="#P" n="49"/>peccatum. At si de hoc dubitet, pro ratione
+          <lb ed="#P" n="50"/>dubii judicandum erit. Nam si dubium sit 
+          tan<lb break="no" ed="#P" n="51"/>tum formidinis, et probabiliter judicet non
+          <lb ed="#P" n="52"/>esse peccatum conformari verbis legis, libere
+          <lb ed="#P" n="53"/>poterit id facere si velit, quia judicium 
+          proba<lb break="no" ed="#P" n="54"/>bile tollit practice dubium. Si autem dubium
+          <lb ed="#P" n="55"/>sit proprium et negativum, tenebitur subditus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>partem securiorem sequi, et abstinere ab 
+          ope<lb break="no" ed="#P" n="57"/>re, licet videatur conforme verbis legis, quia
+          <lb ed="#P" n="58"/>tunc nullum habet principium quo expellat
+          <lb ed="#P" n="59"/>practicum dubium, quia tunc ille est certus se
+          <lb ed="#P" n="60"/>non peccare non observando legem, cum 
+          sup<lb break="no" ed="#P" n="61"/>ponatur esse certus quod ila non obliget; 
+          er<lb break="no" ed="#P" n="62"/>go tenetur illam viam certam sequi et 
+          relin<lb break="no" ed="#P" n="63"/>quere dubiam. Patet consequentia, quia tunc
+          <lb ed="#P" n="64"/>nec juvari potest auctoritate legis seu 
+          supe<lb break="no" ed="#P" n="65"/>rioris ad deponendam conscientiam dubiam,
+          <lb ed="#P" n="66"/>quia jam illi certo constat legem non 
+          compre<lb break="no" ed="#P" n="67"/>hendisse opus illud de quo est dubium, ut
+          <lb ed="#P" n="68"/>supponitur, nec etiam potest juvari judicio
+          <lb ed="#P" n="69"/>probabili, quia nullum habet, ut etiam 
+          suppo<lb break="no" ed="#P" n="70"/>nitur ; ergo nullo modo licet operari cum tali
+          <lb ed="#P" n="71"/>dubio, quod necessario esse debet practicum.
+          <lb ed="#P" n="72"/>3. Judicium probabile tollit recursum ad
+          <lb ed="#P" n="73"/>principem.—CVertio, dicendum est: qui 
+          proba<lb break="no" ed="#P" n="74"/>biliter judicat legem non comprehendere 
+          ca<lb break="no" ed="#P" n="75"/>sum illum, secure potest excusariab obligatione
+          <lb ed="#P" n="76"/>legis, etiamsi formidet vel utrinque habeat 
+          ra<lb break="no" ed="#P" n="77"/>tiones probabiles dubitandi. Ita tenent 
+          Cajeta<lb break="no" ed="#P" n="78"/>nus et Soto supra, et Medina, et alii moderni
+          <lb ed="#P" n="79"/>in dicto artic. 6. Sumitur ex Sylvest., verb.
+          <lb ed="#P" n="80"/>Papa, quaest. 16, in fine, saltem juxta 
+          distinc<lb break="no" ed="#P" n="81"/>tionem infra dandam. Idem Cordub., Henriq.
+          <lb ed="#P" n="82"/>et Sanci. infra referendi, et idem sentit 
+          Navar<lb break="no" ed="#P" n="83"/>rus in Summa, praelud. 9, n. 16, cap. 23, n. 43,
+          <lb ed="#P" n="84"/>dicens excusari a peccato mortali qui 
+          trans<lb break="no" ed="#P" n="85"/>greditur legem humanam bona fide et ex justa
+          <lb ed="#P" n="86"/>causa; illam vero esse causam justam ob quam
+          <lb ed="#P" n="87"/>legislator, si adesset, eum pro excusato 
+          habe<lb break="no" ed="#P" n="88"/>ret. Utrumque autem concurrit in praesenti, ut
+          <lb ed="#P" n="89"/>constat; unde fundamentum assertionis est,
+          <lb ed="#P" n="90"/>quia licet sequi judicium probabile, 
+          conscien<lb break="no" ed="#P" n="91"/>tiam dubiam practice deponendo.
+        </p>
+        <p xml:id="szdleg-q08505-d1e359">
+          <lb ed="#P" n="92"/>4. Limitatio Cajetani et Soto. —Duplex 
+          mo<lb break="no" ed="#P" n="93"/>dus epiikie notandus. —Hanc vero assertionem
+          <lb ed="#P" n="94"/>limitant Cajetanus et Soto supra, ut locum 
+          ha<lb break="no" ed="#P" n="95"/>beat quando occasio est subita et urgens 
+          peri<lb break="no" ed="#P" n="96"/>culum, ita ut non detur tempus consulendi
+          <lb ed="#P" n="97"/>superiorem ; alioqui dicunt in illo casu 
+          recur<lb break="no" ed="#P" n="98"/>rendum esse ad superiorem; et ita exponunt
+          <lb ed="#P" n="99"/>divum Thomam utentem illa distinctione, quia
+          <lb ed="#P" n="100"/>non potest in alio dubio verificari, ut statim
+          <lb ed="#P" n="101"/>dicemus. Haec vero doctrina aliquibus 
+          moder<lb break="no" ed="#P" n="102"/>nis non placet, neque putant distinctionem il
+          <lb ed="#P" n="103"/>lam divi Thomae de casu in quo potest vel nor.
+          <lb ed="#P" n="104"/>potest conveniri superior, posse applicari ad
+          <lb ed="#P" n="105"/>casum formidolosum cum judicio probabili,
+          <lb ed="#P" n="106"/>quia quod superior possit vel non possit 
+          con<lb break="no" ed="#P" n="107"/>veniri, nihil refert ad certitudinem judicii de
+          <lb ed="#P" n="108"/>tali casu, an sub lege comprehendatur necne.
+          <lb ed="#P" n="109"/>Ideoque distinguunt duos modos epiikiae supra,
+          <lb ed="#P" n="110"/>scilicet, vel excipiendo casum a potestate le-
+          <pb ed="#P" n="36"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gislatoris, vel a sola voluntate. Et in priori
+          <lb ed="#P" n="2"/>dicunt posse subditum, ex probabili judicio
+          <lb ed="#P" n="3"/>quod talis casus non comprehendatur sub 
+          po<lb break="no" ed="#P" n="4"/>testate legis, excusari a legis observatione ,
+          <lb ed="#P" n="5"/>nulla expectata interpretatione superioris, non
+          <lb ed="#P" n="6"/>solum in casu subito et urgente, sed etiam in
+          <lb ed="#P" n="7"/>quolibet alio. Probatur, quia tunc non agitur
+          <lb ed="#P" n="8"/>de interpretanda superioris voluntate, sed de
+          <lb ed="#P" n="9"/>potestate quam non tenemur interpretari ex
+          <lb ed="#P" n="10"/>judicio ipsius principis, quando ipse illam non
+          <lb ed="#P" n="11"/>declaravit, sed ex principiis theologiae aut 
+          ju<lb break="no" ed="#P" n="12"/>ris. Et declaratur amplius : nam, licet 
+          Ponti<lb break="no" ed="#P" n="13"/>fex possit suam potestatem declarare per 
+          cla<lb break="no" ed="#P" n="14"/>vem scientiae, nihilominus quamdiu illa non
+          <lb ed="#P" n="15"/>utitur non tenemur illum consulere de 
+          potes<lb break="no" ed="#P" n="16"/>tate sua, sed regulis doctrinalibus uti; ergo
+          <lb ed="#P" n="17"/>etiam in particulari casu qui a potestate 
+          legis<lb break="no" ed="#P" n="18"/>latoris excipitur secundum aliquas doctrinas
+          <lb ed="#P" n="19"/>probabiles, non est necessarium ad 
+          interpre<lb break="no" ed="#P" n="20"/>tationem principis recurrere, etiamsi tempus
+          <lb ed="#P" n="21"/>detur, sed licitum erit probabili judicio juxta
+          <lb ed="#P" n="22"/>probabilem opinionem uti. Confirmatur, quia
+          <lb ed="#P" n="23"/>si subditus judicat nunc verba legis non 
+          obh<lb break="no" ed="#P" n="24"/>gare, quia probabiliter judicat esse peccatum
+          <lb ed="#P" n="25"/>in tali facto, tunc utrinque videtur esse 
+          peri<lb break="no" ed="#P" n="26"/>culum speculativum, vel faciendi contra hanc
+          <lb ed="#P" n="27"/>legem, vel contra aliam ; ergo licitum est 
+          sub<lb break="no" ed="#P" n="28"/>dito servare aliam quam probabiliter judicat
+          <lb ed="#P" n="29"/>esse graviorem et magis obligare, neque ad
+          <lb ed="#P" n="30"/>hoc indiget interpretatione superioris. Si vero
+          <lb ed="#P" n="31"/>judicium probabile est superiorem excedere
+          <lb ed="#P" n="32"/>potestatem suam praecipiendo rem graviorem,
+          <lb ed="#P" n="33"/>vel cum majori periculo quam possit, tunc
+          <lb ed="#P" n="34"/>subditus probabiliter credit non potuisse ferri
+          <lb ed="#P" n="35"/>praeceptum pro tali casu, et alias suam 
+          liber<lb break="no" ed="#P" n="36"/>tatem possidet ; ergo potest jus suum anteferre,
+          <lb ed="#P" n="37"/>et contra verba legis pro sua libertate operari
+          <lb ed="#P" n="38"/>absque alia interpretatione.
+        </p>
+        <p xml:id="szdleg-q08505-d1e489">
+          <lb ed="#P" n="39"/>b. At vero in altero modo epükia in quo 
+          ca<lb break="no" ed="#P" n="40"/>sus excipitur a sola voluntate et non a 
+          potesta<lb break="no" ed="#P" n="41"/>te legislatoris, ait haec opinio non solum esse
+          <lb ed="#P" n="42"/>recurrendum ad superiorem, quando fieri 
+          po<lb break="no" ed="#P" n="43"/>test in casu probabili, sed, etiamsi casus sit
+          <lb ed="#P" n="44"/>morae impatiens, nec det tempus recurrendi ad
+          <lb ed="#P" n="45"/>superiorem, non licere uii judicio probabili ad
+          <lb ed="#P" n="46"/>non servandam legem, sed omnino esse ad 
+          lit<lb break="no" ed="#P" n="47"/>teram servandam : ratio est, quia tunc est 
+          cer<lb break="no" ed="#P" n="48"/>tum nibhil peccari servando legem; itemque
+          <lb ed="#P" n="49"/>est certum verba legis de se comprehendere
+          <lb ed="#P" n="50"/>casum illum et a legislatore comprehendi 
+          po<lb break="no" ed="#P" n="51"/>tuisse; ergo quamdiu non constat certo 
+          legis<lb break="no" ed="#P" n="52"/>latorem casum illum excipere voluisse, non
+          <lb ed="#P" n="53"/>licet a verbis legis recedere propter solum 
+          pro<lb break="no" ed="#P" n="54"/>babile judicium. Probatur consequentia, tum
+          <lb ed="#P" n="55"/>quia verba legis suam vim et auctoritatem ha-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>bere debent et quasi jus suum possident, et ideo
+          <lb ed="#P" n="57"/>praeferenda sunt ; tum quia haec est tutior pars,
+          <lb ed="#P" n="58"/>quae semper praeferenda est, tum etiam quia
+          <lb ed="#P" n="59"/>tunc non peccat lex, etiamsi casum illum 
+          com<lb break="no" ed="#P" n="60"/>prehendat : ergo non potest per epiikiam
+          <lb ed="#P" n="61"/>emendari ; tum denique quia si haec licentia
+          <lb ed="#P" n="62"/>detur, infinita sequentur incommoda : et ideo
+          <lb ed="#P" n="63"/>jurisperiti dicunt, cum verba legis sunt clara,
+          <lb ed="#P" n="64"/>non esse ab illis recedendum in casu dubio, ut
+          <lb ed="#P" n="65"/>Panormit. in cap. 1 de Const., n. 14. Denique
+          <lb ed="#P" n="66"/>hic applicari potest illa ratio, quia in casu in
+          <lb ed="#P" n="67"/>quo potest conveniri superior non licet uti illo
+          <lb ed="#P" n="68"/>probabili judicio : ergo nec tunc etiam quando
+          <lb ed="#P" n="69"/>non potest conveniri, quia quod possit vel non
+          <lb ed="#P" n="70"/>possit conveniri non facit ut sit magis certum
+          <lb ed="#P" n="71"/>judicium.
+        </p>
+        <p xml:id="szdleg-q08505-d1e565">
+          <lb ed="#P" n="72"/>6. Quando non potest conveniri superior, 
+          li<lb break="no" ed="#P" n="73"/>cet uti epiikia ex probalili judicio. — 
+          Nihilo<lb break="no" ed="#P" n="74"/>minus sententiam Cajetani et Soto censeo
+          <lb ed="#P" n="75"/>esse practice certam quoad hanc partem, ut,
+          <lb ed="#P" n="76"/>quando non potest conveniri superior, liceat ex
+          <lb ed="#P" n="77"/>probabili sententia aut judicio epiikia uti, sive
+          <lb ed="#P" n="78"/>casus excipi judicetur a potestate legislatoris,
+          <lb ed="#P" n="79"/>sive a sola voluntate. Ratio est, quia judicium
+          <lb ed="#P" n="80"/>probabile in rebus moralibus sufficit ad 
+          pru<lb break="no" ed="#P" n="81"/>denter operandum, praesertim ubi regula certa
+          <lb ed="#P" n="82"/>applicari non potest, ut ex materia de 
+          conscien<lb break="no" ed="#P" n="83"/>tia suppono. Item quia alius modus operandi
+          <lb ed="#P" n="84"/>est ultra humanam conditionem et 
+          pruden<lb break="no" ed="#P" n="85"/>tiam , cum omnis fere cognitio humana 
+          con<lb break="no" ed="#P" n="86"/>jecturalis sit, et praesertim in rebus agendis.
+          <lb ed="#P" n="87"/>Item quia imponeretur gravissimum onus 
+          ho<lb break="no" ed="#P" n="88"/>minibus, si nunquam Liceret eis uti epiikia ex
+          <lb ed="#P" n="89"/>judicio probabili, quando non patet aditus ad
+          <lb ed="#P" n="90"/>superiorem. Quis enim auderet unquam 
+          excu<lb break="no" ed="#P" n="91"/>sari a lege positiva propter necessitatem 
+          oc<lb break="no" ed="#P" n="92"/>currentem, cum nemo sit tam certus de 
+          suffti<lb break="no" ed="#P" n="93"/>cientia causae quin dubitet vel formidet. Item
+          <lb ed="#P" n="94"/>in his casibus ron possent simplices sequi 
+          con<lb break="no" ed="#P" n="95"/>silium hominis docti et pii, nec ipse posset tale
+          <lb ed="#P" n="96"/>consilium dare, quia nunquam fere dueitur
+          <lb ed="#P" n="97"/>nisi judicio probabih. Constat autem 
+          contra<lb break="no" ed="#P" n="98"/>rium esse in usu totius Ecclesiae, et approbari
+          <lb ed="#P" n="99"/>ab omnibus doctoribus. Addo sine causa 
+          con<lb break="no" ed="#P" n="100"/>stitui in hoc differentiam inter epiikiam per
+          <lb ed="#P" n="101"/>exceptionem a potestate vel a voluntate : nam,
+          <lb ed="#P" n="102"/>licet in hoc sit verum discrimen quod in priori
+          <lb ed="#P" n="103"/>modo possit ordinarie esse major certitudo
+          <lb ed="#P" n="104"/>quam in secundo, quia certius cognoscitur 
+          po<lb break="no" ed="#P" n="105"/>testas, quae libera non est, quam voluntas, quae
+          <lb ed="#P" n="106"/>libera est, nihilominus stante aequali 
+          incerti<lb break="no" ed="#P" n="107"/>tudine cum probabilitate in judicio, eadem est
+          <lb ed="#P" n="108"/>ratio, saltem ubi certo constiterit legem posse
+          <lb ed="#P" n="109"/>servari sine peccato, quia tunc etiam verba
+          <lb ed="#P" n="110"/>legis retinent vim suam; et fere applicari pos-
+          <pb ed="#P" n="37"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sunt aliae rationes in posteriori membro 
+          alla<lb break="no" ed="#P" n="2"/>tae. Maxime quia quoties epiikia non fundatur
+          <lb ed="#P" n="3"/>in judicio certo, licet excipiat casum a 
+          potes<lb break="no" ed="#P" n="4"/>tate legislatoris, semper debet etiam inniti in
+          <lb ed="#P" n="5"/>conjecturata mente ejusdem legislatoris, quod,
+          <lb ed="#P" n="6"/>scilicet, noluerit talem casum comprehendere.
+          <lb ed="#P" n="7"/>Nam cum non est certum, superiorem non 
+          pos<lb break="no" ed="#P" n="8"/>se hoc praecipere, propter rei arduitatem aut
+          <lb ed="#P" n="9"/>inordinationem , si ipse superior nihilominus
+          <lb ed="#P" n="10"/>ex certa scientia id praecipiat, declarans se 
+          pos<lb break="no" ed="#P" n="11"/>se, et judicans in tali actu non esse 
+          inordina<lb break="no" ed="#P" n="12"/>tionem vel nimiam gravitatem, subditus 
+          tene<lb break="no" ed="#P" n="13"/>tur obedire, dum non est certus, etiamsi 
+          pro<lb break="no" ed="#P" n="14"/>babiliter judicet, quia praevalet jus superioris,
+          <lb ed="#P" n="15"/>et subditus debet suum judicium deponere, ut
+          <lb ed="#P" n="16"/>est communis doctrina, et in praxi necessaria:
+          <lb ed="#P" n="17"/>ergo in illo casu de epiikia non sufficit 
+          proba<lb break="no" ed="#P" n="18"/>bile judicium de defectu potestatis, nisi 
+          acce<lb break="no" ed="#P" n="19"/>dat etiam judicium quod superior in eo casu
+          <lb ed="#P" n="20"/>sie dubio noluerit obligare : ergo cum hoc 
+          tan<lb break="no" ed="#P" n="21"/>tum sit probabile non sufficit, vel certe si 
+          suffi<lb break="no" ed="#P" n="22"/>cit judicium probabile de potestatis et 
+          volun<lb break="no" ed="#P" n="23"/>tatis defectu, sufficiet etiam judicium probabile
+          <lb ed="#P" n="24"/>de defectu solius voluntatis.
+        </p>
+        <p xml:id="szdleg-q08505-d1e708">
+          <lb ed="#P" n="25"/>7. Ultimo posset sufficienter confutari illa
+          <lb ed="#P" n="26"/>opinio quoad hanc partem, quia rationes ejus
+          <lb ed="#P" n="27"/>non sufficiunt ad imponendum gravissimum
+          <lb ed="#P" n="28"/>onus ; deberent enim convincere velillud 
+          suf<lb break="no" ed="#P" n="29"/>ficientissime probare, maxime contra 
+          commu<lb break="no" ed="#P" n="30"/>nem sententiam. Ad principale ergo 
+          funda<lb break="no" ed="#P" n="31"/>mentum negatur consequentia ; ad primam
+          <lb ed="#P" n="32"/>probationem respondeo verba legis sine 
+          vo<lb break="no" ed="#P" n="33"/>luntate non habere yim nec auctoritatem ad
+          <lb ed="#P" n="34"/>obligandum; verba enim legis secundum se
+          <lb ed="#P" n="35"/>tantum sunt ad ostendendam voluntatem 
+          le<lb break="no" ed="#P" n="36"/>gislatoris ianquam signum expressum ejus; non
+          <lb ed="#P" n="37"/>est tamen hoc signum tam certum quin possit
+          <lb ed="#P" n="38"/>ex circumstantis limitari et extendi, ut supra
+          <lb ed="#P" n="39"/>visum est; ergo quando ex circumstantiis 
+          oc<lb break="no" ed="#P" n="40"/>currentibus probabiliter limitantur verba ut
+          <lb ed="#P" n="41"/>non comprehendant casum aliquem, jam ex
+          <lb ed="#P" n="42"/>vi verborum non est certum comprehendi sub
+          <lb ed="#P" n="43"/>significatione verborum legis. Unde cum 
+          dici<lb break="no" ed="#P" n="44"/>tur verba legis quasi possidere jus obligandi,
+          <lb ed="#P" n="45"/>respondeo inde solum probari, in casu omnino
+          <lb ed="#P" n="46"/>dubio vel caeteris paribus, praeferenda esse 
+          ver<lb break="no" ed="#P" n="47"/>ba legis, et secundum illa esse judicandum de
+          <lb ed="#P" n="48"/>voluntate, non vero ubi est in contrarium 
+          ju<lb break="no" ed="#P" n="49"/>dicium probabile. Ad aliud autem de parte 
+          tu<lb break="no" ed="#P" n="50"/>tiori respondeo satis esse sequi practice tutam,
+          <lb ed="#P" n="51"/>ut alibi dixi. Deinde dico magis cavendum esse
+          <lb ed="#P" n="52"/>ne recedatur a voluntate legislatoris quam a
+          <lb ed="#P" n="53"/>verbis ejus, ut jura docent. Ad illud quod tunc
+          <lb ed="#P" n="54"/>non peccat lex respondeo, licet non peccet
+          <lb ed="#P" n="55"/>praecipiendo malum vel nimis arduum, peccare
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>posse plus significando quam legislator 
+          volue<lb break="no" ed="#P" n="57"/>rit, et hoc posse per epiikiam emendari. Neque
+          <lb ed="#P" n="58"/>hinc sequentur incommoda si revera judicium
+          <lb ed="#P" n="59"/>probabile et prudens servetur; quod vero 
+          se<lb break="no" ed="#P" n="60"/>qui possint per abusum, impertinens est, 
+          mul<lb break="no" ed="#P" n="61"/>toque majora sequentur si homines non possint,
+          <lb ed="#P" n="62"/>in hujusmodi eventibus, judiciis probabilibus
+          <lb ed="#P" n="63"/>uti. Panormitanus autem et juristae loquuntur
+          <lb ed="#P" n="64"/>de judice qui tenetur secundum leges judicare
+          <lb ed="#P" n="65"/>et inter partes justitiam distribuere, et ideo
+          <lb ed="#P" n="66"/>debet sequi verba legis quando sunt clara, nisi
+          <lb ed="#P" n="67"/>in eodem judicio possit sufficienter probari
+          <lb ed="#P" n="68"/>aliam fuisse volurtatem principis : nam tunc
+          <lb ed="#P" n="69"/>secundum illam posset judicare.
+        </p>
+        <p xml:id="szdleg-q08505-d1e810">
+          <lb ed="#P" n="70"/>8. Quando non est periculum in mora, quid
+          <lb ed="#P" n="71"/>faciendum. — Major mihi difficultas est circa
+          <lb ed="#P" n="72"/>aliam partem opinionis Cajetani, quod stante
+          <lb ed="#P" n="73"/>judicio probabili non liceat illo uti sine 
+          inter<lb break="no" ed="#P" n="74"/>pretatione vel consensu superioris, quando non
+          <lb ed="#P" n="75"/>est periculum in mora, sed conveniri potest;
+          <lb ed="#P" n="76"/>quia in interpretanda etiam lege naturali 
+          utun<lb break="no" ed="#P" n="77"/>tur sententia probabili sine recursu ad Papam
+          <lb ed="#P" n="78"/>vel Fraelatos; ergo in legibus humanis potest
+          <lb ed="#P" n="79"/>etiam id fieri quoad particularem usum. Sic
+          <lb ed="#P" n="80"/>enim dicunt juristae posse judicem ad 
+          feren<lb break="no" ed="#P" n="81"/>dam sententiam probabihter interpretari 
+          le<lb break="no" ed="#P" n="82"/>gem in casu dubio, nec oportere ut ad 
+          supe<lb break="no" ed="#P" n="83"/>riorem recurrat, ut constat ex DBart., in l. 1,
+          <lb ed="#P" n="84"/>c. de Legib., n. 8 et 9, et aliis ibi, et inc. 1 de
+          <lb ed="#P" n="85"/>Constit. Dices id esse verum quando agitur de
+          <lb ed="#P" n="86"/>interpretatione legis quoad sensum ejus. Sed
+          <lb ed="#P" n="87"/>contra; nam cur non erit idem quando aliter
+          <lb ed="#P" n="88"/>conjecturamus mentem seu voluntatem 
+          legis<lb break="no" ed="#P" n="89"/>latoris, vel cur potius erit necessarius recursus
+          <lb ed="#P" n="90"/>ad superiorem, quando probabiliter constat
+          <lb ed="#P" n="91"/>de voluntate ejus praeter ejus verba, quam
+          <lb ed="#P" n="92"/>cum probabiliter tantum constat de sensu ejus
+          <lb ed="#P" n="93"/>in ambigua significatione verborum? Denique
+          <lb ed="#P" n="94"/>in quolibet alio eventu licet uti in conscientia
+          <lb ed="#P" n="95"/>probabili sententia sine recursu ad 
+          superio<lb break="no" ed="#P" n="96"/>rem, etiamsi ab illo posset expectari certius
+          <lb ed="#P" n="97"/>responsum : ergo.
+        </p>
+        <p xml:id="szdleg-q08505-d1e873">
+          <lb ed="#P" n="98"/>9. Nihilominus in hoc etiam non est 
+          rece<lb break="no" ed="#P" n="99"/>dendum a communi sententia, quae videtur
+          <lb ed="#P" n="100"/>usu omnium piorum et prudentum confirmata.
+          <lb ed="#P" n="101"/>Et ad hoc suadendum valere possunt rationes
+          <lb ed="#P" n="102"/>factae in secundo membro praecedentis 
+          senten<lb break="no" ed="#P" n="103"/>tiae; et praeterea quia inordinatum est uti 
+          con<lb break="no" ed="#P" n="104"/>jecturis, et propter illas solas relinquere verba
+          <lb ed="#P" n="105"/>legis, ubi poterit certo constare de mente et
+          <lb ed="#P" n="106"/>voluntate legislatoris. Et ideo in omni epiikia
+          <lb ed="#P" n="107"/>solum probabili debet hic ordo servari. Et
+          <lb ed="#P" n="108"/>quamvis ordinarie magis necessarius sit in
+          <lb ed="#P" n="109"/>epiikia quae est de sola voluntate legislatoris,
+          <lb ed="#P" n="110"/>quam in illa quae circa potestatem versatur,
+          <pb ed="#P" n="38"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nihilominus in utraque servandus est juxta
+          <lb ed="#P" n="2"/>materi necessitatem vel probabilitatis 
+          gra<lb break="no" ed="#P" n="3"/>dum. quia. ut dixi. semper ibi miscetur 
+          con<lb break="no" ed="#P" n="4"/>jectura de voluntate legislatoris. Neque contra
+          <lb ed="#P" n="5"/>hoc obstat illa ratio, quod judicium non 
+          red<lb break="no" ed="#P" n="6"/>ditur certius ex hoc quod sit vel non sit 
+          re<lb break="no" ed="#P" n="7"/>cursus ad superiorem. Hoc enim est verum de
+          <lb ed="#P" n="8"/>certitudine speculativa, non vero de 
+          certitu<lb break="no" ed="#P" n="9"/>dine practica. Nam cum potest consuli 
+          supe<lb break="no" ed="#P" n="10"/>rior. cessat necessitas utendi judicio probabili
+          <lb ed="#P" n="11"/>de voluntate ejus. quod secus est quando est
+          <lb ed="#P" n="12"/>periculum in mora, et ideo tunc potest illud
+          <lb ed="#P" n="13"/>judicium probabile ad praxim applieari ex
+          <lb ed="#P" n="14"/>principiis certis, quod in necessitate uti 
+          possu<lb break="no" ed="#P" n="15"/>mus judicio probabili ad evitandum aliquod
+          <lb ed="#P" n="16"/>gravamen. vel ad convenientem observationem
+          <lb ed="#P" n="17"/>legum. ut in casu magis difficili et dubio 
+          ex<lb break="no" ed="#P" n="18"/>plicabitur in puncto sequenti.
+        </p>
+        <p xml:id="szdleg-q08505-d1e948">
+          <lb ed="#P" n="19"/>10. In dubio non probabili ad superiorem
+          <lb ed="#P" n="20"/>recurrendumn. —(arto, dicendum est de casu
+          <lb ed="#P" n="21"/>dubio in quo judicari non potest probabiliter
+          <lb ed="#P" n="22"/>an casus comprehendatur sub legis obligatione,
+          <lb ed="#P" n="23"/>necne. In quo sententia communis est 
+          recur<lb break="no" ed="#P" n="24"/>rendum esse ad superiorem si fieri possit; vel,
+          <lb ed="#P" n="25"/>si non possit, servandam esse legem. Ita D.
+          <lb ed="#P" n="26"/>Thom. dicta q. 120, art. 1, ad 3, dicto art. 6,
+          <lb ed="#P" n="27"/>ad 2. Idem Conrad., Cajet., Medin. et Soto
+          <lb ed="#P" n="28"/>supra; Medin.. Cod. de Ponit., tract. de 
+          Je<lb break="no" ed="#P" n="29"/>jun.. cap. de His qui tenentur ad jejun. Que
+          <lb ed="#P" n="30"/>sententia per se evidens est in casu patiente
+          <lb ed="#P" n="31"/>moram ut consulatur princeps; nam si in casu
+          <lb ed="#P" n="32"/>tantum formidoloso et probabili hoc fieri debet,
+          <lb ed="#P" n="33"/>multo magis in casu dubio. ltem tunc 
+          impos<lb break="no" ed="#P" n="34"/>sibile est operari cum conscientia certa 
+          prae<lb break="no" ed="#P" n="35"/>tice. quia ex tali dubio nascitur practica 
+          dubi<lb break="no" ed="#P" n="36"/>tatio an tunc lex violetur necne. agendo contra
+          <lb ed="#P" n="37"/>verba ejus, et nullum est morale principium
+          <lb ed="#P" n="38"/>quo possit practice deponi illa conscientia 
+          du<lb break="no" ed="#P" n="39"/>bia, inconsulto superiore. quando ille potest
+          <lb ed="#P" n="40"/>consuli: ergo nunguam licet cum illo dubio
+          <lb ed="#P" n="41"/>agere contra verba legis. quia operari cum
+          <lb ed="#P" n="42"/>conscientia practice dubia semper est malum.
+          <lb ed="#P" n="43"/>Denique tunc lex possidet suum jus, et in aliis
+          <lb ed="#P" n="44"/>melior est conditio possidentis: ergo.
+        </p>
+        <p xml:id="szdleg-q08505-d1e1007">
+          <lb ed="#P" n="45"/>11. Prima opiuio de casu urgente. — 
+          Se<lb break="no" ed="#P" n="46"/>cunda.—bhifieultas vero est an idem dicendum
+          <lb ed="#P" n="47"/>sit in casu urgente in quo superior consuli non
+          <lb ed="#P" n="48"/>potest. Multi indistincte dicunt etiam tunc non
+          <lb ed="#P" n="49"/>licere uti epiikia, sed servandam esse legem
+          <lb ed="#P" n="50"/>et ejus verba. Ita Cajet. 1. 2. quaest. 96, a. 6,
+          <lb ed="#P" n="51"/>qui ita interpretatur D. Thomam ibi ad 2 
+          in<lb break="no" ed="#P" n="52"/>distinete loquentem. Idem Soto, dicto art. 8;
+          <lb ed="#P" n="53"/>Med., d. art. 6, ad fin., dist. 3; et alter Medin.
+          <lb ed="#P" n="54"/>supra, et omnes moderni, et Sanci., lib. 2 de
+          <lb ed="#P" n="55"/>Matrimon., disput. 4, n. 37. Ratio est, quia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>impotentia consulendi principem non potest in
+          <lb ed="#P" n="57"/>eo casu dare certitudinem practicam, cum 
+          du<lb break="no" ed="#P" n="58"/>bitans nec judicium probabile habeat de 
+          ces<lb break="no" ed="#P" n="59"/>satione obligationis legis in illo casu. tem in
+          <lb ed="#P" n="60"/>casu dubio praesumptio est pro lege. quia verba
+          <lb ed="#P" n="61"/>ejus per se sufficiunt ad obligationem, unde
+          <lb ed="#P" n="62"/>ad minimum se habet tanquam possidens in
+          <lb ed="#P" n="63"/>casu dubio cujus melior est conditio: ergo.
+          <lb ed="#P" n="64"/>Contrarium nihilominus tenet Sylvester dicto
+          <lb ed="#P" n="65"/>verbo Papa, quaest. 16, dict. 2. in fine; cum
+          <lb ed="#P" n="66"/>enim dixisset in dubiis interpretationem legis
+          <lb ed="#P" n="67"/>pertinere ad superiores subdit: Quod limita, si
+          <lb ed="#P" n="68"/>commode possit haberi, alias secus, ut cum in 
+          re<lb break="no" ed="#P" n="69"/>pentinis periculum est in inora. ldem cum 
+          ma<lb break="no" ed="#P" n="70"/>jeri extensione habet verb. dispensatio. q. 4;
+          <lb ed="#P" n="71"/>sequitur Cordub., lib. 3. quaest. 13, ante 
+          regu<lb break="no" ed="#P" n="72"/>lam 1: Henriq.. lib. 14 de lrregul., c. 3. n. 3,
+          <lb ed="#P" n="73"/>Itter. X. Duci videntur ex illo vulgari principio
+          <lb ed="#P" n="74"/>quod necessitas caret lege: hoc enim allegat
+          <lb ed="#P" n="75"/>Sylvest. ex Gratian. in S Sed notandum, post
+          <lb ed="#P" n="76"/>cap. Remissiosem, 1, quaest. 1, et habetur in
+          <lb ed="#P" n="77"/>cap. 2 de Observat. jejun.; illa autem videtur
+          <lb ed="#P" n="78"/>gravissima necessitas. cum res sit dubia et non
+          <lb ed="#P" n="79"/>detur locus consulendi superiorem : nam 
+          vide<lb break="no" ed="#P" n="80"/>tur nimis grave obligare hominem propter 
+          so<lb break="no" ed="#P" n="81"/>lum dubium. quando non est in potestate ejus
+          <lb ed="#P" n="82"/>dubium expellere. Item qui dubitat de lege vel
+          <lb ed="#P" n="83"/>de voto non obligatur quando non potest 
+          ex<lb break="no" ed="#P" n="84"/>pellere dubium: ergo neque qui dubitat au hic
+          <lb ed="#P" n="85"/>et nunc lex obliget.
+        </p>
+        <p xml:id="szdleg-q08505-d1e1101">
+          <lb ed="#P" n="86"/>12. Prior sententia cum moderamine 
+          appro<lb break="no" ed="#P" n="87"/>batur.—Doctores primae senientie erponuntur.
+          <lb ed="#P" n="88"/>—Mihi prior sententia vera videtur, adhibito
+          <lb ed="#P" n="89"/>moderamine. Dico ergo, si dubium nascatur ex
+          <lb ed="#P" n="90"/>concurrentia legum quae pro eodem tempore
+          <lb ed="#P" n="91"/>simul impleri non possunt, et homo dubitat
+          <lb ed="#P" n="92"/>quid facere debeat, tunc licite posse agere
+          <lb ed="#P" n="93"/>contra verba unius legis, implendo eam quam
+          <lb ed="#P" n="94"/>tunc, facta dilizentia morali juxta persona et
+          <lb ed="#P" n="95"/>temporis capacitatem, bona fide judieat esse
+          <lb ed="#P" n="96"/>graviorem et magis obligare. Quia ille homo
+          <lb ed="#P" n="97"/>non debet esse perplexus. nec necessario 
+          pec<lb break="no" ed="#P" n="98"/>care. et faciendo quod in se est satisfacit uni
+          <lb ed="#P" n="99"/>legi et aliam non transgreditur. Et hunc casum
+          <lb ed="#P" n="100"/>absque ullo dubio non excludunt priores 
+          auc<lb break="no" ed="#P" n="101"/>tores. sed ut tritum et vulgarem illum 
+          suppo<lb break="no" ed="#P" n="102"/>nuni: unde loquuntur de casu in quo certo
+          <lb ed="#P" n="103"/>constat legem sine peccato impleri posse. et
+          <lb ed="#P" n="104"/>dubium est de obligatione. Et tunc certitudo
+          <lb ed="#P" n="105"/>practica fundatur in illo principio, quod in
+          <lb ed="#P" n="106"/>dubio satisfacit quis eligendo partem tutiorem:
+          <lb ed="#P" n="107"/>tunc etiam recte applicatur illud principium,
+          <lb ed="#P" n="108"/>quod necessitas caret lege. Deinde tunc non
+          <lb ed="#P" n="109"/>est epiikia voluntaria, ut sic dieam, sed 
+          neces<lb break="no" ed="#P" n="110"/>saria, quia in eo casu non solum potest quis
+          <pb ed="#P" n="39"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non servare legem positivam, sed etiam 
+          tene<lb break="no" ed="#P" n="2"/>tur ut servet aliam naturalem quam reputat
+          <lb ed="#P" n="3"/>graviorem. Unde etiam recte potest in eo casu
+          <lb ed="#P" n="4"/>proferri judicium positivum, non solum 
+          pro<lb break="no" ed="#P" n="5"/>babile, sed etiam certum, in eo casu legem
+          <lb ed="#P" n="6"/>positivam non ligare, quanquam haec certitudo
+          <lb ed="#P" n="7"/>magis sit practica quam speculativa.
+        </p>
+        <p xml:id="szdleg-q08505-d1e1177">
+          <lb ed="#P" n="8"/>13. Doctores secundae sententiae quomodo 
+          in<lb break="no" ed="#P" n="9"/>telligendi.—At vero quando ex alia parte non
+          <lb ed="#P" n="10"/>est periculum peccati, et subdito constat posse
+          <lb ed="#P" n="11"/>sine peccato servare verba legis, nullo modo
+          <lb ed="#P" n="12"/>potest in casu dubio de obligatione agere 
+          con<lb break="no" ed="#P" n="13"/>tra legem, quia manifeste se exponeret 
+          peri<lb break="no" ed="#P" n="14"/>culo peccandi transgrediendo legem, de qua
+          <lb ed="#P" n="15"/>judicium probabile formare non potest quod
+          <lb ed="#P" n="16"/>cessaverit obligare, ut plane ostendunt 
+          ratio<lb break="no" ed="#P" n="17"/>nes prioris opinionis. Et fortasse auctores 
+          se<lb break="no" ed="#P" n="18"/>cundo loco allegati non loquuntur de hoc 
+          du<lb break="no" ed="#P" n="19"/>bio, sed de dubio formidinis, juxta dicta in
+          <lb ed="#P" n="20"/>praecedenti puncto. Nec tunc allegari potest
+          <lb ed="#P" n="21"/>necessitas sufficiens, quia illa non est 
+          necessi<lb break="no" ed="#P" n="22"/>tas vitandi aliud peccatum, ut supponitur:
+          <lb ed="#P" n="23"/>nulla autem alia potest esse sufficiens ad non
+          <lb ed="#P" n="24"/>servandam legem, nisi etiam sufhiciens sit ad
+          <lb ed="#P" n="25"/>probabihter judicandum legislatorem in tali
+          <lb ed="#P" n="26"/>necessitate vel non potuisse vel noluisse 
+          obli<lb break="no" ed="#P" n="27"/>gare; nam si tantum sufhicit ad dubitandum,
+          <lb ed="#P" n="28"/>profecto et parva est necessitas, et major est
+          <lb ed="#P" n="29"/>necessitas servandi legem, vitando periculum
+          <lb ed="#P" n="30"/>peccati, et quasi considerando illam in 
+          posses<lb break="no" ed="#P" n="31"/>sione sua. Nec est simile quando dubitatur de
+          <lb ed="#P" n="32"/>tota lege an sit lata necne, quia tunc lex 
+          non<lb break="no" ed="#P" n="33"/>dum possidet, sicut in simili dixi de voto., 1. 4
+          <lb ed="#P" n="34"/>de Vot., c.bet 6.
+        </p>
+        <p xml:id="szdleg-q08505-d1e1238">
+          <lb ed="#P" n="35"/>14. Atque ex his tandem responsum est ad
+          <lb ed="#P" n="36"/>secundam rationem dubitandi cap. 5 positam.
+          <lb ed="#P" n="37"/>Nam 1. 14, c. de Legibus, intelligitur primo de
+          <lb ed="#P" n="38"/>interpretatione authentica quae vim habeat
+          <lb ed="#P" n="39"/>obligandi, et necessitatem inducat ita 
+          intelli<lb break="no" ed="#P" n="40"/>gendi legem. Ita Bart. ibi, n. 8; et sentit Bald.
+          <lb ed="#P" n="41"/>in leg. Cum de novo, eodem. Secundo, etiam
+          <lb ed="#P" n="42"/>intelligitur de interpretatione in casu dubio
+          <lb ed="#P" n="43"/>in quo subditus non poterit restringere legem
+          <lb ed="#P" n="44"/>contra verba ejus, ut dictum est, et ita exponit
+          <lb ed="#P" n="45"/>Panorm., cap. 1 de Constitut., n. 14, et 
+          insi<lb break="no" ed="#P" n="46"/>nuat Bald. in leg. 2, c. de Legib., n. 2, et 
+          su<lb break="no" ed="#P" n="47"/>mitur ex leg. Cum de novo, c. eodem, ubi id
+          <lb ed="#P" n="48"/>notat Cynus. Glossa vero et auctores relati
+          <lb ed="#P" n="49"/>ibidem in tertia objectione ad verum sensum
+          <lb ed="#P" n="50"/>facile trahi possunt ; nam prima Glossa 
+          loqui<lb break="no" ed="#P" n="51"/>tur quando ratio legis negative tantum cessat,
+          <lb ed="#P" n="52"/>et non contrarie; altera vero Glossa 
+          intelli<lb break="no" ed="#P" n="53"/>genda est in casu dubio in quo non licet 
+          aequi<lb break="no" ed="#P" n="54"/>tatem sequi contra jus scriptum inconsulto
+          <lb ed="#P" n="55"/>principe, nisi ipsamet aequitas scripta sit, ut
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dicitur in l. Placuit, c. de Judiciis, juxta 
+          vul<lb break="no" ed="#P" n="57"/>gatam lectionem ejus. Et in eodem sensu 
+          vi<lb break="no" ed="#P" n="58"/>dentur locuti auctores in eadem objectione
+          <lb ed="#P" n="59"/>allegati.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="150"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q37679"><!-- l7c5 -->
+        <head xml:id="szdleg-q37679-Hd1e101">Caput 5</head>
+        <head xml:id="szdleg-q37679-Hd1e103" type="question-title">De vartiis partitionibus consuetudinis ex ejus materia sumeptis,</head>
+        <p xml:id="szdleg-q37679-d1e106">
+          <lb ed="#P" n="85"/>CAPUT V.
+          <lb ed="#P" n="86"/>DE VARTIIS PARTITIONIBUS CONSUETUDINIS EX EJUS
+          <lb ed="#P" n="87"/>MATERIA SUMEPTIS,
+        </p>
+        <p xml:id="szdleg-q37679-d1e115">
+          <lb ed="#P" n="88"/>1. Consuetudo canonica et civilis.—Quarto,
+          <lb ed="#P" n="89"/>dividi potest consuetudo ex parte rerum, seu
+          <lb ed="#P" n="90"/>materiae circa quam versatur, sub qua multae
+          <lb ed="#P" n="91"/>subdivisiones seu faciliores partitiones 
+          conti<lb break="no" ed="#P" n="92"/>neri possunt. Sic enim dividi potest 
+          consue<lb break="no" ed="#P" n="93"/>tudo in canonicam et civilem, ad eum modum
+          <lb ed="#P" n="94"/>quo dividitur lex in membra similia. Nam si
+          <lb ed="#P" n="95"/>consuetudo sit in materia spirituali, erit 
+          cano<lb break="no" ed="#P" n="96"/>nica, ut consuetudo jejunandi, servandi 
+          ali<lb break="no" ed="#P" n="97"/>quod festum. Et in universum omnis 
+          consue<lb break="no" ed="#P" n="98"/>tudo propria clericorum canonica est, etiamsi
+          <lb ed="#P" n="99"/>videatur aliquando circa materiam 
+          tempora<lb break="no" ed="#P" n="100"/>lem versari, quia semper versatur circa illam
+          <lb ed="#P" n="101"/>materiam, prout spectat ad bona vel personas
+          <lb ed="#P" n="102"/>clericorum, aut Ecclesiarum, et sub illa 
+          ratio<lb break="no" ed="#P" n="103"/>ne, sacra seu spiritualis est. Consuetudo autem
+          <lb ed="#P" n="104"/>civilis est propria laicorum, et circa 
+          tempora<lb break="no" ed="#P" n="105"/>lem materiam versari debet; legem enim 
+          civi<lb break="no" ed="#P" n="106"/>lem imitatur, argumento 1. ult., eod, Quae sit
+          <lb ed="#P" n="107"/>longa consuetudo.
+        </p>
+        <p xml:id="szdleg-q37679-d1e161">
+          <pb ed="#P" n="151"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>2. Dices, non esse adaquatam divisionem,
+          <lb ed="#P" n="2"/>quia datur consuetudo communis laicis et 
+          cle<lb break="no" ed="#P" n="3"/>ricis, et utrosque obligans, ut cap. praecedenti
+          <lb ed="#P" n="4"/>ex Panormit. et aliis dicebamus : illa autem
+          <lb ed="#P" n="5"/>non potest dici canonica, vel civilis, sed mixta.
+          <lb ed="#P" n="6"/>Respondeo: vel illa comprehendit clericos, 
+          tan<lb break="no" ed="#P" n="7"/>tum ut cives sunt, quia est de materia 
+          perti<lb break="no" ed="#P" n="8"/>nente ad temporale regimen et commune 
+          bo<lb break="no" ed="#P" n="9"/>num politicum civitatis, et talis consuetudo
+          <lb ed="#P" n="10"/>civihs erit; tum quia tota tendit ad finem
+          <lb ed="#P" n="11"/>temporalem, et subjacet potestati temporali;
+          <lb ed="#P" n="12"/>tum etiam quia est a civitate, ut civitas 
+          hu<lb break="no" ed="#P" n="13"/>mana est, a qua denominatur lex vel 
+          consue<lb break="no" ed="#P" n="14"/>tudo civilis. Nec est inconveniens quod 
+          obli<lb break="no" ed="#P" n="15"/>get clericos ut cives sunt, quia illi etiam 
+          no<lb break="no" ed="#P" n="16"/>mine civitatis veniunt, ut notat Bart. l. 1, ff.
+          <lb ed="#P" n="17"/>Ad municip., et Panorm. in cap. Cum causam,
+          <lb ed="#P" n="18"/>de Re judic.; et per legem etiam scriptam 
+          ci<lb break="no" ed="#P" n="19"/>vilem possunt hoc modo obligari quoad vim
+          <lb ed="#P" n="20"/>directivam, modo supra explicato. Aut est
+          <lb ed="#P" n="21"/>consuetudo pertinens ad clericos, ut clerici
+          <lb ed="#P" n="22"/>sunt, vel ut christiani sunt; et tunc necesse est
+          <lb ed="#P" n="23"/>ut consuetudo sit canonica, quia sola illa 
+          po<lb break="no" ed="#P" n="24"/>terit clericos, ut tales sunt, obligare, et illa
+          <lb ed="#P" n="25"/>sola est eminentioris ordinis, quae possit etiam
+          <lb ed="#P" n="26"/>laicos comprehendere, quia semper 
+          consuetu<lb break="no" ed="#P" n="27"/>do imitatur legem, et a potestate seu 
+          jurisdic<lb break="no" ed="#P" n="28"/>tione ejusdem ordinis pendet. Potest autem
+          <lb ed="#P" n="29"/>dupliciter id contingere. Primo, quia materia
+          <lb ed="#P" n="30"/>et finis consuetudinis spiritualis est pertinens
+          <lb ed="#P" n="31"/>ad laicos et clericos ut christiani sunt, et 
+          ta<lb break="no" ed="#P" n="32"/>lis est una simplex consuetudo, et canonica,
+          <lb ed="#P" n="33"/>qualis est consuetudo servandi diem festum
+          <lb ed="#P" n="34"/>utrisque communis. Secundo, contingere 
+          po<lb break="no" ed="#P" n="35"/>test solum per quamdam convenientiam et
+          <lb ed="#P" n="36"/>similitudinem, ut, verbi gratia, quia, in tali
+          <lb ed="#P" n="37"/>loco, tam judices laici quam ecclesiastici 
+          ser<lb break="no" ed="#P" n="38"/>vant aliquam consuetudinem in suis judiciis.
+          <lb ed="#P" n="39"/>Et tunc in rigore non est una consuetudo, sed
+          <lb ed="#P" n="40"/>duplex, una canonica, et altera civilis, quae
+          <lb ed="#P" n="41"/>solum per aggregationem per modum unius
+          <lb ed="#P" n="42"/>reputatur. Et ita divisio est adaequata, et haec
+          <lb ed="#P" n="43"/>videntur sufficere ad expositionem ejus, 
+          de<lb break="no" ed="#P" n="44"/>servietque in sequentibus ad usum 
+          termino<lb break="no" ed="#P" n="45"/>rum.
+        </p>
+        <p xml:id="szdleg-q37679-d1e266">
+          <lb ed="#P" n="46"/>3. Stylus quid significat. — Alio modo
+          <lb ed="#P" n="47"/>etiam ex parte materiae potest dividi 
+          consuetu<lb break="no" ed="#P" n="48"/>do, in morem stricte sumptum, stylum, ritum
+          <lb ed="#P" n="49"/>et forum. Quae divisio constabit explicando
+          <lb ed="#P" n="50"/>tres voces ultimas : nam omnem aliam 
+          con<lb break="no" ed="#P" n="51"/>suetudinem sub illis vocibus non 
+          comprehen<lb break="no" ed="#P" n="52"/>sam sub more stricte sumpto 
+          comprehendi<lb break="no" ed="#P" n="53"/>mus. Primo igitur, stylus significare videtur
+          <lb ed="#P" n="54"/>usum specialem in scribendo, vel loquendo, ut
+          <lb ed="#P" n="55"/>colligi potest ex c. Quam gravi, de Crimin.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>fals., ubi dicitur, ad discernendum vera 
+          res<lb break="no" ed="#P" n="57"/>cripta pontificia , inter alia respiciendum esse
+          <lb ed="#P" n="58"/>ad stylum. Unde aliqui colligere voluerunt
+          <lb ed="#P" n="59"/>stylum solum morem scribendi significare :
+          <lb ed="#P" n="60"/>nam ita etiam sumitur in cap. Venerabilem,
+          <lb ed="#P" n="61"/>de Confirmat. util. vel inutil. Ita sentit cum
+          <lb ed="#P" n="62"/>aliis, quos allegat, Rochus Curt. in dicta 
+          Prae<lb break="no" ed="#P" n="63"/>fat., n. 28, et favet vocis translatio : nam 
+          pri<lb break="no" ed="#P" n="64"/>mo significasse videtur aeneum instrumentum
+          <lb ed="#P" n="65"/>scribendi, et inde translata est ad scripturam
+          <lb ed="#P" n="66"/>significandam, juxta l. 1, c. de Sacros. Eccles.,
+          <lb ed="#P" n="67"/>et inde ad modum seu ordinem scribendi. Sed,
+          <lb ed="#P" n="68"/>licet in praedictis juribus ita usurpetur illa vox,
+          <lb ed="#P" n="69"/>non excluduntur alia significata : nam etiam
+          <lb ed="#P" n="70"/>significat usum et modum loquendi. Indeque
+          <lb ed="#P" n="71"/>videtur haec vox accommodata ad 
+          significan<lb break="no" ed="#P" n="72"/>dum modum servari consuetum in aliquo 
+          or<lb break="no" ed="#P" n="73"/>dine judiciali. Et ita dixit Cyn. in l. 1, c. Quae
+          <lb ed="#P" n="74"/>sit long. consuet., stylum esse practicam 
+          ali<lb break="no" ed="#P" n="75"/>cujus curiae. Et idem habet Bald. in l. ultim.,
+          <lb ed="#P" n="76"/>c. eodem, et per antonomasiam ita vocari solet
+          <lb ed="#P" n="77"/>stylus romanae curiae. Et fere in idem redit
+          <lb ed="#P" n="78"/>quod dicit Bartol. in dicta repetitione legis De
+          <lb ed="#P" n="79"/>quibus , n. 10, in fine quaestionis primae, 
+          sty<lb break="no" ed="#P" n="80"/>Ium esse consuetudinem , quae respicit 
+          ordi<lb break="no" ed="#P" n="81"/>nem loquendi et procedendi, scilicet , in 
+          judi<lb break="no" ed="#P" n="82"/>cio. Nam ob hanc causam dixit idem Bart., in
+          <lb ed="#P" n="83"/>1.2, c.Quae sit long. consuet., num. 9, stylum
+          <lb ed="#P" n="84"/>solum induci per actus judiciarios eorum qui
+          <lb ed="#P" n="85"/>in judicio versantur; Angel. vero, in 8 Fz
+          <lb ed="#P" n="86"/>non scripto, Instit. de Jur. natur., dicit stylum
+          <lb ed="#P" n="87"/>non magis dici in judiciis quam extra illa.
+          <lb ed="#P" n="88"/>Quod certe verum est spectata generali vocis
+          <lb ed="#P" n="89"/>significatione ; considerando autem usum ejus
+          <lb ed="#P" n="90"/>in ordine ad jus explicandum , vel 
+          introdu<lb break="no" ed="#P" n="91"/>cendum , proprie videtur respicere ordinem
+          <lb ed="#P" n="92"/>judiciorum , sub judiciis omnes scripturas ,
+          <lb ed="#P" n="93"/>bullas et rescripta comprehendendo : nam licet
+          <lb ed="#P" n="94"/>in eis expediendis non interveniat ordo 
+          judi<lb break="no" ed="#P" n="95"/>cialis, stylus eorum in judiciis attenditur. Et
+          <lb ed="#P" n="96"/>plura de hac voce erudite congerit Christophor.
+          <lb ed="#P" n="97"/>de Paz, in 1 part. rubr. ad leges Hispaniae,
+          <lb ed="#P" n="98"/>quae styli appellantur.
+        </p>
+        <p xml:id="szdleg-q37679-d1e386">
+          <lb ed="#P" n="99"/>4. Stylus facti quid. — Ut autem non 
+          sis<lb break="no" ed="#P" n="100"/>tamus in sola vocis significatione, sed rem,
+          <lb ed="#P" n="101"/>quae ad jus pertineat , explicemus , possumus
+          <lb ed="#P" n="102"/>in stylo cum proportione ad consuetudinem
+          <lb ed="#P" n="103"/>duo distinguere, scilicet, stylum facti, et juris.
+          <lb ed="#P" n="104"/>Stylus quoad factum videtur mihi esse non
+          <lb ed="#P" n="105"/>tam frequentia actuum sic scribendi, loquendi,
+          <lb ed="#P" n="106"/>aut procedendi, quam forma illa quasi 
+          artifi<lb break="no" ed="#P" n="107"/>ialis, quae servari solet in ordine sermonis,
+          <lb ed="#P" n="108"/>scripturae, aut processus, ita ut inter partes
+          <lb ed="#P" n="109"/>ejus, vel talia verba usurpentur, vel tali modo,
+          <lb ed="#P" n="110"/>aut ordine constituantur. Haec enim significa-
+          <pb ed="#P" n="152"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tio ex communi usu constat, et ex juribus 
+          al<lb break="no" ed="#P" n="2"/>legatis, et sumi etiam potest ex leg. 1, c. De
+          <lb ed="#P" n="3"/>sacrosanct. Eccles., ubi dicitur voluntatis 
+          ulti<lb break="no" ed="#P" n="4"/>a stylum liberum esse debere, id est, formam
+          <lb ed="#P" n="5"/>disponendi per testamentum ; ubi constat 
+          sty<lb break="no" ed="#P" n="6"/>lum esse quid facti, et non significare 
+          frequen<lb break="no" ed="#P" n="7"/>tiam actuum , sed ipsam formam disponendi.
+          <lb ed="#P" n="8"/>Et clarius in illa significatione usurpatur l. 3,
+          <lb ed="#P" n="9"/>c. de Bon. vacant., lib. 10. Et sic etiam dixit
+          <lb ed="#P" n="10"/>Terent. in Andria : Dissimili oratione sunt
+          <lb ed="#P" n="11"/>facte, ac stylo. At vero, quia in loquendo
+          <lb ed="#P" n="12"/>maxime et scribendo, talis forma usu 
+          compa<lb break="no" ed="#P" n="13"/>rari solet, ideo usus ipse, seu consuetudo, sic
+          <lb ed="#P" n="14"/>scribendi, vel loquendi, stylus appellatur, et
+          <lb ed="#P" n="15"/>ita significat consuetudinem facti, ut sensit
+          <lb ed="#P" n="16"/>Bald. in dicta l. 1, c. de Sacros. Eccl., et in l.
+          <lb ed="#P" n="17"/>S quis intra, c. de Bon. praescriptorum. Quod
+          <lb ed="#P" n="18"/>intelligendum est non absolute de quacumque
+          <lb ed="#P" n="19"/>consuetudine, sed in tali materia, ut supra
+          <lb ed="#P" n="20"/>dixi.
+        </p>
+        <p xml:id="szdleg-q37679-d1e462">
+          <lb ed="#P" n="21"/>5. Varii effectus styli insinuantur.—Si 
+          er<lb break="no" ed="#P" n="22"/>go extali stylo facti introducatur obligatio 
+          ser<lb break="no" ed="#P" n="23"/>vandi talem modum vel ordinem in 
+          pronun<lb break="no" ed="#P" n="24"/>tiando, seu procedendo, quoad hoc stylus erit
+          <lb ed="#P" n="25"/>jus speciale, et non scriptum. Unde quia haec
+          <lb ed="#P" n="26"/>obligatio non videtur ordinarie posse introduci
+          <lb ed="#P" n="27"/>per stylum facti, ita ut vim legis habeat, nisi
+          <lb ed="#P" n="28"/>in his quae judicia concernurt; ideo stylus
+          <lb ed="#P" n="29"/>specialiter, ut est quid juris, videtur 
+          accom<lb break="no" ed="#P" n="30"/>modari ad judiciarium morem et ordinem, ut
+          <lb ed="#P" n="31"/>ex Bart. diximus. Nam in aliis materiis, 
+          ser<lb break="no" ed="#P" n="32"/>monibus, vel scripturis, usus sic vel sic 
+          loquen<lb break="no" ed="#P" n="33"/>di, aut scribendi parum videtur referre ad
+          <lb ed="#P" n="34"/>commune bonum, ut possit legem inducere :
+          <lb ed="#P" n="35"/>in judiciis autem multum referre potest, adeo
+          <lb ed="#P" n="36"/>ut dixerit Anchar., cons. 53, stylum curiae 
+          fa<lb break="no" ed="#P" n="37"/>cere jus in casibus a jure non decisis. Et ideo
+          <lb ed="#P" n="38"/>stylus, ut est aliquid juris, proprie dicitur ad
+          <lb ed="#P" n="39"/>judiciaria pertinere. Sic ergo stylus est 
+          quod<lb break="no" ed="#P" n="40"/>dam jus non scriptum, interdum positive 
+          obli<lb break="no" ed="#P" n="41"/>gans, ut ab eo non recedatur, juxta leg. ult.,
+          <lb ed="#P" n="42"/>c. de Injur.; interdum obligationem tollens,
+          <lb ed="#P" n="43"/>ut, licet jure communi sententia debeat 
+          pro<lb break="no" ed="#P" n="44"/>nuntiari a judice, de stylo curiae dicitur non
+          <lb ed="#P" n="45"/>esse necessarium. Interdum interpretationem
+          <lb ed="#P" n="46"/>juris inducit, etiam authenticam et 
+          sequen<lb break="no" ed="#P" n="47"/>4JAam. Quomodo autem stylus introducatur, ut
+          <lb ed="#P" n="48"/>habeat hos effectus, cum proportione ad 
+          con<lb break="no" ed="#P" n="49"/>suetudinem explicandum est, et in 
+          sequenti<lb break="no" ed="#P" n="50"/>bus si quid habuerit speciale adnotabitur.
+        </p>
+        <p xml:id="szdleg-q37679-d1e530">
+          <lb ed="#P" n="51"/>6. Qua et quales sint leges styli.— Atque
+          <lb ed="#P" n="52"/>hinc tandem intelligi potest quae et quales 
+          cen<lb break="no" ed="#P" n="53"/>sendae sunt leges styli. Dupliciter enim potest
+          <lb ed="#P" n="54"/>illa determinatio sumi, cum aliqua lex dicitur
+          <lb ed="#P" n="55"/>esse styli. Uno modo, ut illa denominatio sit
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ab objecto legis, seu materiae circa quam 
+          ver<lb break="no" ed="#P" n="57"/>satur. Et sic proprie talis lex per se non 
+          perti<lb break="no" ed="#P" n="58"/>net ad consuetudinem, sed magis ad legem
+          <lb ed="#P" n="59"/>scriptam, quae disponit de stylo servando in
+          <lb ed="#P" n="60"/>his quae concernunt judicialia, sicut in 
+          rheto<lb break="no" ed="#P" n="61"/>rica dicentur leges styli, quae tradi possunt de
+          <lb ed="#P" n="62"/>modo et ordine graviter, et suaviter, ac clare
+          <lb ed="#P" n="63"/>loquendi, vel scribendi. Et hujusmodi sunt 
+          le<lb break="no" ed="#P" n="64"/>ges styli regni Hispaniae, in quibus etiam saepe
+          <lb ed="#P" n="65"/>stylus moris et consuetudinis allegatur. Et ita
+          <lb ed="#P" n="66"/>existimo ab ipsa materia denominationem 
+          il<lb break="no" ed="#P" n="67"/>lam suscepisse, licet Christoph. de Paz, 
+          su<lb break="no" ed="#P" n="68"/>pra, num. 53, aliter illam rubricam explicet.
+          <lb ed="#P" n="69"/>Alio vero modo potest lex styli dici ab 
+          intrin<lb break="no" ed="#P" n="70"/>seco modo, quo introducta est per solum usum
+          <lb ed="#P" n="71"/>in tali materia forensi, seu judiciaria, et sic
+          <lb ed="#P" n="72"/>est proprie jus non scriptum sub consuetudine
+          <lb ed="#P" n="73"/>comprehensum, ut explicatum est.
+        </p>
+        <p xml:id="szdleg-q37679-d1e585">
+          <lb ed="#P" n="74"/>7. Ritus quid significet. — Aliud membrum
+          <lb ed="#P" n="75"/>dictae partitionis erat ritus; nam hunc etiam
+          <lb ed="#P" n="76"/>inter ea quae ad consuetudinem pertinent 
+          po<lb break="no" ed="#P" n="77"/>nit Rochus Curt., in dicta Praefat., n. 28, ex
+          <lb ed="#P" n="78"/>Panormit. in cap. Cum secundum, de Tempor.
+          <lb ed="#P" n="79"/>ordin., uhi sic inquit: Hitus est consuetudo
+          <lb ed="#P" n="80"/>solemnitatem praebens in aliquo actu emercendo,
+          <lb ed="#P" n="81"/>ita ut ubi usus disponit erga solemnitatem 
+          ac<lb break="no" ed="#P" n="82"/>tus, ritus, seu observantia dici possit. Et solum
+          <lb ed="#P" n="83"/>allegat cap. ult. de Consuetud., ubi nihil de
+          <lb ed="#P" n="84"/>ritu in particulari dicitur. Juxta quam 
+          descri<lb break="no" ed="#P" n="85"/>ptionem, etiam stylus erit quidam ritus, licet
+          <lb ed="#P" n="86"/>non omnis ritus dici possit stylus. Idem vero
+          <lb ed="#P" n="87"/>Panormitanus in cap. 72 aliquibus, de Decim.,
+          <lb ed="#P" n="88"/>in princip., restrictius dixit: Hitus significat
+          <lb ed="#P" n="89"/>mores in spiritualibus. Et juxta hoc non 
+          om<lb break="no" ed="#P" n="90"/>nis solemnitas actus dicetur ritus, sed 
+          speciali<lb break="no" ed="#P" n="91"/>ter illa quae est in materia sacra, ut sacrificii,
+          <lb ed="#P" n="92"/>sacramentorum, et sacramentalium, aut 
+          ora<lb break="no" ed="#P" n="93"/>tionum, seu divinorum officiorum ; et hic 
+          vi<lb break="no" ed="#P" n="94"/>detur communis ecclesiasticus usus illius 
+          vo<lb break="no" ed="#P" n="95"/>cis. Nunquam autem probavit Panormitanus
+          <lb ed="#P" n="96"/>illam vocem specialiter significasse 
+          consuetu<lb break="no" ed="#P" n="97"/>dinem aliquam; imo, in cap. Presbyter, de
+          <lb ed="#P" n="98"/>Sacra unctione, notat idem Panormitan. quod
+          <lb ed="#P" n="99"/>ritus est quedam solemnitas et forma 
+          speciali<lb break="no" ed="#P" n="100"/>ter in actu sacramentali.
+        </p>
+        <p xml:id="szdleg-q37679-d1e646">
+          <lb ed="#P" n="101"/>8. Ritus facti vel juris. — Quapropter 
+          doc<lb break="no" ed="#P" n="102"/>trina data de stylo videtur ad ritum 
+          applican<lb break="no" ed="#P" n="103"/>da. Nam ritus esse potest vel quid facti, vel
+          <lb ed="#P" n="104"/>quid juris ; item ut est quid facti, primo et per
+          <lb ed="#P" n="105"/>se consistit in solemnitate aliqua, seu 
+          caeremo<lb break="no" ed="#P" n="106"/>nia alicujus actus: et in hac acceptione 
+          usur<lb break="no" ed="#P" n="107"/>patur in tribus capitulis allegatis. Unde ad
+          <lb ed="#P" n="108"/>hujusmodi ritum non est per se necessaria
+          <lb ed="#P" n="109"/>consuetudo, nec actuum frequentia: saepius
+          <lb ed="#P" n="110"/>enim instituitur ante omnem usum, aut ver-
+          <pb ed="#P" n="153"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bo, ut Christus Dominus instituit 
+          substantia<lb break="no" ed="#P" n="2"/>lem ritum sacramentorum, aut scripto, ut
+          <lb ed="#P" n="3"/>multae accidentales solemnitates, et actiones
+          <lb ed="#P" n="4"/>sacrae ab Ecclesia institutae sunt, ut constat.
+          <lb ed="#P" n="5"/>Non repugnat autem , imo etiam saepe 
+          contin<lb break="no" ed="#P" n="6"/>git ritus hujusmodi usu et consuetudine 
+          in<lb break="no" ed="#P" n="7"/>troduci, et tunc talis consuetudo dici potest
+          <lb ed="#P" n="8"/>ritus quidam, ut voluerunt dicti auctores;
+          <lb ed="#P" n="9"/>oportebit autem illam distinguere, ut est quid
+          <lb ed="#P" n="10"/>facti, vel juris. Nam priori modo erit 
+          frequen<lb break="no" ed="#P" n="11"/>tia sic operandi in tali materià ; posteriori 
+          au<lb break="no" ed="#P" n="12"/>tem modo esse poterit jus aliquod non 
+          scri<lb break="no" ed="#P" n="13"/>ptum in eadem materia per illam frequentiam
+          <lb ed="#P" n="14"/>inductum, eit sic fere omnes consuetudines 
+          ca<lb break="no" ed="#P" n="15"/>nonicae in actibus pertinentibus ad cultum Dei,
+          <lb ed="#P" n="16"/>quatenus eis dant formam, seu specialem 
+          mo<lb break="no" ed="#P" n="17"/>dum, dici poterunt ritus. Quale autem sit hoc
+          <lb ed="#P" n="18"/>jus, et quomodo introducatur, ex generalibus
+          <lb ed="#P" n="19"/>regulis de consuetudine petendum est; nihil
+          <lb ed="#P" n="20"/>enim videtur habere speciale, sed cum 
+          propor<lb break="no" ed="#P" n="21"/>tione principia de consuetudine applicanda
+          <lb ed="#P" n="22"/>sunt.
+        </p>
+        <p xml:id="szdleg-q37679-d1e723">
+          <lb ed="#P" n="23"/>9. Forum quid. —Tertium membrum in 
+          ea<lb break="no" ed="#P" n="24"/>dem partitione positum, est forum, quae vox,
+          <lb ed="#P" n="25"/>in communi jure, usitata non est in hac 
+          signi<lb break="no" ed="#P" n="26"/>ficatione; et ideo Bart., Panormit., Rochus, et
+          <lb ed="#P" n="27"/>abi de consuetudine scribentes, illius non 
+          me<lb break="no" ed="#P" n="28"/>minerunt. Tamen in legibus nostri regni 
+          fo<lb break="no" ed="#P" n="29"/>rum inter consuetudines ponitur, in l. 7, tit.
+          <lb ed="#P" n="30"/>2. part. 1, ubi id notat Greg. Lopez, et, 
+          con<lb break="no" ed="#P" n="31"/>siderata illius vocis derivatione, videtur idem
+          <lb ed="#P" n="32"/>esse quod stylus, prout a nobis explicatus est,
+          <lb ed="#P" n="33"/>vel parum ab illo differre. Forum enim, in
+          <lb ed="#P" n="34"/>usu vulgari, locum publicum significare solet
+          <lb ed="#P" n="35"/>ad mercaturam et negotiationes venales 
+          des<lb break="no" ed="#P" n="36"/>tinatum, ut est apud Isidor., l. 15 Orig., c.6;
+          <lb ed="#P" n="37"/>et quia judicia in his locis publicis exerceri 
+          so<lb break="no" ed="#P" n="38"/>lent, ideo credit illud nomen translatum esse
+          <lb ed="#P" n="39"/>ad significandum locum judiciorum. Idem 
+          ve<lb break="no" ed="#P" n="40"/>ro, I. 15 Orig., cap. 2, et l. 18 Etymol., c. 15,
+          <lb ed="#P" n="41"/>forum ait, exercendarum ltium locum 
+          signi<lb break="no" ed="#P" n="42"/>ficare, et a fando esse dictum; et habetur in
+          <lb ed="#P" n="43"/>cap. Forum, de Verbor. significat. Unde etiam
+          <lb ed="#P" n="44"/>significare solet proprium territorium 
+          unius<lb break="no" ed="#P" n="45"/>cujusque judicis, aut Praelati, et ita videtur 
+          su<lb break="no" ed="#P" n="46"/>mi in tit. de Foro compet., ut ibi Hostiens.,
+          <lb ed="#P" n="47"/>Panorm. et alii notant. Atque hinc etiam 
+          ac<lb break="no" ed="#P" n="48"/>tiones judiciales per antonomasiam vocari 
+          so<lb break="no" ed="#P" n="49"/>lent actiones forenses, ut in l. penultima, ff.
+          <lb ed="#P" n="50"/>de Feriis; unde etiam dicta sunt instrumenta
+          <lb ed="#P" n="51"/>forensia scripturae publicae, quae fidem in 
+          judi<lb break="no" ed="#P" n="52"/>cio faciunt, 1l. Comparationes, c. de Fide 
+          ins<lb break="no" ed="#P" n="53"/>trument. Ita ergo consuetudines rertinentes
+          <lb ed="#P" n="54"/>ad ordinem judiciorum forenses dici possunt.
+        </p>
+        <p xml:id="szdleg-q37679-d1e795">
+          <lb ed="#P" n="55"/>10. Forum et stylus in quo differunt. — Hae
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>igitur consuetudines censentur in Hispania
+          <lb ed="#P" n="57"/>comprehendi nomine fori ; nam leges quae 
+          fo<lb break="no" ed="#P" n="58"/>ri dicuntur, ex usu originem habuerunt, ut in
+          <lb ed="#P" n="59"/>earum prooemio dicitur ; et dubium non est
+          <lb ed="#P" n="60"/>quin usus in tali materia possit jus inducere,
+          <lb ed="#P" n="61"/>non minori ratione quam in aliis. Unde dicitur
+          <lb ed="#P" n="62"/>in l. Labeo, ff. de Statu lib.: Morem agentium
+          <lb ed="#P" n="63"/>sequi debemus ; et inl. 1, S In honorariis, ff. de
+          <lb ed="#P" n="64"/>Variis et extraord. cogn., expresse dicitur pro
+          <lb ed="#P" n="65"/>fori consuetudine estimationem habendam esse,
+          <lb ed="#P" n="66"/>et notat Dart. in dicta l. De quibus. Unde in
+          <lb ed="#P" n="67"/>hac significatione constat parum ab stylo 
+          dif<lb break="no" ed="#P" n="68"/>ferre; unde, licet in Hispania distinctae sint 
+          le<lb break="no" ed="#P" n="69"/>ges fori et leges styli, tamen hae censentur
+          <lb ed="#P" n="70"/>esse quasi interpretationes illarum, ut in 
+          ru<lb break="no" ed="#P" n="71"/>brica illarum dicitur. Differunt nihilominus
+          <lb ed="#P" n="72"/>forum et stylus, quod forum non significat 
+          or<lb break="no" ed="#P" n="73"/>dinem aut modum loquendi, aut procedendi
+          <lb ed="#P" n="74"/>in judicio, sicut stylus ; sed significare videtur
+          <lb ed="#P" n="75"/>omnia jura competentia ratione jurisdictionis,
+          <lb ed="#P" n="76"/>vel in ordine ad illam, vel usum ejus. Unde
+          <lb ed="#P" n="77"/>tota collectio legum spectantium ad 
+          jurisdic<lb break="no" ed="#P" n="78"/>tionis usum videtur posse nomine fori, quasi
+          <lb ed="#P" n="79"/>collective sumpto, significari, quamvis 
+          singu<lb break="no" ed="#P" n="80"/>lae etiam leges hujusmodi soleant dici fora,
+          <lb ed="#P" n="81"/>hispane, fueros.
+        </p>
+        <p xml:id="szdleg-q37679-d1e858">
+          <lb ed="#P" n="82"/>11. An forum indifferenter comprehendat
+          <lb ed="#P" n="83"/>leges scriptas et non scriptas.—MHinc dicunt 
+          ali<lb break="no" ed="#P" n="84"/>qui forum, in hac acceptione, non solam 
+          con<lb break="no" ed="#P" n="85"/>suctudinem significare, sed indifferenter 
+          com<lb break="no" ed="#P" n="86"/>prehendere leges scriptas, vel non scriptas seu
+          <lb ed="#P" n="87"/>consuetudine introductas circa usum 
+          jurisdic<lb break="no" ed="#P" n="88"/>tonis et judiciorum. Ita sensit Burgos de Paz
+          <lb ed="#P" n="89"/>in l. 1 Tauri, n. 385; leges enim fori scriptae
+          <lb ed="#P" n="90"/>sunt, et tamen sub nomine fori recte 
+          compre<lb break="no" ed="#P" n="91"/>henduntur. De illis autem legibus fori 
+          frequen<lb break="no" ed="#P" n="92"/>tius sentiunt hispani jurisperiti, non habere
+          <lb ed="#P" n="93"/>vim legum, nisi in virtute consuetudinis, ita ut
+          <lb ed="#P" n="94"/>lex scripta fori jus non conferat, neque ad
+          <lb ed="#P" n="95"/>probationem sufficiat, nisi usus ejus probetur,
+          <lb ed="#P" n="96"/>ut docet Greg. Lop. dicta l. 7, et 1. 28, titul. 15,
+          <lb ed="#P" n="97"/>partit. 7; et Suarez in Prooem. fori, n. 1, 2 et
+          <lb ed="#P" n="98"/>3; et Valdes. in additione ad illum, et 
+          Chris<lb break="no" ed="#P" n="99"/>toph. de Paz. in rubr. ad l. Styli, part. 1, n.
+          <lb ed="#P" n="100"/>36, et alii circal. 1 Tauri, quae est l. 3, titul. 1,
+          <lb ed="#P" n="101"/>lib. 2 compil., ex qua idem colligitur. Quod si
+          <lb ed="#P" n="102"/>hoc verum est, profecto leges fori, ut scriptae
+          <lb ed="#P" n="103"/>sunt, non sunt leges. Nam lex scripta non 
+          ha<lb break="no" ed="#P" n="104"/>bet vim et substantiam suam ab usu, sed ex
+          <lb ed="#P" n="105"/>institutione et promulgatione ; illae autem non
+          <lb ed="#P" n="106"/>sic institutae sunt, et propositae, ut per se 
+          obli<lb break="no" ed="#P" n="107"/>gent, sed solum quantum de usu constiterit.
+          <lb ed="#P" n="108"/>Solum ergo sunt quasi memoralia 
+          consuetudi<lb break="no" ed="#P" n="109"/>num, ac subinde jus earum, illis non 
+          obstanti<lb break="no" ed="#P" n="110"/>bus, erit jus non scriptum et consuetudina-
+          <pb ed="#P" n="154"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rium, quia talis scriptura ei non repugnat, ut
+          <lb ed="#P" n="2"/>supra dictum est.
+        </p>
+        <p xml:id="szdleg-q37679-d1e932">
+          <lb ed="#P" n="3"/>12. Sed, quidquid sit de illis specialibus 
+          le<lb break="no" ed="#P" n="4"/>gibus fori, non dubium est quin potuerint 
+          da<lb break="no" ed="#P" n="5"/>ri leges scriptae de toto negotio forensi, et 
+          ali<lb break="no" ed="#P" n="6"/>quae etiam potuerint consuetudine introduci ;
+          <lb ed="#P" n="7"/>et ita omnia quae diximus de stylo quoad 
+          fac<lb break="no" ed="#P" n="8"/>tum, et quoad jus scriptum vel non scriptum,
+          <lb ed="#P" n="9"/>cum proportione possunt ad forum applicari.
+          <lb ed="#P" n="10"/>Addo etiam, licet in regno Castellae leges fori
+          <lb ed="#P" n="11"/>ad illam materiam judiciorum determinentur,
+          <lb ed="#P" n="12"/>fortasse in aliis regnis Aragoniae, etc., alio
+          <lb ed="#P" n="13"/>modo vel latiori significato sumi.
+        </p>
+        <p xml:id="szdleg-q37679-d1e958">
+          <lb ed="#P" n="14"/>13. Fora enim ibi appellari videntur leges
+          <lb ed="#P" n="15"/>propriae illorum regnorum antiquae et quasi 
+          in<lb break="no" ed="#P" n="16"/>violabili usu confirmatae, et maxime quae 
+          per<lb break="no" ed="#P" n="17"/>tinent ad modum regiminis, et jurisdictionis
+          <lb ed="#P" n="18"/>principis, et subjectionis populi et nobilium, et
+          <lb ed="#P" n="19"/>fortasse plura complectuntur; et mihi non 
+          con<lb break="no" ed="#P" n="20"/>stat an ab expressa institutione originem 
+          ha<lb break="no" ed="#P" n="21"/>buerint , vel consuetudine sint introductae;
+          <lb ed="#P" n="22"/>utroque enim modo introduci potuerunt, si 
+          jus<lb break="no" ed="#P" n="23"/>ta et rationabilia sint, ut supponimus. 
+          Excep<lb break="no" ed="#P" n="24"/>tis ergo his specialibus vocibus, aut 
+          consuetu<lb break="no" ed="#P" n="25"/>dinibus, omnia alia jura usu introducta in 
+          qua<lb break="no" ed="#P" n="26"/>cumque morali materia generale nomen 
+          con<lb break="no" ed="#P" n="27"/>suetudinis retinuerunt. Atque ita constat, per
+          <lb ed="#P" n="28"/>hanc partitionem non multiplicari formaliter,
+          <lb ed="#P" n="29"/>ut sic dicam, jus consuetudinarium, sed 
+          tan<lb break="no" ed="#P" n="30"/>tum materialiter, ex parte rerum seu 
+          mate<lb break="no" ed="#P" n="31"/>riarum circa quas versatur. Idemque est de
+          <lb ed="#P" n="32"/>aliis ac similibus partitionibus, quae facile 
+          ex<lb break="no" ed="#P" n="33"/>cogitari possunt.
+        </p>
+        <p xml:id="szdleg-q37679-d1e1004">
+          <lb ed="#P" n="34"/>14. Divisio consuetudinis ultima ecponitur.
+          <lb ed="#P" n="35"/>— Ultimo notanda est alia divisio, quae utilis
+          <lb ed="#P" n="36"/>esse poterit ad sequentia. Nam dividi potest
+          <lb ed="#P" n="37"/>consuetudo in positivam, privativam, seu 
+          ne<lb break="no" ed="#P" n="38"/>gativam. Prior ex positivo usu ducit originem,
+          <lb ed="#P" n="39"/>et in frequentia actuum quoad factum 
+          con<lb break="no" ed="#P" n="40"/>sistit, et ita quoad jus ad agendum inclinat,
+          <lb ed="#P" n="41"/>vel obligat. Posterior vero consistit potius in
+          <lb ed="#P" n="42"/>non agendo, et ducit originem ex non usu, et
+          <lb ed="#P" n="43"/>ita interdum vocatur. Quatenus vero ille non
+          <lb ed="#P" n="44"/>usus frequens seu continuatus est, habet 
+          mo<lb break="no" ed="#P" n="45"/>dum consuetudinis quae veluti in facto 
+          consis<lb break="no" ed="#P" n="46"/>tit, et si jus aliquod inducit, ad non agendum
+          <lb ed="#P" n="47"/>tantum inclinat vel obligat. Est autem hoc 
+          lo<lb break="no" ed="#P" n="48"/>co notanda distinctio de non usu negativo et
+          <lb ed="#P" n="49"/>privativo, quam infra circa privilegia latius
+          <lb ed="#P" n="50"/>explicabimus. Quia non usus negativus non 
+          in<lb break="no" ed="#P" n="51"/>ducit consuetudinem, ut recte notavit Paul.
+          <lb ed="#P" n="52"/>de Castro in dicta l. De guibus, quia non est
+          <lb ed="#P" n="53"/>actio nec omissio moralis, et ita non habet 
+          ra<lb break="no" ed="#P" n="54"/>tionem moralis et voluntarii usus, sine quo
+          <lb ed="#P" n="55"/>non potest consuetudo introduci: privativus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>autem non usus continuatus, aut suis 
+          tempo<lb break="no" ed="#P" n="57"/>ribus repetitus, consuetudinem moralem 
+          in<lb break="no" ed="#P" n="58"/>ducit, propter contrariam rationem ; maxime
+          <lb ed="#P" n="59"/>quia hic non usus moraliter non est sine actu
+          <lb ed="#P" n="60"/>positivo, sicut de omissione theologi dicunt. Id
+          <lb ed="#P" n="61"/>autem dupliciter contingere potest. Primo,
+          <lb ed="#P" n="62"/>quia ille non usus consistit in carentia 
+          alicu<lb break="no" ed="#P" n="63"/>jus circumstantiae vel solemnitatis alicujus 
+          po<lb break="no" ed="#P" n="64"/>sitivi actus, ut est, verbi gratia, incestuosum
+          <lb ed="#P" n="65"/>contrahere matrimonium sine dispensatione :
+          <lb ed="#P" n="66"/>nam ex hoc frequenti usu colligunt multi, cum
+          <lb ed="#P" n="67"/>Navarro, illam esse veram consuetudinem,
+          <lb ed="#P" n="68"/>quae potuit auferre illud impedimentum ; et
+          <lb ed="#P" n="69"/>talis dici potest non negativa tantum, sed 
+          po<lb break="no" ed="#P" n="70"/>sitiva consuetudo , quia non est de omissione,
+          <lb ed="#P" n="71"/>sed de actu facto cum tali negatione, nec 
+          ne<lb break="no" ed="#P" n="72"/>gatio sufficeret ad consuetudinem sine actu.
+          <lb ed="#P" n="73"/>Aliter vero contingit, ut non usus consistat in
+          <lb ed="#P" n="74"/>sola carentia actus tempore alias debito, ut erit
+          <lb ed="#P" n="75"/>omissio audiendi missam tali die, non obstante
+          <lb ed="#P" n="76"/>lege; quae omissio, ut consuetudinem inducat,
+          <lb ed="#P" n="77"/>debet esse voluntaria, et ex ea parte actum 
+          ah<lb break="no" ed="#P" n="78"/>quem includit : formaliter vero consistit in
+          <lb ed="#P" n="79"/>carentia actuum, et ideo privativa consuetudo
+          <lb ed="#P" n="80"/>dicitur. Et dici etiam potest dissuetudo, 
+          quam<lb break="no" ed="#P" n="81"/>vis haec vox aequivoca sit, ut notat Rochus
+          <lb ed="#P" n="82"/>Curt. dicta Praefat., n. 30 et 31; quia 
+          dissue<lb break="no" ed="#P" n="83"/>tudo proprie videtur supponere 
+          consuetudi<lb break="no" ed="#P" n="84"/>nem ; nam cum ab ea receditur, vocari solet
+          <lb ed="#P" n="85"/>dissuetudo, sive ab illa recedatur per 
+          contra<lb break="no" ed="#P" n="86"/>rios actus, atque adeo per consuetudinem 
+          po<lb break="no" ed="#P" n="87"/>sitive contrariam, sive per solam omissionem
+          <lb ed="#P" n="88"/>antiqui usus ; utroque enim modo contingere
+          <lb ed="#P" n="89"/>potest, ut constat. Et hoc modo dari potest 
+          dis<lb break="no" ed="#P" n="90"/>suetudo per contrariam consuetudinem, et
+          <lb ed="#P" n="91"/>potest etiam dari negativa consuetudo, quae
+          <lb ed="#P" n="92"/>non sit dissuetudo, si consuetudinem 
+          opposi<lb break="no" ed="#P" n="93"/>tam non supponat. Verumtamen etiam dici
+          <lb ed="#P" n="94"/>potest dissuetudo sine respectu ad priorem
+          <lb ed="#P" n="95"/>consuetudinem, quae praecesserit, sed tantum
+          <lb ed="#P" n="96"/>ad illam quae posset vel deberet induci. Et ita
+          <lb ed="#P" n="97"/>videtur illa voce uti I. C. Julianus in l. De
+          <lb ed="#P" n="98"/>quibus, ff. de Legib., in fine. Et sic formaliter
+          <lb ed="#P" n="99"/>consistit in carentia actuum, et proprie 
+          signi<lb break="no" ed="#P" n="100"/>ficat consuetudinem negativam, vel 
+          privati<lb break="no" ed="#P" n="101"/>vam. Et in hoc sensu, claritatis gratia, illa voce
+          <lb ed="#P" n="102"/>utemur ; quomodo autem illa habeat moralem
+          <lb ed="#P" n="103"/>vim consuetudinis, vel effectus ejus, in 
+          sequen<lb break="no" ed="#P" n="104"/>tibus videbimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

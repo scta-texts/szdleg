@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 12</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 12</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="181"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q45417"><!-- l7c12 -->
+        <head xml:id="szdleg-q45417-Hd1e101">Caput 12</head>
+        <head xml:id="szdleg-q45417-Hd1e103" type="question-title">Utrum consuetudo per solos actus voluntarios induci valbat.</head>
+        <p xml:id="szdleg-q45417-d1e106">
+          <lb ed="#P" n="18"/>CAPUT XII.
+          <lb ed="#P" n="19"/>UTRUM CONSUETUDO PER SOLOS ACTUS VOLUNTARIOS
+          <lb ed="#P" n="20"/>INDUCI VALBAT.
+        </p>
+        <p xml:id="szdleg-q45417-d1e115">
+          <lb ed="#P" n="21"/>1. Actus introducentes consuetudinem debent
+          <lb ed="#P" n="22"/>esse voluntarii. — Certa et communis resolutio
+          <lb ed="#P" n="23"/>est, actus introducentes consuetudinem 
+          volun<lb break="no" ed="#P" n="24"/>tarios esse debere; et ratio est, quia actus 
+          con<lb break="no" ed="#P" n="25"/>suetudinis non inducunt illam, nisi ratione
+          <lb ed="#P" n="26"/>consensus populi, qui per illos indicatur ; sed
+          <lb ed="#P" n="27"/>actus non indicant consensum, nisi sint 
+          volun<lb break="no" ed="#P" n="28"/>tarii ; ergo, ut consuetudinem introducant, 
+          ne<lb break="no" ed="#P" n="29"/>cessarium est ut voluntarii sint. Consequentia
+          <lb ed="#P" n="30"/>est evidens, et minor est etiam nota in 
+          philo<lb break="no" ed="#P" n="31"/>sophia morali. Major autem est communis 
+          con<lb break="no" ed="#P" n="32"/>sensus doctorum in hac materia. Unde etiam,
+          <lb ed="#P" n="33"/>in cap. 1, vidimus multos velle ut ille 
+          consen<lb break="no" ed="#P" n="34"/>sus in definitione consuetudinis expresse 
+          po<lb break="no" ed="#P" n="35"/>natur, et omnes consentiunt, saltem implicite
+          <lb ed="#P" n="36"/>intelligi; et ratio est, quia licet requiratur
+          <lb ed="#P" n="37"/>etiam consensus principis, ut statim dicemus,
+          <lb ed="#P" n="38"/>tamen ille supponit consensum populi, cui in
+          <lb ed="#P" n="39"/>hoc morem gerit: quod est manifestum quando
+          <lb ed="#P" n="40"/>consuetudo derogat juri principis; idem 
+          ta<lb break="no" ed="#P" n="41"/>men est quando inducit jus, quia hoc jus 
+          con<lb break="no" ed="#P" n="42"/>suetudinis incipit (ut sic dicam) a populo, et
+          <lb ed="#P" n="43"/>ideo supponit consensum ejus. Unde cum in
+          <lb ed="#P" n="44"/>omni lege requiratur aliquo modo populi
+          <lb ed="#P" n="45"/>consensus, diverso tamen modo in lege scripta
+          <lb ed="#P" n="46"/>quam in hoc jure non scripto ; nam lex 
+          proce<lb break="no" ed="#P" n="47"/>cedit primo, et per se a principe, et exigit
+          <lb ed="#P" n="48"/>consensum a populo, illum obligando ad 
+          ac<lb break="no" ed="#P" n="49"/>ceptandam legem, ut l. 3 et 4 dixi: in jure
+          <lb ed="#P" n="50"/>autem consuetudinis populus incipit, quantum
+          <lb ed="#P" n="51"/>in se est, volendo jus introdvcere, et tacite 
+          im<lb break="no" ed="#P" n="52"/>petrando consensum a principe. Hacergo ratio-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>ne necessarium est ut actus consuetudinis 
+          vo<lb break="no" ed="#P" n="54"/>luntarii sint.
+        </p>
+        <p xml:id="szdleg-q45417-d1e193">
+          <lb ed="#P" n="55"/>2. Per actus ignorantia et errore factos
+          <lb ed="#P" n="56"/>non inducitur consuetudo.— Ex quo principio
+          <lb ed="#P" n="57"/>infero, per actus ignorantia et errore factos
+          <lb ed="#P" n="58"/>non induci consuetudinem, quia involuntarii
+          <lb ed="#P" n="59"/>sunt. Ita Glossa in d. cap. ult. de Consuet., et
+          <lb ed="#P" n="60"/>ibi Cardin., Gloss. in c. Frustra, distinct. 8;
+          <lb ed="#P" n="61"/>Innoc., in rubr. de Cons., n. 4; Gloss. et Bart.
+          <lb ed="#P" n="62"/>in l. 2, c. Quae sit longa, etc., quaest. 17, in
+          <lb ed="#P" n="63"/>ultimis verbis; et Bald. in l. De quibus, in 5
+          <lb ed="#P" n="64"/>opposit., et idem fere dicunt reliqui, quos 
+          re<lb break="no" ed="#P" n="65"/>feram ; addunt vero limitationem et 
+          probatio<lb break="no" ed="#P" n="66"/>nem, ex l. Quod non ratione, ft. de Legibus, de
+          <lb ed="#P" n="67"/>quibus statim dicam. Melius potest probari ex
+          <lb ed="#P" n="68"/>d. l. De quibus, quatenus totam vim 
+          consue<lb break="no" ed="#P" n="69"/>tudinis ponit in consensu populi, qui tollitur
+          <lb ed="#P" n="70"/>per errorem. Juvat etiam l. S'ed et ea, infra
+          <lb ed="#P" n="71"/>eod., dicens consuetudinem habere vim ex 
+          ta<lb break="no" ed="#P" n="72"/>cita civium conventione : cessat autem vera
+          <lb ed="#P" n="73"/>conventio ubi error intervenit. Item lex 7mo,
+          <lb ed="#P" n="74"/>infra eodem, dicens jus consuetudinis esse
+          <lb ed="#P" n="75"/>magnae auctoritatis, guia in tantum probatum
+          <lb ed="#P" n="76"/>est, ul non fuerit necesse scripto comprehendi ;
+          <lb ed="#P" n="77"/>at consuetudo per errorem introducta non 
+          po<lb break="no" ed="#P" n="78"/>test habere hanc auctoritatem, nec censeri vere
+          <lb ed="#P" n="79"/>probata, sed solum reputata. Item in l. 2, c.
+          <lb ed="#P" n="80"/>Quae sit long. cons., dicitur: Consuetudo 
+          prae<lb break="no" ed="#P" n="81"/>cedens , et ratio qua in consuetudinem ecasit,
+          <lb ed="#P" n="82"/>custodienda est: supponit ergo consuetudinem
+          <lb ed="#P" n="83"/>debere esse ex ratione, et non ex errore 
+          pro<lb break="no" ed="#P" n="84"/>fectam ; nam si per errorem inducta est, 
+          detec<lb break="no" ed="#P" n="85"/>to errore, cessat ratio apparens quae esse potuit
+          <lb ed="#P" n="86"/>talis consuetudinis, et consequenter cessat ipsa
+          <lb ed="#P" n="87"/>consuetudo, quia non potest sine ratione 
+          sub<lb break="no" ed="#P" n="88"/>sistere. Quare, licet durante errore videatur
+          <lb ed="#P" n="89"/>consuetudo praevalere et jus inducere, illud
+          <lb ed="#P" n="90"/>solum erit ex conscientia erronea; nam 
+          veri<lb break="no" ed="#P" n="91"/>tate intellecta cessabit vis consuetudinis, et ita
+          <lb ed="#P" n="92"/>prius non fuit verum jus, sed putatum, et idem
+          <lb ed="#P" n="93"/>est de ipsa consuetudine.
+        </p>
+        <p xml:id="szdleg-q45417-d1e281">
+          <lb ed="#P" n="94"/>3. Objectio. — Explicatur lex proposita. —
+          <lb ed="#P" n="95"/>Objicitur autem contra hanc illationem lex 39,
+          <lb ed="#P" n="96"/>de Legib. ff., quae sic habet: Quod non ratione
+          <lb ed="#P" n="97"/>introductum est, sed errore primum, deinde 
+          con<lb break="no" ed="#P" n="98"/>suetudine obtentum, in aliis similibus non 
+          obti<lb break="no" ed="#P" n="99"/>net. Ex quo textu colligi videtur consuetudinem
+          <lb ed="#P" n="100"/>errore inductam, et roboratam, validam esse
+          <lb ed="#P" n="101"/>quoad illam materiam circa quam inducta est,
+          <lb ed="#P" n="102"/>non esse tamen extendendam ad similes. Ita
+          <lb ed="#P" n="103"/>sentit Bart., dicta l. De quibus, n. 5, et in l.
+          <lb ed="#P" n="104"/>Diuturna, tf. de Leg., et in l. 1, cum Gloss.
+          <lb ed="#P" n="105"/>ibi, c. Quae sit longa consuet., ubi etiam Bald.
+          <lb ed="#P" n="106"/>et alii. Item Panormit. in dicto cap. ultimo,
+          <lb ed="#P" n="107"/>n. 12, et ibidem Anton. et Rochus, sect. 4, in
+          <pb ed="#P" n="182"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>princ., ubi alios allegat, qui in summa tria
+          <lb ed="#P" n="2"/>dicunt: nam, primo, supponunt consuetudinem
+          <lb ed="#P" n="3"/>ex certa scientia, et sine errore inductam, cum
+          <lb ed="#P" n="4"/>aliis conditionibus sufficientibus, non solum
+          <lb ed="#P" n="5"/>valere in materia in qua versatur, sed etiam
+          <lb ed="#P" n="6"/>extendi ad similia. Addunt secundo, 
+          consue<lb break="no" ed="#P" n="7"/>tudinem per errorem inductam etiam esse 
+          va<lb break="no" ed="#P" n="8"/>lidam in sua materia. Tertio vero, concludunt
+          <lb ed="#P" n="9"/>posteriorem consuetudinem differre a priori,
+          <lb ed="#P" n="10"/>quia non patitur tantam extensionem ad casus
+          <lb ed="#P" n="11"/>similes. Ex quibus dictis primum, licet sit
+          <lb ed="#P" n="12"/>valde receptum a juristis, apud me magnam
+          <lb ed="#P" n="13"/>difficultatem habet. Verumtamen, quia in 
+          ge<lb break="no" ed="#P" n="14"/>nerali non potest recte examinari, vel 
+          expli<lb break="no" ed="#P" n="15"/>cari, melius fiet circa singulos effectus 
+          princi<lb break="no" ed="#P" n="16"/>pales consuetudinis. Secundum vero dictum
+          <lb ed="#P" n="17"/>directe adversatur nostrae assertioni, et ab eis
+          <lb ed="#P" n="18"/>non probatur ulla ratione, sed tantum ex dicta
+          <lb ed="#P" n="19"/>l. Quod non ratione, nec respondent rationi
+          <lb ed="#P" n="20"/>factae, quia error tollit consensum, cum tamen
+          <lb ed="#P" n="21"/>ipsi eadem utantur ad probandum tertium
+          <lb ed="#P" n="22"/>dictum.
+        </p>
+        <p xml:id="szdleg-q45417-d1e366">
+          <lb ed="#P" n="23"/>4. Impugnatur praedicta illius legis 
+          inter<lb break="no" ed="#P" n="24"/>pretatio. — Quapropter in propria 
+          consuetu<lb break="no" ed="#P" n="25"/>dine, de qua tractamus, non censeo illam 
+          opi<lb break="no" ed="#P" n="26"/>nionem posse subsistere. Quod ostendo per
+          <lb ed="#P" n="27"/>partes, assumendo aliqua ab eisdem doctoribus
+          <lb ed="#P" n="28"/>concessa : nam imprimis Cynus, et alii antiqui,
+          <lb ed="#P" n="29"/>quos etiam sequitur Bartolus, propter illam
+          <lb ed="#P" n="30"/>rationem limitant illud dictum, ut non 
+          proce<lb break="no" ed="#P" n="31"/>dat in consuetudine quae est contra legem,
+          <lb ed="#P" n="32"/>quia, si populus operatur contra legem ex
+          <lb ed="#P" n="33"/>ignorantia ejus, vel errans existimando ita
+          <lb ed="#P" n="34"/>disponere, clarum est non habere animum
+          <lb ed="#P" n="35"/>derogandi legi. Quomodo ergo, in tali 
+          consue<lb break="no" ed="#P" n="36"/>tudine, explicabitur dicta lex Quod non ratione,
+          <lb ed="#P" n="37"/>nam illa consuetudo maxime dici potest non
+          <lb ed="#P" n="38"/>ratione et per errorem inducta? Imo multi
+          <lb ed="#P" n="39"/>exponunt de hac consuetudine contra jus 
+          posi<lb break="no" ed="#P" n="40"/>tivum maxime loqui legem illam, cum dicit
+          <lb ed="#P" n="41"/>illam aon ratione induci, ne videatur loqui de
+          <lb ed="#P" n="42"/>irrationabili consuetudine. Praeterea, etiam de
+          <lb ed="#P" n="43"/>cousuetudine praeter legem Dartolus et alii
+          <lb ed="#P" n="44"/>distinguunt, an error sit facti vel juris, et de
+          <lb ed="#P" n="45"/>consuetudine inducta ex errore facti, fatentur
+          <lb ed="#P" n="46"/>non praevalere, ex defectu consensus, juxta 
+          le<lb break="no" ed="#P" n="47"/>gem 5Si per errorem, ft. de Jurisdict. omnium
+          <lb ed="#P" n="48"/>judic. Si vero error sit tantum circa jus, 
+          di<lb break="no" ed="#P" n="49"/>cunt, nihilominus valere consuvetudinem cum
+          <lb ed="#P" n="50"/>dicta limitatione, seu non extensione.
+        </p>
+        <p xml:id="szdleg-q45417-d1e429">
+          <lb ed="#P" n="51"/>5. Priorem ergo partem ut nobis non 
+          con<lb break="no" ed="#P" n="52"/>trariam admittimus, et de illa impugnamus
+          <lb ed="#P" n="53"/>secundam, quia etiam error juris tollit 
+          con<lb break="no" ed="#P" n="54"/>sensum in jure inducendo: nam in his qua
+          <lb ed="#P" n="55"/>tantum sunt praeter jus, non potest errari circa
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>jus, nisi vel existimando illa esse prohibita,
+          <lb ed="#P" n="57"/>vel existimando esse praecepta. Stante vero
+          <lb ed="#P" n="58"/>priori errore, non fit consuetudo inductiva
+          <lb ed="#P" n="59"/>juris, quia hoc non intenditur, sed potius 
+          de<lb break="no" ed="#P" n="60"/>rogare juri, neque inducitur consuetudo 
+          dero<lb break="no" ed="#P" n="61"/>gans juri, quia revera nullum datur jus, cui
+          <lb ed="#P" n="62"/>derogetur. Stante autem posteriori errore,
+          <lb ed="#P" n="63"/>pon potest consuetudo inducere legem, quia
+          <lb ed="#P" n="64"/>non fit eo animo, sed potius animo servandi
+          <lb ed="#P" n="65"/>legem. Sicut enim consuetudo ex vera lege
+          <lb ed="#P" n="66"/>orta non inducit jus, ut supra dixi, ita neque
+          <lb ed="#P" n="67"/>illa, quae ex putata obligatione legis fit, non
+          <lb ed="#P" n="68"/>potest jus inducere, quia tollit consensum, ut
+          <lb ed="#P" n="69"/>ex dicendis in sequenti capite evidentius 
+          con<lb break="no" ed="#P" n="70"/>stabit : ergo nunquam consuetudo ex errore
+          <lb ed="#P" n="71"/>inducit jus, etiam in propria materia: unde
+          <lb ed="#P" n="72"/>melius et fortius concluditur non extendi ad
+          <lb ed="#P" n="73"/>alias. Ideoque non probo exemplum quod ex
+          <lb ed="#P" n="74"/>Baldo adducit Rochus, dicens, si populus 
+          con<lb break="no" ed="#P" n="75"/>suevit non extrahere frumentum ex loco, quia
+          <lb ed="#P" n="76"/>credidit id esse prohibitum, legem inducere
+          <lb ed="#P" n="77"/>consuetudinem, quia, licet talis populus 
+          erra<lb break="no" ed="#P" n="78"/>verit in jure, consensit in facto; non enim 
+          sa<lb break="no" ed="#P" n="79"/>tis est materialiter consentire in facto, sed
+          <lb ed="#P" n="80"/>oportet consentire in facto ut inductivo juris,
+          <lb ed="#P" n="81"/>quia (ut idem Rochus ibi fatetur, et capite 
+          se<lb break="no" ed="#P" n="82"/>quenti dicetur) jus non inducitur per 
+          consue<lb break="no" ed="#P" n="83"/>tudinem sine animo inducendi consuetudinem,
+          <lb ed="#P" n="84"/>id est, jus consuetudinis; et hunc animum
+          <lb ed="#P" n="85"/>tollit error, ut aperte probatum est: ergo.
+          <lb ed="#P" n="86"/>Optimum exemplum est de professione tacita,
+          <lb ed="#P" n="87"/>quae per nullum usum inducitur, quamdiu
+          <lb ed="#P" n="88"/>error de valore prioris professionis perseverat,
+          <lb ed="#P" n="89"/>ob defectum consensus, ut est vulgare.
+        </p>
+        <p xml:id="szdleg-q45417-d1e518">
+          <lb ed="#P" n="90"/>6. Ad objectionem ex lege Quod non ratione
+          <lb ed="#P" n="91"/>responsio.—Ad legem autem Quod non vratione,
+          <lb ed="#P" n="92"/>primum, respondeo posse explicari de 
+          prae<lb break="no" ed="#P" n="93"/>scriptione, et non de propria consuetudine
+          <lb ed="#P" n="94"/>legali. In iLa enim proprie contingit ut, sine
+          <lb ed="#P" n="95"/>ratione, id est, sine vero titulo, et per errorem,
+          <lb ed="#P" n="96"/>cum bona fide, incipiat consuetudo, et eodem
+          <lb ed="#P" n="97"/>modo procedat, et pravaleat usque ad jus
+          <lb ed="#P" n="98"/>praescriptionis inducendum. Quod tamen in
+          <lb ed="#P" n="99"/>consuetudine propria et legali vix potest 
+          intel<lb break="no" ed="#P" n="100"/>ligi; tum propter dicta de errore, tum quia
+          <lb ed="#P" n="101"/>jus consuetudinis induci non potest sine 
+          ra<lb break="no" ed="#P" n="102"/>uone. Solum videtur non posse applicari ad
+          <lb ed="#P" n="103"/>praescriptionem, illam ultimam particulam ?
+          <lb ed="#P" n="104"/>aliis similibus non obtinet, quia eadem 
+          prae<lb break="no" ed="#P" n="105"/>scriptio nunquam extenditur ultra propriam
+          <lb ed="#P" n="106"/>materiam propter similitudinem in materia;
+          <lb ed="#P" n="107"/>quod si sit similitudo in praescribendo, in 
+          qui<lb break="no" ed="#P" n="108"/>buscumque similibus casibus idem jus 
+          obtine<lb break="no" ed="#P" n="109"/>bitur. Existimo tamen recte interpretari legem
+          <lb ed="#P" n="110"/>illam quoad hanc partem, per regulam juris
+          <pb ed="#P" n="183"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dicentem : Quod alicui specialiter conceditur,
+          <lb ed="#P" n="2"/>irahi non debet ab aliis in exemplum ; est 14 de
+          <lb ed="#P" n="3"/>Regul. jur., in 6, et juvat regula 78, dicens:
+          <lb ed="#P" n="4"/>In argumentum trahi nequeunt, quae propter
+          <lb ed="#P" n="5"/>necessitatem aliquando sunt concessa. Et quod
+          <lb ed="#P" n="6"/>dicitur in l. 1, ff. de Constit. princip., 
+          conces<lb break="no" ed="#P" n="7"/>siones personales non trahi in exemplum. Sic
+          <lb ed="#P" n="8"/>enim dici potuit in dicta l. Quod non ratione,
+          <lb ed="#P" n="9"/>id, quod alicui licet, ratione consuetudinis
+          <lb ed="#P" n="10"/>bona fide praescriptae, etiamsi absque ratione
+          <lb ed="#P" n="11"/>et per errorem sit inducta, non posse ab alis
+          <lb ed="#P" n="12"/>usurpari, etiamsi in caeteris videantur pares,
+          <lb ed="#P" n="13"/>seu similes. Et hanc expositionem sumere
+          <lb ed="#P" n="14"/>mihi videor ex Gloss. in l. Quod vero, ff. de
+          <lb ed="#P" n="15"/>Leg., quae similis est praecedenti, et una per
+          <lb ed="#P" n="16"/>aliam recte declaratur.
+        </p>
+        <p xml:id="szdleg-q45417-d1e605">
+          <lb ed="#P" n="17"/>7. Objectio. — Solutio. — Obstare autem 
+          po<lb break="no" ed="#P" n="18"/>test huic expositioni, quia illa lex sub titulo
+          <lb ed="#P" n="19"/>de legibus continetur, et quia aliae leges, 
+          an<lb break="no" ed="#P" n="20"/>tecedentes et consequentes, de legali 
+          consue<lb break="no" ed="#P" n="21"/>tudine loquuntur. Sed, ad evitandum alium
+          <lb ed="#P" n="22"/>absurdum sensum, mirum non est si nomen
+          <lb ed="#P" n="23"/>consuetudinis in illo loco aliquantulum 
+          am<lb break="no" ed="#P" n="24"/>pliemus. Praesertim quia multa in illis legibus
+          <lb ed="#P" n="25"/>continentur, quae communia sunt utrique 
+          con<lb break="no" ed="#P" n="26"/>suetudini; et doctores, dum illa exponunt et
+          <lb ed="#P" n="27"/>conditiones consuetudinis tradunt, omnia 
+          mis<lb break="no" ed="#P" n="28"/>cent, ut saepe admonui. Et certe vulgare 
+          exem<lb break="no" ed="#P" n="29"/>plum , quo juristae utuntur de consuetudine
+          <lb ed="#P" n="30"/>introducta, quod si dominus vini imposuerit
+          <lb ed="#P" n="31"/>manum ad plaustrum, ex tunc sit suum 
+          peri<lb break="no" ed="#P" n="32"/>culum, ad consuetudinem praescriptionis 
+          per<lb break="no" ed="#P" n="33"/>tinet. Et Glossa, in dicta lege, exponit quod
+          <lb ed="#P" n="34"/>talis consuetudo ron transit ad similes, utique
+          <lb ed="#P" n="35"/>contra personas, contra quas per talem 
+          con<lb break="no" ed="#P" n="36"/>suetudinem non fuerit praescriptum. Et totum
+          <lb ed="#P" n="37"/>hoc potest censeri pertinens ad titulum de 
+          le<lb break="no" ed="#P" n="38"/>gibus; nam, licet haec consuetudo non faciat
+          <lb ed="#P" n="39"/>legem, mutat materiam illius, ita ut ratione
+          <lb ed="#P" n="40"/>ejus aliter in tali casu legibus utendum sit.
+        </p>
+        <p xml:id="szdleg-q45417-d1e660">
+          <lb ed="#P" n="41"/>8. Alia interpretatio legis Quod sine ratione.
+          <lb ed="#P" n="42"/>—Secundo, si velimus legem illam de propria
+          <lb ed="#P" n="43"/>consuetudine legali intelligere, respondebimus
+          <lb ed="#P" n="44"/>in illa non dici posse consuetudinem, sine 
+          ra<lb break="no" ed="#P" n="45"/>tione et per errorem, introduci, sed contrarium
+          <lb ed="#P" n="46"/>potius definiri, ut intellexerunt Glossae in 
+          nos<lb break="no" ed="#P" n="47"/>tra illatione et assertione citatae, allegantes
+          <lb ed="#P" n="48"/>pro sua sententia legem illam. Unde cum 
+          di<lb break="no" ed="#P" n="49"/>citur, in aliis similibus non obtinet, non est
+          <lb ed="#P" n="50"/>sensus in illa materia obtinere, non vero in 
+          si<lb break="no" ed="#P" n="51"/>milibus. Hoc enim fortasse de omni 
+          consuetu<lb break="no" ed="#P" n="52"/>dine, etiam ex certa scientia introducta, dici
+          <lb ed="#P" n="53"/>potuit, ut infra dicam. Vel certe si aliae 
+          con<lb break="no" ed="#P" n="54"/>suetudines extendantur ad similia, etiam haec
+          <lb ed="#P" n="55"/>extenderetur, si esset vera lex, quia haec ex-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tensio nunquam fieri potest, nisi quantum 
+          ra<lb break="no" ed="#P" n="57"/>tio legis patitur, quae ratio locum habet in
+          <lb ed="#P" n="58"/>quacumque lege, si vera lex est; ille ergo 
+          sen<lb break="no" ed="#P" n="59"/>sus non potest recta ratione accommodari.
+          <lb ed="#P" n="60"/>Sensus ergo erit, non obtinere in similibus,
+          <lb ed="#P" n="61"/>id est, talem consuetudinem non durare, et,
+          <lb ed="#P" n="62"/>intellecto errore, non dare jus ad exercendos
+          <lb ed="#P" n="63"/>actus similes illis qui antea per errorem, quasi
+          <lb ed="#P" n="64"/>ex consuetudine putata legitima, 
+          exerceban<lb break="no" ed="#P" n="65"/>tur. Hic enim sensus nec absurditatem habet,
+          <lb ed="#P" n="66"/>nec vim verbis infert, et secundum illam lex
+          <lb ed="#P" n="67"/>illa probat assertionem nostram, ut Glossae 
+          vo<lb break="no" ed="#P" n="68"/>luerunt.
+        </p>
+        <p xml:id="szdleg-q45417-d1e726">
+          <lb ed="#P" n="69"/>9. Qua ignorantia vel quis error sit qui non
+          <lb ed="#P" n="70"/>inducit consuetudinem. — Assertio intelligenda
+          <lb ed="#P" n="71"/>est de ignorantia quae spectat ad subsiantium
+          <lb ed="#P" n="72"/>consuetudinis. —Denique inquiri potest, in hoc
+          <lb ed="#P" n="73"/>puncto, de qua ignorantia vel errore hoc 
+          intel<lb break="no" ed="#P" n="74"/>hgendum sit. Nam in hoc etiam Cynus et alu
+          <lb ed="#P" n="75"/>juristae distinguunt, ut solent, de causa 
+          moti<lb break="no" ed="#P" n="76"/>va et finali, et dicunt assertionem esse 
+          intelli<lb break="no" ed="#P" n="77"/>gendam de errore circa finalem causam, non
+          <lb ed="#P" n="78"/>circa motivam. Sed de hac distinctione, et de
+          <lb ed="#P" n="79"/>simili quaestione dixi multa in l. 2 de Juram.,
+          <lb ed="#P" n="80"/>cap. 11, et in l. 1 de Voto, cap. 141, quae hic
+          <lb ed="#P" n="81"/>possunt cum proportione applicari. Et ideo
+          <lb ed="#P" n="82"/>breviter dico assertionem intelligendam esse
+          <lb ed="#P" n="83"/>de ignorantia circa illa quae spectant ad 
+          sub<lb break="no" ed="#P" n="84"/>stantiam consuetudinis, sive in jure ipsius,
+          <lb ed="#P" n="85"/>sive in facto quod fundat jus: haec enim 
+          igno<lb break="no" ed="#P" n="86"/>rantia est, quae impedit necessarium 
+          consen<lb break="no" ed="#P" n="87"/>sum, ut declaratum est. Si vero sit circa alia
+          <lb ed="#P" n="88"/>motiva accidentalia, non obstabit, quia non
+          <lb ed="#P" n="89"/>impediet consensum. Et de hoc errore in 
+          acci<lb break="no" ed="#P" n="90"/>dentalibus intelligunt aliqui dictam legem
+          <lb ed="#P" n="91"/>Quod non ratione, supponentes secundum eam
+          <lb ed="#P" n="92"/>induci consuetudinem, non obstarnte errore.
+          <lb ed="#P" n="93"/>Sed hi non poterunt convenienter exponere
+          <lb ed="#P" n="94"/>cur dicatur talis consuetudo non obtinere in
+          <lb ed="#P" n="95"/>similibus, quia error circa accidentalia hoc non
+          <lb ed="#P" n="96"/>potest impedire, si vera consuetudo illam 
+          reci<lb break="no" ed="#P" n="97"/>pit extensionem, et ideo illa expositio 
+          necessa<lb break="no" ed="#P" n="98"/>ria non est.
+        </p>
+        <p xml:id="szdleg-q45417-d1e794">
+          <lb ed="#P" n="99"/>10. Consuetudo non inducitur per actus vi vel
+          <lb ed="#P" n="100"/>metu gravi factos.—Secundo, infertur, ex 
+          dic<lb break="no" ed="#P" n="101"/>ta assertione, consuetudinem non obtinere 
+          ne<lb break="no" ed="#P" n="102"/>que induci per actus factos per vim vel gravem
+          <lb ed="#P" n="103"/>et injuriosum metum. Ita docet in substantia
+          <lb ed="#P" n="104"/>Bart. in dicta l. 2, cap. Quae sit long., etc.,
+          <lb ed="#P" n="105"/>q. 18 tota, et in n. 19, ad penultimam 
+          objec<lb break="no" ed="#P" n="106"/>tionem; et Anton., dicto cap. ult. de Cons. At
+          <lb ed="#P" n="107"/>vero Rochus Curt. ibi, sect. 5, n. 3, oppositum
+          <lb ed="#P" n="108"/>sentire videtur, cum ait per actus meticulosos
+          <lb ed="#P" n="109"/>induci consuetudinem ; refert tamen praedictos
+          <lb ed="#P" n="110"/>auctores, et juxta illorum declarationem vult
+          <pb ed="#P" n="184"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dictum suum intelligi. Non ergo a nobis 
+          dis<lb break="no" ed="#P" n="2"/>sentit, sed intelligit de actibus meticulosis,
+          <lb ed="#P" n="3"/>vel quando levis est metus et pauci momenti,
+          <lb ed="#P" n="4"/>vel certe intelligit de actibus qui, licet fuerint
+          <lb ed="#P" n="5"/>metu facti, postea libere confirmantur, et 
+          suc<lb break="no" ed="#P" n="6"/>cessu temporis acceptantur; sic enim Bart.
+          <lb ed="#P" n="7"/>etiam exposuit. Ratio ergo illationis est, quia
+          <lb ed="#P" n="8"/>vis et metus impediunt consensum ad 
+          intro<lb break="no" ed="#P" n="9"/>ducendam consuetudinem necessarium. Quod
+          <lb ed="#P" n="10"/>quidem de vi proprie sumpta manifestum est.
+          <lb ed="#P" n="11"/>11. Metus quomodo causat involuntar wm.—
+          <lb ed="#P" n="12"/>In praesenti materia major est ratio cur metus
+          <lb ed="#P" n="13"/>impediat consuetudinem.—be metu autem 
+          du<lb break="no" ed="#P" n="14"/>bitari potest, quia, licet faciat involuntarium
+          <lb ed="#P" n="15"/>secundum quid, de se relinquit absolutum 
+          vo<lb break="no" ed="#P" n="16"/>luntarium. Unde oriebatur occasio disputandi
+          <lb ed="#P" n="17"/>an ex natura rei solus metus sufhiciat ad 
+          irri<lb break="no" ed="#P" n="18"/>tandum hunc consensum coactum, ita ut non
+          <lb ed="#P" n="19"/>habeat effectum inducendi jus consuetudinis,
+          <lb ed="#P" n="20"/>et qualis debeat esse hic metus. Sed quia 
+          si<lb break="no" ed="#P" n="21"/>milis quaestio generalis est, ac frequens in 
+          mul<lb break="no" ed="#P" n="22"/>tis materiis, et de illa dixi multa 1. 2 de Jur.,
+          <lb ed="#P" n="23"/>cap. 9, et lib. 1 de Voto, cap. 7, et ideo ab illa
+          <lb ed="#P" n="24"/>nunc abstineo. Et breviter dico, in praesenti
+          <lb ed="#P" n="25"/>materia multo esse majorem rationem , ob
+          <lb ed="#P" n="26"/>quam meetus ex natura rei impediat 
+          consuetu<lb break="no" ed="#P" n="27"/>dinem, quia ad consuetudinem non sufficiunt
+          <lb ed="#P" n="28"/>actus, sed necesse est ut fiant animo inducendi
+          <lb ed="#P" n="29"/>consuetudinem, qui animus ordinarie est 
+          po<lb break="no" ed="#P" n="30"/>tius tacitus quam expressus. At vero quando
+          <lb ed="#P" n="31"/>actus fiunt ex solo timore, ita ut sine illo non
+          <lb ed="#P" n="32"/>fieret, non est talis animus, nec moraliter 
+          prae<lb break="no" ed="#P" n="33"/>sumi potest, quia metus de se quodammodo
+          <lb ed="#P" n="34"/>illum excludit, et ideo frequentia actuum ex
+          <lb ed="#P" n="35"/>solo metu factorum nunquam est sufficiens
+          <lb ed="#P" n="36"/>signum publici consensus totius populi de 
+          con<lb break="no" ed="#P" n="37"/>suetudine inducenda. Accedit quod princeps
+          <lb ed="#P" n="38"/>non potest praesumi tunc dare consensum
+          <lb ed="#P" n="39"/>suum, quia non vult subditos injusto metu
+          <lb ed="#P" n="40"/>cogi ad similes consuetudines. Quod si ipsemet
+          <lb ed="#P" n="41"/>vim et metum inferat, injuriam committit,
+          <lb ed="#P" n="42"/>quia non potest extorquere a populo 
+          consen<lb break="no" ed="#P" n="43"/>sum per quem obligetur, ut in locis citatis in
+          <lb ed="#P" n="44"/>simili dixi.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

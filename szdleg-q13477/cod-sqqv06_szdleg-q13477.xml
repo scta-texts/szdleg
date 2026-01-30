@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 12</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 12</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="54"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q13477"><!-- l6c12 -->
+        <head xml:id="szdleg-q13477-Hd1e101">Caput 12</head>
+        <head xml:id="szdleg-q13477-Hd1e103" type="question-title">De materiali causa dispensationis.</head>
+        <p xml:id="szdleg-q13477-d1e106">
+          <lb ed="#P" n="46"/>CAPUT XII.
+          <lb ed="#P" n="47"/>DE MATERIALI CAUSA DISPENSATIONIS.
+        </p>
+        <p xml:id="szdleg-q13477-d1e113">
+          <lb ed="#P" n="48"/>1. Explicata ratione et effectibus 
+          dispensa<lb break="no" ed="#P" n="49"/>tionis, causas ejus explicare incipimus. Et 
+          im<lb break="no" ed="#P" n="50"/>primis materialis occurrit; in quo soleo veluti
+          <lb ed="#P" n="51"/>duas partes distinguere in his actibus quae ad
+          <lb ed="#P" n="52"/>alterum tendunt, scilicet, rem vel actionem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>circa quam opus versatur, et personam ad
+          <lb ed="#P" n="54"/>quam ordinatur : haec ergo duo in 
+          dispensa<lb break="no" ed="#P" n="55"/>tione distinguenda sunt, quia dispensatio actio
+          <lb ed="#P" n="56"/>est quae de se ad alterum tendit, et ita in ea
+          <lb ed="#P" n="57"/>haec duo inveniuntur, quod dispensatur et cui
+          <lb ed="#P" n="58"/>dispensatur. Utrumque ergo explicandum est,
+          <lb ed="#P" n="59"/>quod breviter in hoc capite expediemus, quia
+          <lb ed="#P" n="60"/>est res partim facilis et fere jam in dictis
+          <lb ed="#P" n="61"/>explicata, partim connexionem habens cum
+          <lb ed="#P" n="62"/>his quae de privilegiis dicenda sunt. Priorem
+          <lb ed="#P" n="63"/>ergo partem de materia proxima 
+          dispensatio<lb break="no" ed="#P" n="64"/>nis tractat late Turrecrem. in c. Sicut quedam,
+          <lb ed="#P" n="65"/>14 d.; ille vero latius ibi agit de dispensatione
+          <lb ed="#P" n="66"/>quam nos in praesenti : sub illa enim 
+          compre<lb break="no" ed="#P" n="67"/>hendit etiam interpretationem quae in jus 
+          di<lb break="no" ed="#P" n="68"/>vinum aut naturale cadere potest, et ita etiam
+          <lb ed="#P" n="69"/>late loquitur de materia dispensabili, et ab ea
+          <lb ed="#P" n="70"/>excludit solum bona necessaria ad salutem, et
+          <lb ed="#P" n="71"/>mala intrinsece talia, et reliqua omnia 
+          com<lb break="no" ed="#P" n="72"/>prehendi dicit sub materia dispensabili, quam
+          <lb ed="#P" n="73"/>distinguit in tres ordines. In uno sunt bona
+          <lb ed="#P" n="74"/>quae ex natura rei bona sunt ac necessaria, ut
+          <lb ed="#P" n="75"/>in pluribus, interdum vero propter 
+          circum<lb break="no" ed="#P" n="76"/>stantias non expediunt, ut reddere depositum.
+          <lb ed="#P" n="77"/>In alio ordine sunt ea quae e contrario per se
+          <lb ed="#P" n="78"/>mala sunt regulariter, aliquando vero propter
+          <lb ed="#P" n="79"/>circumstantias expediunt, ut occidere 
+          homi<lb break="no" ed="#P" n="80"/>nem. Et haec ait esse dispensabilia per inodum
+          <lb ed="#P" n="81"/>interpretationis, vel epiikiee, non per modum
+          <lb ed="#P" n="82"/>relaxationis, et (quod mirum est) sub his 
+          con<lb break="no" ed="#P" n="83"/>ditionibus comprehendit vota, et similia. In
+          <lb ed="#P" n="84"/>ultimo vero ordine ponit actiones de se 
+          indit<lb break="no" ed="#P" n="85"/>ferentes, quae per leges fiunt bona aut malsae,
+          <lb ed="#P" n="86"/>et hunc ordinem dicit complecti materiam
+          <lb ed="#P" n="87"/>proprie dispensabilem.
+        </p>
+        <p xml:id="szdleg-q13477-d1e204">
+          <lb ed="#P" n="88"/>2. Vota et juramenta in quo ordine 
+          dispen<lb break="no" ed="#P" n="89"/>sandi continentur. — Sed quod ad primos duos
+          <lb ed="#P" n="90"/>ordines spectat, ego imprimis censeo vota et
+          <lb ed="#P" n="91"/>juramenta non esse sub his ordinibus 
+          consti<lb break="no" ed="#P" n="92"/>tuenda ; nam praecepta illorum potius 
+          conti<lb break="no" ed="#P" n="93"/>nentur sub materia indispensabili : ipsae vero
+          <lb ed="#P" n="94"/>promissiones aliud genus dispensabilitatis 
+          ha<lb break="no" ed="#P" n="95"/>bent, ut jam dicam. Deinde addo hos duos 
+          or<lb break="no" ed="#P" n="96"/>dines actuum, si recte sumantur, nullo modo
+          <lb ed="#P" n="97"/>comprehendi sub materia dispensabili, non
+          <lb ed="#P" n="98"/>tantum ab homine, sed simpliciter. Quia priora
+          <lb ed="#P" n="99"/>bona, licet per se bona sint, non tamen sunt
+          <lb ed="#P" n="100"/>pro semper necessaria, et determinatio 
+          tem<lb break="no" ed="#P" n="101"/>poris pro quo necessaria sunt nullo modo 
+          po<lb break="no" ed="#P" n="102"/>test dici dispensatio, imo nec epikia, ut in
+          <lb ed="#P" n="103"/>superioribus dixi. Illa vero mala quae in 
+          se<lb break="no" ed="#P" n="104"/>cundo ordine collocantur, prout intrinsece seu
+          <lb ed="#P" n="105"/>ex se mala sunt, dispensationem aut 
+          interpre<lb break="no" ed="#P" n="106"/>tationem non admittunt ; abstracte autem 
+          sum<lb break="no" ed="#P" n="107"/>pta sine certis circumstantiis aut habitudini-
+          <pb ed="#P" n="55"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bvs, ron cunt mala ex se, et ideo licet fieri
+          <lb ed="#P" n="2"/>possint bene, non per dispensationem vel 
+          in<lb break="no" ed="#P" n="3"/>terpretationem, sed per determinationem ad
+          <lb ed="#P" n="4"/>aliam speciem actus in genere moris, talia
+          <lb ed="#P" n="5"/>fiunt.
+        </p>
+        <p xml:id="szdleg-q13477-d1e266">
+          <lb ed="#P" n="6"/>3. Materia adaequata hujus dispensationis
+          <lb ed="#P" n="7"/>est ler humana, et vinculum ex illa resultans.
+          <lb ed="#P" n="8"/>— Pro explicanda ergo quasi adaequata 
+          mate<lb break="no" ed="#P" n="9"/>ria dispensabili de qua tractamus, adverto aliud
+          <lb ed="#P" n="10"/>esse vinculum legis positivae (naturalem enim
+          <lb ed="#P" n="11"/>omitto, quia indispensabilem esse suppono),
+          <lb ed="#P" n="12"/>aliud vero esse vinculum contractus sub quo
+          <lb ed="#P" n="13"/>promissiones sive ad Deum sive ad hominem
+          <lb ed="#P" n="14"/>comprehendo ; utrumque enim vinculum 
+          dis<lb break="no" ed="#P" n="15"/>pensabile seu solubile est per potestatem 
+          supe<lb break="no" ed="#P" n="16"/>riorem, alio vero et alio modo. Nam 
+          promissio<lb break="no" ed="#P" n="17"/>nes vel contractus non dispensantur tollendo
+          <lb ed="#P" n="18"/>obligationem alicujus legis, sed quasi 
+          abrogan<lb break="no" ed="#P" n="19"/>do factum, seu remittendo promissionem, ut
+          <lb ed="#P" n="20"/>in materia de Voto, l. 6, fuse explicavi ; et illa
+          <lb ed="#P" n="21"/>doctrina tam in juramento quam in humana
+          <lb ed="#P" n="22"/>promissione et in matrimonio rato (si 
+          dispen<lb break="no" ed="#P" n="23"/>sabile est) locum habet. Tota ergo illa materia
+          <lb ed="#P" n="24"/>illo modo dispensabilis ad praesentem 
+          mate<lb break="no" ed="#P" n="25"/>riam non spectat ; tractamus enim de sola 
+          dis<lb break="no" ed="#P" n="26"/>pensatione in vinculo legis positivae, quae 
+          alte<lb break="no" ed="#P" n="27"/>rius rationis est, ut constat. De hac vero 
+          ulte<lb break="no" ed="#P" n="28"/>rius subdistinguendum est; nam sicut duplex
+          <lb ed="#P" n="29"/>est lex positiva, divina una, altera humana;
+          <lb ed="#P" n="30"/>ita duplex est materia dispensabilis, una a 
+          vin<lb break="no" ed="#P" n="31"/>culo legis divinae, altera a vinculo legis 
+          huma<lb break="no" ed="#P" n="32"/>nae:in praesenti autem non tractamus de priori
+          <lb ed="#P" n="33"/>materia, quia solum tractamus de vinculo 
+          le<lb break="no" ed="#P" n="34"/>gis humanae et de modo quo potest in 
+          parti<lb break="no" ed="#P" n="35"/>culari auferri, et ideo adaequata materia hujus
+          <lb ed="#P" n="36"/>dispensationis est lex humana, aut vinculum
+          <lb ed="#P" n="37"/>ejus, aut omnis obligatio quae ex lege humana
+          <lb ed="#P" n="38"/>praecise nascitur.
+        </p>
+        <p xml:id="szdleg-q13477-d1e340">
+          <lb ed="#P" n="39"/>4. Unde omnes effectus morales qui ex 
+          hu<lb break="no" ed="#P" n="40"/>jusmodi lege nasci solent et de se sunt perpetui
+          <lb ed="#P" n="41"/>vel tempore definito per legem necessario 
+          du<lb break="no" ed="#P" n="42"/>rant, sub hac materia dispensabili 
+          comprehen<lb break="no" ed="#P" n="43"/>duntur. Atque ita omnia impedimenta 
+          matri<lb break="no" ed="#P" n="44"/>monii, sive impedientia tantum sive etiam 
+          ir<lb break="no" ed="#P" n="45"/>ritantia, et omnes irritationes actuum per leges
+          <lb ed="#P" n="46"/>introductae, et irregularitates, infamiae et aliae
+          <lb ed="#P" n="47"/>poenae, vel debita poenarum ex lege orta, sub
+          <lb ed="#P" n="48"/>materia dispensabili continentur quatenus a
+          <lb ed="#P" n="49"/>lege pendent. Quia non fit in eis mutatio nisi
+          <lb ed="#P" n="50"/>derogando legi, et e contrario auferendo 
+          vin<lb break="no" ed="#P" n="51"/>culum legis ipsa tolluntur, quia a lege 
+          pen<lb break="no" ed="#P" n="52"/>dent (ut sic dicam) in fieri et conservari. Et
+          <lb ed="#P" n="53"/>ideo dixi quatenus a lege pendent; nam sub
+          <lb ed="#P" n="54"/>quacumque alia ratione considerentur, non
+          <lb ed="#P" n="55"/>erunt materiae hujus dispensationis de qua trac-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tamus, etiamsi alio modo sint mutabilia, vel
+          <lb ed="#P" n="57"/>auferibilia per humanam potestatem. Ut, verbi
+          <lb ed="#P" n="58"/>gratia, filius spurius ante mortem patris per
+          <lb ed="#P" n="59"/>dispensationem legitimari potest ut sit haeres
+          <lb ed="#P" n="60"/>tanquam legitimus, quia illud impedimentum
+          <lb ed="#P" n="61"/>et ille effectus pendet ex lege pro eo tempore,
+          <lb ed="#P" n="62"/>et ita non aliter tollitur nisi tollendo vinculum
+          <lb ed="#P" n="63"/>legis. Si autem pater jam sit mortuus et alii
+          <lb ed="#P" n="64"/>fratres acquisierunt haereditatem, jam non 
+          po<lb break="no" ed="#P" n="65"/>terit talis filius dispensari quoad illum 
+          effec<lb break="no" ed="#P" n="66"/>tum, quia jam non impeditur sola lege, sed
+          <lb ed="#P" n="67"/>alio titulo justitiae, quia jam alii fratres facti
+          <lb ed="#P" n="68"/>sunt domini omnium bonorum patris. Quod si
+          <lb ed="#P" n="69"/>in aliquo casu possit princeps aliquid de bonis
+          <lb ed="#P" n="70"/>paternis ab aliis tollere et illi conferre, non
+          <lb ed="#P" n="71"/>erit illa dispensatio in lege, sed erit ex alia
+          <lb ed="#P" n="72"/>potestate quasi superioris dominii in bona 
+          sub<lb break="no" ed="#P" n="73"/>ditorum, ad distribuendum illa prout communi
+          <lb ed="#P" n="74"/>bono fuerit expediens.
+        </p>
+        <p xml:id="szdleg-q13477-d1e423">
+          <lb ed="#P" n="75"/>5. Regula generalis. — Hic vero occurrere
+          <lb ed="#P" n="76"/>posset quaestio an omnes leges quae sunt in
+          <lb ed="#P" n="77"/>Ecclesia et a Deo immediate non manarunt
+          <lb ed="#P" n="78"/>sub hac materia dispensabili 
+          comprehendan<lb break="no" ed="#P" n="79"/>tur, id est, an traditiones apostolicae 
+          dispensa<lb break="no" ed="#P" n="80"/>biles sint, quandoab ipsis Apostolis immediate
+          <lb ed="#P" n="81"/>originem traxerunt. Aliquando enim jura 
+          ca<lb break="no" ed="#P" n="82"/>nonica et eorum interpretes videntur hoc 
+          ne<lb break="no" ed="#P" n="83"/>gare, ut de jejunio quadragesimae, de quota
+          <lb ed="#P" n="84"/>decimarum, de irregularitate bigamiae, et 
+          si<lb break="no" ed="#P" n="85"/>milibus, de quibus generaliter dicitur in cap.
+          <lb ed="#P" n="86"/>Contra statufa, 95, quaest. 1, et in cap. Sicut
+          <lb ed="#P" n="87"/>quaedam, d. 14, aliqua esse a Patribus statuta
+          <lb ed="#P" n="88"/>quae omnino sunt immutabilia. Sed hae 
+          quaes<lb break="no" ed="#P" n="89"/>tiones et similes attingunt generalem 
+          dispu<lb break="no" ed="#P" n="90"/>tationem de potestate Papae, de qua quantum
+          <lb ed="#P" n="91"/>ad praesens spectat in cap. 14 aliquid dicemus.
+          <lb ed="#P" n="92"/>Nunc dico generalem esse regulam et sine 
+          ex<lb break="no" ed="#P" n="93"/>ceptione, omnem materiam necessariam 
+          tan<lb break="no" ed="#P" n="94"/>tum ex lege humana, a quocumque puro 
+          ho<lb break="no" ed="#P" n="95"/>mine vel hominum congregatione lata sit, esse
+          <lb ed="#P" n="96"/>materiam dispensabilem per potestatem 
+          ho<lb break="no" ed="#P" n="97"/>minibus datam. Hanc ponit D. Thomas, 
+          quod<lb break="no" ed="#P" n="98"/>lib. 4, art. 13. Et ratio est, quia ex parte 
+          ma<lb break="no" ed="#P" n="99"/>teriae non est repugnantia, ut constat, quia 
+          vo<lb break="no" ed="#P" n="100"/>Iuntas humana mutabilis est et circa materiam
+          <lb ed="#P" n="101"/>mutabilem versatur. Et potestas non deest, ut
+          <lb ed="#P" n="102"/>d. cap. 14 dicam, et videri possunt quae dixi in
+          <lb ed="#P" n="103"/>5 t., disp. 49, sect. 6. Dicta autem jura et 
+          si<lb break="no" ed="#P" n="104"/>milia loquuntür de dogmatibus fidei et de 
+          in<lb break="no" ed="#P" n="105"/>stitutionibus ac praeceptis divinis, ut sunt de
+          <lb ed="#P" n="106"/>sacramentis et sacrificio, ut ex Glossis et 
+          doc<lb break="no" ed="#P" n="107"/>toribus constat, et ratio ipsa ac contextus facile
+          <lb ed="#P" n="108"/>demonstrat.
+        </p>
+        <p xml:id="szdleg-q13477-d1e499">
+          <lb ed="#P" n="109"/>6. Ad quas personas extenditur dispensatio.
+          <lb ed="#P" n="110"/>— Circa alteram partem hujus materiae, scili-
+          <pb ed="#P" n="56"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cet, personam cui concedi potest dispensatio,
+          <lb ed="#P" n="2"/>supponendum est dispensationem esse actum
+          <lb ed="#P" n="3"/>potestatis jurisdictionis, sine qua valide 
+          conce<lb break="no" ed="#P" n="4"/>di non potest, ut tradit Rom., cons. 325, Quoad
+          <lb ed="#P" n="5"/>primun, n. 129, vers. Ex quibus verbis, ubi in
+          <lb ed="#P" n="6"/>scholio alii referuntur, et dicitur esse 
+          commu<lb break="no" ed="#P" n="7"/>nis sententia. Et ratio est manifesta, quia ejus
+          <lb ed="#P" n="8"/>est solvere cujus est ligare, c. Inferior, d. 21;
+          <lb ed="#P" n="9"/>sed ligare imponendo legem ad jurisdictionem
+          <lb ed="#P" n="10"/>pertinet ; ergo etiam auferre obligationem ejus,
+          <lb ed="#P" n="11"/>quod per dispensationem fit, quia oppositorum
+          <lb ed="#P" n="12"/>eadem est proportionalis ratio. Solet autem
+          <lb ed="#P" n="13"/>constitui differentia, quod imponere legem est
+          <lb ed="#P" n="14"/>actus jurisdictionis quasi involuntariae, quia
+          <lb ed="#P" n="15"/>lex imponitur etiam nolenti; dispensatio 
+          au<lb break="no" ed="#P" n="16"/>tem est actus jurisdictionis voluntariae, quia
+          <lb ed="#P" n="17"/>conceditur volenti vel etiam petenti; nam 
+          su<lb break="no" ed="#P" n="18"/>perior ex officio suo non solet derogare juri,
+          <lb ed="#P" n="19"/>sed ad justam instantiam alicujus. Hoc tamen
+          <lb ed="#P" n="20"/>non mpedit quominus dispensatio sit verus
+          <lb ed="#P" n="21"/>actus jurisdictionis ; tum quia voluntaria 
+          ju<lb break="no" ed="#P" n="22"/>risdictio vera jurisdictio est; tum etiam quia
+          <lb ed="#P" n="23"/>potestas ligandi et solvendi eadem est, licet
+          <lb ed="#P" n="24"/>respectu subditi actus ligandi soleat esse 
+          coac<lb break="no" ed="#P" n="25"/>tus, et solvendi voluntarius. Aliquando etiam
+          <lb ed="#P" n="26"/>(ut supra dicebam) si dispensationi praeceptum
+          <lb ed="#P" n="27"/>adjungatur, et potest subditus compelli ad 
+          dis<lb break="no" ed="#P" n="28"/>pensationem acceptandam si ad commune 
+          bo<lb break="no" ed="#P" n="29"/>num expediat.
+        </p>
+        <p xml:id="szdleg-q13477-d1e573">
+          <lb ed="#P" n="30"/>7. Omnis subditus qua talis, est capax 
+          dis<lb break="no" ed="#P" n="31"/>pensationis. — Atque hinc colligiuur personam
+          <lb ed="#P" n="32"/>jurisdictioni alicujus subjectam, esse, quantum
+          <lb ed="#P" n="33"/>est ex parte sua seu status sui, capacem 
+          dis<lb break="no" ed="#P" n="34"/>pensationis, quia nulla alia conditio potest 
+          co<lb break="no" ed="#P" n="35"/>gitari necessaria ex parte personae ut sit capax
+          <lb ed="#P" n="36"/>dispensationis. Item omnis superior respective
+          <lb ed="#P" n="37"/>potest cum suis subditis dispensare in legibus
+          <lb ed="#P" n="38"/>vel praeceptis a se positis, ut infra dicemus;
+          <lb ed="#P" n="39"/>ergo et e contrario omnis persona subdita, 
+          qua<lb break="no" ed="#P" n="40"/>tenus alterius legibus vel praeceptis subest, 
+          ca<lb break="no" ed="#P" n="41"/>pax est dispensationis. Neque in hac generali
+          <lb ed="#P" n="42"/>resolutione ratio dubitandi occurrit. Solum
+          <lb ed="#P" n="43"/>notanda est obiter differentia inter legem et
+          <lb ed="#P" n="44"/>dispensationem, quod lex ferri non potest nisi
+          <lb ed="#P" n="45"/>ad communitatem, ut lib. 1 dictum est; 
+          dis<lb break="no" ed="#P" n="46"/>pensatio autem per se primo versari potest circa
+          <lb ed="#P" n="47"/>personam privatam, quia solum est particularis
+          <lb ed="#P" n="48"/>exceptio a communi lege; potest autem etiam
+          <lb ed="#P" n="49"/>ferri circa communitatem aliquam, quae sit
+          <lb ed="#P" n="50"/>pars majoris communitatis, sicut uni religioni,
+          <lb ed="#P" n="51"/>vel Ecclesiae, aut civitati conceditur 
+          privile<lb break="no" ed="#P" n="52"/>gium per quod excipitur a lege communi. Item
+          <lb ed="#P" n="53"/>potest dispensatio concedi toti communitati
+          <lb ed="#P" n="54"/>pro uno actu vel pro certo tempore per 
+          mo<lb break="no" ed="#P" n="55"/>dum suspensionis, ut supra dictum est.
+        </p>
+        <p xml:id="szdleg-q13477-d1e632">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>8. Dispensatio non versatur necessario circa
+          <lb ed="#P" n="57"/>personam subditam. — Swummus Pontifea 
+          po<lb break="no" ed="#P" n="58"/>test sibi indulgentias concedere, et secum àn 
+          legi<lb break="no" ed="#P" n="59"/>lus et votis dispensare. — Hadem resolutio in
+          <lb ed="#P" n="60"/>supremo principe. — Solum ergo superest 
+          dif<lb break="no" ed="#P" n="61"/>ficultas, an e converso omnis persona capax
+          <lb ed="#P" n="62"/>dispensationis debeat esse subdita, ac subinde
+          <lb ed="#P" n="63"/>an dispensatio necessario versari debeat circa
+          <lb ed="#P" n="64"/>personam subditam. Videtur enim hoc etiam
+          <lb ed="#P" n="65"/>sequi ex illo principio quod dispensare est 
+          ac<lb break="no" ed="#P" n="66"/>tus jurisdictionis ; jurisdictio namque tantum
+          <lb ed="#P" n="67"/>exercetur circa subditos, c. Cum inferior, de
+          <lb ed="#P" n="68"/>Majorit. et obedien., quia nulla potestas agit
+          <lb ed="#P" n="69"/>extra sphaeram suae activitatis; ergo etiam e
+          <lb ed="#P" n="70"/>contrario sola persona subdita est capax 
+          dis<lb break="no" ed="#P" n="71"/>pensationis. In contrarium autem est quia inde
+          <lb ed="#P" n="72"/>sequeretur Pontificem non esse capacem 
+          dispen<lb break="no" ed="#P" n="73"/>sationis, quia non est persona subdita ; 
+          idem<lb break="no" ed="#P" n="74"/>que sequitur de supremo principe temporali in
+          <lb ed="#P" n="75"/>ordine ad dispensationem in legibus civilibus
+          <lb ed="#P" n="76"/>quibus ipse ligatur ; et respective eadem 
+          diffi<lb break="no" ed="#P" n="77"/>cultas est de omni Praelato respectu legum
+          <lb ed="#P" n="78"/>suarum, quatenus eis ipse ligatur. Tota ergo
+          <lb ed="#P" n="79"/>difficultas ad hoc revocatur an legislator possit
+          <lb ed="#P" n="80"/>secum dispensare in suis legibus, quatenus illis
+          <lb ed="#P" n="81"/>etiam ipse ligatur. Hoc dubium attigi in tertio
+          <lb ed="#P" n="82"/>tomo 3 part., disp. 82, sect. 2, circa finem,
+          <lb ed="#P" n="83"/>vers. Solet vero, et simile de indulgentiis in
+          <lb ed="#P" n="84"/>4 tomo, disp. 52, sect. 1, n. 20, et de Votorum
+          <lb ed="#P" n="85"/>dispensatione, t. 2, de Relig., l. 6, cap. 11, in
+          <lb ed="#P" n="86"/>princ.; breviterque definivi Pontificem posse
+          <lb ed="#P" n="87"/>indulgentias sibi applicare, seu thesaurum pro
+          <lb ed="#P" n="88"/>se etiam dispensare, sive dispensando pro tota
+          <lb ed="#P" n="89"/>communitate cujus ipse est praecipuum 
+          mem<lb break="no" ed="#P" n="90"/>brum, sive sibi soli immediate et directe 
+          in<lb break="no" ed="#P" n="91"/>dulgentiam concedendo. Et simili modo posse
+          <lb ed="#P" n="92"/>secum in legibus et in votis dispensare, vel
+          <lb ed="#P" n="93"/>committendo alteri potestatem ut secum 
+          dis<lb break="no" ed="#P" n="94"/>penset, si justum esse judicaverit (quod melius
+          <lb ed="#P" n="95"/>et consulendum esse judicavi), sive per sese
+          <lb ed="#P" n="96"/>rem judicando et dispensationem sibi 
+          conce<lb break="no" ed="#P" n="97"/>dendo. Quae sententia in summo Pontifice 
+          com<lb break="no" ed="#P" n="98"/>munis est, ut erudite refert Sanci., lib. 8, 
+          dis<lb break="no" ed="#P" n="99"/>putatione 3, n. 6; eademque resolutio locum
+          <lb ed="#P" n="100"/>habet in quocumque supremo principe seu rege
+          <lb ed="#P" n="101"/>temporali quoad leges civiles, quia servat 
+          eam<lb break="no" ed="#P" n="102"/>dem proportionem, et sumitur ex c. Per 
+          vene<lb break="no" ed="#P" n="103"/>rabilem, Qui filii sint legitimi. Et aperte docet
+          <lb ed="#P" n="104"/>Cajet. 1. 2, q. 96, art. 5, in fin.; et Sylvest.,
+          <lb ed="#P" n="105"/>verb. Lex, q. 14; Cord., lib. 5, q. 31. Idemque
+          <lb ed="#P" n="106"/>sentiunt priores auctores, qui de Pontifice hoc
+          <lb ed="#P" n="107"/>affirmant et de regibus non negant.
+        </p>
+        <p xml:id="szdleg-q13477-d1e750">
+          <lb ed="#P" n="108"/>9. Ratio vero est, quia non omnis actus 
+          ju<lb break="no" ed="#P" n="109"/>risdictionis requirit distinctionem personalem
+          <lb ed="#P" n="110"/>inter eum qui jurisdictionem exercet et eum
+          <pb ed="#P" n="57"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>circa quem exercetur, sed tantum illi actus
+          <lb ed="#P" n="2"/>qui requirunt coactionem, vel propriam 
+          sen<lb break="no" ed="#P" n="3"/>tentiam per quam dicitur jus inter partes et
+          <lb ed="#P" n="4"/>ideo requirit tertiam personam distinctam ab
+          <lb ed="#P" n="5"/>illis. At vero dispensatio per se est actus 
+          juris<lb break="no" ed="#P" n="6"/>dictionis voluntariae respectu ejus cum quo 
+          dis<lb break="no" ed="#P" n="7"/>pensatur, et ideo ex ea parte non requirit 
+          per<lb break="no" ed="#P" n="8"/>sonam ab illo distinctam. Respectu etiam 
+          ip<lb break="no" ed="#P" n="9"/>sius legis aut legislatoris, vel boni communis,
+          <lb ed="#P" n="10"/>quibus potest aliquo modo praejudicare 
+          dispen<lb break="no" ed="#P" n="11"/>satio, non potest requiri persona a legislatore
+          <lb ed="#P" n="12"/>distincta; nam ad ipsum pertinet suam legem
+          <lb ed="#P" n="13"/>tueri et communi bono consulere; ergo non
+          <lb ed="#P" n="14"/>repugnat ex natura rei supremum legislatorem
+          <lb ed="#P" n="15"/>secum dispensare in lege a se lata, quia circa
+          <lb ed="#P" n="16"/>se exercet voluntariam jurisdictionem, et 
+          con<lb break="no" ed="#P" n="17"/>tra rempublicam etiam non est coactio, sed
+          <lb ed="#P" n="18"/>prudens administratio cujusdam rei communis.
+          <lb ed="#P" n="19"/>Unde confirmatur primo: nam supremus 
+          prin<lb break="no" ed="#P" n="20"/>ceps potest distribuere bona communia inter
+          <lb ed="#P" n="21"/>membra commnnitatis comprehendendo etiam
+          <lb ed="#P" n="22"/>seipsum, et ita ipse imponit tributa sibi 
+          sol<lb break="no" ed="#P" n="23"/>venda, prout ratio justitiae exigit; sed 
+          dispen<lb break="no" ed="#P" n="24"/>satio in lege est quasi commune bonum 
+          distri<lb break="no" ed="#P" n="25"/>buendum et applicandum membris prout 
+          ex<lb break="no" ed="#P" n="26"/>pedierit ; ergo non minus potest princeps hoc
+          <lb ed="#P" n="27"/>facere circa seipsum quam circa alios. 
+          Confir<lb break="no" ed="#P" n="28"/>matur secundo, quia princeps seipsum ligat
+          <lb ed="#P" n="29"/>sua lege ; ergo multo magis potest se solvere,
+          <lb ed="#P" n="30"/>quia ligare magis spectat ad jurisdictionem 
+          in<lb break="no" ed="#P" n="31"/>voluntariam et coactivam, et ideo non potest
+          <lb ed="#P" n="32"/>seipsum immediate, et (ut ita dicam) privatim
+          <lb ed="#P" n="33"/>per legem ligare, sed solum concomitanter cum
+          <lb ed="#P" n="34"/>communitate cui lesem imponit, idque non
+          <lb ed="#P" n="35"/>sola voluntate propria, sed adminiculo juris
+          <lb ed="#P" n="36"/>naiuralis, ut supra vidimus: solvere autem
+          <lb ed="#P" n="37"/>seipsum potest directe et privatim, quia 
+          dis<lb break="no" ed="#P" n="38"/>pensatio et est actus qui per se exercetur circa
+          <lb ed="#P" n="39"/>unam personam, et est Turisdictionis 
+          volunta<lb break="no" ed="#P" n="40"/>ris, ideoque magis potest princeps seipsum
+          <lb ed="#P" n="41"/>immediate eximere a legis suae obligatione ex
+          <lb ed="#P" n="42"/>Justa causa. Denique si hoc non repugnat ex
+          <lb ed="#P" n="43"/>natura rei Pontifici aut supremo principi, nec
+          <lb ed="#P" n="44"/>ex jure positivo potest repugnare, tum quia
+          <lb ed="#P" n="45"/>nullum tale jus reperitur; tum quia ipse est
+          <lb ed="#P" n="46"/>supra jus, servata proportione, atque ita non
+          <lb ed="#P" n="47"/>potest per tale jus sua protestate privari, sed
+          <lb ed="#P" n="48"/>potius per illam posset in tali jure 
+          dispensa<lb break="no" ed="#P" n="49"/>re, et consequenter in quacumque lege a se
+          <lb ed="#P" n="50"/>lata.
+        </p>
+        <p xml:id="szdleg-q13477-d1e872">
+          <lb ed="#P" n="51"/>10. Non desunt tamen qui contra hanc 
+          reso<lb break="no" ed="#P" n="52"/>lutionem opinentur Pontificem non posse 
+          se<lb break="no" ed="#P" n="53"/>cum dispensare in communibus legibus 
+          Eccle<lb break="no" ed="#P" n="54"/>sie. Idem enim tenet supplementum Gab. 4,
+          <lb ed="#P" n="55"/>d. 38, q. 2, art. 5, circa finem, verb. $ quas
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>rationes, et aliqui canonistae quos Sanci. supra
+          <lb ed="#P" n="57"/>refert, n. 4. Verumtamen eorum 
+          fundamen<lb break="no" ed="#P" n="58"/>tum solutum est ex dictis, solum enim 
+          argu<lb break="no" ed="#P" n="59"/>mentantur quia actus jurisdictionis requirit 
+          dis<lb break="no" ed="#P" n="60"/>tinctionem personarum. Ad quod jam dictum
+          <lb ed="#P" n="61"/>est non esse universaliter verum, sed solum in
+          <lb ed="#P" n="62"/>actu jurisdictionis involuntarie, vel in actu
+          <lb ed="#P" n="63"/>sententiae per quam dicitur jus inter partes,
+          <lb ed="#P" n="64"/>qua ratione etiam in absolutione sacramentali,
+          <lb ed="#P" n="65"/>quia est vera sententia et absolutio, ideo ita
+          <lb ed="#P" n="66"/>instituta est jure divino ut non possit exerceri
+          <lb ed="#P" n="67"/>ab aliquo (etiam summo Pontifice) erga 
+          seip<lb break="no" ed="#P" n="68"/>sum. At vero in actu dispensandi et aliis qui
+          <lb ed="#P" n="69"/>sunt jurisdictionis voluntariae, non invenitur
+          <lb ed="#P" n="70"/>talis repugnantia nec institutio specialis, ut
+          <lb ed="#P" n="71"/>declaratum est, et ideo optime potest princeps
+          <lb ed="#P" n="72"/>secum dispensare. Et tunc etiam ille est actus
+          <lb ed="#P" n="73"/>jurisdictionis, et suo modo exercetur circa 
+          sub<lb break="no" ed="#P" n="74"/>ditum, quia eadem persona, ut homo subditus
+          <lb ed="#P" n="75"/>legibus, est inferior sibi ipsi, ut est princeps
+          <lb ed="#P" n="76"/>et conditor legum : quae distinctio formalis 
+          suf<lb break="no" ed="#P" n="77"/>ficit ut possit talem actum circa seipsum 
+          exer<lb break="no" ed="#P" n="78"/>cere, ut in citatis locis dixi, et Sanc. supra 
+          la<lb break="no" ed="#P" n="79"/>tissime declarat et confirmat.
+        </p>
+        <p xml:id="szdleg-q13477-d1e940">
+          <lb ed="#P" n="80"/>11. Episcopi et ceteri Praelati possunt in
+          <lb ed="#P" n="81"/>legibus a se latis dispensare secum. —Superest
+          <lb ed="#P" n="82"/>vero explicandum an idem dicendum sit de
+          <lb ed="#P" n="83"/>aliis Episcopis et Praelatis, et cum proportione
+          <lb ed="#P" n="84"/>de aliis civilibus magistratibus qui leges 
+          con<lb break="no" ed="#P" n="85"/>dere vel in eis dispensare possunt. De quibus
+          <lb ed="#P" n="86"/>loqui possumus aut respectu legum quas ipsi
+          <lb ed="#P" n="87"/>condunt quatenus cis obligantur, aut respectu
+          <lb ed="#P" n="88"/>legum suorum superiorum, seu juris pontificii
+          <lb ed="#P" n="89"/>aut regis. Loquendo enim priori modo, sine
+          <lb ed="#P" n="90"/>ulla controversia dicendum est posse secum
+          <lb ed="#P" n="91"/>dispensare in suis legibus, sicut Papa vel rex
+          <lb ed="#P" n="92"/>in suis. Est enim eadem proportio, ac subinde
+          <lb ed="#P" n="93"/>eadem ratio, quia, scilicet, talis lex 
+          principa<lb break="no" ed="#P" n="94"/>liter ac per se pendet ab Episcopo; ergo 
+          dis<lb break="no" ed="#P" n="95"/>tributio obligationis ejus (ut sic dicam) ab 
+          ea<lb break="no" ed="#P" n="96"/>dem voluntate et potestate pendet; ergo non
+          <lb ed="#P" n="97"/>minus potest dispensare secum quam cum aliis.
+          <lb ed="#P" n="98"/>Probatur consequentia, quia per se loquendo
+          <lb ed="#P" n="99"/>ejus est solvere cujus fuit ligare, et res per
+          <lb ed="#P" n="100"/>easdem causas tolli potest per quas fuit 
+          consti<lb break="no" ed="#P" n="101"/>tuta, nisi aliud obstet. Hic vero solum obstare
+          <lb ed="#P" n="102"/>posset identitas personae dispensantis et 
+          dispen<lb break="no" ed="#P" n="103"/>satae; haec autem non obstat ex natura rei, ut
+          <lb ed="#P" n="104"/>ostensum est ; nec etiam est speciale jus quo
+          <lb ed="#P" n="105"/>hoc prohibeatur Episcopis aut similibus legum
+          <lb ed="#P" n="106"/>conditoribus et earum dispensatoribus; ergo.
+          <lb ed="#P" n="107"/>Atque ita sentiunt auctores supra allegati, quia
+          <lb ed="#P" n="108"/>vel loquuntur absolute de legislatoribus, ut
+          <lb ed="#P" n="109"/>Cajetanus; vel de principe, ut Sylvester, dict.
+          <lb ed="#P" n="110"/>quaest, 14; et isti plane intendunt loqui de
+          <pb ed="#P" n="58"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>omnibus qui ligantur legibus suis, vel 
+          loquun<lb break="no" ed="#P" n="2"/>tur de Papa, et sic dum alios non excludunt
+          <lb ed="#P" n="3"/>comprehendunt eos in quibus eadem proportio
+          <lb ed="#P" n="4"/>servatur. Una vero difficultas hic superest de
+          <lb ed="#P" n="5"/>modo quo legislator posset secum 
+          dispensa<lb break="no" ed="#P" n="6"/>re, quam infra melius tractabo capite decimo
+          <lb ed="#P" n="7"/>quarto.
+        </p>
+        <p xml:id="szdleg-q13477-d1e1029">
+          <lb ed="#P" n="8"/>12. Quomodo Praelati possunt secum 
+          dispen<lb break="no" ed="#P" n="9"/>sare in legibus quas ipsi non tulerint. — 
+          Lo<lb break="no" ed="#P" n="10"/>quendo autem alio modo de his praelatis vel
+          <lb ed="#P" n="11"/>magistratibus inferioribus qui potestatem 
+          ha<lb break="no" ed="#P" n="12"/>bent dispensandi in legibus superiorum, major
+          <lb ed="#P" n="13"/>est difficultas, sed spectat ad caput 14. Nam
+          <lb ed="#P" n="14"/>quod ad praesens attinet, certum est 
+          dispensa<lb break="no" ed="#P" n="15"/>tionem non repugnare propter identitatem 
+          per<lb break="no" ed="#P" n="16"/>sonae ; nam quoad hoc est eadem ratio; tamen
+          <lb ed="#P" n="17"/>in potestate activa dispensandi potest esse 
+          di<lb break="no" ed="#P" n="18"/>versitas. Nam respectu propriae legis ex natura
+          <lb ed="#P" n="19"/>rei sequitur ut qui illam tulit possit in ea 
+          dis<lb break="no" ed="#P" n="20"/>pensare, nisi prohibeatur ; in lege autem 
+          su<lb break="no" ed="#P" n="21"/>perioris hoc non sequitur ex natura rei, sed
+          <lb ed="#P" n="22"/>pendet ex modo potestatis a superiori 
+          conces<lb break="no" ed="#P" n="23"/>sae, de qua potestate in dicto capite 14 dicemus.
+          <lb ed="#P" n="24"/>Nunc ergo solum dicimus quotiescumque 
+          con<lb break="no" ed="#P" n="25"/>stiterit potestatem datam esse sub hac 
+          ampli<lb break="no" ed="#P" n="26"/>tudine, Praelatos posse secum dispensare, sicut
+          <lb ed="#P" n="27"/>de praelatis religionum sensit D. Thomas 2. 2,
+          <lb ed="#P" n="28"/>quaest. 185, art. 8, in fine corporis, ubi ait
+          <lb ed="#P" n="29"/>Praelatos religionum posse secum dispensare
+          <lb ed="#P" n="30"/>in praeceptis seu ordinationibus suae regulae;
+          <lb ed="#P" n="31"/>idemque posse Episcopos regulares quoad 
+          ea<lb break="no" ed="#P" n="32"/>dem praecepta regulae. Quod eodem modo 
+          do<lb break="no" ed="#P" n="33"/>cent Anton., 3 part., t. 20,cap.2,8 75et
+          <lb ed="#P" n="34"/>Sylvest., verb. Heligio, 6, q. 1, et 7, q. 12;
+          <lb ed="#P" n="35"/>Tabien., verb. Episcopus, q. 6; Turr. inc. de
+          <lb ed="#P" n="36"/>Monachis, 16, q. 1. Constat autem praecepta
+          <lb ed="#P" n="37"/>regulae non esse lata ab ipsis Praelatis 
+          ordina<lb break="no" ed="#P" n="38"/>riis, sed vel a tota religione, quae superior est,
+          <lb ed="#P" n="39"/>vel a generalibus. Aliqui vero dicunt divum
+          <lb ed="#P" n="40"/>Thomam non loqui de propria dispensatione,
+          <lb ed="#P" n="41"/>sed licentia, quae non est dispensatio, ut supra
+          <lb ed="#P" n="42"/>dixi. Verumtamen D. Thomas et alii clare 
+          lo<lb break="no" ed="#P" n="43"/>quuntur de propria dispensatione derogante
+          <lb ed="#P" n="44"/>legi prohibenti vel praecipienti absolute. 
+          Quam<lb break="no" ed="#P" n="45"/>vis doctrina a fortiori vera sit de licentia, si
+          <lb ed="#P" n="46"/>tamen illa est Praelato necessaria : nam fortasse
+          <lb ed="#P" n="47"/>proprius diceretur quoties regula statuit ut
+          <lb ed="#P" n="48"/>aliquid non fiat sine licentia, ad subditos 
+          tan<lb break="no" ed="#P" n="49"/>tum loqui, non ad Praelatos: nam illi non 
+          in<lb break="no" ed="#P" n="50"/>digent licentia, sed discretione et prudentia.
+          <lb ed="#P" n="51"/>Nisi ubi regula aperte disposuerit ut Praelatus
+          <lb ed="#P" n="52"/>inferior aliquid non agat sine licentia majoris
+          <lb ed="#P" n="53"/>Praelati ; tunc enim id agere non posset, ipse
+          <lb ed="#P" n="54"/>sibi ordinarie licentiam concedendo, quia esset
+          <lb ed="#P" n="55"/>contra regulam, Quod si in casu urgente oc-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>curreret causa justa sic operandi, tunc posset
+          <lb ed="#P" n="57"/>secum dispensare ad id agendum sine licentia,
+          <lb ed="#P" n="58"/>et hoc possunt etiam religiosi facti Episcopi;
+          <lb ed="#P" n="59"/>illa vero non esset mera licentia vel impropria
+          <lb ed="#P" n="60"/>dispensatio (ut alii loquuntur), sed esset 
+          pro<lb break="no" ed="#P" n="61"/>pria relaxatio legis in particulari casu, et ita
+          <lb ed="#P" n="62"/>esset propriissima dispensatio.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 17</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 17</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="289"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q72804"><!-- l8c17 -->
+        <head xml:id="szdleg-q72804-Hd1e101">Caput 17</head>
+        <head xml:id="szdleg-q72804-Hd1e103" type="question-title">Utrum communicato privilegio etiam resthrictio ejus communicetur.</head>
+        <p xml:id="szdleg-q72804-d1e106">
+          <lb ed="#P" n="89"/>CAPUT XVII.
+          <lb ed="#P" n="90"/>UTRUM COMMUNICATO PRIVILEGIO ETIAM 
+          RESTHRIC<lb break="no" ed="#P" n="91"/>TIO EJUS COMMUNICETUR.
+        </p>
+        <p xml:id="szdleg-q72804-d1e115">
+          <lb ed="#P" n="92"/>1. Occurrit tamen, in hac aequiparatione,
+          <lb ed="#P" n="93"/>specialiter inquirendum an privilegium alicui
+          <lb ed="#P" n="94"/>concessum cum certa restrictione, et postea
+          <lb ed="#P" n="95"/>communicatum alteri, intelligatur 
+          communi<lb break="no" ed="#P" n="96"/>catum cum eadem restrictione, etiamsi illa
+          <lb ed="#P" n="97"/>non exprimatur, sed absolute dicatur 
+          com<lb break="no" ed="#P" n="98"/>municari huic privilegium quod alter habet.
+          <lb ed="#P" n="99"/>Nam videtur ex dictis sequi pars affirmans,
+          <lb ed="#P" n="100"/>primo, per argumentum a contrario, quia illa
+          <lb ed="#P" n="101"/>restrictio non supervenit communicationi, sed
+          <lb ed="#P" n="102"/>supponitur in prima concessione : sed 
+          res<lb break="no" ed="#P" n="103"/>trictio quae supervenit post communicationem,
+          <lb ed="#P" n="104"/>non extenditur ad talem communicationem;
+          <lb ed="#P" n="105"/>ergo oppositum dicendum videtur in 
+          resirictio<lb break="no" ed="#P" n="106"/>ne quae praecedit. Item illa restrictio necessario
+          <lb ed="#P" n="107"/>transit ad privilegium ad instar; ergo etiam
+          <pb ed="#P" n="290"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>transit cum communicatione privilegii 
+          perfec<lb break="no" ed="#P" n="2"/>ta. Probatur consequentia, quia haec vel sunt
+          <lb ed="#P" n="3"/>in re idem, licet verbis differant, vel certe
+          <lb ed="#P" n="4"/>parificantur ; est enim eadem ratio in utroque,
+          <lb ed="#P" n="5"/>praesertim quoad hanc conditionem. 
+          Antece<lb break="no" ed="#P" n="6"/>dens autem patet, quia privilegium, datum a
+          <lb ed="#P" n="7"/>principio cum restrictione, cum eadem 
+          propo<lb break="no" ed="#P" n="8"/>nitur ut exemplar alterius, quia revera non
+          <lb ed="#P" n="9"/>est datum, nisi in tali gradu, vel cum tali
+          <lb ed="#P" n="10"/>modo, et sic proponitur in exemplar, quando
+          <lb ed="#P" n="11"/>aliud datur ad instar illius; ergo illa 
+          restric<lb break="no" ed="#P" n="12"/>tio necessario transit ad exemplatum. In 
+          con<lb break="no" ed="#P" n="13"/>trarium vero est, quia restrictio addita in
+          <lb ed="#P" n="14"/>prima concessione respectu ejus cui facta est,
+          <lb ed="#P" n="15"/>non semper aeque aut bene accommodatur 
+          al<lb break="no" ed="#P" n="16"/>teri, cui tale privilegium per 
+          communicatio<lb break="no" ed="#P" n="17"/>nem concessum est; ergo non est verisimile
+          <lb ed="#P" n="18"/>restrictionem etiam communicari, ut, verbi
+          <lb ed="#P" n="19"/>gratia, conceduntur Societati sua privilegia
+          <lb ed="#P" n="20"/>cum hac restrictione, ut singuli religiosi illis
+          <lb ed="#P" n="21"/>uti non possint, nisi per caput proximum 
+          to<lb break="no" ed="#P" n="22"/>tius religionis, quod est generalis, id est, per
+          <lb ed="#P" n="23"/>applicationem et consensum ejus ; quando 
+          er<lb break="no" ed="#P" n="24"/>go haec privilegia aliis religionibus 
+          commu<lb break="no" ed="#P" n="25"/>nicantur , non est verisimile restrictionem
+          <lb ed="#P" n="26"/>illam communicari, quae non est gubernationi
+          <lb ed="#P" n="27"/>aliarum religionum accommodata. Similiter
+          <lb ed="#P" n="28"/>conceduntur Societati aliqua privilegia cum
+          <lb ed="#P" n="29"/>hac restrictione, ut alia religiones illis uti
+          <lb ed="#P" n="30"/>non possint per viam communicationis; aliae
+          <lb ed="#P" n="31"/>vero religiones habent privilegia 
+          communi<lb break="no" ed="#P" n="32"/>candi in omnibus cum caeteris aliis 
+          religioni<lb break="no" ed="#P" n="33"/>bus : ergo illa restrictio non poterit aliis 
+          re<lb break="no" ed="#P" n="34"/>ligionibus nocere.
+        </p>
+        <p xml:id="szdleg-q72804-d1e230">
+          <lb ed="#P" n="35"/>2. Prima restrictio privilegii. — Adverto
+          <lb ed="#P" n="36"/>triplicem posse cogitari restrictionem in 
+          hu<lb break="no" ed="#P" n="37"/>jusmodi privilegiis. Prima esse potest ad 
+          li<lb break="no" ed="#P" n="38"/>mitandum privilegium secundum se, non 
+          in<lb break="no" ed="#P" n="39"/>tuitu religionis vel in favorem religiosi 
+          insti<lb break="no" ed="#P" n="40"/>tuti, etiam absolute et generatim spectati,
+          <lb ed="#P" n="41"/>sed ratione tantum convenientis moderationis
+          <lb ed="#P" n="42"/>talis privilegii, vel ad cavendum nocumentum
+          <lb ed="#P" n="43"/>aliorum, vel ad vitandum aliquam 
+          perturba<lb break="no" ed="#P" n="44"/>tionem quae ex majori licentia oriri posset.
+          <lb ed="#P" n="45"/>Ut si privilegium non solvendi decimas 
+          limi<lb break="no" ed="#P" n="46"/>tetur ad propria praedia quae propriis 
+          labori<lb break="no" ed="#P" n="47"/>bus excoluntur, vel si privilegium 
+          exemptio<lb break="no" ed="#P" n="48"/>nis limitetur ne ad familiares extra 
+          monas<lb break="no" ed="#P" n="49"/>teria viventes extendatur, vel ne tollat 
+          obli<lb break="no" ed="#P" n="50"/>gationem servandi festivitates et interdicta,
+          <lb ed="#P" n="51"/>et similia. Et de hoc genere restrictionis, 
+          cer<lb break="no" ed="#P" n="52"/>tum existimo servandam omnino esse, in
+          <lb ed="#P" n="53"/>communicatione privilegii, eodem prorsus
+          <lb ed="#P" n="54"/>modo quo in prima et directa concessione
+          <lb ed="#P" n="55"/>adhibita fuit. Hoc enim ad minimum convin-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cunt priores rationes dubitandi; et praeterea,
+          <lb ed="#P" n="57"/>quia eadem ratio quae fuit ad limitandam
+          <lb ed="#P" n="58"/>concessionem, est ad limitandam 
+          communica<lb break="no" ed="#P" n="59"/>tionem, et Pontifex aut princeps non 
+          decla<lb break="no" ed="#P" n="60"/>ravit se velle majorem gratiam facere in
+          <lb ed="#P" n="61"/>communicatione, non obstante paritate 
+          ra<lb break="no" ed="#P" n="62"/>tionis (ut supponimus, alias nulla esset 
+          quaes<lb break="no" ed="#P" n="63"/>tio), sed solum simpliciter voluisse 
+          commu<lb break="no" ed="#P" n="64"/>nicare privilegium quod alteri concessum
+          <lb ed="#P" n="65"/>fuerat ; ergo intelligitur communicatio juxta
+          <lb ed="#P" n="66"/>tenorem et rationem prioris privilegii.
+        </p>
+        <p xml:id="szdleg-q72804-d1e305">
+          <lb ed="#P" n="67"/>3. Secunda restrictio. — Secunda restrictio
+          <lb ed="#P" n="68"/>privilegii esse potest illa quae addi solet in
+          <lb ed="#P" n="69"/>favorem et conservationem instituti religiosi,
+          <lb ed="#P" n="70"/>vel simpliciter , vel quatenus tale vel tale
+          <lb ed="#P" n="71"/>est, quae interdum addi solet illhis verbis :
+          <lb ed="#P" n="72"/>Dummodo regulari observantie non sint 
+          con<lb break="no" ed="#P" n="73"/>iraria, quae frequentius adduntur in 
+          commu<lb break="no" ed="#P" n="74"/>nicatione privilegiorum, quia fortasse in illa
+          <lb ed="#P" n="75"/>sunt magis necessaria; possent autem in
+          <lb ed="#P" n="76"/>quacumque concessione adjungi, si ex tenore,
+          <lb ed="#P" n="77"/>et in fine privilegii non satis constet. Est
+          <lb ed="#P" n="78"/>enim advertendum duobus modis concedi 
+          pri<lb break="no" ed="#P" n="79"/>vilegia religionibus : uno modo, per modum
+          <lb ed="#P" n="80"/>relaxationis, seu dispensationis, vel generalis
+          <lb ed="#P" n="81"/>pro tota religione, vel particularis pro aliqua
+          <lb ed="#P" n="82"/>provincia aut domo, in aliqua observantia
+          <lb ed="#P" n="83"/>rigorosa : tales sunt concessiones factae 
+          ali<lb break="no" ed="#P" n="84"/>quibus religionibus mendicantium, virorum
+          <lb ed="#P" n="85"/>vel feminarum, ad habendum proprium in
+          <lb ed="#P" n="86"/>communi , et factae religionibus militaribus
+          <lb ed="#P" n="87"/>ad conitrahenda matrimonia, et similia. Alio
+          <lb ed="#P" n="88"/>modo conceduntur privilegia religionibus ad
+          <lb ed="#P" n="89"/>favorem earum, vel ut facilius possint vel
+          <lb ed="#P" n="90"/>temporaliter sustentari, vel spiritualiter 
+          ope<lb break="no" ed="#P" n="91"/>rari, quae privilegia non relaxant religiones,
+          <lb ed="#P" n="92"/>sed de se potius tendunt ad fovendam 
+          per<lb break="no" ed="#P" n="93"/>fectionem, et conservandam disciplinam 
+          re<lb break="no" ed="#P" n="94"/>ligiosam. Et hic modus magis est usitatus,
+          <lb ed="#P" n="95"/>quia per se melior est, et ita etiam est per se
+          <lb ed="#P" n="96"/>intentus, prior enim potius est quasi 
+          permis<lb break="no" ed="#P" n="97"/>sus, seu per accidens intentus ad majora 
+          in<lb break="no" ed="#P" n="98"/>commoda vitanda. Quando ergo absolute 
+          con<lb break="no" ed="#P" n="99"/>ceditur privilegium, et ex tenore et verbis
+          <lb ed="#P" n="100"/>non constat concedi per modum 
+          dispensatio<lb break="no" ed="#P" n="101"/>nis alicujus rei pertinentis ad proprium 
+          insti<lb break="no" ed="#P" n="102"/>tutum et regularem observantiam, intelligin
+          <lb ed="#P" n="103"/>tur concessum sub illa tacita conditione,
+          <lb ed="#P" n="104"/>dummodo regulari observantie non repugnet, 4
+          <lb ed="#P" n="105"/>et ideo in prima concessione privilegii 
+          ordi<lb break="no" ed="#P" n="106"/>narie non exprimitur haec limitatio, quia ve
+          <lb ed="#P" n="107"/>luti per se inest, quamdiu contrarium non
+          <lb ed="#P" n="108"/>exprimitur. Nam intentio Pontificis nunquam :
+          <lb ed="#P" n="109"/>est relaxare religionem, neque id facere 
+          cre<lb break="no" ed="#P" n="110"/>dendus est, nisi quando id declarat, causa
+          <pb ed="#P" n="291"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cognita et necessitate urgente, quam 
+          signifi<lb break="no" ed="#P" n="2"/>care solet quando talia privilegia relaxantia
+          <lb ed="#P" n="3"/>concedere intendit.
+        </p>
+        <p xml:id="szdleg-q72804-d1e414">
+          <lb ed="#P" n="4"/>4. Unde a fortiori constat quod, si talis
+          <lb ed="#P" n="5"/>restrictio expresse addatur in concessione,
+          <lb ed="#P" n="6"/>msnulto magis intelligetur adhibita in 
+          commu<lb break="no" ed="#P" n="7"/>nicatione, etiamsi in illa non exprimatur;
+          <lb ed="#P" n="8"/>nam etiam tacite subintelligenda esset, licet
+          <lb ed="#P" n="9"/>in neutro exprimeretur, propter eamdem 
+          ra<lb break="no" ed="#P" n="10"/>tionem. Potestque a simili argumentum ad
+          <lb ed="#P" n="11"/>hoc confirmandum sumi ex cap. ultim. de
+          <lb ed="#P" n="12"/>Observ. jejun., ubi generalem licentiam 
+          co<lb break="no" ed="#P" n="13"/>medendi carnes in sexta feria quando dies
+          <lb ed="#P" n="14"/>natalis Domini incidit, declarat Pontifex
+          <lb ed="#P" n="15"/>non extendi ad eos qui voto, vel regulari 
+          ob<lb break="no" ed="#P" n="16"/>servantia, ad illam abstinentiam sunt astricti:
+          <lb ed="#P" n="17"/>indicat ergo generale privilegium habere 
+          sub<lb break="no" ed="#P" n="18"/>intellectam illam conditionem, ut regularem
+          <lb ed="#P" n="19"/>observantiam non relaxet. Quia intelliguntur
+          <lb ed="#P" n="20"/>communicari ea quae ad favorem pertinent,
+          <lb ed="#P" n="21"/>non quae ad perniciem communicarentur , et
+          <lb ed="#P" n="22"/>quae ad aedificationem conferre possunt, non
+          <lb ed="#P" n="23"/>quae ad destructionem. Saepe autem in 
+          com<lb break="no" ed="#P" n="24"/>municatione privilegiorum additur expressa
+          <lb ed="#P" n="25"/>illa modificatio; tum quia istae 
+          communicatio<lb break="no" ed="#P" n="26"/>nes per clausulas valde generales fieri solent,
+          <lb ed="#P" n="27"/>et ideo ne ex illis sumatur occasio errandi,
+          <lb ed="#P" n="28"/>utilissima est illa declaratio; tum etiam quia
+          <lb ed="#P" n="29"/>(ut dixi) sunt multa privilegia concessa 
+          aliqui<lb break="no" ed="#P" n="30"/>bus ad relaxandum rigorem, et oportuit 
+          ex<lb break="no" ed="#P" n="31"/>ponere in illis non fieri communicationem per
+          <lb ed="#P" n="32"/>solas clausulas generales. Quocirca, quia non
+          <lb ed="#P" n="33"/>solum dantur communicationes in privilegis
+          <lb ed="#P" n="34"/>prius concessis , sed etiam dantur 
+          communi<lb break="no" ed="#P" n="35"/>cationes communicationum, ut sic dicam, et
+          <lb ed="#P" n="36"/>ita fiunt quamplures veluti reflexiones et 
+          mu<lb break="no" ed="#P" n="37"/>tuae extensiones harum communicationum
+          <lb ed="#P" n="38"/>privilegiorum, ideo, licet illa clausula non 
+          ad<lb break="no" ed="#P" n="39"/>datur in quacumque forma communicationis,
+          <lb ed="#P" n="40"/>secundum illam restringenda est, sive per
+          <lb ed="#P" n="41"/>conclusionem tacitam, quia per se inest, nisi
+          <lb ed="#P" n="42"/>aperte excludatur, sive per relationem ad 
+          pri<lb break="no" ed="#P" n="43"/>vilegia quae communicantur, in quibus talis
+          <lb ed="#P" n="44"/>clausula posita est.
+        </p>
+        <p xml:id="szdleg-q72804-d1e505">
+          <lb ed="#P" n="45"/>5. Solum oportet advertere interdum addi
+          <lb ed="#P" n="46"/>posse specialem restrictionem privilegii 
+          in<lb break="no" ed="#P" n="47"/>tuitu observantiae alicujus religionis, quia 
+          se<lb break="no" ed="#P" n="48"/>cundum suum institutum est necessaria, vel
+          <lb ed="#P" n="49"/>maxime conveniens ad rectam 
+          gubernatio<lb break="no" ed="#P" n="50"/>nem, vel ad disciplinam religiosam 
+          observan<lb break="no" ed="#P" n="51"/>dam, quae tamen in alia religione, secundum
+          <lb ed="#P" n="52"/>suam regulam et institutum, non servatur, nec
+          <lb ed="#P" n="53"/>pertinere censetur ad perfectam 
+          observan<lb break="no" ed="#P" n="54"/>tiam sui instituti. Et tunc verisimillimum est,
+          <lb ed="#P" n="55"/>in concessione talis privilegii alteri religioni
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>facta non includi restrictionem illam, seu 
+          par<lb break="no" ed="#P" n="57"/>ticularem modum utendi illo privilegio priori
+          <lb ed="#P" n="58"/>religioni accommodato. lIta sentit Emman.
+          <lb ed="#P" n="59"/>Roder., d. quaest. 55, art. 7, de illa clausula
+          <lb ed="#P" n="60"/>quae additur in privilegiis Societatis: Ut non
+          <lb ed="#P" n="61"/>intelligantur concedi inferioribus singulis 
+          im<lb break="no" ed="#P" n="62"/>mediate, sed mediante Preposito generali ;
+          <lb ed="#P" n="63"/>existimat enim hunc ordinem non esse 
+          neces<lb break="no" ed="#P" n="64"/>sarium in alis religiosis, quibus per viam
+          <lb ed="#P" n="65"/>communicationis propria Societatis privilegia
+          <lb ed="#P" n="66"/>conceduntur. Fundatur, quia aliis absolute et
+          <lb ed="#P" n="67"/>sine illa restrictione communicantur, ac si 
+          di<lb break="no" ed="#P" n="68"/>recte essent illis concessa: restrictiones autem
+          <lb ed="#P" n="69"/>et Iimitationes non communicantur. 
+          Respon<lb break="no" ed="#P" n="70"/>deri tamen posse juxta praedicta, 
+          restrictio<lb break="no" ed="#P" n="71"/>nes quidem per se non communicari, 
+          nihilo<lb break="no" ed="#P" n="72"/>minus tamen quando privilegium fuit 
+          res<lb break="no" ed="#P" n="73"/>tricte concessum, non nisi restrictum 
+          commu<lb break="no" ed="#P" n="74"/>nicari.
+        </p>
+        <p xml:id="szdleg-q72804-d1e575">
+          <lb ed="#P" n="75"/>6. Sed nihilominus placet illa sententia.
+          <lb ed="#P" n="76"/>Primo quidem, quia privilegia ipsa prius 
+          fue<lb break="no" ed="#P" n="77"/>runt absolute coucessa Societati, postea vero
+          <lb ed="#P" n="78"/>addita fuit restrictio per specialem 
+          declaratio<lb break="no" ed="#P" n="79"/>nem, quae non restringit modum utendi 
+          pri<lb break="no" ed="#P" n="80"/>vilegio, nisi quoad Societatem ipsam: 
+          com<lb break="no" ed="#P" n="81"/>municatio autem alis religionibus postea
+          <lb ed="#P" n="82"/>facta est de solis privilegiis, et gratiis, non de
+          <lb ed="#P" n="83"/>hujusmodi declarationibus. Secundo, quia in
+          <lb ed="#P" n="84"/>ipsamet declaratione explicatur fundari in 
+          spe<lb break="no" ed="#P" n="85"/>ciali modo Societatis, propter instituti ipsius
+          <lb ed="#P" n="86"/>ab aliis religionibus diversitatem, ut dicitur
+          <lb ed="#P" n="87"/>in Bulla Gregor. XIII Ad futuram, anni 1515,
+          <lb ed="#P" n="88"/>in princ. ; ergo quod ex propria et (ut sic 
+          di<lb break="no" ed="#P" n="89"/>cam) distinctiva ratione in Societate 
+          ordina<lb break="no" ed="#P" n="90"/>tum est, non est verisimile ad alias religiones,
+          <lb ed="#P" n="91"/>sine alia declaratione vel necessitate, extendi.
+          <lb ed="#P" n="92"/>Et confirmatur, quia non solum propria 
+          pri<lb break="no" ed="#P" n="93"/>vilegia, sed etiam aliarum religionum indulta
+          <lb ed="#P" n="94"/>communicantur Societati cum illa expressa
+          <lb ed="#P" n="95"/>restrictione : Dummodo instituto Societatis et
+          <lb ed="#P" n="96"/>Preepositi aut hujusmodi personarum 
+          deputa<lb break="no" ed="#P" n="97"/>tarum voluntati et beneplacito non refragentur ;
+          <lb ed="#P" n="98"/>quae Iimitatio non extenditur ad alias 
+          religio<lb break="no" ed="#P" n="99"/>nes quoad communicationem privilegiorum
+          <lb ed="#P" n="100"/>caeterarum religionum, ut per se constat; ergo
+          <lb ed="#P" n="101"/>etiam non habet locum in communicatione
+          <lb ed="#P" n="102"/>privilegiorum ipsius Societatis; nam eadem
+          <lb ed="#P" n="103"/>est ratio. Hoc autem limitari potest, ut locum
+          <lb ed="#P" n="104"/>non habeat in illis religionibus (si quae sunt)
+          <lb ed="#P" n="105"/>quae in hoc modo regiminis vel subordinationis
+          <lb ed="#P" n="106"/>Societatem imitantur, vel simpliciter, vel 
+          se<lb break="no" ed="#P" n="107"/>cundum aliquem modum, ratione cujus in
+          <lb ed="#P" n="108"/>damnum ialis religionis cederet, si privatae
+          <lb ed="#P" n="109"/>personae possent uti privilegiis suo arbitrio, et
+          <lb ed="#P" n="110"/>sine consensu Praelati, vel Capituli, seu illius
+          <pb ed="#P" n="292"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ad quem juxta tale institutum illa cura et 
+          sol<lb break="no" ed="#P" n="2"/>licitudo incumbit. Tunc enim videtur 
+          intelli<lb break="no" ed="#P" n="3"/>genda communicatio privilegiorum juxta 
+          mo<lb break="no" ed="#P" n="4"/>dum tali religioni accommodatum, non 
+          pro<lb break="no" ed="#P" n="5"/>pter communicationem cum Societate in illa
+          <lb ed="#P" n="6"/>restrictione propria ejus (nam in illa revera
+          <lb ed="#P" n="7"/>non videtur habere locum communicatio, quia
+          <lb ed="#P" n="8"/>non est proprie privilegium), sed propter illud
+          <lb ed="#P" n="9"/>principium generale proxime positum, quod
+          <lb ed="#P" n="10"/>communicatio privilegiorum in unaquaque
+          <lb ed="#P" n="11"/>religione intelligenda est sine dispendio 
+          dis<lb break="no" ed="#P" n="12"/>ciplinae religiosee, uniuscujusque instituto et
+          <lb ed="#P" n="13"/>regimini accommodatae.
+        </p>
+        <p xml:id="szdleg-q72804-d1e688">
+          <lb ed="#P" n="14"/>7. Tertia restrictio privilegii.—Tertia 
+          ita<lb break="no" ed="#P" n="15"/>que restrictio privilegii esse solet, quia 
+          conce<lb break="no" ed="#P" n="16"/>ditur cum speciali respectu ad res spectantes
+          <lb ed="#P" n="17"/>specialiter ad religionem, locum, vel personam
+          <lb ed="#P" n="18"/>illam cui primo conceditur. Ut, verbi gratia,
+          <lb ed="#P" n="19"/>conceditur religioni sancti Dominici 
+          privile<lb break="no" ed="#P" n="20"/>gium non servandi interdictum locale in 
+          festi<lb break="no" ed="#P" n="21"/>vitatibus Sanctorum suorum in ecclesiis suis,
+          <lb ed="#P" n="22"/>vel quidpiam simile; et postea illud 
+          privile<lb break="no" ed="#P" n="23"/>gium communicatur religioni sancti Augustini
+          <lb ed="#P" n="24"/>sine alia declaratione ; constat autem illam
+          <lb ed="#P" n="25"/>non posse uti illo privilegio cum restrictione,
+          <lb ed="#P" n="26"/>materialiter (ut sic dicam) et ut sonat sumpta,
+          <lb ed="#P" n="27"/>quia sic non redundaret in peculiarem 
+          favo<lb break="no" ed="#P" n="28"/>rem suum, cum tamen communicatio ad hoc
+          <lb ed="#P" n="29"/>fiat. Neque etiam potest intelligi concessio 
+          ab<lb break="no" ed="#P" n="30"/>soluta, et sine ulla restrictione ; quia sic esset
+          <lb ed="#P" n="31"/>vel inutilis concessio propter 
+          indeterminatio<lb break="no" ed="#P" n="32"/>nem et ambiguitatem , vel esset absurda, si
+          <lb ed="#P" n="33"/>cum absoluta generalitate acciperetur. In 
+          hu<lb break="no" ed="#P" n="34"/>jusmodi ergo privilegiis dicendum est, 
+          com<lb break="no" ed="#P" n="35"/>municari cum eadem restrictione formaliter,
+          <lb ed="#P" n="36"/>seu cum proportione accommodata intellecta.
+          <lb ed="#P" n="37"/>Itaque quod conceditur uni religioni respectu
+          <lb ed="#P" n="38"/>suorum sanctorum, communicatur alteri 
+          res<lb break="no" ed="#P" n="39"/>pectu suorum, idemque de locis, festivitatibus
+          <lb ed="#P" n="40"/>eet aliis similibus intelligendum est. Sicut
+          <lb ed="#P" n="41"/>quod conceditur uni religioni respectu 
+          suo<lb break="no" ed="#P" n="42"/>rum novitiorum, vel familiarium, 
+          communi<lb break="no" ed="#P" n="43"/>catur alteri respectu suorum , quando 
+          com<lb break="no" ed="#P" n="44"/>municatio privilegiorum in genere, vel talis
+          <lb ed="#P" n="45"/>privilegii in particulari, absolute et sine alia
+          <lb ed="#P" n="46"/>declaratione fit. Quia ex ipsa materia satis
+          <lb ed="#P" n="47"/>constat, hac intentione et proportione fieri 
+          ta<lb break="no" ed="#P" n="48"/>lem communicationem. Atque ita declaratum
+          <lb ed="#P" n="49"/>esse a Julio IIl inter Praedicatores et Minores
+          <lb ed="#P" n="50"/>refertur late in Supplemen. , et ab Emman.
+          <lb ed="#P" n="51"/>Roder., dicta quaest. 55, art. 20. Tamen cum
+          <lb ed="#P" n="52"/>proportione ad omnia similia privilegia est
+          <lb ed="#P" n="53"/>applicanda , ut respective intelligatur facta
+          <lb ed="#P" n="54"/>communicatio; ita ut sit illud privilegium ad
+          <lb ed="#P" n="55"/>instar secundum proportionalitatem ; quae re-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>gula fere in omnibus privilegiis ad instar 
+          ser<lb break="no" ed="#P" n="57"/>vari potest et debet.
+        </p>
+        <p xml:id="szdleg-q72804-d1e788">
+          <lb ed="#P" n="58"/>8. Quam vim habet restrictio 
+          incommunica<lb break="no" ed="#P" n="59"/>bilitatis privilegii. — Et per haec satisfactum
+          <lb ed="#P" n="60"/>est rationibus dubitandi pro utraque parte
+          <lb ed="#P" n="61"/>in principio positis ; solum superest 
+          explican<lb break="no" ed="#P" n="62"/>dum quam vim habeat restrictio illa quae 
+          in<lb break="no" ed="#P" n="63"/>terdum addi solet privilegio alicul concesso,
+          <lb ed="#P" n="64"/>scilicet, ut sit aliis incommunicabile (ut sic
+          <lb ed="#P" n="65"/>dicam), vel ut aliis non communicetur. 
+          Exem<lb break="no" ed="#P" n="66"/>plum invenio in nostra Societate in Bulla
+          <lb ed="#P" n="67"/>Gregor. XIV, ubi post varias concessiones in
+          <lb ed="#P" n="68"/>fine subjungit haec verba : Praesentis autem
+          <lb ed="#P" n="69"/>constitutionis et gratiae communicationem 
+          om<lb break="no" ed="#P" n="70"/>nibus aliis, qui sua privilegia cum ipsa 
+          Socie<lb break="no" ed="#P" n="71"/>tate copiose participant, participareque 
+          pote<lb break="no" ed="#P" n="72"/>runt, quomodolibet in futurum fieri omnino
+          <lb ed="#P" n="73"/>prohibemus. Et similia verba, circa quoddam
+          <lb ed="#P" n="74"/>speciale privilegium Societati concessum, 
+          ha<lb break="no" ed="#P" n="75"/>bet Gregor. XIII in Bulla anni 1584 Satis 
+          su<lb break="no" ed="#P" n="76"/>perque. Ratio ergo dubitandi est, quia haec
+          <lb ed="#P" n="77"/>prohibitio non videtur posse impedire 
+          quomi<lb break="no" ed="#P" n="78"/>nus generalis et absoluta communicatio 
+          pri<lb break="no" ed="#P" n="79"/>vilegiorum Societatis vel omnium religionum,
+          <lb ed="#P" n="80"/>facta alteri religioni, has etiam gratias 
+          com<lb break="no" ed="#P" n="81"/>prehendat, quia par in parem non habet 
+          im<lb break="no" ed="#P" n="82"/>perium, et ideo prohibitio illa non potest 
+          im<lb break="no" ed="#P" n="83"/>pedire quominus sequens Pontifex illa 
+          privi<lb break="no" ed="#P" n="84"/>legia aliis communicet. Propter quod 
+          Emma<lb break="no" ed="#P" n="85"/>nuel Roder. supra, art. 27, dicit (licet cum
+          <lb ed="#P" n="86"/>formidine) per concessiones generales postea
+          <lb ed="#P" n="87"/>factas, etiam ab eodem Gregorio XIII, 
+          commu<lb break="no" ed="#P" n="88"/>cari aliis religiosis etiam illa privilegia, quia
+          <lb ed="#P" n="89"/>generalis communicatio omnia complectitur.
+          <lb ed="#P" n="90"/>Sed non videtur mihi juridica interpretatio,
+          <lb ed="#P" n="91"/>quia est vulgare in jure quod generi per 
+          spe<lb break="no" ed="#P" n="92"/>ciem derogatur, etiamsi species ipsa 
+          praeces<lb break="no" ed="#P" n="93"/>serit. Item quia vulgare etiam est sub 
+          gene<lb break="no" ed="#P" n="94"/>rali clausula non venire, quo1 princeps non
+          <lb ed="#P" n="95"/>esset in specie verisimiliter concessurus. Item,
+          <lb ed="#P" n="96"/>quia generalis concessio casuum non 
+          extendi<lb break="no" ed="#P" n="97"/>tur ad reservatos, ut est etiam commune 
+          dog<lb break="no" ed="#P" n="98"/>ma. At privilegia haec quorum 
+          communica<lb break="no" ed="#P" n="99"/>tio specialiter prohibetur valde specialia sunt,
+          <lb ed="#P" n="100"/>et quasi reservata quoad modum 
+          concessio<lb break="no" ed="#P" n="101"/>nis ; ergo nisi vel in communicatione ftiat 
+          spe<lb break="no" ed="#P" n="102"/>cialis mentio illorum, vel saltem addatur
+          <lb ed="#P" n="103"/>clausula per quam comprehendantur omnia
+          <lb ed="#P" n="104"/>privilegia, etiam illa quorum communicatio
+          <lb ed="#P" n="105"/>specialiter prohibita est, per solam clausulam
+          <lb ed="#P" n="106"/>generalem non existimo talia privilegia 
+          com<lb break="no" ed="#P" n="107"/>municari. Et confirmatur, quia alias, non 
+          ob<lb break="no" ed="#P" n="108"/>stante illa prohibitione, possent alii religiosi
+          <lb ed="#P" n="109"/>uti illis privilegiis ex vi antiquae 
+          communica<lb break="no" ed="#P" n="110"/>tionis, qua illis conceduntur privilegia omnia
+          <pb ed="#P" n="293"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>concessa et concedenda, quia illa etiam 
+          uni<lb break="no" ed="#P" n="2"/>versalis est, et comprehendit omnia; 
+          conse<lb break="no" ed="#P" n="3"/>quens est plane falsum, quia alias talis 
+          addi<lb break="no" ed="#P" n="4"/>tio et prohibitio pontificia vana esset, et 
+          fru<lb break="no" ed="#P" n="5"/>stra fieret, cum constet innumera esse talia
+          <lb ed="#P" n="6"/>privilegia per quae communicantur futura 
+          pri<lb break="no" ed="#P" n="7"/>vilegia. Quod si hoc non admittitur de 
+          anti<lb break="no" ed="#P" n="8"/>quioribus privilegiis, etiamsi universaliter 
+          lo<lb break="no" ed="#P" n="9"/>quantur, neque in subsequentibus admitti
+          <lb ed="#P" n="10"/>debet; nam etiamsi sint tempore posteriora,
+          <lb ed="#P" n="11"/>in eodem sensu conceduntur quo praecedentia,
+          <lb ed="#P" n="12"/>et eodem modo per specialia praecedentia 
+          li<lb break="no" ed="#P" n="13"/>mitantur. Et ita responsum est ad rationem
+          <lb ed="#P" n="14"/>dubitandi ; fatemur enim posse posteriorem
+          <lb ed="#P" n="15"/>Pontificem communicare talia privilegia, 
+          ne<lb break="no" ed="#P" n="16"/>gamus tamen id facere per solam clausulam
+          <lb ed="#P" n="17"/>generalem, et hanc vim et fructum dicimus
+          <lb ed="#P" n="18"/>habere restrictionem illam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

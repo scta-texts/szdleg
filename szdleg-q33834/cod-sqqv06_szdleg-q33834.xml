@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="135"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q33834"><!-- l7c1 -->
+        <head xml:id="szdleg-q33834-Hd1e101">Caput 1</head>
+        <head xml:id="szdleg-q33834-Hd1e103" type="question-title">Quid sit consuetudo, usus vel mos, forus et stylus, et quomodo a scriptione differat.</head>
+        <p xml:id="szdleg-q33834-d1e106">
+          <lb ed="#P" n="42"/>CAPUT I.
+          <lb ed="#P" n="43"/>QUID SIT CONSUETUDO, USUS VEL MOS, FORUS ET
+          <lb ed="#P" n="44"/>STYLUS, ET QUOMODO A SCRIPTIONE DIFFERAT.
+        </p>
+        <p xml:id="szdleg-q33834-d1e115">
+          <lb ed="#P" n="45"/>1. Consuetudinem sic definit Isidorus, lib.
+          <lb ed="#P" n="46"/>9 Oris., cap. 10. et lib. 5, cap. 3: Est jus
+          <lb ed="#P" n="47"/>quoddam moribus institutum , quod pro lege
+          <lb ed="#P" n="48"/>suscipitur cum deficit lex. Et videtur 
+          sumpsis<lb break="no" ed="#P" n="49"/>se ex Tertuiliano, lib. de Corona militis, 
+          di<lb break="no" ed="#P" n="50"/>cente : Consuetudo in civilibus rebus pro lege
+          <lb ed="#P" n="51"/>suscipitur cum deficit lex. Circa quam 
+          descri<lb break="no" ed="#P" n="52"/>ptionem triplex statim occurrit difficultas.
+          <lb ed="#P" n="53"/>Prima circa genus: nam consuetudo videtur
+          <lb ed="#P" n="54"/>potius esse quid facti quam juris ; non est 
+          er<lb break="no" ed="#P" n="55"/>go jus, sed factum, vel actio saepius repetita :
+          <lb ed="#P" n="56"/>unde idem Isidorus statim subjungit 
+          consue<lb break="no" ed="#P" n="57"/>tudinem sic dictam esse, quia in communi est
+          <lb ed="#P" n="58"/>ust : constat autem usum factum dicere, non
+          <lb ed="#P" n="59"/>jus. Et ita frequenter dicere solemus, cum in
+          <lb ed="#P" n="60"/>re aliqua dubitatur an detur consuetudo, 
+          nec<lb break="no" ed="#P" n="61"/>ne, quaestionem esse facti, non juris. Secunda
+          <lb ed="#P" n="62"/>difficultas est de illa particula moribus, quia.
+          <lb ed="#P" n="63"/>videtur definitum in definitione poni: nam
+          <lb ed="#P" n="64"/>mos et consuetudo idem esse videntur, 
+          solo<lb break="no" ed="#P" n="65"/>que nomine differre. Unde ibidem Isidorus,
+          <lb ed="#P" n="66"/>morem definiendo, dicit : Mos est consuetudo,
+          <lb ed="#P" n="67"/>cap. Mos, cap. Consuetudo, d. 1, et, quod 
+          mi<lb break="no" ed="#P" n="68"/>randum est, ibidem expressius idem vitium
+          <lb ed="#P" n="69"/>committere videtur, dicens : Mos est 
+          consuetu<lb break="no" ed="#P" n="70"/>do de moribus tracta tantum; ubi non alio, sed
+          <lb ed="#P" n="71"/>eodem nomine definitum in definitione ponit.
+          <lb ed="#P" n="72"/>Et auget difficultatem, quod mos esse dicitur
+          <lb ed="#P" n="73"/>consuetudo tracta de moribus, ac si esse possit
+          <lb ed="#P" n="74"/>consuetudo aliter introducta. Tertia difficultas
+          <lb ed="#P" n="75"/>est circa alteram partem, quod pro lege 
+          susci<lb break="no" ed="#P" n="76"/>pitur, quia hoc non pertinet ad esse 
+          consuetu<lb break="no" ed="#P" n="77"/>dinis, sed ad effectum ejus, ut infra dicemus.
+          <pb ed="#P" n="136"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Item videtur illis verbis significari jus 
+          consue<lb break="no" ed="#P" n="2"/>tudinis non esse veram legem, sed pro lege
+          <lb ed="#P" n="3"/>reputari, quod falsum etiam est. Aliae etiam
+          <lb ed="#P" n="4"/>difficultates hic occurrunt, quae in discursu
+          <lb ed="#P" n="5"/>commodius proponentur.
+        </p>
+        <p xml:id="szdleg-q33834-d1e204">
+          <lb ed="#P" n="6"/>2. Secunda opinio. —Usus quid.—
+          Superio<lb break="no" ed="#P" n="7"/>res vero difficultates magna ex parte oriuntur
+          <lb ed="#P" n="8"/>ex aequivocatione terminorum, ideoque 
+          signi<lb break="no" ed="#P" n="9"/>ficationes eorum explicandae prius sunt, ut res
+          <lb ed="#P" n="10"/>ipsa intelligi possit. Tres ergo termini 
+          impri<lb break="no" ed="#P" n="11"/>mis sunt notandi, scilicet, usus, mos, 
+          consue<lb break="no" ed="#P" n="12"/>tudo : nam in hoc conveniunt, quod solum in
+          <lb ed="#P" n="13"/>actibus liberis proprie dicuntur, et quamdam
+          <lb ed="#P" n="14"/>inter se affinitatem et connexionem habent,
+          <lb ed="#P" n="15"/>et nihilominus aliquod discrimen inter illos
+          <lb ed="#P" n="16"/>invenitur. Usus ergo, in theologica proprietate,
+          <lb ed="#P" n="17"/>significat actum quo voluntas libere exequitur
+          <lb ed="#P" n="18"/>quod eligit, juxta doctrinam D. Thomae 1. 2,
+          <lb ed="#P" n="19"/>quaest. 16, per totam; et Augustini, lib. 10 de
+          <lb ed="#P" n="20"/>Trinitate, c. 11, et lib. 83 Quaest., quaest. 30,
+          <lb ed="#P" n="21"/>ubi hac ratione dixit non posse uti nisi animal
+          <lb ed="#P" n="22"/>quod rationis est particeps, quia solum illud
+          <lb ed="#P" n="23"/>libere se vel alia applicat ad operationem,
+          <lb ed="#P" n="24"/>quam applicationem usus significat. Unde fit
+          <lb ed="#P" n="25"/>ut usus, in philosophico rigore, dicatur de
+          <lb ed="#P" n="26"/>quolibet actu utendi per se spectato, quia 
+          qui<lb break="no" ed="#P" n="27"/>libet est libera applicatio facultatis ad medii
+          <lb ed="#P" n="28"/>executionem, sicut quicumque actus gaudii
+          <lb ed="#P" n="29"/>de fine adepto dicitur fruitio. Nihilominus 
+          ta<lb break="no" ed="#P" n="30"/>men, communi et usitato modo loquendi, usus
+          <lb ed="#P" n="31"/>significat similium actuum frequentiam ; 
+          quo<lb break="no" ed="#P" n="32"/>modo dicitur in l. 4, tit. 2. p. 4, usum nasci
+          <lb ed="#P" n="33"/>ex his rebus quas aliquis facit longo et 
+          conti<lb break="no" ed="#P" n="34"/>nuo tempore, ut notavit ibi Greg. Lop. Ubi
+          <lb ed="#P" n="35"/>hac ratione dicit usum esse quid facti, scilicet,
+          <lb ed="#P" n="36"/>frequentiam ipsam libere operandi circa rem
+          <lb ed="#P" n="37"/>aliquam, eodem, seu uniformi modo. In lege
+          <lb ed="#P" n="38"/>autem illa dicitur, usum esse id quod 
+          relin<lb break="no" ed="#P" n="39"/>quitur, seu nascitur ex illa frequentia actuum,
+          <lb ed="#P" n="40"/>quod statim explicabitur.
+        </p>
+        <p xml:id="szdleg-q33834-d1e283">
+          <lb ed="#P" n="41"/>3. Mos quid. —Mos proprie in liberis tantum
+          <lb ed="#P" n="42"/>actibus reperitur. —Mos autem, teste divo 
+          Tho<lb break="no" ed="#P" n="43"/>ma 1. 2, quaest. 58, art. 1, non solum 
+          ratio<lb break="no" ed="#P" n="44"/>nalibus, sed etiam brutis tribui solet : nam
+          <lb ed="#P" n="45"/>etiam in Scriptura dicuntur homines operari
+          <lb ed="#P" n="46"/>more brutorum, interdum in bonam partem,
+          <lb ed="#P" n="47"/>ut 2 Mach. 11: Leonmn more impetu irruentes
+          <lb ed="#P" n="48"/>in hostes ; interdum in malum, ut 4 Esdrae 8:
+          <lb ed="#P" n="49"/>Qui mores pecudum halwerunt ; interdum 
+          in<lb break="no" ed="#P" n="50"/>differenter, ut 2 Mach. 10: 7n montibus et 
+          spe<lb break="no" ed="#P" n="51"/>luncis, more bestiarum, egerant. Nihilominus
+          <lb ed="#P" n="52"/>tamen, ut idem divus Thomas recte notavit in
+          <lb ed="#P" n="53"/>3, d. 23, quaest. 1, art. 4, quaestiunc. 2, mos
+          <lb ed="#P" n="54"/>solum per similitudinem seu analogiam brutis
+          <lb ed="#P" n="55"/>attribuitur, quatenus ex naturali inclinatione
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>eamdem rationem operandi servant: nam
+          <lb ed="#P" n="57"/>proprie tantum in liberis actibus reperitur.
+          <lb ed="#P" n="58"/>Nam genus moris ibi incipit ubi dominium
+          <lb ed="#P" n="59"/>voluntatis invenitur, ut idem D. Thomas dixit
+          <lb ed="#P" n="60"/>n 2, d. 24, quaest. 3, art. 2; et ideo solus actus
+          <lb ed="#P" n="61"/>liber proprie denominatur moralis, quia solus
+          <lb ed="#P" n="62"/>liber actus est laude vel vituperio dignus;
+          <lb ed="#P" n="63"/>moralis autem actus eodem modo laudis ac
+          <lb ed="#P" n="64"/>reprehensionis capax est. Unde est illud 
+          Aris<lb break="no" ed="#P" n="65"/>totelis, 1 Ethic., cap. 13: Cum de morilus 
+          lo<lb break="no" ed="#P" n="66"/>quimur , non sapientem aut perspicacem , sed
+          <lb ed="#P" n="67"/>manswuetum anut temperantem aliquem dicimus.
+          <lb ed="#P" n="68"/>Mos ergo proprie dictus nihil aliud est quam
+          <lb ed="#P" n="69"/>frequentia, seu continuatio similium actuum
+          <lb ed="#P" n="70"/>moralium et humanorum per aliquod tempus.
+          <lb ed="#P" n="71"/>Et hoc modo dicitur aliquid fieri secundum
+          <lb ed="#P" n="72"/>morem, ut Joan., c. 19: Mos est Judeis 
+          sepe<lb break="no" ed="#P" n="73"/>lire ; et Genes. 50: Iste quippe mos erat, 
+          cada<lb break="no" ed="#P" n="74"/>verum conditorum. Et eodem modo qui 
+          con<lb break="no" ed="#P" n="75"/>formes sunt in operando moraliter, unius 
+          mo<lb break="no" ed="#P" n="76"/>ris esse dicuntur. Ps. 67: Qui habitare facit
+          <lb ed="#P" n="77"/>unius moris in domo. Unde hoc videtur differre
+          <lb ed="#P" n="78"/>inter morem et usum, quod usus tam de 
+          fre<lb break="no" ed="#P" n="79"/>quentia actuum quam de singulis actibus dici
+          <lb ed="#P" n="80"/>potest, ut dixi: mos autem non dicitur proprie
+          <lb ed="#P" n="81"/>de uno actu, neque id est in usu, sed de 
+          fre<lb break="no" ed="#P" n="82"/>quentia actuum similium. Unde, si usus 
+          su<lb break="no" ed="#P" n="83"/>matur pro frequentia actuum non videtur a
+          <lb ed="#P" n="84"/>more differre. Addit vero D. Thomas supra,
+          <lb ed="#P" n="85"/>morem, in alia significatione, dici de 
+          inclina<lb break="no" ed="#P" n="86"/>tione ad similes actus, ex illorum frequentia
+          <lb ed="#P" n="87"/>relicta, quae inclinatio non est aliud quam 
+          ali<lb break="no" ed="#P" n="88"/>quis habitus; quod etiam dici potest de usu,
+          <lb ed="#P" n="89"/>juxta sententiam Alphonsi in lege citata,
+          <lb ed="#P" n="90"/>quamvis illa plura comprehendat, ut mox 
+          ex<lb break="no" ed="#P" n="91"/>plicabo.
+        </p>
+        <p xml:id="szdleg-q33834-d1e398">
+          <lb ed="#P" n="92"/>4. De consuetudine igitur, si sumatur ut est
+          <lb ed="#P" n="93"/>quid facti (ut dicitur in c. 1 de Const., in 6),
+          <lb ed="#P" n="94"/>idem fere sentiendum est: nam ut eisdem 
+          lo<lb break="no" ed="#P" n="95"/>cis D. Thomas ait, mos et consuetudo idem fere
+          <lb ed="#P" n="96"/>sunt, quia utraque vox significat moralium
+          <lb ed="#P" n="97"/>actuum frequentiam. Propria enim consuetudo
+          <lb ed="#P" n="98"/>non est nisi in actibus liberis : nam in 
+          neces<lb break="no" ed="#P" n="99"/>sariis, potius nunquam consuetudo vim habet,
+          <lb ed="#P" n="100"/>et ideo proprie non est in brutis, licet per
+          <lb ed="#P" n="101"/>analogiam interdum illis tribuatur, S 
+          Pavo<lb break="no" ed="#P" n="102"/>nwn , Instit. de Rer. divis. Deinde consuetudo
+          <lb ed="#P" n="103"/>non est in singulis actibus, sed in eorum 
+          fre<lb break="no" ed="#P" n="104"/>quentia, ut Isidorus insinuavit, et apertius
+          <lb ed="#P" n="105"/>D. Thomas in 3, ubi supra dixit consuetudinem
+          <lb ed="#P" n="106"/>importare quamdam frequentiam circa ea quae
+          <lb ed="#P" n="107"/>facere vel non facere in nobis est. Disi autem
+          <lb ed="#P" n="108"/>hoc esse intelligendum de consuetudine 
+          sump<lb break="no" ed="#P" n="109"/>ta ut est quid facti, quia oportet in 
+          consue<lb break="no" ed="#P" n="110"/>tudine duo distinguere : unum est ipsa fre-
+          <pb ed="#P" n="137"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quentia actuum, quam possumus vocare 
+          con<lb break="no" ed="#P" n="2"/>suetudinem formalem, et hanc dicimus esse
+          <lb ed="#P" n="3"/>quid facti, sicut usum. Aliud vero est id quod
+          <lb ed="#P" n="4"/>ex tali frequentia relinquitur, quod potest esse
+          <lb ed="#P" n="5"/>vel quid physicum. ut est habitus, quod 
+          ali<lb break="no" ed="#P" n="6"/>quando solet vocari consuetudo apud juristas,
+          <lb ed="#P" n="7"/>satis vero improprie, et ideo illud omittimus,
+          <lb ed="#P" n="8"/>et sub consuetudine facti illud computamus.
+          <lb ed="#P" n="9"/>Aliud ergo, quod ex consuetudine relinquitur,
+          <lb ed="#P" n="10"/>esse potest quid morale per modum facultatis
+          <lb ed="#P" n="11"/>vel juris obligantis ad sic operandum, vel 
+          tol<lb break="no" ed="#P" n="12"/>lentis aliam obligationem, quod potest vocari
+          <lb ed="#P" n="13"/>jus consuetudinis, seu consuetudine 
+          introduc<lb break="no" ed="#P" n="14"/>tum. Sicut enim consuetudo inducit 
+          inclina<lb break="no" ed="#P" n="15"/>tionem ad similes actus, et consequenter dat
+          <lb ed="#P" n="16"/>facilitatem et delectationem in opere, quae non
+          <lb ed="#P" n="17"/>est tantum aliquid morale, sed etiam 
+          physi<lb break="no" ed="#P" n="18"/>cum, quod habitum appellamus; ita 
+          consue<lb break="no" ed="#P" n="19"/>tudo facti inducit moralem facultatem, vel
+          <lb ed="#P" n="20"/>obligationem, vel mutat illam (ut postea 
+          vi<lb break="no" ed="#P" n="21"/>debimus), non inducendo aliquid physicum,
+          <lb ed="#P" n="22"/>sed moralem facultatem, aut vinculum, quod
+          <lb ed="#P" n="23"/>jus appellamus. Et ideo, sicut nomen moris,
+          <lb ed="#P" n="24"/>ex frequentia moralium actuum, translatum
+          <lb ed="#P" n="25"/>est ad significandum ipsum habitum, seu 
+          incli<lb break="no" ed="#P" n="26"/>nationem, ita consuetudo, licet aliquid facti
+          <lb ed="#P" n="27"/>primario significet, etiam transferri potuit ad
+          <lb ed="#P" n="28"/>significandum aliquid juris, quod ex 
+          frequen<lb break="no" ed="#P" n="29"/>tia actuum relinquitur, quatenus suo modo
+          <lb ed="#P" n="30"/>inducit ad similes actus. Quia nomen causae
+          <lb ed="#P" n="31"/>transferri solet ad effectum, et e converso: et
+          <lb ed="#P" n="32"/>ita vocatur consuetudo, et ipsa frequentia 
+          ac<lb break="no" ed="#P" n="33"/>tuum, et jus per illam introductum. Et quoad
+          <lb ed="#P" n="34"/>hoc videntur distingui mos et consuetudo ab
+          <lb ed="#P" n="35"/>Isidoro supra, quia mos ad factum tantum 
+          re<lb break="no" ed="#P" n="36"/>fertur, consuetudo vero etiam ad jus; usus
+          <lb ed="#P" n="37"/>vero, juxta tertiam significationem in dicta 
+          le<lb break="no" ed="#P" n="38"/>ge indicatam, potest etiam hoc modo accipi,
+          <lb ed="#P" n="39"/>licet plura comprehendat. Isidorus vero usum
+          <lb ed="#P" n="40"/>etiam retulit ad solum factum, ut ex allegatis
+          <lb ed="#P" n="41"/>verbis intelligitur.
+        </p>
+        <p xml:id="szdleg-q33834-d1e535">
+          <lb ed="#P" n="42"/>5. Consuetudo juris et facti quid. — Ex his
+          <lb ed="#P" n="43"/>ergo constat, cum inquirimus quid sit 
+          consue<lb break="no" ed="#P" n="44"/>tudo, necessarium esse distinguere sub qua
+          <lb ed="#P" n="45"/>ratione consuetudo sumatur : nam aliter 
+          defi<lb break="no" ed="#P" n="46"/>nienda est, ut est quid facti, aliter ut est quid
+          <lb ed="#P" n="47"/>juris. Priori enim modo, optima est definitio
+          <lb ed="#P" n="48"/>quae ex divo Thoma sumitur, scilicet, 
+          consue<lb break="no" ed="#P" n="49"/>Lludo est frequentia operandi libere eodem modo,
+          <lb ed="#P" n="50"/>seu frequentia liberi usus circa quamcumque
+          <lb ed="#P" n="51"/>rem quae nostrae subsit potestati. Est autem
+          <lb ed="#P" n="52"/>advertendum non quamcumque 
+          consuetudi<lb break="no" ed="#P" n="53"/>nem facti habere vim conferendi aliquod jus:
+          <lb ed="#P" n="54"/>nam vitiosa consuetudo nullum jus confert,
+          <lb ed="#P" n="55"/>neque illa quae ex lege nascitur, licet consue-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tudo dicatur, juxta illud Lucae, cap. 2: Ut 
+          fa<lb break="no" ed="#P" n="57"/>cerent secundum consuetudinem legis pro eo.
+          <lb ed="#P" n="58"/>Quae etiam mos solet appellari, ut Actorum 15,
+          <lb ed="#P" n="59"/>circumcisio esse dicitur secundum morem 
+          Mog<lb break="no" ed="#P" n="60"/>si. Et multae sunt consuetudines similes, quae
+          <lb ed="#P" n="61"/>omnes ad praesentem considerationem non
+          <lb ed="#P" n="62"/>spectant. Et ideo, ut definitio limitetur ad 
+          il<lb break="no" ed="#P" n="63"/>lam consuetudinem facti quae ad jus aliquod
+          <lb ed="#P" n="64"/>introducendum sufficiat, necesse est vel hoc
+          <lb ed="#P" n="65"/>ipsum, vel aliquid aequivalens in illa 
+          defini<lb break="no" ed="#P" n="66"/>tione addere, scilicet, esse legitimam 
+          frequen<lb break="no" ed="#P" n="67"/>tiam actuum juri alicui consentaneam, vel
+          <lb ed="#P" n="68"/>habentem conditiones omnes jure requisitas,
+          <lb ed="#P" n="69"/>vel quid simile. Atque ad consuetudinem sic
+          <lb ed="#P" n="70"/>sumptam poterit applicari definitio Isidori, si
+          <lb ed="#P" n="71"/>nomen juris non formaliter, sed causaliter 
+          in<lb break="no" ed="#P" n="72"/>telligatur; si tamen intentio Isidori, et 
+          con<lb break="no" ed="#P" n="73"/>textus, ac proprietas verborum consideretur,
+          <lb ed="#P" n="74"/>non videtur in hoc sensu locutus.
+        </p>
+        <p xml:id="szdleg-q33834-d1e611">
+          <lb ed="#P" n="75"/>6. Quocirca, licet probabile sit Isidorum in
+          <lb ed="#P" n="76"/>citatis locis utraque ratione consuetudinem
+          <lb ed="#P" n="77"/>considerasse, et in illa parte quae ponitur in
+          <lb ed="#P" n="78"/>cap. Mos, locutum esse de consuetudine, prout
+          <lb ed="#P" n="79"/>est quid facti, nam hoc modo mos et 
+          consue<lb break="no" ed="#P" n="80"/>tudo idem sunt, et in eodem sensu dixisse 
+          con<lb break="no" ed="#P" n="81"/>suetudinem dictam esse, quia in communi est
+          <lb ed="#P" n="82"/>ust ; nihilominus in cap. Consuetudo, ubi illam
+          <lb ed="#P" n="83"/>definit modo supra posito, considerasse videtur
+          <lb ed="#P" n="84"/>consuetudinem prout est quid juris, seu quoad
+          <lb ed="#P" n="85"/>jus ipsum, quod ex facto seu frequentia actuum
+          <lb ed="#P" n="86"/>resultat. Et ita facile expediuntur objectiones
+          <lb ed="#P" n="87"/>in principio factae.
+        </p>
+        <p xml:id="szdleg-q33834-d1e642">
+          <lb ed="#P" n="88"/>7. Ad primam enim dicimus in consuetudine
+          <lb ed="#P" n="89"/>utrumque reperiri, scilicet, quid facti et juris,
+          <lb ed="#P" n="90"/>ideo nunc esse sermonem de illa secundum
+          <lb ed="#P" n="91"/>unam rationem, nunc secundum aliam. Et
+          <lb ed="#P" n="92"/>quia, in ordine ad leges de quibus ibi Isidorus
+          <lb ed="#P" n="93"/>tractabat, magis pertinet jus quam factum,
+          <lb ed="#P" n="94"/>ideo sub ea ratione et per genus juris illam
+          <lb ed="#P" n="95"/>definivit. Et sumitur ex leg. De quibus, tf. de
+          <lb ed="#P" n="96"/>Legibus, ubi prius dicitur : De quibus scriptis
+          <lb ed="#P" n="97"/>legibus non wtimur, id custodiri oportet quod
+          <lb ed="#P" n="98"/>moribus et consuetudine introductum est; et
+          <lb ed="#P" n="99"/>infra : Inveterata consuetudo pro lege non 
+          im<lb break="no" ed="#P" n="100"/>merito custoditur, et hoc est jus quod dicitur
+          <lb ed="#P" n="101"/>moribus constitutwmn. Sic etiam in lege 
+          Hispa<lb break="no" ed="#P" n="102"/>niae, partit. 1, tit. 2, 1. 1, definitur consuetudo:
+          <lb ed="#P" n="103"/>H'st jus non scriptum, quod em longo et continuo
+          <lb ed="#P" n="104"/>ustu ortum est. Et eodem modo, per idem 
+          ge<lb break="no" ed="#P" n="105"/>nus, definiunt juristae consuetudinem in 
+          ru<lb break="no" ed="#P" n="106"/>brica de consuetudine, et Bart., in dicta lege
+          <lb ed="#P" n="107"/>De quibus, in lectura, et in Repetit., quaest. 1,
+          <lb ed="#P" n="108"/>ubi nominis aequivocationem recte distinguit
+          <lb ed="#P" n="109"/>fere modo a nobis explicato. Particula autem
+          <lb ed="#P" n="110"/>illa non scriptum, quam addit lex Hispaniae et
+          <pb ed="#P" n="138"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>multi doctores, virtute continetur in eo quod
+          <lb ed="#P" n="2"/>dicitur, esse jus moribus institutum ; nam per
+          <lb ed="#P" n="3"/>hoc distinguitur a lege, utique scripta, et in
+          <lb ed="#P" n="4"/>cap. 3 amplius particulam illam explicabo.
+        </p>
+        <p xml:id="szdleg-q33834-d1e707">
+          <lb ed="#P" n="5"/>8. Atque hinc facile expeditur secunda 
+          ob<lb break="no" ed="#P" n="6"/>jectio : nam sumpta consuetudine prout est
+          <lb ed="#P" n="7"/>quid juris, recte dicitur esse jus moribus 
+          insti<lb break="no" ed="#P" n="8"/>tutum, quia mores ad factum spectant, non
+          <lb ed="#P" n="9"/>ad jus, et ita non ponitur ullo modo definitum
+          <lb ed="#P" n="10"/>in definitione, quia jus consuetudinis per 
+          fre<lb break="no" ed="#P" n="11"/>quentiam actuum moralium introducitur, quae
+          <lb ed="#P" n="12"/>frequentia dicitur mos. Et ita etiam in re
+          <lb ed="#P" n="13"/>nullum committeretur vitium, si jus 
+          consue<lb break="no" ed="#P" n="14"/>tudinis per factum ejusdem consuetudinis 
+          de<lb break="no" ed="#P" n="15"/>finiretur, utendo terminis in diversa 
+          significa<lb break="no" ed="#P" n="16"/>tione. Quod autem Isidorus ait, morem esse
+          <lb ed="#P" n="17"/>consuetudinem tantum de moribus tractam, 
+          op<lb break="no" ed="#P" n="18"/>timum habet sensum, et sine ullo vitio, 
+          ad<lb break="no" ed="#P" n="19"/>vertendo mores interdum dici quasi divisive
+          <lb ed="#P" n="20"/>seu distributive de singulis actibus moralibus;
+          <lb ed="#P" n="21"/>morem autem, ut significat consuetudinem,
+          <lb ed="#P" n="22"/>quasi collective significare collectionem illam,
+          <lb ed="#P" n="23"/>seu frequentiam actuum : sic ergo dicitur mos
+          <lb ed="#P" n="24"/>trahi ex moribus, id est, ex actibus liberis et
+          <lb ed="#P" n="25"/>moralibus. Vel etiam considerari potest non
+          <lb ed="#P" n="26"/>quemcumque morem, sed communem et 
+          pu<lb break="no" ed="#P" n="27"/>blicum alicujus communitatis esse sufficientem
+          <lb ed="#P" n="28"/>ad inducendum jus consuetudinis, de quo
+          <lb ed="#P" n="29"/>tractamus, id est, quod obligationem legis 
+          pos<lb break="no" ed="#P" n="30"/>sit inducere : nam privatus mos unius personae
+          <lb ed="#P" n="31"/>vel familiae non inducit jus legis, ut infra 
+          di<lb break="no" ed="#P" n="32"/>cemus. Dicitur ergo haec consuetudo, quae ad
+          <lb ed="#P" n="33"/>inducendum jus sufficit, debere trahi ex 
+          mori<lb break="no" ed="#P" n="34"/>bus, id est, debere esse morem ita communem,
+          <lb ed="#P" n="35"/>ut ex moribus totius communitatis, et omnium,
+          <lb ed="#P" n="36"/>vel plurium partium ejus consurgat. Addit 
+          de<lb break="no" ed="#P" n="37"/>nique Isidorus particulam exclusivam tantum,
+          <lb ed="#P" n="38"/>ad denotandum illum morem ad 
+          consuetudi<lb break="no" ed="#P" n="39"/>nem juris constitutivam (ut sic dicam) sufficere,
+          <lb ed="#P" n="40"/>qui solo usu et moribus introductus sit, absque
+          <lb ed="#P" n="41"/>lege et jure scripto quod illum induxerit : nam
+          <lb ed="#P" n="42"/>mos ille cum sit ex jure, ut sic non inducit
+          <lb ed="#P" n="43"/>jus, licet firmare possit illud, ut infra dicemus.
+        </p>
+        <p xml:id="szdleg-q33834-d1e795">
+          <lb ed="#P" n="44"/>9. Ad tertiam difficultatem jam dictum est,
+          <lb ed="#P" n="45"/>licet jus consuetudinis sit effectus 
+          consuetudi<lb break="no" ed="#P" n="46"/>nis facti, nihilominus hic non definiri 
+          consue<lb break="no" ed="#P" n="47"/>tudinem facti, sed juris, et ideo cum additur,
+          <lb ed="#P" n="48"/>quod pro lege suscipitur, non poni effectum
+          <lb ed="#P" n="49"/>consuetudinis definitae, sed substantiam ejus
+          <lb ed="#P" n="50"/>declarari. Dicitur autem pro lege suscipi, non
+          <lb ed="#P" n="51"/>quia non sit vera lex, sed quia Isidorus nomen
+          <lb ed="#P" n="52"/>legis accommodat ad legem scriptam, et ideo
+          <lb ed="#P" n="53"/>dicit jus consuetudinis loco illius suscipi, ubi
+          <lb ed="#P" n="54"/>illa deest. Advertit autem Bart. in dicta repet.,
+          <lb ed="#P" n="55"/>n. 6, per hanc particulam distingui consuetu-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dinem a jure quod descendit ex usu 
+          singula<lb break="no" ed="#P" n="57"/>ris personae, quod non suscipitur pro lege,
+          <lb ed="#P" n="58"/>nec est jus disponens, sed potius dispositum
+          <lb ed="#P" n="59"/>per legem. Ad quod intelligendum, adverto
+          <lb ed="#P" n="60"/>(quod in principio hujus tractatus notavi) jus
+          <lb ed="#P" n="61"/>dupliciter dici; uno modo, de illo quod 
+          con<lb break="no" ed="#P" n="62"/>sistit in facultate utendi, quod est dominium,
+          <lb ed="#P" n="63"/>vel quasi dominium : nam potest includere jus
+          <lb ed="#P" n="64"/>in re, et ad rem, et generaliter dici potest jus
+          <lb ed="#P" n="65"/>dominii, vel quasi dominii, et ita in rigore
+          <lb ed="#P" n="66"/>spectat ad factum : alio modo dicitur jus de
+          <lb ed="#P" n="67"/>illo, quod vim habet obligandi et imperandi,
+          <lb ed="#P" n="68"/>et dici potest jus legis, seu legale. Privatus
+          <lb ed="#P" n="69"/>ergo usus unius personae potest conferre jus
+          <lb ed="#P" n="70"/>in re, vel dominium rei, aut jus servitutis, et
+          <lb ed="#P" n="71"/>similia, ut in praescriptione contingit : illud
+          <lb ed="#P" n="72"/>tamen jus non habet vim legis, et ideo recte
+          <lb ed="#P" n="73"/>dicitur non esse jus disponens, quia non 
+          prae<lb break="no" ed="#P" n="74"/>cipit nec ordinat, sed potius esse jus 
+          disposi<lb break="no" ed="#P" n="75"/>tum, quia acquiritur secundum juris 
+          disposi<lb break="no" ed="#P" n="76"/>tionem. Consuetudo autem, de qua modo 
+          lo<lb break="no" ed="#P" n="77"/>quimur, non hoc jus, sed legale est, et ideo
+          <lb ed="#P" n="78"/>dicitur esse jus quod pro lege suscipitur, et ad
+          <lb ed="#P" n="79"/>illud requiri consuetudinem , quae moribus
+          <lb ed="#P" n="80"/>utentium, id est, communitatis alicujus 
+          indu<lb break="no" ed="#P" n="81"/>catur.
+        </p>
+        <p xml:id="szdleg-q33834-d1e882">
+          <lb ed="#P" n="82"/>10. Differentia inter consuetudinem et 
+          pre<lb break="no" ed="#P" n="83"/>scriptionem notanda. — Unde obiter declarata
+          <lb ed="#P" n="84"/>est differentia inter consuetudinem, de qua
+          <lb ed="#P" n="85"/>loquimur, et praescriptionem : seepe enim illae
+          <lb ed="#P" n="86"/>duae voces consuetudinis et praescriptionis 
+          reci<lb break="no" ed="#P" n="87"/>proce, et quasi pro eadem accipi solent, propter
+          <lb ed="#P" n="88"/>aliquas convenientias quas habent. 
+          Nihilomi<lb break="no" ed="#P" n="89"/>nus tamen, secundum proprias rationes 
+          sump<lb break="no" ed="#P" n="90"/>tae multum differunt, ut Bart., d. quaest. 1, in
+          <lb ed="#P" n="91"/>fine, docet, et alii antiquiores quos refert, et
+          <lb ed="#P" n="92"/>alii posteriores, ut Panorm. et Roch. Curt. in
+          <lb ed="#P" n="93"/>cap. ult. de Const., cum Glossa ibi, verb. 
+          Le<lb break="no" ed="#P" n="94"/>gitime, et Haim. Cravet., de Antiquit. tempor.,
+          <lb ed="#P" n="95"/>4 p., in princ.; Bald. de Praeseript., 1 part.,
+          <lb ed="#P" n="96"/>quaest. 10; Roch. Curt., in cap. ult. de 
+          Con<lb break="no" ed="#P" n="97"/>suet., sect. 5, n. 3; et Covar. in regula 
+          Pos<lb break="no" ed="#P" n="98"/>sessor, 9 p., 83, n. 2; Matienz., 1. 5 Recopil.,
+          <lb ed="#P" n="99"/>t. 7, 1l. 1, Gloss. 6, n. 3; et Molin., lib. 1, de
+          <lb ed="#P" n="100"/>Primogen., cap. 6, n. 10, qui plures 
+          differen<lb break="no" ed="#P" n="101"/>tias assignant, quibus omissis radix diversitatis
+          <lb ed="#P" n="102"/>ex dictis clarius colligitur. Quia tam in 
+          prae<lb break="no" ed="#P" n="103"/>scriptione quam in lege non scripta intervenit
+          <lb ed="#P" n="104"/>aliquid facti et juris, quod per factum 
+          intro<lb break="no" ed="#P" n="105"/>ducitur : unde et praescriptio consuetudinem
+          <lb ed="#P" n="106"/>aliquam requirit, et lex non scripta interdum
+          <lb ed="#P" n="107"/>requirit consuetudinem aliquo modo 
+          praescri<lb break="no" ed="#P" n="108"/>ptam, seu certam et legitimam.
+        </p>
+        <p xml:id="szdleg-q33834-d1e943">
+          <lb ed="#P" n="109"/>11. Prima differentia. — Differunt autem
+          <lb ed="#P" n="110"/>imprimis, ac praecipue in ipso jure, quia prae-
+          <pb ed="#P" n="139"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>scriptio stricte sumpta non introducit 
+          juslega<lb break="no" ed="#P" n="2"/>le, seu disponens tanquam lex, sed confert
+          <lb ed="#P" n="3"/>jus dominii, aut aliud simile jus utendi vel
+          <lb ed="#P" n="4"/>fruendi, aut re corporali, ut domo, veste, aut
+          <lb ed="#P" n="5"/>incorporali, ut jurisdictione, suffragio. Et hinc
+          <lb ed="#P" n="6"/>etiam differunt in consuetudine facti, per quam
+          <lb ed="#P" n="7"/>unum vel aliud jus introducitur; nam alias
+          <lb ed="#P" n="8"/>conditiones requirit consuetudo praescriptionis
+          <lb ed="#P" n="9"/>quam legis. Nam ad jus legis necessaria est
+          <lb ed="#P" n="10"/>consuetudo populi; ad praescriptionem sufficit
+          <lb ed="#P" n="11"/>usus privatae personae, nisi res praescribenda
+          <lb ed="#P" n="12"/>communitati sit acquirenda. Aliqui vero ex
+          <lb ed="#P" n="13"/>juristis citatis consuetudinem vocant, quoties
+          <lb ed="#P" n="14"/>communitas est quae praescribit , vel contra
+          <lb ed="#P" n="15"/>communitatem praescribitur; sed non recte,
+          <lb ed="#P" n="16"/>quia jus acquisitum non est lex, sed 
+          domi<lb break="no" ed="#P" n="17"/>nium, vel aliud jus utendi: nam tunc 
+          commu<lb break="no" ed="#P" n="18"/>nitas se habet tanquam unus privatus 
+          posses<lb break="no" ed="#P" n="19"/>sor ac dominus ; et differentia, quod persona
+          <lb ed="#P" n="20"/>praescribens, vel contra quam praescribitur, sit
+          <lb ed="#P" n="21"/>vera vel ficta, valde materialis est. Non 
+          opor<lb break="no" ed="#P" n="22"/>tet autem de nominibus contendere.
+        </p>
+        <p xml:id="szdleg-q33834-d1e1002">
+          <lb ed="#P" n="23"/>12. Secunda differentia. — Alia differentia
+          <lb ed="#P" n="24"/>est, quia ad consuetudinem propriam et 
+          lega<lb break="no" ed="#P" n="25"/>lem, de qua loquimur, necessarius est 
+          consen<lb break="no" ed="#P" n="26"/>sus populi vel principis contra quem 
+          quodam<lb break="no" ed="#P" n="27"/>modo inducitur; in praescriptione autem non
+          <lb ed="#P" n="28"/>est necessarius consensus ejus contra quem
+          <lb ed="#P" n="29"/>praescribitur, ut notavi in tract. 2 de Relig.,
+          <lb ed="#P" n="30"/>l. 1, cap. 5; et hinc est ut ad consuetudinem
+          <lb ed="#P" n="31"/>non requiratur titulus, quia consensus sufficit,
+          <lb ed="#P" n="32"/>ad praescriptionem autem requiritur. tta 
+          Glos<lb break="no" ed="#P" n="33"/>sa, Abb. et alii d. c. ult. Intelligitur autem
+          <lb ed="#P" n="34"/>negative, seu indefinite, quia ad 
+          praescriptio<lb break="no" ed="#P" n="35"/>nem saepe requiritur titulus, non tamen 
+          sem<lb break="no" ed="#P" n="36"/>per; ad consuetudinem vero nunquam. Unde
+          <lb ed="#P" n="37"/>etiam in praescriptione requiritur bona fides,
+          <lb ed="#P" n="38"/>in consuetudine autem non semper, saltem in
+          <lb ed="#P" n="39"/>principio. Denique, licet in utraque aliquis
+          <lb ed="#P" n="40"/>teraporis cursus requiratur, non tamen idem;
+          <lb ed="#P" n="41"/>sed in praescriptione postulatur juxta legis
+          <lb ed="#P" n="42"/>dispositionem; in consuetudine autem, vel
+          <lb ed="#P" n="43"/>non est eadem juris dispositio, vel per se 
+          ne<lb break="no" ed="#P" n="44"/>cessaria non est, sed illud sufficit, quod ad 
+          ju<lb break="no" ed="#P" n="45"/>dicandum consensum principis vel populi 
+          suf<lb break="no" ed="#P" n="46"/>ficiens sit, ut postea exponemus. Aliae 
+          diffe<lb break="no" ed="#P" n="47"/>rentie assignantur a dictis auctoribus, quae
+          <lb ed="#P" n="48"/>vel revera non subsistunt, vel eas examinare
+          <lb ed="#P" n="49"/>nobis non est necessarium.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

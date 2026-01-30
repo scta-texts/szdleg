@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 38</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 38</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="410"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-s03383"><!-- l8c38 -->
+        <head xml:id="szdleg-s03383-Hd1e101">Caput 38</head>
+        <head xml:id="szdleg-s03383-Hd1e103" type="question-title">Quibus modis soleat privilegium revocabri.</head>
+        <p xml:id="szdleg-s03383-d1e106">
+          <lb ed="#P" n="71"/>CAPUT XXXVIII.
+          <lb ed="#P" n="72"/>QUIBUS MODIS SOLEAT PRIVILEGIUM REVOCABRI.
+        </p>
+        <p xml:id="szdleg-s03383-d1e113">
+          <lb ed="#P" n="73"/>1. De modis revocandi privilegium. —
+          Revo<lb break="no" ed="#P" n="74"/>catio duplem - tacita, expressa. — Expressa
+          <lb ed="#P" n="75"/>dupleag.— Clausula generalis regulariter 
+          suf<lb break="no" ed="#P" n="76"/>ficiti derogare privilegia specialia. — Haec
+          <lb ed="#P" n="77"/>quaestio valde est ad praxim necessaria, et
+          <lb ed="#P" n="78"/>ad intelligenda rescripta vel leges aut statuta
+          <lb ed="#P" n="79"/>per quae solent privilegia revocari. Igitur sicut
+          <lb ed="#P" n="80"/>de renuntiatione diximus, ita hic potest dividi
+          <lb ed="#P" n="81"/>revocatio in expressam et tacitam. Prior etiam
+          <lb ed="#P" n="82"/>dupheiter fieri potest. Primo, non solum 
+          ex<lb break="no" ed="#P" n="83"/>pressis verbis, sed etiam in specie et in 
+          parti<lb break="no" ed="#P" n="84"/>culart, et tunc nulla superest difficultas, 
+          sup<lb break="no" ed="#P" n="85"/>posita potestate revocandi privilegium, quia
+          <lb ed="#P" n="86"/>de voluntate satis per illa verba constat, 
+          ideo<lb break="no" ed="#P" n="87"/>que de illo genere revocationis nihil amplius
+          <lb ed="#P" n="88"/>dicendum occurrit. Aliter fieri solet expressa
+          <lb ed="#P" n="89"/>et directa revocatio, non tamen in specie, sed
+          <lb ed="#P" n="90"/>per clausulam generalem, scilicet, aon 
+          obstan<lb break="no" ed="#P" n="91"/>tibus quibuscunque privilegiis, etc.; et Wla
+          <lb ed="#P" n="92"/>etiam regulariter sufficit, quia genus de se
+          <lb ed="#P" n="93"/>comprehendit species. Dico autem regulariter,
+          <lb ed="#P" n="94"/>primo, propter privilegia in jure contenta,
+          <lb ed="#P" n="95"/>quae aliquid specialius requirunt: nam, eo
+          <lb ed="#P" n="96"/>ipso quod in corpore juris inferuntur, non
+          <lb ed="#P" n="97"/>tantum privilegia, sed etiam leges publicae
+          <lb ed="#P" n="98"/>censentur, et ideo non derogantur per 
+          gene<lb break="no" ed="#P" n="99"/>ralem clausulam revocatoriam privilegiorum
+          <lb ed="#P" n="100"/>in posteriori privilegio positam, nisi addatur
+          <lb ed="#P" n="101"/>etiam clausula derogatoria legum, seu 
+          cano<lb break="no" ed="#P" n="102"/>num, ut recte notat Glossa in Authentica
+          <lb ed="#P" n="103"/>Quia, cod. Ubi de criminibus, etc., verbo
+          <lb ed="#P" n="104"/>lilic omni privilegio. Quae ibi communiter
+          <lb ed="#P" n="105"/>probatur, et sensit etiam Glossa in lege Haeres
+          <lb ed="#P" n="106"/>absens, ft. de Judic., verb. Za«cusatur ; et
+          <lb ed="#P" n="107"/>Glossa 1, in l. 3, cod. de Silentiariis, 1. 10. Et
+          <pb ed="#P" n="411"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>potest sumi ex illis verbis illius legis: Von
+          <lb ed="#P" n="2"/>prajudicatur a quacumque generalitate 
+          prag<lb break="no" ed="#P" n="3"/>matica. Et de hoc puncto videri potest Jason
+          <lb ed="#P" n="4"/>in I. 1, cod. Soluto matrim.
+        </p>
+        <p xml:id="szdleg-s03383-d1e204">
+          <lb ed="#P" n="5"/>2. Secundo, dixi regulariter propter 
+          privile<lb break="no" ed="#P" n="6"/>gia quae in suo tenore continent ut revocari
+          <lb ed="#P" n="7"/>non possint, nisi fiat expressa eorum mentio
+          <lb ed="#P" n="8"/>de verbo ad verbum, vel aliquid simile. De
+          <lb ed="#P" n="9"/>quibus quomodo revocari valeant seu per quae
+          <lb ed="#P" n="10"/>verba, late tractant canonistae, viderique 
+          po<lb break="no" ed="#P" n="11"/>test Felinus in cap. NVonnulli, de Rescript.,
+          <lb ed="#P" n="12"/>n. 6 et sequentibus, et Panormitanus in cap.
+          <lb ed="#P" n="13"/>Cum instantia, de Censibus, n. 5. Summa 
+          ta<lb break="no" ed="#P" n="14"/>men omnium est oportere ut addantur alia
+          <lb ed="#P" n="15"/>verba reflexiva (ut ita dicam), ut revocari
+          <lb ed="#P" n="16"/>possint. Ut, verbi gratia, si dicatur : IVon 
+          ob<lb break="no" ed="#P" n="17"/>stante tali vel tali clausula, revocata 
+          intelli<lb break="no" ed="#P" n="18"/>gantur ; vel signatim dicatur : Non obstante
+          <lb ed="#P" n="19"/>privilegio sub quacumque verborum forma 
+          con<lb break="no" ed="#P" n="20"/>cesso, ut in Clem. 1, de Sepult., in fine; vel
+          <lb ed="#P" n="21"/>alio simili modo, ut in Clem. 2 ejusdem 
+          titu<lb break="no" ed="#P" n="22"/>li, et similibus, quae sunt in usu 
+          frequentis<lb break="no" ed="#P" n="23"/>sima. Et ratio clara est, quia non est 
+          cogen<lb break="no" ed="#P" n="24"/>dus Pontifex ut de verbo ad verbum talia 
+          pri<lb break="no" ed="#P" n="25"/>vilegia referat quae fortasse scire non potest,
+          <lb ed="#P" n="26"/>neque est privandus potestate revocandi illa
+          <lb ed="#P" n="27"/>quando oportuerit ; ergo satis est ut per alia
+          <lb ed="#P" n="28"/>verba generalia quae priora comprehendant,
+          <lb ed="#P" n="29"/>sufficienter explicet mentem.
+        </p>
+        <p xml:id="szdleg-s03383-d1e262">
+          <lb ed="#P" n="30"/>3. Tertio, dixi regulariter propter privilegia
+          <lb ed="#P" n="31"/>concessa per modum contractus, quae non 
+          re<lb break="no" ed="#P" n="32"/>vocantur per clausulam generalem, etiam 
+          ex<lb break="no" ed="#P" n="33"/>pressam , nisi saltem in genere revocentur
+          <lb ed="#P" n="34"/>privilegia, etiamsi per modum contractus 
+          fue<lb break="no" ed="#P" n="35"/>rint concessa. Quia cum talia privilegia jure
+          <lb ed="#P" n="36"/>ordinario sint irrevocabilia, et necessaria sit
+          <lb ed="#P" n="37"/>gravissima causa ut juste revocentur, non
+          <lb ed="#P" n="38"/>praesumuntur revocari, nisi praedicto saltem
+          <lb ed="#P" n="39"/>modo sufficienter exprimatur. Item quia talis
+          <lb ed="#P" n="40"/>revocatio est in praejudicium tertii in jure 
+          ac<lb break="no" ed="#P" n="41"/>quisito et justitiae ; tale autem praejudicium
+          <lb ed="#P" n="42"/>non praesumitur, nisi exprimatur, ut supra
+          <lb ed="#P" n="43"/>ostensum est. Et ita potest sumi ex Glossa in
+          <lb ed="#P" n="44"/>Clement. Dudum, de Sepult., verb. Pacta,
+          <lb ed="#P" n="45"/>circa finem; et vide ibi Cardin., et notavit
+          <lb ed="#P" n="46"/>Azeu. in tit. 3, l. 14, l. 1 Recopilat., n. 42;
+          <lb ed="#P" n="47"/>et Sanc., dicta disput. 33, n. 8.
+        </p>
+        <p xml:id="szdleg-s03383-d1e304">
+          <lb ed="#P" n="48"/>4. Tacita revocatio quae — Duo certa - 
+          pri<lb break="no" ed="#P" n="49"/>mwmn.— Secundum.—Nenio ad tacitam 
+          revo<lb break="no" ed="#P" n="50"/>cationem, quae in universum dici potest 
+          om<lb break="no" ed="#P" n="51"/>nis illa quae non fit per clausulam expresse et
+          <lb ed="#P" n="52"/>directe vel (ut sic dicam) in actu signato 
+          de<lb break="no" ed="#P" n="53"/>rogantem privilegio, sed fit in actu exercito,
+          <lb ed="#P" n="54"/>et implicite , seu per quamdam 
+          consecutio<lb break="no" ed="#P" n="55"/>nem. Quod maxime censetur contingere
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quando princeps facit aliquem actum qui non
+          <lb ed="#P" n="57"/>potest subsistere, vel habere effectum 
+          inten<lb break="no" ed="#P" n="58"/>tum, vel saltem non adaequatum, sine derog
+          <lb ed="#P" n="59"/>tione privilegii prius concessi; tunc enim cum
+          <lb ed="#P" n="60"/>illaa due voluntates principis sint contrariae,
+          <lb ed="#P" n="61"/>necesse est, ut una impediat aliam, quia 
+          ea<lb break="no" ed="#P" n="62"/>rum effectus, ut supponitur, non possunt
+          <lb ed="#P" n="63"/>esse simul : ergo posterior voluntas vincet
+          <lb ed="#P" n="64"/>priorem, et consequenter tollet effectum ejus,
+          <lb ed="#P" n="65"/>quia semper posterior voluntas efficacior est,
+          <lb ed="#P" n="66"/>quia cadit supra praecedentem. De hoc ergo
+          <lb ed="#P" n="67"/>genere tacitae revocationis duo sunt certa.
+          <lb ed="#P" n="68"/>Unum est, tunc posteriorem actum habere
+          <lb ed="#P" n="69"/>vim tollendi prius privilegium, quando habet
+          <lb ed="#P" n="70"/>omnes conditiones necessarias ad virtualem
+          <lb ed="#P" n="71"/>voluntatem unius objecti in alio, vel effectus
+          <lb ed="#P" n="72"/>in sua causa. Aliud est, sine conditionibus 
+          hu<lb break="no" ed="#P" n="73"/>jusmodi non subsistere tacitam revocationem
+          <lb ed="#P" n="74"/>privilegu. Ratio prioris partis est, quia hic 
+          ef<lb break="no" ed="#P" n="75"/>fectus revocandi privilegium pendet ex 
+          vo<lb break="no" ed="#P" n="76"/>luntate principis, quia jam supponimus 
+          potes<lb break="no" ed="#P" n="77"/>tatem ; sed in moralibus virtualis voluntas
+          <lb ed="#P" n="78"/>equivalet formah, et ideo in jure tacitum
+          <lb ed="#P" n="79"/>aequiparatur expresso, ut supra visum est:
+          <lb ed="#P" n="80"/>ergo etiam in praesenti aequiparantur, et illa
+          <lb ed="#P" n="81"/>voluntas habebit eumdem effectum. Unde a
+          <lb ed="#P" n="82"/>contrario concluditur altera pars : nam 
+          defi<lb break="no" ed="#P" n="83"/>cientibus illis conditionibus, deficit voluntas
+          <lb ed="#P" n="84"/>non tantum formalis, sed etiam virtualis; sine
+          <lb ed="#P" n="85"/>voluntate autem non potest esse revocatio, ut
+          <lb ed="#P" n="86"/>constat.
+        </p>
+        <p xml:id="szdleg-s03383-d1e393">
+          <lb ed="#P" n="87"/>5. Conditiones necessarie ut privilegium 
+          ta<lb break="no" ed="#P" n="88"/>cite revocetur. — Voluntas formalis contraria
+          <lb ed="#P" n="89"/>ignorato privilegio non tollit illud. — His 
+          au<lb break="no" ed="#P" n="90"/>tem addendum est conditiones requisitas et
+          <lb ed="#P" n="91"/>sufficientes ex parte principis ad hanc 
+          virtua<lb break="no" ed="#P" n="92"/>lem voluntatem, et consequenter ad 
+          revoca<lb break="no" ed="#P" n="93"/>tionem tacitam, esse scientiam privilegiu et
+          <lb ed="#P" n="94"/>voluntatem faciendi actum illi repugnantem,
+          <lb ed="#P" n="95"/>non obstante privilegio. Nam si haec duo 
+          con<lb break="no" ed="#P" n="96"/>currant tam ex parte intellectus quam ex 
+          par<lb break="no" ed="#P" n="97"/>te voluntatis, concurrunt omnia necessaria
+          <lb ed="#P" n="98"/>ad virtualem voluntatem. At vero si 
+          interve<lb break="no" ed="#P" n="99"/>niat ignorantia privilegii, voluntas formalis
+          <lb ed="#P" n="100"/>alterius actus de se repugnantis privilegio non
+          <lb ed="#P" n="101"/>erit virtualis voluntas revocandi privilegium,
+          <lb ed="#P" n="102"/>quia ignorantia causat non voluntarium, eo
+          <lb ed="#P" n="103"/>quod nihil sit volitum quin praecognitum.
+          <lb ed="#P" n="104"/>Quod eleganter indicavit jurisconsultus in 
+          le<lb break="no" ed="#P" n="105"/>ge Idem Ulpianus, S Sunt et alii, ff. de
+          <lb ed="#P" n="106"/>Excusat. tutor. Dicit enim facultatem alicui
+          <lb ed="#P" n="107"/>tutori datam ad mutandum domicilium tunc
+          <lb ed="#P" n="108"/>esse virtualem licentiam dimittendi munus
+          <lb ed="#P" n="109"/>et sollicitudinem illam, cum data est ec 
+          re<lb break="no" ed="#P" n="110"/>scripto imperatoris scientis tutorem esse cum,
+          <pb ed="#P" n="412"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>judicans aperte sine tali scientia non posse
+          <lb ed="#P" n="2"/>esse illam tacitam facultatem, ubi id notant
+          <lb ed="#P" n="3"/>Glossa, Bartolus, et doctores. Idem sumitur
+          <lb ed="#P" n="4"/>satis aperte ex cap. 1 de Constitution., ubi
+          <lb ed="#P" n="5"/>Papa dicit se non revocare tacite per suam 
+          le<lb break="no" ed="#P" n="6"/>gem generalem ea quae ignorare praesumitur,
+          <lb ed="#P" n="7"/>quia nimirum cum illa ignorantia non stat
+          <lb ed="#P" n="8"/>virtualis voluntas. Ubi etiam id communiter
+          <lb ed="#P" n="9"/>notatur, et in cap. INVonnulli, de Rescriptis, ex
+          <lb ed="#P" n="10"/>quo textu et ex aliis referendis idem 
+          colligi<lb break="no" ed="#P" n="11"/>tur, et est res clara et ab omnibus recepta.
+          <lb ed="#P" n="12"/>Solum est observandum, quando constat 
+          prin<lb break="no" ed="#P" n="13"/>cipem non ignorasse privilegium, tunc 
+          atten<lb break="no" ed="#P" n="14"/>te inspiciendum esse quanta sit repugnantia
+          <lb ed="#P" n="15"/>inter actum principis et privilegium, quia 
+          so<lb break="no" ed="#P" n="16"/>lum in eo derogabit privilegio, et non 
+          am<lb break="no" ed="#P" n="17"/>plius. Ftaque si absolute est incompatibilis 
+          no<lb break="no" ed="#P" n="18"/>va dispositio principis cum toto privilegio, 
+          to<lb break="no" ed="#P" n="19"/>tum auferet et revocabit; si vero solum ex
+          <lb ed="#P" n="20"/>parte deroget, tantum suspendet illud pro 
+          ali<lb break="no" ed="#P" n="21"/>quo tempore, vel derogabit in uno eftectu
+          <lb ed="#P" n="22"/>vel actu, juxta mensuram repugnantiae. Ut si
+          <lb ed="#P" n="23"/>rex jubeat semel exigi tributum a 
+          privilegia<lb break="no" ed="#P" n="24"/>to, non statim censetur absolute revocare 
+          pri<lb break="no" ed="#P" n="25"/>vilegium totum, sed tantum pro illa vice, 
+          si<lb break="no" ed="#P" n="26"/>cut supra in simili de tacita renuntiatione 
+          di<lb break="no" ed="#P" n="27"/>cebamus. Quia revocatio est odiosa, et ideo
+          <lb ed="#P" n="28"/>non est extendenda ultra praecisam 
+          necessita<lb break="no" ed="#P" n="29"/>tem. Item quia si repugnantia non est major,
+          <lb ed="#P" n="30"/>nec virtualis voluntas in rigore est major, 
+          ni<lb break="no" ed="#P" n="31"/>si aliunde de illa constet.
+        </p>
+        <p xml:id="szdleg-s03383-d1e519">
+          <lb ed="#P" n="32"/>6. Dubium circa tacitam revocationem. —
+          <lb ed="#P" n="33"/>Difficultas vero est circa hanc revocationem
+          <lb ed="#P" n="34"/>tacitam, quando censeatur princeps 
+          posterio<lb break="no" ed="#P" n="35"/>rem actum seu dispositionem facere cum
+          <lb ed="#P" n="36"/>ignorantia vel scientia privilegii, quando id
+          <lb ed="#P" n="37"/>non constaret ex secundo rescripto vel lege:
+          <lb ed="#P" n="38"/>nam si id constet per verba vel clausulam
+          <lb ed="#P" n="39"/>aliquam id sufficienter explicantem, tollitur
+          <lb ed="#P" n="40"/>obscuritas, imo tune potius censebitur 
+          ex<lb break="no" ed="#P" n="41"/>pressa quam tacita revocatio, ut si addatur
+          <lb ed="#P" n="42"/>clausula «on obstante, etc., vel similes de 
+          qui<lb break="no" ed="#P" n="43"/>bus in superioribus dictum est. Propria ergo
+          <lb ed="#P" n="44"/>difficultas est quando in posteriori rescripto
+          <lb ed="#P" n="45"/>nulla fit mentio privilegii, nec in specie, nec
+          <lb ed="#P" n="46"/>in genere, se solum fit simpliciter nova 
+          dis<lb break="no" ed="#P" n="47"/>positio repugnans privilegio. De qua re multa
+          <lb ed="#P" n="48"/>dicunt juris canonici interpretes in c. Veniens,
+          <lb ed="#P" n="49"/>de Praescript., et in c. 1 et c. Nonnulli, de
+          <lb ed="#P" n="50"/>hescriptis, Gloss. et alii, 25, q. 2, in princip.,
+          <lb ed="#P" n="51"/>Sylvester et alii summistae verbo 
+          Privile<lb break="no" ed="#P" n="52"/>gium ; nos autem nonnullis regulis breviter
+          <lb ed="#P" n="53"/>rem totam in sequenti capite 
+          comprehen<lb break="no" ed="#P" n="54"/>demus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

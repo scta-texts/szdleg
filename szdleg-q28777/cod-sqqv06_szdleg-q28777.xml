@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 24</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 24</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="114"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q28777"><!-- l6c24 -->
+        <head xml:id="szdleg-q28777-Hd1e101">Caput 24</head>
+        <head xml:id="szdleg-q28777-Hd1e103" type="question-title">An dispensatio in uno vinculo, tacitis alis, obtenta, surreptitia et nulla sit.</head>
+        <p xml:id="szdleg-q28777-d1e106">
+          <lb ed="#P" n="83"/>CAPUT XXIV.
+          <lb ed="#P" n="84"/>AN DISPENSATIO IN UNO VINCULO, TACITIS ALIS,
+          <lb ed="#P" n="85"/>OBTENTA, SURREPTITIA ET NULLA SIT.
+        </p>
+        <p xml:id="szdleg-q28777-d1e115">
+          <lb ed="#P" n="86"/>1. Haec quaestio tractatur optime circa 
+          im<lb break="no" ed="#P" n="87"/>pedimenta matrimonii a Patre Thoma Sanc. in
+          <lb ed="#P" n="88"/>dicto lib. 8, disput. 23; habet autem locum
+          <lb ed="#P" n="89"/>cum proportione in aliis dispensationibus et
+          <lb ed="#P" n="90"/>legibus, et ideo breviter expedienda est. Duae
+          <lb ed="#P" n="91"/>ergo sunt opiniones : prima simpliciter 
+          affir<lb break="no" ed="#P" n="92"/>mat talem dispensationem esse validam 
+          quan<lb break="no" ed="#P" n="93"/>tum ad effectum ad quem impetratur, ut, siquis
+          <lb ed="#P" n="94"/>habens duas irregularitates ad ordines, petat
+          <lb ed="#P" n="95"/>dispensationem unius, verbi gratia, 
+          illegitimi<lb break="no" ed="#P" n="96"/>tatis, tacita bigamia, concessa dispensatione
+          <lb ed="#P" n="97"/>tolletur impedimentum illegitimitatis, manebit
+          <lb ed="#P" n="98"/>tamen aliud, ratione cujus non sufficiet illa
+          <lb ed="#P" n="99"/>dispensatio, nisi addatur alia de altera 
+          irregu<lb break="no" ed="#P" n="100"/>laritate, et simile exemplum facile potest poni
+          <lb ed="#P" n="101"/>in matrimonio. Ita tenet Navar., cons. 6 de
+          <lb ed="#P" n="102"/>Rescript., et cons. 7 et 8 de Consang. et 
+          affi<lb break="no" ed="#P" n="103"/>nit., et saepe alias in suis consiliis, quem secuti
+          <lb ed="#P" n="104"/>sunt multi moderni, quos supra refert Sanc.,
+          <lb ed="#P" n="105"/>num. 1. Ex antiquis vero solum refert Joan.
+          <lb ed="#P" n="106"/>Andr., in Arbore affinitatis, S 2, n. 5, in tom.
+          <lb ed="#P" n="107"/>9 Tract., n. 5, dicentem, qui habet simul im-
+          <pb ed="#P" n="115"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>pedimentum affinitatis et publicae honestatis,
+          <lb ed="#P" n="2"/>si petat dispensationem primi, tacito secundo,
+          <lb ed="#P" n="3"/>illud tolli, isto manente. Fundamentum est,
+          <lb ed="#P" n="4"/>quia potest tolh unum impedimentum sine
+          <lb ed="#P" n="5"/>alio, sicut et potest esse; ergo ex hac parte
+          <lb ed="#P" n="6"/>non repugnat talem dispensationem esse 
+          vali<lb break="no" ed="#P" n="7"/>dam et habere suum effectum. Nec ratione
+          <lb ed="#P" n="8"/>surreptionis, quia nulla est lex quae praecipiat
+          <lb ed="#P" n="9"/>expressionem plu:ium defectuum, ut tollatur
+          <lb ed="#P" n="10"/>unum. Nec ex natura rei est necessarium, quia,
+          <lb ed="#P" n="11"/>ut princeps habeat justam et efficacem 
+          volun<lb break="no" ed="#P" n="12"/>tatem tollendi alique m defectum vel vinculum,
+          <lb ed="#P" n="13"/>satis est ut illud perfecte narretur cum causa
+          <lb ed="#P" n="14"/>sufficiente ad dispensationem : hoc autem 
+          to<lb break="no" ed="#P" n="15"/>tum suflicienter narrari potest, explicando
+          <lb ed="#P" n="16"/>unum irmpedimentum sine aliis. Et addit 
+          Na<lb break="no" ed="#P" n="17"/>var. ita observari ex stylo curiae.
+        </p>
+        <p xml:id="szdleg-q28777-d1e206">
+          <lb ed="#P" n="18"/>2. Secunda sententia universaliter affirmat
+          <lb ed="#P" n="19"/>esse irritam et surreptitiam dispensationem
+          <lb ed="#P" n="20"/>unius impedimenti, quando occultantur alia
+          <lb ed="#P" n="21"/>quae erant conjuncta cum illo. Hanc opinionem
+          <lb ed="#P" n="22"/>censet esse longe probabiliorem Sanc. supra,
+          <lb ed="#P" n="23"/>n. 2, citatis multis auctoribus loquentibus 
+          cir<lb break="no" ed="#P" n="24"/>ca impedimenta matrimonii. Frequenter enim
+          <lb ed="#P" n="25"/>dicunt doctores non valere dispensationem in
+          <lb ed="#P" n="26"/>uno impedimento, tacito alio, ut patet ex 
+          Pa<lb break="no" ed="#P" n="27"/>normit., in cap. JVon debet , de Consanguinit.
+          <lb ed="#P" n="28"/>et affinit., n. 12, quem multi Summistae 
+          imi<lb break="no" ed="#P" n="29"/>tantur, et Supplement. Gabriel., in 4, 
+          dis<lb break="no" ed="#P" n="30"/>tinct. 41, artic. 3, dub. 7, et in simil Covar.,
+          <lb ed="#P" n="31"/>in 4, 2 part., cap. 6, S 4, n. 11. Possent autem
+          <lb ed="#P" n="32"/>hi auctores exponi, ut intelligant non valere,
+          <lb ed="#P" n="33"/>id est, non sufficere, seu non valere ad 
+          matri<lb break="no" ed="#P" n="34"/>monium contrahendum ; an vero valeat ad
+          <lb ed="#P" n="35"/>unum impedimentum tollendum, ron 
+          defini<lb break="no" ed="#P" n="36"/>re. Sed est difficilis et dura expositio, quia non
+          <lb ed="#P" n="37"/>dicunt non valere matrimonium, sed non 
+          va<lb break="no" ed="#P" n="38"/>lere dispensationem, et Covar. dicit esse 
+          irri<lb break="no" ed="#P" n="39"/>tam. Denique multi alii auctores in propriis
+          <lb ed="#P" n="40"/>terminis dicunt talem dispensationem esse 
+          sur<lb break="no" ed="#P" n="41"/>reptitiam. Fundamentum hujus sententiae 
+          re<lb break="no" ed="#P" n="42"/>ducitur ad principium positum, ut dispensatio
+          <lb ed="#P" n="43"/>legitime obtineatur, necessarium esse proponi
+          <lb ed="#P" n="44"/>Pontifici totum vinculum dissolvendum, 
+          se<lb break="no" ed="#P" n="45"/>cundum totam gravitatem, quae intrinsece 
+          po<lb break="no" ed="#P" n="46"/>test dispensationem difficiliorem reddere
+          <lb ed="#P" n="47"/>unum autem impedimentum censetur 
+          morali<lb break="no" ed="#P" n="48"/>ter habere majorem gravitatem in illo genere,
+          <lb ed="#P" n="49"/>quando est conjunctum aliis, quam soltarie
+          <lb ed="#P" n="50"/>sumptum ; ergo. Minor probari solet, primo,
+          <lb ed="#P" n="51"/>ex cap. ez Tuarum, de Auctoritat. et usu pallii,
+          <lb ed="#P" n="52"/>quod allegat Panormit.; sed, judicio meo, 
+          ni<lb break="no" ed="#P" n="53"/>hil vel parum probat. Item citatur cap. 
+          Pasto<lb break="no" ed="#P" n="54"/>ralis, de Privileg., quod nihil etiam juvat, nec
+          <lb ed="#P" n="55"/>plus valet cap. Postulatis, de Rescript., quod
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Covar. allegat : nam regula ibi constituta in
+          <lb ed="#P" n="57"/>beneficiis non habet locum in 
+          dispensationi<lb break="no" ed="#P" n="58"/>bus, ut supra notatum est cum Panormit. in
+          <lb ed="#P" n="59"/>cap. pen. de Praescriptionibus. Denique 
+          alle<lb break="no" ed="#P" n="60"/>gatur cap. 1 de Treug. et pace, quoniam ibi
+          <lb ed="#P" n="61"/>dierur : Funiculus tripler difficile rumpitur.
+          <lb ed="#P" n="62"/>Responderi autem potest, in praesenti etiam
+          <lb ed="#P" n="63"/>cumulum impedimentorum difficilius tolli,
+          <lb ed="#P" n="64"/>quia vel requirit unam dispensationem 
+          diffici<lb break="no" ed="#P" n="65"/>liorem, vel cumulum dispensationum. Ratione
+          <lb ed="#P" n="66"/>igitur probatur illa minor, quia impedimenta
+          <lb ed="#P" n="67"/>simul juncta sine dubio reddunt pe:sonam
+          <lb ed="#P" n="68"/>minus dignam dispensatione, etiam in 
+          singu<lb break="no" ed="#P" n="69"/>lis : unde etiam simul proposita magis 
+          aver<lb break="no" ed="#P" n="70"/>tunt animum principis ad concedendum tale
+          <lb ed="#P" n="71"/>matrimonium, vel habilitandam talem 
+          perso<lb break="no" ed="#P" n="72"/>nam , ut experientia ipsa docet, et per se 
+          vi<lb break="no" ed="#P" n="73"/>detur prudentiae consentaneum. Unde in 
+          re<lb break="no" ed="#P" n="74"/>missione poenarum , cum in aliqua persona
+          <lb ed="#P" n="75"/>plura sunt atrociora delicta, singula difficilius
+          <lb ed="#P" n="76"/>remittuntur in humano judicio. Confirmatur,
+          <lb ed="#P" n="77"/>quia alias aperitur via fraudibus, obtinendo
+          <lb ed="#P" n="78"/>per plures dispensationes quod saepissime 
+          Pon<lb break="no" ed="#P" n="79"/>tifex. re tota intellecta, per unam non 
+          conce<lb break="no" ed="#P" n="80"/>deret.
+        </p>
+        <p xml:id="szdleg-q28777-d1e348">
+          <lb ed="#P" n="81"/>3. Probabilitas prioris sententie, et 
+          securi<lb break="no" ed="#P" n="82"/>tas.—Inter has sententias haec posterior 
+          secu<lb break="no" ed="#P" n="83"/>rior est, et in materia saltem matrimonii est
+          <lb ed="#P" n="84"/>practice probabilior et servanda ; tum propter
+          <lb ed="#P" n="85"/>consensum plurium auctorum, tam ex antiquis
+          <lb ed="#P" n="86"/>quam ex modernis; tum propter praxim 
+          ro<lb break="no" ed="#P" n="87"/>manam, quae hoc observat, exceptis quibusdam
+          <lb ed="#P" n="88"/>casibus occultis, ut Sancius notat, quae 
+          exce<lb break="no" ed="#P" n="89"/>ptio potius firmat regulam in contrarium ; tum
+          <lb ed="#P" n="90"/>praeterea propter periculum quod est in 
+          effti<lb break="no" ed="#P" n="91"/>ciendo matrimonio nullo, ratione 
+          dispensatio<lb break="no" ed="#P" n="92"/>nis male impetratae. Denique quia talis 
+          dis<lb break="no" ed="#P" n="93"/>pensatio directe videtur peti et concedi ad
+          <lb ed="#P" n="94"/>contrahendum matrimonium, et ideo intentio
+          <lb ed="#P" n="95"/>dispensantis non videtur esse tantum tollere
+          <lb ed="#P" n="96"/>unum vel ahud impedimentum, sed 
+          simplici<lb break="no" ed="#P" n="97"/>ter habilitare personam. Quapropter, si 
+          nar<lb break="no" ed="#P" n="98"/>ratio ad hoc non suffticiat, tota dispensatio
+          <lb ed="#P" n="99"/>censetur irrita ex mente concedentis; essetque
+          <lb ed="#P" n="100"/>hoc longe certius si Pontifex directe 
+          interro<lb break="no" ed="#P" n="101"/>garet an talis persona haberet aliud 
+          impedi<lb break="no" ed="#P" n="102"/>mentum : nam per hoc magis ostenderet 
+          ani<lb break="no" ed="#P" n="103"/>mum non aliter dispensandi ; et ideo qui 
+          ha<lb break="no" ed="#P" n="104"/>bens plura impedimenta illa negaret, nihil
+          <lb ed="#P" n="105"/>obtineret propter gravem deceptionem contra
+          <lb ed="#P" n="106"/>intentionem Pontificis, satis insinuatam per
+          <lb ed="#P" n="107"/>dictam interrogationem. Usus autem non 
+          ha<lb break="no" ed="#P" n="108"/>bet ut talis interrogatio fiat, et ideo res est
+          <lb ed="#P" n="109"/>minus certa. Nihilominus tamen ipsemet usus
+          <lb ed="#P" n="110"/>non faciendi similem interrogationem indicat
+          <pb ed="#P" n="116"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Pontificem simpliciter accipere verba talium
+          <lb ed="#P" n="2"/>supplicationum, et intelligere personam non
+          <lb ed="#P" n="3"/>habere aliud impedimentum ad matrimonium,
+          <lb ed="#P" n="4"/>nisi quod proponitur, et ideo qui unum 
+          pro<lb break="no" ed="#P" n="5"/>ponit et aliud tacet, virtualiter illud negat, et
+          <lb ed="#P" n="6"/>Pontificem decipit. Ác denique experientia
+          <lb ed="#P" n="7"/>etiam ostendit longe aliter et cum majori 
+          one<lb break="no" ed="#P" n="8"/>re vel gravamine dari dispensationem, quando
+          <lb ed="#P" n="9"/>plura impedimenta concurrunt, et saepe 
+          pro<lb break="no" ed="#P" n="10"/>pter eam causam negari; signum ergo est nolle
+          <lb ed="#P" n="11"/>Pontificem dispensare in singulis 
+          impedimen<lb break="no" ed="#P" n="12"/>tis, nisi omnia quae simul sunt simul 
+          propo<lb break="no" ed="#P" n="13"/>nantur. Et praeter experientiam potest alia 
+          ra<lb break="no" ed="#P" n="14"/>tio reddi, quam in puncto sequenti commodius
+          <lb ed="#P" n="15"/>explicabo.
+        </p>
+        <p xml:id="szdleg-q28777-d1e452">
+          <lb ed="#P" n="16"/>4. Haec autem regula non videtur posse tam
+          <lb ed="#P" n="17"/>generaliter constitui de omnibus ahis 
+          dispen<lb break="no" ed="#P" n="18"/>sationibus et vinculis. Nam imprimis de 
+          dis<lb break="no" ed="#P" n="19"/>pensatione voti castitatis recte docet Sanci.
+          <lb ed="#P" n="20"/>supra, n. 4, si prius petatur dispensatio ejus
+          <lb ed="#P" n="21"/>quam alterius impedimenti, verbi gratia, 
+          con<lb break="no" ed="#P" n="22"/>sanguinitatis , validam fore, etiamsi solum
+          <lb ed="#P" n="23"/>illud sine alio impedimento proponatur. Quod
+          <lb ed="#P" n="24"/>ego intelligo esse verum, etiamsi habens tale
+          <lb ed="#P" n="25"/>votum habeat intentionem ducendi 
+          consan<lb break="no" ed="#P" n="26"/>guineam, obtinendo postea aliam 
+          dispensa<lb break="no" ed="#P" n="27"/>tionem, quia hoc accidentarium est, et 
+          dispen<lb break="no" ed="#P" n="28"/>satio voti per se non ordinatur ad tale 
+          matri<lb break="no" ed="#P" n="29"/>monium, sed generalter, ut liceat usus 
+          conju<lb break="no" ed="#P" n="30"/>galis quem votum castitatis impediebat. Tunc
+          <lb ed="#P" n="31"/>autem non immerito dubitari potest an, 
+          quan<lb break="no" ed="#P" n="32"/>do ulterius proceditur ad petendam 
+          dispensa<lb break="no" ed="#P" n="33"/>tionem impedimenti consanguinitatis, 
+          neces<lb break="no" ed="#P" n="34"/>sarium sit prioris dispensationis mentionem
+          <lb ed="#P" n="35"/>facere : nam, licet immediate sint circa 
+          diver<lb break="no" ed="#P" n="36"/>sa, revera ordinantur ad eumdem finem, et
+          <lb ed="#P" n="37"/>ex utraque resultat quaedam major concessio
+          <lb ed="#P" n="38"/>quam fortasse concederetur, si de utroque 
+          im<lb break="no" ed="#P" n="39"/>pedimento simul fuisset aliquando facta 
+          men<lb break="no" ed="#P" n="40"/>tio. Item quia videtur inconveniens admittere,
+          <lb ed="#P" n="41"/>posse iliam personam habilitari ad 
+          matrimo<lb break="no" ed="#P" n="42"/>nium cum consanguinea per plures 
+          dispensa<lb break="no" ed="#P" n="43"/>tiones, incipiendo a dispensatione voti, et
+          <lb ed="#P" n="44"/>non, incipiendo a dispensatione 
+          consangui<lb break="no" ed="#P" n="45"/>nitatis , cum ex parte Pontificis nulla sit ratio
+          <lb ed="#P" n="46"/>praesumendi magis involuntarium in uno casu
+          <lb ed="#P" n="47"/>quam in alio; est ergo hoc valde probabile, et
+          <lb ed="#P" n="48"/>accommodatum ad impediendas fraudes.
+        </p>
+        <p xml:id="szdleg-q28777-d1e526">
+          <lb ed="#P" n="49"/>5. Quomodo detur dispensatio voti in ordine
+          <lb ed="#P" n="50"/>ad matrimonium , tacito impedimento 
+          consan<lb break="no" ed="#P" n="51"/>guinitatis. — Nihilominus tamen, si revera
+          <lb ed="#P" n="52"/>detur sufficiens causa dispensationis voti, 
+          in<lb break="no" ed="#P" n="53"/>dependens a matrimonio cum tali 
+          consangui<lb break="no" ed="#P" n="54"/>nea, recte poterit obtineri dispensatio de solo
+          <lb ed="#P" n="55"/>voto, ut dixi, et postea etiam, ad obtinendam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dispensationem circa consanguinitatem , non
+          <lb ed="#P" n="57"/>oportebit prioris mentionem facere, quia jam
+          <lb ed="#P" n="58"/>impedimentum voti non existit , sed legitime
+          <lb ed="#P" n="59"/>fuit sublatum absolute, et sine ordine ad 
+          ma<lb break="no" ed="#P" n="60"/>trimonium, quantum est ex se, et ex vi causae:
+          <lb ed="#P" n="61"/>intentio autem operantis est per accidens, et
+          <lb ed="#P" n="62"/>non mutat dispensationis naturam. Neque est
+          <lb ed="#P" n="63"/>inconveniens ut aliqua certo ordine licite fiant,
+          <lb ed="#P" n="64"/>quae commutato ordine debite fieri non 
+          pos<lb break="no" ed="#P" n="65"/>sunt ; id enim saepe contingit, ut alio exemplo
+          <lb ed="#P" n="66"/>statim declarabo ; et ratio est, quia ordo 
+          agen<lb break="no" ed="#P" n="67"/>di saepe spectat ad honestatem, propter 
+          diver<lb break="no" ed="#P" n="68"/>sam dependentiam unius rei ap alia. Et ideo
+          <lb ed="#P" n="69"/>etiam dixi necessarium esse ut causa 
+          dispensa<lb break="no" ed="#P" n="70"/>tionis voti non pendeat ex matrimonio cum
+          <lb ed="#P" n="71"/>tali persona : nam, si pendeat, necessarium
+          <lb ed="#P" n="72"/>erit omne aliud impedimentum matrimoni
+          <lb ed="#P" n="73"/>cum eadem persona explicare, quia non potest
+          <lb ed="#P" n="74"/>aliter judicium ferri de tali causa, et quia tunc
+          <lb ed="#P" n="75"/>unum impedimentum colligatur cum alio in
+          <lb ed="#P" n="76"/>ordine ad dispensationem.
+        </p>
+        <p xml:id="szdleg-q28777-d1e591">
+          <lb ed="#P" n="77"/>6. Quod autem dixi de voto castitatis 
+          eam<lb break="no" ed="#P" n="78"/>dem rationem habet in voto religionis, et ideo
+          <lb ed="#P" n="79"/>eadem doctrina ad illud applicanda est. Imo,
+          <lb ed="#P" n="80"/>licet eadem persona utrumque votum habeat,
+          <lb ed="#P" n="81"/>poterit validas dispensationes utriusque 
+          obti<lb break="no" ed="#P" n="82"/>nere, non facta mentione aliorum 
+          impedi<lb break="no" ed="#P" n="83"/>mentorum matrimonii, quia neutra ex illis
+          <lb ed="#P" n="84"/>dispensationibus , neque utraque simul dicit
+          <lb ed="#P" n="85"/>habitudinem ad matrimonium cum 
+          impedi<lb break="no" ed="#P" n="86"/>mento contrahendum. De ipsis autem votis,
+          <lb ed="#P" n="87"/>quando sunt simul, merito dubitari potest an,
+          <lb ed="#P" n="88"/>ad obtinendam dispensationem alterius, debeat
+          <lb ed="#P" n="89"/>alterum narrari, et e converso. Hinc enim 
+          vi<lb break="no" ed="#P" n="90"/>detur id non esse necessarium, quia sunt 
+          vin<lb break="no" ed="#P" n="91"/>cula omnino distincta et inter se non colligata;
+          <lb ed="#P" n="92"/>nam unum obligat ad castitatem servandam, et
+          <lb ed="#P" n="93"/>non aliud ; et hoc obligat ad religionis 
+          ingres<lb break="no" ed="#P" n="94"/>sum, ad quod non obligat alterum. Inde vero
+          <lb ed="#P" n="95"/>apparet contrarium ; tum quia non videntur
+          <lb ed="#P" n="96"/>illa vincula minus inter se connexa in ordme
+          <lb ed="#P" n="97"/>ad statum , seu viam perfectionis,. quam duo
+          <lb ed="#P" n="98"/>impedimenta matrimonii in ordine ad illud;
+          <lb ed="#P" n="99"/>tum etiam quia unum videtur difficiliorem
+          <lb ed="#P" n="100"/>reddere dispensationem alterius, et e converso.
+        </p>
+        <p xml:id="szdleg-q28777-d1e646">
+          <lb ed="#P" n="101"/>7. Obligatus votis castitatis et religioms
+          <lb ed="#P" n="102"/>potest-ne ab uno vinculo liberari, tacito alio.—
+          <lb ed="#P" n="103"/>Breviter, mihi videtur in eo casu validam fore
+          <lb ed="#P" n="104"/>dispensationem voti religionis, si ab eo 
+          inchoe<lb break="no" ed="#P" n="105"/>tur, nulla etiam facta mentione alterius. 
+          Mo<lb break="no" ed="#P" n="106"/>veor ex prioribus rationibus, et quia votum
+          <lb ed="#P" n="107"/>castitatis faciliorem potius quam magis 
+          diflici<lb break="no" ed="#P" n="108"/>lem facere potest dispensationem voti 
+          religio<lb break="no" ed="#P" n="109"/>nis : nam facilius dispensari solet cum eo qui
+          <lb ed="#P" n="110"/>perpetuam castitatem est conservaturus, quia
+          <pb ed="#P" n="117"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in hoc aliquam participationem religionis 
+          re<lb break="no" ed="#P" n="2"/>tinet. E converso autem votum religionis non
+          <lb ed="#P" n="3"/>est connexum cum voto castitatis, nisi 
+          tan<lb break="no" ed="#P" n="4"/>quam addens habitudinem ad majorem 
+          per<lb break="no" ed="#P" n="5"/>fectionem , quae tota sufficienter explicatur
+          <lb ed="#P" n="6"/>sine alio voto. Et praeterea potest per se dari
+          <lb ed="#P" n="7"/>causa sufficiens ad tollendum votum religionis,
+          <lb ed="#P" n="8"/>relicto alio; tunc ergo recte poterit postulari
+          <lb ed="#P" n="9"/>pura ejus dispensatio, sine mentione alterius
+          <lb ed="#P" n="10"/>voti. Secus vero esset si causa honestans 
+          dis<lb break="no" ed="#P" n="11"/>pensationem voti religionis sumeretur ex 
+          or<lb break="no" ed="#P" n="12"/>dine ad matrimonium contrahendum, etiam
+          <lb ed="#P" n="13"/>in generali : nam tunc oporteret votum 
+          casti<lb break="no" ed="#P" n="14"/>tatis explicare, quatenus impedimentum est
+          <lb ed="#P" n="15"/>ad quodlibet matrimonium contrahendum.
+        </p>
+        <p xml:id="szdleg-q28777-d1e707">
+          <lb ed="#P" n="16"/>8. Si dispensatio inchoetur a voto castitatis,
+          <lb ed="#P" n="17"/>religionis votum explicandum est. — At veroe
+          <lb ed="#P" n="18"/>contrario, si dispensatio inchoetur a voto 
+          cas<lb break="no" ed="#P" n="19"/>titatis, necessarium semper existimo simul 
+          ex<lb break="no" ed="#P" n="20"/>plicare votum religionis, propter rationes 
+          pos<lb break="no" ed="#P" n="21"/>teriori loco factas. Habenti enim votum 
+          reli<lb break="no" ed="#P" n="22"/>gionis, irrationabilis plane videtur liberatio ab
+          <lb ed="#P" n="23"/>obligatione castitatis, cum nec ad matrimonium
+          <lb ed="#P" n="24"/>contrahendum illi sufficiat , neque etiam 
+          libe<lb break="no" ed="#P" n="25"/>ret a vinculo religionis, et quia maxime decet
+          <lb ed="#P" n="26"/>ut qui religionis obligationem habet, 
+          castita<lb break="no" ed="#P" n="27"/>tem interim servet. Propter quae non est 
+          veri<lb break="no" ed="#P" n="28"/>simile Pontificem fuisse concessurum talem
+          <lb ed="#P" n="29"/>dispensationem solam, si alterius voti conscius
+          <lb ed="#P" n="30"/>fuisset. Accedit quod non videtur posse dari
+          <lb ed="#P" n="31"/>causa justa ad dispensandum in voto castitatis
+          <lb ed="#P" n="32"/>cum eo qui ligatus est voto religionis; tum
+          <lb ed="#P" n="33"/>quia votum religionis etiam obligat ad non
+          <lb ed="#P" n="34"/>nubendum, et, licet non obliget statim ad 
+          cas<lb break="no" ed="#P" n="35"/>titatem, obligat ad promittendam illam; tum
+          <lb ed="#P" n="36"/>etiam quia talis persona, licet difficultatem
+          <lb ed="#P" n="37"/>habeat in servanda continentia, non potest illi
+          <lb ed="#P" n="38"/>succurrere per matrimonium ratione alterius
+          <lb ed="#P" n="39"/>voti; et, secluso hoc medio, tenetur absolute
+          <lb ed="#P" n="40"/>vincere illam; ergo tunc causa est insufficiens
+          <lb ed="#P" n="41"/>et irrationabilis ad talem dispensationem. Et
+          <lb ed="#P" n="42"/>quoad hoc bene aequiparantur haec duo vincula
+          <lb ed="#P" n="43"/>cum aliis impedimentis matrimonii.
+        </p>
+        <p xml:id="szdleg-q28777-d1e771">
+          <lb ed="#P" n="44"/>9. Et similiter potest haec ratio ad ea quae
+          <lb ed="#P" n="45"/>diximus de matrimonio adaptari; nam, cum
+          <lb ed="#P" n="46"/>quodlibet impedimentum impediat totum 
+          ma<lb break="no" ed="#P" n="47"/>trimonium, de se inutilis et irrationabilis est
+          <lb ed="#P" n="48"/>dispensatio unius sine aliis; non enim potest
+          <lb ed="#P" n="49"/>deservire, nisi fortasse ad decipiendum 
+          dispen<lb break="no" ed="#P" n="50"/>santem, ut per partes faciat quod forte simul
+          <lb ed="#P" n="51"/>non faceret si totum cognosceret, et ideo 
+          sem<lb break="no" ed="#P" n="52"/>per talis dispensatio merito judicatur extra
+          <lb ed="#P" n="53"/>intentionem dispensantis. Et praeterea non 
+          vi<lb break="no" ed="#P" n="54"/>detur posse habere causam legitimam, vel non
+          <lb ed="#P" n="55"/>posse ferri de illa legitimum judicium sine
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cognitione aliorum impedimentorum, quia 
+          ta<lb break="no" ed="#P" n="57"/>lis causa sumi debet ex necessitate, vel utilitate
+          <lb ed="#P" n="58"/>talis matrimonii, de quo judicari non potest,
+          <lb ed="#P" n="59"/>non coznitis omnibus impedimentis ejus: et
+          <lb ed="#P" n="60"/>haec ratio videtur mihi satis efficax et notanda.
+        </p>
+        <p xml:id="szdleg-q28777-d1e813">
+          <lb ed="#P" n="61"/>10. In dispensationibus aliis a castitate et
+          <lb ed="#P" n="62"/>religione quid dicendum.—ln dispensationibus
+          <lb ed="#P" n="63"/>autem irregularitatum, et aliarum 
+          inhabilita<lb break="no" ed="#P" n="64"/>tum ac poenarum, existimo non habere locum
+          <lb ed="#P" n="65"/>rationem istam, neque regulariter doctrinam
+          <lb ed="#P" n="66"/>datam, sed potius, per se loquendo, unam 
+          ir<lb break="no" ed="#P" n="67"/>regularitatem posse tolli sine alia, praesertim
+          <lb ed="#P" n="68"/>quando illae irregularitates sunt omnino 
+          dis<lb break="no" ed="#P" n="69"/>paratae, et una aliam non aggravat, ut, verbi
+          <lb ed="#P" n="70"/>gratia, esse illegitimum, et casu hominem 
+          oc<lb break="no" ed="#P" n="71"/>cidisse, et similes. Et quoad hoc videntur mihi
+          <lb ed="#P" n="72"/>efficaces rationes Navarri, in cons. 1 de 
+          Con<lb break="no" ed="#P" n="73"/>stit., quaest. 19, nam, licet de impedimentis
+          <lb ed="#P" n="74"/>matrimonii tractet, rationes sunt generases.
+          <lb ed="#P" n="75"/>Praecipua est, quia inter has irregularitates et
+          <lb ed="#P" n="76"/>poenas non est connexio, nec taciturnitas unius
+          <lb ed="#P" n="77"/>aliquid confert ad dispensationem alterius,
+          <lb ed="#P" n="78"/>nisi quatenus tollit aliquam majorem. 
+          difficul<lb break="no" ed="#P" n="79"/>tatem quam fortasse haberet princeps in 
+          dis<lb break="no" ed="#P" n="80"/>pensando, si omnes cognosceret; hoc autem
+          <lb ed="#P" n="81"/>non sufficit ad surreptionem, nisi vel jus 
+          ali<lb break="no" ed="#P" n="82"/>quod cogat, vel aliae circumstantiae et rationes
+          <lb ed="#P" n="83"/>concurrant, ut dixi in lib. 6 de Voto, cap. ult.,
+          <lb ed="#P" n="84"/>et affirmat Navar. cum hRota, /Egidio et Felin.
+          <lb ed="#P" n="85"/>Hic autem nullum est jus, nec ostendi potest.
+          <lb ed="#P" n="86"/>Quod enim quidam dicuat, hoc contineri in
+          <lb ed="#P" n="87"/>jure, quia jus praecipit explicare omnem 
+          veri<lb break="no" ed="#P" n="88"/>tatem conferentem ad dispensationem, 
+          frivo<lb break="no" ed="#P" n="89"/>lum est, et principium petit: nam hoc est
+          <lb ed="#P" n="90"/>quod inquirimus, an cognitio alterius 
+          irregu<lb break="no" ed="#P" n="91"/>laritatis, vel inhabilitatis, aut criminis sit 
+          in<lb break="no" ed="#P" n="92"/>trinseca dispensationi quae circa aliud crimen
+          <lb ed="#P" n="93"/>vel irregularitatem versatur. Hoc autem ex
+          <lb ed="#P" n="94"/>jure probari non potest; ergo verum est hanc
+          <lb ed="#P" n="95"/>surreptionem non fundari in jure.
+        </p>
+        <p xml:id="szdleg-q28777-d1e891">
+          <lb ed="#P" n="96"/>11. Altera vero pars de ratione probatur,
+          <lb ed="#P" n="97"/>quia multitudo irregularitatum vel similium
+          <lb ed="#P" n="98"/>vinculorum ad summum reddit personam 
+          ma<lb break="no" ed="#P" n="99"/>gis inhabilem (ut sic dicam) extensive, et 
+          mi<lb break="no" ed="#P" n="100"/>nus dignam quocumque beneficio ; hoc autem
+          <lb ed="#P" n="101"/>non satis est ad surreptionem. Et rationes 
+          om<lb break="no" ed="#P" n="102"/>nes in contrarium, quae solum fundantur in
+          <lb ed="#P" n="103"/>sola hac indignitate, et quasi resistentia ex
+          <lb ed="#P" n="104"/>parte personae, revera sunt inefficaces , quia
+          <lb ed="#P" n="105"/>cum illa stat, quod dispensatio fiat cum plena
+          <lb ed="#P" n="106"/>voluntate, et cum cognitione omnium quae ad
+          <lb ed="#P" n="107"/>valorem actus necessaria sunt. Et patet a 
+          si<lb break="no" ed="#P" n="108"/>mili : nam qui plures habet 
+          excommunicatio<lb break="no" ed="#P" n="109"/>nes, minus dignus est quacumque absolutione;
+          <lb ed="#P" n="110"/>ettamen, si impetret absolutionem unius iacita
+          <pb ed="#P" n="118"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>altera, valebit, ut est certum apud omnes, quia
+          <lb ed="#P" n="2"/>nullo jure plus postulatur. At nec in 
+          irregula<lb break="no" ed="#P" n="3"/>ritatibus postulatur. Item, qui plura habet 
+          cri<lb break="no" ed="#P" n="4"/>mina, minus dignus est beneficio; et s1 essent
+          <lb ed="#P" n="5"/>cognita, aifficilius illud obtineret, vel forte
+          <lb ed="#P" n="6"/>non obtineret, et nihilominus collatio est 
+          vali<lb break="no" ed="#P" n="7"/>da, secluso alio majori impedimento. Item,
+          <lb ed="#P" n="8"/>qui propter distincta crimina obnoxius est
+          <lb ed="#P" n="9"/>multis poenis, minus dignus est cujuslibet 
+          re<lb break="no" ed="#P" n="10"/>missione, et difficilius illam obtineret si omnia
+          <lb ed="#P" n="11"/>simul remittenda proponeret ; et nihilomiuus
+          <lb ed="#P" n="12"/>valida est remissio uniuscujusque, taciuis alis,
+          <lb ed="#P" n="13"/>nisi ubi lex aiiud disponit, vel unum non potest
+          <lb ed="#P" n="14"/>sine alio sufficienter explicari ; quia, quando
+          <lb ed="#P" n="15"/>sunt omnino diversa, nullam connexionem
+          <lb ed="#P" n="16"/>habent in remissione ; et illa difficultas, quae
+          <lb ed="#P" n="17"/>per taciturnitatem evitatur, non causat 
+          invo<lb break="no" ed="#P" n="18"/>luntarium, nisi valde accidentarinm et 
+          dimi<lb break="no" ed="#P" n="19"/>nutum, quod non impedit valorem actus. Idem
+          <lb ed="#P" n="20"/>ergo est in irregula-zitatibus et aliis similibus
+          <lb ed="#P" n="21"/>poenis.
+        </p>
+        <p xml:id="szdleg-q28777-d1e976">
+          <lb ed="#P" n="22"/>12. Regula attendenda. — Regula ergo 
+          ob<lb break="no" ed="#P" n="23"/>servanda est, ut, per se loquendo, valeat 
+          dis<lb break="no" ed="#P" n="24"/>pensatio unius sine expressione alterius, nisi
+          <lb ed="#P" n="25"/>gravitas unius non possit satis sine alia 
+          expli<lb break="no" ed="#P" n="26"/>cari; ad eum modum, quo Navar., cons. 18 de
+          <lb ed="#P" n="27"/>Rescript., dixit dispensationem irregularitatis
+          <lb ed="#P" n="28"/>contractae occidendo clericum, non esse 
+          vali<lb break="no" ed="#P" n="29"/>dam explicato homicidio, nisi explicetur 
+          sacri<lb break="no" ed="#P" n="30"/>legium. Et similiter censeo, qui plura 
+          homi<lb break="no" ed="#P" n="31"/>cidia commisit, si uno tantum narrato velit
+          <lb ed="#P" n="32"/>dispensationem unius irregularitatis obtinere,
+          <lb ed="#P" n="33"/>nihil faciet, quia, licet illa censeantur 
+          irregu<lb break="no" ed="#P" n="34"/>laritates numero diversae, moraliter quasi 
+          effi<lb break="no" ed="#P" n="35"/>ciunt unam graviorem, vel certe nulla illarum
+          <lb ed="#P" n="36"/>satis explicatur sine alia, ac denique tunc fere
+          <lb ed="#P" n="37"/>procedunt rationes de matrimonio factae. 
+          Ex<lb break="no" ed="#P" n="38"/>tra hos vero et similes casus, valida est 
+          dis<lb break="no" ed="#P" n="39"/>pensatio unius vinculi, tacito aho omnino 
+          di<lb break="no" ed="#P" n="40"/>verso, quoties per se habere potest 
+          sufficien<lb break="no" ed="#P" n="41"/>tem causam et rationem ut auferatur, etiamsi
+          <lb ed="#P" n="42"/>caetera non tollantur. Et hactenus de 
+          dispensa<lb break="no" ed="#P" n="43"/>tione.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

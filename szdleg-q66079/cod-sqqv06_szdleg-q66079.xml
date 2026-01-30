@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-01-29">January 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv06">Paris 1856, v. 06</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="263"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdleg-q66079"><!-- l8c10 -->
+        <head xml:id="szdleg-q66079-Hd1e101">Caput 10</head>
+        <head xml:id="szdleg-q66079-Hd1e103" type="question-title">Quodnam sit de facto subjectum pbivilegii quoad personam cui conceditur.</head>
+        <p xml:id="szdleg-q66079-d1e106">
+          <lb ed="#P" n="30"/>CAPUT X.
+          <lb ed="#P" n="31"/>QUODNAM SIT DE FACTO SUBJECTUM PBIVILEGII
+          <lb ed="#P" n="32"/>QUOAD PERSONAM CUI CONCEDITUR.
+        </p>
+        <p xml:id="szdleg-q66079-d1e115">
+          <lb ed="#P" n="33"/>1. Diximus cui possit privilegium concedi;
+          <lb ed="#P" n="34"/>ad moralem autem et practicam doctrinam
+          <lb ed="#P" n="35"/>desiderari potest ut explicemus cui de facto
+          <lb ed="#P" n="36"/>concedatur privilegium. Quod ita generatim
+          <lb ed="#P" n="37"/>sumptum, quaestio est facti, non juris, nec 
+          ca<lb break="no" ed="#P" n="38"/>dit sub scientiam, quia est contingens, et ex
+          <lb ed="#P" n="39"/>variis occasionibus pendet. Si autem 
+          quaera<lb break="no" ed="#P" n="40"/>tur quibus personis aut communitatibus 
+          privi<lb break="no" ed="#P" n="41"/>legia in jure concedantur, erit quidem suo
+          <lb ed="#P" n="42"/>modo quaestio juris, sed vastissima, quae 
+          infi<lb break="no" ed="#P" n="43"/>nita comprehendit. Dantur enim privilegia
+          <lb ed="#P" n="44"/>Episcoporum, clericorum, religionum, 
+          mili<lb break="no" ed="#P" n="45"/>tum, doctorum, scholarium, minorum, 
+          uxo<lb break="no" ed="#P" n="46"/>rum, piarum causarum, et similia, quae hic
+          <lb ed="#P" n="47"/>prosequi non possumus, sed videri possunt
+          <lb ed="#P" n="48"/>doctores qui varios tractatus de his privilegiis
+          <lb ed="#P" n="49"/>scripserunt, ut hebuff. de Privilegiis 
+          scho<lb break="no" ed="#P" n="50"/>larium; Tiraquel., de Privilegis piae causae,
+          <lb ed="#P" n="51"/>et alia similia, quae in t. 18 Tractatuum 
+          vi<lb break="no" ed="#P" n="52"/>deri possunt; et de privilegiis religiosorum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>multa disputavit Emman. hoder. in suis
+          <lb ed="#P" n="54"/>quaestionibus regular. , quae in 3 tom. de
+          <lb ed="#P" n="55"/>Statu Religionis reservamus.
+        </p>
+        <p xml:id="szdleg-q66079-d1e170">
+          <lb ed="#P" n="56"/>9. Quaestio cum ratione dubitandi. — Alia
+          <lb ed="#P" n="57"/>ergo quaestio propria hujus loci esse potest, an
+          <lb ed="#P" n="58"/>privilegium his tantum intelligatur 
+          conces<lb break="no" ed="#P" n="59"/>sum qui in ipso expresse nominantur, vel sub
+          <lb ed="#P" n="60"/>illis interdum comprehendantur alii. Nam,
+          <lb ed="#P" n="61"/>prima facie, videtur haec res non posse habere
+          <lb ed="#P" n="62"/>dubitationem, sed dicendum necessario esse,
+          <lb ed="#P" n="63"/>illis tantum concedi qui expresse nominantur.
+          <lb ed="#P" n="64"/>Primo, ex illo principio, quod privilegia 
+          tan<lb break="no" ed="#P" n="65"/>tum valent quantum sonant, et non amplius,
+          <lb ed="#P" n="66"/>quae regula non solum intelligitur quoad res
+          <lb ed="#P" n="67"/>concessas, sed etiam quoad eos quibus 
+          conce<lb break="no" ed="#P" n="68"/>duntur, cum eadem sit utriusque ratio ; ergo
+          <lb ed="#P" n="69"/>privilegia tantum valent illis, quibus expresse
+          <lb ed="#P" n="70"/>conceduntur ; quia illi tantum sonant (ut sic
+          <lb ed="#P" n="71"/>dicam) in ipso privilegio. Secundo, quia illis
+          <lb ed="#P" n="72"/>tantum conceditur privilegium ad quos 
+          diri<lb break="no" ed="#P" n="73"/>gitur intentio concedentis, cum ex ejus 
+          volun<lb break="no" ed="#P" n="74"/>tate pendeat concessio et extensio privilegii ;
+          <lb ed="#P" n="75"/>sed intentio tantum extenditur ad eos qui 
+          ver<lb break="no" ed="#P" n="76"/>bis concedentis exprimuntur, quia non potest
+          <lb ed="#P" n="77"/>nobis aliter de illius intentione constare; 
+          er<lb break="no" ed="#P" n="78"/>go. Tertio, quia privilegium est stricti juris,
+          <lb ed="#P" n="79"/>et ideo extendi non debet ultra verba formalia
+          <lb ed="#P" n="80"/>et expressa.
+        </p>
+        <p xml:id="szdleg-q66079-d1e228">
+          <lb ed="#P" n="81"/>3. In conitrarium vero est, quia, in multis
+          <lb ed="#P" n="82"/>casibus, sub expresse nominatis intelliguntur
+          <lb ed="#P" n="83"/>alii comprehensi quoad participationem 
+          pri<lb break="no" ed="#P" n="84"/>vilegii, quia virtute in illis continentur, licet
+          <lb ed="#P" n="85"/>expresse non nominentur ; ergo vel non potest
+          <lb ed="#P" n="86"/>regula generalis in contrarium statui, vel si
+          <lb ed="#P" n="87"/>istae sunt exceptiones, assignanda est regula
+          <lb ed="#P" n="88"/>observanda in hujusmodi exceptionibus 
+          facien<lb break="no" ed="#P" n="89"/>dis. Antecedens patet primo, quia privilegium
+          <lb ed="#P" n="90"/>concessum viris intelligitur esse concessum
+          <lb ed="#P" n="91"/>feminis, si illius sunt capaces, et in aliis, quae
+          <lb ed="#P" n="92"/>privilegium concernunt, ita cum viris 
+          conve<lb break="no" ed="#P" n="93"/>niunt, ut privilegium possit illis commode
+          <lb ed="#P" n="94"/>adaptari. Ita sentit Gloss. in cap. Generali, de
+          <lb ed="#P" n="95"/>Elect., in 6, verb. Universos ; Gloss. in Clem. 1
+          <lb ed="#P" n="96"/>de Elect., verb. Homines ; expressius Archid.
+          <lb ed="#P" n="97"/>in c. Si quis suadente, V1, quaest. 4; et Bald.
+          <lb ed="#P" n="98"/>in c. Ad audientiam, 11, de Rescript., n. 12;
+          <lb ed="#P" n="99"/>Rebuff., in l. 4, ff. de Verb. signif., circa verb.
+          <lb ed="#P" n="100"/>Si quis, ampliat. 17; Tiraquel., lib. 1 de 
+          Re<lb break="no" ed="#P" n="101"/>tract. linag., S 1, Gloss. 9, n. 207, contra 
+          ali<lb break="no" ed="#P" n="102"/>quos quos n. 188 retulerat ; et videtur colligi
+          <lb ed="#P" n="103"/>ex dicta lege, quae declarat particulam S quis,
+          <lb ed="#P" n="104"/>feminam comprehendere. Facit etiam l. 
+          Zu<lb break="no" ed="#P" n="105"/>cius, 91, S Quesitum, ff. de Legat. 3, ubi 
+          dici<lb break="no" ed="#P" n="106"/>tur, in testamento nomine fratrum venire 
+          so<lb break="no" ed="#P" n="107"/>rores, nisi aliud sensisse testatorem probetur.
+          <pb ed="#P" n="264"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Secundum exemplum est de privilegio 
+          con<lb break="no" ed="#P" n="2"/>cesso patri; nam intelligitur concessum filiis,
+          <lb ed="#P" n="3"/>quia censetur unum cum patre, l. Ftiam, 19,
+          <lb ed="#P" n="4"/>fr. Solut. matrimon.; sentit Bald., in leg. ult.,
+          <lb ed="#P" n="5"/>c. de Libertis et eor. lib., n. 8, et inl. Non
+          <lb ed="#P" n="6"/>plures, c. de Sacros. Eccles., n. 7; et videri
+          <lb ed="#P" n="7"/>potest Barbos. in l. Maritus, 12, n. 19. 
+          Ter<lb break="no" ed="#P" n="8"/>tium et simile exemplum est, quod nomine
+          <lb ed="#P" n="9"/>filorum solent nepotes in privilegiis venire,
+          <lb ed="#P" n="10"/>ut sumitur ex Authent. Si quid, c. Qui potio.
+          <lb ed="#P" n="11"/>in pign. hab., et ex l. Justa, 201, ff. de Verb.
+          <lb ed="#P" n="12"/>signif., et tradit Bart. in l. St cum procuratore,
+          <lb ed="#P" n="13"/>ff. de Re judic. in fine; Antonin. Negusian.,
+          <lb ed="#P" n="14"/>tract. de Pivnorib., part. 1, memb. 4, n. 95,
+          <lb ed="#P" n="15"/>ubi alios refert. Quartum exemplum est: nam
+          <lb ed="#P" n="16"/>privilegium domino concessum consequenter
+          <lb ed="#P" n="17"/>conceditur servis qui illum comitantur, et
+          <lb ed="#P" n="18"/>concessum sacerdoti ad celebrandum, est 
+          vir<lb break="no" ed="#P" n="19"/>tute concessum ministranti, et sic de aliis quae
+          <lb ed="#P" n="20"/>videntur esse correlativa, vel conjuncta in usu
+          <lb ed="#P" n="21"/>privilegii.
+        </p>
+        <p xml:id="szdleg-q66079-d1e339">
+          <lb ed="#P" n="22"/>4. Regula generalis. — Nihilominus in hoc
+          <lb ed="#P" n="23"/>puncto regula generalis constituenda est, 
+          sub<lb break="no" ed="#P" n="24"/>jectum actuale privilegii (ut sic dicam), seu
+          <lb ed="#P" n="25"/>personam vel rem cui actu conceditur 
+          privile<lb break="no" ed="#P" n="26"/>gium, illam tantum esse quae in ipso 
+          privile<lb break="no" ed="#P" n="27"/>gio exprimitur, vel ex vi vocis, aut actionis,
+          <lb ed="#P" n="28"/>seu materiae, vel ex aliqua juris dispositione
+          <lb ed="#P" n="29"/>sub illa comprehenditur. Hanc assertionem
+          <lb ed="#P" n="30"/>quoad regulam generalem probant sufficienter
+          <lb ed="#P" n="31"/>rationes dubitandi in principio positae. Solum,
+          <lb ed="#P" n="32"/>in tertia ratione, est advertendum non aeque
+          <lb ed="#P" n="33"/>procedere in omni privilegio, sed distinctione
+          <lb ed="#P" n="34"/>utendum esse, ut infra, tractando de 
+          interpre<lb break="no" ed="#P" n="35"/>tatione privilegii, latius dicemus. Nam 
+          privi<lb break="no" ed="#P" n="36"/>legium juri communi contrarium sub ea 
+          ra<lb break="no" ed="#P" n="37"/>tione odiosum censetur, et ideo potius 
+          restrin<lb break="no" ed="#P" n="38"/>gendum est quam ampliandum. Item 
+          privile<lb break="no" ed="#P" n="39"/>gium, licet sit praeter vel supra jus, si cedat
+          <lb ed="#P" n="40"/>1n praejudicium tertii, secundum eam 
+          ratio<lb break="no" ed="#P" n="41"/>nem est stricti juris, et coarctandum, ut 
+          om<lb break="no" ed="#P" n="42"/>nes auctores proxime citati fatentur. Et ita in
+          <lb ed="#P" n="43"/>his duobus privilegiorum generibus maxime
+          <lb ed="#P" n="44"/>procedit regula data, et vix habet exceptionem
+          <lb ed="#P" n="45"/>saltem in casu dubto, sed tautum in casu certo,
+          <lb ed="#P" n="46"/>juxta circumstantias in secunda parte 
+          asser<lb break="no" ed="#P" n="47"/>tionis insinuatas. Et ratio est, quia non 
+          prae<lb break="no" ed="#P" n="48"/>sumitur princeps plus velle derogare juri 
+          com<lb break="no" ed="#P" n="49"/>muni aut velle privare aliquem jure acquisito,
+          <lb ed="#P" n="50"/>vel majus praejudicium tertio inferre, quam
+          <lb ed="#P" n="51"/>suis verbis exprimat ac declaret ; ergo in 
+          du<lb break="no" ed="#P" n="52"/>bio semper limitandum est privilegium ad
+          <lb ed="#P" n="53"/>personam in eo expressam, quando vel 
+          dero<lb break="no" ed="#P" n="54"/>gat juri communi, vel alterum laedit.
+        </p>
+        <p xml:id="szdleg-q66079-d1e413">
+          <lb ed="#P" n="55"/>5. At vero, quando privilegium est omnino
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>favorabile , sine praejudicio juris communis
+          <lb ed="#P" n="57"/>aut tertii, tunc ample quidem intelligendum
+          <lb ed="#P" n="58"/>est, ideoque extendi potest facilius ad 
+          perso<lb break="no" ed="#P" n="59"/>nas non clare expressas in privilegio. Quia
+          <lb ed="#P" n="60"/>vero tota concessio et extensio pendet ex in- H
+          <lb ed="#P" n="61"/>tentione concedentis, quae ex verbis cognosci
+          <lb ed="#P" n="62"/>debet, ideo necesse est ut, vel privilegium 
+          in<lb break="no" ed="#P" n="63"/>telligatur concessum soli personae in illo 
+          ex<lb break="no" ed="#P" n="64"/>pressae, vel si aliqua extensio est facienda,
+          <lb ed="#P" n="65"/>oportet ut sit per aliquam necessariam 
+          con<lb break="no" ed="#P" n="66"/>nexionem cum illa. Haec autem connexio 
+          vi<lb break="no" ed="#P" n="67"/>detur necessario sumenda vel ex significatione
+          <lb ed="#P" n="68"/>vocis, quia cum proprietate patitur illam 
+          am<lb break="no" ed="#P" n="69"/>pliationem, licet alium etiam usum habere
+          <lb ed="#P" n="70"/>possit, vel ex necessitate materrae vel actionis,
+          <lb ed="#P" n="71"/>quia sine tali extensione privilegium 
+          reddere<lb break="no" ed="#P" n="72"/>tur inutile, aut inurbanum, aut mcribus 
+          ho<lb break="no" ed="#P" n="73"/>minum non accommodatum, quod de principe
+          <lb ed="#P" n="74"/>praesumendum non est. Neque praeter haec duo
+          <lb ed="#P" n="75"/>capita videtur posse excogitari aliud, quod ex
+          <lb ed="#P" n="76"/>ipsomet privilegio sumi possit ad 
+          extenden<lb break="no" ed="#P" n="77"/>dum illud. Addidimus vero tertium caput in
+          <lb ed="#P" n="78"/>assertione, scilicet, juris dispositionem, quia
+          <lb ed="#P" n="79"/>jus habet vim et auctoritatem ad amplianda
+          <lb ed="#P" n="80"/>privilegia, et ad privilegiorum verba 
+          decla<lb break="no" ed="#P" n="81"/>randa, vel augenda, quoad eorum 
+          significa<lb break="no" ed="#P" n="82"/>tionem. Quando ergo praedicta connexio ex
+          <lb ed="#P" n="83"/>aliquo capite istorum satis nota fuerit, tunc
+          <lb ed="#P" n="84"/>certa est illius ampliatio ad personas connexas,
+          <lb ed="#P" n="85"/>et in privilegiis hujus tertii generis idem 
+          ser<lb break="no" ed="#P" n="86"/>vari poterit in casu dubio, quia hoc 
+          privile<lb break="no" ed="#P" n="87"/>gium non est stricti juris; et ita retorquendo
+          <lb ed="#P" n="88"/>tertiam rationem in principio factam, manet
+          <lb ed="#P" n="89"/>declarata et probata tota assertio; declarabitur
+          <lb ed="#P" n="90"/>tamen amphus respondendo ad posteriora
+          <lb ed="#P" n="91"/>exempla : nam priores rationes non postulant
+          <lb ed="#P" n="92"/>solutionem. Et ratioui in contrarium objectae
+          <lb ed="#P" n="93"/>damus totum quod intendit; propter illam
+          <lb ed="#P" n="94"/>enim assignavimus regulam cum praedicta
+          <lb ed="#P" n="95"/>moderatione, quae nobis videtur exceptiones
+          <lb ed="#P" n="96"/>omnes, quae fieri possunt, comprehendere,
+          <lb ed="#P" n="97"/>quod respondendo ad exempla adducta 
+          pate<lb break="no" ed="#P" n="98"/>bit, nam eadem erit ratio aliorum.
+        </p>
+        <p xml:id="szdleg-q66079-d1e513">
+          <lb ed="#P" n="99"/>6. Ad primum ergo exemplum, respondeo
+          <lb ed="#P" n="100"/>duobus modis posse privilegium concedi viris,
+          <lb ed="#P" n="101"/>uno modo per nomen definite significans 
+          vi<lb break="no" ed="#P" n="102"/>ros, seu masculos, ut si loquatur privilegium
+          <lb ed="#P" n="103"/>per haec ipsa verba viros, aut masculos : alio
+          <lb ed="#P" n="104"/>modo loqui potest privilegium per nomen
+          <lb ed="#P" n="105"/>communis seu ambiguae significationis, ut est
+          <lb ed="#P" n="106"/>hoc nomen Zomo, filius, et alia quae cum illis
+          <lb ed="#P" n="107"/>adaequate vel adjective conjungi possunt, ut .
+          <lb ed="#P" n="108"/>religiosus, nolilis, et similia ; talia etiam sunt
+          <lb ed="#P" n="109"/>illa signa nullus, omnis, quis, qui, et similia.
+          <lb ed="#P" n="110"/>Dico igitur quoties privilegium viris concedi-
+          <pb ed="#P" n="265"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tur sub prioribus nominibus, non 
+          comprehen<lb break="no" ed="#P" n="2"/>dere feminas, nec illis concedi. Tta sumitur ex
+          <lb ed="#P" n="3"/>Rebufft. supra dicente, si privilegium 
+          conce<lb break="no" ed="#P" n="4"/>datur religiosis sub hac additione, Viris 
+          reli<lb break="no" ed="#P" n="5"/>giosis (quahlis habetur in c. Pastoeralis, de 
+          Pri<lb break="no" ed="#P" n="6"/>vil.), non extendi ad moniales. Confirmarique
+          <lb ed="#P" n="7"/>boc potest ex his quae de nomine viri tradit
+          <lb ed="#P" n="8"/>Bart. in l. 1, c. de Dignit., lib. 12, n. M. Idem
+          <lb ed="#P" n="9"/>certius est si privilegium concedatur fliis
+          <lb ed="#P" n="10"/>masculis ; nullo enim modo extenditur ad 
+          fe<lb break="no" ed="#P" n="11"/>minas, etiamsi maxime favorabile sit. Et ratio
+          <lb ed="#P" n="12"/>est. quia hae voces ita significant mares, ut
+          <lb ed="#P" n="13"/>distinguant illos a feminis, et ideo constat ex
+          <lb ed="#P" n="14"/>jure, quando instituuntur seu vocantur 
+          nmas<lb break="no" ed="#P" n="15"/>culi sub hac voce tantum, excludi feminas,
+          <lb ed="#P" n="16"/>ut late supra tradit Rebuff. dicta lege prima,
+          <lb ed="#P" n="17"/>ad verb. Masculos. Addit vero limitationes
+          <lb ed="#P" n="18"/>communes, nisi necessitas cogat aliter 
+          inter<lb break="no" ed="#P" n="19"/>pretari. Sed credo id habere locum in 
+          testa<lb break="no" ed="#P" n="20"/>mentis, quia saepe testatores, vel propter 
+          im<lb break="no" ed="#P" n="21"/>peritiam, vel propter turbationem et memoriae
+          <lb ed="#P" n="22"/>defectum, nominibus improprie utuntur ; raro
+          <lb ed="#P" n="23"/>vero accidere in privilegiis. quae cum majori
+          <lb ed="#P" n="24"/>maturitate conceduntur. Itemfacilius id 
+          admit<lb break="no" ed="#P" n="25"/>terem in nomine viri quam in nomine masculi
+          <lb ed="#P" n="26"/>aut maris. Nam vir interdum videtur 
+          compre<lb break="no" ed="#P" n="27"/>hendere feminas, etiam in communi et vulgari
+          <lb ed="#P" n="28"/>sermone, quando materia id requirit, ut est
+          <lb ed="#P" n="29"/>opiimum exemplum in cap. 1 de Prassump.,
+          <lb ed="#P" n="30"/>quod continet illam sententiam sapientis 
+          Pro<lb break="no" ed="#P" n="31"/>verb. 26: Sicut nowius est qui mittit sagittas
+          <lb ed="#P" n="32"/>et lanceas in mortem, ita vir qui fraudulenter
+          <lb ed="#P" n="33"/>nocet amico suo. Quae sententia etiam in 
+          fe<lb break="no" ed="#P" n="34"/>minas convenit. Et est frequens in Scriptura,
+          <lb ed="#P" n="35"/>ut Psalm. 1: Peatus vir qui non aliit in 
+          con<lb break="no" ed="#P" n="36"/>silio impiorum ; et Psalm. 111: Beatus vir qui
+          <lb ed="#P" n="37"/>tnel Dominumn. Quibus locis videtur pro 
+          ho<lb break="no" ed="#P" n="38"/>mine generatim sumi. Quo modo etiam 
+          vide<lb break="no" ed="#P" n="39"/>tur intelligi c. Licet universi, de Testib. Sed
+          <lb ed="#P" n="40"/>hic usus rarus est, et nisi evidens sit necessitas,
+          <lb ed="#P" n="41"/>ad privilegia non est accommodandus. Multo
+          <lb ed="#P" n="42"/>vero magis vitandus est in nomine masculi,
+          <lb ed="#P" n="43"/>vel aequipollenti, quia nunquam proprie 
+          acci<lb break="no" ed="#P" n="44"/>pitur in communi significatione abstrahente
+          <lb ed="#P" n="45"/>ab utroque sexu.
+        </p>
+        <p xml:id="szdleg-q66079-d1e643">
+          <lb ed="#P" n="46"/>7. Quando nomen est commune duorum, 
+          pri<lb break="no" ed="#P" n="47"/>vilegium, maxime favorabile, concessum sub
+          <lb ed="#P" n="48"/>masculino nomine comprehendit alwm seaum.
+          <lb ed="#P" n="49"/>— At vero quando nomen est commune 
+          duo<lb break="no" ed="#P" n="50"/>rum, tunc habet locum dicta sententia, quod
+          <lb ed="#P" n="51"/>privilegium, praesertim favorabile, concessum
+          <lb ed="#P" n="52"/>sub masculino nomine, comprehendit sexum
+          <lb ed="#P" n="53"/>femininum; et ita privilegia religiosis alicujus
+          <lb ed="#P" n="54"/>ordinis concessa, intelliguntur etiam concedi
+          <lb ed="#P" n="55"/>feminis in his quae possunt ipsis adaptari, ut
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>bene tradit Emman. Roder., tom. 1, q. 13,
+          <lb ed="#P" n="57"/>art. 22. Sic etiam privilegium absolute 
+          con<lb break="no" ed="#P" n="58"/>cessum filis, etiam filiabus est commune, nisi
+          <lb ed="#P" n="59"/>ex alio capite ex supra dictis limitandum sit,
+          <lb ed="#P" n="60"/>quia ex vi vocis filii, nomen commune est
+          <lb ed="#P" n="61"/>filias complectens, ut habetur in l. Justa, 201,
+          <lb ed="#P" n="62"/>ff. de Verb. signific., et sumitur ex l. Filii, et
+          <lb ed="#P" n="63"/>l. Cognoscere, eodem, quatenus in priori 
+          dici<lb break="no" ed="#P" n="64"/>tur filios vocari omnes liberos; in alia vero
+          <lb ed="#P" n="65"/>dicitur liberorum nomine contineri et viros et
+          <lb ed="#P" n="66"/>feminas; et per se constat, quia liberorum
+          <lb ed="#P" n="67"/>nomen tantum habet masculini formam, et
+          <lb ed="#P" n="68"/>non femininam in hac significatione. Ergo
+          <lb ed="#P" n="69"/>etiam in materia privilegiorum quod filiis 
+          ab<lb break="no" ed="#P" n="70"/>solute conceditur, filiabus etiam datur ex vi
+          <lb ed="#P" n="71"/>vocis, si et illis adaptari possit, et aliunde non
+          <lb ed="#P" n="72"/>constet de mente magis restricta. Idem censeo
+          <lb ed="#P" n="73"/>de nomine fratrum; nam quod illis conceditur,
+          <lb ed="#P" n="74"/>debet intelligi concessum sororibus, posita 
+          ca<lb break="no" ed="#P" n="75"/>pacitate, et ablatis aliis impedimentis. Quia
+          <lb ed="#P" n="76"/>nomine fratrum, in communi modo loquendi
+          <lb ed="#P" n="77"/>et Scripturae, et vulgari, et juris, nomen 
+          fra<lb break="no" ed="#P" n="78"/>tris commune est de se, et ideo nomine 
+          fra<lb break="no" ed="#P" n="79"/>trum sorores veniunt, ut sumitur ex dicta l.
+          <lb ed="#P" n="80"/>Lucius, et ex l. Tres fratres, ft. de Pact., et
+          <lb ed="#P" n="81"/>mulia similia exempla de consanguineis, 
+          pro<lb break="no" ed="#P" n="82"/>pinquis, etc., sumi possunt ex Rebuff. in dict.
+          <lb ed="#P" n="83"/>l. 1, et Tiraq., l. 1 de Retract. linag., S 1,
+          <lb ed="#P" n="84"/>Gloss. 9, n. 200 et sequentib.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
